@@ -1,9 +1,9 @@
 
 
 <template>
-    <div class="booster">
-       <Card v-for="card in cards" :card="card" :key="card.multiverseid"></Card>
-    </div>
+  <div class="booster">
+    <Card v-for="card in cards" :card="card" :key="card.multiverseid"></Card>
+  </div>
 </template>
 
 <script>
@@ -15,7 +15,7 @@ export default {
     cards: Array
   },
   components: {
-      Card
+    Card
   },
 }
 
@@ -23,8 +23,8 @@ export default {
 
 <style>
 .booster .card {
-    padding-right: 4px;
-    padding-top: 1px;
+  padding-right: 4px;
+  padding-top: 1px;
 }
 </style>
 

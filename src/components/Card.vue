@@ -1,8 +1,8 @@
 
 <template>
-    <span class="card">
-        <img v-bind:src="card.imageUrl" width=150/>
-    </span>
+  <span class="card">
+    <img v-bind:src="card.imageUrl" width=150/>
+  </span>
 </template>
 
 <script>
@@ -15,8 +15,6 @@ export default {
 </script>
 
 <style>
-.card {
 
-}
 </style>
 
