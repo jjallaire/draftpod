@@ -22,9 +22,11 @@ export default {
 </script>
 
 <style>
-.booster .card {
+.booster .card img {
   padding-right: 4px;
   padding-top: 1px;
+  width: 11.5%;
+  height: auto;
 }
 </style>
 
