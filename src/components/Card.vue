@@ -1,11 +1,12 @@
 
 <template>
   <span class="card">
-    <img v-bind:src="card.imageUrl" />
+    <img :src="card.imageUrl" />
   </span>
 </template>
 
 <script>
+
 export default {
   name: 'Card',
   props: {
@@ -15,6 +16,11 @@ export default {
 </script>
 
 <style>
-
+.card img {
+  padding-right: 3px;
+  padding-top: 1px;
+  width: 11.5%;
+  height: auto;
+}
 </style>
 
