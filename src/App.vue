@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <Booster v-bind:cards="booster.cards"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Booster from './components/Booster.vue'
+import axios from 'axios';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Booster
+  },
+
+  created() {
+    
+    axios.get('https://api.magicthegathering.io/v1/sets/GRN/booster')
+      .then(response => {
+          this.booster = response.data
+      });
+  },
+
+  data() {
+    return {
+      booster: {
+        cards: []
+      }
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
