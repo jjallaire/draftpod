@@ -7,6 +7,7 @@
 </template>
 
 <script>
+
 import Card from './Card.vue';
 
 export default {
@@ -25,7 +26,7 @@ export default {
 .deck {
   margin-top: 10px;
   padding-top: 10px;
-  min-height: 200px;
+  min-height: 400px;
   border-top: 1px solid;
 }
 </style>
