@@ -1,14 +1,11 @@
 
 
-<template>
-  <div class="deck">
-    <Card v-for="card in cards" :card="card" :key="card.key"></Card>
-  </div>
-</template>
-
 <script>
 
 import Card from './Card.vue';
+import { Drop } from 'vue-drag-drop';
+
+import { PICK_CARD } from '../store/actions';
 
 export default {
   name: 'Deck',
@@ -16,11 +13,26 @@ export default {
     cards: Array
   },
   components: {
-    Card
+    Card, Drop
+  },
+  methods: {
+    handleDrop(data) {
+      if (data) {
+        if (data.drag_source === "booster")
+          this.$store.dispatch(PICK_CARD, data.card);
+      }
+    }
   },
 }
 
 </script>
+
+<template>
+  <Drop class="deck" @drop="handleDrop(...arguments)">
+    <Card v-for="card in cards" :card="card" :key="card.key"></Card>
+  </Drop>
+</template>
+
 
 <style>
 .deck {

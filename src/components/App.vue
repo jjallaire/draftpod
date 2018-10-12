@@ -1,24 +1,21 @@
 <template>
   <div class="app">
     <Booster :cards="booster"/>
-    <Drop @drop="handleDrop(...arguments)">
-      <Deck :cards="deck"/>
-    </Drop>
+    <Deck :cards="deck"/>
   </div>
 </template>
 
 <script>
 import Deck from './Deck.vue';
 import Booster from './Booster.vue';
-import { GENERATE_BOOSTER, PICK_CARD } from '../store/actions';
+import { GENERATE_BOOSTER } from '../store/actions';
 import { mapState } from 'vuex';
-import { Drop } from 'vue-drag-drop';
 
 export default {
   name: 'app',
 
   components: {
-    Booster, Deck, Drop
+    Booster, Deck
   },
 
   created() {
@@ -29,15 +26,6 @@ export default {
     'booster',
     'deck'
   ]),
-
-  methods: {
-    handleDrop(data) {
-      if (data) {
-        if (data.drag_source === "booster")
-          this.$store.dispatch(PICK_CARD, data.card);
-      }
-    }
-  },
 }
 </script>
 
