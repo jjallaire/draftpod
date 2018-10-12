@@ -10,8 +10,7 @@ Vue.use(Vuex)
 const debug = process.env.NODE_ENV !== 'production'
 
 
-
-export default new Vuex.Store({
+const store = new Vuex.Store({
   state: {
     booster: [],
     deck: []
@@ -24,5 +23,22 @@ export default new Vuex.Store({
   mutations,
   strict: debug,
 });
+
+export default store;
+
+if (module.hot) {
+  // accept actions and mutations as hot modules
+  module.hot.accept(['./mutations', './actions'], () => {
+    // require the updated modules
+    // have to add .default here due to babel 6 module output
+    const newMutations = require('./mutations').default
+    const newActions = require('./actions').default
+    // swap in the new actions and mutations
+    store.hotUpdate({
+      mutations: newMutations,
+      actions: newActions
+    });
+  })
+}
 
 

@@ -8,7 +8,8 @@
 <script>
 import Deck from './Deck.vue';
 import Booster from './Booster.vue';
-import { GENERATE_BOOSTER } from '../store/actions';
+import { BEGIN_DRAFT } from '../store/actions';
+
 import { mapState } from 'vuex';
 import { mapActions } from 'vuex';
 
@@ -20,7 +21,7 @@ export default {
   },
 
   created() {
-    this.generateBooster();
+    this.beginDraft();
   },
 
   computed: mapState([
@@ -30,7 +31,7 @@ export default {
 
   methods: {
     ...mapActions({
-      generateBooster: GENERATE_BOOSTER
+      beginDraft: BEGIN_DRAFT
     })
   }
 }

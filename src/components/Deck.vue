@@ -2,7 +2,7 @@
 
 <template>
   <Drop class="deck" @drop="handleDrop(...arguments)" @dragover="handleDragover(...arguments)">
-    <Card v-for="card in cards" :card="card" :key="card.key"></Card>
+    <Pile :cards="cards"></Pile>
   </Drop>
 </template>
 
@@ -13,6 +13,7 @@ import { mapActions } from 'vuex';
 import { Drop } from 'vue-drag-drop';
 
 import Card from './Card.vue';
+import Pile from './Pile.vue';
 
 import { DRAG_SOURCE_BOOSTER } from './constants';
 import { PICK_CARD } from '../store/actions';
@@ -23,7 +24,7 @@ export default {
     cards: Array
   },
   components: {
-    Card, Drop
+    Card, Drop, Pile
   },
   methods: {
     handleDragover(data, event) {
