@@ -32,8 +32,10 @@ export default {
 
   methods: {
     handleDrop(data) {
-      if (data)
-        this.$store.dispatch(PICK_CARD, data);
+      if (data) {
+        if (data.drag_source === "booster")
+          this.$store.dispatch(PICK_CARD, data.card);
+      }
     }
   },
 }

@@ -16,7 +16,7 @@ export default {
 
 <template>
   <div class="booster">
-    <Card v-for="card in cards" :key="card.key" :card="card" :draggable="true"></Card>
+    <Card v-for="card in cards" :key="card.key" :card="card" drag_source="booster"></Card>
   </div>
 </template>
 

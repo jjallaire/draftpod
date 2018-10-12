@@ -6,9 +6,9 @@ export default {
   name: 'Card',
   props: {
     card: Object,
-    draggable: {
-      type: Boolean,
-      default: false
+    drag_source: {
+      type: String,
+      default: null
     }
   },
   components: {
@@ -18,7 +18,8 @@ export default {
 </script>
 
 <template>
-  <Drag v-if="draggable" tag="span" class="draggable card" :transfer-data="card" :key="card.key">
+  <Drag v-if="drag_source" tag="span" class="draggable card" 
+        :transfer-data="{drag_source, card}" :key="card.key">
      <img :src="card.imageUrl" />
   </Drag>
   <span v-else class="card">

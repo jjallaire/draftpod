@@ -11,7 +11,6 @@ export const mutations = {
   },
   
   [ADD_CARD_TO_DECK](state, card) {
-    console.log(card);
     state.booster.splice(state.booster.indexOf(card), 1);
     state.deck.push(card);
   }
