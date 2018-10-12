@@ -13,11 +13,16 @@ const debug = process.env.NODE_ENV !== 'production'
 const store = new Vuex.Store({
   state: {
     booster: [],
-    deck: []
+    deck: {
+      piles: [...Array(7)].map(() => Array()),
+      sideboard: []
+    }
   },
   getters: {
-    booster: state => state.booster,
-    deck: state => state.deck
+    booster: (state) => state.booster,
+    num_piles: (state) => state.deck.piles.length,
+    pile: (state) => (index) => state.deck.piles[index],
+    sideboard: (state) => state.deck.sideboard,
   },
   actions,
   mutations,

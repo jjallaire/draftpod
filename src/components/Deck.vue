@@ -2,7 +2,7 @@
 
 <template>
   <div class="deck">
-    <Pile :cards="cards"></Pile>
+    <Pile :pile_index=0></Pile>
   </div>
 </template>
 

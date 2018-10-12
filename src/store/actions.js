@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-import { CLEAR_ALL, SET_BOOSTER, ADD_CARD_TO_DECK } from './mutations';
+import { SET_BOOSTER, ADD_CARD_TO_DECK } from './mutations';
 
 export const BEGIN_DRAFT = 'BEGIN_DRAFT';
 export const PICK_CARD = 'PICK_CARD';
@@ -10,8 +10,6 @@ export const PICK_CARD = 'PICK_CARD';
 export default {
 
   [BEGIN_DRAFT](context) {
-
-    context.commit(CLEAR_ALL);
 
     axios.get('https://api.magicthegathering.io/v1/sets/GRN/booster')
       .then(response => {
@@ -24,8 +22,8 @@ export default {
       });
   },
 
-  [PICK_CARD](context, card) {
-    context.commit(ADD_CARD_TO_DECK, card);
+  [PICK_CARD](context, { card, pile }) {
+    context.commit(ADD_CARD_TO_DECK, { card, pile });
   }
 };
 
