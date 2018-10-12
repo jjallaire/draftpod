@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import Deck from './components/Deck.vue';
-import Booster from './components/Booster.vue';
-import { GENERATE_BOOSTER, PICK_CARD } from './store/actions';
+import Deck from './Deck.vue';
+import Booster from './Booster.vue';
+import { GENERATE_BOOSTER, PICK_CARD } from '../store/actions';
 import { mapState } from 'vuex';
 import { Drop } from 'vue-drag-drop';
 
