@@ -3,6 +3,12 @@
 <template>
   <div class="deck">
     <Pile :pile_index=0></Pile>
+    <Pile :pile_index=1></Pile>
+    <Pile :pile_index=2></Pile>
+    <Pile :pile_index=3></Pile>
+    <Pile :pile_index=4></Pile>
+    <Pile :pile_index=5></Pile>
+    <Pile :pile_index=6></Pile>
   </div>
 </template>
 
@@ -13,9 +19,6 @@ import Pile from './Pile.vue';
 
 export default {
   name: 'Deck',
-  props: {
-    cards: Array
-  },
   components: {
     Pile
   },

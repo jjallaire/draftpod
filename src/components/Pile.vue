@@ -60,9 +60,11 @@ export default {
 
 <style>
 .pile {
+  display: inline-block;
   position: relative;
   width: 11.5%;
   min-height: 400px;
+  margin-right: 4px;
 }
 .pile .card {
   position: absolute;
