@@ -10,6 +10,7 @@
 <script>
 import Deck from './components/Deck.vue';
 import Booster from './components/Booster.vue';
+import { GENERATE_BOOSTER, PICK_CARD } from './store/actions';
 import { mapState } from 'vuex';
 import { Drop } from 'vue-drag-drop';
 
@@ -21,7 +22,7 @@ export default {
   },
 
   created() {
-    this.$store.dispatch('generateBooster');
+    this.$store.dispatch(GENERATE_BOOSTER);
   },
 
   computed: mapState([
@@ -31,7 +32,7 @@ export default {
 
   methods: {
     handleDrop(data) {
-      this.$store.dispatch('pickCard', data);
+      this.$store.dispatch(PICK_CARD, data);
     }
   },
 }
