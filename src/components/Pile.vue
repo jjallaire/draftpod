@@ -37,8 +37,8 @@ export default {
   position: absolute;
   max-width: 100%;
 }
-
 .pile .card img {
   max-width: 100%;
+  height: auto;
 }
 </style>

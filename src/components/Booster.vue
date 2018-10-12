@@ -28,6 +28,9 @@ export default {
 </script>
 
 <style>
-
+.booster .card img {
+  width: 11.5%;
+  height: auto;
+}
 </style>
 

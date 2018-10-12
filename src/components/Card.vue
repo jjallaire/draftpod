@@ -28,11 +28,6 @@ export default {
 </script>
 
 <style>
-.booster .card img {
-  width: 11.5%;
-  height: auto;
-}
-
 .draggable {
   cursor: move; /* fallback if grab cursor is unsupported */
   cursor: grab;
