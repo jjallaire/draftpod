@@ -1,5 +1,12 @@
 
 
+<template>
+  <Drop class="deck" @drop="handleDrop(...arguments)">
+    <Card v-for="card in cards" :card="card" :key="card.key"></Card>
+  </Drop>
+</template>
+
+
 <script>
 
 import Card from './Card.vue';
@@ -26,13 +33,6 @@ export default {
 }
 
 </script>
-
-<template>
-  <Drop class="deck" @drop="handleDrop(...arguments)">
-    <Card v-for="card in cards" :card="card" :key="card.key"></Card>
-  </Drop>
-</template>
-
 
 <style>
 .deck {

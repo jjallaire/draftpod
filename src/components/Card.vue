@@ -1,4 +1,14 @@
 
+<template>
+  <Drag v-if="drag_source" tag="span" class="draggable card" 
+        :transfer-data="{drag_source, card}" :key="card.key">
+     <img :src="card.imageUrl" />
+  </Drag>
+  <span v-else class="card">
+    <img :src="card.imageUrl" />
+  </span>
+</template>
+
 <script>
 import { Drag } from 'vue-drag-drop';
 
@@ -16,16 +26,6 @@ export default {
   }
 }
 </script>
-
-<template>
-  <Drag v-if="drag_source" tag="span" class="draggable card" 
-        :transfer-data="{drag_source, card}" :key="card.key">
-     <img :src="card.imageUrl" />
-  </Drag>
-  <span v-else class="card">
-    <img :src="card.imageUrl" />
-  </span>
-</template>
 
 <style>
 .card img {
