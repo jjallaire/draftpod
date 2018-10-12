@@ -3,7 +3,7 @@
 
 <div class="pile">
   <Card v-for="(card, index) in cards" :card="card" :key="card.key"
-        v-bind:style="{left: 0, top: ((index+1)*15) + 'px'}">
+        v-bind:style="{left: 0, marginTop: ((index)*16) + '%'}">
   </Card>
 </div>
 
