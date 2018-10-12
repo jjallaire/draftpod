@@ -32,7 +32,8 @@ export default {
 
   methods: {
     handleDrop(data) {
-      this.$store.dispatch(PICK_CARD, data);
+      if (data)
+        this.$store.dispatch(PICK_CARD, data);
     }
   },
 }
