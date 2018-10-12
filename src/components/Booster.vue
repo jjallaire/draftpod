@@ -11,17 +11,15 @@
 
 <script>
 import Card from './Card.vue';
-import { DragSources } from './constants'
+import { DRAG_SOURCE_BOOSTER } from './constants'
 
 export default {
   name: 'Booster',
-  data() {
-    return {
-      drag_source: DragSources.Booster
-    }
-  },
   props: {
     cards: Array
+  },
+  computed: {
+    drag_source: () => DRAG_SOURCE_BOOSTER
   },
   components: {
     Card

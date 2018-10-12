@@ -11,9 +11,9 @@
 
 import Card from './Card.vue';
 import { Drop } from 'vue-drag-drop';
-import { DragSources } from './constants';
+import { DRAG_SOURCE_BOOSTER } from './constants';
 
-import { PICK_CARD } from '../store/action-types';
+import { PICK_CARD } from '../store/actions';
 
 export default {
   name: 'Deck',
@@ -26,7 +26,7 @@ export default {
   methods: {
     handleDrop(data) {
       if (data) {
-        if (data.drag_source === DragSources.Booster)
+        if (data.drag_source === DRAG_SOURCE_BOOSTER)
           this.$store.dispatch(PICK_CARD, data.card);
       }
     }

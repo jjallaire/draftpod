@@ -8,7 +8,7 @@
 <script>
 import Deck from './Deck.vue';
 import Booster from './Booster.vue';
-import { GENERATE_BOOSTER } from '../store/action-types';
+import { GENERATE_BOOSTER } from '../store/actions';
 import { mapState } from 'vuex';
 
 export default {

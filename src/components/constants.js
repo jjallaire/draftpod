@@ -1,6 +1,5 @@
 
 
-export const DragSources = Object.freeze({
-  Booster: "Booster"
-});
+
+export const DRAG_SOURCE_BOOSTER = "DRAG_SOURCE_BOOSTER"
 

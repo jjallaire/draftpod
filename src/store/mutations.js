@@ -1,8 +1,10 @@
 
 
-import { SET_BOOSTER, ADD_CARD_TO_DECK } from './mutation-types'
 
-export const mutations = {
+export const SET_BOOSTER = 'SET_BOOSTER'
+export const ADD_CARD_TO_DECK = 'ADD_CARD_TO_DECK'
+
+export default {
 
   [SET_BOOSTER](state, cards) {
     state.booster = cards;
