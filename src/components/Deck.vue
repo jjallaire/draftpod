@@ -1,7 +1,7 @@
 
 
 <template>
-  <Drop class="deck" @drop="handleDrop(...arguments)">
+  <Drop class="deck" @drop="handleDrop(...arguments)" @dragover="handleDragover(...arguments)">
     <Card v-for="card in cards" :card="card" :key="card.key"></Card>
   </Drop>
 </template>
@@ -9,10 +9,12 @@
 
 <script>
 
-import Card from './Card.vue';
+import { mapActions } from 'vuex';
 import { Drop } from 'vue-drag-drop';
-import { DRAG_SOURCE_BOOSTER } from './constants';
 
+import Card from './Card.vue';
+
+import { DRAG_SOURCE_BOOSTER } from './constants';
 import { PICK_CARD } from '../store/actions';
 
 export default {
@@ -24,12 +26,18 @@ export default {
     Card, Drop
   },
   methods: {
+    handleDragover(data, event) {
+			if (!data || data.drag_source !== DRAG_SOURCE_BOOSTER) {
+				event.dataTransfer.dropEffect = 'none';
+			}
+    },
     handleDrop(data) {
-      if (data) {
-        if (data.drag_source === DRAG_SOURCE_BOOSTER)
-          this.$store.dispatch(PICK_CARD, data.card);
-      }
-    }
+      if (data.drag_source === DRAG_SOURCE_BOOSTER)
+        this.pickCard(data.card);
+    },
+    ...mapActions({
+      pickCard: PICK_CARD
+    })
   },
 }
 

@@ -10,6 +10,7 @@ import Deck from './Deck.vue';
 import Booster from './Booster.vue';
 import { GENERATE_BOOSTER } from '../store/actions';
 import { mapState } from 'vuex';
+import { mapActions } from 'vuex';
 
 export default {
   name: 'app',
@@ -19,13 +20,19 @@ export default {
   },
 
   created() {
-    this.$store.dispatch(GENERATE_BOOSTER);
+    this.generateBooster();
   },
 
   computed: mapState([
     'booster',
     'deck'
   ]),
+
+  methods: {
+    ...mapActions({
+      generateBooster: GENERATE_BOOSTER
+    })
+  }
 }
 </script>
 
