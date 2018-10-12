@@ -2,10 +2,8 @@
 
 import axios from 'axios';
 
-import { SET_BOOSTER, ADD_CARD_TO_DECK } from './mutations';
-
-export const GENERATE_BOOSTER = 'GENERATE_BOOSTER';
-export const PICK_CARD = 'PICK_CARD';
+import { GENERATE_BOOSTER, PICK_CARD } from './action-types';
+import { SET_BOOSTER, ADD_CARD_TO_DECK } from './mutation-types';
 
 export const actions = {
 
