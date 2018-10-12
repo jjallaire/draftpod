@@ -20,7 +20,7 @@ const store = new Vuex.Store({
   },
   getters: {
     booster: (state) => state.booster,
-    num_piles: (state) => state.deck.piles.length,
+    piles: (state) => state.deck.piles,
     pile: (state) => (index) => state.deck.piles[index],
     sideboard: (state) => state.deck.sideboard,
   },
