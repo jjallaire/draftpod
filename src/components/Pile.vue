@@ -1,16 +1,22 @@
 
 <template>
 
-<div class="pile">
+<Drop class="pile" @drop="handleDrop(...arguments)" @dragover="handleDragover(...arguments)">
   <Card v-for="(card, index) in cards" :card="card" :key="card.key"
         v-bind:style="{left: 0, marginTop: ((index)*16) + '%'}">
   </Card>
-</div>
+</Drop>
 
 </template>
 
 
 <script>
+
+import { mapActions } from 'vuex';
+import { Drop } from 'vue-drag-drop';
+
+import { DRAG_SOURCE_BOOSTER } from './constants';
+import { PICK_CARD } from '../store/actions';
 
 import Card from './Card.vue';
 
@@ -22,7 +28,21 @@ export default {
     }
   },
   components: {
-    Card
+    Card, Drop
+  },
+  methods: {
+    handleDragover(data, event) {
+			if (!data || data.drag_source !== DRAG_SOURCE_BOOSTER) {
+				event.dataTransfer.dropEffect = 'none';
+			}
+    },
+    handleDrop(data) {
+      if (data.drag_source === DRAG_SOURCE_BOOSTER)
+        this.pickCard(data.card);
+    },
+    ...mapActions({
+      pickCard: PICK_CARD
+    })
   }
 };
 
@@ -32,6 +52,7 @@ export default {
 .pile {
   position: relative;
   width: 11.5%;
+  min-height: 400px;
 }
 .pile .card {
   position: absolute;
