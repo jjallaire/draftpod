@@ -2,7 +2,7 @@
 
 <template>
   <div class="deck">
-    <Pile v-for="index in 7" :key="index" :pile_index=index></Pile>
+    <Pile v-for="number in 7" :key="number" :number=number></Pile>
   </div>
 </template>
 

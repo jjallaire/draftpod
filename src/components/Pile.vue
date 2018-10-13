@@ -2,7 +2,7 @@
 <template>
 
 <Drop class="pile" @drop="handleDrop(...arguments)" @dragover="handleDragover(...arguments)">
-  <Card v-for="(card, index) in piles[pile_index]" :card="card" :key="card.key"
+  <Card v-for="(card, index) in piles[number]" :card="card" :key="card.key"
         v-bind:style="{marginTop: ((index)*16) + '%'}">
   </Card>
 </Drop>
@@ -23,13 +23,9 @@ import Card from './Card.vue';
 
 export default {
   props: {
-    pile_index: {
+    number: {
       type: Number,
       required: true
-    },
-    cards: {
-      type: Array,
-      default: () => []
     }
   },
   computed: {
@@ -48,7 +44,7 @@ export default {
     },
     handleDrop(data) {
       if (data.drag_source === DRAG_SOURCE_BOOSTER)
-        this.pickCard({ card: data.card, pile: this.pile_index});
+        this.pickCard({ card: data.card, pile: this.number});
     },
     ...mapActions({
       pickCard: PICK_CARD
