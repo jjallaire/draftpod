@@ -14,15 +14,12 @@ const store = new Vuex.Store({
   state: {
     booster: [],
     deck: {
-      piles: [...Array(7)].map(() => Array()),
-      sideboard: []
+      piles: [...Array(8)].map(() => Array())
     }
   },
   getters: {
     booster: (state) => state.booster,
-    piles: (state) => state.deck.piles,
-    pile: (state) => (index) => state.deck.piles[index],
-    sideboard: (state) => state.deck.sideboard,
+    piles: (state) => state.deck.piles
   },
   actions,
   mutations,

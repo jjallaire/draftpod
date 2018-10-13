@@ -2,7 +2,7 @@
 <template>
 
 <Drop class="pile" @drop="handleDrop(...arguments)" @dragover="handleDragover(...arguments)">
-  <Card v-for="(card, index) in pile(pile_index)" :card="card" :key="card.key"
+  <Card v-for="(card, index) in piles[pile_index]" :card="card" :key="card.key"
         v-bind:style="{marginTop: ((index)*16) + '%'}">
   </Card>
 </Drop>
@@ -34,7 +34,7 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'pile'
+      'piles'
     ])
   },
   components: {
