@@ -2,4 +2,5 @@
 
 
 export const DRAG_SOURCE_BOOSTER = "DRAG_SOURCE_BOOSTER"
+export const DRAG_SOURCE_PILE = "DRAG_SOURCE_PILE"
 
