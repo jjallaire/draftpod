@@ -18,10 +18,7 @@ export default {
     state.booster.splice(state.booster.indexOf(card), 1);
     
     // add to pile
-    if (insertBefore !== null)
-      state.deck.piles[pileNumber].splice(insertBefore, 0, card);
-    else
-      state.deck.piles[pileNumber].push(card);
+    addCardToPile(state.deck.piles[pileNumber], card, insertBefore);
   },
 
   [MOVE_CARD_TO_PILE](state, {card, pileNumber, insertBefore}) {
@@ -41,6 +38,8 @@ export default {
         if (pile !== targetPile) {
           pile.splice(index, 1);
         
+
+
         // otherwise if it came from the same pile then insert 
         // a temporary clone which will remove after the add
         // (this is so we can use any passed insertBefore value
@@ -53,17 +52,21 @@ export default {
     });    
 
     // add to new pile
-    if (insertBefore !== null)
-      targetPile.splice(insertBefore, 0, card);
-    else
-      targetPile.push(card);
+    addCardToPile(targetPile, card, insertBefore);
 
     // remove insertPlaceholder if we had one
     if (insertPlaceholder)
       targetPile.splice(targetPile.indexOf(insertPlaceholder), 1);
 
-  }
+  },
 };
+
+function addCardToPile(pile, card, insertBefore) {
+  if (insertBefore !== null)
+    pile.splice(insertBefore, 0, card);
+  else
+    pile.push(card);
+}
 
 
 
