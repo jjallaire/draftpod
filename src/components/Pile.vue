@@ -40,11 +40,19 @@ export default {
   },
   methods: {
     handleDragover(data, event) {
+      // reject if not one of our drag sources
       if (!data || !data.drag_source) {
-				event.dataTransfer.dropEffect = 'none';
-			}
+        event.dataTransfer.dropEffect = 'none';
+        return;
+      }
+
+      // draw line indicating where the card will be placed
+      let cursorOffset = data.cursorOffset;
+      let cardTop = event.clientY - cursorOffset.y;
     },
     handleDrop(data) {
+      
+      
       let payload = { card: data.card, pile: this.number};
       if (data.drag_source === DRAG_SOURCE_BOOSTER)
         this.pickCard(payload);
