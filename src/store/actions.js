@@ -23,12 +23,12 @@ export default {
       });
   },
 
-  [PICK_CARD](context, { card, pile }) {
-    context.commit(ADD_CARD_TO_DECK, { card, pile });
+  [PICK_CARD](context, payload) {
+    context.commit(ADD_CARD_TO_DECK, payload);
   },
 
-  [MOVE_CARD](context, { card, pile }) {
-    context.commit(MOVE_CARD_TO_PILE, {card, pile});
+  [MOVE_CARD](context, payload) {
+    context.commit(MOVE_CARD_TO_PILE, payload);
   }
 };
 

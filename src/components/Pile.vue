@@ -39,21 +39,28 @@ export default {
     Card, Drop
   },
   methods: {
+
     handleDragover(data, event) {
       // reject if not one of our drag sources
       if (!data || !data.drag_source) {
         event.dataTransfer.dropEffect = 'none';
         return;
       }
-
-      // draw line indicating where the card will be placed
-      let cursorOffset = data.cursorOffset;
-      let cardTop = event.clientY - cursorOffset.y;
     },
-    handleDrop(data) {
+
+    handleDrop(data, event) {
+
+      // check for insert location
+      let insertLoc = cardInsertLocation(data, event);
       
-      
-      let payload = { card: data.card, pile: this.number};
+      // payload for event
+      let payload = { 
+        card: data.card, 
+        pileNumber: this.number, 
+        insertBefore: insertLoc.insertBefore
+      };
+
+      // fire event
       if (data.drag_source === DRAG_SOURCE_BOOSTER)
         this.pickCard(payload);
       else if (data.drag_source === DRAG_SOURCE_PILE)
@@ -63,9 +70,35 @@ export default {
     ...mapActions({
       pickCard: PICK_CARD,
       moveCard: MOVE_CARD
-    })
+    }),
+
   }
 };
+
+// compute insert location for a card
+function cardInsertLocation(data, event) { 
+
+  const pileElement = event.currentTarget;
+  const pileBoundingRect = pileElement.getBoundingClientRect();
+  const cursorOffset = data.cursorOffset;
+  const dragCardTop = event.clientY - cursorOffset.y - pileBoundingRect.top;
+
+  let insertLocation = {
+    insertBefore: null,
+    feedbackAt: null
+  };
+  const cards = pileElement.getElementsByClassName("card");
+  for (let i = 0; i<cards.length; i++) {
+    let cardTop = cards.item(i).getBoundingClientRect().top - pileBoundingRect.top;
+    if (cardTop > dragCardTop) {
+      insertLocation.insertBefore = i;
+      insertLocation.feedbackAt = cardTop;
+      break;
+    }
+  }
+
+  return insertLocation;
+}
 
 </script>
 
