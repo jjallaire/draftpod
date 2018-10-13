@@ -2,13 +2,7 @@
 
 <template>
   <div class="deck">
-    <Pile :pile_index=0></Pile>
-    <Pile :pile_index=1></Pile>
-    <Pile :pile_index=2></Pile>
-    <Pile :pile_index=3></Pile>
-    <Pile :pile_index=4></Pile>
-    <Pile :pile_index=5></Pile>
-    <Pile :pile_index=6></Pile>
+    <Pile v-for="index in 7" :key="index" :pile_index=index></Pile>
   </div>
 </template>
 
