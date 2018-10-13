@@ -3,7 +3,7 @@
 
 <Drop class="pile" @drop="handleDrop(...arguments)" @dragover="handleDragover(...arguments)">
   <Card v-for="(card, index) in pile(pile_index)" :card="card" :key="card.key"
-        v-bind:style="{left: 0, marginTop: ((index)*16) + '%'}">
+        v-bind:style="{marginTop: ((index)*16) + '%'}">
   </Card>
 </Drop>
 
@@ -68,6 +68,7 @@ export default {
 }
 .pile .card {
   position: absolute;
+  left: 0;
   max-width: 100%;
 }
 .pile .card img {
