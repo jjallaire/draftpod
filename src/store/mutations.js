@@ -24,19 +24,24 @@ export default {
     // alias target pile
     let targetPile = state.deck.piles[pileNumber];
 
-    // move/relocate in existing pile if necessary
+    // remove from existing pile if necessary (if it came from a
+    // booster then we won't need to do this)
     state.deck.piles.forEach(function(pile) {
+      
       let index = pile.indexOf(card);
       if (index !== -1) {
 
         // remove the card
         pile.splice(index, 1);
         
-        // if there is an insertBefore and it's gt the index 
-        // then subtract 1 from the index to relfect the 
-        // removed card
-        if (insertBefore !== null && insertBefore > index)
-          insertBefore--;
+        // if this is a re-order within the same pile then
+        // we may need to offset the insertBefore index to 
+        // reflect the removed card. 
+        if (pile === targetPile && 
+            insertBefore !== null && 
+            insertBefore > index) {
+          insertBefore = insertBefore - 1;
+        }
       }
     });    
 
