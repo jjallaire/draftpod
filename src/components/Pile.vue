@@ -9,7 +9,7 @@
         :drag_source="drag_source"
         v-bind:style="{marginTop: ((index)*16) + '%'}">
   </Card>
-  <div class="drag-insert" v-bind:style="dragInsertStyle"></div>
+  <div class="drag-insert" v-bind:style="styles.dragInsert"></div>
 </Drop>
 
 </template>
@@ -41,10 +41,12 @@ export default {
   },
   data: function() {
     return {
-      dragInsertStyle: {
-        marginTop: "0",
-        display: "none"
-      }
+      styles: {
+        dragInsert: {
+          marginTop: "0",
+          display: "none"
+        },
+      },
     }
   },
   components: {
@@ -100,12 +102,12 @@ export default {
     }),
 
     provideDragFeedback: function(location) {
-      this.dragInsertStyle.display = "block";
-      this.dragInsertStyle.marginTop = location + "px";
+      this.styles.dragInsert.display = "block";
+      this.styles.dragInsert.marginTop = location + "px";
     },
 
     clearDragFeedback: function() {
-      this.dragInsertStyle.display = "none";
+      this.styles.dragInsert.display = "none";
     }
 
   },
