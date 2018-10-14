@@ -42,7 +42,7 @@ export default {
   data: function() {
     return {
       dragInsertStyle: {
-        top: 0,
+        marginTop: "0",
         display: "none"
       }
     }
@@ -62,12 +62,10 @@ export default {
 
       // see if we need to provider insert feedback
       let insertLoc = cardInsertLocation(data, event);
-      if (insertLoc.feedbackAt !== null) {
-        this.dragInsertStyle.display = "block";
-        this.dragInsertStyle.top = insertLoc.feedbackAt;
-      } else {
+      if (insertLoc.feedbackAt !== null)
+        this.provideDragFeedback(insertLoc.feedbackAt);
+      else
         this.clearDragFeedback();
-      }
     },
 
     handleDragleave() {
@@ -100,6 +98,11 @@ export default {
       pickCard: PICK_CARD,
       moveCard: MOVE_CARD
     }),
+
+    provideDragFeedback: function(location) {
+      this.dragInsertStyle.display = "block";
+      this.dragInsertStyle.marginTop = location + "px";
+    },
 
     clearDragFeedback: function() {
       this.dragInsertStyle.display = "none";
