@@ -1,7 +1,5 @@
 
 
-import Vue from 'vue'
-
 export const SET_BOOSTER = 'SET_BOOSTER'
 export const ADD_CARD_TO_DECK = 'ADD_CARD_TO_DECK'
 export const MOVE_CARD_TO_PILE = 'MOVE_CARD_TO_PILE'
@@ -26,38 +24,24 @@ export default {
     // alias target pile
     let targetPile = state.deck.piles[pileNumber];
 
-    // update source location (if the source pile is the same
-    // as the destination pile then we insert a clone which
-    // we then delete after the update
-    let insertPlaceholder = null;
+    // move/relocate in existing pile if necessary
     state.deck.piles.forEach(function(pile) {
       let index = pile.indexOf(card);
       if (index !== -1) {
 
-        // if this came from a different pile then remove the card
-        if (pile !== targetPile) {
-          pile.splice(index, 1);
+        // remove the card
+        pile.splice(index, 1);
         
-
-
-        // otherwise if it came from the same pile then insert 
-        // a temporary clone which will remove after the add
-        // (this is so we can use any passed insertBefore value
-        // and have the indexes line up)
-        } else {
-          insertPlaceholder = Object.assign({}, card);
-          Vue.set(pile, index, insertPlaceholder);
-        }
+        // if there is an insertBefore and it's gt the index 
+        // then subtract 1 from the index to relfect the 
+        // removed card
+        if (insertBefore !== null && insertBefore > index)
+          insertBefore--;
       }
     });    
 
     // add to new pile
     addCardToPile(targetPile, card, insertBefore);
-
-    // remove insertPlaceholder if we had one
-    if (insertPlaceholder)
-      targetPile.splice(targetPile.indexOf(insertPlaceholder), 1);
-
   },
 };
 
