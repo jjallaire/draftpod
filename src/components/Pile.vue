@@ -1,11 +1,15 @@
 
 <template>
 
-<Drop class="pile" @drop="handleDrop(...arguments)" @dragover="handleDragover(...arguments)">
+<Drop class="pile" 
+      @drop="handleDrop(...arguments)" 
+      @dragover="handleDragover(...arguments)"
+      @dragleave="handleDragleave(...arguments)">
   <Card v-for="(card, index) in piles[number]" :card="card" :key="card.key"
         :drag_source="drag_source"
         v-bind:style="{marginTop: ((index)*16) + '%'}">
   </Card>
+  <div class="drag-insert" v-bind:style="dragInsertStyle"></div>
 </Drop>
 
 </template>
@@ -35,20 +39,45 @@ export default {
       'piles'
     ]),
   },
+  data: function() {
+    return {
+      dragInsertStyle: {
+        top: 0,
+        display: "none"
+      }
+    }
+  },
   components: {
     Card, Drop
   },
   methods: {
 
     handleDragover(data, event) {
+      
       // reject if not one of our drag sources
       if (!data || !data.drag_source) {
         event.dataTransfer.dropEffect = 'none';
         return;
       }
+
+      // see if we need to provider insert feedback
+      let insertLoc = cardInsertLocation(data, event);
+      if (insertLoc.feedbackAt !== null) {
+        this.dragInsertStyle.display = "block";
+        this.dragInsertStyle.top = insertLoc.feedbackAt;
+      } else {
+        this.clearDragFeedback();
+      }
+    },
+
+    handleDragleave() {
+      this.clearDragFeedback();
     },
 
     handleDrop(data, event) {
+
+      // remove feedback
+      this.clearDragFeedback();
 
       // check for insert location
       let insertLoc = cardInsertLocation(data, event);
@@ -72,7 +101,12 @@ export default {
       moveCard: MOVE_CARD
     }),
 
-  }
+    clearDragFeedback: function() {
+      this.dragInsertStyle.display = "none";
+    }
+
+  },
+
 };
 
 // compute insert location for a card
@@ -118,5 +152,10 @@ function cardInsertLocation(data, event) {
 .pile .card img {
   max-width: 100%;
   height: auto;
+}
+.pile .drag-insert {
+  border-top: 1px solid red;
+  position: absolute;
+  width: 100%;
 }
 </style>
