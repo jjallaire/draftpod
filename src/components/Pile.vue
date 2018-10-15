@@ -159,8 +159,10 @@ function cardInsertLocation(data, event) {
   height: auto;
 }
 .pile .drag-insert {
-  border-top: 1px solid red;
+  border-top: 3px groove #f2f2f2;
   position: absolute;
   width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 </style>
