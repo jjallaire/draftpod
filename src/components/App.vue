@@ -1,7 +1,7 @@
 <template>
   <div class="app">
-    <Pack/>
-    <Deck/>
+    <Pack :player="0"/>
+    <Deck :player="0"/>
   </div>
 </template>
 

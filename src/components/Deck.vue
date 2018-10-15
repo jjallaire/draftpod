@@ -2,7 +2,7 @@
 
 <template>
   <div class="deck">
-    <Pile v-for="number in 7" :key="number" :number=number></Pile>
+    <Pile :player="player" v-for="number in 7" :key="number" :number=number></Pile>
   </div>
 </template>
 
@@ -13,6 +13,12 @@ import Pile from './Pile.vue';
 
 export default {
   name: 'Deck',
+  props: {
+    player: {
+      type: Number,
+      required: true
+    }
+  },
   components: {
     Pile
   },

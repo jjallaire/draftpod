@@ -2,7 +2,7 @@
 
 <template>
   <div class="pack">
-    <Card v-for="card in pack" :key="card.key" :card="card" 
+    <Card v-for="card in pack(player)" :key="card.key" :card="card" 
           :drag_source="drag_source">
     </Card>
   </div>
@@ -15,6 +15,12 @@ import { DRAG_SOURCE_PACK } from './constants'
 
 export default {
   name: 'Pack',
+  props: {
+    player: {
+      type: Number,
+      required: true
+    }
+  },
   computed: {
     drag_source: () => DRAG_SOURCE_PACK,
     ...mapGetters([

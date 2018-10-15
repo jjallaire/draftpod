@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-import { INITIALIZE_DRAFT, PACK_TO_PILE, PILE_TO_PILE } from './mutations';
+import { SET_PACK, PACK_TO_PILE, PILE_TO_PILE } from './mutations';
 
 export const BEGIN_DRAFT = 'BEGIN_DRAFT';
 export const PICK_CARD = 'PICK_CARD';
@@ -19,7 +19,7 @@ export default {
         let pack = response.data.cards.map(card => {
           return { ...card, key: key++ };
         });
-        context.commit(INITIALIZE_DRAFT, pack);
+        context.commit(SET_PACK, pack);
       });
   },
 

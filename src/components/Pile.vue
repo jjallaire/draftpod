@@ -5,7 +5,7 @@
       @drop="handleDrop(...arguments)" 
       @dragover="handleDragover(...arguments)"
       @dragleave="handleDragleave(...arguments)">
-  <Card v-for="(card, index) in piles[number]" :card="card" :key="card.key"
+  <Card v-for="(card, index) in piles(player)[number]" :card="card" :key="card.key"
         :drag_source="drag_source"
         v-bind:style="{marginTop: ((index)*16) + '%'}">
   </Card>
@@ -28,6 +28,10 @@ import Card from './Card.vue'
 
 export default {
   props: {
+    player: {
+      type: Number,
+      required: true
+    },
     number: {
       type: Number,
       required: true
