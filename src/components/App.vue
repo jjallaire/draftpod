@@ -1,13 +1,13 @@
 <template>
   <div class="app">
-    <Booster/>
+    <Pack/>
     <Deck/>
   </div>
 </template>
 
 <script>
 import Deck from './Deck.vue';
-import Booster from './Booster.vue';
+import Pack from './Pack.vue';
 import { BEGIN_DRAFT } from '../store/actions';
 
 import { mapActions } from 'vuex';
@@ -16,7 +16,7 @@ export default {
   name: 'app',
 
   components: {
-    Booster, Deck
+    Pack, Deck
   },
 
   created() {

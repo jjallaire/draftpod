@@ -21,7 +21,7 @@ import { mapActions } from 'vuex'
 import { mapGetters } from 'vuex'
 import { Drop } from 'vue-drag-drop'
 
-import { DRAG_SOURCE_BOOSTER, DRAG_SOURCE_PILE } from './constants'
+import { DRAG_SOURCE_PACK, DRAG_SOURCE_PILE } from './constants'
 import { PICK_CARD, MOVE_CARD } from '../store/actions'
 
 import Card from './Card.vue'
@@ -90,7 +90,7 @@ export default {
       };
 
       // fire event
-      if (data.drag_source === DRAG_SOURCE_BOOSTER)
+      if (data.drag_source === DRAG_SOURCE_PACK)
         this.pickCard(payload);
       else if (data.drag_source === DRAG_SOURCE_PILE)
         this.moveCard(payload);

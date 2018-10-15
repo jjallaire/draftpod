@@ -12,13 +12,13 @@ const debug = process.env.NODE_ENV !== 'production'
 
 const store = new Vuex.Store({
   state: {
-    booster: [],
+    pack: [],
     deck: {
       piles: [...Array(8)].map(() => Array())
     }
   },
   getters: {
-    booster: (state) => state.booster,
+    pack: (state) => state.pack,
     piles: (state) => state.deck.piles
   },
   actions,

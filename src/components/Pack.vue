@@ -1,8 +1,8 @@
 
 
 <template>
-  <div class="booster">
-    <Card v-for="card in booster" :key="card.key" :card="card" 
+  <div class="pack">
+    <Card v-for="card in pack" :key="card.key" :card="card" 
           :drag_source="drag_source">
     </Card>
   </div>
@@ -11,17 +11,17 @@
 <script>
 import Card from './Card.vue';
 import { mapState } from 'vuex';
-import { DRAG_SOURCE_BOOSTER } from './constants'
+import { DRAG_SOURCE_PACK } from './constants'
 
 export default {
-  name: 'Booster',
+  name: 'Pack',
   props: {
     cards: Array
   },
   computed: {
-    drag_source: () => DRAG_SOURCE_BOOSTER,
+    drag_source: () => DRAG_SOURCE_PACK,
     ...mapState([
-      'booster',
+      'pack',
     ]),
   },
   components: {
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style>
-.booster .card img {
+.pack .card img {
   width: 11.5%;
   height: auto;
 }

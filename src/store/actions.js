@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-import { INITIALIZE_BOOSTER, BOOSTER_TO_PILE, PILE_TO_PILE } from './mutations';
+import { INITIALIZE_DRAFT, PACK_TO_PILE, PILE_TO_PILE } from './mutations';
 
 export const BEGIN_DRAFT = 'BEGIN_DRAFT';
 export const PICK_CARD = 'PICK_CARD';
@@ -16,15 +16,15 @@ export default {
       .then(response => {
         // generate a unique index/key for each card
         let key=1;
-        let booster = response.data.cards.map(card => {
+        let pack = response.data.cards.map(card => {
           return { ...card, key: key++ };
         });
-        context.commit(INITIALIZE_BOOSTER, booster);
+        context.commit(INITIALIZE_DRAFT, pack);
       });
   },
 
   [PICK_CARD](context, payload) {
-    context.commit(BOOSTER_TO_PILE, payload);
+    context.commit(PACK_TO_PILE, payload);
   },
 
   [MOVE_CARD](context, payload) {
