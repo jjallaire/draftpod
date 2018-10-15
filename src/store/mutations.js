@@ -66,15 +66,24 @@ export default {
   },
 
   [PASS_PACKS](state) {
+
     // copy existing packs
     let packs = state.players.map((player) => player.pack);
 
-    // pass to the left
-    // TODO: pass to the right for round 2
-    for (let i=0; i<(packs.length-1); i++)
-      state.players[i].pack = packs[i+1];
-    state.players[packs.length-1].pack = packs[0];
+    // pass pack
+    if (state.current_pack === 2) {
+      // pass right
+      for (let i=(packs.length-1); i>0; i--)
+        state.players[i].pack = packs[i-1];
+      state.players[0].pack = packs[packs.length-1];
 
+    } else {
+      // pass left
+      for (let i=0; i<(packs.length-1); i++)
+        state.players[i].pack = packs[i+1];
+      state.players[packs.length-1].pack = packs[0];
+    }
+    
     // increment pick
     state.current_pick++;
   }
