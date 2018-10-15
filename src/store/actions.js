@@ -6,39 +6,22 @@ import {
   OPEN_PACKS, 
   PACK_TO_PILE, 
   PILE_TO_PILE, 
-  PASS_PACKS 
+  PASS_PACKS, 
+  COMPLETE_DRAFT
 } from './mutations';
 
+export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
 export const MOVE_CARD = 'MOVE_CARD';
 
 export default {
 
-  [NEXT_PACK]({ commit }) {
-
-    // create promises for booster generation requests
-    let key = 1;
-    let packs = Array(8);
-    let promises = [];
-    for (let i = 0; i<packs.length; i++) {
-      promises.push(
-        axios.get('https://api.magicthegathering.io/v1/sets/GRN/booster')
-          .then(response => {
-            packs[i] = response.data.cards.map((card) => {
-              return { ...card, key: key++ };
-            });
-          })
-      );
-    }
-
-    // make the requests then distribute the packs
-    axios.all(promises).then(() =>
-      commit(OPEN_PACKS, packs)
-    );
+  [START_DRAFT]( { commit }) {
+    nextPack(commit);
   },
 
-  [PICK_CARD]({ commit, state, dispatch }, payload) {
+  [PICK_CARD]({ commit, state }, payload) {
     
     // alias player
     let playerNumber = payload.playerNumber;
@@ -61,9 +44,10 @@ export default {
 
       // if we still have packs to go then create the next pack
       if (state.current_pack < 3)
-        dispatch(NEXT_PACK);
+        nextPack(commit);
       else {
         // otherwise the draft is done!
+        commit(COMPLETE_DRAFT);
       }
 
     // pass the packs
@@ -77,5 +61,27 @@ export default {
   }
 };
 
+function nextPack(commit) {
+
+  // create promises for booster generation requests
+  let key = 1;
+  let packs = Array(8);
+  let promises = [];
+  for (let i = 0; i<packs.length; i++) {
+    promises.push(
+      axios.get('https://api.magicthegathering.io/v1/sets/GRN/booster')
+        .then(response => {
+          packs[i] = response.data.cards.map((card) => {
+            return { ...card, key: key++ };
+          });
+        })
+    );
+  }
+
+  // make the requests then distribute the packs
+  axios.all(promises).then(() =>
+    commit(OPEN_PACKS, packs)
+  );
+}
 
 

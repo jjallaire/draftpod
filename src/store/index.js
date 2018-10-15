@@ -19,14 +19,16 @@ const store = new Vuex.Store({
         pack: [],
         piles: [...Array(8)].map(() => Array()),
       }
-    })
+    }),
+    complete: false
   },
   getters: {
-    initialized: (state) => state.current_pack > 0,
+    started: (state) => state.current_pack > 0,
     current_pack: (state) => state.current_pack,
     current_pick: (state) => state.current_pick,
     pack: (state) => (player) => state.players[player].pack,
     piles: (state) => (player) => state.players[player].piles,
+    complete: (state) => state.complete,
   },
   actions,
   mutations,
