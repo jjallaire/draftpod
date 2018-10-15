@@ -10,17 +10,14 @@
 
 <script>
 import Card from './Card.vue';
-import { mapState } from 'vuex';
+import { mapGetters } from 'vuex';
 import { DRAG_SOURCE_PACK } from './constants'
 
 export default {
   name: 'Pack',
-  props: {
-    cards: Array
-  },
   computed: {
     drag_source: () => DRAG_SOURCE_PACK,
-    ...mapState([
+    ...mapGetters([
       'pack',
     ]),
   },

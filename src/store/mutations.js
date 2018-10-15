@@ -7,16 +7,16 @@ export const PILE_TO_PILE = 'PILE_TO_PILE'
 export default {
 
   [INITIALIZE_DRAFT](state, cards) {
-    state.pack = cards;
+    state.players[0].pack = cards;
   },
 
   [PACK_TO_PILE](state, { card, pileNumber, insertBefore }) {
 
     // alias target pile
-    let pile = state.deck.piles[pileNumber];
+    let pile = state.players[0].deck.piles[pileNumber];
 
     // remove from pack
-    state.pack.splice(state.pack.indexOf(card), 1);
+    state.players[0].pack.splice(state.players[0].pack.indexOf(card), 1);
 
     // add to pile
     addCardToPile(pile, card, insertBefore);
@@ -25,11 +25,11 @@ export default {
   [PILE_TO_PILE](state, { card, pileNumber, insertBefore }) {
 
     // alias target pile
-    let pile = state.deck.piles[pileNumber];
+    let pile = state.players[0].deck.piles[pileNumber];
 
     // remove from existing pile if necessary (if it came from a
     // pack then we won't need to do this)
-    state.deck.piles.forEach(function (p) {
+    state.players[0].deck.piles.forEach(function (p) {
 
       let index = p.indexOf(card);
       if (index !== -1) {
