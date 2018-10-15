@@ -8,7 +8,7 @@
 <script>
 import Deck from './Deck.vue';
 import Pack from './Pack.vue';
-import { BEGIN_DRAFT } from '../store/actions';
+import { NEXT_PACK } from '../store/actions';
 
 import { mapActions } from 'vuex';
 import { mapGetters } from 'vuex';
@@ -22,7 +22,7 @@ export default {
 
   created() {
     if (!this.initialized)
-      this.beginDraft();
+      this.nextPack();
   },
 
   computed: {
@@ -33,7 +33,7 @@ export default {
 
   methods: {
     ...mapActions({
-      beginDraft: BEGIN_DRAFT
+      nextPack: NEXT_PACK
     })
   }
 }

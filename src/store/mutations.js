@@ -1,13 +1,20 @@
 
 
-export const SET_PACK = 'SET_PACK'
+export const SET_NEXT_PACK = 'SET_NEXT_PACK'
 export const PACK_TO_PILE = 'PACK_TO_PILE'
 export const PILE_TO_PILE = 'PILE_TO_PILE'
 
 export default {
 
-  [SET_PACK](state, {player, pack}) {
-    state.players[player].pack = pack;
+  [SET_NEXT_PACK](state, packs) {
+    
+    // distribute packs
+    for (let i=0; i<packs.length; i++)
+      state.players[i].pack = packs[i];
+    
+    // update current pack/pick
+    state.current_pack++;
+    state.current_pick = 1;
   },
 
   [PACK_TO_PILE](state, { playerNumber, card, pileNumber, insertBefore }) {
