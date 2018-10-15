@@ -1,12 +1,14 @@
 
+import Vue from 'vue';
 
-export const SET_NEXT_PACK = 'SET_NEXT_PACK'
+export const DISTRIBUTE_NEXT_PACK = 'DISTRIBUTE_NEXT_PACK'
 export const PACK_TO_PILE = 'PACK_TO_PILE'
 export const PILE_TO_PILE = 'PILE_TO_PILE'
+export const PASS_PACKS = 'PASS_PACKS'
 
 export default {
 
-  [SET_NEXT_PACK](state, packs) {
+  [DISTRIBUTE_NEXT_PACK](state, packs) {
     
     // distribute packs
     for (let i=0; i<packs.length; i++)
@@ -16,6 +18,7 @@ export default {
     state.current_pack++;
     state.current_pick = 1;
   },
+
 
   [PACK_TO_PILE](state, { playerNumber, card, pileNumber, insertBefore }) {
 
@@ -61,6 +64,20 @@ export default {
     // add to new pile
     addCardToPile(pile, card, insertBefore);
   },
+
+  [PASS_PACKS](state) {
+    // copy existing packs
+    let packs = state.players.map((player) => player.pack);
+
+    // pass to the left
+    // TODO: pass to the right for round 2
+    for (let i=0; i<(packs.length-1); i++)
+      state.players[i].pack = packs[i+1];
+    state.players[packs.length-1].pack = packs[0];
+
+    // increment pick
+    state.current_pick++;
+  }
 };
 
 function addCardToPile(pile, card, insertBefore) {
