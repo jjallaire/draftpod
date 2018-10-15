@@ -19,7 +19,7 @@ export default {
         let pack = response.data.cards.map(card => {
           return { ...card, key: key++ };
         });
-        context.commit(SET_PACK, pack);
+        context.commit(SET_PACK, { player: 0, pack: pack});
       });
   },
 

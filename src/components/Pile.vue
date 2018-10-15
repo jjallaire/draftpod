@@ -88,6 +88,7 @@ export default {
       
       // payload for event
       let payload = { 
+        player: this.player,
         card: data.card, 
         pileNumber: this.number, 
         insertBefore: insertLoc.insertBefore
