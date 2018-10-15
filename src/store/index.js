@@ -22,6 +22,7 @@ const store = new Vuex.Store({
     })
   },
   getters: {
+    initialized: (state) => state.players[0].pack.length > 0,
     pack: (state) => (player) => state.players[player].pack,
     piles: (state) => (player) => state.players[player].piles,
   },

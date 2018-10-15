@@ -10,26 +10,29 @@ export default {
     state.players[player].pack = pack;
   },
 
-  [PACK_TO_PILE](state, { player, card, pileNumber, insertBefore }) {
+  [PACK_TO_PILE](state, { playerNumber, card, pileNumber, insertBefore }) {
 
-    // alias target pile
-    let pile = state.players[player].piles[pileNumber];
-
+    // alias player and pile
+    let player = state.players[playerNumber];
+    let pack = player.pack;
+    let pile = player.piles[pileNumber];
+   
     // remove from pack
-    state.players[0].pack.splice(state.players[player].pack.indexOf(card), 1);
+    pack.splice(pack.indexOf(card), 1);
 
     // add to pile
     addCardToPile(pile, card, insertBefore);
   },
 
-  [PILE_TO_PILE](state, { player, card, pileNumber, insertBefore }) {
+  [PILE_TO_PILE](state, { playerNumber, card, pileNumber, insertBefore }) {
 
-    // alias target pile
-    let pile = state.players[player].piles[pileNumber];
+    // alias player and pile
+    let player = state.players[playerNumber];
+    let pile = player.piles[pileNumber];
 
     // remove from existing pile if necessary (if it came from a
     // pack then we won't need to do this)
-    state.players[player].piles.forEach(function (p) {
+    player.piles.forEach(function (p) {
 
       let index = p.indexOf(card);
       if (index !== -1) {

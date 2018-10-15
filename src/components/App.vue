@@ -11,6 +11,7 @@ import Pack from './Pack.vue';
 import { BEGIN_DRAFT } from '../store/actions';
 
 import { mapActions } from 'vuex';
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'app',
@@ -20,7 +21,14 @@ export default {
   },
 
   created() {
-    this.beginDraft();
+    if (!this.initialized)
+      this.beginDraft();
+  },
+
+  computed: {
+    ...mapGetters([
+      'initialized'
+    ]),
   },
 
   methods: {
