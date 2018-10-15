@@ -1,12 +1,12 @@
 
 
-export const SET_BOOSTER = 'SET_BOOSTER'
+export const INITIALIZE_BOOSTER = 'INITIALIZE_BOOSTER'
 export const BOOSTER_TO_PILE = 'BOOSTER_TO_PILE'
 export const PILE_TO_PILE = 'PILE_TO_PILE'
 
 export default {
 
-  [SET_BOOSTER](state, cards) {
+  [INITIALIZE_BOOSTER](state, cards) {
     state.booster = cards;
   },
   

@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-import { SET_BOOSTER, BOOSTER_TO_PILE, PILE_TO_PILE } from './mutations';
+import { INITIALIZE_BOOSTER, BOOSTER_TO_PILE, PILE_TO_PILE } from './mutations';
 
 export const BEGIN_DRAFT = 'BEGIN_DRAFT';
 export const PICK_CARD = 'PICK_CARD';
@@ -19,7 +19,7 @@ export default {
         let booster = response.data.cards.map(card => {
           return { ...card, key: key++ };
         });
-        context.commit(SET_BOOSTER, booster);
+        context.commit(INITIALIZE_BOOSTER, booster);
       });
   },
 
