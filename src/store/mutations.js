@@ -12,32 +12,35 @@ export default {
 
   [PACK_TO_PILE](state, { card, pileNumber, insertBefore }) {
 
+    // alias target pile
+    let pile = state.deck.piles[pileNumber];
+
     // remove from pack
     state.pack.splice(state.pack.indexOf(card), 1);
 
     // add to pile
-    addCardToPile(state.deck.piles[pileNumber], card, insertBefore);
+    addCardToPile(pile, card, insertBefore);
   },
 
   [PILE_TO_PILE](state, { card, pileNumber, insertBefore }) {
 
     // alias target pile
-    let targetPile = state.deck.piles[pileNumber];
+    let pile = state.deck.piles[pileNumber];
 
     // remove from existing pile if necessary (if it came from a
     // pack then we won't need to do this)
-    state.deck.piles.forEach(function (pile) {
+    state.deck.piles.forEach(function (p) {
 
-      let index = pile.indexOf(card);
+      let index = p.indexOf(card);
       if (index !== -1) {
 
         // remove the card
-        pile.splice(index, 1);
+        p.splice(index, 1);
 
         // if this is a re-order within the same pile then
         // we may need to offset the insertBefore index to 
         // reflect the removed card. 
-        if (pile === targetPile &&
+        if (p === pile &&
           insertBefore !== null &&
           insertBefore > index) {
           insertBefore = insertBefore - 1;
@@ -46,7 +49,7 @@ export default {
     });
 
     // add to new pile
-    addCardToPile(targetPile, card, insertBefore);
+    addCardToPile(pile, card, insertBefore);
   },
 };
 
