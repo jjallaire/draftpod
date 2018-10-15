@@ -3,8 +3,7 @@
 import axios from 'axios';
 
 import { 
-  DISTRIBUTE_NEXT_PACK, 
-  INCREMENT_PICK, 
+  OPEN_PACKS, 
   PACK_TO_PILE, 
   PILE_TO_PILE, 
   PASS_PACKS 
@@ -35,7 +34,7 @@ export default {
 
     // make the requests then distribute the packs
     axios.all(promises).then(() =>
-      commit(DISTRIBUTE_NEXT_PACK, packs)
+      commit(OPEN_PACKS, packs)
     );
   },
 

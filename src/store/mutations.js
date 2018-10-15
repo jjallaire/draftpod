@@ -1,14 +1,12 @@
 
-import Vue from 'vue';
-
-export const DISTRIBUTE_NEXT_PACK = 'DISTRIBUTE_NEXT_PACK'
+export const OPEN_PACKS = 'OPEN_PACKS'
 export const PACK_TO_PILE = 'PACK_TO_PILE'
 export const PILE_TO_PILE = 'PILE_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
 
 export default {
 
-  [DISTRIBUTE_NEXT_PACK](state, packs) {
+  [OPEN_PACKS](state, packs) {
     
     // distribute packs
     for (let i=0; i<packs.length; i++)
