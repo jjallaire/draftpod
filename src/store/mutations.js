@@ -1,8 +1,8 @@
 
 
 export const SET_BOOSTER = 'SET_BOOSTER'
-export const ADD_CARD_TO_DECK = 'ADD_CARD_TO_DECK'
-export const MOVE_CARD_TO_PILE = 'MOVE_CARD_TO_PILE'
+export const BOOSTER_TO_PILE = 'BOOSTER_TO_PILE'
+export const PILE_TO_PILE = 'PILE_TO_PILE'
 
 export default {
 
@@ -10,7 +10,7 @@ export default {
     state.booster = cards;
   },
   
-  [ADD_CARD_TO_DECK](state, {card, pileNumber, insertBefore}) {
+  [BOOSTER_TO_PILE](state, {card, pileNumber, insertBefore}) {
     
     // remove from booster
     state.booster.splice(state.booster.indexOf(card), 1);
@@ -19,7 +19,7 @@ export default {
     addCardToPile(state.deck.piles[pileNumber], card, insertBefore);
   },
 
-  [MOVE_CARD_TO_PILE](state, {card, pileNumber, insertBefore}) {
+  [PILE_TO_PILE](state, {card, pileNumber, insertBefore}) {
 
     // alias target pile
     let targetPile = state.deck.piles[pileNumber];

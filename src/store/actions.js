@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-import { SET_BOOSTER, ADD_CARD_TO_DECK, MOVE_CARD_TO_PILE } from './mutations';
+import { SET_BOOSTER, BOOSTER_TO_PILE, PILE_TO_PILE } from './mutations';
 
 export const BEGIN_DRAFT = 'BEGIN_DRAFT';
 export const PICK_CARD = 'PICK_CARD';
@@ -24,11 +24,11 @@ export default {
   },
 
   [PICK_CARD](context, payload) {
-    context.commit(ADD_CARD_TO_DECK, payload);
+    context.commit(BOOSTER_TO_PILE, payload);
   },
 
   [MOVE_CARD](context, payload) {
-    context.commit(MOVE_CARD_TO_PILE, payload);
+    context.commit(PILE_TO_PILE, payload);
   }
 };
 
