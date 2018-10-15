@@ -1,5 +1,6 @@
 <template>
   <div class="app">
+    <div>Pack: {{ current_pack }}&nbsp;Pick: {{ current_pick }}</div>
     <Pack :player="0"/>
     <Deck :player="0"/>
   </div>
@@ -27,7 +28,9 @@ export default {
 
   computed: {
     ...mapGetters([
-      'started'
+      'started',
+      'current_pack',
+      'current_pick'
     ]),
   },
 

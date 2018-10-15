@@ -2,7 +2,6 @@
 
 <template>
   <div class="pack">
-    <div>Pack: {{ current_pack }}&nbsp;Pick: {{ current_pick }}</div>
     <Card v-for="card in pack(player)" :key="card.key" :card="card" 
           :drag_source="drag_source">
     </Card>
@@ -26,8 +25,6 @@ export default {
     drag_source: () => DRAG_SOURCE_PACK,
     ...mapGetters([
       'pack',
-      'current_pack',
-      'current_pick'
     ]),
   },
   components: {
