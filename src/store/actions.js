@@ -1,6 +1,7 @@
 
 
-import axios from 'axios';
+import axios from 'axios'
+import uuidv4 from 'uuid'
 
 import { 
   OPEN_PACKS, 
@@ -64,7 +65,6 @@ export default {
 function nextPack(commit) {
 
   // create promises for booster generation requests
-  let key = 1;
   let packs = Array(8);
   let promises = [];
   for (let i = 0; i<packs.length; i++) {
@@ -72,7 +72,7 @@ function nextPack(commit) {
       axios.get('https://api.magicthegathering.io/v1/sets/GRN/booster')
         .then(response => {
           packs[i] = response.data.cards.map((card) => {
-            return { ...card, key: key++ };
+            return { ...card, key: uuidv4() };
           });
         })
     );
