@@ -17,6 +17,9 @@ export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
 export const MOVE_CARD = 'MOVE_CARD';
 
+const debug = process.env.NODE_ENV !== 'production'
+const local_images = debug
+
 export default {
 
   [START_DRAFT]( { commit, state }, payload ) {
@@ -105,8 +108,9 @@ function generateBooster(cardpool) {
       if (rarity.indexOf(card.rarity) >= 0 && !card.type_line.startsWith("Basic Land"))
         cards.push({...card, 
           key: uuidv4(), 
-          //image: card.image_uris.png
-          image: 'sets/' + cardpool.set + '/' + card.id + '.png'
+          image: local_images ? 
+                  'sets/' + cardpool.set + '/' + card.id + '.png' :
+                  card.image_uris.png,
         });
       if (cards.length >= number)
         break;
