@@ -11,28 +11,40 @@ export function generateBooster(cardpool) {
   let indexes = shuffleArray([...Array(cardpool.cards.length).keys()]);
 
   // function to draw next n cards of a rarity
-  function drawCards(rarity, number) {
+  function drawCards(filter, number) {
     let cards = [];
     for (let i=0; i<indexes.length; i++) {
       let index = indexes[i];
       let card = cardpool.cards[index];
-      if (rarity.indexOf(card.rarity) >= 0 && !card.type_line.startsWith("Basic Land"))
+      if (filter(card)) {
         cards.push({...card, 
           key: uuidv4(), 
           image: local_images ? 
                   'sets/' + cardpool.set + '/' + card.id + '.png' :
                   card.image_uris.png,
         });
+      }
       if (cards.length >= number)
         break;
     }
     return cards;
   }
 
+  function rarityFilter(rarity) {
+    return function(card) {
+      return rarity.indexOf(card.rarity) >= 0 && !card.type_line.startsWith("Basic Land");
+    }
+  }
+
+  function guildgateFilter(card) {
+    return "common" === card.rarity && card.name.endsWith("Guildgate");
+  }
+
   return [].concat(
-    drawCards(["mythic", "rare"], 1),
-    drawCards(["uncommon"], 3),
-    drawCards(["common"], 10)
+    drawCards(rarityFilter(["mythic", "rare"]), 1),
+    drawCards(rarityFilter(["uncommon"]), 3),
+    drawCards(rarityFilter(["common"]), 10),
+    drawCards(guildgateFilter, 1),
   );
 }
 
