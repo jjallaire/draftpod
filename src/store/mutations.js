@@ -1,4 +1,4 @@
-
+export const SET_CARDPOOL = 'SET_CARDPOOL'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const PACK_TO_PILE = 'PACK_TO_PILE'
 export const PILE_TO_PILE = 'PILE_TO_PILE'
@@ -6,6 +6,10 @@ export const PASS_PACKS = 'PASS_PACKS'
 export const COMPLETE_DRAFT = 'COMPLETE_DRAFT'
 
 export default {
+
+  [SET_CARDPOOL](state, cardpool) {
+    state.cardpool = cardpool;
+  },
 
   [OPEN_PACKS](state, packs) {
     

@@ -4,6 +4,7 @@ import axios from 'axios'
 import uuidv4 from 'uuid'
 
 import { 
+  SET_CARDPOOL,
   OPEN_PACKS, 
   PACK_TO_PILE, 
   PILE_TO_PILE, 
@@ -18,8 +19,26 @@ export const MOVE_CARD = 'MOVE_CARD';
 
 export default {
 
-  [START_DRAFT]( { commit }) {
-    nextPack(commit);
+  [START_DRAFT]( { commit, state }, payload ) {
+
+    // determine set
+    let set = payload.set;
+
+    // download cardpool
+    axios.get('sets/' + set + '/cards.json')
+      .then(response => {
+
+        // set the cardpool
+        commit(SET_CARDPOOL, {
+          set: set,
+          cards: response.data
+        });
+
+        // distribute next pack
+        nextPack(commit, state);
+      });
+
+
   },
 
   [PICK_CARD]({ commit, state }, payload) {
@@ -45,7 +64,7 @@ export default {
 
       // if we still have packs to go then create the next pack
       if (state.current_pack < 3)
-        nextPack(commit);
+        nextPack(commit, state);
       else {
         // otherwise the draft is done!
         commit(COMPLETE_DRAFT);
@@ -62,29 +81,55 @@ export default {
   }
 };
 
-function nextPack(commit) {
+function nextPack(commit, state) {
 
-  // create promises for booster generation requests
-  let packs = Array(8);
-  let promises = [];
-  for (let i = 0; i<packs.length; i++) {
-    promises.push(
-      axios.get('https://api.magicthegathering.io/v1/sets/GRN/booster')
-        .then(response => {
-          packs[i] = response.data.cards.filter((card) => {
-            return card.rarity !== "Basic Land";
-          });
-          packs[i] = packs[i].map((card) => {
-            return { ...card, key: uuidv4() };
-          });
-        })
-    );
+  // generate 8 boosters
+  let packs = [...Array(8)].map(() => generateBooster(state.cardpool));
+
+  // set them
+  commit(OPEN_PACKS, packs);
+
+}
+
+function generateBooster(cardpool) {
+
+  // generate range of indexes then shuffle it
+  let indexes = shuffleArray([...Array(cardpool.cards.length).keys()]);
+
+  // function to draw next n cards of a rarity
+  function drawCards(rarity, number) {
+    let cards = [];
+    for (let i=0; i<indexes.length; i++) {
+      let index = indexes[i];
+      let card = cardpool.cards[index];
+      if (rarity.indexOf(card.rarity) >= 0 && !card.type_line.startsWith("Basic Land"))
+        cards.push({...card, 
+          key: uuidv4(), 
+          imageUrl: "sets/" + cardpool.set + "/" + card.id + ".png" }
+        );
+      if (cards.length >= number)
+        break;
+    }
+    return cards;
   }
 
-  // make the requests then distribute the packs
-  axios.all(promises).then(() =>
-    commit(OPEN_PACKS, packs)
+  return [].concat(
+    drawCards(["mythic", "rare"], 1),
+    drawCards(["uncommon"], 3),
+    drawCards(["common"], 10)
   );
+}
+
+
+function shuffleArray(a) {
+  let array = a.slice();
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
 }
 
 

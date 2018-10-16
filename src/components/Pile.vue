@@ -7,7 +7,7 @@
       @dragleave="handleDragleave(...arguments)">
   <Card v-for="(card, index) in piles(player)[number]" :card="card" :key="card.key"
         :drag_source="drag_source"
-        v-bind:style="{marginTop: ((index)*16) + '%'}">
+        v-bind:style="{marginTop: ((index)*15) + '%'}">
   </Card>
   <div class="drag-insert" v-bind:style="styles.dragInsert"></div>
 </Drop>

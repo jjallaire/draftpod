@@ -20,7 +20,7 @@ download_set <- function(set, sets_dir = ".") {
   for (card in cards) {
     card_image <- file.path(set_dir, paste0(card$id, ".png"))
     if (!file.exists(card_image))
-      curl::curl_download(card$image_uris$normal, card_image)
+      curl::curl_download(card$image_uris$large, card_image)
   }
   
   # narrow to the fields we care about
@@ -30,10 +30,8 @@ download_set <- function(set, sets_dir = ".") {
       name = card$name,
       type_line = card$type_line,
       mana_cost = card$mana_cost,
-      cmd = card$cmc,
-      power = card$power,
-      toughness = card$toughness,
-      colors = card$colors,
+      cmc = card$cmc,
+      colors = I(card$colors),
       rarity = card$rarity
     )
   })
@@ -42,7 +40,7 @@ download_set <- function(set, sets_dir = ".") {
   set_dir <- file.path(sets_dir, set)
   dir.create(set_dir, showWarnings = FALSE, recursive = TRUE)
   set_json <- file.path(set_dir, "cards.json")
-  jsonlite::write_json(cards, set_json)
+  jsonlite::write_json(cards, set_json, auto_unbox = TRUE)
   
   
 }

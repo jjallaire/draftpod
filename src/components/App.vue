@@ -24,7 +24,7 @@ export default {
 
   created() {
     if (!this.started)
-      this.startDraft();
+      this.startDraft({ set: 'grn' });
   },
 
   computed: {
