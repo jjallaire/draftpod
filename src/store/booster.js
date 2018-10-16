@@ -30,20 +30,24 @@ export function generateBooster(cardpool) {
     return cards;
   }
 
-  function rarityFilter(rarity) {
+  function rarityFilter(rarity, extraFilter = null) {
     return function(card) {
-      return rarity.indexOf(card.rarity) >= 0 && !card.type_line.startsWith("Basic Land");
+      return rarity.indexOf(card.rarity) >= 0 && 
+             !card.type_line.startsWith("Basic Land") &&
+             (!extraFilter || extraFilter(card));
     }
   }
 
   function guildgateFilter(card) {
-    return "common" === card.rarity && card.name.endsWith("Guildgate");
+    let GUILDGATES =  ["Boros Guildgate", "Dimir Guildgate", "Golgari Guildgate",
+                     "Izzet Guildgate", "Selesnya Guildgate"];
+    return "common" === card.rarity && GUILDGATES.indexOf(card.name) >= 0;
   }
 
   return [].concat(
     drawCards(rarityFilter(["mythic", "rare"]), 1),
     drawCards(rarityFilter(["uncommon"]), 3),
-    drawCards(rarityFilter(["common"]), 10),
+    drawCards(rarityFilter(["common"], card => !guildgateFilter(card)), 10),
     drawCards(guildgateFilter, 1),
   );
 }
