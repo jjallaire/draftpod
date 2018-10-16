@@ -5,7 +5,7 @@
         :transfer-data="{drag_source, card}" :key="card.key">
      <img :src="card.imageUrl" />
   </Drag>
-  <span v-else class="card">
+  <span v-else class="card" draggable="false">
     <img :src="card.imageUrl" />
   </span>
 </template>
