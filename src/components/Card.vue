@@ -3,10 +3,10 @@
   <Drag v-if="drag_source" tag="span" class="draggable card" 
         @dragstart="onDragStart"
         :transfer-data="{drag_source, card}" :key="card.key">
-     <img :src="card.image_uris.png" />
+     <img :src="card.image" />
   </Drag>
   <span v-else class="card" draggable="false">
-    <img :src="card.image_uris.png" />
+    <img :src="card.image" />
   </span>
 </template>
 
