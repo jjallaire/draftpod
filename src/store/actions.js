@@ -1,6 +1,10 @@
 
 
 import axios from 'axios'
+import uuidv4 from 'uuid'
+
+const debug = process.env.NODE_ENV !== 'production'
+const local_images = debug
 
 import { 
   SET_CARDPOOL,
@@ -11,8 +15,7 @@ import {
   COMPLETE_DRAFT
 } from './mutations';
 
-import { draftPick } from './draftai'
-import { generateBooster } from './booster'
+import sets from './sets/'
 
 export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
@@ -53,13 +56,13 @@ export default {
     commit(PACK_TO_PILE, payload);
 
     // have other players make their picks
-    let set = state.cardpool.set;
+    let set = sets[state.cardpool.set];
     for (let i=0; i<state.players.length; i++) {
       if (i !== playerNumber) {
         let player = state.players[i];
         let deck = player.piles[0];
         let pack = player.pack;
-        let card = draftPick(set, deck, pack);
+        let card = set.draftPick(deck, pack);
         commit(PACK_TO_PILE, { 
           playerNumber: i, 
           card: card, 
@@ -99,5 +102,46 @@ function nextPack(commit, state) {
   // set them
   commit(OPEN_PACKS, packs);
 
+}
+
+function generateBooster(cardpool) {
+
+  // generate range of indexes then shuffle it
+  let indexes = shuffleArray([...Array(cardpool.cards.length).keys()]);
+
+  // function to draw next n cards of a rarity
+  function drawCards(filter, number) {
+    let cards = [];
+    for (let i=0; i<indexes.length; i++) {
+      let index = indexes[i];
+      let card = cardpool.cards[index];
+      if (filter(card)) {
+        cards.push({...card, 
+          key: uuidv4(), 
+          image: local_images ? 
+                  'sets/' + cardpool.set + '/' + card.id + '.png' :
+                  card.image_uris.png,
+        });
+      }
+      if (cards.length >= number)
+        break;
+    }
+    return cards;
+  }
+
+  let set = sets[cardpool.set];
+  return set.generateBooster(drawCards);
+}
+
+
+function shuffleArray(a) {
+  let array = a.slice();
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
 }
 
