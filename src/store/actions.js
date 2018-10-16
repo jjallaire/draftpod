@@ -71,7 +71,10 @@ function nextPack(commit) {
     promises.push(
       axios.get('https://api.magicthegathering.io/v1/sets/GRN/booster')
         .then(response => {
-          packs[i] = response.data.cards.map((card) => {
+          packs[i] = response.data.cards.filter((card) => {
+            return card.rarity !== "Basic Land";
+          });
+          packs[i] = packs[i].map((card) => {
             return { ...card, key: uuidv4() };
           });
         })
