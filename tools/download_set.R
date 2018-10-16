@@ -14,20 +14,12 @@ download_set <- function(set, sets_dir = ".") {
       break
   }
   
-  # download images
-  set_dir <- file.path(sets_dir, set)
-  dir.create(set_dir, showWarnings = FALSE, recursive = TRUE)
-  for (card in cards) {
-    card_image <- file.path(set_dir, paste0(card$id, ".png"))
-    if (!file.exists(card_image))
-      curl::curl_download(card$image_uris$large, card_image)
-  }
-  
   # narrow to the fields we care about
   cards <- lapply(grn, function(card) {
     list(
       id = card$id,
       name = card$name,
+      image_uris = I(card$image_uris),
       type_line = card$type_line,
       mana_cost = card$mana_cost,
       cmc = card$cmc,

@@ -103,10 +103,7 @@ function generateBooster(cardpool) {
       let index = indexes[i];
       let card = cardpool.cards[index];
       if (rarity.indexOf(card.rarity) >= 0 && !card.type_line.startsWith("Basic Land"))
-        cards.push({...card, 
-          key: uuidv4(), 
-          imageUrl: "sets/" + cardpool.set + "/" + card.id + ".png" }
-        );
+        cards.push({...card, key: uuidv4()});
       if (cards.length >= number)
         break;
     }
