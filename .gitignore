@@ -20,5 +20,5 @@ yarn-error.log*
 *.sln
 *.sw*
 
-# Local image cache
+# Local card image cache
 /public/sets/*/*.png
