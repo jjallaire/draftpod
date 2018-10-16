@@ -1,10 +1,9 @@
 
 
 
-export function rarityFilter(rarity, extraFilter = null) {
+export function rarityFilter(rarity) {
   return function(card) {
     return rarity.indexOf(card.rarity) >= 0 && 
-           !card.type_line.startsWith("Basic Land") &&
-           (!extraFilter || extraFilter(card));
+           !card.type_line.startsWith("Basic Land");
   }
 }

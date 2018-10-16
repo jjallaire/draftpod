@@ -12,10 +12,11 @@ export default {
 
   generateBooster(drawCards) {
 
+
     return [].concat(
       drawCards(rarityFilter(["mythic", "rare"]), 1),
       drawCards(rarityFilter(["uncommon"]), 3),
-      drawCards(rarityFilter(["common"], card => !guildgateFilter(card)), 10),
+      drawCards([rarityFilter(["common"]), card => !guildgateFilter(card)], 10),
       drawCards(guildgateFilter, 1),
     );
 

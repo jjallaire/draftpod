@@ -110,12 +110,21 @@ function generateBooster(cardpool) {
   let indexes = shuffleArray([...Array(cardpool.cards.length).keys()]);
 
   // function to draw next n cards of a rarity
-  function drawCards(filter, number) {
+  function drawCards(filters, number) {
+    if (!Array.isArray(filters))
+      filters = [filters];
     let cards = [];
     for (let i=0; i<indexes.length; i++) {
       let index = indexes[i];
       let card = cardpool.cards[index];
-      if (filter(card)) {
+      let passed = true;
+      for (let f=0; f<filters.length; f++) {
+        if (!filters[f](card)) {
+          passed = false;
+          break;
+        }
+      }
+      if (passed) {
         cards.push({...card, 
           key: uuidv4(), 
           image: local_images ? 
