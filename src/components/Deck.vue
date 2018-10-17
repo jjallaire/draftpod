@@ -31,6 +31,8 @@ export default {
   margin-top: 10px;
   padding-top: 10px;
   background-color: lightgray;
+  position: relative;
+  overflow-y: scroll;
 }
 </style>
 
