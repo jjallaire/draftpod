@@ -60,9 +60,7 @@ export default {
     for (let i=0; i<state.players.length; i++) {
       if (i !== playerNumber) {
         let player = state.players[i];
-        let deck = player.piles[0];
-        let pack = player.pack;
-        let card = set.pick(deck, pack);
+        let card = set.pick(player.piles[0], player.pack);
         commit(PACK_TO_PILE, { 
           playerNumber: i, 
           card: card, 
