@@ -56,19 +56,7 @@ export default {
     commit(PACK_TO_PILE, payload);
 
     // have other players make their picks
-    let set = sets[state.cardpool.set];
-    for (let i=0; i<state.players.length; i++) {
-      if (i !== playerNumber) {
-        let player = state.players[i];
-        let card = set.pick(player.piles[0], player.pack);
-        commit(PACK_TO_PILE, { 
-          playerNumber: i, 
-          card: card, 
-          pileNumber: 0, 
-          insertBefore: null 
-        });
-      }
-    }
+    aiPicks(commit, state, playerNumber);
 
     // check whether the pack is completed
     if (player.pack.length === 0) {
@@ -100,6 +88,22 @@ function nextPack(commit, state) {
   // set them
   commit(OPEN_PACKS, packs);
 
+}
+
+function aiPicks(commit, state, playerNumber) {
+  let set = sets[state.cardpool.set];
+  for (let i=0; i<state.players.length; i++) {
+    if (i !== playerNumber) {
+      let player = state.players[i];
+      let card = set.pick(player.piles[0], player.pack);
+      commit(PACK_TO_PILE, { 
+        playerNumber: i, 
+        card: card, 
+        pileNumber: 0, 
+        insertBefore: null 
+      });
+    }
+  }
 }
 
 function booster(cardpool) {
