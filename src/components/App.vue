@@ -1,13 +1,13 @@
 <template>
   <div class="app">
-    <div v-if="complete">Draft complete!</div> 
-    <div v-else >Pack: {{ current_pack }}&nbsp;Pick: {{ current_pick }}</div>
+    <Header />
     <Pack :player="0"/>
-    <Deck :player="0"/>
+    <Deck :player="0"/>  
   </div>
 </template>
 
 <script>
+import Header from './Header.vue'
 import Deck from './Deck.vue';
 import Pack from './Pack.vue';
 import { START_DRAFT } from '../store/actions';
@@ -16,10 +16,10 @@ import { mapActions } from 'vuex';
 import { mapGetters } from 'vuex';
 
 export default {
-  name: 'app',
+  name: 'App',
 
   components: {
-    Pack, Deck
+    Header, Pack, Deck
   },
 
   created() {
@@ -32,9 +32,6 @@ export default {
   computed: {
     ...mapGetters([
       'started',
-      'current_pack',
-      'current_pick',
-      'complete'
     ]),
   },
 
@@ -45,4 +42,10 @@ export default {
   }
 }
 </script>
+
+<style>
+
+</style>
+
+
 
