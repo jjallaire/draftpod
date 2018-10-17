@@ -38,8 +38,12 @@ export default {
 </script>
 
 <style>
+.pack {
+  padding-top: 7px;
+  padding-left: 7px;
+}
 .pack .card img {
-  width: 11.5%;
+  width: 11%;
   height: auto;
 }
 .pack .card-empty img {

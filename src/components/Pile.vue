@@ -5,9 +5,10 @@
       @drop="handleDrop(...arguments)" 
       @dragover="handleDragover(...arguments)"
       @dragleave="handleDragleave(...arguments)">
+  <div v-if="caption" class="caption">{{ caption }}</div>
   <Card v-for="(card, index) in piles(player)[number]" :card="card" :key="card.key"
         :drag_source="drag_source"
-        v-bind:style="{marginTop: ((index)*16) + '%'}">
+        v-bind:style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
   </Card>
   <div class="drag-insert" v-bind:style="styles.dragInsert"></div>
 </Drop>
@@ -35,7 +36,10 @@ export default {
     number: {
       type: Number,
       required: true
-    }
+    },
+    caption: {
+      type: String
+    },
   },
   computed: {
     drag_source: () => DRAG_SOURCE_PILE,
@@ -147,12 +151,27 @@ function cardInsertLocation(data, event) {
 </script>
 
 <style>
-.pile {
+.pile, .pile-separator {
   display: inline-block;
   position: relative;
   width: 11.5%;
   min-height: 200px;
   margin-right: 4px;
+}
+.pile {
+  width: 11%;
+}
+.pile-separator {
+  width: 3%;
+}
+.pile .caption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
 }
 .pile .card {
   position: absolute;
