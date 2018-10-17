@@ -5,7 +5,7 @@
       @drop="handleDrop(...arguments)" 
       @dragover="handleDragover(...arguments)"
       @dragleave="handleDragleave(...arguments)">
-  <div v-if="caption" class="caption">{{ caption }}</div>
+  <div class="caption" :style="{textAlign: center_caption ? 'center' : 'left'}">{{ caption }}</div>
   <Card v-for="(card, index) in piles(player)[number]" :card="card" :key="card.key"
         :drag_source="drag_source"
         v-bind:style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
@@ -38,8 +38,13 @@ export default {
       required: true
     },
     caption: {
-      type: String
+      type: String,
+      default: ' '
     },
+    center_caption: {
+      type: Boolean,
+      default: false
+    }
   },
   computed: {
     drag_source: () => DRAG_SOURCE_PILE,
@@ -168,7 +173,7 @@ function cardInsertLocation(data, event) {
   position: absolute;
   left: 0;
   top: 0;
-  font-size: 0.7em;
+  font-size: 0.8em;
   text-transform: uppercase;
   text-align: center;
   width: 100%;
