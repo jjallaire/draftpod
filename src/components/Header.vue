@@ -26,7 +26,6 @@ export default {
 <style>
 .header {
   width: 100%;
-  margin-bottom: 10px;
   background: pink;
 }
 </style>

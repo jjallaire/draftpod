@@ -1,8 +1,17 @@
 <template>
   <div class="app">
     <Header />
-    <Pack :player="0"/>
-    <Deck :player="0"/>  
+    <div class="main">
+      <div class="draft">
+        <Pack :player="0"/>
+        <Deck :player="0"/>
+      </div> 
+       <div class="sidebar">
+          <div style="min-width: 200px;">
+            Sidebar
+          </div>
+      </div> 
+    </div>
   </div>
 </template>
 
@@ -58,6 +67,23 @@ body {
 
 .header {
   flex: 0 1 auto;
+}
+
+.main {
+  display: flex;
+  flex-flow: row;
+  flex: 1 1 auto;
+}
+
+.sidebar {
+  flex: 0 1 auto;
+  background-color: yellow;
+}
+
+.draft {
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 auto;
 }
 
 .pack {
