@@ -151,7 +151,7 @@ function cardInsertLocation(data, event) {
   display: inline-block;
   position: relative;
   width: 11.5%;
-  min-height: 400px;
+  min-height: 200px;
   margin-right: 4px;
 }
 .pile .card {
