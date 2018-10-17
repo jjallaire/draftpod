@@ -7,8 +7,8 @@
         <Deck :player="0"/>
       </div> 
        <div class="sidebar">
-          <div style="min-width: 200px;">
-            Sidebar
+          <div class="sidebar-content">
+            
           </div>
       </div> 
     </div>
@@ -79,6 +79,24 @@ body {
   flex: 0 1 auto;
   background-color: yellow;
 }
+
+.sidebar-content {
+  min-width: 230px;
+}
+
+@media only screen and (max-width: 1200px) {
+.sidebar-content {
+  min-width: 180px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+.sidebar-content {
+  min-width: 150px;
+}
+}
+
+
 
 .draft {
   display: flex;

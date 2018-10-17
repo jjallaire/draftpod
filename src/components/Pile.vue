@@ -159,12 +159,11 @@ function cardInsertLocation(data, event) {
 .pile, .pile-separator {
   display: inline-block;
   position: relative;
-  width: 11.5%;
   min-height: 200px;
   margin-right: 4px;
 }
 .pile {
-  width: 11%;
+  width: 11.5%;
 }
 .pile-separator {
   width: 3%;
@@ -178,6 +177,15 @@ function cardInsertLocation(data, event) {
   text-align: center;
   width: 100%;
 }
+@media only screen and (max-width: 1000px) {
+.pile {
+  width: 10%;
+} 
+.pile .caption {
+  font-size: 0.6em;
+}
+}
+
 .pile .card {
   position: absolute;
   left: 0;

@@ -41,11 +41,18 @@ export default {
 .pack {
   padding-top: 7px;
   padding-left: 7px;
+  margin-bottom: 7px;
 }
 .pack .card img {
-  width: 11%;
+  width: 11.5%;
   height: auto;
 }
+@media only screen and (max-width: 1000px) {
+.pack .card img {
+  width: 10%;
+} 
+}
+
 .pack .card-empty img {
   user-select: none;
 }
