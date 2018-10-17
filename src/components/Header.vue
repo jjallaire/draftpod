@@ -6,6 +6,7 @@
     <div v-else >Pack {{ current_pack }}&nbsp;Pick {{ current_pick }}</div>
   </header>
 </template>
+
 <script>
 
 import { mapGetters } from 'vuex';

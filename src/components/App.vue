@@ -6,17 +6,14 @@
         <Pack :player="0"/>
         <Deck :player="0"/>
       </div> 
-       <div class="sidebar">
-          <div class="sidebar-content">
-            
-          </div>
-      </div> 
+      <Sidebar />
     </div>
   </div>
 </template>
 
 <script>
 import Header from './Header.vue'
+import Sidebar from './Sidebar.vue'
 import Deck from './Deck.vue';
 import Pack from './Pack.vue';
 import { START_DRAFT } from '../store/actions';
@@ -28,7 +25,7 @@ export default {
   name: 'App',
 
   components: {
-    Header, Pack, Deck
+    Header, Pack, Deck, Sidebar
   },
 
   created() {
@@ -74,29 +71,6 @@ body {
   flex-flow: row;
   flex: 1 1 auto;
 }
-
-.sidebar {
-  flex: 0 1 auto;
-  background-color: yellow;
-}
-
-.sidebar-content {
-  min-width: 230px;
-}
-
-@media only screen and (max-width: 1200px) {
-.sidebar-content {
-  min-width: 180px;
-}
-}
-
-@media only screen and (max-width: 1000px) {
-.sidebar-content {
-  min-width: 150px;
-}
-}
-
-
 
 .draft {
   display: flex;

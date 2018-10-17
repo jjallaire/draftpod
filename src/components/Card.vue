@@ -3,7 +3,7 @@
   <Drag v-if="drag_source" tag="span" class="draggable card" 
         @dragstart="onDragStart"
         :transfer-data="{drag_source, card}" :key="card.key">
-     <img :src="card.image" />
+     <img :src="card.image" @mouseover="onMouseOver" @mouseout="onMouseOut"/>
   </Drag>
   <span v-else class="card" draggable="false">
     <img :src="card.image" />
@@ -13,6 +13,9 @@
 <script>
 
 import { Drag } from 'vue-drag-drop';
+import { mapMutations } from 'vuex';
+
+import { SET_CARD_PREVIEW } from '../store/mutations'
 
 export default {
   name: 'Card',
@@ -27,6 +30,12 @@ export default {
     Drag
   },
   methods: {
+    onMouseOver() {
+      this.set_card_preview({ card: this.card });
+    },
+    onMouseOut() {
+      //this.set_card_preview({ card: null });
+    },
     onDragStart(data, event) {
       // record offset of cursor to card image (used for determining
       // location within pile to drop card)
@@ -35,7 +44,10 @@ export default {
         x: event.clientX - cardRect.left, 
         y: event.clientY - cardRect.top
       };
-    }
+    },
+    ...mapMutations({
+      set_card_preview: SET_CARD_PREVIEW 
+    }),
   }
 }
 </script>
