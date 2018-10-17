@@ -5,7 +5,7 @@ import { rarity } from './filters'
 function guildgate(card) {
   let GUILDGATES =  ["Boros Guildgate", "Dimir Guildgate", "Golgari Guildgate",
                      "Izzet Guildgate", "Selesnya Guildgate"];
-  return "common" === card.rarity && GUILDGATES.indexOf(card.name) >= 0;
+  return GUILDGATES.indexOf(card.name) >= 0;
 }
 
 export default {
