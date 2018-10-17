@@ -23,8 +23,10 @@ export default {
   },
 
   created() {
-    if (!this.started)
-      this.startDraft({ set: 'grn' });
+    if (!this.started) {
+      let set = this.$route.query.set || 'grn';
+      this.startDraft({ set: set });
+    }
   },
 
   computed: {
