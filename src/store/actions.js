@@ -3,8 +3,7 @@
 import axios from 'axios'
 import uuidv4 from 'uuid'
 
-const debug = process.env.NODE_ENV !== 'production'
-const local_images = debug
+const local_images = false
 
 import { 
   SET_CARDPOOL,
@@ -131,7 +130,7 @@ function booster(cardpool) {
           key: uuidv4(), 
           image: local_images ? 
                   'sets/' + cardpool.set + '/' + card.id + '.png' :
-                  card.image_uris.png,
+                  card.image_uri,
         });
       }
       if (cards.length >= number)

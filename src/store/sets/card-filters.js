@@ -1,10 +1,23 @@
 
 
+
+export function rare(card) {
+  return rarity(["mythic", "rare"])(card);
+}
+
+export function uncommon(card) {
+  return rarity(["uncommon"])(card);
+}
+
+export function common(card) {
+  return rarity(["common"])(card);
+}
+
 export function basicLand(card) {
   return card.type_line.startsWith("Basic Land")
 }
 
-export function rarity(rarity) {
+function rarity(rarity) {
   return function(card) {
     return rarity.indexOf(card.rarity) >= 0 && !basicLand(card);
   }

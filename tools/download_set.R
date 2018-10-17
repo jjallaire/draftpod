@@ -1,6 +1,6 @@
 
 
-download_set <- function(set, sets_dir = ".") {
+download_set <- function(set, sets_dir = ".", images = FALSE) {
  
   # download cards
   cards <- list()
@@ -14,21 +14,23 @@ download_set <- function(set, sets_dir = ".") {
       break
   }
   
-  # download images
-  set_dir <- file.path(sets_dir, set)
-  dir.create(set_dir, showWarnings = FALSE, recursive = TRUE)
-  for (card in cards) {
-    card_image <- file.path(set_dir, paste0(card$id, ".png"))
-    if (!file.exists(card_image))
-      curl::curl_download(card$image_uris$png, card_image)
-  }
-  
   # narrow to the fields we care about
-  cards <- lapply(grn, function(card) {
+  cards <- lapply(cards, function(card) {
+    
+    # get image uri
+    if (!is.null(card$image_uris)) {
+      image_uri <- card$image_uris$png
+    } else if (!is.null(card$card_faces)) {
+      image_uri <- card$card_faces[[1]]$image_uris$png
+    } else {
+      str(card)
+      stop("Unable to find image_uri for card")
+    }
+    
     list(
       id = card$id,
       name = card$name,
-      image_uris = I(card$image_uris),
+      image_uri = image_uri,
       type_line = card$type_line,
       mana_cost = card$mana_cost,
       cmc = card$cmc,
@@ -43,7 +45,16 @@ download_set <- function(set, sets_dir = ".") {
   set_json <- file.path(set_dir, "cards.json")
   jsonlite::write_json(cards, set_json, auto_unbox = TRUE)
   
+  # download images
+  if (images) {
+    for (card in cards) {
+      card_image <- file.path(set_dir, paste0(card$id, ".png"))
+      if (!file.exists(card_image)) {
+        curl::curl_download(card$image_uri, card_image)
+      }
+    }
+  }
   
 }
 
-download_set("m19", sets_dir = "~/projects/mtgdrafter/public/sets")
+download_set("dom", sets_dir = "~/projects/mtgdrafter/public/sets", images = TRUE)
