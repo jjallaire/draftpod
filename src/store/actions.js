@@ -62,7 +62,7 @@ export default {
         let player = state.players[i];
         let deck = player.piles[0];
         let pack = player.pack;
-        let card = set.draftPick(deck, pack);
+        let card = set.pick(deck, pack);
         commit(PACK_TO_PILE, { 
           playerNumber: i, 
           card: card, 
@@ -97,20 +97,20 @@ export default {
 function nextPack(commit, state) {
 
   // generate 8 boosters
-  let packs = [...Array(8)].map(() => generateBooster(state.cardpool));
+  let packs = [...Array(8)].map(() => booster(state.cardpool));
 
   // set them
   commit(OPEN_PACKS, packs);
 
 }
 
-function generateBooster(cardpool) {
+function booster(cardpool) {
 
   // generate range of indexes then shuffle it
   let indexes = shuffleArray([...Array(cardpool.cards.length).keys()]);
 
-  // function to draw next n cards of a rarity
-  function drawCards(filters, number) {
+  // function to draw next n cards that pass a set of filters
+  function cards(filters, number) {
     if (!Array.isArray(filters))
       filters = [filters];
     let cards = [];
@@ -139,7 +139,7 @@ function generateBooster(cardpool) {
   }
 
   let set = sets[cardpool.set];
-  return set.generateBooster(drawCards);
+  return set.booster(cards);
 }
 
 

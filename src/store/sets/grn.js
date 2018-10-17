@@ -1,8 +1,8 @@
 
 
-import { rarityFilter } from './filters'
+import { rarity } from './filters'
 
-function guildgateFilter(card) {
+function guildgate(card) {
   let GUILDGATES =  ["Boros Guildgate", "Dimir Guildgate", "Golgari Guildgate",
                      "Izzet Guildgate", "Selesnya Guildgate"];
   return "common" === card.rarity && GUILDGATES.indexOf(card.name) >= 0;
@@ -10,20 +10,19 @@ function guildgateFilter(card) {
 
 export default {
 
-  generateBooster(drawCards) {
-
+  booster(cards) {
 
     return [].concat(
-      drawCards(rarityFilter(["mythic", "rare"]), 1),
-      drawCards(rarityFilter(["uncommon"]), 3),
-      drawCards([rarityFilter(["common"]), card => !guildgateFilter(card)], 10),
-      drawCards(guildgateFilter, 1),
+      cards(rarity(["mythic", "rare"]), 1),
+      cards(rarity(["uncommon"]), 3),
+      cards([rarity(["common"]), card => !guildgate(card)], 10),
+      cards(guildgate, 1),
     );
 
 
   },
 
-  draftPick(deck, pack) {
+  pick(deck, pack) {
 
     return pack[0];
 
