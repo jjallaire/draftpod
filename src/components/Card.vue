@@ -3,7 +3,7 @@
   <Drag v-if="drag_source" tag="span" class="draggable card" 
         @dragstart="onDragStart"
         :transfer-data="{drag_source, card}" :key="card.key">
-     <img :src="card.image" @mouseover="onMouseOver" @mouseout="onMouseOut"/>
+     <img :src="card.image" @mouseover="onMouseOver"/>
   </Drag>
   <span v-else class="card" draggable="false">
     <img :src="card.image" />
@@ -32,9 +32,6 @@ export default {
   methods: {
     onMouseOver() {
       this.set_card_preview({ card: this.card });
-    },
-    onMouseOut() {
-      //this.set_card_preview({ card: null });
     },
     onDragStart(data, event) {
       // record offset of cursor to card image (used for determining
