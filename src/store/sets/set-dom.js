@@ -16,7 +16,9 @@ export default {
     // if there is no legendary then fill in legendary slot
     if (rares_and_uncommons.filter(legendary).length === 0) {
       rares_and_uncommons.pop();
-      rares_and_uncommons.push(cards(legendaryUncommon, 1));
+      rares_and_uncommons.push(
+        cards([legendaryUncommon, filters.notOneOf(rares_and_uncommons)], 1)[0]
+      );
     }
   
     return [].concat(
@@ -34,7 +36,7 @@ export default {
 }
 
 function legendary(card) {
-  return card.type_line.startsWith("Legendary") >= 0;
+  return card.type_line.startsWith("Legendary");
 }
 
 function legendaryUncommon(card) {
