@@ -44,7 +44,29 @@ export default {
 </script>
 
 <style>
+html,
+body {
+  height: 100%;
+  margin: 0
+}
 
+.app {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.header {
+  flex: 0 1 auto;
+}
+
+.pack {
+  flex: 0 1 auto;
+}
+
+.deck {
+  flex: 1 1 auto;
+}
 </style>
 
 

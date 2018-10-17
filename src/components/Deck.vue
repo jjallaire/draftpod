@@ -30,7 +30,7 @@ export default {
 .deck {
   margin-top: 10px;
   padding-top: 10px;
-  border-top: 1px solid;
+  background-color: lightgray;
 }
 </style>
 
