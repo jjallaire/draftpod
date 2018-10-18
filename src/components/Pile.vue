@@ -5,7 +5,10 @@
       @drop="handleDrop(...arguments)" 
       @dragover="handleDragover(...arguments)"
       @dragleave="handleDragleave(...arguments)">
-  <div class="caption" :style="{textAlign: center_caption ? 'center' : 'left'}">{{ caption }}</div>
+  <div class="caption" v-if="caption" 
+       :style="{textAlign: center_caption ? 'center' : 'left'}">
+    {{ caption }}
+  </div>
   <Card v-for="(card, index) in piles(player)[number]" :key="card.key"
         :player="player" :card="card" :drag_source="drag_source"
         v-bind:style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
@@ -39,7 +42,6 @@ export default {
     },
     caption: {
       type: String,
-      default: ' '
     },
     center_caption: {
       type: Boolean,

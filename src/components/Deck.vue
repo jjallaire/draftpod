@@ -2,7 +2,7 @@
 
 <template>
   <div class="deck">
-    <Pile caption="Main Deck" :player="player" :key="0" :number="0"></Pile>
+    <Pile :player="player" :key="0" :number="0"></Pile>
     <Pile :player="player" v-for="number in 6" :key="number" :number="number"></Pile>
     <div class="pile pile-separator"></div>
     <Pile caption="Sideboard" :center_caption="true" :player="player" :key="7" :number="7"></Pile>
