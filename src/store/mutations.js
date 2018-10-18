@@ -6,6 +6,8 @@ export const PILE_TO_PILE = 'PILE_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
 export const SET_DRAFT_COMPLETE = 'SET_DRAFT_COMPLETE'
 
+import Vue from 'vue'
+
 export default {
 
   [SET_CARDPOOL](state, cardpool) {
@@ -82,14 +84,14 @@ export default {
     if (state.current_pack === 2) {
       // pass right
       for (let i=(packs.length-1); i>0; i--)
-        state.players[i].pack = packs[i-1];
-      state.players[0].pack = packs[packs.length-1];
+        passPack(packs[i-1], state.players[i].pack);
+      passPack(packs[packs.length-1], state.players[0].pack);
 
     } else {
       // pass left
       for (let i=0; i<(packs.length-1); i++)
-        state.players[i].pack = packs[i+1];
-      state.players[packs.length-1].pack = packs[0];
+        passPack(packs[i+1], state.players[i].pack);
+      passPack(packs[0], state.players[packs.length-1].pack)
     }
     
     // increment pick
@@ -100,6 +102,13 @@ export default {
     state.complete = true;
   }
 };
+
+
+function passPack(from, to) {
+  for (let i = 0; i<from.length; i++) {
+    Vue.set(to, i, from[i]);
+  }
+}
 
 function addCardToPile(pile, card, insertBefore) {
   if (insertBefore !== null)
