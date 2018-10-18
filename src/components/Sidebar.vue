@@ -47,19 +47,19 @@ export default {
 }
 
 .sidebar-content {
-  min-width: 230px;
+  width: 230px;
   padding: 7px;
 }
 
 @media only screen and (max-width: 1200px) {
 .sidebar-content {
-  min-width: 180px;
+  width: 180px;
 }
 }
 
 @media only screen and (max-width: 1000px) {
 .sidebar-content {
-  min-width: 150px;
+  width: 150px;
 }
 }
 

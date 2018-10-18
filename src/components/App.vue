@@ -3,7 +3,7 @@
     <Header />
     <div class="main">
       <div class="draft">
-        <Pack :player="player"/>
+        <Pack v-if="!complete" :player="player"/>
         <Deck :player="player"/>
       </div> 
       <Sidebar :player="player"/>
@@ -45,6 +45,7 @@ export default {
   computed: {
     ...mapGetters([
       'started',
+      'complete'
     ]),
   },
 
