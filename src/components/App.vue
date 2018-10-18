@@ -3,7 +3,9 @@
     <Header />
     <div class="main">
       <div class="draft">
-        <Pack v-if="!complete" :player="player"/>
+        <transition name="pack-hide"> 
+          <Pack v-if="!complete" :player="player"/>
+        </transition>
         <Deck :player="player"/>
       </div> 
       <Sidebar :player="player"/>
@@ -93,6 +95,19 @@ body {
 .deck {
   flex: 1 1 auto;
 }
+
+.pack-hide-leave-active {
+  transition: all 2s;
+  max-height: 500px;
+}
+
+.pack-hide-leave-to {
+  max-height: 0px;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+
 </style>
 
 
