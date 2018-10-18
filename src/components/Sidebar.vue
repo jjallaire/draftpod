@@ -3,7 +3,7 @@
 
 <div class="sidebar">
   <div class="sidebar-content">
-     <img class="card-preview" v-if="card_preview(player)" :src="card_preview(player).image"/> 
+     <img class="card-preview" :src="preview_image"/> 
   </div>
 </div> 
 
@@ -28,6 +28,13 @@ export default {
     ...mapGetters([
       'card_preview'
     ]),
+    preview_image: function() {
+      let card = this.card_preview(this.player);
+      if (card)
+        return card.image;
+      else
+        return "images/card-back.jpeg";
+    }
   },
 }
 </script>

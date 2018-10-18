@@ -7,7 +7,7 @@
     </Card>
     <span v-for="n in (15 - pack(player).length)" :key="n" 
           class="card card-empty" draggable="false">
-     <img src="images/empty-card.png" />
+     <img src="images/card-empty.png" />
     </span>
   </div>
 </template>
