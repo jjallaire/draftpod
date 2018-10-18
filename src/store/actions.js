@@ -3,7 +3,7 @@
 import axios from 'axios'
 import uuidv4 from 'uuid'
 
-const local_images = false
+const local_images = true
 
 import { 
   SET_CARDPOOL,
@@ -11,7 +11,7 @@ import {
   PACK_TO_PILE, 
   PILE_TO_PILE, 
   PASS_PACKS, 
-  COMPLETE_DRAFT,
+  SET_DRAFT_COMPLETE,
   SET_CARD_PREVIEW
 } from './mutations';
 
@@ -21,6 +21,7 @@ export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
 export const MOVE_CARD = 'MOVE_CARD';
+export const COMPLETE_DRAFT = 'COMPLETE_DRAFT';
 
 export default {
 
@@ -43,7 +44,7 @@ export default {
 
   },
 
-  [PICK_CARD]({ commit, state }, payload) {
+  [PICK_CARD]({ commit, dispatch, state }, payload) {
     
     // alias player
     let playerNumber = payload.playerNumber;
@@ -63,7 +64,7 @@ export default {
         nextPack(commit, state, playerNumber);
       else {
         // otherwise the draft is done!
-        commit(COMPLETE_DRAFT);
+        dispatch(COMPLETE_DRAFT);
       }
 
     // pass the packs
@@ -74,6 +75,14 @@ export default {
 
   [MOVE_CARD]({ commit }, payload) {
     commit(PILE_TO_PILE, payload);
+  },
+
+  [COMPLETE_DRAFT]({ commit }) {
+
+    // delay to allow UI state to update before starting
+    // completion-based animations
+    setTimeout(()=> { commit(SET_DRAFT_COMPLETE); }, 100)
+    
   }
 };
 

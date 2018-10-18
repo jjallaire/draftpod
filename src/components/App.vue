@@ -97,7 +97,7 @@ body {
 }
 
 .pack-hide-leave-active {
-  transition: all 2s;
+  transition: all 1s;
   max-height: 500px;
 }
 
@@ -105,7 +105,6 @@ body {
   max-height: 0px;
   padding: 0;
   margin: 0;
-  opacity: 0;
 }
 
 </style>

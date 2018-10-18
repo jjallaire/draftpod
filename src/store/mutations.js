@@ -4,7 +4,7 @@ export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
 export const PACK_TO_PILE = 'PACK_TO_PILE'
 export const PILE_TO_PILE = 'PILE_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
-export const COMPLETE_DRAFT = 'COMPLETE_DRAFT'
+export const SET_DRAFT_COMPLETE = 'SET_DRAFT_COMPLETE'
 
 export default {
 
@@ -96,7 +96,7 @@ export default {
     state.current_pick++;
   },
 
-  [COMPLETE_DRAFT](state) {
+  [SET_DRAFT_COMPLETE](state) {
     state.complete = true;
   }
 };
