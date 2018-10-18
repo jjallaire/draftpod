@@ -3,10 +3,10 @@
     <Header />
     <div class="main">
       <div class="draft">
-        <Pack :player="0"/>
-        <Deck :player="0"/>
+        <Pack :player="player"/>
+        <Deck :player="player"/>
       </div> 
-      <Sidebar :player="0"/>
+      <Sidebar :player="player"/>
     </div>
   </div>
 </template>
@@ -24,6 +24,13 @@ import { mapGetters } from 'vuex';
 export default {
   name: 'App',
 
+  props: {
+    player: {
+      type: Number,
+      default: 0
+    }
+  },
+
   components: {
     Header, Pack, Deck, Sidebar
   },
@@ -31,7 +38,7 @@ export default {
   created() {
     if (!this.started) {
       let set = this.$route.query.set || 'grn';
-      this.startDraft({ set: set });
+      this.startDraft({ player: this.player, set: set });
     }
   },
 

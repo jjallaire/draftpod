@@ -23,10 +23,7 @@ export const MOVE_CARD = 'MOVE_CARD';
 
 export default {
 
-  [START_DRAFT]( { commit, state }, payload ) {
-
-    // determine set
-    let set = payload.set;
+  [START_DRAFT]( { commit, state }, {set} ) {
 
     // download cardpool
     axios.get('sets/' + set + '/cards.json')
