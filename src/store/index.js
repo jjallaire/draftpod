@@ -22,9 +22,9 @@ const store = new Vuex.Store({
       return {
         pack: [],
         piles: [...Array(8)].map(() => Array()),
+        card_preview: null
       }
     }),
-    card_preview: null,
     complete: false
   },
   getters: {
@@ -34,7 +34,7 @@ const store = new Vuex.Store({
     current_pick: (state) => state.current_pick,
     pack: (state) => (player) => state.players[player].pack,
     piles: (state) => (player) => state.players[player].piles,
-    card_preview: (state) => state.card_preview,
+    card_preview: (state) => (player) => state.players[player].card_preview,
     complete: (state) => state.complete,
   },
   actions,

@@ -6,8 +6,8 @@
       @dragover="handleDragover(...arguments)"
       @dragleave="handleDragleave(...arguments)">
   <div class="caption" :style="{textAlign: center_caption ? 'center' : 'left'}">{{ caption }}</div>
-  <Card v-for="(card, index) in piles(player)[number]" :card="card" :key="card.key"
-        :drag_source="drag_source"
+  <Card v-for="(card, index) in piles(player)[number]" :key="card.key"
+        :player="player" :card="card" :drag_source="drag_source"
         v-bind:style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
   </Card>
   <div class="drag-insert" v-bind:style="styles.dragInsert"></div>

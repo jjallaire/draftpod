@@ -3,7 +3,7 @@
 
 <div class="sidebar">
   <div class="sidebar-content">
-    <img class="card-preview" v-if="card_preview" :src="card_preview.image"/>   
+     <img class="card-preview" v-if="card_preview(player)" :src="card_preview(player).image"/> 
   </div>
 </div> 
 
@@ -16,6 +16,13 @@ import { mapGetters } from 'vuex';
 
 export default {
   name: 'Sidebar',
+
+  props: {
+    player: {
+      type: Number,
+      required: true
+    }
+  },
 
   computed: {
     ...mapGetters([

@@ -13,13 +13,17 @@
 <script>
 
 import { Drag } from 'vue-drag-drop';
-import { mapMutations } from 'vuex';
 
-import { SET_CARD_PREVIEW } from '../store/mutations'
+import { mapMutations } from 'vuex';
+import { SET_CARD_PREVIEW } from '../store/mutations';
 
 export default {
   name: 'Card',
   props: {
+    player: {
+      type: Number,
+      required: true
+    },
     card: Object,
     drag_source: {
       type: String,
@@ -31,7 +35,10 @@ export default {
   },
   methods: {
     onMouseOver() {
-      this.set_card_preview({ card: this.card });
+      this.set_card_preview({ 
+        playerNumber: this.player, 
+        card: this.card 
+      });
     },
     onDragStart(data, event) {
       // record offset of cursor to card image (used for determining
@@ -43,8 +50,8 @@ export default {
       };
     },
     ...mapMutations({
-      set_card_preview: SET_CARD_PREVIEW 
-    }),
+      set_card_preview: SET_CARD_PREVIEW
+    })
   }
 }
 </script>

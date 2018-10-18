@@ -6,7 +6,7 @@
         <Pack :player="0"/>
         <Deck :player="0"/>
       </div> 
-      <Sidebar />
+      <Sidebar :player="0"/>
     </div>
   </div>
 </template>

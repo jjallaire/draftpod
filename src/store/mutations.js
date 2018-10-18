@@ -1,9 +1,9 @@
 export const SET_CARDPOOL = 'SET_CARDPOOL'
 export const OPEN_PACKS = 'OPEN_PACKS'
+export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
 export const PACK_TO_PILE = 'PACK_TO_PILE'
 export const PILE_TO_PILE = 'PILE_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
-export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
 export const COMPLETE_DRAFT = 'COMPLETE_DRAFT'
 
 export default {
@@ -23,6 +23,10 @@ export default {
     state.current_pick = 1;
   },
 
+  [SET_CARD_PREVIEW](state, { playerNumber, card } ) {
+    let player = state.players[playerNumber];
+    player.card_preview = card;
+  },
 
   [PACK_TO_PILE](state, { playerNumber, card, pileNumber, insertBefore }) {
 
@@ -90,10 +94,6 @@ export default {
     
     // increment pick
     state.current_pick++;
-  },
-
-  [SET_CARD_PREVIEW](state, { card }) {
-    state.card_preview = card;
   },
 
   [COMPLETE_DRAFT](state) {
