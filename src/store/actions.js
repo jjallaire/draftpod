@@ -11,7 +11,8 @@ import {
   PACK_TO_PILE, 
   PILE_TO_PILE, 
   PASS_PACKS, 
-  COMPLETE_DRAFT
+  COMPLETE_DRAFT,
+  SET_CARD_PREVIEW
 } from './mutations';
 
 import sets from './sets/'
@@ -23,7 +24,7 @@ export const MOVE_CARD = 'MOVE_CARD';
 
 export default {
 
-  [START_DRAFT]( { commit, state }, {set} ) {
+  [START_DRAFT]( { commit, state }, {playerNumber, set} ) {
 
     // download cardpool
     axios.get('sets/' + set + '/cards.json')
@@ -36,7 +37,7 @@ export default {
         });
 
         // distribute next pack
-        nextPack(commit, state);
+        nextPack(commit, state, playerNumber);
       });
 
 
@@ -59,7 +60,7 @@ export default {
 
       // if we still have packs to go then create the next pack
       if (state.current_pack < 3)
-        nextPack(commit, state);
+        nextPack(commit, state, playerNumber);
       else {
         // otherwise the draft is done!
         commit(COMPLETE_DRAFT);
@@ -76,13 +77,19 @@ export default {
   }
 };
 
-function nextPack(commit, state) {
+function nextPack(commit, state, playerNumber) {
 
   // generate 8 boosters
   let packs = [...Array(8)].map(() => booster(state.cardpool));
 
   // set them
   commit(OPEN_PACKS, packs);
+
+  // set the current preview to the first card in the pack
+  commit(SET_CARD_PREVIEW, {
+    playerNumber: playerNumber,
+    card: state.players[playerNumber].pack[0],
+  });
 
 }
 

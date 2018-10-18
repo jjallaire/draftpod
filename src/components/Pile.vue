@@ -161,7 +161,7 @@ function cardInsertLocation(data, event) {
 .pile, .pile-separator {
   display: inline-block;
   position: relative;
-  min-height: 200px;
+  min-height: 300px;
   margin-right: 4px;
 }
 .pile {

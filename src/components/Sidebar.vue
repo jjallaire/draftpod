@@ -3,7 +3,7 @@
 
 <div class="sidebar">
   <div class="sidebar-content">
-     <img class="card-preview" :src="preview_image"/> 
+     <img v-if="preview_image" class="card-preview" :src="preview_image"/> 
   </div>
 </div> 
 
@@ -33,7 +33,7 @@ export default {
       if (card)
         return card.image;
       else
-        return "images/card-back.jpeg";
+        return null;
     }
   },
 }
