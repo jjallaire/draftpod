@@ -1,4 +1,4 @@
-export const SET_CARDPOOL = 'SET_CARDPOOL'
+export const INITIALIZE = 'INITIALIZE'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
 export const PACK_TO_PILE = 'PACK_TO_PILE'
@@ -10,7 +10,8 @@ import Vue from 'vue'
 
 export default {
 
-  [SET_CARDPOOL](state, cardpool) {
+  [INITIALIZE](state, { set_code, cardpool }) {
+    state.set_code = set_code;
     state.cardpool = cardpool;
   },
 

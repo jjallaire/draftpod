@@ -43,7 +43,7 @@ export default {
   created() {
     if (!this.started) {
       let set = this.$route.query.set || 'grn';
-      this.startDraft({ playerNumber: this.player, set: set });
+      this.startDraft({ playerNumber: this.player, set_code: set });
     }
   },
 

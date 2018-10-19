@@ -6,7 +6,7 @@ import uuidv4 from 'uuid'
 const local_images = true
 
 import { 
-  SET_CARDPOOL,
+  INITIALIZE,
   OPEN_PACKS, 
   PACK_TO_PILE, 
   PILE_TO_PILE, 
@@ -25,16 +25,16 @@ export const COMPLETE_DRAFT = 'COMPLETE_DRAFT';
 
 export default {
 
-  [START_DRAFT]( { commit, state }, {playerNumber, set} ) {
+  [START_DRAFT]( { commit, state }, {playerNumber, set_code} ) {
 
     // download cardpool
-    axios.get('sets/' + set + '/cards.json')
+    axios.get('sets/' + set_code + '/cards.json')
       .then(response => {
 
-        // set the cardpool
-        commit(SET_CARDPOOL, {
-          set: set,
-          cards: response.data
+        // initialize
+        commit(INITIALIZE, {
+          set_code: set_code,
+          cardpool: response.data
         });
 
         // distribute next pack
@@ -60,7 +60,7 @@ export default {
     if (player.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
-      if (state.current_pack < 1)
+      if (state.current_pack < 3)
         nextPack(commit, state, playerNumber);
       else {
         // otherwise the draft is done!
@@ -89,7 +89,7 @@ export default {
 function nextPack(commit, state, playerNumber) {
 
   // generate 8 boosters
-  let packs = [...Array(8)].map(() => booster(state.cardpool));
+  let packs = [...Array(8)].map(() => booster(state.set_code, state.cardpool));
 
   // set them
   commit(OPEN_PACKS, packs);
@@ -103,7 +103,7 @@ function nextPack(commit, state, playerNumber) {
 }
 
 function aiPicks(commit, state, playerNumber) {
-  let set = sets[state.cardpool.set];
+  let set = sets[state.set_code];
   for (let i=0; i<state.players.length; i++) {
     if (i !== playerNumber) {
       let player = state.players[i];
@@ -118,10 +118,10 @@ function aiPicks(commit, state, playerNumber) {
   }
 }
 
-function booster(cardpool) {
+function booster(set_code, cardpool) {
 
   // generate range of indexes then shuffle it
-  let indexes = shuffleArray([...Array(cardpool.cards.length).keys()]);
+  let indexes = shuffleArray([...Array(cardpool.length).keys()]);
 
   // function to draw next n cards that pass a set of filters
   function cards(filters, number) {
@@ -130,7 +130,7 @@ function booster(cardpool) {
     let cards = [];
     for (let i=0; i<indexes.length; i++) {
       let index = indexes[i];
-      let card = cardpool.cards[index];
+      let card = cardpool[index];
       let passed = true;
       for (let f=0; f<filters.length; f++) {
         if (!filters[f](card)) {
@@ -142,7 +142,7 @@ function booster(cardpool) {
         cards.push({...card, 
           key: uuidv4(), 
           image: local_images ? 
-                  'sets/' + cardpool.set + '/' + card.id + '.png' :
+                  'sets/' + set_code + '/' + card.id + '.png' :
                   card.image_uri,
         });
       }
@@ -152,7 +152,7 @@ function booster(cardpool) {
     return cards;
   }
 
-  let set = sets[cardpool.set];
+  let set = sets[set_code];
   return set.booster(cards);
 }
 

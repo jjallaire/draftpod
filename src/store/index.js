@@ -12,10 +12,8 @@ const debug = process.env.NODE_ENV !== 'production'
 
 const store = new Vuex.Store({
   state: {
-    cardpool: {
-      set: '',
-      cards: []
-    },
+    set_code: null,
+    cardpool: [],
     current_pack: 0,
     current_pick: 0,
     players: [...Array(8)].map(function() {
@@ -28,6 +26,7 @@ const store = new Vuex.Store({
     complete: false
   },
   getters: {
+    set_code: (state) => state.set_code,
     cardpool: (state) => state.cardpool,
     started: (state) => state.current_pack > 0,
     current_pack: (state) => state.current_pack,
