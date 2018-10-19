@@ -41,8 +41,7 @@ export default {
       required: true
     },
     caption: {
-      type: String,
-      default: ' '
+      type: String
     },
     center_caption: {
       type: Boolean,
