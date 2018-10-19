@@ -39,9 +39,9 @@ export default {
 
 <style>
 .pack {
-  padding-top: 7px;
-  padding-left: 7px;
-  margin-bottom: 7px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
 }
 .pack .card img {
   width: 11.5%;

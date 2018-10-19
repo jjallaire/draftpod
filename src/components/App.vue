@@ -6,6 +6,9 @@
         <transition name="pack-hide"> 
           <Pack v-if="!complete" :player="player"/>
         </transition>
+        <transition name="pack-hide"> 
+        <div v-if="!complete" class="pack-separator"></div>
+        </transition>
         <Deck :player="player"/>
       </div> 
       <Sidebar :player="player"/>
@@ -90,6 +93,12 @@ body {
 
 .pack {
   flex: 0 1 auto;
+}
+
+.pack-separator {
+  flex: 0 1 auto;
+  height: 10px;
+  background-color: rgba(39, 128, 227, 0.1);
 }
 
 .deck {

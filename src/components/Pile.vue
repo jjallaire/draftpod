@@ -42,6 +42,7 @@ export default {
     },
     caption: {
       type: String,
+      default: ' '
     },
     center_caption: {
       type: Boolean,
@@ -175,9 +176,12 @@ function cardInsertLocation(data, event) {
   left: 0;
   top: 0;
   font-size: 0.8em;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   width: 100%;
+  color: #808080;
+  margin-top: -2px;
 }
 @media only screen and (max-width: 1000px) {
 .pile {

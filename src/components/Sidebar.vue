@@ -43,12 +43,12 @@ export default {
 <style>
 .sidebar {
   flex: 0 1 auto;
-  background-color: yellow;
+  background-color: rgba(39, 128, 227, 0.1);
 }
 
 .sidebar-content {
   width: 230px;
-  padding: 7px;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 1200px) {

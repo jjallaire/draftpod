@@ -2,7 +2,7 @@
 
 <template>
   <div class="deck">
-    <Pile :player="player" :key="0" :number="0"></Pile>
+    <Pile caption="Main Deck" :player="player" :key="0" :number="0"></Pile>
     <Pile :player="player" v-for="number in 6" :key="number" :number="number"></Pile>
     <div class="pile pile-separator"></div>
     <Pile caption="Sideboard" :center_caption="true" :player="player" :key="7" :number="7"></Pile>
@@ -31,10 +31,10 @@ export default {
 
 <style>
 .deck {
-  background-color: #E8E8E8;
+  background-color: white;
   position: relative;
   overflow-y: scroll;
-  padding: 7px;
+  padding: 10px;
 }
 </style>
 
