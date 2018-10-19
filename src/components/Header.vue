@@ -3,7 +3,7 @@
 <template>
   <header class="header">
     <div v-if="complete">Draft complete!</div> 
-    <div v-else >Pack {{ current_pack }}&nbsp;Pick {{ current_pick }}</div>
+    <div v-else >Pack {{ current_pack }}, Pick {{ current_pick }}</div>
   </header>
 </template>
 
@@ -27,6 +27,8 @@ export default {
 <style>
 .header {
   width: 100%;
+  font-size: 1.1em;
+  font-weight: 500;
   background-color: #2780e3;
   border-color: #1967be;
   color: white;

@@ -67,6 +67,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
 }
 
 .app {
