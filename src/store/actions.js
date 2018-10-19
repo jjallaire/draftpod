@@ -15,7 +15,7 @@ import {
   SET_CARD_PREVIEW
 } from './mutations';
 
-import sets from './sets/'
+import * as set from './set/'
 
 export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
@@ -103,11 +103,10 @@ function nextPack(commit, state, playerNumber) {
 }
 
 function aiPicks(commit, state, playerNumber) {
-  let set = sets[state.set_code];
   for (let i=0; i<state.players.length; i++) {
     if (i !== playerNumber) {
       let player = state.players[i];
-      let card = set.pick(player.piles[0], player.pack);
+      let card = set.pick(state.set_code, player.piles[0], player.pack);
       commit(PACK_TO_PILE, { 
         playerNumber: i, 
         card: card, 
@@ -152,8 +151,7 @@ function booster(set_code, cardpool) {
     return cards;
   }
 
-  let set = sets[set_code];
-  return set.booster(cards);
+  return set.booster(set_code, cards);
 }
 
 
