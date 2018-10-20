@@ -1,6 +1,6 @@
 
 <template>
-  <Drag v-if="drag_source" tag="span" class="draggable mtgcard" 
+  <Drag v-if="drag_source" tag="span" class="mtgcard mtgcard-draggable" 
         @dragstart="onDragStart"
         :transfer-data="{drag_source, card}" :key="card.key">
      <img :src="card.image" @mouseover="onMouseOver"/>
@@ -57,7 +57,7 @@ export default {
 </script>
 
 <style>
-.draggable {
+.mtgcard-draggable {
   cursor: move; /* fallback if grab cursor is unsupported */
   cursor: grab;
   cursor: -moz-grab;

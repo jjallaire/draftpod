@@ -5,7 +5,7 @@
       @drop="handleDrop(...arguments)" 
       @dragover="handleDragover(...arguments)"
       @dragleave="handleDragleave(...arguments)">
-  <div class="caption" v-if="caption" 
+  <div class="mtgpile-caption" v-if="caption" 
        :style="{textAlign: center_caption ? 'center' : 'left'}">
     {{ caption }}
   </div>
@@ -13,7 +13,7 @@
         :player="player" :card="card" :drag_source="drag_source"
         v-bind:style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
   </Card>
-  <div class="drag-insert" v-bind:style="styles.dragInsert"></div>
+  <div class="mtgpile-drag-insert" v-bind:style="styles.dragInsert"></div>
 </Drop>
 
 </template>
@@ -170,7 +170,7 @@ function cardInsertLocation(data, event) {
 .mtgpile-separator {
   width: 3%;
 }
-.mtgpile .caption {
+.mtgpile .mtgpile-caption {
   position: absolute;
   left: 0;
   top: 0;
@@ -200,7 +200,7 @@ function cardInsertLocation(data, event) {
   max-width: 100%;
   height: auto;
 }
-.mtgpile .drag-insert {
+.mtgpile .mtgpile-drag-insert {
   border-top: 2px groove #f2f2f2;
   position: absolute;
   width: 100%;
