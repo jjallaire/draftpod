@@ -1,12 +1,12 @@
 
 
 <template>
-  <div class="pack">
+  <div class="mtgpack">
     <Card v-for="card in pack(player)" :key="card.key" 
           :player="player" :card="card" :drag_source="drag_source">
     </Card>
     <span v-for="n in (16 - pack(player).length)" :key="n" 
-          class="card card-empty" draggable="false">
+          class="mtgcard mtgcard-empty" draggable="false">
      <img src="images/card-empty.png" />
     </span>
   </div>
@@ -38,25 +38,25 @@ export default {
 </script>
 
 <style>
-.pack {
+.mtgpack {
   padding-top: 10px;
   padding-left: 10px;
   margin-bottom: 10px;
 }
-.pack .card img {
+.mtgpack .mtgcard img {
   width: 11.5%;
   height: auto;
 }
 
-.pack .card-empty img {
+.mtgpack .mtgcard-empty img {
   user-select: none;
   width: 11.5%;
   height: auto;
 }
 
 @media only screen and (max-width: 1000px) {
-.pack .card img,
-.pack .card-empty img {
+.mtgpack .mtgcard img,
+.mtgpack .mtgcard-empty img {
   width: 10%;
 } 
 }

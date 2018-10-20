@@ -1,24 +1,24 @@
 <template>
-  <div class="app">
+  <div class="mtgdraft">
     <Header />
-    <div class="main">
-      <div class="draft">
-        <transition name="pack-hide"> 
+    <div class="mtgdraft-main">
+      <div class="mtgdraft-cards">
+        <transition name="mtgpack-hide"> 
           <Pack v-if="!complete" :player="player"/>
         </transition>
-        <transition name="pack-hide"> 
-        <div v-if="!complete" class="pack-separator"></div>
+        <transition name="mtgpack-hide"> 
+        <div v-if="!complete" class="mtgpack-separator"></div>
         </transition>
         <Deck :player="player"/>
       </div> 
-      <Sidebar :player="player"/>
+      <Infobar :player="player"/>
     </div>
   </div>
 </template>
 
 <script>
 import Header from './Header.vue'
-import Sidebar from './Sidebar.vue'
+import Infobar from './Infobar.vue'
 import Deck from './Deck.vue';
 import Pack from './Pack.vue';
 import { START_DRAFT } from '../store/actions';
@@ -37,7 +37,7 @@ export default {
   },
 
   components: {
-    Header, Pack, Deck, Sidebar
+    Header, Pack, Deck, Infobar
   },
 
   created() {
@@ -70,48 +70,48 @@ body {
   font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
 }
 
-.app {
+.mtgdraft {
   display: flex;
   flex-flow: column;
   height: 100%;
 }
 
-.header {
+.mtgdraft-header {
   flex: 0 1 auto;
 }
 
-.main {
+.mtgdraft-main {
   display: flex;
   flex-flow: row;
   flex: 1 1 auto;
 }
 
-.draft {
+.mtgdraft-cards {
   display: flex;
   flex-flow: column;
   flex: 1 1 auto;
 }
 
-.pack {
+.mtgpack {
   flex: 0 1 auto;
 }
 
-.pack-separator {
+.mtgpack-separator {
   flex: 0 1 auto;
   height: 10px;
   background-color: rgba(39, 128, 227, 0.1);
 }
 
-.deck {
+.mtgdeck {
   flex: 1 1 auto;
 }
 
-.pack-hide-leave-active {
+.mtgpack-hide-leave-active {
   transition: all 1s;
   max-height: 500px;
 }
 
-.pack-hide-leave-to {
+.mtgpack-hide-leave-to {
   max-height: 0px;
   padding: 0;
   margin: 0;

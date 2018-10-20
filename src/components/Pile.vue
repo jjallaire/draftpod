@@ -1,7 +1,7 @@
 
 <template>
 
-<Drop class="pile" 
+<Drop class="mtgpile" 
       @drop="handleDrop(...arguments)" 
       @dragover="handleDragover(...arguments)"
       @dragleave="handleDragleave(...arguments)">
@@ -158,19 +158,19 @@ function cardInsertLocation(data, event) {
 </script>
 
 <style>
-.pile, .pile-separator {
+.mtgpile, .mtgpileseparator {
   display: inline-block;
   position: relative;
   min-height: 300px;
   margin-right: 4px;
 }
-.pile {
+.mtgpile {
   width: 11.5%;
 }
-.pile-separator {
+.mtgpile-separator {
   width: 3%;
 }
-.pile .caption {
+.mtgpile .caption {
   position: absolute;
   left: 0;
   top: 0;
@@ -183,24 +183,24 @@ function cardInsertLocation(data, event) {
   margin-top: -2px;
 }
 @media only screen and (max-width: 1000px) {
-.pile {
+.mtgpile {
   width: 10%;
 } 
-.pile .caption {
+.mtgpile .caption {
   font-size: 0.6em;
 }
 }
 
-.pile .card {
+.mtgpile .mtgcard {
   position: absolute;
   left: 0;
   max-width: 100%;
 }
-.pile .card img {
+.mtgpile .mtgcard img {
   max-width: 100%;
   height: auto;
 }
-.pile .drag-insert {
+.mtgpile .drag-insert {
   border-top: 2px groove #f2f2f2;
   position: absolute;
   width: 100%;

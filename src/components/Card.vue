@@ -1,11 +1,11 @@
 
 <template>
-  <Drag v-if="drag_source" tag="span" class="draggable card" 
+  <Drag v-if="drag_source" tag="span" class="draggable mtgcard" 
         @dragstart="onDragStart"
         :transfer-data="{drag_source, card}" :key="card.key">
      <img :src="card.image" @mouseover="onMouseOver"/>
   </Drag>
-  <span v-else class="card" draggable="false">
+  <span v-else class="mtgcard" draggable="false">
     <img :src="card.image" />
   </span>
 </template>

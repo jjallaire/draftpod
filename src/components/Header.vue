@@ -1,7 +1,7 @@
 
 
 <template>
-  <header class="header">
+  <header class="mtgdraft-header">
     <div v-if="complete">Draft complete!</div> 
     <div v-else >Pack {{ current_pack }}, Pick {{ current_pick }}</div>
   </header>
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style>
-.header {
+.mtgdraft-header {
   width: 100%;
   font-size: 1.1em;
   font-weight: 500;

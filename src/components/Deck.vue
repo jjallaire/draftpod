@@ -1,10 +1,10 @@
 
 
 <template>
-  <div class="deck">
+  <div class="mtgdeck">
     <Pile :player="player" :key="0" :number="0"></Pile>
     <Pile :player="player" v-for="number in 6" :key="number" :number="number"></Pile>
-    <div class="pile pile-separator"></div>
+    <div class="mtgpile mtgpile-separator"></div>
     <Pile caption="Sideboard" :center_caption="true" :player="player" :key="7" :number="7"></Pile>
   </div>
 </template>
@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style>
-.deck {
+.mtgdeck {
   background-color: white;
   position: relative;
   overflow-y: scroll;

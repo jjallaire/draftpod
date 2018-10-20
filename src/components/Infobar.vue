@@ -1,9 +1,9 @@
 
 <template>
 
-<div class="sidebar">
-  <div class="sidebar-content">
-     <img v-if="preview_image" class="card-preview" :src="preview_image"/> 
+<div class="mtgdraft-infobar">
+  <div class="mtgdraft-infobar-content">
+     <img v-if="preview_image" class="mtgcard-preview" :src="preview_image"/> 
   </div>
 </div> 
 
@@ -15,7 +15,7 @@
 import { mapGetters } from 'vuex';
 
 export default {
-  name: 'Sidebar',
+  name: 'Infobar',
 
   props: {
     player: {
@@ -41,30 +41,30 @@ export default {
 
 
 <style>
-.sidebar {
+.mtgdraft-infobar {
   flex: 0 1 auto;
   background-color: rgba(39, 128, 227, 0.1);
 }
 
-.sidebar-content {
+.mtgdraft-infobar-content {
   width: 230px;
   padding: 10px;
 }
 
 @media only screen and (max-width: 1200px) {
-.sidebar-content {
+.mtgdraft-infobar-content {
   width: 180px;
 }
 }
 
 @media only screen and (max-width: 1000px) {
-.sidebar-content {
+.mtgdraft-infobar-content {
   width: 150px;
 }
 }
 
 
-.card-preview {
+.mtgcard-preview {
   width: 100%;
   height: auto;
 }
