@@ -10,9 +10,83 @@
     <!-- Bootstrap -->
     <link href="lib/bootstrap/bootstrap.min.css" rel="stylesheet">
 
+    <style type="text/css">
+    .mtgdraft-cards {
+      position: fixed;
+      top: 56px;
+      left: 0;
+      bottom: 0;
+      right: 220px;
+      background-color: yellow;
+      display: flex;
+      flex-direction: column
+    }
+    .mtgpack {
+      flex: 0 1 auto;
+      background-color: pink;
+    }
+    .mtgdeck {
+      flex: 1 1 auto;
+      background-color: gray;
+    }
+    .mtgdraft-infobar {
+      position: fixed;
+      top: 56px;
+      right: 0;
+      bottom: 0;
+      width: 220px;
+      border-left: 1px solid #e2e2e2;
+      background-color: red;
+      display: flex;
+      flex-direction: column
+    }
+
+    .mtgcard-preview {
+      width: 100%;  
+    }
+    .mtgcard-preview img {
+      width: 100%;
+      height: auto;
+    }
+
+    .mtgdeckstats {
+      flex: 1 1 auto;
+      background-color: blue;
+    }
+    </style>
+
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
+    <nav class="navbar fixed-top navbar-light bg-light">
+      <a class="navbar-brand" href="#">Fixed top</a>
+    </nav>
+
+    <div class="mtgdraft-infobar">
+      <div class="mtgcard-preview">
+        <img src="images/card-back.jpeg"/>
+      </div>
+
+      <div class="mtgdeckstats">
+
+
+      </div>
+    </div>
+
+    <div class="mtgdraft-cards">
+
+      <div class="mtgpack">
+        <p>Pack</p>
+        <p>Pack</p>
+        <p>Pack</p>
+      </div>
+      <div class="mtgdeck">
+        <p>Deck</p>
+      </div>
+
+    </div> 
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="lib/jquery/jquery-3.3.1.slim.min.js"></script>
