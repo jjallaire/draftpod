@@ -44,6 +44,29 @@
 
     .mtgdraft-main .card-header {
       padding: 0.3rem;
+      font-size: 0.9em;
+    }
+
+    .mtgdraft-main .tabs-header {
+      padding: 0;
+      background-color: transparent;
+    }
+
+    .mtgdraft-main .nav-tabs {
+      box-shadow: inset 0 -1px 0 #ddd;
+    }
+
+    .mtgdraft-main .nav-tabs .nav-item {
+      margin-bottom: 0;
+    }
+
+    .mtgdraft-main .nav-tabs .nav-link {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    .mtgdraft-main .nav-tabs .nav-link.active,
+    .mtgdraft-main .nav-tabs .nav-link.active:focus {
+      color: #444;
     }
 
     .mtgdraft-main .card-body {
@@ -131,8 +154,29 @@
           </div>
         </div>
         <div class="mtgdeck card">
-          <div class="card-body">
-          <p>Deck</p>
+            <div class="card-header tabs-header">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="deck-tab" data-toggle="tab" href="#deck" 
+                          role="tab" aria-controls="deck" aria-selected="true">
+                       Deck Builder
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pick-analysis-tab" data-toggle="tab" href="#pick-analysis"
+                      role="tab" aria-controls="pick-analysis" aria-selected="false">
+                      Pick Analysis
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          <div class="card-body tab-content">
+            <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
+                <p>Deck</p>
+            </div>
+            <div id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
+                <p>Pick Analysis</p>
+            </div>
           </div>
         </div>
 
