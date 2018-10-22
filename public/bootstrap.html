@@ -65,7 +65,7 @@
     }
 
     .mtgdraft-infobar {
-      width: 220px;
+      width: 190px;
       flex: 0 1 auto;
       display: flex;
       flex-direction: column;
@@ -74,11 +74,30 @@
       background-color: #f2f2f2;
     }
 
+    @media only screen and (min-width: 900px) {
+      .mtgdraft-infobar {
+        width: 190px;
+      }
+    }
+
+    @media only screen and (min-width: 1100px) {
+      .mtgdraft-infobar {
+        width: 210px;
+      }
+    }
+
+    @media only screen and (min-width: 1300px) {
+      .mtgdraft-infobar {
+        width: 230px;
+      }
+    }
+
+
     .mtgcard-preview {
       width: 100%;  
       background-color: #f2f2f2;
     }
-    
+
     .mtgcard-preview img {
       width: 100%;
       height: auto;
