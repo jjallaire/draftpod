@@ -8,7 +8,7 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="lib/bootstrap/materia.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/slate.min.css" rel="stylesheet">
 
 
     <style type="text/css">
@@ -21,12 +21,13 @@
       display: flex;
       flex-direction: column;
       height: 100%;
-      background-color: #f2f2f2;
     }
 
     .navbar {
       flex: 0 1 auto;
       padding: 8px;
+      padding-bottom: 0;
+      border: 0;
     }
 
     .navbar-brand {
@@ -34,6 +35,7 @@
       font-weight: 500;
       padding-top: 0;
       padding-bottom: 0;
+      padding-left: 0.3rem;
     }
 
     .mtgdraft-main {
@@ -42,31 +44,31 @@
       flex-direction: row
     }
 
+    .mtgdraft-main .card {
+      border: 0;
+    }
+
     .mtgdraft-main .card-header {
       padding: 0.3rem;
-      font-size: 0.9em;
+      font-size: 0.7rem;
+      color: #e7e7e7;
+      border-bottom: 0;
     }
+
+    .mtgdraft-main .tabs-header .nav-link {
+      padding: 0.3rem;
+      padding-right: 0.8rem;
+      font-size: 0.7rem;
+      color:#c7c7c7;
+    }
+
+     .mtgdraft-main .tabs-header .nav-link.active,
+     .mtgdraft-main .tabs-header .nav-link:hover {
+        color: #e7e7e7;
+     }
 
     .mtgdraft-main .tabs-header {
       padding: 0;
-      background-color: transparent;
-    }
-
-    .mtgdraft-main .nav-tabs {
-      box-shadow: inset 0 -1px 0 #ddd;
-    }
-
-    .mtgdraft-main .nav-tabs .nav-item {
-      margin-bottom: 0;
-    }
-
-    .mtgdraft-main .nav-tabs .nav-link {
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-    }
-    .mtgdraft-main .nav-tabs .nav-link.active,
-    .mtgdraft-main .nav-tabs .nav-link.active:focus {
-      color: #444;
     }
 
     .mtgdraft-main .card-body {
@@ -136,9 +138,9 @@
 
 
   </head>
-  <body>
+  <body class="bg-primary">
     
-    <nav class="navbar navbar-light">
+    <nav class="navbar navbar-dark bg-primary">
       <span class="navbar-brand">MTG Drafter</span>
     </nav>
 
@@ -146,16 +148,16 @@
 
       <div class="mtgdraft-cards">
 
-        <div class="mtgpack card">
+        <div class="mtgpack card bg-light">
           <div class="card-body">
             <p>Pack</p>
             <p>Pack</p>
             <p>Pack</p>
           </div>
         </div>
-        <div class="mtgdeck card">
+        <div class="mtgdeck card bg-light">
             <div class="card-header tabs-header">
-                <ul class="nav nav-tabs" role="tablist">
+                <ul class="nav" role="tablist">
                   <li class="nav-item">
                     <a class="nav-link active" id="deck-tab" data-toggle="tab" href="#deck" 
                           role="tab" aria-controls="deck" aria-selected="true">
@@ -187,7 +189,7 @@
             <img src="images/card-back.jpeg"/>
           </div>
   
-          <div class="mtgdeckstats card">
+          <div class="mtgdeckstats card bg-light">
             <div class="card-header">Deck Stats</div>
             <div class="card-body">
             </div>
