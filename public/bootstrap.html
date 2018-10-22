@@ -12,21 +12,34 @@
 
 
     <style type="text/css">
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .navbar {
+      flex: 0 1 auto;
+    }
+
     .mtgdraft-main {
-      position: fixed;
-      top: 56px;
-      left: 0;
-      bottom: 0;
-      right: 0;
+      flex: 1 1 auto;
       display: flex;
       flex-direction: row
     }
+
     .mtgdraft-panel {
       background-color: #fff;
       border: 1px solid #e2e2e2;
       border-radius: 3px;
       margin: 5px;
     }
+    
     .mtgdraft-panel-title {
       border-bottom: 1px solid #d7d7d7;
       color: #666;
@@ -34,19 +47,23 @@
       font-weight: 300;
       padding: 5px 7px 3px;
     }
+
     .mtgdraft-cards {
       flex: 1 1 auto;
       display: flex;
       flex-direction: column;
       background-color: #f2f2f2;
     }
+
     .mtgpack {
       flex: 0 1 auto;
       margin-bottom: 0;
     }
+
     .mtgdeck {
       flex: 1 1 auto;
     }
+
     .mtgdraft-infobar {
       width: 220px;
       flex: 0 1 auto;
@@ -61,6 +78,7 @@
       width: 100%;  
       background-color: #f2f2f2;
     }
+    
     .mtgcard-preview img {
       width: 100%;
       height: auto;
@@ -78,7 +96,7 @@
   </head>
   <body>
     
-    <nav class="navbar fixed-top navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="#">Fixed top</a>
     </nav>
 
