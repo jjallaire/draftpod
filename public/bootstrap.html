@@ -25,17 +25,20 @@
 
     .navbar {
       flex: 0 1 auto;
-      padding: 8px;
-      padding-bottom: 0;
+      padding: 7px;
       border: 0;
     }
 
     .navbar-brand {
-      font-size: 1.2rem;
-      font-weight: 500;
+      font-size: 1rem;
+      font-weight: 400;
       padding-top: 0;
       padding-bottom: 0;
       padding-left: 0.3rem;
+    }
+
+    .navbar .nav-link {
+      padding: 0;
     }
 
     .mtgdraft {
@@ -49,14 +52,16 @@
     }
 
     .mtgdraft .card-header {
-      padding: 0.3rem;
+      padding: 0.2rem;
+      padding-left: 0.5rem;
       font-size: 0.7rem;
-      color: #e7e7e7;
+      color: #eaeaea;
       border-bottom: 0;
     }
 
     .mtgdraft .tabs-header .nav-link {
-      padding: 0.3rem;
+      padding: 0.2rem;
+      padding-left: 0.5rem;
       padding-right: 0.8rem;
       font-size: 0.7rem;
       color:#c7c7c7;
@@ -64,7 +69,7 @@
 
      .mtgdraft .tabs-header .nav-link.active,
      .mtgdraft .tabs-header .nav-link:hover {
-        color: #e7e7e7;
+        color: #eaeaea;
      }
 
     .mtgdraft .tabs-header {
@@ -80,12 +85,12 @@
       display: flex;
       flex-direction: column;
       background-color: transparent;
-      padding: 8px;
+      padding: 7px;
     }
 
     .mtgdraft-pack {
       flex: 0 1 auto;
-      margin-bottom: 8px;
+      margin-bottom: 7px;
     }
 
     .mtgdraft-deck {
@@ -97,7 +102,7 @@
       flex: 0 1 auto;
       display: flex;
       flex-direction: column;
-      padding: 8px;
+      padding: 7px;
       padding-left: 0;
       background-color: transparent;
     }
@@ -123,7 +128,7 @@
 
     .mtgdraft-cardview {
       width: 100%;  
-      margin-bottom: 8px;
+      margin-bottom: 7px;
     }
 
     .mtgdraft-cardview img {
@@ -138,10 +143,26 @@
 
 
   </head>
-  <body class="bg-primary">
+  <body class="bg-secondary">
     
-    <nav class="navbar navbar-dark bg-primary">
-      <span class="navbar-brand">Dominaria&nbsp;&nbsp;Pack 1, Pick 7</span>
+    <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
+      <span class="navbar-brand">MTG Drafter</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNav" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Draft</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <div class="mtgdraft">
@@ -149,7 +170,17 @@
       <div class="mtgdraft-cards">
 
         <div class="mtgdraft-pack card bg-light">
+          <div class="card-header">
+              Pack 1, Pick 7
+          </div>
           <div class="card-body">
+            <p>Pack</p>
+            <p>Pack</p>
+            <p>Pack</p>
+            <p>Pack</p>
+            <p>Pack</p>
+            <p>Pack</p>
+            <p>Pack</p>
             <p>Pack</p>
             <p>Pack</p>
             <p>Pack</p>
@@ -186,7 +217,7 @@
 
       <div class="mtgdraft-infobar">
           <div class="mtgdraft-cardview">
-            <img src="images/card-back.png"/>
+            <img src="sets/grn/0f88c3aa-63e1-4617-bf1f-48f44988e7d6.png"/>
           </div>
   
           <div class="mtgdraft-deckstats card bg-light">
