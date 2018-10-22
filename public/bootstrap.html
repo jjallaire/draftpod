@@ -38,40 +38,40 @@
       padding-left: 0.3rem;
     }
 
-    .mtgdraft-main {
+    .mtgdraft {
       flex: 1 1 auto;
       display: flex;
       flex-direction: row
     }
 
-    .mtgdraft-main .card {
+    .mtgdraft .card {
       border: 0;
     }
 
-    .mtgdraft-main .card-header {
+    .mtgdraft .card-header {
       padding: 0.3rem;
       font-size: 0.7rem;
       color: #e7e7e7;
       border-bottom: 0;
     }
 
-    .mtgdraft-main .tabs-header .nav-link {
+    .mtgdraft .tabs-header .nav-link {
       padding: 0.3rem;
       padding-right: 0.8rem;
       font-size: 0.7rem;
       color:#c7c7c7;
     }
 
-     .mtgdraft-main .tabs-header .nav-link.active,
-     .mtgdraft-main .tabs-header .nav-link:hover {
+     .mtgdraft .tabs-header .nav-link.active,
+     .mtgdraft .tabs-header .nav-link:hover {
         color: #e7e7e7;
      }
 
-    .mtgdraft-main .tabs-header {
+    .mtgdraft .tabs-header {
       padding: 0;
     }
 
-    .mtgdraft-main .card-body {
+    .mtgdraft .card-body {
       padding: 0.75rem;
     }
 
@@ -83,12 +83,12 @@
       padding: 8px;
     }
 
-    .mtgpack {
+    .mtgdraft-pack {
       flex: 0 1 auto;
       margin-bottom: 8px;
     }
 
-    .mtgdeck {
+    .mtgdraft-deck {
       flex: 1 1 auto;
     }
 
@@ -121,17 +121,17 @@
     }
 
 
-    .mtgcard-preview {
+    .mtgdraft-cardview {
       width: 100%;  
       margin-bottom: 8px;
     }
 
-    .mtgcard-preview img {
+    .mtgdraft-cardview img {
       width: 100%;
       height: auto;
     }
 
-    .mtgdeckstats {
+    .mtgdraft-deckstats {
       flex: 1 1 auto;
     }
     </style>
@@ -144,18 +144,18 @@
       <span class="navbar-brand">Dominaria&nbsp;&nbsp;Pack 1, Pick 7</span>
     </nav>
 
-    <div class="mtgdraft-main">
+    <div class="mtgdraft">
 
       <div class="mtgdraft-cards">
 
-        <div class="mtgpack card bg-light">
+        <div class="mtgdraft-pack card bg-light">
           <div class="card-body">
             <p>Pack</p>
             <p>Pack</p>
             <p>Pack</p>
           </div>
         </div>
-        <div class="mtgdeck card bg-light">
+        <div class="mtgdraft-deck card bg-light">
             <div class="card-header tabs-header">
                 <ul class="nav" role="tablist">
                   <li class="nav-item">
@@ -185,11 +185,11 @@
       </div> 
 
       <div class="mtgdraft-infobar">
-          <div class="mtgcard-preview">
+          <div class="mtgdraft-cardview">
             <img src="images/card-back.png"/>
           </div>
   
-          <div class="mtgdeckstats card bg-light">
+          <div class="mtgdraft-deckstats card bg-light">
             <div class="card-header">Deck Stats</div>
             <div class="card-body">
             </div>
