@@ -9,6 +9,7 @@
   </div>
   
   <div class="mtgdraft-deckstats card bg-light">
+    <div class="card-header">Stats</div>
     <div class="card-body">
     </div>
   </div>

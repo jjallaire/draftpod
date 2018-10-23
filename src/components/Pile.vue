@@ -45,7 +45,7 @@ export default {
     },
     center_caption: {
       type: Boolean,
-      default: false
+      default: true
     }
   },
   computed: {

@@ -12,7 +12,7 @@
             Deck
         </a>
       </li>
-      <li v-if="!complete" class="nav-item">
+      <li v-if="pick_analysis" class="nav-item">
         <a class="nav-link" id="pick-analysis-tab" data-toggle="tab" href="#pick-analysis"
           role="tab" aria-controls="pick-analysis" aria-selected="false">
           Pick Analysis
@@ -23,12 +23,14 @@
 
   <div class="card-body tab-content">
     <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
-      <Pile :player="player" :key="0" :number="0"></Pile>
-      <Pile :player="player" v-for="number in 6" :key="number" :number="number"></Pile>
+      <Pile :player="player" :key="0" :number="0" :caption="1"></Pile>
+      <Pile :player="player" v-for="number in 4" :key="number" :number="number" :caption="number+1"></Pile>
+      <Pile :player="player" :key="5" :number="5" caption="6+"></Pile>
+      <Pile :player="player" :key="6" :number="6" caption="Lands"></Pile>
       <div class="mtgpile mtgpile-separator"></div>
-      <Pile caption="Sideboard" :center_caption="true" :player="player" :key="7" :number="7"></Pile>
+      <Pile caption="Sideboard"  :player="player" :key="7" :number="7"></Pile>
     </div>
-    <div v-if="!complete" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
+    <div v-if="pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
       <p>Pick Analysis</p>
     </div>
 </div>
@@ -48,6 +50,10 @@ export default {
     player: {
       type: Number,
       required: true
+    },
+    pick_analysis: {
+      type: Boolean,
+      default: false
     }
   },
   components: {
@@ -56,7 +62,7 @@ export default {
   computed: {
     ...mapGetters([
       'complete'
-    ]),
+    ])
   },
 }
 
