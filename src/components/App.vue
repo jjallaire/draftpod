@@ -5,7 +5,9 @@
   <div class="mtgdraft">
 
       <div class="mtgdraft-cards">
-        <Pack :player="player"/>
+        <transition name="mtgpack-hide">
+          <Pack v-if="!complete" :player="player"/>
+        </transition>
         <Deck :player="player"/>
       </div>
 
@@ -18,8 +20,6 @@
 
 <script>
 
-// TODO: min height for piles is problematic
-// TODO: drag insert feedback
 
 import Navbar from './Navbar.vue'
 import Infobar from './Infobar.vue'
@@ -120,12 +120,12 @@ body {
 .mtgdraft-pack {
   flex: 0 1 auto;
   margin: 8px;
+  margin-bottom: 0;
 }
 
 .mtgdraft-deck {
   flex: 1 1 auto;
   margin: 8px;
-  margin-top: 0;
 }
 
 .mtgdraft .card {
@@ -200,8 +200,6 @@ body {
 
 .mtgpack-hide-leave-to {
   max-height: 0px;
-  padding: 0;
-  margin: 0;
 }
 
 </style>

@@ -142,7 +142,7 @@ function cardInsertLocation(data, event) {
     insertBefore: null,
     feedbackAt: null
   };
-  const cards = pileElement.getElementsByClassName("card");
+  const cards = pileElement.getElementsByClassName("mtgcard");
   for (let i = 0; i<cards.length; i++) {
     let cardTop = cards.item(i).getBoundingClientRect().top - pileBoundingRect.top;
     if (cardTop > dragCardTop) {
