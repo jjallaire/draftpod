@@ -23,10 +23,10 @@
 
   <div class="card-body tab-content">
     <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
-      <Pile :player="player" :key="0" :number="0" :caption="1"></Pile>
-      <Pile :player="player" v-for="number in 4" :key="number" :number="number" :caption="number+1"></Pile>
-      <Pile :player="player" :key="5" :number="5" caption="6+"></Pile>
-      <Pile :player="player" :key="6" :number="6" caption="Lands"></Pile>
+      <Pile :player="player" :key="0" :number="0"></Pile>
+      <Pile :player="player" v-for="number in 4" :key="number" :number="number"></Pile>
+      <Pile :player="player" :key="5" :number="5"></Pile>
+      <Pile :player="player" :key="6" :number="6"></Pile>
       <div class="mtgpile mtgpile-separator"></div>
       <Pile caption="Sideboard"  :player="player" :key="7" :number="7"></Pile>
     </div>
