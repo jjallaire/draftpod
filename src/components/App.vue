@@ -136,7 +136,7 @@ body {
   padding: 0.2rem;
   padding-left: 0.5rem;
   font-size: 0.7rem;
-  border-bottom: 0;
+  border-bottom: lightgray;
 }
 
 .mtgdraft .tabs-header .nav-link {
@@ -144,12 +144,12 @@ body {
   padding-left: 0.5rem;
   padding-right: 0.8rem;
   font-size: 0.7rem;
-  color: gray;
+  color: #aaa;
 }
 
   .mtgdraft .tabs-header .nav-link.active,
   .mtgdraft .tabs-header .nav-link:hover {
-    color: inherit;
+    color:  lightgray;
   }
 
 .mtgdraft .tabs-header {
