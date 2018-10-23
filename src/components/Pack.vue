@@ -1,14 +1,17 @@
 
 
 <template>
-  <div class="mtgpack">
-    <Card v-for="card in pack(player)" :key="card.key" 
-          :player="player" :card="card" :drag_source="drag_source">
-    </Card>
-    <span v-for="n in (16 - pack(player).length)" :key="n" 
-          class="mtgcard mtgcard-empty" draggable="false">
-     <img src="images/card-empty.png" />
-    </span>
+
+  <div class="mtgdraft-pack card bg-light">
+    <div class="card-body">
+      <Card v-for="card in pack(player)" :key="card.key" 
+            :player="player" :card="card" :drag_source="drag_source">
+      </Card>
+      <span v-for="n in (16 - pack(player).length)" :key="n" 
+            class="mtgcard mtgcard-empty" draggable="false">
+      <img src="images/card-empty.png" />
+      </span>
+    </div>
   </div>
 </template>
 
@@ -38,25 +41,20 @@ export default {
 </script>
 
 <style>
-.mtgpack {
-  padding-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 10px;
-}
-.mtgpack .mtgcard img {
+
+.mtgdraft-pack .mtgcard img {
   width: 11.5%;
   height: auto;
+  margin-bottom: 3px;
 }
 
-.mtgpack .mtgcard-empty img {
+.mtgdraft-pack .mtgcard-empty img {
   user-select: none;
-  width: 11.5%;
-  height: auto;
 }
 
 @media only screen and (max-width: 1000px) {
-.mtgpack .mtgcard img,
-.mtgpack .mtgcard-empty img {
+.mtgdraft-pack .mtgcard img,
+.mtgdraft-pack .mtgcard-empty img {
   width: 10%;
 } 
 }

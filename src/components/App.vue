@@ -1,23 +1,27 @@
 <template>
+  <div>
+  <Navbar :player="player" />
+
   <div class="mtgdraft">
-    <Header />
-    <div class="mtgdraft-main">
+
       <div class="mtgdraft-cards">
-        <transition name="mtgpack-hide"> 
-          <Pack v-if="!complete" :player="player"/>
-        </transition>
-        <transition name="mtgpack-hide"> 
-        <div v-if="!complete" class="mtgpack-separator"></div>
-        </transition>
+        <Pack :player="player"/>
         <Deck :player="player"/>
-      </div> 
+      </div>
+
       <Infobar :player="player"/>
-    </div>
+
+  </div>
+
   </div>
 </template>
 
 <script>
-import Header from './Header.vue'
+
+// TODO: min height for piles is problematic
+// TODO: drag insert feedback
+
+import Navbar from './Navbar.vue'
 import Infobar from './Infobar.vue'
 import Deck from './Deck.vue';
 import Pack from './Pack.vue';
@@ -37,7 +41,7 @@ export default {
   },
 
   components: {
-    Header, Pack, Deck, Infobar
+    Navbar, Pack, Deck, Infobar
   },
 
   created() {
@@ -67,14 +71,97 @@ html,
 body {
   height: 100%;
   margin: 0;
-  font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 40px;
 }
 
 .mtgdraft {
-  display: flex;
-  flex-flow: column;
-  height: 100%;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
+
+.mtgdraft-infobar {
+  position: absolute;
+  width: 220px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.mtgdraft-cards {
+  position: absolute;
+  right: 220px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mtgdraft-infobar {
+    width: 200px;
+  }
+  .mtgdraft-cards {
+    right: 200px;
+  }
+}
+
+.mtgdraft-pack {
+  flex: 0 1 auto;
+  margin: 8px;
+}
+
+.mtgdraft-deck {
+  flex: 1 1 auto;
+  margin: 8px;
+  margin-top: 0;
+}
+
+.mtgdraft .card {
+  border: 0;
+}
+
+.mtgdraft .card-header {
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  font-size: 0.7rem;
+  border-bottom: 0;
+}
+
+.mtgdraft .tabs-header .nav-link {
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.8rem;
+  font-size: 0.7rem;
+  color: gray;
+}
+
+  .mtgdraft .tabs-header .nav-link.active,
+  .mtgdraft .tabs-header .nav-link:hover {
+    color: inherit;
+  }
+
+.mtgdraft .tabs-header {
+  padding: 0;
+}
+
+.mtgdraft .card-body {
+  padding: 0.4rem;
+}
+
+
+
 
 .mtgdraft-header {
   flex: 0 1 auto;

@@ -1,11 +1,20 @@
 
 <template>
 
+
+
 <div class="mtgdraft-infobar">
-  <div class="mtgdraft-infobar-content">
-     <img v-if="preview_image" class="mtgcard-preview" :src="preview_image"/> 
+  <div class="mtgdraft-cardview">
+    <img :src="preview_image" />
   </div>
-</div> 
+  
+  <div class="mtgdraft-deckstats card bg-light">
+    <div class="card-header">Deck Stats</div>
+    <div class="card-body">
+    </div>
+  </div>
+</div>
+
 
 </template>
   
@@ -33,7 +42,7 @@ export default {
       if (card)
         return card.image;
       else
-        return null;
+        return "images/card-back.png";
     }
   },
 }
@@ -41,34 +50,47 @@ export default {
 
 
 <style>
+
 .mtgdraft-infobar {
-  flex: 0 1 auto;
-  background-color: rgba(39, 128, 227, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  padding-left: 0;
+  background-color: transparent;
 }
 
-.mtgdraft-infobar-content {
-  width: 230px;
-  padding: 10px;
+@media only screen and (min-width: 900px) {
+  .mtgdraft-infobar {
+    width: 190px;
+  }
 }
 
-@media only screen and (max-width: 1200px) {
-.mtgdraft-infobar-content {
-  width: 180px;
-}
-}
-
-@media only screen and (max-width: 1000px) {
-.mtgdraft-infobar-content {
-  width: 150px;
-}
+@media only screen and (min-width: 1100px) {
+  .mtgdraft-infobar {
+    width: 210px;
+  }
 }
 
+@media only screen and (min-width: 1300px) {
+  .mtgdraft-infobar {
+    width: 230px;
+  }
+}
 
-.mtgcard-preview {
+
+.mtgdraft-cardview {
+  width: 100%;  
+  margin-bottom: 8px;
+}
+
+.mtgdraft-cardview img {
   width: 100%;
   height: auto;
 }
 
+.mtgdraft-deckstats {
+  flex: 1 1 auto;
+}
 
 </style>
 
