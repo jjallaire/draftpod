@@ -2,7 +2,7 @@
 
 <template>
 
-  <div class="mtgdraft-pack card bg-light">
+  <div class="mtgdraft-pack card bg-secondary">
     <div class="card-body">
       <Card v-for="card in pack(player)" :key="card.key" 
             :player="player" :card="card" :drag_source="drag_source">
@@ -41,6 +41,14 @@ export default {
 </script>
 
 <style>
+
+.mtgdraft-pack .card {
+  padding: 0;
+}
+
+.mtgdraft .mtgdraft-pack .card-body {
+  padding: 0;
+}
 
 .mtgdraft-pack .mtgcard img {
   width: 11.5%;

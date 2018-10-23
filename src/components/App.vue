@@ -129,7 +129,7 @@ body {
 }
 
 .mtgdraft .card {
-  border: 0;
+  border: 0; 
 }
 
 .mtgdraft .card-header {
