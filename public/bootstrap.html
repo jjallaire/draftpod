@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <title>mtgdrafter</title>
 
     <link href="lib/bootstrap/materia.min.css" rel="stylesheet">
@@ -30,12 +29,18 @@
       border: 0;
     }
 
-    .navbar-brand {
+    .navbar .navbar-brand {
       font-size: 1rem;
       font-weight: 400;
       padding-top: 0;
       padding-bottom: 0;
       padding-left: 0.3rem;
+    }
+
+    .navbar .navbar-text {
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 1em;
     }
 
     .navbar .nav-link {
@@ -151,11 +156,10 @@
   <body class="bg-secondary">
     
     <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
+
       <span class="navbar-brand">MTG Drafter</span>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="navbarNav" class="navbar-collapse collapse">
+     
+      <div>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">Home</span></a>
@@ -168,8 +172,10 @@
           </li>
         </ul>
       </div>
-      <span class="navbar-brand ml-auto">Pack 1, Pick 7</span>
-      <ul class="navbar-nav ml-auto">
+
+      <span class="navbar-text ml-auto">Guilds of Ravnica &mdash; Pack 1, Pick 7</span>
+
+      <ul class="navbar-nav">
         <li class="nav-item">
               <a class="nav-link" title="Restart Draft" href="#"><i class="material-icons nav-icon">refresh</i></a>
             </li>
