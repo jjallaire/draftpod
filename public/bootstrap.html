@@ -42,6 +42,11 @@
       padding: 0;
     }
 
+    .navbar .nav-icon {
+      font-size: 1.3rem;
+      line-height: inherit;
+    }
+
     .mtgdraft {
       flex: 1 1 auto;
       display: flex;
@@ -163,6 +168,19 @@
           </li>
         </ul>
       </div>
+      <span class="navbar-brand ml-auto">Pack 1, Pick 7</span>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+              <a class="nav-link" title="Restart Draft" href="#"><i class="material-icons nav-icon">refresh</i></a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="Fullscreen"
+             onclick="document.documentElement.webkitRequestFullScreen(); return false;">
+              <i class="material-icons nav-icon">fullscreen</i>
+          </a>
+        </li>
+      </ul>
+      
     </nav>
 
     <div class="mtgdraft">
@@ -170,9 +188,6 @@
       <div class="mtgdraft-cards">
 
         <div class="mtgdraft-pack card bg-light">
-          <div class="card-header">
-              Pack 1, Pick 7
-          </div>
           <div class="card-body">
             <p>Pack</p>
             <p>Pack</p>
@@ -192,7 +207,7 @@
                   <li class="nav-item">
                     <a class="nav-link active" id="deck-tab" data-toggle="tab" href="#deck" 
                           role="tab" aria-controls="deck" aria-selected="true">
-                       Deck Builder
+                       Deck
                     </a>
                   </li>
                   <li class="nav-item">
