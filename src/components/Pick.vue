@@ -64,6 +64,10 @@ export default {
 
 <style>
 
+.mtgdraft-pick .card-body {
+  position: relative;
+  overflow-y: scroll;
+}
 
 </style>
 

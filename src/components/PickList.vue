@@ -32,10 +32,6 @@ export default {
 
 <style>
 
-.mtgdraft-pick-list {
-  position: relative;
-  overflow-y: scroll;
-}
 
 </style>
 
