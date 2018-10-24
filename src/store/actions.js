@@ -60,7 +60,7 @@ export default {
     if (player.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
-      if (state.current_pack < 3)
+      if (state.current_pack < 1)
         nextPack(commit, state, playerNumber);
       else {
         // otherwise the draft is done!
@@ -106,7 +106,7 @@ function aiPicks(commit, state, playerNumber) {
   for (let i=0; i<state.players.length; i++) {
     if (i !== playerNumber) {
       let player = state.players[i];
-      let card = set.pick(state.set_code, player.picks.piles[0], player.pack);
+      let card = set.pick(state.set_code, player.piles[0], player.pack);
       commit(PACK_TO_PILE, { 
         playerNumber: i, 
         card: card, 
