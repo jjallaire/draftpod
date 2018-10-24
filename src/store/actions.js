@@ -60,7 +60,7 @@ export default {
     if (player.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
-      if (state.current_pack < 3)
+      if (state.current_pack < 1)
         nextPack(commit, state, playerNumber);
       else {
         // otherwise the draft is done!

@@ -5,8 +5,11 @@
 
   <span class="navbar-brand">MTG Drafter</span>
   
-  <span class="navbar-text" v-if="complete">Draft complete!</span> 
-  <span class="navbar-text" v-else>Guilds of Ravnica &mdash; Pack {{ current_pack }}, Pick {{ current_pick }}</span> 
+   
+  <span class="navbar-text">Guilds of Ravnica &mdash; 
+    <span v-if="complete">Deck Building</span>
+    <span v-else>Pack {{ current_pack }}, Pick {{ current_pick }}</span>
+  </span> 
   <ul class="navbar-nav">
     <li class="nav-item">
           <a class="nav-link" title="Restart Draft" href="#"><i class="material-icons nav-icon">refresh</i></a>
