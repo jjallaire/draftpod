@@ -36,7 +36,7 @@ export default {
     // alias player and pile
     let player = state.players[playerNumber];
     let pack = player.pack;
-    let pile = player.piles[pileNumber];
+    let pile = player.pick_piles[pileNumber];
    
     // remove from pack
     pack.splice(pack.indexOf(card), 1);
@@ -49,11 +49,11 @@ export default {
 
     // alias player and pile
     let player = state.players[playerNumber];
-    let pile = player.piles[pileNumber];
+    let pile = player.pick_piles[pileNumber];
 
     // remove from existing pile if necessary (if it came from a
     // pack then we won't need to do this)
-    player.piles.forEach(function (p) {
+    player.pick_piles.forEach(function (p) {
 
       let index = p.indexOf(card);
       if (index !== -1) {
