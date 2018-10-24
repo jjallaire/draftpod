@@ -2,21 +2,21 @@
 
 <template>
 
-  <div class="mtgdraft-pack card bg-secondary">
-    <div class="card-body">
-      <Card v-for="card in pack(player)" :key="card.key" 
+  <Panel panel_class="mtgdraft-pack" background="secondary">
+    <Card v-for="card in pack(player)" :key="card.key" 
             :player="player" :card="card" :drag_source="drag_source">
-      </Card>
-      <span v-for="n in (16 - pack(player).length)" :key="n" 
-            class="mtgcard mtgcard-empty" draggable="false">
+    </Card>
+    <span v-for="n in (16 - pack(player).length)" :key="n" 
+          class="mtgcard mtgcard-empty" draggable="false">
       <img src="images/card-empty.png" />
-      </span>
-    </div>
-  </div>
+    </span>
+  </Panel>
+  
 </template>
 
 <script>
 import Card from './Card.vue';
+import Panel from './Panel.vue';
 import { mapGetters } from 'vuex';
 import { DRAG_SOURCE_PACK } from './constants'
 
@@ -35,7 +35,7 @@ export default {
     ]),
   },
   components: {
-    Card
+    Card, Panel
   },
 }
 </script>

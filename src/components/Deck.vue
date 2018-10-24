@@ -1,16 +1,14 @@
+
+
 <template>
-  
-<div class="mtgdraft-deck card bg-light">
-  <div class="card-header">Deck</div>
-  <div class="card-body">
-  </div>
-</div>
+  <Panel caption="Deck" panel_class="mtgdraft-deck">
 
-
+  </Panel>
 </template>
 
 <script>
 
+import Panel from './Panel.vue'
 import Pile from './Pile.vue'
 
 export default {
@@ -24,7 +22,7 @@ export default {
   },
 
   components: {
-    Pile
+    Panel, Pile
   }
 }
 

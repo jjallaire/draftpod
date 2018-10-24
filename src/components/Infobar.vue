@@ -8,11 +8,10 @@
     <img :src="preview_image" />
   </div>
   
-  <div class="mtgdraft-deckstats card bg-light">
-    <div class="card-header">Stats</div>
-    <div class="card-body">
-    </div>
-  </div>
+  <Panel caption="Stats" panel_class="mtgdraft-deckstats"> 
+   
+  </Panel>
+  
 </div>
 
 
@@ -23,6 +22,8 @@
 
 import { mapGetters } from 'vuex';
 
+import Panel from './Panel.vue'
+
 export default {
   name: 'Infobar',
 
@@ -31,6 +32,10 @@ export default {
       type: Number,
       required: true
     }
+  },
+
+  components: {
+    Panel
   },
 
   computed: {
