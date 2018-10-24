@@ -2,20 +2,20 @@
 
 <template>
 
-<div class="mtgdraft-deck card bg-light">
+<div class="mtgdraft-picks card bg-light">
  
   <div class="card-header tabs-header">
     <ul class="nav" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" id="deck-tab" data-toggle="tab" href="#deck" 
               role="tab" aria-controls="deck" aria-selected="true">
-            Deck
+            Picks
         </a>
       </li>
       <li v-if="pick_analysis" class="nav-item">
         <a class="nav-link" id="pick-analysis-tab" data-toggle="tab" href="#pick-analysis"
           role="tab" aria-controls="pick-analysis" aria-selected="false">
-          Pick Analysis
+            Analysis
         </a>
       </li>
     </ul>
@@ -45,7 +45,7 @@ import Pile from './Pile.vue';
 import { mapGetters } from 'vuex';
 
 export default {
-  name: 'Deck',
+  name: 'Picks',
   props: {
     player: {
       type: Number,
@@ -69,7 +69,7 @@ export default {
 </script>
 
 <style>
-.mtgdraft-deck .card-body {
+.mtgdraft-picks .card-body {
   position: relative;
   overflow-y: scroll;
 }

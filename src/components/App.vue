@@ -8,7 +8,7 @@
         <transition name="mtgpack-hide">
           <Pack v-if="!complete" :player="player"/>
         </transition>
-        <Deck :player="player"/>
+        <Picks :player="player"/>
       </div>
 
       <Infobar :player="player"/>
@@ -22,9 +22,10 @@
 
 
 import Navbar from './Navbar.vue'
-import Infobar from './Infobar.vue'
-import Deck from './Deck.vue';
 import Pack from './Pack.vue';
+import Picks from './Picks.vue';
+import Infobar from './Infobar.vue'
+
 import { START_DRAFT } from '../store/actions';
 
 import { mapActions } from 'vuex';
@@ -41,7 +42,7 @@ export default {
   },
 
   components: {
-    Navbar, Pack, Deck, Infobar
+    Navbar, Pack, Picks, Infobar
   },
 
   created() {
@@ -123,7 +124,7 @@ body {
   margin-bottom: 0;
 }
 
-.mtgdraft-deck {
+.mtgdraft-picks {
   flex: 1 1 auto;
   margin: 8px;
 }
