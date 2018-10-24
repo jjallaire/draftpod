@@ -8,7 +8,7 @@
         <transition name="mtgpack-hide">
           <Pack v-if="!complete" :player="player"/>
         </transition>
-        <Picks :player="player"/>
+        <Pick :player="player"/>
       </div>
 
       <Infobar :player="player"/>
@@ -23,7 +23,7 @@
 
 import Navbar from './Navbar.vue'
 import Pack from './Pack.vue';
-import Picks from './Picks.vue';
+import Pick from './Pick.vue';
 import Infobar from './Infobar.vue'
 
 import { START_DRAFT } from '../store/actions';
@@ -42,7 +42,7 @@ export default {
   },
 
   components: {
-    Navbar, Pack, Picks, Infobar
+    Navbar, Pack, Pick, Infobar
   },
 
   created() {
@@ -124,9 +124,10 @@ body {
   margin-bottom: 0;
 }
 
-.mtgdraft-picks {
+.mtgdraft-pick {
   flex: 1 1 auto;
   margin: 8px;
+  margin-top: 5px;
 }
 
 .mtgdraft .card {
@@ -137,7 +138,7 @@ body {
   padding: 0.2rem;
   padding-left: 0.5rem;
   font-size: 0.7rem;
-  border-bottom: lightgray;
+  color: lightgray;
 }
 
 .mtgdraft .tabs-header .nav-link {
@@ -148,10 +149,10 @@ body {
   color: #aaa;
 }
 
-  .mtgdraft .tabs-header .nav-link.active,
-  .mtgdraft .tabs-header .nav-link:hover {
-    color:  lightgray;
-  }
+.mtgdraft .tabs-header .nav-link.active,
+.mtgdraft .tabs-header .nav-link:hover {
+  color:  lightgray;
+}
 
 .mtgdraft .tabs-header {
   padding: 0;

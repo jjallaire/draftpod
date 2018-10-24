@@ -2,7 +2,7 @@
 
 <template>
 
-<div class="mtgdraft-picks card bg-light">
+<div class="mtgdraft-pick card bg-light">
  
   <div class="card-header tabs-header">
     <ul class="nav" role="tablist">
@@ -23,15 +23,10 @@
 
   <div class="card-body tab-content">
     <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
-      <Pile :player="player" :key="0" :number="0"></Pile>
-      <Pile :player="player" v-for="number in 4" :key="number" :number="number"></Pile>
-      <Pile :player="player" :key="5" :number="5"></Pile>
-      <Pile :player="player" :key="6" :number="6"></Pile>
-      <div class="mtgpile mtgpile-separator"></div>
-      <Pile caption="Sideboard"  :player="player" :key="7" :number="7"></Pile>
+      <PickList :player="player" />
     </div>
     <div v-if="pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
-      <p>Pick Analysis</p>
+      <PickAnalysis :player="player" />
     </div>
 </div>
 </div>
@@ -41,11 +36,13 @@
 
 <script>
 
-import Pile from './Pile.vue';
-import { mapGetters } from 'vuex';
+import PickList from './PickList.vue'
+import PickAnalysis from './PickAnalysis.vue'
+
+import { mapGetters } from 'vuex'
 
 export default {
-  name: 'Picks',
+  name: 'Pick',
   props: {
     player: {
       type: Number,
@@ -57,7 +54,7 @@ export default {
     }
   },
   components: {
-    Pile
+    PickList, PickAnalysis
   },
   computed: {
     ...mapGetters([
@@ -69,10 +66,7 @@ export default {
 </script>
 
 <style>
-.mtgdraft-picks .card-body {
-  position: relative;
-  overflow-y: scroll;
-}
+
 
 </style>
 
