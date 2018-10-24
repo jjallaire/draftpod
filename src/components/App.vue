@@ -166,20 +166,6 @@ body {
   flex: 1 1 auto;
 }
 
-.mtgpack {
-  flex: 0 1 auto;
-}
-
-.mtgpack-separator {
-  flex: 0 1 auto;
-  height: 10px;
-  background-color: rgba(39, 128, 227, 0.1);
-}
-
-.mtgdeck {
-  flex: 1 1 auto;
-}
-
 .mtgpack-hide-leave-active {
   transition: all 1s;
   max-height: 500px;
