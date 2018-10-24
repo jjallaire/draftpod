@@ -48,17 +48,14 @@ export default {
       type: Number,
       required: true
     },
-    pick_analysis: {
-      type: Boolean,
-      default: false
-    }
   },
   components: {
     PickList, PickAnalysis
   },
   computed: {
     ...mapGetters([
-      'complete'
+      'complete',
+      'pick_analysis'
     ])
   },
 }
