@@ -9,7 +9,7 @@
        :style="{textAlign: center_caption ? 'center' : 'left'}">
     {{ caption }}
   </div>
-  <Card v-for="(card, index) in piles(player)[number]" :key="card.key"
+  <Card v-for="(card, index) in picks(player).piles[number]" :key="card.key"
         :player="player" :card="card" :drag_source="drag_source"
         v-bind:style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
   </Card>
@@ -51,7 +51,7 @@ export default {
   computed: {
     drag_source: () => DRAG_SOURCE_PILE,
     ...mapGetters([
-      'piles'
+      'picks'
     ]),
   },
   data: function() {
