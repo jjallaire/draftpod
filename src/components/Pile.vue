@@ -9,7 +9,7 @@
        :style="{textAlign: center_caption ? 'center' : 'left'}">
     {{ caption }}
   </div>
-  <Card v-for="(card, index) in pick_piles(player)[number]" :key="card.key"
+  <Card v-for="(card, index) in pile" :key="card.key"
         :player="player" :card="card" :drag_source="drag_source"
         v-bind:style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
   </Card>
@@ -26,7 +26,7 @@ import { mapGetters } from 'vuex'
 import { Drop } from 'vue-drag-drop'
 
 import { DRAG_SOURCE_PACK, DRAG_SOURCE_PILE } from './constants'
-import { PICK_CARD, MOVE_CARD } from '../store/actions'
+import { PICK_CARD, MOVE_PICK } from '../store/actions'
 
 import Card from './Card.vue'
 
@@ -36,8 +36,8 @@ export default {
       type: Number,
       required: true
     },
-    number: {
-      type: Number,
+    pile: {
+      type: Array,
       required: true
     },
     caption: {
@@ -101,7 +101,7 @@ export default {
       let payload = { 
         playerNumber: this.player,
         card: data.card, 
-        pileNumber: this.number, 
+        pile: this.pile, 
         insertBefore: insertLoc.insertBefore
       };
 
@@ -109,12 +109,12 @@ export default {
       if (data.drag_source === DRAG_SOURCE_PACK)
         this.pickCard(payload);
       else if (data.drag_source === DRAG_SOURCE_PILE)
-        this.moveCard(payload);
+        this.movePick(payload);
 
     },
     ...mapActions({
       pickCard: PICK_CARD,
-      moveCard: MOVE_CARD
+      movePick: MOVE_PICK
     }),
 
     provideDragFeedback: function(location) {

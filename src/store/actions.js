@@ -8,8 +8,8 @@ const local_images = true
 import { 
   INITIALIZE,
   OPEN_PACKS, 
-  PACK_TO_PILE, 
-  PILE_TO_PILE, 
+  PACK_TO_PICK, 
+  MOVE_PICK_TO_PILE, 
   PASS_PACKS, 
   SET_DRAFT_COMPLETE,
   SET_CARD_PREVIEW
@@ -20,7 +20,7 @@ import * as set from './set/'
 export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
-export const MOVE_CARD = 'MOVE_CARD';
+export const MOVE_PICK = 'MOVE_PICK';
 export const COMPLETE_DRAFT = 'COMPLETE_DRAFT';
 
 export default {
@@ -51,7 +51,7 @@ export default {
     let player = state.players[playerNumber];
 
     // write the pick 
-    commit(PACK_TO_PILE, payload);
+    commit(PACK_TO_PICK, payload);
 
     // have other players make their picks
     aiPicks(commit, state, playerNumber);
@@ -73,8 +73,8 @@ export default {
     }
   },
 
-  [MOVE_CARD]({ commit }, payload) {
-    commit(PILE_TO_PILE, payload);
+  [MOVE_PICK]({ commit }, payload) {
+    commit(MOVE_PICK_TO_PILE, payload);
   },
 
   [COMPLETE_DRAFT]({ commit }) {
@@ -107,10 +107,10 @@ function aiPicks(commit, state, playerNumber) {
     if (i !== playerNumber) {
       let player = state.players[i];
       let card = set.pick(state.set_code, player.pick_piles[0], player.pack);
-      commit(PACK_TO_PILE, { 
+      commit(PACK_TO_PICK, { 
         playerNumber: i, 
         card: card, 
-        pileNumber: 0, 
+        pile: state.players[i].pick_piles[0], 
         insertBefore: null 
       });
     }

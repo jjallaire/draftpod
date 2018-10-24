@@ -1,8 +1,8 @@
 export const INITIALIZE = 'INITIALIZE'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
-export const PACK_TO_PILE = 'PACK_TO_PILE'
-export const PILE_TO_PILE = 'PILE_TO_PILE'
+export const PACK_TO_PICK = 'PACK_TO_PICK'
+export const MOVE_PICK_TO_PILE = 'MOVE_PICK_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
 export const SET_DRAFT_COMPLETE = 'SET_DRAFT_COMPLETE'
 
@@ -31,12 +31,11 @@ export default {
     player.card_preview = card;
   },
 
-  [PACK_TO_PILE](state, { playerNumber, card, pileNumber, insertBefore }) {
+  [PACK_TO_PICK](state, { playerNumber, card, pile, insertBefore }) {
 
     // alias player and pile
     let player = state.players[playerNumber];
     let pack = player.pack;
-    let pile = player.pick_piles[pileNumber];
    
     // remove from pack
     pack.splice(pack.indexOf(card), 1);
@@ -45,11 +44,10 @@ export default {
     addCardToPile(pile, card, insertBefore);
   },
 
-  [PILE_TO_PILE](state, { playerNumber, card, pileNumber, insertBefore }) {
+  [MOVE_PICK_TO_PILE](state, { playerNumber, card, pile, insertBefore }) {
 
     // alias player and pile
     let player = state.players[playerNumber];
-    let pile = player.pick_piles[pileNumber];
 
     // remove from existing pile if necessary (if it came from a
     // pack then we won't need to do this)

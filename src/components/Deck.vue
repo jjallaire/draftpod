@@ -11,6 +11,8 @@
 import Panel from './Panel.vue'
 import Pile from './Pile.vue'
 
+import { mapGetters } from 'vuex';
+
 export default {
   name: 'Deck',
 
@@ -19,6 +21,11 @@ export default {
       type: Number,
       required: true
     }
+  },
+  computed: {
+    ...mapGetters([
+      'deck',
+    ]),
   },
 
   components: {
