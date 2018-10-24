@@ -160,19 +160,6 @@ body {
   padding: 0.4rem;
 }
 
-
-
-
-.mtgdraft-header {
-  flex: 0 1 auto;
-}
-
-.mtgdraft-main {
-  display: flex;
-  flex-flow: row;
-  flex: 1 1 auto;
-}
-
 .mtgdraft-cards {
   display: flex;
   flex-flow: column;
