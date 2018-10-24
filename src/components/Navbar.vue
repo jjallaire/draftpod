@@ -5,25 +5,8 @@
 
   <span class="navbar-brand">MTG Drafter</span>
   
-  <div>
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Draft</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-    </ul>
-  </div>
-
-  <span class="navbar-text ml-auto">
-    <span v-if="complete">Draft complete!</span> 
-    <span v-else>Guilds of Ravnica &mdash; Pack {{ current_pack }}, Pick {{ current_pick }}</span> 
-  </span>
-
+  <span class="navbar-text" v-if="complete">Draft complete!</span> 
+  <span class="navbar-text" v-else>Guilds of Ravnica &mdash; Pack {{ current_pack }}, Pick {{ current_pick }}</span> 
   <ul class="navbar-nav">
     <li class="nav-item">
           <a class="nav-link" title="Restart Draft" href="#"><i class="material-icons nav-icon">refresh</i></a>
@@ -35,6 +18,19 @@
       </a>
     </li>
   </ul> 
+
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Draft</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+  </ul>
+  
 </nav>
 </template>
 
