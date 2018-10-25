@@ -14,6 +14,7 @@ const store = new Vuex.Store({
   state: {
     set_code: null,
     cardpool: [],
+    all_packs: [],
     current_pack: 0,
     current_pick: 0,
     pick_analysis: false,

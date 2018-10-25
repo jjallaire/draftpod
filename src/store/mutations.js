@@ -9,11 +9,19 @@ export const SET_DRAFT_COMPLETE = 'SET_DRAFT_COMPLETE'
 
 import Vue from 'vue'
 
+import uuidv4 from 'uuid'
+import * as set from './set/'
+
+const local_images = true
+
 export default {
 
   [INITIALIZE](state, { set_code, cardpool }) {
     state.set_code = set_code;
     state.cardpool = cardpool;
+    state.all_packs = [...Array(24)].map(function() {
+      return booster(state.set_code, state.cardpool);
+    });
   },
 
   [OPEN_PACKS](state, packs) {
@@ -135,5 +143,53 @@ function addCardToPile(pile, card, insertBefore) {
     pile.push(card);
 }
 
+function booster(set_code, cardpool) {
+
+  // generate range of indexes then shuffle it
+  let indexes = shuffleArray([...Array(cardpool.length).keys()]);
+
+  // function to draw next n cards that pass a set of filters
+  function cards(filters, number) {
+    if (!Array.isArray(filters))
+      filters = [filters];
+    let cards = [];
+    for (let i=0; i<indexes.length; i++) {
+      let index = indexes[i];
+      let card = cardpool[index];
+      let passed = true;
+      for (let f=0; f<filters.length; f++) {
+        if (!filters[f](card)) {
+          passed = false;
+          break;
+        }
+      }
+      if (passed) {
+        cards.push({...card, 
+          key: uuidv4(), 
+          image: local_images ? 
+                  'sets/' + set_code + '/' + card.id + '.png' :
+                  card.image_uri,
+        });
+      }
+      if (cards.length >= number)
+        break;
+    }
+    return cards;
+  }
+
+  return set.booster(set_code, cards);
+}
+
+
+function shuffleArray(a) {
+  let array = a.slice();
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+}
 
 

@@ -1,9 +1,6 @@
 
 
 import axios from 'axios'
-import uuidv4 from 'uuid'
-
-const local_images = true
 
 import { 
   INITIALIZE,
@@ -61,7 +58,7 @@ export default {
     if (player.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
-      if (state.current_pack < 1)
+      if (state.current_pack < 3)
         nextPack(commit, state, playerNumber);
       else {
         // otherwise the draft is done!
@@ -90,8 +87,10 @@ export default {
 
 function nextPack(commit, state, playerNumber) {
 
-  // generate 8 boosters
-  let packs = [...Array(8)].map(() => booster(state.set_code, state.cardpool));
+  // grab next set of packs
+  let pack_begin = state.current_pack * 8;
+  let pack_end = pack_begin + 8;
+  let packs = state.all_packs.slice(pack_begin, pack_end);
 
   // set them
   commit(OPEN_PACKS, packs);
@@ -119,52 +118,5 @@ function aiPicks(commit, state, playerNumber) {
   }
 }
 
-function booster(set_code, cardpool) {
 
-  // generate range of indexes then shuffle it
-  let indexes = shuffleArray([...Array(cardpool.length).keys()]);
-
-  // function to draw next n cards that pass a set of filters
-  function cards(filters, number) {
-    if (!Array.isArray(filters))
-      filters = [filters];
-    let cards = [];
-    for (let i=0; i<indexes.length; i++) {
-      let index = indexes[i];
-      let card = cardpool[index];
-      let passed = true;
-      for (let f=0; f<filters.length; f++) {
-        if (!filters[f](card)) {
-          passed = false;
-          break;
-        }
-      }
-      if (passed) {
-        cards.push({...card, 
-          key: uuidv4(), 
-          image: local_images ? 
-                  'sets/' + set_code + '/' + card.id + '.png' :
-                  card.image_uri,
-        });
-      }
-      if (cards.length >= number)
-        break;
-    }
-    return cards;
-  }
-
-  return set.booster(set_code, cards);
-}
-
-
-function shuffleArray(a) {
-  let array = a.slice();
-  for (var i = array.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i + 1));
-    var temp = array[i];
-    array[i] = array[j];
-    array[j] = temp;
-  }
-  return array;
-}
 
