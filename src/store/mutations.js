@@ -99,11 +99,9 @@ export default {
     let pick_piles = state.players[playerNumber].pick_piles;
     let deck_piles = state.players[playerNumber].deck_piles;
     let lands = deck_piles[6];
-    for (let p = 0; p<7; p++) {
-      let pile = pick_piles[p];
-      for (let i=0; i<pile.length; i++) {
-        let card = pile[i];
-        if (card.type_line.startsWith("Land"))
+    pick_piles.slice(0, 7).forEach(function(pile) {
+      pile.forEach(function(card) {
+        if (card.type_line.includes("Land"))
           lands.push(card);
         else if (card.cmc <= 1)
           deck_piles[0].push(card);
@@ -111,14 +109,11 @@ export default {
           deck_piles[6].push(card);
         else
           deck_piles[card.cmc-1].push(card);
-      }
-    }
+      });
+    });
 
     // sideboard
-    let pick_sideboard = pick_piles[7];
-    let deck_sideboard = deck_piles[7];
-    for (let i=0; i<pick_sideboard.length; i++)
-      deck_sideboard.push(pick_sideboard[i]);
+    deck_piles[7] = pick_piles[7].slice();
   },
 
   [SET_DRAFT_COMPLETE](state) {

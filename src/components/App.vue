@@ -22,6 +22,8 @@
 <script>
 
 
+// TODO: Sort deck piles by creature/name
+
 import Navbar from './Navbar.vue'
 import Pack from './Pack.vue';
 import Pick from './Pick.vue';
