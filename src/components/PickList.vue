@@ -1,7 +1,6 @@
 <template>
   <div class="mtgdraft-pick-list">
-    <Pile :player="player" :key="0" :pile="pile(0)"></Pile>
-    <Pile :player="player" v-for="number in 6" :key="number" :pile="pile(number)"></Pile>
+    <Pile :player="player" v-for="number in 7" :key="number-1" :pile="pile(number-1)"></Pile>
     <div class="mtgpile mtgpile-separator"></div>
     <Pile caption="Sideboard"  :player="player" :key="7" :pile="pile(7)"></Pile>
   </div>
