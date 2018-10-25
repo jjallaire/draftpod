@@ -9,7 +9,7 @@ import {
   INITIALIZE,
   OPEN_PACKS, 
   PACK_TO_PICK, 
-  MOVE_PICK_TO_PILE, 
+  MOVE_CARD_TO_PILE, 
   PASS_PACKS, 
   SET_DRAFT_COMPLETE,
   MOVE_PICKS_TO_DECK,
@@ -21,7 +21,7 @@ import * as set from './set/'
 export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
-export const MOVE_PICK = 'MOVE_PICK';
+export const MOVE_CARD = 'MOVE_CARD';
 export const COMPLETE_DRAFT = 'COMPLETE_DRAFT';
 
 export default {
@@ -75,8 +75,8 @@ export default {
     }
   },
 
-  [MOVE_PICK]({ commit }, payload) {
-    commit(MOVE_PICK_TO_PILE, payload);
+  [MOVE_CARD]({ commit }, payload) {
+    commit(MOVE_CARD_TO_PILE, payload);
   },
 
   [COMPLETE_DRAFT]({ commit }) {

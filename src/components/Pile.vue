@@ -22,11 +22,10 @@
 <script>
 
 import { mapActions } from 'vuex'
-import { mapGetters } from 'vuex'
 import { Drop } from 'vue-drag-drop'
 
 import { DRAG_SOURCE_PACK, DRAG_SOURCE_PILE } from './constants'
-import { PICK_CARD, MOVE_PICK } from '../store/actions'
+import { PICK_CARD, MOVE_CARD } from '../store/actions'
 
 import Card from './Card.vue'
 
@@ -36,9 +35,13 @@ export default {
       type: Number,
       required: true
     },
-    pile: {
+    piles: {
       type: Array,
       required: true
+    },
+    number: {
+      type: Number,
+      required: true,
     },
     caption: {
       type: String
@@ -50,9 +53,7 @@ export default {
   },
   computed: {
     drag_source: () => DRAG_SOURCE_PILE,
-    ...mapGetters([
-      'pick_piles'
-    ]),
+    pile: function() { return this.piles[this.number]},
   },
   data: function() {
     return {
@@ -102,6 +103,7 @@ export default {
         playerNumber: this.player,
         card: data.card, 
         pile: this.pile, 
+        piles: this.piles,
         insertBefore: insertLoc.insertBefore
       };
 
@@ -109,12 +111,12 @@ export default {
       if (data.drag_source === DRAG_SOURCE_PACK)
         this.pickCard(payload);
       else if (data.drag_source === DRAG_SOURCE_PILE)
-        this.movePick(payload);
+        this.moveCard(payload);
 
     },
     ...mapActions({
       pickCard: PICK_CARD,
-      movePick: MOVE_PICK
+      moveCard: MOVE_CARD
     }),
 
     provideDragFeedback: function(location) {
