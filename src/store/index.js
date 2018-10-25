@@ -21,12 +21,7 @@ const store = new Vuex.Store({
       return {
         pack: [],
         pick_piles: [...Array(8)].map(() => Array()),
-        deck: {
-          creature_piles: [...Array(6)].map(() => Array()),
-          other_piles: [...Array(6)].map(() => Array()),
-          lands: Array(),
-          sideboard: Array()
-        },
+        deck_piles: [...Array(8)].map(() => Array()),
         card_preview: null
       }
     }),
@@ -41,7 +36,7 @@ const store = new Vuex.Store({
     pick_analysis: (state) => state.pick_analysis,
     pack: (state) => (player) => state.players[player].pack,
     pick_piles: (state) => (player) => state.players[player].pick_piles,
-    deck: (state) => (player) => state.players[player].deck,
+    deck_piles: (state) => (player) => state.players[player].deck_piles,
     card_preview: (state) => (player) => state.players[player].card_preview,
     complete: (state) => state.complete,
   },

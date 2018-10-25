@@ -2,14 +2,12 @@
 
 <template>
   <Panel caption="Deck" panel_class="mtgdraft-deck">
-   
     <Pile :player="player" v-for="number in 5" 
-          :key="number-1" :caption="number + ''" :pile="creatures[number-1]"></Pile>
-    <Pile :player="player" :key="5" caption="6+" :pile="creatures[5]"></Pile>
+          :key="number-1" :caption="number + ''" :pile="piles[number-1]"></Pile>
+    <Pile :player="player" :key="5" caption="6+" :pile="piles[5]"></Pile>
     <Pile :player="player" :key="6" caption="Lands" :pile="lands"></Pile>
     <div class="mtgpile mtgpile-separator"></div>
     <Pile :player="player" :key="7" caption="Sideboard" :pile="sideboard"></Pile>
-  
   </Panel>
 </template>
 
@@ -29,22 +27,20 @@ export default {
       required: true
     }
   },
+
   computed: {
     ...mapGetters([
-      'deck',
+      'deck_piles',
     ]),
-    creatures: function() {
-      return this.deck(this.player).creature_piles;
-    },
-    other: function() {
-      return this.deck(this.player).other_piles;
+    piles: function() {
+      return this.deck_piles(this.player);
     },
     lands: function() {
-      return this.deck(this.player).lands;
+      return this.deck_piles(this.player)[6];
     },
     sideboard: function() {
-      return this.deck(this.player).sideboard;
-    }
+      return this.deck_piles(this.player)[7];
+    },
   },
 
   components: {

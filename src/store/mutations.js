@@ -100,24 +100,28 @@ export default {
 
   [MOVE_PICKS_TO_DECK](state, { playerNumber }) {
     let pick_piles = state.players[playerNumber].pick_piles;
-    let deck = state.players[playerNumber].deck;
+    let deck_piles = state.players[playerNumber].deck_piles;
+    let lands = deck_piles[6];
     for (let p = 0; p<7; p++) {
       let pile = pick_piles[p];
       for (let i=0; i<pile.length; i++) {
         let card = pile[i];
         if (card.type_line.startsWith("Land"))
-          deck.lands.push(card);
+          lands.push(card);
         else if (card.cmc <= 1)
-          deck.creature_piles[0].push(card);
+          deck_piles[0].push(card);
         else if (card.cmd >= 6)
-          deck.creature_piles[6].push(card);
+          deck_piles[6].push(card);
         else
-          deck.creature_piles[card.cmc-1].push(card);
+          deck_piles[card.cmc-1].push(card);
       }
     }
-    let sideboard = pick_piles[7];
-    for (let i=0; i<sideboard.length; i++)
-      deck.sideboard.push(sideboard[i]);
+
+    // sideboard
+    let pick_sideboard = pick_piles[7];
+    let deck_sideboard = deck_piles[7];
+    for (let i=0; i<pick_sideboard.length; i++)
+      deck_sideboard.push(pick_sideboard[i]);
   },
 
   [SET_DRAFT_COMPLETE](state) {
