@@ -186,8 +186,9 @@ function cardInsertLocation(data, event) {
 .mtgpile {
   width: 10%;
 } 
-.mtgpile .caption {
+.mtgpile .mtgpile-caption {
   font-size: 0.6em;
+  margin-top: -3px;
 }
 }
 
