@@ -4,6 +4,7 @@ export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const MOVE_PICK_TO_PILE = 'MOVE_PICK_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
+export const MOVE_PICKS_TO_DECK = 'MOVE_PICKS_TO_DECK'
 export const SET_DRAFT_COMPLETE = 'SET_DRAFT_COMPLETE'
 
 import Vue from 'vue'
@@ -95,6 +96,28 @@ export default {
     
     // increment pick
     state.current_pick++;
+  },
+
+  [MOVE_PICKS_TO_DECK](state, { playerNumber }) {
+    let pick_piles = state.players[playerNumber].pick_piles;
+    let deck = state.players[playerNumber].deck;
+    for (let p = 0; p<7; p++) {
+      let pile = pick_piles[p];
+      for (let i=0; i<pile.length; i++) {
+        let card = pile[i];
+        if (card.type_line.startsWith("Land"))
+          deck.lands.push(card);
+        else if (card.cmc <= 1)
+          deck.creature_piles[0].push(card);
+        else if (card.cmd >= 6)
+          deck.creature_piles[6].push(card);
+        else
+          deck.creature_piles[card.cmc-1].push(card);
+      }
+    }
+    let sideboard = pick_piles[7];
+    for (let i=0; i<sideboard.length; i++)
+      deck.sideboard.push(sideboard[i]);
   },
 
   [SET_DRAFT_COMPLETE](state) {
