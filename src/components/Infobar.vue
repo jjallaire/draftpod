@@ -9,7 +9,7 @@
   </div>
   
   <Panel caption="Stats" panel_class="mtgdraft-deckstats"> 
-    <ManaCurve :cards="[]" />
+    <ManaCurve :cards="deck_cards" />
   </Panel>
   
 </div>

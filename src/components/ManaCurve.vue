@@ -21,7 +21,16 @@ export default {
     }
   },
 
- 
+  state: {
+    chart: null
+  },
+
+
+  watch: {
+    cards: function(cards) {
+      this.chart.update();
+    }
+  },
 
   mounted() {
     var data = {
@@ -29,7 +38,7 @@ export default {
       series: [ [5, 2, 4, 2, 0]]
     };
 
-    new Chartist.Line(this.$el, data);
+    this.chart = new Chartist.Line(this.$el, data);
   }
 }
 
