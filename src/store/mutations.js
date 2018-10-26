@@ -120,8 +120,12 @@ export default {
       });
     });
 
+
     // sideboard
     deck_piles[7] = pick_piles[7].slice();
+
+    // sort all deck piles
+    deck_piles.forEach((pile) => pile.sort(orderCards));
   },
 
   [SET_DRAFT_COMPLETE](state) {
@@ -129,6 +133,24 @@ export default {
   }
 };
 
+
+function orderCards(a, b) {
+
+  let aIsCreature = a.type_line.includes("Creature");
+  let bIsCreature = b.type_line.includes("Creature");
+
+  if (aIsCreature === bIsCreature) {
+    if (a.name < b.name)
+      return -1;
+    else if (b.name < a.name)
+      return 1;
+    else
+      return 0;
+  } else if (aIsCreature && !bIsCreature)
+    return -1;
+  else if (bIsCreature && !aIsCreature)
+    return 1;
+}
 
 function passPack(from, to) {
   for (let i = 0; i<from.length; i++) {
