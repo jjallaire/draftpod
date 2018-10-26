@@ -7,7 +7,7 @@
   
    
   <span class="navbar-text">Guilds of Ravnica &mdash; 
-    <span v-if="complete">Deck Building</span>
+    <span v-if="complete">Picks Completed</span>
     <span v-else>Pack {{ current_pack }}, Pick {{ current_pick }}</span>
   </span> 
   <ul class="navbar-nav">
