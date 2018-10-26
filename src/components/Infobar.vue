@@ -9,7 +9,7 @@
   </div>
   
   <Panel caption="Stats" panel_class="mtgdraft-deckstats"> 
-      Deck: {{ deck_cards.length }}
+    <ManaCurve :cards="[]" />
   </Panel>
   
 </div>
@@ -23,6 +23,7 @@
 import { mapGetters } from 'vuex';
 
 import Panel from './Panel.vue'
+import ManaCurve from './ManaCurve.vue'
 
 export default {
   name: 'Infobar',
@@ -35,7 +36,7 @@ export default {
   },
 
   components: {
-    Panel
+    Panel, ManaCurve
   },
 
   computed: {
@@ -63,7 +64,7 @@ export default {
         ? this.deck_piles(this.player)[7] 
         : this.pick_piles(this.player)[7];
     }
-  },
+  }
 }
 </script>
 
