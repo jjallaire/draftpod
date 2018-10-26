@@ -9,7 +9,7 @@
   </div>
   
   <Panel caption="Stats" panel_class="mtgdraft-deckstats"> 
-      Cards: {{ deck_cards.length }}
+      Deck: {{ deck_cards.length }}
   </Panel>
   
 </div>

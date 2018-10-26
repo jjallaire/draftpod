@@ -108,7 +108,8 @@ export default {
     let deck_piles = state.players[playerNumber].deck_piles;
     let lands = deck_piles[6];
     pick_piles.slice(0, 7).forEach(function(pile) {
-      pile.forEach(function(card) {
+      pile.forEach(function(c) {
+        let card = {...c, key: uuidv4()};
         if (card.type_line.includes("Land"))
           lands.push(card);
         else if (card.cmc <= 1)
@@ -120,9 +121,11 @@ export default {
       });
     });
 
-
     // sideboard
     deck_piles[7] = pick_piles[7].slice();
+
+    // clear out pick_piles
+    state.players[playerNumber].pick_piles = [...Array(8)].map(() => Array());
 
     // sort all deck piles
     deck_piles.forEach((pile) => pile.sort(orderCards));
@@ -159,10 +162,11 @@ function passPack(from, to) {
 }
 
 function addCardToPile(pile, card, insertBefore) {
+  let card_copy = { ...card, key: uuidv4() };
   if (insertBefore !== null)
-    pile.splice(insertBefore, 0, card);
+    pile.splice(insertBefore, 0, card_copy);
   else
-    pile.push(card);
+    pile.push(card_copy);
 }
 
 function booster(set_code, cardpool) {
