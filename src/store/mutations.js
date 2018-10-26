@@ -5,7 +5,7 @@ export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const MOVE_CARD_TO_PILE = 'MOVE_CARD_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
 export const MOVE_PICKS_TO_DECK = 'MOVE_PICKS_TO_DECK'
-export const SET_DRAFT_COMPLETE = 'SET_DRAFT_COMPLETE'
+export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
 
 import Vue from 'vue'
 
@@ -128,8 +128,8 @@ export default {
     deck_piles.forEach((pile) => pile.sort(orderCards));
   },
 
-  [SET_DRAFT_COMPLETE](state) {
-    state.complete = true;
+  [SET_PICKS_COMPLETE](state) {
+    state.picks_complete = true;
   }
 };
 

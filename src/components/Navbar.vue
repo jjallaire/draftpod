@@ -7,12 +7,12 @@
   
    
   <span class="navbar-text">Guilds of Ravnica &mdash; 
-    <span v-if="complete">Picks Completed</span>
+    <span v-if="picks_complete">Picks Completed</span>
     <span v-else>Pack {{ current_pack }}, Pick {{ current_pick }}</span>
   </span> 
   <ul class="navbar-nav">
     <li class="nav-item">
-          <a class="nav-link" title="Restart Draft" href="#"><i class="material-icons nav-icon">refresh</i></a>
+          <a class="nav-link" title="Exit Draft" href="#"><i class="material-icons nav-icon">refresh</i></a>
         </li>
     <li class="nav-item">
       <a class="nav-link" href="#" title="Fullscreen"
@@ -48,7 +48,7 @@ export default {
     ...mapGetters([
       'current_pack',
       'current_pick',
-      'complete'
+      'picks_complete'
     ]),
   },
 }

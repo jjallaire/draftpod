@@ -26,7 +26,7 @@ const store = new Vuex.Store({
         card_preview: null
       }
     }),
-    complete: false
+    picks_complete: false
   },
   getters: {
     set_code: (state) => state.set_code,
@@ -39,7 +39,7 @@ const store = new Vuex.Store({
     pick_piles: (state) => (player) => state.players[player].pick_piles,
     deck_piles: (state) => (player) => state.players[player].deck_piles,
     card_preview: (state) => (player) => state.players[player].card_preview,
-    complete: (state) => state.complete,
+    picks_complete: (state) => state.picks_complete,
   },
   actions,
   mutations,

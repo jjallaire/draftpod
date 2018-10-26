@@ -6,9 +6,9 @@
 
       <div class="mtgdraft-cards">
         <transition name="mtgpack-hide">
-          <Pack v-if="!complete" :player="player"/>
+          <Pack v-if="!picks_complete" :player="player"/>
         </transition>
-        <Pick v-if="!complete" :player="player"/>
+        <Pick v-if="!picks_complete" :player="player"/>
         <Deck v-else :player="player"/>
       </div>
 
@@ -59,7 +59,7 @@ export default {
   computed: {
     ...mapGetters([
       'started',
-      'complete'
+      'picks_complete'
     ]),
   },
 

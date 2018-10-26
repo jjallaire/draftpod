@@ -8,7 +8,7 @@ import {
   PACK_TO_PICK, 
   MOVE_CARD_TO_PILE, 
   PASS_PACKS, 
-  SET_DRAFT_COMPLETE,
+  SET_PICKS_COMPLETE,
   MOVE_PICKS_TO_DECK,
   SET_CARD_PREVIEW
 } from './mutations';
@@ -19,7 +19,6 @@ export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
 export const MOVE_CARD = 'MOVE_CARD';
-export const COMPLETE_DRAFT = 'COMPLETE_DRAFT';
 
 export default {
 
@@ -58,12 +57,15 @@ export default {
     if (player.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
-      if (state.current_pack < 3)
+      if (state.current_pack < 1)
         nextPack(commit, state, playerNumber);
       else {
-        // otherwise the draft is done!
+        // move picks to deck
         commit(MOVE_PICKS_TO_DECK, { playerNumber });
-        dispatch(COMPLETE_DRAFT);
+
+        // delay to allow UI state to update before starting
+        // completion-based animations
+        setTimeout(()=> { commit(SET_PICKS_COMPLETE); }, 100)
       }
 
     // pass the packs
@@ -75,14 +77,6 @@ export default {
   [MOVE_CARD]({ commit }, payload) {
     commit(MOVE_CARD_TO_PILE, payload);
   },
-
-  [COMPLETE_DRAFT]({ commit }) {
-
-    // delay to allow UI state to update before starting
-    // completion-based animations
-    setTimeout(()=> { commit(SET_DRAFT_COMPLETE); }, 100)
-    
-  }
 };
 
 function nextPack(commit, state, playerNumber) {

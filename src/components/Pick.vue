@@ -54,7 +54,7 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'complete',
+      'picks_complete',
       'pick_analysis'
     ])
   },
