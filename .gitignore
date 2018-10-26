@@ -22,4 +22,5 @@ yarn-error.log*
 
 # Local card image cache
 /public/sets/*/*.png
+/tools/sets/*/*.png
 .Rproj.user

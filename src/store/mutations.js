@@ -12,7 +12,7 @@ import Vue from 'vue'
 import uuidv4 from 'uuid'
 import * as set from './set/'
 
-const local_images = true
+const local_images = false
 
 export default {
 
