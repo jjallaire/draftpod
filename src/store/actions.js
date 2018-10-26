@@ -41,7 +41,7 @@ export default {
 
   },
 
-  [PICK_CARD]({ commit, dispatch, state }, payload) {
+  [PICK_CARD]({ commit, state }, payload) {
     
     // alias player
     let playerNumber = payload.playerNumber;

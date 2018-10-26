@@ -9,7 +9,7 @@
   </div>
   
   <Panel caption="Stats" panel_class="mtgdraft-deckstats"> 
-   
+      Cards: {{ deck_cards.length }}
   </Panel>
   
 </div>
@@ -40,7 +40,10 @@ export default {
 
   computed: {
     ...mapGetters([
-      'card_preview'
+      'card_preview',
+      'pick_piles',
+      'deck_piles',
+      'picks_complete'
     ]),
     preview_image: function() {
       let card = this.card_preview(this.player);
@@ -48,6 +51,17 @@ export default {
         return card.image;
       else
         return "images/card-back.png";
+    },
+    deck_cards: function() {
+      let piles = this.picks_complete 
+        ? this.deck_piles(this.player) 
+        : this.pick_piles(this.player);
+      return piles.slice(0, 7).flat();
+    },
+    sideboard_cards: function() {
+      return this.picks_complete 
+        ? this.deck_piles(this.player)[7] 
+        : this.pick_piles(this.player)[7];
     }
   },
 }
