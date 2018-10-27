@@ -28,29 +28,17 @@ export default {
 
   watch: {
     cards: function(cards) {
-      let data = chartData(cards);
-      this.chart.update(data);
+      this.chart.update(
+        chartData(cards)
+      );
     }
   },
 
   mounted() {
     this.chart = new Chartist.Bar(this.$el, 
       chartData(this.cards),
-      {
-        stackBars: true,
-        seriesBarDistance: 5,
-        high: 10,
-        low: 0,
-        onlyInteger: true,
-        axisX: {
-          showGrid: true,
-        },
-        axisY: {
-          offset: 0,
-          labelInterpolationFnc: () => '',
-          showGrid: true,
-        },
-      });
+      chartOptions()
+    );
   }
 }
 
@@ -91,6 +79,23 @@ function chartData(cards) {
   }
 }
 
+function chartOptions() {
+  return {
+    stackBars: true,
+    seriesBarDistance: 5,
+    high: 10,
+    low: 0,
+    onlyInteger: true,
+    axisX: {
+      showGrid: true,
+    },
+    axisY: {
+      offset: 0,
+      labelInterpolationFnc: () => '',
+      showGrid: true,
+    },
+  }
+}
 
 </script>
 
