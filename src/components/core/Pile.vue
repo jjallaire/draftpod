@@ -24,8 +24,7 @@
 import { mapActions } from 'vuex'
 import { Drop } from 'vue-drag-drop'
 
-import { DRAG_SOURCE_PACK, DRAG_SOURCE_PILE } from './constants'
-import { PICK_CARD, MOVE_CARD } from '../store/actions'
+import { PICK_CARD, MOVE_CARD } from '../../store/actions'
 
 import Card from './Card.vue'
 
@@ -52,7 +51,7 @@ export default {
     }
   },
   computed: {
-    drag_source: () => DRAG_SOURCE_PILE,
+    drag_source: () => "DRAG_SOURCE_PILE",
     pile: function() { return this.piles[this.number]},
   },
   data: function() {
@@ -108,9 +107,9 @@ export default {
       };
 
       // fire event
-      if (data.drag_source === DRAG_SOURCE_PACK)
+      if (data.drag_source === "DRAG_SOURCE_PACK")
         this.pickCard(payload);
-      else if (data.drag_source === DRAG_SOURCE_PILE)
+      else if (data.drag_source === "DRAG_SOURCE_PILE")
         this.moveCard(payload);
 
     },

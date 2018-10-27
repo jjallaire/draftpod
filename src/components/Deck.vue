@@ -13,8 +13,8 @@
 
 <script>
 
-import Panel from './Panel.vue'
-import Pile from './Pile.vue'
+import Panel from './core/Panel.vue'
+import Pile from './core/Pile.vue'
 
 import { mapGetters } from 'vuex';
 

@@ -15,7 +15,7 @@
 import { Drag } from 'vue-drag-drop';
 
 import { mapMutations } from 'vuex';
-import { SET_CARD_PREVIEW } from '../store/mutations';
+import { SET_CARD_PREVIEW } from '../../store/mutations';
 
 export default {
   name: 'Card',

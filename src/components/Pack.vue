@@ -15,10 +15,9 @@
 </template>
 
 <script>
-import Card from './Card.vue';
-import Panel from './Panel.vue';
+import Card from './core/Card.vue';
+import Panel from './core/Panel.vue';
 import { mapGetters } from 'vuex';
-import { DRAG_SOURCE_PACK } from './constants'
 
 export default {
   name: 'Pack',
@@ -29,7 +28,7 @@ export default {
     }
   },
   computed: {
-    drag_source: () => DRAG_SOURCE_PACK,
+    drag_source: () => "DRAG_SOURCE_PACK",
     ...mapGetters([
       'pack',
     ]),

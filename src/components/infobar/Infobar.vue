@@ -22,7 +22,7 @@
 
 import { mapGetters } from 'vuex';
 
-import Panel from './Panel.vue'
+import Panel from '../core/Panel.vue'
 import ManaCurve from './ManaCurve.vue'
 
 export default {

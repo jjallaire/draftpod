@@ -1,6 +1,0 @@
-
-
-
-export const DRAG_SOURCE_PACK = "DRAG_SOURCE_PACK"
-export const DRAG_SOURCE_PILE = "DRAG_SOURCE_PILE"
-
