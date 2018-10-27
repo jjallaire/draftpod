@@ -57,7 +57,7 @@ export default {
     if (player.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
-      if (state.current_pack < 1)
+      if (state.current_pack < 3)
         nextPack(commit, state, playerNumber);
       else {
         // move picks to deck

@@ -83,9 +83,10 @@ function chartOptions() {
   return {
     stackBars: true,
     seriesBarDistance: 5,
-    high: 10,
+    high: 12,
     low: 0,
     onlyInteger: true,
+    height: 120,
     axisX: {
       showGrid: true,
     },
@@ -106,5 +107,12 @@ function chartOptions() {
 .ct-bar {
   stroke-width: 11%;
 }
+.ct-series-a .ct-bar {
+  stroke: #ee5f5b;
+}
+.ct-series-b .ct-bar {
+   stroke: #5bc0de;
+}
+
 </style>
 
