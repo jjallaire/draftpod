@@ -115,7 +115,7 @@ export default {
         else if (card.cmc <= 1)
           deck_piles[0].push(card);
         else if (card.cmd >= 6)
-          deck_piles[6].push(card);
+          deck_piles[5].push(card);
         else
           deck_piles[card.cmc-1].push(card);
       });
