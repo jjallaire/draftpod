@@ -11,6 +11,7 @@
 
 import Chartist from 'chartist'
 
+
 export default {
   name: 'ManaCurve',
 
@@ -25,25 +26,29 @@ export default {
     chart: null
   },
 
-
   watch: {
     cards: function(cards) {
-
       let data = chartData(cards);
-      
-      this.chart.update();
+      this.chart.update(data);
     }
   },
 
   mounted() {
-    var data = {
-      labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
-      series: [ [5, 2, 4, 2, 0]]
-    };
-
-    this.chart = new Chartist.Line(this.$el, data);
+    this.chart = new Chartist.Bar(this.$el, 
+      chartData(this.cards),
+      {
+        stackBars: true,
+        high: 10,
+        low: 0,
+        onlyInteger: true,
+        axisY: {
+          offset: 0,
+          labelInterpolationFnc: () => '',
+        }
+      });
   }
 }
+
 
 function chartData(cards) {
   let creatures = new Array(6).fill(0);
@@ -68,18 +73,18 @@ function chartData(cards) {
         other[card.cmc-1]++;
   }
 
-  return [
-    other,
-    creatures
-  ]
+  return {
+    labels: ['1', '2', '3', '4', '5', '6+'],
+    series: [
+      creatures,
+      other
+    ],
+  }
 }
 
 
 </script>
 
-<style>
-
-
-
+<style src="chartist/dist/chartist.min.css">
 </style>
 
