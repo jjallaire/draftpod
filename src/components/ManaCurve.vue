@@ -38,13 +38,18 @@ export default {
       chartData(this.cards),
       {
         stackBars: true,
+        seriesBarDistance: 5,
         high: 10,
         low: 0,
         onlyInteger: true,
+        axisX: {
+          showGrid: true,
+        },
         axisY: {
           offset: 0,
           labelInterpolationFnc: () => '',
-        }
+          showGrid: true,
+        },
       });
   }
 }
@@ -56,12 +61,16 @@ function chartData(cards) {
   for (let i=0; i<cards.length;i++) {
     let card = cards[i];
     let isCreature = card.type_line.includes("Creature");
+    let isLand = card.type_line.includes("Land");
+    if (isLand)
+      continue;
+
     if (card.cmc <= 1)
       if (isCreature)
         creatures[0]++;
       else
-        other[0]++;
-    else if (card.cmd >= 6)
+        other[0]++; 
+    else if (card.cmc >= 6)
       if (isCreature)
         creatures[5]++;
       else
@@ -86,5 +95,11 @@ function chartData(cards) {
 </script>
 
 <style src="chartist/dist/chartist.min.css">
+</style>
+
+<style>
+.ct-bar {
+  stroke-width: 11%;
+}
 </style>
 
