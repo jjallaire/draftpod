@@ -12,7 +12,7 @@
   </span> 
   <ul class="navbar-nav">
     <li class="nav-item">
-          <a class="nav-link" title="Exit Draft" href="#"><i class="material-icons nav-icon">refresh</i></a>
+          <a class="nav-link" title="Exit Draft" href="#"><i class="material-icons nav-icon">exit_to_app</i></a>
         </li>
     <li class="nav-item">
       <a class="nav-link" href="#" title="Fullscreen"
