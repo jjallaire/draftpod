@@ -14,6 +14,14 @@
       <span class="mana-key other-key">&nbsp;</span> Other ({{ other_count }})
     </div>
     <ManaCurve :cards="deck_cards" />
+    <table class="table table-sm">
+      <tbody>
+      <tr v-for="color in color_counts" :key="color.img">
+        <td><img :src="color.img" width=18></td>
+        <td>{{ color.count }}</td>
+      </tr>
+      </tbody>
+    </table>
   </Panel>
   
 </div>
@@ -74,6 +82,50 @@ export default {
     other_count: function() {
       return this.deck_cards.filter((card) => !card.type_line.includes("Creature") &&
                                               !card.type_line.includes("Land")).length;
+    },
+    color_counts: function() {
+      let counts = {
+        W: {
+          img: "images/mana-white.svg",
+          count: 0
+        },
+        B: {
+          img: "images/mana-black.svg",
+          count: 0
+        },
+        U: {
+          img: "images/mana-blue.svg",
+          count: 0
+        },
+        R: {
+          img: "images/mana-red.svg",
+          count: 0
+        },
+        G: {
+          img: "images/mana-green.svg",
+          count: 0
+        },
+        C: {
+          img: "images/mana-colorless.svg",
+          count: 0
+        },
+      };
+      for (let i=0; i<this.deck_cards.length; i++) {
+        let card = this.deck_cards[i];
+        if (card.type_line.includes("Land"))
+          continue;
+        let colors = this.deck_cards[i].colors;
+        if (colors.length === 0)
+          counts["C"].count++;
+        else
+          for (let c=0; c<colors.length; c++)
+            counts[colors[c]].count++;
+      }
+
+      counts = Object.keys(counts).map(val => counts[val]);
+      return counts.sort(function(a, b) {
+        return b.count - a.count;
+      });
     }
   }
 }
@@ -136,7 +188,7 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
-  .mtgdraft-deckstats .mana-curve-legend {
+  .mtgdraft-deckstats {
     font-size: 0.7em;
   }
 }
