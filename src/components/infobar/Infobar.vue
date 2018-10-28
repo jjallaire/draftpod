@@ -130,7 +130,7 @@ export default {
 
 .mtgdraft-deckstats .mana-curve-legend {
   font-size: 0.8em;
-  font-weight: 500;
+  font-weight: 400;
   color: #808080;
   margin-top: 6px;
 }
