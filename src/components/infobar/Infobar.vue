@@ -11,8 +11,8 @@
   <Panel caption="Deck Stats" panel_class="mtgdraft-deckstats"> 
     <ManaCurve :cards="deck_cards" />
     <div class="mana-curve-legend">
-      <span class="mana-key creatures-key">&nbsp;</span> Creatures
-      <span class="mana-key other-key">&nbsp;</span> Other
+      <span class="mana-key creatures-key">&nbsp;</span> Creatures ({{ creature_count }})
+      <span class="mana-key other-key">&nbsp;</span> Other ({{ other_count }})
     </div>
   </Panel>
   
@@ -67,6 +67,18 @@ export default {
       return this.picks_complete 
         ? this.deck_piles(this.player)[7] 
         : this.pick_piles(this.player)[7];
+    },
+    creature_count: function() {
+      let count = 0;
+      for (let i=0; i<this.deck_cards.length;i++) {
+        let card = this.deck_cards[i];
+        if (card.type_line.includes("Creature"))
+          count++;
+      }
+      return count;
+    },
+    other_count: function() {
+      return 0;
     }
   }
 }
@@ -141,7 +153,7 @@ export default {
 }
 
 .mtgdraft-deckstats .other-key {
-  margin-left: 8px;
+  margin-left: 5px;
   background-color: #5bc0de;
 }
 

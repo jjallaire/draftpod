@@ -94,7 +94,7 @@ body {
 
 .mtgdraft-infobar {
   position: absolute;
-  width: 220px;
+  width: 230px;
   top: 0;
   bottom: 0;
   right: 0;
@@ -102,7 +102,7 @@ body {
 
 .mtgdraft-cards {
   position: absolute;
-  right: 220px;
+  right: 230px;
   top: 0;
   left: 0;
   bottom: 0;
@@ -113,10 +113,10 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .mtgdraft-infobar {
-    width: 200px;
+    width: 210px;
   }
   .mtgdraft-cards {
-    right: 200px;
+    right: 210px;
   }
 }
 
