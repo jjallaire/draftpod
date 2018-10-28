@@ -86,10 +86,11 @@ function chartOptions() {
   return {
     stackBars: true,
     seriesBarDistance: 5,
-    high: 12,
+    high: 20,
     low: 0,
     onlyInteger: true,
     height: 120,
+  
     axisX: {
       showGrid: true,
     },
