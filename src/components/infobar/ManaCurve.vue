@@ -1,16 +1,13 @@
 
 
 <template>
-
 <div class="ct-chart ct-perfect-fourth">
 </div>
-
 </template>
 
 <script>
 
 import Chartist from 'chartist'
-
 
 export default {
   name: 'ManaCurve',
@@ -73,8 +70,14 @@ function chartData(cards) {
   return {
     labels: ['1', '2', '3', '4', '5', '6+'],
     series: [
-      creatures,
-      other
+      {
+        name: "Creatures",
+        data: creatures
+      },
+      {
+        name: "Other",
+        data: other,
+      },
     ],
   }
 }
@@ -104,6 +107,10 @@ function chartOptions() {
 </style>
 
 <style>
+.ct-chart {
+  height: 115px;
+}
+
 .ct-bar {
   stroke-width: 11%;
 }

@@ -8,8 +8,12 @@
     <img :src="preview_image" />
   </div>
   
-  <Panel caption="Stats" panel_class="mtgdraft-deckstats"> 
+  <Panel caption="Deck Stats" panel_class="mtgdraft-deckstats"> 
     <ManaCurve :cards="deck_cards" />
+    <div class="mana-curve-legend">
+      <span class="mana-key creatures-key">&nbsp;</span> Creatures
+      <span class="mana-key other-key">&nbsp;</span> Other
+    </div>
   </Panel>
   
 </div>
@@ -111,6 +115,37 @@ export default {
 .mtgdraft-deckstats {
   flex: 1 1 auto;
 }
+
+.mtgdraft-deckstats .card-body {
+  position: relative;
+  overflow-y: scroll;
+}
+
+.mtgdraft-deckstats .mana-curve-legend {
+  font-size: 0.8em;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mtgdraft-deckstats .mana-curve-legend {
+    font-size: 0.7em;
+  }
+}
+
+.mtgdraft-deckstats .mana-key {
+  padding-right: 12px;
+}
+
+.mtgdraft-deckstats .creatures-key {
+  margin-left: 10px;
+  background-color: #ee5f5b;
+}
+
+.mtgdraft-deckstats .other-key {
+  margin-left: 8px;
+  background-color: #5bc0de;
+}
+
+
 
 </style>
 
