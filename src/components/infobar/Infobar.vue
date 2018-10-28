@@ -14,7 +14,7 @@
       <span class="mana-key other-key">&nbsp;</span> Other ({{ other_count }})
     </div>
     <ManaCurve :cards="deck_cards" />
-    <table class="table table-sm">
+    <table class="table table-sm mtgdraft-deck-colors">
       <tbody>
       <tr v-for="color in color_counts" :key="color.img">
         <td><img :src="color.img" width=18></td>
@@ -207,6 +207,10 @@ export default {
   background-color: #5bc0de;
 }
 
+.mtgdraft-deck-colors {
+  font-size: 0.8em;
+  font-weight: 400;
+}
 
 
 </style>
