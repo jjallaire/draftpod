@@ -11,9 +11,9 @@
   </div>
   <Card v-for="(card, index) in pile" :key="card.key"
         :player="player" :card="card" :drag_source="drag_source"
-        v-bind:style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
+        :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
   </Card>
-  <div class="mtgpile-drag-insert" v-bind:style="styles.dragInsert"></div>
+  <div class="mtgpile-drag-insert" :style="styles.dragInsert"></div>
 </Drop>
 
 </template>
