@@ -21,7 +21,6 @@
 
 <script>
 
-
 import Navbar from './Navbar.vue'
 import Pack from './Pack.vue';
 import Pick from './pick/Pick.vue';

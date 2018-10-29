@@ -1,15 +1,17 @@
-
+// core vue dependencies
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import store from './store'
-import App from './components/App.vue'
 
-import 'vue-material-design-icons/styles.css'
-
-import './bootstrap/slate.min.css'
-
+// bootstrap
+import 'bootswatch/dist/slate/bootstrap.min.css'
 import 'jquery/dist/jquery'
 import 'bootstrap/dist/js/bootstrap.bundle'
+
+// main app
+import App from './components/App.vue'
+
+// vuex store
+import store from './store'
 
 Vue.config.productionTip = false
 

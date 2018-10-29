@@ -1,11 +1,9 @@
 
-
 <template>
 <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
 
   <span class="navbar-brand">MTG Drafter</span>
   
-   
   <span class="navbar-text">Guilds of Ravnica &mdash; 
     <span v-if="picks_complete">Picks Completed</span>
     <span v-else>Pack {{ current_pack }}, Pick {{ current_pick }}</span>
@@ -69,8 +67,8 @@ export default {
 </script>
 
 <style>
+
 .navbar {
-  padding: 8px;
   border: 0;
 }
 
