@@ -17,7 +17,7 @@
     <table class="table table-sm mtgdraft-deck-colors">
       <tbody>
       <tr v-for="color in color_counts" :key="color.img">
-        <td><img :src="color.img" width=18></td>
+        <td><img :src="color.img" width=18> {{ color.name }}</td>
         <td>{{ color.count }}</td>
       </tr>
       </tbody>
@@ -93,26 +93,32 @@ export default {
 function colorCounts(cards) {
   let counts = {
     W: {
+      name: "Plains",
       img: "images/mana-white.svg",
       count: 0
     },
     B: {
+      name: "Swamp",
       img: "images/mana-black.svg",
       count: 0
     },
     U: {
+      name: "Island",
       img: "images/mana-blue.svg",
       count: 0
     },
     R: {
+      name: "Mountain",
       img: "images/mana-red.svg",
       count: 0
     },
     G: {
+      name: "Forest",
       img: "images/mana-green.svg",
       count: 0
     },
     C: {
+      name: "Colorless",
       img: "images/mana-colorless.svg",
       count: 0
     },
@@ -215,7 +221,19 @@ function colorCounts(cards) {
 
 .mtgdraft-deck-colors {
   font-size: 0.8em;
-  font-weight: 400;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.mtgdraft-deck-colors th,
+.mtgdraft-deck-colors td {
+  border-top: none;
+}
+
+.mtgdraft-deck-colors td img {
+  margin-top: -2px;
+  margin-right: 6px;
+  margin-left: 4px;
 }
 
 

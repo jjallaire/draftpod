@@ -86,7 +86,7 @@ function chartOptions() {
   return {
     stackBars: true,
     seriesBarDistance: 5,
-    high: 20,
+    high: 16,
     low: 0,
     onlyInteger: true,
     height: 120,
@@ -95,6 +95,9 @@ function chartOptions() {
       showGrid: true,
     },
     axisY: {
+      type: Chartist.FixedScaleAxis,
+      ticks: [0, 8, 16],
+      low: 0,
       offset: 0,
       labelInterpolationFnc: () => '',
       showGrid: true,
