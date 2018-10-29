@@ -70,6 +70,7 @@ export default {
 
 .navbar {
   border: 0;
+  padding: 8px;
 }
 
 .navbar .navbar-brand {
@@ -84,10 +85,6 @@ export default {
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 1em;
-}
-
-.navbar .nav-link {
-  padding: 0;
 }
 
 .navbar .nav-item .material-design-icon {
