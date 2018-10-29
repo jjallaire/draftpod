@@ -4,7 +4,12 @@ import VueRouter from 'vue-router'
 import store from './store'
 import App from './components/App.vue'
 
-import "vue-material-design-icons/styles.css"
+import 'vue-material-design-icons/styles.css'
+
+import './bootstrap/slate.min.css'
+
+import 'jquery/dist/jquery'
+import 'bootstrap/dist/js/bootstrap.bundle'
 
 Vue.config.productionTip = false
 
