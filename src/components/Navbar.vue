@@ -1,26 +1,9 @@
-
 <template>
 <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
 
   <span class="navbar-brand">MTG Drafter</span>
   
-  <span class="navbar-text">Guilds of Ravnica &mdash; 
-    <span v-if="picks_complete">Picks Completed</span>
-    <span v-else>Pack {{ current_pack }}, Pick {{ current_pick }}</span>
-  </span> 
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link">
-        <ExitToAppIcon title="Exit Draft"/>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link">
-        <FullScreenIcon title="Fullscreen" @click.native="fullscreenToggle"/>
-      </a>
-    </li>
-  </ul> 
-
+  <slot></slot>
 
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
@@ -39,31 +22,8 @@
 
 <script>
 
-import { mapGetters } from 'vuex';
-
-import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
-import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
-
 export default {
   name: 'Navbar',
-
-  computed: {
-    ...mapGetters([
-      'current_pack',
-      'current_pick',
-      'picks_complete'
-    ]),
-  },
-
-  components: {
-    FullScreenIcon, ExitToAppIcon
-  },
-
-  methods: {
-    fullscreenToggle: function() {
-      document.documentElement.webkitRequestFullScreen();
-    }
-  }
 }
 </script>
 

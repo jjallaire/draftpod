@@ -1,6 +1,24 @@
 <template>
   <div>
-  <Navbar />
+  
+  <Navbar> 
+    <span class="navbar-text">Guilds of Ravnica &mdash; 
+      <span v-if="picks_complete">Picks Completed</span>
+      <span v-else>Pack {{ current_pack }}, Pick {{ current_pick }}</span>
+    </span> 
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link">
+          <ExitToAppIcon title="Exit Draft"/>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          <FullScreenIcon title="Fullscreen" @click.native="fullscreenToggle"/>
+        </a>
+      </li>
+    </ul> 
+  </Navbar>
 
   <div class="mtgdraft bg-secondary">
 
@@ -32,6 +50,9 @@ import { START_DRAFT } from '../store/actions';
 import { mapActions } from 'vuex';
 import { mapGetters } from 'vuex';
 
+import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
+import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
+
 export default {
   name: 'App',
 
@@ -43,7 +64,7 @@ export default {
   },
 
   components: {
-    Navbar, Pack, Pick, Deck, Infobar
+    Navbar, Pack, Pick, Deck, Infobar, FullScreenIcon, ExitToAppIcon
   },
 
   created() {
@@ -56,14 +77,19 @@ export default {
   computed: {
     ...mapGetters([
       'started',
-      'picks_complete'
+      'picks_complete',
+      'current_pack',
+      'current_pick',
     ]),
   },
 
   methods: {
     ...mapActions({
       startDraft: START_DRAFT
-    })
+    }),
+    fullscreenToggle: function() {
+      document.documentElement.webkitRequestFullScreen();
+    }
   }
 }
 </script>
