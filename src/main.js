@@ -4,6 +4,8 @@ import VueRouter from 'vue-router'
 import store from './store'
 import App from './components/App.vue'
 
+import "vue-material-design-icons/styles.css"
+
 Vue.config.productionTip = false
 
 // router

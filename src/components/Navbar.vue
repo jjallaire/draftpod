@@ -12,12 +12,13 @@
   </span> 
   <ul class="navbar-nav">
     <li class="nav-item">
-          <a class="nav-link" title="Exit Draft" href="#"><i class="material-icons nav-icon">exit_to_app</i></a>
-        </li>
+      <a class="nav-link">
+        <ExitToAppIcon title="Exit Draft"/>
+      </a>
+    </li>
     <li class="nav-item">
-      <a class="nav-link" href="#" title="Fullscreen"
-          onclick="document.documentElement.webkitRequestFullScreen(); return false;">
-          <i class="material-icons nav-icon">fullscreen</i>
+      <a class="nav-link">
+        <FullScreenIcon title="Fullscreen" @click.native="fullscreenToggle"/>
       </a>
     </li>
   </ul> 
@@ -41,6 +42,9 @@
 
 import { mapGetters } from 'vuex';
 
+import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
+import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
+
 export default {
   name: 'Navbar',
 
@@ -51,6 +55,16 @@ export default {
       'picks_complete'
     ]),
   },
+
+  components: {
+    FullScreenIcon, ExitToAppIcon
+  },
+
+  methods: {
+    fullscreenToggle: function() {
+      document.documentElement.webkitRequestFullScreen();
+    }
+  }
 }
 </script>
 
@@ -78,7 +92,7 @@ export default {
   padding: 0;
 }
 
-.navbar .nav-icon {
+.navbar .nav-item .material-design-icon {
   font-size: 1.3rem;
   line-height: inherit;
 }
