@@ -1,6 +1,6 @@
 <template>
   <div>
-  <Navbar :player="player" />
+  <Navbar />
 
   <div class="mtgdraft bg-secondary">
 
