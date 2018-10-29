@@ -10,6 +10,8 @@
 
 <script>
 
+import * as filters from '../../store/card-filters'
+
 export default {
   name: 'ManaLegend',
 
@@ -22,12 +24,11 @@ export default {
 
   computed: {
     creature_count: function() {
-      return this.cards.filter((card) => card.type_line.includes("Creature")).length;
+      return this.cards.filter(filters.creature).length;
     },
     other_count: function() {
       return this.cards.filter((card) => 
-        !card.type_line.includes("Creature") &&
-        !card.type_line.includes("Land")).length;
+        !filters.creature(card) && !filters.land(card)).length;
     },
   },
 }

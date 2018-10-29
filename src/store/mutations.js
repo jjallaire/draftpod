@@ -11,6 +11,7 @@ import Vue from 'vue'
 
 import uuidv4 from 'uuid'
 import * as set from './set/'
+import * as filters from './card-filters'
 
 const local_images = false
 
@@ -110,7 +111,7 @@ export default {
     pick_piles.slice(0, 7).forEach(function(pile) {
       pile.forEach(function(c) {
         let card = {...c, key: uuidv4()};
-        if (card.type_line.includes("Land"))
+        if (filters.land(card))
           lands.push(card);
         else if (card.cmc <= 1)
           deck_piles[0].push(card);
@@ -139,8 +140,8 @@ export default {
 
 function orderCards(a, b) {
 
-  let aIsCreature = a.type_line.includes("Creature");
-  let bIsCreature = b.type_line.includes("Creature");
+  let aIsCreature = filters.creature(a);
+  let bIsCreature = filters.creature(b);
 
   if (aIsCreature === bIsCreature) {
     if (a.name < b.name)

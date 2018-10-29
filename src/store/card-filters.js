@@ -13,6 +13,14 @@ export function common(card) {
   return rarity(["common"])(card);
 }
 
+export function creature(card) {
+  return card.type_line.includes("Creature");
+}
+
+export function land(card) {
+  return card.type_line.includes("Land");
+}
+
 export function basicLand(card) {
   return card.type_line.startsWith("Basic Land")
 }

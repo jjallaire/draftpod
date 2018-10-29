@@ -14,6 +14,8 @@
 
 <script>
 
+import * as filters from '../../store/card-filters'
+
 export default {
   name: 'ManaColors',
 
@@ -60,7 +62,7 @@ export default {
       };
       for (let i=0; i<this.cards.length; i++) {
         let card = this.cards[i];
-        if (card.type_line.includes("Land"))
+        if (filters.land(card))
           continue;
         let colors = card.colors;
         if (colors.length === 0)

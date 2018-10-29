@@ -9,6 +9,8 @@
 
 import Chartist from 'chartist'
 
+import * as filters from '../../store/card-filters'
+
 export default {
   name: 'ManaCurve',
 
@@ -45,8 +47,8 @@ function chartData(cards) {
   let other = new Array(6).fill(0);
   for (let i=0; i<cards.length;i++) {
     let card = cards[i];
-    let isCreature = card.type_line.includes("Creature");
-    let isLand = card.type_line.includes("Land");
+    let isCreature = filters.creature(card);
+    let isLand = filters.land(card);
     if (isLand)
       continue;
 
