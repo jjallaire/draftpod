@@ -8,6 +8,7 @@
 <script>
 
 import Chartist from 'chartist'
+import "chartist/dist/chartist.min.css"
 
 import * as filters from '../../store/card-filters'
 
@@ -108,9 +109,6 @@ function chartOptions() {
 }
 
 </script>
-
-<style src="chartist/dist/chartist.min.css">
-</style>
 
 <style>
 .ct-chart {
