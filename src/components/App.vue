@@ -2,7 +2,7 @@
   <div>
   <Navbar :player="player" />
 
-  <div class="mtgdraft">
+  <div class="mtgdraft bg-secondary">
 
       <div class="mtgdraft-cards">
         <transition name="mtgpack-hide">
