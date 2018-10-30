@@ -14,7 +14,8 @@
       </li>
       <li class="nav-item">
         <a class="nav-link">
-          <FullScreenIcon title="Fullscreen" @click.native="fullscreenToggle"/>
+          <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="fullscreenToggle"/>
+          <FullScreenIcon v-else title="Fullscreen" @click.native="fullscreenToggle"/>
         </a>
       </li>
     </ul> 
@@ -51,7 +52,10 @@ import { mapActions } from 'vuex';
 import { mapGetters } from 'vuex';
 
 import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
+import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
 import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
+
+import fscreen from 'fscreen'
 
 export default {
   name: 'App',
@@ -63,11 +67,22 @@ export default {
     }
   },
 
+  data: function() {
+    return { fullscreen: false };
+  },
+
   components: {
-    Navbar, Pack, Pick, Deck, Infobar, FullScreenIcon, ExitToAppIcon
+    Navbar, Pack, Pick, Deck, Infobar, 
+    FullScreenIcon, FullScreenExitIcon, ExitToAppIcon
   },
 
   created() {
+
+    let vm = this;
+    fscreen.onfullscreenchange = function() {
+      vm.fullscreen = fscreen.fullscreenElement !== null;
+    };
+
     if (!this.started) {
       this.startDraft({ playerNumber: this.player, set_code: 'grn' });
     }
@@ -87,7 +102,10 @@ export default {
       startDraft: START_DRAFT
     }),
     fullscreenToggle: function() {
-      document.documentElement.webkitRequestFullScreen();
+      if (!this.fullscreen)
+        fscreen.requestFullscreen(document.documentElement);
+      else
+        fscreen.exitFullscreen();
     }
   }
 }
