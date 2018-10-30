@@ -34,6 +34,10 @@ export default {
   padding: 8px;
 }
 
+.navbar .nav-link {
+  padding-bottom: 0.6rem;
+}
+
 .navbar .navbar-brand {
   font-size: 1rem;
   font-weight: 400;
