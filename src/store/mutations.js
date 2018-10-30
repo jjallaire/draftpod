@@ -146,7 +146,7 @@ function cardToDeckPile(c, deck_piles) {
     pile = deck_piles[6];
   else if (card.cmc <= 1)
     pile = deck_piles[0];
-  else if (card.cmd >= 6)
+  else if (card.cmc>= 6)
     pile = deck_piles[5];
   else
     pile = deck_piles[card.cmc-1];
