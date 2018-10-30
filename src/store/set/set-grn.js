@@ -5,6 +5,8 @@ import * as ai from './draft-ai'
 
 export default {
 
+  name: "Guilds of Ravnica",
+
   booster(cards) {
 
     return [].concat(

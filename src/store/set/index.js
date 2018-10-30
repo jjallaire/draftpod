@@ -11,6 +11,10 @@ const sets = {
   grn
 }
 
+export function name(set_code) {
+  return sets[set_code].name;
+}
+
 export function booster(set_code, cards) {
   return sets[set_code].booster(cards);
 }

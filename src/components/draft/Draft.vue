@@ -2,11 +2,11 @@
   <div>
   
   <Navbar> 
-    <span class="navbar-text">Guilds of Ravnica &mdash; 
+    <span v-if="started" class="navbar-text">{{ set_name }} &mdash; 
       <span v-if="picks_complete">Picks Completed</span>
       <span v-else>Pack {{ current_pack }}, Pick {{ current_pick }}</span>
     </span> 
-    <ul class="navbar-nav">
+    <ul v-if="started" class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link">
           <ExitToAppIcon title="Exit Draft"/>
@@ -90,6 +90,8 @@ export default {
 
   computed: {
     ...mapGetters([
+      'set_code',
+      'set_name',
       'started',
       'picks_complete',
       'current_pack',

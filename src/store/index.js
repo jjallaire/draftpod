@@ -4,7 +4,7 @@ import Vuex from 'vuex'
 
 import actions from './actions'
 import mutations from './mutations'
-
+import * as set from './set/'
 
 
 Vue.use(Vuex)
@@ -32,6 +32,7 @@ const store = new Vuex.Store({
   },
   getters: {
     set_code: (state) => state.set_code,
+    set_name: (state) => set.name(state.set_code),
     cardpool: (state) => state.cardpool,
     started: (state) => state.current_pack > 0,
     current_pack: (state) => state.current_pack,

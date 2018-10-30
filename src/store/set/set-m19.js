@@ -5,6 +5,8 @@ import * as ai from './draft-ai'
 
 export default {
 
+  name: "Core Set 2019",
+
   booster(cards) {
 
     let booster = [].concat(

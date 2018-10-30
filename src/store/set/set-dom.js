@@ -5,6 +5,8 @@ import * as ai from './draft-ai'
 
 export default {
 
+  name: "Dominaria",
+
   booster(cards) {
 
     // allocate rares and uncommons
