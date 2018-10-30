@@ -25,6 +25,13 @@ const store = new Vuex.Store({
         pack: [],
         pick_piles: [...Array(8)].map(() => Array()),
         deck_piles: [...Array(8)].map(() => Array()),
+        deck_basic_lands: {
+          mountain: 0,
+          plains: 0,
+          island: 0,
+          swamp: 0,
+          forest: 0
+        },
         card_preview: null
       }
     }),
@@ -41,6 +48,7 @@ const store = new Vuex.Store({
     pack: (state) => (player) => state.players[player].pack,
     pick_piles: (state) => (player) => state.players[player].pick_piles,
     deck_piles: (state) => (player) => state.players[player].deck_piles,
+    deck_basic_lands: (state) => (player) => state.players[player].deck_basic_lands,
     card_preview: (state) => (player) => state.players[player].card_preview,
     picks_complete: (state) => state.picks_complete,
   },

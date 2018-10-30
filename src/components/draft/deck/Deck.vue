@@ -7,8 +7,8 @@
     <Pile :player="player" :key="5" caption="6+" :piles="piles" :number="5" drag_source="DRAG_SOURCE_DECK"></Pile>
     <Pile :player="player" :key="6" caption="Lands" :caption_count="true"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
-      <template slot="controls">
-      </template>
+      <Lands slot="controls" :lands="lands">
+      </Lands>
     </Pile>
     <div class="mtgpile mtgpile-separator"></div>
     <Pile :player="player" :key="7" caption="Sideboard" :piles="piles" :number="7" drag_source="DRAG_SOURCE_SIDEBOARD"></Pile>
@@ -17,8 +17,9 @@
 
 <script>
 
-import Panel from './core/Panel.vue'
-import Pile from './core/Pile.vue'
+import Panel from '../core/Panel.vue'
+import Pile from '../core/Pile.vue'
+import Lands from './Lands.vue'
 
 import { mapGetters } from 'vuex';
 
@@ -35,14 +36,18 @@ export default {
   computed: {
     ...mapGetters([
       'deck_piles',
+      'deck_basic_lands'
     ]),
     piles: function() {
       return this.deck_piles(this.player);
+    },
+    lands: function() {
+      return this.deck_basic_lands(this.player);
     }
   },
 
   components: {
-    Panel, Pile
+    Panel, Pile, Lands
   }
 }
 
