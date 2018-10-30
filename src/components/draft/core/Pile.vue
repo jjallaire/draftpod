@@ -6,8 +6,8 @@
       @dragover="handleDragover(...arguments)"
       @dragleave="handleDragleave(...arguments)">
   <div class="mtgpile-caption" v-if="caption" 
-       :style="{textAlign: center_caption ? 'center' : 'left'}">
-    {{ caption }}
+       :style="{textAlign: caption_center ? 'center' : 'left'}">
+    {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>
   </div>
   <Card v-for="(card, index) in pile" :key="card.key"
         :player="player" :card="card" :drag_source="drag_source"
@@ -52,7 +52,11 @@ export default {
     caption: {
       type: String
     },
-    center_caption: {
+    caption_count: {
+      type: Boolean,
+      default: false
+    },
+    caption_center: {
       type: Boolean,
       default: true
     },
