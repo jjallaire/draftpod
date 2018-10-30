@@ -3,11 +3,11 @@
 <template>
   <Panel caption="Deck" panel_class="mtgdraft-deck">
     <Pile :player="player" v-for="number in 5" 
-          :key="number-1" :caption="number + ''" :piles="piles" :number="number-1"></Pile>
-    <Pile :player="player" :key="5" caption="6+" :piles="piles" :number="5"></Pile>
-    <Pile :player="player" :key="6" caption="Lands" :piles="piles" :number="6"></Pile>
+          :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" drag_source="DRAG_SOURCE_DECK"></Pile>
+    <Pile :player="player" :key="5" caption="6+" :piles="piles" :number="5" drag_source="DRAG_SOURCE_DECK"></Pile>
+    <Pile :player="player" :key="6" caption="Lands" :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK"></Pile>
     <div class="mtgpile mtgpile-separator"></div>
-    <Pile :player="player" :key="7" caption="Sideboard" :piles="piles" :number="7"></Pile>
+    <Pile :player="player" :key="7" caption="Sideboard" :piles="piles" :number="7" drag_source="DRAG_SOURCE_SIDEBOARD"></Pile>
   </Panel>
 </template>
 

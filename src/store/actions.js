@@ -6,7 +6,6 @@ import {
   INITIALIZE,
   OPEN_PACKS, 
   PACK_TO_PICK, 
-  MOVE_PICK_TO_PILE, 
   PASS_PACKS, 
   SET_PICKS_COMPLETE,
   MOVE_PICKS_TO_DECK,
@@ -18,7 +17,6 @@ import * as set from './set/'
 export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
-export const MOVE_PICK = 'MOVE_PICK';
 
 export default {
 
@@ -57,7 +55,7 @@ export default {
     if (player.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
-      if (state.current_pack < 3)
+      if (state.current_pack < 1)
         nextPack(commit, state, playerNumber);
       else {
         // move picks to deck
@@ -72,10 +70,6 @@ export default {
     } else {
       commit(PASS_PACKS);
     }
-  },
-
-  [MOVE_PICK]({ commit }, payload) {
-    commit(MOVE_PICK_TO_PILE, payload);
   },
 };
 

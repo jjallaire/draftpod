@@ -2,10 +2,11 @@ export const INITIALIZE = 'INITIALIZE'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
-export const MOVE_PICK_TO_PILE = 'MOVE_PICK_TO_PILE'
+export const MOVE_TO_PILE = 'MOVE_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
 export const MOVE_PICKS_TO_DECK = 'MOVE_PICKS_TO_DECK'
 export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
+export const MOVE_TO_DECK = 'MOVE_TO_DECK'
 
 import Vue from 'vue'
 
@@ -54,7 +55,7 @@ export default {
     addCardToPile(pile, card, insertBefore);
   },
 
-  [MOVE_PICK_TO_PILE](state, { card, pile, piles, insertBefore }) {
+  [MOVE_TO_PILE](state, { card, pile, piles, insertBefore }) {
 
     // remove from existing pile if necessary (if it came from a
     // pack then we won't need to do this)
@@ -109,17 +110,7 @@ export default {
     let deck_piles = state.players[playerNumber].deck_piles;
     let lands = deck_piles[6];
     pick_piles.slice(0, 7).forEach(function(pile) {
-      pile.forEach(function(c) {
-        let card = {...c, key: uuidv4()};
-        if (filters.land(card))
-          lands.push(card);
-        else if (card.cmc <= 1)
-          deck_piles[0].push(card);
-        else if (card.cmd >= 6)
-          deck_piles[5].push(card);
-        else
-          deck_piles[card.cmc-1].push(card);
-      });
+      pile.forEach((c) => cardToDeckPile(c, deck_piles));
     });
 
     // sideboard
@@ -134,9 +125,36 @@ export default {
 
   [SET_PICKS_COMPLETE](state) {
     state.picks_complete = true;
+  },
+
+  [MOVE_TO_DECK](state, {card, playerNumber }) {
+    // remove from sideboard
+    let deck_piles = state.players[playerNumber].deck_piles;
+    let sideboard = deck_piles[7];
+    sideboard.splice(sideboard.indexOf(card), 1);
+
+    // card to deck pile
+    let pile = cardToDeckPile(card, deck_piles);
+    pile.sort(orderCards);
   }
 };
 
+
+function cardToDeckPile(c, deck_piles) {
+  let card = {...c, key: uuidv4()};
+  let pile = null;
+  if (filters.land(card))
+    pile = deck_piles[6];
+  else if (card.cmc <= 1)
+    pile = deck_piles[0];
+  else if (card.cmd >= 6)
+    pile = deck_piles[5];
+  else
+    pile = deck_piles[card.cmc-1];
+  
+  pile.push(card);
+  return pile;
+}
 
 function orderCards(a, b) {
 

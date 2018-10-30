@@ -22,9 +22,11 @@
 <script>
 
 import { mapActions } from 'vuex'
+import { mapMutations } from 'vuex'
 import { Drop } from 'vue-drag-drop'
 
-import { PICK_CARD, MOVE_PICK } from '../../../store/actions'
+import { PICK_CARD } from '../../../store/actions'
+import { MOVE_TO_PILE, MOVE_TO_DECK } from '../../../store/mutations'
 
 import Card from './Card.vue'
 
@@ -48,10 +50,13 @@ export default {
     center_caption: {
       type: Boolean,
       default: true
-    }
+    },
+    drag_source: {
+      type: String,
+      default: "DRAG_SOURCE_PILE"
+    },
   },
   computed: {
-    drag_source: () => "DRAG_SOURCE_PILE",
     pile: function() { return this.piles[this.number]},
   },
   data: function() {
@@ -74,6 +79,19 @@ export default {
       // reject if not one of our drag sources
       if (!data || !data.drag_source) {
         event.dataTransfer.dropEffect = 'none';
+        return;
+      }
+
+      // reject for deck to deck
+      if (data.drag_source === "DRAG_SOURCE_DECK" &&
+          this.drag_source === "DRAG_SOURCE_DECK") {
+        event.dataTransfer.dropEffect = 'none';
+        return;
+      }
+
+      // no insert feedback for sideboard to deck
+      if (data.drag_source === "DRAG_SOURCE_SIDEBOARD" &&
+          this.drag_source === "DRAG_SOURCE_DECK") {
         return;
       }
 
@@ -110,12 +128,18 @@ export default {
       if (data.drag_source === "DRAG_SOURCE_PACK")
         this.pickCard(payload);
       else if (data.drag_source === "DRAG_SOURCE_PILE")
-        this.movePick(payload);
-
+        this.moveToPile(payload);
+      else if (data.drag_source === "DRAG_SOURCE_DECK")
+        this.moveToPile(payload);
+      else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD")
+        this.moveToDeck(payload);
     },
     ...mapActions({
       pickCard: PICK_CARD,
-      movePick: MOVE_PICK
+    }),
+    ...mapMutations({
+      moveToPile: MOVE_TO_PILE,
+      moveToDeck: MOVE_TO_DECK
     }),
 
     provideDragFeedback: function(location) {
