@@ -9,7 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 
 // main modes
 import Home from './components/Home.vue'
-import App from './components/App.vue'
+import Draft from './components/draft/Draft.vue'
 import About from './components/About.vue'
 
 // vuex store
@@ -19,7 +19,7 @@ Vue.config.productionTip = false
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/draft', component: App },
+  { path: '/draft', component: Draft },
   { path: '/about', component: About },
 ];
 

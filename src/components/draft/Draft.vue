@@ -39,13 +39,13 @@
 
 <script>
 
-import Navbar from './Navbar.vue'
+import Navbar from '../Navbar.vue'
 import Pack from './Pack.vue';
 import Pick from './pick/Pick.vue';
 import Infobar from './infobar/Infobar.vue'
 import Deck from './Deck.vue'
 
-import { START_DRAFT } from '../store/actions';
+import { START_DRAFT } from '../../store/actions';
 
 import { mapActions } from 'vuex';
 import { mapGetters } from 'vuex';

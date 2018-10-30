@@ -24,7 +24,7 @@
 import { mapActions } from 'vuex'
 import { Drop } from 'vue-drag-drop'
 
-import { PICK_CARD, MOVE_CARD } from '../../store/actions'
+import { PICK_CARD, MOVE_CARD } from '../../../store/actions'
 
 import Card from './Card.vue'
 
