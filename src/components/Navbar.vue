@@ -7,13 +7,13 @@
 
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
-      <a class="nav-link" href="#/">Home</a>
-    </li>
-    <li class="nav-item active">
-      <a class="nav-link" href="#/draft">Draft</a>
+      <router-link class="nav-link" active-class="active" to="/" exact>Home</router-link>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#/about">About</a>
+      <router-link class="nav-link" active-class="active" to="/draft">Draft</router-link>
+    </li>
+    <li class="nav-item">
+      <router-link class="nav-link" active-class="active" to="/about">About</router-link>
     </li>
   </ul>
   
