@@ -108,7 +108,6 @@ export default {
   [MOVE_PICKS_TO_DECK](state, { playerNumber }) {
     let pick_piles = state.players[playerNumber].pick_piles;
     let deck_piles = state.players[playerNumber].deck_piles;
-    let lands = deck_piles[6];
     pick_piles.slice(0, 7).forEach(function(pile) {
       pile.forEach((c) => cardToDeckPile(c, deck_piles));
     });
