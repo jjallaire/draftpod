@@ -2,7 +2,7 @@ export const INITIALIZE = 'INITIALIZE'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
-export const MOVE_CARD_TO_PILE = 'MOVE_CARD_TO_PILE'
+export const MOVE_PICK_TO_PILE = 'MOVE_PICK_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
 export const MOVE_PICKS_TO_DECK = 'MOVE_PICKS_TO_DECK'
 export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
@@ -54,7 +54,7 @@ export default {
     addCardToPile(pile, card, insertBefore);
   },
 
-  [MOVE_CARD_TO_PILE](state, { card, pile, piles, insertBefore }) {
+  [MOVE_PICK_TO_PILE](state, { card, pile, piles, insertBefore }) {
 
     // remove from existing pile if necessary (if it came from a
     // pack then we won't need to do this)

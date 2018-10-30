@@ -24,7 +24,7 @@
 import { mapActions } from 'vuex'
 import { Drop } from 'vue-drag-drop'
 
-import { PICK_CARD, MOVE_CARD } from '../../../store/actions'
+import { PICK_CARD, MOVE_PICK } from '../../../store/actions'
 
 import Card from './Card.vue'
 
@@ -110,12 +110,12 @@ export default {
       if (data.drag_source === "DRAG_SOURCE_PACK")
         this.pickCard(payload);
       else if (data.drag_source === "DRAG_SOURCE_PILE")
-        this.moveCard(payload);
+        this.movePick(payload);
 
     },
     ...mapActions({
       pickCard: PICK_CARD,
-      moveCard: MOVE_CARD
+      movePick: MOVE_PICK
     }),
 
     provideDragFeedback: function(location) {
