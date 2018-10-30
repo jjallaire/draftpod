@@ -6,15 +6,15 @@
   <slot></slot>
 
   <ul class="navbar-nav ml-auto">
-    <li class="nav-item">
-      <router-link class="nav-link" active-class="active" to="/" exact>Home</router-link>
-    </li>
-    <li class="nav-item">
-      <router-link class="nav-link" active-class="active" to="/draft">Draft</router-link>
-    </li>
-    <li class="nav-item">
-      <router-link class="nav-link" active-class="active" to="/about">About</router-link>
-    </li>
+    <router-link tag="li" class="nav-item" active-class="active" to="/" exact>
+      <a class="nav-link">Home</a>
+    </router-link>
+    <router-link tag="li" class="nav-item" active-class="active" to="/draft">
+      <a class="nav-link">Draft</a>
+    </router-link>
+    <router-link tag="li" class="nav-item" active-class="active" to="/about">
+      <a class="nav-link">About</a>
+    </router-link>
   </ul>
   
 </nav>
