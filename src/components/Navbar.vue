@@ -35,8 +35,8 @@ export default {
 }
 
 .navbar .nav-link {
-  padding-top: 0.6rem;
-  padding-bottom: 0.7rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.5rem;
 }
 
 .navbar .navbar-brand {
