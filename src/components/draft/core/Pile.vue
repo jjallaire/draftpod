@@ -13,6 +13,11 @@
         :player="player" :card="card" :drag_source="drag_source"
         :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
   </Card>
+  <div class="mtgpile-controls" 
+       :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 
+                            + (140) + '%'}">
+    <slot name="controls"></slot>
+  </div>
   <div class="mtgpile-drag-insert" :style="styles.dragInsert"></div>
 </Drop>
 
@@ -233,4 +238,10 @@ function cardInsertLocation(data, event) {
   margin-left: 2px;
   margin-right: 2px;
 }
+
+.mtgpile .mtgpile-controls {
+  position: absolute;
+  width: 100%;
+}
+
 </style>
