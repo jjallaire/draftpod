@@ -181,6 +181,9 @@ function computeAutoLands(deck) {
       let card_colors = card.mana_cost.match(color_regex);
       for (let i = 0; i<card_colors.length; i++) {
         for (let c = 0; c<all_colors.length; c++) {
+          // here we are sometimes analyzing a split color (e.g. {W/R}).
+          // currently it counts as both, perhaps it should count as 
+          // the other color most frequently appearing in your deck?
           if (card_colors[i].indexOf(all_colors[c]) !== -1)
             accumulator[all_colors[c]]++;
         }
