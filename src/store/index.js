@@ -19,6 +19,7 @@ const store = new Vuex.Store({
     all_packs: [],
     current_pack: 0,
     current_pick: 0,
+    picks_complete: false,
     show_pick_analysis: false,
     players: [...Array(8)].map(function() {
       return {
@@ -40,7 +41,6 @@ const store = new Vuex.Store({
         card_preview: null
       }
     }),
-    picks_complete: false
   },
   getters: {
     set_code: (state) => state.set_code,
@@ -49,11 +49,11 @@ const store = new Vuex.Store({
     started: (state) => state.current_pack > 0,
     current_pack: (state) => state.current_pack,
     current_pick: (state) => state.current_pick,
+    picks_complete: (state) => state.picks_complete,
     show_pick_analysis: (state) => state.show_pick_analysis,
     draft: (state) => (player) => state.players[player].draft,
     deck: (state) => (player) => state.players[player].deck,
     card_preview: (state) => (player) => state.players[player].card_preview,
-    picks_complete: (state) => state.picks_complete,
   },
   actions,
   mutations,
