@@ -9,6 +9,7 @@ import {
   PASS_PACKS, 
   SET_PICKS_COMPLETE,
   MOVE_PICKS_TO_DECK,
+  APPLY_AUTO_LANDS,
   SET_CARD_PREVIEW
 } from './mutations';
 
@@ -60,6 +61,9 @@ export default {
       else {
         // move picks to deck
         commit(MOVE_PICKS_TO_DECK, { playerNumber });
+
+        // apply auto lands
+        commit(APPLY_AUTO_LANDS, { playerNumber });
 
         // delay to allow UI state to update before starting
         // completion-based animations

@@ -15,7 +15,7 @@
   </Card>
   <div class="mtgpile-controls" 
        :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 
-                            + (140) + '%'}">
+                            + (pile.length >= 1 ? 140 : 6) + '%'}">
     <slot name="controls"></slot>
   </div>
   <div class="mtgpile-drag-insert" :style="styles.dragInsert"></div>
@@ -26,12 +26,13 @@
 
 <script>
 
+import { mapGetters } from 'vuex'
 import { mapActions } from 'vuex'
 import { mapMutations } from 'vuex'
 import { Drop } from 'vue-drag-drop'
 
 import { PICK_CARD } from '../../../store/actions'
-import { MOVE_TO_PILE, MOVE_TO_DECK } from '../../../store/mutations'
+import { MOVE_TO_PILE, MOVE_TO_DECK, APPLY_AUTO_LANDS } from '../../../store/mutations'
 
 import Card from './Card.vue'
 
@@ -66,7 +67,13 @@ export default {
     },
   },
   computed: {
+    ...mapGetters([
+      'deck',
+    ]),
     pile: function() { return this.piles[this.number]},
+    auto_lands: function() {
+      return this.deck(this.player).auto_lands;
+    }
   },
   data: function() {
     return {
@@ -143,8 +150,14 @@ export default {
       else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD") {
         if (this.drag_source === "DRAG_SOURCE_SIDEBOARD")
           this.moveToPile(payload);
-        else
+        else {
           this.moveToDeck(payload);
+        }
+      }
+
+      // apply auto lands if this was a deck building action
+      if (this.auto_lands && (data.drag_source === "DRAG_SOURCE_DECK" || data.drag_source === "DRAG_SOURCE_SIDEBOARD")) {
+        this.applyAutoLands({ playerNumber: this.player });
       }
     },
     ...mapActions({
@@ -152,7 +165,8 @@ export default {
     }),
     ...mapMutations({
       moveToPile: MOVE_TO_PILE,
-      moveToDeck: MOVE_TO_DECK
+      moveToDeck: MOVE_TO_DECK,
+      applyAutoLands: APPLY_AUTO_LANDS
     }),
 
     provideDragFeedback: function(location) {

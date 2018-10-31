@@ -4,7 +4,7 @@
 <table class="table table-sm mtgdraft-deck-colors">
   <tbody>
   <tr v-for="color in color_counts" :key="color.img">
-    <td align="center"><img :src="color.img" width=18></td>
+    <td align="center"><img :src="color.img" :title="color.name" width=18></td>
     <td align="center"><input type="number" :name="color.name + '_input'" :value="color.count"></td>
   </tr>
   </tbody>
@@ -30,35 +30,35 @@ export default {
   computed: {
 
     color_counts: function() {
-      let counts = {
-        W: {
+      let counts = [
+        {
           name: "Plains",
           img: "images/mana-white.svg",
           count: this.deck.basic_lands.W,
         },
-        B: {
+        {
           name: "Swamp",
           img: "images/mana-black.svg",
           count: this.deck.basic_lands.B,
         },
-        U: {
+        {
           name: "Island",
           img: "images/mana-blue.svg",
           count: this.deck.basic_lands.U,
         },
-        R: {
+        {
           name: "Mountain",
           img: "images/mana-red.svg",
           count: this.deck.basic_lands.R,
         },
-        G: {
+        {
           name: "Forest",
           img: "images/mana-green.svg",
           count: this.deck.basic_lands.G,
         },
-      };
+      ];
 
-      counts = Object.keys(counts).map(val => counts[val]);
+      //counts = Object.keys(counts).map(val => counts[val]);
       return counts.sort(function(a, b) {
         return b.count - a.count;
       });

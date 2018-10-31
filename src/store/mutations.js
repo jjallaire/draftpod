@@ -5,6 +5,7 @@ export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const MOVE_TO_PILE = 'MOVE_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
 export const MOVE_PICKS_TO_DECK = 'MOVE_PICKS_TO_DECK'
+export const APPLY_AUTO_LANDS = 'APPLY_AUTO_LANDS'
 export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
 export const MOVE_TO_DECK = 'MOVE_TO_DECK'
 
@@ -82,10 +83,6 @@ export default {
     addCardToPile(pile, card, insertBefore);
   },
 
-
-  // TODO: auto lands not computed when moving to sidebaord
-
-
   [PASS_PACKS](state) {
 
     // copy existing packs
@@ -124,10 +121,11 @@ export default {
 
     // sort all deck piles
     deck.piles.forEach((pile) => pile.sort(orderCards));
+  },
 
-    // auto-lands if necessary
-    if (deck.auto_lands)
-      deck.basic_lands = computeAutoLands(deck);
+  [APPLY_AUTO_LANDS](state, { playerNumber }) {
+    let deck = state.players[playerNumber].deck;
+    deck.basic_lands = computeAutoLands(deck);
   },
 
   [SET_PICKS_COMPLETE](state) {
@@ -143,10 +141,6 @@ export default {
     // card to deck pile
     let pile = cardToDeckPile(card, deck);
     pile.sort(orderCards);
-
-    // auto-lands if necessary
-    if (deck.auto_lands)
-      deck.basic_lands = computeAutoLands(deck);
   }
 };
 
@@ -171,11 +165,10 @@ function cardToDeckPile(c, deck) {
   return pile;
 }
 
-// TODO: main deck to sideboard recompute
 // TODO: compute based on many symbols
-// TODO: sort mana by total
 // TODO: show total up top
 // TODO: nerfs and buffs if we don't hit target
+// TODO: manual mode
 
 function computeAutoLands(deck) {
 
