@@ -166,7 +166,6 @@ function cardToDeckPile(c, deck) {
 }
 
 // TODO: compute based on many symbols
-// TODO: nerfs and buffs if we don't hit target
 // TODO: manual mode
 
 function computeAutoLands(deck) {
@@ -210,14 +209,53 @@ function computeAutoLands(deck) {
     .map(color => mana_required[color])
     .reduce(countReducer, 0);
 
-  // yield basic lands
-  let land_cards_remaining = total_land_cards - lands.length;
-  let basic_lands = {};
-  Object.keys(mana_required).map(
-    (color) => basic_lands[color] = Math.round((mana_required[color]/total_mana_required) * land_cards_remaining)
-  );
+  // function to yield basic lands
+  let basic_lands_required = total_land_cards - lands.length;
+  function basicLands(rounder) {
+    let basic_lands = {};
+    Object.keys(mana_required).map(function(color) {
+      let lands = mana_required[color]/total_mana_required * basic_lands_required;
+      if (rounder)
+        lands = rounder(lands);
+      basic_lands[color] = lands;
+    });
+    return basic_lands;
+  }
 
-  return basic_lands;
+  // function to count lands
+  function countLands(lands) {
+    return Object.keys(lands)
+      .map((color) => lands[color])
+      .reduce((total, count) => total + count, 0);
+  }
+
+  // tweak until the rounded version has the right sum
+  let basic_lands = basicLands();
+  let basic_lands_rounded = basicLands(Math.round);
+  let basic_lands_rounded_sum = countLands(basic_lands_rounded);
+  while(basic_lands_rounded_sum != basic_lands_required) {
+    let is_rounded_larger = basic_lands_rounded_sum > basic_lands_required;
+    let max_difference_color = null;
+    let max_difference_value = 0;
+    let colors = Object.keys(basic_lands);
+    for (let i=0; i<colors.length; i++) {
+      let color = colors[i];
+      let difference = Math.abs(basic_lands_rounded[color] - basic_lands[color]);
+      if (max_difference_value < difference) {
+        if ((is_rounded_larger && basic_lands_rounded[color] > basic_lands[color]) ||
+            (!is_rounded_larger && basic_lands_rounded[color] < basic_lands[color])) {
+          max_difference_value = difference;
+          max_difference_color = color;
+        }
+      }
+    }
+    let modify_value = is_rounded_larger ? -1 : 1;
+    basic_lands_rounded[max_difference_color] += modify_value;
+    basic_lands_rounded_sum += modify_value;
+  }
+ 
+  // return basic lands
+  return basic_lands_rounded;
 }
 
 function orderCards(a, b) {
