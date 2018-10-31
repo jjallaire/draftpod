@@ -30,11 +30,11 @@ const store = new Vuex.Store({
         deck: {
           piles: [...Array(8)].map(() => Array()),
           basic_lands: {
-            mountain: 0,
-            plains: 0,
-            island: 0,
-            swamp: 0,
-            forest: 0
+            R: 0,
+            W: 0,
+            U: 0,
+            B: 0,
+            G: 0
           },
           auto_lands: true
         },

@@ -218,20 +218,14 @@ function computeAutoLands(deck) {
     .map(color => mana_required[color])
     .reduce(countReducer, 0);
 
-  // compute remaining required sources  
+  // yield basic lands
   let land_cards_remaining = total_land_cards - lands.length;
-  let land_cards = {};
+  let basic_lands = {};
   Object.keys(mana_required).map(
-    (color) => land_cards[color] = Math.round((mana_required[color]/total_mana_required) * land_cards_remaining)
+    (color) => basic_lands[color] = Math.round((mana_required[color]/total_mana_required) * land_cards_remaining)
   );
   
-  return {
-    mountain: land_cards.R,
-    plains: land_cards.W,
-    island: land_cards.U,
-    swamp: land_cards.B,
-    forest: land_cards.G
-  };
+  return basic_lands;
 }
 
 function orderCards(a, b) {

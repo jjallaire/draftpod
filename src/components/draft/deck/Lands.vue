@@ -34,27 +34,27 @@ export default {
         W: {
           name: "Plains",
           img: "images/mana-white.svg",
-          count: this.deck.basic_lands.plains,
+          count: this.deck.basic_lands.W,
         },
         B: {
           name: "Swamp",
           img: "images/mana-black.svg",
-          count: this.deck.basic_lands.swamp,
+          count: this.deck.basic_lands.B,
         },
         U: {
           name: "Island",
           img: "images/mana-blue.svg",
-          count: this.deck.basic_lands.island,
+          count: this.deck.basic_lands.U,
         },
         R: {
           name: "Mountain",
           img: "images/mana-red.svg",
-          count: this.deck.basic_lands.mountain,
+          count: this.deck.basic_lands.R,
         },
         G: {
           name: "Forest",
           img: "images/mana-green.svg",
-          count: this.deck.basic_lands.forest,
+          count: this.deck.basic_lands.G,
         },
       };
 
