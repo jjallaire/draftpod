@@ -19,18 +19,22 @@ const store = new Vuex.Store({
     all_packs: [],
     current_pack: 0,
     current_pick: 0,
-    pick_analysis: false,
+    show_pick_analysis: false,
     players: [...Array(8)].map(function() {
       return {
-        pack: [],
-        pick_piles: [...Array(8)].map(() => Array()),
-        deck_piles: [...Array(8)].map(() => Array()),
-        deck_basic_lands: {
-          mountain: 0,
-          plains: 0,
-          island: 0,
-          swamp: 0,
-          forest: 0
+        draft: {
+          pack: [],
+          piles: [...Array(8)].map(() => Array()),
+        },
+        deck: {
+          piles: [...Array(8)].map(() => Array()),
+          basic_lands: {
+            mountain: 0,
+            plains: 0,
+            island: 0,
+            swamp: 0,
+            forest: 0
+          },
         },
         card_preview: null
       }
@@ -44,11 +48,9 @@ const store = new Vuex.Store({
     started: (state) => state.current_pack > 0,
     current_pack: (state) => state.current_pack,
     current_pick: (state) => state.current_pick,
-    pick_analysis: (state) => state.pick_analysis,
-    pack: (state) => (player) => state.players[player].pack,
-    pick_piles: (state) => (player) => state.players[player].pick_piles,
-    deck_piles: (state) => (player) => state.players[player].deck_piles,
-    deck_basic_lands: (state) => (player) => state.players[player].deck_basic_lands,
+    show_pick_analysis: (state) => state.show_pick_analysis,
+    draft: (state) => (player) => state.players[player].draft,
+    deck: (state) => (player) => state.players[player].deck,
     card_preview: (state) => (player) => state.players[player].card_preview,
     picks_complete: (state) => state.picks_complete,
   },

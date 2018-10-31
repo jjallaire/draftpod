@@ -52,7 +52,7 @@ export default {
     aiPicks(commit, state, playerNumber);
 
     // check whether the pack is completed
-    if (player.pack.length === 0) {
+    if (player.draft.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
       if (state.current_pack < 1)
@@ -86,7 +86,7 @@ function nextPack(commit, state, playerNumber) {
   // set the current preview to the first card in the pack
   commit(SET_CARD_PREVIEW, {
     playerNumber: playerNumber,
-    card: state.players[playerNumber].pack[0],
+    card: state.players[playerNumber].draft.pack[0],
   });
 
 }
@@ -95,11 +95,12 @@ function aiPicks(commit, state, playerNumber) {
   for (let i=0; i<state.players.length; i++) {
     if (i !== playerNumber) {
       let player = state.players[i];
-      let card = set.pick(state.set_code, player.pick_piles[0], player.pack);
+      let draft = player.draft;
+      let card = set.pick(state.set_code, draft.piles[0], draft.pack);
       commit(PACK_TO_PICK, { 
         playerNumber: i, 
         card: card, 
-        pile: state.players[i].pick_piles[0], 
+        pile: state.players[i].draft.piles[0], 
         insertBefore: null 
       });
     }

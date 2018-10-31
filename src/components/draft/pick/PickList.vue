@@ -25,10 +25,10 @@ export default {
 
   computed: {
     ...mapGetters([
-      'pick_piles',
+      'draft',
     ]),
     piles: function() {
-      return this.pick_piles(this.player);
+      return this.draft(this.player).piles;
     }
   },
 

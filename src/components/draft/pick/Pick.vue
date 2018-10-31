@@ -12,7 +12,7 @@
             Picks
         </a>
       </li>
-      <li v-if="pick_analysis" class="nav-item">
+      <li v-if="show_pick_analysis" class="nav-item">
         <a class="nav-link" id="pick-analysis-tab" data-toggle="tab" href="#pick-analysis"
           role="tab" aria-controls="pick-analysis" aria-selected="false">
             Analysis
@@ -25,7 +25,7 @@
     <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
       <PickList :player="player" />
     </div>
-    <div v-if="pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
+    <div v-if="show_pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
       <PickAnalysis :player="player" />
     </div>
 </div>
@@ -55,7 +55,7 @@ export default {
   computed: {
     ...mapGetters([
       'picks_complete',
-      'pick_analysis'
+      'show_pick_analysis'
     ])
   },
 }

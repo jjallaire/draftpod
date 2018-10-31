@@ -3,10 +3,10 @@
 <template>
 
   <Panel panel_class="mtgdraft-pack" background="secondary">
-    <Card v-for="card in pack(player)" :key="card.key" 
+    <Card v-for="card in draft(player).pack" :key="card.key" 
             :player="player" :card="card" :drag_source="drag_source">
     </Card>
-    <span v-for="n in (16 - pack(player).length)" :key="n" 
+    <span v-for="n in (16 - draft(player).pack.length)" :key="n" 
           class="mtgcard mtgcard-empty" draggable="false">
       <img src="images/card-empty.png" />
     </span>
@@ -30,7 +30,7 @@ export default {
   computed: {
     drag_source: () => "DRAG_SOURCE_PACK",
     ...mapGetters([
-      'pack',
+      'draft',
     ]),
   },
   components: {

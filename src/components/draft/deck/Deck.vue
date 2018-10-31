@@ -35,14 +35,13 @@ export default {
 
   computed: {
     ...mapGetters([
-      'deck_piles',
-      'deck_basic_lands'
+      'deck',
     ]),
     piles: function() {
-      return this.deck_piles(this.player);
+      return this.deck(this.player).piles;
     },
     lands: function() {
-      return this.deck_basic_lands(this.player);
+      return this.deck(this.player).basic_lands;
     }
   },
 

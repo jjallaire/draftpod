@@ -43,14 +43,14 @@ export default {
 
   computed: {
     ...mapGetters([
-      'pick_piles',
-      'deck_piles',
+      'draft',
+      'deck',
       'picks_complete'
     ]),
     cards: function() {
-      let piles = this.picks_complete 
-        ? this.deck_piles(this.player) 
-        : this.pick_piles(this.player);
+      let draft = this.draft(this.player);
+      let deck = this.deck(this.player);
+      let piles = this.picks_complete ? deck.piles : draft.piles;
       return piles.slice(0, 7).flat();
     },
   }

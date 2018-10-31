@@ -30,7 +30,7 @@ export default {
     
     // distribute packs
     for (let i=0; i<packs.length; i++)
-      state.players[i].pack = packs[i];
+      state.players[i].draft.pack = packs[i];
     
     // update current pack/pick
     state.current_pack++;
@@ -46,7 +46,7 @@ export default {
 
     // alias player and pile
     let player = state.players[playerNumber];
-    let pack = player.pack;
+    let pack = player.draft.pack;
    
     // remove from pack
     pack.splice(pack.indexOf(card), 1);
@@ -85,20 +85,20 @@ export default {
   [PASS_PACKS](state) {
 
     // copy existing packs
-    let packs = state.players.map((player) => player.pack);
+    let packs = state.players.map((player) => player.draft.pack);
 
     // pass pack
     if (state.current_pack === 2) {
       // pass right
       for (let i=(packs.length-1); i>0; i--)
-        passPack(packs[i-1], state.players[i].pack);
-      passPack(packs[packs.length-1], state.players[0].pack);
+        passPack(packs[i-1], state.players[i].draft.pack);
+      passPack(packs[packs.length-1], state.players[0].draft.pack);
 
     } else {
       // pass left
       for (let i=0; i<(packs.length-1); i++)
-        passPack(packs[i+1], state.players[i].pack);
-      passPack(packs[0], state.players[packs.length-1].pack)
+        passPack(packs[i+1], state.players[i].draft.pack);
+      passPack(packs[0], state.players[packs.length-1].draft.pack)
     }
     
     // increment pick
@@ -106,17 +106,17 @@ export default {
   },
 
   [MOVE_PICKS_TO_DECK](state, { playerNumber }) {
-    let pick_piles = state.players[playerNumber].pick_piles;
-    let deck_piles = state.players[playerNumber].deck_piles;
-    pick_piles.slice(0, 7).forEach(function(pile) {
+    let draft_piles = state.players[playerNumber].draft.piles;
+    let deck_piles = state.players[playerNumber].deck.piles;
+    draft_piles.slice(0, 7).forEach(function(pile) {
       pile.forEach((c) => cardToDeckPile(c, deck_piles));
     });
 
     // sideboard
-    deck_piles[7] = pick_piles[7].slice();
+    deck_piles[7] = draft_piles[7].slice();
 
-    // clear out pick_piles
-    state.players[playerNumber].pick_piles = [...Array(8)].map(() => Array());
+    // clear out draft piles
+    state.players[playerNumber].draft.piles = [...Array(8)].map(() => Array());
 
     // sort all deck piles
     deck_piles.forEach((pile) => pile.sort(orderCards));
@@ -128,7 +128,7 @@ export default {
 
   [MOVE_TO_DECK](state, {card, playerNumber }) {
     // remove from sideboard
-    let deck_piles = state.players[playerNumber].deck_piles;
+    let deck_piles = state.players[playerNumber].deck.piles;
     let sideboard = deck_piles[7];
     sideboard.splice(sideboard.indexOf(card), 1);
 
