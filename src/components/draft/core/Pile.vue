@@ -156,7 +156,8 @@ export default {
       }
 
       // apply auto lands if this was a deck building action
-      if (this.auto_lands && (data.drag_source === "DRAG_SOURCE_DECK" || data.drag_source === "DRAG_SOURCE_SIDEBOARD")) {
+      if (this.auto_lands && 
+          (data.drag_source === "DRAG_SOURCE_DECK" || data.drag_source === "DRAG_SOURCE_SIDEBOARD")) {
         this.applyAutoLands({ playerNumber: this.player });
       }
     },
