@@ -82,6 +82,10 @@ export default {
     addCardToPile(pile, card, insertBefore);
   },
 
+
+  // TODO: auto lands not computed when moving to sidebaord
+
+
   [PASS_PACKS](state) {
 
     // copy existing packs
@@ -167,13 +171,66 @@ function cardToDeckPile(c, deck) {
   return pile;
 }
 
+// TODO: main deck to sideboard recompute
+// TODO: compute based on many symbols
+// TODO: sort mana by total
+// TODO: show total up top
+// TODO: nerfs and buffs if we don't hit target
+
 function computeAutoLands(deck) {
+
+  // some shared reducers
+  function countReducer(accumulator, count) {
+    return accumulator + count;
+  }
+  function colorReducer(accumulator, card) {
+    for (let i=0; i<card.colors.length; i++) 
+      accumulator[card.colors[i]]++;
+    return accumulator;
+  }
+
+  // first count the cards in each color
+  let cards = deck.piles.slice(0, 6).flat();
+  let card_colors = { R: 0, W: 0, B: 0, U: 0, G: 0 };
+  card_colors = cards.reduce(colorReducer, card_colors);
+
+  // compute the target number of mana sources we need in our mana base
+  const total_land_cards = 17;
+  let total_card_colors = Object.keys(card_colors).map(val => card_colors[val]).reduce(countReducer, 0);
+  let mana_targets = {};
+  Object.keys(card_colors).map(
+    (color) => mana_targets[color] = (card_colors[color]/total_card_colors) * total_land_cards
+  );
+
+  // now count existing sources of mana (e.g. dual lands)
+  let lands = deck.piles[6];
+  let mana_existing = { R: 0, W: 0, B: 0, U: 0, G: 0 };
+  mana_existing = lands.reduce(colorReducer, mana_existing);
+
+  // adjust for existing mana sources 
+  let mana_required = {};
+  Object.keys(mana_targets).map(
+    (color) => mana_required[color] = Math.max(mana_targets[color] - mana_existing[color], 0)
+  )
+
+  // take total after adjustment (used to calculate new % values)
+  let total_mana_required = Object.keys(mana_required)
+    .map(color => mana_required[color])
+    .reduce(countReducer, 0);
+
+  // compute remaining required sources  
+  let land_cards_remaining = total_land_cards - lands.length;
+  let land_cards = {};
+  Object.keys(mana_required).map(
+    (color) => land_cards[color] = Math.round((mana_required[color]/total_mana_required) * land_cards_remaining)
+  );
+  
   return {
-    mountain: 10,
-    plains: 6,
-    island: 2,
-    swamp: 0,
-    forest: 0
+    mountain: land_cards.R,
+    plains: land_cards.W,
+    island: land_cards.U,
+    swamp: land_cards.B,
+    forest: land_cards.G
   };
 }
 

@@ -34,7 +34,7 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
       type_line = card$type_line,
       mana_cost = card$mana_cost,
       cmc = card$cmc,
-      colors = I(card$colors),
+      colors = I(card$color_identity),
       rarity = card$rarity
     )
   })
@@ -57,4 +57,4 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
   
 }
 
-download_set("dom", sets_dir = "~/projects/mtgdrafter/public/sets", images = TRUE)
+download_set("grn", sets_dir = "~/projects/mtgdrafter/public/sets", images = TRUE)
