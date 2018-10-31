@@ -140,8 +140,12 @@ export default {
         this.moveToPile(payload);
       else if (data.drag_source === "DRAG_SOURCE_DECK")
         this.moveToPile(payload);
-      else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD")
-        this.moveToDeck(payload);
+      else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD") {
+        if (this.drag_source === "DRAG_SOURCE_SIDEBOARD")
+          this.moveToPile(payload);
+        else
+          this.moveToDeck(payload);
+      }
     },
     ...mapActions({
       pickCard: PICK_CARD,
