@@ -106,41 +106,52 @@ export default {
   },
 
   [MOVE_PICKS_TO_DECK](state, { playerNumber }) {
-    let draft_piles = state.players[playerNumber].draft.piles;
-    let deck_piles = state.players[playerNumber].deck.piles;
-    draft_piles.slice(0, 7).forEach(function(pile) {
-      pile.forEach((c) => cardToDeckPile(c, deck_piles));
+    let draft = state.players[playerNumber].draft;
+    let deck = state.players[playerNumber].deck;
+    draft.piles.slice(0, 7).forEach(function(pile) {
+      pile.forEach((c) => cardToDeckPile(c, deck));
     });
 
     // sideboard
-    deck_piles[7] = draft_piles[7].slice();
+    deck.piles[7] = draft.piles[7].slice();
 
     // clear out draft piles
-    state.players[playerNumber].draft.piles = [...Array(8)].map(() => Array());
+    draft.piles = [...Array(8)].map(() => Array());
 
     // sort all deck piles
-    deck_piles.forEach((pile) => pile.sort(orderCards));
+    deck.piles.forEach((pile) => pile.sort(orderCards));
+
+    // auto-lands if necessary
+    if (deck.auto_lands)
+      deck.basic_lands = computeAutoLands(deck);
   },
 
   [SET_PICKS_COMPLETE](state) {
     state.picks_complete = true;
   },
 
-  [MOVE_TO_DECK](state, {card, playerNumber }) {
+  [MOVE_TO_DECK](state, { card, playerNumber }) {
     // remove from sideboard
-    let deck_piles = state.players[playerNumber].deck.piles;
-    let sideboard = deck_piles[7];
+    let deck = state.players[playerNumber].deck;
+    let sideboard = deck.piles[7];
     sideboard.splice(sideboard.indexOf(card), 1);
 
     // card to deck pile
-    let pile = cardToDeckPile(card, deck_piles);
+    let pile = cardToDeckPile(card, deck);
     pile.sort(orderCards);
+
+    // auto-lands if necessary
+    if (deck.auto_lands)
+      deck.basic_lands = computeAutoLands(deck);
   }
 };
 
 
-function cardToDeckPile(c, deck_piles) {
+function cardToDeckPile(c, deck) {
+
+  // add card to pile
   let card = {...c, key: uuidv4()};
+  let deck_piles = deck.piles;
   let pile = null;
   if (filters.land(card))
     pile = deck_piles[6];
@@ -150,9 +161,20 @@ function cardToDeckPile(c, deck_piles) {
     pile = deck_piles[5];
   else
     pile = deck_piles[card.cmc-1];
-  
   pile.push(card);
+
+  // return the pile
   return pile;
+}
+
+function computeAutoLands(deck) {
+  return {
+    mountain: 10,
+    plains: 6,
+    island: 2,
+    swamp: 0,
+    forest: 0
+  };
 }
 
 function orderCards(a, b) {

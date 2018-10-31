@@ -21,39 +21,40 @@ export default {
   name: 'Lands',
 
   props: {
-     lands: {
+     deck: {
       type: Object,
       required: true
     }
   },
 
   computed: {
+
     color_counts: function() {
       let counts = {
         W: {
           name: "Plains",
           img: "images/mana-white.svg",
-          count: 4
+          count: this.deck.basic_lands.plains,
         },
         B: {
           name: "Swamp",
           img: "images/mana-black.svg",
-          count: 8
+          count: this.deck.basic_lands.swamp,
         },
         U: {
           name: "Island",
           img: "images/mana-blue.svg",
-          count: 2
+          count: this.deck.basic_lands.island,
         },
         R: {
           name: "Mountain",
           img: "images/mana-red.svg",
-          count: 0
+          count: this.deck.basic_lands.mountain,
         },
         G: {
           name: "Forest",
           img: "images/mana-green.svg",
-          count: 0
+          count: this.deck.basic_lands.forest,
         },
       };
 

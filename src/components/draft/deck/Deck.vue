@@ -7,7 +7,7 @@
     <Pile :player="player" :key="5" caption="6+" :piles="piles" :number="5" drag_source="DRAG_SOURCE_DECK"></Pile>
     <Pile :player="player" :key="6" caption="Lands" :caption_count="true"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
-      <Lands slot="controls" :lands="lands">
+      <Lands slot="controls" :deck="deck(this.player)">
       </Lands>
     </Pile>
     <div class="mtgpile mtgpile-separator"></div>

@@ -35,6 +35,7 @@ const store = new Vuex.Store({
             swamp: 0,
             forest: 0
           },
+          auto_lands: true
         },
         card_preview: null
       }
