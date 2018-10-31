@@ -166,7 +166,6 @@ function cardToDeckPile(c, deck) {
 }
 
 // TODO: compute based on many symbols
-// TODO: show total up top
 // TODO: nerfs and buffs if we don't hit target
 // TODO: manual mode
 
@@ -217,7 +216,7 @@ function computeAutoLands(deck) {
   Object.keys(mana_required).map(
     (color) => basic_lands[color] = Math.round((mana_required[color]/total_mana_required) * land_cards_remaining)
   );
-  
+
   return basic_lands;
 }
 

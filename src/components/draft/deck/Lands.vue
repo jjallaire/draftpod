@@ -58,7 +58,6 @@ export default {
         },
       ];
 
-      //counts = Object.keys(counts).map(val => counts[val]);
       return counts.sort(function(a, b) {
         return b.count - a.count;
       });

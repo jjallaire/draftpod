@@ -5,7 +5,7 @@
     <Pile :player="player" v-for="number in 5" 
           :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" drag_source="DRAG_SOURCE_DECK"></Pile>
     <Pile :player="player" :key="5" caption="6+" :piles="piles" :number="5" drag_source="DRAG_SOURCE_DECK"></Pile>
-    <Pile :player="player" :key="6" caption="Lands" :caption_count="true"
+    <Pile :player="player" :key="6" :caption="'Lands (' + total_lands + ')'"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
       <Lands slot="controls" :deck="deck(this.player)">
       </Lands>
@@ -40,8 +40,13 @@ export default {
     piles: function() {
       return this.deck(this.player).piles;
     },
-    lands: function() {
-      return this.deck(this.player).basic_lands;
+    total_lands: function() {
+      let deck = this.deck(this.player);
+      let basic_lands = deck.basic_lands;
+      return deck.piles[6].length + 
+             Object.keys(basic_lands)
+              .map(val => basic_lands[val])
+              .reduce((total, count) => total + count, 0);
     }
   },
 
