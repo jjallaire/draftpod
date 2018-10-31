@@ -165,7 +165,7 @@ function cardToDeckPile(c, deck) {
   return pile;
 }
 
-// TODO: compute based on many symbols
+// TODO: auto-ignore split color cards ?
 // TODO: manual mode
 
 function computeAutoLands(deck) {
@@ -174,9 +174,21 @@ function computeAutoLands(deck) {
   function countReducer(accumulator, count) {
     return accumulator + count;
   }
+  let all_colors = ['B', 'U', 'W', 'R', 'G'];
+  let color_regex = /[^{}]+(?=\})/g;
   function colorReducer(accumulator, card) {
-    for (let i=0; i<card.colors.length; i++) 
-      accumulator[card.colors[i]]++;
+    if (card.mana_cost !== null && card.mana_cost !== "") {
+      let card_colors = card.mana_cost.match(color_regex);
+      for (let i = 0; i<card_colors.length; i++) {
+        for (let c = 0; c<all_colors.length; c++) {
+          if (card_colors[i].indexOf(all_colors[c]) !== -1)
+            accumulator[all_colors[c]]++;
+        }
+      }
+    } else {
+      for (let i=0; i<card.colors.length; i++) 
+        accumulator[card.colors[i]]++;
+    }
     return accumulator;
   }
 
@@ -192,6 +204,8 @@ function computeAutoLands(deck) {
   Object.keys(card_colors).map(
     (color) => mana_targets[color] = (card_colors[color]/total_card_colors) * total_land_cards
   );
+
+
 
   // now count existing sources of mana (e.g. dual lands)
   let lands = deck.piles[6];
@@ -226,7 +240,7 @@ function computeAutoLands(deck) {
   function countLands(lands) {
     return Object.keys(lands)
       .map((color) => lands[color])
-      .reduce((total, count) => total + count, 0);
+      .reduce(countReducer, 0);
   }
 
   // tweak until the rounded version has the right sum

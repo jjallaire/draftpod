@@ -27,12 +27,22 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
       stop("Unable to find image_uri for card")
     }
     
+    # get mana_cost
+    if (!is.null(card$mana_cost)) {
+      mana_cost <- card$mana_cost
+    } else if (!is.null(card$card_faces)) {
+      mana_cost <- card$card_faces[[1]]$mana_cost
+    } else {
+      str(card)
+      stop("Unable to find mana_cost for card")
+    }
+    
     list(
       id = card$id,
       name = card$name,
       image_uri = image_uri,
       type_line = card$type_line,
-      mana_cost = card$mana_cost,
+      mana_cost = mana_cost,
       cmc = card$cmc,
       colors = I(card$color_identity),
       rarity = card$rarity
