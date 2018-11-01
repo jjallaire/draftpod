@@ -8,6 +8,8 @@ export const MOVE_PICKS_TO_DECK = 'MOVE_PICKS_TO_DECK'
 export const APPLY_AUTO_LANDS = 'APPLY_AUTO_LANDS'
 export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
 export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
+export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
+export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 
 import Vue from 'vue'
 
@@ -123,13 +125,23 @@ export default {
     deck.piles.forEach((pile) => pile.sort(orderCards));
   },
 
+  [SET_PICKS_COMPLETE](state) {
+    state.picks_complete = true;
+  },
+
   [APPLY_AUTO_LANDS](state, { playerNumber }) {
     let deck = state.players[playerNumber].deck;
     deck.basic_lands = computeAutoLands(deck);
   },
 
-  [SET_PICKS_COMPLETE](state) {
-    state.picks_complete = true;
+  [DISABLE_AUTO_LANDS](state, { playerNumber }) {
+    let deck = state.players[playerNumber].deck;
+    deck.auto_lands = false;
+  },
+
+  [SET_BASIC_LANDS](state, { color, lands, playerNumber }) {
+    let deck = state.players[playerNumber].deck;
+    deck.basic_lands[color] = lands;
   },
 
   [SIDEBOARD_TO_DECK](state, { card, playerNumber }) {
@@ -141,7 +153,7 @@ export default {
     // card to deck pile
     let pile = cardToDeckPile(card, deck);
     pile.sort(orderCards);
-  }
+  },
 };
 
 
@@ -244,10 +256,10 @@ function computeAutoLands(deck) {
  // count colors in sets of cards
  function countColors(cards, color_ranking) {
   let all_colors = ['B', 'U', 'W', 'R', 'G'];
-  let color_regex = /[BUWRG\/]+(?=\})/g;
+  let color_regex = /[BUWRG/]+(?=\})/g;
   function colorReducer(accumulator, card) {
     if (card.mana_cost !== null && card.mana_cost !== "") {
-      let card_colors = card.mana_cost.match(color_regex);
+      let card_colors = card.mana_cost.match(color_regex) || [];
       for (let i = 0; i<card_colors.length; i++) {
         let card_color = card_colors[i]; 
         // apply ranking if we have one and are dealing w/ multiple 
