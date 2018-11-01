@@ -171,33 +171,10 @@ function cardToDeckPile(c, deck) {
 
 function computeAutoLands(deck) {
 
-  // count colors in sets of cards
-  let all_colors = ['B', 'U', 'W', 'R', 'G'];
-  let color_regex = /[^{}]+(?=\})/g;
-  function colorReducer(accumulator, card) {
-    if (card.mana_cost !== null && card.mana_cost !== "") {
-      let card_colors = card.mana_cost.match(color_regex);
-      for (let i = 0; i<card_colors.length; i++) {
-        for (let c = 0; c<all_colors.length; c++) {
-          // here we are sometimes analyzing a split color (e.g. {W/R}).
-          // currently it counts as both, perhaps it should count as 
-          // the other color most frequently appearing in your deck?
-          if (card_colors[i].indexOf(all_colors[c]) !== -1)
-            accumulator[all_colors[c]]++;
-        }
-      }
-    } else {
-      for (let i=0; i<card.colors.length; i++) 
-        accumulator[card.colors[i]]++;
-    }
-    return accumulator;
-  }
-
   // first count the cards in each color
   let cards = deck.piles.slice(0, 6).flat();
-  let card_colors = { R: 0, W: 0, B: 0, U: 0, G: 0 };
-  card_colors = cards.reduce(colorReducer, card_colors);
-
+  let card_colors = countColors(cards);
+ 
   // compute the target number of mana sources we need in our mana base
   const total_land_cards = 17;
   let total_card_colors = utils.sumValues(card_colors);  
@@ -206,13 +183,10 @@ function computeAutoLands(deck) {
     (color) => mana_targets[color] = (card_colors[color]/total_card_colors) * total_land_cards
   );
 
-
-
   // now count existing sources of mana (e.g. dual lands)
   let lands = deck.piles[6];
-  let mana_existing = { R: 0, W: 0, B: 0, U: 0, G: 0 };
-  mana_existing = lands.reduce(colorReducer, mana_existing);
-
+  let mana_existing = countColors(lands);
+ 
   // adjust for existing mana sources 
   let mana_required = {};
   Object.keys(mana_targets).map(
@@ -262,6 +236,32 @@ function computeAutoLands(deck) {
  
   // return basic lands
   return basic_lands_rounded;
+}
+
+ // count colors in sets of cards
+ function countColors(cards) {
+  let all_colors = ['B', 'U', 'W', 'R', 'G'];
+  let color_regex = /[^{}]+(?=\})/g;
+  function colorReducer(accumulator, card) {
+    if (card.mana_cost !== null && card.mana_cost !== "") {
+      let card_colors = card.mana_cost.match(color_regex);
+      for (let i = 0; i<card_colors.length; i++) {
+        for (let c = 0; c<all_colors.length; c++) {
+          // here we are sometimes analyzing a split color (e.g. {W/R}).
+          // currently it counts as both, perhaps it should count as 
+          // the other color most frequently appearing in your deck?
+          if (card_colors[i].indexOf(all_colors[c]) !== -1)
+            accumulator[all_colors[c]]++;
+        }
+      }
+    } else {
+      for (let i=0; i<card.colors.length; i++) 
+        accumulator[card.colors[i]]++;
+    }
+    return accumulator;
+  }
+
+  return cards.reduce(colorReducer, { R: 0, W: 0, B: 0, U: 0, G: 0 });
 }
 
 function orderCards(a, b) {
