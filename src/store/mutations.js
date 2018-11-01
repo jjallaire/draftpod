@@ -20,9 +20,49 @@ import * as utils from './utils'
 
 const local_images = false
 
-export default {
+export function initialState() {
+  return {
+    set_code: null,
+    cardpool: [],
+    all_packs: [],
+    current_pack: 0,
+    current_pick: 0,
+    picks_complete: false,
+    show_pick_analysis: false,
+    players: [...Array(8)].map(function() {
+      return {
+        draft: {
+          pack: [],
+          piles: [...Array(8)].map(() => Array()),
+        },
+        deck: {
+          piles: [...Array(8)].map(() => Array()),
+          basic_lands: {
+            R: 0,
+            W: 0,
+            U: 0,
+            B: 0,
+            G: 0
+          },
+          auto_lands: true
+        },
+        card_preview: null
+      }
+    }),
+  }
+}
+
+export const mutations = {
 
   [INITIALIZE](state, { set_code, cardpool }) {
+
+    // acquire initial state
+    const s = initialState();
+    Object.keys(s).forEach(key => {
+      state[key] = s[key]
+    });
+
+    // set cardpool and packs
     state.set_code = set_code;
     state.cardpool = cardpool;
     state.all_packs = [...Array(24)].map(function() {

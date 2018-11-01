@@ -9,7 +9,7 @@
     <ul v-if="started" class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link">
-          <ExitToAppIcon title="Exit Draft"/>
+          <ExitToAppIcon title="Exit Draft" @click.native="exitDraft"/>
         </a>
       </li>
       <li class="nav-item">
@@ -56,6 +56,7 @@ import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
 import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
 
 import fscreen from 'fscreen'
+import bootbox from 'bootbox'
 
 export default {
   name: 'App',
@@ -103,6 +104,32 @@ export default {
     ...mapActions({
       startDraft: START_DRAFT
     }),
+    exitDraft: function() {
+      bootbox.confirm({
+
+        message: "<p>Do you want to exit this draft and start a new draft?</p>",
+        
+        className: "mtgdraft-auto-land-disable-dialog",
+
+        buttons: {
+          confirm: {
+            label: 'Yes',
+            className: 'btn-secondary'
+          },
+          cancel: {
+            label: 'No',
+            className: 'btn-primary'
+          }
+        },
+      
+        callback: (result) => {
+      
+          if (result) {
+            this.startDraft({ playerNumber: this.player, set_code: 'grn' });
+          } 
+        }
+    });
+    },
     fullscreenToggle: function() {
       if (!this.fullscreen)
         fscreen.requestFullscreen(document.documentElement);
