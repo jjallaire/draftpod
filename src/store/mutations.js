@@ -166,7 +166,6 @@ function cardToDeckPile(c, deck) {
   return pile;
 }
 
-// TODO: auto-ignore split color cards ?
 // TODO: manual mode
 
 function computeAutoLands(deck) {
@@ -174,6 +173,12 @@ function computeAutoLands(deck) {
   // first count the cards in each color
   let cards = deck.piles.slice(0, 6).flat();
   let card_colors = countColors(cards);
+
+  // use this to rank-order the most commonly appearing colors
+  let color_ranking = rankColors(card_colors);
+
+  // count again w/ the color_ranking
+  card_colors = countColors(cards, color_ranking);
  
   // compute the target number of mana sources we need in our mana base
   const total_land_cards = 17;
@@ -239,18 +244,23 @@ function computeAutoLands(deck) {
 }
 
  // count colors in sets of cards
- function countColors(cards) {
+ function countColors(cards, color_ranking) {
   let all_colors = ['B', 'U', 'W', 'R', 'G'];
-  let color_regex = /[^{}]+(?=\})/g;
+  let color_regex = /[BUWRG\/]+(?=\})/g;
   function colorReducer(accumulator, card) {
     if (card.mana_cost !== null && card.mana_cost !== "") {
       let card_colors = card.mana_cost.match(color_regex);
       for (let i = 0; i<card_colors.length; i++) {
+        let card_color = card_colors[i]; 
+        // apply ranking if we have one and are dealing w/ multiple 
+        // color options to play the card
+        if (color_ranking) {
+          let colors = card_color.split('/');
+          colors.sort((a,b) => color_ranking.indexOf(a) - color_ranking.indexOf(b));
+          card_color = colors[0];
+        }
         for (let c = 0; c<all_colors.length; c++) {
-          // here we are sometimes analyzing a split color (e.g. {W/R}).
-          // currently it counts as both, perhaps it should count as 
-          // the other color most frequently appearing in your deck?
-          if (card_colors[i].indexOf(all_colors[c]) !== -1)
+          if (card_color.indexOf(all_colors[c]) !== -1)
             accumulator[all_colors[c]]++;
         }
       }
@@ -262,6 +272,13 @@ function computeAutoLands(deck) {
   }
 
   return cards.reduce(colorReducer, { R: 0, W: 0, B: 0, U: 0, G: 0 });
+}
+
+function rankColors(card_colors) {
+  return Object.keys(card_colors)
+    .map((color) => { return { color: color, count: card_colors[color] } })
+    .sort((a, b) => b.count - a.count)
+    .map((x) => x.color );
 }
 
 function orderCards(a, b) {
