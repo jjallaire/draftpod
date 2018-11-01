@@ -32,7 +32,7 @@ import { mapMutations } from 'vuex'
 import { Drop } from 'vue-drag-drop'
 
 import { PICK_CARD } from '../../../store/actions'
-import { MOVE_TO_PILE, MOVE_TO_DECK, APPLY_AUTO_LANDS } from '../../../store/mutations'
+import { PILE_TO_PILE, SIDEBOARD_TO_DECK, APPLY_AUTO_LANDS } from '../../../store/mutations'
 
 import Card from './Card.vue'
 
@@ -144,14 +144,14 @@ export default {
       if (data.drag_source === "DRAG_SOURCE_PACK")
         this.pickCard(payload);
       else if (data.drag_source === "DRAG_SOURCE_PILE")
-        this.moveToPile(payload);
+        this.pileToPile(payload);
       else if (data.drag_source === "DRAG_SOURCE_DECK")
-        this.moveToPile(payload);
+        this.pileToPile(payload);
       else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD") {
         if (this.drag_source === "DRAG_SOURCE_SIDEBOARD")
-          this.moveToPile(payload);
+          this.pileToPile(payload);
         else {
-          this.moveToDeck(payload);
+          this.sideboardToDeck(payload);
         }
       }
 
@@ -165,8 +165,8 @@ export default {
       pickCard: PICK_CARD,
     }),
     ...mapMutations({
-      moveToPile: MOVE_TO_PILE,
-      moveToDeck: MOVE_TO_DECK,
+      pileToPile: PILE_TO_PILE,
+      sideboardToDeck: SIDEBOARD_TO_DECK,
       applyAutoLands: APPLY_AUTO_LANDS
     }),
 

@@ -2,12 +2,12 @@ export const INITIALIZE = 'INITIALIZE'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
-export const MOVE_TO_PILE = 'MOVE_TO_PILE'
+export const PILE_TO_PILE = 'PILE_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
 export const MOVE_PICKS_TO_DECK = 'MOVE_PICKS_TO_DECK'
 export const APPLY_AUTO_LANDS = 'APPLY_AUTO_LANDS'
 export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
-export const MOVE_TO_DECK = 'MOVE_TO_DECK'
+export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
 
 import Vue from 'vue'
 
@@ -57,10 +57,9 @@ export default {
     addCardToPile(pile, card, insertBefore);
   },
 
-  [MOVE_TO_PILE](state, { card, pile, piles, insertBefore }) {
+  [PILE_TO_PILE](state, { card, pile, piles, insertBefore }) {
 
-    // remove from existing pile if necessary (if it came from a
-    // pack then we won't need to do this)
+    // remove from existing pile 
     piles.forEach(function (p) {
 
       let index = p.indexOf(card);
@@ -133,7 +132,7 @@ export default {
     state.picks_complete = true;
   },
 
-  [MOVE_TO_DECK](state, { card, playerNumber }) {
+  [SIDEBOARD_TO_DECK](state, { card, playerNumber }) {
     // remove from sideboard
     let deck = state.players[playerNumber].deck;
     let sideboard = deck.piles[7];
@@ -166,7 +165,6 @@ function cardToDeckPile(c, deck) {
   return pile;
 }
 
-// TODO: manual mode
 
 function computeAutoLands(deck) {
 
