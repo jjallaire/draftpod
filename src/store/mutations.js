@@ -14,6 +14,7 @@ import Vue from 'vue'
 import uuidv4 from 'uuid'
 import * as set from './set/'
 import * as filters from './card-filters'
+import * as utils from './utils'
 
 const local_images = false
 
@@ -170,10 +171,7 @@ function cardToDeckPile(c, deck) {
 
 function computeAutoLands(deck) {
 
-  // some shared reducers
-  function countReducer(accumulator, count) {
-    return accumulator + count;
-  }
+  // count colors in sets of cards
   let all_colors = ['B', 'U', 'W', 'R', 'G'];
   let color_regex = /[^{}]+(?=\})/g;
   function colorReducer(accumulator, card) {
@@ -202,7 +200,7 @@ function computeAutoLands(deck) {
 
   // compute the target number of mana sources we need in our mana base
   const total_land_cards = 17;
-  let total_card_colors = Object.keys(card_colors).map(val => card_colors[val]).reduce(countReducer, 0);
+  let total_card_colors = utils.sumValues(card_colors);  
   let mana_targets = {};
   Object.keys(card_colors).map(
     (color) => mana_targets[color] = (card_colors[color]/total_card_colors) * total_land_cards
@@ -222,10 +220,8 @@ function computeAutoLands(deck) {
   )
 
   // take total after adjustment (used to calculate new % values)
-  let total_mana_required = Object.keys(mana_required)
-    .map(color => mana_required[color])
-    .reduce(countReducer, 0);
-
+  let total_mana_required = utils.sumValues(mana_required);
+    
   // function to yield basic lands
   let basic_lands_required = total_land_cards - lands.length;
   function basicLands(rounder) {
@@ -239,17 +235,10 @@ function computeAutoLands(deck) {
     return basic_lands;
   }
 
-  // function to count lands
-  function countLands(lands) {
-    return Object.keys(lands)
-      .map((color) => lands[color])
-      .reduce(countReducer, 0);
-  }
-
   // tweak until the rounded version has the right sum
   let basic_lands = basicLands();
   let basic_lands_rounded = basicLands(Math.round);
-  let basic_lands_rounded_sum = countLands(basic_lands_rounded);
+  let basic_lands_rounded_sum = utils.sumValues(basic_lands_rounded);
   while(basic_lands_rounded_sum != basic_lands_required) {
     let is_rounded_larger = basic_lands_rounded_sum > basic_lands_required;
     let max_difference_color = null;

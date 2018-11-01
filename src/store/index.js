@@ -5,7 +5,7 @@ import Vuex from 'vuex'
 import actions from './actions'
 import mutations from './mutations'
 import * as set from './set/'
-
+import * as utils from './utils'
 
 Vue.use(Vuex)
 
@@ -53,6 +53,11 @@ const store = new Vuex.Store({
     show_pick_analysis: (state) => state.show_pick_analysis,
     draft: (state) => (player) => state.players[player].draft,
     deck: (state) => (player) => state.players[player].deck,
+    deck_lands: (state) => (player) => {
+      let deck = state.players[player].deck;
+      let basic_lands = deck.basic_lands;
+      return deck.piles[6].length + utils.sumValues(basic_lands);
+    },
     card_preview: (state) => (player) => state.players[player].card_preview,
   },
   actions,
