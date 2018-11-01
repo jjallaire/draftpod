@@ -3,7 +3,7 @@
 
 <table class="table table-sm mtgdraft-deck-colors">
   <tbody>
-  <tr v-for="color in color_counts" :key="color.img">
+  <tr v-for="color in colors" :key="color.img">
     <td align="center"><img :src="color.img" :title="color.name" width=18></td>
     <td align="center"><input type="number" :value="color.count" 
         @input="handleLandInput(color.color, $event)" 
@@ -53,8 +53,8 @@ export default {
       return this.deck(this.player).basic_lands;
     },
 
-    color_counts: function() {
-      let counts = [
+    colors: function() {
+      let colors = [
         {
           color: "W",
           name: "Plains",
@@ -90,13 +90,11 @@ export default {
       // order by either fixed order (in manual mode) or dynamically based
       // on the number of lands in each color
       if (this.color_order) {
-        return counts.sort((a, b) => this.color_order.indexOf(a.color) - 
+        return colors.sort((a, b) => this.color_order.indexOf(a.color) - 
                                      this.color_order.indexOf(b.color));
       } else {
-        return counts.sort((a, b) => b.count - a.count);
+        return colors.sort((a, b) => b.count - a.count);
       }
-
-      
     }
   },
 
