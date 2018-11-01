@@ -24,6 +24,8 @@ import { mapGetters, mapMutations } from 'vuex'
 
 import { DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '../../../store/mutations'
 
+import bootbox from 'bootbox'
+
 export default {
 
   name: 'Lands',
@@ -119,28 +121,33 @@ export default {
       // if we are in auto-lands then prompt
       if (this.auto_lands) {
         
-        if (window.confirm("Do you want to disable auto lands?")) {
-          setTimeout(() => {
+        bootbox.confirm("Do you want to disable auto lands?", (result) => {
+        
+          if (result) {
+
             // disable auto-lands
             this.disableAutoLands({ playerNumber: this.player});
 
             // fix the current color order so colors don't jump around
             // during manual editing
             this.color_order = this.colors.map((count) => count.color);
-            
+              
             // apply the user's original input
             applyInput();
+          
+          } else {
 
-          }, 100);
-        } else {
-
-          // revert to previous value
-          event.target.value = this.basic_lands[color];
-        
-        } 
+            // revert to previous value
+            event.target.value = this.basic_lands[color];
+          
+          }
+        });
+       
       } else {
+
         // we are already in manual mode so just apply the input
         applyInput();
+
       }
     },
 
