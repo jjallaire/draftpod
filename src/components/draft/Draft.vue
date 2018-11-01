@@ -56,7 +56,7 @@ import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
 import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
 
 import fscreen from 'fscreen'
-import bootbox from 'bootbox'
+import * as utils from '../utils.js'
 
 export default {
   name: 'App',
@@ -105,30 +105,8 @@ export default {
       startDraft: START_DRAFT
     }),
     exitDraft: function() {
-      bootbox.confirm({
-
-        message: "<p>Do you want to exit this draft and start a new draft?</p>",
-        
-        className: "mtgdraft-auto-land-disable-dialog",
-
-        buttons: {
-          confirm: {
-            label: 'Yes',
-            className: 'btn-secondary'
-          },
-          cancel: {
-            label: 'No',
-            className: 'btn-primary'
-          }
-        },
-      
-        callback: (result) => {
-      
-          if (result) {
-            this.startDraft({ playerNumber: this.player, set_code: 'grn' });
-          } 
-        }
-    });
+      utils.confirm("<p>Do you want to exit this draft and start a new draft?</p>",
+                    () => this.startDraft({ playerNumber: this.player, set_code: 'grn' }));
     },
     fullscreenToggle: function() {
       if (!this.fullscreen)

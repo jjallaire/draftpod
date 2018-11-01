@@ -18,13 +18,13 @@
 
 <script>
 
-import '../core/styles/deck-colors.css'
+import '../../styles.css'
 
 import { mapGetters, mapMutations } from 'vuex'
 
 import { DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '../../../store/mutations'
 
-import bootbox from 'bootbox'
+import * as utils from '../../utils.js'
 
 export default {
 
@@ -121,47 +121,25 @@ export default {
       // if we are in auto-lands then prompt
       if (this.auto_lands) {
         
-        bootbox.confirm({
-          
-          message: "<p>Editing the number of lands will disable auto-lands " + 
-                   "(lands for your deck will no longer be automatically calculated).</p> " +
-                   "Do you want to disable auto-lands?", 
-        
-          className: "mtgdraft-auto-land-disable-dialog",
+        utils.confirm(
+          "<p>Editing the number of lands will disable auto-lands " + 
+          "(lands for your deck will no longer be automatically calculated).</p> " +
+          "Do you want to disable auto-lands?", 
+          () => {
+            // disable auto-lands
+            this.disableAutoLands({ playerNumber: this.player});
 
-          buttons: {
-            confirm: {
-              label: 'Yes',
-              className: 'btn-secondary'
-            },
-            cancel: {
-              label: 'No',
-              className: 'btn-primary'
-            }
+            // fix the current color order so colors don't jump around
+            // during manual editing
+            this.color_order = this.colors.map((count) => count.color);
+              
+            // apply the user's original input
+            applyInput();
           },
-        
-          callback: (result) => {
-        
-            if (result) {
-
-              // disable auto-lands
-              this.disableAutoLands({ playerNumber: this.player});
-
-              // fix the current color order so colors don't jump around
-              // during manual editing
-              this.color_order = this.colors.map((count) => count.color);
-                
-              // apply the user's original input
-              applyInput();
-            
-            } else {
-
-              // revert to previous value
-              event.target.value = this.basic_lands[color];
-            
-            }
-          }
-        });
+          () => {
+            // revert to previous value
+            event.target.value = this.basic_lands[color];
+          });
        
       } else {
 
@@ -211,10 +189,6 @@ export default {
   .mtgpile .mtgdraft-deck-colors td {
     padding-left: 0;
   }
-}
-
-.mtgdraft-auto-land-disable-dialog .btn {
-  padding: 0.5rem 1.25rem;
 }
 
 </style>

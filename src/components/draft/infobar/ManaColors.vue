@@ -16,7 +16,7 @@
 
 import * as filters from '../../../store/card-filters'
 
-import '../core/styles/deck-colors.css'
+import '../../styles.css'
 
 export default {
   name: 'ManaColors',
