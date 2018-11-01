@@ -121,25 +121,45 @@ export default {
       // if we are in auto-lands then prompt
       if (this.auto_lands) {
         
-        bootbox.confirm("Do you want to disable auto lands?", (result) => {
+        bootbox.confirm({
+          
+          message: "<p>Editing the number of lands will disable auto-lands " + 
+                   "(lands for your deck will no longer be automatically calculated).</p> " +
+                   "Do you want to disable auto-lands?", 
         
-          if (result) {
+          className: "mtgdraft-auto-land-disable-dialog",
 
-            // disable auto-lands
-            this.disableAutoLands({ playerNumber: this.player});
+          buttons: {
+            confirm: {
+              label: 'Yes',
+              className: 'btn-secondary'
+            },
+            cancel: {
+              label: 'No',
+              className: 'btn-primary'
+            }
+          },
+        
+          callback: (result) => {
+        
+            if (result) {
 
-            // fix the current color order so colors don't jump around
-            // during manual editing
-            this.color_order = this.colors.map((count) => count.color);
-              
-            // apply the user's original input
-            applyInput();
-          
-          } else {
+              // disable auto-lands
+              this.disableAutoLands({ playerNumber: this.player});
 
-            // revert to previous value
-            event.target.value = this.basic_lands[color];
-          
+              // fix the current color order so colors don't jump around
+              // during manual editing
+              this.color_order = this.colors.map((count) => count.color);
+                
+              // apply the user's original input
+              applyInput();
+            
+            } else {
+
+              // revert to previous value
+              event.target.value = this.basic_lands[color];
+            
+            }
           }
         });
        
@@ -191,6 +211,10 @@ export default {
   .mtgpile .mtgdraft-deck-colors td {
     padding-left: 0;
   }
+}
+
+.mtgdraft-auto-land-disable-dialog .btn {
+  padding: 0.5rem 1.25rem;
 }
 
 </style>
