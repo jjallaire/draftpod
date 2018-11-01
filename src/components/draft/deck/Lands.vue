@@ -1,6 +1,7 @@
 
 <template>
 
+<div>
 <table class="table table-sm mtgdraft-deck-colors">
   <tbody>
   <tr v-for="color in colors" :key="color.img">
@@ -11,6 +12,7 @@
   </tr>
   </tbody>
 </table>
+</div>
 
 </template>
 
@@ -35,7 +37,7 @@ export default {
 
   data: function() {
     return {
-      color_order: null
+      color_order: null,
     }
   },
 
@@ -116,6 +118,7 @@ export default {
 
       // if we are in auto-lands then prompt
       if (this.auto_lands) {
+        
         if (window.confirm("Do you want to disable auto lands?")) {
           setTimeout(() => {
             // disable auto-lands
@@ -123,7 +126,7 @@ export default {
 
             // fix the current color order so colors don't jump around
             // during manual editing
-            this.color_order = this.color_counts.map((count) => count.color);
+            this.color_order = this.colors.map((count) => count.color);
             
             // apply the user's original input
             applyInput();
