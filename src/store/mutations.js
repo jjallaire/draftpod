@@ -134,14 +134,14 @@ export const mutations = {
     if (state.current_pack === 2) {
       // pass right
       for (let i=(packs.length-1); i>0; i--)
-        passPack(packs[i-1], state.players[i].draft.pack);
-      passPack(packs[packs.length-1], state.players[0].draft.pack);
+        state.players[i].draft.pack = packs[i-1];
+      state.players[0].draft.pack = packs[packs.length-1];
 
     } else {
       // pass left
       for (let i=0; i<(packs.length-1); i++)
-        passPack(packs[i+1], state.players[i].draft.pack);
-      passPack(packs[0], state.players[packs.length-1].draft.pack)
+        state.players[i].draft.pack = packs[i+1];
+      state.players[packs.length-1].draft.pack = packs[0];
     }
     
     // increment pick
@@ -347,12 +347,6 @@ function orderCards(a, b) {
     return -1;
   else if (bIsCreature && !aIsCreature)
     return 1;
-}
-
-function passPack(from, to) {
-  for (let i = 0; i<from.length; i++) {
-    Vue.set(to, i, from[i]);
-  }
 }
 
 function addCardToPile(pile, card, insertBefore) {
