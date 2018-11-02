@@ -14,11 +14,11 @@ export function confirm(message, confirmed, cancelled) {
     buttons: {
       confirm: {
         label: 'Yes',
-        className: 'btn-secondary'
+        className: 'btn-primary btn-success'
       },
       cancel: {
         label: 'No',
-        className: 'btn-primary'
+        className: 'btn-secondary'
       }
     },
   
