@@ -11,8 +11,6 @@ export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 
-import Vue from 'vue'
-
 import uuidv4 from 'uuid'
 import * as set from './set/'
 import * as filters from './card-filters'
@@ -220,8 +218,14 @@ function cardToDeckPile(c, deck) {
 
 function computeAutoLands(deck) {
 
-  // first count the cards in each color
+  // get the cards in the deck
   let cards = deck.piles.slice(0, 6).flat();
+
+  // if there are no cards then return no lands
+  if (cards.length === 0)
+    return { R: 0, W: 0, B: 0, U: 0, G: 0 };
+
+  // count the cards in each color
   let card_colors = countColors(cards);
 
   // use this to rank-order the most commonly appearing colors

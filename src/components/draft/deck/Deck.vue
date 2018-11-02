@@ -1,7 +1,10 @@
 
-
 <template>
-  <Panel caption="Deck" panel_class="mtgdraft-deck">
+  <Panel :caption="'Cards: ' + cards + ' / 40'" panel_class="mtgdraft-deck">
+    <template slot="header">
+      <button class="btn btn-sm btn-secondary"><ClipboardIcon/> Copy Deck to Clipboard</button>
+      <button class="btn btn-sm btn-secondary"><DownloadIcon/> Download Decklist</button>
+    </template>
     <Pile :player="player" v-for="number in 5" 
           :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
           drag_source="DRAG_SOURCE_DECK">
@@ -27,6 +30,9 @@ import Panel from '../core/Panel.vue'
 import Pile from '../core/Pile.vue'
 import Lands from './Lands.vue'
 
+import ClipboardIcon from "vue-material-design-icons/ClipboardOutline.vue"
+import DownloadIcon from "vue-material-design-icons/FileDownloadOutline.vue"
+
 import { mapGetters } from 'vuex';
 
 export default {
@@ -46,17 +52,40 @@ export default {
     ]),
     piles: function() {
       return this.deck(this.player).piles;
+    },
+    cards: function() {
+      let non_lands = this.piles.slice(0, 6).flat().length;
+      return non_lands + this.deck_lands(this.player);
     }
   },
 
   components: {
-    Panel, Pile, Lands
+    Panel, Pile, Lands, ClipboardIcon, DownloadIcon
   }
 }
 
 </script>
 
 <style>
+
+.mtgdraft .mtgdraft-deck .card-header {
+  font-size: 1rem;
+  margin-bottom: 7px;
+}
+
+.mtgdraft .mtgdraft-deck .card-header .header-text {
+  padding-top: 4px;
+}
+
+.mtgdraft .mtgdraft-deck .card-header .btn-sm {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  padding-top: 0.25rem;
+  margin-top: 0;
+  margin-left: 0.2em;
+  padding-left: 0.5rem;
+  padding-right: 0.9rem;
+}
 
 .mtgdraft-deck .card-body {
   position: relative;

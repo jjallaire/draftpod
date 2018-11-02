@@ -188,6 +188,7 @@ export default {
 .mtgdraft .card-header {
   padding: 0.2rem;
   padding-left: 0.5rem;
+  padding-right: 0.2rem;
   font-size: 0.7rem;
   color: lightgray;
   border-bottom: 0;
