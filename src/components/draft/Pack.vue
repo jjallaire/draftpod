@@ -49,9 +49,10 @@ export default {
   padding: 0;
 }
 
-.mtgdraft-pack .mtgcard img {
+.mtgdraft-pack .mtgcard img,
+.mtgdraft-pack .mtgcard-empty img {
   width: 11.5%;
-  height: auto;
+  height: 16.05%;
   margin-bottom: 3px;
 }
 
@@ -63,6 +64,7 @@ export default {
 .mtgdraft-pack .mtgcard img,
 .mtgdraft-pack .mtgcard-empty img {
   width: 10%;
+  height: 13.95%;
 } 
 }
 
