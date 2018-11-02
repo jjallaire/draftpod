@@ -190,6 +190,7 @@ export default {
   padding-left: 0.5rem;
   font-size: 0.7rem;
   color: lightgray;
+  border-bottom: 0;
 }
 
 .mtgdraft .tabs-header .nav-link {
