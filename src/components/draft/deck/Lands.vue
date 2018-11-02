@@ -18,8 +18,6 @@
 
 <script>
 
-import '../styles.css'
-
 import { mapGetters, mapMutations } from 'vuex'
 
 import { DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '../../../store/mutations'

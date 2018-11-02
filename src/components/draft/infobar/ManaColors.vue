@@ -16,8 +16,6 @@
 
 import * as filters from '../../../store/card-filters'
 
-import '../styles.css'
-
 export default {
   name: 'ManaColors',
 

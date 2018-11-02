@@ -229,6 +229,24 @@ export default {
   max-height: 0px;
 }
 
+.mtgdraft-deck-colors {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.mtgdraft-deck-colors th,
+.mtgdraft-deck-colors td {
+  border-top: none;
+}
+
+.mtgdraft-deck-colors td img {
+  margin-top: -2px;
+  margin-right: 6px;
+  margin-left: 4px;
+}
+
+
 </style>
 
 
