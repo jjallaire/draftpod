@@ -170,6 +170,9 @@ export const mutations = {
   [APPLY_AUTO_LANDS](state, { playerNumber }) {
     let deck = state.players[playerNumber].deck;
     deck.basic_lands = computeAutoLands(deck);
+
+    console.log(utils.deckList(deck));
+
   },
 
   [DISABLE_AUTO_LANDS](state, { playerNumber }) {

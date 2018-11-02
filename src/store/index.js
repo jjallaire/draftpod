@@ -30,6 +30,7 @@ const store = new Vuex.Store({
       let basic_lands = deck.basic_lands;
       return deck.piles[6].length + utils.sumValues(basic_lands);
     },
+    deck_list: (state) => (player) => utils.deckList(state.players[player].deck),
     card_preview: (state) => (player) => state.players[player].card_preview,
   },
   actions,
