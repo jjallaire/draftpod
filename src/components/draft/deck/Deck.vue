@@ -1,6 +1,6 @@
 
 <template>
-  <Panel :caption="'Cards: ' + cards + ' / 40'" panel_class="mtgdraft-deck">
+  <Panel :caption="'Main Deck: ' + cards + ' / 40'" panel_class="mtgdraft-deck">
     <template slot="header">
       <button class="btn btn-sm btn-secondary"><ClipboardIcon/> Copy Deck to Clipboard</button>
       <button class="btn btn-sm btn-secondary"><DownloadIcon/> Download Decklist</button>
@@ -70,7 +70,7 @@ export default {
 
 .mtgdraft .mtgdraft-deck .card-header {
   font-size: 1rem;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
 .mtgdraft .mtgdraft-deck .card-header .header-text {

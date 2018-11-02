@@ -3,7 +3,7 @@
   
   <Navbar> 
     <span v-if="started" class="navbar-text">{{ set_name }} &mdash; 
-      <span v-if="picks_complete">Picks Completed</span>
+      <span v-if="picks_complete">Building Deck</span>
       <span v-else>Pack {{ current_pack }}, Pick {{ current_pick }}</span>
     </span> 
     <ul v-if="started" class="navbar-nav">
@@ -233,6 +233,7 @@ export default {
 .mtgdraft-deck-colors {
   font-size: 0.8em;
   font-weight: 500;
+  color: #808080;
   margin-top: 3px;
 }
 
