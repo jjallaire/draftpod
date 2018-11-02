@@ -18,7 +18,7 @@
 
 <script>
 
-import '../../styles.css'
+import '../styles.css'
 
 import { mapGetters, mapMutations } from 'vuex'
 

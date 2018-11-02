@@ -1,6 +1,7 @@
-import './styles.css'
 
 import bootbox from 'bootbox'
+
+import './utils.css'
 
 export function confirm(message, confirmed, cancelled) {
 

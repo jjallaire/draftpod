@@ -3,7 +3,7 @@
 
 <table class="table table-sm mtgdraft-deck-colors">
   <tbody>
-  <tr v-for="color in color_counts" :key="color.img">
+  <tr v-for="color in colors" :key="color.img">
     <td><img :src="color.img" width=18> {{ color.name }}</td>
     <td>{{ color.count }}</td>
   </tr>
@@ -16,7 +16,7 @@
 
 import * as filters from '../../../store/card-filters'
 
-import '../../styles.css'
+import '../styles.css'
 
 export default {
   name: 'ManaColors',
@@ -29,8 +29,8 @@ export default {
   },
 
   computed: {
-    color_counts: function() {
-      let counts = {
+    colors: function() {
+      let colors = {
         W: {
           name: "Plains",
           img: "images/mana-white.svg",
@@ -66,16 +66,15 @@ export default {
         let card = this.cards[i];
         if (filters.land(card))
           continue;
-        let colors = card.colors;
-        if (colors.length === 0)
-          counts["C"].count++;
+        if (card.colors.length === 0)
+          colors["C"].count++;
         else
-          for (let c=0; c<colors.length; c++)
-            counts[colors[c]].count++;
+          for (let c=0; c<card.colors.length; c++)
+            colors[card.colors[c]].count++;
       }
 
-      counts = Object.keys(counts).map(val => counts[val]);
-      return counts.sort(function(a, b) {
+      colors = Object.keys(colors).map(val => colors[val]);
+      return colors.sort(function(a, b) {
         return b.count - a.count;
       });
     }
