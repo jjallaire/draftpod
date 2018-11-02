@@ -16,46 +16,14 @@ import * as set from './set/'
 import * as filters from './card-filters'
 import * as utils from './utils'
 
-const local_images = false
-
-export function initialState() {
-  return {
-    set_code: null,
-    cardpool: [],
-    all_packs: [],
-    current_pack: 0,
-    current_pick: 0,
-    picks_complete: false,
-    show_pick_analysis: false,
-    players: [...Array(8)].map(function() {
-      return {
-        draft: {
-          pack: [],
-          piles: [...Array(8)].map(() => Array()),
-        },
-        deck: {
-          piles: [...Array(8)].map(() => Array()),
-          basic_lands: {
-            R: 0,
-            W: 0,
-            U: 0,
-            B: 0,
-            G: 0
-          },
-          auto_lands: true
-        },
-        card_preview: null
-      }
-    }),
-  }
-}
+const local_images = true
 
 export const mutations = {
 
   [INITIALIZE](state, { set_code, cardpool }) {
 
     // acquire initial state
-    const s = initialState();
+    const s = utils.initialState();
     Object.keys(s).forEach(key => {
       state[key] = s[key]
     });
@@ -170,9 +138,6 @@ export const mutations = {
   [APPLY_AUTO_LANDS](state, { playerNumber }) {
     let deck = state.players[playerNumber].deck;
     deck.basic_lands = computeAutoLands(deck);
-
-    console.log(utils.deckList(deck));
-
   },
 
   [DISABLE_AUTO_LANDS](state, { playerNumber }) {

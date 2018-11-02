@@ -13,7 +13,7 @@ const debug = process.env.NODE_ENV !== 'production'
 
 
 const store = new Vuex.Store({
-  state: initialState(),
+  state: utils.initialState(),
   getters: {
     set_code: (state) => state.set_code,
     set_name: (state) => set.name(state.set_code),
