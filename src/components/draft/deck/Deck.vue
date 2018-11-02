@@ -78,7 +78,7 @@ export default {
 }
 
 .mtgdraft .mtgdraft-deck .card-header .btn-sm {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.4;
   padding-top: 0.25rem;
   margin-top: 0;
