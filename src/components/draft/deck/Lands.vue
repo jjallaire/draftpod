@@ -6,7 +6,7 @@
   <tbody>
   <tr v-for="color in colors" :key="color.img">
     <td align="center"><img :src="color.img" :title="color.name" width=18></td>
-    <td align="center"><input type="number" :value="color.count" 
+    <td align="center"><input type="number" min="0" :value="color.count" 
         @input="handleLandInput(color.color, $event)" 
         @blur="handleLandBlur(color.color, $event)"></td>
   </tr>
