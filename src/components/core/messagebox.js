@@ -1,7 +1,7 @@
 
 import bootbox from 'bootbox'
 
-import './utils.css'
+import './messagebox.css'
 
 export function confirm(message, confirmed, cancelled) {
 
@@ -29,5 +29,5 @@ export function confirm(message, confirmed, cancelled) {
         cancelled();
     }
   });
-
 }
+

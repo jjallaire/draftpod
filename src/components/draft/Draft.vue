@@ -56,7 +56,7 @@ import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
 import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
 
 import fscreen from 'fscreen'
-import * as utils from '../utils.js'
+import * as messagebox from '../core/messagebox.js'
 
 export default {
   name: 'App',
@@ -105,8 +105,8 @@ export default {
       startDraft: START_DRAFT
     }),
     exitDraft: function() {
-      utils.confirm("<p>Do you want to exit this draft and start a new draft?</p>",
-                    () => this.startDraft({ playerNumber: this.player, set_code: 'grn' }));
+      messagebox.confirm("<p>Do you want to exit this draft and start a new draft?</p>",
+                         () => this.startDraft({ playerNumber: this.player, set_code: 'grn' }));
     },
     fullscreenToggle: function() {
       if (!this.fullscreen)

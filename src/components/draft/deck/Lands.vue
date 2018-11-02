@@ -24,7 +24,7 @@ import { mapGetters, mapMutations } from 'vuex'
 
 import { DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '../../../store/mutations'
 
-import * as utils from '../../utils.js'
+import * as messagebox from '../../core/messagebox.js'
 
 export default {
 
@@ -121,7 +121,7 @@ export default {
       // if we are in auto-lands then prompt
       if (this.auto_lands) {
         
-        utils.confirm(
+        messagebox.confirm(
           "<p>Editing the number of lands will disable auto-lands " + 
           "(lands for your deck will no longer be automatically calculated).</p> " +
           "Do you want to disable auto-lands?", 
