@@ -2,7 +2,11 @@
 <template>
   <Panel :caption="'Main Deck: ' + cards + ' / 40'" panel_class="mtgdraft-deck">
     <template slot="header">
-      <button class="btn btn-sm btn-secondary"><ClipboardIcon/> Copy Deck to Clipboard</button>
+      <button class="btn btn-sm btn-secondary" 
+              v-clipboard="deck_list(this.player)"
+              v-clipboard:success="onClipboardSuccess">
+        <ClipboardIcon/> Copy Deck to Clipboard
+      </button>
       <button class="btn btn-sm btn-secondary"><DownloadIcon/> Download Decklist</button>
     </template>
     <Pile :player="player" v-for="number in 5" 
@@ -30,6 +34,10 @@ import Panel from '../core/Panel.vue'
 import Pile from '../core/Pile.vue'
 import Lands from './Lands.vue'
 
+import Vue       from 'vue'
+import Clipboard from 'v-clipboard'
+Vue.use(Clipboard)
+
 import ClipboardIcon from "vue-material-design-icons/ClipboardOutline.vue"
 import DownloadIcon from "vue-material-design-icons/FileDownloadOutline.vue"
 
@@ -48,7 +56,8 @@ export default {
   computed: {
     ...mapGetters([
       'deck',
-      'deck_lands'
+      'deck_lands',
+      'deck_list'
     ]),
     piles: function() {
       return this.deck(this.player).piles;
@@ -56,6 +65,12 @@ export default {
     cards: function() {
       let non_lands = this.piles.slice(0, 6).flat().length;
       return non_lands + this.deck_lands(this.player);
+    }
+  },
+
+  methods: {
+    onClipboardSuccess({ value, event }) {
+      console.log("success!!!");
     }
   },
 
