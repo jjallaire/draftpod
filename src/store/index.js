@@ -3,7 +3,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import actions from './actions'
-import { initialState, mutations } from './mutations'
+import { mutations } from './mutations'
 import * as set from './set/'
 import * as utils from './utils'
 
