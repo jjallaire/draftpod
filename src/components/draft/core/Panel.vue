@@ -1,8 +1,9 @@
 <template>
   <div :class="[panel_class, 'card', 'bg-' + background]">
     <div v-if="caption" class="card-header">
-      <div class="header-text text-light">{{ caption }}</div>
-      <div class="float-right"><slot name="header"></slot></div>
+      <div class="float-left header-text text-light">{{ caption }}</div>
+      <div class="float-left"><slot name="header-left"></slot></div>
+      <div class="float-right"><slot name="header-right"></slot></div>
     </div>
     <div class="card-body">
       <slot></slot>
