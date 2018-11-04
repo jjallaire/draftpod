@@ -164,6 +164,7 @@ export default {
   }
 }
 
+
 .mtgdraft-pack {
   flex: 0 1 auto;
   margin: 6px;

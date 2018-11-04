@@ -4,8 +4,9 @@
 <table class="table table-sm mtgdraft-deck-colors">
   <tbody>
   <tr v-for="color in colors" :key="color.img">
-    <td><img :src="color.img" width=18> {{ color.name }}</td>
-    <td>{{ color.count }}</td>
+    <td width="60%"><img :src="color.img" width=18> {{ color.name }}</td>
+    <td align="right">{{ color.count }}</td>
+    <td align="right">{{ (color.percent * 100).toFixed(0) + '%' }}</td>
   </tr>
   </tbody>
 </table>
@@ -71,18 +72,29 @@ export default {
             colors[card.colors[c]].count++;
       }
 
+      // get array of colors
       colors = Object.keys(colors).map(val => colors[val]);
+
+      // compute percents
+      let total_cards = colors.reduce((total, color) => total + color.count, 0);
+      colors = colors.map(function(color) {
+        return {...color, percent: total_cards > 0 ? color.count / total_cards : 0 }
+      });
+
+      // return
       return colors.sort(function(a, b) {
         return b.count - a.count;
       });
     }
   },
-
-
 }
 
 </script>
 
 <style>
+
+.mtgdraft .mtgdraft-deck-colors {
+  width: 92%;
+}
 
 </style>
