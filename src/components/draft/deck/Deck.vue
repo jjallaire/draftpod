@@ -3,7 +3,7 @@
   <Panel :caption="'Main Deck: ' + cards + ' / 40'" panel_class="mtgdraft-deck">
     <template slot="header">
       <DeckCopy :player="player" />
-      <button class="btn btn-sm btn-secondary"><DownloadIcon/> Download Decklist</button>
+      <DeckDownload :player="player" />
     </template>
     <Pile :player="player" v-for="number in 5" 
           :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
@@ -29,12 +29,10 @@
 import Panel from '../core/Panel.vue'
 import Pile from '../core/Pile.vue'
 import DeckCopy from './DeckCopy.vue'
+import DeckDownload from './DeckDownload.vue'
 import DeckLands from './DeckLands.vue'
 
-import DownloadIcon from "vue-material-design-icons/FileDownloadOutline.vue"
-
 import { mapGetters } from 'vuex';
-
 
 export default {
   name: 'Deck',
@@ -61,7 +59,7 @@ export default {
   },
 
   components: {
-    Panel, Pile, DeckCopy, DeckLands, DownloadIcon
+    Panel, Pile, DeckCopy, DeckDownload, DeckLands
   }
 }
 
