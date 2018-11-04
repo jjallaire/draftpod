@@ -1,7 +1,14 @@
 
 <template>
-  <Panel :caption="'Main Deck: ' + cards + ' / 40'" panel_class="mtgdraft-deck">
-    <template slot="header">
+  <Panel :caption="'Main Deck: ' + deck_total_cards + ' / 40'" panel_class="mtgdraft-deck">
+    <template slot="header-left">
+      <div class="card-type-counts">
+      Creatures: {{ deck_card_types.creatures }} &nbsp;
+      Other: {{ deck_card_types.other }} &nbsp;
+      Lands: {{ deck_land_count(this.player) }}
+      </div>
+    </template>
+    <template slot="header-right">
       <DeckCopy :player="player" />
       <DeckDownload :player="player" />
     </template>
@@ -12,7 +19,7 @@
     <Pile :player="player" :key="5" caption="6+" :piles="piles" :number="5" 
           drag_source="DRAG_SOURCE_DECK">
     </Pile>
-    <Pile :player="player" :key="6" :caption="'Lands (' + deck_lands(this.player) + ')'"
+    <Pile :player="player" :key="6" :caption="'Lands (' + deck_land_count(this.player) + ')'"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
       <DeckLands slot="controls" :player="player">
       </DeckLands>
@@ -47,14 +54,20 @@ export default {
   computed: {
     ...mapGetters([
       'deck',
-      'deck_lands'
+      'deck_cards',
+      'deck_land_count',
+      'card_types'
     ]),
     piles: function() {
       return this.deck(this.player).piles;
     },
-    cards: function() {
-      let non_lands = this.piles.slice(0, 6).flat().length;
-      return non_lands + this.deck_lands(this.player);
+    deck_total_cards: function() {
+      return this.deck_cards(this.player).length + 
+             this.deck_land_count(this.player);
+    },
+    deck_card_types: function() {
+      let cards = this.deck_cards(this.player);
+      return this.card_types(cards);
     }
   },
 
@@ -72,8 +85,16 @@ export default {
   margin-bottom: 3px;
 }
 
+
+
 .mtgdraft .mtgdraft-deck .card-header .header-text {
   padding-top: 4px;
+}
+
+.mtgdraft .mtgdraft-deck .card-header .card-type-counts {
+  padding-top: 5px;
+  margin-left: 14px;
+  font-size: 0.9rem;
 }
 
 .mtgdraft .mtgdraft-deck .card-header .btn-sm {
@@ -84,6 +105,16 @@ export default {
   margin-left: 0.2em;
   padding-left: 0.5rem;
   padding-right: 0.9rem;
+}
+
+.mtgdraft .mtgdraft-deck .card-header .btn-extra-text {
+  display: none
+}
+
+@media only screen and (min-width: 1000px) {
+  .mtgdraft .mtgdraft-deck .card-header .btn-extra-text {
+    display: inherit
+  }
 }
 
 .mtgdraft .mtgdraft-deck .card-body {

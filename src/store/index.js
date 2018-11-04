@@ -26,7 +26,8 @@ const store = new Vuex.Store({
     show_pick_analysis: (state) => state.show_pick_analysis,
     draft: (state) => (player) => state.players[player].draft,
     deck: (state) => (player) => state.players[player].deck,
-    deck_lands: (state) => (player) => {
+    deck_cards: (state) => (player) => state.players[player].deck.piles.slice(0, 6).flat(),
+    deck_land_count: (state) => (player) => {
       let deck = state.players[player].deck;
       let basic_lands = deck.basic_lands;
       return deck.piles[6].length + utils.sumValues(basic_lands);

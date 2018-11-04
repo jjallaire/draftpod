@@ -1,11 +1,11 @@
 <template>
 
 <button id="copy-deck-to-clipboard"
-    class="btn btn-sm btn-secondary" 
+    class="btn btn-sm btn-secondary text-light" 
     v-clipboard="deck_list(this.player)"
     v-clipboard:success="onClipboardSuccess"
     data-toggle="tooltip"  data-placement="top">
-  <ClipboardIcon/> Copy Deck to Clipboard
+  <ClipboardIcon/> Copy <span class="btn-extra-text">Decklist</span>
 </button>
 
 </template>

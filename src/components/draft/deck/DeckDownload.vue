@@ -1,8 +1,8 @@
 <template>
 
-<button class="btn btn-sm btn-secondary"
+<button class="btn btn-sm btn-secondary text-light"
         @click="onDownloadDeck" >
-  <DownloadIcon/> Download Decklist
+  <DownloadIcon/> Download <span class="btn-extra-text">Decklist</span>
 </button>
 
 </template>
