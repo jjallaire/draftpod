@@ -81,30 +81,36 @@ export default {
 <style>
 
 .mtgdraft .mtgdraft-deck .card-header {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-bottom: 3px;
 }
 
 
 
 .mtgdraft .mtgdraft-deck .card-header .header-text {
-  padding-top: 4px;
+  padding-top: 2px;
 }
 
 .mtgdraft .mtgdraft-deck .card-header .card-type-counts {
-  padding-top: 5px;
+  padding-top: 3px;
   margin-left: 14px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .mtgdraft .mtgdraft-deck .card-header .btn-sm {
   font-size: 0.8rem;
   line-height: 1.4;
-  padding-top: 0.25rem;
+  padding: 0.25rem;
   margin-top: 0;
   margin-left: 0.2em;
   padding-left: 0.5rem;
   padding-right: 0.9rem;
+}
+
+.mtgdraft .mtgdraft-deck .card-header .btn-sm svg {
+  width: 16px;
+  height: 16px;
+  margin-top: -2px;
 }
 
 .mtgdraft .mtgdraft-deck .card-header .btn-extra-text {
