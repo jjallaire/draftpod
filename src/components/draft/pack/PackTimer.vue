@@ -2,7 +2,7 @@
 
 <template>
 
-  <span class="mtgdraft-pack-timer badge badge-secondary text-light">0:43</span>
+  <span class="mtgdraft-pack-timer badge badge-primary text-light">0:43</span>
 
 </template>
 

@@ -48,7 +48,7 @@ export default {
 }
 
 .navbar .navbar-text {
-  padding-top: 1px;
+  padding-top: 2px;
   padding-bottom: 0;
   padding-right: 1em;
 }
