@@ -31,7 +31,7 @@ export default {
 
 .navbar {
   border: 0;
-  padding: 8px;
+  padding: 6px;
 }
 
 .navbar .nav-link {

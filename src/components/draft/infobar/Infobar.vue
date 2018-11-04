@@ -64,7 +64,7 @@ export default {
 .mtgdraft-infobar {
   display: flex;
   flex-direction: column;
-  padding: 8px;
+  padding: 6px;
   padding-left: 0;
   background-color: transparent;
 }
