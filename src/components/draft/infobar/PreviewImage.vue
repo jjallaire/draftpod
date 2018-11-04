@@ -42,7 +42,7 @@ export default {
 
 .mtgdraft-cardview {
   width: 100%;  
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 .mtgdraft-cardview img {

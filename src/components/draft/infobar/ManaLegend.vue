@@ -36,7 +36,7 @@ export default {
 .mtgdraft-deckstats .mana-curve-legend {
   font-size: 0.8em;
   font-weight: 400;
-  margin-top: 6px;
+  margin-top: 5px;
 }
 
 .mtgdraft-deckstats .mana-key {

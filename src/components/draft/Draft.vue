@@ -167,19 +167,19 @@ export default {
 
 .mtgdraft-pack {
   flex: 0 1 auto;
-  margin: 6px;
+  margin: 5px;
   margin-bottom: 0;
 }
 
 .mtgdraft-pick {
   flex: 1 1 auto;
-  margin: 6px;
+  margin: 5px;
   margin-top: 3px;
 }
 
 .mtgdraft-deck {
   flex: 1 1 auto;
-  margin: 6px;
+  margin: 5px;
 }
 
 .mtgdraft .card {
@@ -237,7 +237,7 @@ export default {
 
 .mtgdraft-deck-colors td img {
   margin-top: -2px;
-  margin-right: 6px;
+  margin-right: 5px;
   margin-left: 4px;
 }
 
