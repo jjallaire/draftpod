@@ -1,7 +1,7 @@
 <template>
   <div :class="[panel_class, 'card', 'bg-' + background]">
     <div v-if="caption" class="card-header">
-      <div class="header-text">{{ caption }}</div>
+      <div class="header-text text-light">{{ caption }}</div>
       <div class="float-right"><slot name="header"></slot></div>
     </div>
     <div class="card-body">
