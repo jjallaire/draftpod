@@ -2,13 +2,7 @@
 <template>
   <Panel :caption="'Main Deck: ' + cards + ' / 40'" panel_class="mtgdraft-deck">
     <template slot="header">
-      <button id="copy-deck-to-clipboard"
-              class="btn btn-sm btn-secondary" 
-              v-clipboard="deck_list(this.player)"
-              v-clipboard:success="onClipboardSuccess"
-              data-toggle="tooltip"  data-placement="top">
-        <ClipboardIcon/> Copy Deck to Clipboard
-      </button>
+      <DeckCopy :player="player" />
       <button class="btn btn-sm btn-secondary"><DownloadIcon/> Download Decklist</button>
     </template>
     <Pile :player="player" v-for="number in 5" 
@@ -20,8 +14,8 @@
     </Pile>
     <Pile :player="player" :key="6" :caption="'Lands (' + deck_lands(this.player) + ')'"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
-      <Lands slot="controls" :player="player">
-      </Lands>
+      <DeckLands slot="controls" :player="player">
+      </DeckLands>
     </Pile>
     <div class="mtgpile mtgpile-separator"></div>
     <Pile :player="player" :key="7" caption="Sideboard" :piles="piles" :number="7" 
@@ -34,18 +28,13 @@
 
 import Panel from '../core/Panel.vue'
 import Pile from '../core/Pile.vue'
-import Lands from './Lands.vue'
+import DeckCopy from './DeckCopy.vue'
+import DeckLands from './DeckLands.vue'
 
-import Vue       from 'vue'
-import Clipboard from 'v-clipboard'
-Vue.use(Clipboard)
-
-import ClipboardIcon from "vue-material-design-icons/ClipboardOutline.vue"
 import DownloadIcon from "vue-material-design-icons/FileDownloadOutline.vue"
 
 import { mapGetters } from 'vuex';
 
-import jquery from 'jquery'
 
 export default {
   name: 'Deck',
@@ -60,8 +49,7 @@ export default {
   computed: {
     ...mapGetters([
       'deck',
-      'deck_lands',
-      'deck_list'
+      'deck_lands'
     ]),
     piles: function() {
       return this.deck(this.player).piles;
@@ -72,23 +60,8 @@ export default {
     }
   },
 
-  mounted() {
-    jquery('#copy-deck-to-clipboard').tooltip({
-      title: 'Decklist copied!',
-      trigger: 'manual'
-    });
-  }, 
-
-  methods: {
-    onClipboardSuccess({ value, event }) {
-      let copy_deck = jquery('#copy-deck-to-clipboard');
-      copy_deck.tooltip('show');
-      setTimeout(() => copy_deck.tooltip('hide'), 1500);
-    }
-  },
-
   components: {
-    Panel, Pile, Lands, ClipboardIcon, DownloadIcon
+    Panel, Pile, DeckCopy, DeckLands, DownloadIcon
   }
 }
 

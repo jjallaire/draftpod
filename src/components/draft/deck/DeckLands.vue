@@ -26,7 +26,7 @@ import * as messagebox from '../../core/messagebox.js'
 
 export default {
 
-  name: 'Lands',
+  name: 'DeckLands',
 
   props: {
     player: {
