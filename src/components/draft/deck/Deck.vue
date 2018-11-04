@@ -84,12 +84,12 @@ export default {
   margin-left: 0.2em;
   padding-left: 0.5rem;
   padding-right: 0.9rem;
-  color: lightgray;
 }
 
-.mtgdraft-deck .card-body {
+.mtgdraft .mtgdraft-deck .card-body {
   position: relative;
   overflow-y: scroll;
+  padding-left: 10px;
 }
 
 </style>
