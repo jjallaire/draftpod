@@ -2,15 +2,15 @@
 <template>
 
 <div class="mana-curve-legend">
-  <span class="mana-key creatures-key bg-danger">&nbsp;</span> Creatures ({{ creature_count }})
-  <span class="mana-key other-key bg-info">&nbsp;</span> Other ({{ other_count }})
+  <span class="mana-key creatures-key bg-danger">&nbsp;</span> Creatures ({{ card_types(this.cards).creatures }})
+  <span class="mana-key other-key bg-info">&nbsp;</span> Other ({{ card_types(this.cards).other }})
 </div>
 
 </template>
 
 <script>
 
-import * as filters from '../../../store/card-filters'
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'ManaLegend',
@@ -23,13 +23,9 @@ export default {
   },
 
   computed: {
-    creature_count: function() {
-      return this.cards.filter(filters.creature).length;
-    },
-    other_count: function() {
-      return this.cards.filter((card) => 
-        !filters.creature(card) && !filters.land(card)).length;
-    },
+    ...mapGetters([
+      'card_types'
+    ]),
   },
 }
 

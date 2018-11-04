@@ -6,6 +6,7 @@ import actions from './actions'
 import { mutations } from './mutations'
 import * as set from './set/'
 import * as utils from './utils'
+import * as filters from './card-filters'
 
 Vue.use(Vuex)
 
@@ -31,6 +32,13 @@ const store = new Vuex.Store({
       return deck.piles[6].length + utils.sumValues(basic_lands);
     },
     deck_list: (state) => (player) => utils.deckList(state.players[player].deck),
+    card_types: () => (cards) => {
+      return {
+        creatures: cards.filter(filters.creature).length,
+        other: cards.filter((card) => !filters.creature(card) && !filters.land(card)).length,
+        lands: cards.filter(filters.land).length
+      }
+    },
     card_preview: (state) => (player) => state.players[player].card_preview,
   },
   actions,
