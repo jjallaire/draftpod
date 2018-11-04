@@ -4,7 +4,11 @@
   <Navbar> 
     <span v-if="started" class="navbar-text">{{ set_name }} &mdash; 
       <span v-if="picks_complete">Building Deck</span>
-      <span v-else>Pack {{ current_pack }}, Pick {{ current_pick }}</span>
+      <span v-else>
+        Pack {{ current_pack }}, Pick {{ current_pick }}
+        <PackTimer :player="player" />
+      </span>
+      
     </span> 
     <ul v-if="started" class="navbar-nav">
       <li class="nav-item">
@@ -41,7 +45,8 @@
 <script>
 
 import Navbar from '../Navbar.vue'
-import Pack from './Pack.vue';
+import Pack from './pack/Pack.vue';
+import PackTimer from './pack/PackTimer.vue'
 import Pick from './pick/Pick.vue';
 import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
@@ -73,7 +78,7 @@ export default {
   },
 
   components: {
-    Navbar, Pack, Pick, Deck, Infobar, 
+    Navbar, Pack, PackTimer, Pick, Deck, Infobar, 
     FullScreenIcon, FullScreenExitIcon, ExitToAppIcon
   },
 
@@ -126,6 +131,13 @@ export default {
   right: 0;
   top: 0;
   height: 40px;
+}
+
+.navbar .mtgdraft-pack-timer {
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-left: 8px;
 }
 
 .mtgdraft {

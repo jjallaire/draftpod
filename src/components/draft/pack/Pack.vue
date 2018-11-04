@@ -12,11 +12,13 @@
     </span>
   </Panel>
   
+
 </template>
 
 <script>
-import Card from './core/Card.vue';
-import Panel from './core/Panel.vue';
+import Card from '../core/Card.vue';
+import Panel from '../core/Panel.vue';
+import PackTimer from './PackTimer.vue';
 import { mapGetters } from 'vuex';
 
 export default {
@@ -34,7 +36,7 @@ export default {
     ]),
   },
   components: {
-    Card, Panel
+    Card, Panel, PackTimer
   },
 }
 </script>
@@ -52,19 +54,27 @@ export default {
 .mtgdraft-pack .mtgcard img,
 .mtgdraft-pack .mtgcard-empty img {
   width: 11.5%;
-  height: 16.05%;
+  min-height: 16.05%;
   margin-bottom: 3px;
+}
+
+.mtgdraft-pack .mtgcard-empty img {
+  margin-right: 4px;
 }
 
 .mtgdraft-pack .mtgcard-empty img {
   user-select: none;
 }
 
+.mtgdraft-pack .mtgdraft-pack-timer {
+  margin-left: 20px;
+}
+
 @media only screen and (max-width: 1000px) {
 .mtgdraft-pack .mtgcard img,
 .mtgdraft-pack .mtgcard-empty img {
   width: 10%;
-  height: 13.95%;
+  min-height: 13.95%;
 } 
 }
 
