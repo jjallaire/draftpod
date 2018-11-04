@@ -2,9 +2,11 @@
 <template>
   <Panel :caption="'Main Deck: ' + cards + ' / 40'" panel_class="mtgdraft-deck">
     <template slot="header">
-      <button class="btn btn-sm btn-secondary" 
+      <button id="copy-deck-to-clipboard"
+              class="btn btn-sm btn-secondary" 
               v-clipboard="deck_list(this.player)"
-              v-clipboard:success="onClipboardSuccess">
+              v-clipboard:success="onClipboardSuccess"
+              data-toggle="tooltip"  data-placement="top">
         <ClipboardIcon/> Copy Deck to Clipboard
       </button>
       <button class="btn btn-sm btn-secondary"><DownloadIcon/> Download Decklist</button>
@@ -43,6 +45,8 @@ import DownloadIcon from "vue-material-design-icons/FileDownloadOutline.vue"
 
 import { mapGetters } from 'vuex';
 
+import jquery from 'jquery'
+
 export default {
   name: 'Deck',
 
@@ -68,9 +72,18 @@ export default {
     }
   },
 
+  mounted() {
+    jquery('#copy-deck-to-clipboard').tooltip({
+      title: 'Decklist copied!',
+      trigger: 'manual'
+    });
+  }, 
+
   methods: {
     onClipboardSuccess({ value, event }) {
-      console.log("success!!!");
+      let copy_deck = jquery('#copy-deck-to-clipboard');
+      copy_deck.tooltip('show');
+      setTimeout(() => copy_deck.tooltip('hide'), 1500);
     }
   },
 
@@ -100,6 +113,7 @@ export default {
   margin-left: 0.2em;
   padding-left: 0.5rem;
   padding-right: 0.9rem;
+  color: lightgray;
 }
 
 .mtgdraft-deck .card-body {
