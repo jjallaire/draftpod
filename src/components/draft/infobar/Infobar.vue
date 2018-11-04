@@ -5,7 +5,7 @@
   
   <PreviewImage :player="player" />
   
-  <Panel caption="Cards" panel_class="mtgdraft-deckstats"> 
+  <Panel panel_class="mtgdraft-deckstats"> 
     <ManaLegend :cards="cards" />
     <ManaCurve :cards="cards" />
     <ManaColors :cards="cards" />

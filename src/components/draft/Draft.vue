@@ -190,7 +190,6 @@ export default {
   padding-left: 0.5rem;
   padding-right: 0.2rem;
   font-size: 0.7rem;
-  color: lightgray;
   border-bottom: 0;
 }
 
@@ -199,12 +198,6 @@ export default {
   padding-left: 0.5rem;
   padding-right: 0.8rem;
   font-size: 0.7rem;
-  color: #aaa;
-}
-
-.mtgdraft .tabs-header .nav-link.active,
-.mtgdraft .tabs-header .nav-link:hover {
-  color:  lightgray;
 }
 
 .mtgdraft .tabs-header {
@@ -233,7 +226,6 @@ export default {
 .mtgdraft-deck-colors {
   font-size: 0.8em;
   font-weight: 500;
-  color: #808080;
   margin-top: 3px;
 }
 

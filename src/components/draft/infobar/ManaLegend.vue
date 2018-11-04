@@ -2,8 +2,8 @@
 <template>
 
 <div class="mana-curve-legend">
-  <span class="mana-key creatures-key">&nbsp;</span> Creatures ({{ creature_count }})
-  <span class="mana-key other-key">&nbsp;</span> Other ({{ other_count }})
+  <span class="mana-key creatures-key bg-danger">&nbsp;</span> Creatures ({{ creature_count }})
+  <span class="mana-key other-key bg-info">&nbsp;</span> Other ({{ other_count }})
 </div>
 
 </template>
@@ -40,7 +40,6 @@ export default {
 .mtgdraft-deckstats .mana-curve-legend {
   font-size: 0.8em;
   font-weight: 400;
-  color: #808080;
   margin-top: 6px;
 }
 
@@ -50,12 +49,10 @@ export default {
 
 .mtgdraft-deckstats .creatures-key {
   margin-left: 10px;
-  background-color: #ee5f5b;
 }
 
 .mtgdraft-deckstats .other-key {
   margin-left: 5px;
-  background-color: #5bc0de;
 }
 
 </style>

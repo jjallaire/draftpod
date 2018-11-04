@@ -232,7 +232,6 @@ function cardInsertLocation(data, event) {
   text-transform: uppercase;
   text-align: center;
   width: 100%;
-  color: #808080;
   margin-top: -2px; 
 }
 @media only screen and (max-width: 1000px) {
