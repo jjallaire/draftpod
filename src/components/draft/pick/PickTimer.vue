@@ -3,7 +3,7 @@
 <template>
 
   <span :class="[badge_class, 'mtgdraft-pack-timer', 'badge', 'text-light']">
-    0:{{ ('00'+pick_time_remaining).slice(-2) }}
+    0:{{ time_display }}
     </span>
 
 </template>
@@ -30,6 +30,10 @@ export default {
         return "badge-primary";
       else
         return "badge-danger";
+    },
+    time_display: function() {
+      let time = Math.max(this.pick_time_remaining, 0);
+      return ('00'+ time).slice(-2);
     }
   }
 }

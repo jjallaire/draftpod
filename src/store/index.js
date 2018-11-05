@@ -28,6 +28,7 @@ const store = new Vuex.Store({
     },
     pick_time_expired: (state, getters) => {
       return state.pick_timer &&
+             !getters.picks_complete &&
              state.current_pack > 0 && 
              state.current_pick > 0 &&
              getters.pick_time_remaining < 0;
