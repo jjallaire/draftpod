@@ -174,8 +174,13 @@ export const mutations = {
 
 
 function nextPick(state) {
+  
+  // advance pick
   state.current_pick++;
-  state.pick_end_time = new Date(new Date().getTime() + 1000 * 30);
+
+  // set end time
+  let pick_seconds = 80 - (5 * state.current_pick);
+  state.pick_end_time = new Date(new Date().getTime() + 1000 * pick_seconds);
 }
 
 function cardToDeckPile(c, deck) {

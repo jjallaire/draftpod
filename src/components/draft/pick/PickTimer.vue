@@ -3,8 +3,8 @@
 <template>
 
   <span :class="[badge_class, 'mtgdraft-pack-timer', 'badge', 'text-light']">
-    0:{{ time_display }}
-    </span>
+    {{ time_display }}
+  </span>
 
 </template>
 
@@ -32,11 +32,15 @@ export default {
         return "badge-danger";
     },
     time_display: function() {
-      let time = Math.max(this.pick_time_remaining, 0);
-      return ('00'+ time).slice(-2);
+      let seconds_remaining = Math.max(this.pick_time_remaining, 0);
+      let minutes = Math.floor(seconds_remaining / 60);
+      let seconds = seconds_remaining % 60;
+      return minutes + ':' + ('00'+ seconds).slice(-2);
     }
   }
 }
+
+
 
 </script>
 
