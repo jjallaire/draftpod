@@ -50,7 +50,7 @@ export default {
 
   },
 
-  [PICK_TIMER]({commit, state, getters, dispatch}, { playerNumber }) {
+  [PICK_TIMER]({commit, state, getters}, { playerNumber }) {
     
       // first update the current time
       commit(UPDATE_CURRENT_TIME);
