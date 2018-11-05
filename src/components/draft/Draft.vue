@@ -2,27 +2,30 @@
   <div>
   
   <Navbar> 
-    <span v-if="started" class="navbar-text">{{ set_name }} &mdash; 
-      <span v-if="picks_complete">Deck Construction</span>
-      <span v-else>
-        Pack {{ current_pack }}, Pick {{ current_pick }}
-        <PickTimer v-if="pick_timer" :player="player" />
-      </span>
-      
-    </span> 
-    <ul v-if="started" class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link">
-          <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link">
-          <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="onFullscreenToggle"/>
-          <FullScreenIcon v-else title="Fullscreen" @click.native="onFullscreenToggle"/>
-        </a>
-      </li>
-    </ul> 
+    <transition name="mtgdraft-fade">
+      <span v-if="started" class="navbar-text">{{ set_name }} &mdash; 
+        <span v-if="picks_complete">Deck Construction</span>
+        <span v-else>
+          Pack {{ current_pack }}, Pick {{ current_pick }}
+          <PickTimer v-if="pick_timer" :player="player" />
+        </span>
+      </span> 
+    </transition>
+    <transition name="mtgdraft-fade">
+      <ul v-if="started" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link">
+            <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">
+            <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="onFullscreenToggle"/>
+            <FullScreenIcon v-else title="Fullscreen" @click.native="onFullscreenToggle"/>
+          </a>
+        </li>
+      </ul> 
+    </transition>
   </Navbar>
 
   <transition name="mtgdraft-fade">
@@ -38,7 +41,7 @@
         <Infobar :player="player"/>
     </div>
     <div v-else key="start-draft" class="container" style="margin-top: 70px;">
-      <button class="btn" @click="onStartDraft">Start Draft</button>
+      <Start :player="player" />
     </div>
   </transition>
 
@@ -48,13 +51,14 @@
 <script>
 
 import Navbar from '../Navbar.vue'
+import Start from './start/Start.vue'
 import Pack from './pack/Pack.vue';
 import Pick from './pick/Pick.vue';
 import PickTimer from './pick/PickTimer.vue'
 import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
-import { INITIALIZE_STORE, START_DRAFT } from '../../store/actions';
+import { INITIALIZE_STORE } from '../../store/actions';
 import { EXIT_DRAFT } from '../../store/mutations';
 
 import { mapActions } from 'vuex';
@@ -83,7 +87,7 @@ export default {
   },
 
   components: {
-    Navbar, Pack, PickTimer, Pick, Deck, Infobar, 
+    Navbar, Start, Pack, PickTimer, Pick, Deck, Infobar, 
     FullScreenIcon, FullScreenExitIcon, ExitToAppIcon
   },
 
@@ -113,14 +117,10 @@ export default {
   methods: {
     ...mapActions({
       initializeStore: INITIALIZE_STORE,
-      startDraft: START_DRAFT,
     }),
     ...mapMutations({
       exitDraft: EXIT_DRAFT,
     }),
-    onStartDraft: function() {
-      this.startDraft({ playerNumber: this.player, set_code: 'grn' });
-    },
     onExitDraft: function() {
       messagebox.confirm("<p>Do you want to exit this draft?</p>", this.exitDraft);
     },
@@ -161,7 +161,7 @@ export default {
 }
 
 .mtgdraft-fade-enter-active, .mtgdraft-fade-leave-active {
-  transition: opacity 1.5s;
+  transition: opacity 1s;
 }
 .mtgdraft-fade-enter, .mtgdraft-fade-leave-to {
   opacity: 0;
