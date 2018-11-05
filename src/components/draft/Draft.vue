@@ -3,7 +3,7 @@
   
   <Navbar> 
     <span v-if="started" class="navbar-text">{{ set_name }} &mdash; 
-      <span v-if="picks_complete">Building Deck</span>
+      <span v-if="picks_complete">Deck Construction</span>
       <span v-else>
         Pack {{ current_pack }}, Pick {{ current_pick }}
         <PickTimer v-if="pick_timer" :player="player" />
