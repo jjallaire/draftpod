@@ -16,10 +16,10 @@ const debug = process.env.NODE_ENV !== 'production'
 const store = new Vuex.Store({
   state: utils.initialState(),
   getters: {
+    started: (state) => state.current_pack > 0,
     set_code: (state) => state.set_code,
     set_name: (state) => set.name(state.set_code),
     cardpool: (state) => state.cardpool,
-    started: (state) => state.current_pack > 0,
     current_pack: (state) => state.current_pack,
     current_pick: (state) => state.current_pick,
     pick_timer: (state) => state.pick_timer,

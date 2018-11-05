@@ -13,20 +13,19 @@
     <ul v-if="started" class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link">
-          <ExitToAppIcon title="Exit Draft" @click.native="exitDraft"/>
+          <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link">
-          <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="fullscreenToggle"/>
-          <FullScreenIcon v-else title="Fullscreen" @click.native="fullscreenToggle"/>
+          <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="onFullscreenToggle"/>
+          <FullScreenIcon v-else title="Fullscreen" @click.native="onFullscreenToggle"/>
         </a>
       </li>
     </ul> 
   </Navbar>
 
-  <div class="mtgdraft bg-secondary">
-
+  <div v-if="started" class="mtgdraft bg-secondary">
       <div class="mtgdraft-cards">
         <transition name="mtgpack-hide">
           <Pack v-if="!picks_complete" :player="player"/>
@@ -36,7 +35,9 @@
       </div>
 
       <Infobar :player="player"/>
-
+  </div>
+  <div v-else class="container" style="margin-top: 70px;">
+    <button class="btn" @click="onStartDraft">Start Draft</button>
   </div>
 
   </div>
@@ -52,8 +53,10 @@ import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
 import { INITIALIZE_STORE, START_DRAFT } from '../../store/actions';
+import { EXIT_DRAFT } from '../../store/mutations';
 
 import { mapActions } from 'vuex';
+import { mapMutations } from 'vuex';
 import { mapGetters } from 'vuex';
 
 import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
@@ -83,7 +86,6 @@ export default {
   },
 
   created() {
-
     // one time store initialization
     this.initializeStore({ playerNumber: this.player });
 
@@ -92,10 +94,6 @@ export default {
     fscreen.onfullscreenchange = function() {
       vm.fullscreen = fscreen.fullscreenElement !== null;
     };
-
-    if (!this.started) {
-      this.startDraft({ playerNumber: this.player, set_code: 'grn' });
-    }
   },
 
   computed: {
@@ -113,13 +111,18 @@ export default {
   methods: {
     ...mapActions({
       initializeStore: INITIALIZE_STORE,
-      startDraft: START_DRAFT
+      startDraft: START_DRAFT,
     }),
-    exitDraft: function() {
-      messagebox.confirm("<p>Do you want to exit this draft and start a new draft?</p>",
-                         () => this.startDraft({ playerNumber: this.player, set_code: 'grn' }));
+    ...mapMutations({
+      exitDraft: EXIT_DRAFT,
+    }),
+    onStartDraft: function() {
+      this.startDraft({ playerNumber: this.player, set_code: 'grn' });
     },
-    fullscreenToggle: function() {
+    onExitDraft: function() {
+      messagebox.confirm("<p>Do you want to exit this draft?</p>", this.exitDraft);
+    },
+    onFullscreenToggle: function() {
       if (!this.fullscreen)
         fscreen.requestFullscreen(document.documentElement);
       else

@@ -1,4 +1,5 @@
-export const INITIALIZE_DRAFT = 'INITIALIZE_DRAFT'
+
+export const ENTER_DRAFT = 'ENTER_DRAFT'
 export const UPDATE_CURRENT_TIME = 'UPDATE_CURRENT_TIME'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
@@ -11,6 +12,7 @@ export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
 export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
+export const EXIT_DRAFT = 'EXIT_DRAFT'
 
 import uuidv4 from 'uuid'
 import * as set from './set/'
@@ -21,14 +23,8 @@ const local_images = true
 
 export const mutations = {
 
-  [INITIALIZE_DRAFT](state, { set_code, cardpool }) {
-
-    // acquire initial state
-    const s = utils.initialState();
-    Object.keys(s).forEach(key => {
-      state[key] = s[key]
-    });
-
+  [ENTER_DRAFT](state, { set_code, cardpool }) {
+  
     // set cardpool and packs
     state.set_code = set_code;
     state.cardpool = cardpool;
@@ -170,6 +166,13 @@ export const mutations = {
     let pile = cardToDeckPile(card, deck);
     pile.sort(orderCards);
   },
+
+  [EXIT_DRAFT](state) {
+    const s = utils.initialState();
+    Object.keys(s).forEach(key => {
+      state[key] = s[key]
+    });
+ },
 };
 
 

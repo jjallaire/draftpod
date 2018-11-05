@@ -3,7 +3,7 @@
 import axios from 'axios'
 
 import { 
-  INITIALIZE_DRAFT,
+  ENTER_DRAFT,
   UPDATE_CURRENT_TIME,
   OPEN_PACKS, 
   PACK_TO_PICK, 
@@ -38,7 +38,7 @@ export default {
       .then(response => {
 
         // initialize
-        commit(INITIALIZE_DRAFT, {
+        commit(ENTER_DRAFT, {
           set_code: set_code,
           cardpool: response.data
         });
