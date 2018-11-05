@@ -6,7 +6,7 @@
       <span v-if="picks_complete">Building Deck</span>
       <span v-else>
         Pack {{ current_pack }}, Pick {{ current_pick }}
-        <PackTimer :player="player" />
+        <PickTimer v-if="pick_timer" :player="player" />
       </span>
       
     </span> 
@@ -46,8 +46,8 @@
 
 import Navbar from '../Navbar.vue'
 import Pack from './pack/Pack.vue';
-import PackTimer from './pack/PackTimer.vue'
 import Pick from './pick/Pick.vue';
+import PickTimer from './pick/PickTimer.vue'
 import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
@@ -78,7 +78,7 @@ export default {
   },
 
   components: {
-    Navbar, Pack, PackTimer, Pick, Deck, Infobar, 
+    Navbar, Pack, PickTimer, Pick, Deck, Infobar, 
     FullScreenIcon, FullScreenExitIcon, ExitToAppIcon
   },
 
@@ -102,6 +102,7 @@ export default {
       'picks_complete',
       'current_pack',
       'current_pick',
+      'pick_timer'
     ]),
   },
 

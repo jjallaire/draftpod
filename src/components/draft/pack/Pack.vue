@@ -18,7 +18,6 @@
 <script>
 import Card from '../core/Card.vue';
 import Panel from '../core/Panel.vue';
-import PackTimer from './PackTimer.vue';
 import { mapGetters } from 'vuex';
 
 export default {
@@ -36,7 +35,7 @@ export default {
     ]),
   },
   components: {
-    Card, Panel, PackTimer
+    Card, Panel
   },
 }
 </script>

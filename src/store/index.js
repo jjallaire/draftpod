@@ -22,6 +22,8 @@ const store = new Vuex.Store({
     started: (state) => state.current_pack > 0,
     current_pack: (state) => state.current_pack,
     current_pick: (state) => state.current_pick,
+    pick_timer: (state) => state.pick_timer,
+    pick_time_remaining: (state) => state.pick_time_remaining,
     picks_complete: (state) => state.picks_complete,
     show_pick_analysis: (state) => state.show_pick_analysis,
     draft: (state) => (player) => state.players[player].draft,

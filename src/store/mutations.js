@@ -109,9 +109,12 @@ export const mutations = {
         state.players[i].draft.pack = packs[i+1];
       state.players[packs.length-1].draft.pack = packs[0];
     }
-    
+
     // increment pick
     state.current_pick++;
+
+    // set pick time remaining
+    state.pick_time_remaining = 30;
   },
 
   [MOVE_PICKS_TO_DECK](state, { playerNumber }) {
