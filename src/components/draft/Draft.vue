@@ -193,6 +193,7 @@ export default {
 .mtgdraft-deck {
   flex: 1 1 auto;
   margin: 5px;
+  margin-top: 4px;
 }
 
 .mtgdraft .card {

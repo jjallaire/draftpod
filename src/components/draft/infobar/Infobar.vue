@@ -65,6 +65,7 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 5px;
+  padding-top: 4px;
   padding-left: 0;
   background-color: transparent;
 }
