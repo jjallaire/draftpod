@@ -6,8 +6,9 @@ export function initialState() {
     all_packs: [],
     current_pack: 0,
     current_pick: 0,
+    current_time: new Date(),
     pick_timer: true,
-    pick_time_remaining: 28,
+    pick_end_time: new Date(),
     picks_complete: false,
     show_pick_analysis: false,
     players: [...Array(8)].map(function() {

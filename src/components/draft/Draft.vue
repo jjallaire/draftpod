@@ -51,7 +51,7 @@ import PickTimer from './pick/PickTimer.vue'
 import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
-import { START_DRAFT } from '../../store/actions';
+import { INITIALIZE_STORE, START_DRAFT } from '../../store/actions';
 
 import { mapActions } from 'vuex';
 import { mapGetters } from 'vuex';
@@ -84,6 +84,10 @@ export default {
 
   created() {
 
+    // one time store initialization
+    this.initializeStore({ playerNumber: this.player });
+
+    // update fullscreen state on change
     let vm = this;
     fscreen.onfullscreenchange = function() {
       vm.fullscreen = fscreen.fullscreenElement !== null;
@@ -108,6 +112,7 @@ export default {
 
   methods: {
     ...mapActions({
+      initializeStore: INITIALIZE_STORE,
       startDraft: START_DRAFT
     }),
     exitDraft: function() {
@@ -139,6 +144,7 @@ export default {
   font-size: 0.9rem;
   font-weight: 400;
   margin-left: 8px;
+  min-width: 45px;
 }
 
 .mtgdraft {

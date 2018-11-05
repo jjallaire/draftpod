@@ -3,7 +3,8 @@
 import axios from 'axios'
 
 import { 
-  INITIALIZE,
+  INITIALIZE_DRAFT,
+  UPDATE_CURRENT_TIME,
   OPEN_PACKS, 
   PACK_TO_PICK, 
   PASS_PACKS, 
@@ -15,11 +16,20 @@ import {
 
 import * as set from './set/'
 
+export const INITIALIZE_STORE = 'INITIALIZE_STORE'
 export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
+export const PICK_TIMER = 'PICK_TIMER'
 
 export default {
+
+  [INITIALIZE_STORE]( { dispatch }, { playerNumber }) {
+    
+    // arrange for pick timer tick
+    setInterval(() => dispatch(PICK_TIMER, { playerNumber }), 1000);
+
+  },
 
   [START_DRAFT]( { commit, state }, {playerNumber, set_code} ) {
 
@@ -28,7 +38,7 @@ export default {
       .then(response => {
 
         // initialize
-        commit(INITIALIZE, {
+        commit(INITIALIZE_DRAFT, {
           set_code: set_code,
           cardpool: response.data
         });
@@ -40,42 +50,69 @@ export default {
 
   },
 
-  [PICK_CARD]({ commit, state }, payload) {
+  [PICK_TIMER]({commit, state, getters, dispatch}, { playerNumber }) {
     
-    // alias player
-    let playerNumber = payload.playerNumber;
-    let player = state.players[playerNumber];
+      // first update the current time
+      commit(UPDATE_CURRENT_TIME);
 
-    // write the pick 
-    commit(PACK_TO_PICK, payload);
+      // auto-pick if we ran out of time  
+      if (getters.pick_time_expired) {
 
-    // have other players make their picks
-    aiPicks(commit, state, playerNumber);
+        // let the ai make the pick
+        let draft = getters.draft(playerNumber);
+        let card = set.pick(state.set_code, draft.piles[0], draft.pack);
 
-    // check whether the pack is completed
-    if (player.draft.pack.length === 0) {
+        // dispatch it and move on to the next pick
+        pickCard(commit, state, {
+          playerNumber: playerNumber,
+          card: card,
+          pile: draft.piles[0], 
+          insertBefore: null
+        });
+      }  
+  },
 
-      // if we still have packs to go then create the next pack
-      if (state.current_pack < 1)
-        nextPack(commit, state, playerNumber);
-      else {
-        // move picks to deck
-        commit(MOVE_PICKS_TO_DECK, { playerNumber });
-
-        // apply auto lands
-        commit(APPLY_AUTO_LANDS, { playerNumber });
-
-        // delay to allow UI state to update before starting
-        // completion-based animations
-        setTimeout(()=> { commit(SET_PICKS_COMPLETE); }, 100)
-      }
-
-    // pass the packs
-    } else {
-      commit(PASS_PACKS);
-    }
+  [PICK_CARD]({ commit, state }, pick) {
+    pickCard(commit, state, pick);
   },
 };
+
+
+function pickCard(commit, state, pick) {
+
+  // alias player
+  let playerNumber = pick.playerNumber;
+  let player = state.players[playerNumber];
+
+  // write the pick 
+  commit(PACK_TO_PICK, pick);
+
+  // have other players make their picks
+  aiPicks(commit, state, playerNumber);
+
+  // check whether the pack is completed
+  if (player.draft.pack.length === 0) {
+
+    // if we still have packs to go then create the next pack
+    if (state.current_pack < 1)
+      nextPack(commit, state, playerNumber);
+    else {
+      // move picks to deck
+      commit(MOVE_PICKS_TO_DECK, { playerNumber });
+
+      // apply auto lands
+      commit(APPLY_AUTO_LANDS, { playerNumber });
+
+      // delay to allow UI state to update before starting
+      // completion-based animations
+      setTimeout(()=> { commit(SET_PICKS_COMPLETE); }, 100)
+    }
+
+  // pass the packs
+  } else {
+    commit(PASS_PACKS);
+  }
+}
 
 function nextPack(commit, state, playerNumber) {
 
@@ -110,6 +147,8 @@ function aiPicks(commit, state, playerNumber) {
     }
   }
 }
+
+
 
 
 

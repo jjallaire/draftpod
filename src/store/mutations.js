@@ -1,4 +1,5 @@
-export const INITIALIZE = 'INITIALIZE'
+export const INITIALIZE_DRAFT = 'INITIALIZE_DRAFT'
+export const UPDATE_CURRENT_TIME = 'UPDATE_CURRENT_TIME'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
@@ -20,7 +21,7 @@ const local_images = true
 
 export const mutations = {
 
-  [INITIALIZE](state, { set_code, cardpool }) {
+  [INITIALIZE_DRAFT](state, { set_code, cardpool }) {
 
     // acquire initial state
     const s = utils.initialState();
@@ -36,15 +37,24 @@ export const mutations = {
     });
   },
 
+  [UPDATE_CURRENT_TIME](state) {
+    state.current_time = new Date();
+  },
+
   [OPEN_PACKS](state, packs) {
     
     // distribute packs
     for (let i=0; i<packs.length; i++)
       state.players[i].draft.pack = packs[i];
     
-    // update current pack/pick
+    // update current pack
     state.current_pack++;
-    state.current_pick = 1;
+
+    // reset picks to zero
+    state.current_pick = 0;
+
+    // move to next pick
+    nextPick(state);
   },
 
   [SET_CARD_PREVIEW](state, { playerNumber, card } ) {
@@ -110,11 +120,8 @@ export const mutations = {
       state.players[packs.length-1].draft.pack = packs[0];
     }
 
-    // increment pick
-    state.current_pick++;
-
-    // set pick time remaining
-    state.pick_time_remaining = 30;
+    // move to next pick
+    nextPick(state);
   },
 
   [MOVE_PICKS_TO_DECK](state, { playerNumber }) {
@@ -165,6 +172,11 @@ export const mutations = {
   },
 };
 
+
+function nextPick(state) {
+  state.current_pick++;
+  state.pick_end_time = new Date(new Date().getTime() + 1000 * 30);
+}
 
 function cardToDeckPile(c, deck) {
 
