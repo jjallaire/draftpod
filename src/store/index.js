@@ -24,16 +24,13 @@ const store = new Vuex.Store({
     current_pick: (state) => state.current_pick,
     pick_timer: (state) => state.pick_timer,
     pick_time_remaining: (state) => {
-      return Math.max(
-        Math.round((state.pick_end_time.getTime() - state.current_time.getTime()) / 1000),
-        0
-      );
+      return Math.round((state.pick_end_time.getTime() - state.current_time.getTime()) / 1000);
     },
     pick_time_expired: (state, getters) => {
       return state.pick_timer &&
              state.current_pack > 0 && 
              state.current_pick > 0 &&
-             getters.pick_time_remaining <= 0;
+             getters.pick_time_remaining < 0;
     },
     picks_complete: (state) => state.picks_complete,
     show_pick_analysis: (state) => state.show_pick_analysis,
