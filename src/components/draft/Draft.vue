@@ -25,20 +25,22 @@
     </ul> 
   </Navbar>
 
-  <div v-if="started" class="mtgdraft bg-secondary">
-      <div class="mtgdraft-cards">
-        <transition name="mtgpack-hide">
-          <Pack v-if="!picks_complete" :player="player"/>
-        </transition>
-        <Pick v-if="!picks_complete" :player="player"/>
-        <Deck v-else :player="player"/>
-      </div>
+  <transition name="mtgdraft-fade">
+    <div v-if="started" key="draft" class="mtgdraft bg-secondary">
+        <div class="mtgdraft-cards">
+          <transition name="mtgpack-hide">
+            <Pack v-if="!picks_complete" :player="player"/>
+          </transition>
+          <Pick v-if="!picks_complete" :player="player"/>
+          <Deck v-else :player="player"/>
+        </div>
 
-      <Infobar :player="player"/>
-  </div>
-  <div v-else class="container" style="margin-top: 70px;">
-    <button class="btn" @click="onStartDraft">Start Draft</button>
-  </div>
+        <Infobar :player="player"/>
+    </div>
+    <div v-else key="start-draft" class="container" style="margin-top: 70px;">
+      <button class="btn" @click="onStartDraft">Start Draft</button>
+    </div>
+  </transition>
 
   </div>
 </template>
@@ -156,6 +158,13 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.mtgdraft-fade-enter-active, .mtgdraft-fade-leave-active {
+  transition: opacity 1.5s;
+}
+.mtgdraft-fade-enter, .mtgdraft-fade-leave-to {
+  opacity: 0;
 }
 
 .mtgdraft-infobar {
