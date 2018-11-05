@@ -7,7 +7,7 @@ export function initialState() {
     current_pack: 0,
     current_pick: 0,
     current_time: new Date(),
-    pick_timer: true,
+    pick_timer: false,
     pick_end_time: new Date(),
     picks_complete: false,
     show_pick_analysis: false,
