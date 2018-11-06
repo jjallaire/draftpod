@@ -25,7 +25,7 @@ export default {
   props: {
     parent: {
       type: String,
-      required: true
+      default: null
     },
     show: {
       type: Boolean,

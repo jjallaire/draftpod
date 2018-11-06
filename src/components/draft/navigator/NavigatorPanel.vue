@@ -6,15 +6,15 @@
     <div class="card-header" :id="name + '-heading'">
       <h5 class="mb-0">
         <slot name="icon"></slot>
-        <button :class="'btn btn-link ' + (show ? '' : 'collapsed')" 
+        <button :class="'btn btn-link ' + (collapsed ? 'collapsed' : '')" 
                 data-toggle="collapse" :data-target="'#' + name" 
-                :aria-expanded="show ? 'true' : 'false'" :aria-controls="name">
+                :aria-expanded="collapsed ? 'false' : 'true'" :aria-controls="name">
           {{ caption }}
         </button>
       </h5>
     </div>
 
-    <div :id="name" :class="'collapse ' + (show ? 'show' : '')" :aria-labelledby="name + '-heading'" 
+    <div :id="name" :class="'collapse ' + (collapsed ? '' : 'show')" :aria-labelledby="name + '-heading'" 
           :data-parent="parent">
       <div class="card-body bg-light">
         <slot></slot>
@@ -46,6 +46,12 @@ export default {
       default: false
     },
   },
+
+  computed: {
+    collapsed: function() {
+      return this.parent && !this.show;
+    }
+  }
 
 }
 

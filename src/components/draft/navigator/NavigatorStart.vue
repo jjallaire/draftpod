@@ -68,7 +68,7 @@ export default {
     },
     parent: {
       type: String,
-      required: true
+      default: null
     },
     show: {
       type: Boolean,

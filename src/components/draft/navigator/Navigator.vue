@@ -3,10 +3,10 @@
 <template>
 <div class="container">
 
-<div id="navigator-accordion" class="mtgdraft-navigator">
-  <NavigatorResume parent="#navigator-accordion" :show="true" />
-  <NavigatorStart :player="player" parent="#navigator-accordion" />
-  <NavigatorPrevious parent="#navigator-accordion" />   
+<div class="mtgdraft-navigator">
+  <NavigatorResume  />
+  <NavigatorStart :player="player"  />
+  <NavigatorPrevious />   
 </div>
 
 </div>
@@ -38,6 +38,9 @@ export default {
 
 <style>
 
+.mtgdraft-navigator .navigator-panel {
+  margin-bottom: 20px;
+}
 
 .mtgdraft-navigator .btn {
   padding-left: 25px;
