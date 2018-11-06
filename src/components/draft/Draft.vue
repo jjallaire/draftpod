@@ -1,6 +1,6 @@
 <template>
   <div>
-  
+
   <Navbar> 
     <transition name="mtgdraft-fade">
       <span v-if="started" class="navbar-text">{{ set_name }} &mdash; 
