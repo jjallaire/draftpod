@@ -40,8 +40,8 @@
 
         <Infobar :player="player"/>
     </div>
-    <div v-else key="start-draft">
-      <Start :player="player" />
+    <div v-else key="draft-navigator">
+      <Navigator :player="player" />
     </div>
     </transition>
 
@@ -52,7 +52,7 @@
 <script>
 
 import Navbar from '../Navbar.vue'
-import Start from './start/Start.vue'
+import Navigator from './navigator/Navigator.vue'
 import Pack from './pack/Pack.vue';
 import Pick from './pick/Pick.vue';
 import PickTimer from './pick/PickTimer.vue'
@@ -88,7 +88,7 @@ export default {
   },
 
   components: {
-    Navbar, Start, Pack, PickTimer, Pick, Deck, Infobar, 
+    Navbar, Navigator, Pack, PickTimer, Pick, Deck, Infobar, 
     FullScreenIcon, FullScreenExitIcon, ExitToAppIcon
   },
 

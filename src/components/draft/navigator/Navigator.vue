@@ -3,9 +3,9 @@
 <template>
 <div class="container">
 
-<div id="draft-accordion">
+<div id="navigator-accordion">
 
-  <StartPanel name="resume-draft" caption="Resume Draft" parent="#draft-accordion" :show="true">
+  <NavigatorPanel name="resume-draft" caption="Resume Draft" parent="#navigator-accordion" :show="true">
     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
     richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
     brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, 
@@ -14,9 +14,9 @@
     sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat 
     craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
     heard of them accusamus labore sustainable VHS.
-  </StartPanel>
+  </NavigatorPanel>
 
-  <StartPanel name="new-draft" caption="Start New Draft" parent="#draft-accordion">
+  <NavigatorPanel name="new-draft" caption="Start New Draft" parent="#navigator-accordion">
     <form class="mtgdraft-start">
       <div class="form-group row">
         <label for="draft-set" class="col-sm-3 col-form-label">Set:</label>
@@ -58,9 +58,9 @@
         </div>
       </div>
     </form>
-  </StartPanel>
+  </NavigatorPanel>
 
-  <StartPanel name="previous-drafts" caption="Previous Drafts" parent="#draft-accordion">
+  <NavigatorPanel name="previous-drafts" caption="Previous Drafts" parent="#navigator-accordion">
     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
     richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
     brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, 
@@ -69,7 +69,7 @@
     sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat 
     craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
     heard of them accusamus labore sustainable VHS.
-  </StartPanel>
+  </NavigatorPanel>
 
 </div>
 
@@ -86,10 +86,10 @@ import { mapActions } from 'vuex'
 
 import { START_DRAFT } from '../../../store/actions';
 
-import StartPanel from './StartPanel.vue'
+import NavigatorPanel from './NavigatorPanel.vue'
 
 export default {
-  name: 'Start',
+  name: 'Navigator',
   props: {
     player: {
       type: Number,
@@ -106,7 +106,7 @@ export default {
   },
 
   components: {
-    StartPanel
+    NavigatorPanel
   },
 
   methods: {

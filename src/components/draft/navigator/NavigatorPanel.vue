@@ -2,7 +2,7 @@
 
 <template>
 
-<div class="start-panel card">
+<div class="navigator-panel card">
     <div class="card-header" :id="name + '-heading'">
       <h5 class="mb-0">
         <button :class="'btn btn-link ' + (show ? '' : 'collapsed')" 
@@ -26,7 +26,7 @@
 <script>
 
 export default {
-  name: 'StartPanel',
+  name: 'NavigatorPanel',
   props: {
     name: {
       type: String,
@@ -52,7 +52,7 @@ export default {
 
 <style>
 
-.start-panel {
+.navigator-panel {
 
 }
 
