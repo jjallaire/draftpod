@@ -36,7 +36,7 @@ export const mutations = {
   },
 
   [UPDATE_CURRENT_TIME](state) {
-    state.current_time = new Date();
+    state.current_time = new Date().getTime();
   },
 
   [OPEN_PACKS](state, packs) {
@@ -185,7 +185,7 @@ function nextPick(state) {
 
   // set end time
   let pick_seconds = 80 - (5 * state.current_pick);
-  state.pick_end_time = new Date(new Date().getTime() + 1000 * pick_seconds);
+  state.pick_end_time = new Date().getTime() + 1000 * pick_seconds;
 }
 
 function cardToDeckPile(c, deck) {

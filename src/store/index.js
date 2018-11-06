@@ -31,7 +31,7 @@ const store = new Vuex.Store({
     current_pick: (state) => state.current_pick,
     pick_timer: (state) => state.pick_timer,
     pick_time_remaining: (state) => {
-      return Math.round((state.pick_end_time.getTime() - state.current_time.getTime()) / 1000);
+      return Math.round((state.pick_end_time - state.current_time) / 1000);
     },
     pick_time_expired: (state, getters) => {
       return state.pick_timer &&
