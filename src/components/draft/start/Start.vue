@@ -29,7 +29,7 @@
     <div class="form-group row">
       <label for="draft-options" class="col-sm-3 col-form-label">Options:</label>
       <div id="draft-options" class="col-sm-9">
-        <input type="checkbox" class="form-check-input" id="draft-timer">
+        <input type="checkbox" class="form-check-input" id="draft-timer"  v-model="pick_timer">
         <label class="form-check-label" for="draft-timer">Apply time limit to picks</label>
       </div>
     </div>
@@ -60,7 +60,8 @@ export default {
 
   data: function() {
     return {
-      set: 'grn'
+      set: 'grn',
+      pick_timer: true
     }
   },
 
@@ -69,7 +70,11 @@ export default {
       startDraft: START_DRAFT,
     }),
     onStartDraft: function() {
-      this.startDraft({ playerNumber: this.player, set_code: this.set });
+      this.startDraft({ 
+        playerNumber: this.player, 
+        set_code: this.set,
+        pick_timer: this.pick_timer,
+      });
     },
   }
 

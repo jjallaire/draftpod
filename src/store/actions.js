@@ -31,7 +31,7 @@ export default {
 
   },
 
-  [START_DRAFT]( { commit, state }, {playerNumber, set_code} ) {
+  [START_DRAFT]( { commit, state }, {playerNumber, set_code, pick_timer} ) {
 
     // download cardpool
     axios.get('sets/' + set_code + '/cards.json')
@@ -40,7 +40,8 @@ export default {
         // initialize
         commit(ENTER_DRAFT, {
           set_code: set_code,
-          cardpool: response.data
+          cardpool: response.data,
+          pick_timer: pick_timer,
         });
 
         // distribute next pack
