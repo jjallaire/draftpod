@@ -1,6 +1,7 @@
 
 import Vue from 'vue'
 import Vuex from 'vuex'
+import VuexPersist from 'vuex-persist'
 
 import actions from './actions'
 import { mutations } from './mutations'
@@ -8,13 +9,19 @@ import * as set from './set/'
 import * as utils from './utils'
 import * as filters from './card-filters'
 
+const debug = process.env.NODE_ENV !== 'production'
+
 Vue.use(Vuex)
 
-const debug = process.env.NODE_ENV !== 'production'
+const vuexPersist = new VuexPersist({
+  key: 'my-app',
+  storage: window.localStorage
+});
 
 
 const store = new Vuex.Store({
   state: utils.initialState(),
+  plugins: [vuexPersist.plugin],
   getters: {
     started: (state) => state.current_pack > 0,
     set_code: (state) => state.set_code,
