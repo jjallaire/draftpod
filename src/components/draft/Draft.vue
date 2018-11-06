@@ -43,7 +43,8 @@
     <div v-else key="start-draft" class="container" style="margin-top: 70px;">
       <Start :player="player" />
     </div>
-  </transition>
+    </transition>
+
 
   </div>
 </template>
