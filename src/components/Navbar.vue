@@ -1,7 +1,9 @@
 <template>
 <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
 
-  <span class="navbar-brand">MTG Drafter</span>
+  <span class="navbar-brand">
+    <router-link to="/" exact>MTG Drafter</router-link>
+  </span>
   
   <slot></slot>
 
@@ -45,6 +47,11 @@ export default {
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0.3rem;
+}
+
+.navbar .navbar-brand a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 .navbar .navbar-text {
