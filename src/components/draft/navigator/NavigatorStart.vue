@@ -42,7 +42,7 @@
     <br/>
     <div class="form-group row">
       <div class="col-sm-10">
-        <button type="button" class="btn btn-success" @click="onStartDraft">Begin Draft &#xbb;</button>
+        <button type="button" class="btn btn-success" @click="onStartDraft">Start Draft &#xbb;</button>
       </div>
     </div>
   </form>

@@ -162,7 +162,7 @@ export default {
 }
 
 .mtgdraft-fade-enter-active, .mtgdraft-fade-leave-active {
-  transition: opacity 1s;
+  transition: opacity 0.7s;
 }
 .mtgdraft-fade-enter, .mtgdraft-fade-leave-to {
   opacity: 0;
