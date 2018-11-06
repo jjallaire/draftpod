@@ -2,7 +2,7 @@
 
 <template>
 
-<div class="mtgdraft-pick card bg-light">
+<div class="mtgdraft-pick card bg-white">
  
   <div class="card-header tabs-header">
     <ul class="nav" role="tablist">

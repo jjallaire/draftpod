@@ -28,7 +28,7 @@ export default {
     },
     background: {
       type: String,
-      default: 'light'
+      default: 'white'
     }
   }
 }
