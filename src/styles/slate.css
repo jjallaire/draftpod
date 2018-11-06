@@ -22,3 +22,14 @@ h1, h2, h3, h4, h5, h6 {
 .modal-dialog {
   color: #aaa;
 }
+
+
+.tabs-header .nav-link {
+  color: rgba(255,255,255,0.5);
+}
+
+.tabs-header .nav-link.active,
+.tabs-header .nav-link:hover {
+  color: #fff;
+}
+
