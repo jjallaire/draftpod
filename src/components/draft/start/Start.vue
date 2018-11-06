@@ -1,13 +1,13 @@
 
 
 <template>
-
-<div>
-  <h2>New Draft</h2>
+<div class="container">
+<div class="mtgdraft-start jumbotron bg-secondary text-white">
+  <h1>Start New Draft</h1>
   <br/>
   <form>
     <div class="form-group row">
-      <label for="draft-set" class="col-sm-3 col-form-label">Draft Set:</label>
+      <label for="draft-set" class="col-sm-3 col-form-label">Set:</label>
       <div class="col-sm-9">
         <select id="draft-set" class="form-control" v-model="set">
           <option value="grn">Guilds of Ravnica</option>
@@ -29,16 +29,25 @@
     <div class="form-group row">
       <label for="draft-options" class="col-sm-3 col-form-label">Options:</label>
       <div id="draft-options" class="col-sm-9">
-        <input type="checkbox" class="form-check-input" id="draft-timer"  v-model="pick_timer">
-        <label class="form-check-label" for="draft-timer">Apply time limit to picks</label>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="draft-timer"  v-model="pick_timer">
+          <label class="form-check-label" for="draft-timer">Apply pick time limit</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="draft-analysis"  v-model="pick_analysis">
+          <label class="form-check-label" for="draft-analysis">Provide pick analysis</label>
+        </div>
       </div>
     </div>
     <br/>
-    <button type="button" class="btn btn-success" @click="onStartDraft">Begin Draft</button>
-
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="button" class="btn btn-success" @click="onStartDraft">Begin Draft &#xbb;</button>
+      </div>
+    </div>
   </form>
 </div>
-
+</div>
 
 </template>
 
@@ -61,7 +70,8 @@ export default {
   data: function() {
     return {
       set: 'grn',
-      pick_timer: true
+      pick_timer: true,
+      pick_analysis: true
     }
   },
 
@@ -74,6 +84,7 @@ export default {
         playerNumber: this.player, 
         set_code: this.set,
         pick_timer: this.pick_timer,
+        pick_analysis: this.pick_analysis,
       });
     },
   }
@@ -85,9 +96,18 @@ export default {
 
 <style>
 
-#draft-options {
-  padding-left: 35px;
-  padding-top: 13px;
+.mtgdraft-start {
+  border: 0;
+}
+
+.mtgdraft-start .btn {
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 0;
+}
+
+.mtgdraft-start .form-check {
+  margin-top: 10px;
 }
 
 </style>

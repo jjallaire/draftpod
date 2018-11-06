@@ -40,7 +40,7 @@
 
         <Infobar :player="player"/>
     </div>
-    <div v-else key="start-draft" class="container" style="margin-top: 70px;">
+    <div v-else key="start-draft">
       <Start :player="player" />
     </div>
     </transition>

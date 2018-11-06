@@ -5,6 +5,10 @@ body {
   color: darkslategray;
 }
 
+.container {
+  padding-top: 70px;
+}
+
 @media (min-width: 1200px) {
 .container {
     max-width: 960px;

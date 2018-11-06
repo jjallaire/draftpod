@@ -23,12 +23,13 @@ const local_images = true
 
 export const mutations = {
 
-  [ENTER_DRAFT](state, { set_code, cardpool, pick_timer }) {
+  [ENTER_DRAFT](state, { set_code, cardpool, pick_timer, pick_analysis }) {
   
     // set cardpool and packs
     state.set_code = set_code;
     state.cardpool = cardpool;
     state.pick_timer = pick_timer;
+    state.show_pick_analysis = pick_analysis;
     state.all_packs = [...Array(24)].map(function() {
       return booster(state.set_code, state.cardpool);
     });

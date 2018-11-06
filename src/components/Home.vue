@@ -4,7 +4,7 @@
   
 <Navbar />
   
-<div class="container container-home">
+<div class="container">
 
 <div class="jumbotron">
   <h1 class="display-3">Hello, world!</h1>
@@ -38,9 +38,6 @@ export default {
 
 <style>
 
-.container-home {
-  padding-top: 70px;
-}
 
 </style>
 
