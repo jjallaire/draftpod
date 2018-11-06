@@ -3,6 +3,8 @@
 <template>
 
 <NavigatorPanel name="previous-drafts" caption="Previous Drafts" :parent="parent" :show="show">
+  <template slot="icon"><HistoryIcon /></template>
+
   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
   richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
   brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, 
@@ -19,6 +21,8 @@
 
 import NavigatorPanel from './NavigatorPanel.vue'
 
+import HistoryIcon from "vue-material-design-icons/History.vue"
+
 export default {
   name: 'NavigatorPrevious',
 
@@ -34,7 +38,7 @@ export default {
   },
 
   components: {
-    NavigatorPanel
+    NavigatorPanel, HistoryIcon
   }
 
 }

@@ -3,6 +3,7 @@
 <template>
 
 <NavigatorPanel name="resume-draft" caption="Resume Draft" :parent="parent" :show="show">
+    <template slot="icon"><SkipNextIcon/></template>
     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
     richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
     brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, 
@@ -19,6 +20,8 @@
 
 import NavigatorPanel from './NavigatorPanel.vue'
 
+import SkipNextIcon from "vue-material-design-icons/SkipNext.vue"
+
 export default {
   name: 'NavigatorResume',
 
@@ -34,7 +37,7 @@ export default {
   },
 
   components: {
-    NavigatorPanel
+    NavigatorPanel, SkipNextIcon
   }
 
 }

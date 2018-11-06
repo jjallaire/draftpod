@@ -5,6 +5,7 @@
 <template>
 
 <NavigatorPanel name="new-draft" caption="Start New Draft" :parent="parent" :show="show">
+  <template slot="icon"><PlayCircleIcon/></template>
   <form class="mtgdraft-navigator-start-draft">
     <div class="form-group row">
       <label for="draft-set" class="col-sm-3 col-form-label">Set:</label>
@@ -58,6 +59,8 @@ import { START_DRAFT } from '../../../store/actions';
 
 import NavigatorPanel from './NavigatorPanel.vue'
 
+import PlayCircleIcon from "vue-material-design-icons/PlayCircleOutline.vue"
+
 export default {
   name: 'NavigatorStart',
 
@@ -85,7 +88,7 @@ export default {
   },
 
   components: {
-    NavigatorPanel
+    NavigatorPanel, PlayCircleIcon
   },
 
   methods: {

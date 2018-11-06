@@ -63,17 +63,25 @@ export default {
   border: 0;
 }
 
+
 .navigator-panel .card-header {
   padding: 0;
   border: 1px solid #fff;
 }
 
+.navigator-panel .card-header .material-design-icon {
+  color: #fff;
+  width: 20px;
+  padding-left: 0.4rem;
+}
+
 .navigator-panel .card-header h5 button {
   font-size: 0.9rem;
-  width: 100%;
+  width: 80%;
   text-align: left;
   text-decoration: none;
   padding: 0.5rem;
+  padding-left: 0.4rem;
   color: #fff;
 }
 
