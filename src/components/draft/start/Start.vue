@@ -9,10 +9,10 @@
     <div class="form-group row">
       <label for="draft-set" class="col-sm-3 col-form-label">Draft Set:</label>
       <div class="col-sm-9">
-        <select id="draft-set" class="form-control">
-          <option>Guilds of Ravnica</option>
-          <option>Core Set 2019</option>
-          <option>Dominaria</option>
+        <select id="draft-set" class="form-control" v-model="set">
+          <option value="grn">Guilds of Ravnica</option>
+          <option value="m19">Core Set 2019</option>
+          <option value="dom">Dominaria</option>
         </select>
       </div>
     </div>
@@ -58,12 +58,18 @@ export default {
     }
   },
 
+  data: function() {
+    return {
+      set: 'grn'
+    }
+  },
+
   methods: {
     ...mapActions({
       startDraft: START_DRAFT,
     }),
     onStartDraft: function() {
-      this.startDraft({ playerNumber: this.player, set_code: 'grn' });
+      this.startDraft({ playerNumber: this.player, set_code: this.set });
     },
   }
 
