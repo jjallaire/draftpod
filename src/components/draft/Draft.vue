@@ -39,7 +39,7 @@
           <Deck v-else :player_id="player_id"/>
         </div>
 
-        <Infobar :player_id="player_id"/>
+        <Infobar :cards="infobar_cards"/>
     </div>
     <div v-else key="draft-navigator">
       <Navigator :player_id="player_id" />
@@ -115,7 +115,15 @@ export default {
       'pick_timer',
       'pick_time_remaining',
       'draft',
+      'deck'
     ]),
+    
+    infobar_cards: function() {
+      let draft = this.draft(this.player_id);
+      let deck = this.deck(this.player_id);
+      let piles = this.picks_complete ? deck.piles : draft.piles;
+      return piles.slice(0, 7).flat();
+    }
   },
 
   methods: {

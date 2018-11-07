@@ -31,8 +31,8 @@ export default {
   name: 'Infobar',
 
   props: {
-    player_id: {
-      type: Number,
+    cards: {
+      type: Array,
       required: true
     }
   },
@@ -43,17 +43,8 @@ export default {
 
   computed: {
     ...mapGetters([
-      'draft',
-      'deck',
-      'picks_complete',
       'card_preview'
     ]),
-    cards: function() {
-      let draft = this.draft(this.player_id);
-      let deck = this.deck(this.player_id);
-      let piles = this.picks_complete ? deck.piles : draft.piles;
-      return piles.slice(0, 7).flat();
-    },
     preview_image: function() {
       let card = this.card_preview;
       if (card)

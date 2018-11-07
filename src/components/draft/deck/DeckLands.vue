@@ -18,7 +18,7 @@
 
 <script>
 
-import { mapGetters, mapMutations } from 'vuex'
+import { mapMutations } from 'vuex'
 
 import { DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '../../../store/mutations'
 
@@ -43,45 +43,37 @@ export default {
 
   computed: {
 
-    auto_lands: function() {
-      return this.deck.auto_lands;
-    },
-
-    basic_lands: function() {
-      return this.deck.basic_lands;
-    },
-
     colors: function() {
       let colors = [
         {
           color: "W",
           name: "Plains",
           img: "images/mana-white.svg",
-          count: this.basic_lands.W,
+          count: this.deck.basic_lands.W,
         },
         {
           color: "B",
           name: "Swamp",
           img: "images/mana-black.svg",
-          count: this.basic_lands.B,
+          count: this.deck.basic_lands.B,
         },
         {
           color: "U",
           name: "Island",
           img: "images/mana-blue.svg",
-          count: this.basic_lands.U,
+          count: this.deck.basic_lands.U,
         },
         {
           color: "R",
           name: "Mountain",
           img: "images/mana-red.svg",
-          count: this.basic_lands.R,
+          count: this.deck.basic_lands.R,
         },
         {
           color: "G",
           name: "Forest",
           img: "images/mana-green.svg",
-          count: this.basic_lands.G,
+          count: this.deck.basic_lands.G,
         },
       ];
 
@@ -113,7 +105,7 @@ export default {
       };
 
       // if we are in auto-lands then prompt
-      if (this.auto_lands) {
+      if (this.deck.auto_lands) {
         
         messagebox.confirm(
           "<p>Editing the number of lands will disable auto-lands " + 
@@ -132,7 +124,7 @@ export default {
           },
           () => {
             // revert to previous value
-            event.target.value = this.basic_lands[color];
+            event.target.value = this.deck.basic_lands[color];
           });
        
       } else {
@@ -146,10 +138,10 @@ export default {
     handleLandBlur: function(color, event) {
       // if we aren't in auto-land mode then losing focus with an empty
       // field resets to the previously entered value
-      if (!this.auto_lands) {
+      if (!this.deck.auto_lands) {
         let lands = parseInt(event.target.value);
         if (isNaN(lands))
-          event.target.value = this.basic_lands[color];
+          event.target.value = this.deck.basic_lands[color];
       }
       
     }
