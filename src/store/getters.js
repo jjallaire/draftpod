@@ -1,0 +1,43 @@
+
+import * as set from './set/'
+import * as filters from './card-filters'
+import * as utils from './utils'
+
+export default {
+  started: (state) => state.current_pack > 0,
+  set_code: (state) => state.set_code,
+  set_name: (state) => set.name(state.set_code),
+  cardpool: (state) => state.cardpool,
+  current_pack: (state) => state.current_pack,
+  current_pick: (state) => state.current_pick,
+  pick_timer: (state) => state.pick_timer,
+  pick_time_remaining: (state) => {
+    return Math.round((state.pick_end_time - state.current_time) / 1000);
+  },
+  pick_time_expired: (state, getters) => {
+    return state.pick_timer &&
+           !getters.picks_complete &&
+           state.current_pack > 0 && 
+           state.current_pick > 0 &&
+           getters.pick_time_remaining < 0;
+  },
+  picks_complete: (state) => state.picks_complete,
+  show_pick_analysis: (state) => state.show_pick_analysis,
+  draft: (state) => (player) => state.players[player].draft,
+  deck: (state) => (player) => state.players[player].deck,
+  deck_cards: (state) => (player) => state.players[player].deck.piles.slice(0, 6).flat(),
+  deck_land_count: (state) => (player) => {
+    let deck = state.players[player].deck;
+    let basic_lands = deck.basic_lands;
+    return deck.piles[6].length + utils.sumValues(basic_lands);
+  },
+  deck_list: (state) => (player) => utils.deckList(state.players[player].deck),
+  card_types: () => (cards) => {
+    return {
+      creatures: cards.filter(filters.creature).length,
+      other: cards.filter((card) => !filters.creature(card) && !filters.land(card)).length,
+      lands: cards.filter(filters.land).length
+    }
+  },
+  card_preview: (state) => (player) => state.players[player].card_preview,
+}
