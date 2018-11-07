@@ -1,9 +1,9 @@
 <template>
   <div class="mtgdraft-pick-list">
-    <Pile :draft_id="draft_id" :player="player" v-for="number in 7" 
+    <Pile :player="player" v-for="number in 7" 
           :key="number-1" :piles="piles" :number="number-1"></Pile>
     <div class="mtgpile mtgpile-separator"></div>
-    <Pile caption="Sideboard" :draft_id="draft_id" :player="player" 
+    <Pile caption="Sideboard"  :player="player" 
           :key="7" :piles="piles" :number="7"></Pile>
   </div>
 </template>
@@ -17,10 +17,6 @@ export default {
   name: 'PickList',
 
   props: {
-    draft_id: {
-      type: String,
-      required: true
-    },
     player: {
       type: Number,
       required: true

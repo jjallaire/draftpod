@@ -3,7 +3,7 @@
 
 <div class="mtgdraft-infobar">
   
-  <PreviewImage :preview_image="preview_image" />
+  <PreviewImage :player="player" />
   
   <Panel caption="Cards" panel_class="mtgdraft-deckstats"> 
     <ManaLegend :cards="cards" />
@@ -31,10 +31,6 @@ export default {
   name: 'Infobar',
 
   props: {
-    draft_id: {
-      type: String,
-      required: true
-    },
     player: {
       type: Number,
       required: true
@@ -49,21 +45,13 @@ export default {
     ...mapGetters([
       'draft',
       'deck',
-      'picks_complete',
-      'card_preview'
+      'picks_complete'
     ]),
     cards: function() {
       let draft = this.draft(this.player);
       let deck = this.deck(this.player);
       let piles = this.picks_complete ? deck.piles : draft.piles;
       return piles.slice(0, 7).flat();
-    },
-    preview_image: function() {
-      let card = this.card_preview(this.player);
-      if (card)
-        return card.image;
-      else
-        return "images/card-back.png";
     },
   }
 }

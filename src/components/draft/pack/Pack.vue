@@ -3,10 +3,10 @@
 <template>
 
   <Panel panel_class="mtgdraft-pack" background="secondary">
-    <Card v-for="card in pack" :key="card.key" 
-            :draft_id="draft_id" :player="player" :card="card" :drag_source="drag_source">
+    <Card v-for="card in draft(player).pack" :key="card.key" 
+            :player="player" :card="card" :drag_source="drag_source">
     </Card>
-    <span v-for="n in (16 - pack.length)" :key="n" 
+    <span v-for="n in (16 - draft(player).pack.length)" :key="n" 
           class="mtgcard mtgcard-empty" draggable="false">
       <img src="images/card-empty.png" />
     </span>
@@ -18,25 +18,21 @@
 <script>
 import Card from '../core/Card.vue';
 import Panel from '../core/Panel.vue';
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'Pack',
   props: {
-    draft_id: {
-      type: String,
-      required: true
-    },
     player: {
       type: Number,
-      required: true
-    },
-    pack: {
-      type: Array,
       required: true
     }
   },
   computed: {
     drag_source: () => "DRAG_SOURCE_PACK",
+    ...mapGetters([
+      'draft',
+    ]),
   },
   components: {
     Card, Panel

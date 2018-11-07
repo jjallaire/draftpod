@@ -7,7 +7,7 @@
         <span v-if="picks_complete">Deck Construction</span>
         <span v-else>
           Pack {{ current_pack }}, Pick {{ current_pick }}
-          <PickTimer v-if="pick_timer" :pick_time_remaining="pick_time_remaining" />
+          <PickTimer v-if="pick_timer" :player="player" />
         </span>
       </span> 
     </transition>
@@ -32,14 +32,13 @@
     <div v-if="started" key="draft" class="mtgdraft bg-secondary">
         <div class="mtgdraft-cards">
           <transition name="mtgpack-hide">
-            <Pack v-if="!picks_complete" 
-                  :draft_id="draft_id" :player="player" :pack="draft(this.player).pack"/>
+            <Pack v-if="!picks_complete" :player="player"/>
           </transition>
-          <Pick v-if="!picks_complete" :draft_id="draft_id" :player="player"/>
-          <Deck v-else :draft_id="draft_id" :player="player"/>
+          <Pick v-if="!picks_complete" :player="player"/>
+          <Deck v-else :player="player"/>
         </div>
 
-        <Infobar :draft_id="draft_id" :player="player"/>
+        <Infobar :player="player"/>
     </div>
     <div v-else key="draft-navigator">
       <Navigator :player="player" />
@@ -78,10 +77,6 @@ export default {
   name: 'Draft',
 
   props: {
-    draft_id: {
-      type: String,
-      default: "339CA951-9C5A-441E-A7DC-A2738A563965"
-    },
     player: {
       type: Number,
       default: 0
@@ -116,9 +111,7 @@ export default {
       'picks_complete',
       'current_pack',
       'current_pick',
-      'pick_timer',
-      'pick_time_remaining',
-      'draft',
+      'pick_timer'
     ]),
   },
 
@@ -152,7 +145,7 @@ export default {
   height: 40px;
 }
 
-.navbar .mtgdraft-pick-timer {
+.navbar .mtgdraft-pack-timer {
   padding: 0.3rem;
   font-size: 0.9rem;
   font-weight: 400;

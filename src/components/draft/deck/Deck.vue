@@ -12,20 +12,20 @@
       <DeckCopy :player="player" />
       <DeckDownload :player="player" />
     </template>
-    <Pile :draft_id="draft_id" :player="player" v-for="number in 5" 
+    <Pile :player="player" v-for="number in 5" 
           :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
           drag_source="DRAG_SOURCE_DECK">
     </Pile>
-    <Pile :draft_id="draft_id" :player="player" :key="5" caption="6+" :piles="piles" :number="5" 
+    <Pile :player="player" :key="5" caption="6+" :piles="piles" :number="5" 
           drag_source="DRAG_SOURCE_DECK">
     </Pile>
-    <Pile :draft_id="draft_id" :player="player" :key="6" :caption="'Lands (' + deck_land_count(this.player) + ')'"
+    <Pile :player="player" :key="6" :caption="'Lands (' + deck_land_count(this.player) + ')'"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
       <DeckLands slot="controls" :player="player">
       </DeckLands>
     </Pile>
     <div class="mtgpile mtgpile-separator"></div>
-    <Pile :draft_id="draft_id" :player="player" :key="7" caption="Sideboard" :piles="piles" :number="7" 
+    <Pile :player="player" :key="7" caption="Sideboard" :piles="piles" :number="7" 
           drag_source="DRAG_SOURCE_SIDEBOARD">
     </Pile>
   </Panel>
@@ -45,10 +45,6 @@ export default {
   name: 'Deck',
 
   props: {
-    draft_id: {
-      type: String,
-      required: true
-    },
     player: {
       type: Number,
       required: true
