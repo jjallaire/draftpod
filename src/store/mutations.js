@@ -25,13 +25,12 @@ export default {
 
   [ENTER_DRAFT](state, { set_code, cardpool, pick_timer, pick_analysis }) {
   
-    // set cardpool and packs
+    // generate packs
     state.set_code = set_code;
-    state.cardpool = cardpool;
     state.pick_timer = pick_timer;
     state.show_pick_analysis = pick_analysis;
     state.all_packs = [...Array(24)].map(function() {
-      return booster(state.set_code, state.cardpool);
+      return booster(state.set_code, cardpool);
     });
   },
 
@@ -139,7 +138,7 @@ export default {
     deck.piles.forEach((pile) => pile.sort(orderCards));
   },
 
-  [SET_PICKS_COMPLETE](state, { playerNumber }) {
+  [SET_PICKS_COMPLETE](state) {
     // set picks complete flag
     state.picks_complete = true;
   },

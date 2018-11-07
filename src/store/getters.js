@@ -7,7 +7,6 @@ export default {
   started: (state) => state.current_pack > 0,
   set_code: (state) => state.set_code,
   set_name: (state) => set.name(state.set_code),
-  cardpool: (state) => state.cardpool,
   current_pack: (state) => state.current_pack,
   current_pick: (state) => state.current_pick,
   pick_timer: (state) => state.pick_timer,

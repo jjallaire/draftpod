@@ -2,7 +2,6 @@
 export function initialState() {
   return {
     set_code: null,
-    cardpool: [],
     all_packs: [],
     current_pack: 0,
     current_pick: 0,
