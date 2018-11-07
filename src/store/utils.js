@@ -30,12 +30,7 @@ export function initialState() {
         },
         card_preview: null
       }
-    }),
-    history: {
-      /*
-      id: {date, set_code, deck}
-      */
-    }
+    })
   }
 }
 
