@@ -29,6 +29,10 @@ export default {
   name: 'DeckLands',
 
   props: {
+    draft_id: {
+      type: String,
+      required: true
+    },
     player_id: {
       type: Number,
       required: true,

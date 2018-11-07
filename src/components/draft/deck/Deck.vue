@@ -9,8 +9,8 @@
       </div>
     </template>
     <template slot="header-right">
-      <DeckCopy :player_id="player_id" />
-      <DeckDownload :player_id="player_id" />
+      <DeckCopy :deck_list="deck_list(player_id)" />
+      <DeckDownload :deck_list="deck_list(player_id)" />
     </template>
     <Pile :draft_id="draft_id" :player_id="player_id" v-for="number in 5" 
           :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
@@ -21,7 +21,7 @@
     </Pile>
     <Pile :draft_id="draft_id" :player_id="player_id" :key="6" :caption="'Lands (' + deck_land_count(this.player_id) + ')'"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
-      <DeckLands slot="controls" :player_id="player_id">
+      <DeckLands slot="controls" :draft_id="draft_id" :player_id="player_id">
       </DeckLands>
     </Pile>
     <div class="mtgpile mtgpile-separator"></div>
@@ -60,7 +60,8 @@ export default {
       'deck',
       'deck_cards',
       'deck_land_count',
-      'card_types'
+      'card_types',
+      'deck_list'
     ]),
     piles: function() {
       return this.deck(this.player_id).piles;

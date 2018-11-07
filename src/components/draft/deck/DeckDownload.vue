@@ -9,8 +9,6 @@
 
 <script>
 
-import { mapGetters } from 'vuex';
-
 import DownloadIcon from "vue-material-design-icons/FileDownloadOutline.vue"
 
 import saveAs from 'file-saver';
@@ -20,16 +18,10 @@ export default {
   name: 'DeckDownload',
 
   props: {
-    player_id: {
-      type: Number,
+    deck_list: {
+      type: String,
       required: true
     }
-  },
-
-  computed: {
-    ...mapGetters([
-      'deck_list'
-    ]),
   },
 
   components: {
@@ -38,8 +30,7 @@ export default {
 
   methods: {
     onDownloadDeck(event) {
-      let deck_list = this.deck_list(this.player_id);
-      let blob = new Blob([deck_list], { type: "text/plain;charset=utf-8" });
+      let blob = new Blob([this.deck_list], { type: "text/plain;charset=utf-8" });
       saveAs(blob, "decklist.txt");
       event.target.blur();
     }

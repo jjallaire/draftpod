@@ -2,7 +2,7 @@
 
 <button id="copy-deck-to-clipboard"
     class="btn btn-sm btn-secondary text-light" 
-    v-clipboard="deck_list(this.player_id)"
+    v-clipboard="deck_list"
     v-clipboard:success="onClipboardSuccess"
     data-toggle="tooltip"  data-placement="top">
   <ClipboardIcon/> Copy <span class="btn-extra-text">Decklist</span>
@@ -18,25 +18,17 @@ Vue.use(Clipboard)
 
 import ClipboardIcon from "vue-material-design-icons/ClipboardOutline.vue"
 
-import { mapGetters } from 'vuex';
-
 import jquery from 'jquery'
 
 export default {
 
   name: 'DeckCopy',
 
- props: {
-    player_id: {
-      type: Number,
+  props: {
+    deck_list: {
+      type: String,
       required: true
     }
-  },
-
-  computed: {
-    ...mapGetters([
-      'deck_list'
-    ]),
   },
 
   components: {
