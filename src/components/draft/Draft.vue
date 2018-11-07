@@ -36,7 +36,7 @@
                  :player_id="player_id" :pack="draft(this.player_id).pack"/>
           </transition>
           <Pick v-if="!picks_complete" :player_id="player_id"/>
-          <Deck v-else :player_id="player_id"/>
+          <Deck v-else :deck="deck(this.player_id)"/>
         </div>
 
         <Infobar :cards="infobar_cards"/>

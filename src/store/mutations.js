@@ -142,8 +142,7 @@ export default {
     state.picks_complete = true;
   },
 
-  [APPLY_AUTO_LANDS](state, { player_id }) {
-    let deck = state.players[player_id].deck;
+  [APPLY_AUTO_LANDS](state, { deck }) {
     deck.basic_lands = computeAutoLands(deck);
   },
 

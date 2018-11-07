@@ -10,7 +10,7 @@
     {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>
   </div>
   <Card v-for="(card, index) in pile" :key="card.key"
-        :player_id="player_id" :card="card" :drag_source="drag_source"
+        :card="card" :drag_source="drag_source"
         :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
   </Card>
   <div class="mtgpile-controls" 
@@ -26,7 +26,6 @@
 
 <script>
 
-import { mapGetters } from 'vuex'
 import { mapActions } from 'vuex'
 import { mapMutations } from 'vuex'
 import { Drop } from 'vue-drag-drop'
@@ -40,7 +39,11 @@ export default {
   props: {
     player_id: {
       type: Number,
-      required: true
+      default: null
+    },
+    deck: {
+      type: Object,
+      default: null
     },
     piles: {
       type: Array,
@@ -67,13 +70,7 @@ export default {
     },
   },
   computed: {
-    ...mapGetters([
-      'deck',
-    ]),
     pile: function() { return this.piles[this.number]},
-    auto_lands: function() {
-      return this.deck(this.player_id).auto_lands;
-    }
   },
   data: function() {
     return {
@@ -131,38 +128,42 @@ export default {
       // check for insert location
       let insertLoc = cardInsertLocation(data, event);
       
-      // payload for event
-      let payload = { 
-        player_id: this.player_id,
-        deck: this.deck(this.player_id),
-        card: data.card, 
-        pile: this.pile, 
-        piles: this.piles,
-        insertBefore: insertLoc.insertBefore
-      };
 
-      // fire event
-      if (data.drag_source === "DRAG_SOURCE_PACK")
-        this.pickCard(payload);
-      else if (data.drag_source === "DRAG_SOURCE_PILE")
-        this.pileToPile(payload);
-      else if (data.drag_source === "DRAG_SOURCE_DECK")
-        this.pileToPile(payload);
+      // event: pack to pick
+      if (data.drag_source === "DRAG_SOURCE_PACK") {
+        this.pickCard({
+          player_id: this.player_id,
+          card: data.card, 
+          pile: this.pile, 
+          insertBefore: insertLoc.insertBefore
+        });
+      }
+
+      // event: garden variety pile to pile
+      else if (data.drag_source === "DRAG_SOURCE_PILE" ||
+               data.drag_source === "DRAG_SOURCE_DECK" ||
+               (data.drag_source === "DRAG_SOURCE_SIDEBOARD" && 
+                this.drag_source === "DRAG_SOURCE_SIDEBOARD")) {
+        this.pileToPile({
+          card: data.card,
+          pile: this.pile,
+          piles: this.piles,
+          insertBefore: insertLoc.insertBefore
+        });
+      }
+
+      // event: sideboard to deck
       else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD") {
-        if (this.drag_source === "DRAG_SOURCE_SIDEBOARD")
-          this.pileToPile(payload);
-        else {
-          this.sideboardToDeck({
-            card: data.card,
-            deck: this.deck(this.player_id)
-          });
-        }
+        this.sideboardToDeck({
+          card: data.card,
+          deck: this.deck
+        });
       }
 
       // apply auto lands if this was a deck building action
-      if (this.auto_lands && 
-          (data.drag_source === "DRAG_SOURCE_DECK" || data.drag_source === "DRAG_SOURCE_SIDEBOARD")) {
-        this.applyAutoLands({ player_id: this.player_id });
+      if ((data.drag_source === "DRAG_SOURCE_DECK" || data.drag_source === "DRAG_SOURCE_SIDEBOARD") &&
+           this.deck.auto_lands) {
+        this.applyAutoLands({ deck: this.deck });
       }
     },
     ...mapActions({

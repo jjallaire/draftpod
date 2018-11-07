@@ -5,27 +5,27 @@
       <div class="card-type-counts">
       Creatures: {{ deck_card_types.creatures }} &nbsp;
       Other: {{ deck_card_types.other }} &nbsp;
-      Lands: {{ deck_land_count(this.player_id) }}
+      Lands: {{ deck_land_count( deck) }}
       </div>
     </template>
     <template slot="header-right">
-      <DeckCopy :deck_list="deck_list(player_id)" />
-      <DeckDownload :deck_list="deck_list(player_id)" />
+      <DeckCopy :deck_list="deck_list(deck)" />
+      <DeckDownload :deck_list="deck_list(deck)" />
     </template>
-    <Pile :player_id="player_id" v-for="number in 5" 
+    <Pile :deck="deck" v-for="number in 5" 
           :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
           drag_source="DRAG_SOURCE_DECK">
     </Pile>
-    <Pile :player_id="player_id" :key="5" caption="6+" :piles="piles" :number="5" 
+    <Pile :deck="deck" :key="5" caption="6+" :piles="piles" :number="5" 
           drag_source="DRAG_SOURCE_DECK">
     </Pile>
-    <Pile :player_id="player_id" :key="6" :caption="'Lands (' + deck_land_count(this.player_id) + ')'"
+    <Pile :deck="deck" :key="6" :caption="'Lands (' + deck_land_count(deck) + ')'"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
-      <DeckLands slot="controls" :deck="deck(player_id)">
+      <DeckLands slot="controls" :deck="deck">
       </DeckLands>
     </Pile>
     <div class="mtgpile mtgpile-separator"></div>
-    <Pile :player_id="player_id" :key="7" caption="Sideboard" :piles="piles" :number="7" 
+    <Pile :deck="deck" :key="7" caption="Sideboard" :piles="piles" :number="7" 
           drag_source="DRAG_SOURCE_SIDEBOARD">
     </Pile>
   </Panel>
@@ -45,29 +45,28 @@ export default {
   name: 'Deck',
 
   props: {
-    player_id: {
-      type: Number,
+    deck: {
+      type: Object,
       required: true
     }
   },
 
   computed: {
     ...mapGetters([
-      'deck',
       'deck_cards',
       'deck_land_count',
       'card_types',
       'deck_list'
     ]),
     piles: function() {
-      return this.deck(this.player_id).piles;
+      return this.deck.piles;
     },
     deck_total_cards: function() {
-      return this.deck_cards(this.player_id).length + 
-             this.deck_land_count(this.player_id);
+      return this.deck_cards(this.deck).length + 
+             this.deck_land_count(this.deck);
     },
     deck_card_types: function() {
-      let cards = this.deck_cards(this.player_id);
+      let cards = this.deck_cards(this.deck);
       return this.card_types(cards);
     }
   },

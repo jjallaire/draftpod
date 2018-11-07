@@ -25,13 +25,14 @@ export default {
   card_preview: (state) => state.card_preview,
   draft: (state) => (player) => state.players[player].draft,
   deck: (state) => (player) => state.players[player].deck,
-  deck_cards: (state) => (player) => state.players[player].deck.piles.slice(0, 6).flat(),
-  deck_land_count: (state) => (player) => {
-    let deck = state.players[player].deck;
+  
+  deck_cards: () => (deck) => deck.piles.slice(0, 6).flat(),
+  deck_land_count: () => (deck) => {
     let basic_lands = deck.basic_lands;
     return deck.piles[6].length + utils.sumValues(basic_lands);
   },
-  deck_list: (state) => (player) => deckList(state.players[player].deck),
+  deck_list: () => (deck) => deckList(deck),
+  
   card_types: () => (cards) => {
     return {
       creatures: cards.filter(filters.creature).length,
