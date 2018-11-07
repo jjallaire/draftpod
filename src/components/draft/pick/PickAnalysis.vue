@@ -12,6 +12,10 @@ export default {
   name: 'PickAnalysis',
 
   props: {
+    draft_id: {
+      type: String,
+      required: true
+    },
     player: {
       type: Number,
       required: true

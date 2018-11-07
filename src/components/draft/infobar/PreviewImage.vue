@@ -9,30 +9,15 @@
 
 <script>
 
-import { mapGetters } from 'vuex';
-
 export default {
   name: 'PreviewImage',
 
   props: {
-    player: {
-      type: Number,
+    preview_image: {
+      type: String,
       required: true
     }
   },
-
-  computed: {
-    ...mapGetters([
-      'card_preview',
-    ]),
-    preview_image: function() {
-      let card = this.card_preview(this.player);
-      if (card)
-        return card.image;
-      else
-        return "images/card-back.png";
-    },
-  }
 }
 
 </script>

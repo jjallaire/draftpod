@@ -20,6 +20,10 @@ import { SET_CARD_PREVIEW } from '../../../store/mutations';
 export default {
   name: 'Card',
   props: {
+    draft_id: {
+      type: String,
+      required: true
+    },
     player: {
       type: Number,
       required: true
