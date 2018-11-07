@@ -19,7 +19,7 @@ const vuexPersist = new VuexPersist({
 
 
 const store = new Vuex.Store({
-  state: utils.initialState(),
+  state: utils.initialState,
   plugins: [vuexPersist.plugin],
   getters,
   actions,
