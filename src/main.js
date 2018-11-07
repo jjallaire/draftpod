@@ -10,6 +10,11 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+// TODO: card_preview provided via events / event bus? 
+// (would allow us to avoid passing draft/player to card)
+
+// TODO: player_id rather than player
+
 new Vue({
   router,
   store,

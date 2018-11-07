@@ -23,10 +23,10 @@
 
   <div class="card-body tab-content">
     <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
-      <PickList :player="player" />
+      <PickList :draft_id="draft_id" :player="player" />
     </div>
     <div v-if="show_pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
-      <PickAnalysis :player="player" />
+      <PickAnalysis :draft_id="draft_id" :player="player" />
     </div>
 </div>
 </div>
@@ -44,6 +44,10 @@ import { mapGetters } from 'vuex'
 export default {
   name: 'Pick',
   props: {
+    draft_id: {
+      type: String,
+      required: true
+    },
     player: {
       type: Number,
       required: true
