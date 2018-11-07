@@ -21,7 +21,7 @@ import * as utils from './utils'
 
 const local_images = true
 
-export const mutations = {
+export default {
 
   [ENTER_DRAFT](state, { set_code, cardpool, pick_timer, pick_analysis }) {
   

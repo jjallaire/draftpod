@@ -4,7 +4,7 @@ import Vuex from 'vuex'
 import VuexPersist from 'vuex-persist'
 
 import actions from './actions'
-import { mutations } from './mutations'
+import mutations from './mutations'
 import getters from './getters'
 import * as utils from './utils'
 
