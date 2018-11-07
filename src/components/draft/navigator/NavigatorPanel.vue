@@ -7,7 +7,7 @@
       <h5 class="mb-0">
         <slot name="icon"></slot>
         <button :class="'btn btn-link ' + (collapsed ? 'collapsed' : '')" 
-                data-toggle="collapse" :data-target="'#' + name" 
+                :data-toggle="parent ? collapse : null" :data-target="'#' + name" 
                 :aria-expanded="collapsed ? 'false' : 'true'" :aria-controls="name">
           {{ caption }}
         </button>
@@ -77,7 +77,6 @@ export default {
 
 .navigator-panel .card-header h5 button {
   font-size: 0.9rem;
-  width: 80%;
   text-align: left;
   text-decoration: none;
   padding: 0.5rem;
