@@ -55,7 +55,7 @@ export default {
       return piles.slice(0, 7).flat();
     },
     preview_image: function() {
-      let card = this.card_preview(this.player_id);
+      let card = this.card_preview;
       if (card)
         return card.image;
       else

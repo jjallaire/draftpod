@@ -20,10 +20,6 @@ import { SET_CARD_PREVIEW } from '../../../store/mutations';
 export default {
   name: 'Card',
   props: {
-    player_id: {
-      type: Number,
-      required: true
-    },
     card: Object,
     drag_source: {
       type: String,
@@ -36,7 +32,6 @@ export default {
   methods: {
     onMouseOver() {
       this.set_card_preview({ 
-        player_id: this.player_id, 
         card: this.card 
       });
     },

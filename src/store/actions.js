@@ -128,7 +128,6 @@ function nextPack(commit, state, player_id) {
 
   // set the current preview to the first card in the pack
   commit(SET_CARD_PREVIEW, {
-    player_id: player_id,
     card: state.players[player_id].draft.pack[0],
   });
 

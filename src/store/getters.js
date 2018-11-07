@@ -22,6 +22,7 @@ export default {
   },
   picks_complete: (state) => state.picks_complete,
   show_pick_analysis: (state) => state.show_pick_analysis,
+  card_preview: (state) => state.card_preview,
   draft: (state) => (player) => state.players[player].draft,
   deck: (state) => (player) => state.players[player].deck,
   deck_cards: (state) => (player) => state.players[player].deck.piles.slice(0, 6).flat(),
@@ -38,7 +39,6 @@ export default {
       lands: cards.filter(filters.land).length
     }
   },
-  card_preview: (state) => (player) => state.players[player].card_preview,
 }
 
 function deckList(deck) {

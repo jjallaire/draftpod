@@ -54,9 +54,8 @@ export default {
     nextPick(state);
   },
 
-  [SET_CARD_PREVIEW](state, { player_id, card } ) {
-    let player = state.players[player_id];
-    player.card_preview = card;
+  [SET_CARD_PREVIEW](state, { card } ) {
+    state.card_preview = card;
   },
 
   [PACK_TO_PICK](state, { player_id, card, pile, insertBefore }) {
