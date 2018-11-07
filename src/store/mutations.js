@@ -139,8 +139,19 @@ export default {
     deck.piles.forEach((pile) => pile.sort(orderCards));
   },
 
-  [SET_PICKS_COMPLETE](state) {
+  [SET_PICKS_COMPLETE](state, { playerNumber }) {
+    
+    // set picks complete flag
     state.picks_complete = true;
+
+    // record draft in history
+    let id = uuidv4();
+    state.history[id] = {
+      date: new Date().getTime(),
+      set_code: state.set_code,
+      deck: state.players[playerNumber].deck
+    }
+
   },
 
   [APPLY_AUTO_LANDS](state, { playerNumber }) {

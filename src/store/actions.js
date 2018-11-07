@@ -107,7 +107,7 @@ function pickCard(commit, state, pick) {
 
       // delay to allow UI state to update before starting
       // completion-based animations
-      setTimeout(()=> { commit(SET_PICKS_COMPLETE); }, 100)
+      setTimeout(()=> { commit(SET_PICKS_COMPLETE, { playerNumber }); }, 100)
     }
 
   // pass the packs
