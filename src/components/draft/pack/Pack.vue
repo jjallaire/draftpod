@@ -4,7 +4,7 @@
 
   <Panel panel_class="mtgdraft-pack" background="secondary">
     <Card v-for="card in pack" :key="card.key" 
-            :draft_id="draft_id" :player="player" :card="card" :drag_source="drag_source">
+            :draft_id="draft_id" :player_id="player_id" :card="card" :drag_source="drag_source">
     </Card>
     <span v-for="n in (16 - pack.length)" :key="n" 
           class="mtgcard mtgcard-empty" draggable="false">
@@ -26,7 +26,7 @@ export default {
       type: String,
       required: true
     },
-    player: {
+    player_id: {
       type: Number,
       required: true
     },

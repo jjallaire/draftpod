@@ -14,7 +14,7 @@ import {
   SET_CARD_PREVIEW
 } from './mutations';
 
-import * as set from './set/'
+import * as set from '../../set/'
 
 export const INITIALIZE_STORE = 'INITIALIZE_STORE'
 export const START_DRAFT = 'START_DRAFT'

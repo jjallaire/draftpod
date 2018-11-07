@@ -20,7 +20,7 @@ export default {
   name: 'DeckDownload',
 
   props: {
-    player: {
+    player_id: {
       type: Number,
       required: true
     }
@@ -38,7 +38,7 @@ export default {
 
   methods: {
     onDownloadDeck(event) {
-      let deck_list = this.deck_list(this.player);
+      let deck_list = this.deck_list(this.player_id);
       let blob = new Blob([deck_list], { type: "text/plain;charset=utf-8" });
       saveAs(blob, "decklist.txt");
       event.target.blur();

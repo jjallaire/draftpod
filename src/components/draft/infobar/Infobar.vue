@@ -35,7 +35,7 @@ export default {
       type: String,
       required: true
     },
-    player: {
+    player_id: {
       type: Number,
       required: true
     }
@@ -53,13 +53,13 @@ export default {
       'card_preview'
     ]),
     cards: function() {
-      let draft = this.draft(this.player);
-      let deck = this.deck(this.player);
+      let draft = this.draft(this.player_id);
+      let deck = this.deck(this.player_id);
       let piles = this.picks_complete ? deck.piles : draft.piles;
       return piles.slice(0, 7).flat();
     },
     preview_image: function() {
-      let card = this.card_preview(this.player);
+      let card = this.card_preview(this.player_id);
       if (card)
         return card.image;
       else

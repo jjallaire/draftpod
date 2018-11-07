@@ -24,7 +24,7 @@ export default {
       type: String,
       required: true
     },
-    player: {
+    player_id: {
       type: Number,
       required: true
     },
@@ -40,7 +40,7 @@ export default {
   methods: {
     onMouseOver() {
       this.set_card_preview({ 
-        playerNumber: this.player, 
+        player_id: this.player_id, 
         card: this.card 
       });
     },

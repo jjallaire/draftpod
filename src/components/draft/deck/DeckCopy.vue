@@ -2,7 +2,7 @@
 
 <button id="copy-deck-to-clipboard"
     class="btn btn-sm btn-secondary text-light" 
-    v-clipboard="deck_list(this.player)"
+    v-clipboard="deck_list(this.player_id)"
     v-clipboard:success="onClipboardSuccess"
     data-toggle="tooltip"  data-placement="top">
   <ClipboardIcon/> Copy <span class="btn-extra-text">Decklist</span>
@@ -27,7 +27,7 @@ export default {
   name: 'DeckCopy',
 
  props: {
-    player: {
+    player_id: {
       type: Number,
       required: true
     }

@@ -33,16 +33,16 @@
         <div class="mtgdraft-cards">
           <transition name="mtgpack-hide">
             <Pack v-if="!picks_complete" 
-                  :draft_id="draft_id" :player="player" :pack="draft(this.player).pack"/>
+                  :draft_id="draft_id" :player_id="player_id" :pack="draft(this.player_id).pack"/>
           </transition>
-          <Pick v-if="!picks_complete" :draft_id="draft_id" :player="player"/>
-          <Deck v-else :draft_id="draft_id" :player="player"/>
+          <Pick v-if="!picks_complete" :draft_id="draft_id" :player_id="player_id"/>
+          <Deck v-else :draft_id="draft_id" :player_id="player_id"/>
         </div>
 
-        <Infobar :draft_id="draft_id" :player="player"/>
+        <Infobar :draft_id="draft_id" :player_id="player_id"/>
     </div>
     <div v-else key="draft-navigator">
-      <Navigator :player="player" />
+      <Navigator :player_id="player_id" />
     </div>
     </transition>
 
@@ -82,7 +82,7 @@ export default {
       type: String,
       default: "339CA951-9C5A-441E-A7DC-A2738A563965"
     },
-    player: {
+    player_id: {
       type: Number,
       default: 0
     }
@@ -99,7 +99,7 @@ export default {
 
   created() {
     // one time store initialization
-    this.initializeStore({ playerNumber: this.player });
+    this.initializeStore({ player_id: this.player_id });
 
     // update fullscreen state on change
     let vm = this;

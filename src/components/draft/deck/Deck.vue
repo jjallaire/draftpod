@@ -5,27 +5,27 @@
       <div class="card-type-counts">
       Creatures: {{ deck_card_types.creatures }} &nbsp;
       Other: {{ deck_card_types.other }} &nbsp;
-      Lands: {{ deck_land_count(this.player) }}
+      Lands: {{ deck_land_count(this.player_id) }}
       </div>
     </template>
     <template slot="header-right">
-      <DeckCopy :player="player" />
-      <DeckDownload :player="player" />
+      <DeckCopy :player_id="player_id" />
+      <DeckDownload :player_id="player_id" />
     </template>
-    <Pile :draft_id="draft_id" :player="player" v-for="number in 5" 
+    <Pile :draft_id="draft_id" :player_id="player_id" v-for="number in 5" 
           :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
           drag_source="DRAG_SOURCE_DECK">
     </Pile>
-    <Pile :draft_id="draft_id" :player="player" :key="5" caption="6+" :piles="piles" :number="5" 
+    <Pile :draft_id="draft_id" :player_id="player_id" :key="5" caption="6+" :piles="piles" :number="5" 
           drag_source="DRAG_SOURCE_DECK">
     </Pile>
-    <Pile :draft_id="draft_id" :player="player" :key="6" :caption="'Lands (' + deck_land_count(this.player) + ')'"
+    <Pile :draft_id="draft_id" :player_id="player_id" :key="6" :caption="'Lands (' + deck_land_count(this.player_id) + ')'"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
-      <DeckLands slot="controls" :player="player">
+      <DeckLands slot="controls" :player_id="player_id">
       </DeckLands>
     </Pile>
     <div class="mtgpile mtgpile-separator"></div>
-    <Pile :draft_id="draft_id" :player="player" :key="7" caption="Sideboard" :piles="piles" :number="7" 
+    <Pile :draft_id="draft_id" :player_id="player_id" :key="7" caption="Sideboard" :piles="piles" :number="7" 
           drag_source="DRAG_SOURCE_SIDEBOARD">
     </Pile>
   </Panel>
@@ -49,7 +49,7 @@ export default {
       type: String,
       required: true
     },
-    player: {
+    player_id: {
       type: Number,
       required: true
     }
@@ -63,14 +63,14 @@ export default {
       'card_types'
     ]),
     piles: function() {
-      return this.deck(this.player).piles;
+      return this.deck(this.player_id).piles;
     },
     deck_total_cards: function() {
-      return this.deck_cards(this.player).length + 
-             this.deck_land_count(this.player);
+      return this.deck_cards(this.player_id).length + 
+             this.deck_land_count(this.player_id);
     },
     deck_card_types: function() {
-      let cards = this.deck_cards(this.player);
+      let cards = this.deck_cards(this.player_id);
       return this.card_types(cards);
     }
   },

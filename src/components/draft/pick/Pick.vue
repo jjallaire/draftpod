@@ -23,10 +23,10 @@
 
   <div class="card-body tab-content">
     <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
-      <PickList :draft_id="draft_id" :player="player" />
+      <PickList :draft_id="draft_id" :player_id="player_id" />
     </div>
     <div v-if="show_pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
-      <PickAnalysis :draft_id="draft_id" :player="player" />
+      <PickAnalysis :draft_id="draft_id" :player_id="player_id" />
     </div>
 </div>
 </div>
@@ -48,7 +48,7 @@ export default {
       type: String,
       required: true
     },
-    player: {
+    player_id: {
       type: Number,
       required: true
     },

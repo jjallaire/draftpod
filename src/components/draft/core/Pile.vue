@@ -10,7 +10,7 @@
     {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>
   </div>
   <Card v-for="(card, index) in pile" :key="card.key"
-        :draft_id="draft_id" :player="player" :card="card" :drag_source="drag_source"
+        :draft_id="draft_id" :player_id="player_id" :card="card" :drag_source="drag_source"
         :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
   </Card>
   <div class="mtgpile-controls" 
@@ -42,7 +42,7 @@ export default {
       type: String,
       required: true
     },
-    player: {
+    player_id: {
       type: Number,
       required: true
     },
@@ -76,7 +76,7 @@ export default {
     ]),
     pile: function() { return this.piles[this.number]},
     auto_lands: function() {
-      return this.deck(this.player).auto_lands;
+      return this.deck(this.player_id).auto_lands;
     }
   },
   data: function() {
@@ -137,7 +137,7 @@ export default {
       
       // payload for event
       let payload = { 
-        playerNumber: this.player,
+        player_id: this.player_id,
         card: data.card, 
         pile: this.pile, 
         piles: this.piles,
@@ -162,7 +162,7 @@ export default {
       // apply auto lands if this was a deck building action
       if (this.auto_lands && 
           (data.drag_source === "DRAG_SOURCE_DECK" || data.drag_source === "DRAG_SOURCE_SIDEBOARD")) {
-        this.applyAutoLands({ playerNumber: this.player });
+        this.applyAutoLands({ player_id: this.player_id });
       }
     },
     ...mapActions({

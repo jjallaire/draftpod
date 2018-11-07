@@ -65,7 +65,7 @@ export default {
   name: 'NavigatorStart',
 
   props: {
-    player: {
+    player_id: {
       type: Number,
       required: true
     },
@@ -97,7 +97,7 @@ export default {
     }),
     onStartDraft: function() {
       this.startDraft({ 
-        playerNumber: this.player, 
+        player_id: this.player_id, 
         set_code: this.set,
         pick_timer: this.pick_timer,
         pick_analysis: this.pick_analysis,

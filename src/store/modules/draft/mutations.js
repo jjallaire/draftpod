@@ -15,9 +15,9 @@ export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 export const EXIT_DRAFT = 'EXIT_DRAFT'
 
 import uuidv4 from 'uuid'
-import * as set from './set/'
-import * as filters from './card-filters'
-import * as utils from './utils'
+import * as set from '../../set/'
+import * as filters from '../../card-filters'
+import * as utils from '../../utils'
 
 const local_images = true
 

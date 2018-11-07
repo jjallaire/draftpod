@@ -1,9 +1,9 @@
 <template>
   <div class="mtgdraft-pick-list">
-    <Pile :draft_id="draft_id" :player="player" v-for="number in 7" 
+    <Pile :draft_id="draft_id" :player_id="player_id" v-for="number in 7" 
           :key="number-1" :piles="piles" :number="number-1"></Pile>
     <div class="mtgpile mtgpile-separator"></div>
-    <Pile caption="Sideboard" :draft_id="draft_id" :player="player" 
+    <Pile caption="Sideboard" :draft_id="draft_id" :player_id="player_id" 
           :key="7" :piles="piles" :number="7"></Pile>
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {
       type: String,
       required: true
     },
-    player: {
+    player_id: {
       type: Number,
       required: true
     }
@@ -32,7 +32,7 @@ export default {
       'draft',
     ]),
     piles: function() {
-      return this.draft(this.player).piles;
+      return this.draft(this.player_id).piles;
     }
   },
 
