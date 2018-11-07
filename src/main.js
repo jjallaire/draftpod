@@ -17,6 +17,8 @@ import store from './store'
 
 // TODO: cleanup Pile (code too intermingled)
 
+// TODO: unhandled exception when running out of time?
+
 Vue.config.productionTip = false
 
 new Vue({
