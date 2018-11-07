@@ -74,7 +74,7 @@ import fscreen from 'fscreen'
 import * as messagebox from '../core/messagebox.js'
 
 export default {
-  name: 'App',
+  name: 'Draft',
 
   props: {
     player: {
