@@ -14,12 +14,12 @@
     <transition name="mtgdraft-fade">
       <ul v-if="started" class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link">
+          <a class="nav-link icon-link">
             <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">
+          <a class="nav-link icon-link">
             <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="onFullscreenToggle"/>
             <FullScreenIcon v-else title="Fullscreen" @click.native="onFullscreenToggle"/>
           </a>

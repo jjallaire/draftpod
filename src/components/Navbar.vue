@@ -42,6 +42,11 @@ export default {
   padding-bottom: 0.5rem;
 }
 
+.navbar .nav-link.icon-link {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
 .navbar .navbar-brand {
   font-size: 1rem;
   font-weight: 400;

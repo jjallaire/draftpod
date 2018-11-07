@@ -94,4 +94,8 @@ export default {
   color: #fff;
 }
 
+.navigator-panel .card-body button {
+  min-width: 140px;
+}
+
 </style>
