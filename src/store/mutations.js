@@ -147,19 +147,16 @@ export default {
     deck.basic_lands = computeAutoLands(deck);
   },
 
-  [DISABLE_AUTO_LANDS](state, { player_id }) {
-    let deck = state.players[player_id].deck;
+  [DISABLE_AUTO_LANDS](state, { deck }) {
     deck.auto_lands = false;
   },
 
-  [SET_BASIC_LANDS](state, { color, lands, player_id }) {
-    let deck = state.players[player_id].deck;
+  [SET_BASIC_LANDS](state, { color, lands, deck }) {
     deck.basic_lands[color] = lands;
   },
 
-  [SIDEBOARD_TO_DECK](state, { card, player_id }) {
+  [SIDEBOARD_TO_DECK](state, { card, deck }) {
     // remove from sideboard
-    let deck = state.players[player_id].deck;
     let sideboard = deck.piles[7];
     sideboard.splice(sideboard.indexOf(card), 1);
 

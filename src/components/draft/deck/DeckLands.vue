@@ -29,8 +29,8 @@ export default {
   name: 'DeckLands',
 
   props: {
-    player_id: {
-      type: Number,
+    deck: {
+      type: Object,
       required: true,
     }
   },
@@ -43,16 +43,12 @@ export default {
 
   computed: {
 
-    ...mapGetters([
-      'deck',
-    ]),
-
     auto_lands: function() {
-      return this.deck(this.player_id).auto_lands;
+      return this.deck.auto_lands;
     },
 
     basic_lands: function() {
-      return this.deck(this.player_id).basic_lands;
+      return this.deck.basic_lands;
     },
 
     colors: function() {
@@ -113,7 +109,7 @@ export default {
       const applyInput = () => {
         let lands = parseInt(event.target.value);
         if (!isNaN(lands))
-          this.setBasicLands({color, lands, player_id: this.player_id});
+          this.setBasicLands({color, lands, deck: this.deck });
       };
 
       // if we are in auto-lands then prompt
@@ -125,7 +121,7 @@ export default {
           "Do you want to disable auto-lands?", 
           () => {
             // disable auto-lands
-            this.disableAutoLands({ player_id: this.player_id});
+            this.disableAutoLands({ deck: this.deck });
 
             // fix the current color order so colors don't jump around
             // during manual editing

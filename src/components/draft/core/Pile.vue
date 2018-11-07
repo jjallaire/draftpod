@@ -134,6 +134,7 @@ export default {
       // payload for event
       let payload = { 
         player_id: this.player_id,
+        deck: this.deck(this.player_id),
         card: data.card, 
         pile: this.pile, 
         piles: this.piles,
@@ -151,7 +152,10 @@ export default {
         if (this.drag_source === "DRAG_SOURCE_SIDEBOARD")
           this.pileToPile(payload);
         else {
-          this.sideboardToDeck(payload);
+          this.sideboardToDeck({
+            card: data.card,
+            deck: this.deck(this.player_id)
+          });
         }
       }
 

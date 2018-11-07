@@ -21,7 +21,7 @@
     </Pile>
     <Pile :player_id="player_id" :key="6" :caption="'Lands (' + deck_land_count(this.player_id) + ')'"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
-      <DeckLands slot="controls" :player_id="player_id">
+      <DeckLands slot="controls" :deck="deck(player_id)">
       </DeckLands>
     </Pile>
     <div class="mtgpile mtgpile-separator"></div>

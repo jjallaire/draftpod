@@ -8,6 +8,9 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
+// TODO: color_order should be stored with the deck in DeckLands 
+// (currently doesn't survive reload)
+
 Vue.config.productionTip = false
 
 new Vue({
