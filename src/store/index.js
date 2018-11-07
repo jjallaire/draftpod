@@ -13,7 +13,7 @@ const debug = process.env.NODE_ENV !== 'production'
 Vue.use(Vuex)
 
 const vuexPersist = new VuexPersist({
-  key: 'my-app',
+  key: 'mtgdrafter',
   storage: window.localStorage
 });
 
@@ -31,7 +31,7 @@ export default store;
 
 if (module.hot) {
   // accept actions and mutations as hot modules
-  module.hot.accept(['./mutations', './actions'], () => {
+  module.hot.accept(['./mutations', './actions', './getters'], () => {
     // require the updated modules
     // have to add .default here due to babel 6 module output
     const newMutations = require('./mutations').default
