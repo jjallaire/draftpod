@@ -10,7 +10,7 @@
     {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>
   </div>
   <Card v-for="(card, index) in pile" :key="card.key"
-        :draft_id="draft_id" :player_id="player_id" :card="card" :drag_source="drag_source"
+        :player_id="player_id" :card="card" :drag_source="drag_source"
         :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
   </Card>
   <div class="mtgpile-controls" 
@@ -38,10 +38,6 @@ import Card from './Card.vue'
 
 export default {
   props: {
-    draft_id: {
-      type: String,
-      required: true
-    },
     player_id: {
       type: Number,
       required: true
