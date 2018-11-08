@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import Card from '../core/Card.vue';
-import Panel from '../core/Panel.vue';
+import Card from '@/components/draft/core/Card.vue';
+import Panel from '@/components/draft/core/Panel.vue';
 
 export default {
   name: 'Pack',

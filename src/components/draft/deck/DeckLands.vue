@@ -20,9 +20,9 @@
 
 import { mapMutations } from 'vuex'
 
-import { DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '../../../store/mutations'
+import { DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/mutations'
 
-import * as messagebox from '../../core/messagebox.js'
+import * as messagebox from '@/components/core/messagebox.js'
 
 export default {
 

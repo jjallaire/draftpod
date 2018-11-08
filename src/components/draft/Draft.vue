@@ -52,7 +52,7 @@
 
 <script>
 
-import Navbar from '../Navbar.vue'
+import Navbar from '@/components/Navbar.vue'
 import Navigator from './navigator/Navigator.vue'
 import Pack from './pack/Pack.vue';
 import Pick from './pick/Pick.vue';
@@ -60,8 +60,8 @@ import PickTimer from './pick/PickTimer.vue'
 import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
-import { INITIALIZE_STORE } from '../../store/actions';
-import { EXIT_DRAFT } from '../../store/mutations';
+import { INITIALIZE_STORE } from '@/store/actions';
+import { EXIT_DRAFT } from '@/store/mutations';
 
 import { mapActions } from 'vuex';
 import { mapMutations } from 'vuex';
@@ -72,7 +72,7 @@ import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
 import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
 
 import fscreen from 'fscreen'
-import * as messagebox from '../core/messagebox.js'
+import * as messagebox from '@/components/core/messagebox.js'
 
 export default {
   name: 'Draft',

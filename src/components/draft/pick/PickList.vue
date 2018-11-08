@@ -10,7 +10,7 @@
 
 <script>
 
-import Pile from '../core/Pile.vue'
+import Pile from '@/components/draft/core/Pile.vue'
 import { mapGetters } from 'vuex'
 
 export default {

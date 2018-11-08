@@ -15,7 +15,7 @@
 
 <script>
 
-import * as filters from '../../../store/card-filters'
+import * as filters from '@/store/card-filters'
 
 export default {
   name: 'ManaColors',

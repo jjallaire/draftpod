@@ -30,8 +30,8 @@ import { mapActions } from 'vuex'
 import { mapMutations } from 'vuex'
 import { Drop } from 'vue-drag-drop'
 
-import { PICK_CARD } from '../../../store/actions'
-import { PILE_TO_PILE, SIDEBOARD_TO_DECK, APPLY_AUTO_LANDS } from '../../../store/mutations'
+import { PICK_CARD } from '@/store/actions'
+import { PILE_TO_PILE, SIDEBOARD_TO_DECK, APPLY_AUTO_LANDS } from '@/store/mutations'
 
 import Card from './Card.vue'
 

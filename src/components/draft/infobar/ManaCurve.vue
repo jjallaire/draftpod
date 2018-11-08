@@ -10,7 +10,7 @@
 import Chartist from 'chartist'
 import "chartist/dist/chartist.min.css"
 
-import * as filters from '../../../store/card-filters'
+import * as filters from '@/store/card-filters'
 
 export default {
   name: 'ManaCurve',

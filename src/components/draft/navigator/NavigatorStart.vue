@@ -55,7 +55,7 @@
 
 import { mapActions } from 'vuex'
 
-import { START_DRAFT } from '../../../store/actions';
+import { START_DRAFT } from '@/store/actions';
 
 import NavigatorPanel from './NavigatorPanel.vue'
 
