@@ -13,9 +13,7 @@
 <script>
 
 import { Drag } from 'vue-drag-drop';
-
-import { mapMutations } from 'vuex';
-import { SET_CARD_PREVIEW } from '@/store/mutations';
+import { EventBus, Events } from '@/components/draft/eventbus.js'
 
 export default {
   name: 'Card',
@@ -31,9 +29,7 @@ export default {
   },
   methods: {
     onMouseOver() {
-      this.set_card_preview({ 
-        card: this.card 
-      });
+      EventBus.$emit(Events.ViewCard, this.card);
     },
     onDragStart(data, event) {
       // record offset of cursor to card image (used for determining
@@ -44,9 +40,6 @@ export default {
         y: event.clientY - cardRect.top
       };
     },
-    ...mapMutations({
-      set_card_preview: SET_CARD_PREVIEW
-    })
   }
 }
 </script>

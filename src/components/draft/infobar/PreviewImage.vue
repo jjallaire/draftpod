@@ -9,15 +9,21 @@
 
 <script>
 
+import { Events, EventBus } from '@/components/draft/eventbus.js'
+
 export default {
   name: 'PreviewImage',
 
-  props: {
-    preview_image: {
-      type: String,
-      required: true
+  data: function() {
+    return {
+      preview_image: "images/card-back.png",
     }
   },
+
+  created() {
+    let vm = this;
+    EventBus.$on(Events.ViewCard, card => vm.preview_image = card.image);
+  }
 }
 
 </script>

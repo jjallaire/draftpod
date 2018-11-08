@@ -10,7 +10,6 @@ export function initialState() {
     pick_end_time: new Date().getTime(),
     picks_complete: false,
     show_pick_analysis: false,
-    card_preview: null,
     players: [...Array(8)].map(function() {
       return {
         draft: {

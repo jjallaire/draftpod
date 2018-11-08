@@ -11,7 +11,6 @@ import {
   SET_PICKS_COMPLETE,
   MOVE_PICKS_TO_DECK,
   APPLY_AUTO_LANDS,
-  SET_CARD_PREVIEW
 } from './mutations';
 
 import * as set from './set/'
@@ -31,7 +30,7 @@ export default {
 
   },
 
-  [START_DRAFT]( { commit, state }, {player_id, set_code, pick_timer, pick_analysis} ) {
+  [START_DRAFT]( { commit, state }, {set_code, pick_timer, pick_analysis} ) {
 
     // download cardpool
     axios.get('sets/' + set_code + '/cards.json')
@@ -46,7 +45,7 @@ export default {
         });
 
         // distribute next pack
-        nextPack(commit, state, player_id);
+        nextPack(commit, state);
       });
 
 
@@ -98,7 +97,7 @@ function pickCard(commit, state, pick) {
 
     // if we still have packs to go then create the next pack
     if (state.current_pack < 1)
-      nextPack(commit, state, player_id);
+      nextPack(commit, state);
     else {
       // move picks to deck
       commit(MOVE_PICKS_TO_DECK, { player_id });
@@ -117,7 +116,7 @@ function pickCard(commit, state, pick) {
   }
 }
 
-function nextPack(commit, state, player_id) {
+function nextPack(commit, state) {
 
   // grab next set of packs
   let pack_begin = state.current_pack * 8;
@@ -126,12 +125,6 @@ function nextPack(commit, state, player_id) {
 
   // set them
   commit(OPEN_PACKS, packs);
-
-  // set the current preview to the first card in the pack
-  commit(SET_CARD_PREVIEW, {
-    card: state.players[player_id].draft.pack[0],
-  });
-
 }
 
 function aiPicks(commit, state, player_id) {

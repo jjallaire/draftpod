@@ -2,7 +2,6 @@
 export const ENTER_DRAFT = 'ENTER_DRAFT'
 export const UPDATE_CURRENT_TIME = 'UPDATE_CURRENT_TIME'
 export const OPEN_PACKS = 'OPEN_PACKS'
-export const SET_CARD_PREVIEW = 'SET_CARD_PREVIEW'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const PILE_TO_PILE = 'PILE_TO_PILE'
 export const PASS_PACKS = 'PASS_PACKS'
@@ -52,10 +51,6 @@ export default {
 
     // move to next pick
     nextPick(state);
-  },
-
-  [SET_CARD_PREVIEW](state, { card } ) {
-    state.card_preview = card;
   },
 
   [PACK_TO_PICK](state, { player_id, card, pile, insertBefore }) {

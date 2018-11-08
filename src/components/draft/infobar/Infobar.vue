@@ -3,7 +3,7 @@
 
 <div class="mtgdraft-infobar">
   
-  <PreviewImage :preview_image="preview_image" />
+  <PreviewImage  />
   
   <Panel caption="Cards" panel_class="mtgdraft-deckstats"> 
     <ManaLegend :cards="cards" />
