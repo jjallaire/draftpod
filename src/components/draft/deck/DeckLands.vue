@@ -20,9 +20,11 @@
 
 import { mapMutations } from 'vuex'
 
-import { DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/mutations'
+import { DISABLE_AUTO_LANDS } from '@/store/mutations'
 
 import * as messagebox from '@/components/core/messagebox.js'
+
+import { Events, EventBus } from '@/components/draft/eventbus.js'
 
 export default {
 
@@ -92,7 +94,6 @@ export default {
     
     ...mapMutations({
       disableAutoLands: DISABLE_AUTO_LANDS,
-      setBasicLands: SET_BASIC_LANDS,  
     }),
 
     handleLandInput: function(color, event) {
@@ -101,7 +102,7 @@ export default {
       const applyInput = () => {
         let lands = parseInt(event.target.value);
         if (!isNaN(lands))
-          this.setBasicLands({color, lands, deck: this.deck });
+          EventBus.$emit(Events.LandsChanged, {color, lands});
       };
 
       // if we are in auto-lands then prompt

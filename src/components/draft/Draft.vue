@@ -61,7 +61,7 @@ import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
 import { INITIALIZE_STORE } from '@/store/actions';
-import { EXIT_DRAFT } from '@/store/mutations';
+import { SET_BASIC_LANDS, EXIT_DRAFT } from '@/store/mutations';
 
 import { mapGetters, mapState, mapActions, mapMutations } from 'vuex';
 
@@ -71,6 +71,7 @@ import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
 
 import fscreen from 'fscreen'
 import * as messagebox from '@/components/core/messagebox.js'
+import { Events, EventBus } from './eventbus'
 
 export default {
   name: 'Draft',
@@ -92,14 +93,21 @@ export default {
   },
 
   created() {
+    // alias vue model for callbacks
+    let vm = this;
+
     // one time store initialization
     this.initializeStore({ player_id: this.player_id });
 
     // update fullscreen state on change
-    let vm = this;
     fscreen.onfullscreenchange = function() {
       vm.fullscreen = fscreen.fullscreenElement !== null;
     };
+
+    // forward land mutations w/ player id
+    EventBus.$on(Events.LandsChanged, function(data) {
+      vm.setBasicLands({player_id: vm.player_id, ...data});
+    });
   },
 
   computed: {
@@ -131,6 +139,7 @@ export default {
       initializeStore: INITIALIZE_STORE,
     }),
     ...mapMutations({
+      setBasicLands: SET_BASIC_LANDS,
       exitDraft: EXIT_DRAFT,
     }),
     onExitDraft: function() {
@@ -141,6 +150,10 @@ export default {
         fscreen.requestFullscreen(document.documentElement);
       else
         fscreen.exitFullscreen();
+    },
+
+    onLandsChanged: function({color, lands}) {
+      this.setBasicLands({player_id: this.player_id, color, lands});
     }
   }
 }

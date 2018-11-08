@@ -145,7 +145,8 @@ export default {
     deck.auto_lands = false;
   },
 
-  [SET_BASIC_LANDS](state, { color, lands, deck }) {
+  [SET_BASIC_LANDS](state, { player_id, color, lands }) {
+    let deck = state.players[player_id].deck;
     deck.basic_lands[color] = lands;
   },
 
