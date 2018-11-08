@@ -8,6 +8,13 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
+// TODO: event bus: https://alligator.io/vuejs/global-event-bus/
+// pass ids throughout components
+// pass object directly to mutations (as we do now)
+// emit events up to broker (either one hop at a time or via global event bus)
+
+// or some boilerplate like this: https://github.com/vuejs/vuex/issues/863#issuecomment-329510765
+
 // TODO: color_order should be stored with the deck in DeckLands 
 // (currently doesn't survive reload)
 
