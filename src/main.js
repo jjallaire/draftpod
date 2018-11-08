@@ -8,6 +8,8 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
+// TODO: update_current_time dominating vuex store
+
 // TODO: event bus: https://alligator.io/vuejs/global-event-bus/
 // TODO: https://medium.com/vuejobs/create-a-global-event-bus-in-vue-js-838a5d9ab03a
 // pass ids throughout components
