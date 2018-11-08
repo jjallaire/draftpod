@@ -63,9 +63,7 @@ import Deck from './deck/Deck.vue'
 import { INITIALIZE_STORE } from '@/store/actions';
 import { EXIT_DRAFT } from '@/store/mutations';
 
-import { mapActions } from 'vuex';
-import { mapMutations } from 'vuex';
-import { mapGetters } from 'vuex';
+import { mapGetters, mapState, mapActions, mapMutations } from 'vuex';
 
 import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
 import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
@@ -105,14 +103,16 @@ export default {
   },
 
   computed: {
-    ...mapGetters([
+    ...mapState([
       'set_code',
-      'set_name',
-      'started',
       'picks_complete',
+      'pick_timer',
       'current_pack',
       'current_pick',
-      'pick_timer',
+    ]),
+    ...mapGetters([
+      'set_name',
+      'started',
       'pick_time_remaining',
       'draft',
       'deck'

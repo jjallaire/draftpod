@@ -39,7 +39,7 @@
 import PickList from './PickList.vue'
 import PickAnalysis from './PickAnalysis.vue'
 
-import { mapGetters } from 'vuex'
+import { mapState } from 'vuex'
 
 export default {
   name: 'Pick',
@@ -53,7 +53,7 @@ export default {
     PickList, PickAnalysis
   },
   computed: {
-    ...mapGetters([
+    ...mapState([
       'picks_complete',
       'show_pick_analysis'
     ])

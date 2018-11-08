@@ -5,11 +5,8 @@ import * as utils from './utils'
 
 export default {
   started: (state) => state.current_pack > 0,
-  set_code: (state) => state.set_code,
   set_name: (state) => set.name(state.set_code),
-  current_pack: (state) => state.current_pack,
-  current_pick: (state) => state.current_pick,
-  pick_timer: (state) => state.pick_timer,
+    
   pick_time_remaining: (state) => {
     return Math.round((state.pick_end_time - state.current_time) / 1000);
   },
@@ -20,9 +17,7 @@ export default {
            state.current_pick > 0 &&
            getters.pick_time_remaining < 0;
   },
-  picks_complete: (state) => state.picks_complete,
-  show_pick_analysis: (state) => state.show_pick_analysis,
-  card_preview: (state) => state.card_preview,
+  
   draft: (state) => (player) => state.players[player].draft,
   deck: (state) => (player) => state.players[player].deck,
   

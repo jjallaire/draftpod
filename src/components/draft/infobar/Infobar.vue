@@ -19,7 +19,7 @@
 
 <script>
 
-import { mapGetters } from 'vuex';
+import { mapState } from 'vuex';
 
 import Panel from '@/components/draft/core/Panel.vue'
 import PreviewImage from './PreviewImage.vue'
@@ -42,7 +42,7 @@ export default {
   },
 
   computed: {
-    ...mapGetters([
+    ...mapState([
       'card_preview'
     ]),
     preview_image: function() {
