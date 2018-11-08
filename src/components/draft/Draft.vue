@@ -83,6 +83,10 @@ export default {
     player_id: {
       type: Number,
       default: 0
+    },
+    namespace: {
+      Type: String,
+      default: ''
     }
   },
 
@@ -128,8 +132,12 @@ export default {
   },
 
   computed: {
+    ...mapState({
+      set_code: function(state) {
+        return state[this.namespace + 'set_code'];
+      },
+    }),
     ...mapState([
-      'set_code',
       'picks_complete',
       'pick_timer',
       'pick_end_time',
