@@ -12,10 +12,7 @@ export default {
   name: 'PickAnalysis',
 
   props: {
-    player_id: {
-      type: Number,
-      required: true
-    }
+
   },
 }
 

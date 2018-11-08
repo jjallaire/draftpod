@@ -23,10 +23,10 @@
 
   <div class="card-body tab-content">
     <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
-      <PickList :piles="piles" />
+      <PickList :piles="draft.piles" />
     </div>
     <div v-if="show_pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
-      <PickAnalysis :player_id="player_id" />
+      <PickAnalysis  />
     </div>
 </div>
 </div>
@@ -39,31 +39,20 @@
 import PickList from './PickList.vue'
 import PickAnalysis from './PickAnalysis.vue'
 
-import { mapState } from 'vuex'
-import { mapGetters } from 'vuex'
-
 export default {
   name: 'Pick',
   props: {
-    player_id: {
-      type: Number,
+    draft: {
+      type: Object,
       required: true
     },
+    show_pick_analysis: {
+      type: Boolean,
+      required: true
+    }
   },
   components: {
     PickList, PickAnalysis
-  },
-  computed: {
-    ...mapState([
-      'picks_complete',
-      'show_pick_analysis'
-    ]),
-    ...mapGetters([
-      'draft'
-    ]),
-    piles: function() {
-      return this.draft(this.player_id).piles;
-    }
   },
 }
 

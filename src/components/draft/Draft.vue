@@ -35,7 +35,9 @@
             <Pack v-if="!picks_complete" 
                  :player_id="player_id" :pack="draft(this.player_id).pack"/>
           </transition>
-          <Pick v-if="!picks_complete" :player_id="player_id"/>
+          <Pick v-if="!picks_complete" 
+                :draft="draft(this.player_id)" 
+                :show_pick_analysis="show_pick_analysis"/>
           <Deck v-else :deck="deck(this.player_id)"/>
         </div>
 
@@ -132,6 +134,7 @@ export default {
       'pick_timer',
       'current_pack',
       'current_pick',
+      'show_pick_analysis'
     ]),
     ...mapGetters([
       'set_name',
