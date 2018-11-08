@@ -8,7 +8,7 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: exiting the draft might be broken?
+// TODO: divide up state into more logical blocks (cards, status, table, etc.)
 
 // TODO: some JS exceptions during the transition from picks to deck (cards in ManaColors are empty/null)
 
