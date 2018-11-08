@@ -16,10 +16,7 @@
 
 </template>
   
-
 <script>
-
-import { mapState } from 'vuex';
 
 import Panel from '@/components/core/Panel.vue'
 import PreviewImage from './PreviewImage.vue'
@@ -40,19 +37,6 @@ export default {
   components: {
     Panel, PreviewImage, ManaCurve, ManaColors, ManaLegend
   },
-
-  computed: {
-    ...mapState([
-      'card_preview'
-    ]),
-    preview_image: function() {
-      let card = this.card_preview;
-      if (card)
-        return card.image;
-      else
-        return "images/card-back.png";
-    },
-  }
 }
 
 </script>

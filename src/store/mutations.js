@@ -137,11 +137,13 @@ export default {
     state.picks_complete = true;
   },
 
-  [APPLY_AUTO_LANDS](state, { deck }) {
+  [APPLY_AUTO_LANDS](state, { player_id }) {
+    let deck = state.players[player_id].deck;
     deck.basic_lands = computeAutoLands(deck);
   },
 
-  [DISABLE_AUTO_LANDS](state, { deck }) {
+  [DISABLE_AUTO_LANDS](state, { player_id }) {
+    let deck = state.players[player_id].deck;
     deck.auto_lands = false;
   },
 
@@ -150,8 +152,9 @@ export default {
     deck.basic_lands[color] = lands;
   },
 
-  [SIDEBOARD_TO_DECK](state, { card, deck }) {
+  [SIDEBOARD_TO_DECK](state, { player_id, card }) {
     // remove from sideboard
+    let deck = state.players[player_id].deck;
     let sideboard = deck.piles[7];
     sideboard.splice(sideboard.indexOf(card), 1);
 

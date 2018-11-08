@@ -84,8 +84,7 @@ function pickCard(commit, state, pick) {
   // alias player
   let player_id = pick.player_id;
   let player = state.players[player_id];
-  let deck = player.deck;
-
+  
   // write the pick 
   commit(PACK_TO_PICK, pick);
 
@@ -103,7 +102,7 @@ function pickCard(commit, state, pick) {
       commit(MOVE_PICKS_TO_DECK, { player_id });
 
       // apply auto lands
-      commit(APPLY_AUTO_LANDS, { deck });
+      commit(APPLY_AUTO_LANDS, { player_id });
 
       // delay to allow UI state to update before starting
       // completion-based animations

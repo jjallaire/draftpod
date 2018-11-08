@@ -7,8 +7,7 @@ export const Events = {
   ViewCard: 'mtgdraft-view-card',
 
   CardPackToPick: 'mtgdraft-card-pack-to-pick',
-  CardPickToPile: 'mtgdraft-card-pick-to-pile',
-  CardDeckToSideboard: 'mtgdraft-card-deck-to-sideboard', 
+  CardPileToPile: 'mtgdraft-card-pile-to-pile',
   CardSideboardToDeck: 'mtgdraft-card-sideboard-to-deck',
 
   LandsAutoApply: 'mtgdraft-lands-auto-apply',

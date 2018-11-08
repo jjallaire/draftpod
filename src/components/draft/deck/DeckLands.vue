@@ -18,12 +18,7 @@
 
 <script>
 
-import { mapMutations } from 'vuex'
-
-import { DISABLE_AUTO_LANDS } from '@/store/mutations'
-
 import * as messagebox from '@/components/core/messagebox.js'
-
 import { Events, EventBus } from '@/components/draft/eventbus.js'
 
 export default {
@@ -91,10 +86,6 @@ export default {
   },
 
   methods: {
-    
-    ...mapMutations({
-      disableAutoLands: DISABLE_AUTO_LANDS,
-    }),
 
     handleLandInput: function(color, event) {
       
@@ -114,8 +105,8 @@ export default {
           "Do you want to disable auto-lands?", 
           () => {
             // disable auto-lands
-            this.disableAutoLands({ deck: this.deck });
-
+            EventBus.$emit(Events.LandsAutoDisable);
+           
             // fix the current color order so colors don't jump around
             // during manual editing
             this.color_order = this.colors.map((count) => count.color);

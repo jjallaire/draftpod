@@ -8,7 +8,7 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: some JS exceptions during the transition from picks to deck
+// TODO: some JS exceptions during the transition from picks to deck (cards in ManaColors are empty/null)
 
 // TODO: update_current_time dominating vuex store
 

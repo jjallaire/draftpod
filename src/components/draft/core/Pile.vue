@@ -26,21 +26,13 @@
 
 <script>
 
-import { mapActions } from 'vuex'
-import { mapMutations } from 'vuex'
 import { Drop } from 'vue-drag-drop'
-
-import { PICK_CARD } from '@/store/actions'
-import { PILE_TO_PILE, SIDEBOARD_TO_DECK, APPLY_AUTO_LANDS } from '@/store/mutations'
-
 import Card from './Card.vue'
+
+import { Events, EventBus } from '@/components/draft/eventbus'
 
 export default {
   props: {
-    player_id: {
-      type: Number,
-      default: null
-    },
     deck: {
       type: Object,
       default: null
@@ -128,11 +120,9 @@ export default {
       // check for insert location
       let insertLoc = cardInsertLocation(data, event);
       
-
       // event: pack to pick
       if (data.drag_source === "DRAG_SOURCE_PACK") {
-        this.pickCard({
-          player_id: this.player_id,
+        EventBus.$emit(Events.CardPackToPick, {
           card: data.card, 
           pile: this.pile, 
           insertBefore: insertLoc.insertBefore
@@ -144,7 +134,7 @@ export default {
                data.drag_source === "DRAG_SOURCE_DECK" ||
                (data.drag_source === "DRAG_SOURCE_SIDEBOARD" && 
                 this.drag_source === "DRAG_SOURCE_SIDEBOARD")) {
-        this.pileToPile({
+        EventBus.$emit(Events.CardPileToPile, {
           card: data.card,
           pile: this.pile,
           piles: this.piles,
@@ -154,26 +144,17 @@ export default {
 
       // event: sideboard to deck
       else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD") {
-        this.sideboardToDeck({
-          card: data.card,
-          deck: this.deck
+        EventBus.$emit(Events.CardSideboardToDeck, {
+          card: data.card
         });
       }
 
       // apply auto lands if this was a deck building action
       if ((data.drag_source === "DRAG_SOURCE_DECK" || data.drag_source === "DRAG_SOURCE_SIDEBOARD") &&
            this.deck.auto_lands) {
-        this.applyAutoLands({ deck: this.deck });
+        EventBus.$emit(Events.LandsAutoApply);
       }
     },
-    ...mapActions({
-      pickCard: PICK_CARD,
-    }),
-    ...mapMutations({
-      pileToPile: PILE_TO_PILE,
-      sideboardToDeck: SIDEBOARD_TO_DECK,
-      applyAutoLands: APPLY_AUTO_LANDS
-    }),
 
     provideDragFeedback: function(location) {
       this.styles.dragInsert.display = "block";

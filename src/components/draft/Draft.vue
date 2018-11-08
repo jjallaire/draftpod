@@ -60,8 +60,9 @@ import PickTimer from './pick/PickTimer.vue'
 import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
-import { INITIALIZE_STORE } from '@/store/actions';
-import { SET_BASIC_LANDS, EXIT_DRAFT } from '@/store/mutations';
+import { INITIALIZE_STORE, PICK_CARD } from '@/store/actions';
+import { PILE_TO_PILE, SIDEBOARD_TO_DECK, APPLY_AUTO_LANDS, 
+         DISABLE_AUTO_LANDS, SET_BASIC_LANDS, EXIT_DRAFT } from '@/store/mutations';
 
 import { mapGetters, mapState, mapActions, mapMutations } from 'vuex';
 
@@ -104,9 +105,23 @@ export default {
       vm.fullscreen = fscreen.fullscreenElement !== null;
     };
 
-    // forward land mutations w/ player id
+    EventBus.$on(Events.CardPackToPick, function(data) {
+      vm.pickCard({player_id: vm.player_id, ...data});
+    });
+    EventBus.$on(Events.CardPileToPile, function(data) {
+      vm.pileToPile(data);
+    });
+    EventBus.$on(Events.CardSideboardToDeck, function(data) {
+      vm.sideboardToDeck({player_id: vm.player_id, ...data});
+    });
     EventBus.$on(Events.LandsChanged, function(data) {
       vm.setBasicLands({player_id: vm.player_id, ...data});
+    });
+    EventBus.$on(Events.LandsAutoApply, function() {
+      vm.applyAutoLands({ player_id: vm.player_id });
+    });
+    EventBus.$on(Events.LandsAutoDisable, function() {
+      vm.disableAutoLands({ player_id: vm.player_id });
     });
   },
 
@@ -137,8 +152,13 @@ export default {
   methods: {
     ...mapActions({
       initializeStore: INITIALIZE_STORE,
+      pickCard: PICK_CARD,
     }),
     ...mapMutations({
+      pileToPile: PILE_TO_PILE,
+      sideboardToDeck: SIDEBOARD_TO_DECK,
+      applyAutoLands: APPLY_AUTO_LANDS,
+      disableAutoLands: DISABLE_AUTO_LANDS,
       setBasicLands: SET_BASIC_LANDS,
       exitDraft: EXIT_DRAFT,
     }),
