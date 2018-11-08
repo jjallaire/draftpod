@@ -8,6 +8,8 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
+// TODO: some JS exceptions during the transition from picks to deck
+
 // TODO: update_current_time dominating vuex store
 
 // TODO: event bus: https://alligator.io/vuejs/global-event-bus/
