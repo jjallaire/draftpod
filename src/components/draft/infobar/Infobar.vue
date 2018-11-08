@@ -21,7 +21,7 @@
 
 import { mapState } from 'vuex';
 
-import Panel from '@/components/draft/core/Panel.vue'
+import Panel from '@/components/core/Panel.vue'
 import PreviewImage from './PreviewImage.vue'
 import ManaCurve from './ManaCurve.vue'
 import ManaColors from './ManaColors.vue'

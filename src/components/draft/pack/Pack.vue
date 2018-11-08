@@ -17,7 +17,7 @@
 
 <script>
 import Card from '@/components/draft/core/Card.vue';
-import Panel from '@/components/draft/core/Panel.vue';
+import Panel from '@/components/core/Panel.vue';
 
 export default {
   name: 'Pack',

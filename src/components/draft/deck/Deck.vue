@@ -33,7 +33,7 @@
 
 <script>
 
-import Panel from '@/components/draft/core/Panel.vue'
+import Panel from '@/components/core/Panel.vue'
 import Pile from '@/components/draft/core/Pile.vue'
 import DeckCopy from './DeckCopy.vue'
 import DeckDownload from './DeckDownload.vue'

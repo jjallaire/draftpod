@@ -9,6 +9,7 @@ import router from './router'
 import store from './store'
 
 // TODO: event bus: https://alligator.io/vuejs/global-event-bus/
+// TODO: https://medium.com/vuejobs/create-a-global-event-bus-in-vue-js-838a5d9ab03a
 // pass ids throughout components
 // pass object directly to mutations (as we do now)
 // emit events up to broker (either one hop at a time or via global event bus)
@@ -23,6 +24,7 @@ import store from './store'
 // TODO: flicker when pack is loading
 
 // TODO: cleanup Pile (code too intermingled)
+
 
 // TODO: unhandled exception when running out of time?
 
