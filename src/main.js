@@ -10,9 +10,13 @@ import store from './store'
 
 // TODO: divide up state into more logical blocks (cards, status, table, etc.)
 
+// Scoped dynamic NS: https://github.com/vuejs/vuex/issues/863#issuecomment-329510765
+
 // TODO: some JS exceptions during the transition from picks to deck (cards in ManaColors are empty/null)
 
 // TODO: update_current_time dominating vuex store
+
+
 
 // TODO: event bus: https://alligator.io/vuejs/global-event-bus/
 // TODO: https://medium.com/vuejobs/create-a-global-event-bus-in-vue-js-838a5d9ab03a

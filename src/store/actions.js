@@ -4,7 +4,6 @@ import axios from 'axios'
 
 import { 
   ENTER_DRAFT,
-  UPDATE_CURRENT_TIME,
   OPEN_PACKS, 
   PACK_TO_PICK, 
   PASS_PACKS, 
@@ -53,11 +52,8 @@ export default {
 
   [PICK_TIMER]({commit, state, getters}, { player_id }) {
     
-      // first update the current time
-      commit(UPDATE_CURRENT_TIME);
-
       // auto-pick if we ran out of time  
-      if (getters.pick_time_expired) {
+      if (pickTimeExpired(state)) {
 
         // let the ai make the pick
         let draft = getters.draft(player_id);
@@ -78,6 +74,15 @@ export default {
   },
 };
 
+
+function pickTimeExpired(state) {
+  let time_remaining = Math.round((state.pick_end_time - new Date().getTime()) / 1000);
+  return state.pick_timer &&
+          !state.picks_complete &&
+          state.current_pack > 0 && 
+          state.current_pick > 0 &&
+          time_remaining < 0;
+}
 
 function pickCard(commit, state, pick) {
 

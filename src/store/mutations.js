@@ -1,6 +1,5 @@
 
 export const ENTER_DRAFT = 'ENTER_DRAFT'
-export const UPDATE_CURRENT_TIME = 'UPDATE_CURRENT_TIME'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const PILE_TO_PILE = 'PILE_TO_PILE'
@@ -32,10 +31,6 @@ export default {
     state.all_packs = [...Array(24)].map(function() {
       return booster(state.set_code, cardpool);
     });
-  },
-
-  [UPDATE_CURRENT_TIME](state) {
-    state.current_time = new Date().getTime();
   },
 
   [OPEN_PACKS](state, packs) {

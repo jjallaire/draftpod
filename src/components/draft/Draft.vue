@@ -7,7 +7,7 @@
         <span v-if="picks_complete">Deck Construction</span>
         <span v-else>
           Pack {{ current_pack }}, Pick {{ current_pick }}
-          <PickTimer v-if="pick_timer" :pick_time_remaining="pick_time_remaining" />
+          <PickTimer v-if="pick_timer" :pick_end_time="pick_end_time" />
         </span>
       </span> 
     </transition>
@@ -132,6 +132,7 @@ export default {
       'set_code',
       'picks_complete',
       'pick_timer',
+      'pick_end_time',
       'current_pack',
       'current_pick',
       'show_pick_analysis'
@@ -139,7 +140,6 @@ export default {
     ...mapGetters([
       'set_name',
       'started',
-      'pick_time_remaining',
       'draft',
       'deck'
     ]),

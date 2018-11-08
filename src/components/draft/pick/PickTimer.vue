@@ -15,13 +15,29 @@ export default {
   name: 'PickTimer',
 
   props: {
-    pick_time_remaining: {
+    pick_end_time: {
       type: Number,
       required: true
     }
   },
 
+  data () {
+    return {
+      now: new Date().getTime()
+    }
+  },
+  
+  created () {
+    let vm = this;
+    setInterval(function() {
+      vm.now = new Date().getTime()
+    }, 1000);
+  },
+
   computed: {
+    pick_time_remaining: function() {
+      return Math.round((this.pick_end_time - this.now) / 1000);
+    },
     badge_class: function() {
       if (this.pick_time_remaining > 10)
         return "badge-primary";
