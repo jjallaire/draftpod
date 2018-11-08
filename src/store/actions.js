@@ -39,8 +39,10 @@ export default {
         commit(ENTER_DRAFT, {
           set_code,
           cardpool: response.data,
-          pick_timer,
-          pick_analysis,
+          options: {
+            pick_timer,
+            pick_analysis,
+          }
         });
 
         // distribute next pack

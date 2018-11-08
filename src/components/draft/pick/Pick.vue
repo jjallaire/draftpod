@@ -12,7 +12,7 @@
             Picks
         </a>
       </li>
-      <li v-if="show_pick_analysis" class="nav-item">
+      <li v-if="pick_analysis" class="nav-item">
         <a class="nav-link" id="pick-analysis-tab" data-toggle="tab" href="#pick-analysis"
           role="tab" aria-controls="pick-analysis" aria-selected="false">
             Analysis
@@ -25,7 +25,7 @@
     <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
       <PickList :piles="draft.piles" />
     </div>
-    <div v-if="show_pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
+    <div v-if="pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
       <PickAnalysis  />
     </div>
 </div>
@@ -46,7 +46,7 @@ export default {
       type: Object,
       required: true
     },
-    show_pick_analysis: {
+    pick_analysis: {
       type: Boolean,
       required: true
     }

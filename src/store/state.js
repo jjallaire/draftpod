@@ -2,14 +2,23 @@
 
 export default function() {
   return {
+    // cards
     set_code: null,
     all_packs: [],
+
+    // options
+    options: {
+      pick_timer: false,
+      pick_analysis: false,
+    },
+
+    // status
     current_pack: 0,
     current_pick: 0,
-    pick_timer: false,
     pick_end_time: new Date().getTime(),
     picks_complete: false,
-    show_pick_analysis: false,
+
+    // players
     players: [...Array(8)].map(function() {
       return {
         draft: {
