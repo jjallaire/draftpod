@@ -165,7 +165,7 @@ export default {
   },
 
   [EXIT_DRAFT](state) {
-    const s = initial_state;
+    const s = initial_state();
     Object.keys(s).forEach(key => {
       state[key] = s[key]
     });

@@ -4,7 +4,7 @@
 
   <Panel panel_class="mtgdraft-pack" background="secondary">
     <Card v-for="card in pack" :key="card.key" 
-          :player_id="player_id" :card="card" :drag_source="drag_source">
+          :card="card" :drag_source="drag_source">
     </Card>
     <span v-for="n in (16 - pack.length)" :key="n" 
           class="mtgcard mtgcard-empty" draggable="false">
@@ -22,10 +22,6 @@ import Panel from '@/components/core/Panel.vue';
 export default {
   name: 'Pack',
   props: {
-    player_id: {
-      type: Number,
-      required: true
-    },
     pack: {
       type: Array,
       required: true

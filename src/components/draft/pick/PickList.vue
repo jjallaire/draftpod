@@ -1,10 +1,8 @@
 <template>
   <div class="mtgdraft-pick-list">
-    <Pile :player_id="player_id" v-for="number in 7" 
-          :key="number-1" :piles="piles" :number="number-1"></Pile>
+    <Pile v-for="number in 7" :key="number-1" :piles="piles" :number="number-1"></Pile>
     <div class="mtgpile mtgpile-separator"></div>
-    <Pile caption="Sideboard" :player_id="player_id" 
-          :key="7" :piles="piles" :number="7"></Pile>
+    <Pile caption="Sideboard" :key="7" :piles="piles" :number="7"></Pile>
   </div>
 </template>
 
