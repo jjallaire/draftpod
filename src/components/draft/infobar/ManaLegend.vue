@@ -2,15 +2,15 @@
 <template>
 
 <div class="mana-curve-legend">
-  <span class="mana-key creatures-key bg-danger">&nbsp;</span> Creatures ({{ card_types(this.cards).creatures }})
-  <span class="mana-key other-key bg-info">&nbsp;</span> Other ({{ card_types(this.cards).other }})
+  <span class="mana-key creatures-key bg-danger">&nbsp;</span> Creatures ({{ card_types.creatures }})
+  <span class="mana-key other-key bg-info">&nbsp;</span> Other ({{ card_types.other }})
 </div>
 
 </template>
 
 <script>
 
-import { mapGetters } from 'vuex';
+import * as selectors from '@/store/selectors'
 
 export default {
   name: 'ManaLegend',
@@ -23,9 +23,9 @@ export default {
   },
 
   computed: {
-    ...mapGetters([
-      'card_types'
-    ]),
+    card_types: function() {
+      return selectors.cardTypes(this.cards);
+    }
   },
 }
 

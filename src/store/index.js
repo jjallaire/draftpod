@@ -3,10 +3,11 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import VuexPersist from 'vuex-persist'
 
+import initial_state from './state'
 import actions from './actions'
 import mutations from './mutations'
 import getters from './getters'
-import * as utils from './utils'
+
 
 const debug = process.env.NODE_ENV !== 'production'
 
@@ -19,7 +20,7 @@ const vuexPersist = new VuexPersist({
 
 
 const store = new Vuex.Store({
-  state: utils.initialState,
+  state: initial_state,
   plugins: [vuexPersist.plugin],
   getters,
   actions,

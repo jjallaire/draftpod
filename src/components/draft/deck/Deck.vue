@@ -5,12 +5,12 @@
       <div class="card-type-counts">
       Creatures: {{ deck_card_types.creatures }} &nbsp;
       Other: {{ deck_card_types.other }} &nbsp;
-      Lands: {{ deck_land_count( deck) }}
+      Lands: {{ deck_land_count }}
       </div>
     </template>
     <template slot="header-right">
-      <DeckCopy :deck_list="deck_list(deck)" />
-      <DeckDownload :deck_list="deck_list(deck)" />
+      <DeckCopy :deck_list="deck_list" />
+      <DeckDownload :deck_list="deck_list" />
     </template>
     <Pile :deck="deck" v-for="number in 5" 
           :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
@@ -19,7 +19,7 @@
     <Pile :deck="deck" :key="5" caption="6+" :piles="piles" :number="5" 
           drag_source="DRAG_SOURCE_DECK">
     </Pile>
-    <Pile :deck="deck" :key="6" :caption="'Lands (' + deck_land_count(deck) + ')'"
+    <Pile :deck="deck" :key="6" :caption="'Lands (' + deck_land_count + ')'"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
       <DeckLands slot="controls" :deck="deck">
       </DeckLands>
@@ -39,7 +39,7 @@ import DeckCopy from './DeckCopy.vue'
 import DeckDownload from './DeckDownload.vue'
 import DeckLands from './DeckLands.vue'
 
-import { mapGetters } from 'vuex';
+import * as selectors from '@/store/selectors'
 
 export default {
   name: 'Deck',
@@ -52,22 +52,22 @@ export default {
   },
 
   computed: {
-    ...mapGetters([
-      'deck_cards',
-      'deck_land_count',
-      'card_types',
-      'deck_list'
-    ]),
     piles: function() {
       return this.deck.piles;
     },
+    deck_list: function() {
+      return selectors.deckList(this.deck);
+    },
     deck_total_cards: function() {
-      return this.deck_cards(this.deck).length + 
-             this.deck_land_count(this.deck);
+      return selectors.deckCards(this.deck).length + 
+             selectors.deckLandCount(this.deck);
     },
     deck_card_types: function() {
-      let cards = this.deck_cards(this.deck);
-      return this.card_types(cards);
+      let cards = selectors.deckCards(this.deck);
+      return selectors.cardTypes(cards);
+    },
+    deck_land_count: function() {
+      return selectors.deckLandCount(this.deck);
     }
   },
 

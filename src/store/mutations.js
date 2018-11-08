@@ -16,7 +16,8 @@ export const EXIT_DRAFT = 'EXIT_DRAFT'
 import uuidv4 from 'uuid'
 import * as set from './set/'
 import * as filters from './card-filters'
-import * as utils from './utils'
+import * as selectors from './selectors'
+import initial_state from './state'
 
 const local_images = true
 
@@ -164,7 +165,7 @@ export default {
   },
 
   [EXIT_DRAFT](state) {
-    const s = utils.initialState();
+    const s = initial_state;
     Object.keys(s).forEach(key => {
       state[key] = s[key]
     });
@@ -223,7 +224,7 @@ function computeAutoLands(deck) {
  
   // compute the target number of mana sources we need in our mana base
   const total_land_cards = 17;
-  let total_card_colors = utils.sumValues(card_colors);  
+  let total_card_colors = selectors.sumValues(card_colors);  
   let mana_targets = {};
   Object.keys(card_colors).map(
     (color) => mana_targets[color] = (card_colors[color]/total_card_colors) * total_land_cards
@@ -240,7 +241,7 @@ function computeAutoLands(deck) {
   )
 
   // take total after adjustment (used to calculate new % values)
-  let total_mana_required = utils.sumValues(mana_required);
+  let total_mana_required = selectors.sumValues(mana_required);
     
   // function to yield basic lands
   let basic_lands_required = total_land_cards - lands.length;
@@ -258,7 +259,7 @@ function computeAutoLands(deck) {
   // tweak until the rounded version has the right sum
   let basic_lands = basicLands();
   let basic_lands_rounded = basicLands(Math.round);
-  let basic_lands_rounded_sum = utils.sumValues(basic_lands_rounded);
+  let basic_lands_rounded_sum = selectors.sumValues(basic_lands_rounded);
   while(basic_lands_rounded_sum != basic_lands_required) {
     let is_rounded_larger = basic_lands_rounded_sum > basic_lands_required;
     let max_difference_color = null;

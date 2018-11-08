@@ -11,24 +11,14 @@
 <script>
 
 import Pile from '@/components/draft/core/Pile.vue'
-import { mapGetters } from 'vuex'
 
 export default {
   name: 'PickList',
 
   props: {
-    player_id: {
-      type: Number,
+    piles: {
+      type: Array,
       required: true
-    }
-  },
-
-  computed: {
-    ...mapGetters([
-      'draft',
-    ]),
-    piles: function() {
-      return this.draft(this.player_id).piles;
     }
   },
 
