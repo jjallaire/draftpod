@@ -62,9 +62,9 @@ import PickTimer from './pick/PickTimer.vue'
 import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
-import { INITIALIZE_STORE, PICK_CARD } from '@/store/actions';
+import { INITIALIZE_STORE, PICK_CARD } from '@/store/modules/draft/actions';
 import { PILE_TO_PILE, SIDEBOARD_TO_DECK, APPLY_AUTO_LANDS, 
-         DISABLE_AUTO_LANDS, SET_BASIC_LANDS, EXIT_DRAFT } from '@/store/mutations';
+         DISABLE_AUTO_LANDS, SET_BASIC_LANDS, EXIT_DRAFT } from '@/store/modules/draft/mutations';
 
 import { mapState, mapActions, mapMutations } from 'vuex';
 
@@ -129,23 +129,23 @@ export default {
 
   computed: {
     namespace: function() {
-      return '';
+      return 'draft';
     },
     ...mapState({
       cards: function(state) {
-        return state[this.namespace + 'cards'];
+        return state[this.namespace].cards;
       },
       started: function() {
         return this.status.current_pack > 0;
       },
       options: function(state) {
-        return state[this.namespace + 'options'];
+        return state[this.namespace].options;
       },
       status: function(state) {
-        return state[this.namespace + 'status'];
+        return state[this.namespace].status;
       },
       player: function(state) {
-        return state[this.namespace + 'players'][this.player_id];
+        return state[this.namespace].players[this.player_id];
       },
     }),
     
@@ -158,11 +158,11 @@ export default {
   },
 
   methods: {
-    ...mapActions({
+    ...mapActions('draft', {
       initializeStore: INITIALIZE_STORE,
       pickCard: PICK_CARD,
     }),
-    ...mapMutations({
+    ...mapMutations('draft', {
       pileToPile: PILE_TO_PILE,
       sideboardToDeck: SIDEBOARD_TO_DECK,
       applyAutoLands: APPLY_AUTO_LANDS,

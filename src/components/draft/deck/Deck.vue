@@ -39,7 +39,7 @@ import DeckCopy from './DeckCopy.vue'
 import DeckDownload from './DeckDownload.vue'
 import DeckLands from './DeckLands.vue'
 
-import * as selectors from '@/store/selectors'
+import * as selectors from '@/store/modules/draft/selectors'
 
 export default {
   name: 'Deck',

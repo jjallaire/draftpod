@@ -1,6 +1,6 @@
 
 
-import * as filters from '@/store/card-filters'
+import * as filters from '../card-filters'
 import * as ai from './draft-ai'
 
 export default {

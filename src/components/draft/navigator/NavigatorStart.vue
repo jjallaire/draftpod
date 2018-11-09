@@ -55,7 +55,7 @@
 
 import { mapActions } from 'vuex'
 
-import { START_DRAFT } from '@/store/actions';
+import { START_DRAFT } from '@/store/modules/draft/actions';
 
 import NavigatorPanel from './NavigatorPanel.vue'
 
@@ -92,7 +92,7 @@ export default {
   },
 
   methods: {
-    ...mapActions({
+    ...mapActions('draft', {
       startDraft: START_DRAFT,
     }),
     onStartDraft: function() {

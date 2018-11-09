@@ -10,7 +10,7 @@
 
 <script>
 
-import * as selectors from '@/store/selectors'
+import * as selectors from '@/store/modules/draft/selectors'
 
 export default {
   name: 'ManaLegend',
