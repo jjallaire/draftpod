@@ -52,14 +52,14 @@ export default {
 
   },
 
-  [PICK_TIMER]({commit, state, getters}, { player_id }) {
+  [PICK_TIMER]({commit, state}, { player_id }) {
     
       // auto-pick if we ran out of time  
       if (pickTimeExpired(state)) {
 
         // let the ai make the pick
-        let draft = getters.draft(player_id);
-        let card = set.pick(state.cards.et_code, draft.piles[0], draft.pack);
+        let draft = state.players[player_id].draft;
+        let card = set.pick(state.cards.set_code, draft.piles[0], draft.pack);
 
         // dispatch it and move on to the next pick
         pickCard(commit, state, {

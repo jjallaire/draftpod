@@ -33,12 +33,12 @@
         <div class="mtgdraft-cards">
           <transition name="mtgpack-hide">
             <Pack v-if="!status.picks_complete" 
-                 :player_id="player_id" :pack="draft(this.player_id).pack"/>
+                 :player_id="player_id" :pack="player.draft.pack"/>
           </transition>
           <Pick v-if="!status.picks_complete" 
-                :draft="draft(this.player_id)" 
+                :draft="player.draft" 
                 :pick_analysis="options.pick_analysis"/>
-          <Deck v-else :deck="deck(this.player_id)"/>
+          <Deck v-else :deck="player.deck"/>
         </div>
 
         <Infobar :cards="infobar_cards"/>
@@ -66,7 +66,7 @@ import { INITIALIZE_STORE, PICK_CARD } from '@/store/actions';
 import { PILE_TO_PILE, SIDEBOARD_TO_DECK, APPLY_AUTO_LANDS, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS, EXIT_DRAFT } from '@/store/mutations';
 
-import { mapGetters, mapState, mapActions, mapMutations } from 'vuex';
+import { mapState, mapActions, mapMutations } from 'vuex';
 
 import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
 import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
@@ -142,16 +142,18 @@ export default {
       status: function(state) {
         return state[this.namespace + 'status'];
       },
+      player: function(state) {
+        return state[this.namespace + 'players'][this.player_id];
+      },
     }),
-    ...mapGetters([
-      'started',
-      'draft',
-      'deck'
-    ]),
+    
+    started: function() {
+      return this.status.current_pack > 0;
+    },
     
     infobar_cards: function() {
-      let draft = this.draft(this.player_id);
-      let deck = this.deck(this.player_id);
+      let draft = this.player.draft;
+      let deck = this.player.deck;
       let piles = this.status.picks_complete ? deck.piles : draft.piles;
       return piles.slice(0, 7).flat();
     }
@@ -179,10 +181,6 @@ export default {
       else
         fscreen.exitFullscreen();
     },
-
-    onLandsChanged: function({color, lands}) {
-      this.setBasicLands({player_id: this.player_id, color, lands});
-    }
   }
 }
 </script>

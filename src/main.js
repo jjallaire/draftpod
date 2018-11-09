@@ -8,15 +8,12 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: divide up state into more logical blocks (cards, status, table, etc.)
 
 // Scoped dynamic NS: https://github.com/vuejs/vuex/issues/863#issuecomment-329510765
 
 // TODO: some JS exceptions during the transition from picks to deck (cards in ManaColors are empty/null)
 
-// TODO: update_current_time dominating vuex store
-
-
+// TODO: implement separate piles for instants and sorceries in deck
 
 // TODO: event bus: https://alligator.io/vuejs/global-event-bus/
 // TODO: https://medium.com/vuejobs/create-a-global-event-bus-in-vue-js-838a5d9ab03a
@@ -29,14 +26,11 @@ import store from './store'
 // TODO: color_order should be stored with the deck in DeckLands 
 // (currently doesn't survive reload)
 
-// TODO: drag feedback and insert loc on sideboard
-
 // TODO: flicker when pack is loading
 
 // TODO: cleanup Pile (code too intermingled)
 
-
-// TODO: unhandled exception when running out of time?
+// TODO: some additional gradiants
 
 Vue.config.productionTip = false
 
