@@ -1,6 +1,11 @@
 
 
 <template>
+
+<div>
+
+<Navbar /> 
+
 <div class="container">
 
 <div class="mtgdraft-navigator">
@@ -11,10 +16,13 @@
 
 </div>
 
+</div>
+
 </template>
 
 <script>
 
+import Navbar from '@/components/Navbar.vue'
 import NavigatorResume from './NavigatorResume.vue'
 import NavigatorStart from './NavigatorStart.vue'
 import NavigatorPrevious from './NavigatorPrevious.vue'
@@ -24,12 +32,12 @@ export default {
   props: {
     player_id: {
       type: Number,
-      required: true
+      default: 0
     }
   },
 
   components: {
-    NavigatorResume, NavigatorStart, NavigatorPrevious
+    Navbar, NavigatorResume, NavigatorStart, NavigatorPrevious
   },
 }
 

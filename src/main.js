@@ -9,7 +9,9 @@ import router from './router'
 import store from './store'
 
 
-// do we need to tear down the pick_timer when exiting or somehow make it global?
+// transitions from navigator to draft
+// name of navigator component?
+// awkwardness of calls to startDraft & component creation (can we do it from startDraft?)
 
 // overly chatty PACK_TO_PICK (AI ends up calling it as well)
 

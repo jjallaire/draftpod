@@ -16,13 +16,17 @@ export default {
 
   data: function() {
     return {
-      preview_image: "images/card-back.png",
+      preview_image: "/images/card-back.png",
     }
   },
 
   created() {
     let vm = this;
     EventBus.$on(Events.ViewCard, card => vm.preview_image = card.image);
+  },
+
+  destroyed() {
+    EventBus.$off(Events.ViewCard);
   }
 }
 

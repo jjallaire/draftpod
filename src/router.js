@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 
 import Home from './components/Home.vue'
 import Draft from './components/draft/Draft.vue'
+import DraftNavigator from './components/navigator/Navigator.vue'
 import About from './components/About.vue'
 
 Vue.use(VueRouter)
@@ -15,7 +16,8 @@ export default new VueRouter({
   
   routes: [
     { path: '/', component: Home },
-    { path: '/draft', component: Draft },
+    { path: '/draft', component: DraftNavigator },
+    { path: '/draft/:draft_id', component: Draft, props: true },
     { path: '/about', component: About },
   ],
   

@@ -13,7 +13,6 @@ import {
 
 import * as set from './set/'
 
-export const INITIALIZE_STORE = 'INITIALIZE_STORE'
 export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
@@ -21,17 +20,10 @@ export const PICK_TIMER = 'PICK_TIMER'
 
 export default {
 
-  [INITIALIZE_STORE]( { dispatch }, { player_id }) {
-    
-    // arrange for pick timer tick
-    setInterval(() => dispatch(PICK_TIMER, { player_id }), 1000);
-
-  },
-
   [START_DRAFT]( { commit, state }, {set_code, pick_timer, pick_analysis} ) {
 
     // download cardpool
-    axios.get('sets/' + set_code + '/cards.json')
+    axios.get('/sets/' + set_code + '/cards.json')
       .then(response => {
 
         // initialize

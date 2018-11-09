@@ -25,6 +25,7 @@ const local_images = true
 export default {
 
   [ENTER_DRAFT](state, { set_code, cardpool, options }) {
+    clearState(state);
     state.cards.set_code = set_code;
     state.cards.set_name = set.name(set_code);
     state.cards.all_packs = [...Array(24)].map(function() {
@@ -156,13 +157,16 @@ export default {
   },
 
   [EXIT_DRAFT](state) {
-    const s = initial_state();
-    Object.keys(s).forEach(key => {
-      state[key] = s[key]
-    });
+    clearState(state);
  },
 };
 
+function clearState(state) {
+  const s = initial_state();
+  Object.keys(s).forEach(key => {
+    state[key] = s[key]
+  });
+}
 
 function nextPick(state) {
   
@@ -390,7 +394,7 @@ function booster(set_code, cardpool) {
         cards.push({...card, 
           key: uuidv4(), 
           image: local_images ? 
-                  'sets/' + set_code + '/' + card.id + '.png' :
+                  '/sets/' + set_code + '/' + card.id + '.png' :
                   card.image_uri,
         });
       }

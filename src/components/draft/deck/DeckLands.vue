@@ -45,31 +45,31 @@ export default {
         {
           color: "W",
           name: "Plains",
-          img: "images/mana-white.svg",
+          img: "/images/mana-white.svg",
           count: this.deck.basic_lands.W,
         },
         {
           color: "B",
           name: "Swamp",
-          img: "images/mana-black.svg",
+          img: "/images/mana-black.svg",
           count: this.deck.basic_lands.B,
         },
         {
           color: "U",
           name: "Island",
-          img: "images/mana-blue.svg",
+          img: "/images/mana-blue.svg",
           count: this.deck.basic_lands.U,
         },
         {
           color: "R",
           name: "Mountain",
-          img: "images/mana-red.svg",
+          img: "/images/mana-red.svg",
           count: this.deck.basic_lands.R,
         },
         {
           color: "G",
           name: "Forest",
-          img: "images/mana-green.svg",
+          img: "/images/mana-green.svg",
           count: this.deck.basic_lands.G,
         },
       ];

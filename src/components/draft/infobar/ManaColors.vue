@@ -32,32 +32,32 @@ export default {
       let colors = {
         W: {
           name: "Plains",
-          img: "images/mana-white.svg",
+          img: "/images/mana-white.svg",
           count: 0
         },
         B: {
           name: "Swamp",
-          img: "images/mana-black.svg",
+          img: "/images/mana-black.svg",
           count: 0
         },
         U: {
           name: "Island",
-          img: "images/mana-blue.svg",
+          img: "/images/mana-blue.svg",
           count: 0
         },
         R: {
           name: "Mountain",
-          img: "images/mana-red.svg",
+          img: "/images/mana-red.svg",
           count: 0
         },
         G: {
           name: "Forest",
-          img: "images/mana-green.svg",
+          img: "/images/mana-green.svg",
           count: 0
         },
         C: {
           name: "Colorless",
-          img: "images/mana-colorless.svg",
+          img: "/images/mana-colorless.svg",
           count: 0
         },
       };

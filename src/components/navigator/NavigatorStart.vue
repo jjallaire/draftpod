@@ -61,6 +61,8 @@ import NavigatorPanel from './NavigatorPanel.vue'
 
 import PlayCircleIcon from "vue-material-design-icons/PlayCircleOutline.vue"
 
+import { useDraftModule } from '@/store'
+
 export default {
   name: 'NavigatorStart',
 
@@ -98,11 +100,20 @@ export default {
       }
     }),
     onStartDraft: function() {
+      
+      // use draft module
+      useDraftModule("400216FF-796C-4E15-B6FD-592036FECA29");
+
+      // start the draft
       this.startDraft({ 
         set_code: this.set,
         pick_timer: this.pick_timer,
         pick_analysis: this.pick_analysis,
       });
+
+      // push state
+      this.$router.push("draft/400216FF-796C-4E15-B6FD-592036FECA29");
+
     },
   }
 

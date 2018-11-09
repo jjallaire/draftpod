@@ -8,7 +8,7 @@
     </Card>
     <span v-for="n in (16 - pack.length)" :key="n" 
           class="mtgcard mtgcard-empty" draggable="false">
-      <img src="images/card-empty.png" />
+      <img src="/images/card-empty.png" />
     </span>
   </Panel>
   

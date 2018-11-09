@@ -3,6 +3,8 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import VuexPersist from 'vuex-persist'
 
+import draftModule from './modules/draft'
+
 const debug = process.env.NODE_ENV !== 'production'
 
 Vue.use(Vuex)
@@ -21,6 +23,17 @@ const store = new Vuex.Store({
 });
 
 export default store;
+
+export function useDraftModule(draft_id) {
+  if (!store._modules.root._children["drafts"]._children[draft_id]) {
+    store.registerModule(
+      ["drafts", draft_id], 
+      draftModule, 
+      { namespaced: true, preserveState: true }
+     );
+ }
+}
+
 
 if (module.hot) {
   // accept actions and mutations as hot modules
