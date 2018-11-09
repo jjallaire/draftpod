@@ -3,7 +3,7 @@
 
   <Navbar> 
     <transition name="mtgdraft-fade">
-      <span v-if="started" class="navbar-text">{{ set_name }} &mdash; 
+      <span v-if="started" class="navbar-text">{{ cards.set_name }} &mdash; 
         <span v-if="status.picks_complete">Deck Construction</span>
         <span v-else>
           Pack {{ status.current_pack }}, Pick {{ status.current_pick }}
@@ -133,18 +133,17 @@ export default {
 
   computed: {
     ...mapState({
-      set_code: function(state) {
-        return state[this.namespace + 'set_code'];
+      cards: function(state) {
+        return state[this.namespace + 'cards'];
       },
       options: function(state) {
         return state[this.namespace + 'options'];
       },
       status: function(state) {
         return state[this.namespace + 'status'];
-      }
+      },
     }),
     ...mapGetters([
-      'set_name',
       'started',
       'draft',
       'deck'

@@ -3,8 +3,11 @@
 export default function() {
   return {
     // cards
-    set_code: null,
-    all_packs: [],
+    cards: {
+      set_code: null,
+      set_name: null,
+      all_packs: [],
+    },
 
     // options
     options: {

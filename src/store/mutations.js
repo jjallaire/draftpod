@@ -23,13 +23,12 @@ const local_images = true
 export default {
 
   [ENTER_DRAFT](state, { set_code, cardpool, options }) {
-  
-    // generate packs
-    state.set_code = set_code;
-    state.options = options;
-    state.all_packs = [...Array(24)].map(function() {
-      return booster(state.set_code, cardpool);
+    state.cards.set_code = set_code;
+    state.cards.set_name = set.name(set_code);
+    state.cards.all_packs = [...Array(24)].map(function() {
+      return booster(set_code, cardpool);
     });
+    state.options = options;
   },
 
   [OPEN_PACKS](state, packs) {

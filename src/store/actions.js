@@ -59,7 +59,7 @@ export default {
 
         // let the ai make the pick
         let draft = getters.draft(player_id);
-        let card = set.pick(state.set_code, draft.piles[0], draft.pack);
+        let card = set.pick(state.cards.et_code, draft.piles[0], draft.pack);
 
         // dispatch it and move on to the next pick
         pickCard(commit, state, {
@@ -128,7 +128,7 @@ function nextPack(commit, state) {
   // grab next set of packs
   let pack_begin = state.status.current_pack * 8;
   let pack_end = pack_begin + 8;
-  let packs = state.all_packs.slice(pack_begin, pack_end);
+  let packs = state.cards.all_packs.slice(pack_begin, pack_end);
 
   // set them
   commit(OPEN_PACKS, packs);
@@ -139,7 +139,7 @@ function aiPicks(commit, state, player_id) {
     if (i !== player_id) {
       let player = state.players[i];
       let draft = player.draft;
-      let card = set.pick(state.set_code, draft.piles[0], draft.pack);
+      let card = set.pick(state.cards.set_code, draft.piles[0], draft.pack);
       commit(PACK_TO_PICK, { 
         player_id: i, 
         card: card, 
