@@ -18,7 +18,7 @@ const store = new Vuex.Store({
   modules: {
     draft: draft
   },
-  //plugins: [vuexPersist.plugin],
+  plugins: [vuexPersist.plugin],
   strict: debug,
 });
 

@@ -33,10 +33,6 @@ import { Events, EventBus } from '@/components/draft/eventbus'
 
 export default {
   props: {
-    deck: {
-      type: Object,
-      default: null
-    },
     piles: {
       type: Array,
       required: true

@@ -12,20 +12,20 @@
       <DeckCopy :deck_list="deck_list" />
       <DeckDownload :deck_list="deck_list" />
     </template>
-    <Pile :deck="deck" v-for="number in 5" 
+    <Pile v-for="number in 5" 
           :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
           drag_source="DRAG_SOURCE_DECK">
     </Pile>
-    <Pile :deck="deck" :key="5" caption="6+" :piles="piles" :number="5" 
+    <Pile :key="5" caption="6+" :piles="piles" :number="5" 
           drag_source="DRAG_SOURCE_DECK">
     </Pile>
-    <Pile :deck="deck" :key="6" :caption="'Lands (' + deck_land_count + ')'"
+    <Pile :key="6" :caption="'Lands (' + deck_land_count + ')'"
           :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
       <DeckLands slot="controls" :deck="deck">
       </DeckLands>
     </Pile>
     <div class="mtgpile mtgpile-separator"></div>
-    <Pile :deck="deck" :key="7" caption="Sideboard" :piles="piles" :number="7" 
+    <Pile :key="7" caption="Sideboard" :piles="piles" :number="7" 
           drag_source="DRAG_SOURCE_SIDEBOARD">
     </Pile>
   </Panel>
