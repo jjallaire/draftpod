@@ -13,19 +13,7 @@ import store from './store'
 
 // overly chatty PACK_TO_PICK (AI ends up calling it as well)
 
-// Scoped dynamic NS: https://github.com/vuejs/vuex/issues/863#issuecomment-329510765
-
-// TODO: some JS exceptions during the transition from picks to deck (cards in ManaColors are empty/null)
-
 // TODO: implement separate piles for instants and sorceries in deck
-
-// TODO: event bus: https://alligator.io/vuejs/global-event-bus/
-// TODO: https://medium.com/vuejobs/create-a-global-event-bus-in-vue-js-838a5d9ab03a
-// pass ids throughout components
-// pass object directly to mutations (as we do now)
-// emit events up to broker (either one hop at a time or via global event bus)
-
-// or some boilerplate like this: https://github.com/vuejs/vuex/issues/863#issuecomment-329510765
 
 // TODO: color_order should be stored with the deck in DeckLands 
 // (currently doesn't survive reload)
