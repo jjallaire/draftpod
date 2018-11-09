@@ -41,7 +41,7 @@
           <Deck v-else :deck="player.deck"/>
         </div>
 
-        <Infobar :cards="infobar_cards"/>
+        <Infobar :cards="active_cards"/>
     </div>
     <div v-else key="draft-navigator">
       <Navigator :player_id="player_id" />
@@ -84,10 +84,6 @@ export default {
       type: Number,
       default: 0
     },
-    namespace: {
-      Type: String,
-      default: ''
-    }
   },
 
   data: function() {
@@ -132,9 +128,15 @@ export default {
   },
 
   computed: {
+    namespace: function() {
+      return '';
+    },
     ...mapState({
       cards: function(state) {
         return state[this.namespace + 'cards'];
+      },
+      started: function() {
+        return this.status.current_pack > 0;
       },
       options: function(state) {
         return state[this.namespace + 'options'];
@@ -147,11 +149,7 @@ export default {
       },
     }),
     
-    started: function() {
-      return this.status.current_pack > 0;
-    },
-    
-    infobar_cards: function() {
+    active_cards: function() {
       let draft = this.player.draft;
       let deck = this.player.deck;
       let piles = this.status.picks_complete ? deck.piles : draft.piles;
