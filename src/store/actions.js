@@ -78,11 +78,12 @@ export default {
 
 
 function pickTimeExpired(state) {
-  let time_remaining = Math.round((state.pick_end_time - new Date().getTime()) / 1000);
-  return state.pick_timer &&
-          !state.picks_complete &&
-          state.current_pack > 0 && 
-          state.current_pick > 0 &&
+  let status = state.status;
+  let time_remaining = Math.round((status.pick_end_time - new Date().getTime()) / 1000);
+  return state.options.pick_timer &&
+          !status.picks_complete &&
+          status.current_pack > 0 && 
+          status.current_pick > 0 &&
           time_remaining < 0;
 }
 
@@ -102,7 +103,7 @@ function pickCard(commit, state, pick) {
   if (player.draft.pack.length === 0) {
 
     // if we still have packs to go then create the next pack
-    if (state.current_pack < 1)
+    if (state.status.current_pack < 1)
       nextPack(commit, state);
     else {
       // move picks to deck
@@ -125,7 +126,7 @@ function pickCard(commit, state, pick) {
 function nextPack(commit, state) {
 
   // grab next set of packs
-  let pack_begin = state.current_pack * 8;
+  let pack_begin = state.status.current_pack * 8;
   let pack_end = pack_begin + 8;
   let packs = state.all_packs.slice(pack_begin, pack_end);
 

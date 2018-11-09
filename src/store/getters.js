@@ -2,7 +2,7 @@
 import * as set from './set/'
 
 export default {
-  started: (state) => state.current_pack > 0,
+  started: (state) => state.status.current_pack > 0,
   set_name: (state) => {
     if (state.set_code)
       return set.name(state.set_code);

@@ -39,10 +39,10 @@ export default {
       state.players[i].draft.pack = packs[i];
     
     // update current pack
-    state.current_pack++;
+    state.status.current_pack++;
 
     // reset picks to zero
-    state.current_pick = 0;
+    state.status.current_pick = 0;
 
     // move to next pick
     nextPick(state);
@@ -93,7 +93,7 @@ export default {
     let packs = state.players.map((player) => player.draft.pack);
 
     // pass pack
-    if (state.current_pack === 2) {
+    if (state.status.current_pack === 2) {
       // pass right
       for (let i=(packs.length-1); i>0; i--)
         state.players[i].draft.pack = packs[i-1];
@@ -129,7 +129,7 @@ export default {
 
   [SET_PICKS_COMPLETE](state) {
     // set picks complete flag
-    state.picks_complete = true;
+    state.status.picks_complete = true;
   },
 
   [APPLY_AUTO_LANDS](state, { player_id }) {
@@ -170,11 +170,12 @@ export default {
 function nextPick(state) {
   
   // advance pick
-  state.current_pick++;
+  state.status.current_pick++;
 
   // set end time
-  let pick_seconds = 80 - (5 * state.current_pick);
-  state.pick_end_time = new Date().getTime() + 1000 * pick_seconds;
+  
+  let pick_seconds = 80 - (5 * state.status.current_pick);
+  state.status.pick_end_time = new Date().getTime() + 1000 * pick_seconds;
 }
 
 function cardToDeckPile(c, deck) {

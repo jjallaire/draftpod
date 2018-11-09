@@ -4,10 +4,10 @@
   <Navbar> 
     <transition name="mtgdraft-fade">
       <span v-if="started" class="navbar-text">{{ set_name }} &mdash; 
-        <span v-if="picks_complete">Deck Construction</span>
+        <span v-if="status.picks_complete">Deck Construction</span>
         <span v-else>
-          Pack {{ current_pack }}, Pick {{ current_pick }}
-          <PickTimer v-if="options.pick_timer" :pick_end_time="pick_end_time" />
+          Pack {{ status.current_pack }}, Pick {{ status.current_pick }}
+          <PickTimer v-if="options.pick_timer" :pick_end_time="status.pick_end_time" />
         </span>
       </span> 
     </transition>
@@ -32,10 +32,10 @@
     <div v-if="started" key="draft" class="mtgdraft bg-secondary">
         <div class="mtgdraft-cards">
           <transition name="mtgpack-hide">
-            <Pack v-if="!picks_complete" 
+            <Pack v-if="!status.picks_complete" 
                  :player_id="player_id" :pack="draft(this.player_id).pack"/>
           </transition>
-          <Pick v-if="!picks_complete" 
+          <Pick v-if="!status.picks_complete" 
                 :draft="draft(this.player_id)" 
                 :pick_analysis="options.pick_analysis"/>
           <Deck v-else :deck="deck(this.player_id)"/>
@@ -138,14 +138,11 @@ export default {
       },
       options: function(state) {
         return state[this.namespace + 'options'];
+      },
+      status: function(state) {
+        return state[this.namespace + 'status'];
       }
     }),
-    ...mapState([
-      'picks_complete',
-      'pick_end_time',
-      'current_pack',
-      'current_pick',
-    ]),
     ...mapGetters([
       'set_name',
       'started',
@@ -156,7 +153,7 @@ export default {
     infobar_cards: function() {
       let draft = this.draft(this.player_id);
       let deck = this.deck(this.player_id);
-      let piles = this.picks_complete ? deck.piles : draft.piles;
+      let piles = this.status.picks_complete ? deck.piles : draft.piles;
       return piles.slice(0, 7).flat();
     }
   },
