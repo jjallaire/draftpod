@@ -11,7 +11,9 @@ import store from './store'
 
 // transitions from navigator to draft
 // name of navigator component?
-// awkwardness of calls to startDraft & component creation (can we do it from startDraft?)
+
+// use of global event bus is a bit messy, use traditional events?
+// other option is passing draft_id/player_id down to all the components
 
 // overly chatty PACK_TO_PICK (AI ends up calling it as well)
 
