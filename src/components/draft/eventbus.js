@@ -12,10 +12,6 @@ export const Events = {
   CardSideboardToDeck: 'mtgdraft-card-sideboard-to-deck',
   CardSideboardToSideboard: 'mtgdraft-card-sideboard-to-sideboard',
 
-  CardPileToPile: 'mtgdraft-card-pile-to-pile',
-  
-
-  LandsAutoApply: 'mtgdraft-lands-auto-apply',
   LandsAutoDisable: 'mtgdraft-lands-auto-disable',
   LandsChanged: 'mtgdraft-lands-changed'
 };

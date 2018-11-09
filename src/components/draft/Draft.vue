@@ -64,7 +64,7 @@ import Deck from './deck/Deck.vue'
 
 import { INITIALIZE_STORE, PICK_CARD } from '@/store/modules/draft/actions';
 import { PICK_TO_PILE, DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
-         APPLY_AUTO_LANDS, DISABLE_AUTO_LANDS, SET_BASIC_LANDS, 
+         DISABLE_AUTO_LANDS, SET_BASIC_LANDS, 
          EXIT_DRAFT } from '@/store/modules/draft/mutations';
 
 import { mapState, mapActions, mapMutations } from 'vuex';
@@ -132,9 +132,6 @@ export default {
     EventBus.$on(Events.LandsChanged, function(data) {
       vm.setBasicLands({player_id: vm.player_id, ...data});
     });
-    EventBus.$on(Events.LandsAutoApply, function() {
-      vm.applyAutoLands({ player_id: vm.player_id });
-    });
     EventBus.$on(Events.LandsAutoDisable, function() {
       vm.disableAutoLands({ player_id: vm.player_id });
     });
@@ -180,7 +177,6 @@ export default {
       deckToSideboard: DECK_TO_SIDEBOARD,
       sideboardToDeck: SIDEBOARD_TO_DECK,
       sideboardToSideboard: SIDEBOARD_TO_SIDEBOARD,
-      applyAutoLands: APPLY_AUTO_LANDS,
       disableAutoLands: DISABLE_AUTO_LANDS,
       setBasicLands: SET_BASIC_LANDS,
       exitDraft: EXIT_DRAFT,

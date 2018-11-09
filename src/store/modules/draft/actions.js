@@ -9,7 +9,6 @@ import {
   PASS_PACKS, 
   SET_PICKS_COMPLETE,
   MOVE_PICKS_TO_DECK,
-  APPLY_AUTO_LANDS,
 } from './mutations';
 
 import * as set from './set/'
@@ -108,9 +107,6 @@ function pickCard(commit, state, pick) {
     else {
       // move picks to deck
       commit(MOVE_PICKS_TO_DECK, { player_id });
-
-      // apply auto lands
-      commit(APPLY_AUTO_LANDS, { player_id });
 
       // delay to allow UI state to update before starting
       // completion-based animations

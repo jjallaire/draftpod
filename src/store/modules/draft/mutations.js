@@ -8,7 +8,6 @@ export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
 export const SIDEBOARD_TO_SIDEBOARD = 'SIDEBOARD_TO_SIDEBOARD'
 export const PASS_PACKS = 'PASS_PACKS'
 export const MOVE_PICKS_TO_DECK = 'MOVE_PICKS_TO_DECK'
-export const APPLY_AUTO_LANDS = 'APPLY_AUTO_LANDS'
 export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
 
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
@@ -70,8 +69,12 @@ export default {
   },
 
   [DECK_TO_SIDEBOARD](state, { player_id, card, insertBefore}) {
+    // move the card
     let deck = state.players[player_id].deck;
     pileToPile(card, 7, deck.piles, insertBefore);
+    // apply auto-lands if necessary
+    if (deck.auto_lands)
+      deck.basic_lands = computeAutoLands(deck);
   },
 
   [SIDEBOARD_TO_DECK](state, { player_id, card }) {
@@ -83,6 +86,10 @@ export default {
     // card to deck pile
     let pile = cardToDeckPile(card, deck);
     pile.sort(orderCards);
+
+    // apply auto-lands if necessary
+    if (deck.auto_lands)
+      deck.basic_lands = computeAutoLands(deck);
   },
 
   [SIDEBOARD_TO_SIDEBOARD](state, { player_id, card, insertBefore }) {
@@ -128,16 +135,14 @@ export default {
 
     // sort all deck piles
     deck.piles.forEach((pile) => pile.sort(orderCards));
+
+    // apply auto lands
+    deck.basic_lands = computeAutoLands(deck);
   },
 
   [SET_PICKS_COMPLETE](state) {
     // set picks complete flag
     state.status.picks_complete = true;
-  },
-
-  [APPLY_AUTO_LANDS](state, { player_id }) {
-    let deck = state.players[player_id].deck;
-    deck.basic_lands = computeAutoLands(deck);
   },
 
   [DISABLE_AUTO_LANDS](state, { player_id }) {
