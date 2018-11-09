@@ -76,6 +76,9 @@ import fscreen from 'fscreen'
 import * as messagebox from '@/components/core/messagebox.js'
 import { Events, EventBus } from './eventbus'
 
+//import { createNamespacedHelpers } from 'vuex'
+//const { mapState, mapActions } = createNamespacedHelpers('some/nested/module')
+
 export default {
   name: 'Draft',
 

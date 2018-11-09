@@ -65,7 +65,7 @@ export default {
         pickCard(commit, state, {
           player_id: player_id,
           card: card,
-          pile: draft.piles[0], 
+          pile_number: 0, 
           insertBefore: null
         });
       }  
@@ -143,7 +143,7 @@ function aiPicks(commit, state, player_id) {
       commit(PACK_TO_PICK, { 
         player_id: i, 
         card: card, 
-        pile: state.players[i].draft.piles[0], 
+        pile_number: 0, 
         insertBefore: null 
       });
     }

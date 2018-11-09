@@ -47,11 +47,12 @@ export default {
     nextPick(state);
   },
 
-  [PACK_TO_PICK](state, { player_id, card, pile, insertBefore }) {
+  [PACK_TO_PICK](state, { player_id, card, pile_number, insertBefore }) {
 
-    // alias player and pile
+    // alias paraeters
     let player = state.players[player_id];
     let pack = player.draft.pack;
+    let pile = player.draft.piles[pile_number];
    
     // remove from pack
     pack.splice(pack.indexOf(card), 1);

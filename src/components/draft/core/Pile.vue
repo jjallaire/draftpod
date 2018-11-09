@@ -124,7 +124,7 @@ export default {
       if (data.drag_source === "DRAG_SOURCE_PACK") {
         EventBus.$emit(Events.CardPackToPick, {
           card: data.card, 
-          pile: this.pile, 
+          pile_number: this.number, 
           insertBefore: insertLoc.insertBefore
         });
       }

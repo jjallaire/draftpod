@@ -9,6 +9,8 @@ import router from './router'
 import store from './store'
 
 
+// do we need to tear down the pick_timer when exiting or somehow make it global?
+
 // Scoped dynamic NS: https://github.com/vuejs/vuex/issues/863#issuecomment-329510765
 
 // TODO: some JS exceptions during the transition from picks to deck (cards in ManaColors are empty/null)
