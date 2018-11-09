@@ -168,18 +168,36 @@ export default {
   },
 
   methods: {
-    ...mapActions('draft', {
-      initializeStore: INITIALIZE_STORE,
-      pickCard: PICK_CARD,
+    ...mapActions({
+      initializeStore(dispatch, payload) {
+        return dispatch(this.namespace + '/' + INITIALIZE_STORE, payload);
+      },
+      pickCard(dispatch, payload) {
+        return dispatch(this.namespace + '/' + PICK_CARD, payload);
+      }
     }),
-    ...mapMutations('draft', {
-      pickToPile: PICK_TO_PILE,
-      deckToSideboard: DECK_TO_SIDEBOARD,
-      sideboardToDeck: SIDEBOARD_TO_DECK,
-      sideboardToSideboard: SIDEBOARD_TO_SIDEBOARD,
-      disableAutoLands: DISABLE_AUTO_LANDS,
-      setBasicLands: SET_BASIC_LANDS,
-      exitDraft: EXIT_DRAFT,
+    ...mapMutations({
+      pickToPile(dispatch, payload) {
+        return dispatch(this.namespace + '/' + PICK_TO_PILE, payload);
+      },
+      deckToSideboard(dispatch, payload) {
+        return dispatch(this.namespace + '/' + DECK_TO_SIDEBOARD, payload);
+      },
+      sideboardToDeck(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SIDEBOARD_TO_DECK, payload);
+      },
+      sideboardToSideboard(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SIDEBOARD_TO_SIDEBOARD, payload);
+      },
+      disableAutoLands(dispatch, payload) {
+        return dispatch(this.namespace + '/' + DISABLE_AUTO_LANDS, payload);
+      },
+      setBasicLands(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SET_BASIC_LANDS, payload);
+      },
+      exitDraft(dispatch, payload) {
+        return dispatch(this.namespace + '/' + EXIT_DRAFT, payload);
+      },
     }),
     onExitDraft: function() {
       messagebox.confirm("<p>Do you want to exit this draft?</p>", this.exitDraft);
