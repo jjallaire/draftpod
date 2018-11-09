@@ -92,8 +92,10 @@ export default {
   },
 
   methods: {
-    ...mapActions('draft', {
-      startDraft: START_DRAFT,
+    ...mapActions({
+      startDraft: function(dispatch, payload) {
+        return dispatch('drafts/400216FF-796C-4E15-B6FD-592036FECA29/' + START_DRAFT, payload);
+      }
     }),
     onStartDraft: function() {
       this.startDraft({ 

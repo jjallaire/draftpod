@@ -3,8 +3,6 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import VuexPersist from 'vuex-persist'
 
-import draft from './modules/draft'
-
 const debug = process.env.NODE_ENV !== 'production'
 
 Vue.use(Vuex)
@@ -16,7 +14,7 @@ const vuexPersist = new VuexPersist({
 
 const store = new Vuex.Store({
   modules: {
-    draft: draft
+    drafts: { namespaced: true }
   },
   plugins: [vuexPersist.plugin],
   strict: debug,

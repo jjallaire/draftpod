@@ -80,10 +80,19 @@ import { Events, EventBus } from './eventbus'
 //import { createNamespacedHelpers } from 'vuex'
 //const { mapState, mapActions } = createNamespacedHelpers('some/nested/module')
 
+// drafts namespace
+const NS_DRAFTS = "drafts";
+
+import draftModule from '@/store/modules/draft'
+
 export default {
   name: 'Draft',
 
   props: {
+    draft_id: {
+      type: String,
+      default: "400216FF-796C-4E15-B6FD-592036FECA29"
+    },
     player_id: {
       type: Number,
       default: 0
@@ -100,6 +109,17 @@ export default {
   },
 
   created() {
+
+    // dynamically register namespace module for this draft it doesn't exist
+    const store = this.$store;
+    if (!store._modules.root._children[NS_DRAFTS]._children[this.draft_id]) {
+       store.registerModule(
+         [NS_DRAFTS, this.draft_id], 
+         draftModule, 
+         { namespaced: true, preserveState: true }
+        );
+    }
+   
     // alias vue model for callbacks
     let vm = this;
 
@@ -138,24 +158,21 @@ export default {
   },
 
   computed: {
-    namespace: function() {
-      return 'draft';
-    },
     ...mapState({
       cards: function(state) {
-        return state[this.namespace].cards;
+        return state[NS_DRAFTS][this.draft_id].cards;
       },
       started: function() {
         return this.status.current_pack > 0;
       },
       options: function(state) {
-        return state[this.namespace].options;
+        return state[NS_DRAFTS][this.draft_id].options;
       },
       status: function(state) {
-        return state[this.namespace].status;
+        return state[NS_DRAFTS][this.draft_id].status;
       },
       player: function(state) {
-        return state[this.namespace].players[this.player_id];
+        return state[NS_DRAFTS][this.draft_id].players[this.player_id];
       },
     }),
     
@@ -164,7 +181,11 @@ export default {
       let deck = this.player.deck;
       let piles = this.status.picks_complete ? deck.piles : draft.piles;
       return piles.slice(0, 7).flat();
-    }
+    },
+
+    namespace: function() {
+      return NS_DRAFTS + '/' + this.draft_id;
+    },
   },
 
   methods: {
