@@ -129,24 +129,35 @@ export default {
         });
       }
 
-      // event: garden variety pile to pile
-      else if (data.drag_source === "DRAG_SOURCE_PILE" ||
-               data.drag_source === "DRAG_SOURCE_DECK" ||
-               (data.drag_source === "DRAG_SOURCE_SIDEBOARD" && 
-                this.drag_source === "DRAG_SOURCE_SIDEBOARD")) {
-        EventBus.$emit(Events.CardPileToPile, {
+      // event: move pick to another pile
+      else if (data.drag_source === "DRAG_SOURCE_PILE") {
+        EventBus.$emit(Events.CardPickToPile, {
           card: data.card,
-          pile: this.pile,
-          piles: this.piles,
+          pile_number: this.number,
           insertBefore: insertLoc.insertBefore
         });
       }
 
-      // event: sideboard to deck
-      else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD") {
-        EventBus.$emit(Events.CardSideboardToDeck, {
-          card: data.card
+      // event: deck to sideboard
+      else if (data.drag_source === "DRAG_SOURCE_DECK") {
+        EventBus.$emit(Events.CardDeckToSideboard, {
+          card: data.card,
+          insertBefore: insertLoc.insertBefore
         });
+      } 
+
+      // events: sideboard
+      else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD") {
+        if (this.drag_source === "DRAG_SOURCE_DECK") {
+          EventBus.$emit(Events.CardSideboardToDeck, {
+            card: data.card
+          });
+        } else if (this.drag_source === "DRAG_SOURCE_SIDEBOARD") {
+          EventBus.$emit(Events.CardSideboardToSideboard, {
+            card: data.card,
+            insertBefore: insertLoc.insertBefore
+          });
+        }
       }
 
       // apply auto lands if this was a deck building action

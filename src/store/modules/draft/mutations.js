@@ -2,12 +2,15 @@
 export const ENTER_DRAFT = 'ENTER_DRAFT'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
-export const PILE_TO_PILE = 'PILE_TO_PILE'
+export const PICK_TO_PILE = 'PICK_TO_PILE'
+export const DECK_TO_SIDEBOARD = 'DECK_TO_SIDEBOARD'
+export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
+export const SIDEBOARD_TO_SIDEBOARD = 'SIDEBOARD_TO_SIDEBOARD'
 export const PASS_PACKS = 'PASS_PACKS'
 export const MOVE_PICKS_TO_DECK = 'MOVE_PICKS_TO_DECK'
 export const APPLY_AUTO_LANDS = 'APPLY_AUTO_LANDS'
 export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
-export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
+
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 export const EXIT_DRAFT = 'EXIT_DRAFT'
@@ -61,30 +64,30 @@ export default {
     addCardToPile(pile, card, insertBefore);
   },
 
-  [PILE_TO_PILE](state, { card, pile, piles, insertBefore }) {
+  [PICK_TO_PILE](state, { player_id, card, pile_number, insertBefore}) {
+    let draft = state.players[player_id].draft;
+    pileToPile(card, pile_number, draft.piles, insertBefore);
+  },
 
-    // remove from existing pile 
-    piles.forEach(function (p) {
+  [DECK_TO_SIDEBOARD](state, { player_id, card, insertBefore}) {
+    let deck = state.players[player_id].deck;
+    pileToPile(card, 7, deck.piles, insertBefore);
+  },
 
-      let index = p.indexOf(card);
-      if (index !== -1) {
+  [SIDEBOARD_TO_DECK](state, { player_id, card }) {
+    // remove from sideboard
+    let deck = state.players[player_id].deck;
+    let sideboard = deck.piles[7];
+    sideboard.splice(sideboard.indexOf(card), 1);
 
-        // remove the card
-        p.splice(index, 1);
+    // card to deck pile
+    let pile = cardToDeckPile(card, deck);
+    pile.sort(orderCards);
+  },
 
-        // if this is a re-order within the same pile then
-        // we may need to offset the insertBefore index to 
-        // reflect the removed card. 
-        if (p === pile &&
-          insertBefore !== null &&
-          insertBefore > index) {
-          insertBefore = insertBefore - 1;
-        }
-      }
-    });
-
-    // add to new pile
-    addCardToPile(pile, card, insertBefore);
+  [SIDEBOARD_TO_SIDEBOARD](state, { player_id, card, insertBefore }) {
+    let deck = state.players[player_id].deck;
+    pileToPile(card, 7, deck.piles, insertBefore);
   },
 
   [PASS_PACKS](state) {
@@ -145,17 +148,6 @@ export default {
   [SET_BASIC_LANDS](state, { player_id, color, lands }) {
     let deck = state.players[player_id].deck;
     deck.basic_lands[color] = lands;
-  },
-
-  [SIDEBOARD_TO_DECK](state, { player_id, card }) {
-    // remove from sideboard
-    let deck = state.players[player_id].deck;
-    let sideboard = deck.piles[7];
-    sideboard.splice(sideboard.indexOf(card), 1);
-
-    // card to deck pile
-    let pile = cardToDeckPile(card, deck);
-    pile.sort(orderCards);
   },
 
   [EXIT_DRAFT](state) {
@@ -334,6 +326,31 @@ function orderCards(a, b) {
     return -1;
   else if (bIsCreature && !aIsCreature)
     return 1;
+}
+
+function pileToPile(card, pile_number, piles, insertBefore) {
+  // remove from existing pile 
+  let pile = piles[pile_number];
+  piles.forEach(function (p) {
+    let index = p.indexOf(card);
+    if (index !== -1) {
+
+      // remove the card
+      p.splice(index, 1);
+
+      // if this is a re-order within the same pile then
+      // we may need to offset the insertBefore index to 
+      // reflect the removed card. 
+      if (p === pile &&
+        insertBefore !== null &&
+        insertBefore > index) {
+        insertBefore = insertBefore - 1;
+      }
+    }
+});
+
+// add to new pile
+addCardToPile(pile, card, insertBefore);
 }
 
 function addCardToPile(pile, card, insertBefore) {

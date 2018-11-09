@@ -63,8 +63,9 @@ import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
 import { INITIALIZE_STORE, PICK_CARD } from '@/store/modules/draft/actions';
-import { PILE_TO_PILE, SIDEBOARD_TO_DECK, APPLY_AUTO_LANDS, 
-         DISABLE_AUTO_LANDS, SET_BASIC_LANDS, EXIT_DRAFT } from '@/store/modules/draft/mutations';
+import { PICK_TO_PILE, DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
+         APPLY_AUTO_LANDS, DISABLE_AUTO_LANDS, SET_BASIC_LANDS, 
+         EXIT_DRAFT } from '@/store/modules/draft/mutations';
 
 import { mapState, mapActions, mapMutations } from 'vuex';
 
@@ -113,11 +114,20 @@ export default {
     EventBus.$on(Events.CardPackToPick, function(data) {
       vm.pickCard({player_id: vm.player_id, ...data});
     });
-    EventBus.$on(Events.CardPileToPile, function(data) {
-      vm.pileToPile(data);
+    EventBus.$on(Events.CardPickToPile, function(data) {
+      vm.pickToPile({ player_id: vm.player_id, ...data});
+    });
+    EventBus.$on(Events.CardDeckToSideboard, function(data) {
+      vm.deckToSideboard({ player_id: vm.player_id, ...data});
     });
     EventBus.$on(Events.CardSideboardToDeck, function(data) {
       vm.sideboardToDeck({player_id: vm.player_id, ...data});
+    });
+    EventBus.$on(Events.CardSideboardToSideboard, function(data) {
+      vm.sideboardToSideboard({player_id: vm.player_id, ...data});
+    });
+    EventBus.$on(Events.CardPileToPile, function(data) {
+      vm.pileToPile(data);
     });
     EventBus.$on(Events.LandsChanged, function(data) {
       vm.setBasicLands({player_id: vm.player_id, ...data});
@@ -166,8 +176,10 @@ export default {
       pickCard: PICK_CARD,
     }),
     ...mapMutations('draft', {
-      pileToPile: PILE_TO_PILE,
+      pickToPile: PICK_TO_PILE,
+      deckToSideboard: DECK_TO_SIDEBOARD,
       sideboardToDeck: SIDEBOARD_TO_DECK,
+      sideboardToSideboard: SIDEBOARD_TO_SIDEBOARD,
       applyAutoLands: APPLY_AUTO_LANDS,
       disableAutoLands: DISABLE_AUTO_LANDS,
       setBasicLands: SET_BASIC_LANDS,
