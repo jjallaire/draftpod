@@ -5,7 +5,7 @@ import VueRouter from 'vue-router'
 
 import Home from './components/Home.vue'
 import Draft from './components/draft/Draft.vue'
-import DraftNavigator from './components/navigator/Navigator.vue'
+import DraftNavigator from './components/draft/navigator/Navigator.vue'
 import About from './components/About.vue'
 
 Vue.use(VueRouter)

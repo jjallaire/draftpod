@@ -10,8 +10,6 @@ import store from './store'
 
 // awkwardness of startDraft, role of player_id
 
-// name of navigator component?
-
 // overly chatty PACK_TO_PICK (AI ends up calling it as well)
 
 // handle invalid draft id (redirect to /draft)
