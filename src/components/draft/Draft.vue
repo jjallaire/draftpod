@@ -1,4 +1,6 @@
 <template>
+
+  <transition name="mtgdraft-fade">
   <div>
 
   <Navbar> 
@@ -30,8 +32,7 @@
   <div class="mtgdraft bg-secondary">
       <div class="mtgdraft-cards">
         <transition name="mtgpack-hide">
-          <Pack v-if="!status.picks_complete" 
-                :player_id="player_id" :pack="player.draft.pack"/>
+          <Pack v-if="!status.picks_complete" :pack="player.draft.pack"/>
         </transition>
         <Pick v-if="!status.picks_complete" 
               :draft="player.draft" 
@@ -43,6 +44,7 @@
   </div>
   
   </div>
+  </transition>
 </template>
 
 <script>
@@ -262,10 +264,10 @@ export default {
   bottom: 0;
 }
 
-.mtgdraft-fade-enter-active, .mtgdraft-fade-leave-active {
+.mtgdraft-fade-enter-active {
   transition: opacity 0.7s;
 }
-.mtgdraft-fade-enter, .mtgdraft-fade-leave-to {
+.mtgdraft-fade-enter {
   opacity: 0;
 }
 

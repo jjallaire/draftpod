@@ -8,14 +8,11 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-
-// transitions from navigator to draft
 // name of navigator component?
 
-// use of global event bus is a bit messy, use traditional events?
-// other option is passing draft_id/player_id down to all the components
-
 // overly chatty PACK_TO_PICK (AI ends up calling it as well)
+
+// handle invalid draft id (redirect to /draft)
 
 // TODO: implement separate piles for instants and sorceries in deck
 
