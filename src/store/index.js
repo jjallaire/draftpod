@@ -24,12 +24,12 @@ const store = new Vuex.Store({
 
 export default store;
 
-export function useDraftModule(draft_id) {
+export function useDraftModule(draft_id, options) {
   if (!store._modules.root._children["drafts"]._children[draft_id]) {
     store.registerModule(
       ["drafts", draft_id], 
       draftModule, 
-      { namespaced: true, preserveState: true }
+      { namespaced: true, ...options }
      );
  }
 }

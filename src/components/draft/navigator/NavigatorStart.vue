@@ -53,15 +53,13 @@
 
 <script>
 
-import { mapActions } from 'vuex'
-
-import { START_DRAFT } from '@/store/modules/draft/actions';
-
 import NavigatorPanel from './NavigatorPanel.vue'
-
 import PlayCircleIcon from "vue-material-design-icons/PlayCircleOutline.vue"
 
 import { useDraftModule } from '@/store'
+import { START_DRAFT } from '@/store/modules/draft/actions';
+
+import uuidv4 from 'uuid'
 
 export default {
   name: 'NavigatorStart',
@@ -90,18 +88,16 @@ export default {
   },
 
   methods: {
-    ...mapActions({
-      startDraft: function(dispatch, payload) {
-        return dispatch('drafts/400216FF-796C-4E15-B6FD-592036FECA29/' + START_DRAFT, payload);
-      }
-    }),
     onStartDraft: function() {
       
+      // generate new draft_id
+      let draft_id = uuidv4();
+
       // use draft module
-      useDraftModule("400216FF-796C-4E15-B6FD-592036FECA29");
+      useDraftModule(draft_id);
 
       // start the draft
-      this.startDraft({ 
+      this.$store.dispatch("drafts/" + draft_id + "/" + START_DRAFT, { 
 
         set_code: this.set,
         pick_timer: this.pick_timer,
@@ -110,7 +106,7 @@ export default {
       }).then(() => {
 
         // push state
-        this.$router.push("draft/400216FF-796C-4E15-B6FD-592036FECA29");
+        this.$router.push("draft/" + draft_id);
 
       });
 

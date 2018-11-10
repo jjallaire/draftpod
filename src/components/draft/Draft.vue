@@ -105,7 +105,7 @@ export default {
     let vm = this;
 
     // dynamically register namespace module for this draft it doesn't exist
-    useDraftModule(this.draft_id);
+    useDraftModule(this.draft_id, { preserveState: true });
 
     // setup timer to check for pick status
     this.timer = setInterval(() => {
