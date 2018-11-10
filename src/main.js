@@ -9,8 +9,6 @@ import router from './router'
 import store from './store'
 
 
-// migration actions to mutations when possible
-
 // overly chatty PACK_TO_PICK (AI ends up calling it as well)
 
 // handle invalid draft id (redirect to /draft)
