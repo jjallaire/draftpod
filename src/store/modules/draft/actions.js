@@ -16,7 +16,7 @@ import * as set from './set/'
 export const START_DRAFT = 'START_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
-export const PICK_TIMER = 'PICK_TIMER'
+export const CHECK_PICK_TIME = 'CHECK_PICK_TIME'
 
 export default {
 
@@ -48,7 +48,7 @@ export default {
     });
   },
 
-  [PICK_TIMER]({commit, state}) {
+  [CHECK_PICK_TIME]({commit, state}) {
     
       // auto-pick if we ran out of time 
       let player_id = state.player_id; 

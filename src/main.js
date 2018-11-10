@@ -8,7 +8,6 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// name of PICK_TIMER action
 
 // migration actions to mutations when possible
 
