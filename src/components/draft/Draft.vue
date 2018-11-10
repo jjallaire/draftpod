@@ -115,40 +115,24 @@ export default {
     // update fullscreen state on change
     fscreen.addEventListener('fullscreenchange', this.onFullscreenChange);
 
-    EventBus.$on(Events.CardPackToPick, function(data) {
-      vm.pickCard(data);
-    });
-    EventBus.$on(Events.CardPickToPile, function(data) {
-      vm.pickToPile(data);
-    });
-    EventBus.$on(Events.CardDeckToSideboard, function(data) {
-      vm.deckToSideboard(data);
-    });
-    EventBus.$on(Events.CardSideboardToDeck, function(data) {
-      vm.sideboardToDeck(data);
-    });
-    EventBus.$on(Events.CardSideboardToSideboard, function(data) {
-      vm.sideboardToSideboard(data);
-    });
-    EventBus.$on(Events.CardPileToPile, function(data) {
-      vm.pileToPile(data);
-    });
-    EventBus.$on(Events.LandsChanged, function(data) {
-      vm.setBasicLands(data);
-    });
-    EventBus.$on(Events.LandsAutoDisable, function() {
-      vm.disableAutoLands();
-    });
+    EventBus.$on(Events.CardPackToPick, this.pickCard);
+    EventBus.$on(Events.CardPickToPile, this.pickToPile);
+    EventBus.$on(Events.CardDeckToSideboard, this.deckToSideboard);
+    EventBus.$on(Events.CardSideboardToDeck, this.sideboardToDeck);
+    EventBus.$on(Events.CardSideboardToSideboard, this.sideboardToSideboard);
+    EventBus.$on(Events.CardPileToPile, this.pileToPile);
+    EventBus.$on(Events.LandsChanged, this.setBasicLands);
+    EventBus.$on(Events.LandsAutoDisable, this.disableAutoLands);
   },
 
   destroyed() {
-    EventBus.$off(Events.CardPackToPick);
-    EventBus.$off(Events.CardPickToPile);
-    EventBus.$off(Events.CardDeckToSideboard);
-    EventBus.$off(Events.CardSideboardToDeck);
-    EventBus.$off(Events.CardSideboardToSideboard);
-    EventBus.$off(Events.LandsAutoDisable);
-    EventBus.$off(Events.LandsChanged);
+    EventBus.$off(Events.CardPackToPick, this.pickCard);
+    EventBus.$off(Events.CardPickToPile, this.pickToPile);
+    EventBus.$off(Events.CardDeckToSideboard), this.deckToSideboard;
+    EventBus.$off(Events.CardSideboardToDeck, this.sideboardToDeck);
+    EventBus.$off(Events.CardSideboardToSideboard, this.sideboardToSideboard);
+    EventBus.$off(Events.LandsChanged, this.LandsChanged);
+    EventBus.$off(Events.LandsAutoDisable, this.disableAutoLands);
     fscreen.removeEventListener('fullscreenchange', this.onFullscreenChange);
     clearInterval(this.timer);
   },
