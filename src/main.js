@@ -8,9 +8,6 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-
-// overly chatty PACK_TO_PICK (AI ends up calling it as well)
-
 // handle invalid draft id (redirect to /draft)
 
 // TODO: implement separate piles for instants and sorceries in deck

@@ -6,6 +6,7 @@ import {
   ENTER_DRAFT,
   NEXT_PACK, 
   PACK_TO_PICK, 
+  AI_PICKS,
   PASS_PACKS, 
   SET_PICKS_COMPLETE,
   MOVE_PICKS_TO_DECK,
@@ -92,7 +93,7 @@ function pickCard(commit, state, pick) {
   commit(PACK_TO_PICK, { player_id: player_id, ...pick });
 
   // have other players make their picks
-  aiPicks(commit, state, player_id);
+  commit(AI_PICKS, { player_id })
 
   // check whether the pack is completed
   if (player.draft.pack.length === 0) {
@@ -114,24 +115,6 @@ function pickCard(commit, state, pick) {
     commit(PASS_PACKS);
   }
 }
-
-function aiPicks(commit, state, player_id) {
-  for (let i=0; i<state.players.length; i++) {
-    if (i !== player_id) {
-      let player = state.players[i];
-      let draft = player.draft;
-      let card = set.pick(state.cards.set_code, draft.piles[0], draft.pack);
-      commit(PACK_TO_PICK, { 
-        player_id: i,
-        card: card, 
-        pile_number: 0, 
-        insertBefore: null 
-      });
-    }
-  }
-}
-
-
 
 
 

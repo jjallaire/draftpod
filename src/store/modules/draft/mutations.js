@@ -3,6 +3,7 @@ export const ENTER_DRAFT = 'ENTER_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const NEXT_PACK = 'NEXT_PACK'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
+export const AI_PICKS = 'AI_PICKS'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
 export const DECK_TO_SIDEBOARD = 'DECK_TO_SIDEBOARD'
 export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
@@ -61,17 +62,18 @@ export default {
   },
 
   [PACK_TO_PICK](state, { player_id, card, pile_number, insertBefore }) {
+    packToPick(state, player_id, card, pile_number, insertBefore);
+  },
 
-    // alias paraeters
-    let player = state.players[player_id];
-    let pack = player.draft.pack;
-    let pile = player.draft.piles[pile_number];
-   
-    // remove from pack
-    pack.splice(pack.indexOf(card), 1);
-
-    // add to pile
-    addCardToPile(pile, card, insertBefore);
+  [AI_PICKS](state, { player_id }) {
+    for (let i=0; i<state.players.length; i++) {
+      if (i !== player_id) {
+        let player = state.players[i];
+        let draft = player.draft;
+        let card = set.pick(state.cards.set_code, draft.piles[0], draft.pack);
+        packToPick(state, i, card, 0, null);
+      }
+    }
   },
 
   [PICK_TO_PILE](state, { card, pile_number, insertBefore}) {
@@ -189,6 +191,19 @@ function nextPick(state) {
 
   // set end time
   setPickEndTime(state);
+}
+
+function packToPick(state, player_id, card, pile_number, insertBefore) {
+  // alias parameters
+  let player = state.players[player_id];
+  let pack = player.draft.pack;
+  let pile = player.draft.piles[pile_number];
+
+  // remove from pack
+  pack.splice(pack.indexOf(card), 1);
+
+  // add to pile
+  addCardToPile(pile, card, insertBefore);
 }
 
 function setPickEndTime(state) {
