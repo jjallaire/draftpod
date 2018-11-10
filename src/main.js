@@ -8,7 +8,9 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// awkwardness of startDraft
+// name of PICK_TIMER action
+
+// migration actions to mutations when possible
 
 // overly chatty PACK_TO_PICK (AI ends up calling it as well)
 
