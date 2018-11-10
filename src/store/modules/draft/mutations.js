@@ -1,5 +1,6 @@
 
 export const ENTER_DRAFT = 'ENTER_DRAFT'
+export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const OPEN_PACKS = 'OPEN_PACKS'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
@@ -32,6 +33,10 @@ export default {
       return booster(set_code, cardpool);
     });
     state.options = options;
+  },
+
+  [RESUME_DRAFT](state) {
+    setPickEndTime(state);
   },
 
   [OPEN_PACKS](state, packs) {
@@ -178,7 +183,10 @@ function nextPick(state) {
   state.status.current_pick++;
 
   // set end time
-  
+  setPickEndTime(state);
+}
+
+function setPickEndTime(state) {
   let pick_seconds = 80 - (5 * state.status.current_pick);
   state.status.pick_end_time = new Date().getTime() + 1000 * pick_seconds;
 }

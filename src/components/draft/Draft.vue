@@ -59,7 +59,7 @@ import Deck from './deck/Deck.vue'
 import { PICK_CARD, CHECK_PICK_TIME } from '@/store/modules/draft/actions';
 import { PICK_TO_PILE, DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS, 
-         EXIT_DRAFT } from '@/store/modules/draft/mutations';
+         RESUME_DRAFT, EXIT_DRAFT } from '@/store/modules/draft/mutations';
 
 import { mapState, mapActions, mapMutations } from 'vuex';
 
@@ -106,6 +106,9 @@ export default {
 
     // dynamically register namespace module for this draft it doesn't exist
     useDraftModule(this.draft_id, { preserveState: true });
+
+    // resume draft
+    this.resumeDraft();
 
     // setup timer to check for pick status
     this.timer = setInterval(() => {
@@ -179,6 +182,9 @@ export default {
       }
     }),
     ...mapMutations({
+      resumeDraft(dispatch, payload) {
+        return dispatch(this.namespace + '/' + RESUME_DRAFT, payload);
+      },
       pickToPile(dispatch, payload) {
         return dispatch(this.namespace + '/' + PICK_TO_PILE, payload);
       },
