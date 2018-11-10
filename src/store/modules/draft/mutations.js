@@ -131,9 +131,6 @@ export default {
     // sideboard
     deck.piles[7] = draft.piles[7].slice();
 
-    // clear out draft piles
-    draft.piles = [...Array(8)].map(() => Array());
-
     // sort all deck piles
     deck.piles.forEach((pile) => pile.sort(orderCards));
 
