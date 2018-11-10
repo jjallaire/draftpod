@@ -4,7 +4,7 @@ import axios from 'axios'
 
 import { 
   ENTER_DRAFT,
-  OPEN_PACKS, 
+  NEXT_PACK, 
   PACK_TO_PICK, 
   PASS_PACKS, 
   SET_PICKS_COMPLETE,
@@ -14,13 +14,12 @@ import {
 import * as set from './set/'
 
 export const START_DRAFT = 'START_DRAFT'
-export const NEXT_PACK = 'NEXT_PACK';
 export const PICK_CARD = 'PICK_CARD';
 export const CHECK_PICK_TIME = 'CHECK_PICK_TIME'
 
 export default {
 
-  [START_DRAFT]( { commit, state }, {set_code, pick_timer, pick_analysis} ) {
+  [START_DRAFT]( { commit }, {set_code, pick_timer, pick_analysis} ) {
 
     // eslint-disable-next-line
     return new Promise((resolve, reject) => {
@@ -40,7 +39,7 @@ export default {
           });
 
           // distribute next pack
-          nextPack(commit, state);
+          commit(NEXT_PACK);
 
           // resolve promise
           resolve({});
@@ -100,7 +99,7 @@ function pickCard(commit, state, pick) {
 
     // if we still have packs to go then create the next pack
     if (state.status.current_pack < 1)
-      nextPack(commit, state);
+      commit(NEXT_PACK);
     else {
       // move picks to deck
       commit(MOVE_PICKS_TO_DECK);
@@ -114,17 +113,6 @@ function pickCard(commit, state, pick) {
   } else {
     commit(PASS_PACKS);
   }
-}
-
-function nextPack(commit, state) {
-
-  // grab next set of packs
-  let pack_begin = state.status.current_pack * 8;
-  let pack_end = pack_begin + 8;
-  let packs = state.cards.all_packs.slice(pack_begin, pack_end);
-
-  // set them
-  commit(OPEN_PACKS, packs);
 }
 
 function aiPicks(commit, state, player_id) {

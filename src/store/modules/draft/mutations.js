@@ -1,7 +1,7 @@
 
 export const ENTER_DRAFT = 'ENTER_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
-export const OPEN_PACKS = 'OPEN_PACKS'
+export const NEXT_PACK = 'NEXT_PACK'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
 export const DECK_TO_SIDEBOARD = 'DECK_TO_SIDEBOARD'
@@ -39,12 +39,17 @@ export default {
     setPickEndTime(state);
   },
 
-  [OPEN_PACKS](state, packs) {
-    
+  [NEXT_PACK](state) {
+
+    // grab next set of packs
+    let pack_begin = state.status.current_pack * 8;
+    let pack_end = pack_begin + 8;
+    let packs = state.cards.all_packs.slice(pack_begin, pack_end);
+  
     // distribute packs
     for (let i=0; i<packs.length; i++)
       state.players[i].draft.pack = packs[i];
-    
+
     // update current pack
     state.status.current_pack++;
 
