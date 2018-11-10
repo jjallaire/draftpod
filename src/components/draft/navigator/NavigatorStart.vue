@@ -67,10 +67,6 @@ export default {
   name: 'NavigatorStart',
 
   props: {
-    player_id: {
-      type: Number,
-      required: true
-    },
     parent: {
       type: String,
       default: null

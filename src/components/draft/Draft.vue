@@ -85,10 +85,6 @@ export default {
       type: String,
       required: true
     },
-    player_id: {
-      type: Number,
-      default: 0
-    },
   },
 
   data: function() {
@@ -113,35 +109,35 @@ export default {
 
     // setup timer to check for pick status
     this.timer = setInterval(() => {
-      vm.pickTimer({ player_id: vm.player_id });
+      vm.pickTimer();
     }, 1000);
     
     // update fullscreen state on change
     fscreen.addEventListener('fullscreenchange', this.onFullscreenChange);
 
     EventBus.$on(Events.CardPackToPick, function(data) {
-      vm.pickCard({player_id: vm.player_id, ...data});
+      vm.pickCard(data);
     });
     EventBus.$on(Events.CardPickToPile, function(data) {
-      vm.pickToPile({ player_id: vm.player_id, ...data});
+      vm.pickToPile(data);
     });
     EventBus.$on(Events.CardDeckToSideboard, function(data) {
-      vm.deckToSideboard({ player_id: vm.player_id, ...data});
+      vm.deckToSideboard(data);
     });
     EventBus.$on(Events.CardSideboardToDeck, function(data) {
-      vm.sideboardToDeck({player_id: vm.player_id, ...data});
+      vm.sideboardToDeck(data);
     });
     EventBus.$on(Events.CardSideboardToSideboard, function(data) {
-      vm.sideboardToSideboard({player_id: vm.player_id, ...data});
+      vm.sideboardToSideboard(data);
     });
     EventBus.$on(Events.CardPileToPile, function(data) {
       vm.pileToPile(data);
     });
     EventBus.$on(Events.LandsChanged, function(data) {
-      vm.setBasicLands({player_id: vm.player_id, ...data});
+      vm.setBasicLands(data);
     });
     EventBus.$on(Events.LandsAutoDisable, function() {
-      vm.disableAutoLands({ player_id: vm.player_id });
+      vm.disableAutoLands();
     });
   },
 
@@ -172,7 +168,8 @@ export default {
         return state[NS_DRAFTS][this.draft_id].status;
       },
       player: function(state) {
-        return state[NS_DRAFTS][this.draft_id].players[this.player_id];
+        let player_id = state[NS_DRAFTS][this.draft_id].player_id;
+        return state[NS_DRAFTS][this.draft_id].players[player_id];
       },
     }),
     

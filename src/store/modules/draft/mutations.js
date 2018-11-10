@@ -64,13 +64,15 @@ export default {
     addCardToPile(pile, card, insertBefore);
   },
 
-  [PICK_TO_PILE](state, { player_id, card, pile_number, insertBefore}) {
+  [PICK_TO_PILE](state, { card, pile_number, insertBefore}) {
+    let player_id = state.player_id;
     let draft = state.players[player_id].draft;
     pileToPile(card, pile_number, draft.piles, insertBefore);
   },
 
-  [DECK_TO_SIDEBOARD](state, { player_id, card, insertBefore}) {
+  [DECK_TO_SIDEBOARD](state, { card, insertBefore}) {
     // move the card
+    let player_id = state.player_id;
     let deck = state.players[player_id].deck;
     pileToPile(card, 7, deck.piles, insertBefore);
     // apply auto-lands if necessary
@@ -78,8 +80,9 @@ export default {
       deck.basic_lands = computeAutoLands(deck);
   },
 
-  [SIDEBOARD_TO_DECK](state, { player_id, card }) {
+  [SIDEBOARD_TO_DECK](state, { card }) {
     // remove from sideboard
+    let player_id = state.player_id;
     let deck = state.players[player_id].deck;
     let sideboard = deck.piles[7];
     sideboard.splice(sideboard.indexOf(card), 1);
@@ -93,7 +96,8 @@ export default {
       deck.basic_lands = computeAutoLands(deck);
   },
 
-  [SIDEBOARD_TO_SIDEBOARD](state, { player_id, card, insertBefore }) {
+  [SIDEBOARD_TO_SIDEBOARD](state, { card, insertBefore }) {
+    let player_id = state.player_id;
     let deck = state.players[player_id].deck;
     pileToPile(card, 7, deck.piles, insertBefore);
   },
@@ -121,7 +125,8 @@ export default {
     nextPick(state);
   },
 
-  [MOVE_PICKS_TO_DECK](state, { player_id }) {
+  [MOVE_PICKS_TO_DECK](state) {
+    let player_id = state.player_id;
     let draft = state.players[player_id].draft;
     let deck = state.players[player_id].deck;
     draft.piles.slice(0, 7).forEach(function(pile) {
@@ -143,12 +148,14 @@ export default {
     state.status.picks_complete = true;
   },
 
-  [DISABLE_AUTO_LANDS](state, { player_id }) {
+  [DISABLE_AUTO_LANDS](state) {
+    let player_id = state.player_id;
     let deck = state.players[player_id].deck;
     deck.auto_lands = false;
   },
 
-  [SET_BASIC_LANDS](state, { player_id, color, lands }) {
+  [SET_BASIC_LANDS](state, { color, lands }) {
+    let player_id = state.player_id;
     let deck = state.players[player_id].deck;
     deck.basic_lands[color] = lands;
   },

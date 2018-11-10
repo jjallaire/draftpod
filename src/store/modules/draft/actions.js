@@ -48,9 +48,10 @@ export default {
     });
   },
 
-  [PICK_TIMER]({commit, state}, { player_id }) {
+  [PICK_TIMER]({commit, state}) {
     
-      // auto-pick if we ran out of time  
+      // auto-pick if we ran out of time 
+      let player_id = state.player_id; 
       if (pickTimeExpired(state)) {
 
         // let the ai make the pick
@@ -59,7 +60,6 @@ export default {
 
         // dispatch it and move on to the next pick
         pickCard(commit, state, {
-          player_id: player_id,
           card: card,
           pile_number: 0, 
           insertBefore: null
@@ -86,11 +86,11 @@ function pickTimeExpired(state) {
 function pickCard(commit, state, pick) {
 
   // alias player
-  let player_id = pick.player_id;
+  let player_id = state.player_id;
   let player = state.players[player_id];
   
   // write the pick 
-  commit(PACK_TO_PICK, pick);
+  commit(PACK_TO_PICK, { player_id: player_id, ...pick });
 
   // have other players make their picks
   aiPicks(commit, state, player_id);
@@ -103,11 +103,11 @@ function pickCard(commit, state, pick) {
       nextPack(commit, state);
     else {
       // move picks to deck
-      commit(MOVE_PICKS_TO_DECK, { player_id });
+      commit(MOVE_PICKS_TO_DECK);
 
       // delay to allow UI state to update before starting
       // completion-based animations
-      setTimeout(()=> { commit(SET_PICKS_COMPLETE, { player_id }); }, 100)
+      setTimeout(()=> { commit(SET_PICKS_COMPLETE); }, 100)
     }
 
   // pass the packs
@@ -134,7 +134,7 @@ function aiPicks(commit, state, player_id) {
       let draft = player.draft;
       let card = set.pick(state.cards.set_code, draft.piles[0], draft.pack);
       commit(PACK_TO_PICK, { 
-        player_id: i, 
+        player_id: i,
         card: card, 
         pile_number: 0, 
         insertBefore: null 

@@ -9,8 +9,8 @@
 <div class="container">
 
 <div class="mtgdraft-navigator">
-  <NavigatorResume  />
-  <NavigatorStart :player_id="player_id"  />
+  <NavigatorResume />
+  <NavigatorStart />
   <NavigatorPrevious />   
 </div>
 
@@ -29,12 +29,6 @@ import NavigatorPrevious from './NavigatorPrevious.vue'
 
 export default {
   name: 'Navigator',
-  props: {
-    player_id: {
-      type: Number,
-      default: 0
-    }
-  },
 
   components: {
     Navbar, NavigatorResume, NavigatorStart, NavigatorPrevious

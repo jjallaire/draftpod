@@ -8,7 +8,7 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// awkwardness of startDraft, role of player_id
+// awkwardness of startDraft
 
 // overly chatty PACK_TO_PICK (AI ends up calling it as well)
 

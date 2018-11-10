@@ -2,6 +2,7 @@
 
 export default function() {
   return {
+
     // cards
     cards: {
       set_code: null,
@@ -24,6 +25,7 @@ export default function() {
     },
 
     // players
+    player_id: 0,
     players: [...Array(8)].map(function() {
       return {
         draft: {
