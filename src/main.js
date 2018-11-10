@@ -8,6 +8,8 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
+// awkwardness of startDraft, role of player_id
+
 // name of navigator component?
 
 // overly chatty PACK_TO_PICK (AI ends up calling it as well)
@@ -20,6 +22,8 @@ import store from './store'
 // (currently doesn't survive reload)
 
 // TODO: flicker when pack is loading
+
+// TODO: handle failed axios call / promise
 
 // TODO: cleanup Pile (code too intermingled)
 

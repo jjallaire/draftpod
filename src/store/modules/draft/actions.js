@@ -22,25 +22,30 @@ export default {
 
   [START_DRAFT]( { commit, state }, {set_code, pick_timer, pick_analysis} ) {
 
-    // download cardpool
-    axios.get('/sets/' + set_code + '/cards.json')
-      .then(response => {
+    // eslint-disable-next-line
+    return new Promise((resolve, reject) => {
 
-        // initialize
-        commit(ENTER_DRAFT, {
-          set_code,
-          cardpool: response.data,
-          options: {
-            pick_timer,
-            pick_analysis,
-          }
+      // download cardpool
+      axios.get('/sets/' + set_code + '/cards.json')
+        .then(response => {
+
+          // initialize
+          commit(ENTER_DRAFT, {
+            set_code,
+            cardpool: response.data,
+            options: {
+              pick_timer,
+              pick_analysis,
+            }
+          });
+
+          // distribute next pack
+          nextPack(commit, state);
+
+          // resolve promise
+          resolve({});
         });
-
-        // distribute next pack
-        nextPack(commit, state);
-      });
-
-
+    });
   },
 
   [PICK_TIMER]({commit, state}, { player_id }) {

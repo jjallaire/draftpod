@@ -106,14 +106,19 @@ export default {
 
       // start the draft
       this.startDraft({ 
+
         set_code: this.set,
         pick_timer: this.pick_timer,
         pick_analysis: this.pick_analysis,
+      
+      }).then(() => {
+
+        // push state
+        this.$router.push("draft/400216FF-796C-4E15-B6FD-592036FECA29");
+
       });
 
-      // push state
-      this.$router.push("draft/400216FF-796C-4E15-B6FD-592036FECA29");
-
+     
     },
   }
 
