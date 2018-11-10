@@ -117,9 +117,7 @@ export default {
     }, 1000);
     
     // update fullscreen state on change
-    fscreen.onfullscreenchange = function() {
-      vm.fullscreen = fscreen.fullscreenElement !== null;
-    };
+    fscreen.addEventListener('fullscreenchange', this.onFullscreenChange);
 
     EventBus.$on(Events.CardPackToPick, function(data) {
       vm.pickCard({player_id: vm.player_id, ...data});
@@ -155,6 +153,7 @@ export default {
     EventBus.$off(Events.CardSideboardToSideboard);
     EventBus.$off(Events.LandsAutoDisable);
     EventBus.$off(Events.LandsChanged);
+    fscreen.removeEventListener('fullscreenchange', this.onFullscreenChange);
     clearInterval(this.timer);
   },
 
@@ -227,6 +226,9 @@ export default {
         vm.exitDraft();
         vm.$router.push("/draft");
       });
+    },
+    onFullscreenChange: function() {
+      this.fullscreen = fscreen.fullscreenElement !== null;
     },
     onFullscreenToggle: function() {
       if (!this.fullscreen)
