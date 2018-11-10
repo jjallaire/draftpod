@@ -373,10 +373,10 @@ function pileToPile(card, pile_number, piles, insertBefore) {
         insertBefore = insertBefore - 1;
       }
     }
-});
+  });
 
-// add to new pile
-addCardToPile(pile, card, insertBefore);
+  // add to new pile
+  addCardToPile(pile, card, insertBefore);
 }
 
 function addCardToPile(pile, card, insertBefore) {
