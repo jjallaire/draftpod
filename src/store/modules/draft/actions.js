@@ -1,4 +1,5 @@
 
+import Vue from 'vue'
 
 import axios from 'axios'
 
@@ -89,8 +90,9 @@ export default {
         // move picks to deck
         commit(MOVE_PICKS_TO_DECK);
 
-        // set picks complete
-        commit(SET_PICKS_COMPLETE);
+        // set picks complete (use nextTick so that the pack is cleared
+        // out before the end of draft animation starts)
+        Vue.nextTick(() => commit(SET_PICKS_COMPLETE));
       }
 
     // pass the packs
