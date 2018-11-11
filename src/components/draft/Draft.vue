@@ -128,7 +128,7 @@ export default {
     EventBus.$on(Events.LandsAutoDisable, this.disableAutoLands);
   },
 
-  destroyed() {
+  beforeDestroy() {
     EventBus.$off(Events.CardPackToPick, this.pickCard);
     EventBus.$off(Events.CardPickToPile, this.pickToPile);
     EventBus.$off(Events.CardDeckToSideboard), this.deckToSideboard;
