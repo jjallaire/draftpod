@@ -48,7 +48,7 @@ export default {
     });
   },
 
-  [CHECK_PICK_TIME]({commit, state}) {
+  [CHECK_PICK_TIME]({state, dispatch}) {
     
       // auto-pick if we ran out of time 
       let player_id = state.player_id; 
@@ -59,7 +59,7 @@ export default {
         let card = set.pick(state.cards.set_code, draft.piles[0], draft.pack);
 
         // dispatch it and move on to the next pick
-        pickCard(commit, state, {
+        dispatch(PICK_CARD, {
           card: card,
           pile_number: 0, 
           insertBefore: null
@@ -68,7 +68,35 @@ export default {
   },
 
   [PICK_CARD]({ commit, state }, pick) {
-    pickCard(commit, state, pick);
+
+    // alias player
+    let player_id = state.player_id;
+    let player = state.players[player_id];
+    
+    // write the pick 
+    commit(PACK_TO_PICK, { player_id: player_id, ...pick });
+
+    // have other players make their picks
+    commit(AI_PICKS, { player_id })
+
+    // check whether the pack is completed
+    if (player.draft.pack.length === 0) {
+
+      // if we still have packs to go then create the next pack
+      if (state.status.current_pack < 1)
+        commit(NEXT_PACK);
+      else {
+        // move picks to deck
+        commit(MOVE_PICKS_TO_DECK);
+
+        // set picks complete
+        commit(SET_PICKS_COMPLETE);
+      }
+
+    // pass the packs
+    } else {
+      commit(PASS_PACKS);
+    }
   },
 };
 
@@ -82,39 +110,5 @@ function pickTimeExpired(state) {
           status.current_pick > 0 &&
           time_remaining < 0;
 }
-
-function pickCard(commit, state, pick) {
-
-  // alias player
-  let player_id = state.player_id;
-  let player = state.players[player_id];
-  
-  // write the pick 
-  commit(PACK_TO_PICK, { player_id: player_id, ...pick });
-
-  // have other players make their picks
-  commit(AI_PICKS, { player_id })
-
-  // check whether the pack is completed
-  if (player.draft.pack.length === 0) {
-
-    // if we still have packs to go then create the next pack
-    if (state.status.current_pack < 1)
-      commit(NEXT_PACK);
-    else {
-      // move picks to deck
-      commit(MOVE_PICKS_TO_DECK);
-
-      // delay to allow UI state to update before starting
-      // completion-based animations
-      setTimeout(()=> { commit(SET_PICKS_COMPLETE); }, 100)
-    }
-
-  // pass the packs
-  } else {
-    commit(PASS_PACKS);
-  }
-}
-
 
 
