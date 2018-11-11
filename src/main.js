@@ -8,7 +8,7 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: picks seem quite slow, profile
+// TODO: picks seem quite slow, profile (PASS_PACKS and AI_PICKS quite slow)
 
 // TODO: implement separate piles for instants and sorceries in deck
 
