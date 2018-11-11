@@ -8,8 +8,6 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// handle invalid draft id (redirect to /draft)
-
 // TODO: implement separate piles for instants and sorceries in deck
 
 // TODO: color_order should be stored with the deck in DeckLands 
