@@ -10,9 +10,11 @@ import store from './store'
 
 // TODO: picks seem quite slow, profile (PASS_PACKS and AI_PICKS quite slow)
 
+// TODO: bigger drag target for picks (more depth or maybe entire area & calc pile?)
+
 // TODO: implement separate piles for instants and sorceries in deck
 
-// TODO: color_order should be stored with the deck in DeckLands 
+// TOO: color_order should be stored with the deck in DeckLands 
 // (currently doesn't survive reload)
 
 // TODO: flicker when pack is loading
