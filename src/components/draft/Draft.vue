@@ -3,45 +3,45 @@
   <transition name="mtgdraft-fade">
   <div>
 
-  <Navbar> 
-   
-    <span class="navbar-text">{{ cards.set_name }} &mdash; 
-      <span v-if="status.picks_complete">Deck Construction</span>
-      <span v-else>
-        Pack {{ status.current_pack }}, Pick {{ status.current_pick }}
-        <PickTimer v-if="options.pick_timer" :pick_end_time="status.pick_end_time" />
-      </span>
-    </span> 
-   
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link icon-link">
-          <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link icon-link">
-          <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="onFullscreenToggle"/>
-          <FullScreenIcon v-else title="Fullscreen" @click.native="onFullscreenToggle"/>
-        </a>
-      </li>
-    </ul> 
-   
-  </Navbar>
+    <Navbar> 
+    
+      <span class="navbar-text">{{ cards.set_name }} &mdash; 
+        <span v-if="status.picks_complete">Deck Construction</span>
+        <span v-else>
+          Pack {{ status.current_pack }}, Pick {{ status.current_pick }}
+          <PickTimer v-if="options.pick_timer" :pick_end_time="status.pick_end_time" />
+        </span>
+      </span> 
+    
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link icon-link">
+            <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link icon-link">
+            <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="onFullscreenToggle"/>
+            <FullScreenIcon v-else title="Fullscreen" @click.native="onFullscreenToggle"/>
+          </a>
+        </li>
+      </ul> 
+    
+    </Navbar>
 
-  <div class="mtgdraft bg-secondary">
-      <div class="mtgdraft-cards">
-        <transition name="mtgpack-hide">
-          <Pack v-if="!status.picks_complete" :pack="player.draft.pack"/>
-        </transition>
-        <Pick v-if="!status.picks_complete" 
-              :draft="player.draft" 
-              :pick_analysis="options.pick_analysis"/>
-        <Deck v-else :deck="player.deck"/>
-      </div>
+    <div class="mtgdraft bg-secondary">
+        <div class="mtgdraft-cards">
+          <transition name="mtgpack-hide">
+            <Pack v-if="!status.picks_complete" :pack="player.draft.pack"/>
+          </transition>
+          <Pick v-if="!status.picks_complete" 
+                :draft="player.draft" 
+                :pick_analysis="options.pick_analysis"/>
+          <Deck v-else :deck="player.deck"/>
+        </div>
 
-      <Infobar :cards="active_cards"/>
-  </div>
+        <Infobar :cards="active_cards"/>
+    </div>
   
   </div>
   </transition>
