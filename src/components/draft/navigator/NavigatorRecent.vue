@@ -2,7 +2,7 @@
 
 <template>
 
-<NavigatorPanel name="previous-drafts" caption="Previous Drafts" :parent="parent" :show="show">
+<NavigatorPanel name="recent-drafts" caption="Recent Drafts" :parent="parent" :show="show">
   <template slot="icon"><HistoryIcon /></template>
 
   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
@@ -24,7 +24,7 @@ import NavigatorPanel from './NavigatorPanel.vue'
 import HistoryIcon from "vue-material-design-icons/History.vue"
 
 export default {
-  name: 'NavigatorPrevious',
+  name: 'NavigatorRecent',
 
   props: {
     parent: {

@@ -11,7 +11,7 @@
 <div class="mtgdraft-navigator">
   <NavigatorResume />
   <NavigatorStart />
-  <NavigatorPrevious />   
+  <NavigatorRecent />   
 </div>
 
 </div>
@@ -25,13 +25,13 @@
 import Navbar from '@/components/Navbar.vue'
 import NavigatorResume from './NavigatorResume.vue'
 import NavigatorStart from './NavigatorStart.vue'
-import NavigatorPrevious from './NavigatorPrevious.vue'
+import NavigatorRecent from './NavigatorRecent.vue'
 
 export default {
   name: 'Navigator',
 
   components: {
-    Navbar, NavigatorResume, NavigatorStart, NavigatorPrevious
+    Navbar, NavigatorResume, NavigatorStart, NavigatorRecent
   },
 }
 

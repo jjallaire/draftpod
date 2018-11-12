@@ -25,6 +25,10 @@ import store from './store'
 
 // TODO: some additional gradiants
 
+// TODO: try smaller card sizes
+
+// TODO: resume/new/recent (navigator)
+
 Vue.config.productionTip = false
 
 new Vue({
