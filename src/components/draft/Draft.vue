@@ -5,7 +5,7 @@
 
   <Navbar> 
    
-    <span v-if="started" class="navbar-text">{{ cards.set_name }} &mdash; 
+    <span class="navbar-text">{{ cards.set_name }} &mdash; 
       <span v-if="status.picks_complete">Deck Construction</span>
       <span v-else>
         Pack {{ status.current_pack }}, Pick {{ status.current_pick }}
@@ -13,7 +13,7 @@
       </span>
     </span> 
    
-    <ul v-if="started" class="navbar-nav">
+    <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link icon-link">
           <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
@@ -144,9 +144,6 @@ export default {
     ...mapState({
       cards: function(state) {
         return state[NS_DRAFTS][this.draft_id].cards;
-      },
-      started: function() {
-        return this.status.current_pack > 0;
       },
       options: function(state) {
         return state[NS_DRAFTS][this.draft_id].options;
