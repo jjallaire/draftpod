@@ -201,7 +201,7 @@ function cardInsertLocation(data, event) {
 .mtgpile, .mtgpileseparator {
   display: inline-block;
   position: relative;
-  min-height: 300px;
+  min-height: 250px;
   margin-right: 4px;
 }
 .mtgpile {
