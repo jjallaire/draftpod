@@ -52,11 +52,10 @@ export default {
   [CHECK_PICK_TIME]({state, dispatch}) {
     
       // auto-pick if we ran out of time 
-      let player_id = state.player_id; 
       if (pickTimeExpired(state)) {
 
         // let the ai make the pick
-        let draft = state.players[player_id].draft;
+        let draft = state.draft;
         let card = set.pick(state.cards.set_code, draft.piles[0], draft.pack);
 
         // dispatch it and move on to the next pick
@@ -69,19 +68,15 @@ export default {
   },
 
   [PICK_CARD]({ commit, state }, pick) {
-
-    // alias player
-    let player_id = state.player_id;
-    let player = state.players[player_id];
-    
+ 
     // write the pick 
-    commit(PACK_TO_PICK, { player_id: player_id, ...pick });
+    commit(PACK_TO_PICK, pick);
 
     // have other players make their picks
-    commit(AI_PICKS, { player_id })
+    commit(AI_PICKS);
 
     // check whether the pack is completed
-    if (player.draft.pack.length === 0) {
+    if (state.draft.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
       if (state.status.current_pack < 1)

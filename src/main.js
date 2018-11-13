@@ -8,7 +8,6 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: picks seem quite slow, profile (PASS_PACKS and AI_PICKS quite slow)
 
 // TODO: bigger drag target for picks (more depth or maybe entire area & calc pile?)
 
@@ -18,6 +17,7 @@ import store from './store'
 // (currently doesn't survive reload)
 
 // TODO: flicker when pack is loading
+// TODO: card preview targets after drag and pass pack are off
 
 // TODO: handle failed axios call / promise
 
@@ -26,7 +26,7 @@ import store from './store'
 
 // TODO: resume/new/recent (navigator)
 
-// TODO: card preview targets after drag and pass pack are off
+
 
 Vue.config.productionTip = false
 

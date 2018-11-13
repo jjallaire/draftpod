@@ -24,26 +24,39 @@ export default function() {
       picks_complete: false,
     },
 
-    // players
-    player_id: 0,
-    players: [...Array(8)].map(function() {
+    // player draft
+    draft: playerDraft(),
+
+    // player data
+    deck: playerDeck(),
+
+    // other players
+    players: [...Array(7)].map(function() {
       return {
-        draft: {
-          pack: [],
-          piles: [...Array(8)].map(() => Array()),
-        },
-        deck: {
-          piles: [...Array(8)].map(() => Array()),
-          basic_lands: {
-            R: 0,
-            W: 0,
-            U: 0,
-            B: 0,
-            G: 0
-          },
-          auto_lands: true
-        },
+        draft: playerDraft(),
+        deck: playerDeck(),
       }
     })
+  }
+}
+
+function playerDraft() {
+  return {
+    pack: [],
+    piles: [...Array(8)].map(() => Array()),
+  }
+}
+
+function playerDeck() {
+  return {
+    piles: [...Array(8)].map(() => Array()),
+    basic_lands: {
+      R: 0,
+      W: 0,
+      U: 0,
+      B: 0,
+      G: 0
+    },
+    auto_lands: true
   }
 }

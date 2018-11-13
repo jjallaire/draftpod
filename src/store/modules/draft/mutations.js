@@ -48,8 +48,9 @@ export default {
     let packs = state.cards.all_packs.slice(pack_begin, pack_end);
   
     // distribute packs
-    for (let i=0; i<packs.length; i++)
-      state.players[i].draft.pack = packs[i];
+    state.draft.pack = packs[0];
+    for (let i=1; i<packs.length; i++)
+      state.players[i-1].draft.pack = packs[i];
 
     // update current pack
     state.status.current_pack++;
@@ -61,31 +62,29 @@ export default {
     nextPick(state);
   },
 
-  [PACK_TO_PICK](state, { player_id, card, pile_number, insertBefore }) {
-    packToPick(state, player_id, card, pile_number, insertBefore);
+  [PACK_TO_PICK](state, { card, pile_number, insertBefore }) {
+    let pack = state.draft.pack;
+    let pile = state.draft.piles[pile_number];
+    packToPick(pack, pile, card, insertBefore);
   },
 
-  [AI_PICKS](state, { player_id }) {
+  [AI_PICKS](state) {
     for (let i=0; i<state.players.length; i++) {
-      if (i !== player_id) {
-        let player = state.players[i];
-        let draft = player.draft;
-        let card = set.pick(state.cards.set_code, draft.piles[0], draft.pack);
-        packToPick(state, i, card, 0, null);
-      }
+      let player = state.players[i];
+      let pack = player.draft.pack;
+      let pile = player.draft.piles[0];
+      let card = set.pick(state.cards.set_code, pile, pack);
+      packToPick(pack, pile, card, null);
     }
   },
 
   [PICK_TO_PILE](state, { card, pile_number, insertBefore}) {
-    let player_id = state.player_id;
-    let draft = state.players[player_id].draft;
-    pileToPile(card, pile_number, draft.piles, insertBefore);
+    pileToPile(card, pile_number, state.draft.piles, insertBefore);
   },
 
   [DECK_TO_SIDEBOARD](state, { card, insertBefore}) {
     // move the card
-    let player_id = state.player_id;
-    let deck = state.players[player_id].deck;
+    let deck = state.deck;
     pileToPile(card, 7, deck.piles, insertBefore);
     // apply auto-lands if necessary
     if (deck.auto_lands)
@@ -94,8 +93,7 @@ export default {
 
   [SIDEBOARD_TO_DECK](state, { card }) {
     // remove from sideboard
-    let player_id = state.player_id;
-    let deck = state.players[player_id].deck;
+    let deck = state.deck;
     let sideboard = deck.piles[7];
     sideboard.splice(sideboard.indexOf(card), 1);
 
@@ -109,28 +107,30 @@ export default {
   },
 
   [SIDEBOARD_TO_SIDEBOARD](state, { card, insertBefore }) {
-    let player_id = state.player_id;
-    let deck = state.players[player_id].deck;
+    let deck = state.deck;
     pileToPile(card, 7, deck.piles, insertBefore);
   },
 
   [PASS_PACKS](state) {
 
+    // compose array of all players
+    let players = [{ draft: state.draft, deck: state.deck }].concat(state.players);
+
     // copy existing packs
-    let packs = state.players.map((player) => player.draft.pack);
+    let packs = players.map((player) => player.draft.pack.slice());
 
     // pass pack
     if (state.status.current_pack === 2) {
       // pass right
       for (let i=(packs.length-1); i>0; i--)
-        state.players[i].draft.pack = packs[i-1];
-      state.players[0].draft.pack = packs[packs.length-1];
+        players[i].draft.pack = packs[i-1];
+      players[0].draft.pack = packs[packs.length-1];
 
     } else {
       // pass left
       for (let i=0; i<(packs.length-1); i++)
-        state.players[i].draft.pack = packs[i+1];
-      state.players[packs.length-1].draft.pack = packs[0];
+        players[i].draft.pack = packs[i+1];
+      players[packs.length-1].draft.pack = packs[0];
     }
 
     // move to next pick
@@ -138,9 +138,8 @@ export default {
   },
 
   [MOVE_PICKS_TO_DECK](state) {
-    let player_id = state.player_id;
-    let draft = state.players[player_id].draft;
-    let deck = state.players[player_id].deck;
+    let draft = state.draft;
+    let deck = state.deck;
     draft.piles.slice(0, 7).forEach(function(pile) {
       pile.forEach((c) => cardToDeckPile(c, deck));
     });
@@ -161,14 +160,12 @@ export default {
   },
 
   [DISABLE_AUTO_LANDS](state) {
-    let player_id = state.player_id;
-    let deck = state.players[player_id].deck;
+    let deck = state.deck;
     deck.auto_lands = false;
   },
 
   [SET_BASIC_LANDS](state, { color, lands }) {
-    let player_id = state.player_id;
-    let deck = state.players[player_id].deck;
+    let deck = state.deck;
     deck.basic_lands[color] = lands;
   },
 
@@ -193,11 +190,7 @@ function nextPick(state) {
   setPickEndTime(state);
 }
 
-function packToPick(state, player_id, card, pile_number, insertBefore) {
-  // alias parameters
-  let player = state.players[player_id];
-  let pack = player.draft.pack;
-  let pile = player.draft.piles[pile_number];
+function packToPick(pack, pile, card, insertBefore) {
 
   // remove from pack
   pack.splice(pack.indexOf(card), 1);
