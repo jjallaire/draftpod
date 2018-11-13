@@ -8,13 +8,11 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-
-
-// TODO: card preview targets after drag and pass pack are off
-// TODO: try smaller card sizes
 // TODO: resume/new/recent (navigator)
 
 // TODO: implement separate piles for instants and sorceries in deck
+
+// TODO: try smaller card sizes
 // TODO: flicker when pack is loading
 
 
