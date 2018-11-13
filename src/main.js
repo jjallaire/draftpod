@@ -9,6 +9,9 @@ import router from './router'
 import store from './store'
 
 // TODO: storage capacity for localStorage
+//   - limit recents
+//   - clear out packs as they are used
+//   - clear out other players as they are used
 
 // TODO: resume/new/recent (navigator)
 
