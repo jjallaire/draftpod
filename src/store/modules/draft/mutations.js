@@ -19,7 +19,6 @@ import uuidv4 from 'uuid'
 import * as set from './set/'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
-import initial_state from './state'
 
 const local_images = false
 
