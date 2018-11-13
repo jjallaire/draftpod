@@ -3,6 +3,9 @@
 export default function() {
   return {
 
+    // date
+    start_time: new Date().getTime(), 
+
     // cards
     cards: {
       set_code: null,
