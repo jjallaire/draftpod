@@ -46,31 +46,31 @@ export default {
           color: "W",
           name: "Plains",
           img: "/images/mana-white.svg",
-          count: this.deck.basic_lands.W,
+          count: this.deck.lands.basic.W,
         },
         {
           color: "B",
           name: "Swamp",
           img: "/images/mana-black.svg",
-          count: this.deck.basic_lands.B,
+          count: this.deck.lands.basic.B,
         },
         {
           color: "U",
           name: "Island",
           img: "/images/mana-blue.svg",
-          count: this.deck.basic_lands.U,
+          count: this.deck.lands.basic.U,
         },
         {
           color: "R",
           name: "Mountain",
           img: "/images/mana-red.svg",
-          count: this.deck.basic_lands.R,
+          count: this.deck.lands.basic.R,
         },
         {
           color: "G",
           name: "Forest",
           img: "/images/mana-green.svg",
-          count: this.deck.basic_lands.G,
+          count: this.deck.lands.basic.G,
         },
       ];
 
@@ -97,7 +97,7 @@ export default {
       };
 
       // if we are in auto-lands then prompt
-      if (this.deck.auto_lands) {
+      if (this.deck.lands.auto) {
         
         messagebox.confirm(
           "<p>Editing the number of lands will disable auto-lands " + 
@@ -116,7 +116,7 @@ export default {
           },
           () => {
             // revert to previous value
-            event.target.value = this.deck.basic_lands[color];
+            event.target.value = this.deck.lands.basic[color];
           });
        
       } else {
@@ -130,10 +130,10 @@ export default {
     handleLandBlur: function(color, event) {
       // if we aren't in auto-land mode then losing focus with an empty
       // field resets to the previously entered value
-      if (!this.deck.auto_lands) {
+      if (!this.deck.lands.auto) {
         let lands = parseInt(event.target.value);
         if (isNaN(lands))
-          event.target.value = this.deck.basic_lands[color];
+          event.target.value = this.deck.lands.basic[color];
       }
       
     }

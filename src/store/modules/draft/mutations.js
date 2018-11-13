@@ -87,8 +87,8 @@ export default {
     let deck = state.deck;
     pileToPile(card, 7, deck.piles, insertBefore);
     // apply auto-lands if necessary
-    if (deck.auto_lands)
-      deck.basic_lands = computeAutoLands(deck);
+    if (deck.lands.auto)
+      deck.lands.basic = computeAutoLands(deck);
   },
 
   [SIDEBOARD_TO_DECK](state, { card }) {
@@ -102,8 +102,8 @@ export default {
     pile.sort(orderCards);
 
     // apply auto-lands if necessary
-    if (deck.auto_lands)
-      deck.basic_lands = computeAutoLands(deck);
+    if (deck.lands.auto)
+      deck.lands.basic = computeAutoLands(deck);
   },
 
   [SIDEBOARD_TO_SIDEBOARD](state, { card, insertBefore }) {
@@ -151,7 +151,7 @@ export default {
     deck.piles.forEach((pile) => pile.sort(orderCards));
 
     // apply auto lands
-    deck.basic_lands = computeAutoLands(deck);
+    deck.lands.basic = computeAutoLands(deck);
   },
 
   [SET_PICKS_COMPLETE](state) {
@@ -161,12 +161,12 @@ export default {
 
   [DISABLE_AUTO_LANDS](state) {
     let deck = state.deck;
-    deck.auto_lands = false;
+    deck.lands.auto = false;
   },
 
   [SET_BASIC_LANDS](state, { color, lands }) {
     let deck = state.deck;
-    deck.basic_lands[color] = lands;
+    deck.lands.basic[color] = lands;
   },
 
   [EXIT_DRAFT](state) {

@@ -14,7 +14,7 @@ export function deckCards(deck) {
 } 
 
 export function deckLandCount(deck) {
-  let basic_lands = deck.basic_lands;
+  let basic_lands = deck.lands.basic;
   return deck.piles[6].length + sumValues(basic_lands);
 }
 
@@ -28,11 +28,11 @@ export function deckList(deck) {
     // special lands
     deck.piles[6].map(card_name),
     // basic lands
-    Array(deck.basic_lands.R).fill("Mountain"),
-    Array(deck.basic_lands.W).fill("Plains"),
-    Array(deck.basic_lands.U).fill("Island"),
-    Array(deck.basic_lands.B).fill("Swamp"),
-    Array(deck.basic_lands.G).fill("Forest")
+    Array(deck.lands.basic.R).fill("Mountain"),
+    Array(deck.lands.basic.W).fill("Plains"),
+    Array(deck.lands.basic.U).fill("Island"),
+    Array(deck.lands.basic.B).fill("Swamp"),
+    Array(deck.lands.basic.G).fill("Forest")
   );
 
   // sideboard

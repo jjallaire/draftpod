@@ -50,13 +50,16 @@ function playerDraft() {
 function playerDeck() {
   return {
     piles: [...Array(8)].map(() => Array()),
-    basic_lands: {
-      R: 0,
-      W: 0,
-      U: 0,
-      B: 0,
-      G: 0
-    },
-    auto_lands: true
+    lands: {
+      basic: {
+        R: 0,
+        W: 0,
+        U: 0,
+        B: 0,
+        G: 0
+      },
+      auto: true,
+      color_order: null
+    }
   }
 }
