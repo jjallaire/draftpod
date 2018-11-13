@@ -9,17 +9,13 @@ import router from './router'
 import store from './store'
 
 
-// TODO: implement separate piles for instants and sorceries in deck
 
-// TODO: flicker when pack is loading
 // TODO: card preview targets after drag and pass pack are off
-
-// TODO: handle failed axios call / promise
-
-// TODO: cleanup Pile (code too intermingled)
 // TODO: try smaller card sizes
-
 // TODO: resume/new/recent (navigator)
+
+// TODO: implement separate piles for instants and sorceries in deck
+// TODO: flicker when pack is loading
 
 
 
