@@ -10,7 +10,7 @@ const debug = process.env.NODE_ENV !== 'production'
 Vue.use(Vuex)
 
 const vuexPersist = new VuexPersist({
-  key: 'mtgdrafter-E4BDAAABBBFFFBTTT',
+  key: 'mtgdrafter-E4BDAAABBBCCCFFFBTTT',
   storage: window.localStorage
 });
 

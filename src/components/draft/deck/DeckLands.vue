@@ -32,12 +32,6 @@ export default {
     }
   },
 
-  data: function() {
-    return {
-      color_order: null,
-    }
-  },
-
   computed: {
 
     colors: function() {
@@ -82,6 +76,10 @@ export default {
       } else {
         return colors.sort((a, b) => b.count - a.count);
       }
+    },
+
+    color_order: function() {
+      return this.deck.lands.color_order;
     }
   },
 
@@ -105,11 +103,9 @@ export default {
           "Do you want to disable auto-lands?", 
           () => {
             // disable auto-lands
-            EventBus.$emit(Events.LandsAutoDisable);
-           
-            // fix the current color order so colors don't jump around
-            // during manual editing
-            this.color_order = this.colors.map((count) => count.color);
+            EventBus.$emit(Events.LandsAutoDisable, {
+              color_order: this.colors.map((count) => count.color)
+            });
               
             // apply the user's original input
             applyInput();

@@ -11,9 +11,6 @@ import store from './store'
 
 // TODO: implement separate piles for instants and sorceries in deck
 
-// TOO: color_order should be stored with the deck in DeckLands 
-// (currently doesn't survive reload)
-
 // TODO: flicker when pack is loading
 // TODO: card preview targets after drag and pass pack are off
 

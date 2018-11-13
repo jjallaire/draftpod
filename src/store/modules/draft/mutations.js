@@ -159,9 +159,10 @@ export default {
     state.status.picks_complete = true;
   },
 
-  [DISABLE_AUTO_LANDS](state) {
+  [DISABLE_AUTO_LANDS](state, { color_order }) {
     let deck = state.deck;
     deck.lands.auto = false;
+    deck.lands.color_order = color_order;
   },
 
   [SET_BASIC_LANDS](state, { color, lands }) {
