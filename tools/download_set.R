@@ -67,4 +67,4 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
   
 }
 
-download_set("grn", sets_dir = "~/projects/mtgdrafter/public/sets", images = FALSE)
+download_set("grn", sets_dir = "~/projects/mtgdrafter/tools/sets", images = TRUE)
