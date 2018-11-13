@@ -14,6 +14,8 @@ import store from './store'
 
 // TODO: flicker when pack is loading
 
+// TODO: initial draft ai
+
 Vue.config.productionTip = false
 
 new Vue({
