@@ -19,9 +19,9 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
     
     # get image uri
     if (!is.null(card$image_uris)) {
-      image_uri <- card$image_uris$png
+      image_uri <- card$image_uris$normal
     } else if (!is.null(card$card_faces)) {
-      image_uri <- card$card_faces[[1]]$image_uris$png
+      image_uri <- card$card_faces[[1]]$image_uris$normal
     } else {
       str(card)
       stop("Unable to find image_uri for card")
@@ -67,4 +67,4 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
   
 }
 
-download_set("grn", sets_dir = "~/projects/mtgdrafter/public/sets", images = TRUE)
+download_set("grn", sets_dir = "~/projects/mtgdrafter/public/sets", images = FALSE)

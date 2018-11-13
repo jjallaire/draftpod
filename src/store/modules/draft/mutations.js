@@ -22,7 +22,7 @@ import * as filters from './card-filters'
 import * as selectors from './selectors'
 import initial_state from './state'
 
-const local_images = true
+const local_images = false
 
 export default {
 
