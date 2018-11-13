@@ -105,10 +105,16 @@ export default {
   line-height: 1.4;
   padding: 0.25rem;
   margin-top: 0;
-  margin-left: 0.2em;
+  margin-left: 0.4em;
   padding-left: 0.5rem;
   padding-right: 0.9rem;
+  border: none;
+  background-image: linear-gradient(#8a9196, #7A8288 60%, #70787d) !important;
+  background-repeat: no-repeat;
 }
+
+
+
 
 .mtgdraft .mtgdraft-deck .card-header .btn-sm svg {
   width: 16px;
