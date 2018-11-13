@@ -8,6 +8,8 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
+// TODO: storage capacity for localStorage
+
 // TODO: resume/new/recent (navigator)
 
 // TODO: implement separate piles for instants and sorceries in deck

@@ -9,9 +9,9 @@
 <div class="container">
 
 <div class="mtgdraft-navigator">
-  <NavigatorResume />
+  <NavigatorResume v-if="draft_in_progress" :draft="draft_in_progress" />
   <NavigatorStart />
-  <NavigatorRecent />   
+  <NavigatorRecent :recent_drafts="recent_drafts" />   
 </div>
 
 </div>
@@ -34,7 +34,8 @@ export default {
 
   computed: {
     ...mapGetters([
-      'recent_drafts'
+      'recent_drafts',
+      'draft_in_progress'
     ])
   },
 

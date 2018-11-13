@@ -34,6 +34,10 @@ export default {
     show: {
       type: Boolean,
       default: false
+    },
+    recent_drafts: {
+      type: Array,
+      required: true
     }
   },
 
