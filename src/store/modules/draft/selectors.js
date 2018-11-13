@@ -18,6 +18,10 @@ export function deckLandCount(deck) {
   return deck.piles[6].length + sumValues(basic_lands);
 }
 
+export function deckTotalCards(deck) {
+  return deckCards(deck).length + deckLandCount(deck);
+}
+
 export function deckList(deck) {
  
   // main deck

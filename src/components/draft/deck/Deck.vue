@@ -59,8 +59,7 @@ export default {
       return selectors.deckList(this.deck);
     },
     deck_total_cards: function() {
-      return selectors.deckCards(this.deck).length + 
-             selectors.deckLandCount(this.deck);
+      return selectors.deckTotalCards(this.deck);
     },
     deck_card_types: function() {
       let cards = selectors.deckCards(this.deck);

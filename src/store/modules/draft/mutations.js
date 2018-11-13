@@ -14,7 +14,6 @@ export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
 
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
-export const EXIT_DRAFT = 'EXIT_DRAFT'
 
 import uuidv4 from 'uuid'
 import * as set from './set/'
@@ -27,7 +26,6 @@ const local_images = false
 export default {
 
   [ENTER_DRAFT](state, { set_code, cardpool, options }) {
-    clearState(state);
     state.cards.set_code = set_code;
     state.cards.set_name = set.name(set_code);
     state.cards.all_packs = [...Array(24)].map(function() {
@@ -169,18 +167,7 @@ export default {
     let deck = state.deck;
     deck.lands.basic[color] = lands;
   },
-
-  [EXIT_DRAFT](state) {
-    clearState(state);
- },
 };
-
-function clearState(state) {
-  const s = initial_state();
-  Object.keys(s).forEach(key => {
-    state[key] = s[key]
-  });
-}
 
 function nextPick(state) {
   

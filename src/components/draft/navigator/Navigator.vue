@@ -27,8 +27,16 @@ import NavigatorResume from './NavigatorResume.vue'
 import NavigatorStart from './NavigatorStart.vue'
 import NavigatorRecent from './NavigatorRecent.vue'
 
+import { mapGetters } from 'vuex'
+
 export default {
   name: 'Navigator',
+
+  computed: {
+    ...mapGetters([
+      'recent_drafts'
+    ])
+  },
 
   components: {
     Navbar, NavigatorResume, NavigatorStart, NavigatorRecent

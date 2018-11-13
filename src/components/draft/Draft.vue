@@ -59,7 +59,7 @@ import Deck from './deck/Deck.vue'
 import { PICK_CARD, CHECK_PICK_TIME } from '@/store/modules/draft/actions';
 import { PICK_TO_PILE, DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS, 
-         RESUME_DRAFT, EXIT_DRAFT } from '@/store/modules/draft/mutations';
+         RESUME_DRAFT } from '@/store/modules/draft/mutations';
 
 import { mapState, mapActions, mapMutations } from 'vuex';
 
@@ -200,14 +200,10 @@ export default {
       setBasicLands(dispatch, payload) {
         return dispatch(this.namespace + '/' + SET_BASIC_LANDS, payload);
       },
-      exitDraft(dispatch, payload) {
-        return dispatch(this.namespace + '/' + EXIT_DRAFT, payload);
-      },
     }),
     onExitDraft: function() {
       let vm = this;
       messagebox.confirm("<p>Do you want to exit this draft?</p>", function() {
-        vm.exitDraft();
         vm.$router.push("/draft");
       });
     },

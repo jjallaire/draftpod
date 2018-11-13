@@ -3,6 +3,8 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import VuexPersist from 'vuex-persist'
 
+import getters from './getters'
+
 import draftModule from './modules/draft'
 
 const debug = process.env.NODE_ENV !== 'production'
@@ -10,14 +12,16 @@ const debug = process.env.NODE_ENV !== 'production'
 Vue.use(Vuex)
 
 const vuexPersist = new VuexPersist({
-  key: 'mtgdrafter-E4BDFFFF',
+  key: 'mtgdrafter-DDDGGGEEE',
   storage: window.localStorage
 });
+
 
 const store = new Vuex.Store({
   modules: {
     drafts: { namespaced: true }
   },
+  getters,
   plugins: [vuexPersist.plugin],
   strict: debug,
 });
