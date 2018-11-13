@@ -9,8 +9,6 @@ import router from './router'
 import store from './store'
 
 
-// TODO: bigger drag target for picks (more depth or maybe entire area & calc pile?)
-
 // TODO: implement separate piles for instants and sorceries in deck
 
 // TOO: color_order should be stored with the deck in DeckLands 
