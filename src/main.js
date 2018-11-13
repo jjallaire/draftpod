@@ -12,10 +12,7 @@ import store from './store'
 
 // TODO: implement separate piles for instants and sorceries in deck
 
-// TODO: try smaller card sizes
 // TODO: flicker when pack is loading
-
-
 
 Vue.config.productionTip = false
 
