@@ -56,8 +56,9 @@ import PickTimer from './pick/PickTimer.vue'
 import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
-import { PICK_CARD, CHECK_PICK_TIME } from '@/store/modules/draft/actions';
-import { PICK_TO_PILE, DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
+import { CHECK_PICK_TIME } from '@/store/modules/draft/actions';
+import { PICK_CARD, PICK_TO_PILE, 
+         DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS, 
          RESUME_DRAFT } from '@/store/modules/draft/mutations';
 
@@ -171,9 +172,6 @@ export default {
 
   methods: {
     ...mapActions({
-      pickCard(dispatch, payload) {
-        return dispatch(this.namespace + '/' + PICK_CARD, payload);
-      },
       pickTimer(dispatch, payload) {
         return dispatch(this.namespace + '/' + CHECK_PICK_TIME, payload);
       }
@@ -181,6 +179,9 @@ export default {
     ...mapMutations({
       resumeDraft(dispatch, payload) {
         return dispatch(this.namespace + '/' + RESUME_DRAFT, payload);
+      },
+      pickCard(dispatch, payload) {
+        return dispatch(this.namespace + '/' + PICK_CARD, payload);
       },
       pickToPile(dispatch, payload) {
         return dispatch(this.namespace + '/' + PICK_TO_PILE, payload);

@@ -1,22 +1,14 @@
 
-import Vue from 'vue'
-
 import axios from 'axios'
 
 import { 
   ENTER_DRAFT,
-  NEXT_PACK, 
-  PACK_TO_PICK, 
-  AI_PICKS,
-  PASS_PACKS, 
-  SET_PICKS_COMPLETE,
-  MOVE_PICKS_TO_DECK,
+  PICK_CARD,
 } from './mutations';
 
 import * as set from './set/'
 
 export const START_DRAFT = 'START_DRAFT'
-export const PICK_CARD = 'PICK_CARD';
 export const CHECK_PICK_TIME = 'CHECK_PICK_TIME'
 
 export default {
@@ -40,16 +32,13 @@ export default {
             }
           });
 
-          // distribute next pack
-          commit(NEXT_PACK);
-
           // resolve promise
           resolve({});
         });
     });
   },
 
-  [CHECK_PICK_TIME]({state, dispatch}) {
+  [CHECK_PICK_TIME]({ state, commit }) {
     
       // auto-pick if we ran out of time 
       if (pickTimeExpired(state)) {
@@ -59,41 +48,12 @@ export default {
         let card = set.pick(state.cards.set_code, draft.piles[0], draft.pack);
 
         // dispatch it and move on to the next pick
-        dispatch(PICK_CARD, {
+        commit(PICK_CARD, {
           card: card,
           pile_number: 0, 
           insertBefore: null
         });
       }  
-  },
-
-  [PICK_CARD]({ commit, state }, pick) {
- 
-    // write the pick 
-    commit(PACK_TO_PICK, pick);
-
-    // have other players make their picks
-    commit(AI_PICKS);
-
-    // check whether the pack is completed
-    if (state.draft.pack.length === 0) {
-
-      // if we still have packs to go then create the next pack
-      if (state.status.current_pack < 1)
-        commit(NEXT_PACK);
-      else {
-        // move picks to deck
-        commit(MOVE_PICKS_TO_DECK);
-
-        // set picks complete (use nextTick so that the pack is cleared
-        // out before the end of draft animation starts)
-        Vue.nextTick(() => commit(SET_PICKS_COMPLETE));
-      }
-
-    // pass the packs
-    } else {
-      commit(PASS_PACKS);
-    }
   },
 };
 

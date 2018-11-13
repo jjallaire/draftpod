@@ -1,19 +1,17 @@
 
 export const ENTER_DRAFT = 'ENTER_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
+export const PICK_CARD = 'PICK_CARD'
 export const NEXT_PACK = 'NEXT_PACK'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
-export const AI_PICKS = 'AI_PICKS'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
 export const DECK_TO_SIDEBOARD = 'DECK_TO_SIDEBOARD'
 export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
 export const SIDEBOARD_TO_SIDEBOARD = 'SIDEBOARD_TO_SIDEBOARD'
-export const PASS_PACKS = 'PASS_PACKS'
-export const MOVE_PICKS_TO_DECK = 'MOVE_PICKS_TO_DECK'
-export const SET_PICKS_COMPLETE = 'SET_PICKS_COMPLETE'
-
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
+
+import Vue from 'vue'
 
 import uuidv4 from 'uuid'
 import * as set from './set/'
@@ -25,53 +23,53 @@ const local_images = false
 export default {
 
   [ENTER_DRAFT](state, { set_code, cardpool, options }) {
+    
+    // initialize cardpool
     state.cards.set_code = set_code;
     state.cards.set_name = set.name(set_code);
     state.cards.all_packs = [...Array(24)].map(function() {
       return booster(set_code, cardpool);
     });
+
+    // initialize options
     state.options = options;
+
+    // distribute first pack
+    nextPack(state);
   },
 
   [RESUME_DRAFT](state) {
     setPickEndTime(state);
   },
 
-  [NEXT_PACK](state) {
-
-    // grab next set of packs
-    let pack_begin = state.status.current_pack * 8;
-    let pack_end = pack_begin + 8;
-    let packs = state.cards.all_packs.slice(pack_begin, pack_end);
-  
-    // distribute packs
-    state.draft.pack = packs[0];
-    for (let i=1; i<packs.length; i++)
-      state.players[i-1].draft.pack = packs[i];
-
-    // update current pack
-    state.status.current_pack++;
-
-    // reset picks to zero
-    state.status.current_pick = 0;
-
-    // move to next pick
-    nextPick(state);
-  },
-
-  [PACK_TO_PICK](state, { card, pile_number, insertBefore }) {
+  [PICK_CARD](state, { card, pile_number, insertBefore }) {
+    
+    // write the pick 
     let pack = state.draft.pack;
     let pile = state.draft.piles[pile_number];
     packToPick(pack, pile, card, insertBefore);
-  },
 
-  [AI_PICKS](state) {
-    for (let i=0; i<state.players.length; i++) {
-      let player = state.players[i];
-      let pack = player.draft.pack;
-      let pile = player.draft.piles[0];
-      let card = set.pick(state.cards.set_code, pile, pack);
-      packToPick(pack, pile, card, null);
+    // have other players make their picks
+    aiPicks(state);
+
+    // check whether the pack is completed
+    if (state.draft.pack.length === 0) {
+
+      // if we still have packs to go then create the next pack
+      if (state.status.current_pack < 1)
+        nextPack(state);
+      else {
+        // move picks to deck
+        movePicksToDeck(state);
+
+        // set picks complete (use nextTick so that the pack is cleared
+        // out before the end of draft animation starts)
+        Vue.nextTick(() => setPicksComplete(state));
+      }
+
+    // pass the packs
+    } else {
+      passPacks(state);
     }
   },
 
@@ -108,54 +106,6 @@ export default {
     pileToPile(card, 7, deck.piles, insertBefore);
   },
 
-  [PASS_PACKS](state) {
-
-    // compose array of all players
-    let players = [{ draft: state.draft, deck: state.deck }].concat(state.players);
-
-    // copy existing packs
-    let packs = players.map((player) => player.draft.pack.slice());
-
-    // pass pack
-    if (state.status.current_pack === 2) {
-      // pass right
-      for (let i=(packs.length-1); i>0; i--)
-        players[i].draft.pack = packs[i-1];
-      players[0].draft.pack = packs[packs.length-1];
-
-    } else {
-      // pass left
-      for (let i=0; i<(packs.length-1); i++)
-        players[i].draft.pack = packs[i+1];
-      players[packs.length-1].draft.pack = packs[0];
-    }
-
-    // move to next pick
-    nextPick(state);
-  },
-
-  [MOVE_PICKS_TO_DECK](state) {
-    let draft = state.draft;
-    let deck = state.deck;
-    draft.piles.slice(0, 7).forEach(function(pile) {
-      pile.forEach((c) => cardToDeckPile(c, deck));
-    });
-
-    // sideboard
-    deck.piles[7] = draft.piles[7].slice();
-
-    // sort all deck piles
-    deck.piles.forEach((pile) => pile.sort(orderCards));
-
-    // apply auto lands
-    deck.lands.basic = computeAutoLands(deck);
-  },
-
-  [SET_PICKS_COMPLETE](state) {
-    // set picks complete flag
-    state.status.picks_complete = true;
-  },
-
   [DISABLE_AUTO_LANDS](state, { color_order }) {
     let deck = state.deck;
     deck.lands.auto = false;
@@ -167,6 +117,53 @@ export default {
     deck.lands.basic[color] = lands;
   },
 };
+
+
+function passPacks(state) {
+  // compose array of all players
+  let players = [{ draft: state.draft, deck: state.deck }].concat(state.players);
+
+  // copy existing packs
+  let packs = players.map((player) => player.draft.pack.slice());
+
+  // pass pack
+  if (state.status.current_pack === 2) {
+    // pass right
+    for (let i=(packs.length-1); i>0; i--)
+      players[i].draft.pack = packs[i-1];
+    players[0].draft.pack = packs[packs.length-1];
+
+  } else {
+    // pass left
+    for (let i=0; i<(packs.length-1); i++)
+      players[i].draft.pack = packs[i+1];
+    players[packs.length-1].draft.pack = packs[0];
+  }
+
+  // move to next pick
+  nextPick(state);
+}
+
+function nextPack(state) {
+  // grab next set of packs
+  let pack_begin = state.status.current_pack * 8;
+  let pack_end = pack_begin + 8;
+  let packs = state.cards.all_packs.slice(pack_begin, pack_end);
+
+  // distribute packs
+  state.draft.pack = packs[0];
+  for (let i=1; i<packs.length; i++)
+    state.players[i-1].draft.pack = packs[i];
+
+  // update current pack
+  state.status.current_pack++;
+
+  // reset picks to zero
+  state.status.current_pick = 0;
+
+  // move to next pick
+  nextPick(state);
+}
 
 function nextPick(state) {
   
@@ -184,6 +181,16 @@ function packToPick(pack, pile, card, insertBefore) {
 
   // add to pile
   addCardToPile(pile, card, insertBefore);
+}
+
+function aiPicks(state) {
+  for (let i=0; i<state.players.length; i++) {
+    let player = state.players[i];
+    let pack = player.draft.pack;
+    let pile = player.draft.piles[0];
+    let card = set.pick(state.cards.set_code, pile, pack);
+    packToPick(pack, pile, card, null);
+  }
 }
 
 function setPickEndTime(state) {
@@ -209,6 +216,27 @@ function cardToDeckPile(c, deck) {
 
   // return the pile
   return pile;
+}
+
+function movePicksToDeck(state) {
+  let draft = state.draft;
+  let deck = state.deck;
+  draft.piles.slice(0, 7).forEach(function(pile) {
+    pile.forEach((c) => cardToDeckPile(c, deck));
+  });
+
+  // sideboard
+  deck.piles[7] = draft.piles[7].slice();
+
+  // sort all deck piles
+  deck.piles.forEach((pile) => pile.sort(orderCards));
+
+  // apply auto lands
+  deck.lands.basic = computeAutoLands(deck);
+}
+
+function setPicksComplete(state) {
+  state.status.picks_complete = true;
 }
 
 
