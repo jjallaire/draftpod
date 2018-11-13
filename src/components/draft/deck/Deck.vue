@@ -80,12 +80,14 @@ export default {
 
 <style>
 
+.mtgdraft .mtgdraft-deck {
+  background-color: #fff;
+}
+
 .mtgdraft .mtgdraft-deck .card-header {
   font-size: 0.9rem;
   margin-bottom: 3px;
 }
-
-
 
 .mtgdraft .mtgdraft-deck .card-header .header-text {
   padding-top: 2px;

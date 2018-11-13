@@ -29,7 +29,7 @@
     
     </Navbar>
 
-    <div class="mtgdraft bg-secondary">
+    <div class="mtgdraft">
         <div class="mtgdraft-cards">
           <transition name="mtgpack-hide">
             <Pack v-if="!status.picks_complete" :pack="player.draft.pack"/>
@@ -248,6 +248,9 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
+  background-image: linear-gradient(#8a9196, #7A8288 80%, #70787d);
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .mtgdraft-fade-enter-active {
@@ -314,6 +317,9 @@ export default {
   padding-right: 0.2rem;
   font-size: 0.7rem;
   border-bottom: 0;
+  background-image: linear-gradient(to bottom, #616d74, #5d686f, #59636a, #555e65, #515960);
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .mtgdraft .tabs-header .nav-link {

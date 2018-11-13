@@ -22,12 +22,11 @@ import store from './store'
 // TODO: handle failed axios call / promise
 
 // TODO: cleanup Pile (code too intermingled)
-
-// TODO: some additional gradiants
-
 // TODO: try smaller card sizes
 
 // TODO: resume/new/recent (navigator)
+
+// TODO: card preview targets after drag and pass pack are off
 
 Vue.config.productionTip = false
 

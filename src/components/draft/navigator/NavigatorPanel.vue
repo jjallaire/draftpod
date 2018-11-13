@@ -67,6 +67,9 @@ export default {
 .navigator-panel .card-header {
   padding: 0;
   border: 1px solid #fff;
+  background-image: linear-gradient(to bottom, #616d74, #5d686f, #59636a, #555e65, #515960);
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .navigator-panel .card-header .material-design-icon {
@@ -91,6 +94,12 @@ export default {
 .navigator-panel .card-header h5 button:hover {
   text-decoration: none;
   color: #fff;
+}
+
+.navigator-panel .card-body {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .navigator-panel .card-body button {

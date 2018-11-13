@@ -1,5 +1,5 @@
 <template>
-  <div :class="[panel_class, 'card', 'bg-' + background]">
+  <div :class="[panel_class, 'card']">
     <div v-if="caption" class="card-header">
       <div class="float-left header-text text-light">{{ caption }}</div>
       <div class="float-left"><slot name="header-left"></slot></div>
@@ -26,10 +26,6 @@ export default {
       type: String,
       required: true
     },
-    background: {
-      type: String,
-      default: 'white'
-    }
   }
 }
 
@@ -39,7 +35,7 @@ export default {
 <style>
 
 .mtgdraft .card .card-header div {
-    display: inline-block;
+  display: inline-block;
 }
 
 </style>

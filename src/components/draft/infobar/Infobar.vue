@@ -73,6 +73,7 @@ export default {
 
 .mtgdraft-deckstats {
   flex: 1 1 auto;
+  background-color: #fff;
 }
 
 .mtgdraft-deckstats .card-body {

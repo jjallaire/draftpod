@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-dark bg-primary navbar-expand-sm">
+<nav class="navbar navbar-dark navbar-expand-sm">
 
   <span class="navbar-brand">
     <router-link to="/" exact>MTG Drafter</router-link>
@@ -35,6 +35,9 @@ export default {
   border: 0;
   padding: 5px;
   z-index: 1000;
+  background-image: linear-gradient(#484e55, #3A3F44 60%, #313539);
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .navbar .nav-link {

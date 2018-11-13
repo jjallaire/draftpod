@@ -2,7 +2,7 @@
 
 <template>
 
-  <Panel panel_class="mtgdraft-pack" background="secondary">
+  <Panel panel_class="mtgdraft-pack">
     <Card v-for="card in pack" :key="card.key" 
           :card="card" :drag_source="drag_source">
     </Card>
@@ -38,7 +38,11 @@ export default {
 
 <style>
 
-.mtgdraft-pack .card {
+.mtgdraft .mtgdraft-pack {
+  background: transparent;
+}
+
+.mtgdraft .mtgdraft-pack .card {
   padding: 0;
 }
 
