@@ -27,7 +27,9 @@ import NavigatorResume from './NavigatorResume.vue'
 import NavigatorStart from './NavigatorStart.vue'
 import NavigatorRecent from './NavigatorRecent.vue'
 
-import { mapGetters } from 'vuex'
+import { mapGetters, mapMutations } from 'vuex'
+
+import { REMOVE_DRAFTS } from '@/store/mutations'
 
 export default {
   name: 'Navigator',
@@ -36,7 +38,23 @@ export default {
     ...mapGetters([
       'draft_history',
       'draft_in_progress'
-    ])
+    ]),
+  },
+
+  created() {
+    // keep only the most recent 5 drafts
+    let purge_draft_ids = this.draft_history
+      .slice(4)
+      .map((draft) => draft.id);
+
+    // perform purge
+    this.removeDrafts(purge_draft_ids);
+  },
+
+  methods: {
+    ...mapMutations({
+      removeDrafts: REMOVE_DRAFTS,
+    })
   },
 
   components: {

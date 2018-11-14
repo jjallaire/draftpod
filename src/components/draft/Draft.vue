@@ -72,7 +72,9 @@ import { Events, EventBus } from './eventbus'
  
 // drafts namespace
 const NS_DRAFTS = "drafts";
+
 import { useDraftModule } from '@/store'
+import * as selectors from '@/store/modules/draft/selectors'
 
 export default {
   name: 'Draft',
@@ -131,26 +133,28 @@ export default {
       options: function(state) {
         return state[NS_DRAFTS][this.draft_id].options;
       },
+      table: function(state) {
+        return state[NS_DRAFTS][this.draft_id].table;
+      },
       current_pack: function(state) {
-        return state[NS_DRAFTS][this.draft_id].table.current_pack;
+        return this.table.current_pack;
       },
       current_pick: function(state) {
-        return state[NS_DRAFTS][this.draft_id].table.current_pick;
+        this.table.current_pick;
       },
       picks_complete: function(state) {
-        return state[NS_DRAFTS][this.draft_id].table.picks_complete;
+        return this.table.picks_complete;
       },
       picks: function(state) {
-        return state[NS_DRAFTS][this.draft_id].table.picks;
+        return this.table.picks;
       },
       deck: function(state) {
-        return state[NS_DRAFTS][this.draft_id].table.deck;
+        return this.table.deck;
       },
     }),
     
     active_cards: function() {
-      let piles = this.picks_complete ? this.deck.piles : this.picks.piles;
-      return piles.slice(0, 7).flat();
+      return selectors.activeCards(this.table);
     },
 
     namespace: function() {
@@ -192,7 +196,7 @@ export default {
     onExitDraft: function() {
       let vm = this;
       messagebox.confirm("<p>Do you want to exit this draft?</p>", function() {
-        vm.$router.push("/draft");
+        vm.$router.push("/draft/");
       });
     },
     onFullscreenChange: function() {

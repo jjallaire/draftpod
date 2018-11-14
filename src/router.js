@@ -25,7 +25,7 @@ export default new VueRouter({
         if (draft_id in store.state.drafts)
           next();
         else
-          next("/draft");
+          next("/draft/");
       } 
     },
     { path: '/about', component: About },

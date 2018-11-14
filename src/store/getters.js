@@ -3,6 +3,8 @@
 import * as selectors from './modules/draft/selectors'
 
 export default {
+
+  draft: (state) => (id) => state.drafts[id],
   
   draft_history: function(state) {
     let drafts = Object.keys(state.drafts);

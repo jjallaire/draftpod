@@ -8,8 +8,7 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: storage capacity for localStorage
-//   - limit recents
+// TODO: make navigator options persistent
 
 // TODO: resume/new/recent (navigator)
 

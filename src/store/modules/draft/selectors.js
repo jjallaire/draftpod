@@ -9,6 +9,11 @@ export function cardTypes(cards) {
   }
 }
 
+export function activeCards(table) {
+  let piles = table.picks_complete ? table.deck.piles : table.picks.piles;
+  return piles.slice(0, 7).flat();
+}
+
 export function deckCards(deck) {
   return deck.piles.slice(0, 6).flat();
 } 

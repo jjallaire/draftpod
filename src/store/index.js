@@ -4,6 +4,7 @@ import Vuex from 'vuex'
 import VuexPersist from 'vuex-persist'
 
 import getters from './getters'
+import mutations from './mutations'
 
 import draftModule from './modules/draft'
 
@@ -22,6 +23,7 @@ const store = new Vuex.Store({
     drafts: { namespaced: true }
   },
   getters,
+  mutations,
   plugins: [vuexPersist.plugin],
   strict: debug,
 });
