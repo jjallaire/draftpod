@@ -60,8 +60,8 @@ export default {
         // move picks to deck
         movePicksToDeck(state);
 
-        // set picks complete
-        setPicksComplete(state);
+        // complete picks
+        completePicks(state);
       }
 
     // pass the packs
@@ -237,7 +237,10 @@ function movePicksToDeck(state) {
   deck.lands.basic = computeAutoLands(deck);
 }
 
-function setPicksComplete(state) {
+function completePicks(state) {
+  state.cards.all_packs = [];
+  state.picks = { pack: [], piles: []};
+  state.players = [];
   state.status.picks_complete = true;
 }
 

@@ -10,8 +10,6 @@ import store from './store'
 
 // TODO: storage capacity for localStorage
 //   - limit recents
-//   - clear out packs as they are used
-//   - clear out other players as they are used
 
 // TODO: vuex nested data is slow (dom updates triggered for all sets)
 // I think we need to operate on a copy and set in one shot
