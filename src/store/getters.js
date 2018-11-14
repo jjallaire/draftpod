@@ -4,7 +4,7 @@ import * as selectors from './modules/draft/selectors'
 
 export default {
   
-  recent_drafts: function(state) {
+  draft_history: function(state) {
     let drafts = Object.keys(state.drafts);
     return drafts
       .map((id) => {
@@ -24,9 +24,9 @@ export default {
 
   draft_in_progress: function(state, getters) {
     // get the most recent draft
-    let recent = getters.recent_drafts;
-    if (recent.length > 0) {
-      let last_draft = recent[0];
+    let history = getters.draft_history;
+    if (history.length > 0) {
+      let last_draft = history[0];
       if (last_draft.deck_total_cards < 40)
         return last_draft;
       else

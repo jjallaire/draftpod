@@ -35,7 +35,7 @@ export default {
       type: Boolean,
       default: false
     },
-    recent_drafts: {
+    draft_history: {
       type: Array,
       required: true
     }
