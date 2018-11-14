@@ -6,10 +6,10 @@
     <Navbar> 
     
       <span class="navbar-text">{{ options.set_name }} &mdash; 
-        <span v-if="picks_complete">Deck Construction</span>
+        <span v-if="table.picks_complete">Deck Construction</span>
         <span v-else>
-          Pack {{ current_pack }}, Pick {{ current_pick }}
-          <PickTimer v-if="options.pick_timer" :current_pick="current_pick" />
+          Pack {{ table.current_pack }}, Pick {{ table.current_pick }}
+          <PickTimer v-if="options.pick_timer" :current_pick="table.current_pick" />
         </span>
       </span> 
     
@@ -32,12 +32,12 @@
     <div class="mtgdraft">
         <div class="mtgdraft-cards">
           <transition name="mtgpack-hide">
-            <Pack v-if="!picks_complete" :pack="picks.pack"/>
+            <Pack v-if="!table.picks_complete" :pack="table.picks.pack"/>
           </transition>
-          <Pick v-if="!picks_complete" 
-                :picks="picks" 
+          <Pick v-if="!table.picks_complete" 
+                :picks="table.picks" 
                 :pick_analysis="options.pick_analysis"/>
-          <Deck v-else :deck="deck"/>
+          <Deck v-else :deck="table.deck"/>
         </div>
 
         <Infobar :cards="active_cards"/>
@@ -135,21 +135,6 @@ export default {
       },
       table: function(state) {
         return state[NS_DRAFTS][this.draft_id].table;
-      },
-      current_pack: function(state) {
-        return this.table.current_pack;
-      },
-      current_pick: function(state) {
-        this.table.current_pick;
-      },
-      picks_complete: function(state) {
-        return this.table.picks_complete;
-      },
-      picks: function(state) {
-        return this.table.picks;
-      },
-      deck: function(state) {
-        return this.table.deck;
       },
     }),
     
