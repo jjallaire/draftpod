@@ -8,7 +8,7 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: resume/new/recent (navigator)
+// TODO: recent (navigator)
 
 // TODO: implement separate piles for instants and sorceries in deck
 
