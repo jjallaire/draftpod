@@ -5,7 +5,7 @@
     <router-link to="/" exact>MTG Drafter</router-link>
   </span>
   
-  <slot></slot>
+  <slot><span class="navbar-text">Draft simulator for Magic the Gathering&trade;</span></slot>
 
   <ul class="navbar-nav ml-auto">
     <router-link tag="li" class="nav-item" active-class="active" to="/" exact>
@@ -64,7 +64,7 @@ export default {
 }
 
 .navbar .navbar-text {
-  padding-top: 2px;
+  padding-top: 0;
   padding-bottom: 0;
   padding-right: 1em;
 }

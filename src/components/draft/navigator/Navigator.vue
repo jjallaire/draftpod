@@ -72,8 +72,9 @@ export default {
 }
 
 .mtgdrafter-navigator .btn {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 160px;
   border: 0;
 }
 
