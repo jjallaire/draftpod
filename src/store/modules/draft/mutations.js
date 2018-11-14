@@ -11,14 +11,12 @@ export const SIDEBOARD_TO_SIDEBOARD = 'SIDEBOARD_TO_SIDEBOARD'
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 
-import Vue from 'vue'
-
 import uuidv4 from 'uuid'
 import * as set from './set/'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
 
-const local_images = false
+const local_images = true
 
 export default {
 
@@ -62,9 +60,8 @@ export default {
         // move picks to deck
         movePicksToDeck(state);
 
-        // set picks complete (use nextTick so that the pack is cleared
-        // out before the end of draft animation starts)
-        Vue.nextTick(() => setPicksComplete(state));
+        // set picks complete
+        setPicksComplete(state);
       }
 
     // pass the packs
@@ -121,7 +118,8 @@ export default {
 
 function passPacks(state) {
   // compose array of all players
-  let players = [{ draft: state.draft, deck: state.deck }].concat(state.players);
+  let players = [{ draft: state.draft, deck: state.deck }].concat(
+    JSON.parse(JSON.stringify(state.players)));
 
   // copy existing packs
   let packs = players.map((player) => player.draft.pack.slice());
@@ -139,6 +137,8 @@ function passPacks(state) {
       players[i].draft.pack = packs[i+1];
     players[packs.length-1].draft.pack = packs[0];
   }
+
+  state.players = players.slice(1);
 
   // move to next pick
   nextPick(state);
@@ -184,13 +184,15 @@ function packToPick(pack, pile, card, insertBefore) {
 }
 
 function aiPicks(state) {
-  for (let i=0; i<state.players.length; i++) {
-    let player = state.players[i];
+  let players = JSON.parse(JSON.stringify(state.players));
+  for (let i=0; i<players.length; i++) {
+    let player = players[i];
     let pack = player.draft.pack;
     let pile = player.draft.piles[0];
     let card = set.pick(state.cards.set_code, pile, pack);
     packToPick(pack, pile, card, null);
   }
+  state.players = players;
 }
 
 function setPickEndTime(state) {
