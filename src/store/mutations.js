@@ -11,7 +11,7 @@ export default {
     state.preferences = { ...state.preferences, ...prefs };
   },
 
-  [REMOVE_DRAFTS](state, { draft_ids }) {
+  [REMOVE_DRAFTS](state, draft_ids) {
     state.drafts = _omit(state.drafts, draft_ids);
   }
 }

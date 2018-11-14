@@ -2,17 +2,16 @@
 
 <template>
 
-<NavigatorPanel name="recent-drafts" caption="Recent Drafts" :parent="parent" :show="show">
+<NavigatorPanel name="recent-drafts" caption="Recent Drafts" :parent="parent" :show="show"
+                class="mtgdrafter-navigator-recent-drafts">
   <template slot="icon"><HistoryIcon /></template>
-
-  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
-  richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
-  brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, 
-  sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-  et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-  sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat 
-  craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-  heard of them accusamus labore sustainable VHS.
+  <div v-for="draft in draft_history" :key="draft.id" class="row">
+    <div class="col-sm-3">
+      <router-link :to="'/draft/' + draft.id">
+      {{ draft.set_name }}
+      </router-link>
+    </div>
+  </div>
 </NavigatorPanel>
 
 </template>
@@ -50,5 +49,9 @@ export default {
 </script>
 
 <style>
+
+.mtgdrafter-navigator-recent-drafts a {
+  color: inherit;
+}
 
 </style>
