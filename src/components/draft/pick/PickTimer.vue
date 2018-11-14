@@ -26,22 +26,29 @@ export default {
 
   data () {
     return {
-      now: new Date().getTime()
+      now: new Date().getTime(),
+      timer: null
     }
   },
   
   created () {
-    let vm = this;
-    setInterval(function() {
+    this.timer = setInterval(this.onPickTimer, 1000);
+  },
 
+  beforeDestroy() {
+    clearInterval(this.timer);
+  },
+
+  methods: {
+    onPickTimer() {
       // update current time
-      vm.now = new Date().getTime();
+      this.now = new Date().getTime();
 
       // check for expiration
-      if (vm.pick_time_remaining < 0) {
+      if (this.pick_time_remaining === -1) {
         EventBus.$emit(Events.CardAIPick);
       }
-    }, 1000);
+    }
   },
 
   computed: {

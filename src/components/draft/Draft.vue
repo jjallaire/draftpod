@@ -6,10 +6,10 @@
     <Navbar> 
     
       <span class="navbar-text">{{ cards.set_name }} &mdash; 
-        <span v-if="status.picks_complete">Deck Construction</span>
+        <span v-if="picks_complete">Deck Construction</span>
         <span v-else>
-          Pack {{ status.current_pack }}, Pick {{ status.current_pick }}
-          <PickTimer v-if="options.pick_timer" :current_pick="status.current_pick" />
+          Pack {{ current_pack }}, Pick {{ current_pick }}
+          <PickTimer v-if="options.pick_timer" :current_pick="current_pick" />
         </span>
       </span> 
     
@@ -32,9 +32,9 @@
     <div class="mtgdraft">
         <div class="mtgdraft-cards">
           <transition name="mtgpack-hide">
-            <Pack v-if="!status.picks_complete" :pack="picks.pack"/>
+            <Pack v-if="!picks_complete" :pack="picks.pack"/>
           </transition>
-          <Pick v-if="!status.picks_complete" 
+          <Pick v-if="!picks_complete" 
                 :picks="picks" 
                 :pick_analysis="options.pick_analysis"/>
           <Deck v-else :deck="deck"/>
@@ -134,8 +134,14 @@ export default {
       options: function(state) {
         return state[NS_DRAFTS][this.draft_id].options;
       },
-      status: function(state) {
-        return state[NS_DRAFTS][this.draft_id].status;
+      current_pack: function(state) {
+        return state[NS_DRAFTS][this.draft_id].table.current_pack;
+      },
+      current_pick: function(state) {
+        return state[NS_DRAFTS][this.draft_id].table.current_pick;
+      },
+      picks_complete: function(state) {
+        return state[NS_DRAFTS][this.draft_id].table.picks_complete;
       },
       picks: function(state) {
         return state[NS_DRAFTS][this.draft_id].picks;
@@ -146,7 +152,7 @@ export default {
     }),
     
     active_cards: function() {
-      let piles = this.status.picks_complete ? this.deck.piles : this.picks.piles;
+      let piles = this.picks_complete ? this.deck.piles : this.picks.piles;
       return piles.slice(0, 7).flat();
     },
 

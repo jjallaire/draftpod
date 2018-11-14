@@ -13,9 +13,9 @@ export default {
           id: id,
           start_time: draft.start_time,
           set_name: draft.cards.set_name,
-          current_pack: draft.status.current_pack,
-          current_pick: draft.status.current_pick,
-          picks_complete: draft.status.picks_complete,
+          current_pack: draft.table.current_pack,
+          current_pick: draft.table.current_pick,
+          picks_complete: draft.table.picks_complete,
           deck_total_cards: selectors.deckTotalCards(draft.deck),
         }
       })

@@ -55,7 +55,7 @@ export default {
     if (state.picks.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
-      if (state.status.current_pack < 1)
+      if (state.table.current_pack < 1)
         nextPack(state);
       else {
         // move picks to deck
@@ -126,7 +126,7 @@ function passPacks(state) {
   let packs = players.map((player) => player.picks.pack.slice());
 
   // pass pack
-  if (state.status.current_pack === 2) {
+  if (state.table.current_pack === 2) {
     // pass right
     for (let i=(packs.length-1); i>0; i--)
       players[i].picks.pack = packs[i-1];
@@ -147,7 +147,7 @@ function passPacks(state) {
 
 function nextPack(state) {
   // grab next set of packs
-  let pack_begin = state.status.current_pack * 8;
+  let pack_begin = state.table.current_pack * 8;
   let pack_end = pack_begin + 8;
   let packs = state.cards.all_packs.slice(pack_begin, pack_end);
 
@@ -157,10 +157,10 @@ function nextPack(state) {
     state.players[i-1].picks.pack = packs[i];
 
   // update current pack
-  state.status.current_pack++;
+  state.table.current_pack++;
 
   // reset picks to zero
-  state.status.current_pick = 0;
+  state.table.current_pick = 0;
 
   // move to next pick
   nextPick(state);
@@ -169,7 +169,7 @@ function nextPack(state) {
 function nextPick(state) {
   
   // advance pick
-  state.status.current_pick++;
+  state.table.current_pick++;
 
 }
 
@@ -235,7 +235,7 @@ function completePicks(state) {
   state.cards.all_packs = [];
   state.picks = { pack: [], piles: []};
   state.players = [];
-  state.status.picks_complete = true;
+  state.table.picks_complete = true;
 }
 
 

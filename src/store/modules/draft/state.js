@@ -19,8 +19,8 @@ export default function() {
       pick_analysis: false,
     },
 
-    // status
-    status: {
+    // table
+    table: {
       current_pack: 0,
       current_pick: 0,
       picks_complete: false,
