@@ -121,8 +121,8 @@ export default {
 
 function passPacks(state) {
   // compose array of all players
-  let players = [{ picks: state.table.picks, deck: state.table.deck }].concat(
-    JSON.parse(JSON.stringify(state.table.players)));
+  let players = [{ picks: state.table.picks, deck: state.table.deck }]
+                  .concat(state.table.players);
 
   // copy existing packs
   let packs = players.map((player) => player.picks.pack.slice());
@@ -140,8 +140,6 @@ function passPacks(state) {
       players[i].picks.pack = packs[i+1];
     players[packs.length-1].picks.pack = packs[0];
   }
-
-  state.table.players = players.slice(1);
 
   // move to next pick
   nextPick(state);
@@ -185,7 +183,7 @@ function packToPick(pack, pile, card, insertBefore) {
 }
 
 function aiPicks(state) {
-  let players = JSON.parse(JSON.stringify(state.table.players));
+  let players = state.table.players;
   for (let i=0; i<players.length; i++) {
     let player = players[i];
     let pack = player.picks.pack;
@@ -193,7 +191,6 @@ function aiPicks(state) {
     let card = set.pick(state.options.set_code, pile, pack);
     packToPick(pack, pile, card, null);
   }
-  state.table.players = players;
 }
 
 function cardToDeckPile(c, deck) {
