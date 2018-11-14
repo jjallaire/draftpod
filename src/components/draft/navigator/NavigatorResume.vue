@@ -23,7 +23,7 @@
       </div>
       <div class="col-sm-3">
         <ManaLegend :cards="active_cards" />
-        <ManaCurve :cards="active_cards" height="150" />
+        <ManaCurve :cards="active_cards" :height="150" />
       </div>
       <div class="col-sm-3 offset-sm-1">
         <ManaColors :cards="active_cards" />

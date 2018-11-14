@@ -10,20 +10,10 @@
     <div class="form-group row">
       <label for="draft-set" class="col-sm-3 col-form-label">Set:</label>
       <div class="col-sm-9">
-        <select id="draft-set" class="form-control" v-model="set">
+        <select id="draft-set" class="form-control" v-model="set_code">
           <option value="grn">Guilds of Ravnica</option>
           <option value="m19">Core Set 2019</option>
           <option value="dom">Dominaria</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="draft-cardpool" class="col-sm-3 col-form-label">Cardpool:</label>
-      <div class="col-sm-9">
-        <select id="draft-cardpool" class="form-control">
-          <option>All Cards</option>
-          <option>4x Commons/Uncommons</option>
-          <option>Custom...</option>
         </select>
       </div>
     </div>
@@ -57,7 +47,9 @@ import NavigatorPanel from './NavigatorPanel.vue'
 import PlayCircleIcon from "vue-material-design-icons/PlayCircleOutline.vue"
 
 import { useDraftModule } from '@/store'
-import { START_DRAFT } from '@/store/modules/draft/actions';
+import { UPDATE_PREFERENCES } from '@/store/mutations'
+import { START_DRAFT } from '@/store/modules/draft/actions'
+import { mapState, mapMutations } from 'vuex'
 
 import uuidv4 from 'uuid'
 
@@ -77,14 +69,26 @@ export default {
 
   data: function() {
     return {
-      set: 'grn',
+      set_code: 'grn',
       pick_timer: true,
       pick_analysis: true
     }
   },
 
+  created() {
+    this.set_code = this.preferences.set_code;
+    this.pick_timer = this.preferences.pick_timer;
+    this.pick_analysis = this.preferences.pick_analysis;
+  },
+
   components: {
     NavigatorPanel, PlayCircleIcon
+  },
+
+  computed: {
+    ...mapState([
+      'preferences'
+    ])
   },
 
   methods: {
@@ -96,22 +100,27 @@ export default {
       // use draft module
       useDraftModule(draft_id);
 
-      // start the draft
-      this.$store.dispatch("drafts/" + draft_id + "/" + START_DRAFT, { 
-
-        set_code: this.set,
+      // establish options
+      let options = {
+        set_code: this.set_code,
         pick_timer: this.pick_timer,
-        pick_analysis: this.pick_analysis,
-      
-      }).then(() => {
+        pick_analysis: this.pick_analysis
+      };
 
-        // push state
-        this.$router.push("/draft/" + draft_id);
+      // save as preferences for the next draft
+      this.updatePreferences(options);
 
-      });
-
+      // start the draft
+      this.$store.dispatch("drafts/" + draft_id + "/" + START_DRAFT, options)
+        .then(() => {
+          // push state
+          this.$router.push("/draft/" + draft_id);
+        });
      
     },
+    ...mapMutations({
+      updatePreferences: UPDATE_PREFERENCES
+    }),
   }
 
 }

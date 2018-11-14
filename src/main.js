@@ -8,8 +8,6 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: make navigator options persistent
-
 // TODO: resume/new/recent (navigator)
 
 // TODO: implement separate piles for instants and sorceries in deck

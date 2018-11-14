@@ -20,6 +20,13 @@ const vuexPersist = new VuexPersist({
 
 const store = new Vuex.Store({
   modules: {
+    preferences: {
+      state: {
+        set_code: 'grn',
+        pick_timer: true,
+        pick_analysis: true
+      }
+    },
     drafts: { namespaced: true }
   },
   getters,
