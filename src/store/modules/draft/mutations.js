@@ -28,104 +28,120 @@ export default {
       ...options  
     };
     
-    // initialize packs
-    state.table.all_packs = [...Array(24)].map(function() {
-      return booster(set_code, cardpool);
-    });
+    updateTable(state, (table) => {
+      // initialize packs
+      table.all_packs = [...Array(24)].map(function() {
+        return booster(set_code, cardpool);
+      });
 
-    // distribute first pack
-    nextPack(state.table);
+      // distribute first pack
+      nextPack(table);
+    });
   },
 
   [PICK_CARD](state, { card, pile_number, insertBefore }) {
 
-    // make a deep copy of the table so we can make all updates
-    // to state in a single shot 
-    let table = JSON.parse(JSON.stringify(state.table));
+    updateTable(state, (table) => {
 
-    // null card means have the AI pick
-    if (!card) {
-      let deck = table.picks.piles.flat();
-      card = set.pick(state.options.set_code, deck, table.picks.pack);
-    }
-
-
-    // write the pick 
-    let pack = table.picks.pack;
-    let pile = table.picks.piles[pile_number];
-    packToPick(pack, pile, card, insertBefore);
-
-    // have other players make their picks
-    aiPicks(state.options, table);
-
-    // check whether the pack is completed
-    if (table.picks.pack.length === 0) {
-
-      // if we still have packs to go then create the next pack
-      if (table.current_pack < 1)
-        nextPack(table);
-      else {
-        // move picks to deck
-        movePicksToDeck(table);
-
-        // complete picks
-        completePicks(table);
+      // null card means have the AI pick
+      if (!card) {
+        let deck = table.picks.piles.flat();
+        card = set.pick(state.options.set_code, deck, table.picks.pack);
       }
 
-    // pass the packs
-    } else {
-      passPacks(table);
-    }
+      // write the pick 
+      let pack = table.picks.pack;
+      let pile = table.picks.piles[pile_number];
+      packToPick(pack, pile, card, insertBefore);
 
-    // update the table in a single shot
-    state.table = table;
+      // have other players make their picks
+      aiPicks(state.options, table);
+
+      // check whether the pack is completed
+      if (table.picks.pack.length === 0) {
+
+        // if we still have packs to go then create the next pack
+        if (table.current_pack < 1)
+          nextPack(table);
+        else {
+          // move picks to deck
+          movePicksToDeck(table);
+
+          // complete picks
+          completePicks(table);
+        }
+
+      // pass the packs
+      } else {
+        passPacks(table);
+      }
+    });
   },
 
   [PICK_TO_PILE](state, { card, pile_number, insertBefore}) {
-    pileToPile(card, pile_number, state.table.picks.piles, insertBefore);
+    updateTable(state, (table) => {
+      pileToPile(card, pile_number, table.picks.piles, insertBefore);
+    });
+    
   },
 
   [DECK_TO_SIDEBOARD](state, { card, insertBefore}) {
-    // move the card
-    let deck = state.table.deck;
-    pileToPile(card, 7, deck.piles, insertBefore);
-    // apply auto-lands if necessary
-    if (deck.lands.auto)
-      deck.lands.basic = computeAutoLands(deck);
+    updateTable(state, (table) => {
+      // move the card
+      let deck = table.deck;
+      pileToPile(card, 7, deck.piles, insertBefore);
+      // apply auto-lands if necessary
+      if (deck.lands.auto)
+        deck.lands.basic = computeAutoLands(deck);
+      });
   },
 
   [SIDEBOARD_TO_DECK](state, { card }) {
-    // remove from sideboard
-    let deck = state.table.deck;
-    let sideboard = deck.piles[7];
-    sideboard.splice(sideboard.indexOf(card), 1);
+    updateTable(state, (table) => {
+      // remove from sideboard
+      let deck = table.deck;
+      let sideboard = deck.piles[7];
+      sideboard.splice(sideboard.indexOf(card), 1);
 
-    // card to deck pile
-    let pile = cardToDeckPile(card, deck);
-    pile.sort(orderCards);
+      // card to deck pile
+      let pile = cardToDeckPile(card, deck);
+      pile.sort(orderCards);
 
-    // apply auto-lands if necessary
-    if (deck.lands.auto)
-      deck.lands.basic = computeAutoLands(deck);
+      // apply auto-lands if necessary
+      if (deck.lands.auto)
+        deck.lands.basic = computeAutoLands(deck);
+    });
   },
 
   [SIDEBOARD_TO_SIDEBOARD](state, { card, insertBefore }) {
-    let deck = state.table.deck;
-    pileToPile(card, 7, deck.piles, insertBefore);
+    updateTable(state, (table) => {
+      let deck = table.deck;
+      pileToPile(card, 7, deck.piles, insertBefore);
+    });
   },
 
   [DISABLE_AUTO_LANDS](state, { color_order }) {
-    let deck = state.table.deck;
-    deck.lands.auto = false;
-    deck.lands.color_order = color_order;
+    updateTable(state, (table) => {
+      let deck = table.deck;
+      deck.lands.auto = false;
+      deck.lands.color_order = color_order;
+    });
   },
 
   [SET_BASIC_LANDS](state, { color, lands }) {
-    let deck = state.table.deck;
-    deck.lands.basic[color] = lands;
+    updateTable(state, (table) => {
+      let deck = table.deck;
+      deck.lands.basic[color] = lands;
+    });
   },
 };
 
+
+function updateTable(state, updator) {
+  let table = JSON.parse(JSON.stringify(state.table));
+  updator(table);
+  state.table = table;
+}
 
 function passPacks(table) {
   // compose array of all players
