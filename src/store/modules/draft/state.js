@@ -3,42 +3,32 @@
 export default function() {
   return {
 
-    // date
+    // start time
     start_time: new Date().getTime(), 
-
-    // cards
-    cards: {
-      set_code: null,
-      set_name: null,
-      all_packs: [],
-    },
 
     // options
     options: {
+      set_code: null,
+      set_name: null,
       pick_timer: false,
       pick_analysis: false,
     },
 
     // table
     table: {
+      all_packs: [],
       current_pack: 0,
       current_pick: 0,
       picks_complete: false,
+      picks: playerPicks(),
+      deck: playerDeck(),
+      players: [...Array(7)].map(function() {
+        return {
+          picks: playerPicks(),
+          deck: playerDeck(),
+        }
+      }),
     },
-
-    // player picks
-    picks: playerPicks(),
-
-    // player data
-    deck: playerDeck(),
-
-    // other players
-    players: [...Array(7)].map(function() {
-      return {
-        picks: playerPicks(),
-        deck: playerDeck(),
-      }
-    })
   }
 }
 

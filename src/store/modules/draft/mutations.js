@@ -21,15 +21,17 @@ export default {
 
   [ENTER_DRAFT](state, { set_code, cardpool, options }) {
     
-    // initialize cardpool
-    state.cards.set_code = set_code;
-    state.cards.set_name = set.name(set_code);
-    state.cards.all_packs = [...Array(24)].map(function() {
+    // initialize options
+    state.options = {
+      set_code: set_code,
+      set_name: set.name(set_code),
+      ...options  
+    };
+    
+    // initialize packs
+    state.table.all_packs = [...Array(24)].map(function() {
       return booster(set_code, cardpool);
     });
-
-    // initialize options
-    state.options = options;
 
     // distribute first pack
     nextPack(state);
@@ -39,20 +41,20 @@ export default {
     
     // null card means have the AI pick
     if (!card) {
-      let deck = state.picks.piles.flat();
-      card = set.pick(state.cards.set_code, deck, state.picks.pack);
+      let deck = state.table.picks.piles.flat();
+      card = set.pick(state.options.set_code, deck, state.table.picks.pack);
     }
 
     // write the pick 
-    let pack = state.picks.pack;
-    let pile = state.picks.piles[pile_number];
+    let pack = state.table.picks.pack;
+    let pile = state.table.picks.piles[pile_number];
     packToPick(pack, pile, card, insertBefore);
 
     // have other players make their picks
     aiPicks(state);
 
     // check whether the pack is completed
-    if (state.picks.pack.length === 0) {
+    if (state.table.picks.pack.length === 0) {
 
       // if we still have packs to go then create the next pack
       if (state.table.current_pack < 1)
@@ -72,12 +74,12 @@ export default {
   },
 
   [PICK_TO_PILE](state, { card, pile_number, insertBefore}) {
-    pileToPile(card, pile_number, state.picks.piles, insertBefore);
+    pileToPile(card, pile_number, state.table.picks.piles, insertBefore);
   },
 
   [DECK_TO_SIDEBOARD](state, { card, insertBefore}) {
     // move the card
-    let deck = state.deck;
+    let deck = state.table.deck;
     pileToPile(card, 7, deck.piles, insertBefore);
     // apply auto-lands if necessary
     if (deck.lands.auto)
@@ -86,7 +88,7 @@ export default {
 
   [SIDEBOARD_TO_DECK](state, { card }) {
     // remove from sideboard
-    let deck = state.deck;
+    let deck = state.table.deck;
     let sideboard = deck.piles[7];
     sideboard.splice(sideboard.indexOf(card), 1);
 
@@ -100,18 +102,18 @@ export default {
   },
 
   [SIDEBOARD_TO_SIDEBOARD](state, { card, insertBefore }) {
-    let deck = state.deck;
+    let deck = state.table.deck;
     pileToPile(card, 7, deck.piles, insertBefore);
   },
 
   [DISABLE_AUTO_LANDS](state, { color_order }) {
-    let deck = state.deck;
+    let deck = state.table.deck;
     deck.lands.auto = false;
     deck.lands.color_order = color_order;
   },
 
   [SET_BASIC_LANDS](state, { color, lands }) {
-    let deck = state.deck;
+    let deck = state.table.deck;
     deck.lands.basic[color] = lands;
   },
 };
@@ -119,8 +121,8 @@ export default {
 
 function passPacks(state) {
   // compose array of all players
-  let players = [{ picks: state.picks, deck: state.deck }].concat(
-    JSON.parse(JSON.stringify(state.players)));
+  let players = [{ picks: state.table.picks, deck: state.table.deck }].concat(
+    JSON.parse(JSON.stringify(state.table.players)));
 
   // copy existing packs
   let packs = players.map((player) => player.picks.pack.slice());
@@ -139,7 +141,7 @@ function passPacks(state) {
     players[packs.length-1].picks.pack = packs[0];
   }
 
-  state.players = players.slice(1);
+  state.table.players = players.slice(1);
 
   // move to next pick
   nextPick(state);
@@ -149,12 +151,12 @@ function nextPack(state) {
   // grab next set of packs
   let pack_begin = state.table.current_pack * 8;
   let pack_end = pack_begin + 8;
-  let packs = state.cards.all_packs.slice(pack_begin, pack_end);
+  let packs = state.table.all_packs.slice(pack_begin, pack_end);
 
   // distribute packs
-  state.picks.pack = packs[0];
+  state.table.picks.pack = packs[0];
   for (let i=1; i<packs.length; i++)
-    state.players[i-1].picks.pack = packs[i];
+    state.table.players[i-1].picks.pack = packs[i];
 
   // update current pack
   state.table.current_pack++;
@@ -183,15 +185,15 @@ function packToPick(pack, pile, card, insertBefore) {
 }
 
 function aiPicks(state) {
-  let players = JSON.parse(JSON.stringify(state.players));
+  let players = JSON.parse(JSON.stringify(state.table.players));
   for (let i=0; i<players.length; i++) {
     let player = players[i];
     let pack = player.picks.pack;
     let pile = player.picks.piles[0];
-    let card = set.pick(state.cards.set_code, pile, pack);
+    let card = set.pick(state.options.set_code, pile, pack);
     packToPick(pack, pile, card, null);
   }
-  state.players = players;
+  state.table.players = players;
 }
 
 function cardToDeckPile(c, deck) {
@@ -215,8 +217,8 @@ function cardToDeckPile(c, deck) {
 }
 
 function movePicksToDeck(state) {
-  let picks = state.picks;
-  let deck = state.deck;
+  let picks = state.table.picks;
+  let deck = state.table.deck;
   picks.piles.slice(0, 7).forEach(function(pile) {
     pile.forEach((c) => cardToDeckPile(c, deck));
   });
@@ -232,9 +234,9 @@ function movePicksToDeck(state) {
 }
 
 function completePicks(state) {
-  state.cards.all_packs = [];
-  state.picks = { pack: [], piles: []};
-  state.players = [];
+  state.table.all_packs = [];
+  state.table.picks = { pack: [], piles: []};
+  state.table.players = [];
   state.table.picks_complete = true;
 }
 

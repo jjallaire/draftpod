@@ -12,11 +12,11 @@ export default {
         return {
           id: id,
           start_time: draft.start_time,
-          set_name: draft.cards.set_name,
+          set_name: draft.options.set_name,
           current_pack: draft.table.current_pack,
           current_pick: draft.table.current_pick,
           picks_complete: draft.table.picks_complete,
-          deck_total_cards: selectors.deckTotalCards(draft.deck),
+          deck_total_cards: selectors.deckTotalCards(draft.table.deck),
         }
       })
       .sort((a, b) => b.start_time - a.start_time);

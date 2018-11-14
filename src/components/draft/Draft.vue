@@ -5,7 +5,7 @@
 
     <Navbar> 
     
-      <span class="navbar-text">{{ cards.set_name }} &mdash; 
+      <span class="navbar-text">{{ options.set_name }} &mdash; 
         <span v-if="picks_complete">Deck Construction</span>
         <span v-else>
           Pack {{ current_pack }}, Pick {{ current_pick }}
@@ -128,9 +128,6 @@ export default {
 
   computed: {
     ...mapState({
-      cards: function(state) {
-        return state[NS_DRAFTS][this.draft_id].cards;
-      },
       options: function(state) {
         return state[NS_DRAFTS][this.draft_id].options;
       },
@@ -144,10 +141,10 @@ export default {
         return state[NS_DRAFTS][this.draft_id].table.picks_complete;
       },
       picks: function(state) {
-        return state[NS_DRAFTS][this.draft_id].picks;
+        return state[NS_DRAFTS][this.draft_id].table.picks;
       },
       deck: function(state) {
-        return state[NS_DRAFTS][this.draft_id].deck;
+        return state[NS_DRAFTS][this.draft_id].table.deck;
       },
     }),
     
