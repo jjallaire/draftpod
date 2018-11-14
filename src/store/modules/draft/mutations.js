@@ -1,6 +1,5 @@
 
 export const ENTER_DRAFT = 'ENTER_DRAFT'
-export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const PICK_CARD = 'PICK_CARD'
 export const NEXT_PACK = 'NEXT_PACK'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
@@ -36,12 +35,14 @@ export default {
     nextPack(state);
   },
 
-  [RESUME_DRAFT](state) {
-    setPickEndTime(state);
-  },
-
   [PICK_CARD](state, { card, pile_number, insertBefore }) {
     
+    // null card means have the AI pick
+    if (!card) {
+      let deck = state.picks.piles.flat();
+      card = set.pick(state.cards.set_code, deck, state.picks.pack);
+    }
+
     // write the pick 
     let pack = state.picks.pack;
     let pile = state.picks.piles[pile_number];
@@ -170,8 +171,6 @@ function nextPick(state) {
   // advance pick
   state.status.current_pick++;
 
-  // set end time
-  setPickEndTime(state);
 }
 
 function packToPick(pack, pile, card, insertBefore) {
@@ -193,11 +192,6 @@ function aiPicks(state) {
     packToPick(pack, pile, card, null);
   }
   state.players = players;
-}
-
-function setPickEndTime(state) {
-  let pick_seconds = 80 - (5 * state.status.current_pick);
-  state.status.pick_end_time = new Date().getTime() + 1000 * pick_seconds;
 }
 
 function cardToDeckPile(c, deck) {

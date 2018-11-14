@@ -10,12 +10,15 @@
 
 <script>
 
+import '../eventbus.js'
+import { Events, EventBus } from '../eventbus.js';
+
 export default {
 
   name: 'PickTimer',
 
   props: {
-    pick_end_time: {
+    current_pick: {
       type: Number,
       required: true
     }
@@ -30,11 +33,22 @@ export default {
   created () {
     let vm = this;
     setInterval(function() {
-      vm.now = new Date().getTime()
+
+      // update current time
+      vm.now = new Date().getTime();
+
+      // check for expiration
+      if (vm.pick_time_remaining < 0) {
+        EventBus.$emit(Events.CardAIPick);
+      }
     }, 1000);
   },
 
   computed: {
+    pick_end_time: function() {
+      let pick_seconds = 80 - (5 * this.current_pick);
+      return new Date().getTime() + 1000 * pick_seconds;
+    },
     pick_time_remaining: function() {
       return Math.round((this.pick_end_time - this.now) / 1000);
     },
@@ -50,7 +64,7 @@ export default {
       let seconds = seconds_remaining % 60;
       return minutes + ':' + ('00'+ seconds).slice(-2);
     }
-  }
+  },
 }
 
 

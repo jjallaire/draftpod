@@ -6,6 +6,7 @@ export const EventBus = new Vue();
 export const Events = {
   ViewCard: 'mtgdraft-view-card',
 
+  CardAIPick: 'mtgdraft-card-ai-pick',
   CardPackToPick: 'mtgdraft-card-pack-to-pick',
   CardPickToPile: 'mtgdraft-card-pick-to-pile',
   CardDeckToSideboard: 'mtgdraft-card-deck-to-sideboard',

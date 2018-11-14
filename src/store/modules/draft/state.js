@@ -23,7 +23,6 @@ export default function() {
     status: {
       current_pack: 0,
       current_pick: 0,
-      pick_end_time: new Date().getTime(),
       picks_complete: false,
     },
 

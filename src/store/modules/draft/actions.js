@@ -3,13 +3,9 @@ import axios from 'axios'
 
 import { 
   ENTER_DRAFT,
-  PICK_CARD,
 } from './mutations';
 
-import * as set from './set/'
-
 export const START_DRAFT = 'START_DRAFT'
-export const CHECK_PICK_TIME = 'CHECK_PICK_TIME'
 
 export default {
 
@@ -37,35 +33,7 @@ export default {
         });
     });
   },
-
-  [CHECK_PICK_TIME]({ state, commit }) {
-    
-      // auto-pick if we ran out of time 
-      if (pickTimeExpired(state)) {
-
-        // let the ai make the pick
-        let picks = state.picks;
-        let card = set.pick(state.cards.set_code, picks.piles[0], picks.pack);
-
-        // dispatch it and move on to the next pick
-        commit(PICK_CARD, {
-          card: card,
-          pile_number: 0, 
-          insertBefore: null
-        });
-      }  
-  },
 };
 
-
-function pickTimeExpired(state) {
-  let status = state.status;
-  let time_remaining = Math.round((status.pick_end_time - new Date().getTime()) / 1000);
-  return state.options.pick_timer &&
-          !status.picks_complete &&
-          status.current_pack > 0 && 
-          status.current_pick > 0 &&
-          time_remaining < 0;
-}
 
 

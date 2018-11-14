@@ -9,7 +9,7 @@
         <span v-if="status.picks_complete">Deck Construction</span>
         <span v-else>
           Pack {{ status.current_pack }}, Pick {{ status.current_pick }}
-          <PickTimer v-if="options.pick_timer" :pick_end_time="status.pick_end_time" />
+          <PickTimer v-if="options.pick_timer" :current_pick="status.current_pick" />
         </span>
       </span> 
     
@@ -56,15 +56,11 @@ import PickTimer from './pick/PickTimer.vue'
 import Infobar from './infobar/Infobar.vue'
 import Deck from './deck/Deck.vue'
 
-import { CHECK_PICK_TIME } from '@/store/modules/draft/actions';
 import { PICK_CARD, PICK_TO_PILE, 
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
-         DISABLE_AUTO_LANDS, SET_BASIC_LANDS, 
-         RESUME_DRAFT } from '@/store/modules/draft/mutations';
+         DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/mutations';
 
-import { mapState, mapActions, mapMutations } from 'vuex';
-
-
+import { mapState, mapMutations } from 'vuex';
 
 import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
 import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
@@ -90,8 +86,7 @@ export default {
 
   data: function() {
     return { 
-      fullscreen: false,
-      timer: null
+      fullscreen: false
     };
   },
 
@@ -102,23 +97,13 @@ export default {
 
   created() {
 
-    // alias vue model for callbacks
-    let vm = this;
-
     // dynamically register namespace module for this draft it doesn't exist
     useDraftModule(this.draft_id, { preserveState: true });
-
-    // resume draft
-    this.resumeDraft();
-
-    // setup timer to check for pick status
-    this.timer = setInterval(() => {
-      vm.pickTimer();
-    }, 1000);
     
     // update fullscreen state on change
     fscreen.addEventListener('fullscreenchange', this.onFullscreenChange);
 
+    EventBus.$on(Events.CardAIPick, this.aiPick);
     EventBus.$on(Events.CardPackToPick, this.pickCard);
     EventBus.$on(Events.CardPickToPile, this.pickToPile);
     EventBus.$on(Events.CardDeckToSideboard, this.deckToSideboard);
@@ -130,6 +115,7 @@ export default {
   },
 
   beforeDestroy() {
+    EventBus.$off(Events.CardAIPick, this.aiPick);
     EventBus.$off(Events.CardPackToPick, this.pickCard);
     EventBus.$off(Events.CardPickToPile, this.pickToPile);
     EventBus.$off(Events.CardDeckToSideboard), this.deckToSideboard;
@@ -138,7 +124,6 @@ export default {
     EventBus.$off(Events.LandsChanged, this.LandsChanged);
     EventBus.$off(Events.LandsAutoDisable, this.disableAutoLands);
     fscreen.removeEventListener('fullscreenchange', this.onFullscreenChange);
-    clearInterval(this.timer);
   },
 
   computed: {
@@ -171,15 +156,7 @@ export default {
   },
 
   methods: {
-    ...mapActions({
-      pickTimer(dispatch, payload) {
-        return dispatch(this.namespace + '/' + CHECK_PICK_TIME, payload);
-      }
-    }),
     ...mapMutations({
-      resumeDraft(dispatch, payload) {
-        return dispatch(this.namespace + '/' + RESUME_DRAFT, payload);
-      },
       pickCard(dispatch, payload) {
         return dispatch(this.namespace + '/' + PICK_CARD, payload);
       },
@@ -202,6 +179,13 @@ export default {
         return dispatch(this.namespace + '/' + SET_BASIC_LANDS, payload);
       },
     }),
+    aiPick: function() {
+      this.pickCard({
+        card: null,
+        pile_number: 0, 
+        insertBefore: null
+      });
+    },
     onExitDraft: function() {
       let vm = this;
       messagebox.confirm("<p>Do you want to exit this draft?</p>", function() {
