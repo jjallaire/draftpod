@@ -61,7 +61,7 @@ export default {
     },
     badge_class: function() {
       if (this.pick_time_remaining > 10)
-        return "badge-primary";
+        return "badge-transparent";
       else
         return "badge-danger";
     },
@@ -80,5 +80,8 @@ export default {
 
 <style>
 
+.mtgdraft-pick-timer .badge-transparent {
+  background-color: transparent;
+}
 
 </style>

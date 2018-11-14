@@ -11,9 +11,6 @@ import store from './store'
 // TODO: storage capacity for localStorage
 //   - limit recents
 
-// TODO: vuex nested data is slow (dom updates triggered for all sets)
-// I think we need to operate on a copy and set in one shot
-
 // TODO: resume/new/recent (navigator)
 
 // TODO: implement separate piles for instants and sorceries in deck
