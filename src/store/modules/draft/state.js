@@ -27,8 +27,8 @@ export default function() {
       picks_complete: false,
     },
 
-    // player draft
-    draft: playerDraft(),
+    // player picks
+    picks: playerPicks(),
 
     // player data
     deck: playerDeck(),
@@ -36,14 +36,14 @@ export default function() {
     // other players
     players: [...Array(7)].map(function() {
       return {
-        draft: playerDraft(),
+        picks: playerPicks(),
         deck: playerDeck(),
       }
     })
   }
 }
 
-function playerDraft() {
+function playerPicks() {
   return {
     pack: [],
     piles: [...Array(8)].map(() => Array()),

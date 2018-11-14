@@ -44,8 +44,8 @@ export default {
       if (pickTimeExpired(state)) {
 
         // let the ai make the pick
-        let draft = state.draft;
-        let card = set.pick(state.cards.set_code, draft.piles[0], draft.pack);
+        let picks = state.picks;
+        let card = set.pick(state.cards.set_code, picks.piles[0], picks.pack);
 
         // dispatch it and move on to the next pick
         commit(PICK_CARD, {

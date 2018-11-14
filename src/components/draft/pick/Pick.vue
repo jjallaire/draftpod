@@ -23,7 +23,7 @@
 
   <div class="card-body tab-content">
     <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
-      <PickList :piles="draft.piles" />
+      <PickList :piles="picks.piles" />
     </div>
     <div v-if="pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
       <PickAnalysis  />
@@ -42,7 +42,7 @@ import PickAnalysis from './PickAnalysis.vue'
 export default {
   name: 'Pick',
   props: {
-    draft: {
+    picks: {
       type: Object,
       required: true
     },

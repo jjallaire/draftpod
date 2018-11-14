@@ -32,10 +32,10 @@
     <div class="mtgdraft">
         <div class="mtgdraft-cards">
           <transition name="mtgpack-hide">
-            <Pack v-if="!status.picks_complete" :pack="draft.pack"/>
+            <Pack v-if="!status.picks_complete" :pack="picks.pack"/>
           </transition>
           <Pick v-if="!status.picks_complete" 
-                :draft="draft" 
+                :picks="picks" 
                 :pick_analysis="options.pick_analysis"/>
           <Deck v-else :deck="deck"/>
         </div>
@@ -152,8 +152,8 @@ export default {
       status: function(state) {
         return state[NS_DRAFTS][this.draft_id].status;
       },
-      draft: function(state) {
-        return state[NS_DRAFTS][this.draft_id].draft;
+      picks: function(state) {
+        return state[NS_DRAFTS][this.draft_id].picks;
       },
       deck: function(state) {
         return state[NS_DRAFTS][this.draft_id].deck;
@@ -161,7 +161,7 @@ export default {
     }),
     
     active_cards: function() {
-      let piles = this.status.picks_complete ? this.deck.piles : this.draft.piles;
+      let piles = this.status.picks_complete ? this.deck.piles : this.picks.piles;
       return piles.slice(0, 7).flat();
     },
 
