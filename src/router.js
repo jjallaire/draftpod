@@ -18,7 +18,7 @@ export default new VueRouter({
   
   routes: [
     { path: '/', component: Home },
-    { path: '/draft', component: DraftNavigator },
+    { path: '/draft/', component: DraftNavigator },
     { path: '/draft/:draft_id', component: Draft, props: true, 
       beforeEnter: (to, from, next) => {
         let draft_id = to.params.draft_id;

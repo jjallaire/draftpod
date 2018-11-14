@@ -238,7 +238,7 @@ export default {
 }
 
 .mtgdraft-fade-enter-active {
-  transition: opacity 0.7s;
+  transition: opacity 0.5s;
 }
 .mtgdraft-fade-enter {
   opacity: 0;

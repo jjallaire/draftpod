@@ -106,7 +106,7 @@ export default {
       }).then(() => {
 
         // push state
-        this.$router.push("draft/" + draft_id);
+        this.$router.push("/draft/" + draft_id);
 
       });
 
