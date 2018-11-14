@@ -93,7 +93,7 @@ export default {
       // apply auto-lands if necessary
       if (deck.lands.auto)
         deck.lands.basic = computeAutoLands(deck);
-      });
+    });
   },
 
   [SIDEBOARD_TO_DECK](state, { card }) {
@@ -101,7 +101,7 @@ export default {
       // remove from sideboard
       let deck = table.deck;
       let sideboard = deck.piles[7];
-      sideboard.splice(sideboard.indexOf(card), 1);
+      sideboard.splice(cardIndex(sideboard, card), 1);
 
       // card to deck pile
       let pile = cardToDeckPile(card, deck);
@@ -136,6 +136,10 @@ export default {
   },
 };
 
+
+function cardIndex(cards, card) {
+  return cards.findIndex((element) => element.key === card.key);
+}
 
 function updateTable(state, updator) {
   let table = JSON.parse(JSON.stringify(state.table));
@@ -201,7 +205,7 @@ function nextPick(table) {
 function packToPick(pack, pile, card, insertBefore) {
 
   // remove from pack
-  pack.splice(pack.indexOf(card), 1);
+  pack.splice(cardIndex(pack, card), 1);
 
   // add to pile
   addCardToPile(pile, card, insertBefore);
@@ -404,7 +408,7 @@ function pileToPile(card, pile_number, piles, insertBefore) {
   // remove from existing pile 
   let pile = piles[pile_number];
   piles.forEach(function (p) {
-    let index = p.indexOf(card);
+    let index = cardIndex(p, card);
     if (index !== -1) {
 
       // remove the card
