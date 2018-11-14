@@ -6,10 +6,10 @@
 
 <Navbar /> 
 
-<div class="container">
+<div class="mtgdrafter container">
 
-<div class="mtgdraft-navigator">
-  <NavigatorResume v-if="draft_in_progress" :draft="draft_in_progress" />
+<div class="mtgdrafter-navigator">
+  <NavigatorResume v-if="draft_in_progress" :draft_id="draft_in_progress.id" />
   <NavigatorStart />
   <NavigatorRecent :draft_history="draft_history" />   
 </div>
@@ -67,17 +67,17 @@ export default {
 
 <style>
 
-.mtgdraft-navigator .navigator-panel {
+.mtgdrafter-navigator .navigator-panel {
   margin-bottom: 20px;
 }
 
-.mtgdraft-navigator .btn {
+.mtgdrafter-navigator .btn {
   padding-left: 25px;
   padding-right: 25px;
   border: 0;
 }
 
-.mtgdraft-navigator .form-check {
+.mtgdrafter-navigator .form-check {
   margin-top: 10px;
 }
 

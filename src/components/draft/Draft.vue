@@ -1,12 +1,12 @@
 <template>
 
   <transition name="mtgdraft-fade">
-  <div>
+  <div class="mtgdrafter">
 
     <Navbar> 
     
       <span class="navbar-text">{{ options.set_name }} &mdash; 
-        <span v-if="table.picks_complete">Deck Construction</span>
+        <span v-if="table.picks_complete">Building Deck</span>
         <span v-else>
           Pack {{ table.current_pack }}, Pick {{ table.current_pick }}
           <PickTimer v-if="options.pick_timer" :current_pick="table.current_pick" />
@@ -180,7 +180,8 @@ export default {
     },
     onExitDraft: function() {
       let vm = this;
-      messagebox.confirm("<p>Do you want to exit this draft?</p>", function() {
+      messagebox.confirm("<p>Do you want to exit this draft?</p>" +
+                         "<p><em class='text-muted'>You can pick up where you left off in the draft later.</em></p>", function() {
         vm.$router.push("/draft/");
       });
     },

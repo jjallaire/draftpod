@@ -33,21 +33,21 @@ export default {
 
 <style>
 
-.mtgdraft-deckstats .mana-curve-legend {
+.mtgdrafter .mana-curve-legend {
   font-size: 0.8em;
   font-weight: 400;
   margin-top: 5px;
 }
 
-.mtgdraft-deckstats .mana-key {
+.mtgdrafter .mana-key {
   padding-right: 12px;
 }
 
-.mtgdraft-deckstats .creatures-key {
+.mtgdrafter .creatures-key {
   margin-left: 10px;
 }
 
-.mtgdraft-deckstats .other-key {
+.mtgdrafter .other-key {
   margin-left: 5px;
 }
 

@@ -6,7 +6,7 @@
 
 <NavigatorPanel name="new-draft" caption="Start New Draft" :parent="parent" :show="show">
   <template slot="icon"><PlayCircleIcon/></template>
-  <form class="mtgdraft-navigator-start-draft">
+  <form class="mtgdrafter-navigator-start-draft">
     <div class="form-group row">
       <label for="draft-set" class="col-sm-3 col-form-label">Set:</label>
       <div class="col-sm-9">

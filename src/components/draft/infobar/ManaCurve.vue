@@ -1,7 +1,7 @@
 
 
 <template>
-<div class="ct-chart ct-perfect-fourth">
+<div class="mtgdraft-mana-curve ct-chart ct-perfect-fourth">
 </div>
 </template>
 
@@ -19,6 +19,10 @@ export default {
      cards: {
       type: Array,
       required: true
+    },
+    height: {
+      type: Number,
+      default: 120,
     }
   },
 
@@ -37,7 +41,7 @@ export default {
   mounted() {
     this.chart = new Chartist.Bar(this.$el, 
       chartData(this.cards),
-      chartOptions()
+      chartOptions(this.height)
     );
   }
 }
@@ -85,14 +89,14 @@ function chartData(cards) {
   }
 }
 
-function chartOptions() {
+function chartOptions(height) {
   return {
     stackBars: true,
     seriesBarDistance: 5,
     high: 16,
     low: 0,
     onlyInteger: true,
-    height: 120,
+    height: height,
   
     axisX: {
       showGrid: true,
@@ -111,17 +115,17 @@ function chartOptions() {
 </script>
 
 <style>
-.ct-chart {
+.mtgdraft-mana-curve .ct-chart {
   height: 115px;
 }
 
-.ct-bar {
+.mtgdraft-mana-curve .ct-bar {
   stroke-width: 11%;
 }
-.ct-series-a .ct-bar {
+.mtgdraft-mana-curve .ct-series-a .ct-bar {
   stroke: #ee5f5b;
 }
-.ct-series-b .ct-bar {
+.mtgdraft-mana-curve .ct-series-b .ct-bar {
    stroke: #5bc0de;
 }
 
