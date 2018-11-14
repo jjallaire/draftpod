@@ -21,6 +21,7 @@ export default {
           deck_total_cards: selectors.deckTotalCards(draft.table.deck),
         }
       })
+      .filter((draft) => draft.current_pack > 0)
       .sort((a, b) => b.start_time - a.start_time);
   },
 
