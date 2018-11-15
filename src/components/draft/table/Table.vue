@@ -60,7 +60,7 @@ import PickTimer from '../pick/PickTimer.vue'
 import Infobar from '../infobar/Infobar.vue'
 import Deck from '../deck/Deck.vue'
 
-import { PICK_CARD, PICK_TO_PILE, 
+import { RESUME_DRAFT, PICK_CARD, PICK_TO_PILE, 
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/mutations';
 
@@ -106,6 +106,9 @@ export default {
     // dynamically register namespace module for this draft it doesn't exist
     useDraftModule(this.draft_id, { preserveState: true });
     
+    // resume draft
+    this.resumeDraft();
+
     // update fullscreen state on change
     fscreen.addEventListener('fullscreenchange', this.onFullscreenChange);
 
@@ -153,6 +156,9 @@ export default {
 
   methods: {
     ...mapMutations({
+      resumeDraft(dispatch) {
+        return dispatch(this.namespace + '/' + RESUME_DRAFT);
+      },
       pickCard(dispatch, payload) {
         return dispatch(this.namespace + '/' + PICK_CARD, payload);
       },

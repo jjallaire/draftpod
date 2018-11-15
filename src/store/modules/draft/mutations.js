@@ -1,5 +1,6 @@
 
 export const ENTER_DRAFT = 'ENTER_DRAFT'
+export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const PICK_CARD = 'PICK_CARD'
 export const NEXT_PACK = 'NEXT_PACK'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
@@ -37,6 +38,10 @@ export default {
       // distribute first pack
       nextPack(table);
     });
+  },
+
+  [RESUME_DRAFT](state) {
+    state.start_time = new Date().getTime();
   },
 
   [PICK_CARD](state, { card, pile_number, insertBefore }) {
