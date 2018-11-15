@@ -24,7 +24,7 @@
 
 <script>
 
-import Navbar from './Navbar.vue'
+import Navbar from './core/Navbar.vue'
 
 export default {
   name: 'Home',

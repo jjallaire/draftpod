@@ -22,7 +22,7 @@
 
 <script>
 
-import Navbar from '@/components/Navbar.vue'
+import Navbar from '@/components/core/Navbar.vue'
 import NavigatorResume from './NavigatorResume.vue'
 import NavigatorStart from './NavigatorStart.vue'
 import NavigatorRecent from './NavigatorRecent.vue'

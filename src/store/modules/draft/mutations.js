@@ -15,7 +15,7 @@ import * as set from './set/'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
 
-const local_images = false
+const local_images = true
 
 export default {
 
