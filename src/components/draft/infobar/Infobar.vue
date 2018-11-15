@@ -53,23 +53,6 @@ export default {
   background-color: transparent;
 }
 
-@media only screen and (min-width: 900px) {
-  .mtgdraft-infobar {
-    width: 190px;
-  }
-}
-
-@media only screen and (min-width: 1100px) {
-  .mtgdraft-infobar {
-    width: 210px;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .mtgdraft-infobar {
-    width: 230px;
-  }
-}
 
 .mtgdraft-deckstats {
   flex: 1 1 auto;

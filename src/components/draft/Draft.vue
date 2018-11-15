@@ -240,7 +240,7 @@ export default {
 
 .mtgdraft-infobar {
   position: absolute;
-  width: 230px;
+  width: 220px;
   top: 0;
   bottom: 0;
   right: 0;
@@ -248,7 +248,7 @@ export default {
 
 .mtgdraft-cards {
   position: absolute;
-  right: 230px;
+  right: 220px;
   top: 0;
   left: 0;
   bottom: 0;
@@ -259,10 +259,10 @@ export default {
 
 @media only screen and (max-width: 1000px) {
   .mtgdraft-infobar {
-    width: 210px;
+    width: 200px;
   }
   .mtgdraft-cards {
-    right: 210px;
+    right: 200px;
   }
 }
 
