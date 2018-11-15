@@ -2,7 +2,8 @@
 
 <template>
 
-<NavigatorPanel name="resume-draft" caption="Draft in Progress" :parent="parent" :show="show">
+<NavigatorPanel name="resume-draft" caption="Draft in Progress" :parent="parent" :show="show"
+                class="mtgdrafter-navigator-resume-draft">
     <template slot="icon"><RotateRight/></template>
     <div class="row">
       <div class="col-sm-4">
@@ -15,7 +16,6 @@
             Pack {{ draft.table.current_pack }}, Pick {{ draft.table.current_pick }}
           </span>
         </p>
-        <br/>
         <button type="button" class="btn btn-warning navigator-button" 
                 @click="onResumeDraft">
             Resume Draft
@@ -98,6 +98,10 @@ export default {
 
 .mtgdrafter-navigator .mtgdraft-mana-curve {
   height: 140px;
+}
+
+.mtgdrafter-navigator-resume-draft .navigator-button {
+  margin-top: 35px;
 }
 
 </style>

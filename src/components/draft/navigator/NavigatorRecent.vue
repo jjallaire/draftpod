@@ -7,11 +7,12 @@
   <template slot="icon"><HistoryIcon /></template>
 
   <div class="row">
+  <div class="col-sm-12">
   <table class="table table-hover">
     <tbody>
       <tr v-for="draft in draft_history" :key="draft.id"
           @click="onClickedDraft(draft)">
-        <td>
+        <td class="td-set">
           <SetIcon :set_code="draft.set_code" />
           <span class="set-name">{{ draft.set_name }}</span>
         </td>
@@ -35,6 +36,7 @@
       </tr>
     </tbody>
   </table>
+  </div>
   </div>
 
 </NavigatorPanel>
@@ -86,6 +88,10 @@ export default {
 </script>
 
 <style>
+
+.mtgdrafter-navigator-recent-drafts .card-body {
+  padding-left: 1.3rem;
+}
 
 .mtgdrafter-navigator-recent-drafts a {
   color: inherit;

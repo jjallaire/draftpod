@@ -100,6 +100,7 @@ export default {
   background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
   background-repeat: no-repeat;
   background-color: transparent;
+  padding-left: 2rem;
 }
 
 .navigator-panel .card-body button {
