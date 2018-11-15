@@ -17,10 +17,10 @@
           <span class="set-name">{{ draft.set_name }}</span>
         </td>
         <td>
-          <img class="color-icon" v-for="i in 2" :key="i" 
-               :src="draft.card_colors[i-1].img"
-               :title="draft.card_colors[i-1].name + ' ('  
-                 + Math.round(draft.card_colors[i-1].percent * 100) + '%)'"/>
+          <img v-for="color in draft.card_colors" :key="color.name" 
+               class="color-icon"
+               :src="color.img"
+               :title="color.name + ' (' + Math.round(color.percent * 100) + '%)'"/>
         </td>
         <td>
           <span v-if="draft.picks_complete">

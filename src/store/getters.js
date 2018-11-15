@@ -21,6 +21,8 @@ export default {
           picks_complete: draft.table.picks_complete,
           deck_total_cards: selectors.deckTotalCards(draft.table.deck),
           card_colors: selectors.cardColors(selectors.activeCards(draft.table))
+                        .filter((color) => color.count > 0)
+                        .slice(0,2),
         }
       })
       .filter((draft) => draft.current_pack > 0)
@@ -41,4 +43,6 @@ export default {
     }
   },
 };
+
+
 
