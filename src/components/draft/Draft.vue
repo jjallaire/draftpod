@@ -4,8 +4,11 @@
   <div class="mtgdrafter">
 
     <Navbar> 
-    
-      <span class="navbar-text">{{ options.set_name }} &mdash; 
+      <span class="navbar-text navbar-set-icon">
+         <SetIcon :set_code="options.set_code"/>   
+      </span>
+      <span class="navbar-text">
+        {{ options.set_name }} &mdash; 
         <span v-if="table.picks_complete">Building Deck</span>
         <span v-else>
           Pack {{ table.current_pack }}, Pick {{ table.current_pick }}
@@ -49,6 +52,7 @@
 
 <script>
 
+import SetIcon from '@/components/core/SetIcon.vue'
 import Navbar from '@/components/Navbar.vue'
 import Pack from './pack/Pack.vue';
 import Pick from './pick/Pick.vue';
@@ -94,7 +98,7 @@ export default {
 
   components: {
     Navbar, Navigator, Pack, PickTimer, Pick, Deck, Infobar, 
-    FullScreenIcon, FullScreenExitIcon, ExitToAppIcon
+    FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, SetIcon
   },
 
   created() {

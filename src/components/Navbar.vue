@@ -46,15 +46,15 @@ export default {
 }
 
 .navbar .nav-link.icon-link {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding-top: 0;
+  padding-bottom: 0.2rem;
 }
 
 .navbar .navbar-brand {
   font-size: 1rem;
   font-weight: 400;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 0 ;
   padding-left: 0.3rem;
 }
 
@@ -64,7 +64,7 @@ export default {
 }
 
 .navbar .navbar-text {
-  padding-top: 0;
+  padding-top: 2px;
   padding-bottom: 0;
   padding-right: 1em;
 }
@@ -73,4 +73,24 @@ export default {
   font-size: 1.3rem;
   line-height: inherit;
 }
+
+.navbar .simple-svg-wrapper {
+  display: inline-block;
+}
+
+.navbar .navbar-set-icon {
+  padding-bottom: 6px;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+.navbar .navbar-text .simple-svg-wrapper svg {
+  height: 16px;
+  width: auto;
+}
+
+.navbar .navbar-text .simple-svg-wrapper svg>path {
+  fill: rgba(255,255,255,0.5);
+}
+
 </style>
