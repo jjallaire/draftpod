@@ -54,11 +54,11 @@
 
 import SetIcon from '@/components/core/SetIcon.vue'
 import Navbar from '@/components/Navbar.vue'
-import Pack from './pack/Pack.vue';
-import Pick from './pick/Pick.vue';
-import PickTimer from './pick/PickTimer.vue'
-import Infobar from './infobar/Infobar.vue'
-import Deck from './deck/Deck.vue'
+import Pack from '../pack/Pack.vue';
+import Pick from '../pick/Pick.vue';
+import PickTimer from '../pick/PickTimer.vue'
+import Infobar from '../infobar/Infobar.vue'
+import Deck from '../deck/Deck.vue'
 
 import { PICK_CARD, PICK_TO_PILE, 
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
@@ -72,7 +72,7 @@ import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
 
 import fscreen from 'fscreen'
 import * as messagebox from '@/components/core/messagebox.js'
-import { Events, EventBus } from './eventbus'
+import { Events, EventBus } from '../eventbus'
  
 // drafts namespace
 const NS_DRAFTS = "drafts";
