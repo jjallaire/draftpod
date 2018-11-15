@@ -8,17 +8,11 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: card thumbnail for resume
 
 // TODO: ability to remove recent drafts?
-
 // TODO: implement separate piles for instants and sorceries in deck
-
 // TODO: flicker when pack is loading
-
-// TODO: initial draft ai
-
-// TODO: prerendered
+// TODO: initial draft ai (use for card preview)
 
 Vue.config.productionTip = false
 

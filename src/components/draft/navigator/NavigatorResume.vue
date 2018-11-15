@@ -6,7 +6,7 @@
                 class="mtgdrafter-navigator-resume-draft">
     <template slot="icon"><RotateRight/></template>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <h4>{{ draft.options.set_name }}</h4>
         <p>
           <span v-if="draft.table.picks_complete">
@@ -25,8 +25,11 @@
         <ManaLegend :cards="active_cards" />
         <ManaCurve :cards="active_cards" :height="150" />
       </div>
-      <div class="col-sm-3 offset-sm-1">
+      <div class="col-sm-3">
         <ManaColors :cards="active_cards" />
+      </div>
+      <div class="col-sm-2">
+        <img class="card-preview" :src="card_preview_image" height="150"/>
       </div>
     </div>
 </NavigatorPanel>
@@ -74,6 +77,12 @@ export default {
     active_cards: function() {
       return selectors.activeCards(this.draft.table);
     },
+    card_preview_image: function() {
+      if (this.active_cards.length > 0)
+        return this.active_cards[0].image;
+      else
+        return "/images/card-empty.png";
+    },
     deck_total_cards: function() {
       return selectors.deckTotalCards(this.draft.table.deck);
     },
@@ -102,6 +111,11 @@ export default {
 
 .mtgdrafter-navigator-resume-draft .navigator-button {
   margin-top: 35px;
+}
+
+.mtgdrafter-navigator-resume-draft .card-preview {
+  margin-top: 5px;
+  padding-left: 30px;
 }
 
 </style>
