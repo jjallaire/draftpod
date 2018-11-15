@@ -7,14 +7,13 @@
   <template slot="icon"><HistoryIcon /></template>
 
   <div class="row">
-  <table class="table">
+  <table class="table table-hover">
     <tbody>
-      <tr v-for="draft in draft_history" :key="draft.id">
+      <tr v-for="draft in draft_history" :key="draft.id"
+          @click="onClickedDraft(draft)">
         <td>
           <SetIcon :set_code="draft.set_code" />
-          <router-link class="set-name" :to="'/draft/' + draft.id">
-            {{ draft.set_name }}
-          </router-link>
+          <span class="set-name">{{ draft.set_name }}</span>
         </td>
         <td>
           <img class="color-icon" v-for="i in 2" :key="i" 
@@ -31,7 +30,7 @@
           </span>
         </td>
         <td>
-          {{ new Date(draft.start_time).toLocaleString() }}
+          {{ formatDateTime(draft.start_time) }}
         </td>
       </tr>
     </tbody>
@@ -67,6 +66,17 @@ export default {
     }
   },
 
+  methods: {
+    onClickedDraft(draft) {
+      this.$router.push("/draft/" + draft.id);
+    },
+    formatDateTime(dt) {
+      let date = new Date(dt);
+      return date.toLocaleDateString() + ', ' +
+             date.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true });
+    }
+  },
+
   components: {
     NavigatorPanel, HistoryIcon, SetIcon
   }
@@ -96,10 +106,17 @@ export default {
   fill: darkslategray;
 }
 
+
+
 .mtgdrafter-navigator-recent-drafts .table th,
 .mtgdrafter-navigator-recent-drafts .table td {
   border-top: none !important;
   height: 50px;
+}
+
+.mtgdrafter-navigator-recent-drafts .table-hover tbody tr:hover {
+  background-color: rgba(255,255,255,0.8);
+  cursor: pointer;
 }
 
 .mtgdrafter-navigator-recent-drafts .set-name {
@@ -107,7 +124,7 @@ export default {
 }
 
 .mtgdrafter-navigator-recent-drafts .color-icon {
-  margin-right: 8px;
+  margin-right: 10px;
   padding-bottom: 2px;
   width: 18px;
 }
