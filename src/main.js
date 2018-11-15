@@ -8,10 +8,6 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: recent (navigator)
-
-// TODO: form help for start options
-// TODO: add set icon to resume
 // TODO: card thumbnail for resume
 
 // TODO: implement separate piles for instants and sorceries in deck
