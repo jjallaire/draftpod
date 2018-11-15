@@ -18,14 +18,6 @@ export default {
       type: String,
       required: false
     },
-    width: {
-      type: String,
-      required: true
-    },
-    height: {
-      type: String,
-      required: true
-    }
   },
 
   components: {

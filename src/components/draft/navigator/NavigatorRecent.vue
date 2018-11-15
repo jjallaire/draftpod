@@ -5,13 +5,39 @@
 <NavigatorPanel name="recent-drafts" caption="Recent Drafts" :parent="parent" :show="show"
                 class="mtgdrafter-navigator-recent-drafts">
   <template slot="icon"><HistoryIcon /></template>
-  <div v-for="draft in draft_history" :key="draft.id" class="row">
-    <div class="col-sm-3">
-      <router-link :to="'/draft/' + draft.id">
-      {{ draft.set_name }}
-      </router-link>
-    </div>
+
+  <div class="row">
+  <table class="table">
+    <tbody>
+      <tr v-for="draft in draft_history" :key="draft.id">
+        <td>
+          <SetIcon :set_code="draft.set_code" />
+          <router-link class="set-name" :to="'/draft/' + draft.id">
+            {{ draft.set_name }}
+          </router-link>
+        </td>
+        <td>
+          <img class="color-icon" v-for="i in 2" :key="i" 
+               :src="draft.card_colors[i-1].img"
+               :title="draft.card_colors[i-1].name + ' ('  
+                 + Math.round(draft.card_colors[i-1].percent * 100) + '%)'"/>
+        </td>
+        <td>
+          <span v-if="draft.picks_complete">
+            Deck: {{ draft.deck_total_cards }} / 40
+          </span>
+          <span v-else>
+            Pack {{ draft.current_pack }}, Pick {{ draft.current_pick }}
+          </span>
+        </td>
+        <td>
+          {{ new Date(draft.start_time).toLocaleString() }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
   </div>
+
 </NavigatorPanel>
 
 </template>
@@ -21,6 +47,7 @@
 import NavigatorPanel from './NavigatorPanel.vue'
 
 import HistoryIcon from "vue-material-design-icons/History.vue"
+import SetIcon from '@/components/core/SetIcon.vue'
 
 export default {
   name: 'NavigatorRecent',
@@ -41,7 +68,7 @@ export default {
   },
 
   components: {
-    NavigatorPanel, HistoryIcon
+    NavigatorPanel, HistoryIcon, SetIcon
   }
 
 }
@@ -52,6 +79,37 @@ export default {
 
 .mtgdrafter-navigator-recent-drafts a {
   color: inherit;
+}
+
+.mtgdrafter-navigator-recent-drafts .simple-svg-wrapper {
+  display: inline-block;
+  margin-right: 5px;
+  width: 25px;
+}
+
+.mtgdrafter-navigator-recent-drafts .simple-svg-wrapper svg {
+  width: 20px;
+  padding-bottom: 4px;
+}
+
+.mtgdrafter-navigator-recent-drafts .simple-svg-wrapper svg>path {
+  fill: darkslategray;
+}
+
+.mtgdrafter-navigator-recent-drafts .table th,
+.mtgdrafter-navigator-recent-drafts .table td {
+  border-top: none !important;
+  height: 50px;
+}
+
+.mtgdrafter-navigator-recent-drafts .set-name {
+  font-size: 1.1em;
+}
+
+.mtgdrafter-navigator-recent-drafts .color-icon {
+  margin-right: 8px;
+  padding-bottom: 2px;
+  width: 18px;
 }
 
 </style>

@@ -10,6 +10,10 @@ import store from './store'
 
 // TODO: recent (navigator)
 
+// TODO: form help for start options
+// TODO: add set icon to resume
+// TODO: card thumbnail for resume
+
 // TODO: implement separate piles for instants and sorceries in deck
 
 // TODO: flicker when pack is loading
