@@ -10,11 +10,15 @@ import store from './store'
 
 // TODO: card thumbnail for resume
 
+// TODO: color icons for no cards
+
 // TODO: implement separate piles for instants and sorceries in deck
 
 // TODO: flicker when pack is loading
 
 // TODO: initial draft ai
+
+// TODO: prerendered
 
 Vue.config.productionTip = false
 

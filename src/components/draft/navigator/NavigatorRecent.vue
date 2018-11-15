@@ -93,7 +93,7 @@ export default {
 
 .mtgdrafter-navigator-recent-drafts .simple-svg-wrapper {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 13px;
   width: 25px;
 }
 
@@ -105,8 +105,6 @@ export default {
 .mtgdrafter-navigator-recent-drafts .simple-svg-wrapper svg>path {
   fill: darkslategray;
 }
-
-
 
 .mtgdrafter-navigator-recent-drafts .table th,
 .mtgdrafter-navigator-recent-drafts .table td {
@@ -124,7 +122,7 @@ export default {
 }
 
 .mtgdrafter-navigator-recent-drafts .color-icon {
-  margin-right: 10px;
+  margin-right: 8px;
   padding-bottom: 2px;
   width: 18px;
 }
