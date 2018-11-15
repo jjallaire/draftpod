@@ -11,7 +11,7 @@
 <div class="mtgdrafter-navigator">
   <NavigatorResume v-if="draft_in_progress" :draft_id="draft_in_progress.id" />
   <NavigatorStart />
-  <NavigatorRecent :draft_history="draft_history" />   
+  <NavigatorRecent v-if="draft_history.length > 0" :draft_history="draft_history" />   
 </div>
 
 </div>
