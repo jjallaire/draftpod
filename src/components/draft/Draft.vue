@@ -8,9 +8,9 @@
          <SetIcon :set_code="options.set_code"/>   
       </span>
       <span class="navbar-text">
-        {{ options.set_name }} &mdash; 
-        <span v-if="table.picks_complete">Building Deck</span>
-        <span v-else>
+        {{ options.set_name }} 
+        <span v-if="!table.picks_complete">
+          &mdash;
           Pack {{ table.current_pack }}, Pick {{ table.current_pick }}
           <PickTimer v-if="options.pick_timer" :current_pick="table.current_pick" />
         </span>
