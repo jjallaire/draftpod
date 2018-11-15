@@ -9,7 +9,7 @@
         <h4>{{ draft.options.set_name }}</h4>
         <p>
           <span v-if="draft.table.picks_complete">
-            Main Deck: {{ deck_total_cards }} / 40
+            Deck: {{ deck_total_cards }} / 40
           </span>
           <span v-else>
             Pack {{ draft.table.current_pack }}, Pick {{ draft.table.current_pick }}

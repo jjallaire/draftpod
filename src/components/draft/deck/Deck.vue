@@ -1,6 +1,6 @@
 
 <template>
-  <Panel :caption="'Main Deck: ' + deck_total_cards + ' / 40'" panel_class="mtgdraft-deck">
+  <Panel :caption="'Deck: ' + deck_total_cards + ' / 40'" panel_class="mtgdraft-deck">
     <template slot="header-left">
       <div class="card-type-counts">
       Creatures: {{ deck_card_types.creatures }} &nbsp;

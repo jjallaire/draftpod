@@ -1,8 +1,9 @@
 <template>
 <nav class="navbar navbar-dark navbar-expand-sm">
 
+  <img class="navbar-logo" src="/images/logo.svg" />
   <span class="navbar-brand">
-    <router-link to="/" exact>MTG Drafter</router-link>
+    <router-link class="text-light" to="/" exact>MTG Drafter</router-link>
   </span>
   
   <slot><span class="navbar-text">Draft simulator for Magic the Gathering&trade;</span></slot>
@@ -63,8 +64,15 @@ export default {
   color: #fff;
 }
 
+.navbar .navbar-logo {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  height: 26px;
+
+}
+
 .navbar .navbar-text {
-  padding-top: 2px;
+  padding-top: 0;
   padding-bottom: 0;
   padding-right: 1em;
 }
