@@ -96,7 +96,7 @@ export default {
 
 <style>
 
-.mtgdrafter-navigator .mtgdraft-mana-curve .ct-chart {
+.mtgdrafter-navigator .mtgdraft-mana-curve {
   height: 140px;
 }
 

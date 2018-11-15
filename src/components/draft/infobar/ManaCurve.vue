@@ -115,7 +115,7 @@ function chartOptions(height) {
 </script>
 
 <style>
-.mtgdraft-mana-curve .ct-chart {
+.mtgdraft-mana-curve {
   height: 115px;
 }
 
