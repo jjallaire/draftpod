@@ -44,7 +44,7 @@ export default {
   created() {
     // keep only the most recent 5 drafts
     let purge_draft_ids = this.draft_history
-      .slice(5)
+      .slice(7)
       .map((draft) => draft.id);
 
     // perform purge

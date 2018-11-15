@@ -9,7 +9,6 @@ import router from './router'
 import store from './store'
 
 
-// TODO: ability to remove recent drafts?
 // TODO: implement separate piles for instants and sorceries in deck
 // TODO: flicker when pack is loading
 // TODO: initial draft ai (use for card preview)
