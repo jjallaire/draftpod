@@ -65,6 +65,11 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
     }
   }
   
+  # download set icon
+  set_info <- jsonlite::fromJSON(paste0("https://api.scryfall.com/sets/", set))
+  set_icon <- file.path(set_dir, "icon.svg")
+  curl::curl_download(set_info$icon_svg_uri, set_icon)
+  
 }
 
-download_set("grn", sets_dir = "~/projects/mtgdrafter/tools/sets", images = TRUE)
+download_set("m19", sets_dir = "~/projects/mtgdrafter/public/sets", images = FALSE)
