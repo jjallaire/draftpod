@@ -10,8 +10,6 @@ import store from './store'
 
 // TODO: card thumbnail for resume
 
-// TODO: color icons for no cards
-
 // TODO: ability to remove recent drafts?
 
 // TODO: implement separate piles for instants and sorceries in deck
