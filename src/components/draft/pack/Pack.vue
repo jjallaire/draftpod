@@ -3,6 +3,7 @@
 <template>
 
   <Panel panel_class="mtgdraft-pack">
+    <div>
     <Card v-for="card in pack" :key="card.key" 
           :card="card" :drag_source="drag_source">
     </Card>
@@ -10,6 +11,7 @@
           class="mtgcard mtgcard-empty" draggable="false">
       <img src="/images/card-empty.png" />
     </span>
+    </div>
   </Panel>
   
 

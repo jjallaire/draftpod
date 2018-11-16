@@ -8,7 +8,6 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: flicker when pack is loading
 // TODO: implement separate piles for instants and sorceries in deck
 // TODO: initial draft ai (use for card preview)
 
