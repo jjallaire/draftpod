@@ -3,16 +3,10 @@
 <template>
 
   <Panel panel_class="mtgdraft-pack">
-    <div v-if="pack.length > 0">
+    <div>
       <Card v-for="card in pack" :key="card.key" 
             :card="card" :drag_source="drag_source">
       </Card>
-      <span v-for="n in (16 - pack.length)" :key="n" 
-            class="mtgcard mtgcard-empty" draggable="false">
-        <img src="/images/card-empty.png" />
-      </span>
-    </div>
-    <div v-else>
       <span v-for="n in (16 - pack.length)" :key="n" 
             class="mtgcard mtgcard-empty" draggable="false">
         <img src="/images/card-empty.png" />
