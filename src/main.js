@@ -8,7 +8,9 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: janky pack loading not fully gone?
+// TODO: component for pack filler
+// TODO: filter out basic lands from lands in cardToDeckPile
+// TODO: hide last card in pack during animation
 
 // TODO: initial draft ai (use for card preview)
 
