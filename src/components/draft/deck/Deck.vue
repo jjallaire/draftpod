@@ -99,8 +99,10 @@ export default {
 
   methods: {
     onDeckToSideboard() {
-      let cardBody = this.$el.querySelector(".card-body");
-      cardBody.scrollTop = 0;
+      /* not doing this for now (speculating that it will be 
+         annoying when the sideboard is very large) */
+      // let cardBody = this.$el.querySelector(".card-body");
+      // cardBody.scrollTop = 0;
     }
   },
 
