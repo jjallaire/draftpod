@@ -1,4 +1,5 @@
 import * as filters from './card-filters'
+import { DECK } from './constants'
 
 // get card types
 export function cardTypes(cards) {
@@ -72,16 +73,16 @@ export function cardColors(cards) {
 
 export function activeCards(table) {
   let piles = table.picks_complete ? table.deck.piles : table.picks.piles;
-  return piles.slice(0, 7).flat();
+  return piles.slice(0, DECK.PILES).flat();
 }
 
 export function deckCards(deck) {
-  return deck.piles.slice(0, 6).flat();
+  return deck.piles.slice(0, DECK.PILES).flat();
 } 
 
 export function deckLandCount(deck) {
   let basic_lands = deck.lands.basic;
-  return deck.piles[6].length + sumValues(basic_lands);
+  return deck.piles[DECK.PILES].length + sumValues(basic_lands);
 }
 
 export function deckTotalCards(deck) {
@@ -94,9 +95,9 @@ export function deckList(deck) {
   const card_name = (card) => card.name;
   let main_deck = [].concat(
     // cards
-    deck.piles.slice(0, 6).flat().map(card_name),
+    deck.piles.slice(0, DECK.PILES).flat().map(card_name),
     // special lands
-    deck.piles[6].map(card_name),
+    deck.piles[DECK.LANDS].map(card_name),
     // basic lands
     Array(deck.lands.basic.R).fill("Mountain"),
     Array(deck.lands.basic.W).fill("Plains"),
@@ -106,7 +107,7 @@ export function deckList(deck) {
   );
 
   // sideboard
-  let sideboard = deck.piles[7].map(card_name);
+  let sideboard = deck.piles[DECK.SIDEBOARD].map(card_name);
     
   // return deck list w/ main deck and sideboard
   return asDeckList(main_deck) + 

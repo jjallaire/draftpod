@@ -15,6 +15,7 @@ import uuidv4 from 'uuid'
 import * as set from './set/'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
+import { PICKS, DECK } from './constants'
 
 const local_images = true
 
@@ -94,7 +95,7 @@ export default {
     updateTable(state, (table) => {
       // move the card
       let deck = table.deck;
-      pileToPile(card, 7, deck.piles, insertBefore);
+      pileToPile(card, DECK.SIDEBOARD, deck.piles, insertBefore);
       // apply auto-lands if necessary
       if (deck.lands.auto)
         deck.lands.basic = computeAutoLands(deck);
@@ -105,7 +106,7 @@ export default {
     updateTable(state, (table) => {
       // remove from sideboard
       let deck = table.deck;
-      let sideboard = deck.piles[7];
+      let sideboard = deck.piles[DECK.SIDEBOARD];
       sideboard.splice(cardIndex(sideboard, card), 1);
 
       // card to deck pile
@@ -121,7 +122,7 @@ export default {
   [SIDEBOARD_TO_SIDEBOARD](state, { card, insertBefore }) {
     updateTable(state, (table) => {
       let deck = table.deck;
-      pileToPile(card, 7, deck.piles, insertBefore);
+      pileToPile(card, DECK.SIDEBOARD, deck.piles, insertBefore);
     });
   },
 
@@ -233,14 +234,18 @@ function cardToDeckPile(c, deck) {
   let card = {...c, key: uuidv4()};
   let deck_piles = deck.piles;
   let pile = null;
-  if (filters.land(card))
-    pile = deck_piles[6];
-  else if (card.cmc <= 1)
-    pile = deck_piles[0];
-  else if (card.cmc>= 6)
-    pile = deck_piles[5];
-  else
-    pile = deck_piles[card.cmc-1];
+
+  if (filters.land(card)) {
+    pile = deck_piles[DECK.LANDS];
+  } else {
+    let offset = filters.creature(card) ? 0 : DECK.PILES / 2;
+    if (card.cmc <= 1)
+      pile = deck_piles[offset];
+    else if (card.cmc>= 6)
+      pile = deck_piles[offset + 5];
+    else
+      pile = deck_piles[offset + card.cmc - 1];
+  }
   pile.push(card);
 
   // return the pile
@@ -248,14 +253,16 @@ function cardToDeckPile(c, deck) {
 }
 
 function movePicksToDeck(table) {
+
+  // non-sideboard cards
   let picks = table.picks;
   let deck = table.deck;
-  picks.piles.slice(0, 7).forEach(function(pile) {
+  picks.piles.slice(0, PICKS.PILES).forEach(function(pile) {
     pile.forEach((c) => cardToDeckPile(c, deck));
   });
 
-  // sideboard
-  deck.piles[7] = picks.piles[7].slice();
+  // sideboard cards
+  deck.piles[DECK.SIDEBOARD] = picks.piles[PICKS.SIDEBOARD].slice();
 
   // sort all deck piles
   deck.piles.forEach((pile) => pile.sort(orderCards));
@@ -275,7 +282,7 @@ function completePicks(table) {
 function computeAutoLands(deck) {
 
   // get the cards in the deck
-  let cards = deck.piles.slice(0, 6).flat();
+  let cards = deck.piles.slice(0, DECK.PILES).flat();
 
   // if there are no cards then return no lands
   if (cards.length === 0)
@@ -299,7 +306,7 @@ function computeAutoLands(deck) {
   );
 
   // now count existing sources of mana (e.g. dual lands)
-  let lands = deck.piles[6];
+  let lands = deck.piles[DECK.LANDS];
   let mana_existing = countColors(lands);
  
   // adjust for existing mana sources 

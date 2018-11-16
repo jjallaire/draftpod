@@ -1,4 +1,5 @@
 
+import { PICKS, DECK } from './constants'
 
 export default function() {
   return {
@@ -35,13 +36,15 @@ export default function() {
 function playerPicks() {
   return {
     pack: [],
-    piles: [...Array(8)].map(() => Array()),
+    // piles for cards + 1 pile for sideboard
+    piles: [...Array(PICKS.PILES+1)].map(() => Array()),
   }
 }
 
 function playerDeck() {
   return {
-    piles: [...Array(8)].map(() => Array()),
+    // piles for cards + 1 pile each for lands/sideboard
+    piles: [...Array(DECK.PILES+2)].map(() => Array()),
     lands: {
       basic: {
         R: 0,

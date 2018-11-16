@@ -12,7 +12,7 @@
       <DeckCopy :deck_list="deck_list" />
       <DeckDownload :deck_list="deck_list" />
     </template>
-    <div class="piles-top">
+    <div class="deck-piles deck-piles-top">
       <Pile v-for="number in 5" 
             :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
             drag_source="DRAG_SOURCE_DECK">
@@ -20,19 +20,20 @@
       <Pile :key="5" caption="6+" :piles="piles" :number="5" 
             drag_source="DRAG_SOURCE_DECK">
       </Pile>
-      <Pile :key="6" :caption="'Lands (' + deck_land_count + ')'"
-            :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
+      <Pile :key="12" :caption="'Lands (' + deck_land_count + ')'"
+            :piles="piles" :number="12" drag_source="DRAG_SOURCE_DECK">
         <DeckLands slot="controls" :deck="deck">
         </DeckLands>
       </Pile>
       <div class="mtgpile mtgpile-separator"></div>
-      <Pile :key="7" caption="Sideboard" :piles="piles" :number="7" 
+      <Pile class="deck-sideboard" :key="13" caption="Sideboard" :piles="piles" :number="13" 
             drag_source="DRAG_SOURCE_SIDEBOARD">
       </Pile>
     </div>
-    <div class="piles-bottom" :style="piles_bottom_style">
-      <Pile :key="15" :piles="piles" :number="2" 
-          drag_source="DRAG_SOURCE_DECK">
+    <div class="deck-piles deck-piles-bottom" :style="piles_bottom_style">
+      <Pile v-for="number in 6" 
+            :key="number + 6 -  1" :piles="piles" :number="number + 6 - 1" 
+            drag_source="DRAG_SOURCE_DECK">
       </Pile>
     </div>
   </Panel>
@@ -80,7 +81,7 @@ export default {
       let max_cards = this.deck.piles.slice(0,6)
         .reduce((prev, current) => prev.length < current.length ? current : prev, [])
         .length;
-      let margin_top = 16.05 + ((max_cards + 1) * 2.1);
+      let margin_top = 16.05 + ((max_cards + 1) * 2);
       return {
         marginTop: margin_top + '%',
       };
@@ -151,15 +152,29 @@ export default {
   padding-left: 10px;
 }
 
-.mtgdraft .mtgdraft-deck .piles-bottom {
+.mtgdraft .mtgdraft-deck .deck-sideboard {
   position: absolute;
+  min-height: 700px;
+}
+
+.mtgdraft .mtgdraft-deck .deck-piles {
+  position: absolute;
+  left: 0.4rem;
+  right: 0.4rem;
+}
+
+.mtgdraft .mtgdraft-deck .deck-piles-top {
+  top: 5px;
+}
+
+.mtgdraft .mtgdraft-deck .deck-piles-bottom {
   top: 0;
-  width: 100%;
-  background-color: transparent;
+  left: 0.4rem;
+  right: 0.4rem;
   pointer-events: none;
 }
 
-.mtgdraft .mtgdraft-deck .piles-bottom .mtgpile {
+.mtgdraft .mtgdraft-deck .deck-piles-bottom .mtgpile {
   pointer-events: all;
 }
 
