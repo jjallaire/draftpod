@@ -2,54 +2,6 @@
 
 
 
-<template>
-
-<NavigatorPanel name="new-draft" caption="Start New Draft" :parent="parent" :show="show">
-  <template slot="icon"><PlayCircleIcon/></template>
-  <form class="mtgdrafter-navigator-start-draft">
-    <div class="form-group row">
-      <label for="draft-set" class="col-sm-3 col-form-label">Draft from:</label>
-      <div class="col-sm-8">
-        <select id="draft-set" class="form-control" v-model="set_code">
-          <option value="grn">Guilds of Ravnica</option>
-          <option value="m19">Core Set 2019</option>
-          <option value="dom">Dominaria</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="draft-options" class="col-sm-3 col-form-label">Draft options:</label>
-      <div id="draft-options" class="col-sm-8">
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="draft-timer"  v-model="pick_timer">
-          <label class="form-check-label" for="draft-timer">Apply pick time limit</label>
-          <small class="form-text text-muted">
-             You will have 1 minute and 15 seconds for the first pick in each pack, and 5 seconds
-             less for each pick thereafter (these are the same time limits used by MTGO). 
-             If time runs out then a pick is made automatically.
-          </small>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="draft-analysis"  v-model="pick_analysis">
-          <label class="form-check-label" for="draft-analysis">Provide pick analysis</label>
-          <small class="form-text text-muted">
-             When pick analysis is enabled, you can optionally view card ratings and 
-             suggested picks based on the color composition of your deck. 
-          </small>
-        </div>
-      </div>
-    </div>
-    <br/>
-    <div class="form-group row">
-      <div class="col-sm-10">
-        <button type="button" class="btn btn-success" @click="onStartDraft">Start Draft</button>
-      </div>
-    </div>
-  </form>
-</NavigatorPanel>
-
-</template>
-
 <script>
 
 import NavigatorPanel from './NavigatorPanel.vue'
@@ -135,6 +87,55 @@ export default {
 }
 
 </script>
+
+<template>
+
+<NavigatorPanel name="new-draft" caption="Start New Draft" :parent="parent" :show="show">
+  <template slot="icon"><PlayCircleIcon/></template>
+  <form class="mtgdrafter-navigator-start-draft">
+    <div class="form-group row">
+      <label for="draft-set" class="col-sm-3 col-form-label">Draft from:</label>
+      <div class="col-sm-8">
+        <select id="draft-set" class="form-control" v-model="set_code">
+          <option value="grn">Guilds of Ravnica</option>
+          <option value="m19">Core Set 2019</option>
+          <option value="dom">Dominaria</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="draft-options" class="col-sm-3 col-form-label">Draft options:</label>
+      <div id="draft-options" class="col-sm-8">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="draft-timer"  v-model="pick_timer">
+          <label class="form-check-label" for="draft-timer">Apply pick time limit</label>
+          <small class="form-text text-muted">
+             You will have 1 minute and 15 seconds for the first pick in each pack, and 5 seconds
+             less for each pick thereafter (these are the same time limits used by MTGO). 
+             If time runs out then a pick is made automatically.
+          </small>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="draft-analysis"  v-model="pick_analysis">
+          <label class="form-check-label" for="draft-analysis">Provide pick analysis</label>
+          <small class="form-text text-muted">
+             When pick analysis is enabled, you can optionally view card ratings and 
+             suggested picks based on the color composition of your deck. 
+          </small>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="button" class="btn btn-success" @click="onStartDraft">Start Draft</button>
+      </div>
+    </div>
+  </form>
+</NavigatorPanel>
+
+</template>
+
 
 <style>
 

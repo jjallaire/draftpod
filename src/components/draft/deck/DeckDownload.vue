@@ -1,12 +1,3 @@
-<template>
-
-<button class="btn btn-sm btn-secondary text-light"
-        @click="onDownloadDeck" >
-  <DownloadIcon/> Download <span class="btn-extra-text">Decklist</span>
-</button>
-
-</template>
-
 <script>
 
 import DownloadIcon from "vue-material-design-icons/FileDownloadOutline.vue"
@@ -38,6 +29,16 @@ export default {
 }
 
 </script>
+
+<template>
+
+  <button class="btn btn-sm btn-secondary text-light"
+          @click="onDownloadDeck" >
+    <DownloadIcon/> Download <span class="btn-extra-text">Decklist</span>
+  </button>
+
+</template>
+
 
 <style>
 

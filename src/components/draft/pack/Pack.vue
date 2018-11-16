@@ -1,23 +1,5 @@
-
-
-<template>
-
-  <Panel panel_class="mtgdraft-pack">
-    <div>
-      <Card v-for="card in pack" :key="card.key" 
-            :card="card" :drag_source="drag_source">
-      </Card>
-      <span v-for="n in (16 - pack.length)" :key="n" 
-            class="mtgcard mtgcard-empty" draggable="false">
-        <img src="/images/card-empty.png" />
-      </span>
-    </div>
-  </Panel>
-  
-
-</template>
-
 <script>
+
 import Card from '@/components/draft/core/Card.vue';
 import Panel from '@/components/core/Panel.vue';
 
@@ -37,6 +19,23 @@ export default {
   },
 }
 </script>
+
+<template>
+
+  <Panel panel_class="mtgdraft-pack">
+    <div>
+      <Card v-for="card in pack" :key="card.key" 
+            :card="card" :drag_source="drag_source">
+      </Card>
+      <span v-for="n in (16 - pack.length)" :key="n" 
+            class="mtgcard mtgcard-empty" draggable="false">
+        <img src="/images/card-empty.png" />
+      </span>
+    </div>
+  </Panel>
+  
+
+</template>
 
 <style>
 

@@ -1,13 +1,3 @@
-
-
-<template>
-
-  <span :class="[badge_class, 'mtgdraft-pick-timer', 'badge', 'text-light']">
-    {{ time_display }}
-  </span>
-
-</template>
-
 <script>
 
 import '../eventbus.js'
@@ -74,9 +64,16 @@ export default {
   },
 }
 
-
-
 </script>
+
+
+<template>
+
+  <span :class="[badge_class, 'mtgdraft-pick-timer', 'badge', 'text-light']">
+    {{ time_display }}
+  </span>
+
+</template>
 
 <style>
 

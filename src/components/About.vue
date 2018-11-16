@@ -1,15 +1,3 @@
-<template>
- 
-<div>
-  
-<Navbar />
-
-About
-  
-</div>
-
-</template>
-
 <script>
 
 import Navbar from './core/Navbar.vue'
@@ -23,6 +11,19 @@ export default {
 }
 
 </script>
+
+<template>
+ 
+  <div>
+    
+  <Navbar />
+
+  About
+    
+  </div>
+
+</template>
+
 
 <style>
 

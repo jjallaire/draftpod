@@ -1,11 +1,3 @@
-
-
-<template>
-
-  <p>Pick Analysis</p>
-
-</template>
-
 <script>
 
 export default {
@@ -17,6 +9,12 @@ export default {
 }
 
 </script>
+
+<template>
+
+  <p>Pick Analysis</p>
+
+</template>
 
 <style>
 

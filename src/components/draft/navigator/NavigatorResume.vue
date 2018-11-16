@@ -1,41 +1,3 @@
-
-
-<template>
-
-<NavigatorPanel name="resume-draft" caption="Draft in Progress" :parent="parent" :show="show"
-                class="mtgdrafter-navigator-resume-draft">
-    <template slot="icon"><RotateRight/></template>
-    <div class="row">
-      <div class="col-sm-3">
-        <h4>{{ draft.options.set_name }}</h4>
-        <p>
-          <span v-if="draft.table.picks_complete">
-            Deck: {{ deck_total_cards }} / 40
-          </span>
-          <span v-else>
-            Pack {{ draft.table.current_pack }}, Pick {{ draft.table.current_pick }}
-          </span>
-        </p>
-        <button type="button" class="btn btn-warning navigator-button" 
-                @click="onResumeDraft">
-            Resume Draft
-        </button>
-      </div>
-      <div class="col-sm-3">
-        <ManaLegend :cards="active_cards" />
-        <ManaCurve :cards="active_cards" :height="150" />
-      </div>
-      <div class="col-sm-3">
-        <ManaColors :cards="active_cards" />
-      </div>
-      <div class="col-sm-2">
-        <img class="card-preview" :src="card_preview_image" height="150"/>
-      </div>
-    </div>
-</NavigatorPanel>
-
-</template>
-
 <script>
 
 import NavigatorPanel from './NavigatorPanel.vue'
@@ -102,6 +64,42 @@ export default {
 }
 
 </script>
+
+<template>
+
+  <NavigatorPanel name="resume-draft" caption="Draft in Progress" :parent="parent" :show="show"
+                  class="mtgdrafter-navigator-resume-draft">
+    <template slot="icon"><RotateRight/></template>
+    <div class="row">
+      <div class="col-sm-3">
+        <h4>{{ draft.options.set_name }}</h4>
+        <p>
+          <span v-if="draft.table.picks_complete">
+            Deck: {{ deck_total_cards }} / 40
+          </span>
+          <span v-else>
+            Pack {{ draft.table.current_pack }}, Pick {{ draft.table.current_pick }}
+          </span>
+        </p>
+        <button type="button" class="btn btn-warning navigator-button" 
+                @click="onResumeDraft">
+            Resume Draft
+        </button>
+      </div>
+      <div class="col-sm-3">
+        <ManaLegend :cards="active_cards" />
+        <ManaCurve :cards="active_cards" :height="150" />
+      </div>
+      <div class="col-sm-3">
+        <ManaColors :cards="active_cards" />
+      </div>
+      <div class="col-sm-2">
+        <img class="card-preview" :src="card_preview_image" height="150"/>
+      </div>
+    </div>
+  </NavigatorPanel>
+
+</template>
 
 <style>
 

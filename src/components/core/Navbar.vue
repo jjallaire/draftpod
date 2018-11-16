@@ -1,26 +1,26 @@
 <template>
-<nav class="navbar navbar-dark navbar-expand-sm">
+  <nav class="navbar navbar-dark navbar-expand-sm">
 
-  <img class="navbar-logo" src="/images/logo.svg" />
-  <span class="navbar-brand">
-    <router-link class="text-light" to="/" exact>MTG Drafter</router-link>
-  </span>
-  
-  <slot><span class="navbar-text">Draft simulator for Magic the Gathering&trade;</span></slot>
+    <img class="navbar-logo" src="/images/logo.svg" />
+    <span class="navbar-brand">
+      <router-link class="text-light" to="/" exact>MTG Drafter</router-link>
+    </span>
+    
+    <slot><span class="navbar-text">Draft simulator for Magic the Gathering&trade;</span></slot>
 
-  <ul class="navbar-nav ml-auto">
-    <router-link tag="li" class="nav-item" active-class="active" to="/" exact>
-      <a class="nav-link">Home</a>
-    </router-link>
-    <router-link tag="li" class="nav-item" active-class="active" to="/draft/">
-      <a class="nav-link">Draft</a>
-    </router-link>
-    <router-link tag="li" class="nav-item" active-class="active" to="/about/">
-      <a class="nav-link">About</a>
-    </router-link>
-  </ul>
-  
-</nav>
+    <ul class="navbar-nav ml-auto">
+      <router-link tag="li" class="nav-item" active-class="active" to="/" exact>
+        <a class="nav-link">Home</a>
+      </router-link>
+      <router-link tag="li" class="nav-item" active-class="active" to="/draft/">
+        <a class="nav-link">Draft</a>
+      </router-link>
+      <router-link tag="li" class="nav-item" active-class="active" to="/about/">
+        <a class="nav-link">About</a>
+      </router-link>
+    </ul>
+    
+  </nav>
 </template>
 
 <script>

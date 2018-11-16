@@ -1,15 +1,3 @@
-
-<template>
-  <Drag v-if="drag_source" tag="span" class="mtgcard mtgcard-draggable" 
-        @dragstart="onDragStart"
-        :transfer-data="{drag_source, card}" :key="card.key">
-     <img :src="card.image" @mouseover="onMouseOver"/>
-  </Drag>
-  <span v-else class="mtgcard" draggable="false">
-    <img :src="card.image" />
-  </span>
-</template>
-
 <script>
 
 import { Drag } from 'vue-drag-drop';
@@ -43,6 +31,17 @@ export default {
   }
 }
 </script>
+
+<template>
+  <Drag v-if="drag_source" tag="span" class="mtgcard mtgcard-draggable" 
+        @dragstart="onDragStart"
+        :transfer-data="{drag_source, card}" :key="card.key">
+     <img :src="card.image" @mouseover="onMouseOver"/>
+  </Drag>
+  <span v-else class="mtgcard" draggable="false">
+    <img :src="card.image" />
+  </span>
+</template>
 
 <style>
 .mtgcard-draggable {

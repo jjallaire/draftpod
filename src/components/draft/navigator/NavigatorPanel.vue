@@ -1,29 +1,4 @@
 
-
-<template>
-
-<div class="navigator-panel card">
-    <div class="card-header" :id="name + '-heading'">
-      <h5 class="mb-0">
-        <slot name="icon"></slot>
-        <button :class="'btn btn-link ' + (collapsed ? 'collapsed' : '')" 
-                :data-toggle="parent ? collapse : null" :data-target="'#' + name" 
-                :aria-expanded="collapsed ? 'false' : 'true'" :aria-controls="name">
-          {{ caption }}
-        </button>
-      </h5>
-    </div>
-
-    <div :id="name" :class="'collapse ' + (collapsed ? '' : 'show')" :aria-labelledby="name + '-heading'" 
-          :data-parent="parent">
-      <div class="card-body bg-light">
-        <slot></slot>
-      </div>
-    </div>
-</div>
-
-</template>
-
 <script>
 
 export default {
@@ -56,6 +31,30 @@ export default {
 }
 
 </script>
+
+<template>
+
+  <div class="navigator-panel card">
+    <div class="card-header" :id="name + '-heading'">
+      <h5 class="mb-0">
+        <slot name="icon"></slot>
+        <button :class="'btn btn-link ' + (collapsed ? 'collapsed' : '')" 
+                :data-toggle="parent ? collapse : null" :data-target="'#' + name" 
+                :aria-expanded="collapsed ? 'false' : 'true'" :aria-controls="name">
+          {{ caption }}
+        </button>
+      </h5>
+    </div>
+
+    <div :id="name" :class="'collapse ' + (collapsed ? '' : 'show')" :aria-labelledby="name + '-heading'" 
+          :data-parent="parent">
+      <div class="card-body bg-light">
+        <slot></slot>
+      </div>
+    </div>
+  </div>
+
+</template>
 
 <style>
 

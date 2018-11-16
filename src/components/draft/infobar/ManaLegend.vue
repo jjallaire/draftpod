@@ -1,13 +1,3 @@
-
-<template>
-
-<div class="mana-curve-legend">
-  <span class="mana-key creatures-key bg-danger">&nbsp;</span> Creatures ({{ card_types.creatures }})
-  <span class="mana-key other-key bg-info">&nbsp;</span> Other ({{ card_types.other }})
-</div>
-
-</template>
-
 <script>
 
 import * as selectors from '@/store/modules/draft/selectors'
@@ -30,6 +20,15 @@ export default {
 }
 
 </script>
+
+<template>
+
+  <div class="mana-curve-legend">
+    <span class="mana-key creatures-key bg-danger">&nbsp;</span> Creatures ({{ card_types.creatures }})
+    <span class="mana-key other-key bg-info">&nbsp;</span> Other ({{ card_types.other }})
+  </div>
+
+</template>
 
 <style>
 

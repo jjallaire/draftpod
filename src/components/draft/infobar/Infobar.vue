@@ -1,21 +1,3 @@
-
-<template>
-
-<div class="mtgdraft-infobar">
-  
-  <PreviewImage  />
-  
-  <Panel caption="Cards" panel_class="mtgdraft-deckstats"> 
-    <ManaLegend :cards="cards" />
-    <ManaCurve :cards="cards" />
-    <ManaColors :cards="cards" />
-  </Panel>
-  
-</div>
-
-
-</template>
-  
 <script>
 
 import Panel from '@/components/core/Panel.vue'
@@ -41,6 +23,21 @@ export default {
 
 </script>
 
+<template>
+
+  <div class="mtgdraft-infobar">
+    
+    <PreviewImage  />
+    
+    <Panel caption="Cards" panel_class="mtgdraft-deckstats"> 
+      <ManaLegend :cards="cards" />
+      <ManaCurve :cards="cards" />
+      <ManaColors :cards="cards" />
+    </Panel>
+    
+  </div>
+
+</template>
 
 <style>
 

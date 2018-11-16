@@ -1,55 +1,3 @@
-<template>
-
-  <transition name="mtgdraft-fade">
-  <div class="mtgdrafter">
-
-    <Navbar> 
-      <span class="navbar-text navbar-set-icon">
-         <SetIcon :set_code="options.set_code"/>   
-      </span>
-      <span class="navbar-text">
-        {{ options.set_name }} 
-        <span v-if="!table.picks_complete">
-          &mdash;
-          Pack {{ table.current_pack }}, Pick {{ table.current_pick }}
-          <PickTimer v-if="options.pick_timer" :current_pick="table.current_pick" />
-        </span>
-      </span> 
-    
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link icon-link">
-            <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link icon-link">
-            <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="onFullscreenToggle"/>
-            <FullScreenIcon v-else title="Fullscreen" @click.native="onFullscreenToggle"/>
-          </a>
-        </li>
-      </ul> 
-    
-    </Navbar>
-
-    <div class="mtgdraft">
-        <div class="mtgdraft-cards">
-          <transition name="mtgpack-hide" v-on:before-leave="onBeforePackLeave">
-            <Pack v-if="!table.picks_complete" :pack="table.picks.pack"/>
-          </transition>
-          <Pick v-if="!table.picks_complete" 
-                :picks="table.picks" 
-                :pick_analysis="options.pick_analysis"/>
-          <Deck v-else :deck="table.deck"/>
-        </div>
-
-        <Infobar :cards="active_cards"/>
-    </div>
-  
-  </div>
-  </transition>
-</template>
-
 <script>
 
 import SetIcon from '@/components/core/SetIcon.vue'
@@ -210,6 +158,58 @@ export default {
   }
 }
 </script>
+
+<template>
+
+  <transition name="mtgdraft-fade">
+  <div class="mtgdrafter">
+
+    <Navbar> 
+      <span class="navbar-text navbar-set-icon">
+         <SetIcon :set_code="options.set_code"/>   
+      </span>
+      <span class="navbar-text">
+        {{ options.set_name }} 
+        <span v-if="!table.picks_complete">
+          &mdash;
+          Pack {{ table.current_pack }}, Pick {{ table.current_pick }}
+          <PickTimer v-if="options.pick_timer" :current_pick="table.current_pick" />
+        </span>
+      </span> 
+    
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link icon-link">
+            <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link icon-link">
+            <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="onFullscreenToggle"/>
+            <FullScreenIcon v-else title="Fullscreen" @click.native="onFullscreenToggle"/>
+          </a>
+        </li>
+      </ul> 
+    
+    </Navbar>
+
+    <div class="mtgdraft">
+        <div class="mtgdraft-cards">
+          <transition name="mtgpack-hide" v-on:before-leave="onBeforePackLeave">
+            <Pack v-if="!table.picks_complete" :pack="table.picks.pack"/>
+          </transition>
+          <Pick v-if="!table.picks_complete" 
+                :picks="table.picks" 
+                :pick_analysis="options.pick_analysis"/>
+          <Deck v-else :deck="table.deck"/>
+        </div>
+
+        <Infobar :cards="active_cards"/>
+    </div>
+  
+  </div>
+  </transition>
+</template>
 
 <style>
 

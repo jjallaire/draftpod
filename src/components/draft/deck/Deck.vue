@@ -1,44 +1,3 @@
-
-<template>
-  <Panel :caption="'Deck: ' + deck_total_cards + ' / 40'" panel_class="mtgdraft-deck">
-    <template slot="header-left">
-      <div class="card-type-counts">
-      Spells: {{ deck_card_types.creatures + deck_card_types.other }}
-              ({{ deck_card_types.creatures }} creatures) &nbsp;
-      Lands: {{ deck_land_count }}
-      </div>
-    </template>
-    <template slot="header-right">
-      <DeckCopy :deck_list="deck_list" />
-      <DeckDownload :deck_list="deck_list" />
-    </template>
-    <div class="deck-piles deck-piles-top">
-      <Pile v-for="number in 5" 
-            :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
-            drag_source="DRAG_SOURCE_DECK">
-      </Pile>
-      <Pile :key="5" caption="6+" :piles="piles" :number="5" 
-            drag_source="DRAG_SOURCE_DECK">
-      </Pile>
-      <Pile :key="12" :caption="'Lands (' + deck_land_count + ')'"
-            :piles="piles" :number="12" drag_source="DRAG_SOURCE_DECK">
-        <DeckLands slot="controls" :deck="deck">
-        </DeckLands>
-      </Pile>
-      <div class="mtgpile mtgpile-separator"></div>
-      <Pile class="deck-sideboard" :key="13" caption="Sideboard" :piles="piles" :number="13" 
-            drag_source="DRAG_SOURCE_SIDEBOARD">
-      </Pile>
-    </div>
-    <div class="deck-piles deck-piles-bottom" :style="piles_bottom_style">
-      <Pile v-for="number in 6" 
-            :key="number + 6 -  1" :piles="piles" :number="number + 6 - 1" 
-            drag_source="DRAG_SOURCE_DECK">
-      </Pile>
-    </div>
-  </Panel>
-</template>
-
 <script>
 
 import Panel from '@/components/core/Panel.vue'
@@ -112,6 +71,46 @@ export default {
 }
 
 </script>
+
+<template>
+  <Panel :caption="'Deck: ' + deck_total_cards + ' / 40'" panel_class="mtgdraft-deck">
+    <template slot="header-left">
+      <div class="card-type-counts">
+      Spells: {{ deck_card_types.creatures + deck_card_types.other }}
+              ({{ deck_card_types.creatures }} creatures) &nbsp;
+      Lands: {{ deck_land_count }}
+      </div>
+    </template>
+    <template slot="header-right">
+      <DeckCopy :deck_list="deck_list" />
+      <DeckDownload :deck_list="deck_list" />
+    </template>
+    <div class="deck-piles deck-piles-top">
+      <Pile v-for="number in 5" 
+            :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
+            drag_source="DRAG_SOURCE_DECK">
+      </Pile>
+      <Pile :key="5" caption="6+" :piles="piles" :number="5" 
+            drag_source="DRAG_SOURCE_DECK">
+      </Pile>
+      <Pile :key="12" :caption="'Lands (' + deck_land_count + ')'"
+            :piles="piles" :number="12" drag_source="DRAG_SOURCE_DECK">
+        <DeckLands slot="controls" :deck="deck">
+        </DeckLands>
+      </Pile>
+      <div class="mtgpile mtgpile-separator"></div>
+      <Pile class="deck-sideboard" :key="13" caption="Sideboard" :piles="piles" :number="13" 
+            drag_source="DRAG_SOURCE_SIDEBOARD">
+      </Pile>
+    </div>
+    <div class="deck-piles deck-piles-bottom" :style="piles_bottom_style">
+      <Pile v-for="number in 6" 
+            :key="number + 6 -  1" :piles="piles" :number="number + 6 - 1" 
+            drag_source="DRAG_SOURCE_DECK">
+      </Pile>
+    </div>
+  </Panel>
+</template>
 
 <style>
 

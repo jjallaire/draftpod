@@ -1,10 +1,3 @@
-
-
-<template>
-<div class="mtgdraft-mana-curve ct-chart ct-perfect-fourth">
-</div>
-</template>
-
 <script>
 
 import Chartist from 'chartist'
@@ -113,6 +106,11 @@ function chartOptions(height) {
 }
 
 </script>
+
+<template>
+  <div class="mtgdraft-mana-curve ct-chart ct-perfect-fourth">
+  </div>
+</template>
 
 <style>
 .mtgdraft-mana-curve {

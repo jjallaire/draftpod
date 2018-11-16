@@ -1,25 +1,3 @@
-
-
-<template>
-
-<div>
-
-<Navbar /> 
-
-<div class="mtgdrafter container">
-
-<div class="mtgdrafter-navigator">
-  <NavigatorResume v-if="draft_in_progress" :draft_id="draft_in_progress.id" />
-  <NavigatorStart />
-  <NavigatorRecent v-if="draft_history.length > 0" :draft_history="draft_history" />   
-</div>
-
-</div>
-
-</div>
-
-</template>
-
 <script>
 
 import Navbar from '@/components/core/Navbar.vue'
@@ -64,6 +42,25 @@ export default {
 
 </script>
 
+<template>
+
+  <div>
+
+  <Navbar /> 
+
+  <div class="mtgdrafter container">
+
+  <div class="mtgdrafter-navigator">
+    <NavigatorResume v-if="draft_in_progress" :draft_id="draft_in_progress.id" />
+    <NavigatorStart />
+    <NavigatorRecent v-if="draft_history.length > 0" :draft_history="draft_history" />   
+  </div>
+
+  </div>
+
+  </div>
+
+</template>
 
 <style>
 

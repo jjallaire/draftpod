@@ -1,48 +1,4 @@
 
-
-<template>
-
-<NavigatorPanel name="recent-drafts" caption="Recent Drafts" :parent="parent" :show="show"
-                class="mtgdrafter-navigator-recent-drafts">
-  <template slot="icon"><HistoryIcon /></template>
-
-  <div class="row">
-  <div class="col-sm-12">
-  <table class="table table-hover">
-    <tbody>
-      <tr v-for="draft in draft_history" :key="draft.id"
-          @click="onClickedDraft(draft)">
-        <td class="td-set">
-          <SetIcon :set_code="draft.set_code" />
-          <span class="set-name">{{ draft.set_name }}</span>
-        </td>
-        <td>
-          <img v-for="color in draft.card_colors" :key="color.name" 
-               class="color-icon"
-               :src="color.img"
-               :title="color.name + ' (' + Math.round(color.percent * 100) + '%)'"/>
-        </td>
-        <td>
-          <span v-if="draft.picks_complete">
-            Deck: {{ draft.deck_total_cards }} / 40
-          </span>
-          <span v-else>
-            Pack {{ draft.current_pack }}, Pick {{ draft.current_pick }}
-          </span>
-        </td>
-        <td>
-          {{ formatDateTime(draft.start_time) }}
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-  </div>
-
-</NavigatorPanel>
-
-</template>
-
 <script>
 
 import NavigatorPanel from './NavigatorPanel.vue'
@@ -86,6 +42,49 @@ export default {
 }
 
 </script>
+
+<template>
+
+  <NavigatorPanel name="recent-drafts" caption="Recent Drafts" :parent="parent" :show="show"
+                  class="mtgdrafter-navigator-recent-drafts">
+    <template slot="icon"><HistoryIcon /></template>
+
+    <div class="row">
+    <div class="col-sm-12">
+    <table class="table table-hover">
+      <tbody>
+        <tr v-for="draft in draft_history" :key="draft.id"
+            @click="onClickedDraft(draft)">
+          <td class="td-set">
+            <SetIcon :set_code="draft.set_code" />
+            <span class="set-name">{{ draft.set_name }}</span>
+          </td>
+          <td>
+            <img v-for="color in draft.card_colors" :key="color.name" 
+                class="color-icon"
+                :src="color.img"
+                :title="color.name + ' (' + Math.round(color.percent * 100) + '%)'"/>
+          </td>
+          <td>
+            <span v-if="draft.picks_complete">
+              Deck: {{ draft.deck_total_cards }} / 40
+            </span>
+            <span v-else>
+              Pack {{ draft.current_pack }}, Pick {{ draft.current_pick }}
+            </span>
+          </td>
+          <td>
+            {{ formatDateTime(draft.start_time) }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    </div>
+
+  </NavigatorPanel>
+
+</template>
 
 <style>
 

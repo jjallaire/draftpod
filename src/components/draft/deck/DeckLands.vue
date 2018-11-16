@@ -1,21 +1,3 @@
-
-<template>
-
-<div>
-<table class="table table-sm mtgdraft-deck-colors">
-  <tbody>
-  <tr v-for="color in colors" :key="color.img">
-    <td align="center"><img :src="color.img" :title="color.name" width=18></td>
-    <td align="center"><input type="number" min="0" :value="color.count" 
-        @input="handleLandInput(color.color, $event)" 
-        @blur="handleLandBlur(color.color, $event)"></td>
-  </tr>
-  </tbody>
-</table>
-</div>
-
-</template>
-
 <script>
 
 import * as messagebox from '@/components/core/messagebox.js'
@@ -137,8 +119,26 @@ export default {
 
 }
 
-
 </script>
+
+
+<template>
+
+  <div>
+  <table class="table table-sm mtgdraft-deck-colors">
+    <tbody>
+    <tr v-for="color in colors" :key="color.img">
+      <td align="center"><img :src="color.img" :title="color.name" width=18></td>
+      <td align="center"><input type="number" min="0" :value="color.count" 
+          @input="handleLandInput(color.color, $event)" 
+          @blur="handleLandBlur(color.color, $event)"></td>
+    </tr>
+    </tbody>
+  </table>
+  </div>
+
+</template>
+
 
 <style>
 

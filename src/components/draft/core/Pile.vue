@@ -1,29 +1,3 @@
-
-<template>
-
-<Drop class="mtgpile" 
-      @drop="handleDrop(...arguments)" 
-      @dragover="handleDragover(...arguments)"
-      @dragleave="handleDragleave(...arguments)">
-  <div class="mtgpile-caption" v-if="caption" 
-       :style="{textAlign: caption_center ? 'center' : 'left'}">
-    {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>
-  </div>
-  <Card v-for="(card, index) in pile" :key="card.key"
-        :card="card" :drag_source="drag_source"
-        :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
-  </Card>
-  <div class="mtgpile-controls" 
-       :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 
-                            + (pile.length >= 1 ? 140 : 6) + '%'}">
-    <slot name="controls"></slot>
-  </div>
-  <div class="mtgpile-drag-insert" :style="styles.dragInsert"></div>
-</Drop>
-
-</template>
-
-
 <script>
 
 import { Drop } from 'vue-drag-drop'
@@ -196,6 +170,30 @@ function cardInsertLocation(data, event) {
 }
 
 </script>
+
+<template>
+
+  <Drop class="mtgpile" 
+        @drop="handleDrop(...arguments)" 
+        @dragover="handleDragover(...arguments)"
+        @dragleave="handleDragleave(...arguments)">
+    <div class="mtgpile-caption" v-if="caption" 
+        :style="{textAlign: caption_center ? 'center' : 'left'}">
+      {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>
+    </div>
+    <Card v-for="(card, index) in pile" :key="card.key"
+          :card="card" :drag_source="drag_source"
+          :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
+    </Card>
+    <div class="mtgpile-controls" 
+        :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 
+                              + (pile.length >= 1 ? 140 : 6) + '%'}">
+      <slot name="controls"></slot>
+    </div>
+    <div class="mtgpile-drag-insert" :style="styles.dragInsert"></div>
+  </Drop>
+
+</template>
 
 <style>
 .mtgpile, .mtgpileseparator {

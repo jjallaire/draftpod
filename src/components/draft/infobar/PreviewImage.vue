@@ -1,12 +1,3 @@
-<template>
-
-<div class="mtgdraft-cardview">
-  <img :src="preview_image" />
-</div>
-
-</template>
-
-
 <script>
 
 import { Events, EventBus } from '@/components/draft/eventbus.js'
@@ -31,6 +22,14 @@ export default {
 }
 
 </script>
+
+<template>
+
+  <div class="mtgdraft-cardview">
+    <img :src="preview_image" />
+  </div>
+
+</template>
 
 
 <style>
