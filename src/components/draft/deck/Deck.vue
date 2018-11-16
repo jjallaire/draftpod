@@ -12,22 +12,29 @@
       <DeckCopy :deck_list="deck_list" />
       <DeckDownload :deck_list="deck_list" />
     </template>
-    <Pile v-for="number in 5" 
-          :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
+    <div class="piles-top">
+      <Pile v-for="number in 5" 
+            :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
+            drag_source="DRAG_SOURCE_DECK">
+      </Pile>
+      <Pile :key="5" caption="6+" :piles="piles" :number="5" 
+            drag_source="DRAG_SOURCE_DECK">
+      </Pile>
+      <Pile :key="6" :caption="'Lands (' + deck_land_count + ')'"
+            :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
+        <DeckLands slot="controls" :deck="deck">
+        </DeckLands>
+      </Pile>
+      <div class="mtgpile mtgpile-separator"></div>
+      <Pile :key="7" caption="Sideboard" :piles="piles" :number="7" 
+            drag_source="DRAG_SOURCE_SIDEBOARD">
+      </Pile>
+    </div>
+    <div class="piles-bottom" :style="piles_bottom_style">
+      <Pile :key="15" :piles="piles" :number="2" 
           drag_source="DRAG_SOURCE_DECK">
-    </Pile>
-    <Pile :key="5" caption="6+" :piles="piles" :number="5" 
-          drag_source="DRAG_SOURCE_DECK">
-    </Pile>
-    <Pile :key="6" :caption="'Lands (' + deck_land_count + ')'"
-          :piles="piles" :number="6" drag_source="DRAG_SOURCE_DECK">
-      <DeckLands slot="controls" :deck="deck">
-      </DeckLands>
-    </Pile>
-    <div class="mtgpile mtgpile-separator"></div>
-    <Pile :key="7" caption="Sideboard" :piles="piles" :number="7" 
-          drag_source="DRAG_SOURCE_SIDEBOARD">
-    </Pile>
+      </Pile>
+    </div>
   </Panel>
 </template>
 
@@ -67,6 +74,16 @@ export default {
     },
     deck_land_count: function() {
       return selectors.deckLandCount(this.deck);
+    },
+    piles_bottom_style: function() {
+      // compute the maximum number of cards in piles 1-6
+      let max_cards = this.deck.piles.slice(0,6)
+        .reduce((prev, current) => prev.length < current.length ? current : prev, [])
+        .length;
+      let margin_top = 16.05 + ((max_cards + 1) * 2.1);
+      return {
+        marginTop: margin_top + '%',
+      };
     }
   },
 
@@ -112,9 +129,6 @@ export default {
   background-repeat: no-repeat;
 }
 
-
-
-
 .mtgdraft .mtgdraft-deck .card-header .btn-sm svg {
   width: 16px;
   height: 16px;
@@ -135,6 +149,18 @@ export default {
   position: relative;
   overflow-y: scroll;
   padding-left: 10px;
+}
+
+.mtgdraft .mtgdraft-deck .piles-bottom {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.mtgdraft .mtgdraft-deck .piles-bottom .mtgpile {
+  pointer-events: all;
 }
 
 </style>
