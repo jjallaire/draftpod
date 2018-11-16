@@ -8,9 +8,8 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: component for pack filler
-// TODO: filter out basic lands from lands in cardToDeckPile
-// TODO: hide last card in pack during animation
+// TODO: opacity 0 on pack animation
+// TOOD: move template below script
 
 // TODO: initial draft ai (use for card preview)
 

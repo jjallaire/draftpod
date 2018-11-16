@@ -67,9 +67,9 @@ export default {
       if (table.picks.pack.length === 0) {
 
         // if we still have packs to go then create the next pack
-        if (table.current_pack < 3)
+        if (table.current_pack < 1) {
           nextPack(table);
-        else {
+        } else {
           // move picks to deck
           movePicksToDeck(table);
 
@@ -263,6 +263,11 @@ function movePicksToDeck(table) {
 
   // sideboard cards
   deck.piles[DECK.SIDEBOARD] = picks.piles[PICKS.SIDEBOARD].slice();
+
+  // prune out all basic lands
+  deck.piles = deck.piles.map(function(pile) {
+    return pile.filter((card) => !filters.basicLand(card));
+  });
 
   // sort all deck piles
   deck.piles.forEach((pile) => pile.sort(orderCards));
