@@ -8,7 +8,7 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
-// TODO: opacity 0 on pack animation
+// TODO: fixed image for pack fill
 // TOOD: move template below script
 
 // TODO: initial draft ai (use for card preview)

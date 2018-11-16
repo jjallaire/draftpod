@@ -34,7 +34,7 @@
 
     <div class="mtgdraft">
         <div class="mtgdraft-cards">
-          <transition name="mtgpack-hide">
+          <transition name="mtgpack-hide" v-on:before-leave="onBeforePackLeave">
             <Pack v-if="!table.picks_complete" :pack="table.picks.pack"/>
           </transition>
           <Pick v-if="!table.picks_complete" 
@@ -204,6 +204,9 @@ export default {
       else
         fscreen.exitFullscreen();
     },
+    onBeforePackLeave: function(el) {
+      el.style.visibility = 'hidden';      
+    },
   }
 }
 </script>
@@ -327,8 +330,12 @@ export default {
   flex: 1 1 auto;
 }
 
+.mtgpack-hide-leave {
+  visibility: hidden;
+}
+
 .mtgpack-hide-leave-active {
-  transition: all 1s;
+  transition: max-height 1s;
   max-height: 500px;
 }
 
