@@ -3,8 +3,8 @@
   <Panel :caption="'Deck: ' + deck_total_cards + ' / 40'" panel_class="mtgdraft-deck">
     <template slot="header-left">
       <div class="card-type-counts">
-      Creatures: {{ deck_card_types.creatures }} &nbsp;
-      Other: {{ deck_card_types.other }} &nbsp;
+      Spells: {{ deck_card_types.creatures + deck_card_types.other }}
+              ({{ deck_card_types.creatures }} creatures) &nbsp;
       Lands: {{ deck_land_count }}
       </div>
     </template>
@@ -90,7 +90,7 @@ export default {
       let max_cards = this.deck.piles.slice(0,6)
         .reduce((prev, current) => prev.length < current.length ? current : prev, [])
         .length;
-      let margin_top = 16.05 + ((max_cards + 1) * 2);
+      let margin_top = 16.05 + ((max_cards + 1) * 1.8);
       return {
         marginTop: margin_top + '%',
       };
@@ -178,7 +178,7 @@ export default {
 
 .mtgdraft .mtgdraft-deck .deck-piles {
   position: absolute;
-  left: 0.4rem;
+  left: 0.7rem;
   right: 0.4rem;
 }
 
@@ -188,8 +188,6 @@ export default {
 
 .mtgdraft .mtgdraft-deck .deck-piles-bottom {
   top: 0;
-  left: 0.4rem;
-  right: 0.4rem;
   pointer-events: none;
 }
 

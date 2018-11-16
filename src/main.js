@@ -8,6 +8,7 @@ import './styles/slate.css'
 import router from './router'
 import store from './store'
 
+// TODO: janky pack loading not fully gone?
 
 // TODO: initial draft ai (use for card preview)
 
