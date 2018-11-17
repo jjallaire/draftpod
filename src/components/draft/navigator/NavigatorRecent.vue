@@ -66,7 +66,7 @@ export default {
                   class="mtgdrafter-navigator-recent-drafts">
     <template slot="icon"><HistoryIcon /></template>
 
-    <div class="row">
+    <div v-if="draft_history.length > 0" class="row">
     <div class="col-sm-12">
     <table class="table table-hover">
       <tbody>
@@ -100,6 +100,11 @@ export default {
       </tbody>
     </table>
     </div>
+    </div>
+    <div v-else class="row">
+      <div class="col-sm-12">
+        <p class="text-center text-muted no-drafts">No previous drafts</p>
+      </div>
     </div>
 
   </NavigatorPanel>
@@ -153,6 +158,11 @@ export default {
   margin-right: 8px;
   padding-bottom: 2px;
   width: 18px;
+}
+
+.mtgdrafter-navigator-recent-drafts .no-drafts {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 </style>
