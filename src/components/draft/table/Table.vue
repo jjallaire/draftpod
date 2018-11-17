@@ -275,17 +275,18 @@ export default {
   }
 }
 
-
 .mtgdraft-pack {
   flex: 0 1 auto;
   margin: 5px;
   margin-bottom: 0;
-  min-height: 32.1%;
+  height: 0;
+  overflow: visible;
+  padding-bottom: 32.1%;
 }
 
 @media only screen and (max-width: 1000px) {
 .mtgdraft-pack {
-  min-height: 27.9%;
+  padding-bottom: 27.9%;
 }
 }
 
@@ -339,17 +340,15 @@ export default {
 
 .mtgpack-hide-leave {
   visibility: hidden;
-  min-height: inherit;
 }
 
 .mtgpack-hide-leave-active {
-  transition: max-height 1s;
-  max-height: 500px;
-  min-height: inherit;
+  transition: padding-bottom 1s;
+  padding-bottom: 32.1%;
 }
 
 .mtgpack-hide-leave-to {
-  max-height: 0px;
+  padding-bottom: 0;
 }
 
 .mtgdraft-deck-colors {

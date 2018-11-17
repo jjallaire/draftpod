@@ -21,7 +21,6 @@ export default {
 </script>
 
 <template>
-
   <Panel panel_class="mtgdraft-pack">
     <div>
       <Card v-for="card in pack" :key="card.key" 
@@ -32,8 +31,7 @@ export default {
         <img src="/images/card-empty.png" />
       </span>
     </div>
-  </Panel>
-  
+  </Panel>  
 
 </template>
 
