@@ -134,7 +134,7 @@ export default {
   padding-top: 3px;
   margin-left: 14px;
   font-size: 0.8rem;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.7);
 }
 
 .mtgdraft .mtgdraft-deck .card-header .btn-sm {

@@ -20,6 +20,9 @@
       </router-link>
     </ul>
     
+    <a href="https://github.com/jjallaire/mtgdrafter">
+      <img class="navbar-github-image" src="/images/github.png"/>
+    </a>
   </nav>
 </template>
 
@@ -46,6 +49,20 @@ export default {
   padding-bottom: 0.5rem;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.7);
+}
+
+.navbar-dark .navbar-text {
+  color: rgba(255,255,255,0.7);
+}
+
+.navbar .navbar-text .simple-svg-wrapper svg>path {
+  fill: rgba(255,255,255,0.7);
+}
+
+
+
 .navbar .nav-link.icon-link {
   padding-top: 0;
   padding-bottom: 0.2rem;
@@ -68,7 +85,13 @@ export default {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
   height: 26px;
+}
 
+.navbar .navbar-github-image {
+  height: 18px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 3px;
 }
 
 .navbar .navbar-text {
@@ -95,10 +118,6 @@ export default {
 .navbar .navbar-text .simple-svg-wrapper svg {
   height: 16px;
   width: auto;
-}
-
-.navbar .navbar-text .simple-svg-wrapper svg>path {
-  fill: rgba(255,255,255,0.5);
 }
 
 </style>
