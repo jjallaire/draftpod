@@ -66,7 +66,6 @@ export default {
 .navigator-panel .card-header {
   padding: 0;
   border: 1px solid #fff;
-
   background: #757F9A;  /* fallback for old browsers */
   background-image: linear-gradient(to left, rgb(174, 182, 197), #757F9A);
   background-repeat: no-repeat;
