@@ -7,6 +7,7 @@ import DeckDownload from './DeckDownload.vue'
 import DeckLands from './DeckLands.vue'
 
 import * as selectors from '@/store/modules/draft/selectors'
+import { DECK } from '@/store/modules/draft/constants'
 import { Events, EventBus } from '@/components/draft/eventbus.js'
 
 export default {
@@ -46,7 +47,9 @@ export default {
     },
     piles_bottom_style: function() {
       // compute the maximum number of cards in piles 1-6
-      let max_cards = this.deck.piles.slice(0,6)
+      let piles = this.deck.piles.slice(0,6);
+      piles.push(this.deck.piles[DECK.LANDS]);
+      let max_cards = piles
         .reduce((prev, current) => prev.length < current.length ? current : prev, [])
         .length;
       let margin_top = 16.05 + ((max_cards + 1) * 1.8);
