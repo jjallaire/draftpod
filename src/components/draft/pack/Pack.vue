@@ -26,10 +26,6 @@ export default {
       <Card v-for="card in pack" :key="card.key" 
             :card="card" :drag_source="drag_source">
       </Card>
-      <span v-for="n in (16 - pack.length)" :key="n" 
-            class="mtgcard mtgcard-empty" draggable="false">
-        <img src="/images/card-empty.png" />
-      </span>
     </div>
   </Panel>  
 
@@ -49,19 +45,10 @@ export default {
   padding: 0;
 }
 
-.mtgdraft-pack .mtgcard img,
-.mtgdraft-pack .mtgcard-empty img {
+.mtgdraft-pack .mtgcard img {
   width: 11.5%;
   min-height: 16.05%;
   margin-bottom: 3px;
-}
-
-.mtgdraft-pack .mtgcard-empty img {
-  margin-right: 4px;
-}
-
-.mtgdraft-pack .mtgcard-empty img {
-  user-select: none;
 }
 
 .mtgdraft-pack .mtgdraft-pack-timer {
@@ -69,8 +56,7 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
-.mtgdraft-pack .mtgcard img,
-.mtgdraft-pack .mtgcard-empty img {
+.mtgdraft-pack .mtgcard img {
   width: 10%;
   min-height: 13.95%;
 } 
