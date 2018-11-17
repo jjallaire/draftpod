@@ -108,7 +108,7 @@ export default {
 }
 
 .mtgdrafter-navigator-resume-draft .navigator-button {
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 .mtgdrafter-navigator-resume-draft .card-preview {
