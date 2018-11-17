@@ -58,6 +58,7 @@ export default {
     this.resumeDraft();
 
     // update fullscreen state on change
+    this.onFullscreenChange();
     fscreen.addEventListener('fullscreenchange', this.onFullscreenChange);
 
     EventBus.$on(Events.CardAIPick, this.aiPick);
