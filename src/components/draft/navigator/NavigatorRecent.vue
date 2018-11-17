@@ -6,6 +6,13 @@ import NavigatorPanel from './NavigatorPanel.vue'
 import HistoryIcon from "vue-material-design-icons/History.vue"
 import SetIcon from '@/components/core/SetIcon.vue'
 
+import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
+
+import * as messagebox from '@/components/core/messagebox.js'
+
+import { mapMutations } from 'vuex'
+import { REMOVE_DRAFTS } from '@/store/mutations'
+
 export default {
   name: 'NavigatorRecent',
 
@@ -25,18 +32,28 @@ export default {
   },
 
   methods: {
-    onClickedDraft(draft) {
+    onDraftNavigate(draft) {
       this.$router.push("/draft/" + draft.id);
+    },
+    onDraftRemove(draft) {
+      messagebox.confirm(
+        "<p>Remove draft from history?</p> ",
+        () => {
+          this.removeDrafts([draft.id]);
+        })
     },
     formatDateTime(dt) {
       let date = new Date(dt);
       return date.toLocaleDateString() + ', ' +
              date.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true });
-    }
+    },
+    ...mapMutations({
+      removeDrafts: REMOVE_DRAFTS
+    })
   },
 
   components: {
-    NavigatorPanel, HistoryIcon, SetIcon
+    NavigatorPanel, HistoryIcon, SetIcon, DeleteIcon
   }
 
 }
@@ -54,7 +71,7 @@ export default {
     <table class="table table-hover">
       <tbody>
         <tr v-for="draft in draft_history" :key="draft.id"
-            @click="onClickedDraft(draft)">
+            @click="onDraftNavigate(draft)">
           <td class="td-set">
             <SetIcon :set_code="draft.set_code" />
             <span class="set-name">{{ draft.set_name }}</span>
@@ -65,7 +82,7 @@ export default {
                 :src="color.img"
                 :title="color.name + ' (' + Math.round(color.percent * 100) + '%)'"/>
           </td>
-          <td>
+          <td class="text-muted">
             <span v-if="draft.picks_complete">
               Deck: {{ draft.deck_total_cards }} / 40
             </span>
@@ -73,8 +90,11 @@ export default {
               Pack {{ draft.current_pack }}, Pick {{ draft.current_pick }}
             </span>
           </td>
-          <td>
+          <td class="text-muted">
             {{ formatDateTime(draft.start_time) }}
+          </td>
+          <td class="draft-remove text-muted">
+            <a @click.stop="onDraftRemove(draft)"><DeleteIcon title="Remove draft"/></a>
           </td>
         </tr>
       </tbody>
@@ -123,7 +143,10 @@ export default {
 }
 
 .mtgdrafter-navigator-recent-drafts .set-name {
-  font-size: 1.1em;
+  font-size: 1.2em;
+}
+.mtgdrafter-navigator-recent-drafts .draft-remove {
+  padding-top: 0.6rem;
 }
 
 .mtgdrafter-navigator-recent-drafts .color-icon {
