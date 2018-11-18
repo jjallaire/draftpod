@@ -9,6 +9,8 @@ import { mapGetters, mapMutations } from 'vuex'
 
 import { REMOVE_DRAFTS } from '@/store/mutations'
 
+import * as messagebox from '@/components/core/messagebox.js'
+
 export default {
   name: 'Navigator',
 
@@ -32,7 +34,14 @@ export default {
   methods: {
     ...mapMutations({
       removeDrafts: REMOVE_DRAFTS,
-    })
+    }),
+    onDraftRemove(draft_id) {
+      messagebox.confirm(
+        "<p>Remove draft from history?</p> ",
+        () => {
+          this.removeDrafts([draft_id]);
+        })
+    }
   },
 
   components: {
@@ -51,9 +60,15 @@ export default {
   <div class="mtgdrafter container">
 
   <div class="mtgdrafter-navigator">
-    <NavigatorResume v-if="draft_in_progress" :draft_id="draft_in_progress.id" />
+    <NavigatorResume v-if="draft_in_progress" 
+      :draft_id="draft_in_progress.id" 
+      :on_draft_remove="onDraftRemove"
+    />
     <NavigatorStart />
-    <NavigatorRecent :draft_history="draft_history" />   
+    <NavigatorRecent 
+      :draft_history="draft_history" 
+      :on_draft_remove="onDraftRemove"
+    />   
   </div>
 
   </div>
