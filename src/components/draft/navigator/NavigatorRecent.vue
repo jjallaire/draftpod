@@ -6,12 +6,7 @@ import NavigatorPanel from './NavigatorPanel.vue'
 import HistoryIcon from "vue-material-design-icons/History.vue"
 import SetIcon from '@/components/core/SetIcon.vue'
 
-import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
-
-import * as messagebox from '@/components/core/messagebox.js'
-
-import { mapMutations } from 'vuex'
-import { REMOVE_DRAFTS } from '@/store/mutations'
+import RemoveDraft from './RemoveDraft.vue'
 
 export default {
   name: 'NavigatorRecent',
@@ -35,25 +30,15 @@ export default {
     onDraftNavigate(draft) {
       this.$router.push("/draft/" + draft.id);
     },
-    onDraftRemove(draft) {
-      messagebox.confirm(
-        "<p>Remove draft from history?</p> ",
-        () => {
-          this.removeDrafts([draft.id]);
-        })
-    },
     formatDateTime(dt) {
       let date = new Date(dt);
       return date.toLocaleDateString() + ', ' +
              date.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true });
-    },
-    ...mapMutations({
-      removeDrafts: REMOVE_DRAFTS
-    })
+    }
   },
 
   components: {
-    NavigatorPanel, HistoryIcon, SetIcon, DeleteIcon
+    NavigatorPanel, HistoryIcon, SetIcon, RemoveDraft
   }
 
 }
@@ -94,7 +79,7 @@ export default {
             {{ formatDateTime(draft.start_time) }}
           </td>
           <td class="draft-remove text-muted">
-            <a @click.stop="onDraftRemove(draft)"><DeleteIcon title="Remove draft"/></a>
+            <RemoveDraft :draft_id="draft.id" />
           </td>
         </tr>
       </transition-group>
