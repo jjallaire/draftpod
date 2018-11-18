@@ -49,15 +49,15 @@ export default store;
 
 if (module.hot) {
   // accept actions and mutations as hot modules
-  module.hot.accept(['./modules/draft/mutations', './modules/draft/actions'], () => {
+  module.hot.accept(['./getters', './mutations'], () => {
     // require the updated modules
     // have to add .default here due to babel 6 module output
-    const newMutations = require('./modules/draft/mutations').default
-    const newActions = require('./modules/draft/actions').default
+    const newGetters = require('./getters').default
+    const newMutations = require('./mutations').default
     // swap in the new actions and mutations
     store.hotUpdate({
+      getters: newGetters,
       mutations: newMutations,
-      actions: newActions
     });
   })
 }
