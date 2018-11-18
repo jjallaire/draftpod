@@ -35,9 +35,7 @@ const store = new Vuex.Store({
   strict: debug,
 });
 
-export default store;
-
-export function useDraftModule(draft_id, options) {
+store.useDraftModule = function(draft_id, options) {
   if (!store._modules.root._children["drafts"]._children[draft_id]) {
     store.registerModule(
       ["drafts", draft_id], 
@@ -47,6 +45,7 @@ export function useDraftModule(draft_id, options) {
  }
 }
 
+export default store;
 
 if (module.hot) {
   // accept actions and mutations as hot modules

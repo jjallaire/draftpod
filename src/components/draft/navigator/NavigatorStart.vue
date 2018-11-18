@@ -7,7 +7,7 @@
 import NavigatorPanel from './NavigatorPanel.vue'
 import PlayCircleIcon from "vue-material-design-icons/PlayCircleOutline.vue"
 
-import { useDraftModule } from '@/store'
+import store from '@/store'
 import { UPDATE_PREFERENCES } from '@/store/mutations'
 import { START_DRAFT } from '@/store/modules/draft/actions'
 import { mapState, mapMutations } from 'vuex'
@@ -59,7 +59,7 @@ export default {
       let draft_id = uuidv4();
 
       // use draft module
-      useDraftModule(draft_id);
+      store.useDraftModule(draft_id);
 
       // establish options
       let options = {
