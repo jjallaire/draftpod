@@ -9,7 +9,7 @@ export default {
 
   props: {
     draft_id: {
-      type: Number,
+      type: String,
       required: true
     },
   },

@@ -78,7 +78,7 @@ export default {
   <div class="mtgdrafter-navigator">
     <transition name="resume-slide-out">
       <NavigatorResume v-if="draft_in_progress && !draft_removed" 
-        :draft_id="draft_in_progress.id" 
+        :draft_id="draft_in_progress.id"
       />
     </transition>
     <NavigatorStart />
