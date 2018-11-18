@@ -43,7 +43,7 @@ export default {
       if (this.active_cards.length > 0)
         return this.active_cards[0].image;
       else
-        return "/images/card-empty.png";
+        return this.draft.table.picks.pack[0].image;
     },
     deck_total_cards: function() {
       return selectors.deckTotalCards(this.draft.table.deck);
