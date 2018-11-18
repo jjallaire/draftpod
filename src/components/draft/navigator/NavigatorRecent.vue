@@ -148,7 +148,7 @@ export default {
 }
 
 .recent-draft-row-enter-active, .recent-draft-row-leave-active {
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 .recent-draft-row-enter, .recent-draft-row-leave-to {
   opacity: 0;
