@@ -9,6 +9,7 @@ import Navigator from './components/draft/navigator/Navigator.vue'
 import About from './components/About.vue'
 
 import store from './store'
+import { useDraftModule } from '@/store'
 
 Vue.use(VueRouter)
 
@@ -22,10 +23,12 @@ export default new VueRouter({
     { path: '/draft/:draft_id', component: Table, props: true, 
       beforeEnter: (to, from, next) => {
         let draft_id = to.params.draft_id;
-        if (draft_id in store.state.drafts)
+        if (draft_id in store.state.drafts) {
+          useDraftModule(draft_id, { preserveState: true });
           next();
-        else
+        } else {
           next("/draft/");
+        }
       } 
     },
     { path: '/about', component: About },

@@ -25,7 +25,6 @@ import { Events, EventBus } from '../eventbus'
 // drafts namespace
 const NS_DRAFTS = "drafts";
 
-import { useDraftModule } from '@/store'
 import * as selectors from '@/store/modules/draft/selectors'
 
 export default {
@@ -50,10 +49,7 @@ export default {
   },
 
   created() {
-
-    // dynamically register namespace module for this draft it doesn't exist
-    useDraftModule(this.draft_id, { preserveState: true });
-    
+ 
     // resume draft
     this.resumeDraft();
 
