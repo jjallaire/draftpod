@@ -4,6 +4,9 @@ import Vue from 'vue';
 export const EventBus = new Vue();
 
 export const Events = {
+
+  DraftRemove: 'mtgdraft-remove',
+
   ViewCard: 'mtgdraft-view-card',
 
   CardAIPick: 'mtgdraft-card-ai-pick',

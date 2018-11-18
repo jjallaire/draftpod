@@ -24,10 +24,6 @@ export default {
       type: Array,
       required: true
     },
-    on_draft_remove: {
-      type: Function,
-      required: true
-    }
   },
 
   methods: {
@@ -83,7 +79,7 @@ export default {
             {{ formatDateTime(draft.start_time) }}
           </td>
           <td class="draft-remove text-muted">
-            <RemoveDraft :draft_id="draft.id" :on_draft_remove="on_draft_remove"/>
+            <RemoveDraft :draft_id="draft.id" />
           </td>
         </tr>
       </transition-group>

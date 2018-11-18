@@ -1,5 +1,7 @@
 <script>
 
+import { Events, EventBus } from '@/components/draft/eventbus'
+
 import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
 
 export default {
@@ -10,22 +12,24 @@ export default {
       type: Number,
       required: true
     },
-    on_draft_remove: {
-      type: Function,
-      required: true
-    }
   },
 
   components: {
     DeleteIcon
   },
+
+  methods: {
+    onDraftRemove() {
+      EventBus.$emit(Events.DraftRemove, this.draft_id);
+    }
+  }
 }
 </script>
 
 <template>
 
  <a class="mtgdrafter-remove-draft-button" 
-    @click.stop="on_draft_remove(draft_id)">
+    @click.stop="onDraftRemove">
     <DeleteIcon title="Remove draft"/>
   </a>
 

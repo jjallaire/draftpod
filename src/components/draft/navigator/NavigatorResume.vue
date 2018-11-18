@@ -28,10 +28,6 @@ export default {
       type: String,
       required: true
     },
-    on_draft_remove: {
-      type: Function,
-      required: true
-    }
   },
 
   computed: {
@@ -85,7 +81,7 @@ export default {
           <span v-else>
             Pack {{ draft.table.current_pack }}, Pick {{ draft.table.current_pick }}
           </span>
-          <RemoveDraft :draft_id="draft_id" :on_draft_remove="on_draft_remove"/>
+          <RemoveDraft :draft_id="draft_id" />
         </p>
         <button type="button" class="btn btn-warning navigator-button" 
                 @click="onResumeDraft">
