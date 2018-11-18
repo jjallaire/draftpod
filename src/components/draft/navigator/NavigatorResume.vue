@@ -4,6 +4,7 @@ import NavigatorPanel from './NavigatorPanel.vue'
 import ManaLegend from '@/components/draft/infobar/ManaLegend.vue'
 import ManaCurve from '@/components/draft/infobar/ManaCurve.vue'
 import ManaColors from '@/components/draft/infobar/ManaColors.vue'
+import RemoveDraft from './RemoveDraft.vue'
 
 import RotateRight from "vue-material-design-icons/RotateRight.vue"
 
@@ -58,7 +59,7 @@ export default {
   },
 
   components: {
-    NavigatorPanel, RotateRight, ManaLegend, ManaCurve, ManaColors
+    NavigatorPanel, RotateRight, ManaLegend, ManaCurve, ManaColors, RemoveDraft
   }
 
 }
@@ -80,6 +81,7 @@ export default {
           <span v-else>
             Pack {{ draft.table.current_pack }}, Pick {{ draft.table.current_pick }}
           </span>
+          <RemoveDraft :draft_id="draft_id" />
         </p>
         <button type="button" class="btn btn-warning navigator-button" 
                 @click="onResumeDraft">
@@ -105,6 +107,11 @@ export default {
 
 .mtgdrafter-navigator .mtgdraft-mana-curve {
   height: 140px;
+}
+
+.mtgdrafter-navigator-resume-draft .material-design-icon svg {
+  padding-bottom: 4px;
+  padding-left: 6px
 }
 
 .mtgdrafter-navigator-resume-draft .navigator-button {
