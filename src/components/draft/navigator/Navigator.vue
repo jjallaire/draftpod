@@ -76,9 +76,11 @@ export default {
   <div class="mtgdrafter container">
 
   <div class="mtgdrafter-navigator">
-    <NavigatorResume v-if="draft_in_progress && !draft_removed" 
-      :draft_id="draft_in_progress.id" 
-    />
+    <transition name="resume-slide-out">
+      <NavigatorResume v-if="draft_in_progress && !draft_removed" 
+        :draft_id="draft_in_progress.id" 
+      />
+    </transition>
     <NavigatorStart />
     <NavigatorRecent 
       :draft_history="draft_history" 
@@ -106,6 +108,16 @@ export default {
 
 .mtgdrafter-navigator .form-check {
   margin-top: 10px;
+}
+
+.resume-slide-out-leave-active {
+  transition: all 0.4s;
+  max-height: 300px;
+}
+.resume-slide-out-leave-to {
+  opacity: 0;
+  transform: translateX(1000px);
+  max-height: 0;
 }
 
 </style>
