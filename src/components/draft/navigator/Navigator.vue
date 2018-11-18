@@ -16,6 +16,12 @@ import * as messagebox from '@/components/core/messagebox.js'
 export default {
   name: 'Navigator',
 
+  data: function() {
+    return {
+      draft_removed: false
+    }
+  },
+
   computed: {
     ...mapGetters([
       'draft_history',
@@ -49,6 +55,7 @@ export default {
         "<p>Remove draft from history?</p> ",
         () => {
           this.removeDrafts([draft_id]);
+          this.draft_removed = true;
         })
     }
   },
@@ -69,7 +76,7 @@ export default {
   <div class="mtgdrafter container">
 
   <div class="mtgdrafter-navigator">
-    <NavigatorResume v-if="draft_in_progress" 
+    <NavigatorResume v-if="draft_in_progress && !draft_removed" 
       :draft_id="draft_in_progress.id" 
     />
     <NavigatorStart />
