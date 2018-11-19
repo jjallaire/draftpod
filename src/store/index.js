@@ -17,6 +17,7 @@ const vuexPersist = new VuexPersist({
   storage: window.localStorage
 });
 
+
 export const store = new Vuex.Store({
   modules: {
     preferences: {
@@ -34,7 +35,6 @@ export const store = new Vuex.Store({
   strict: debug,
 });
 
-
 export function useDraftModule(draft_id, options) {
   if (!store._modules.root._children["drafts"]._children[draft_id]) {
     store.registerModule(
@@ -48,35 +48,16 @@ export function useDraftModule(draft_id, options) {
 
 
 if (module.hot) {
-
-  module.hot.accept(['./getters', './mutations',
-                     './modules/draft/actions', './modules/draft/mutations'], () => {
+  // accept actions and mutations as hot modules
+  module.hot.accept(['./getters', './mutations'], () => {
     // require the updated modules
     // have to add .default here due to babel 6 module output
-    
-    // base modules
     const newGetters = require('./getters').default
     const newMutations = require('./mutations').default
-
-    // dynamically registered modules
-    const draftModules = store._modules.root._children["drafts"];                  
-    const draftKeys = Object.keys(draftModules);
-    let drafts = {};
-    for (let key in draftKeys) {
-      drafts[key] = {
-        ...draftModules[key],
-        actions: require('./modules/draft/actions').default,
-        muations: require('./modules/draft/mutations').default
-      };
-    }
-
-    // swap in the new modules
+    // swap in the new actions and mutations
     store.hotUpdate({
       getters: newGetters,
       mutations: newMutations,
-      modules: {
-        drafts: drafts
-      }
     });
   })
 }
