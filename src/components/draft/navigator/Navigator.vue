@@ -18,7 +18,7 @@ export default {
 
   data: function() {
     return {
-      draft_removed: false
+      show_resume: true
     }
   },
 
@@ -50,12 +50,13 @@ export default {
     ...mapMutations({
       removeDrafts: REMOVE_DRAFTS,
     }),
-    onDraftRemove(draft_id) {
+    onDraftRemove( { draft_id, source } ) {
       messagebox.confirm(
         "<p>Remove draft from history?</p> ",
         () => {
           this.removeDrafts([draft_id]);
-          this.draft_removed = true;
+          if (source === "resume")
+            this.show_resume = false;
         })
     }
   },
@@ -77,13 +78,13 @@ export default {
 
   <div class="mtgdrafter-navigator">
     <transition name="resume-slide-out">
-      <NavigatorResume v-if="draft_in_progress && !draft_removed" 
+      <NavigatorResume v-if="draft_in_progress && show_resume" 
         :draft_id="draft_in_progress.id"
       />
     </transition>
     <NavigatorStart />
     <NavigatorRecent 
-      :draft_history="draft_history" 
+      :draft_history="draft_history"
     />   
   </div>
 
@@ -111,7 +112,7 @@ export default {
 }
 
 .resume-slide-out-leave-active {
-  transition: all 0.4s;
+  transition: all 0.5s;
   max-height: 300px;
 }
 .resume-slide-out-leave-to {

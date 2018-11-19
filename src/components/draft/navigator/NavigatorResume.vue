@@ -81,7 +81,7 @@ export default {
           <span v-else>
             Pack {{ draft.table.current_pack }}, Pick {{ draft.table.current_pick }}
           </span>
-          <RemoveDraft :draft_id="draft_id" />
+          <RemoveDraft :draft_id="draft_id"  remove_source="resume"/>
         </p>
         <button type="button" class="btn btn-warning navigator-button" 
                 @click="onResumeDraft">

@@ -12,6 +12,10 @@ export default {
       type: String,
       required: true
     },
+    remove_source: {
+      type: String,
+      required: true
+    }
   },
 
   components: {
@@ -20,7 +24,10 @@ export default {
 
   methods: {
     onDraftRemove() {
-      EventBus.$emit(Events.DraftRemove, this.draft_id);
+      EventBus.$emit(Events.DraftRemove, {
+        draft_id: this.draft_id,
+        source: this.remove_source
+      });
     }
   }
 }

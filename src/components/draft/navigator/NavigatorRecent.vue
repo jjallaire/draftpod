@@ -51,41 +51,35 @@ export default {
                   class="mtgdrafter-navigator-recent-drafts">
     <template slot="icon"><HistoryIcon /></template>
 
-    <div v-if="draft_history.length > 0" class="row">
-    <div class="col-sm-12">
-    <table class="table table-hover">
-      <transition-group tag="tbody" name="recent-draft-row">
-        <tr v-for="draft in draft_history" :key="draft.id"
-            @click="onDraftNavigate(draft)">
-          <td class="td-set">
-            <SetIcon :set_code="draft.set_code" />
-            <span class="set-name">{{ draft.set_name }}</span>
-          </td>
-          <td>
-            <img v-for="color in draft.card_colors" :key="color.name" 
-                class="color-icon"
-                :src="color.img"
-                :title="color.name + ' (' + Math.round(color.percent * 100) + '%)'"/>
-          </td>
-          <td class="text-muted">
-            <span v-if="draft.picks_complete">
+    <transition-group v-if="draft_history.length > 0" name="recent-draft-row">
+    <div v-for="draft in draft_history" :key="draft.id" class="row align-items-center"
+         @click="onDraftNavigate(draft)">
+      <div class="col-md-3">
+         <SetIcon :set_code="draft.set_code" />
+         <span class="set-name">{{ draft.set_name }}</span>
+      </div>
+      <div class="col-md-2">
+         <img v-for="color in draft.card_colors" :key="color.name" 
+              class="color-icon"
+              :src="color.img"
+              :title="color.name + ' (' + Math.round(color.percent * 100) + '%)'"/>
+      </div>
+      <div class="col-md-3 text-muted">
+        <span v-if="draft.picks_complete">
               Deck: {{ draft.deck_total_cards }} / 40
-            </span>
-            <span v-else>
-              Pack {{ draft.current_pack }}, Pick {{ draft.current_pick }}
-            </span>
-          </td>
-          <td class="text-muted">
-            {{ formatDateTime(draft.start_time) }}
-          </td>
-          <td class="draft-remove text-muted">
-            <RemoveDraft :draft_id="draft.id" />
-          </td>
-        </tr>
-      </transition-group>
-    </table>
+        </span>
+        <span v-else>
+          Pack {{ draft.current_pack }}, Pick {{ draft.current_pick }}
+        </span>
+      </div>
+      <div class="col-md-3 text-muted">
+        {{ formatDateTime(draft.start_time) }}
+      </div>
+      <div class="col-md-1 text-muted">
+        <RemoveDraft :draft_id="draft.id" remove_source="recent" />
+      </div>
     </div>
-    </div>
+    </transition-group>
     <div v-else class="row">
       <div class="col-sm-12">
         <p class="text-center text-muted no-drafts">No previous drafts</p>
@@ -99,7 +93,8 @@ export default {
 <style>
 
 .mtgdrafter-navigator-recent-drafts .card-body {
-  padding-left: 1.3rem;
+  padding-left: 2.0rem;
+  padding-top: 0.6rem;
 }
 
 .mtgdrafter-navigator-recent-drafts a {
@@ -121,30 +116,29 @@ export default {
   fill: darkslategray;
 }
 
-.mtgdrafter-navigator-recent-drafts .table th,
-.mtgdrafter-navigator-recent-drafts .table td {
-  border-top: none !important;
+.mtgdrafter-navigator-recent-drafts .row {
   height: 50px;
 }
 
-.mtgdrafter-navigator-recent-drafts .table-hover tbody tr:hover {
+.mtgdrafter-navigator-recent-drafts .row:hover {
   background-color: rgba(255,255,255,0.8);
   cursor: pointer;
 }
 
+
 .recent-draft-row-enter-active, .recent-draft-row-leave-active {
-  transition: all 0.4s;
+  transition: all 0.5s;
+  max-height: 50px;
 }
+
 .recent-draft-row-enter, .recent-draft-row-leave-to {
   opacity: 0;
   transform: translateX(1000px);
+  max-height: 0;
 }
 
 .mtgdrafter-navigator-recent-drafts .set-name {
   font-size: 1.2em;
-}
-.mtgdrafter-navigator-recent-drafts .draft-remove {
-  padding-top: 0.6rem;
 }
 
 .mtgdrafter-navigator-recent-drafts .color-icon {
