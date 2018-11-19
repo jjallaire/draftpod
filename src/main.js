@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 import './styles/slate.css'
 
 import router from './router'
-import store from './store'
+import { store } from './store'
 
 // TODO: dynamic hot reload for drafts module
 
