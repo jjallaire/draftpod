@@ -90,7 +90,7 @@ export default {
 .navbar .navbar-github-image {
   height: 18px;
   padding-left: 15px;
-  padding-right: 5px;
+  padding-right: 15px;
   padding-bottom: 3px;
 }
 

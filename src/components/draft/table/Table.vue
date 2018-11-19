@@ -8,6 +8,7 @@ import PickTimer from '../pick/PickTimer.vue'
 import Infobar from '../infobar/Infobar.vue'
 import Deck from '../deck/Deck.vue'
 
+import { REMOVE_DRAFTS } from '@/store/mutations'
 import { RESUME_DRAFT, PICK_CARD, PICK_TO_PILE, 
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/mutations';
@@ -17,6 +18,7 @@ import { mapState, mapMutations } from 'vuex';
 import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
 import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
 import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
+import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
 
 import fscreen from 'fscreen'
 import * as messagebox from '@/components/core/messagebox.js'
@@ -44,8 +46,8 @@ export default {
   },
 
   components: {
-    Navbar, Navigator, Pack, PickTimer, Pick, Deck, Infobar, 
-    FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, SetIcon
+    Navbar, Navigator, Pack, PickTimer, Pick, Deck, Infobar, SetIcon,
+    FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, DeleteIcon
   },
 
   created() {
@@ -101,6 +103,7 @@ export default {
 
   methods: {
     ...mapMutations({
+      removeDrafts: REMOVE_DRAFTS,
       resumeDraft(dispatch) {
         return dispatch(this.namespace + '/' + RESUME_DRAFT);
       },
@@ -139,6 +142,14 @@ export default {
                          "<p><em class='text-muted'>You can pick up where you left off in the draft later.</em></p>", function() {
         vm.$router.push("/draft/");
       });
+    },
+    onRemoveDraft: function() {
+      messagebox.confirm(
+        "<p>Discard draft?</p> ",
+        () => {
+          this.removeDrafts([this.draft_id]);
+          this.$router.push("/draft/");
+        })
     },
     onFullscreenChange: function() {
       this.fullscreen = fscreen.fullscreenElement !== null;
@@ -182,8 +193,13 @@ export default {
         </li>
         <li class="nav-item">
           <a class="nav-link icon-link">
-            <FullScreenExitIcon v-if="fullscreen" title="Exit Fullscreen" @click.native="onFullscreenToggle"/>
-            <FullScreenIcon v-else title="Fullscreen" @click.native="onFullscreenToggle"/>
+            <DeleteIcon title="Discard Draft" @click.native="onRemoveDraft"/>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link icon-link">
+            <FullScreenExitIcon v-if="fullscreen" title="Exit fullscreen mode" @click.native="onFullscreenToggle"/>
+            <FullScreenIcon v-else title="Fullscreen mode" @click.native="onFullscreenToggle"/>
           </a>
         </li>
       </ul> 
