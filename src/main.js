@@ -8,8 +8,6 @@ import './styles/slate.css'
 import router from './router'
 import { store } from './store'
 
-// TODO: dynamic hot reload for drafts module
-
 // TODO: initial draft ai (use for card preview)
 
 Vue.config.productionTip = false
