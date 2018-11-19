@@ -80,9 +80,9 @@ export default {
       </div>
     </div>
     </transition-group>
-    <div v-else class="row">
+    <div v-else class="row no-drafts align-items-center">
       <div class="col-sm-12">
-        <p class="text-center text-muted no-drafts">No previous drafts</p>
+        <div class="text-center text-muted">No previous drafts</div>
       </div>
     </div>
 
@@ -148,8 +148,7 @@ export default {
 }
 
 .mtgdrafter-navigator-recent-drafts .no-drafts {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  height: 80px;
 }
 
 </style>
