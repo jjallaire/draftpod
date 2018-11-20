@@ -6,9 +6,7 @@
 
 <script>
 
-import Vue from 'vue'
 import { SimpleSVG } from 'vue-simple-svg'
-Vue.component('simple-svg', SimpleSVG);
 
 export default {
   name: 'Panel',
@@ -21,7 +19,7 @@ export default {
   },
 
   components: {
-    SimpleSVG
+    'simple-svg': SimpleSVG
   }
 }
 
