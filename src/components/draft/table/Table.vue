@@ -9,7 +9,7 @@ import Infobar from '../infobar/Infobar.vue'
 import Deck from '../deck/Deck.vue'
 
 import { REMOVE_DRAFTS } from '@/store/mutations'
-import { RESUME_DRAFT, PICK_CARD, PICK_TO_PILE, 
+import { RESUME_DRAFT, PACK_TO_PICK, PICK_TO_PILE, 
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/mutations';
 
@@ -22,7 +22,6 @@ import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
 
 import fscreen from 'fscreen'
 import * as messagebox from '@/components/core/messagebox.js'
-import { Events, EventBus } from '../eventbus'
  
 // drafts namespace
 const NS_DRAFTS = "drafts";
@@ -41,13 +40,28 @@ export default {
 
   data: function() {
     return { 
-      fullscreen: false
+      fullscreen: false,
+      card_preview: "/images/card-back.png"
     };
   },
 
   components: {
     Navbar, Navigator, Pack, PickTimer, Pick, Deck, Infobar, SetIcon,
     FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, DeleteIcon
+  },
+
+  provide: function() {
+    return {
+      aiPick: this.aiPick,
+      packToPick: this.packToPick,
+      pickToPile: this.pickToPile,
+      deckToSideboard: this.deckToSideboard,
+      sideboardToDeck: this.sideboardToDeck,
+      sideboardToSideboard: this.sideboardToSideboard,
+      disableAutoLands: this.disableAutoLands,
+      setBasicLands: this.setBasicLands,
+      setCardPreview: this.setCardPreview
+    }
   },
 
   created() {
@@ -57,28 +71,11 @@ export default {
 
     // update fullscreen state on change
     this.onFullscreenChange();
-    fscreen.addEventListener('fullscreenchange', this.onFullscreenChange);
-
-    EventBus.$on(Events.CardAIPick, this.aiPick);
-    EventBus.$on(Events.CardPackToPick, this.pickCard);
-    EventBus.$on(Events.CardPickToPile, this.pickToPile);
-    EventBus.$on(Events.CardDeckToSideboard, this.deckToSideboard);
-    EventBus.$on(Events.CardSideboardToDeck, this.sideboardToDeck);
-    EventBus.$on(Events.CardSideboardToSideboard, this.sideboardToSideboard);
-    EventBus.$on(Events.CardPileToPile, this.pileToPile);
-    EventBus.$on(Events.LandsChanged, this.setBasicLands);
-    EventBus.$on(Events.LandsAutoDisable, this.disableAutoLands);
+    fscreen.addEventListener('fullscreenchange', this.onFullscreenChange);   
   },
 
   beforeDestroy() {
-    EventBus.$off(Events.CardAIPick, this.aiPick);
-    EventBus.$off(Events.CardPackToPick, this.pickCard);
-    EventBus.$off(Events.CardPickToPile, this.pickToPile);
-    EventBus.$off(Events.CardDeckToSideboard), this.deckToSideboard;
-    EventBus.$off(Events.CardSideboardToDeck, this.sideboardToDeck);
-    EventBus.$off(Events.CardSideboardToSideboard, this.sideboardToSideboard);
-    EventBus.$off(Events.LandsChanged, this.LandsChanged);
-    EventBus.$off(Events.LandsAutoDisable, this.disableAutoLands);
+   
     fscreen.removeEventListener('fullscreenchange', this.onFullscreenChange);
   },
 
@@ -107,8 +104,8 @@ export default {
       resumeDraft(dispatch) {
         return dispatch(this.namespace + '/' + RESUME_DRAFT);
       },
-      pickCard(dispatch, payload) {
-        return dispatch(this.namespace + '/' + PICK_CARD, payload);
+      packToPick(dispatch, payload) {
+        return dispatch(this.namespace + '/' + PACK_TO_PICK, payload);
       },
       pickToPile(dispatch, payload) {
         return dispatch(this.namespace + '/' + PICK_TO_PILE, payload);
@@ -130,11 +127,14 @@ export default {
       },
     }),
     aiPick: function() {
-      this.pickCard({
+      this.packToPick({
         card: null,
         pile_number: 0, 
         insertBefore: null
       });
+    },
+    setCardPreview: function(card_preview) {
+      this.card_preview = card_preview;
     },
     onExitDraft: function() {
       let vm = this;
@@ -214,7 +214,7 @@ export default {
           <Deck v-else :deck="table.deck"/>
         </div>
 
-        <Infobar :cards="active_cards"/>
+        <Infobar :card_preview="card_preview" :cards="active_cards"/>
     </div>
   
   </div>

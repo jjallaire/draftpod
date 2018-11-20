@@ -3,8 +3,6 @@
 import { Drop } from 'vue-drag-drop'
 import Card from './Card.vue'
 
-import { Events, EventBus } from '@/components/draft/eventbus'
-
 export default {
   props: {
     piles: {
@@ -31,6 +29,15 @@ export default {
       default: "DRAG_SOURCE_PILE"
     },
   },
+
+  inject: [
+    'packToPick',
+    'pickToPile',
+    'deckToSideboard',
+    'sideboardToDeck',
+    'sideboardToSideboard'
+  ],
+
   computed: {
     pile: function() { return this.piles[this.number]},
   },
@@ -92,7 +99,7 @@ export default {
       
       // event: pack to pick
       if (data.drag_source === "DRAG_SOURCE_PACK") {
-        EventBus.$emit(Events.CardPackToPick, {
+        this.packToPick({
           card: data.card, 
           pile_number: this.number, 
           insertBefore: insertLoc.insertBefore
@@ -101,7 +108,7 @@ export default {
 
       // event: move pick to another pile
       else if (data.drag_source === "DRAG_SOURCE_PILE") {
-        EventBus.$emit(Events.CardPickToPile, {
+        this.pickToPile({
           card: data.card,
           pile_number: this.number,
           insertBefore: insertLoc.insertBefore
@@ -110,7 +117,7 @@ export default {
 
       // event: deck to sideboard
       else if (data.drag_source === "DRAG_SOURCE_DECK") {
-        EventBus.$emit(Events.CardDeckToSideboard, {
+        this.deckToSideboard({
           card: data.card,
           insertBefore: insertLoc.insertBefore
         });
@@ -119,11 +126,11 @@ export default {
       // events: sideboard
       else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD") {
         if (this.drag_source === "DRAG_SOURCE_DECK") {
-          EventBus.$emit(Events.CardSideboardToDeck, {
+          this.sideboardToDeck({
             card: data.card
           });
         } else if (this.drag_source === "DRAG_SOURCE_SIDEBOARD") {
-          EventBus.$emit(Events.CardSideboardToSideboard, {
+          this.sideboardToSideboard({
             card: data.card,
             insertBefore: insertLoc.insertBefore
           });

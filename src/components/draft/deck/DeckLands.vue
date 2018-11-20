@@ -1,7 +1,6 @@
 <script>
 
 import * as messagebox from '@/components/core/messagebox.js'
-import { Events, EventBus } from '@/components/draft/eventbus.js'
 
 export default {
 
@@ -65,6 +64,11 @@ export default {
     }
   },
 
+  inject: [
+    'setBasicLands',
+    'disableAutoLands'
+  ],
+
   methods: {
 
     handleLandInput: function(color, event) {
@@ -73,7 +77,7 @@ export default {
       const applyInput = () => {
         let lands = parseInt(event.target.value);
         if (!isNaN(lands))
-          EventBus.$emit(Events.LandsChanged, {color, lands});
+          this.setBasicLands({color, lands});
       };
 
       // if we are in auto-lands then prompt
@@ -85,7 +89,7 @@ export default {
           "Do you want to disable auto-lands?", 
           () => {
             // disable auto-lands
-            EventBus.$emit(Events.LandsAutoDisable, {
+            this.disableAutoLands({
               color_order: this.colors.map((count) => count.color)
             });
               

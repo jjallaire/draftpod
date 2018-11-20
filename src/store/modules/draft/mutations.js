@@ -1,9 +1,8 @@
 
 export const ENTER_DRAFT = 'ENTER_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
-export const PICK_CARD = 'PICK_CARD'
-export const NEXT_PACK = 'NEXT_PACK'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
+export const NEXT_PACK = 'NEXT_PACK'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
 export const DECK_TO_SIDEBOARD = 'DECK_TO_SIDEBOARD'
 export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
@@ -45,7 +44,7 @@ export default {
     state.start_time = new Date().getTime();
   },
 
-  [PICK_CARD](state, { card, pile_number, insertBefore }) {
+  [PACK_TO_PICK](state, { card, pile_number, insertBefore }) {
 
     updateTable(state, (table) => {
 

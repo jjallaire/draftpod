@@ -1,7 +1,5 @@
 <script>
 
-import { Events, EventBus } from '@/components/draft/eventbus'
-
 import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
 
 export default {
@@ -18,13 +16,17 @@ export default {
     }
   },
 
+  inject: [
+    'removeDraft'
+  ],
+
   components: {
     DeleteIcon
   },
 
   methods: {
     onDraftRemove() {
-      EventBus.$emit(Events.DraftRemove, {
+      this.removeDraft({
         draft_id: this.draft_id,
         source: this.remove_source
       });

@@ -1,7 +1,6 @@
 <script>
 
 import { Drag } from 'vue-drag-drop';
-import { EventBus, Events } from '@/components/draft/eventbus.js'
 
 export default {
   name: 'Card',
@@ -12,12 +11,15 @@ export default {
       default: null
     }
   },
+  inject: [
+    'setCardPreview',
+  ],
   components: {
     Drag
   },
   methods: {
     onMouseOver() {
-      EventBus.$emit(Events.ViewCard, this.card);
+      this.setCardPreview(this.card.image);
     },
     onDragStart(data, event) {
       // record offset of cursor to card image (used for determining

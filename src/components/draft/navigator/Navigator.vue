@@ -5,8 +5,6 @@ import NavigatorResume from './NavigatorResume.vue'
 import NavigatorStart from './NavigatorStart.vue'
 import NavigatorRecent from './NavigatorRecent.vue'
 
-import { Events, EventBus } from '@/components/draft/eventbus'
-
 import { mapGetters, mapMutations } from 'vuex'
 
 import { REMOVE_DRAFTS } from '@/store/mutations'
@@ -37,27 +35,26 @@ export default {
 
     // perform purge
     this.removeDrafts(purge_draft_ids);
-
-    // subscribe to draft remove
-    EventBus.$on(Events.DraftRemove, this.onDraftRemove);
   },
 
-  beforeDestroy() {
-    EventBus.$off(Events.DraftRemove, this.onDraftRemove);
+  provide: function() {
+    return {
+      removeDraft: this.removeDraft
+    }
   },
 
   methods: {
     ...mapMutations({
       removeDrafts: REMOVE_DRAFTS,
     }),
-    onDraftRemove( { draft_id, source } ) {
+    removeDraft({ draft_id, source }) {
       messagebox.confirm(
         "<p>Remove draft from history?</p> ",
         () => {
           this.removeDrafts([draft_id]);
           if (source === "resume")
             this.show_resume = false;
-        })
+        });
     }
   },
 

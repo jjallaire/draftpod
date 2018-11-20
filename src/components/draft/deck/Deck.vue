@@ -8,7 +8,6 @@ import DeckLands from './DeckLands.vue'
 
 import * as selectors from '@/store/modules/draft/selectors'
 import { DECK } from '@/store/modules/draft/constants'
-import { Events, EventBus } from '@/components/draft/eventbus.js'
 
 export default {
   name: 'Deck',
@@ -18,14 +17,6 @@ export default {
       type: Object,
       required: true
     }
-  },
-
-  created() {
-    EventBus.$on(Events.CardDeckToSideboard, this.onDeckToSideboard);
-  },
-
-  beforeDestroy() {
-    EventBus.$off(Events.CardDeckToSideboard, this.onDeckToSideboard);
   },
 
   computed: {
@@ -56,15 +47,6 @@ export default {
       return {
         marginTop: margin_top + '%',
       };
-    }
-  },
-
-  methods: {
-    onDeckToSideboard() {
-      /* not doing this for now (speculating that it will be 
-         annoying when the sideboard is very large) */
-      // let cardBody = this.$el.querySelector(".card-body");
-      // cardBody.scrollTop = 0;
     }
   },
 

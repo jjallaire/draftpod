@@ -10,6 +10,10 @@ export default {
   name: 'Infobar',
 
   props: {
+    card_preview: {
+      type: String,
+      required: true
+    },
     cards: {
       type: Array,
       required: true
@@ -27,7 +31,7 @@ export default {
 
   <div class="mtgdraft-infobar">
     
-    <PreviewImage  />
+    <PreviewImage :card_preview="card_preview" />
     
     <Panel class="mtgdraft-deckstats" caption="Cards"> 
       <ManaLegend :cards="cards" />

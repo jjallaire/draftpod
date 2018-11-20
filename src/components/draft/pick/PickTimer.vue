@@ -1,8 +1,5 @@
 <script>
 
-import '../eventbus.js'
-import { Events, EventBus } from '../eventbus.js';
-
 export default {
 
   name: 'PickTimer',
@@ -29,6 +26,10 @@ export default {
     clearInterval(this.timer);
   },
 
+  inject: [
+    'aiPick'
+  ],
+
   methods: {
     onPickTimer() {
       // update current time
@@ -36,7 +37,7 @@ export default {
 
       // check for expiration
       if (this.pick_time_remaining === -1) {
-        EventBus.$emit(Events.CardAIPick);
+        this.aiPick();
       }
     }
   },

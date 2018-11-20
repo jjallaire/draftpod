@@ -1,24 +1,14 @@
 <script>
 
-import { Events, EventBus } from '@/components/draft/eventbus.js'
-
 export default {
   name: 'PreviewImage',
 
-  data: function() {
-    return {
-      preview_image: "/images/card-back.png",
-    }
+  props: {
+    card_preview: {
+      type: String,
+      required: true
+    },
   },
-
-  created() {
-    let vm = this;
-    EventBus.$on(Events.ViewCard, card => vm.preview_image = card.image);
-  },
-
-  destroyed() {
-    EventBus.$off(Events.ViewCard);
-  }
 }
 
 </script>
@@ -26,7 +16,7 @@ export default {
 <template>
 
   <div class="mtgdraft-cardview">
-    <img :src="preview_image" />
+    <img :src="card_preview" />
   </div>
 
 </template>
