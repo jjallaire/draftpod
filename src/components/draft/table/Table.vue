@@ -208,7 +208,7 @@ export default {
 
     <div class="mtgdraft">
         <div class="mtgdraft-cards">
-          <transition name="mtgpack-hide" v-on:before-leave="onBeforePackLeave">
+          <transition name="mtgpack-hide" @before-leave="onBeforePackLeave">
             <Pack v-if="!table.picks_complete" :pack="table.picks.pack"/>
           </transition>
           <Pick v-if="!table.picks_complete" 
