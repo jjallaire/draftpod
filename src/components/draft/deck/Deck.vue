@@ -76,7 +76,7 @@ export default {
 </script>
 
 <template>
-  <Panel :caption="'Deck: ' + deck_total_cards + ' / 40'" panel_class="mtgdraft-deck">
+  <Panel class="mtgdraft-deck" :caption="'Deck: ' + deck_total_cards + ' / 40'">
     <template slot="header-left">
       <div class="card-type-counts">
       Spells: {{ deck_card_types.creatures + deck_card_types.other }}

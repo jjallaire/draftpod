@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <Panel panel_class="mtgdraft-pack">
+  <Panel class="mtgdraft-pack">
     <div>
       <Card v-for="card in pack" :key="card.key" 
             :card="card" :drag_source="drag_source">

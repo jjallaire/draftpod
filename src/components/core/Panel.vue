@@ -1,5 +1,5 @@
 <template>
-  <div class="card" :class="panel_class">
+  <div class="card">
     <div v-if="caption" class="card-header">
       <div class="float-left header-text text-light">{{ caption }}</div>
       <div class="float-left"><slot name="header-left"></slot></div>
@@ -21,10 +21,6 @@ export default {
     caption: {
       type: String,
       required: false
-    },
-    panel_class: {
-      type: String,
-      required: true
     },
   }
 }

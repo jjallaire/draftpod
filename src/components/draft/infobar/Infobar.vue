@@ -29,7 +29,7 @@ export default {
     
     <PreviewImage  />
     
-    <Panel caption="Cards" panel_class="mtgdraft-deckstats"> 
+    <Panel class="mtgdraft-deckstats" caption="Cards"> 
       <ManaLegend :cards="cards" />
       <ManaCurve :cards="cards" />
       <ManaColors :cards="cards" />
