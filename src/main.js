@@ -10,6 +10,8 @@ import { store } from './store'
 
 // TODO: initial draft ai (use for card preview)
 
+// TODO: add support for sentry: https://sentry.io/for/vue/
+
 Vue.config.productionTip = false
 
 new Vue({

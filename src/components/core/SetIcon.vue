@@ -4,7 +4,7 @@
 import { SimpleSVG } from 'vue-simple-svg'
 
 export default {
-  name: 'Panel',
+  name: 'SetIcon',
 
   props: {
     set_code: {
