@@ -1,9 +1,12 @@
 <script>
 
 import { Drop } from 'vue-drag-drop'
-import Card from './Card.vue'
+import MtgCard from './MtgCard.vue'
 
 export default {
+
+  name: 'MtgCardPile',
+
   props: {
     piles: {
       type: Array,
@@ -52,7 +55,7 @@ export default {
     }
   },
   components: {
-    Card, Drop
+    MtgCard, Drop
   },
   methods: {
 
@@ -188,10 +191,10 @@ function cardInsertLocation(data, event) {
         :style="{textAlign: caption_center ? 'center' : 'left'}">
       {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>
     </div>
-    <Card v-for="(card, index) in pile" :key="card.key"
+    <MtgCard v-for="(card, index) in pile" :key="card.key"
           :card="card" :drag_source="drag_source"
           :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
-    </Card>
+    </MtgCard>
     <div class="mtgpile-controls" 
         :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 
                               + (pile.length >= 1 ? 140 : 6) + '%'}">

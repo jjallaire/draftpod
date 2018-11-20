@@ -1,6 +1,6 @@
 <script>
 
-import Pile from '@/components/draft/core/Pile.vue'
+import MtgCardPile from '@/components/draft/core/MtgCardPile.vue'
 
 export default {
   name: 'PickList',
@@ -13,7 +13,7 @@ export default {
   },
 
   components: {
-    Pile
+    MtgCardPile
   }
 }
 
@@ -21,9 +21,9 @@ export default {
 
 <template>
   <div class="mtgdraft-pick-list">
-    <Pile v-for="number in 7" :key="number-1" :piles="piles" :number="number-1"></Pile>
+    <MtgCardPile v-for="number in 7" :key="number-1" :piles="piles" :number="number-1"></MtgCardPile>
     <div class="mtgpile mtgpile-separator"></div>
-    <Pile caption="Sideboard" :key="7" :piles="piles" :number="7"></Pile>
+    <MtgCardPile caption="Sideboard" :key="7" :piles="piles" :number="7"></MtgCardPile>
   </div>
 </template>
 

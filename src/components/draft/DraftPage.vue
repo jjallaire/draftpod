@@ -2,11 +2,11 @@
 
 import SetIcon from '@/components/core/SetIcon.vue'
 import NavigationBar from '@/components/core/NavigationBar.vue'
-import Pack from '../pack/Pack.vue';
-import Pick from '../pick/Pick.vue';
-import PickTimer from '../pick/PickTimer.vue'
-import Infobar from '../infobar/Infobar.vue'
-import Deck from '../deck/Deck.vue'
+import PackPanel from './pack/PackPanel.vue';
+import PickPanel from './pick/PickPanel.vue';
+import PickTimer from './pick/PickTimer.vue'
+import InfoBar from './infobar/InfoBar.vue'
+import DeckPanel from './deck/DeckPanel.vue'
 
 import { REMOVE_DRAFTS } from '@/store/mutations'
 import { RESUME_DRAFT, PACK_TO_PICK, PICK_TO_PILE, 
@@ -29,7 +29,7 @@ const NS_DRAFTS = "drafts";
 import * as selectors from '@/store/modules/draft/selectors'
 
 export default {
-  name: 'Draft',
+  name: 'DraftPage',
 
   props: {
     draft_id: {
@@ -46,7 +46,7 @@ export default {
   },
 
   components: {
-    NavigationBar, Navigator, Pack, PickTimer, Pick, Deck, Infobar, SetIcon,
+    NavigationBar, Navigator, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
     FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, DeleteIcon
   },
 
@@ -206,15 +206,15 @@ export default {
     <div class="mtgdraft">
         <div class="mtgdraft-cards">
           <transition name="mtgpack-hide">
-            <Pack v-if="!table.picks_complete" :pack="table.picks.pack"/>
+            <PackPanel v-if="!table.picks_complete" :pack="table.picks.pack"/>
           </transition>
-          <Pick v-if="!table.picks_complete" 
-                :picks="table.picks" 
-                :pick_analysis="options.pick_analysis"/>
-          <Deck v-else :deck="table.deck"/>
+          <PickPanel v-if="!table.picks_complete" 
+                     :picks="table.picks" 
+                     :pick_analysis="options.pick_analysis"/>
+          <DeckPanel v-else :deck="table.deck"/>
         </div>
 
-        <Infobar :card_preview="card_preview" :cards="active_cards"/>
+        <InfoBar :card_preview="card_preview" :cards="active_cards"/>
     </div>
   
   </div>

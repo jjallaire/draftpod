@@ -4,7 +4,7 @@ import PickList from './PickList.vue'
 import PickAnalysis from './PickAnalysis.vue'
 
 export default {
-  name: 'Pick',
+  name: 'PickPanel',
   props: {
     picks: {
       type: Object,

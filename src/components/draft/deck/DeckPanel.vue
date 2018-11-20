@@ -1,7 +1,7 @@
 <script>
 
-import Panel from '@/components/core/Panel.vue'
-import Pile from '@/components/draft/core/Pile.vue'
+import UiPanel from '@/components/core/UiPanel.vue'
+import MtgCardPile from '@/components/draft/core/MtgCardPile.vue'
 import DeckCopy from './DeckCopy.vue'
 import DeckDownload from './DeckDownload.vue'
 import DeckLands from './DeckLands.vue'
@@ -51,14 +51,14 @@ export default {
   },
 
   components: {
-    Panel, Pile, DeckCopy, DeckDownload, DeckLands
+    UiPanel, MtgCardPile, DeckCopy, DeckDownload, DeckLands
   }
 }
 
 </script>
 
 <template>
-  <Panel class="mtgdraft-deck" :caption="'Deck: ' + deck_total_cards + ' / 40'">
+  <UiPanel class="mtgdraft-deck" :caption="'Deck: ' + deck_total_cards + ' / 40'">
     <template slot="header-left">
       <div class="card-type-counts">
       Spells: {{ deck_card_types.creatures + deck_card_types.other }}
@@ -71,30 +71,30 @@ export default {
       <DeckDownload :deck_list="deck_list" />
     </template>
     <div class="deck-piles deck-piles-top">
-      <Pile v-for="number in 5" 
+      <MtgCardPile v-for="number in 5" 
             :key="number-1" :caption="number + ''" :piles="piles" :number="number-1" 
             drag_source="DRAG_SOURCE_DECK">
-      </Pile>
-      <Pile :key="5" caption="6+" :piles="piles" :number="5" 
+      </MtgCardPile>
+      <MtgCardPile :key="5" caption="6+" :piles="piles" :number="5" 
             drag_source="DRAG_SOURCE_DECK">
-      </Pile>
-      <Pile :key="12" :caption="'Lands (' + deck_land_count + ')'"
+      </MtgCardPile>
+      <MtgCardPile :key="12" :caption="'Lands (' + deck_land_count + ')'"
             :piles="piles" :number="12" drag_source="DRAG_SOURCE_DECK">
         <DeckLands slot="controls" :deck="deck">
         </DeckLands>
-      </Pile>
+      </MtgCardPile>
       <div class="mtgpile mtgpile-separator"></div>
-      <Pile class="deck-sideboard" :key="13" caption="Sideboard" :piles="piles" :number="13" 
+      <MtgCardPile class="deck-sideboard" :key="13" caption="Sideboard" :piles="piles" :number="13" 
             drag_source="DRAG_SOURCE_SIDEBOARD">
-      </Pile>
+      </MtgCardPile>
     </div>
     <div class="deck-piles deck-piles-bottom" :style="piles_bottom_style">
-      <Pile v-for="number in 6" 
+      <MtgCardPile v-for="number in 6" 
             :key="number + 6 -  1" :piles="piles" :number="number + 6 - 1" 
             drag_source="DRAG_SOURCE_DECK">
-      </Pile>
+      </MtgCardPile>
     </div>
-  </Panel>
+  </UiPanel>
 </template>
 
 <style>

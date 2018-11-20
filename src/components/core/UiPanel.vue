@@ -15,7 +15,7 @@
 <script>
 
 export default {
-  name: 'Panel',
+  name: 'UiPanel',
 
   props: {
     caption: {

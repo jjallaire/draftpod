@@ -3,7 +3,7 @@
 import NavigationBar from './core/NavigationBar.vue'
 
 export default {
-  name: 'Home',
+  name: 'HomePage',
 
   components: {
     NavigationBar

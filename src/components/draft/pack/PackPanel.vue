@@ -1,10 +1,10 @@
 <script>
 
-import Card from '@/components/draft/core/Card.vue';
-import Panel from '@/components/core/Panel.vue';
+import MtgCard from '@/components/draft/core/MtgCard.vue';
+import UiPanel from '@/components/core/UiPanel.vue';
 
 export default {
-  name: 'Pack',
+  name: 'PackPanel',
   props: {
     pack: {
       type: Array,
@@ -15,19 +15,19 @@ export default {
     drag_source: () => "DRAG_SOURCE_PACK",
   },
   components: {
-    Card, Panel
+    MtgCard, UiPanel
   },
 }
 </script>
 
 <template>
-  <Panel class="mtgdraft-pack">
+  <UiPanel class="mtgdraft-pack">
     <div>
-      <Card v-for="card in pack" :key="card.key" 
+      <MtgCard v-for="card in pack" :key="card.key" 
             :card="card" :drag_source="drag_source">
-      </Card>
+      </MtgCard>
     </div>
-  </Panel>  
+  </UiPanel>  
 
 </template>
 

@@ -3,7 +3,7 @@
 import { Drag } from 'vue-drag-drop';
 
 export default {
-  name: 'Card',
+  name: 'MtgCard',
   props: {
     card: Object,
     drag_source: {

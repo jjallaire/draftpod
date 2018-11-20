@@ -1,13 +1,13 @@
 <script>
 
-import Panel from '@/components/core/Panel.vue'
+import UiPanel from '@/components/core/UiPanel.vue'
 import PreviewImage from './PreviewImage.vue'
 import ManaLegend from './ManaLegend.vue'
 import ManaCurve from './ManaCurve.vue'
 import ManaColors from './ManaColors.vue'
 
 export default {
-  name: 'Infobar',
+  name: 'InfoBar',
 
   props: {
     card_preview: {
@@ -21,7 +21,7 @@ export default {
   },
 
   components: {
-    Panel, PreviewImage, ManaCurve, ManaColors, ManaLegend
+    UiPanel, PreviewImage, ManaCurve, ManaColors, ManaLegend
   },
 }
 
@@ -33,11 +33,11 @@ export default {
     
     <PreviewImage :card_preview="card_preview" />
     
-    <Panel class="mtgdraft-deckstats" caption="Cards"> 
+    <UiPanel class="mtgdraft-deckstats" caption="Cards"> 
       <ManaLegend :cards="cards" />
       <ManaCurve :cards="cards" />
       <ManaColors :cards="cards" />
-    </Panel>
+    </UiPanel>
     
   </div>
 
