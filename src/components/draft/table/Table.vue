@@ -160,9 +160,6 @@ export default {
       else
         fscreen.exitFullscreen();
     },
-    onBeforePackLeave: function(el) {
-      el.style.visibility = 'hidden';      
-    },
   }
 }
 </script>
@@ -208,7 +205,7 @@ export default {
 
     <div class="mtgdraft">
         <div class="mtgdraft-cards">
-          <transition name="mtgpack-hide" @before-leave="onBeforePackLeave">
+          <transition name="mtgpack-hide">
             <Pack v-if="!table.picks_complete" :pack="table.picks.pack"/>
           </transition>
           <Pick v-if="!table.picks_complete" 
@@ -358,6 +355,7 @@ export default {
 .mtgpack-hide-leave-active {
   transition: padding-bottom 1s;
   padding-bottom: 32.1%;
+  visibility: hidden;
 }
 
 .mtgpack-hide-leave-to {
