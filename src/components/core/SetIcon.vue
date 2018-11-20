@@ -1,9 +1,4 @@
 
-
-<template>
-  <simple-svg :filepath="'/sets/' + set_code + '/icon.svg'"/>
-</template>
-
 <script>
 
 import { SimpleSVG } from 'vue-simple-svg'
@@ -24,6 +19,12 @@ export default {
 }
 
 </script>
+
+
+<template>
+  <simple-svg :filepath="'/sets/' + set_code + '/icon.svg'" class="mtgdraft-simple-svg"/>
+</template>
+
 
 <style>
 

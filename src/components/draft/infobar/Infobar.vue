@@ -2,9 +2,9 @@
 
 import Panel from '@/components/core/Panel.vue'
 import PreviewImage from './PreviewImage.vue'
+import ManaLegend from './ManaLegend.vue'
 import ManaCurve from './ManaCurve.vue'
 import ManaColors from './ManaColors.vue'
-import ManaLegend from './ManaLegend.vue'
 
 export default {
   name: 'Infobar',

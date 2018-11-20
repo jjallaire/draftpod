@@ -1,11 +1,9 @@
 
 <script>
 
-import NavigatorPanel from './NavigatorPanel.vue'
-
-import HistoryIcon from "vue-material-design-icons/History.vue"
 import SetIcon from '@/components/core/SetIcon.vue'
-
+import NavigatorPanel from './NavigatorPanel.vue'
+import HistoryIcon from "vue-material-design-icons/History.vue"
 import RemoveDraft from './RemoveDraft.vue'
 
 export default {
