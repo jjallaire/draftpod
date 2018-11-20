@@ -1,6 +1,6 @@
 <script>
 
-import Navbar from '@/components/core/Navbar.vue'
+import NavigationBar from '@/components/core/NavigationBar.vue'
 import NavigatorResume from './NavigatorResume.vue'
 import NavigatorStart from './NavigatorStart.vue'
 import NavigatorRecent from './NavigatorRecent.vue'
@@ -59,7 +59,7 @@ export default {
   },
 
   components: {
-    Navbar, NavigatorResume, NavigatorStart, NavigatorRecent
+    NavigationBar, NavigatorResume, NavigatorStart, NavigatorRecent
   },
 }
 
@@ -69,7 +69,7 @@ export default {
 
   <div>
 
-  <Navbar /> 
+  <NavigationBar /> 
 
   <div class="mtgdrafter container">
 

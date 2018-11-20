@@ -1,7 +1,7 @@
 <script>
 
 import SetIcon from '@/components/core/SetIcon.vue'
-import Navbar from '@/components/core/Navbar.vue'
+import NavigationBar from '@/components/core/NavigationBar.vue'
 import Pack from '../pack/Pack.vue';
 import Pick from '../pick/Pick.vue';
 import PickTimer from '../pick/PickTimer.vue'
@@ -46,7 +46,7 @@ export default {
   },
 
   components: {
-    Navbar, Navigator, Pack, PickTimer, Pick, Deck, Infobar, SetIcon,
+    NavigationBar, Navigator, Pack, PickTimer, Pick, Deck, Infobar, SetIcon,
     FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, DeleteIcon
   },
 
@@ -169,7 +169,7 @@ export default {
   <transition name="mtgdraft-fade">
   <div class="mtgdrafter">
 
-    <Navbar> 
+    <NavigationBar> 
       <span class="navbar-text navbar-set-icon">
          <SetIcon :set_code="options.set_code"/>   
       </span>
@@ -201,7 +201,7 @@ export default {
         </li>
       </ul> 
     
-    </Navbar>
+    </NavigationBar>
 
     <div class="mtgdraft">
         <div class="mtgdraft-cards">
