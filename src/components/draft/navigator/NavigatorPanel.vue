@@ -38,7 +38,7 @@ export default {
     <div class="card-header" :id="name + '-heading'">
       <h5 class="mb-0">
         <slot name="icon"></slot>
-        <button :class="'btn btn-link ' + (collapsed ? 'collapsed' : '')" 
+        <button class="btn btn-link" :class="{ collapsed: collapsed }" 
                 :data-toggle="parent ? collapse : null" :data-target="'#' + name" 
                 :aria-expanded="collapsed ? 'false' : 'true'" :aria-controls="name">
           {{ caption }}

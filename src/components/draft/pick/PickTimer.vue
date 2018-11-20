@@ -69,7 +69,7 @@ export default {
 
 <template>
 
-  <span :class="[badge_class, 'mtgdraft-pick-timer', 'badge', 'text-light']">
+  <span class="mtgdraft-pick-timer badge text-light" :class="badge_class">
     {{ time_display }}
   </span>
 
