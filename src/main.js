@@ -9,6 +9,8 @@ import router from './router'
 import { store } from './store'
 
 
+// TODO: take another shot at scoped css
+
 // TODO: look at alignment, sizes in draft resume panel
 
 // TODO: evaluate static content options (prerender w/ # and v-show?)
