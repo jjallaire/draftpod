@@ -108,22 +108,22 @@ function chartOptions(height) {
 </script>
 
 <template>
-  <div class="mtgdraft-mana-curve ct-chart ct-perfect-fourth">
+  <div class="mana-curve ct-chart ct-perfect-fourth">
   </div>
 </template>
 
 <style>
-.mtgdraft-mana-curve {
+.mtgdrafter .mana-curve {
   height: 115px;
 }
 
-.mtgdraft-mana-curve .ct-bar {
+.mtgdrafter .mana-curve .ct-bar {
   stroke-width: 11%;
 }
-.mtgdraft-mana-curve .ct-series-a .ct-bar {
+.mtgdrafter .mana-curve .ct-series-a .ct-bar {
   stroke: #ee5f5b;
 }
-.mtgdraft-mana-curve .ct-series-b .ct-bar {
+.mtgdrafter .mana-curve .ct-series-b .ct-bar {
    stroke: #5bc0de;
 }
 

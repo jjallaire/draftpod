@@ -71,9 +71,9 @@ export default {
 
   <NavigationBar /> 
 
-  <div class="mtgdrafter container">
+  <div class="container">
 
-  <div class="mtgdrafter-navigator">
+  <div class="navigator-page">
     <transition name="resume-slide-out">
       <NavigatorResume v-if="draft_in_progress && show_resume" 
         :draft_id="draft_in_progress.id"
@@ -93,18 +93,18 @@ export default {
 
 <style>
 
-.mtgdrafter-navigator .navigator-panel {
+.mtgdrafter .navigator-page .navigator-page-panel {
   margin-bottom: 20px;
 }
 
-.mtgdrafter-navigator .btn {
+.mtgdrafter .navigator-page .btn {
   padding-left: 20px;
   padding-right: 20px;
   min-width: 160px;
   border: 0;
 }
 
-.mtgdrafter-navigator .form-check {
+.mtgdrafter .navigator-page .form-check {
   margin-top: 10px;
 }
 

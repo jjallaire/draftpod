@@ -24,7 +24,7 @@ export default {
 
 <template>
 
-  <table class="table table-sm mtgdraft-deck-colors">
+  <table class="table table-sm deck-colors">
     <tbody>
     <tr v-for="color in colors" :key="color.img">
       <td width="60%"><img :src="color.img" width=18> {{ color.name }}</td>
@@ -39,8 +39,25 @@ export default {
 
 <style>
 
-.mtgdraft .mtgdraft-deck-colors {
+.mtgdrafter .deck-colors {
   width: 92%;
+}
+
+.mtgdrafter .deck-colors {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+.mtgdrafter .deck-colors th,
+.mtgdrafter .deck-colors td {
+  border-top: none;
+}
+
+.mtgdrafter .deck-colors td img {
+  margin-top: -2px;
+  margin-right: 5px;
+  margin-left: 4px;
 }
 
 </style>

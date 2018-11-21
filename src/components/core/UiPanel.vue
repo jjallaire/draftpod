@@ -30,7 +30,7 @@ export default {
 
 <style>
 
-.mtgdraft .card .card-header div {
+.mtgdrafter .card .card-header div {
   display: inline-block;
 }
 

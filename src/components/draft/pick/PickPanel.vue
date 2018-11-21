@@ -24,7 +24,7 @@ export default {
 
 <template>
 
-  <div class="mtgdraft-pick card bg-white">
+  <div class="pick-panel card bg-white">
   
     <div class="card-header tabs-header">
       <ul class="nav" role="tablist">
@@ -57,7 +57,7 @@ export default {
 
 <style>
 
-.mtgdraft-pick .card-body {
+.mtgdrafter .draft-page .pick-panel .card-body {
   position: relative;
   overflow-y: scroll;
 }

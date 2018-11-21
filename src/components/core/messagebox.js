@@ -9,7 +9,7 @@ export function confirm(message, confirmed, cancelled) {
 
     message: message,
     
-    className: "mtgdraft-bootbox-dialog",
+    className: "mtgdrafter-bootbox-dialog",
 
     buttons: {
       confirm: {

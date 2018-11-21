@@ -183,11 +183,11 @@ function cardInsertLocation(data, event) {
 
 <template>
 
-  <Drop class="mtgpile" 
+  <Drop class="pile" 
         @drop="handleDrop(...arguments)" 
         @dragover="handleDragover(...arguments)"
         @dragleave="handleDragleave(...arguments)">
-    <div class="mtgpile-caption" v-if="caption" 
+    <div class="pile-caption" v-if="caption" 
         :style="{textAlign: caption_center ? 'center' : 'left'}">
       {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>
     </div>
@@ -195,30 +195,30 @@ function cardInsertLocation(data, event) {
           :card="card" :drag_source="drag_source"
           :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
     </MtgCard>
-    <div class="mtgpile-controls" 
+    <div class="pile-controls" 
         :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 
                               + (pile.length >= 1 ? 140 : 6) + '%'}">
       <slot name="controls"></slot>
     </div>
-    <div class="mtgpile-drag-insert" :style="styles.dragInsert"></div>
+    <div class="pile-drag-insert" :style="styles.dragInsert"></div>
   </Drop>
 
 </template>
 
 <style>
-.mtgpile, .mtgpileseparator {
+.mtgdrafter .draft-page .pile {
   display: inline-block;
   position: relative;
   min-height: 250px;
   margin-right: 4px;
 }
-.mtgpile {
+.mtgdrafter .draft-page .pile{
   width: 11.5%;
 }
-.mtgpile-separator {
+.mtgdrafter .draft-page .pile-separator {
   width: 3%;
 }
-.mtgpile .mtgpile-caption {
+.mtgdrafter .draft-page .pile .pile-caption {
   position: absolute;
   left: 0;
   top: 0;
@@ -230,25 +230,25 @@ function cardInsertLocation(data, event) {
   margin-top: -2px; 
 }
 @media only screen and (max-width: 1000px) {
-.mtgpile {
+.mtgdrafter .draft-page .pile {
   width: 10%;
 } 
-.mtgpile .mtgpile-caption {
+.mtgdrafter .draft-page .pile .pile-caption {
   font-size: 0.6em;
   margin-top: -3px;
 }
 }
 
-.mtgpile .mtgcard {
+.mtgdrafter .draft-page .pile .mtgcard {
   position: absolute;
   left: 0;
   max-width: 100%;
 }
-.mtgpile .mtgcard img {
+.mtgdrafter .draft-page .pile .mtgcard img {
   max-width: 100%;
   height: auto;
 }
-.mtgpile .mtgpile-drag-insert {
+.mtgdrafter .draft-page .pile .pile-drag-insert {
   border-top: 2px groove #f2f2f2;
   position: absolute;
   width: 100%;
@@ -256,7 +256,7 @@ function cardInsertLocation(data, event) {
   margin-right: 2px;
 }
 
-.mtgpile .mtgpile-controls {
+.mtgdrafter .draft-page .pile .pile-controls {
   position: absolute;
   width: 100%;
 }

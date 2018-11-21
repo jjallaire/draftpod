@@ -58,7 +58,7 @@ export default {
 </script>
 
 <template>
-  <UiPanel class="mtgdraft-deck" :caption="'Deck: ' + deck_total_cards + ' / 40'">
+  <UiPanel class="deck" :caption="'Deck: ' + deck_total_cards + ' / 40'">
     <template slot="header-left">
       <div class="card-type-counts">
         Creatures: {{ deck_card_types.creatures }} &nbsp;
@@ -83,7 +83,7 @@ export default {
         <DeckLands slot="controls" :deck="deck">
         </DeckLands>
       </MtgCardPile>
-      <div class="mtgpile mtgpile-separator"></div>
+      <div class="pile pile-separator"></div>
       <MtgCardPile class="deck-sideboard" :key="13" caption="Sideboard" :piles="piles" :number="13" 
             drag_source="DRAG_SOURCE_SIDEBOARD">
       </MtgCardPile>
@@ -99,27 +99,27 @@ export default {
 
 <style>
 
-.mtgdraft .mtgdraft-deck {
+.mtgdrafter .draft-page .deck {
   background-color: #fff;
 }
 
-.mtgdraft .mtgdraft-deck .card-header {
+.mtgdrafter .draft-page .deck .card-header {
   font-size: 0.9rem;
   margin-bottom: 3px;
 }
 
-.mtgdraft .mtgdraft-deck .card-header .header-text {
+.mtgdrafter .draft-page .deck .card-header .header-text {
   padding-top: 2px;
 }
 
-.mtgdraft .mtgdraft-deck .card-header .card-type-counts {
+.mtgdrafter .draft-page .deck .card-header .card-type-counts {
   padding-top: 3px;
   margin-left: 14px;
   font-size: 0.8rem;
   color: rgba(255,255,255,0.7);
 }
 
-.mtgdraft .mtgdraft-deck .card-header .btn-sm {
+.mtgdrafter .draft-page .deck .card-header .btn-sm {
   font-size: 0.8rem;
   line-height: 1.4;
   padding: 0.25rem;
@@ -132,50 +132,50 @@ export default {
   background-repeat: no-repeat;
 }
 
-.mtgdraft .mtgdraft-deck .card-header .btn-sm svg {
+.mtgdrafter .draft-page .deck .card-header .btn-sm svg {
   width: 16px;
   height: 16px;
   margin-top: -2px;
 }
 
-.mtgdraft .mtgdraft-deck .card-header .btn-extra-text {
+.mtgdrafter .draft-page .deck .card-header .btn-extra-text {
   display: none
 }
 
 @media only screen and (min-width: 1000px) {
-  .mtgdraft .mtgdraft-deck .card-header .btn-extra-text {
+  .mtgdrafter .draft-page .deck .card-header .btn-extra-text {
     display: inherit
   }
 }
 
-.mtgdraft .mtgdraft-deck .card-body {
+.mtgdrafter .draft-page .deck .card-body {
   position: relative;
   overflow-y: scroll;
   scroll-behavior: smooth;
   padding-left: 10px;
 }
 
-.mtgdraft .mtgdraft-deck .deck-sideboard {
+.mtgdrafter .draft-page .deck .deck-sideboard {
   position: absolute;
   min-height: 700px;
 }
 
-.mtgdraft .mtgdraft-deck .deck-piles {
+.mtgdrafter .draft-page .deck .deck-piles {
   position: absolute;
   left: 0.7rem;
   right: 0.4rem;
 }
 
-.mtgdraft .mtgdraft-deck .deck-piles-top {
+.mtgdrafter .draft-page .deck .deck-piles-top {
   top: 5px;
 }
 
-.mtgdraft .mtgdraft-deck .deck-piles-bottom {
+.mtgdrafter .draft-page .deck .deck-piles-bottom {
   top: 0;
   pointer-events: none;
 }
 
-.mtgdraft .mtgdraft-deck .deck-piles-bottom .mtgpile {
+.mtgdrafter .draft-page .deck .deck-piles-bottom .pile {
   pointer-events: all;
 }
 

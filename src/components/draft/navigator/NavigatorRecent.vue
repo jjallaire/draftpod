@@ -46,7 +46,7 @@ export default {
 <template>
 
   <NavigatorPanel name="recent-drafts" caption="Recent Drafts" :parent="parent" :show="show"
-                  class="mtgdrafter-navigator-recent-drafts">
+                  class="recent-drafts">
     <template slot="icon"><HistoryIcon /></template>
 
     <transition-group v-if="draft_history.length > 0" name="recent-draft-row">
@@ -90,35 +90,35 @@ export default {
 
 <style>
 
-.mtgdrafter-navigator-recent-drafts .card-body {
+.mtgdrafter .navigator-page .recent-drafts .card-body {
   padding-left: 2.0rem;
   padding-top: 0.6rem;
 }
 
-.mtgdrafter-navigator-recent-drafts a {
+.mtgdrafter .navigator-page .recent-drafts a {
   color: inherit;
 }
 
-.mtgdrafter-navigator-recent-drafts .simple-svg-wrapper {
+.mtgdrafter .navigator-page .recent-drafts .simple-svg-wrapper {
   display: inline-block;
   margin-right: 13px;
   width: 25px;
 }
 
-.mtgdrafter-navigator-recent-drafts .simple-svg-wrapper svg {
+.mtgdrafter .navigator-page .recent-drafts .simple-svg-wrapper svg {
   width: 20px;
   padding-bottom: 4px;
 }
 
-.mtgdrafter-navigator-recent-drafts .simple-svg-wrapper svg>path {
+.mtgdrafter .navigator-page .recent-drafts .simple-svg-wrapper svg>path {
   fill: darkslategray;
 }
 
-.mtgdrafter-navigator-recent-drafts .row {
+.mtgdrafter .navigator-page .recent-drafts .row {
   height: 50px;
 }
 
-.mtgdrafter-navigator-recent-drafts .row:hover {
+.mtgdrafter .navigator-page .recent-drafts .row:hover {
   background-color: rgba(255,255,255,0.8);
   cursor: pointer;
 }
@@ -135,17 +135,17 @@ export default {
   max-height: 0;
 }
 
-.mtgdrafter-navigator-recent-drafts .set-name {
+.mtgdrafter .navigator-page .recent-drafts .set-name {
   font-size: 1.2em;
 }
 
-.mtgdrafter-navigator-recent-drafts .color-icon {
+.mtgdrafter .navigator-page .recent-drafts .color-icon {
   margin-right: 8px;
   padding-bottom: 2px;
   width: 18px;
 }
 
-.mtgdrafter-navigator-recent-drafts .no-drafts {
+.mtgdrafter .navigator-page .recent-drafts .no-drafts {
   height: 80px;
 }
 

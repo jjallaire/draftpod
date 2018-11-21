@@ -15,7 +15,7 @@ export default {
 
 <template>
 
-  <div class="mtgdraft-cardview">
+  <div class="card-viewer">
     <img :src="card_preview" />
   </div>
 
@@ -24,12 +24,12 @@ export default {
 
 <style>
 
-.mtgdraft-cardview {
+.mtgdrafter .draft-page .card-viewer {
   width: 100%;  
   margin-bottom: 4px;
 }
 
-.mtgdraft-cardview img {
+.mtgdrafter .draft-page .card-viewer img {
   width: 100%;
   height: auto;
 }

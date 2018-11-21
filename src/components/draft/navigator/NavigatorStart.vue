@@ -92,7 +92,7 @@ export default {
 
 <NavigatorPanel name="new-draft" caption="Start New Draft" :parent="parent" :show="show">
   <template slot="icon"><PlayCircleIcon/></template>
-  <form class="mtgdrafter-navigator-start-draft">
+  <form class="start-draft">
     <div class="form-group row">
       <label for="draft-set" class="col-sm-3 col-form-label">Draft from:</label>
       <div class="col-sm-8">

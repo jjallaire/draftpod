@@ -129,7 +129,7 @@ export default {
 <template>
 
   <div>
-  <table class="table table-sm mtgdraft-deck-colors">
+  <table class="table table-sm deck-colors">
     <tbody>
     <tr v-for="color in colors" :key="color.img">
       <td align="center"><img :src="color.img" :title="color.name" width=18></td>
@@ -146,25 +146,25 @@ export default {
 
 <style>
 
-.mtgpile .mtgdraft-deck-colors {
+.mtgdrafter .deck-colors {
   margin-top: 10px;
 }
 
-.mtgpile .mtgdraft-deck-colors td img {
+.mtgdrafter .deck-colors td img {
   margin-left: 0;
   margin-top: 3px;
 }
 
-.mtgpile .mtgdraft-deck-colors td input {
+.mtgdrafter .deck-colors td input {
   width: 40px;
   padding-left: 5px;
 }
 
 @media only screen and (max-width: 1000px) {
-  .mtgpile .mtgdraft-deck-colors td input {
+  .mtgdrafter .deck-colors td input {
     width: 35px;
   }
-  .mtgpile .mtgdraft-deck-colors td {
+  .mtgdrafter .deck-colors td {
     padding-left: 0;
   }
 }

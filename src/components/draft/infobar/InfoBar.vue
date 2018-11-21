@@ -29,11 +29,11 @@ export default {
 
 <template>
 
-  <div class="mtgdraft-infobar">
+  <div class="infobar">
     
     <PreviewImage :card_preview="card_preview" />
     
-    <UiPanel class="mtgdraft-deckstats" caption="Cards"> 
+    <UiPanel class="deck-stats" caption="Cards"> 
       <ManaLegend :cards="cards" />
       <ManaCurve :cards="cards" />
       <ManaColors :cards="cards" />
@@ -45,7 +45,7 @@ export default {
 
 <style>
 
-.mtgdraft-infobar {
+.mtgdrafter .infobar {
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -55,18 +55,18 @@ export default {
 }
 
 
-.mtgdraft-deckstats {
+.mtgdrafter .deck-stats {
   flex: 1 1 auto;
   background-color: #fff;
 }
 
-.mtgdraft-deckstats .card-body {
+.mtgdrafter .deck-stats .card-body {
   position: relative;
   overflow-y: scroll;
 }
 
 @media only screen and (max-width: 1000px) {
-  .mtgdraft-deckstats {
+  .mtgdrafter .deck-stats {
     font-size: 0.7em;
   }
 }

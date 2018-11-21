@@ -70,7 +70,7 @@ export default {
 
 <template>
 
-  <span class="mtgdraft-pick-timer badge text-light" :class="badge_class">
+  <span class="pick-timer badge text-light" :class="badge_class">
     {{ time_display }}
   </span>
 
@@ -78,7 +78,7 @@ export default {
 
 <style>
 
-.mtgdraft-pick-timer .badge-transparent {
+.mtgdrafter .pick-timer .badge-transparent {
   background-color: transparent;
 }
 

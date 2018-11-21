@@ -20,9 +20,9 @@ export default {
 </script>
 
 <template>
-  <div class="mtgdraft-pick-list">
+  <div class="pick-list">
     <MtgCardPile v-for="number in 7" :key="number-1" :piles="piles" :number="number-1"></MtgCardPile>
-    <div class="mtgpile mtgpile-separator"></div>
+    <div class="pile pile-separator"></div>
     <MtgCardPile caption="Sideboard" :key="7" :piles="piles" :number="7"></MtgCardPile>
   </div>
 </template>

@@ -37,7 +37,7 @@ export default {
 
 <template>
 
- <a class="mtgdrafter-remove-draft-button" 
+ <a class="remove-draft-button" 
     @click.stop="onDraftRemove">
     <DeleteIcon title="Remove draft"/>
   </a>
@@ -46,7 +46,7 @@ export default {
 
 <style>
 
-.mtgdrafter-remove-draft-button {
+.mtgdrafter .remove-draft-button {
   cursor: pointer;
 }
 

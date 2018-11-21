@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <UiPanel class="mtgdraft-pack">
+  <UiPanel class="pack-panel">
     <div>
       <MtgCard v-for="card in pack" :key="card.key" 
             :card="card" :drag_source="drag_source">
@@ -33,30 +33,26 @@ export default {
 
 <style>
 
-.mtgdraft .mtgdraft-pack {
+.mtgdrafter .draft-page .pack-panel {
   background: transparent;
 }
 
-.mtgdraft .mtgdraft-pack .card {
+.mtgdrafter .draft-page .pack-panel .card {
   padding: 0;
 }
 
-.mtgdraft .mtgdraft-pack .card-body {
+.mtgdrafter .draft-page .pack-panel .card-body {
   padding: 0;
 }
 
-.mtgdraft-pack .mtgcard img {
+.mtgdrafter .draft-page .pack-panel .mtgcard img {
   width: 11.5%;
   min-height: 16.05%;
   margin-bottom: 3px;
 }
 
-.mtgdraft-pack .mtgdraft-pack-timer {
-  margin-left: 20px;
-}
-
 @media only screen and (max-width: 1000px) {
-.mtgdraft-pack .mtgcard img {
+.mtgdrafter .draft-page .pack-panel .mtgcard img {
   width: 10%;
   min-height: 13.95%;
 } 

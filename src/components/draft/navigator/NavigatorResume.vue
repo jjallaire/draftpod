@@ -69,7 +69,7 @@ export default {
 <template>
 
   <NavigatorPanel name="resume-draft" caption="Draft in Progress" :parent="parent" :show="show"
-                  class="mtgdrafter-navigator-resume-draft">
+                  class="resume-draft">
     <template slot="icon"><RotateRight/></template>
     <div class="row">
       <div class="col-sm-3">
@@ -105,20 +105,20 @@ export default {
 
 <style>
 
-.mtgdrafter-navigator .mtgdraft-mana-curve {
+.mtgdrafter .navigator-page .resume-draft .mana-curve {
   height: 140px;
 }
 
-.mtgdrafter-navigator-resume-draft .material-design-icon svg {
+.mtgdrafter .navigator-page .resume-draft .material-design-icon svg {
   padding-bottom: 4px;
   padding-left: 6px
 }
 
-.mtgdrafter-navigator-resume-draft .navigator-button {
+.mtgdrafter .navigator-page .resume-draft .navigator-page-button {
   margin-top: 30px;
 }
 
-.mtgdrafter-navigator-resume-draft .card-preview {
+.mtgdrafter .navigator-page .resume-draft .card-preview {
   margin-top: 5px;
   padding-left: 30px;
 }
