@@ -8,6 +8,12 @@ import './styles/slate.css'
 import router from './router'
 import { store } from './store'
 
+// TODO: change name to .draftpod vs. .mtgdrafter
+
+// TODO: look at alignment, sizes in draft resume panel
+
+// TODO: evaluate static content options (prerender w/ # and v-show?)
+
 // TODO: initial draft ai (use for card preview)
 
 // TODO: add support for sentry: https://sentry.io/for/vue/
