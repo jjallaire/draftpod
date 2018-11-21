@@ -33,26 +33,26 @@ export default {
 
 <style>
 
-.mtgdrafter .draft-page .pack-panel {
+.draftpod .draft-page .pack-panel {
   background: transparent;
 }
 
-.mtgdrafter .draft-page .pack-panel .card {
+.draftpod .draft-page .pack-panel .card {
   padding: 0;
 }
 
-.mtgdrafter .draft-page .pack-panel .card-body {
+.draftpod .draft-page .pack-panel .card-body {
   padding: 0;
 }
 
-.mtgdrafter .draft-page .pack-panel .mtgcard img {
+.draftpod .draft-page .pack-panel .mtgcard img {
   width: 11.5%;
   min-height: 16.05%;
   margin-bottom: 3px;
 }
 
 @media only screen and (max-width: 1000px) {
-.mtgdrafter .draft-page .pack-panel .mtgcard img {
+.draftpod .draft-page .pack-panel .mtgcard img {
   width: 10%;
   min-height: 13.95%;
 } 

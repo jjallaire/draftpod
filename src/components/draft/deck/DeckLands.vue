@@ -146,25 +146,25 @@ export default {
 
 <style>
 
-.mtgdrafter .deck-colors {
+.draftpod .deck-colors {
   margin-top: 10px;
 }
 
-.mtgdrafter .deck-colors td img {
+.draftpod .deck-colors td img {
   margin-left: 0;
   margin-top: 3px;
 }
 
-.mtgdrafter .deck-colors td input {
+.draftpod .deck-colors td input {
   width: 40px;
   padding-left: 5px;
 }
 
 @media only screen and (max-width: 1000px) {
-  .mtgdrafter .deck-colors td input {
+  .draftpod .deck-colors td input {
     width: 35px;
   }
-  .mtgdrafter .deck-colors td {
+  .draftpod .deck-colors td {
     padding-left: 0;
   }
 }

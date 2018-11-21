@@ -105,20 +105,20 @@ export default {
 
 <style>
 
-.mtgdrafter .navigator-page .resume-draft .mana-curve {
+.draftpod .navigator-page .resume-draft .mana-curve {
   height: 140px;
 }
 
-.mtgdrafter .navigator-page .resume-draft .material-design-icon svg {
+.draftpod .navigator-page .resume-draft .material-design-icon svg {
   padding-bottom: 4px;
   padding-left: 6px
 }
 
-.mtgdrafter .navigator-page .resume-draft .navigator-page-button {
+.draftpod .navigator-page .resume-draft .navigator-page-button {
   margin-top: 30px;
 }
 
-.mtgdrafter .navigator-page .resume-draft .card-preview {
+.draftpod .navigator-page .resume-draft .card-preview {
   margin-top: 5px;
   padding-left: 30px;
 }

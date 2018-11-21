@@ -46,7 +46,7 @@ export default {
 
 <style>
 
-.mtgdrafter .remove-draft-button {
+.draftpod .remove-draft-button {
   cursor: pointer;
 }
 

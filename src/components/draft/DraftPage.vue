@@ -223,7 +223,7 @@ export default {
 
 <style>
 
-.mtgdrafter .navbar {
+.draftpod .navbar {
   position: fixed;
   left: 0;
   right: 0;
@@ -231,7 +231,7 @@ export default {
   height: 40px;
 }
 
-.mtgdrafter .navbar .pick-timer {
+.draftpod .navbar .pick-timer {
   padding: 0.3rem;
   font-size: 0.9rem;
   font-weight: 400;
@@ -239,7 +239,7 @@ export default {
   min-width: 45px;
 }
 
-.mtgdrafter .draft-page {
+.draftpod .draft-page {
   position: fixed;
   top: 40px;
   left: 0;
@@ -250,14 +250,14 @@ export default {
   background-color: transparent;
 }
 
-.mtgdrafter .draft-page-fade-enter-active {
+.draftpod .draft-page-fade-enter-active {
   transition: opacity 0.5s;
 }
-.mtgdrafter .draft-page-fade-enter {
+.draftpod .draft-page-fade-enter {
   opacity: 0;
 }
 
-.mtgdrafter .draft-page .infobar {
+.draftpod .draft-page .infobar {
   position: absolute;
   width: 220px;
   top: 0;
@@ -265,7 +265,7 @@ export default {
   right: 0;
 }
 
-.mtgdrafter .draft-page  .draft-cards {
+.draftpod .draft-page  .draft-cards {
   position: absolute;
   right: 220px;
   top: 0;
@@ -277,15 +277,15 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
-  .mtgdrafter .draft-page .infobar {
+  .draftpod .draft-page .infobar {
     width: 200px;
   }
-  .mtgdrafter .draft-page .draft-cards {
+  .draftpod .draft-page .draft-cards {
     right: 200px;
   }
 }
 
-.mtgdrafter .draft-page .draft-cards .pack-panel {
+.draftpod .draft-page .draft-cards .pack-panel {
   flex: 0 1 auto;
   margin: 5px;
   margin-bottom: 0;
@@ -295,28 +295,28 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
-.mtgdrafter .draft-page .draft-cards .pack-panel {
+.draftpod .draft-page .draft-cards .pack-panel {
   padding-bottom: 27.9%;
 }
 }
 
-.mtgdrafter .draft-page .draft-cards .pick-panel {
+.draftpod .draft-page .draft-cards .pick-panel {
   flex: 1 1 auto;
   margin: 5px;
   margin-top: 3px;
 }
 
-.mtgdrafter .draft-page .deck {
+.draftpod .draft-page .deck {
   flex: 1 1 auto;
   margin: 5px;
   margin-top: 4px;
 }
 
-.mtgdrafter .draft-page .card {
+.draftpod .draft-page .card {
   border: 0; 
 }
 
-.mtgdrafter .draft-page .card-header {
+.draftpod .draft-page .card-header {
   padding: 0.2rem;
   padding-left: 0.5rem;
   padding-right: 0.2rem;
@@ -327,38 +327,38 @@ export default {
   background-color: transparent;
 }
 
-.mtgdrafter .draft-page .tabs-header .nav-link {
+.draftpod .draft-page .tabs-header .nav-link {
   padding: 0.2rem;
   padding-left: 0.5rem;
   padding-right: 0.8rem;
   font-size: 0.7rem;
 }
 
-.mtgdrafter .draft-page .tabs-header {
+.draftpod .draft-page .tabs-header {
   padding: 0;
 }
 
-.mtgdrafter .draft-page .card-body {
+.draftpod .draft-page .card-body {
   padding: 0.4rem;
 }
 
-.mtgdrafter .draft-page .draft-cards {
+.draftpod .draft-page .draft-cards {
   display: flex;
   flex-flow: column;
   flex: 1 1 auto;
 }
 
-.mtgdrafter .draft-page .draft-cards .pack-hide-leave {
+.draftpod .draft-page .draft-cards .pack-hide-leave {
   visibility: hidden;
 }
 
-.mtgdrafter .draft-page .draft-cards .pack-hide-leave-active {
+.draftpod .draft-page .draft-cards .pack-hide-leave-active {
   transition: padding-bottom 1s;
   padding-bottom: 32.1%;
   visibility: hidden;
 }
 
-.mtgdrafter .draft-page .draft-cards .pack-hide-leave-to {
+.draftpod .draft-page .draft-cards .pack-hide-leave-to {
   padding-bottom: 0;
 }
 

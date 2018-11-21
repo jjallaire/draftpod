@@ -32,21 +32,21 @@ export default {
 
 <style>
 
-.mtgdrafter .mana-curve-legend {
+.draftpod .mana-curve-legend {
   font-size: 0.8em;
   font-weight: 400;
   margin-top: 5px;
 }
 
-.mtgdrafter .mana-key {
+.draftpod .mana-key {
   padding-right: 12px;
 }
 
-.mtgdrafter .creatures-key {
+.draftpod .creatures-key {
   margin-left: 10px;
 }
 
-.mtgdrafter .other-key {
+.draftpod .other-key {
   margin-left: 5px;
 }
 

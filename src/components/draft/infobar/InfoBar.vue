@@ -45,7 +45,7 @@ export default {
 
 <style>
 
-.mtgdrafter .infobar {
+.draftpod .infobar {
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -55,18 +55,18 @@ export default {
 }
 
 
-.mtgdrafter .deck-stats {
+.draftpod .deck-stats {
   flex: 1 1 auto;
   background-color: #fff;
 }
 
-.mtgdrafter .deck-stats .card-body {
+.draftpod .deck-stats .card-body {
   position: relative;
   overflow-y: scroll;
 }
 
 @media only screen and (max-width: 1000px) {
-  .mtgdrafter .deck-stats {
+  .draftpod .deck-stats {
     font-size: 0.7em;
   }
 }

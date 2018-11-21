@@ -113,17 +113,17 @@ function chartOptions(height) {
 </template>
 
 <style>
-.mtgdrafter .mana-curve {
+.draftpod .mana-curve {
   height: 115px;
 }
 
-.mtgdrafter .mana-curve .ct-bar {
+.draftpod .mana-curve .ct-bar {
   stroke-width: 11%;
 }
-.mtgdrafter .mana-curve .ct-series-a .ct-bar {
+.draftpod .mana-curve .ct-series-a .ct-bar {
   stroke: #ee5f5b;
 }
-.mtgdrafter .mana-curve .ct-series-b .ct-bar {
+.draftpod .mana-curve .ct-series-b .ct-bar {
    stroke: #5bc0de;
 }
 

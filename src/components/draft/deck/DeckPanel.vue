@@ -99,27 +99,27 @@ export default {
 
 <style>
 
-.mtgdrafter .draft-page .deck {
+.draftpod .draft-page .deck {
   background-color: #fff;
 }
 
-.mtgdrafter .draft-page .deck .card-header {
+.draftpod .draft-page .deck .card-header {
   font-size: 0.9rem;
   margin-bottom: 3px;
 }
 
-.mtgdrafter .draft-page .deck .card-header .header-text {
+.draftpod .draft-page .deck .card-header .header-text {
   padding-top: 2px;
 }
 
-.mtgdrafter .draft-page .deck .card-header .card-type-counts {
+.draftpod .draft-page .deck .card-header .card-type-counts {
   padding-top: 3px;
   margin-left: 14px;
   font-size: 0.8rem;
   color: rgba(255,255,255,0.7);
 }
 
-.mtgdrafter .draft-page .deck .card-header .btn-sm {
+.draftpod .draft-page .deck .card-header .btn-sm {
   font-size: 0.8rem;
   line-height: 1.4;
   padding: 0.25rem;
@@ -132,50 +132,50 @@ export default {
   background-repeat: no-repeat;
 }
 
-.mtgdrafter .draft-page .deck .card-header .btn-sm svg {
+.draftpod .draft-page .deck .card-header .btn-sm svg {
   width: 16px;
   height: 16px;
   margin-top: -2px;
 }
 
-.mtgdrafter .draft-page .deck .card-header .btn-extra-text {
+.draftpod .draft-page .deck .card-header .btn-extra-text {
   display: none
 }
 
 @media only screen and (min-width: 1000px) {
-  .mtgdrafter .draft-page .deck .card-header .btn-extra-text {
+  .draftpod .draft-page .deck .card-header .btn-extra-text {
     display: inherit
   }
 }
 
-.mtgdrafter .draft-page .deck .card-body {
+.draftpod .draft-page .deck .card-body {
   position: relative;
   overflow-y: scroll;
   scroll-behavior: smooth;
   padding-left: 10px;
 }
 
-.mtgdrafter .draft-page .deck .deck-sideboard {
+.draftpod .draft-page .deck .deck-sideboard {
   position: absolute;
   min-height: 700px;
 }
 
-.mtgdrafter .draft-page .deck .deck-piles {
+.draftpod .draft-page .deck .deck-piles {
   position: absolute;
   left: 0.7rem;
   right: 0.4rem;
 }
 
-.mtgdrafter .draft-page .deck .deck-piles-top {
+.draftpod .draft-page .deck .deck-piles-top {
   top: 5px;
 }
 
-.mtgdrafter .draft-page .deck .deck-piles-bottom {
+.draftpod .draft-page .deck .deck-piles-bottom {
   top: 0;
   pointer-events: none;
 }
 
-.mtgdrafter .draft-page .deck .deck-piles-bottom .pile {
+.draftpod .draft-page .deck .deck-piles-bottom .pile {
   pointer-events: all;
 }
 

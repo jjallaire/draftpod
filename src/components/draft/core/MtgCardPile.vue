@@ -206,19 +206,19 @@ function cardInsertLocation(data, event) {
 </template>
 
 <style>
-.mtgdrafter .draft-page .pile {
+.draftpod .draft-page .pile {
   display: inline-block;
   position: relative;
   min-height: 250px;
   margin-right: 4px;
 }
-.mtgdrafter .draft-page .pile{
+.draftpod .draft-page .pile{
   width: 11.5%;
 }
-.mtgdrafter .draft-page .pile-separator {
+.draftpod .draft-page .pile-separator {
   width: 3%;
 }
-.mtgdrafter .draft-page .pile .pile-caption {
+.draftpod .draft-page .pile .pile-caption {
   position: absolute;
   left: 0;
   top: 0;
@@ -230,25 +230,25 @@ function cardInsertLocation(data, event) {
   margin-top: -2px; 
 }
 @media only screen and (max-width: 1000px) {
-.mtgdrafter .draft-page .pile {
+.draftpod .draft-page .pile {
   width: 10%;
 } 
-.mtgdrafter .draft-page .pile .pile-caption {
+.draftpod .draft-page .pile .pile-caption {
   font-size: 0.6em;
   margin-top: -3px;
 }
 }
 
-.mtgdrafter .draft-page .pile .mtgcard {
+.draftpod .draft-page .pile .mtgcard {
   position: absolute;
   left: 0;
   max-width: 100%;
 }
-.mtgdrafter .draft-page .pile .mtgcard img {
+.draftpod .draft-page .pile .mtgcard img {
   max-width: 100%;
   height: auto;
 }
-.mtgdrafter .draft-page .pile .pile-drag-insert {
+.draftpod .draft-page .pile .pile-drag-insert {
   border-top: 2px groove #f2f2f2;
   position: absolute;
   width: 100%;
@@ -256,7 +256,7 @@ function cardInsertLocation(data, event) {
   margin-right: 2px;
 }
 
-.mtgdrafter .draft-page .pile .pile-controls {
+.draftpod .draft-page .pile .pile-controls {
   position: absolute;
   width: 100%;
 }

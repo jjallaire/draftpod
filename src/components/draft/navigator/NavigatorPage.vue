@@ -93,18 +93,18 @@ export default {
 
 <style>
 
-.mtgdrafter .navigator-page .navigator-page-panel {
+.draftpod .navigator-page .navigator-page-panel {
   margin-bottom: 20px;
 }
 
-.mtgdrafter .navigator-page .btn {
+.draftpod .navigator-page .btn {
   padding-left: 20px;
   padding-right: 20px;
   min-width: 160px;
   border: 0;
 }
 
-.mtgdrafter .navigator-page .form-check {
+.draftpod .navigator-page .form-check {
   margin-top: 10px;
 }
 

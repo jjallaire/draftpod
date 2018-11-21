@@ -8,7 +8,6 @@ import './styles/slate.css'
 import router from './router'
 import { store } from './store'
 
-// TODO: change name to .draftpod vs. .mtgdrafter
 
 // TODO: look at alignment, sizes in draft resume panel
 

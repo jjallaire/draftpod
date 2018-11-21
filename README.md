@@ -1,4 +1,4 @@
-# mtgdrafter
+# draftpod
 
 ## Project setup
 ```

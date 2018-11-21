@@ -90,35 +90,35 @@ export default {
 
 <style>
 
-.mtgdrafter .navigator-page .recent-drafts .card-body {
+.draftpod .navigator-page .recent-drafts .card-body {
   padding-left: 2.0rem;
   padding-top: 0.6rem;
 }
 
-.mtgdrafter .navigator-page .recent-drafts a {
+.draftpod .navigator-page .recent-drafts a {
   color: inherit;
 }
 
-.mtgdrafter .navigator-page .recent-drafts .simple-svg-wrapper {
+.draftpod .navigator-page .recent-drafts .simple-svg-wrapper {
   display: inline-block;
   margin-right: 13px;
   width: 25px;
 }
 
-.mtgdrafter .navigator-page .recent-drafts .simple-svg-wrapper svg {
+.draftpod .navigator-page .recent-drafts .simple-svg-wrapper svg {
   width: 20px;
   padding-bottom: 4px;
 }
 
-.mtgdrafter .navigator-page .recent-drafts .simple-svg-wrapper svg>path {
+.draftpod .navigator-page .recent-drafts .simple-svg-wrapper svg>path {
   fill: darkslategray;
 }
 
-.mtgdrafter .navigator-page .recent-drafts .row {
+.draftpod .navigator-page .recent-drafts .row {
   height: 50px;
 }
 
-.mtgdrafter .navigator-page .recent-drafts .row:hover {
+.draftpod .navigator-page .recent-drafts .row:hover {
   background-color: rgba(255,255,255,0.8);
   cursor: pointer;
 }
@@ -135,17 +135,17 @@ export default {
   max-height: 0;
 }
 
-.mtgdrafter .navigator-page .recent-drafts .set-name {
+.draftpod .navigator-page .recent-drafts .set-name {
   font-size: 1.2em;
 }
 
-.mtgdrafter .navigator-page .recent-drafts .color-icon {
+.draftpod .navigator-page .recent-drafts .color-icon {
   margin-right: 8px;
   padding-bottom: 2px;
   width: 18px;
 }
 
-.mtgdrafter .navigator-page .recent-drafts .no-drafts {
+.draftpod .navigator-page .recent-drafts .no-drafts {
   height: 80px;
 }
 

@@ -78,7 +78,7 @@ export default {
 
 <style>
 
-.mtgdrafter .pick-timer .badge-transparent {
+.draftpod .pick-timer .badge-transparent {
   background-color: transparent;
 }
 

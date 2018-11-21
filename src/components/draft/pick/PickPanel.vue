@@ -57,7 +57,7 @@ export default {
 
 <style>
 
-.mtgdrafter .draft-page .pick-panel .card-body {
+.draftpod .draft-page .pick-panel .card-body {
   position: relative;
   overflow-y: scroll;
 }
