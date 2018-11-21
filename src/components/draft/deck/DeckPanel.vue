@@ -61,9 +61,9 @@ export default {
   <UiPanel class="mtgdraft-deck" :caption="'Deck: ' + deck_total_cards + ' / 40'">
     <template slot="header-left">
       <div class="card-type-counts">
-      Spells: {{ deck_card_types.creatures + deck_card_types.other }}
-              ({{ deck_card_types.creatures }} creatures) &nbsp;
-      Lands: {{ deck_land_count }}
+        Creatures: {{ deck_card_types.creatures }} &nbsp;
+        Other: {{ deck_card_types.other }} &nbsp;
+        Lands: {{ deck_land_count }}
       </div>
     </template>
     <template slot="header-right">

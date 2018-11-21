@@ -3,7 +3,7 @@
 
     <img class="navbar-logo" src="/images/logo.svg" />
     <span class="navbar-brand">
-      <router-link class="text-light" to="/" exact>MTG Drafter</router-link>
+      <router-link class="text-light" to="/" exact>draftpod</router-link>
     </span>
     
     <slot><span class="navbar-text">Draft simulator for Magic the Gathering&trade;</span></slot>
