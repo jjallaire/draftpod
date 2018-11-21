@@ -93,7 +93,7 @@ export default {
 
 <style>
 
-.draftpod .navigator-page .navigator-page-panel {
+.draftpod .navigator-page .navigator-panel {
   margin-bottom: 20px;
 }
 
