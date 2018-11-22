@@ -78,7 +78,7 @@ export default {
 
 <style>
 
-.draftpod .pick-timer .badge-transparent {
+.pick-timer .badge-transparent {
   background-color: transparent;
 }
 

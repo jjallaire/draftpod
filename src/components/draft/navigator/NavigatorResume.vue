@@ -105,20 +105,20 @@ export default {
 
 <style>
 
-.draftpod .navigator-page .resume-draft .mana-curve {
+.navigator-page .resume-draft .mana-curve {
   height: 140px;
 }
 
-.draftpod .navigator-page .resume-draft .material-design-icon svg {
+.navigator-page .resume-draft .material-design-icon svg {
   padding-bottom: 4px;
   padding-left: 6px
 }
 
-.draftpod .navigator-page .resume-draft .navigator-page-button {
+.navigator-page .resume-draft .navigator-page-button {
   margin-top: 30px;
 }
 
-.draftpod .navigator-page .resume-draft .card-preview {
+.navigator-page .resume-draft .card-preview {
   margin-top: 5px;
   padding-left: 30px;
 }

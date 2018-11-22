@@ -93,18 +93,18 @@ export default {
 
 <style>
 
-.draftpod .navigator-page .navigator-panel {
+.navigator-page .navigator-panel {
   margin-bottom: 20px;
 }
 
-.draftpod .navigator-page .btn {
+.navigator-page .btn {
   padding-left: 20px;
   padding-right: 20px;
   min-width: 160px;
   border: 0;
 }
 
-.draftpod .navigator-page .form-check {
+.navigator-page .form-check {
   margin-top: 10px;
 }
 

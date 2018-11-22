@@ -99,27 +99,27 @@ export default {
 
 <style>
 
-.draftpod .draft-page .deck {
+.draft-page .deck {
   background-color: #fff;
 }
 
-.draftpod .draft-page .deck .card-header {
+.draft-page .deck .card-header {
   font-size: 0.9rem;
   margin-bottom: 3px;
 }
 
-.draftpod .draft-page .deck .card-header .header-text {
+.draft-page .deck .card-header .header-text {
   padding-top: 2px;
 }
 
-.draftpod .draft-page .deck .card-header .card-type-counts {
+.draft-page .deck .card-header .card-type-counts {
   padding-top: 3px;
   margin-left: 14px;
   font-size: 0.8rem;
   color: rgba(255,255,255,0.7);
 }
 
-.draftpod .draft-page .deck .card-header .btn-sm {
+.draft-page .deck .card-header .btn-sm {
   font-size: 0.8rem;
   line-height: 1.4;
   padding: 0.25rem;
@@ -132,50 +132,50 @@ export default {
   background-repeat: no-repeat;
 }
 
-.draftpod .draft-page .deck .card-header .btn-sm svg {
+.draft-page .deck .card-header .btn-sm svg {
   width: 16px;
   height: 16px;
   margin-top: -2px;
 }
 
-.draftpod .draft-page .deck .card-header .btn-extra-text {
+.draft-page .deck .card-header .btn-extra-text {
   display: none
 }
 
 @media only screen and (min-width: 1000px) {
-  .draftpod .draft-page .deck .card-header .btn-extra-text {
+  .draft-page .deck .card-header .btn-extra-text {
     display: inherit
   }
 }
 
-.draftpod .draft-page .deck .card-body {
+.draft-page .deck .card-body {
   position: relative;
   overflow-y: scroll;
   scroll-behavior: smooth;
   padding-left: 10px;
 }
 
-.draftpod .draft-page .deck .deck-sideboard {
+.draft-page .deck .deck-sideboard {
   position: absolute;
   min-height: 700px;
 }
 
-.draftpod .draft-page .deck .deck-piles {
+.draft-page .deck .deck-piles {
   position: absolute;
   left: 0.7rem;
   right: 0.4rem;
 }
 
-.draftpod .draft-page .deck .deck-piles-top {
+.draft-page .deck .deck-piles-top {
   top: 5px;
 }
 
-.draftpod .draft-page .deck .deck-piles-bottom {
+.draft-page .deck .deck-piles-bottom {
   top: 0;
   pointer-events: none;
 }
 
-.draftpod .draft-page .deck .deck-piles-bottom .pile {
+.draft-page .deck .deck-piles-bottom .pile {
   pointer-events: all;
 }
 

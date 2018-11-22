@@ -30,7 +30,7 @@ export default {
 
 <style>
 
-.draftpod .card .card-header div {
+.card .card-header div {
   display: inline-block;
 }
 

@@ -46,7 +46,7 @@ export default {
 
 <style>
 
-.draftpod .remove-draft-button {
+.remove-draft-button {
   cursor: pointer;
 }
 

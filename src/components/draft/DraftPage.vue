@@ -223,7 +223,7 @@ export default {
 
 <style>
 
-.draftpod .navbar {
+.navbar {
   position: fixed;
   left: 0;
   right: 0;
@@ -231,7 +231,7 @@ export default {
   height: 40px;
 }
 
-.draftpod .navbar .pick-timer {
+.navbar .pick-timer {
   padding: 0.3rem;
   font-size: 0.9rem;
   font-weight: 400;
@@ -239,7 +239,7 @@ export default {
   min-width: 45px;
 }
 
-.draftpod .draft-page {
+.draft-page {
   position: fixed;
   top: 40px;
   left: 0;
@@ -250,14 +250,14 @@ export default {
   background-color: transparent;
 }
 
-.draftpod .draft-page-fade-enter-active {
+.draft-page-fade-enter-active {
   transition: opacity 0.5s;
 }
-.draftpod .draft-page-fade-enter {
+.draft-page-fade-enter {
   opacity: 0;
 }
 
-.draftpod .draft-page .infobar {
+.draft-page .infobar {
   position: absolute;
   width: 220px;
   top: 0;
@@ -265,7 +265,7 @@ export default {
   right: 0;
 }
 
-.draftpod .draft-page  .draft-cards {
+.draft-page  .draft-cards {
   position: absolute;
   right: 220px;
   top: 0;
@@ -277,15 +277,15 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
-  .draftpod .draft-page .infobar {
+  .draft-page .infobar {
     width: 200px;
   }
-  .draftpod .draft-page .draft-cards {
+  .draft-page .draft-cards {
     right: 200px;
   }
 }
 
-.draftpod .draft-page .draft-cards .pack-panel {
+.draft-page .draft-cards .pack-panel {
   flex: 0 1 auto;
   margin: 5px;
   margin-bottom: 0;
@@ -295,28 +295,28 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
-.draftpod .draft-page .draft-cards .pack-panel {
+.draft-page .draft-cards .pack-panel {
   padding-bottom: 27.9%;
 }
 }
 
-.draftpod .draft-page .draft-cards .pick-panel {
+.draft-page .draft-cards .pick-panel {
   flex: 1 1 auto;
   margin: 5px;
   margin-top: 3px;
 }
 
-.draftpod .draft-page .deck {
+.draft-page .deck {
   flex: 1 1 auto;
   margin: 5px;
   margin-top: 4px;
 }
 
-.draftpod .draft-page .card {
+.draft-page .card {
   border: 0; 
 }
 
-.draftpod .draft-page .card-header {
+.draft-page .card-header {
   padding: 0.2rem;
   padding-left: 0.5rem;
   padding-right: 0.2rem;
@@ -327,38 +327,38 @@ export default {
   background-color: transparent;
 }
 
-.draftpod .draft-page .tabs-header .nav-link {
+.draft-page .tabs-header .nav-link {
   padding: 0.2rem;
   padding-left: 0.5rem;
   padding-right: 0.8rem;
   font-size: 0.7rem;
 }
 
-.draftpod .draft-page .tabs-header {
+.draft-page .tabs-header {
   padding: 0;
 }
 
-.draftpod .draft-page .card-body {
+.draft-page .card-body {
   padding: 0.4rem;
 }
 
-.draftpod .draft-page .draft-cards {
+.draft-page .draft-cards {
   display: flex;
   flex-flow: column;
   flex: 1 1 auto;
 }
 
-.draftpod .draft-page .draft-cards .pack-hide-leave {
+.draft-page .draft-cards .pack-hide-leave {
   visibility: hidden;
 }
 
-.draftpod .draft-page .draft-cards .pack-hide-leave-active {
+.draft-page .draft-cards .pack-hide-leave-active {
   transition: padding-bottom 1s;
   padding-bottom: 32.1%;
   visibility: hidden;
 }
 
-.draftpod .draft-page .draft-cards .pack-hide-leave-to {
+.draft-page .draft-cards .pack-hide-leave-to {
   padding-bottom: 0;
 }
 

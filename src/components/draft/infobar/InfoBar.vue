@@ -45,7 +45,7 @@ export default {
 
 <style>
 
-.draftpod .infobar {
+.infobar {
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -55,18 +55,18 @@ export default {
 }
 
 
-.draftpod .deck-stats {
+.deck-stats {
   flex: 1 1 auto;
   background-color: #fff;
 }
 
-.draftpod .deck-stats .card-body {
+.deck-stats .card-body {
   position: relative;
   overflow-y: scroll;
 }
 
 @media only screen and (max-width: 1000px) {
-  .draftpod .deck-stats {
+  .deck-stats {
     font-size: 0.7em;
   }
 }

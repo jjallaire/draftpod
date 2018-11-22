@@ -57,7 +57,7 @@ export default {
 
 <style>
 
-.draftpod .draft-page .pick-panel .card-body {
+.draft-page .pick-panel .card-body {
   position: relative;
   overflow-y: scroll;
 }

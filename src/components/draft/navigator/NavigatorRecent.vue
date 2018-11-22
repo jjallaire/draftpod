@@ -90,35 +90,35 @@ export default {
 
 <style>
 
-.draftpod .navigator-page .recent-drafts .card-body {
+.navigator-page .recent-drafts .card-body {
   padding-left: 2.0rem;
   padding-top: 0.6rem;
 }
 
-.draftpod .navigator-page .recent-drafts a {
+.navigator-page .recent-drafts a {
   color: inherit;
 }
 
-.draftpod .navigator-page .recent-drafts .simple-svg-wrapper {
+.navigator-page .recent-drafts .simple-svg-wrapper {
   display: inline-block;
   margin-right: 13px;
   width: 25px;
 }
 
-.draftpod .navigator-page .recent-drafts .simple-svg-wrapper svg {
+.navigator-page .recent-drafts .simple-svg-wrapper svg {
   width: 20px;
   padding-bottom: 4px;
 }
 
-.draftpod .navigator-page .recent-drafts .simple-svg-wrapper svg>path {
+.navigator-page .recent-drafts .simple-svg-wrapper svg>path {
   fill: darkslategray;
 }
 
-.draftpod .navigator-page .recent-drafts .row {
+.navigator-page .recent-drafts .row {
   height: 50px;
 }
 
-.draftpod .navigator-page .recent-drafts .row:hover {
+.navigator-page .recent-drafts .row:hover {
   background-color: rgba(255,255,255,0.8);
   cursor: pointer;
 }
@@ -135,17 +135,17 @@ export default {
   max-height: 0;
 }
 
-.draftpod .navigator-page .recent-drafts .set-name {
+.navigator-page .recent-drafts .set-name {
   font-size: 1.2em;
 }
 
-.draftpod .navigator-page .recent-drafts .color-icon {
+.navigator-page .recent-drafts .color-icon {
   margin-right: 8px;
   padding-bottom: 2px;
   width: 18px;
 }
 
-.draftpod .navigator-page .recent-drafts .no-drafts {
+.navigator-page .recent-drafts .no-drafts {
   height: 80px;
 }
 

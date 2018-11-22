@@ -39,22 +39,22 @@ export default {
 
 <style>
 
-.draftpod .deck-colors {
+.deck-colors {
   width: 92%;
 }
 
-.draftpod .deck-colors {
+.deck-colors {
   font-size: 0.8em;
   font-weight: 400;
   margin-top: 3px;
 }
 
-.draftpod .deck-colors th,
-.draftpod .deck-colors td {
+.deck-colors th,
+.deck-colors td {
   border-top: none;
 }
 
-.draftpod .deck-colors td img {
+.deck-colors td img {
   margin-top: -2px;
   margin-right: 5px;
   margin-left: 4px;

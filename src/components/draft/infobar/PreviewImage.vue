@@ -24,12 +24,12 @@ export default {
 
 <style>
 
-.draftpod .draft-page .card-viewer {
+.draft-page .card-viewer {
   width: 100%;  
   margin-bottom: 4px;
 }
 
-.draftpod .draft-page .card-viewer img {
+.draft-page .card-viewer img {
   width: 100%;
   height: auto;
 }

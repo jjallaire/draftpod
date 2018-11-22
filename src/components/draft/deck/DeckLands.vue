@@ -146,25 +146,25 @@ export default {
 
 <style>
 
-.draftpod .deck-colors {
+.deck-colors {
   margin-top: 10px;
 }
 
-.draftpod .deck-colors td img {
+.deck-colors td img {
   margin-left: 0;
   margin-top: 3px;
 }
 
-.draftpod .deck-colors td input {
+.deck-colors td input {
   width: 40px;
   padding-left: 5px;
 }
 
 @media only screen and (max-width: 1000px) {
-  .draftpod .deck-colors td input {
+  .deck-colors td input {
     width: 35px;
   }
-  .draftpod .deck-colors td {
+  .deck-colors td {
     padding-left: 0;
   }
 }
