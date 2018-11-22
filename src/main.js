@@ -11,9 +11,9 @@ import { store } from './store'
 
 // TODO: look at alignment, sizes in draft resume panel
 
-// TODO: evaluate static content options (prerender w/ # and v-show?)
-
 // TODO: initial draft ai (use for card preview)
+
+// TODO: register domain and firebase config
 
 // TODO: add support for sentry: https://sentry.io/for/vue/
 
