@@ -16,7 +16,7 @@ import * as filters from './card-filters'
 import * as selectors from './selectors'
 import { PICKS, DECK } from './constants'
 
-const local_images = true;
+const local_images = false;
 
 export default {
 

@@ -20,7 +20,7 @@
       </router-link>
     </ul>
     
-    <a href="https://github.com/jjallaire/mtgdrafter">
+    <a href="https://github.com/jjallaire/draftpod">
       <img class="navbar-github-image" src="/images/github.png"/>
     </a>
   </nav>
