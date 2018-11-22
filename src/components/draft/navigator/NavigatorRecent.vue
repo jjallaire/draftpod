@@ -90,35 +90,35 @@ export default {
 
 <style>
 
-.navigator-page .recent-drafts .card-body {
+.recent-drafts .card-body {
   padding-left: 2.0rem;
   padding-top: 0.6rem;
 }
 
-.navigator-page .recent-drafts a {
+.recent-drafts a {
   color: inherit;
 }
 
-.navigator-page .recent-drafts .simple-svg-wrapper {
+.recent-drafts .simple-svg-wrapper {
   display: inline-block;
   margin-right: 13px;
   width: 25px;
 }
 
-.navigator-page .recent-drafts .simple-svg-wrapper svg {
+.recent-drafts .simple-svg-wrapper svg {
   width: 20px;
   padding-bottom: 4px;
 }
 
-.navigator-page .recent-drafts .simple-svg-wrapper svg>path {
+.recent-drafts .simple-svg-wrapper svg>path {
   fill: darkslategray;
 }
 
-.navigator-page .recent-drafts .row {
+.recent-drafts .row {
   height: 50px;
 }
 
-.navigator-page .recent-drafts .row:hover {
+.recent-drafts .row:hover {
   background-color: rgba(255,255,255,0.8);
   cursor: pointer;
 }
@@ -135,17 +135,17 @@ export default {
   max-height: 0;
 }
 
-.navigator-page .recent-drafts .set-name {
+.recent-drafts .set-name {
   font-size: 1.2em;
 }
 
-.navigator-page .recent-drafts .color-icon {
+.recent-drafts .color-icon {
   margin-right: 8px;
   padding-bottom: 2px;
   width: 18px;
 }
 
-.navigator-page .recent-drafts .no-drafts {
+.recent-drafts .no-drafts {
   height: 80px;
 }
 

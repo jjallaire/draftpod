@@ -105,20 +105,16 @@ export default {
 
 <style>
 
-.navigator-page .resume-draft .mana-curve {
+.resume-draft .mana-curve {
   height: 140px;
 }
 
-.navigator-page .resume-draft .material-design-icon svg {
+.resume-draft .material-design-icon svg {
   padding-bottom: 4px;
   padding-left: 6px
 }
 
-.navigator-page .resume-draft .navigator-page-button {
-  margin-top: 30px;
-}
-
-.navigator-page .resume-draft .card-preview {
+.resume-draft .card-preview {
   margin-top: 5px;
   padding-left: 30px;
 }

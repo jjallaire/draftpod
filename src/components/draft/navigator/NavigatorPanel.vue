@@ -58,12 +58,12 @@ export default {
 
 <style>
 
-.navigator-page .navigator-panel {
+.navigator-panel {
   border: 0;
 }
 
 
-.navigator-page .navigator-panel .card-header {
+.navigator-panel .card-header {
   padding: 0;
   border: 1px solid #fff;
   background: #757F9A;  /* fallback for old browsers */
@@ -72,13 +72,13 @@ export default {
   background-color: transparent;
 }
 
-.navigator-page .navigator-panel .card-header .material-design-icon {
+.navigator-panel .card-header .material-design-icon {
   color: #fff;
   width: 20px;
   padding-left: 0.4rem;
 }
 
-.navigator-page .navigator-panel .card-header h5 button {
+.navigator-panel .card-header h5 button {
   font-size: 0.9rem;
   text-align: left;
   text-decoration: none;
@@ -87,23 +87,23 @@ export default {
   color: #fff;
 }
 
-.navigator-page .navigator-panel .card-header h5 button.collapsed {
+.navigator-panel .card-header h5 button.collapsed {
   color: #e9e9e9;
 }
 
-.navigator-page .navigator-panel .card-header h5 button:hover {
+.navigator-panel .card-header h5 button:hover {
   text-decoration: none;
   color: #fff;
 }
 
-.navigator-page .navigator-panel .card-body {
+.navigator-panel .card-body {
   background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
   background-repeat: no-repeat;
   background-color: transparent;
   padding-left: 2rem;
 }
 
-.navigator-page .navigator-panel .card-body button {
+.navigator-panel .card-body button {
   min-width: 140px;
 }
 
