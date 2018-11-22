@@ -24,12 +24,12 @@ export default {
 
 <style>
 
-.draft-page .card-viewer {
+.card-viewer {
   width: 100%;  
   margin-bottom: 4px;
 }
 
-.draft-page .card-viewer img {
+.card-viewer img {
   width: 100%;
   height: auto;
 }

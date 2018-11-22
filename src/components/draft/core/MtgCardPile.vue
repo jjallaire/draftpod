@@ -206,19 +206,19 @@ function cardInsertLocation(data, event) {
 </template>
 
 <style>
-.draft-page .pile {
+.pile {
   display: inline-block;
   position: relative;
   min-height: 250px;
   margin-right: 4px;
 }
-.draft-page .pile {
+.pile {
   width: 11.5%;
 }
-.draft-page .pile-separator {
+.pile-separator {
   width: 3%;
 }
-.draft-page .pile .pile-caption {
+.pile .pile-caption {
   position: absolute;
   left: 0;
   top: 0;
@@ -230,25 +230,25 @@ function cardInsertLocation(data, event) {
   margin-top: -2px; 
 }
 @media only screen and (max-width: 1000px) {
-.draft-page .pile {
+.pile {
   width: 10%;
 } 
-.draft-page .pile .pile-caption {
+.pile .pile-caption {
   font-size: 0.6em;
   margin-top: -3px;
 }
 }
 
-.draft-page .pile .mtgcard {
+.pile .mtgcard {
   position: absolute;
   left: 0;
   max-width: 100%;
 }
-.draft-page .pile .mtgcard img {
+.pile .mtgcard img {
   max-width: 100%;
   height: auto;
 }
-.draft-page .pile .pile-drag-insert {
+.pile .pile-drag-insert {
   border-top: 2px groove #f2f2f2;
   position: absolute;
   width: 100%;
@@ -256,7 +256,7 @@ function cardInsertLocation(data, event) {
   margin-right: 2px;
 }
 
-.draft-page .pile .pile-controls {
+.pile .pile-controls {
   position: absolute;
   width: 100%;
 }

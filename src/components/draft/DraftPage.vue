@@ -257,7 +257,7 @@ export default {
   opacity: 0;
 }
 
-.draft-page .infobar {
+.infobar {
   position: absolute;
   width: 220px;
   top: 0;
@@ -265,7 +265,7 @@ export default {
   right: 0;
 }
 
-.draft-page  .draft-cards {
+.draft-cards {
   position: absolute;
   right: 220px;
   top: 0;
@@ -277,15 +277,15 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
-  .draft-page .infobar {
+  .infobar {
     width: 200px;
   }
-  .draft-page .draft-cards {
+  .draft-cards {
     right: 200px;
   }
 }
 
-.draft-page .draft-cards .pack-panel {
+.draft-cards .pack-panel {
   flex: 0 1 auto;
   margin: 5px;
   margin-bottom: 0;
@@ -295,28 +295,28 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
-.draft-page .draft-cards .pack-panel {
+.draft-cards .pack-panel {
   padding-bottom: 27.9%;
 }
 }
 
-.draft-page .draft-cards .pick-panel {
+.draft-cards .pick-panel {
   flex: 1 1 auto;
   margin: 5px;
   margin-top: 3px;
 }
 
-.draft-page .deck {
+.deck {
   flex: 1 1 auto;
   margin: 5px;
   margin-top: 4px;
 }
 
-.draft-page .card {
+.card {
   border: 0; 
 }
 
-.draft-page .card-header {
+.card-header {
   padding: 0.2rem;
   padding-left: 0.5rem;
   padding-right: 0.2rem;
@@ -327,38 +327,38 @@ export default {
   background-color: transparent;
 }
 
-.draft-page .tabs-header .nav-link {
+.tabs-header .nav-link {
   padding: 0.2rem;
   padding-left: 0.5rem;
   padding-right: 0.8rem;
   font-size: 0.7rem;
 }
 
-.draft-page .tabs-header {
+.tabs-header {
   padding: 0;
 }
 
-.draft-page .card-body {
+.card-body {
   padding: 0.4rem;
 }
 
-.draft-page .draft-cards {
+.draft-cards {
   display: flex;
   flex-flow: column;
   flex: 1 1 auto;
 }
 
-.draft-page .draft-cards .pack-hide-leave {
+.draft-cards .pack-hide-leave {
   visibility: hidden;
 }
 
-.draft-page .draft-cards .pack-hide-leave-active {
+.draft-cards .pack-hide-leave-active {
   transition: padding-bottom 1s;
   padding-bottom: 32.1%;
   visibility: hidden;
 }
 
-.draft-page .draft-cards .pack-hide-leave-to {
+.draft-cards .pack-hide-leave-to {
   padding-bottom: 0;
 }
 

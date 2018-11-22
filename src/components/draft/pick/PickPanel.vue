@@ -57,7 +57,7 @@ export default {
 
 <style>
 
-.draft-page .pick-panel .card-body {
+.pick-panel .card-body {
   position: relative;
   overflow-y: scroll;
 }

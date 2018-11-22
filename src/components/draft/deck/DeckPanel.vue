@@ -99,27 +99,27 @@ export default {
 
 <style>
 
-.draft-page .deck {
+.deck {
   background-color: #fff;
 }
 
-.draft-page .deck .card-header {
+.deck .card-header {
   font-size: 0.9rem;
   margin-bottom: 3px;
 }
 
-.draft-page .deck .card-header .header-text {
+.deck .card-header .header-text {
   padding-top: 2px;
 }
 
-.draft-page .deck .card-header .card-type-counts {
+.deck .card-header .card-type-counts {
   padding-top: 3px;
   margin-left: 14px;
   font-size: 0.8rem;
   color: rgba(255,255,255,0.7);
 }
 
-.draft-page .deck .card-header .btn-sm {
+.deck .card-header .btn-sm {
   font-size: 0.8rem;
   line-height: 1.4;
   padding: 0.25rem;
@@ -132,50 +132,50 @@ export default {
   background-repeat: no-repeat;
 }
 
-.draft-page .deck .card-header .btn-sm svg {
+.deck .card-header .btn-sm svg {
   width: 16px;
   height: 16px;
   margin-top: -2px;
 }
 
-.draft-page .deck .card-header .btn-extra-text {
+.deck .card-header .btn-extra-text {
   display: none
 }
 
 @media only screen and (min-width: 1000px) {
-  .draft-page .deck .card-header .btn-extra-text {
+  .deck .card-header .btn-extra-text {
     display: inherit
   }
 }
 
-.draft-page .deck .card-body {
+.deck .card-body {
   position: relative;
   overflow-y: scroll;
   scroll-behavior: smooth;
   padding-left: 10px;
 }
 
-.draft-page .deck .deck-sideboard {
+.deck .deck-sideboard {
   position: absolute;
   min-height: 700px;
 }
 
-.draft-page .deck .deck-piles {
+.deck .deck-piles {
   position: absolute;
   left: 0.7rem;
   right: 0.4rem;
 }
 
-.draft-page .deck .deck-piles-top {
+.deck .deck-piles-top {
   top: 5px;
 }
 
-.draft-page .deck .deck-piles-bottom {
+.deck .deck-piles-bottom {
   top: 0;
   pointer-events: none;
 }
 
-.draft-page .deck .deck-piles-bottom .pile {
+.deck .deck-piles-bottom .pile {
   pointer-events: all;
 }
 
