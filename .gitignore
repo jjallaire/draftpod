@@ -25,5 +25,7 @@ yarn-error.log*
 /tools/sets/*/*.png
 .Rproj.user
 
-# Firebase cache
-.firebase*
+# Firebase cache and config
+.firebaserc
+.firebase/*
+
