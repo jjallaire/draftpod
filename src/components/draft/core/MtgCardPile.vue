@@ -212,7 +212,7 @@ function cardInsertLocation(data, event) {
   min-height: 250px;
   margin-right: 4px;
 }
-.draftpod .draft-page .pile{
+.draftpod .draft-page .pile {
   width: 11.5%;
 }
 .draftpod .draft-page .pile-separator {
