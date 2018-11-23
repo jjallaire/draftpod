@@ -106,7 +106,7 @@ export default {
 <style>
 
 .resume-draft .resume-button {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .resume-draft .mana-curve {
