@@ -291,7 +291,7 @@ export default {
   margin-bottom: 0;
   height: 0;
   overflow: visible;
-  padding-bottom: 32.1%;
+  padding-bottom: 32.2%;
 }
 
 @media only screen and (max-width: 1000px) {
