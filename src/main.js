@@ -9,13 +9,11 @@ import router from './router'
 import { store } from './store'
 
 
-// TODO: look at alignment, sizes in draft resume panel
 
 // TODO: initial draft ai (use for card preview)
 
-// TODO: register domain and firebase config
-
 // TODO: add support for sentry: https://sentry.io/for/vue/
+// TODO: flip cards
 
 Vue.config.productionTip = false
 

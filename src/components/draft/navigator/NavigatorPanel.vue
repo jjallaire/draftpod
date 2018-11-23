@@ -62,7 +62,6 @@ export default {
   border: 0;
 }
 
-
 .navigator-panel .card-header {
   padding: 0;
   border: 1px solid #fff;
@@ -101,6 +100,8 @@ export default {
   background-repeat: no-repeat;
   background-color: transparent;
   padding-left: 2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .navigator-panel .card-body button {

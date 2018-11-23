@@ -128,7 +128,7 @@ export default {
 
 <template>
 
-  <div>
+  <div class="deck-lands">
   <table class="table table-sm deck-colors">
     <tbody>
     <tr v-for="color in colors" :key="color.img">
@@ -146,25 +146,25 @@ export default {
 
 <style>
 
-.deck-colors {
+.deck-lands .deck-colors {
   margin-top: 10px;
 }
 
-.deck-colors td img {
+.deck-lands .deck-colors td img {
   margin-left: 0;
   margin-top: 3px;
 }
 
-.deck-colors td input {
+.deck-lands .deck-colors td input {
   width: 40px;
   padding-left: 5px;
 }
 
 @media only screen and (max-width: 1000px) {
-  .deck-colors td input {
+  .deck-lands .deck-colors td input {
     width: 35px;
   }
-  .deck-colors td {
+  .deck-lands .deck-colors td {
     padding-left: 0;
   }
 }

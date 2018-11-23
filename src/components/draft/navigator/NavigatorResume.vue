@@ -83,7 +83,7 @@ export default {
           </span>
           <RemoveDraft :draft_id="draft_id"  remove_source="resume"/>
         </p>
-        <button type="button" class="btn btn-warning navigator-button" 
+        <button type="button" class="btn btn-warning resume-button" 
                 @click="onResumeDraft">
             Resume Draft
         </button>
@@ -104,6 +104,10 @@ export default {
 </template>
 
 <style>
+
+.resume-draft .resume-button {
+  margin-top: 20px;
+}
 
 .resume-draft .mana-curve {
   height: 140px;
