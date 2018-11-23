@@ -327,15 +327,21 @@ export default {
   background-color: transparent;
 }
 
+.tabs-header {
+  padding: 0;
+}
+
 .tabs-header .nav-link {
   padding: 0.2rem;
   padding-left: 0.5rem;
   padding-right: 0.8rem;
   font-size: 0.7rem;
+  color: rgba(255,255,255,0.5);
 }
 
-.tabs-header {
-  padding: 0;
+.tabs-header .nav-link.active,
+.tabs-header .nav-link:hover {
+  color: #fff;
 }
 
 .card-body {
