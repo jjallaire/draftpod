@@ -11,12 +11,12 @@ import { store } from './store'
 
 
 // TODO: initial draft ai (use for card preview)
-
-// https://mtgjson.com/v4/docs.html
-// https://docs.magicthegathering.io/
-
-// https://mtgcollectionbuilder.com/
-// https://www.mtggoldfish.com/
+//
+//   https://mtgjson.com/v4/docs.html
+//   https://docs.magicthegathering.io/
+//
+//   http://www.deckedbuilder.com/ (easy entry and exports w/ multiverse-id)
+//   https://deckbox.org/ (imports from deckedbuilder)
 
 // TODO: add support for sentry: https://sentry.io/for/vue/
 // TODO: flip cards
