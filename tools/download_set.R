@@ -19,9 +19,9 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
     
     # get image uri
     if (!is.null(card$image_uris)) {
-      image_uri <- card$image_uris$normal
+      image_uris <- card$image_uris$normal
     } else if (!is.null(card$card_faces)) {
-      image_uri <- card$card_faces[[1]]$image_uris$normal
+      image_uris <- lapply(card$card_faces, function(face) face$image_uris$normal)
     } else {
       str(card)
       stop("Unable to find image_uri for card")
@@ -38,9 +38,9 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
     }
     
     list(
-      id = card$id,
+      id = card$multiverse_ids[[1]],
       name = card$name,
-      image_uri = image_uri,
+      image_uris = I(image_uris),
       type_line = card$type_line,
       mana_cost = mana_cost,
       cmc = card$cmc,
@@ -60,7 +60,10 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
     for (card in cards) {
       card_image <- file.path(set_dir, paste0(card$id, ".png"))
       if (!file.exists(card_image)) {
-        curl::curl_download(card$image_uri, card_image)
+        curl::curl_download(card$image_uris[[1]], card_image)
+        if (length(card$image_uris) > 1)
+          curl::curl_download(card$image_uris[[2]], 
+                              file.path(set_dir, paste0(card$id, "-back.png")))
       }
     }
   }
@@ -72,4 +75,4 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
   
 }
 
-download_set("m19", sets_dir = "~/projects/draftpod/public/sets", images = FALSE)
+download_set("m19", sets_dir = "~/projects/draftpod/public/sets", images = TRUE)

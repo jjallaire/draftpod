@@ -478,7 +478,7 @@ function booster(set_code, cardpool) {
           key: uuidv4(), 
           image: local_images ? 
                   '/sets/' + set_code + '/' + card.id + '.png' :
-                  card.image_uri,
+                  card.image_uris[0],
         });
       }
       if (cards.length >= number)
