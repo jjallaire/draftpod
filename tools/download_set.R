@@ -1,6 +1,5 @@
 
-
-download_set <- function(set, sets_dir = ".", images = FALSE) {
+download_set <- function(set, sets_dir = "public/sets", images = FALSE) {
  
   # download cards
   cards <- list()
@@ -75,4 +74,4 @@ download_set <- function(set, sets_dir = ".", images = FALSE) {
   
 }
 
-download_set("m19", sets_dir = "~/projects/draftpod/public/sets", images = TRUE)
+download_set("grn", sets_dir = "public/sets", images = TRUE)

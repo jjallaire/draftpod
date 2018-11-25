@@ -1,0 +1,48 @@
+---
+title: "Rating Distributions"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+source("download_ratings.R")
+```
+
+```{r}
+plot_channel_fireball_ratings <- function(set) {
+  ratings <- as.numeric(channel_fireball_ratings(set)$rating)
+  hist(ratings, main = set)
+}
+```
+
+```{r}
+all_ratings <- c(
+  as.numeric(channel_fireball_ratings("dom")$rating),
+  as.numeric(channel_fireball_ratings("m19")$rating),
+  as.numeric(channel_fireball_ratings("grn")$rating),
+  as.numeric(channel_fireball_ratings("rix")$rating),
+  as.numeric(channel_fireball_ratings("xln")$rating)
+)
+hist(all_ratings, main = "All")
+
+freq <- table(all_ratings)
+pct <- prop.table(freq)
+rating_dist <- data.frame(
+  rating = row.names(freq),
+  freq = as.numeric(freq),
+  pct = round(as.numeric(pct) * 100, digits = 2)
+)
+rating_dist
+```
+
+
+
+```{r}
+plot_channel_fireball_ratings("dom")
+plot_channel_fireball_ratings("m19")
+plot_channel_fireball_ratings("grn")
+plot_channel_fireball_ratings("rix")
+plot_channel_fireball_ratings("xln")
+```
+
