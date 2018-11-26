@@ -21,11 +21,6 @@ import { store } from './store'
 //   https://deckbox.org/ (imports from deckedbuilder)
 //
 
-// TODO: investigate multi-page: 
-//    https://cli.vuejs.org/config/#pages
-//    https://cli.vuejs.org/guide/html-and-static-assets.html#building-a-multi-page-app
-//    https://github.com/jantimon/html-webpack-plugin
-
 // TODO: remove suppport for set icons and mana type icons
 
 // TODO: add qualifier: http://company.wizards.com/fancontentpolicy
