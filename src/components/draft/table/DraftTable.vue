@@ -166,7 +166,6 @@ export default {
 
 <template>
 
-  <transition name="draft-page-fade">
   <div>
 
     <NavBar> 
@@ -218,7 +217,7 @@ export default {
     </div>
   
   </div>
-  </transition>
+
 </template>
 
 <style>
@@ -240,13 +239,6 @@ export default {
   background-image: linear-gradient(#8a9196, #7A8288 80%, #70787d);
   background-repeat: no-repeat;
   background-color: transparent;
-}
-
-.draft-page-fade-enter-active {
-  transition: opacity 0.5s;
-}
-.draft-page-fade-enter {
-  opacity: 0;
 }
 
 .infobar {
