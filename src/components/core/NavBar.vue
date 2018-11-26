@@ -20,9 +20,6 @@
       </router-link>
     </ul>
     
-    <a href="https://github.com/jjallaire/draftpod">
-      <img class="navbar-github-image" src="/images/github.png"/>
-    </a>
   </nav>
 </template>
 
@@ -90,13 +87,6 @@ export default {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
   height: 26px;
-}
-
-.navbar .navbar-github-image {
-  height: 18px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 3px;
 }
 
 .navbar .navbar-text {
