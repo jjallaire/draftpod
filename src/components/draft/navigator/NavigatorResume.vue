@@ -16,14 +16,6 @@ export default {
   name: 'NavigatorResume',
 
   props: {
-    parent: {
-      type: String,
-      default: null
-    },
-    show: {
-      type: Boolean,
-      default: false
-    },
     draft_id: {
       type: String,
       required: true
@@ -68,7 +60,7 @@ export default {
 
 <template>
 
-  <NavigatorPanel name="resume-draft" caption="Draft in Progress" :parent="parent" :show="show"
+  <NavigatorPanel name="resume-draft" caption="Draft in Progress"
                   class="resume-draft">
     <template slot="icon"><RotateRight/></template>
     <div class="row">
@@ -111,6 +103,10 @@ export default {
 
 .resume-draft .mana-curve {
   height: 140px;
+}
+
+.resume-draft .mana-curve .ct-label {
+  color: #aaa;
 }
 
 .resume-draft .material-design-icon svg {

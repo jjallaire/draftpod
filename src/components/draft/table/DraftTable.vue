@@ -194,7 +194,7 @@ export default {
         </li>
         <li class="nav-item">
           <a class="nav-link icon-link">
-            <FullScreenExitIcon v-if="fullscreen" title="Exit fullscreen mode" @click.native="onFullscreenToggle"/>
+            <FullScreenExitIcon  v-if="fullscreen" title="Exit fullscreen mode" @click.native="onFullscreenToggle"/>
             <FullScreenIcon v-else title="Fullscreen mode" @click.native="onFullscreenToggle"/>
           </a>
         </li>
@@ -232,7 +232,7 @@ export default {
 
 .draft-page {
   position: fixed;
-  top: 40px;
+  top: 37px;
   left: 0;
   right: 0;
   bottom: 0;

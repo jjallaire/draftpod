@@ -3,10 +3,10 @@
 
     <img class="navbar-logo" src="/images/logo.svg" />
     <span class="navbar-brand">
-      <router-link class="text-light" to="/" exact>draftpod</router-link>
+      <router-link class="text-light" to="/" exact>draftpod.io</router-link>
     </span>
     
-    <slot><span class="navbar-text">Draft simulator for Magic the Gathering&trade;</span></slot>
+    <slot><span class="navbar-text">Virtual draft pod for Magic the Gathering&trade;</span></slot>
 
     <ul class="navbar-nav ml-auto">
       <router-link tag="li" class="nav-item" active-class="active" to="/" exact>
@@ -37,9 +37,10 @@ export default {
   left: 0;
   right: 0;
   top: 0;
-  height: 40px;
+  height: 37px;
   border: 0;
   padding: 5px;
+  padding-right: 0;
   z-index: 1000;
   background-image: linear-gradient(#484e55, #3A3F44 60%, #313539);
   background-repeat: no-repeat;

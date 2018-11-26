@@ -10,14 +10,6 @@ export default {
   name: 'NavigatorRecent',
 
   props: {
-    parent: {
-      type: String,
-      default: null
-    },
-    show: {
-      type: Boolean,
-      default: false
-    },
     draft_history: {
       type: Array,
       required: true
@@ -45,7 +37,7 @@ export default {
 
 <template>
 
-  <NavigatorPanel name="recent-drafts" caption="Recent Drafts" :parent="parent" :show="show"
+  <NavigatorPanel name="recent-drafts" caption="Recent Drafts" 
                   class="recent-drafts">
     <template slot="icon"><HistoryIcon /></template>
 
@@ -92,7 +84,7 @@ export default {
 
 .recent-drafts .card-body {
   padding-left: 2.0rem;
-  padding-top: 0.6rem;
+  padding-top: 0.8rem;
 }
 
 .recent-drafts a {
@@ -111,7 +103,7 @@ export default {
 }
 
 .recent-drafts .simple-svg-wrapper svg>path {
-  fill: darkslategray;
+  fill: #aaa;
 }
 
 .recent-drafts .row {
@@ -119,7 +111,7 @@ export default {
 }
 
 .recent-drafts .row:hover {
-  background-color: rgba(255,255,255,0.8);
+  background-color:rgba(255, 255, 255, 0.075);
   cursor: pointer;
 }
 

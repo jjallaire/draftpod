@@ -1,12 +1,13 @@
 <script>
 
 import NavBar from './core/NavBar.vue'
+import SiteFooter from './core/SiteFooter.vue'
 
 export default {
   name: 'HomePage',
 
   components: {
-    NavBar
+    NavBar, SiteFooter
   }
 }
 
@@ -30,24 +31,15 @@ export default {
     </p>
   </div>
 
+  <SiteFooter />
+
   </div>
-    
+
   </div>
 
 </template>
 
 <style>
-
-.jumbotron {
-  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-  background-repeat: no-repeat;
-  background-color: transparent;
-  border: none;
-}
-
-.jumbotron .btn {
-  border: none;
-}
 
 </style>
 

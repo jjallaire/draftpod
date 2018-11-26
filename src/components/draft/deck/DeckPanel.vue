@@ -78,6 +78,7 @@ export default {
       <MtgCardPile :key="5" caption="6+" :piles="piles" :number="5" 
             drag_source="DRAG_SOURCE_DECK">
       </MtgCardPile>
+      <div class="pile pile-separator"></div>
       <MtgCardPile :key="12" :caption="'Lands (' + deck_land_count + ')'"
             :piles="piles" :number="12" drag_source="DRAG_SOURCE_DECK">
         <DeckLands slot="controls" :deck="deck">

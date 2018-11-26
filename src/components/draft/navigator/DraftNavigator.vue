@@ -92,7 +92,7 @@ export default {
 <style>
 
 .navigator-panel {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .navigator-panel .btn {

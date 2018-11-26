@@ -120,6 +120,7 @@ function chartOptions(height) {
 .mana-curve .ct-bar {
   stroke-width: 11%;
 }
+
 .mana-curve .ct-series-a .ct-bar {
   stroke: #ee5f5b;
 }

@@ -36,7 +36,7 @@ export default {
       this.now = new Date().getTime();
 
       // check for expiration
-      if (this.pick_time_remaining === -1) {
+      if (this.pick_time_remaining <= -1) {
         this.aiPick();
       }
     }

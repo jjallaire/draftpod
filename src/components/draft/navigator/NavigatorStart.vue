@@ -1,7 +1,3 @@
-
-
-
-
 <script>
 
 import NavigatorPanel from './NavigatorPanel.vue'
@@ -16,17 +12,6 @@ import uuidv4 from 'uuid'
 
 export default {
   name: 'NavigatorStart',
-
-  props: {
-    parent: {
-      type: String,
-      default: null
-    },
-    show: {
-      type: Boolean,
-      default: false
-    }
-  },
 
   data: function() {
     return {
@@ -90,7 +75,7 @@ export default {
 
 <template>
 
-<NavigatorPanel name="new-draft" caption="Start New Draft" :parent="parent" :show="show">
+<NavigatorPanel name="new-draft" caption="Start New Draft">
   <template slot="icon"><PlayCircleIcon/></template>
   <form class="start-draft">
     <div class="form-group row">
