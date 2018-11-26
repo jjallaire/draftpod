@@ -54,7 +54,7 @@ export default {
  
   methods: {
     onResumeDraft: function() {
-      this.$router.push("/draft/" + this.draft_id);
+      this.$router.push({ path: "/draft/", hash: "#" + this.draft_id });
     }
   },
 

@@ -26,7 +26,7 @@ export default {
 
   methods: {
     onDraftNavigate(draft) {
-      this.$router.push("/draft/" + draft.id);
+      this.$router.push({ path: "/draft/", hash: "#" + draft.id });
     },
     formatDateTime(dt) {
       let date = new Date(dt);

@@ -75,7 +75,7 @@ export default {
       this.$store.dispatch("drafts/" + draft_id + "/" + START_DRAFT, options)
         .then(() => {
           // push state
-          this.$router.push("/draft/" + draft_id);
+          this.$router.push({ path: "/draft/", hash: "#" + draft_id });
         });
      
     },
