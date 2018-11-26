@@ -1,6 +1,6 @@
 <script>
 
-import NavigationBar from '@/components/core/NavigationBar.vue'
+import NavBar from '@/components/core/NavBar.vue'
 import NavigatorResume from './NavigatorResume.vue'
 import NavigatorStart from './NavigatorStart.vue'
 import NavigatorRecent from './NavigatorRecent.vue'
@@ -59,7 +59,7 @@ export default {
   },
 
   components: {
-    NavigationBar, NavigatorResume, NavigatorStart, NavigatorRecent
+    NavBar, NavigatorResume, NavigatorStart, NavigatorRecent
   },
 }
 
@@ -69,7 +69,7 @@ export default {
 
   <div>
 
-  <NavigationBar /> 
+  <NavBar /> 
 
   <div class="container">
     

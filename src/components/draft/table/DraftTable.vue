@@ -1,7 +1,7 @@
 <script>
 
 import SetIcon from '@/components/core/SetIcon.vue'
-import NavigationBar from '@/components/core/NavigationBar.vue'
+import NavBar from '@/components/core/NavBar.vue'
 import PackPanel from '../pack/PackPanel.vue';
 import PickPanel from '../pick/PickPanel.vue';
 import PickTimer from '../pick/PickTimer.vue'
@@ -46,7 +46,7 @@ export default {
   },
 
   components: {
-    NavigationBar, Navigator, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
+    NavBar, Navigator, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
     FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, DeleteIcon
   },
 
@@ -169,7 +169,7 @@ export default {
   <transition name="draft-page-fade">
   <div>
 
-    <NavigationBar> 
+    <NavBar> 
       <span class="navbar-text navbar-set-icon">
          <SetIcon :set_code="options.set_code"/>   
       </span>
@@ -201,7 +201,7 @@ export default {
         </li>
       </ul> 
     
-    </NavigationBar>
+    </NavBar>
 
     <div class="draft-page">
         <div class="draft-cards">

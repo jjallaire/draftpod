@@ -1,12 +1,12 @@
 <script>
 
-import NavigationBar from './core/NavigationBar.vue'
+import NavBar from './core/NavBar.vue'
 
 export default {
   name: 'HomePage',
 
   components: {
-    NavigationBar
+    NavBar
   }
 }
 
@@ -16,7 +16,7 @@ export default {
  
   <div>
     
-  <NavigationBar />
+  <NavBar />
     
   <div class="container">
 
