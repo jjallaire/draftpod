@@ -223,14 +223,6 @@ export default {
 
 <style>
 
-.navbar {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 40px;
-}
-
 .navbar .pick-timer {
   padding: 0.3rem;
   font-size: 0.9rem;

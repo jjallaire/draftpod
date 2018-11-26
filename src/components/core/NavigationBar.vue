@@ -36,6 +36,11 @@ export default {
 <style>
 
 .navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 40px;
   border: 0;
   padding: 5px;
   z-index: 1000;
