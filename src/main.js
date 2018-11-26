@@ -21,8 +21,6 @@ import { store } from './store'
 //   https://deckbox.org/ (imports from deckedbuilder)
 //
 
-// TODO: remove suppport for set icons and mana type icons
-
 // TODO: add qualifier: http://company.wizards.com/fancontentpolicy
 
 // TODO: add support for sentry: https://sentry.io/for/vue/
