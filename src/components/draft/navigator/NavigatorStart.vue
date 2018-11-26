@@ -32,7 +32,7 @@ export default {
     return {
       set_code: 'grn',
       pick_timer: true,
-      pick_analysis: true
+      pick_analysis: false
     }
   },
 
@@ -115,6 +115,7 @@ export default {
              If time runs out then a pick is made automatically.
           </small>
         </div>
+        <!--
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="draft-analysis"  v-model="pick_analysis">
           <label class="form-check-label" for="draft-analysis">Provide pick analysis</label>
@@ -123,6 +124,7 @@ export default {
              suggested picks based on the color composition of your deck. 
           </small>
         </div>
+        -->
       </div>
     </div>
     <br/>

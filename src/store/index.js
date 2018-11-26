@@ -13,7 +13,7 @@ const debug = process.env.NODE_ENV !== 'production'
 Vue.use(Vuex)
 
 const vuexPersist = new VuexPersist({
-  key: 'draftpod-ABC123',
+  key: 'draftpod-ABC123123',
   storage: window.localStorage
 });
 
@@ -24,7 +24,7 @@ export const store = new Vuex.Store({
       state: {
         set_code: 'grn',
         pick_timer: true,
-        pick_analysis: true
+        pick_analysis: false
       }
     },
     drafts: { namespaced: true }
