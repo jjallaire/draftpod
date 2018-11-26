@@ -1,9 +1,6 @@
 import Vue from 'vue'
 
-import 'bootswatch/dist/slate/bootstrap.min.css'
-import 'jquery/dist/jquery'
-import 'bootstrap/dist/js/bootstrap.bundle'
-import './styles/slate.css'
+import '@/components/core/bootstrap.js'
 
 import router from './router'
 import { store } from './store'
