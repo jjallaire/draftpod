@@ -21,8 +21,6 @@ import { store } from './store'
 //   https://deckbox.org/ (imports from deckedbuilder)
 //
 
-// TODO: add qualifier: http://company.wizards.com/fancontentpolicy
-
 // TODO: add support for sentry: https://sentry.io/for/vue/
 
 // TODO: flip cards

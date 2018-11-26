@@ -21,6 +21,8 @@ export default {
     
   <div class="container">
 
+  <div class="home-content">
+
   <div class="jumbotron text-muted">
     <h1 class="display-3">Hello, world!</h1>
     <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -29,6 +31,8 @@ export default {
     <p class="lead">
       <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
     </p>
+  </div>
+
   </div>
 
   <SiteFooter />
@@ -40,6 +44,10 @@ export default {
 </template>
 
 <style>
+
+.home-content {
+  min-height: 70vh;
+}
 
 </style>
 

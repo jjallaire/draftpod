@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-<footer class="page-footer">
+<footer class="site-footer">
 <p class="small">
 Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC.
 The copyright for Magic: the Gathering and all associated card names and card images is held by 
@@ -27,6 +27,5 @@ Not approved/endorsed by Wizards. Portions of the materials used are property of
 </template>
 
 <style>
-
 
 </style>
