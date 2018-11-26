@@ -27,6 +27,7 @@ import { store } from './store'
 // TODO: investigate multi-page: 
 //    https://cli.vuejs.org/config/#pages
 //    https://cli.vuejs.org/guide/html-and-static-assets.html#building-a-multi-page-app
+//    https://github.com/jantimon/html-webpack-plugin
 
 // TODO: remove suppport for set icons and mana type icons
 
