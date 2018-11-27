@@ -1,6 +1,7 @@
 import Vue from 'vue'
 
 import '@/components/core/bootstrap.js'
+import * as Sentry from '@sentry/browser';
 
 import router from './router'
 import { store } from './store'
@@ -21,7 +22,13 @@ import { store } from './store'
 //   https://deckbox.org/ (imports from deckedbuilder)
 //
 
-// TODO: add support for sentry: https://sentry.io/for/vue/
+// configure sentry in production mode
+if (process.env.NODE_ENV === 'production') {
+  Sentry.init({
+    dsn: 'https://49f3775ddef847b6a96c84d63bdeb02b@sentry.io/1331583',
+    integrations: [new Sentry.Integrations.Vue({ Vue })]
+  });
+}
 
 Vue.config.productionTip = false
 
@@ -30,3 +37,5 @@ new Vue({
   store,
   render: (h) => h('router-view')
 }).$mount('#app');
+
+

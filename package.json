@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@sentry/browser": "^4.3.4",
     "axios": "^0.18.0",
     "bootbox": "^4.4.0",
     "bootstrap": "^4.1.3",
