@@ -12,6 +12,8 @@ import { store } from './store'
 
 // TODO: initial draft ai (use for card preview)
 //
+//   consider adding a synergy field for archtypes
+//
 //   http://www.deckedbuilder.com/ (easy entry and exports w/ multiverse-id)
 //   https://deckbox.org/ (imports from deckedbuilder)
 //
