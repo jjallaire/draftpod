@@ -3,10 +3,14 @@
 
     <img class="navbar-logo" src="/images/logo.svg" />
     <span class="navbar-brand">
-      <router-link class="text-light" to="/" exact>draftpod.io</router-link>
+      <router-link class="text-light" to="/" exact>draftpod</router-link>
     </span>
     
-    <slot><span class="navbar-text">Virtual draft pod for Magic the Gathering&trade;</span></slot>
+    <slot>
+      <span class="navbar-text">
+        Virtual draft pod for Magic the Gathering<sup class="trademark">&trade;</sup>
+      </span>
+    </slot>
 
     <ul class="navbar-nav ml-auto">
       <router-link tag="li" class="nav-item" active-class="active" to="/" exact>
@@ -58,6 +62,10 @@ export default {
 
 .navbar-dark .navbar-text {
   color: rgba(255,255,255,0.7);
+}
+
+.navbar .navbar-text sup {
+  top: -.2em;
 }
 
 .navbar .navbar-text .simple-svg-wrapper svg>path {
