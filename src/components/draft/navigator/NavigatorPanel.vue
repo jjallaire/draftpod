@@ -41,6 +41,8 @@ export default {
 
 .navigator-panel .card-body button {
   min-width: 140px;
+  color: #fff;
+  opacity: 0.75;
 }
 
 
