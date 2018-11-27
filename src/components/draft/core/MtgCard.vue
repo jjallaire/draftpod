@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     onMouseOver() {
-      this.setCardPreview(this.card.image);
+      this.setCardPreview(this.card.images);
     },
     onDragStart(data, event) {
       // record offset of cursor to card image (used for determining
@@ -38,10 +38,10 @@ export default {
   <Drag v-if="drag_source" tag="span" class="mtgcard mtgcard-draggable" 
         @dragstart="onDragStart"
         :transfer-data="{drag_source, card}" :key="card.key">
-     <img :src="card.image" @mouseover="onMouseOver"/>
+     <img :src="card.images[0]" @mouseover="onMouseOver"/>
   </Drag>
   <span v-else class="mtgcard" draggable="false">
-    <img :src="card.image" />
+    <img :src="card.images[0]" />
   </span>
 </template>
 

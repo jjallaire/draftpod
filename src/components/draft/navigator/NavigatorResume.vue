@@ -34,9 +34,9 @@ export default {
     },
     card_preview_image: function() {
       if (this.active_cards.length > 0)
-        return this.active_cards[0].image;
+        return this.active_cards[0].images[0];
       else
-        return this.draft.table.picks.pack[0].image;
+        return this.draft.table.picks.pack[0].images[0];
     },
     deck_total_cards: function() {
       return selectors.deckTotalCards(this.draft.table.deck);

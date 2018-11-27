@@ -11,7 +11,7 @@ export default {
 
   props: {
     card_preview: {
-      type: String,
+      type: Array,
       required: true
     },
     cards: {
@@ -31,8 +31,10 @@ export default {
 
   <div class="infobar">
     
-    <PreviewImage :card_preview="card_preview" />
-    
+    <PreviewImage :card_preview="card_preview[0]" />
+    <transition name="flip-card">
+    <PreviewImage v-if="card_preview.length > 1" :card_preview="card_preview[1]" />
+    </transition>
     <UiPanel class="deck-stats" caption="Cards"> 
       <ManaLegend :cards="cards" />
       <ManaCurve :cards="cards" />
@@ -52,6 +54,28 @@ export default {
   padding-top: 4px;
   padding-left: 0;
   background-color: transparent;
+}
+
+.flip-card-enter-active {
+  transition: all 1s ease;
+  opacity: 0;
+  max-height: 0;
+}
+
+.flip-card-enter-to {
+  opacity: 1;
+  max-height: 100%;
+}
+
+.flip-card-leave-active {
+  transition: all 0.4s ease;
+  opacity: 1;
+  max-height: 100%;
+}
+
+.flip-card-leave-to {
+  opacity: 0;
+  max-height: 0;
 }
 
 

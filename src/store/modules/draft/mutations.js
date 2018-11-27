@@ -474,11 +474,18 @@ function booster(set_code, cardpool) {
         }
       }
       if (passed) {
+        // determine card image uris
+        let images = card.image_uris;
+        if (local_images) {
+          let base_image = '/sets/' + set_code + '/' + card.id;
+          images[0] = base_image + '.png';
+          if (images.length > 1)
+            images[1] = base_image + '-back.png';
+        }
+
         cards.push({...card, 
           key: uuidv4(), 
-          image: local_images ? 
-                  '/sets/' + set_code + '/' + card.id + '.png' :
-                  card.image_uris[0],
+          images: images
         });
       }
       if (cards.length >= number)

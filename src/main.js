@@ -23,9 +23,6 @@ import { store } from './store'
 
 // TODO: add support for sentry: https://sentry.io/for/vue/
 
-// TODO: flip cards
-
-
 Vue.config.productionTip = false
 
 new Vue({

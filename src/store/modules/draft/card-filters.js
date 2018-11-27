@@ -32,8 +32,15 @@ export function notOneOf(cards) {
   }
 }
 
+export function multiverseID(id) {
+  return function(card) {
+    return card.id === id;
+  }
+}
+
 function rarity(rarity) {
   return function(card) {
     return rarity.indexOf(card.rarity) >= 0 && !basicLand(card);
   }
 }
+

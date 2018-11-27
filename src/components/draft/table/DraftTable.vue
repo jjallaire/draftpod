@@ -41,7 +41,7 @@ export default {
   data: function() {
     return { 
       fullscreen: false,
-      card_preview: "/images/card-back.png"
+      card_preview: ["/images/card-back.png"]
     };
   },
 
