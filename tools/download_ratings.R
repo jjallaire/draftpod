@@ -40,25 +40,8 @@ channel_fireball_ratings <- function(set_code) {
   
   # convert to data frame
   cards <- as.data.frame(do.call(rbind, cards))
-
-  
   
   cards
-}
-
-
-p1p1_ratings <- function(set_code) {
-
-  # https://github.com/hrbrmstr/splashr
-  # https://scrapinghub.com/splash
-    
-  set_url <- sprintf("http://www.draftaholicsanonymous.com/p1p1-%s/",
-                     set_path(set_code))
-  
-  set_html <- read_html(set_url)
-  
-  
-  
 }
 
 
