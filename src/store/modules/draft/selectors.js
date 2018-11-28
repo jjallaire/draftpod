@@ -91,26 +91,26 @@ export function deckTotalCards(deck) {
 
 export function deckList(deck) {
  
-  // main deck
-  const card_name = (card) => card.name;
-  let main_deck = [].concat(
-    // cards
-    deck.piles.slice(0, DECK.PILES).flat().map(card_name),
-    // special lands
-    deck.piles[DECK.LANDS].map(card_name),
-    // basic lands
-    Array(deck.lands.basic.R).fill("Mountain"),
-    Array(deck.lands.basic.W).fill("Plains"),
-    Array(deck.lands.basic.U).fill("Island"),
-    Array(deck.lands.basic.B).fill("Swamp"),
-    Array(deck.lands.basic.G).fill("Forest")
-  );
+  
+  let main_deck = deck.piles.slice(0, DECK.SIDEBOARD).flat();
+  let sideboard = deck.piles[DECK.SIDEBOARD];
 
-  // sideboard
-  let sideboard = deck.piles[DECK.SIDEBOARD].map(card_name);
-    
+  let basic_lands = [];
+  if (deck.lands.basic.W > 0)
+    basic_lands.push(deck.lands.basic.W + ' Plains');
+  if (deck.lands.basic.U > 0)
+    basic_lands.push(deck.lands.basic.U + ' Island');
+  if (deck.lands.basic.B > 0)
+    basic_lands.push(deck.lands.basic.B + ' Swamp');
+  if (deck.lands.basic.R > 0)
+    basic_lands.push(deck.lands.basic.R + ' Mountain');
+  if (deck.lands.basic.G > 0)
+    basic_lands.push(deck.lands.basic.G + ' Forest');
+ 
   // return deck list w/ main deck and sideboard
-  return asDeckList(main_deck) + 
+  return asDeckList(main_deck) +
+         '\n' +  
+         basic_lands.join('\n') +
          '\n\n' +
          asDeckList(sideboard);
 }
@@ -119,21 +119,23 @@ export function deckList(deck) {
 // function to produce a text deck list
 function asDeckList(cards) {
     
-  // consolidate duplicates
-  let deck_list = {};
-  cards
+  // order by collector_number
+  let ordered_cards = cards
     .slice()
-    .sort()
-    .map((name) => {
-      if (!deck_list.hasOwnProperty(name))
-        deck_list[name] = 0;
-      deck_list[name]++;
+    .sort((a,b) => a.collector_number - b.collector_number);
+  
+  // consolidate duplicates
+  let card_counts = {};
+  ordered_cards
+    .map((card) => {
+      if (!card_counts.hasOwnProperty(card.name))
+        card_counts[card.name] = 0;
+      card_counts[card.name]++;
     }
   );
 
-  // return as list
-  return Object.keys(deck_list)
-    .map((name) => deck_list[name] + ' ' + name)
+  return Object.keys(card_counts)
+    .map((name) => card_counts[name] + ' ' + name)
     .join("\n");
 }
 

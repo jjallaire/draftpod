@@ -7,9 +7,6 @@ import router from './router'
 import { store } from './store'
 
 
-
-// TODO: order cards by collector_number
-
 // TODO: initial draft ai (use for card preview)
 //
 //   consider adding a synergy field for archtypes
