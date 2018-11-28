@@ -69,6 +69,7 @@ export default {
         if (table.current_pack < 3) {
           nextPack(table);
         } else {
+
           // move picks to deck
           movePicksToDeck(table);
 

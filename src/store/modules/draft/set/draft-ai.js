@@ -33,9 +33,9 @@ export function deckColors(deck, numColors) {
 
 export function packRatings(deck, pack) {
 
-  // determine the top colors among playables (consider 3 colors
-  // before the tenth pick and consider 2 thereafter)
-  let num_colors = deck.length < 10 ? 3 : 2;
+  // determine the top colors among playables (bonus for 3 colors
+  // before the fifth pick and consider 2 thereafter)
+  let num_colors = deck.length <= 5 ? 3 : 2;
   let deck_colors = deckColors(deck, num_colors);
 
   // color bonus escalates over first 15 picks
@@ -68,7 +68,7 @@ export function packRatings(deck, pack) {
         on_color = (matching_colors.length / card_colors.length) >= 0.66;
       }
       
-      // if it's on-color then apply escalating color bonus
+      // if it's on-color then apply bonus
       if (on_color)
         color_bonus = color_bonus_levels[Math.min(deck.length, color_bonus_levels.length-1)];
 
