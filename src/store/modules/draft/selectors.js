@@ -56,7 +56,7 @@ export function cardColors(cards) {
   }
 
   // get array of colors
-  colors = Object.keys(colors).map(val => colors[val]);
+  colors = Object.keys(colors).map(val => { return { code: val, ...colors[val] } });
 
   // compute percents
   let total_cards = colors.reduce((total, color) => total + color.count, 0);
