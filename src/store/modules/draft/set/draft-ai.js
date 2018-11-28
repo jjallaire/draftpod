@@ -1,34 +1,51 @@
 
 
-import * as selectors from '../selectors'
-
-
 export function pick(deck, pack) {
   let top_rated = packRatings(deck, pack)[0];
   return top_rated.card;
 }
 
 
+export function deckColors(deck, numColors) {
+
+  let colorAffinity = deck.reduce((colors, card) => {
+    card.colors.forEach((color) => {
+      if (!colors.hasOwnProperty(color))
+        colors[color] = 0;
+      colors[color] += card.rating;
+    });
+    return colors;
+  }, {});
+
+  colorAffinity = Object.keys(colorAffinity).map((color) => {
+    return {
+      color: color,
+      affinity: colorAffinity[color]
+    }
+  });
+
+  return colorAffinity
+    .sort((a,b) => b.affinity - a.affinity)
+    .slice(0, numColors)
+    .map((color) => color.color);
+    
+}
+
 export function packRatings(deck, pack) {
-  
-  // filter playable cards
-  let playables = deck
-    .filter((card) => card.rating >= 1.5);
 
-  // determine the top 2 colors among playables
-  let deck_colors = selectors.cardColors(playables)
-    .filter((color) => color.count > 0)
-    .slice(0, 2)
-    .map((color) => color.code);
+  // determine the top colors among playables (consider 3 colors
+  // before the tenth pick and consider 2 thereafter)
+  let num_colors = deck.length < 10 ? 3 : 2;
+  let deck_colors = deckColors(deck, num_colors);
 
-  // color bonus escalates over first 12 picks
-  const color_bonus_levels = [0.0, 0.0, 0.2, 0.4, 0.6, 
+  // color bonus escalates over first 15 picks
+  const color_bonus_levels = [0.0, 0.0, 0.5, 0.5, 0.7, 
                               0.8, 1.0, 1.2, 1.4, 1.6,
-                              1.8, 2.0];
+                              1.6, 1.8, 1.8, 1.8, 2.0];
 
   // synergy bonus levels
-  const synergy_bonus_levels = [0.0, 0.1, 0.2, 0.4, 0.5, 
-                                0.5, 0.6, 0.7, 0.8, 0.8];
+  const synergy_bonus_levels = [0.0, 0.2, 0.5, 0.5, 0.5, 
+                                0.7, 0.7, 0.8, 0.9, 1.0];
 
   return pack
     .map((card) => {
@@ -57,7 +74,7 @@ export function packRatings(deck, pack) {
 
       // check for synergy
       if (card.synergy) {
-        let synergy_count = playables.filter((playable) => playable.synergy === card.synergy).length;
+        let synergy_count = deck.filter((deck_card) => deck_card.synergy === card.synergy).length;
         let synergy_bonus = synergy_bonus_levels[Math.min(synergy_count, synergy_bonus_levels.length-1)];
         if (synergy_bonus > 0) {
           synergy = {

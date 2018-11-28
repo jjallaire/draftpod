@@ -66,7 +66,7 @@ export default {
       if (table.picks.pack.length === 0) {
 
         // if we still have packs to go then create the next pack
-        if (table.current_pack < 1) {
+        if (table.current_pack < 3) {
           nextPack(table);
         } else {
           // move picks to deck

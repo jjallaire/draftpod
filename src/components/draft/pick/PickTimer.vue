@@ -44,7 +44,8 @@ export default {
 
   computed: {
     pick_end_time: function() {
-      let pick_seconds = 80 - (5 * this.current_pick);
+      //let pick_seconds = 80 - (5 * this.current_pick);
+      let pick_seconds = 1;
       return new Date().getTime() + 1000 * pick_seconds;
     },
     pick_time_remaining: function() {
