@@ -51,12 +51,16 @@ download_set <- function(set,
     # get rating
     if (!is.null(ratings)) {
       ratings_for_id <- subset(ratings, id == multiverse_id)
-      if (nrow(ratings_for_id) > 0)
+      if (nrow(ratings_for_id) > 0) {
         rating <- ratings_for_id$rating
-      else
+        synergy <- ratings_for_id$synergy
+      } else {
         rating <- 0
+        synergy <- NULL
+      }
     } else {
       rating <- NULL
+      synergy <- NULL
     }
     
     list(
@@ -69,7 +73,8 @@ download_set <- function(set,
       cmc = card$cmc,
       colors = I(card$color_identity),
       rarity = card$rarity,
-      rating = rating
+      rating = rating,
+      synergy = synergy
     )
   })
   
