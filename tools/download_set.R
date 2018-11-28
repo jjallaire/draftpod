@@ -1,6 +1,8 @@
 
-download_set <- function(set, sets_dir = "public/sets", images = FALSE) {
- 
+download_set <- function(set, sets_dir = "public/sets", 
+                         include_ratings = TRUE, 
+                         download_images = FALSE) {
+  
   # download cards
   cards <- list()
   next_page_url <- sprintf("https://api.scryfall.com/cards/search?q=set:%s", set)
@@ -12,6 +14,10 @@ download_set <- function(set, sets_dir = "public/sets", images = FALSE) {
     else
       break
   }
+  
+  # read ratings
+  if (include_ratings)
+    ratings <- read.csv(file.path(sets_dir, set, "ratings.csv"))
   
   # narrow to the fields we care about
   cards <- lapply(cards, function(card) {
@@ -36,17 +42,42 @@ download_set <- function(set, sets_dir = "public/sets", images = FALSE) {
       stop("Unable to find mana_cost for card")
     }
     
+    # get id
+    multiverse_id <- card$multiverse_ids[[1]]
+    
+    # get rating
+    if (include_ratings) {
+      ratings_for_id <- subset(ratings, id == multiverse_id)
+      if (nrow(ratings_for_id) > 0)
+        rating <- ratings_for_id$rating
+      else
+        rating <- 0
+    } else {
+      rating <- NULL
+    }
+    
     list(
-      id = card$multiverse_ids[[1]],
+      id = multiverse_id,
+      collector_number = as.integer(card$collector_number),
       name = card$name,
       image_uris = I(image_uris),
       type_line = card$type_line,
       mana_cost = mana_cost,
       cmc = card$cmc,
       colors = I(card$color_identity),
-      rarity = card$rarity
+      rarity = card$rarity,
+      rating = rating
     )
   })
+  
+  # filter out collector number > threshold
+  max_collector_number <- switch(set,
+                                 grn = 259,
+                                 m19 = 280,
+                                 dom = 269
+  )
+  cards <- Filter(function(card) card$collector_number <= max_collector_number, cards)
+  
   
   # write as json
   set_dir <- file.path(sets_dir, set)
@@ -55,7 +86,7 @@ download_set <- function(set, sets_dir = "public/sets", images = FALSE) {
   jsonlite::write_json(cards, set_json, auto_unbox = TRUE)
   
   # download images
-  if (images) {
+  if (download_images) {
     for (card in cards) {
       card_image <- file.path(set_dir, paste0(card$id, ".png"))
       if (!file.exists(card_image)) {
@@ -74,4 +105,4 @@ download_set <- function(set, sets_dir = "public/sets", images = FALSE) {
   
 }
 
-download_set("grn", sets_dir = "public/sets", images = TRUE)
+
