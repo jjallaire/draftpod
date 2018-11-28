@@ -119,7 +119,7 @@ export function deckList(deck) {
 // function to produce a text deck list
 function asDeckList(cards) {
     
-  // conslidate duplicates
+  // consolidate duplicates
   let deck_list = {};
   cards
     .slice()
