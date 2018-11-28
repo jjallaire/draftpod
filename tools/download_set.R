@@ -1,6 +1,7 @@
 
-download_set <- function(set, sets_dir = "public/sets", 
-                         include_ratings = TRUE, 
+download_set <- function(set, 
+                         sets_dir = "public/sets", 
+                         ratings_dir = "tools/ratings", 
                          download_images = FALSE) {
   
   # download cards
@@ -16,8 +17,10 @@ download_set <- function(set, sets_dir = "public/sets",
   }
   
   # read ratings
-  if (include_ratings)
-    ratings <- read.csv(file.path(sets_dir, set, "ratings.csv"))
+  if (!is.null(ratings_dir))
+    ratings <- read.csv(file.path(ratings_dir, paste0(set, ".csv")))
+  else
+    ratings <- NULL
   
   # narrow to the fields we care about
   cards <- lapply(cards, function(card) {
@@ -46,7 +49,7 @@ download_set <- function(set, sets_dir = "public/sets",
     multiverse_id <- card$multiverse_ids[[1]]
     
     # get rating
-    if (include_ratings) {
+    if (!is.null(ratings)) {
       ratings_for_id <- subset(ratings, id == multiverse_id)
       if (nrow(ratings_for_id) > 0)
         rating <- ratings_for_id$rating
