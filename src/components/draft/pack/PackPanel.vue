@@ -41,8 +41,9 @@ export default {
   padding: 0;
 }
 
-.pack-panel .card-body {
+.draft-page .pack-panel .card-body {
   padding: 0;
+  background-color: transparent;
 }
 
 .pack-panel .mtgcard img {

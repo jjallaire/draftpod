@@ -121,6 +121,11 @@ function chartOptions(height) {
   stroke-width: 11%;
 }
 
+.mana-curve .ct-label {
+  fill: rgba(0,0,0,.5);
+  color: rgba(0,0,0,.5);
+}
+
 .mana-curve .ct-series-a .ct-bar {
   stroke: #ee5f5b;
 }

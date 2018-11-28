@@ -38,6 +38,10 @@ export default {
   padding: 30px;
 }
 
+.navigator-panel .card-body select {
+  background-color: rgb(236,236,236);
+}
+
 
 .navigator-panel .card-body button {
   min-width: 140px;

@@ -101,7 +101,7 @@ export default {
 <style>
 
 .deck {
-  background-color: #fff;
+  background-color: rgb(236,236,236);
 }
 
 .deck .card-header {
@@ -154,6 +154,7 @@ export default {
   overflow-y: scroll;
   scroll-behavior: smooth;
   padding-left: 10px;
+  background-color: transparent;
 }
 
 .deck .deck-sideboard {

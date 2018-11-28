@@ -81,7 +81,6 @@ export default {
 
 .deck-stats {
   flex: 1 1 auto;
-  background-color: #fff;
 }
 
 .deck-stats .card-body {

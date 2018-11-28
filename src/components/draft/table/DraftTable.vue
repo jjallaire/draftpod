@@ -325,11 +325,13 @@ export default {
 
 .tabs-header .nav-link.active,
 .tabs-header .nav-link:hover {
-  color: #fff;
+  color: #e9ecef;
 }
 
-.card-body {
+.draft-page .card-body {
   padding: 0.4rem;
+  color: rgba(0,0,0,.5);
+  background-color: rgb(236,236,236);
 }
 
 .draft-cards {
