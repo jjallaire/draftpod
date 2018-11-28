@@ -5,7 +5,6 @@ import * as selectors from '../selectors'
 
 export function pick(deck, pack) {
   let top_rated = packRatings(deck, pack)[0];
-  console.log(top_rated);
   return top_rated.card;
 }
 
