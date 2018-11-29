@@ -25,9 +25,6 @@ import { store } from './store'
 
 // use an actual cube and draw cards out of the cube
 
-// upgrade locket and dual land ratings
-// do lockets count as being of their colors
-
 // sideboard to deck drop target isn't big enough
 
 // TODO: initial draft ai (use for card preview)
