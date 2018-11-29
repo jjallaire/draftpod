@@ -129,7 +129,7 @@ export default {
     aiPick: function() {
       this.packToPick({
         card: null,
-        pile_number: 0, 
+        pile_number: null, 
         insertBefore: null
       });
     },

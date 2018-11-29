@@ -57,9 +57,21 @@ export default {
         card = set.pick(state.options.set_code, deck, table.picks.pack);
       }
 
+      // if the pile_number is null then choose the least populated pile
+      // of the first 6 piles
+      let piles = table.picks.piles;
+      if (pile_number === null) {
+        pile_number = piles.slice(0, 6).reduce( (shortestPileIndex, pile, index) => {
+          if (pile.length < piles[shortestPileIndex].length)
+            return index;
+          else
+            return shortestPileIndex;
+        }, 0);
+      }
+
       // write the pick 
       let pack = table.picks.pack;
-      let pile = table.picks.piles[pile_number];
+      let pile = piles[pile_number];
       packToPick(pack, pile, card, insertBefore);
 
       // have other players make their picks
