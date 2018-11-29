@@ -2,10 +2,24 @@
 
 import * as filters from '../card-filters'
 import * as ai from './draft-ai'
+import * as cube from './draft-cube'
 
 export default {
 
   name: "Guilds of Ravnica",
+
+  cube: function(cardsInSet, multiples) {
+
+    // generate default cube
+    let cards = cube.defaultCube(cardsInSet, multiples);
+
+    // generate additional guildgates (since 1 appears in every
+    // pack we need roughly 2x the multiple of commons)
+    return cards.concat(
+      cube.cardsForCube(cardsInSet, guildgate, multiples.common)
+    );
+    
+  },
 
   booster(cards) {
 

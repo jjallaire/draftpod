@@ -15,6 +15,10 @@ export function name(set_code) {
   return sets[set_code].name;
 }
 
+export function cube(set_code, cardsInSet, multiples) {
+  return sets[set_code].cube(cardsInSet, multiples);
+}
+
 export function booster(set_code, cards) {
   return sets[set_code].booster(cards);
 }

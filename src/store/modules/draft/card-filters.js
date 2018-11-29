@@ -3,10 +3,18 @@
 
 export function rareOrMythic(card) {
   if (Math.random() <= (1/8)) {
-    return rarity(["mythic"])(card);
+    return mythic(card);
   } else {
-    return rarity(["rare"])(card);
+    return rare(card);
   }
+}
+
+export function rare(card) {
+  return rarity(["rare"])(card);
+}
+
+export function mythic(card) {
+  return rarity(["mythic"])(card);
 }
 
 export function uncommon(card) {

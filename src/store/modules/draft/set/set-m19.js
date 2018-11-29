@@ -2,10 +2,13 @@
 
 import * as filters from '../card-filters'
 import * as ai from './draft-ai'
+import * as cube from './draft-cube'
 
 export default {
 
   name: "Core Set 2019",
+
+  cube: cube.defaultCube,
 
   booster(cards) {
 

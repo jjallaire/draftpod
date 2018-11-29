@@ -5,6 +5,8 @@ import {
   ENTER_DRAFT,
 } from './mutations';
 
+import * as set from './set/'
+
 export const START_DRAFT = 'START_DRAFT'
 
 export default {
@@ -22,6 +24,13 @@ export default {
           if (cardpool === null)
             cardpool = response.data;
 
+          let cube = set.cube(set_code, cardpool, {
+            mythic: 1,
+            rare: 2,
+            uncommon: 3,
+            common: 4
+          });
+          
           // initialize
           commit(ENTER_DRAFT, {
             set_code,

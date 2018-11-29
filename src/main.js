@@ -12,6 +12,9 @@ import { store } from './store'
 
 // ranking of older sets: http://draft.bestiaire.org/
 
+// when picking cards provide fallbacks (mythic->rare, 
+// rare->uncommon, dual->basic land, etc.) 
+
 // penalty for multi-color in early picks
 // divide draft ai logic into buckets
 // draft ai tier applying bonus to matters (i.e. sideboard before unplayable)
@@ -34,6 +37,8 @@ import { store } from './store'
 //    600 commons (6 of each)
 //    240 uncommons (4 of each)
 //    106 rares and 30 mythics (2 of each)
+
+
 
 //  4x Commons, 3x Uncommons, 2x Rares, 1x Mythics.
 

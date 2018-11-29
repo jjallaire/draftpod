@@ -2,10 +2,13 @@
 
 import * as filters from '../card-filters'
 import * as ai from './draft-ai'
+import * as cube from './draft-cube'
 
 export default {
 
   name: "Dominaria",
+
+  cube: cube.defaultCube,
 
   booster(cards) {
 
