@@ -53,6 +53,7 @@ import { store } from './store'
 // Sure, you can run 4/4/2/2, but commons are usually the limiting factor on 
 // how many people your cube can support.
 
+// 1 out of 8 have a mythic
 
 // sideboard to deck drop target isn't big enough
 
