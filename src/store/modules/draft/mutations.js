@@ -11,6 +11,7 @@ export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 
 import uuidv4 from 'uuid'
+import * as array from '@/core/array'
 import * as set from './set/'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
@@ -50,7 +51,7 @@ export default {
 
       // null card means have the AI pick
       if (!card) {
-        let deck = table.picks.piles.flat();
+        let deck = array.flatten2d(table.picks.piles);
         card = set.pick(state.options.set_code, deck, table.picks.pack);
       }
 
@@ -287,7 +288,7 @@ function completePicks(table) {
 function computeAutoLands(deck) {
 
   // get the cards in the deck
-  let cards = deck.piles.slice(0, DECK.PILES).flat();
+  let cards = array.flatten2d(deck.piles.slice(0, DECK.PILES));
 
   // if there are no cards then return no lands
   if (cards.length === 0)
