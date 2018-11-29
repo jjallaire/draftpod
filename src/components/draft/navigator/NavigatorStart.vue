@@ -49,6 +49,7 @@ export default {
       // establish options
       let options = {
         set_code: this.set_code,
+        cardpool: null,
         pick_timer: this.pick_timer,
         pick_analysis: this.pick_analysis
       };
