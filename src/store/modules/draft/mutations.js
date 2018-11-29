@@ -12,8 +12,8 @@ export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 
 import uuidv4 from 'uuid'
 import _shuffle from 'lodash/shuffle'
+import _flatten from 'lodash/flatten'
 
-import * as array from '@/core/array'
 import * as set from './set/'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
@@ -53,7 +53,7 @@ export default {
 
       // null card means have the AI pick
       if (!card) {
-        let deck = array.flatten2d(table.picks.piles);
+        let deck = _flatten(table.picks.piles);
         card = set.pick(state.options.set_code, deck, table.picks.pack);
       }
 
@@ -290,7 +290,7 @@ function completePicks(table) {
 function computeAutoLands(deck) {
 
   // get the cards in the deck
-  let cards = array.flatten2d(deck.piles.slice(0, DECK.PILES));
+  let cards = _flatten(deck.piles.slice(0, DECK.PILES));
 
   // if there are no cards then return no lands
   if (cards.length === 0)

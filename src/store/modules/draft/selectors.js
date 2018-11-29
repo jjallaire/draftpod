@@ -1,4 +1,4 @@
-import * as array from '@/core/array'
+import _flatten from 'lodash/flatten'
 import * as filters from './card-filters'
 import { DECK } from './constants'
 
@@ -74,11 +74,11 @@ export function cardColors(cards) {
 
 export function activeCards(table) {
   let piles = table.picks_complete ? table.deck.piles : table.picks.piles;
-  return array.flatten2d(piles.slice(0, DECK.PILES));
+  return _flatten(piles.slice(0, DECK.PILES));
 }
 
 export function deckCards(deck) {
-  return array.flatten2d(deck.piles.slice(0, DECK.PILES));
+  return _flatten(deck.piles.slice(0, DECK.PILES));
 } 
 
 export function deckLandCount(deck) {
@@ -92,7 +92,7 @@ export function deckTotalCards(deck) {
 
 export function deckList(deck) {
    
-  let main_deck = array.flatten2d(deck.piles.slice(0, DECK.SIDEBOARD));
+  let main_deck = _flatten(deck.piles.slice(0, DECK.SIDEBOARD));
   let sideboard = deck.piles[DECK.SIDEBOARD];
 
   let basic_lands = [];
