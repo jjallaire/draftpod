@@ -32,6 +32,10 @@ export default {
       ...options  
     };
     
+    // the cardpool object needs to be mutated by booster (remove cards)
+    // card filtering needs to have fallbacks at every level (so you can
+    // e.g. play w/ 4x uncommons/commons)
+
     updateTable(state, (table) => {
       // initialize packs
       table.all_packs = [...Array(24)].map(function() {

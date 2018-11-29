@@ -1,7 +1,7 @@
 
 
 
-export function rareOrMythic(card) {
+export function packRareSlot(card) {
   if (Math.random() <= (1/8)) {
     return mythic(card);
   } else {

@@ -20,16 +20,26 @@ export default {
       axios.get('/sets/' + set_code + '/cards.json')
         .then(response => {
 
-          // construct cardpool if needed
-          if (cardpool === null)
-            cardpool = response.data;
+          // all cards in the set
+          let cardsInSet = response.data;
 
-          let cube = set.cube(set_code, cardpool, {
-            mythic: 1,
-            rare: 2,
-            uncommon: 3,
-            common: 4
-          });
+          // cardpool: either an explicit list or a generated cube
+          
+          if (cardpool !== null) {
+            
+            // note: a custom cardpool needs to operate just off of multiverse ids
+            // and quantities
+
+          } else {
+
+            cardpool = set.cube(set_code, cardsInSet, {
+              mythic: 1,
+              rare: 2,
+              uncommon: 3,
+              common: 4
+            });
+
+          }
           
           // initialize
           commit(ENTER_DRAFT, {

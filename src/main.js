@@ -12,8 +12,12 @@ import { store } from './store'
 
 // ranking of older sets: http://draft.bestiaire.org/
 
+// when picking cards remove them from the cardpool
+
 // when picking cards provide fallbacks (mythic->rare, 
 // rare->uncommon, dual->basic land, etc.) 
+
+// prevent duplicates within a pack
 
 // penalty for multi-color in early picks
 // divide draft ai logic into buckets

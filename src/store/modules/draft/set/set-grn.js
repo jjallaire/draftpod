@@ -24,7 +24,7 @@ export default {
   booster(cards) {
 
     return [].concat(
-      cards(filters.rareOrMythic, 1),
+      cards(filters.packRareSlot, 1),
       cards(filters.uncommon, 3),
       cards([filters.common, card => !guildgate(card)], 10),
       cards(guildgate, 1),
