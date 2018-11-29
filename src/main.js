@@ -7,6 +7,21 @@ import router from './router'
 import { store } from './store'
 
 
+// penalty for multi-color in early picks
+
+// divide draft ai logic into buckets
+
+// draft ai tier applying bonus to matters (i.e. sideboard first)
+
+// auto-lands are messed up in this deck: https://draftpod-c0eac.firebaseapp.com/draft/#a079f657-d399-4558-b119-8d017377be06
+
+// smarter arrangement of sideboard (use main colors)
+
+// some cards seem to show up a lot! (test distribution)
+// upgrade locket and dual land ratings
+
+// sideboard to deck drop target
+
 // TODO: initial draft ai (use for card preview)
 //
 //   consider adding a synergy field for archtypes
