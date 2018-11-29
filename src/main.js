@@ -23,7 +23,11 @@ import { store } from './store'
 
 // some cards seem to show up a lot! (test distribution)
 
-// use an actual cube and draw cards out of the cube
+// use an actual cube and draw cards out of the cube:
+//  https://www.channelfireball.com/articles/cube-design-set-cubes/
+//    300 commons (3 of each)
+//    120 uncommons (2 of each)
+//    53 rares and 15 mythics (1 of each)
 
 // sideboard to deck drop target isn't big enough
 
