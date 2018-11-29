@@ -7,17 +7,12 @@ import router from './router'
 import { store } from './store'
 
 
-// penalty for multi-color in early picks
-
-// divide draft ai logic into buckets
-
-// draft ai tier applying bonus to matters (i.e. sideboard before unplayable)
-
-// test color distribution of bots
-
 // setup units test for draft ai testing
 
-// distribute auto-picks to various piles
+// penalty for multi-color in early picks
+// divide draft ai logic into buckets
+// draft ai tier applying bonus to matters (i.e. sideboard before unplayable)
+// test color distribution of bots
 
 // smarter arrangement of sideboard (use main colors)
 
