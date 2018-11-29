@@ -1,8 +1,7 @@
 
 
 import * as filters from '../card-filters'
-import * as ai from './draft-ai'
-import * as cube from './draft-cube'
+import * as cube from './cube'
 
 export default {
 
@@ -31,13 +30,6 @@ export default {
       cards(filters.common, 11)
     );
   },
-
-  pick(deck, pack) {
-
-    return ai.pick(deck, pack);
-
-  }
-
 }
 
 function legendary(card) {

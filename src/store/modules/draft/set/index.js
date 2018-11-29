@@ -23,7 +23,4 @@ export function booster(set_code, cards) {
   return sets[set_code].booster(cards);
 }
 
-export function pick(set_code, deck, pack) {
-  return sets[set_code].pick(deck, pack);
-}
 

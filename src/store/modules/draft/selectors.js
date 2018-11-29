@@ -148,15 +148,3 @@ export function sumValues(object) {
     .map(val => object[val])
     .reduce((total, count) => total + count, 0);
 }
-
-
-/*
-console.log("Player 0: " + draftai.deckColors(selectors.deckCards(table.deck), 2));
-for (let i = 0; i<table.players.length; i++) {
-  
-  let colors = draftai.deckColors(table.players[i].picks.piles[0], 2);
-  console.log("Player " + (i+1) + ": " + colors.join("/"));
-}
-
-
-*/

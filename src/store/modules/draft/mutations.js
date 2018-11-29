@@ -15,6 +15,7 @@ import _shuffle from 'lodash/shuffle'
 import _flatten from 'lodash/flatten'
 
 import * as set from './set/'
+import * as draftbot from './draftbot'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
 import { PICKS, DECK } from './constants'
@@ -54,7 +55,7 @@ export default {
       // null card means have the AI pick
       if (!card) {
         let deck = _flatten(table.picks.piles);
-        card = set.pick(state.options.set_code, deck, table.picks.pack);
+        card = draftbot.pick(state.options.set_code, deck, table.picks.pack);
       }
 
       // if the pile_number is null then choose the least populated pile
@@ -238,7 +239,7 @@ function aiPicks(options, table) {
     let player = players[i];
     let pack = player.picks.pack;
     let pile = player.picks.piles[0];
-    let card = set.pick(options.set_code, pile, pack);
+    let card = draftbot.pick(options.set_code, pile, pack);
     packToPick(pack, pile, card, null);
   }
 }

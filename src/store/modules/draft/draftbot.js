@@ -1,35 +1,10 @@
 
 
-export function pick(deck, pack) {
+export function pick(set_code, deck, pack) {
   let top_rated = packRatings(deck, pack)[0];
   return top_rated.card;
 }
 
-
-export function deckColors(deck, numColors) {
-
-  let colorAffinity = deck.reduce((colors, card) => {
-    card.colors.forEach((color) => {
-      if (!colors.hasOwnProperty(color))
-        colors[color] = 0;
-      colors[color] += card.rating;
-    });
-    return colors;
-  }, {});
-
-  colorAffinity = Object.keys(colorAffinity).map((color) => {
-    return {
-      color: color,
-      affinity: colorAffinity[color]
-    }
-  });
-
-  return colorAffinity
-    .sort((a,b) => b.affinity - a.affinity)
-    .slice(0, numColors)
-    .map((color) => color.color);
-    
-}
 
 export function packRatings(deck, pack) {
 
@@ -94,4 +69,29 @@ export function packRatings(deck, pack) {
     })
     .sort((a, b) => b.rating - a.rating);
 
+}
+
+
+function deckColors(deck, numColors) {
+
+  let colorAffinity = deck.reduce((colors, card) => {
+    card.colors.forEach((color) => {
+      if (!colors.hasOwnProperty(color))
+        colors[color] = 0;
+      colors[color] += card.rating;
+    });
+    return colors;
+  }, {});
+
+  colorAffinity = Object.keys(colorAffinity).map((color) => {
+    return {
+      color: color,
+      affinity: colorAffinity[color]
+    }
+  });
+
+  return colorAffinity
+    .sort((a,b) => b.affinity - a.affinity)
+    .slice(0, numColors)
+    .map((color) => color.color);   
 }

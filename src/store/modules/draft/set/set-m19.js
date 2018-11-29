@@ -1,8 +1,7 @@
 
 
 import * as filters from '../card-filters'
-import * as ai from './draft-ai'
-import * as cube from './draft-cube'
+import * as cube from './cube'
 
 export default {
 
@@ -35,12 +34,6 @@ export default {
       return booster.concat(cards(filters.basicLand, 1));
     }
   },
-
-  pick(deck, pack) {
-
-    return ai.pick(deck, pack);
-
-  }
 
 }
 
