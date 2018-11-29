@@ -9,25 +9,25 @@ export default {
 
   cube: cube.build,
 
-  booster(cards) {
+  booster(selectCards) {
 
     // allocate rares and uncommons
     let rares_and_uncommons = [].concat(
-      cards(filters.packRareSlot, 1),
-      cards(filters.uncommon, 3)
+      selectCards(filters.packRareSlot, 1),
+      selectCards(filters.uncommon, 3)
     );
 
     // if there is no legendary then fill in legendary slot
     if (rares_and_uncommons.filter(legendary).length === 0) {
       rares_and_uncommons.pop();
       rares_and_uncommons.push(
-        cards(filters.join(legendaryUncommon, filters.notOneOf(rares_and_uncommons)), 1)[0]
+        selectCards(filters.join(legendaryUncommon, filters.notOneOf(rares_and_uncommons)), 1)[0]
       );
     }
   
     return [].concat(
       rares_and_uncommons,
-      cards(filters.common, 11)
+      selectCards(filters.common, 11)
     );
   },
 }

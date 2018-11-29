@@ -20,13 +20,13 @@ export default {
     
   },
 
-  booster(cards) {
+  booster(selectCards) {
 
     return [].concat(
-      cards(filters.packRareSlot, 1),
-      cards(filters.uncommon, 3),
-      cards(filters.join(filters.common, card => !guildgate(card)), 10),
-      cards(guildgate, 1),
+      selectCards(filters.packRareSlot, 1),
+      selectCards(filters.uncommon, 3),
+      selectCards(filters.join(filters.common, card => !guildgate(card)), 10),
+      selectCards(guildgate, 1),
     );
 
 

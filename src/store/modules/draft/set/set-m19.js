@@ -20,18 +20,18 @@ export default {
     
   },
 
-  booster(cards) {
+  booster(selectCards) {
 
     let booster = [].concat(
-      cards(filters.packRareSlot, 1),
-      cards(filters.uncommon, 3),
-      cards(filters.join(filters.common, card => !dualLand(card)), 10)
+      selectCards(filters.packRareSlot, 1),
+      selectCards(filters.uncommon, 3),
+      selectCards(filters.join(filters.common, card => !dualLand(card)), 10)
     );
 
     if (Math.random() <= (5/12)) {
-      return booster.concat(cards(dualLand, 1));
+      return booster.concat(selectCards(dualLand, 1));
     } else {
-      return booster.concat(cards(filters.basicLand, 1));
+      return booster.concat(selectCards(filters.basicLand, 1));
     }
   },
 
