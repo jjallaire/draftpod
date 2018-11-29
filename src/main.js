@@ -11,16 +11,24 @@ import { store } from './store'
 
 // divide draft ai logic into buckets
 
-// draft ai tier applying bonus to matters (i.e. sideboard first)
+// draft ai tier applying bonus to matters (i.e. sideboard before unplayable)
+
+// test color distribution of bots
+
+// setup units test for draft ai testing
 
 // auto-lands are messed up in this deck: https://draftpod-c0eac.firebaseapp.com/draft/#a079f657-d399-4558-b119-8d017377be06
 
 // smarter arrangement of sideboard (use main colors)
 
 // some cards seem to show up a lot! (test distribution)
-// upgrade locket and dual land ratings
 
-// sideboard to deck drop target
+// use an actual cube and draw cards out of the cube
+
+// upgrade locket and dual land ratings
+// do lockets count as being of their colors
+
+// sideboard to deck drop target isn't big enough
 
 // TODO: initial draft ai (use for card preview)
 //
