@@ -11,12 +11,12 @@ export default {
   cube: function(cardsInSet, multiples) {
 
     // generate default cube
-    let cards = cube.defaultCube(cardsInSet, multiples);
+    let cards = cube.build(cardsInSet, multiples);
 
     // generate additional guildgates (since 1 appears in every
     // pack we need roughly 2x the multiple of commons)
     return cards.concat(
-      cube.cardsForCube(cardsInSet, guildgate, multiples.common)
+      cube.select(cardsInSet, guildgate, multiples.common)
     );
     
   },

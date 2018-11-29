@@ -11,12 +11,12 @@ export default {
   cube: function(cardsInSet, multiples) {
 
     // generate default cube
-    let cards = cube.defaultCube(cardsInSet, multiples);
+    let cards = cube.build(cardsInSet, multiples);
 
     // generate additional basic lands (for filling in slots 
     // occupied by dual lands in 5/12 packs)
     return cards.concat(
-      cube.cardsForCube(cardsInSet, filters.basicLand, multiples.common * 2)
+      cube.select(cardsInSet, filters.basicLand, multiples.common * 2)
     );
     
   },

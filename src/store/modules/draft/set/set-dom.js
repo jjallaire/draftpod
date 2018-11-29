@@ -8,7 +8,7 @@ export default {
 
   name: "Dominaria",
 
-  cube: cube.defaultCube,
+  cube: cube.build,
 
   booster(cards) {
 
