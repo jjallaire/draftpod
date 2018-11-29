@@ -487,7 +487,7 @@ function booster(set_code, cardpool) {
   // generate range of indexes then shuffle it
   let indexes = _shuffle([...Array(cardpool.length).keys()]);
 
-  // function to draw next n cards that pass a set of filters
+  // function to draw next n cards that pass a filter
   function cards(filter, number) {
     let cards = [];
     for (let i=0; i<indexes.length; i++) {
