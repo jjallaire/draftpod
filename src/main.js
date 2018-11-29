@@ -17,8 +17,6 @@ import { store } from './store'
 
 // setup units test for draft ai testing
 
-// auto-lands are messed up in this deck: https://draftpod-c0eac.firebaseapp.com/draft/#a079f657-d399-4558-b119-8d017377be06
-
 // smarter arrangement of sideboard (use main colors)
 
 // some cards seem to show up a lot! (test distribution)

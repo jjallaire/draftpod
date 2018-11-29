@@ -379,8 +379,13 @@ function computeAutoLands(deck) {
         // color options to play the card
         if (color_ranking) {
           let colors = card_color.split('/');
-          colors.sort((a,b) => color_ranking.indexOf(a) - color_ranking.indexOf(b));
-          card_color = colors[0];
+          if (colors.length === 2) {
+            // exclude split colors if we can pay for the other color in our top 2
+            if (color_ranking.indexOf(colors[0]) < 2 && color_ranking.indexOf(colors[1]) >= 2)
+              card_color = colors[0];
+            else if (color_ranking.indexOf(colors[1]) < 2 && color_ranking.indexOf( colors[0]) >= 2)
+              card_color = colors[1];
+          }
         }
         for (let c = 0; c<all_colors.length; c++) {
           if (card_color.indexOf(all_colors[c]) !== -1)
