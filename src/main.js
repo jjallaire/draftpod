@@ -17,6 +17,8 @@ import { store } from './store'
 
 // setup units test for draft ai testing
 
+// distribute auto-picks to various piles
+
 // smarter arrangement of sideboard (use main colors)
 
 // some cards seem to show up a lot! (test distribution)

@@ -11,6 +11,8 @@ export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 
 import uuidv4 from 'uuid'
+import _shuffle from 'lodash/shuffle'
+
 import * as array from '@/core/array'
 import * as set from './set/'
 import * as filters from './card-filters'
@@ -463,7 +465,7 @@ function addCardToPile(pile, card, insertBefore) {
 function booster(set_code, cardpool) {
 
   // generate range of indexes then shuffle it
-  let indexes = shuffleArray([...Array(cardpool.length).keys()]);
+  let indexes = _shuffle([...Array(cardpool.length).keys()]);
 
   // function to draw next n cards that pass a set of filters
   function cards(filters, number) {
@@ -503,17 +505,4 @@ function booster(set_code, cardpool) {
 
   return set.booster(set_code, cards);
 }
-
-
-function shuffleArray(a) {
-  let array = a.slice();
-  for (var i = array.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i + 1));
-    var temp = array[i];
-    array[i] = array[j];
-    array[j] = temp;
-  }
-  return array;
-}
-
 
