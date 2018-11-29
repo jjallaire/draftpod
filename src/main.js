@@ -7,8 +7,6 @@ import router from './router'
 import { store } from './store'
 
 
-// setup units test for draft ai testing
-
 // penalty for multi-color in early picks
 // divide draft ai logic into buckets
 // draft ai tier applying bonus to matters (i.e. sideboard before unplayable)
