@@ -8,14 +8,25 @@ export default {
 
   name: "Core Set 2019",
 
-  cube: cube.defaultCube,
+  cube: function(cardsInSet, multiples) {
+
+    // generate default cube
+    let cards = cube.defaultCube(cardsInSet, multiples);
+
+    // generate additional basic lands (for filling in slots 
+    // occupied by dual lands in 5/12 packs)
+    return cards.concat(
+      cube.cardsForCube(cardsInSet, filters.basicLand, multiples.common * 2)
+    );
+    
+  },
 
   booster(cards) {
 
     let booster = [].concat(
       cards(filters.packRareSlot, 1),
       cards(filters.uncommon, 3),
-      cards([filters.common, card => !dualLand(card)], 10)
+      cards(filters.join(filters.common, card => !dualLand(card)), 10)
     );
 
     if (Math.random() <= (5/12)) {

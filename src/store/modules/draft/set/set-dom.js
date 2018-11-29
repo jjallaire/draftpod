@@ -22,7 +22,7 @@ export default {
     if (rares_and_uncommons.filter(legendary).length === 0) {
       rares_and_uncommons.pop();
       rares_and_uncommons.push(
-        cards([legendaryUncommon, filters.notOneOf(rares_and_uncommons)], 1)[0]
+        cards(filters.join(legendaryUncommon, filters.notOneOf(rares_and_uncommons)), 1)[0]
       );
     }
   

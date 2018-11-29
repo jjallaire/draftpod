@@ -484,21 +484,12 @@ function booster(set_code, cardpool) {
   let indexes = _shuffle([...Array(cardpool.length).keys()]);
 
   // function to draw next n cards that pass a set of filters
-  function cards(filters, number) {
-    if (!Array.isArray(filters))
-      filters = [filters];
+  function cards(filter, number) {
     let cards = [];
     for (let i=0; i<indexes.length; i++) {
       let index = indexes[i];
       let card = cardpool[index];
-      let passed = true;
-      for (let f=0; f<filters.length; f++) {
-        if (!filters[f](card)) {
-          passed = false;
-          break;
-        }
-      }
-      if (passed) {
+      if (filter(card)) {
         // determine card image uris
         let images = card.image_uris;
         if (local_images) {

@@ -50,9 +50,20 @@ export function multiverseID(id) {
   }
 }
 
-function rarity(rarity) {
+export function rarity(rarity) {
   return function(card) {
     return rarity.indexOf(card.rarity) >= 0 && !basicLand(card);
   }
 }
 
+export function join() {
+  let filters = arguments;
+  return function(card) {
+    for (let i=0; i<filters.length; i++) {
+      let filter = filters[i];
+      if (!filter(card))
+        return false;
+    }
+    return true;
+  }
+}
