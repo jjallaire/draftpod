@@ -10,7 +10,7 @@ export default {
   booster(cards) {
 
     let booster = [].concat(
-      cards(filters.rare, 1),
+      cards(filters.rareOrMythic, 1),
       cards(filters.uncommon, 3),
       cards([filters.common, card => !dualLand(card)], 10)
     );

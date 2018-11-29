@@ -11,7 +11,7 @@ export default {
 
     // allocate rares and uncommons
     let rares_and_uncommons = [].concat(
-      cards(filters.rare, 1),
+      cards(filters.rareOrMythic, 1),
       cards(filters.uncommon, 3)
     );
 
