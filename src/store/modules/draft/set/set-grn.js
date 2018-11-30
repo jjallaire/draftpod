@@ -26,7 +26,7 @@ export default {
       selectCards(booster.packRareSlot, 1),
       selectCards(booster.uncommon, 3),
       selectCards(commonNotGuildgate, 10),
-      selectCards([guildgate, booster.basicLand], 1),
+      selectCards([guildgate, filters.basicLand], 1),
     );
   },
 

@@ -24,7 +24,8 @@ export const store = new Vuex.Store({
       state: {
         set_code: 'grn',
         pick_timer: true,
-        pick_analysis: false
+        pick_analysis: false,
+        sets: {}
       }
     },
     drafts: { namespaced: true }

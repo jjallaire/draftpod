@@ -16,15 +16,19 @@ export default {
   data: function() {
     return {
       set_code: 'grn',
+      cardpool: '4/3/2/1',
       pick_timer: true,
       pick_analysis: false
     }
   },
 
   created() {
+
     this.set_code = this.preferences.set_code;
+    this.cardpool = this.cardpool;
     this.pick_timer = this.preferences.pick_timer;
     this.pick_analysis = this.preferences.pick_analysis;
+    this.applySetPreferences();
   },
 
   components: {
@@ -49,7 +53,7 @@ export default {
       // establish options
       let options = {
         set_code: this.set_code,
-        cardpool: null,
+        cardpool: this.cardpool,
         pick_timer: this.pick_timer,
         pick_analysis: this.pick_analysis
       };
@@ -65,6 +69,19 @@ export default {
         });
      
     },
+
+    applySetPreferences() {
+      // apply set prefs if we have them
+      let set_prefs = this.preferences.sets[this.set_code];
+      if (set_prefs) {
+        this.cardpool = set_prefs.cardpool || this.cardpool;
+      }
+    },
+
+    onSetChanged() {
+      this.applySetPreferences();
+    },
+
     ...mapMutations({
       updatePreferences: UPDATE_PREFERENCES
     }),
@@ -82,10 +99,20 @@ export default {
     <div class="form-group row">
       <label for="draft-set" class="col-sm-3 col-form-label">Draft from:</label>
       <div class="col-sm-8">
-        <select id="draft-set" class="form-control" v-model="set_code">
+        <select id="draft-set" class="form-control" v-model="set_code" @change="onSetChanged">
           <option value="grn">Guilds of Ravnica</option>
           <option value="m19">Core Set 2019</option>
           <option value="dom">Dominaria</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="draft-cardpool" class="col-sm-3 col-form-label">Cardpool:</label>
+      <div class="col-sm-8">
+        <select id="draft-cardpool" class="form-control" v-model="cardpool">
+          <option value="4/3/2/1">4x Common, 3x Uncommon, 2x Rare, 1x Mythic</option>
+          <option value="3/2/1/1">3x Common, 2x Uncommon, 1x Rare, 1x Mythic</option>
+          <option value="4/4/0/0">4x Common, 4x Uncommon</option>
         </select>
       </div>
     </div>

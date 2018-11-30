@@ -22,8 +22,8 @@ export default {
     if (rares_and_uncommons.filter(legendary).length === 0) {
       rares_and_uncommons.pop();
       rares_and_uncommons.push(
-        selectCards([filters.join(legendaryUncommon, filters.notOneOf(rares_and_uncommons),
-                     booster.uncommon)], 1)[0]
+        selectCards([filters.join(legendaryUncommon, filters.notOneOf(rares_and_uncommons))]
+                     .concat(booster.uncommon), 1)[0]
       );
     }
   

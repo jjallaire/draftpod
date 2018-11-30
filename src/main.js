@@ -7,12 +7,10 @@ import router from './router'
 import { store } from './store'
 
 
-// UI for specifying cube quantities
-
-
-
 // docs: http://www.metamox.com/blog/9-things-you-need-to-know-about-how-to-make-a-set-cube/
 // (help w/ how to acquire a cube)
+
+// preview card should be highest rated in colors
 
 // filter out card images from deploy then always download images
 // implement local images elsewhere

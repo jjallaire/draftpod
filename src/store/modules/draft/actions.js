@@ -24,22 +24,13 @@ export default {
           let cardsInSet = response.data;
 
           // cardpool: either an explicit list or a generated cube
-          
-          if (cardpool !== null) {
-            
-            // note: a custom cardpool needs to operate just off of multiverse ids
-            // and quantities
-
-          } else {
-
-            cardpool = set.cube(set_code, cardsInSet, {
-              mythic: 1,
-              rare: 2,
-              uncommon: 3,
-              common: 4
-            });
-
-          }
+          let [ common, uncommon, mythic, rare ] = cardpool.split('/').map(Number);
+          cardpool = set.cube(set_code, cardsInSet, {
+            mythic: mythic,
+            rare: rare,
+            uncommon: uncommon,
+            common: common
+          });
           
           // initialize
           commit(ENTER_DRAFT, {
