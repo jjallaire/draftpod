@@ -1,5 +1,7 @@
 import _flatten from 'lodash/flatten'
+
 import * as filters from './card-filters'
+import * as draftbot from './draftbot'
 import { DECK } from './constants'
 
 // get card types
@@ -69,6 +71,14 @@ export function cardColors(cards) {
   return colors.sort(function(a, b) {
     return b.count - a.count;
   });
+}
+
+export function draftThumbnail(table) {
+  let active_cards = activeCards(table);
+  if (active_cards.length > 0)
+    return draftbot.packRatings(active_cards, active_cards)[0].card.images[0];
+  else
+    return table.picks.pack[0].images[0];
 }
 
 
