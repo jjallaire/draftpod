@@ -10,6 +10,9 @@ import { store } from './store'
 // docs: http://www.metamox.com/blog/9-things-you-need-to-know-about-how-to-make-a-set-cube/
 // (help w/ how to acquire a cube)
 
+// filter out card images from deploy then always download images
+// implement local images elsewhere
+
 // ranking of older sets: http://draft.bestiaire.org/
 
 // when picking cards remove them from the cardpool
