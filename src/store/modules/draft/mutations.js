@@ -526,7 +526,7 @@ function booster(set_code, cardpool) {
   }    
 
 
-  // function to draw next n cards that pass a filter
+  // function to draw next n cards that pass a set of filters
   function selectCards(filters, number) {
 
     // normalize to single set of filters
@@ -545,6 +545,7 @@ function booster(set_code, cardpool) {
     return cards;    
   }
 
+  // generate booster for set using selectCards function
   return set.booster(set_code, selectCards);
 }
 

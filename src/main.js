@@ -6,17 +6,8 @@ import * as Sentry from '@sentry/browser';
 import router from './router'
 import { store } from './store'
 
-// sideboard to deck drop target isn't big enough
-// smarter arrangement of sideboard (use main colors)
 
-// some cards seem to show up a lot! (test distribution)
-
-// TODO: initial draft ai (use for card preview)
-//
-//   consider adding a synergy field for archtypes
-//
-//   http://www.deckedbuilder.com/ (easy entry and exports w/ multiverse-id)
-//   https://deckbox.org/ (imports from deckedbuilder)
+// TODO: initial draft ai 
 //
 // penalty for multi-color in early picks
 // divide draft ai logic into buckets
@@ -24,6 +15,12 @@ import { store } from './store'
 // test color distribution of bots
 
 // ability to specify/upload custom cardpools
+//   http://www.deckedbuilder.com/ (easy entry and exports w/ multiverse-id)
+//   https://deckbox.org/ (imports from deckedbuilder)
+
+
+// sideboard to deck drop target isn't big enough
+// smarter arrangement of sideboard (use main colors)
 
 // configure sentry in production mode
 if (process.env.NODE_ENV === 'production') {
