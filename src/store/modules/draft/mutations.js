@@ -21,8 +21,6 @@ import * as filters from './card-filters'
 import * as selectors from './selectors'
 import { PICKS, DECK } from './constants'
 
-const local_images = false;
-
 export default {
 
   [ENTER_DRAFT](state, { set_code, cardpool, options }) {
@@ -504,15 +502,6 @@ function booster(set_code, cardpool) {
         // detect duplicate 
         if (selectedCardIds.indexOf(card.id) !== -1)
           continue;
-
-        // determine card image uris
-        let images = card.image_uris;
-        if (local_images) {
-          let base_image = '/sets/' + set_code + '/' + card.id;
-          images[0] = base_image + '.png';
-          if (images.length > 1)
-            images[1] = base_image + '-back.png';
-        }
   
         // record index selected (will be removed from cardpool)
         selectedIndexes.push(index);
@@ -523,7 +512,6 @@ function booster(set_code, cardpool) {
         // accumulate card
         cards.push({...card, 
           key: uuidv4(), 
-          images: images
         });
       }
       if (cards.length >= number)

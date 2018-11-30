@@ -4,6 +4,16 @@ import * as filters from './card-filters'
 import * as draftbot from './draftbot'
 import { DECK } from './constants'
 
+const local_images = true && process.env.NODE_ENV !== 'production';
+
+// get card image_uris (support local images for development)
+export function cardImageUris(card) {
+  if (local_images)
+    return card.multiverse_ids.map((id) => "/images/cards/" + id + ".jpg");
+  else
+    return card.image_uris;
+}
+
 // get card types
 export function cardTypes(cards) {
   return {
@@ -76,9 +86,9 @@ export function cardColors(cards) {
 export function draftThumbnail(table) {
   let active_cards = activeCards(table);
   if (active_cards.length > 0)
-    return draftbot.packRatings(active_cards, active_cards)[0].card.images[0];
+    return cardImageUris(draftbot.packRatings(active_cards, active_cards)[0].card)[0];
   else
-    return table.picks.pack[0].images[0];
+    return cardImageUris(draftbot.packRatings([], table.picks.pack)[0].card)[0];
 }
 
 

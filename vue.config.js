@@ -1,5 +1,4 @@
 
-
 module.exports = {
   pages: {
     index: {
@@ -10,5 +9,15 @@ module.exports = {
       // output as dist/index.html
       filename: 'index.html',
     },
+  },
+
+  chainWebpack: config => {
+    config
+      .plugin('copy')
+      .tap(args => {
+        args[0][0].ignore.push('images/cards/*');
+        return args;
+      })
   }
+  
 }

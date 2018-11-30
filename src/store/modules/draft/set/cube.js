@@ -2,6 +2,12 @@
 
 import * as filters from '../card-filters'
 
+// some articles on building set cubes:
+//
+// https://www.channelfireball.com/articles/cube-design-set-cubes/
+// http://www.metamox.com/blog/9-things-you-need-to-know-about-how-to-make-a-set-cube/
+
+
 export function build(cardsInSet, multiples) {
   let mythics = select(cardsInSet, filters.mythic, multiples.mythic);
   let rares = select(cardsInSet, filters.rare, multiples.rare);

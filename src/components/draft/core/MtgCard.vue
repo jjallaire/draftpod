@@ -2,6 +2,9 @@
 
 import { Drag } from 'vue-drag-drop';
 
+import * as selectors from '@/store/modules/draft/selectors'
+
+
 export default {
   name: 'MtgCard',
   props: {
@@ -17,9 +20,14 @@ export default {
   components: {
     Drag
   },
+  computed: {
+    cardImageUris() {
+      return selectors.cardImageUris(this.card);
+    }
+  },
   methods: {
     onMouseOver() {
-      this.setCardPreview(this.card.images);
+      this.setCardPreview(this.cardImageUris);
     },
     onDragStart(data, event) {
       // record offset of cursor to card image (used for determining
@@ -38,10 +46,10 @@ export default {
   <Drag v-if="drag_source" tag="span" class="mtgcard mtgcard-draggable" 
         @dragstart="onDragStart"
         :transfer-data="{drag_source, card}" :key="card.key">
-     <img :src="card.images[0]" @mouseover="onMouseOver"/>
+     <img :src="cardImageUris[0]" @mouseover="onMouseOver"/>
   </Drag>
   <span v-else class="mtgcard" draggable="false">
-    <img :src="card.images[0]" />
+    <img :src="cardImageUris[0]" />
   </span>
 </template>
 

@@ -21,8 +21,7 @@ yarn-error.log*
 *.sw*
 
 # Local card image cache
-/public/sets/*/*.png
-/tools/sets/*/*.png
+/public/images/cards/*
 .Rproj.user
 
 # Firebase cache and config

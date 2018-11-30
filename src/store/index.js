@@ -13,7 +13,7 @@ const debug = process.env.NODE_ENV !== 'production'
 Vue.use(Vuex)
 
 const vuexPersist = new VuexPersist({
-  key: 'draftpod-ABC123123123',
+  key: 'draftpod-ABC123123123456',
   storage: window.localStorage
 });
 

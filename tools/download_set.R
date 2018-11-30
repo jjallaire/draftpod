@@ -1,8 +1,10 @@
 
+library(urltools)
+
 download_set <- function(set, 
                          sets_dir = "public/sets", 
                          ratings_dir = "tools/ratings", 
-                         download_images = FALSE) {
+                         download_images = TRUE) {
   
   # download cards
   cards <- list()
@@ -46,11 +48,11 @@ download_set <- function(set,
     }
     
     # get id
-    multiverse_id <- card$multiverse_ids[[1]]
+    multiverse_ids <- card$multiverse_ids
     
     # get rating
     if (!is.null(ratings)) {
-      ratings_for_id <- subset(ratings, id == multiverse_id)
+      ratings_for_id <- subset(ratings, id == multiverse_ids[[1]])
       if (nrow(ratings_for_id) > 0) {
         rating <- ratings_for_id$rating
         synergy <- ratings_for_id$synergy
@@ -64,9 +66,10 @@ download_set <- function(set,
     }
     
     list(
-      id = multiverse_id,
-      collector_number = as.integer(card$collector_number),
+      id = multiverse_ids[[1]],
       name = card$name,
+      collector_number = as.integer(card$collector_number),
+      multiverse_ids = I(multiverse_ids),
       image_uris = I(image_uris),
       type_line = card$type_line,
       mana_cost = mana_cost,
@@ -95,14 +98,18 @@ download_set <- function(set,
   
   # download images
   if (download_images) {
+    card_image_dir <- normalizePath(file.path(sets_dir, "..", "images", "cards"), mustWork = FALSE)
+    if (!dir.exists(card_image_dir))
+      dir.create(card_image_dir, recursive = TRUE)
     for (card in cards) {
-      card_image <- file.path(set_dir, paste0(card$id, ".png"))
-      if (!file.exists(card_image)) {
-        curl::curl_download(card$image_uris[[1]], card_image)
-        if (length(card$image_uris) > 1)
-          curl::curl_download(card$image_uris[[2]], 
-                              file.path(set_dir, paste0(card$id, "-back.png")))
-      }
+      for (i in 1:length(card$image_uris)) {
+        image_uri <- card$image_uris[[i]]
+        file_ext <- tools::file_ext(url_parse(image_uri)$path)
+        image_path <- file.path(card_image_dir, paste0(card$multiverse_ids[[i]], ".", file_ext))
+        if (!file.exists(image_path)) {
+          curl::curl_download(card$image_uris[[i]], image_path)
+        }
+      }  
     }
   }
   
