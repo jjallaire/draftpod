@@ -33,7 +33,7 @@ export default {
       return selectors.activeCards(this.draft.table);
     },
     card_preview_image: function() {
-      return selectors.draftThumbnail(this.draft.table);
+      return selectors.draftThumbnail(this.draft);
     },
     deck_total_cards: function() {
       return selectors.deckTotalCards(this.draft.table.deck);

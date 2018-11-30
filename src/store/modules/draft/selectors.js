@@ -82,13 +82,13 @@ export function cardColors(cards) {
     return b.count - a.count;
   });
 }
-
-export function draftThumbnail(table) {
-  let active_cards = activeCards(table);
+export function draftThumbnail(draft) {
+  let set_code = draft.options.set_code;
+  let active_cards = activeCards(draft.table);
   if (active_cards.length > 0)
-    return cardImageUris(draftbot.packRatings(active_cards, active_cards)[0].card)[0];
+    return cardImageUris(draftbot.pick(set_code, active_cards, active_cards))[0];
   else
-    return cardImageUris(draftbot.packRatings([], table.picks.pack)[0].card)[0];
+    return cardImageUris(draftbot.pick(set_code, [], draft.table.picks.pack))[0];
 }
 
 
