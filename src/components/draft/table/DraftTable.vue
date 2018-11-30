@@ -41,7 +41,8 @@ export default {
   data: function() {
     return { 
       fullscreen: false,
-      card_preview: ["/images/card-back.png"]
+      fullscreenEnabled: fscreen.fullscreenEnabled,
+      card_preview: ["/images/card-back.png"],
     };
   },
 
@@ -192,7 +193,7 @@ export default {
             <DeleteIcon title="Discard Draft" @click.native="onRemoveDraft"/>
           </a>
         </li>
-        <li class="nav-item">
+        <li v-if="fullscreenEnabled" class="nav-item">
           <a class="nav-link icon-link">
             <FullScreenExitIcon  v-if="fullscreen" title="Exit fullscreen mode" @click.native="onFullscreenToggle"/>
             <FullScreenIcon v-else title="Fullscreen mode" @click.native="onFullscreenToggle"/>
