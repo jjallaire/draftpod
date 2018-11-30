@@ -13,6 +13,7 @@ export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 import uuidv4 from 'uuid'
 import _shuffle from 'lodash/shuffle'
 import _flatten from 'lodash/flatten'
+import _remove from 'lodash/remove'
 
 import * as set from './set/'
 import * as draftbot from './draftbot'
@@ -484,16 +485,26 @@ function addCardToPile(pile, card, insertBefore) {
 
 function booster(set_code, cardpool) {
 
-  // generate range of indexes then shuffle it
-  let indexes = _shuffle([...Array(cardpool.length).keys()]);
+  // track cards already selected (to prevent duplicates)
+  let selectedCardIds = [];
 
-  // function to draw next n cards that pass a filter
-  function selectCards(filter, number) {
+  function select(filter, number) {
+
+    // generate range of indexes then shuffle it
+    let indexes = _shuffle([...Array(cardpool.length).keys()]);
+  
+    // scan through the cards and match the filter
+    let selectedIndexes = [];
     let cards = [];
     for (let i=0; i<indexes.length; i++) {
       let index = indexes[i];
       let card = cardpool[index];
       if (filter(card)) {
+
+        // detect duplicate 
+        if (selectedCardIds.indexOf(card.id) !== -1)
+          continue;
+
         // determine card image uris
         let images = card.image_uris;
         if (local_images) {
@@ -502,7 +513,14 @@ function booster(set_code, cardpool) {
           if (images.length > 1)
             images[1] = base_image + '-back.png';
         }
+  
+        // record index selected (will be removed from cardpool)
+        selectedIndexes.push(index);
 
+        // record ids selected (used to prevetn duplicates)
+        selectedCardIds.push(card.id);
+  
+        // accumulate card
         cards.push({...card, 
           key: uuidv4(), 
           images: images
@@ -511,9 +529,37 @@ function booster(set_code, cardpool) {
       if (cards.length >= number)
         break;
     }
+  
+    // remove drawn cards from cardpool
+    _remove(cardpool, (value, index) => selectedIndexes.indexOf(index) !== -1);
+  
+    // return cards
     return cards;
+  }    
+
+
+  // function to draw next n cards that pass a filter
+  function selectCards(filters, number) {
+
+    // normalize to single set of filters
+    filters = [].concat(filters);
+
+    // call the filters in sequence until we select all the cards we need
+    let cards = [];
+    for (let i=0; i<filters.length; i++) {
+      let filter = filters[i];
+      cards = cards.concat(select(filter, number - cards.length));
+      if (cards.length >= number)
+        break;
+    }
+
+    // return the cards
+    return cards;    
   }
 
   return set.booster(set_code, selectCards);
 }
+
+
+
 

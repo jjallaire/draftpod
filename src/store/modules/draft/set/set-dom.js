@@ -1,7 +1,8 @@
 
 
-import * as filters from '../card-filters'
 import * as cube from './cube'
+import * as booster from './booster'
+import * as filters from '../card-filters'
 
 export default {
 
@@ -13,21 +14,22 @@ export default {
 
     // allocate rares and uncommons
     let rares_and_uncommons = [].concat(
-      selectCards(filters.packRareSlot, 1),
-      selectCards(filters.uncommon, 3)
+      selectCards(booster.packRareSlot, 1),
+      selectCards(booster.uncommon, 3)
     );
 
     // if there is no legendary then fill in legendary slot
     if (rares_and_uncommons.filter(legendary).length === 0) {
       rares_and_uncommons.pop();
       rares_and_uncommons.push(
-        selectCards(filters.join(legendaryUncommon, filters.notOneOf(rares_and_uncommons)), 1)[0]
+        selectCards([filters.join(legendaryUncommon, filters.notOneOf(rares_and_uncommons),
+                     booster.uncommon)], 1)[0]
       );
     }
   
     return [].concat(
       rares_and_uncommons,
-      selectCards(filters.common, 11)
+      selectCards(booster.common, 11)
     );
   },
 }

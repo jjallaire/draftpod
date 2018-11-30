@@ -1,7 +1,8 @@
 
 
-import * as filters from '../card-filters'
 import * as cube from './cube'
+import * as booster from './booster'
+import * as filters from '../card-filters'
 
 export default {
 
@@ -21,15 +22,12 @@ export default {
   },
 
   booster(selectCards) {
-
     return [].concat(
-      selectCards(filters.packRareSlot, 1),
-      selectCards(filters.uncommon, 3),
-      selectCards(filters.join(filters.common, card => !guildgate(card)), 10),
-      selectCards(guildgate, 1),
+      selectCards(booster.packRareSlot, 1),
+      selectCards(booster.uncommon, 3),
+      selectCards(commonNotGuildgate, 10),
+      selectCards([guildgate, booster.basicLand], 1),
     );
-
-
   },
 
 }
@@ -39,3 +37,8 @@ function guildgate(card) {
                        "Izzet Guildgate", "Selesnya Guildgate"];
   return GUILDGATES.indexOf(card.name) >= 0;
 }
+
+
+const commonNotGuildgate = filters.join(filters.common, card => !guildgate(card));
+
+

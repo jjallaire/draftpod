@@ -1,7 +1,8 @@
 
 
-import * as filters from '../card-filters'
 import * as cube from './cube'
+import * as booster from './booster'
+import * as filters from '../card-filters'
 
 export default {
 
@@ -11,16 +12,16 @@ export default {
 
   booster(selectCards) {
 
-    let booster = [].concat(
-      selectCards(filters.packRareSlot, 1),
-      selectCards(filters.uncommon, 3),
-      selectCards(filters.join(filters.common, card => !dualLand(card)), 10)
+    let cards = [].concat(
+      selectCards(booster.packRareSlot, 1),
+      selectCards(booster.uncommon, 3),
+      selectCards(commonNotDualLand, 10)
     );
 
     if (Math.random() <= (5/12)) {
-      return booster.concat(selectCards(dualLand, 1));
+      return cards.concat(selectCards(dualLand, 1));
     } else {
-      return booster.concat(selectCards(filters.basicLand, 1));
+      return cards.concat(selectCards(filters.basicLand, 1));
     }
   },
 
@@ -33,5 +34,9 @@ function dualLand(card) {
                        'Woodland Stream'];
   return DUAL_LANDS.indexOf(card.name) >= 0;
 }
+
+const commonNotDualLand = filters.join(filters.common, card => !dualLand(card));
+
+
 
 

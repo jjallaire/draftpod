@@ -7,6 +7,10 @@ import router from './router'
 import { store } from './store'
 
 
+// UI for specifying cube quantities
+
+
+
 // docs: http://www.metamox.com/blog/9-things-you-need-to-know-about-how-to-make-a-set-cube/
 // (help w/ how to acquire a cube)
 
@@ -14,13 +18,6 @@ import { store } from './store'
 // implement local images elsewhere
 
 // ranking of older sets: http://draft.bestiaire.org/
-
-// when picking cards remove them from the cardpool
-
-// when picking cards provide fallbacks (mythic->rare, 
-// rare->uncommon, dual->basic land, etc.) 
-
-// prevent duplicates within a pack
 
 // penalty for multi-color in early picks
 // divide draft ai logic into buckets
