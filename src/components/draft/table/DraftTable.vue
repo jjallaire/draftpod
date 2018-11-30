@@ -47,7 +47,7 @@ export default {
   },
 
   components: {
-    NavBar, Navigator, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
+    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
     FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, DeleteIcon
   },
 
