@@ -42,16 +42,23 @@ export default {
   },
 
   methods: {
+    
     onStartDraft: function() {
-      
+      this.startDraft().then(( {draft_id }) => {
+        this.$router.push({ path: "/draft/", hash: "#" + draft_id });
+      });     
+    },
+
+    startDraft(options) {
+
       // generate new draft_id
       let draft_id = uuidv4();
 
       // use draft module
       useDraftModule(draft_id);
 
-      // establish options
-      let options = {
+      // provide default options
+      options = options || {
         set_code: this.set_code,
         cardpool: this.cardpool,
         pick_timer: this.pick_timer,
@@ -61,13 +68,14 @@ export default {
       // save as preferences for the next draft
       this.updatePreferences(options);
 
-      // start the draft
-      this.$store.dispatch("drafts/" + draft_id + "/" + START_DRAFT, options)
-        .then(() => {
-          // push state
-          this.$router.push({ path: "/draft/", hash: "#" + draft_id });
+      // eslint-disable-next-line
+      return new Promise((resolve, reject) => {
+        // start draft (return promise)
+        this.$store.dispatch("drafts/" + draft_id + "/" + START_DRAFT, options).then(() => {
+          resolve( { draft_id });    
         });
-     
+      });
+
     },
 
     applySetPreferences() {
