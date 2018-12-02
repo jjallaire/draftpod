@@ -5,6 +5,7 @@ import VuexPersist from 'vuex-persist'
 
 import getters from './getters'
 import mutations from './mutations'
+import actions from './actions'
 
 import draftModule from './modules/draft'
 
@@ -32,6 +33,7 @@ export const store = new Vuex.Store({
   },
   getters,
   mutations,
+  actions,
   plugins: [vuexPersist.plugin],
   strict: debug,
 });
@@ -50,15 +52,17 @@ export function useDraftModule(draft_id, options) {
 
 if (module.hot) {
   // accept actions and mutations as hot modules
-  module.hot.accept(['./getters', './mutations'], () => {
+  module.hot.accept(['./getters', './mutations', './actions'], () => {
     // require the updated modules
     // have to add .default here due to babel 6 module output
     const newGetters = require('./getters').default
     const newMutations = require('./mutations').default
+    const newActions = require('./actions').default
     // swap in the new actions and mutations
     store.hotUpdate({
       getters: newGetters,
       mutations: newMutations,
+      actions: newActions,
     });
   })
 }

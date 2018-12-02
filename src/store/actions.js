@@ -1,20 +1,26 @@
 
+
+
 import axios from 'axios'
+import uuidv4 from 'uuid'
 
-import { 
-  ENTER_DRAFT,
-} from './mutations';
+import { START_DRAFT } from './modules/draft/mutations';
 
-import * as set from './set/'
+import * as set from './modules/draft/set/'
+import { useDraftModule } from '@/store'
 
-export const START_DRAFT = 'START_DRAFT'
+export const CREATE_DRAFT = 'CREATE_DRAFT'
 
 export default {
 
-  [START_DRAFT]( { commit }, {set_code, cardpool, pick_timer, pick_analysis} ) {
+  [CREATE_DRAFT]( { commit }, { set_code, cardpool, pick_timer, pick_analysis } ) {
 
-    // eslint-disable-next-line
-    return new Promise((resolve, reject) => {
+    // create a new draft module
+    let draft_id = uuidv4();
+    useDraftModule(draft_id);
+
+    // download/generate cardpool and return draft_id
+    return new Promise((resolve) => {
 
       // download set data
       axios.get('/sets/' + set_code + '/cards.json')
@@ -33,7 +39,7 @@ export default {
           });
           
           // initialize
-          commit(ENTER_DRAFT, {
+          commit("drafts/" + draft_id + "/" + START_DRAFT, {
             set_code,
             cardpool: cardpool,
             options: {
@@ -43,7 +49,7 @@ export default {
           });
 
           // resolve promise
-          resolve({});
+          resolve({ draft_id });
         });
     });
   },

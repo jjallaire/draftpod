@@ -1,5 +1,5 @@
 
-export const ENTER_DRAFT = 'ENTER_DRAFT'
+export const START_DRAFT = 'START_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const NEXT_PACK = 'NEXT_PACK'
@@ -23,7 +23,7 @@ import { PICKS, DECK } from './constants'
 
 export default {
 
-  [ENTER_DRAFT](state, { set_code, cardpool, options }) {
+  [START_DRAFT](state, { set_code, cardpool, options }) {
     
     // initialize options
     state.options = {

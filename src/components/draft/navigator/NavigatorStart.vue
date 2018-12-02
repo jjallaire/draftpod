@@ -3,12 +3,12 @@
 import NavigatorPanel from './NavigatorPanel.vue'
 import PlayCircleIcon from "vue-material-design-icons/PlayCircleOutline.vue"
 
-import { useDraftModule } from '@/store'
+// eslint-disable-next-line 
+import { store } from '@/store'
 import { UPDATE_PREFERENCES } from '@/store/mutations'
-import { START_DRAFT } from '@/store/modules/draft/actions'
-import { mapState, mapMutations } from 'vuex'
+import { CREATE_DRAFT } from '@/store/actions'
 
-import uuidv4 from 'uuid'
+import { mapState, mapMutations, mapActions } from 'vuex'
 
 export default {
   name: 'NavigatorStart',
@@ -43,39 +43,31 @@ export default {
 
   methods: {
     
+    ...mapMutations({
+      updatePreferences: UPDATE_PREFERENCES
+    }),
+
+    ...mapActions({
+      createDraft: CREATE_DRAFT
+    }),
+
     onStartDraft: function() {
-      this.startDraft().then(( {draft_id }) => {
-        this.$router.push({ path: "/draft/", hash: "#" + draft_id });
-      });     
-    },
 
-    startDraft(options) {
-
-      // generate new draft_id
-      let draft_id = uuidv4();
-
-      // use draft module
-      useDraftModule(draft_id);
-
-      // provide default options
-      options = options || {
+      // get options
+      let options = {
         set_code: this.set_code,
         cardpool: this.cardpool,
         pick_timer: this.pick_timer,
         pick_analysis: this.pick_analysis
       };
 
-      // save as preferences for the next draft
+      // update prefs for future drafts
       this.updatePreferences(options);
 
-      // eslint-disable-next-line
-      return new Promise((resolve, reject) => {
-        // start draft (return promise)
-        this.$store.dispatch("drafts/" + draft_id + "/" + START_DRAFT, options).then(() => {
-          resolve( { draft_id });    
-        });
-      });
-
+      // create the draft then navigate to it
+      this.createDraft(options).then(( {draft_id }) => {
+        this.$router.push({ path: "/draft/", hash: "#" + draft_id });
+      });   
     },
 
     applySetPreferences() {
@@ -89,10 +81,6 @@ export default {
     onSetChanged() {
       this.applySetPreferences();
     },
-
-    ...mapMutations({
-      updatePreferences: UPDATE_PREFERENCES
-    }),
   }
 
 }
