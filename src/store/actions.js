@@ -13,7 +13,7 @@ export const CREATE_DRAFT = 'CREATE_DRAFT'
 
 export default {
 
-  [CREATE_DRAFT]( { commit }, options ) {
+  [CREATE_DRAFT]( { commit }, { set_code, cardpool, options } ) {
 
     // create a new draft module
     let draft_id = uuidv4();
@@ -23,15 +23,15 @@ export default {
     return new Promise((resolve) => {
 
       // download set data
-      axios.get('/sets/' + options.set_code + '/cards.json')
+      axios.get('/sets/' + set_code + '/cards.json')
         .then(response => {
 
           // all cards in the set
           let cardsInSet = response.data;
 
           // cardpool: either an explicit list or a generated cube
-          let [ common, uncommon, mythic, rare ] = options.cardpool.split('/').map(Number);
-          let cardpool = set.cube(options.set_code, cardsInSet, {
+          let [ common, uncommon, mythic, rare ] = cardpool.split('/').map(Number);
+          cardpool = set.cube(set_code, cardsInSet, {
             mythic: mythic,
             rare: rare,
             uncommon: uncommon,
@@ -40,13 +40,9 @@ export default {
           
           // initialize
           commit("drafts/" + draft_id + "/" + START_DRAFT, {
-            set_code: options.set_code,
-            cardpool: cardpool,
-            options: {
-              pick_timer: options.pick_timer,
-              pick_analysis: options.pick_analysis,
-              clear_table: options.clear_table
-            }
+            set_code,
+            cardpool,
+            options
           });
 
           // resolve promise

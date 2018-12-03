@@ -53,19 +53,23 @@ export default {
 
     onStartDraft: function() {
 
-      // get options
-      let options = {
+      // update prefs for future drafts
+      this.updatePreferences({
         set_code: this.set_code,
         cardpool: this.cardpool,
         pick_timer: this.pick_timer,
         pick_analysis: this.pick_analysis
-      };
-
-      // update prefs for future drafts
-      this.updatePreferences(options);
+      });
 
       // create the draft then navigate to it
-      this.createDraft(options).then(( {draft_id }) => {
+      this.createDraft({ 
+        set_code: this.set_code, 
+        cardpool: this.cardpool, 
+        options: { 
+          pick_timer: this.pick_timer, 
+          pick_analysis: this.pick_analysis 
+        }
+      }).then(( {draft_id }) => {
         this.$router.push({ path: "/draft/", hash: "#" + draft_id });
       });   
     },
