@@ -13,7 +13,7 @@ export const CREATE_DRAFT = 'CREATE_DRAFT'
 
 export default {
 
-  [CREATE_DRAFT]( { commit }, { set_code, cardpool, pick_timer, pick_analysis } ) {
+  [CREATE_DRAFT]( { commit }, { set_code, cardpool, pick_timer, pick_analysis, clear_table } ) {
 
     // create a new draft module
     let draft_id = uuidv4();
@@ -45,6 +45,7 @@ export default {
             options: {
               pick_timer,
               pick_analysis,
+              clear_table
             }
           });
 

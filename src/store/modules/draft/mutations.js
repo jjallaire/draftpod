@@ -27,9 +27,10 @@ export default {
     
     // initialize options
     state.options = {
+      ...state.options,
+      ...options,
       set_code: set_code,
       set_name: set.name(set_code),
-      ...options  
     };
     
     updateTable(state, (table) => {
@@ -89,7 +90,7 @@ export default {
           movePicksToDeck(table);
 
           // complete picks
-          completePicks(table);
+          completePicks(table, state.options.clear_table);
         }
 
       // pass the packs
@@ -291,11 +292,18 @@ function movePicksToDeck(table) {
   deck.lands.basic = computeAutoLands(deck);
 }
 
-function completePicks(table) {
-  table.all_packs = [];
-  table.picks = { pack: [], piles: []};
-  table.players = [];
+function completePicks(table, clear_table) {
+  
+  // set completed status
   table.picks_complete = true;
+
+  // clear the table
+  if (clear_table) {
+    table.all_packs = [];
+    table.picks = { pack: [], piles: []};
+    table.players = [];
+  }
+  
 }
 
 
