@@ -94,7 +94,7 @@ export default {
 
 <template>
 
-<ContentPanel name="new-draft" caption="Start New Draft">
+<ContentPanel caption="Start New Draft">
   <form class="start-draft">
     <SelectSet v-model="set_code" @input="onSetChanged" />
     <SelectCardpool v-model="cardpool" />

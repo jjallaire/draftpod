@@ -36,8 +36,7 @@ export default {
 
 <template>
 
-  <ContentPanel name="recent-drafts" caption="Recent Drafts" 
-                  class="recent-drafts">
+  <ContentPanel caption="Recent Drafts" class="recent-drafts">
     <transition-group v-if="draft_history.length > 0" name="recent-draft-row">
     <div v-for="draft in draft_history" :key="draft.id" class="row align-items-center"
          @click="onDraftNavigate(draft)">
