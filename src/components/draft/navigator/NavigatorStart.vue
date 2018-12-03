@@ -70,7 +70,7 @@ export default {
           pick_analysis: this.pick_analysis 
         }
       }).then(( {draft_id }) => {
-        this.$router.push({ path: "/draft/", hash: "#" + draft_id });
+        this.$router.push({ path: "/draft/" + draft_id });
       });   
     },
 
