@@ -5,7 +5,7 @@
 import UiPanel from '@/components/core/UiPanel.vue'
 
 export default {
-  name: 'NavigatorPanel',
+  name: 'ContentPanel',
   props: {
     caption: {
       type: String,
@@ -22,7 +22,7 @@ export default {
 
 <template>
 
-  <UiPanel class="navigator-panel" :caption="caption" >
+  <UiPanel class="content-panel" :caption="caption" >
     <slot></slot>
   </UiPanel>
 
@@ -30,20 +30,35 @@ export default {
 
 <style>
 
-.navigator-panel .card-header .text-light {
+.content-panel {
+  margin-bottom: 35px;
+}
+
+.content-panel .btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 160px;
+  border: 0;
+}
+
+.content-panel .form-check {
+  margin-top: 10px;
+}
+
+.content-panel .card-header .text-light {
   color: #aaa !important;
 }
 
-.navigator-panel .card-body {
+.content-panel .card-body {
   padding: 30px;
 }
 
-.navigator-panel .card-body select {
+.content-panel .card-body select {
   background-color: rgb(236,236,236);
 }
 
 
-.navigator-panel .card-body button {
+.content-panel .card-body button {
   min-width: 140px;
   color: #fff;
   opacity: 0.75;

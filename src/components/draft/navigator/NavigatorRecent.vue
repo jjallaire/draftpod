@@ -2,7 +2,7 @@
 <script>
 
 import SetIcon from '@/components/core/SetIcon.vue'
-import NavigatorPanel from './NavigatorPanel.vue'
+import ContentPanel from '@/components/core//ContentPanel.vue'
 import HistoryIcon from "vue-material-design-icons/History.vue"
 import RemoveDraft from './RemoveDraft.vue'
 
@@ -28,7 +28,7 @@ export default {
   },
 
   components: {
-    NavigatorPanel, HistoryIcon, SetIcon, RemoveDraft
+    ContentPanel, HistoryIcon, SetIcon, RemoveDraft
   }
 
 }
@@ -37,7 +37,7 @@ export default {
 
 <template>
 
-  <NavigatorPanel name="recent-drafts" caption="Recent Drafts" 
+  <ContentPanel name="recent-drafts" caption="Recent Drafts" 
                   class="recent-drafts">
     <template slot="icon"><HistoryIcon /></template>
 
@@ -76,7 +76,7 @@ export default {
       </div>
     </div>
 
-  </NavigatorPanel>
+  </ContentPanel>
 
 </template>
 

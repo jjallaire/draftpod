@@ -91,21 +91,6 @@ export default {
 
 <style>
 
-.navigator-panel {
-  margin-bottom: 35px;
-}
-
-.navigator-panel .btn {
-  padding-left: 20px;
-  padding-right: 20px;
-  min-width: 160px;
-  border: 0;
-}
-
-.navigator-panel .form-check {
-  margin-top: 10px;
-}
-
 .resume-slide-out-leave-active {
   transition: all 0.5s;
   max-height: 300px;

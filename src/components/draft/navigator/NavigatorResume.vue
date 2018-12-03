@@ -1,6 +1,6 @@
 <script>
 
-import NavigatorPanel from './NavigatorPanel.vue'
+import ContentPanel from '@/components/core/ContentPanel.vue'
 import ManaLegend from '@/components/draft/infobar/ManaLegend.vue'
 import ManaCurve from '@/components/draft/infobar/ManaCurve.vue'
 import ManaColors from '@/components/draft/infobar/ManaColors.vue'
@@ -48,7 +48,7 @@ export default {
   },
 
   components: {
-    NavigatorPanel, RotateRight, ManaLegend, ManaCurve, ManaColors, RemoveDraft
+    ContentPanel, RotateRight, ManaLegend, ManaCurve, ManaColors, RemoveDraft
   }
 
 }
@@ -57,7 +57,7 @@ export default {
 
 <template>
 
-  <NavigatorPanel name="resume-draft" caption="Draft in Progress"
+  <ContentPanel name="resume-draft" caption="Draft in Progress"
                   class="resume-draft">
     <template slot="icon"><RotateRight/></template>
     <div class="row">
@@ -88,7 +88,7 @@ export default {
         <img class="card-preview" :src="card_preview_image" height="150"/>
       </div>
     </div>
-  </NavigatorPanel>
+  </ContentPanel>
 
 </template>
 
