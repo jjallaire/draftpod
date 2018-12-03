@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 import HomePage from './components/HomePage.vue'
 import TablePage from './components/draft/table/TablePage.vue'
 import NavigatorPage from './components/draft/navigator/NavigatorPage.vue'
+import SimulatorPage from './components/draft/simulator/SimulatorPage.vue'
 import AboutPage from './components/AboutPage.vue'
 
 import { store, useDraftModule } from './store'
@@ -29,6 +30,7 @@ export default new VueRouter({
         }
       } 
     },
+    { path: '/simulator/', component: SimulatorPage },
     { path: '/about', component: AboutPage },
   ],
   
