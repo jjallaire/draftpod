@@ -1,6 +1,8 @@
 <script>
 
 import ContentPanel from '@/components/core/ContentPanel.vue'
+import SelectSet from '@/components/draft/core/SelectSet.vue'
+import SelectCardpool from '@/components/draft/core/SelectCardpool.vue'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
@@ -31,7 +33,7 @@ export default {
   },
 
   components: {
-    ContentPanel
+    ContentPanel, SelectSet, SelectCardpool
   },
 
   computed: {
@@ -94,26 +96,8 @@ export default {
 
 <ContentPanel name="new-draft" caption="Start New Draft">
   <form class="start-draft">
-    <div class="form-group row">
-      <label for="draft-set" class="col-sm-3 col-form-label">Draft from:</label>
-      <div class="col-sm-8">
-        <select id="draft-set" class="form-control" v-model="set_code" @change="onSetChanged">
-          <option value="grn">Guilds of Ravnica</option>
-          <option value="m19">Core Set 2019</option>
-          <option value="dom">Dominaria</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="draft-cardpool" class="col-sm-3 col-form-label">Cardpool:</label>
-      <div class="col-sm-8">
-        <select id="draft-cardpool" class="form-control" v-model="cardpool">
-          <option value="4/3/2/1">4x Common, 3x Uncommon, 2x Rare, 1x Mythic</option>
-          <option value="3/2/1/1">3x Common, 2x Uncommon, 1x Rare, 1x Mythic</option>
-          <option value="4/4/0/0">4x Common, 4x Uncommon</option>
-        </select>
-      </div>
-    </div>
+    <SelectSet v-model="set_code" @input="onSetChanged" />
+    <SelectCardpool v-model="cardpool" />
     <div class="form-group row">
       <label for="draft-options" class="col-sm-3 col-form-label">Draft options:</label>
       <div id="draft-options" class="col-sm-8">
