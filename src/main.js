@@ -7,14 +7,7 @@ import router from './router'
 import { store } from './store'
 
 
-// TODO: initial draft ai 
-//
-// penalty for multi-color in early picks
-// divide draft ai logic into buckets
-// draft ai tier applying bonus to matters (i.e. sideboard before unplayable)
-// test color distribution of bots
-
-// ability to specify/upload custom cardpools
+// TODO: ability to specify/upload custom cardpools
 //   http://www.deckedbuilder.com/ (easy entry and exports w/ multiverse-id)
 //   https://deckbox.org/ (imports from deckedbuilder)
 
