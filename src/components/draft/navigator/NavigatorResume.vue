@@ -6,8 +6,6 @@ import ManaCurve from '@/components/draft/infobar/ManaCurve.vue'
 import ManaColors from '@/components/draft/infobar/ManaColors.vue'
 import RemoveDraft from './RemoveDraft.vue'
 
-import RotateRight from "vue-material-design-icons/RotateRight.vue"
-
 import { mapGetters } from 'vuex'
 
 import * as selectors from '@/store/modules/draft/selectors'
@@ -48,7 +46,7 @@ export default {
   },
 
   components: {
-    ContentPanel, RotateRight, ManaLegend, ManaCurve, ManaColors, RemoveDraft
+    ContentPanel, ManaLegend, ManaCurve, ManaColors, RemoveDraft
   }
 
 }
@@ -59,7 +57,6 @@ export default {
 
   <ContentPanel name="resume-draft" caption="Draft in Progress"
                   class="resume-draft">
-    <template slot="icon"><RotateRight/></template>
     <div class="row">
       <div class="col-sm-3">
         <h4>{{ draft.options.set_name }}</h4>

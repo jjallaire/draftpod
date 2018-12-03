@@ -1,7 +1,6 @@
 <script>
 
 import ContentPanel from '@/components/core/ContentPanel.vue'
-import PlayCircleIcon from "vue-material-design-icons/PlayCircleOutline.vue"
 
 // eslint-disable-next-line 
 import { store } from '@/store'
@@ -32,7 +31,7 @@ export default {
   },
 
   components: {
-    ContentPanel, PlayCircleIcon
+    ContentPanel
   },
 
   computed: {
@@ -94,7 +93,6 @@ export default {
 <template>
 
 <ContentPanel name="new-draft" caption="Start New Draft">
-  <template slot="icon"><PlayCircleIcon/></template>
   <form class="start-draft">
     <div class="form-group row">
       <label for="draft-set" class="col-sm-3 col-form-label">Draft from:</label>

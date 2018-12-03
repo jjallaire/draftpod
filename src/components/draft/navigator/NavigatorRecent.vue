@@ -3,7 +3,6 @@
 
 import SetIcon from '@/components/core/SetIcon.vue'
 import ContentPanel from '@/components/core//ContentPanel.vue'
-import HistoryIcon from "vue-material-design-icons/History.vue"
 import RemoveDraft from './RemoveDraft.vue'
 
 export default {
@@ -28,7 +27,7 @@ export default {
   },
 
   components: {
-    ContentPanel, HistoryIcon, SetIcon, RemoveDraft
+    ContentPanel, SetIcon, RemoveDraft
   }
 
 }
@@ -39,8 +38,6 @@ export default {
 
   <ContentPanel name="recent-drafts" caption="Recent Drafts" 
                   class="recent-drafts">
-    <template slot="icon"><HistoryIcon /></template>
-
     <transition-group v-if="draft_history.length > 0" name="recent-draft-row">
     <div v-for="draft in draft_history" :key="draft.id" class="row align-items-center"
          @click="onDraftNavigate(draft)">
