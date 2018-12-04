@@ -1,6 +1,7 @@
 
 export const START_DRAFT = 'START_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
+export const SIMULATE_DRAFT = 'SIMULATE_DRAFT'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const NEXT_PACK = 'NEXT_PACK'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
@@ -48,55 +49,17 @@ export default {
     state.start_time = new Date().getTime();
   },
 
-  [PACK_TO_PICK](state, { card, pile_number, insertBefore }) {
-
+  [SIMULATE_DRAFT](state) {
     updateTable(state, (table) => {
-
-      // null card means have the AI pick
-      if (!card) {
-        let deck = _flatten(table.picks.piles);
-        card = draftbot.pick(state.options.set_code, deck, table.picks.pack);
+      while (!table.picks_complete) {
+        packToPick(state.options.set_code, table, null,  null, null, false);
       }
+    });
+  },
 
-      // if the pile_number is null then choose the least populated pile
-      // of the first 6 piles
-      let piles = table.picks.piles;
-      if (pile_number === null) {
-        pile_number = piles.slice(0, 6).reduce( (shortestPileIndex, pile, index) => {
-          if (pile.length < piles[shortestPileIndex].length)
-            return index;
-          else
-            return shortestPileIndex;
-        }, 0);
-      }
-
-      // write the pick 
-      let pack = table.picks.pack;
-      let pile = piles[pile_number];
-      packToPick(pack, pile, card, insertBefore);
-
-      // have other players make their picks
-      aiPicks(state.options, table);
-
-      // check whether the pack is completed
-      if (table.picks.pack.length === 0) {
-
-        // if we still have packs to go then create the next pack
-        if (table.current_pack < 3) {
-          nextPack(table);
-        } else {
-
-          // move picks to deck
-          movePicksToDeck(table);
-
-          // complete picks
-          completePicks(table, state.options.clear_table);
-        }
-
-      // pass the packs
-      } else {
-        passPacks(table);
-      }
+  [PACK_TO_PICK](state, { card, pile_number, insertBefore }) {
+    updateTable(state, (table) => {
+      packToPick(state.options.set_code, table, card, pile_number, insertBefore)
     });
   },
 
@@ -169,6 +132,56 @@ function updateTable(state, updator) {
   state.table = table;
 }
 
+function packToPick(set_code, table, card, pile_number, insertBefore, clear_table = true) {
+
+  // null card means have the AI pick
+  if (!card) {
+    let deck = _flatten(table.picks.piles);
+    card = draftbot.pick(set_code, deck, table.picks.pack);
+  }
+
+  // if the pile_number is null then choose the least populated pile
+  // of the first 6 piles
+  let piles = table.picks.piles;
+  if (pile_number === null) {
+    pile_number = piles.slice(0, 6).reduce( (shortestPileIndex, pile, index) => {
+      if (pile.length < piles[shortestPileIndex].length)
+        return index;
+      else
+        return shortestPileIndex;
+    }, 0);
+  }
+
+  // write the pick 
+  let pack = table.picks.pack;
+  let pile = piles[pile_number];
+  makePick(pack, pile, card, insertBefore);
+
+  // have other players make their picks
+  aiPicks(set_code, table);
+
+  // check whether the pack is completed
+  if (table.picks.pack.length === 0) {
+
+    // if we still have packs to go then create the next pack
+    if (table.current_pack < 3) {
+      nextPack(table);
+    } else {
+
+      // move picks to deck
+      movePicksToDeck(table);
+
+      // complete picks
+      completePicks(table, clear_table);
+    }
+
+  // pass the packs
+  } else {
+    passPacks(table);
+  }
+
+}
+
 function passPacks(table) {
   // compose array of all players
   let players = [{ picks: table.picks, deck: table.deck }]
@@ -224,7 +237,7 @@ function nextPick(table) {
 
 }
 
-function packToPick(pack, pile, card, insertBefore) {
+function makePick(pack, pile, card, insertBefore) {
 
   // remove from pack
   pack.splice(cardIndex(pack, card), 1);
@@ -233,14 +246,14 @@ function packToPick(pack, pile, card, insertBefore) {
   addCardToPile(pile, card, insertBefore);
 }
 
-function aiPicks(options, table) {
+function aiPicks(set_code, table) {
   let players = table.players;
   for (let i=0; i<players.length; i++) {
     let player = players[i];
     let pack = player.picks.pack;
     let pile = player.picks.piles[0];
-    let card = draftbot.pick(options.set_code, pile, pack);
-    packToPick(pack, pile, card, null);
+    let card = draftbot.pick(set_code, pile, pack);
+    makePick(pack, pile, card, null);
   }
 }
 

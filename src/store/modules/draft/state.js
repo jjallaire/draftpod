@@ -13,7 +13,6 @@ export default function() {
       set_name: null,
       pick_timer: false,
       pick_analysis: false,
-      clear_table: true
     },
 
     // table

@@ -10,7 +10,7 @@ import SelectCardpool from '@/components/draft/core/SelectCardpool.vue'
 import { mapActions, mapMutations } from 'vuex'
 import { CREATE_DRAFT } from '@/store/actions'
 import { REMOVE_DRAFTS } from '@/store/mutations'
-import { PACK_TO_PICK } from '@/store/modules/draft/mutations'
+import { SIMULATE_DRAFT } from '@/store/modules/draft/mutations'
 
 import { DECK } from '@/store/modules/draft/constants'
 import * as draftbot from '@/store/modules/draft/draftbot'
@@ -108,9 +108,7 @@ export default {
           this.createDraft({ 
             set_code: this.set_code, 
             cardpool: this.cardpool, 
-            options: { 
-              clear_table: false 
-            }
+            options: {}
           }).then(({ draft_id } ) => { resolve(draft_id) } )
         }));
       }
@@ -122,14 +120,7 @@ export default {
 
         drafts.forEach((draft_id) => {
 
-          // simulate all of the picks
-          while (!this.$store.state.drafts[draft_id].table.picks_complete) {
-            this.$store.commit("drafts/" + draft_id + "/" + PACK_TO_PICK, {
-              card: null,
-              pile_number: null, 
-              insertBefore: null
-            });
-          }
+          this.$store.commit("drafts/" + draft_id + "/" + SIMULATE_DRAFT);
 
           // record the data
           let table = this.$store.state.drafts[draft_id].table;
