@@ -134,7 +134,7 @@ export function cardRatings(deck, pack) {
 export function deckColors(deck, numColors = 2) {
 
   let colorAffinity = deck.reduce((colors, card) => {
-    if (card.rating >= 3.0 ) {
+    if (card.rating >= 2.5) {
       card.colors.forEach((color) => {
         if (!colors.hasOwnProperty(color))
           colors[color] = 0;
