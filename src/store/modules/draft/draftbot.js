@@ -13,17 +13,17 @@ export function cardRatings(deck, pack) {
   // highest overall power-level)
   let deck_colors = deckColors(deck);
 
-  // determine what percent of a card's colors must 
-  // match for it to be considered 'on-color'. During Pack 1
-  // this will be 50% (to account for gold cards), during Packs
-  // 2-3 this will be 66% (so that bots will still draft
+  // determine what percent of a card's colors must match for it to be 
+  // considered 'on-color' and get a scaled color bonus. During pack 1
+  // this will be 50% to account for more exploratory drafting. During
+  // packs 2-3 this will be 66% (so that bots will still draft
   // 3-color cards)
-  let color_ratio = deck.length <= 14 ? 0.50 : 0.66;
+  let color_bonus_factor_threshold = deck.length <= 14 ? 0.50 : 0.66;
 
   // color bonus escalates gradually over first 15 picks
-  const color_bonus_levels = [0.0, 0.5, 0.6, 0.7, 0.8, 
-                              1.0, 1.1, 1.2, 1.3, 1.5,
-                              1.6, 1.7, 1.8, 1.9, 2.0];
+  const color_bonus_levels = [0.0, 0.5, 0.6, 0.7, 1.0, 
+                              1.0, 1.1, 1.2, 1.5, 1.6,
+                              1.6, 1.7, 1.8, 2.0, 2.1];
 
   // synergy bonus escalates as cards w/ synergy are selected
   const synergy_bonus_levels = [0.0, 0.2, 0.5, 0.5, 0.5, 
@@ -37,30 +37,35 @@ export function cardRatings(deck, pack) {
 
       // set baseline for ratings
       let base_rating = card.rating;
-      let color_bonus = 0;
       let synergy = null;
   
-      // is the card on-color?
-      let on_color = false;
+      // is the card on-color (color factor from 0 to 1)
+      let color_bonus_factor = 0.0;
       let card_colors = card.colors;
       if (card_colors.length === 0) {
-        // artifacts are always on-color
-        on_color = true;
+        // artifacts are always on-color but only get an 0.5 color factor
+        // so that we don't over piack them
+        color_bonus_factor = 0.5;
       } else {
         // how many of this card's colors match the deck colors?
         let matching_colors = card_colors.filter((color) =>
           deck_colors.indexOf(color) !== -1
         );
-        // compute whether we are on-color
-        on_color = (matching_colors.length / card_colors.length) >= color_ratio;
+        // compute color factor (% of our colors that match the card colors)
+        color_bonus_factor = (matching_colors.length / card_colors.length);
+
+        // eliminate the color factor entirely if it doesn't achieve
+        // a threshold ratio (> 0.5 in pack 1, > 0.66 in packs 2-3)
+        if (color_bonus_factor < color_bonus_factor_threshold)
+          color_bonus_factor = 0.0;
       }
       
-      // if it's on-color then apply bonus (bonus levels off after card 15)
-      if (on_color) {
-        color_bonus = color_bonus_levels[
-          Math.min(deck.length, color_bonus_levels.length-1)
-        ];
-      }
+      // if it's on-color then apply bonus (bonus levels increase gradually
+      // over the first pack)
+      let color_bounus_level = color_bonus_levels[
+        Math.min(deck.length, color_bonus_levels.length-1)
+      ];
+      let color_bonus = color_bonus_factor * color_bounus_level;
 
       // check for synergy
       if (card.synergy) {
