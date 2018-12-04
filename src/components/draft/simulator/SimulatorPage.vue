@@ -72,11 +72,14 @@ export default {
           guilds['simic']++;
       });
 
+      let total_guilds = 8 * this.decks.length;
       return Object.keys(guilds)
         .map((key) => {
+          let percent = +((guilds[key] / total_guilds) * 100).toFixed(2);
           return {
             name: key,
-            count: guilds[key]
+            count: guilds[key],
+            percent: isNaN(percent) ? "0" : percent
           }
         })
         .sort((a, b) => b.count - a.count);
@@ -87,11 +90,14 @@ export default {
         colors[c]++;
       });
 
+      let total_colors = 16 * this.decks.length;
       return Object.keys(colors)
         .map((key) => {
+          let percent = +((colors[key] / total_colors) * 100).toFixed(2);
           return {
             name: key,
-            count: colors[key]
+            count: colors[key],
+            percent: isNaN(percent) ? "0" : percent
           }
         })
         .sort((a, b) => b.count - a.count);
@@ -189,20 +195,24 @@ export default {
     <ContentPanel caption="Simulation Results">
 
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-5">
           <table class="table">
             <tbody>
               <tr v-for="guild in deck_guilds" :key="guild.name">
-                <td>{{ guild.name }}</td> <td>{{ guild.count }}</td>
+                <td>{{ guild.name }}</td> 
+                <td align="center">{{ guild.count }}</td> 
+                <td align="right">{{ guild.percent }}%</td>
               </tr>
             </tbody>
           </table>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-5 offset-sm-1">
           <table class="table">
             <tbody>
               <tr v-for="color in deck_colors" :key="color.name">
-                <td>{{ color.name }}</td> <td>{{ color.count }}</td>
+                <td>{{ color.name }}</td> 
+                <td align="right">{{ color.count }}</td>
+                <td align="right">{{ color.percent }}%</td>
               </tr>
             </tbody>
           </table>
