@@ -31,6 +31,9 @@ export default {
   },
 
   computed: {
+    percent_complete: function() {
+      return (this.decks.length / 8) / this.number * 100;
+    },
     deck_guilds: function() {
       let guilds = {
         izzet: 0,
@@ -96,45 +99,47 @@ export default {
   },
 
   methods: {
+
     onSimulateDrafts() {
       
       // reset status
       this.decks = [];
 
-      // create a set of promises for the simulations
-      let simulations = [];
-      for (let i=0; i<this.number; i++) {
-        simulations.push(new Promise((resolve) => {
-          this.createDraft({ 
-            set_code: this.set_code, 
-            cardpool: this.cardpool, 
-          }).then(({ draft_id } ) => { resolve(draft_id) } )
-        }));
-      }
+      // run next simulation
+      this.$nextTick(this.runNextSimulation);
 
-      // wait until they are all created
-      Promise.all(simulations).then((drafts) => {
+    },
 
-        console.log("Drafts Created");
+     runNextSimulation() {
 
-        drafts.forEach((draft_id) => {
+      // create the draft
+      this.createDraft({ 
+        set_code: this.set_code, 
+        cardpool: this.cardpool, 
+      }).then(({ draft_id }) => {
 
-          this.$store.commit("drafts/" + draft_id + "/" + SIMULATE_DRAFT);
+        // execute simulation
+        this.$store.commit("drafts/" + draft_id + "/" + SIMULATE_DRAFT);
 
-          // record the data
-          let table = this.$store.state.drafts[draft_id].table;
-          this.decks.push(draftbot.deckColors(_flatten(table.deck.piles.slice(0, DECK.PILES))));
-          table.players.forEach((player) => {
-            this.decks.push(draftbot.deckColors(player.picks.piles[0]));
-          });
-
-          // remove draft data
-          this.removeDrafts([draft_id]);
-
-          // status
-          console.log(draft_id + ' (' + (this.decks.length / 8) + '/' + drafts.length + ')');
+        // record the data
+        let table = this.$store.state.drafts[draft_id].table;
+        this.decks.push(draftbot.deckColors(_flatten(table.deck.piles.slice(0, DECK.PILES))));
+        table.players.forEach((player) => {
+          this.decks.push(draftbot.deckColors(player.picks.piles[0]));
         });
-      })
+
+        // remove draft data
+        this.removeDrafts([draft_id]);
+
+        // log completed
+        let completed = this.decks.length / 8;
+        console.log(draft_id + ' (' + this.percent_complete + '%)');
+
+        // schedule next execution if we need to
+        if (completed < this.number)
+          this.$nextTick(this.runNextSimulation);
+      });
+
     },
 
     ...mapActions({
