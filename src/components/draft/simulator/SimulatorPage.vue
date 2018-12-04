@@ -72,7 +72,7 @@ export default {
           guilds['simic']++;
       });
 
-      let total_guilds = 8 * this.decks.length;
+      let total_guilds = this.decks.length;
       return Object.keys(guilds)
         .map((key) => {
           let percent = +((guilds[key] / total_guilds) * 100).toFixed(2);
@@ -90,7 +90,7 @@ export default {
         colors[c]++;
       });
 
-      let total_colors = 16 * this.decks.length;
+      let total_colors = 2 * this.decks.length;
       return Object.keys(colors)
         .map((key) => {
           let percent = +((colors[key] / total_colors) * 100).toFixed(2);
