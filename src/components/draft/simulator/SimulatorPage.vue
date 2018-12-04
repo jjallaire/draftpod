@@ -25,7 +25,7 @@ export default {
     return {
       set_code: 'grn',
       cardpool: '4/3/2/1',
-      number: 3,
+      number: 100,
       decks: []
     }
   },
