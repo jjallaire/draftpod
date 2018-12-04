@@ -108,7 +108,6 @@ export default {
           this.createDraft({ 
             set_code: this.set_code, 
             cardpool: this.cardpool, 
-            options: {}
           }).then(({ draft_id } ) => { resolve(draft_id) } )
         }));
       }
