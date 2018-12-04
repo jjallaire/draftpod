@@ -131,11 +131,8 @@ export default {
         // remove draft data
         this.removeDrafts([draft_id]);
 
-        // log completed
-        let completed = this.decks.length / 8;
-        console.log(draft_id + ' (' + this.percent_complete + '%)');
-
         // schedule next execution if we need to
+        let completed = this.decks.length / 8;
         if (completed < this.number)
           this.$nextTick(this.runNextSimulation);
       });
@@ -177,32 +174,41 @@ export default {
         </div>
         <br/>
         <div class="form-group row">
-          <div class="col-sm-10">
-          <button type="button" class="btn btn-success" @click="onSimulateDrafts">Start Simulations</button>
+          <div class="col-sm-3">
+            <button type="button" class="btn btn-success" @click="onSimulateDrafts">Start Simulations</button>
+          </div>
+          <div class="col-sm-8">
+            <div class="progress bg-warning" :style="{ width: percent_complete + '%', height: '45px' }">
+              <div class="progress-bar" role="progressbar" :aria-valuenow="percent_complete" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
         </div>
-    </div>
       </form>
     </ContentPanel>
 
     <ContentPanel caption="Simulation Results">
-      <table class="table" style="width: 50%;">
-        <tbody>
-          <tr v-for="guild in deck_guilds" :key="guild.name">
-            <td>{{ guild.name }}</td> <td>{{ guild.count }}</td>
-          </tr>
-        </tbody>
-      </table>
-    
-      <br/>
 
-      <table class="table" style="width: 50%;">
-        <tbody>
-          <tr v-for="color in deck_colors" :key="color.name">
-            <td>{{ color.name }}</td> <td>{{ color.count }}</td>
-          </tr>
-        </tbody>
-      </table>
-
+      <div class="row">
+        <div class="col-sm-6">
+          <table class="table">
+            <tbody>
+              <tr v-for="guild in deck_guilds" :key="guild.name">
+                <td>{{ guild.name }}</td> <td>{{ guild.count }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-sm-6">
+          <table class="table">
+            <tbody>
+              <tr v-for="color in deck_colors" :key="color.name">
+                <td>{{ color.name }}</td> <td>{{ color.count }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  
     </ContentPanel>
 
 
