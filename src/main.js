@@ -12,6 +12,8 @@ import { store } from './store'
 //   https://deckbox.org/ (imports from deckedbuilder)
 
 
+// TODO: divide synergies into payoffs and enablers
+
 // sideboard to deck drop target isn't big enough
 // smarter arrangement of sideboard (use main colors)
 
