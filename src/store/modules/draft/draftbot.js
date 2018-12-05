@@ -21,7 +21,6 @@ export function cardRatings(deck, pack) {
      
       // calculate the bonus levels
       let color_bonus = colorBonus(deck, deck_colors, card);
-      let synergy = synergyBonus(deck, card);
       let curve_bonus = curveBonus(deck, card);
       
       // return the card and the various components of the final adjusted rating
@@ -30,8 +29,7 @@ export function cardRatings(deck, pack) {
         base_rating: card.rating,
         color_bonus: color_bonus,
         curve_bonus: curve_bonus,
-        synergy: synergy,
-        rating: card.rating + color_bonus + curve_bonus + (synergy ? synergy.bonus : 0)
+        rating: card.rating + color_bonus + curve_bonus
       }
     })
 
@@ -111,37 +109,6 @@ function colorBonus(deck, deck_colors, card) {
   ];
   return color_bonus_factor * color_bounus_level;
 
-}
-
-function synergyBonus(deck, card) {
-
-  // synergy bonus escalates as cards w/ synergy are selected
-  const synergy_bonus_levels = [0.0, 0.2, 0.5, 0.5, 0.6, 
-                                0.7, 0.7, 0.8, 0.9, 1.0];
-
-  // check for synergy
-  let synergy = null;
-  if (card.synergy) {
-    
-    // how many other cards in the deck share this synergy?
-    let synergy_count = deck.filter((deck_card) => { 
-      deck_card.synergy === card.synergy 
-    }).length;
-
-    // determine synergy bonus (escalates as more cards share the synergy)
-    let synergy_bonus = synergy_bonus_levels[
-      Math.min(synergy_count, synergy_bonus_levels.length-1)
-    ];
-
-    // apply the bonus if we have one
-    if (synergy_bonus > 0) {
-      synergy = {
-        name: card.synergy,
-        bonus: synergy_bonus
-      }
-    }
-  }  
-  return synergy;
 }
 
 function curveBonus(deck, card) {
