@@ -31,7 +31,12 @@ export function cardRatings(deck, pack) {
     })
 
     // order cards by rating
-    .sort((a, b) => b.rating - a.rating);
+    .sort((a, b) => {
+      if (a.rating === b.rating)
+        return b.color_bonus - a.color_bonus;
+      else
+        return b.rating - a.rating
+    });
 
 }
 
