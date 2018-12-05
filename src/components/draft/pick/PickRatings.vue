@@ -49,15 +49,15 @@ export default {
 </thead>
 <tbody>
 <tr v-for="pick_rating in pick_ratings" :key="pick_rating.card.id">
-  <td width="30%">{{ pick_rating.card.name }}</td>
-  <td width="10%">
+  <td width="15%">{{ pick_rating.card.name }}</td>
+  <td width="20%">
       <img v-for="color in card_colors(pick_rating.card)" :key="color.name"
            :src="color.img" class="mana-color"/>
   </td>
-  <td width="20%">{{ pick_rating.base_rating | rating }}</td>
-  <td width="20%" v-if="pick_rating.color_bonus > 0">+{{ pick_rating.color_bonus | rating }}</td>
-  <td width="20%" class="no-color-bonus" v-else>&mdash;</td>
-  <td width="20%">{{ pick_rating.rating | rating }}</td>
+  <td width="15%">{{ pick_rating.base_rating | rating }}</td>
+  <td width="15%" v-if="pick_rating.color_bonus > 0">+{{ pick_rating.color_bonus | rating }}</td>
+  <td width="15%" class="no-color-bonus" v-else>&mdash;</td>
+  <td width="15%">{{ pick_rating.rating | rating }}</td>
 </tr>
 </tbody>
 </table>
