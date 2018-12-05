@@ -139,6 +139,10 @@ export default {
           });
         }
       }
+
+      // execute afterDrop if we have it
+      if (data.afterDrop)
+        data.afterDrop();
     },
 
     provideDragFeedback: function(location) {

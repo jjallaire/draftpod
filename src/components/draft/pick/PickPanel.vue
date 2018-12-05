@@ -21,8 +21,13 @@ export default {
     PickList, PickRatings
   },
   methods: {
-    onPickDragged() {
-      jquery('#deck-tab').tab('show');
+    onPickDragged(data) {
+      if (!data.afterDrop) {
+        jquery('#deck-tab').tab('show');
+        data.afterDrop = function() {
+          jquery('#pick-ratings-tab').tab('show');
+        };
+      }
     }
   }
 }

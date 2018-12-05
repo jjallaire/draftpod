@@ -20,8 +20,8 @@ export default {
   },
 
   methods: {
-    handleDragover(data, event) {
-      this.$emit('pick-dragged');
+    handleDragover(data) {
+      this.$emit('pick-dragged', data);
     },
 
     card_colors: function(card) {
