@@ -1,5 +1,5 @@
 "id","name","rating"
-447137,"Aegis of the Heavens",0.5
+447137,"Aegis of the Heavens",1
 447138,"Aethershield Artificer",2.5
 447139,"Ajani, Adversary of Tyrants",4.5
 447140,"Ajani's Last Stand",3
@@ -8,56 +8,56 @@
 447143,"Angel of the Dawn",3.5
 447144,"Cavalry Drillmaster",2.5
 447145,"Cleansing Nova",4
-447146,"Daybreak Chaplain",1.5
-447147,"Dwarven Priest",2
+447146,"Daybreak Chaplain",2.5
+447147,"Dwarven Priest",1.5
 447148,"Gallant Cavalry",3.5
 447149,"Herald of Faith",3.5
 447150,"Hieromancer's Cage",4
-447151,"Inspired Charge",2
+447151,"Inspired Charge",1.5
 447152,"Invoke the Divine",1
 447153,"Isolate",0
 447154,"Knight of the Tusk",1
-447155,"Knight's Pledge",1.5
-447156,"Knightly Valor",3
-447157,"Lena, Selfless Champion",3.5
+447155,"Knight's Pledge",2
+447156,"Knightly Valor",3.5
+447157,"Lena, Selfless Champion",4
 447158,"Leonin Vanguard",3
 447159,"Leonin Warleader",4.5
 447160,"Loxodon Line Breaker",1
 447161,"Luminous Bonds",4
 447162,"Make a Stand",2
-447163,"Mentor of the Meek",4
+447163,"Mentor of the Meek",3.5
 447164,"Mighty Leap",1
-447165,"Militia Bugler",3
+447165,"Militia Bugler",3.5
 447166,"Novice Knight",1.5
 447167,"Oreskos Swiftclaw",1.5
 447168,"Pegasus Courser",3.5
 447169,"Remorseful Cleric",3
 447170,"Resplendent Angel",5
 447171,"Revitalize",1.5
-447172,"Rustwing Falcon",2
+447172,"Rustwing Falcon",3
 447173,"Shield Mare",2.5
 447174,"Star-Crowned Stag",3.5
 447175,"Suncleanser",1.5
 447176,"Take Vengeance",3.5
-447177,"Trusty Packbeast",1.5
+447177,"Trusty Packbeast",1
 447178,"Valiant Knight",3.5
 447179,"Aether Tunnel",1
-447180,"Anticipate",2.5
+447180,"Anticipate",1.5
 447181,"Aven Wind Mage",3
 447182,"Aviation Pioneer",3
-447183,"Bone to Ash",2
-447184,"Cancel",2.5
-447185,"Departed Deckhand",3
+447183,"Bone to Ash",3
+447184,"Cancel",2
+447185,"Departed Deckhand",3.5
 447186,"Disperse",1.5
 447187,"Divination",3
-447188,"Djinn of Wishes",4
-447189,"Dwindle",3
+447188,"Djinn of Wishes",4.5
+447189,"Dwindle",2
 447190,"Essence Scatter",3
 447191,"Exclusion Mage",3.5
-447192,"Frilled Sea Serpent",1.5
+447192,"Frilled Sea Serpent",2
 447193,"Gearsmith Prodigy",1.5
-447194,"Ghostform",0
-447195,"Horizon Scholar",3.5
+447194,"Ghostform",0.5
+447195,"Horizon Scholar",3
 447196,"Metamorphic Alteration",3
 447197,"Mirror Image",3
 447198,"Mistcaller",0
@@ -68,14 +68,14 @@
 447203,"Patient Rebuilding",3.5
 447204,"Psychic Corrosion",2
 447205,"Sai, Master Thopterist",3
-447206,"Salvager of Secrets",3
+447206,"Salvager of Secrets",2.5
 447207,"Scholar of Stars",2
-447208,"Sift",3
-447209,"Skilled Animator",2.5
+447208,"Sift",2.5
+447209,"Skilled Animator",3
 447210,"Sleep",3
-447211,"Snapping Drake",3
+447211,"Snapping Drake",2.5
 447212,"Supreme Phantom",3
-447213,"Surge Mare",3
+447213,"Surge Mare",2
 447214,"Switcheroo",2.5
 447215,"Tezzeret, Artifice Master",4.5
 447216,"Tolarian Scholar",1
@@ -83,7 +83,7 @@
 447218,"Uncomfortable Chill",1.5
 447219,"Wall of Mist",1
 447220,"Windreader Sphinx",3.5
-447221,"Abnormal Endurance",2
+447221,"Abnormal Endurance",1.5
 447222,"Blood Divination",2
 447223,"Bogstomper",1
 447224,"Bone Dragon",4.5
@@ -94,112 +94,112 @@
 447229,"Doomed Dissenter",3
 447230,"Duress",1
 447231,"Epicure of Blood",3
-447232,"Fell Specter",3
+447232,"Fell Specter",3.5
 447233,"Fraying Omnipotence",0
 447234,"Gravedigger",3
 447235,"Graveyard Marshal",3.5
-447236,"Hired Blade",2.5
-447237,"Infectious Horror",1
+447236,"Hired Blade",2
+447237,"Infectious Horror",0.5
 447238,"Infernal Reckoning",0
 447239,"Infernal Scarring",1
 447240,"Isareth the Awakener",4
 447241,"Lich's Caress",3.5
-447242,"Liliana, Untouched by Death",3.5
-447243,"Liliana's Contract",3
+447242,"Liliana, Untouched by Death",3
+447243,"Liliana's Contract",2.5
 447244,"Macabre Waltz",1.5
 447245,"Mind Rot",1.5
 447246,"Murder",4
-447247,"Nightmare's Thirst",3
+447247,"Nightmare's Thirst",2
 447248,"Open the Graves",3
-447249,"Phylactery Lich",1.5
+447249,"Phylactery Lich",2
 447250,"Plague Mare",3
-447251,"Ravenous Harpy",2.5
-447252,"Reassembling Skeleton",2.5
+447251,"Ravenous Harpy",3
+447252,"Reassembling Skeleton",3
 447253,"Rise from the Grave",3
 447254,"Skeleton Archer",3
 447255,"Skymarch Bloodletter",3
-447256,"Sovereign's Bite",0.5
-447257,"Stitcher's Supplier",1
-447258,"Strangling Spores",3.5
+447256,"Sovereign's Bite",1
+447257,"Stitcher's Supplier",0.5
+447258,"Strangling Spores",3
 447259,"Two-Headed Zombie",2
-447260,"Vampire Neonate",1.5
+447260,"Vampire Neonate",2
 447261,"Vampire Sovereign",3.5
-447262,"Walking Corpse",1
+447262,"Walking Corpse",1.5
 447263,"Act of Treason",2
 447264,"Alpine Moon",0
-447265,"Apex of Power",0.5
-447266,"Banefire",4.5
+447265,"Apex of Power",0
+447266,"Banefire",4
 447267,"Boggart Brute",2.5
-447268,"Catalyst Elemental",0.5
+447268,"Catalyst Elemental",1
 447269,"Crash Through",1
-447270,"Dark-Dweller Oracle",3
+447270,"Dark-Dweller Oracle",2.5
 447271,"Demanding Dragon",4
 447272,"Dismissive Pyromancer",3.5
 447273,"Doublecast",1
-447274,"Dragon Egg",2
+447274,"Dragon Egg",3
 447275,"Electrify",3.5
-447276,"Fiery Finish",2
+447276,"Fiery Finish",1.5
 447277,"Fire Elemental",1
-447278,"Goblin Instigator",2.5
+447278,"Goblin Instigator",3
 447279,"Goblin Motivator",1.5
-447280,"Goblin Trashmaster",3
+447280,"Goblin Trashmaster",2.5
 447281,"Guttersnipe",3
-447282,"Havoc Devils",2
-447283,"Hostile Minotaur",1.5
+447282,"Havoc Devils",2.5
+447283,"Hostile Minotaur",2
 447284,"Inferno Hellion",2
-447285,"Lathliss, Dragon Queen",4
+447285,"Lathliss, Dragon Queen",4.5
 447286,"Lava Axe",1
-447287,"Lightning Mare",2.5
+447287,"Lightning Mare",2
 447288,"Lightning Strike",4
-447289,"Onakke Ogre",1
+447289,"Onakke Ogre",1.5
 447290,"Sarkhan, Fireblood",3.5
 447291,"Sarkhan's Unsealing",3
 447292,"Shock",3.5
-447293,"Siegebreaker Giant",2
+447293,"Siegebreaker Giant",3
 447294,"Smelt",0
 447295,"Sparktongue Dragon",3
 447296,"Spit Flame",3.5
 447297,"Sure Strike",2
-447298,"Tectonic Rift",0
+447298,"Tectonic Rift",1
 447299,"Thud",1.5
-447300,"Tormenting Voice",1.5
+447300,"Tormenting Voice",1
 447301,"Trumpet Blast",1
 447302,"Viashino Pyromancer",3
 447303,"Volcanic Dragon",3.5
-447304,"Volley Veteran",3
+447304,"Volley Veteran",2.5
 447305,"Blanchwood Armor",2
 447306,"Bristling Boar",2.5
-447307,"Centaur Courser",1.5
+447307,"Centaur Courser",2.5
 447308,"Colossal Dreadmaw",3
 447309,"Colossal Majesty",2
-447310,"Daggerback Basilisk",2.5
+447310,"Daggerback Basilisk",3
 447311,"Declare Dominance",3
 447312,"Druid of Horns",2
 447313,"Druid of the Cowl",3
-447314,"Dryad Greenseeker",3.5
+447314,"Dryad Greenseeker",3
 447315,"Elvish Clancaller",1.5
 447316,"Elvish Rejuvenator",3
 447317,"Ghastbark Twins",3
 447318,"Ghirapur Guide",2
 447319,"Giant Spider",2.5
 447320,"Gift of Paradise",1.5
-447321,"Gigantosaurus",1.5
+447321,"Gigantosaurus",2.5
 447322,"Goreclaw, Terror of Qal Sisma",4
 447323,"Greenwood Sentinel",1.5
 447324,"Highland Game",1
 447325,"Hungering Hydra",4
-447326,"Naturalize",0
+447326,"Naturalize",1
 447327,"Oakenform",1.5
 447328,"Pelakka Wurm",3.5
-447329,"Plummet",1.5
+447329,"Plummet",1
 447330,"Prodigious Growth",3.5
 447331,"Rabid Bite",3.5
-447332,"Reclamation Sage",2.5
-447333,"Recollect",1
-447334,"Rhox Oracle",2
+447332,"Reclamation Sage",3
+447333,"Recollect",1.5
+447334,"Rhox Oracle",1.5
 447335,"Root Snare",0
 447336,"Runic Armasaur",3.5
-447337,"Scapeshift",1
+447337,"Scapeshift",0
 447338,"Talons of Wildwood",1.5
 447339,"Thorn Lieutenant",3.5
 447340,"Thornhide Wolves",2
@@ -208,52 +208,52 @@
 447343,"Vine Mare",3.5
 447344,"Vivien Reid",4.5
 447345,"Vivien's Invocation",3
-447346,"Wall of Vines",1
+447346,"Wall of Vines",0
 447347,"Aerial Engineer",3
 447348,"Arcades, the Strategist",3
 447349,"Brawl-Bash Ogre",2.5
 447350,"Chromium, the Mutable",3.5
-447351,"Draconic Disciple",3
+447351,"Draconic Disciple",3.5
 447352,"Enigma Drake",3
 447353,"Heroic Reinforcements",3.5
-447354,"Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",4.5
+447354,"Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",4
 447356,"Palladia-Mors, the Ruiner",3.5
 447357,"Poison-Tip Archer",3.5
 447358,"Psychic Symbiont",3
 447359,"Regal Bloodlord",3.5
-447360,"Satyr Enchanter",2.5
+447360,"Satyr Enchanter",2
 447361,"Skyrider Patrol",3.5
 447362,"Vaevictis Asmadi, the Dire",3.5
 447363,"Amulet of Safekeeping",1
 447364,"Arcane Encyclopedia",2
-447365,"Chaos Wand",3
+447365,"Chaos Wand",2.5
 447366,"Crucible of Worlds",0
 447367,"Desecrated Tomb",1
-447368,"Diamond Mare",2.5
-447369,"Dragon's Hoard",2
+447368,"Diamond Mare",3
+447369,"Dragon's Hoard",1.5
 447370,"Explosive Apparatus",1.5
 447371,"Field Creeper",1
-447372,"Fountain of Renewal",2
-447373,"Gargoyle Sentinel",1.5
+447372,"Fountain of Renewal",1.5
+447373,"Gargoyle Sentinel",2.5
 447374,"Gearsmith Guardian",1.5
 447375,"Magistrate's Scepter",1
-447376,"Manalith",1
-447377,"Marauder's Axe",2
-447378,"Meteor Golem",3.5
-447379,"Millstone",0
-447380,"Rogue's Gloves",2.5
+447376,"Manalith",1.5
+447377,"Marauder's Axe",1.5
+447378,"Meteor Golem",3
+447379,"Millstone",0.5
+447380,"Rogue's Gloves",2
 447381,"Sigiled Sword of Valeron",4
 447382,"Skyscanner",3
 447383,"Suspicious Bookcase",1.5
 447384,"Transmogrifying Wand",3
-447385,"Cinder Barrens",2.5
+447385,"Cinder Barrens",2
 447386,"Detection Tower",0.5
 447387,"Forsaken Sanctuary",2
 447388,"Foul Orchard",2
 447389,"Highland Lake",2
 447390,"Meandering River",2
 447391,"Reliquary Tower",0
-447392,"Rupture Spire",1.5
+447392,"Rupture Spire",1
 447393,"Stone Quarry",2
 447394,"Submerged Boneyard",2
 447395,"Timber Gorge",2
