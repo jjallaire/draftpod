@@ -110,16 +110,15 @@ export default {
              If time runs out then a pick is made automatically.
           </small>
         </div>
-        <!--
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="draft-analysis"  v-model="pick_ratings">
-          <label class="form-check-label" for="draft-analysis">Provide pick analysis</label>
+          <label class="form-check-label" for="draft-analysis">Provide card ratings</label>
           <small class="form-text text-muted">
-             When pick analysis is enabled, you can optionally view card ratings and 
-             suggested picks based on the color composition of your deck. 
+             Optionally view ratings for cards within the current pack. Note that ratings
+             don't necessarily imply what the best pick is, but rather just provide a general idea
+             of the relative power level between cards.
           </small>
         </div>
-        -->
       </div>
     </div>
     <br/>

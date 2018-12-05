@@ -37,7 +37,7 @@ export default {
         <li v-if="pick_ratings" class="nav-item">
           <a class="nav-link" id="pick-ratings-tab" data-toggle="tab" href="#pick-ratings"
             role="tab" aria-controls="pick-ratings" aria-selected="false">
-              Analysis
+              Ratings
           </a>
         </li>
       </ul>
