@@ -82,7 +82,8 @@ function colorBonus(deck, deck_colors, card) {
   // color bonus escalates gradually over first 15 picks
   const color_bonus_levels = [0.0, 0.5, 0.5, 0.5, 1.0, 
                               1.0, 1.0, 1.0, 1.5, 1.5,
-                              1.5, 1.5, 1.5, 2.0, 2.0];
+                              1.5, 1.5, 1.5, 2.0, 2.0,
+                              2.5, 2.5, 2.5, 3.0, 3.0];
 
   // is the card on-color (color factor from 0 to 1)
   let color_bonus_factor = 0.0;
