@@ -13,10 +13,6 @@ import { store } from './store'
 
 // ratings needs to be a drop target for picks
 
-// confirm that locket and gates have gotten their rating upgraded
-
-// consider showing pick analysis (even for debugging)
-
 // sideboard to deck drop target isn't big enough
 // smarter arrangement of sideboard (use main colors)
 
