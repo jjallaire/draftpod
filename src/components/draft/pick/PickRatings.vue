@@ -1,5 +1,6 @@
 <script>
 
+import { Drop } from 'vue-drag-drop'
 import * as selectors from '@/store/modules/draft/selectors'
 
 export default {
@@ -19,9 +20,17 @@ export default {
   },
 
   methods: {
+    handleDragover(data, event) {
+      this.$emit('pick-dragged');
+    },
+
     card_colors: function(card) {
       return selectors.cardColors([card], true).filter((color) => color.count > 0);
     }
+  },
+
+  components: {
+    Drop
   }
 }
 
@@ -29,8 +38,7 @@ export default {
 
 
 <template>
-<div>
-
+<Drop @dragover="handleDragover(...arguments)">
 <table class="ratings-table table table-sm">
 <thead class="">
 <th>Card</th>
@@ -65,7 +73,7 @@ draft signals, deck synergies, mana curve, and creatue/spell ratio; often result
 different pick.
 </p>
 
-</div>
+</Drop>
 
 </template>
 

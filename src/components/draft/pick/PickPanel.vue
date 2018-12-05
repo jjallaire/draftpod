@@ -3,6 +3,8 @@
 import PickList from './PickList.vue'
 import PickRatings from './PickRatings.vue'
 
+import jquery from 'jquery'
+
 export default {
   name: 'PickPanel',
   props: {
@@ -18,6 +20,11 @@ export default {
   components: {
     PickList, PickRatings
   },
+  methods: {
+    onPickDragged() {
+      jquery('#deck-tab').tab('show');
+    }
+  }
 }
 
 </script>
@@ -48,7 +55,7 @@ export default {
         <PickList :piles="picks.piles" />
       </div>
       <div v-if="pick_ratings" id="pick-ratings" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-ratings-tab">
-        <PickRatings :pick_ratings="pick_ratings" />
+        <PickRatings :pick_ratings="pick_ratings" @pick-dragged="onPickDragged" />
       </div>
   </div>
   </div>
