@@ -23,10 +23,13 @@ import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
 import fscreen from 'fscreen'
 import * as messagebox from '@/components/core/messagebox.js'
  
+import _flatten from 'lodash/flatten'
+
 // drafts namespace
 const NS_DRAFTS = "drafts";
 
 import * as selectors from '@/store/modules/draft/selectors'
+import * as draftbot from '@/store/modules/draft/draftbot'
 
 export default {
   name: 'DraftTable',
@@ -92,6 +95,16 @@ export default {
     
     active_cards: function() {
       return selectors.activeCards(this.table);
+    },
+
+    pick_ratings: function() {
+      if (this.options.pick_ratings) {
+        let deck = _flatten(this.table.picks.piles);
+        let pack = this.table.picks.pack;
+        return draftbot.cardRatings(deck, pack);
+      } else {
+        return null;
+      }
     },
 
     namespace: function() {
@@ -210,7 +223,7 @@ export default {
           </transition>
           <PickPanel v-if="!table.picks_complete" 
                      :picks="table.picks" 
-                     :pick_ratings="options.pick_ratings"/>
+                     :pick_ratings="pick_ratings"/>
           <DeckPanel v-else :deck="table.deck"/>
         </div>
 

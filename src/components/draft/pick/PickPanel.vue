@@ -11,7 +11,7 @@ export default {
       required: true
     },
     pick_ratings: {
-      type: Boolean,
+      type: Array,
       required: true
     }
   },
@@ -48,7 +48,7 @@ export default {
         <PickList :piles="picks.piles" />
       </div>
       <div v-if="pick_ratings" id="pick-ratings" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-ratings-tab">
-        <PickRatings  />
+        <PickRatings :pick_ratings="pick_ratings" />
       </div>
   </div>
   </div>
