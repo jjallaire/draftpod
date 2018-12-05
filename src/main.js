@@ -11,11 +11,13 @@ import { store } from './store'
 //   http://www.deckedbuilder.com/ (easy entry and exports w/ multiverse-id)
 //   https://deckbox.org/ (imports from deckedbuilder)
 
-// sideboard to deck drop target isn't big enough
-// smarter arrangement of sideboard (use main colors)
 
 // bug with holding drag target over picks during switchover (causes double add as we get
 // the auto-pick as well as the dragged pick)
+
+// sideboard to deck drop target isn't big enough
+// smarter arrangement of sideboard (use main colors)
+
 
 // configure sentry in production mode
 if (process.env.NODE_ENV === 'production') {

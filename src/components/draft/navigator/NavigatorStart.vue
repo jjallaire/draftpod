@@ -114,9 +114,10 @@ export default {
           <input type="checkbox" class="form-check-input" id="draft-analysis"  v-model="pick_ratings">
           <label class="form-check-label" for="draft-analysis">Provide card ratings</label>
           <small class="form-text text-muted">
-             Optionally view ratings for cards within the current pack. Note that ratings
-             don't necessarily imply what the best pick is, but rather just provide a general idea
-             of the relative power level between cards.
+             Optional display of ratings for cards in the current pack.
+             Note that while card ratings provide a rough idea of the relative power level between cards, 
+             they don't necessarily reflect optimal picks (as they don't consider draft signals,
+             deck synergies, etc).
           </small>
         </div>
       </div>
