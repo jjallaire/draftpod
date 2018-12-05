@@ -20,7 +20,7 @@ export default {
 
   methods: {
     card_colors: function(card) {
-      return selectors.cardColors([card]).filter((color) => color.count > 0);
+      return selectors.cardColors([card], true).filter((color) => color.count > 0);
     }
   }
 }

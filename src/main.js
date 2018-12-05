@@ -13,8 +13,6 @@ import { store } from './store'
 
 // ratings needs to be a drop target for picks
 
-// no colors for guildates!
-
 // confirm that locket and gates have gotten their rating upgraded
 
 // consider showing pick analysis (even for debugging)

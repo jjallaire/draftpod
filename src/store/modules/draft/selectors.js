@@ -24,7 +24,7 @@ export function cardTypes(cards) {
 }
 
 // count card colors 
-export function cardColors(cards) {
+export function cardColors(cards, includeLands = false) {
   let colors = {
     W: {
       name: "Plains",
@@ -59,7 +59,7 @@ export function cardColors(cards) {
   };
   for (let i=0; i<cards.length; i++) {
     let card = cards[i];
-    if (filters.land(card))
+    if (!includeLands && filters.land(card))
       continue;
     if (card.colors.length === 0)
       colors["C"].count++;
