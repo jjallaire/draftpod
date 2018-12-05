@@ -35,13 +35,13 @@ export function cardRatings(deck, pack) {
 
 }
 
-// What are the colors of this deck? (multiply cards  of various colors by their
+// What are the colors of this deck? (multiply cards of various colors by their
 // rating and then return the top numColors). note that we only consider cards
-// rated 3.0 or higher for this computtion
+// rated 1.5 or higher for this computtion
 export function deckColors(deck, numColors = 2) {
 
   let colorAffinity = deck.reduce((colors, card) => {
-    if (card.rating >= 2.5) {
+    if (card.rating >= 1.5) {
       card.colors.forEach((color) => {
         if (!colors.hasOwnProperty(color))
           colors[color] = 0;
@@ -75,9 +75,9 @@ function colorBonus(deck, deck_colors, card) {
   const color_bonus_factor_threshold = deck.length <= 14 ? 0.50 : 0.66;
 
   // color bonus escalates gradually over first 15 picks
-  const color_bonus_levels = [0.0, 0.5, 0.6, 0.7, 1.0, 
-                              1.0, 1.1, 1.2, 1.5, 1.6,
-                              1.6, 1.7, 1.8, 2.0, 2.1];
+  const color_bonus_levels = [0.0, 0.5, 0.5, 0.5, 1.0, 
+                              1.0, 1.0, 1.0, 1.5, 1.5,
+                              1.5, 1.5, 1.5, 2.0, 2.0];
 
   // is the card on-color (color factor from 0 to 1)
   let color_bonus_factor = 0.0;
