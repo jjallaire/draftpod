@@ -11,10 +11,6 @@ import { store } from './store'
 //   http://www.deckedbuilder.com/ (easy entry and exports w/ multiverse-id)
 //   https://deckbox.org/ (imports from deckedbuilder)
 
-// sideboard to deck drop target isn't big enough
-// smarter arrangement of sideboard (use main colors)
-
-
 // configure sentry in production mode
 if (process.env.NODE_ENV === 'production') {
   Sentry.init({
