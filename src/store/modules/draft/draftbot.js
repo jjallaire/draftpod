@@ -1,4 +1,3 @@
-import * as filters from './card-filters'
 
 // pick a card given deck and pack
 export function pick(set_code, deck, pack) {
@@ -21,15 +20,13 @@ export function cardRatings(deck, pack) {
      
       // calculate the bonus levels
       let color_bonus = colorBonus(deck, deck_colors, card);
-      let curve_bonus = curveBonus(deck, card);
       
       // return the card and the various components of the final adjusted rating
       return {
         card: card,
         base_rating: card.rating,
         color_bonus: color_bonus,
-        curve_bonus: curve_bonus,
-        rating: card.rating + color_bonus + curve_bonus
+        rating: card.rating + color_bonus
       }
     })
 
@@ -108,32 +105,5 @@ function colorBonus(deck, deck_colors, card) {
     Math.min(deck.length, color_bonus_levels.length-1)
   ];
   return color_bonus_factor * color_bounus_level;
-
-}
-
-function curveBonus(deck, card) {
-  // check for curve bonus (need enough playable early creatures). we escalate
-  // the bonus factor over the course of the draft (so there is less/no concern
-  // about it during early picks)
-  let curve_bonus = 0;
-  const is_early_creature = (card) =>  {
-    filters.creature(card) && 
-    (card.cmc == 2 || card.cmc == 3) &&
-    card.rating >= 1.5
-  };
-  if (is_early_creature(card)) {
-    const target_early_creatures = 8;
-    let early_creatures = deck.filter(is_early_creature).length;
-    let early_creatures_required = Math.max(target_early_creatures - early_creatures, 0);
-    if (early_creatures_required > 0) {
-      let draft_complete_percent = deck.length / 45;
-      // e.g. if we are halfway through the draft and have only 4 playable 
-      // early creatures then the bonus will be 1. in practice this doesn't 
-      // happen that often b/c there are quite a few highly rated early
-      // creatures in most sets
-      curve_bonus = early_creatures_required * draft_complete_percent / 4;
-    }
-  }
-  return curve_bonus;
 
 }
