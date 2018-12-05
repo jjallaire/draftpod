@@ -14,7 +14,7 @@ export default {
     },
     pick_ratings: {
       type: Array,
-      required: true
+      default: null
     }
   },
   components: {
