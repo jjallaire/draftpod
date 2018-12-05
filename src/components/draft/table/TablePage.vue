@@ -210,7 +210,7 @@ export default {
           </transition>
           <PickPanel v-if="!table.picks_complete" 
                      :picks="table.picks" 
-                     :pick_analysis="options.pick_analysis"/>
+                     :pick_ratings="options.pick_ratings"/>
           <DeckPanel v-else :deck="table.deck"/>
         </div>
 

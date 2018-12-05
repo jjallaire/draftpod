@@ -1,7 +1,7 @@
 <script>
 
 export default {
-  name: 'PickAnalysis',
+  name: 'PickRatings',
 
   props: {
 
@@ -12,7 +12,7 @@ export default {
 
 <template>
 
-  <p>Pick Analysis</p>
+  <p>Pick Ratings</p>
 
 </template>
 

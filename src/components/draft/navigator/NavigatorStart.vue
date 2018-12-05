@@ -19,7 +19,7 @@ export default {
       set_code: 'grn',
       cardpool: '4/3/2/1',
       pick_timer: true,
-      pick_analysis: false
+      pick_ratings: false
     }
   },
 
@@ -28,7 +28,7 @@ export default {
     this.set_code = this.preferences.set_code;
     this.cardpool = this.cardpool;
     this.pick_timer = this.preferences.pick_timer;
-    this.pick_analysis = this.preferences.pick_analysis;
+    this.pick_ratings = this.preferences.pick_ratings;
     this.applySetPreferences();
   },
 
@@ -59,7 +59,7 @@ export default {
         set_code: this.set_code,
         cardpool: this.cardpool,
         pick_timer: this.pick_timer,
-        pick_analysis: this.pick_analysis
+        pick_ratings: this.pick_ratings
       });
 
       // create the draft then navigate to it
@@ -68,7 +68,7 @@ export default {
         cardpool: this.cardpool, 
         options: { 
           pick_timer: this.pick_timer, 
-          pick_analysis: this.pick_analysis 
+          pick_ratings: this.pick_ratings 
         }
       }).then(( {draft_id }) => {
         this.$router.push({ path: "/draft/" + draft_id });
@@ -112,7 +112,7 @@ export default {
         </div>
         <!--
         <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="draft-analysis"  v-model="pick_analysis">
+          <input type="checkbox" class="form-check-input" id="draft-analysis"  v-model="pick_ratings">
           <label class="form-check-label" for="draft-analysis">Provide pick analysis</label>
           <small class="form-text text-muted">
              When pick analysis is enabled, you can optionally view card ratings and 

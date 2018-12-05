@@ -1,7 +1,7 @@
 <script>
 
 import PickList from './PickList.vue'
-import PickAnalysis from './PickAnalysis.vue'
+import PickRatings from './PickRatings.vue'
 
 export default {
   name: 'PickPanel',
@@ -10,13 +10,13 @@ export default {
       type: Object,
       required: true
     },
-    pick_analysis: {
+    pick_ratings: {
       type: Boolean,
       required: true
     }
   },
   components: {
-    PickList, PickAnalysis
+    PickList, PickRatings
   },
 }
 
@@ -34,9 +34,9 @@ export default {
               Picks
           </a>
         </li>
-        <li v-if="pick_analysis" class="nav-item">
-          <a class="nav-link" id="pick-analysis-tab" data-toggle="tab" href="#pick-analysis"
-            role="tab" aria-controls="pick-analysis" aria-selected="false">
+        <li v-if="pick_ratings" class="nav-item">
+          <a class="nav-link" id="pick-ratings-tab" data-toggle="tab" href="#pick-ratings"
+            role="tab" aria-controls="pick-ratings" aria-selected="false">
               Analysis
           </a>
         </li>
@@ -47,8 +47,8 @@ export default {
       <div id="deck" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deck-tab" >
         <PickList :piles="picks.piles" />
       </div>
-      <div v-if="pick_analysis" id="pick-analysis" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-analysis-tab">
-        <PickAnalysis  />
+      <div v-if="pick_ratings" id="pick-ratings" class="tab-pane fade" role="tabpanel" aria-labelledby="pick-ratings-tab">
+        <PickRatings  />
       </div>
   </div>
   </div>

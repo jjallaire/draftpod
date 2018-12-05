@@ -12,7 +12,7 @@ export default function() {
       set_code: null,
       set_name: null,
       pick_timer: false,
-      pick_analysis: false,
+      pick_ratings: false,
     },
 
     // table
