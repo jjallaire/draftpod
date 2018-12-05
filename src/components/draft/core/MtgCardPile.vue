@@ -3,6 +3,8 @@
 import { Drop } from 'vue-drag-drop'
 import MtgCard from './MtgCard.vue'
 
+import _flatten from 'lodash/flatten'
+
 export default {
 
   name: 'MtgCardPile',
@@ -43,6 +45,9 @@ export default {
 
   computed: {
     pile: function() { return this.piles[this.number]},
+    pick_number: function() {
+      return _flatten(this.piles).length + 1;
+    }
   },
   data: function() {
     return {
@@ -59,10 +64,16 @@ export default {
   },
   methods: {
 
+    handleDragenter(data) {
+      // tag the data with the current pick number
+      if (!data.pick_number)
+        data.pick_number = this.pick_number;
+    },
+
     handleDragover(data, event) {
       
-      // reject if not one of our drag sources
-      if (!data || !data.drag_source) {
+      // reject if not one of our drag sources or if it's the wrong pick number
+      if (!data || !data.drag_source || (data.pick_number != this.pick_number)) {
         event.dataTransfer.dropEffect = 'none';
         return;
       }
@@ -96,6 +107,10 @@ export default {
 
       // remove feedback
       this.clearDragFeedback();
+
+      // reject if it's the wrong pick_number
+      if (data.pick_number != this.pick_number)
+        return;
 
       // check for insert location
       let insertLoc = cardInsertLocation(data, event);
@@ -140,9 +155,9 @@ export default {
         }
       }
 
-      // execute afterDrop if we have it
-      if (data.afterDrop)
-        data.afterDrop();
+      // execute onAfterDrop if we have it
+      if (data.onAfterDrop)
+        data.onAfterDrop();
     },
 
     provideDragFeedback: function(location) {
@@ -190,6 +205,7 @@ function cardInsertLocation(data, event) {
   <Drop class="pile" 
         @drop="handleDrop(...arguments)" 
         @dragover="handleDragover(...arguments)"
+        @dragenter="handleDragenter(...arguments)"
         @dragleave="handleDragleave(...arguments)">
     <div class="pile-caption" v-if="caption" 
         :style="{textAlign: caption_center ? 'center' : 'left'}">

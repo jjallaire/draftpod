@@ -22,9 +22,9 @@ export default {
   },
   methods: {
     onPickDragged(data) {
-      if (!data.afterDrop) {
+      if (!data.onAfterDrop) {
         jquery('#deck-tab').tab('show');
-        data.afterDrop = function() {
+        data.onAfterDrop = function() {
           jquery('#pick-ratings-tab').tab('show');
         };
       }
