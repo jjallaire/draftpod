@@ -11,8 +11,7 @@ import { store } from './store'
 //   http://www.deckedbuilder.com/ (easy entry and exports w/ multiverse-id)
 //   https://deckbox.org/ (imports from deckedbuilder)
 
-
-// TODO: divide synergies into payoffs and enablers
+// consider showing pick analysis (even for debugging)
 
 // sideboard to deck drop target isn't big enough
 // smarter arrangement of sideboard (use main colors)
