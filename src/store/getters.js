@@ -42,6 +42,28 @@ export default {
       return null;
     }
   },
+
+  cardpool: (state) => (set_code, name) => {
+    return {
+      name,
+      ...state.cardpools[set_code][name]
+    }
+  },
+
+  cardpools: (state) => (set_code) => {
+    if (state.cardpools[set_code]) {
+      let set_cardpools = state.cardpools[set_code];
+      return Object.keys(set_cardpools)
+        .map((name) => {
+          return { name, ...set_cardpools[name] };
+        })
+        .sort((a, b) => b.updated - a.updated);
+    } else {
+      return [];
+    }
+  }
+
+
 };
 
 

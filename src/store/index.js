@@ -29,6 +29,9 @@ export const store = new Vuex.Store({
         sets: {}
       }
     },
+    cardpools: {
+      state: {}
+    },
     drafts: { namespaced: true }
   },
   getters,
