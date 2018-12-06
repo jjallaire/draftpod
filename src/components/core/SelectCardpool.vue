@@ -6,6 +6,9 @@ import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
 
 import { mapGetters, mapMutations } from 'vuex'
 
+import Papa from 'papaparse'
+
+
 export default {
   name: 'SelectCardpool',
 
@@ -29,6 +32,14 @@ export default {
   watch: {
     inputVal(val) {
       this.$emit('input', val);
+
+      // focus cardpool name 
+      if (val === 'new-cardpool') {
+        this.$nextTick(() => {
+          this.$refs.cardpool_name.focus();
+        });
+      }
+
     }
   },
 
@@ -43,7 +54,21 @@ export default {
     ...mapMutations({
       setCardpool: SET_CARDPOOL,
       removeCardpool: REMOVE_CARDPOOL
-    })
+    }),
+    onCardpoolUploaded(event) {
+      const file = event.target.files[0];
+      Papa.parse(file, {
+        header: true,
+        dynamicTyping: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+          
+        },
+        error: function(error) {
+
+        }
+      });
+    }
   }
 }
 
@@ -72,12 +97,13 @@ export default {
         <div class="card-body bg-primary" v-if="inputVal === 'new-cardpool'">
           <div class="form-group">
             <label for="custom-cardpool-name">Cardpool name:</label>
-            <input class="form-control" id="custom-cardpool-name" placeholder="Enter name">
+            <input class="form-control" id="custom-cardpool-name" ref="cardpool_name" placeholder="Enter name">
           </div>
           <div class="form-group">
             <label for="custom-cardpool-upload">Upload Cardpool CSV:</label>
-            <input type="file" class="form-control cardpool-upload" aria-describedby="custom-cardpool-upload-help" id="custom-cardpool-upload"
-                   accept="text/csv" />
+            <input type="file"  id="custom-cardpool-upload" class="form-control cardpool-upload" 
+                   aria-describedby="custom-cardpool-upload-help" 
+                   accept="text/csv" @change="onCardpoolUploaded"/>
             <small id="custom-cardpool-upload-help" class="form-text text-muted">
               Please upload a CSV file that enumerates the cards in your cardpool. 
               The CSV should include an <em>id</em> field (Multiverse ID) and a <em>quantity</em>
@@ -103,7 +129,12 @@ export default {
   margin-bottom: 20px;
 }
 
-.cardpool-upload {
+.custom-cardpool .card-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cardpool-upload, .cardpool-upload:focus {
   background: transparent;
   border: 0;
 }
