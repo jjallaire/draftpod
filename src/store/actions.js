@@ -1,7 +1,6 @@
 
 
 
-import axios from 'axios'
 import uuidv4 from 'uuid'
 
 import { START_DRAFT } from './modules/draft/mutations';
@@ -23,15 +22,12 @@ export default {
     return new Promise((resolve) => {
 
       // download set data
-      axios.get('/sets/' + set_code + '/cards.json')
-        .then(response => {
-
-          // all cards in the set
-          let cardsInSet = response.data;
+      set.cards(set_code)
+        .then(cards => {
 
           // cardpool: either an explicit list or a generated cube
           let [ common, uncommon, mythic, rare ] = cardpool.split('/').map(Number);
-          cardpool = set.cube(set_code, cardsInSet, {
+          cardpool = set.cube(set_code, cards, {
             mythic: mythic,
             rare: rare,
             uncommon: uncommon,
