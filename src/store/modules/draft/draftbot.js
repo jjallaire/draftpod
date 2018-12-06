@@ -21,7 +21,7 @@ export function cardRatings(deck, pack) {
   
   // at what pick do we stop considering on-color cards even if
   // they have a very high rating?
-  let color_commit_pick = 15;
+  let color_lock_pick = 15;
 
   // return ratings                               
   return pack
@@ -52,7 +52,7 @@ export function cardRatings(deck, pack) {
     .sort((a, b) => {
       if (a.rating === b.rating)
         return b.color_bonus - a.color_bonus;
-      else if (pick_number <= color_commit_pick)
+      else if (pick_number <= color_lock_pick)
         return b.rating - a.rating
       else {
         if (b.color_bonus == 0 && a.color_bonus !== 0)
