@@ -89,7 +89,7 @@ export default {
               }
             });
         },
-        error: function(error) {
+        error: function() {
           // TODO: handle various types of upload errors
         }
       });
@@ -192,7 +192,7 @@ export default {
 <style>
 
 .custom-cardpool {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 

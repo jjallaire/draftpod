@@ -29,7 +29,7 @@ export default {
           if (cardpool.startsWith('cardpool:')) {
             
             // lookup named cardpool
-            let name = cardpool.replace(/^cardpool\:/, '');
+            let name = cardpool.replace(/^cardpool:/, '');
             let cardpool_cards = state.cardpools[set_code][name].cards;
             cardpool = [];
             cardpool_cards.forEach((cardpool_card) => {

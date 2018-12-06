@@ -5,7 +5,6 @@ import m19 from './set-m19'
 import grn from './set-grn'
 
 import axios from 'axios'
-import Vue from 'vue';
 
 const sets = {
   dom,
