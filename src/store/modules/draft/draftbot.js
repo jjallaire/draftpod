@@ -17,7 +17,7 @@ export function cardRatings(deck, pack) {
 
   // at what pick do we start giving on-color cards a slight
   // bias compared to off-color cards?
-  let color_bias_pick = 5;
+  let color_bias_pick = 7;
   
   // at what pick do we stop considering on-color cards even if
   // they have a very high rating?
