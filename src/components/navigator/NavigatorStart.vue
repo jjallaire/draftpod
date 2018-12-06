@@ -17,7 +17,7 @@ export default {
   data: function() {
     return {
       set_code: 'grn',
-      cardpool: '4/3/2/1',
+      cardpool: '4/4/1/1',
       pick_timer: true,
       pick_ratings: false
     }
@@ -97,7 +97,7 @@ export default {
 <ContentPanel caption="Start New Draft">
   <form>
     <SelectSet v-model="set_code" @input="onSetChanged" />
-    <SelectCardpool v-model="cardpool" />
+    <SelectCardpool v-model="cardpool" :set_code="set_code"/>
     <div class="form-group row">
       <label for="draft-options" class="col-sm-3 col-form-label">Draft options:</label>
       <div id="draft-options" class="col-sm-8">

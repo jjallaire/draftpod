@@ -24,7 +24,7 @@ export default {
   data: function() {
     return {
       set_code: 'grn',
-      cardpool: '4/3/2/1',
+      cardpool: '4/4/1/1',
       number: 100,
       decks: []
     }
@@ -171,7 +171,7 @@ export default {
     <ContentPanel caption="Simulate Drafts">
       <form>
         <SelectSet v-model="set_code" />
-        <SelectCardpool v-model="cardpool" />
+        <SelectCardpool v-model="cardpool" :set_code="set_code" />
         <div class="form-group row">
           <label for="number-of-drafts" class="col-sm-3 col-form-label">Number of drafts:</label>
           <div class="col-sm-8">
