@@ -153,7 +153,7 @@ export default {
 .cardpool-upload, .cardpool-upload:focus {
   background: transparent;
   border: 0;
-  color: #cbd3da !important
+  color: #aaa;
 }
 
 .form-text.text-muted a {
