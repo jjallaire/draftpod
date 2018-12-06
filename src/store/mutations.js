@@ -26,7 +26,7 @@ export default {
     state.drafts = _omit(state.drafts, draft_ids);
   },
 
-  [SET_CARDPOOL](state, { name, set_code, card_ids }) {
+  [SET_CARDPOOL](state, { set_code, name, cards }) {
 
     // ensure we have a key for this set
     if (!state.cardpool[set_code])
@@ -34,7 +34,7 @@ export default {
 
     // set the cardpool
     Vue.set(state.cardpool[set_code], name, {
-      card_ids,
+      cards,
       updated: new Date().getTime()
     })
   },

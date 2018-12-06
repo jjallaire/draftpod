@@ -25,7 +25,11 @@ export default {
 
   data: function() {
     return {
-      inputVal: this.value
+      inputVal: this.value,
+      create_cardpool: {
+        name: '',
+        cards: []
+      }
     }
   },
 
@@ -35,6 +39,8 @@ export default {
 
       // focus cardpool name 
       if (val === 'new-cardpool') {
+        this.create_cardpool.name = '';
+        this.create_cardpool.cards = [];
         this.$nextTick(() => {
           this.$refs.cardpool_name.focus();
         });
@@ -97,7 +103,8 @@ export default {
         <div class="card-body bg-primary" v-if="inputVal === 'new-cardpool'">
           <div class="form-group">
             <label for="custom-cardpool-name">Cardpool name:</label>
-            <input class="form-control" id="custom-cardpool-name" ref="cardpool_name" placeholder="Enter name">
+            <input class="form-control" id="custom-cardpool-name" placeholder="Enter name" 
+                   ref="cardpool_name" v-model="create_cardpool.name"/>
           </div>
           <div class="form-group">
             <label for="custom-cardpool-upload">Upload Cardpool CSV:</label>
@@ -105,12 +112,17 @@ export default {
                    aria-describedby="custom-cardpool-upload-help" 
                    accept="text/csv" @change="onCardpoolUploaded"/>
             <small id="custom-cardpool-upload-help" class="form-text text-muted">
-              Please upload a CSV file that enumerates the cards in your cardpool. 
-              The CSV should include an <em>id</em> field (Multiverse ID) and a <em>quantity</em>
+              <p>Please upload a CSV file that enumerates the cards in your cardpool (note that all 
+              cards must be from the set selected above).</p>
+              <p>The CSV should include an <em>id</em> field (Multiverse ID) and a <em>quantity</em>
               field indicating how many of each card are in the pool. The most straightforward way 
               to do this is to create a <a href="http://www.deckedbuilder.com" target="_blank">Decked Builder</a> 
-              collection and export it as a CSV.
+              collection and export it as a CSV.</p>
             </small>
+
+            <div v-if="create_cardpool.name && create_cardpool.cards.length" class="form-group">
+              <button class="btn btn-warning">Use Cardpool</button>
+            </div>
           </div>
         </div>
         <div v-else-if="inputVal.startsWith('cardpool:')">
@@ -134,9 +146,14 @@ export default {
   padding-bottom: 20px;
 }
 
+.custom-cardpool .btn {
+  margin-top: 10px;
+}
+
 .cardpool-upload, .cardpool-upload:focus {
   background: transparent;
   border: 0;
+  color: #cbd3da !important
 }
 
 .form-text.text-muted a {
