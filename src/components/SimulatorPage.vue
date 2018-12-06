@@ -4,8 +4,8 @@
 import NavBar from '@/components/core/NavBar.vue'
 
 import ContentPanel from '@/components/core/ContentPanel.vue'
-import SelectSet from '@/components/draft/core/SelectSet.vue'
-import SelectCardpool from '@/components/draft/core/SelectCardpool.vue'
+import SelectSet from '@/components/core/SelectSet.vue'
+import SelectCardpool from '@/components/core/SelectCardpool.vue'
 
 import { mapActions, mapMutations } from 'vuex'
 import { CREATE_DRAFT } from '@/store/actions'

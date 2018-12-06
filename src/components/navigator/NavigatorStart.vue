@@ -1,8 +1,8 @@
 <script>
 
 import ContentPanel from '@/components/core/ContentPanel.vue'
-import SelectSet from '@/components/draft/core/SelectSet.vue'
-import SelectCardpool from '@/components/draft/core/SelectCardpool.vue'
+import SelectSet from '@/components/core/SelectSet.vue'
+import SelectCardpool from '@/components/core/SelectCardpool.vue'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
