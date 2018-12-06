@@ -3,6 +3,8 @@
 <script>
 
 // TODO: refactor/cleanup
+// TODO: protocol around encoding cardpool in a string may be
+//       a bit sketchy!
 // TODO: error/input checking on upload (including validation of cards and feedback)
 // TODO: reselect custom cardpool on return (fail gracefully)
 // TODO: consider supporting Decked Builder YAML (.coll2)
@@ -146,7 +148,7 @@ export default {
       <optgroup label="Custom">
         <option v-for="cardpool in cardpools(set_code)" :key="cardpool.name"
                 :value="'cardpool:' + cardpool.name">{{ cardpool.name }}</option>
-        <option value="new-cardpool">Create Cardpool...</option>
+        <option value="new-cardpool">New Custom Cardpool...</option>
       </optgroup>
     </select>
     <div>
@@ -177,7 +179,7 @@ export default {
           </div>
         </div>
         <div class="cardpool-bar" v-else-if="inputVal.startsWith('cardpool:')">
-          Updated: May 2nd, 2015 
+          Last update: May 2nd, 2015 
           <a class="cardpool-action float-right"><DeleteIcon title="Remove Cardpool" @click.native="onRemoveCardpool"/><span>Remove</span></a>
           <a class="cardpool-action float-right"><UploadIcon title="Update Cardpool" @click.native="onUpdateCardpool"/><span>Update...</span></a>
          </div>

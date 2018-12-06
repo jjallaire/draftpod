@@ -12,7 +12,7 @@ export const CREATE_DRAFT = 'CREATE_DRAFT'
 
 export default {
 
-  [CREATE_DRAFT]( { commit }, { set_code, cardpool, options } ) {
+  [CREATE_DRAFT]( { commit, state }, { set_code, cardpool, options } ) {
 
     // create a new draft module
     let draft_id = uuidv4();
@@ -23,17 +23,34 @@ export default {
 
       // download set data
       set.cards(set_code)
-        .then(cards => {
+        .then(set_cards => {
 
-          // cardpool: either an explicit list or a generated cube
-          let [ common, uncommon, mythic, rare ] = cardpool.split('/').map(Number);
-          cardpool = set.cube(set_code, cards, {
-            mythic: mythic,
-            rare: rare,
-            uncommon: uncommon,
-            common: common
-          });
-          
+          // resolve the cardpool
+          if (cardpool.startsWith('cardpool:')) {
+            
+            // lookup named cardpool
+            let name = cardpool.replace(/^cardpool\:/, '');
+            let cardpool_cards = state.cardpools[set_code][name].cards;
+            cardpool = [];
+            cardpool_cards.forEach((cardpool_card) => {
+              let card = set_cards.find((set_card) => set_card.id === cardpool_card.id);
+              if (card)
+                cardpool.push(...new Array(cardpool_card.quantity).fill(card));
+            });
+
+          } else {
+            
+            // generated cube
+            let [ common, uncommon, mythic, rare ] = cardpool.split('/').map(Number);
+            cardpool = set.cube(set_code, set_cards, {
+              mythic: mythic,
+              rare: rare,
+              uncommon: uncommon,
+              common: common
+            });
+
+          }
+
           // initialize
           commit("drafts/" + draft_id + "/" + START_DRAFT, {
             set_code,
