@@ -5,6 +5,7 @@ import m19 from './set-m19'
 import grn from './set-grn'
 
 import axios from 'axios'
+import Vue from 'vue';
 
 const sets = {
   dom,
@@ -23,7 +24,9 @@ export function name(set_code) {
 export function cards(set_code) {
   return new Promise((resolve) => {
     if (cards_cache[set_code]) {
-      resolve(cards_cache[set_code]);
+      setTimeout(() => {
+        resolve(cards_cache[set_code]);
+      }, 10);
     } else {
       axios.get('/sets/' + set_code + '/cards.json')
         .then(response => {
