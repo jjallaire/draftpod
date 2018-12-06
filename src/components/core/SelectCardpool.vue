@@ -2,7 +2,19 @@
 
 <script>
 
+// TODO: refactor/cleanup
+// TODO: error/input checking on upload (including validation of cards and feedback)
+// TODO: reselect custom cardpool on return (fail gracefully)
+// TODO: consider supporting Decked Builder YAML (.coll2)
+
+
+
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
+
+import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
+import UploadIcon from "vue-material-design-icons/CloudUpload.vue"
+
+import * as messagebox from '@/components/core/messagebox.js'
 
 import { mapGetters, mapMutations } from 'vuex'
 
@@ -35,17 +47,14 @@ export default {
 
   watch: {
     inputVal(val) {
-      this.$emit('input', val);
-
-      // focus cardpool name 
+      // for new cardpools we focus the cardpool name
       if (val === 'new-cardpool') {
         this.create_cardpool.name = '';
         this.create_cardpool.cards = [];
-        this.$nextTick(() => {
-          this.$refs.cardpool_name.focus();
-        });
+        this.focusCardpoolName();
+      } else {
+         this.$emit('input', val);
       }
-
     }
   },
 
@@ -67,14 +76,56 @@ export default {
         header: true,
         dynamicTyping: true,
         skipEmptyLines: true,
-        complete: function(results) {
-          
+        complete: (results) => {
+          this.create_cardpool.cards = results.data
+            .map((card) => {
+              let id = card['id'] || card['Mvid'];
+              let quantity = card['quantity'] || card['Total Qty'];
+              return {
+                id,
+                quantity
+              }
+            });
         },
         error: function(error) {
-
+          // TODO: handle various types of upload errors
         }
       });
+    },
+    onUseCardpool() {
+      if (!this.create_cardpool.name)
+        messagebox.alert('Please provide a name for the cardpool', this.focusCardpoolName);
+      else if (this.create_cardpool.cards.length === 0)
+        messagebox.alert('Please upload a CSV for the cardpool');
+      else {
+        this.setCardpool({
+          set_code: this.set_code,
+          name: this.create_cardpool.name,
+          cards: this.create_cardpool.cards
+        });
+        this.inputVal = 'cardpool:' + this.create_cardpool.name;
+      }
+
+    
+    },
+
+    onRemoveCardpool() {
+
+    },
+
+    onUpdateCardpool() {
+
+    },
+
+    focusCardpoolName() {
+      this.$nextTick(() => {
+        this.$refs.cardpool_name.focus();
+      });
     }
+  },
+
+  components: {
+    DeleteIcon, UploadIcon
   }
 }
 
@@ -102,7 +153,7 @@ export default {
       <div class="custom-cardpool">
         <div class="card-body bg-primary" v-if="inputVal === 'new-cardpool'">
           <div class="form-group">
-            <label for="custom-cardpool-name">Cardpool name:</label>
+            <label for="custom-cardpool-name">Cardpool Name:</label>
             <input class="form-control" id="custom-cardpool-name" placeholder="Enter name" 
                    ref="cardpool_name" v-model="create_cardpool.name"/>
           </div>
@@ -120,14 +171,16 @@ export default {
               collection and export it as a CSV.</p>
             </small>
 
-            <div v-if="create_cardpool.name && create_cardpool.cards.length" class="form-group">
-              <button class="btn btn-warning">Use Cardpool</button>
+            <div class="form-group">
+              <button type="button" class="btn btn-warning" @click="onUseCardpool">Create Cardpool</button>
             </div>
           </div>
         </div>
-        <div v-else-if="inputVal.startsWith('cardpool:')">
-          Custom
-        </div>
+        <div class="cardpool-bar" v-else-if="inputVal.startsWith('cardpool:')">
+          Updated: May 2nd, 2015 
+          <a class="cardpool-action float-right"><DeleteIcon title="Remove Cardpool" @click.native="onRemoveCardpool"/><span>Remove</span></a>
+          <a class="cardpool-action float-right"><UploadIcon title="Update Cardpool" @click.native="onUpdateCardpool"/><span>Update...</span></a>
+         </div>
       </div>
     </div>
   </div>
@@ -148,6 +201,30 @@ export default {
 
 .custom-cardpool .btn {
   margin-top: 10px;
+}
+
+.cardpool-bar {
+  padding-right: 8px;
+}
+
+.cardpool-bar .cardpool-action {
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+.cardpool-bar .cardpool-action:hover {
+  color: #e9ecef !important;
+}
+
+
+.cardpool-bar .cardpool-action .material-design-icon {
+  margin-right: 3px;
+}
+
+
+
+.cardpool-bar .cardpool-action .cloud-upload-icon {
+  margin-right: 6px;
 }
 
 .cardpool-upload, .cardpool-upload:focus {

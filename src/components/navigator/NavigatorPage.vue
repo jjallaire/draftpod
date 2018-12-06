@@ -4,6 +4,7 @@ import NavBar from '@/components/core/NavBar.vue'
 import NavigatorResume from './NavigatorResume.vue'
 import NavigatorStart from './NavigatorStart.vue'
 import NavigatorRecent from './NavigatorRecent.vue'
+import SiteFooter from '@/components/core/SiteFooter.vue'
 
 import { mapGetters, mapMutations } from 'vuex'
 
@@ -59,7 +60,7 @@ export default {
   },
 
   components: {
-    NavBar, NavigatorResume, NavigatorStart, NavigatorRecent
+    NavBar, NavigatorResume, NavigatorStart, NavigatorRecent, SiteFooter
   },
 }
 
@@ -81,7 +82,9 @@ export default {
     <NavigatorStart />
     <NavigatorRecent 
       :draft_history="draft_history"
-    />   
+    />
+
+    <SiteFooter />   
   </div>
 
   </div>

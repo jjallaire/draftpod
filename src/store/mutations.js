@@ -29,18 +29,18 @@ export default {
   [SET_CARDPOOL](state, { set_code, name, cards }) {
 
     // ensure we have a key for this set
-    if (!state.cardpool[set_code])
-      Vue.set(state.cardpool, set_code, {});
+    if (!state.cardpools[set_code])
+      Vue.set(state.cardpools, set_code, {});
 
     // set the cardpool
-    Vue.set(state.cardpool[set_code], name, {
+    Vue.set(state.cardpools[set_code], name, {
       cards,
       updated: new Date().getTime()
     })
   },
 
   [REMOVE_CARDPOOL](state, { set_code, name }) {
-    Vue.delete(state.cardpool[set_code], name);
+    Vue.delete(state.cardpools[set_code], name);
   },
 
 }

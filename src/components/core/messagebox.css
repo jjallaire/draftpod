@@ -2,3 +2,6 @@
   padding: 0.5rem 1.25rem;
 }
 
+.draftpod-bootbox-dialog .hidden-button {
+  display: none;
+}

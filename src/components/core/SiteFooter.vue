@@ -28,4 +28,8 @@ Not approved/endorsed by Wizards. Portions of the materials used are property of
 
 <style>
 
+.site-footer {
+  margin-top: 100px;
+}
+
 </style>

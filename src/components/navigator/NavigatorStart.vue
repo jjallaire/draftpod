@@ -99,7 +99,7 @@ export default {
     <SelectSet v-model="set_code" @input="onSetChanged" />
     <SelectCardpool v-model="cardpool" :set_code="set_code"/>
     <div class="form-group row">
-      <label for="draft-options" class="col-sm-3 col-form-label">Draft options:</label>
+      <label for="draft-options" class="col-sm-3 col-form-label">Options:</label>
       <div id="draft-options" class="col-sm-8">
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="draft-timer"  v-model="pick_timer">
