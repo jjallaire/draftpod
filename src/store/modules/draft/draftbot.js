@@ -12,6 +12,13 @@ export function cardRatings(deck, pack) {
   // highest overall power-level)
   let deck_colors = deckColors(deck);
 
+  // how many picks have we made?
+  let pick_number = deck.length + 1;
+
+  // at what pick do we stop considering on-color cards even if
+  // they have a very high rating?
+  let color_commit_pick = 16;
+
   // return ratings                               
   return pack
 
@@ -30,12 +37,21 @@ export function cardRatings(deck, pack) {
       }
     })
 
-    // order cards by rating
+    // order cards by rating (after ~ 15 picks we will refuse to order
+    // a card without a color bonus above one with a color bonus)
     .sort((a, b) => {
       if (a.rating === b.rating)
         return b.color_bonus - a.color_bonus;
-      else
+      else if (pick_number <= color_commit_pick)
         return b.rating - a.rating
+      else {
+        if (b.color_bonus == 0 && a.color_bonus !== 0)
+          return -1;
+        else if (a.color_bonus == 0 && b.color_bonus !== 0)
+          return 1;
+        else
+          return b.rating - a.rating;
+      }
     });
 
 }
