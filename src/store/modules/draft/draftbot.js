@@ -15,9 +15,13 @@ export function cardRatings(deck, pack) {
   // how many picks have we made?
   let pick_number = deck.length + 1;
 
+  // at what pick do we start giving on-color cards a slight
+  // bias compared to off-color cards?
+  let color_bias_pick = 5;
+  
   // at what pick do we stop considering on-color cards even if
   // they have a very high rating?
-  let color_commit_pick = 16;
+  let color_commit_pick = 15;
 
   // return ratings                               
   return pack
@@ -27,6 +31,12 @@ export function cardRatings(deck, pack) {
      
       // calculate the bonus levels
       let color_bonus = colorBonus(deck, deck_colors, card);
+
+      // provide a color bias past a certain threshold
+      if (pick_number >= color_bias_pick) {
+        if (color_bonus > 0)
+          color_bonus += 0.5;
+      }
       
       // return the card and the various components of the final adjusted rating
       return {
