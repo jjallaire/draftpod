@@ -8,6 +8,16 @@ export default {
 
   name: 'CardpoolUploadStatus',
 
+  props: {
+    success: {
+      type: String,
+      default: null
+    },
+    alert: {
+      type: String,
+      default: null
+    }
+  },
 
   components: {
     AlertIcon, CheckIcon
@@ -20,11 +30,11 @@ export default {
 <template>
 
 <div>
-  <div>
-    <CheckIcon /> 456 cards uploaded
+  <div v-if="success">
+    <CheckIcon /> {{ success }}
   </div>
-  <div class="text-danger">
-    <AlertIcon /> 456 cards uploaded
+  <div v-if="alert" class="text-danger">
+    <AlertIcon /> {{ alert }}
   </div>
 </div>
 
