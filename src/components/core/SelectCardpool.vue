@@ -3,9 +3,10 @@
 <script>
 
 // TODO: refactor/cleanup
-// TODO: implement remove/update
+
 // TODO: error/input checking on upload (including validation of cards and feedback)
 // TODO: perhaps summarize cube stats
+
 // TODO: consider supporting Decked Builder YAML (.coll2)
 
 import { CARDPOOL } from '@/store/constants'
