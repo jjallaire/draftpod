@@ -5,6 +5,8 @@ import SetIcon from '@/components/core/SetIcon.vue'
 import ContentPanel from '@/components/core//ContentPanel.vue'
 import RemoveDraft from './RemoveDraft.vue'
 
+import * as filters from '@/components/core/filters'
+
 export default {
   name: 'NavigatorRecent',
 
@@ -19,11 +21,10 @@ export default {
     onDraftNavigate(draft) {
       this.$router.push({ path: "/draft/" +  draft.id });
     },
-    formatDateTime(dt) {
-      let date = new Date(dt);
-      return date.toLocaleDateString() + ', ' +
-             date.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true });
-    }
+  },
+
+  filters: {
+    prettyDate: filters.prettyDate
   },
 
   components: {
@@ -59,7 +60,7 @@ export default {
         </span>
       </div>
       <div class="col-md-3 text-muted">
-        {{ formatDateTime(draft.start_time) }}
+        {{ draft.start_time | prettyDate }}
       </div>
       <div class="col-md-1 text-muted">
         <RemoveDraft :draft_id="draft.id" remove_source="recent" />

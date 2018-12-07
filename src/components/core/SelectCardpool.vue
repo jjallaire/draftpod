@@ -9,19 +9,15 @@
 // TODO: consider supporting Decked Builder YAML (.coll2)
 
 import { CARDPOOL } from '@/store/constants'
-
-
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
-
-import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
-import UploadIcon from "vue-material-design-icons/CloudUpload.vue"
+import { mapGetters, mapMutations } from 'vuex'
+import * as filters from '@/components/core/filters'
 
 import * as messagebox from '@/components/core/messagebox.js'
 
-import { mapGetters, mapMutations } from 'vuex'
-
 import Papa from 'papaparse'
-
+import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
+import UploadIcon from "vue-material-design-icons/CloudUpload.vue"
 
 export default {
   name: 'SelectCardpool',
@@ -48,20 +44,12 @@ export default {
   },
 
   created() {
-    // validate that the inputVal is an available option. if it's not then
-    // set it to the first cube
-    const isOption = (options) => {
-      return options.filter((option) => option.value == this.inputVal).length > 0
-    };
-    if (!isOption(this.cardpool_options.cubes) && 
-        !isOption(this.cardpool_options.custom)) {
-      this.inputVal = this.cardpool_options.cubes[0].value;
-      this.$emit('input', this.inputVal);
-    }
+    this.validateInputVal();
   },
 
   computed: {
     ...mapGetters([
+      'cardpool',
       'cardpools',
     ]),
     cardpool_options() {
@@ -92,10 +80,22 @@ export default {
         })
       }
     },
-    is_custom() {
-      return this.inputVal.startsWith(CARDPOOL.CUSTOM);
-    }
 
+    is_custom_cardpool() {
+      return this.inputVal.startsWith(CARDPOOL.CUSTOM);
+    },
+
+    selected_custom_cardpool() {
+      const isInputVal = (option) => option.value === this.inputVal;
+      let option = this.cardpool_options.custom.find(isInputVal);
+      let name = option.value.replace(CARDPOOL.CUSTOM, '');
+      return {
+        name: name,
+        value: option.value,
+        caption: option.caption,
+        updated: this.cardpool(this.set_code, name).updated
+      }
+    }
   },
 
   methods: {
@@ -115,24 +115,9 @@ export default {
     },
     onCardpoolUploaded(event) {
       const file = event.target.files[0];
-      Papa.parse(file, {
-        header: true,
-        dynamicTyping: true,
-        skipEmptyLines: true,
-        complete: (results) => {
-          this.create_cardpool.cards = results.data
-            .map((card) => {
-              let id = card['id'] || card['Mvid'];
-              let quantity = card['quantity'] || card['Total Qty'];
-              return {
-                id,
-                quantity
-              }
-            });
-        },
-        error: function() {
-          // TODO: handle various types of upload errors
-        }
+      this.handleCardpoolUpload(file, (cards) => {
+        this.create_cardpool.cards = cards;
+        this.focusCardpoolName();
       });
     },
     onUseCardpool() {
@@ -146,18 +131,68 @@ export default {
           name: this.create_cardpool.name,
           cards: this.create_cardpool.cards
         });
-        this.inputVal = CARDPOOL.CUSTOM + this.create_cardpool.name;
+        this.$nextTick(() => {
+          this.inputVal = CARDPOOL.CUSTOM + this.create_cardpool.name;
+          this.$emit('input', this.inputVal);
+        });
       }
 
     
     },
 
     onRemoveCardpool() {
-
+      let cardpool = this.selected_custom_cardpool;
+      messagebox.confirm(
+        "Are you sure you want to remove the " + cardpool.caption + " cardpool?",
+        () => {
+          this.removeCardpool({
+            set_code: this.set_code, 
+            name: cardpool.name
+          }); 
+          this.validateInputVal();
+        }
+      )
     },
 
     onUpdateCardpool() {
+      this.$refs.cardpool_upload_update.click();
+    },
 
+    onCardpoolUpdateUploaded(event) {
+
+      const file = event.target.files[0];
+      this.handleCardpoolUpload(file, (cards) => {
+        let cardpool = this.selected_custom_cardpool;
+        this.setCardpool({
+          set_code: this.set_code,
+          name: cardpool.name,
+          cards: cards
+        });
+      });
+    },
+
+
+    handleCardpoolUpload(file, complete) {
+      Papa.parse(file, {
+        header: true,
+        dynamicTyping: true,
+        skipEmptyLines: true,
+        complete: (results) => {
+          let cards = results.data
+            .map((card) => {
+              let id = card['id'] || card['Mvid'];
+              let quantity = card['quantity'] || card['Total Qty'];
+              return {
+                id,
+                quantity
+              }
+            });
+            complete(cards);
+        },
+        error: function() {
+          // TODO: handle various types of upload errors
+        }
+      });
     },
 
     focusCardpoolName() {
@@ -165,6 +200,24 @@ export default {
         this.$refs.cardpool_name.focus();
       });
     },
+
+    // validate that the inputVal is an available option. if it's not then
+    // set it to the first cube
+    validateInputVal() {
+      if (!this.hasInputVal(this.cardpool_options.cubes) && 
+          !this.hasInputVal(this.cardpool_options.custom)) {
+       this.inputVal = this.cardpool_options.cubes[0].value;
+       this.$emit('input', this.inputVal);
+      }
+    },
+
+    hasInputVal(options) {
+      return options.filter((option) => option.value == this.inputVal).length > 0
+    }
+  },
+
+  filters: {
+    prettyDate: filters.prettyDate
   },
 
   components: {
@@ -188,7 +241,7 @@ export default {
       <optgroup label="Custom">
         <option v-for="option in cardpool_options.custom" :key="option.value"
                 :value="option.value">{{ option.caption }}</option>
-        <option value="new-cardpool">New Custom Cardpool...</option>
+        <option value="new-cardpool">New Cardpool...</option>
       </optgroup>
     </select>
     <div>
@@ -214,14 +267,16 @@ export default {
             </small>
 
             <div class="form-group">
-              <button type="button" class="btn btn-warning" @click="onUseCardpool">Create Cardpool</button>
+              <button type="button" class="btn btn-warning" @click="onUseCardpool">Use Cardpool</button>
             </div>
           </div>
         </div>
-        <div class="cardpool-bar" v-else-if="is_custom">
-          Last update: May 2nd, 2015 
-          <a class="cardpool-action float-right"><DeleteIcon title="Remove Cardpool" @click.native="onRemoveCardpool"/><span>Remove</span></a>
-          <a class="cardpool-action float-right"><UploadIcon title="Update Cardpool" @click.native="onUpdateCardpool"/><span>Update...</span></a>
+        <div class="cardpool-bar" v-else-if="is_custom_cardpool">
+          Updated: {{ selected_custom_cardpool.updated | prettyDate }}
+          <a class="cardpool-action float-right" @click="onRemoveCardpool"><DeleteIcon title="Remove Cardpool"/><span>Remove</span></a>
+          <a class="cardpool-action float-right" @click="onUpdateCardpool"><UploadIcon title="Update Cardpool"/><span>Update...</span></a>
+            <input type="file"  id="custom-cardpool-update" ref="cardpool_upload_update"
+                accept="text/csv" @change="onCardpoolUpdateUploaded"/>
          </div>
       </div>
     </div>
@@ -263,7 +318,9 @@ export default {
   margin-right: 3px;
 }
 
-
+.cardpool-bar #custom-cardpool-update {
+  display: none;
+}
 
 .cardpool-bar .cardpool-action .cloud-upload-icon {
   margin-right: 6px;
@@ -283,8 +340,6 @@ export default {
 .form-text.text-muted a:hover {
   text-decoration: underline;
 }
-
-
 
 
 </style>
