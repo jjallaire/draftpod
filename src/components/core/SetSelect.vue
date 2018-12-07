@@ -3,7 +3,7 @@
 <script>
 
 export default {
-  name: 'SelectSet',
+  name: 'SetSelect',
 
   props: {
     value: {

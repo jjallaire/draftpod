@@ -21,7 +21,7 @@ import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
 import UploadIcon from "vue-material-design-icons/CloudUpload.vue"
 
 export default {
-  name: 'SelectCardpool',
+  name: 'CardpoolSelect',
 
   props: {
     value: {

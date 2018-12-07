@@ -4,8 +4,8 @@
 import NavBar from '@/components/core/NavBar.vue'
 
 import ContentPanel from '@/components/core/ContentPanel.vue'
-import SelectSet from '@/components/core/SelectSet.vue'
-import SelectCardpool from '@/components/core/SelectCardpool.vue'
+import SetSelect from '@/components/core/SetSelect.vue'
+import CardpoolSelect from '@/components/core/cardpool/CardpoolSelect.vue'
 
 import { mapActions, mapMutations } from 'vuex'
 import { CREATE_DRAFT } from '@/store/actions'
@@ -155,7 +155,7 @@ export default {
     }),
   },
 
-  components: { NavBar, ContentPanel, SelectSet, SelectCardpool }
+  components: { NavBar, ContentPanel, SetSelect, CardpoolSelect }
 }
 
 
@@ -172,8 +172,8 @@ export default {
     
     <ContentPanel caption="Simulate Drafts">
       <form>
-        <SelectSet v-model="set_code" />
-        <SelectCardpool v-model="cardpool" :set_code="set_code" />
+        <SetSelect v-model="set_code" />
+        <CardpoolSelect v-model="cardpool" :set_code="set_code" />
         <div class="form-group row">
           <label for="number-of-drafts" class="col-sm-3 col-form-label">Number of drafts:</label>
           <div class="col-sm-8">

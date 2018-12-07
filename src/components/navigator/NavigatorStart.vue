@@ -1,8 +1,8 @@
 <script>
 
 import ContentPanel from '@/components/core/ContentPanel.vue'
-import SelectSet from '@/components/core/SelectSet.vue'
-import SelectCardpool from '@/components/core/SelectCardpool.vue'
+import SetSelect from '@/components/core/SetSelect.vue'
+import CardpoolSelect from '@/components/core/cardpool/CardpoolSelect.vue'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
@@ -33,7 +33,7 @@ export default {
   },
 
   components: {
-    ContentPanel, SelectSet, SelectCardpool
+    ContentPanel, SetSelect, CardpoolSelect
   },
 
   computed: {
@@ -96,8 +96,8 @@ export default {
 
 <ContentPanel caption="Start New Draft">
   <form>
-    <SelectSet v-model="set_code" @input="onSetChanged" />
-    <SelectCardpool v-model="cardpool" :set_code="set_code"/>
+    <SetSelect v-model="set_code" @input="onSetChanged" />
+    <CardpoolSelect v-model="cardpool" :set_code="set_code"/>
     <div class="form-group row">
       <label for="draft-options" class="col-sm-3 col-form-label">Options:</label>
       <div id="draft-options" class="col-sm-8">
