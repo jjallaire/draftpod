@@ -114,8 +114,8 @@ export default {
     }),
     onCardpoolChanged(event) {
       this.inputVal = event.target.value;
+      this.clearCardpoolInput();
       if (this.is_new_cardpool) {
-        this.clearNewCardpoolInput();
         this.focusCardpoolName();
       } else {
         this.$emit('input', this.inputVal);
@@ -125,7 +125,9 @@ export default {
       const file = event.target.files[0];
       this.handleCardpoolUpload(file, (cards) => {
         this.new_cardpool.cards = cards;
-        this.focusCardpoolName();
+        this.new_cardpool.upload_status.success = this.uploadSuccessMessage(cards);
+        if (!this.new_cardpool.name)
+          this.focusCardpoolName();
       });
     },
     onUseCardpool() {
@@ -177,6 +179,7 @@ export default {
           name: cardpool.name,
           cards: cards
         });
+        this.custom_cardpool.upload_status.success = this.uploadSuccessMessage(cards);
       });
     },
 
@@ -204,10 +207,19 @@ export default {
       });
     },
 
+    clearCardpoolInput() {
+      this.clearNewCardpoolInput();
+      this.clearCustomCardpoolInput();
+    },
+
     clearNewCardpoolInput() {
       this.new_cardpool.name = null;
       this.new_cardpool.cards = [];
       this.new_cardpool.upload_status = this.noUploadStatus();
+    },
+
+    clearCustomCardpoolInput() {
+      this.custom_cardpool.upload_status = this.noUploadStatus();
     },
 
     noUploadStatus() {
@@ -215,6 +227,11 @@ export default {
         success: null,
         alert: null
       }
+    },
+
+    uploadSuccessMessage(cards) {
+      let total_cards = cards.reduce((total, card) => total + card.quantity, 0);
+      return total_cards + ' cards successfully uploaded';
     },
 
     focusCardpoolName() {
