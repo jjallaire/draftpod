@@ -7,14 +7,14 @@
 // TODO: error/input checking on upload (including validation of cards and feedback)
 // TODO: perhaps summarize cube stats
 
-// TODO: consider supporting Decked Builder YAML (.coll2)
-
 import { CARDPOOL } from '@/store/constants'
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
 import { mapGetters, mapMutations } from 'vuex'
 import * as filters from '@/components/core/filters'
 
 import * as messagebox from '@/components/core/messagebox.js'
+
+import CardpoolUploadStatus from './CardpoolUploadStatus'
 
 import Papa from 'papaparse'
 import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
@@ -38,8 +38,12 @@ export default {
     return {
       inputVal: this.value,
       new_cardpool: {
-        name: '',
-        cards: []
+        name: null,
+        cards: [],
+        upload_status: this.noUploadStatus()
+      },
+      custom_cardpool: {
+        upload_status: this.noUploadStatus()
       }
     }
   },
@@ -82,6 +86,10 @@ export default {
       }
     },
 
+    is_new_cardpool() {
+      return this.inputVal === 'new-cardpool';
+    },
+
     is_custom_cardpool() {
       return this.inputVal.startsWith(CARDPOOL.CUSTOM);
     },
@@ -106,9 +114,8 @@ export default {
     }),
     onCardpoolChanged(event) {
       this.inputVal = event.target.value;
-      if (this.inputVal === 'new-cardpool') {
-        this.new_cardpool.name = '';
-        this.new_cardpool.cards = [];
+      if (this.is_new_cardpool) {
+        this.clearNewCardpoolInput();
         this.focusCardpoolName();
       } else {
         this.$emit('input', this.inputVal);
@@ -135,6 +142,7 @@ export default {
         this.$nextTick(() => {
           this.inputVal = CARDPOOL.CUSTOM + this.new_cardpool.name;
           this.$emit('input', this.inputVal);
+          this.clearNewCardpoolInput();
         });
       }
 
@@ -196,6 +204,19 @@ export default {
       });
     },
 
+    clearNewCardpoolInput() {
+      this.new_cardpool.name = null;
+      this.new_cardpool.cards = [];
+      this.new_cardpool.upload_status = this.noUploadStatus();
+    },
+
+    noUploadStatus() {
+      return {
+        success: null,
+        alert: null
+      }
+    },
+
     focusCardpoolName() {
       this.$nextTick(() => {
         this.$refs.cardpool_name.focus();
@@ -222,7 +243,7 @@ export default {
   },
 
   components: {
-    DeleteIcon, UploadIcon
+    DeleteIcon, UploadIcon, CardpoolUploadStatus
   }
 }
 
@@ -247,7 +268,7 @@ export default {
     </select>
     <div>
       <div class="custom-cardpool">
-        <div class="card-body bg-primary" v-if="inputVal === 'new-cardpool'">
+        <div class="card-body bg-primary" v-if="is_new_cardpool">
           <div class="form-group">
             <label for="custom-cardpool-name">Cardpool Name:</label>
             <input class="form-control" id="custom-cardpool-name" placeholder="Enter name" 
@@ -258,6 +279,7 @@ export default {
             <input type="file"  id="custom-cardpool-upload" class="form-control cardpool-upload" 
                    aria-describedby="custom-cardpool-upload-help" 
                    accept="text/csv" @change="onCardpoolUploaded"/>
+            <CardpoolUploadStatus :status="new_cardpool.upload_status" />
             <small id="custom-cardpool-upload-help" class="form-text text-muted">
               <p>Please upload a CSV file that enumerates the cards in your cardpool (note that all 
               cards must be from the set selected above).</p>
@@ -273,11 +295,14 @@ export default {
           </div>
         </div>
         <div class="cardpool-bar" v-else-if="is_custom_cardpool">
-          Updated: {{ selected_custom_cardpool.updated | prettyDate }}
-          <a class="cardpool-action float-right" @click="onRemoveCardpool"><DeleteIcon title="Remove Cardpool"/><span>Remove</span></a>
-          <a class="cardpool-action float-right" @click="onUpdateCardpool"><UploadIcon title="Update Cardpool"/><span>Update...</span></a>
+          <div>
+            Updated: {{ selected_custom_cardpool.updated | prettyDate }}
+            <a class="cardpool-action float-right" @click="onRemoveCardpool"><DeleteIcon title="Remove Cardpool"/><span>Remove</span></a>
+            <a class="cardpool-action float-right" @click="onUpdateCardpool"><UploadIcon title="Update Cardpool"/><span>Update...</span></a>
             <input type="file"  id="custom-cardpool-update" ref="cardpool_upload_update"
-                accept="text/csv" @change="onCardpoolUpdateUploaded"/>
+                  accept="text/csv" @change="onCardpoolUpdateUploaded"/>
+          </div>
+          <CardpoolUploadStatus :status="custom_cardpool.upload_status" />
          </div>
       </div>
     </div>

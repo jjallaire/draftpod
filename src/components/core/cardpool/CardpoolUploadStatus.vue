@@ -9,14 +9,10 @@ export default {
   name: 'CardpoolUploadStatus',
 
   props: {
-    success: {
-      type: String,
-      default: null
+    status: {
+      type: Object,
+      requred: true
     },
-    alert: {
-      type: String,
-      default: null
-    }
   },
 
   components: {
@@ -30,11 +26,11 @@ export default {
 <template>
 
 <div>
-  <div v-if="success">
-    <CheckIcon /> {{ success }}
+  <div v-if="status.success">
+    <CheckIcon /> {{ status.success }}
   </div>
-  <div v-if="alert" class="text-danger">
-    <AlertIcon /> {{ alert }}
+  <div v-if="status.alert" class="text-danger">
+    <AlertIcon /> {{ status.alert }}
   </div>
 </div>
 
