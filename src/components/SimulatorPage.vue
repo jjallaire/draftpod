@@ -12,6 +12,8 @@ import { CREATE_DRAFT } from '@/store/actions'
 import { REMOVE_DRAFTS } from '@/store/mutations'
 import { SIMULATE_DRAFT } from '@/store/modules/draft/mutations'
 
+import { CARDPOOL } from '@/store/constants'
+
 import { DECK } from '@/store/modules/draft/constants'
 import * as draftbot from '@/store/modules/draft/draftbot'
 
@@ -24,7 +26,7 @@ export default {
   data: function() {
     return {
       set_code: 'grn',
-      cardpool: '4/4/1/1',
+      cardpool: CARDPOOL.CUBE + '4/4/1/1',
       number: 100,
       decks: []
     }

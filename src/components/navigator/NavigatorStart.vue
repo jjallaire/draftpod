@@ -6,6 +6,7 @@ import SelectCardpool from '@/components/core/SelectCardpool.vue'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
+import { CARDPOOL } from '@/store/constants'
 import { UPDATE_PREFERENCES } from '@/store/mutations'
 import { CREATE_DRAFT } from '@/store/actions'
 
@@ -17,7 +18,7 @@ export default {
   data: function() {
     return {
       set_code: 'grn',
-      cardpool: '4/4/1/1',
+      cardpool: CARDPOOL.CUBE + '4/4/1/1',
       pick_timer: true,
       pick_ratings: false
     }
