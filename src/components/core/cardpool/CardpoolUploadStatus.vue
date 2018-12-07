@@ -26,11 +26,11 @@ export default {
 <template>
 
 <div>
-  <div v-if="status.success">
-    <CheckIcon /> {{ status.success }}
+  <div v-for="message in status.success" :key="message">
+    <CheckIcon /> {{ message }}
   </div>
-  <div v-if="status.alert" class="text-danger">
-    <AlertIcon /> {{ status.alert }}
+  <div v-for="message in status.alert" :key="message" class="text-danger">
+    <AlertIcon /> {{ message }}
   </div>
 </div>
 

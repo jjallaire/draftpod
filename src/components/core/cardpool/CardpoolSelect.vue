@@ -125,7 +125,7 @@ export default {
       const file = event.target.files[0];
       this.handleCardpoolUpload(file, (cards) => {
         this.new_cardpool.cards = cards;
-        this.new_cardpool.upload_status.success = this.uploadSuccessMessage(cards);
+        this.new_cardpool.upload_status.success = this.uploadSuccessStatus(cards);
         if (!this.new_cardpool.name)
           this.focusCardpoolName();
       });
@@ -179,7 +179,7 @@ export default {
           name: cardpool.name,
           cards: cards
         });
-        this.custom_cardpool.upload_status.success = this.uploadSuccessMessage(cards);
+        this.custom_cardpool.upload_status.success = this.uploadSuccessStatus(cards);
       });
     },
 
@@ -224,14 +224,14 @@ export default {
 
     noUploadStatus() {
       return {
-        success: null,
-        alert: null
+        success: [],
+        alert: []
       }
     },
 
-    uploadSuccessMessage(cards) {
+    uploadSuccessStatus(cards) {
       let total_cards = cards.reduce((total, card) => total + card.quantity, 0);
-      return total_cards + ' cards successfully uploaded';
+      return [total_cards + ' cards successfully uploaded'];
     },
 
     focusCardpoolName() {
