@@ -2,6 +2,7 @@
 
 <script>
 
+// TODO: validate that errors are fired at the right times
 // TODO: validate that cards come from the set
 // TODO: include set name in status message
 // (add warning level in addition to alert)
@@ -231,19 +232,19 @@ export default {
           // validate that we have data
           if (!cards || (cards.length === 0)) {
             valid = false;
-            status.alert.push(
+            status.error.push(
               "The uploaded cardpool file could not be parsed. Are you sure it's a CSV with " +
               "the required id and quantity fields?"
             );
           } else if (!readId(cards[0])) {
             valid = false;
-            status.alert.push(
+            status.error.push(
               "The uploaded cardpool CSV does not have an id field. Please ensure that " +
               "this field is included."
             );
           } else if (!readQuantity(cards[0])) {
             valid = false;
-            status.alert.push(
+            status.error.push(
               "The uploaded cardpool CSV does not have a quantity field. Please ensure that " +
               "this field is included."
             );
@@ -269,7 +270,7 @@ export default {
           let total_cards = this.countCards(cards);
           if (total_cards < 360) {
             valid = false;
-            status.alert.push(
+            status.error.push(
               "The uploaded cardpool has " + total_cards + " cards, which is less than " +
               "the 360 cards required for an 8-player draft."
             );
