@@ -2,10 +2,13 @@
 
 <script>
 
-// TODO: refactor/cleanup
+// TODO: validate that cards come from the set
+// TODO: include set name in status message
+// (add warning level in addition to alert)
 
-// TODO: error/input checking on upload (including validation of cards and feedback)
-// TODO: perhaps summarize cube stats
+// TODO: look and feel of status
+
+// TODO: refactor/cleanup
 
 import { CARDPOOL } from '@/store/constants'
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
@@ -122,12 +125,23 @@ export default {
       }
     },
     onCardpoolUploaded(event) {
+
       const file = event.target.files[0];
-      this.handleCardpoolUpload(file, (cards) => {
-        this.new_cardpool.cards = cards;
-        this.new_cardpool.upload_status.success = this.uploadSuccessStatus(cards);
-        if (!this.new_cardpool.name)
-          this.focusCardpoolName();
+      if (!file)
+        return;
+
+      this.handleCardpoolUpload(file, (cards, status) => {
+        
+        // handle cards if we got them
+        if (cards) {
+          this.new_cardpool.cards = cards;
+          if (!this.new_cardpool.name)
+            this.focusCardpoolName();
+        }
+
+        // update status
+        this.new_cardpool.upload_status = status;
+        
       });
     },
     onUseCardpool() {
@@ -172,39 +186,110 @@ export default {
     onCardpoolUpdateUploaded(event) {
 
       const file = event.target.files[0];
-      this.handleCardpoolUpload(file, (cards) => {
-        let cardpool = this.selected_custom_cardpool;
-        this.setCardpool({
-          set_code: this.set_code,
-          name: cardpool.name,
-          cards: cards
-        });
-        this.custom_cardpool.upload_status.success = this.uploadSuccessStatus(cards);
+      if (!file)
+        return;
+
+      this.handleCardpoolUpload(file, (cards, status) => {
+
+        // handle cards if we got them
+        if (cards) {
+          let cardpool = this.selected_custom_cardpool;
+          this.setCardpool({
+            set_code: this.set_code,
+            name: cardpool.name,
+            cards: cards
+          });
+        }
+
+        // provide status
+        this.custom_cardpool.upload_status = status;
       });
     },
 
 
     handleCardpoolUpload(file, complete) {
+      
       Papa.parse(file, {
         header: true,
         dynamicTyping: true,
         skipEmptyLines: true,
         complete: (results) => {
-          let cards = results.data
-            .map((card) => {
-              let id = card['id'] || card['Mvid'];
-              let quantity = card['quantity'] || card['Total Qty'];
-              return {
-                id,
-                quantity
-              }
-            });
-            complete(cards);
+          
+          // track status
+          let status = this.noUploadStatus();
+
+          // track whether the upload is valid
+          let valid = true;
+
+          // get the results
+          let cards = results.data;
+
+          // functions for reading card fields
+          const readId = (card) => card['id'] || card['Mvid'];
+          const readQuantity = (card) => card['quantity'] || card['Total Qty'];
+
+          // validate that we have data
+          if (!cards || (cards.length === 0)) {
+            valid = false;
+            status.alert.push(
+              "The uploaded cardpool file could not be parsed. Are you sure it's a CSV with " +
+              "the required id and quantity fields?"
+            );
+          } else if (!readId(cards[0])) {
+            valid = false;
+            status.alert.push(
+              "The uploaded cardpool CSV does not have an id field. Please ensure that " +
+              "this field is included."
+            );
+          } else if (!readQuantity(cards[0])) {
+            valid = false;
+            status.alert.push(
+              "The uploaded cardpool CSV does not have a quantity field. Please ensure that " +
+              "this field is included."
+            );
+          }
+
+          // bail if we don't have valid data to proceed with
+          if (!valid) {
+            complete(null, status);
+            return;
+          }
+
+          // extract the fields
+          cards = cards.map((card) => {
+            let id = card['id'] || card['Mvid'];
+            let quantity = card['quantity'] || card['Total Qty'];
+            return {
+              id: id,
+              quantity: quantity
+            }
+          });
+
+          // validate we have enough cards
+          let total_cards = this.countCards(cards);
+          if (total_cards < 360) {
+            valid = false;
+            status.alert.push(
+              "The uploaded cardpool has " + total_cards + " cards, which is less than " +
+              "the 360 cards required for an 8-player draft."
+            );
+          }
+          
+          // complete successfully if the file was valid
+          if (valid) {
+            status.success.push(
+              "Cardpool upload complete (" + total_cards + " cards in pool)"
+            );
+            complete(cards, status);
+          } else {
+            complete(null, status);
+          }
         },
+      
         error: function() {
-          // TODO: handle various types of upload errors
+          
         }
-      });
+      });     
     },
 
     clearCardpoolInput() {
@@ -229,9 +314,8 @@ export default {
       }
     },
 
-    uploadSuccessStatus(cards) {
-      let total_cards = cards.reduce((total, card) => total + card.quantity, 0);
-      return [total_cards + ' cards successfully uploaded'];
+    countCards(cards) {
+      return cards.reduce((total, card) => total + card.quantity, 0);
     },
 
     focusCardpoolName() {
@@ -319,6 +403,7 @@ export default {
             <input type="file"  id="custom-cardpool-update" ref="cardpool_upload_update"
                   accept="text/csv" @change="onCardpoolUpdateUploaded"/>
           </div>
+          <div style="clear: both;"/>
           <CardpoolUploadStatus :status="custom_cardpool.upload_status" />
          </div>
       </div>

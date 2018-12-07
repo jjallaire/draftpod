@@ -25,8 +25,8 @@ export default {
 
 <template>
 
-<div>
-  <div v-for="message in status.success" :key="message">
+<div class="cardpool-upload-status">
+  <div v-for="message in status.success" :key="message" class="text-success">
     <CheckIcon /> {{ message }}
   </div>
   <div v-for="message in status.alert" :key="message" class="text-danger">
@@ -37,6 +37,7 @@ export default {
 </template>
 
 <style>
+
 
 </style>
 
