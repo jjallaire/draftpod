@@ -7,6 +7,7 @@ import { START_DRAFT } from './modules/draft/mutations';
 
 import * as set from './modules/draft/set/'
 import { useDraftModule } from '@/store'
+import { CARDPOOL } from '@/store/constants'
 
 export const CREATE_DRAFT = 'CREATE_DRAFT'
 
@@ -26,11 +27,11 @@ export default {
         .then(set_cards => {
 
           // resolve the cardpool
-          if (cardpool.startsWith('cardpool:')) {
+          if (cardpool.startsWith(CARDPOOL.CUSTOM)) {
             
             // lookup named cardpool
-            let name = cardpool.replace(/^cardpool:/, '');
-            let cardpool_cards = state.cardpools[set_code][name].cards;
+            let custom = cardpool.replace(CARDPOOL.CUSTOM, '');
+            let cardpool_cards = state.cardpools[set_code][custom].cards;
             cardpool = [];
             cardpool_cards.forEach((cardpool_card) => {
               let card = set_cards.find((set_card) => set_card.id === cardpool_card.id);
@@ -38,10 +39,11 @@ export default {
                 cardpool.push(...new Array(cardpool_card.quantity).fill(card));
             });
 
-          } else {
+          } else if (cardpool.startsWith(CARDPOOL.CUBE)) {
             
             // generated cube
-            let [ common, uncommon, mythic, rare ] = cardpool.split('/').map(Number);
+            let cube = cardpool.replace(CARDPOOL.CUBE, '');
+            let [ common, uncommon, mythic, rare ] = cube.split('/').map(Number);
             cardpool = set.cube(set_code, set_cards, {
               mythic: mythic,
               rare: rare,

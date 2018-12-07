@@ -61,9 +61,7 @@ export default {
     } else {
       return [];
     }
-  }
-
-
+  },
 };
 
 

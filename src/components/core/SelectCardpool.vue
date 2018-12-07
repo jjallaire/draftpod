@@ -3,12 +3,12 @@
 <script>
 
 // TODO: refactor/cleanup
-// TODO: protocol around encoding cardpool in a string may be
-//       a bit sketchy!
+// TODO: implement remove/update
 // TODO: error/input checking on upload (including validation of cards and feedback)
-// TODO: reselect custom cardpool on return (fail gracefully)
+// TODO: perhaps summarize cube stats
 // TODO: consider supporting Decked Builder YAML (.coll2)
 
+import { CARDPOOL } from '@/store/constants'
 
 
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
@@ -47,24 +47,55 @@ export default {
     }
   },
 
-  watch: {
-    inputVal(val) {
-      // for new cardpools we focus the cardpool name
-      if (val === 'new-cardpool') {
-        this.create_cardpool.name = '';
-        this.create_cardpool.cards = [];
-        this.focusCardpoolName();
-      } else {
-         this.$emit('input', val);
-      }
+  created() {
+    // validate that the inputVal is an available option. if it's not then
+    // set it to the first cube
+    const isOption = (options) => {
+      return options.filter((option) => option.value == this.inputVal).length > 0
+    };
+    if (!isOption(this.cardpool_options.cubes) && 
+        !isOption(this.cardpool_options.custom)) {
+      this.inputVal = this.cardpool_options.cubes[0].value;
+      this.$emit('input', this.inputVal);
     }
   },
 
   computed: {
     ...mapGetters([
-      'cardpool',
-      'cardpools'
-    ])
+      'cardpools',
+    ]),
+    cardpool_options() {
+      return {
+        cubes: [
+          {
+            value: CARDPOOL.CUBE + '4/4/1/1',
+            caption: '4x Common, 4x Uncommon, 1x Rare, 1x Mythic'
+          },
+          {
+            value: CARDPOOL.CUBE + '4/4/2/1',
+            caption: '4x Common, 4x Uncommon, 2x Rare, 1x Mythic'
+          },
+          {
+            value: CARDPOOL.CUBE + '3/2/1/1',
+            caption: '3x Common, 2x Uncommon, 1x Rare, 1x Mythic'
+          },
+          {
+            value: CARDPOOL.CUBE + '4/4/0/0',
+            caption: '4x Common, 4x Uncommon'
+          }
+        ],
+        custom: this.cardpools(this.set_code).map(cardpool => {
+          return {
+            value: CARDPOOL.CUSTOM + cardpool.name,
+            caption: cardpool.name
+          };
+        })
+      }
+    },
+    is_custom() {
+      return this.inputVal.startsWith(CARDPOOL.CUSTOM);
+    }
+
   },
 
   methods: {
@@ -72,6 +103,16 @@ export default {
       setCardpool: SET_CARDPOOL,
       removeCardpool: REMOVE_CARDPOOL
     }),
+    onCardpoolChanged(event) {
+      this.inputVal = event.target.value;
+      if (this.inputVal === 'new-cardpool') {
+        this.create_cardpool.name = '';
+        this.create_cardpool.cards = [];
+        this.focusCardpoolName();
+      } else {
+        this.$emit('input', this.inputVal);
+      }
+    },
     onCardpoolUploaded(event) {
       const file = event.target.files[0];
       Papa.parse(file, {
@@ -105,7 +146,7 @@ export default {
           name: this.create_cardpool.name,
           cards: this.create_cardpool.cards
         });
-        this.inputVal = 'cardpool:' + this.create_cardpool.name;
+        this.inputVal = CARDPOOL.CUSTOM + this.create_cardpool.name;
       }
 
     
@@ -123,7 +164,7 @@ export default {
       this.$nextTick(() => {
         this.$refs.cardpool_name.focus();
       });
-    }
+    },
   },
 
   components: {
@@ -138,16 +179,15 @@ export default {
 <div class="form-group row">
   <label for="draft-cardpool" class="col-sm-3 col-form-label">Cardpool:</label>
   <div class="col-sm-8">
-    <select id="draft-cardpool" class="form-control" v-model="inputVal">
+    <select id="draft-cardpool" class="form-control" :value="inputVal"
+            @change="onCardpoolChanged">
       <optgroup label="Set Cube">
-        <option value="4/4/1/1">4x Common, 4x Uncommon, 1x Rare, 1x Mythic</option>
-        <option value="4/4/2/1">4x Common, 4x Uncommon, 2x Rare, 1x Mythic</option>
-        <option value="3/2/1/1">3x Common, 2x Uncommon, 1x Rare, 1x Mythic</option>
-        <option value="4/4/0/0">4x Common, 4x Uncommon</option>
+        <option v-for="option in cardpool_options.cubes" :key="option.value"
+                :value="option.value">{{ option.caption }}</option>
       </optgroup>
       <optgroup label="Custom">
-        <option v-for="cardpool in cardpools(set_code)" :key="cardpool.name"
-                :value="'cardpool:' + cardpool.name">{{ cardpool.name }}</option>
+        <option v-for="option in cardpool_options.custom" :key="option.value"
+                :value="option.value">{{ option.caption }}</option>
         <option value="new-cardpool">New Custom Cardpool...</option>
       </optgroup>
     </select>
@@ -178,7 +218,7 @@ export default {
             </div>
           </div>
         </div>
-        <div class="cardpool-bar" v-else-if="inputVal.startsWith('cardpool:')">
+        <div class="cardpool-bar" v-else-if="is_custom">
           Last update: May 2nd, 2015 
           <a class="cardpool-action float-right"><DeleteIcon title="Remove Cardpool" @click.native="onRemoveCardpool"/><span>Remove</span></a>
           <a class="cardpool-action float-right"><UploadIcon title="Update Cardpool" @click.native="onUpdateCardpool"/><span>Update...</span></a>

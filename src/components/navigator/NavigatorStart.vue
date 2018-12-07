@@ -24,7 +24,6 @@ export default {
   },
 
   created() {
-
     this.set_code = this.preferences.set_code;
     this.cardpool = this.cardpool;
     this.pick_timer = this.preferences.pick_timer;
