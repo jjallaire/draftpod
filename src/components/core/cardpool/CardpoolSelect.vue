@@ -37,7 +37,7 @@ export default {
   data: function() {
     return {
       inputVal: this.value,
-      create_cardpool: {
+      new_cardpool: {
         name: '',
         cards: []
       }
@@ -107,8 +107,8 @@ export default {
     onCardpoolChanged(event) {
       this.inputVal = event.target.value;
       if (this.inputVal === 'new-cardpool') {
-        this.create_cardpool.name = '';
-        this.create_cardpool.cards = [];
+        this.new_cardpool.name = '';
+        this.new_cardpool.cards = [];
         this.focusCardpoolName();
       } else {
         this.$emit('input', this.inputVal);
@@ -117,23 +117,23 @@ export default {
     onCardpoolUploaded(event) {
       const file = event.target.files[0];
       this.handleCardpoolUpload(file, (cards) => {
-        this.create_cardpool.cards = cards;
+        this.new_cardpool.cards = cards;
         this.focusCardpoolName();
       });
     },
     onUseCardpool() {
-      if (!this.create_cardpool.name)
+      if (!this.new_cardpool.name)
         messagebox.alert('Please provide a name for the cardpool', this.focusCardpoolName);
-      else if (this.create_cardpool.cards.length === 0)
+      else if (this.new_cardpool.cards.length === 0)
         messagebox.alert('Please upload a CSV for the cardpool');
       else {
         this.setCardpool({
           set_code: this.set_code,
-          name: this.create_cardpool.name,
-          cards: this.create_cardpool.cards
+          name: this.new_cardpool.name,
+          cards: this.new_cardpool.cards
         });
         this.$nextTick(() => {
-          this.inputVal = CARDPOOL.CUSTOM + this.create_cardpool.name;
+          this.inputVal = CARDPOOL.CUSTOM + this.new_cardpool.name;
           this.$emit('input', this.inputVal);
         });
       }
@@ -251,7 +251,7 @@ export default {
           <div class="form-group">
             <label for="custom-cardpool-name">Cardpool Name:</label>
             <input class="form-control" id="custom-cardpool-name" placeholder="Enter name" 
-                   ref="cardpool_name" v-model="create_cardpool.name"/>
+                   ref="cardpool_name" v-model="new_cardpool.name"/>
           </div>
           <div class="form-group">
             <label for="custom-cardpool-upload">Upload Cardpool CSV:</label>
