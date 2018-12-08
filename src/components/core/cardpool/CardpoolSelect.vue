@@ -6,9 +6,7 @@
 // need to clear out and reset
 
 // TODO: validate that errors are fired at the right times
-// TODO: validate that cards come from the set
-// TODO: include set name in status message
-// (add warning level in addition to alert)
+// TODO: handle parsing or other CSV errors
 
 // TODO: look and feel of status
 
