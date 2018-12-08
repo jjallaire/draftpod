@@ -105,19 +105,14 @@ export default {
           <input type="checkbox" class="form-check-input" id="draft-timer"  v-model="pick_timer">
           <label class="form-check-label" for="draft-timer">Apply pick time limit</label>
           <small class="form-text text-muted">
-             You will have 1 minute and 15 seconds for the first pick in each pack, and 5 seconds
-             less for each pick thereafter (these are the same time limits used by MTGO). 
-             If time runs out then a pick is made automatically.
+             1 minute, 15 seconds for the first pick (5 seconds less for each pick thereafter).
           </small>
         </div>
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="draft-analysis"  v-model="pick_ratings">
           <label class="form-check-label" for="draft-analysis">Provide card ratings</label>
           <small class="form-text text-muted">
-             Optional display of ratings for cards in the current pack.
-             Note that while card ratings provide a rough idea of the relative power level between cards, 
-             they don't necessarily reflect optimal picks (as they don't consider draft signals,
-             deck synergies, etc).
+             Optional display of ratings for the cards in the current pack.
           </small>
         </div>
       </div>
