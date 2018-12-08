@@ -29,10 +29,10 @@ export default {
   <div v-for="message in status.success" :key="message" class="text-success">
     <CheckIcon /> {{ message }}
   </div>
-  <div v-for="message in status.warning" :key="message" class="text-warning">
+  <div v-for="message in status.error" :key="message" class="text-danger">
     <AlertIcon /> {{ message }}
   </div>
-  <div v-for="message in status.error" :key="message" class="text-danger">
+   <div v-for="message in status.warning" :key="message" class="text-warning">
     <AlertIcon /> {{ message }}
   </div>
 </div>

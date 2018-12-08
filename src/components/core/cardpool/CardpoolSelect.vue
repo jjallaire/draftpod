@@ -2,6 +2,9 @@
 
 <script>
 
+// TODO: switch to dominaria and GRN Boosters still there, 
+// need to clear out and reset
+
 // TODO: validate that errors are fired at the right times
 // TODO: validate that cards come from the set
 // TODO: include set name in status message
@@ -13,6 +16,9 @@
 
 import { CARDPOOL } from '@/store/constants'
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
+
+import * as set from '@/store/modules/draft/set/'
+
 import { mapGetters, mapMutations } from 'vuex'
 import * as filters from '@/components/core/filters'
 
@@ -127,6 +133,8 @@ export default {
     },
     onCardpoolUploaded(event) {
 
+      this.new_cardpool.upload_status = this.noUploadStatus();
+
       const file = event.target.files[0];
       if (!file)
         return;
@@ -181,6 +189,7 @@ export default {
     },
 
     onUpdateCardpool() {
+      this.custom_cardpool.upload_status = this.noUploadStatus();
       this.$refs.cardpool_upload_update.click();
     },
 
@@ -266,25 +275,46 @@ export default {
             }
           });
 
-          // validate we have enough cards
-          let total_cards = this.countCards(cards);
-          if (total_cards < 360) {
-            valid = false;
-            status.error.push(
-              "The uploaded cardpool has " + total_cards + " cards, which is less than " +
-              "the 360 cards required for an 8-player draft."
-            );
-          }
+          // see how many cards are from the current set
+          set.cards(this.set_code).then(set_cards => {
+
+            // alias set name
+            let set_name = set.name(this.set_code);
+
+            // filter out cards that aren't in the set (record number of
+            // cards before and after for validation)
+            const cardsInSet = set_cards.map((card) => card.id);
+            cards = cards.filter((card) => cardsInSet.includes(card.id));
+            let total_cards = this.countCards(cards);
+
+            // if this leaves us with no cards then that's an error
+            if (total_cards === 0) {
+              valid = false;
+              status.error.push(
+                "The cardpool you uploaded does not have cards from " + set_name + "."
+              );
+            } else if (total_cards < 360) {
+              valid = false;
+              status.error.push(
+                "The uploaded cardpool has " + total_cards + " cards, which is less than " +
+                "the 360 cards required for an 8-player draft."
+              );
+            }
           
-          // complete successfully if the file was valid
-          if (valid) {
-            status.success.push(
-              "Cardpool upload complete (" + total_cards + " cards in pool)"
-            );
-            complete(cards, status);
-          } else {
-            complete(null, status);
-          }
+            // complete successfully if the file was valid
+            if (valid) {
+              status.success.push(
+                "Cardpool upload complete (" + total_cards + " cards from " + 
+                set.name(this.set_code) + " in pool)"
+              );
+              complete(cards, status);
+            } else {
+              complete(null, status);
+            }
+            
+              
+
+          });
         },
       
         error: function() {
@@ -311,7 +341,8 @@ export default {
     noUploadStatus() {
       return {
         success: [],
-        alert: []
+        warning: [],
+        error: []
       }
     },
 
