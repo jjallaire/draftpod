@@ -3,16 +3,16 @@
 import { CARDPOOL } from '@/store/constants'
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
 
-import * as set from '@/store/modules/draft/set/'
-
 import { mapGetters, mapMutations } from 'vuex'
 import * as filters from '@/components/core/filters'
+import * as selectors from '@/store/selectors.js'
+
+import { handleCardpoolUpload, uploadStatusEmpty } from './upload'
 
 import * as messagebox from '@/components/core/messagebox.js'
 
 import CardpoolUploadStatus from './CardpoolUploadStatus'
 
-import Papa from 'papaparse'
 import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
 import UploadIcon from "vue-material-design-icons/CloudUpload.vue"
 
@@ -39,10 +39,10 @@ export default {
       new_cardpool: {
         name: null,
         cards: [],
-        upload_status: this.noUploadStatus()
+        upload_status: uploadStatusEmpty()
       },
       custom_cardpool: {
-        upload_status: this.noUploadStatus()
+        upload_status: uploadStatusEmpty()
       }
     }
   },
@@ -82,7 +82,7 @@ export default {
       if (this.selected_custom_cardpool) {
         let name = this.selected_custom_cardpool.name;
         let cardpool = this.cardpool(this.set_code, name);
-        return this.countCards(cardpool.cards);
+        return selectors.countCardpoolCards(cardpool.cards);
       } else {
         return 0;
       }
@@ -108,7 +108,7 @@ export default {
     onUploadCardpool(event) {
 
       // clear status ui
-      this.new_cardpool.upload_status = this.noUploadStatus();
+      this.new_cardpool.upload_status = uploadStatusEmpty();
 
       // check for file input (null on cancel)
       const file = event.target.files[0];
@@ -116,7 +116,7 @@ export default {
         return;
 
       // handle upload
-      this.handleCardpoolUpload(file, (cards, status) => {
+      handleCardpoolUpload(this.set_code, file, (cards, status) => {
         
         // handle cards if we got them
         if (cards) {
@@ -127,7 +127,7 @@ export default {
         // otherwise clear the input
         } else {
           event.target.value = "";
-        }
+        }    
 
         // update status
         this.new_cardpool.upload_status = status;
@@ -182,7 +182,7 @@ export default {
       if (!file)
         return;
 
-      this.handleCardpoolUpload(file, (cards, status) => {
+      handleCardpoolUpload(this.set_code, file, (cards, status) => {
 
         // handle cards if we got them
         if (cards) {
@@ -194,115 +194,12 @@ export default {
           });
         }
 
+        // clear input
+        event.target.value = "";
+
         // provide status
         this.custom_cardpool.upload_status = status;
       });
-    },
-
-
-    handleCardpoolUpload(file, complete) {
-      
-      Papa.parse(file, {
-        header: true,
-        dynamicTyping: true,
-        skipEmptyLines: true,
-        complete: (results) => {
-          
-          // track status
-          let status = this.noUploadStatus();
-
-          // track whether the upload is valid
-          let valid = true;
-
-          // get the results
-          let cards = results.data;
-
-          // functions for reading card fields
-          const readId = (card) => card['id'] || card['Mvid'];
-          const readQuantity = (card) => card['quantity'] || card['Total Qty'];
-
-          // validate that we have data
-          if (!cards || (cards.length === 0)) {
-            valid = false;
-            status.error.push(
-              "The uploaded CSV file could not be parsed. Are you sure it's a CSV with " +
-              "the required id and quantity fields?"
-            );
-          } else if (!readId(cards[0])) {
-            valid = false;
-            status.error.push(
-              "The uploaded CSV does not have an id field. Please ensure that " +
-              "this field is included."
-            );
-          } else if (!readQuantity(cards[0])) {
-            valid = false;
-            status.error.push(
-              "The uploaded CSV does not have a quantity field. Please ensure that " +
-              "this field is included."
-            );
-          }
-
-          // bail if we don't have valid data to proceed with
-          if (!valid) {
-            complete(null, status);
-            return;
-          }
-
-          // extract the fields
-          cards = cards.map((card) => {
-            let id = card['id'] || card['Mvid'];
-            let quantity = card['quantity'] || card['Total Qty'];
-            return {
-              id: id,
-              quantity: quantity
-            }
-          });
-
-          // see how many cards are from the current set
-          set.cards(this.set_code).then(set_cards => {
-
-            // alias set name
-            let set_name = set.name(this.set_code);
-
-            // filter out cards that aren't in the set (record number of
-            // cards before and after for validation)
-            const cardsInSet = set_cards.map((card) => card.id);
-            cards = cards.filter((card) => cardsInSet.includes(card.id));
-            let total_cards = this.countCards(cards);
-
-            // if this leaves us with no cards then that's an error
-            if (total_cards === 0) {
-              valid = false;
-              status.error.push(
-                "The CSV you uploaded does not contain cards from " + set_name + "."
-              );
-            } else if (total_cards < 360) {
-              valid = false;
-              status.error.push(
-                "The uploaded CSV has only" + total_cards + " cards from " + set_name + 
-                ", which is less than the 360 cards required for an 8-player draft."
-              );
-            }
-          
-            // complete successfully if the file was valid
-            if (valid) {
-              status.success.push(
-                "Upload complete (" + filters.prettyNumber(total_cards) + 
-                " " + set_name + " cards imported)"
-              );
-              complete(cards, status);
-            } else {
-              complete(null, status);
-            }
-          });
-        },
-      
-        error: function(error) {
-          status.error.push("Unexpected error occurred parsing CSV: " +
-                            error.message);
-          complete(null, status);
-        }
-      });     
     },
 
     clearCardpoolInput() {
@@ -313,7 +210,7 @@ export default {
     clearNewCardpoolInput() {
       this.new_cardpool.name = null;
       this.new_cardpool.cards = [];
-      this.new_cardpool.upload_status = this.noUploadStatus();
+      this.new_cardpool.upload_status = uploadStatusEmpty();
     },
 
     clearCustomCardpoolInput() {
@@ -321,19 +218,7 @@ export default {
     },
 
     clearCustomCardpoolUploadStatus() {
-      this.custom_cardpool.upload_status = this.noUploadStatus();
-    },
-
-    noUploadStatus() {
-      return {
-        success: [],
-        warning: [],
-        error: []
-      }
-    },
-
-    countCards(cards) {
-      return cards.reduce((total, card) => total + card.quantity, 0);
+      this.custom_cardpool.upload_status = uploadStatusEmpty();
     },
 
     focusCardpoolName() {
