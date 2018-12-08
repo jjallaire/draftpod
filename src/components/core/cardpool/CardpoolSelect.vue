@@ -2,9 +2,8 @@
 
 <script>
 
-
+// TODO: number of cards in standard display?
 // TODO: validate that errors are fired at the right times
-// TODO: handle parsing or other CSV errors
 
 // TODO: look and feel of status
 
@@ -319,8 +318,10 @@ export default {
           });
         },
       
-        error: function() {
-          
+        error: function(error) {
+          status.error.push("Unexpected error occurred parsing cardpool CSV: " +
+                            error.message);
+          complete(null, status);
         }
       });     
     },
