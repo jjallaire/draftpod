@@ -7,11 +7,6 @@ import router from './router'
 import { store } from './store'
 
 
-// TODO: ability to specify/upload custom cardpools
-//   http://www.deckedbuilder.com/ (easy entry and exports w/ multiverse-id)
-//   https://deckbox.org/ (imports from deckedbuilder)
-
-
 // TODO: favicon
 
 // TODO: remove mana and set symbols?
