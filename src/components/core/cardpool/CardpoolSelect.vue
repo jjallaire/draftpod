@@ -2,12 +2,7 @@
 
 <script>
 
-// TODO: refactor/cleanup
-//    - handleUpload in separate file
-
 // TODO: validate that errors are fired at the right times
-
-
 
 import { CARDPOOL } from '@/store/constants'
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
@@ -299,9 +294,6 @@ export default {
             } else {
               complete(null, status);
             }
-            
-              
-
           });
         },
       
