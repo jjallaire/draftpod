@@ -65,36 +65,9 @@ export default {
     ...mapGetters([
       'cardpool',
       'cardpools',
+      'cardpool_options'
     ]),
-    cardpool_options() {
-      return {
-        cubes: [
-          {
-            value: CARDPOOL.CUBE + '4/4/1/1',
-            caption: '4x Common, 4x Uncommon, 1x Rare, 1x Mythic'
-          },
-          {
-            value: CARDPOOL.CUBE + '4/4/2/1',
-            caption: '4x Common, 4x Uncommon, 2x Rare, 1x Mythic'
-          },
-          {
-            value: CARDPOOL.CUBE + '3/2/1/1',
-            caption: '3x Common, 2x Uncommon, 1x Rare, 1x Mythic'
-          },
-          {
-            value: CARDPOOL.CUBE + '4/4/0/0',
-            caption: '4x Common, 4x Uncommon'
-          }
-        ],
-        custom: this.cardpools(this.set_code).map(cardpool => {
-          return {
-            value: CARDPOOL.CUSTOM + cardpool.name,
-            caption: cardpool.name
-          };
-        })
-      }
-    },
-
+  
     is_new_cardpool() {
       return this.inputVal === 'new-cardpool';
     },
@@ -105,7 +78,7 @@ export default {
 
     selected_custom_cardpool() {
       const isInputVal = (option) => option.value === this.inputVal;
-      let option = this.cardpool_options.custom.find(isInputVal);
+      let option = this.cardpool_options(this.set_code).custom.find(isInputVal);
       let name = option.value.replace(CARDPOOL.CUSTOM, '');
       return {
         name: name,
@@ -371,9 +344,10 @@ export default {
     // validate that the inputVal is an available option. if it's not then
     // set it to the first cube
     validateInputVal() {
-      if (!this.hasInputVal(this.cardpool_options.cubes) && 
-          !this.hasInputVal(this.cardpool_options.custom)) {
-       this.inputVal = this.cardpool_options.cubes[0].value;
+      let cardpool_options = this.cardpool_options(this.set_code);
+      if (!this.hasInputVal(cardpool_options.cubes) && 
+          !this.hasInputVal(cardpool_options.custom)) {
+       this.inputVal = cardpool_options.cubes[0].value;
        this.$emit('input', this.inputVal);
       }
     },
@@ -403,11 +377,11 @@ export default {
     <select id="draft-cardpool" class="form-control" :value="inputVal"
             @change="onCardpoolChanged">
       <optgroup label="Set Cube">
-        <option v-for="option in cardpool_options.cubes" :key="option.value"
+        <option v-for="option in cardpool_options(set_code).cubes" :key="option.value"
                 :value="option.value">{{ option.caption }}</option>
       </optgroup>
       <optgroup label="Custom">
-        <option v-for="option in cardpool_options.custom" :key="option.value"
+        <option v-for="option in cardpool_options(set_code).custom" :key="option.value"
                 :value="option.value">{{ option.caption }}</option>
         <option value="new-cardpool">New Custom Cardpool...</option>
       </optgroup>
