@@ -1,8 +1,5 @@
 <script>
 
-// when 2nd upload has different error it doesn't update?
-
-
 import { CARDPOOL } from '@/store/constants'
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
 
