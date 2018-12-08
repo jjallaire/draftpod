@@ -1,8 +1,7 @@
-
-
 <script>
 
-// TODO: validate that errors are fired at the right times
+// when 2nd upload has different error it doesn't update?
+
 
 import { CARDPOOL } from '@/store/constants'
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
@@ -127,6 +126,10 @@ export default {
           this.new_cardpool.cards = cards;
           if (!this.new_cardpool.name)
             this.focusCardpoolName();
+        
+        // otherwise clear the input
+        } else {
+          event.target.value = "";
         }
 
         // update status
@@ -225,19 +228,19 @@ export default {
           if (!cards || (cards.length === 0)) {
             valid = false;
             status.error.push(
-              "The uploaded cardpool file could not be parsed. Are you sure it's a CSV with " +
+              "The uploaded CSV file could not be parsed. Are you sure it's a CSV with " +
               "the required id and quantity fields?"
             );
           } else if (!readId(cards[0])) {
             valid = false;
             status.error.push(
-              "The uploaded cardpool CSV does not have an id field. Please ensure that " +
+              "The uploaded CSV does not have an id field. Please ensure that " +
               "this field is included."
             );
           } else if (!readQuantity(cards[0])) {
             valid = false;
             status.error.push(
-              "The uploaded cardpool CSV does not have a quantity field. Please ensure that " +
+              "The uploaded CSV does not have a quantity field. Please ensure that " +
               "this field is included."
             );
           }
@@ -274,12 +277,12 @@ export default {
             if (total_cards === 0) {
               valid = false;
               status.error.push(
-                "The cardpool you uploaded does not contain cards from " + set_name + "."
+                "The CSV you uploaded does not contain cards from " + set_name + "."
               );
             } else if (total_cards < 360) {
               valid = false;
               status.error.push(
-                "The uploaded cardpool has " + total_cards + " cards from " + set_name + 
+                "The uploaded CSV has only" + total_cards + " cards from " + set_name + 
                 ", which is less than the 360 cards required for an 8-player draft."
               );
             }
@@ -298,7 +301,7 @@ export default {
         },
       
         error: function(error) {
-          status.error.push("Unexpected error occurred parsing cardpool CSV: " +
+          status.error.push("Unexpected error occurred parsing CSV: " +
                             error.message);
           complete(null, status);
         }
