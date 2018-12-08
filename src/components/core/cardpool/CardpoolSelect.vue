@@ -3,6 +3,7 @@
 <script>
 
 // TODO: number of cards in standard display
+// TODO: when switching from "new custom" back to other set, preference is not restored
 // TODO: validate that errors are fired at the right times
 
 // TODO: look and feel of status
@@ -292,7 +293,7 @@ export default {
             if (total_cards === 0) {
               valid = false;
               status.error.push(
-                "The cardpool you uploaded does not have cards from " + set_name + "."
+                "The cardpool you uploaded does not contain cards from " + set_name + "."
               );
             } else if (total_cards < 360) {
               valid = false;
@@ -416,9 +417,9 @@ export default {
                    accept="text/csv" @change="onCardpoolUploaded"/>
             <CardpoolUploadStatus :status="new_cardpool.upload_status" />
             <small id="custom-cardpool-upload-help" class="form-text text-muted">
-              <p>The cardpool CSV should include <strong>id</strong> (Multiverse ID) 
-              and <strong>quantity</strong> (number of each card) fields.
-              CSV files exported from <a href="http://www.deckedbuilder.com" target="_blank">Decked Builder</a> 
+              <p>The cardpool CSV should include <strong>id</strong> 
+              and <strong>quantity</strong> fields (Multiverse ID and number of each card).
+              CSVs exported from <a href="http://www.deckedbuilder.com" target="_blank">Decked Builder</a> 
               collections meet these requirements.</p>
             </small>
 
