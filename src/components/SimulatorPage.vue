@@ -5,7 +5,6 @@ import NavBar from '@/components/core/NavBar.vue'
 
 import ContentPanel from '@/components/core/ContentPanel.vue'
 import SetSelect from '@/components/core/SetSelect.vue'
-import CardpoolSelect from '@/components/core/cardpool/CardpoolSelect.vue'
 
 import { mapActions, mapMutations } from 'vuex'
 import { CREATE_DRAFT } from '@/store/actions'
@@ -26,7 +25,6 @@ export default {
   data: function() {
     return {
       set_code: 'grn',
-      cardpool: CARDPOOL.CUBE + '4/4/1/1',
       number: 100,
       decks: []
     }
@@ -123,7 +121,7 @@ export default {
       // create the draft
       this.createDraft({ 
         set_code: this.set_code, 
-        cardpool: this.cardpool, 
+        cardpool: CARDPOOL.CUBE + '4/4/2/1', 
       }).then(({ draft_id }) => {
 
         // execute simulation
@@ -155,7 +153,7 @@ export default {
     }),
   },
 
-  components: { NavBar, ContentPanel, SetSelect, CardpoolSelect }
+  components: { NavBar, ContentPanel, SetSelect }
 }
 
 
@@ -173,7 +171,6 @@ export default {
     <ContentPanel caption="Simulate Drafts">
       <form>
         <SetSelect v-model="set_code" />
-        <CardpoolSelect v-model="cardpool" :set_code="set_code" />
         <div class="form-group row">
           <label for="number-of-drafts" class="col-sm-3 col-form-label">Number of drafts:</label>
           <div class="col-sm-8">
