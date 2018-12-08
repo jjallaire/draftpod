@@ -10,7 +10,7 @@ import { CARDPOOL } from '@/store/constants'
 import { UPDATE_PREFERENCES } from '@/store/mutations'
 import { CREATE_DRAFT } from '@/store/actions'
 
-import { mapState, mapMutations, mapActions } from 'vuex'
+import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 
 export default {
   name: 'NavigatorStart',
@@ -37,6 +37,9 @@ export default {
   },
 
   computed: {
+    ...mapGetters([
+      'cardpool_options'
+    ]),
     ...mapState([
       'preferences'
     ])
@@ -75,16 +78,32 @@ export default {
       });   
     },
 
+    onCardpoolInput(value) {
+      this.cardpool = value;
+    },
+
     applySetPreferences() {
       // apply set prefs if we have them
       let set_prefs = this.preferences.sets[this.set_code];
-      if (set_prefs) {
-        this.cardpool = set_prefs.cardpool || (CARDPOOL.CUBE + '4/4/1/1');
+      let cardpool_options = this.cardpool_options(this.set_code);
+      if (set_prefs && set_prefs.cardpool) {
+        if (this.hasInputVal(cardpool_options.cubes, set_prefs.cardpool) || 
+            this.hasInputVal(cardpool_options.custom, set_prefs.cardpool)) {
+          this.cardpool = set_prefs.cardpool;
+        }
+      } else {
+        this.cardpool = CARDPOOL.CUBE + '4/4/1/1';
       }
     },
 
+    hasInputVal(options, value) {
+      return options.filter((option) => option.value == value).length > 0
+    },
+
     onSetChanged() {
-      this.applySetPreferences();
+      this.$nextTick(() => {
+        this.applySetPreferences();
+      });
     },
   }
 
@@ -97,7 +116,10 @@ export default {
 <ContentPanel caption="Start New Draft">
   <form>
     <SetSelect v-model="set_code" @input="onSetChanged" />
-    <CardpoolSelect v-model="cardpool" :set_code="set_code"/>
+    <CardpoolSelect :value="cardpool" 
+                    @input="onCardpoolInput"
+                    :options="cardpool_options(set_code)" 
+                    :set_code="set_code"/>
     <div class="form-group row">
       <label for="draft-options" class="col-sm-3 col-form-label">Options:</label>
       <div id="draft-options" class="col-sm-8">

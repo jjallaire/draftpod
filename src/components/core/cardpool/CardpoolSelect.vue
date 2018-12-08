@@ -2,10 +2,10 @@
 
 <script>
 
-// TODO: when switching from "new custom" back to other set, preference is not restored
+// TODO: refactor/cleanup
 // TODO: validate that errors are fired at the right times
 
-// TODO: refactor/cleanup
+
 
 import { CARDPOOL } from '@/store/constants'
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
@@ -31,6 +31,10 @@ export default {
       type: String,
       required: true
     },
+    options: {
+      type: Object,
+      required: true
+    },
     set_code: {
       type: String,
       required: true
@@ -39,7 +43,6 @@ export default {
 
   data: function() {
     return {
-      inputVal: this.value,
       new_cardpool: {
         name: null,
         cards: [],
@@ -51,47 +54,39 @@ export default {
     }
   },
 
-  created() {
-    this.validateInputVal();
-  },
-
-  watch: {
-    set_code() {
-      this.validateInputVal();
-    }
-  },
-
   computed: {
     ...mapGetters([
       'cardpool',
-      'cardpools',
-      'cardpool_options'
     ]),
   
     is_new_cardpool() {
-      return this.inputVal === 'new-cardpool';
-    },
-
-    is_custom_cardpool() {
-      return this.inputVal.startsWith(CARDPOOL.CUSTOM);
+      return this.value === 'new-cardpool';
     },
 
     selected_custom_cardpool() {
-      const isInputVal = (option) => option.value === this.inputVal;
-      let option = this.cardpool_options(this.set_code).custom.find(isInputVal);
-      let name = option.value.replace(CARDPOOL.CUSTOM, '');
-      return {
-        name: name,
-        value: option.value,
-        caption: option.caption,
-        updated: this.cardpool(this.set_code, name).updated
+      const isInputVal = (option) => option.value === this.value;
+      let option = this.options.custom.find(isInputVal);
+      if (option) {
+        let name = option.value.replace(CARDPOOL.CUSTOM, '');
+        return {
+          name: name,
+          value: option.value,
+          caption: option.caption,
+          updated: this.cardpool(this.set_code, name).updated
+        }
+      } else {
+        return null;
       }
     },
 
     selected_custom_cardpool_card_count() {
-      let name = this.selected_custom_cardpool.name;
-      let cardpool = this.cardpool(this.set_code, name);
-      return this.countCards(cardpool.cards);
+      if (this.selected_custom_cardpool) {
+        let name = this.selected_custom_cardpool.name;
+        let cardpool = this.cardpool(this.set_code, name);
+        return this.countCards(cardpool.cards);
+      } else {
+        return 0;
+      }
     }
   },
 
@@ -101,12 +96,11 @@ export default {
       removeCardpool: REMOVE_CARDPOOL
     }),
     onCardpoolChanged(event) {
-      this.inputVal = event.target.value;
       this.clearCardpoolInput();
       if (this.is_new_cardpool) {
         this.focusCardpoolName();
       } else {
-        this.$emit('input', this.inputVal);
+        this.$emit('input', event.target.value);
       }
     },
     onCardpoolUploaded(event) {
@@ -143,13 +137,10 @@ export default {
           cards: this.new_cardpool.cards
         });
         this.$nextTick(() => {
-          this.inputVal = CARDPOOL.CUSTOM + this.new_cardpool.name;
-          this.$emit('input', this.inputVal);
+          this.$emit('input', CARDPOOL.CUSTOM + this.new_cardpool.name);
           this.clearNewCardpoolInput();
         });
       }
-
-    
     },
 
     onRemoveCardpool() {
@@ -162,7 +153,7 @@ export default {
             set_code: this.set_code, 
             name: cardpool.name
           }); 
-          this.validateInputVal();
+          this.$emit('input', this.options.cubes[0].value);
         }
       )
     },
@@ -341,20 +332,7 @@ export default {
       });
     },
 
-    // validate that the inputVal is an available option. if it's not then
-    // set it to the first cube
-    validateInputVal() {
-      let cardpool_options = this.cardpool_options(this.set_code);
-      if (!this.hasInputVal(cardpool_options.cubes) && 
-          !this.hasInputVal(cardpool_options.custom)) {
-       this.inputVal = cardpool_options.cubes[0].value;
-       this.$emit('input', this.inputVal);
-      }
-    },
-
-    hasInputVal(options) {
-      return options.filter((option) => option.value == this.inputVal).length > 0
-    }
+   
   },
 
   filters: {
@@ -374,14 +352,14 @@ export default {
 <div class="form-group row">
   <label for="draft-cardpool" class="col-sm-3 col-form-label">Cardpool:</label>
   <div class="col-sm-8">
-    <select id="draft-cardpool" class="form-control" :value="inputVal"
+    <select id="draft-cardpool" class="form-control" :value="value"
             @change="onCardpoolChanged">
       <optgroup label="Set Cube">
-        <option v-for="option in cardpool_options(set_code).cubes" :key="option.value"
+        <option v-for="option in options.cubes" :key="option.value"
                 :value="option.value">{{ option.caption }}</option>
       </optgroup>
       <optgroup label="Custom">
-        <option v-for="option in cardpool_options(set_code).custom" :key="option.value"
+        <option v-for="option in options.custom" :key="option.value"
                 :value="option.value">{{ option.caption }}</option>
         <option value="new-cardpool">New Custom Cardpool...</option>
       </optgroup>
@@ -412,7 +390,7 @@ export default {
             </div>
           </div>
         </div>
-        <div class="cardpool-bar" v-else-if="is_custom_cardpool">
+        <div class="cardpool-bar" v-else-if="selected_custom_cardpool">
           <span class="cardpool-card-count">
               {{ selected_custom_cardpool_card_count | prettyNumber }} cards
           </span>
