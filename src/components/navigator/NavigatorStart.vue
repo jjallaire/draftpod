@@ -2,7 +2,7 @@
 
 import ContentPanel from '@/components/core/ContentPanel.vue'
 import SetSelect from '@/components/core/SetSelect.vue'
-import CardpoolSelect from '@/components/core/cardpool/CardpoolSelect.vue'
+import CardpoolSelect from './cardpool/CardpoolSelect.vue'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
