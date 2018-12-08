@@ -447,13 +447,12 @@ export default {
 <style>
 
 .custom-cardpool {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  padding-top: 10px;
 }
 
 .custom-cardpool .card-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .custom-cardpool .btn {

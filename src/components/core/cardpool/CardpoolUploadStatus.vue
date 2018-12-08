@@ -1,7 +1,6 @@
 
 <script>
 
-import AlertIcon from "vue-material-design-icons/Alert.vue"
 import CheckIcon from "vue-material-design-icons/Check.vue"
 
 export default {
@@ -16,7 +15,7 @@ export default {
   },
 
   components: {
-    AlertIcon, CheckIcon
+    CheckIcon
   }
 
 }
@@ -30,10 +29,10 @@ export default {
     <CheckIcon /> {{ message }}
   </div>
   <div v-for="message in status.error" :key="message" class="text-danger">
-    <AlertIcon /> {{ message }}
+    {{ message }}
   </div>
    <div v-for="message in status.warning" :key="message" class="text-warning">
-    <AlertIcon /> {{ message }}
+    {{ message }}
   </div>
 </div>
 
