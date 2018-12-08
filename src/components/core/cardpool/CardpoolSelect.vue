@@ -3,6 +3,8 @@
 <script>
 
 // TODO: refactor/cleanup
+//    - handleUpload in separate file
+
 // TODO: validate that errors are fired at the right times
 
 
@@ -54,6 +56,12 @@ export default {
     }
   },
 
+  watch: {
+    set_code() {
+      this.clearCardpoolInput();
+    }
+  },
+
   computed: {
     ...mapGetters([
       'cardpool',
@@ -91,11 +99,13 @@ export default {
   },
 
   methods: {
+
     ...mapMutations({
       setCardpool: SET_CARDPOOL,
       removeCardpool: REMOVE_CARDPOOL
     }),
-    onCardpoolChanged(event) {
+
+    onChangeCardpool(event) {
       this.clearCardpoolInput();
       if (this.is_new_cardpool) {
         this.focusCardpoolName();
@@ -103,14 +113,18 @@ export default {
         this.$emit('input', event.target.value);
       }
     },
-    onCardpoolUploaded(event) {
 
+    onUploadCardpool(event) {
+
+      // clear status ui
       this.new_cardpool.upload_status = this.noUploadStatus();
 
+      // check for file input (null on cancel)
       const file = event.target.files[0];
       if (!file)
         return;
 
+      // handle upload
       this.handleCardpoolUpload(file, (cards, status) => {
         
         // handle cards if we got them
@@ -125,17 +139,21 @@ export default {
         
       });
     },
+
     onUseCardpool() {
+      // validate inputs
       if (!this.new_cardpool.name)
         messagebox.alert('Please provide a name for the cardpool', this.focusCardpoolName);
       else if (this.new_cardpool.cards.length === 0)
         messagebox.alert('Please upload a CSV for the cardpool');
       else {
+        // save the cardpool
         this.setCardpool({
           set_code: this.set_code,
           name: this.new_cardpool.name,
           cards: this.new_cardpool.cards
         });
+        // notify parent listener of the selection
         this.$nextTick(() => {
           this.$emit('input', CARDPOOL.CUSTOM + this.new_cardpool.name);
           this.clearNewCardpoolInput();
@@ -158,12 +176,12 @@ export default {
       )
     },
 
-    onUpdateCardpool() {
+    onUpdateCardpoolClicked() {
       this.clearCustomCardpoolUploadStatus();
       this.$refs.cardpool_upload_update.click();
     },
 
-    onCardpoolUpdateUploaded(event) {
+    onUpdateCardpoolUpload(event) {
 
       const file = event.target.files[0];
       if (!file)
@@ -353,7 +371,7 @@ export default {
   <label for="draft-cardpool" class="col-sm-3 col-form-label">Cardpool:</label>
   <div class="col-sm-8">
     <select id="draft-cardpool" class="form-control" :value="value"
-            @change="onCardpoolChanged">
+            @change="onChangeCardpool">
       <optgroup label="Set Cube">
         <option v-for="option in options.cubes" :key="option.value"
                 :value="option.value">{{ option.caption }}</option>
@@ -376,7 +394,7 @@ export default {
             <label for="custom-cardpool-upload">Upload Cardpool CSV:</label>
             <input type="file"  id="custom-cardpool-upload" class="form-control cardpool-upload" 
                    aria-describedby="custom-cardpool-upload-help" 
-                   accept="text/csv" @change="onCardpoolUploaded"/>
+                   accept="text/csv" @change="onUploadCardpool"/>
             <CardpoolUploadStatus :status="new_cardpool.upload_status" />
             <small id="custom-cardpool-upload-help" class="form-text text-muted">
               <p>The cardpool CSV should include <strong>id</strong> 
@@ -396,9 +414,9 @@ export default {
           </span>
             {{ selected_custom_cardpool.updated | prettyDate }}
           <a class="cardpool-action float-right" @click="onRemoveCardpool"><DeleteIcon title="Remove Cardpool"/><span>Remove</span></a>
-          <a class="cardpool-action float-right" @click="onUpdateCardpool"><UploadIcon title="Update Cardpool"/><span>Update...</span></a>
+          <a class="cardpool-action float-right" @click="onUpdateCardpoolClicked"><UploadIcon title="Update Cardpool"/><span>Update...</span></a>
           <input type="file"  id="custom-cardpool-update" ref="cardpool_upload_update"
-                accept="text/csv" @change="onCardpoolUpdateUploaded"/>
+                accept="text/csv" @change="onUpdateCardpoolUpload"/>
         </div>
         <div style="clear: both;"></div>
         <CardpoolUploadStatus :status="custom_cardpool.upload_status" />
