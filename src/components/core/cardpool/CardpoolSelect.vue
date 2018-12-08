@@ -2,7 +2,7 @@
 
 <script>
 
-// TODO: number of cards in standard display?
+// TODO: number of cards in standard display
 // TODO: validate that errors are fired at the right times
 
 // TODO: look and feel of status
@@ -305,7 +305,7 @@ export default {
             // complete successfully if the file was valid
             if (valid) {
               status.success.push(
-                "Cardpool upload complete (" + total_cards + " cards imported)"
+                "Upload complete (" + total_cards + " " + set_name + " cards imported)"
               );
               complete(cards, status);
             } else {

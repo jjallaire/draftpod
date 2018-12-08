@@ -40,6 +40,9 @@ export default {
 
 <style>
 
+.cardpool-upload-status {
+  padding-top: 5px;
+}
 
 </style>
 
