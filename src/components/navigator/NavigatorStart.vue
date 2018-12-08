@@ -79,7 +79,7 @@ export default {
       // apply set prefs if we have them
       let set_prefs = this.preferences.sets[this.set_code];
       if (set_prefs) {
-        this.cardpool = set_prefs.cardpool || this.cardpool;
+        this.cardpool = set_prefs.cardpool || (CARDPOOL.CUBE + '4/4/1/1');
       }
     },
 

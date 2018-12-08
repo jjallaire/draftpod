@@ -2,8 +2,6 @@
 
 <script>
 
-// TODO: switch to dominaria and GRN Boosters still there, 
-// need to clear out and reset
 
 // TODO: validate that errors are fired at the right times
 // TODO: handle parsing or other CSV errors
@@ -58,6 +56,12 @@ export default {
 
   created() {
     this.validateInputVal();
+  },
+
+  watch: {
+    set_code() {
+      this.validateInputVal();
+    }
   },
 
   computed: {
