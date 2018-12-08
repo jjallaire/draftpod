@@ -2,11 +2,8 @@
 
 <script>
 
-// TODO: number of cards in standard display
 // TODO: when switching from "new custom" back to other set, preference is not restored
 // TODO: validate that errors are fired at the right times
-
-// TODO: look and feel of status
 
 // TODO: refactor/cleanup
 
@@ -116,6 +113,12 @@ export default {
         caption: option.caption,
         updated: this.cardpool(this.set_code, name).updated
       }
+    },
+
+    selected_custom_cardpool_card_count() {
+      let name = this.selected_custom_cardpool.name;
+      let cardpool = this.cardpool(this.set_code, name);
+      return this.countCards(cardpool.cards);
     }
   },
 
@@ -177,6 +180,7 @@ export default {
     },
 
     onRemoveCardpool() {
+      this.clearCustomCardpoolUploadStatus();
       let cardpool = this.selected_custom_cardpool;
       messagebox.confirm(
         "Are you sure you want to remove the " + cardpool.caption + " cardpool?",
@@ -191,7 +195,7 @@ export default {
     },
 
     onUpdateCardpool() {
-      this.custom_cardpool.upload_status = this.noUploadStatus();
+      this.clearCustomCardpoolUploadStatus();
       this.$refs.cardpool_upload_update.click();
     },
 
@@ -306,7 +310,8 @@ export default {
             // complete successfully if the file was valid
             if (valid) {
               status.success.push(
-                "Upload complete (" + total_cards + " " + set_name + " cards imported)"
+                "Upload complete (" + filters.prettyNumber(total_cards) + 
+                " " + set_name + " cards imported)"
               );
               complete(cards, status);
             } else {
@@ -338,6 +343,10 @@ export default {
     },
 
     clearCustomCardpoolInput() {
+      this.clearCustomCardpoolUploadStatus();
+    },
+
+    clearCustomCardpoolUploadStatus() {
       this.custom_cardpool.upload_status = this.noUploadStatus();
     },
 
@@ -375,7 +384,8 @@ export default {
   },
 
   filters: {
-    prettyDate: filters.prettyDate
+    prettyDate: filters.prettyDate,
+    prettyNumber: filters.prettyNumber
   },
 
   components: {
@@ -429,16 +439,17 @@ export default {
           </div>
         </div>
         <div class="cardpool-bar" v-else-if="is_custom_cardpool">
-          <div>
-            Updated: {{ selected_custom_cardpool.updated | prettyDate }}
-            <a class="cardpool-action float-right" @click="onRemoveCardpool"><DeleteIcon title="Remove Cardpool"/><span>Remove</span></a>
-            <a class="cardpool-action float-right" @click="onUpdateCardpool"><UploadIcon title="Update Cardpool"/><span>Update...</span></a>
-            <input type="file"  id="custom-cardpool-update" ref="cardpool_upload_update"
-                  accept="text/csv" @change="onCardpoolUpdateUploaded"/>
-          </div>
-          <div style="clear: both;"/>
-          <CardpoolUploadStatus :status="custom_cardpool.upload_status" />
-         </div>
+          <span class="cardpool-card-count">
+              {{ selected_custom_cardpool_card_count | prettyNumber }} cards
+          </span>
+            {{ selected_custom_cardpool.updated | prettyDate }}
+          <a class="cardpool-action float-right" @click="onRemoveCardpool"><DeleteIcon title="Remove Cardpool"/><span>Remove</span></a>
+          <a class="cardpool-action float-right" @click="onUpdateCardpool"><UploadIcon title="Update Cardpool"/><span>Update...</span></a>
+          <input type="file"  id="custom-cardpool-update" ref="cardpool_upload_update"
+                accept="text/csv" @change="onCardpoolUpdateUploaded"/>
+        </div>
+        <div style="clear: both;"></div>
+        <CardpoolUploadStatus :status="custom_cardpool.upload_status" />
       </div>
     </div>
   </div>
@@ -448,7 +459,7 @@ export default {
 <style>
 
 .custom-cardpool {
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .custom-cardpool .card-body {
@@ -462,9 +473,15 @@ export default {
 
 .cardpool-bar {
   padding-right: 8px;
+  vertical-align: middle;
+}
+
+.cardpool-bar .cardpool-card-count {
+  padding-right: 20px;
 }
 
 .cardpool-bar .cardpool-action {
+  margin-top: -2px;
   margin-left: 18px;
   cursor: pointer;
 }

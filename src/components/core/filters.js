@@ -6,6 +6,10 @@ export function prettyDate(dt) {
           date.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true });
 }
 
+export function prettyNumber(x) {
+  return (x).toLocaleString('en-US');
+}
+
 
 
 
