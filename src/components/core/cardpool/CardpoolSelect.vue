@@ -297,16 +297,15 @@ export default {
             } else if (total_cards < 360) {
               valid = false;
               status.error.push(
-                "The uploaded cardpool has " + total_cards + " cards, which is less than " +
-                "the 360 cards required for an 8-player draft."
+                "The uploaded cardpool has " + total_cards + " cards from " + set_name + 
+                ", which is less than the 360 cards required for an 8-player draft."
               );
             }
           
             // complete successfully if the file was valid
             if (valid) {
               status.success.push(
-                "Cardpool upload complete (" + total_cards + " cards from " + 
-                set.name(this.set_code) + " in pool)"
+                "Cardpool upload complete (" + total_cards + " cards imported)"
               );
               complete(cards, status);
             } else {
@@ -399,7 +398,7 @@ export default {
       <optgroup label="Custom">
         <option v-for="option in cardpool_options.custom" :key="option.value"
                 :value="option.value">{{ option.caption }}</option>
-        <option value="new-cardpool">New Cardpool...</option>
+        <option value="new-cardpool">New Custom Cardpool...</option>
       </optgroup>
     </select>
     <div>
@@ -417,12 +416,10 @@ export default {
                    accept="text/csv" @change="onCardpoolUploaded"/>
             <CardpoolUploadStatus :status="new_cardpool.upload_status" />
             <small id="custom-cardpool-upload-help" class="form-text text-muted">
-              <p>Please upload a CSV file that enumerates the cards in your cardpool (note that all 
-              cards must be from the set selected above).</p>
-              <p>The CSV should include an <em>id</em> field (Multiverse ID) and a <em>quantity</em>
-              field indicating how many of each card are in the pool. The most straightforward way 
-              to do this is to create a <a href="http://www.deckedbuilder.com" target="_blank">Decked Builder</a> 
-              collection and export it as a CSV.</p>
+              <p>The cardpool CSV should include <strong>id</strong> (Multiverse ID) 
+              and <strong>quantity</strong> (number of each card) fields.
+              CSV files exported from <a href="http://www.deckedbuilder.com" target="_blank">Decked Builder</a> 
+              collections meet these requirements.</p>
             </small>
 
             <div class="form-group">
