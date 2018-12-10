@@ -5,13 +5,22 @@ import { CARDPOOL } from './constants'
 
 export default {
 
+  player: (state) => state.player,
+
   draft: (state) => (id) => state.drafts[id],
   
-  draft_history: function(state) {
+  draft_history: function(state, getters) {
     let drafts = Object.keys(state.drafts);
     return drafts
       .map((id) => {
         let draft = state.drafts[id];
+
+        // get the active player -- if we don't yet have one then this should be 
+        // execluded from the history
+        let active_player = selectors.activePlayer(getters.player.id, draft.table);
+        if (!active_player)
+          return null;
+
         return {
           id: id,
           start_time: draft.start_time,
@@ -20,13 +29,13 @@ export default {
           current_pack: draft.table.current_pack,
           current_pick: draft.table.current_pick,
           picks_complete: draft.table.picks_complete,
-          deck_total_cards: selectors.deckTotalCards(draft.table.deck),
-          card_colors: selectors.cardColors(selectors.activeCards(draft.table))
+          deck_total_cards: selectors.deckTotalCards(active_player.deck),
+          card_colors: selectors.cardColors(selectors.activeCards(getters.player.id, draft.table))
                         .filter((color) => color.count > 0)
                         .slice(0,2),
         }
       })
-      .filter((draft) => draft.current_pack > 0)
+      .filter((draft) => draft !== null && draft.current_pack > 0)
       .sort((a, b) => b.start_time - a.start_time);
   },
 

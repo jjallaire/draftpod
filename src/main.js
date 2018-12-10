@@ -27,6 +27,10 @@ import { store } from './store'
 //    - https://github.com/fiery-data/fiery-vuex
 
 
+// TODO: at larger deck sizes during building it's possible for a color
+// to be auto-assigned 0 mana even though there is a card in that color
+// (fraction is likely too small)
+
 // TODO: favicon
 
 // TODO: remove mana and set symbols?

@@ -16,14 +16,13 @@ const debug = process.env.NODE_ENV !== 'production'
 Vue.use(Vuex)
 
 const vuexPersist = new VuexPersist({
-  key: 'draftpod-ABC123123123456789111222',
+  key: 'draftpod-ABC123123123456789111222333',
   storage: window.localStorage
 });
 
-
 export const store = new Vuex.Store({
   state: {
-    user: {
+    player: {
       id: uuidv4()
     },
     preferences: {

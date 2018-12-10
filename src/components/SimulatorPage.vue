@@ -12,8 +12,6 @@ import { REMOVE_DRAFTS } from '@/store/mutations'
 import { SIMULATE_DRAFT } from '@/store/modules/draft/mutations'
 
 import { CARDPOOL } from '@/store/constants'
-
-import { DECK } from '@/store/modules/draft/constants'
 import * as draftbot from '@/store/modules/draft/draftbot'
 
 import _flatten from 'lodash/flatten'
@@ -125,11 +123,12 @@ export default {
       }).then(({ draft_id }) => {
 
         // execute simulation
-        this.$store.commit("drafts/" + draft_id + "/" + SIMULATE_DRAFT);
+        this.$store.commit("drafts/" + draft_id + "/" + SIMULATE_DRAFT, {
+          player_id: this.$store.state.player.id
+        });
 
         // record the data
         let table = this.$store.state.drafts[draft_id].table;
-        this.decks.push(draftbot.deckColors(_flatten(table.deck.piles.slice(0, DECK.PILES))));
         table.players.forEach((player) => {
           this.decks.push(draftbot.deckColors(player.picks.piles[0]));
         });

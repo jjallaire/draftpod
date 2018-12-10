@@ -24,7 +24,7 @@ import { PICKS, DECK } from './constants'
 
 export default {
 
-  [START_DRAFT](state, { set_code, cardpool, options }) {
+  [START_DRAFT](state, { player_id, set_code, cardpool, options }) {
     
     // initialize options
     state.options = {
@@ -35,6 +35,10 @@ export default {
     };
     
     updateTable(state, (table) => {
+
+      // set the player_id to the first player
+      table.players[0].id = player_id;
+
       // initialize packs
       table.all_packs = [...Array(24)].map(function() {
         return booster(set_code, cardpool);
@@ -49,31 +53,32 @@ export default {
     state.start_time = new Date().getTime();
   },
 
-  [SIMULATE_DRAFT](state) {
+  [SIMULATE_DRAFT](state, { player_id }) {
     updateTable(state, (table) => {
       while (!table.picks_complete) {
-        packToPick(state.options.set_code, table, null,  null, null, false);
+        packToPick(state.options.set_code, player_id, table, null,  null, null, false);
       }
     });
   },
 
-  [PACK_TO_PICK](state, { card, pile_number, insertBefore }) {
+  [PACK_TO_PICK](state, { player_id, card, pile_number, insertBefore }) {
     updateTable(state, (table) => {
-      packToPick(state.options.set_code, table, card, pile_number, insertBefore)
+      packToPick(state.options.set_code, player_id, table, card, pile_number, insertBefore)
     });
   },
 
-  [PICK_TO_PILE](state, { card, pile_number, insertBefore}) {
+  [PICK_TO_PILE](state, { player_id, card, pile_number, insertBefore}) {
     updateTable(state, (table) => {
-      pileToPile(card, pile_number, table.picks.piles, insertBefore);
+      let picks = selectors.activePlayer(player_id, table).picks;
+      pileToPile(card, pile_number, picks.piles, insertBefore);
     });
     
   },
 
-  [DECK_TO_SIDEBOARD](state, { card, insertBefore}) {
+  [DECK_TO_SIDEBOARD](state, { player_id, card, insertBefore}) {
     updateTable(state, (table) => {
       // move the card
-      let deck = table.deck;
+      let deck = selectors.activePlayer(player_id, table).deck;
       pileToPile(card, DECK.SIDEBOARD, deck.piles, insertBefore);
       // apply auto-lands if necessary
       if (deck.lands.auto)
@@ -81,10 +86,10 @@ export default {
     });
   },
 
-  [SIDEBOARD_TO_DECK](state, { card }) {
+  [SIDEBOARD_TO_DECK](state, { player_id, card }) {
     updateTable(state, (table) => {
       // remove from sideboard
-      let deck = table.deck;
+      let deck = selectors.activePlayer(player_id, table).deck;
       let sideboard = deck.piles[DECK.SIDEBOARD];
       sideboard.splice(cardIndex(sideboard, card), 1);
 
@@ -98,24 +103,24 @@ export default {
     });
   },
 
-  [SIDEBOARD_TO_SIDEBOARD](state, { card, insertBefore }) {
+  [SIDEBOARD_TO_SIDEBOARD](state, { player_id, card, insertBefore }) {
     updateTable(state, (table) => {
-      let deck = table.deck;
+      let deck = selectors.activePlayer(player_id, table).deck;
       pileToPile(card, DECK.SIDEBOARD, deck.piles, insertBefore);
     });
   },
 
-  [DISABLE_AUTO_LANDS](state, { color_order }) {
+  [DISABLE_AUTO_LANDS](state, { player_id, color_order }) {
     updateTable(state, (table) => {
-      let deck = table.deck;
+      let deck = selectors.activePlayer(player_id, table).deck;
       deck.lands.auto = false;
       deck.lands.color_order = color_order;
     });
   },
 
-  [SET_BASIC_LANDS](state, { color, lands }) {
+  [SET_BASIC_LANDS](state, { player_id, color, lands }) {
     updateTable(state, (table) => {
-      let deck = table.deck;
+      let deck = selectors.activePlayer(player_id, table).deck;
       deck.lands.basic[color] = lands;
     });
   },
@@ -132,17 +137,18 @@ function updateTable(state, updator) {
   state.table = table;
 }
 
-function packToPick(set_code, table, card, pile_number, insertBefore, clear_table = true) {
+function packToPick(set_code, player_id, table, card, pile_number, insertBefore, clear_table = true) {
 
   // null card means have the AI pick
+  let player = selectors.activePlayer(player_id, table);
   if (!card) {
-    let deck = _flatten(table.picks.piles);
-    card = draftbot.pick(set_code, deck, table.picks.pack);
+    let deck = _flatten(player.picks.piles);
+    card = draftbot.pick(set_code, deck, player.picks.pack);
   }
 
   // if the pile_number is null then choose the least populated pile
   // of the first 6 piles
-  let piles = table.picks.piles;
+  let piles = player.picks.piles;
   if (pile_number === null) {
     pile_number = piles.slice(0, 6).reduce( (shortestPileIndex, pile, index) => {
       if (pile.length < piles[shortestPileIndex].length)
@@ -153,15 +159,15 @@ function packToPick(set_code, table, card, pile_number, insertBefore, clear_tabl
   }
 
   // write the pick 
-  let pack = table.picks.pack;
+  let pack = player.picks.pack;
   let pile = piles[pile_number];
   makePick(pack, pile, card, insertBefore);
 
   // have other players make their picks
-  aiPicks(set_code, table);
+  aiPicks(set_code, player_id, table);
 
   // check whether the pack is completed
-  if (table.picks.pack.length === 0) {
+  if (player.picks.pack.length === 0) {
 
     // if we still have packs to go then create the next pack
     if (table.current_pack < 3) {
@@ -169,10 +175,10 @@ function packToPick(set_code, table, card, pile_number, insertBefore, clear_tabl
     } else {
 
       // move picks to deck
-      movePicksToDeck(table);
+      movePicksToDeck(player_id, table);
 
       // complete picks
-      completePicks(table, clear_table);
+      completePicks(player_id, table, clear_table);
     }
 
   // pass the packs
@@ -183,9 +189,8 @@ function packToPick(set_code, table, card, pile_number, insertBefore, clear_tabl
 }
 
 function passPacks(table) {
-  // compose array of all players
-  let players = [{ picks: table.picks, deck: table.deck }]
-                  .concat(table.players);
+  // array of all players
+  let players = table.players;
 
   // copy existing packs
   let packs = players.map((player) => player.picks.pack.slice());
@@ -216,9 +221,8 @@ function nextPack(table) {
   let packs = table.all_packs.slice(pack_begin, pack_end);
 
   // distribute packs
-  table.picks.pack = packs[0];
-  for (let i=1; i<packs.length; i++)
-    table.players[i-1].picks.pack = packs[i];
+  for (let i=0; i<packs.length; i++)
+    table.players[i].picks.pack = packs[i];
 
   // update current pack
   table.current_pack++;
@@ -246,10 +250,10 @@ function makePick(pack, pile, card, insertBefore) {
   addCardToPile(pile, card, insertBefore);
 }
 
-function aiPicks(set_code, table) {
-  let players = table.players;
-  for (let i=0; i<players.length; i++) {
-    let player = players[i];
+function aiPicks(set_code, player_id, table) {
+  let other_players = table.players.filter(player => player.id !== player_id);
+  for (let i=0; i<other_players.length; i++) {
+    let player = other_players[i];
     let pack = player.picks.pack;
     let pile = player.picks.piles[0];
     let card = draftbot.pick(set_code, pile, pack);
@@ -281,11 +285,12 @@ function cardToDeckPile(c, deck) {
   return pile;
 }
 
-function movePicksToDeck(table) {
+function movePicksToDeck(player_id, table) {
 
   // non-sideboard cards
-  let picks = table.picks;
-  let deck = table.deck;
+  let player = selectors.activePlayer(player_id, table);
+  let picks = player.picks;
+  let deck = player.deck;
   picks.piles.slice(0, PICKS.PILES).forEach(function(pile) {
     pile.forEach((c) => cardToDeckPile(c, deck));
   });
@@ -305,7 +310,7 @@ function movePicksToDeck(table) {
   deck.lands.basic = computeAutoLands(deck);
 }
 
-function completePicks(table, clear_table) {
+function completePicks(player_id, table, clear_table) {
   
   // set completed status
   table.picks_complete = true;
@@ -313,10 +318,8 @@ function completePicks(table, clear_table) {
   // clear the table
   if (clear_table) {
     table.all_packs = [];
-    table.picks = { pack: [], piles: []};
-    table.players = [];
+    table.players = table.players.filter((player) => player.id === player_id);
   }
-  
 }
 
 

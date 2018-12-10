@@ -2,9 +2,6 @@
 import { PICKS, DECK } from './constants'
 
 
-// - move start_time and options into table
-// - have a player_index outside of table
-// - track which of the players is a bot via a list of indexes inside the table
 // - sync the table to firestore
 // - players pass their pack into a zone explicitly (bots do it automatically, 
 //   but who polks the bot, perhaps the player that passed to them?)
@@ -35,10 +32,9 @@ export default function() {
       current_pack: 0,
       current_pick: 0,
       picks_complete: false,
-      picks: playerPicks(),
-      deck: playerDeck(),
-      players: [...Array(7)].map(function() {
+      players: [...Array(8)].map(function() {
         return {
+          id: null,
           picks: playerPicks(),
           deck: playerDeck(),
         }

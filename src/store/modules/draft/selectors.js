@@ -82,18 +82,23 @@ export function cardColors(cards, includeLands = false) {
     return b.count - a.count;
   });
 }
-export function draftThumbnail(draft) {
+export function draftThumbnail(player_id, draft) {
   let set_code = draft.options.set_code;
-  let active_cards = activeCards(draft.table);
+  let active_player = activePlayer(player_id, draft.table);
+  let active_cards = activeCards(player_id, draft.table);
   if (active_cards.length > 0)
     return cardImageUris(draftbot.pick(set_code, active_cards, active_cards))[0];
   else
-    return cardImageUris(draftbot.pick(set_code, [], draft.table.picks.pack))[0];
+    return cardImageUris(draftbot.pick(set_code, [], active_player.picks.pack))[0];
 }
 
+export function activePlayer(player_id, table) {
+  return table.players.find((player) => player.id === player_id);
+}
 
-export function activeCards(table) {
-  let piles = table.picks_complete ? table.deck.piles : table.picks.piles;
+export function activeCards(player_id, table) {
+  let player = activePlayer(player_id, table);
+  let piles = table.picks_complete ? player.deck.piles : player.picks.piles;
   return _flatten(piles.slice(0, DECK.PILES));
 }
 

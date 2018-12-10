@@ -13,7 +13,7 @@ import { RESUME_DRAFT, PACK_TO_PICK, PICK_TO_PILE,
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/mutations';
 
-import { mapState, mapMutations } from 'vuex';
+import { mapState, mapGetters, mapMutations } from 'vuex';
 
 import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
 import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
@@ -92,15 +92,22 @@ export default {
         return state[NS_DRAFTS][this.draft_id].table;
       },
     }),
+    ...mapGetters([
+      'player'
+    ]),
+
+    active_player: function() {
+      return selectors.activePlayer(this.player.id, this.table);
+    },
     
     active_cards: function() {
-      return selectors.activeCards(this.table);
+      return selectors.activeCards(this.player.id, this.table);
     },
 
     pick_ratings: function() {
       if (this.options.pick_ratings) {
-        let deck = _flatten(this.table.picks.piles);
-        let pack = this.table.picks.pack;
+        let deck = _flatten(this.active_player.picks.piles);
+        let pack = this.active_player.picks.pack;
         return draftbot.cardRatings(deck, pack);
       } else {
         return null;
@@ -119,27 +126,33 @@ export default {
         return dispatch(this.namespace + '/' + RESUME_DRAFT);
       },
       packToPick(dispatch, payload) {
-        return dispatch(this.namespace + '/' + PACK_TO_PICK, payload);
+        return dispatch(this.namespace + '/' + PACK_TO_PICK, this.withPlayerId(payload));
       },
       pickToPile(dispatch, payload) {
-        return dispatch(this.namespace + '/' + PICK_TO_PILE, payload);
+        return dispatch(this.namespace + '/' + PICK_TO_PILE, this.withPlayerId(payload));
       },
       deckToSideboard(dispatch, payload) {
-        return dispatch(this.namespace + '/' + DECK_TO_SIDEBOARD, payload);
+        return dispatch(this.namespace + '/' + DECK_TO_SIDEBOARD, this.withPlayerId(payload));
       },
       sideboardToDeck(dispatch, payload) {
-        return dispatch(this.namespace + '/' + SIDEBOARD_TO_DECK, payload);
+        return dispatch(this.namespace + '/' + SIDEBOARD_TO_DECK, this.withPlayerId(payload));
       },
       sideboardToSideboard(dispatch, payload) {
-        return dispatch(this.namespace + '/' + SIDEBOARD_TO_SIDEBOARD, payload);
+        return dispatch(this.namespace + '/' + SIDEBOARD_TO_SIDEBOARD, this.withPlayerId(payload));
       },
       disableAutoLands(dispatch, payload) {
-        return dispatch(this.namespace + '/' + DISABLE_AUTO_LANDS, payload);
+        return dispatch(this.namespace + '/' + DISABLE_AUTO_LANDS, this.withPlayerId(payload));
       },
       setBasicLands(dispatch, payload) {
-        return dispatch(this.namespace + '/' + SET_BASIC_LANDS, payload);
+        return dispatch(this.namespace + '/' + SET_BASIC_LANDS, this.withPlayerId(payload));
       },
     }),
+    withPlayerId: function(payload) {
+      return {
+        player_id: this.player.id,
+        ...payload
+      }
+    },
     aiPick: function() {
       this.packToPick({
         card: null,
@@ -219,12 +232,12 @@ export default {
     <div class="draft-page">
         <div class="draft-cards">
           <transition name="pack-hide">
-            <PackPanel v-if="!table.picks_complete" :pack="table.picks.pack"/>
+            <PackPanel v-if="!table.picks_complete" :pack="active_player.picks.pack"/>
           </transition>
           <PickPanel v-if="!table.picks_complete" 
-                     :picks="table.picks" 
+                     :picks="active_player.picks" 
                      :pick_ratings="pick_ratings"/>
-          <DeckPanel v-else :deck="table.deck"/>
+          <DeckPanel v-else :deck="active_player.deck"/>
         </div>
 
         <InfoBar :card_preview="card_preview" :cards="active_cards"/>

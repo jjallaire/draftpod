@@ -22,19 +22,23 @@ export default {
 
   computed: {
     ...mapGetters({
-      draft_info: 'draft' 
+      draft_info: 'draft', 
+      player: 'player'
     }),
     draft: function() {
       return this.draft_info(this.draft_id);
     },
+    active_player: function() {
+      return selectors.activePlayer(this.player_id, this.draft.table);
+    },
     active_cards: function() {
-      return selectors.activeCards(this.draft.table);
+      return selectors.activeCards(this.player.id, this.draft.table);
     },
     card_preview_image: function() {
-      return selectors.draftThumbnail(this.draft);
+      return selectors.draftThumbnail(this.player.id, this.draft);
     },
     deck_total_cards: function() {
-      return selectors.deckTotalCards(this.draft.table.deck);
+      return selectors.deckTotalCards(this.active_player.deck);
     },
   },
 
