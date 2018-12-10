@@ -2,13 +2,8 @@
 import { PICKS, DECK } from './constants'
 
 
+// - ui needs to gracefully handle no packs (waiting....)
 
-// eliminate current_pick
-
-// - players pass their pack into a zone explicitly (bots do it automatically, 
-//   but who polks the bot, perhaps the player that passed to them?)
-//      - for this would need to introduce a passing zone
-//      - player picking causes cascade of all bots after them
 // - how to implement pick timer? (perhaps the host forces picks?). or perhaps
 //    there is a scheduled server-side function? maybe all clients can 
 //    be responsible for noticing the pick_timer and forcing the picks
@@ -43,7 +38,6 @@ export default function() {
     table: {
       all_packs: [],
       current_pack: 0,
-      current_pick: 0,
       picks_complete: false,
       players: [...Array(8)].map(function() {
         return {
@@ -58,7 +52,7 @@ export default function() {
 
 function playerPicks() {
   return {
-    pack: [],
+    packs: [],
     // piles for cards + 1 pile for sideboard
     piles: [...Array(PICKS.PILES+1)].map(() => Array()),
   }

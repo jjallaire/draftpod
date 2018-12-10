@@ -34,6 +34,9 @@ export default {
     active_cards: function() {
       return selectors.activeCards(this.player.id, this.draft.table);
     },
+    current_pick: function() {
+      return selectors.currentPick(this.player.id, this.draft);
+    },
     card_preview_image: function() {
       return selectors.draftThumbnail(this.player.id, this.draft);
     },
@@ -68,7 +71,7 @@ export default {
             Deck: {{ deck_total_cards }} / 40
           </span>
           <span v-else>
-            Pack {{ draft.table.current_pack }}, Pick {{ draft.table.current_pick }}
+            Pack {{ draft.table.current_pack }}, Pick {{ current_pick }}
           </span>
           <RemoveDraft :draft_id="draft_id"  remove_source="resume"/>
         </p>

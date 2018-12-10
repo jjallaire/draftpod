@@ -85,19 +85,23 @@ export default {
 
   computed: {
     ...mapState({
-      set: function(state) {
-        return state[NS_DRAFTS][this.draft_id].set;
-      },
-      options: function(state) {
-        return state[NS_DRAFTS][this.draft_id].options;
-      },
-      table: function(state) {
-        return state[NS_DRAFTS][this.draft_id].table;
+      draft: function(state) {
+        return state[NS_DRAFTS][this.draft_id];
       },
     }),
     ...mapGetters([
       'player'
     ]),
+
+    set: function() {
+      return this.draft.set;
+    },
+    options: function() {
+      return this.draft.options;
+    },
+    table: function() {
+      return this.draft.table;
+    },
 
     active_player: function() {
       return selectors.activePlayer(this.player.id, this.table);
@@ -107,10 +111,14 @@ export default {
       return selectors.activeCards(this.player.id, this.table);
     },
 
+    current_pick: function() {
+      return selectors.currentPick(this.player.id, this.draft);
+    },
+
     pick_ratings: function() {
       if (this.options.pick_ratings) {
         let deck = _flatten(this.active_player.picks.piles);
-        let pack = this.active_player.picks.pack;
+        let pack = this.active_player.picks.packs[0];
         return draftbot.cardRatings(deck, pack);
       } else {
         return null;
@@ -206,8 +214,8 @@ export default {
         {{ set.name }} 
         <span v-if="!table.picks_complete">
           &mdash;
-          Pack {{ table.current_pack }}, Pick {{ table.current_pick }}
-          <PickTimer v-if="options.pick_timer" :current_pick="table.current_pick" />
+          Pack {{ table.current_pack }}, Pick {{ current_pick }}
+          <PickTimer v-if="options.pick_timer" :current_pick="current_pick" />
         </span>
       </span> 
     
@@ -235,7 +243,7 @@ export default {
     <div class="draft-page">
         <div class="draft-cards">
           <transition name="pack-hide">
-            <PackPanel v-if="!table.picks_complete" :pack="active_player.picks.pack"/>
+            <PackPanel v-if="!table.picks_complete" :pack="active_player.picks.packs[0]"/>
           </transition>
           <PickPanel v-if="!table.picks_complete" 
                      :picks="active_player.picks" 

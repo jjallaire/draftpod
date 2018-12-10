@@ -148,7 +148,7 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
   let player = selectors.activePlayer(player_id, table);
   if (!card) {
     let deck = _flatten(player.picks.piles);
-    card = draftbot.pick(set_code, deck, player.picks.pack);
+    card = draftbot.pick(set_code, deck, player.picks.packs[0]);
   }
 
   // if the pile_number is null then choose the least populated pile
@@ -164,15 +164,19 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
   }
 
   // write the pick 
-  let pack = player.picks.pack;
+  let pack = player.picks.packs[0];
   let pile = piles[pile_number];
   makePick(pack, pile, card, insertBefore);
 
-  // have other players make their picks
-  aiPicks(set_code, player_id, table);
+  // pass pack to next player
+  if (pack.length > 0)
+    playerPassPack(player_id, table);
+
+  // ai pick and pass loop
+  aiPickAndPass(set_code, player_id, table);
 
   // check whether the pack is completed
-  if (player.picks.pack.length === 0) {
+  if (selectors.packCompleted(table)) {
 
     // if we still have packs to go then create the next pack
     if (table.current_pack < 3) {
@@ -186,37 +190,53 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
       completePicks(player_id, table, clear_table);
     }
 
-  // pass the packs
-  } else {
-    passPacks(table);
-  }
+  } 
 
 }
 
-function passPacks(table) {
-  // array of all players
-  let players = table.players;
+function playerIndex(player_id, table) {
+  return table.players.findIndex((player) => player.id === player_id);
+}
 
-  // copy existing packs
-  let packs = players.map((player) => player.picks.pack.slice());
+function playerPassPack(player_id, table) {
+  return passPack(playerIndex(player_id, table), table);
+}
 
-  // pass pack
+function passPack(player_index, table) {
+  
+  // first remove the pack from our packs
+  let player = table.players[player_index];
+  let pack = player.picks.packs.shift();
+
+  // now pass to the next player
+  let next_player_index = nextPlayerIndex(player_index, table);
+  table.players[next_player_index].picks.packs.push(pack);
+
+}
+
+function nextPlayerIndex(player_index, table) {
+  
+  let next_player_index = 0;
+
   if (table.current_pack === 2) {
-    // pass right
-    for (let i=(packs.length-1); i>0; i--)
-      players[i].picks.pack = packs[i-1];
-    players[0].picks.pack = packs[packs.length-1];
 
+    next_player_index = player_index + 1;
+    if (next_player_index >= table.players.length)
+      next_player_index = 0;
+
+  // pass left
   } else {
-    // pass left
-    for (let i=0; i<(packs.length-1); i++)
-      players[i].picks.pack = packs[i+1];
-    players[packs.length-1].picks.pack = packs[0];
-  }
 
-  // move to next pick
-  nextPick(table);
+    next_player_index = player_index - 1;
+    if (next_player_index < 0)
+      next_player_index = table.players.length - 1;
+
+  }
+  
+  return next_player_index;
 }
+
+
 
 function nextPack(table) {
 
@@ -227,24 +247,12 @@ function nextPack(table) {
 
   // distribute packs
   for (let i=0; i<packs.length; i++)
-    table.players[i].picks.pack = packs[i];
+    table.players[i].picks.packs = [packs[i]];
 
   // update current pack
   table.current_pack++;
-
-  // reset picks to zero
-  table.current_pick = 0;
-
-  // move to next pick
-  nextPick(table);
 }
 
-function nextPick(table) {
-  
-  // advance pick
-  table.current_pick++;
-
-}
 
 function makePick(pack, pile, card, insertBefore) {
 
@@ -255,14 +263,32 @@ function makePick(pack, pile, card, insertBefore) {
   addCardToPile(pile, card, insertBefore);
 }
 
-function aiPicks(set_code, player_id, table) {
-  let other_players = table.players.filter(player => player.id !== player_id);
-  for (let i=0; i<other_players.length; i++) {
-    let player = other_players[i];
-    let pack = player.picks.pack;
-    let pile = player.picks.piles[0];
-    let card = draftbot.pick(set_code, pile, pack);
-    makePick(pack, pile, card, null);
+function aiPickAndPass(set_code, player_id, table) {
+
+  // get player index
+  let player_index = playerIndex(player_id, table);
+
+  // execute pick and pass for adjacent bots (until
+  // we hit another player)
+  for(;;) {
+
+    // advance to next player -- bail if they aren't a bot
+    player_index = nextPlayerIndex(player_index, table);
+    let player = table.players[player_index];
+    if (player.id)
+      break;
+
+    // it's a bot, execute a pick and pass loop until we 
+    // have no more picks to make
+    while (player.picks.packs.length > 0 &&
+           player.picks.packs[0].length > 0) {
+      let pack = player.picks.packs[0];
+      let pile = player.picks.piles[0];
+      let card = draftbot.pick(set_code, pile, pack);
+      makePick(pack, pile, card, null);
+      if (pack.length > 0)
+        passPack(player_index, table);
+    }
   }
 }
 

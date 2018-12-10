@@ -88,7 +88,28 @@ export function draftThumbnail(player_id, draft) {
   if (active_cards.length > 0)
     return cardImageUris(draftbot.pick(draft.set.code, active_cards, active_cards))[0];
   else
-    return cardImageUris(draftbot.pick(draft.set.code, [], active_player.picks.pack))[0];
+    return cardImageUris(draftbot.pick(draft.set.code, [], active_player.picks.packs[0]))[0];
+}
+
+export function currentPick(player_id, draft) {
+  if (!draft.table.picks_complete) {
+    let cards_picked = activeCards(player_id, draft.table).length;
+    let current_pick = (cards_picked % draft.set.pack_cards) + 1;
+    return current_pick;
+  } else {
+    return 0;
+  }
+}
+
+export function packCompleted(table) {
+  // if any players still have cards to pick from then we are not complete
+  for (let i = 0; i<table.players.length; i++) {
+    let player = table.players[i];
+    if (player.picks.packs.length > 0 && player.picks.packs[0].length > 0)
+      return false;
+  }
+  // otherwise are complete
+  return true;
 }
 
 export function activePlayer(player_id, table) {
