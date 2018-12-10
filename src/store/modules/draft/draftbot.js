@@ -1,12 +1,14 @@
 
+import * as set from './set'
+
 // pick a card given deck and pack
 export function pick(set_code, deck, pack) {
-  let ratings = cardRatings(deck, pack);
+  let ratings = cardRatings(set_code, deck, pack);
   return ratings[0].card;
 }
 
 // determine the ratings for all cards in a pack
-export function cardRatings(deck, pack) {
+export function cardRatings(set_code, deck, pack) {
 
   // determine the colors used within the deck (2 colors with the
   // highest overall power-level)
@@ -19,9 +21,9 @@ export function cardRatings(deck, pack) {
   // bias compared to off-color cards?
   let color_bias_pick = 7;
   
-  // at what pick do we stop considering on-color cards even if
+  // after what pick do we stop considering on-color cards even if
   // they have a very high rating?
-  let color_lock_pick = 15;
+  let color_lock_pick = set.pack_cards(set_code);
 
   // return ratings                               
   return pack
