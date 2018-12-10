@@ -29,7 +29,8 @@ export default {
     // initialize set
     state.set = {
       code: set_code,
-      name: set.name(set_code)
+      name: set.name(set_code),
+      pack_cards: set.pack_cards(set_code)
     }
 
     // initialize options

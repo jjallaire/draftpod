@@ -8,6 +8,8 @@ export default {
 
   name: "Dominaria",
 
+  pack_cards: 15,
+
   cube: cube.build,
 
   booster(selectCards) {

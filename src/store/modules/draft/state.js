@@ -27,7 +27,8 @@ export default function() {
     // set 
     set: {
       code: null,
-      name: null
+      name: null,
+      pack_cards: null
     },
 
     // options

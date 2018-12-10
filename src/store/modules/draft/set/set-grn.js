@@ -8,6 +8,8 @@ export default {
 
   name: "Guilds of Ravnica",
 
+  pack_cards: 15,
+
   cube: function(cardsInSet, multiples) {
 
     // generate default cube

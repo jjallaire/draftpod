@@ -20,6 +20,10 @@ export function name(set_code) {
   return sets[set_code].name;
 }
 
+export function pack_cards(set_code) {
+  return sets[set_code].pack_cards;
+}
+
 export function cards(set_code) {
   return new Promise((resolve) => {
     if (cards_cache[set_code]) {
