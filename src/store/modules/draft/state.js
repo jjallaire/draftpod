@@ -2,7 +2,6 @@
 import { PICKS, DECK } from './constants'
 
 
-// normalize cards so that we can just store multiverse ids
 
 // eliminate current_pick
 
@@ -17,6 +16,9 @@ import { PICKS, DECK } from './constants'
 // 
 
 // - sync the table to firestore
+
+// - when writing / reading to firestore, "compress" the cards by just including
+//   the multiverse id
 
 export default function() {
   return {
