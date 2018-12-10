@@ -3,8 +3,6 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import VuexPersist from 'vuex-persist'
 
-import uuidv4 from 'uuid'
-
 import getters from './getters'
 import mutations from './mutations'
 import actions from './actions'
@@ -23,7 +21,7 @@ const vuexPersist = new VuexPersist({
 export const store = new Vuex.Store({
   state: {
     player: {
-      id: uuidv4()
+      id: null
     },
     preferences: {
       set_code: 'grn',

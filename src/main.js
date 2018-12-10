@@ -1,10 +1,17 @@
 import Vue from 'vue'
 
 import '@/components/core/bootstrap.js'
+
 import * as Sentry from '@sentry/browser';
+
+import firebase from 'firebase/app'
+import 'firebase/auth'
+
+import uuidv4 from 'uuid'
 
 import router from './router'
 import { store } from './store'
+import { SET_PLAYER_ID } from './store/mutations'
 
 
 // TODO: firebase:
@@ -26,6 +33,9 @@ import { store } from './store'
 // another library:
 //    - https://github.com/fiery-data/fiery-vuex
 
+
+// TODO: draft_history purging should get entries that don't match the 
+// current player_id (otherwise they could accumulate forever)
 
 // TODO: at larger deck sizes during building it's possible for a color
 // to be auto-assigned 0 mana even though there is a card in that color
@@ -53,10 +63,40 @@ if (process.env.NODE_ENV === 'production') {
 
 Vue.config.productionTip = false
 
-new Vue({
-  router,
-  store,
-  render: (h) => h('router-view')
-}).$mount('#app');
+// initialize firebase
+firebase.initializeApp({
+  apiKey: "AIzaSyABxin54k8yFGsJa5YRofmvLOntb7shpAk",
+  authDomain: "draftpod-5da26.firebaseapp.com",
+  databaseURL: "https://draftpod-5da26.firebaseio.com",
+  projectId: "draftpod-5da26",
+  storageBucket: "draftpod-5da26.appspot.com",
+  messagingSenderId: "979913671141"
+});
 
+firebase.auth().signInAnonymously()
+  .then(response => {
+    initApp(response.user.uid);
+  })
+  .catch(() => {
+    initApp();
+  });
+
+
+function initApp(firebase_uid) {
+
+  // attempt to use the firebase uid, fallback to whatever user_id
+  // we might have already stored, then finally to a new randomly generated id
+  let player_id = firebase_uid || store.getters.player.id || uuidv4();
+
+  // write the player id
+  store.commit(SET_PLAYER_ID, player_id);
+
+  // start the app
+  new Vue({
+    router,
+    store,
+    render: (h) => h('router-view')
+  }).$mount('#app');  
+
+}
 

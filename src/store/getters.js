@@ -15,8 +15,10 @@ export default {
       .map((id) => {
         let draft = state.drafts[id];
 
-        // get the active player -- if we don't yet have one then this should be 
-        // execluded from the history
+        // get the active player -- if this draft doesn't yet have our player 
+        // assigned (true after it's just been created) or doesn't contain
+        // our player (true if it was created with a different player_id)
+        // then don't return it
         let active_player = selectors.activePlayer(getters.player.id, draft.table);
         if (!active_player)
           return null;
