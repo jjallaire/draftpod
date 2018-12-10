@@ -26,12 +26,16 @@ export default {
 
   [START_DRAFT](state, { player_id, set_code, cardpool, options }) {
     
+    // initialize set
+    state.set = {
+      code: set_code,
+      name: set.name(set_code)
+    }
+
     // initialize options
     state.options = {
       ...state.options,
       ...options,
-      set_code: set_code,
-      set_name: set.name(set_code),
     };
     
     updateTable(state, (table) => {
@@ -56,14 +60,14 @@ export default {
   [SIMULATE_DRAFT](state, { player_id }) {
     updateTable(state, (table) => {
       while (!table.picks_complete) {
-        packToPick(state.options.set_code, player_id, table, null,  null, null, false);
+        packToPick(state.set.code, player_id, table, null,  null, null, false);
       }
     });
   },
 
   [PACK_TO_PICK](state, { player_id, card, pile_number, insertBefore }) {
     updateTable(state, (table) => {
-      packToPick(state.options.set_code, player_id, table, card, pile_number, insertBefore)
+      packToPick(state.set.code, player_id, table, card, pile_number, insertBefore)
     });
   },
 

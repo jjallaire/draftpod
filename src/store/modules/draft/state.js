@@ -2,15 +2,21 @@
 import { PICKS, DECK } from './constants'
 
 
-// - sync the table to firestore
+// normalize cards so that we can just store multiverse ids
+
+// eliminate current_pick
+
 // - players pass their pack into a zone explicitly (bots do it automatically, 
 //   but who polks the bot, perhaps the player that passed to them?)
 //      - for this would need to introduce a passing zone
+//      - player picking causes cascade of all bots after them
 // - how to implement pick timer? (perhaps the host forces picks?). or perhaps
 //    there is a scheduled server-side function? maybe all clients can 
 //    be responsible for noticing the pick_timer and forcing the picks
 //    via a call to a firebase function
 // 
+
+// - sync the table to firestore
 
 export default function() {
   return {
@@ -18,10 +24,14 @@ export default function() {
     // start time
     start_time: new Date().getTime(), 
 
+    // set 
+    set: {
+      code: null,
+      name: null
+    },
+
     // options
     options: {
-      set_code: null,
-      set_name: null,
       pick_timer: false,
       pick_ratings: false,
     },

@@ -24,8 +24,8 @@ export default {
         return {
           id: id,
           start_time: draft.start_time,
-          set_code: draft.options.set_code,
-          set_name: draft.options.set_name,
+          set_code: draft.set.code,
+          set_name: draft.set.name,
           current_pack: draft.table.current_pack,
           current_pick: draft.table.current_pick,
           picks_complete: draft.table.picks_complete,

@@ -85,6 +85,9 @@ export default {
 
   computed: {
     ...mapState({
+      set: function(state) {
+        return state[NS_DRAFTS][this.draft_id].set;
+      },
       options: function(state) {
         return state[NS_DRAFTS][this.draft_id].options;
       },
@@ -197,10 +200,10 @@ export default {
 
     <NavBar> 
       <span class="navbar-text navbar-set-icon">
-         <SetIcon :set_code="options.set_code"/>   
+         <SetIcon :set_code="set.code"/>   
       </span>
       <span class="navbar-text">
-        {{ options.set_name }} 
+        {{ set.name }} 
         <span v-if="!table.picks_complete">
           &mdash;
           Pack {{ table.current_pack }}, Pick {{ table.current_pick }}

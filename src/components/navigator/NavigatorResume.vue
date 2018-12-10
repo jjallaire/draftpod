@@ -62,7 +62,7 @@ export default {
   <ContentPanel caption="Draft in Progress" class="resume-draft">
     <div class="row">
       <div class="col-sm-3">
-        <h4>{{ draft.options.set_name }}</h4>
+        <h4>{{ draft.set.name }}</h4>
         <p>
           <span v-if="draft.table.picks_complete">
             Deck: {{ deck_total_cards }} / 40
