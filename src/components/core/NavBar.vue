@@ -12,7 +12,6 @@
       </span>
     </slot>
 
-    <!---
     <ul class="navbar-nav ml-auto">
       <router-link tag="li" class="nav-item" active-class="active" to="/" exact>
         <a class="nav-link">Home</a>
@@ -24,7 +23,6 @@
         <a class="nav-link">About</a>
       </router-link>
     </ul>
-    -->
     
   </nav>
 </template>

@@ -17,11 +17,7 @@ export default new VueRouter({
   mode: 'history',
   
   routes: [
-    { path: '/', component: HomePage,
-      beforeEnter: (to, from, next) => {
-        next("/draft/");
-      } 
-    },
+    { path: '/', component: HomePage },
     { path: '/draft/', component: NavigatorPage },
     { path: '/draft/:draft_id', component: TablePage, props: true, 
       beforeEnter: (to, from, next) => {
