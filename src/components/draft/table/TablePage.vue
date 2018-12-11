@@ -215,7 +215,7 @@ export default {
         <span v-if="!table.picks_complete">
           &mdash;
           Pack {{ table.current_pack }}, Pick {{ current_pick }}
-          <PickTimer v-if="options.pick_timer" :current_pick="current_pick" />
+          <PickTimer v-if="options.pick_timer" :pick_end_time="active_player.picks.pick_end_time" />
         </span>
       </span> 
     

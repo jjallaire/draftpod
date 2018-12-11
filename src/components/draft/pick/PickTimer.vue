@@ -5,7 +5,7 @@ export default {
   name: 'PickTimer',
 
   props: {
-    current_pick: {
+    pick_end_time: {
       type: Number,
       required: true
     }
@@ -43,10 +43,6 @@ export default {
   },
 
   computed: {
-    pick_end_time: function() {
-      let pick_seconds = 80 - (5 * this.current_pick);
-      return new Date().getTime() + 1000 * pick_seconds;
-    },
     pick_time_remaining: function() {
       return Math.round((this.pick_end_time - this.now) / 1000);
     },
