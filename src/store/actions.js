@@ -7,6 +7,7 @@ import { START_DRAFT } from './modules/draft/mutations';
 
 import * as set from './modules/draft/set/'
 import { useDraftModule } from '@/store'
+import { firestore } from './firebase'
 import { CARDPOOL } from '@/store/constants'
 
 export const CREATE_DRAFT = 'CREATE_DRAFT'
@@ -61,8 +62,19 @@ export default {
             options
           });
 
-          // resolve promise
-          resolve({ draft_id });
+          // write to firestore
+          let draft = state.drafts[draft_id];
+          firestore.collection('drafts').doc(draft_id).set({
+            set: draft.set,
+            options: draft.options,
+            table: JSON.stringify(draft.table)
+          }).then(function() {
+            resolve({ draft_id });
+          })
+          .catch(function() {
+            // TODO: reject promise
+            resolve({ draft_id });
+          });
         });
     });
   },

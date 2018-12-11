@@ -52,7 +52,7 @@ export default {
       // distribute first pack
       nextPack(state.set.code, table);
     });
-  },
+  },  
 
   [RESUME_DRAFT](state, { player_id }) {
     

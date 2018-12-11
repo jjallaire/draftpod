@@ -81,6 +81,9 @@ function initApp(firebase_uid) {
 
 // TODO: don't allow resetting pick timer in multi-user drafts?
 
+// TODO: reject promise when firestore fails (createDraft) and/or allow for local
+// mode that doesn't interact with firestore
+
 // TODO: at larger deck sizes during building it's possible for a color
 // to be auto-assigned 0 mana even though there is a card in that color
 // (fraction is likely too small)
