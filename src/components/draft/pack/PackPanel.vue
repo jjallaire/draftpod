@@ -3,6 +3,8 @@
 import MtgCard from '@/components/draft/core/MtgCard.vue';
 import UiPanel from '@/components/core/UiPanel.vue';
 
+import HourglassIcon from 'vue-material-design-icons/TimerSandEmpty.vue'
+
 export default {
   name: 'PackPanel',
   props: {
@@ -15,7 +17,7 @@ export default {
     drag_source: () => "DRAG_SOURCE_PACK",
   },
   components: {
-    MtgCard, UiPanel
+    MtgCard, UiPanel, HourglassIcon
   },
 }
 </script>
@@ -27,8 +29,8 @@ export default {
             :card="card" :drag_source="drag_source">
       </MtgCard>
     </div>
-    <div v-else>
-      Waiting for pack....
+    <div class="waiting-for-pack" v-else>
+      <HourglassIcon /> Waiting for pack...
     </div>
   </UiPanel>  
 
@@ -53,6 +55,14 @@ export default {
   width: 11.5%;
   min-height: 16.05%;
   margin-bottom: 3px;
+}
+
+.pack-panel .waiting-for-pack {
+  width: 100%;
+  text-align: center;
+  margin-top: 8%;
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.7);
 }
 
 @media only screen and (max-width: 1000px) {

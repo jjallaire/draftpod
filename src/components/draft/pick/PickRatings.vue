@@ -38,7 +38,7 @@ export default {
 
 
 <template>
-<Drop @dragover="handleDragover(...arguments)">
+<Drop v-if="pick_ratings.length > 0" @dragover="handleDragover(...arguments)">
 <table class="ratings-table table table-sm">
 <thead class="">
 <th>Card</th>
