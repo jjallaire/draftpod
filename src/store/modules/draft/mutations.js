@@ -54,8 +54,16 @@ export default {
     });
   },
 
-  [RESUME_DRAFT](state) {
+  [RESUME_DRAFT](state, { player_id }) {
+    
+    // set the draft start time
     state.start_time = new Date().getTime();
+
+    // reset the pick_timer
+    updateTable(state, (table) => {
+      resetPickTimer(player_id, state.set.code, table);
+    });
+
   },
 
   [SIMULATE_DRAFT](state, { player_id }) {
@@ -213,6 +221,11 @@ function passPack(player_index, set_code, table) {
   if (next_player.picks.packs.length === 1)
     next_player.picks.pick_end_time = nextPickEndTime(set_code, next_player);
 
+}
+
+function resetPickTimer(player_id, set_code, table) {
+  let player = selectors.activePlayer(player_id, table);
+  player.picks.pick_end_time = nextPickEndTime(set_code, player);
 }
 
 function nextPickEndTime(set_code, player) {

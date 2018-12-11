@@ -146,7 +146,7 @@ export default {
     ...mapMutations({
       removeDrafts: REMOVE_DRAFTS,
       resumeDraft(dispatch) {
-        return dispatch(this.namespace + '/' + RESUME_DRAFT);
+        return dispatch(this.namespace + '/' + RESUME_DRAFT, this.withPlayerId({}));
       },
       packToPick(dispatch, payload) {
         return dispatch(this.namespace + '/' + PACK_TO_PICK, this.withPlayerId(payload));
