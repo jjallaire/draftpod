@@ -40,6 +40,8 @@ import { SET_PLAYER_ID } from './store/mutations'
 // - when writing / reading to firestore, "compress" the cards by just including
 //   the multiverse id
 
+// TODO: don't allow resetting pick timer in multi-user drafts?
+
 // TODO: at larger deck sizes during building it's possible for a color
 // to be auto-assigned 0 mana even though there is a card in that color
 // (fraction is likely too small)
