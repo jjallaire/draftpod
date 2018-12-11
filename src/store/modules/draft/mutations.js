@@ -146,35 +146,24 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
 
   // when we are running this code under firestore we need to account for the 
   // fact that another writer could have auto-picked for us (as a result of the
-  // time expiring).
+  // time expiring). in this case 
 
+  // alias player
+  let player_index = playerIndex(player_id, table);
+  
   // null card means have the AI pick
-  let player = selectors.activePlayer(player_id, table);
   if (!card) {
+    let player = table.players[player_index];
     let deck = _flatten(player.picks.piles);
     card = draftbot.pick(set_code, deck, player.picks.packs[0]);
   }
 
-  // if the pile_number is null then choose the least populated pile
-  // of the first 6 piles
-  let piles = player.picks.piles;
-  if (pile_number === null) {
-    pile_number = piles.slice(0, 6).reduce( (shortestPileIndex, pile, index) => {
-      if (pile.length < piles[shortestPileIndex].length)
-        return index;
-      else
-        return shortestPileIndex;
-    }, 0);
-  }
+  // make the pick 
+  makePick(player_index, set_code, table, pile_number, card, insertBefore);
 
-  // write the pick 
-  let pack = player.picks.packs[0];
-  let pile = piles[pile_number];
-  makePick(pack, pile, card, insertBefore);
-
-  // pass pack to next player
-  if (pack.length > 0)
-    playerPassPack(player_id, set_code, table);
+  // auto-picks for other players that have timed out (we do this here b/c if another player
+  // disconnects they'll never make a pick)
+  autoPickTimedOutPlayers(set_code, table);
 
   // ai pick and pass loop
   aiPickAndPass(player_id, set_code, table);
@@ -200,10 +189,6 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
 
 function playerIndex(player_id, table) {
   return table.players.findIndex((player) => player.id === player_id);
-}
-
-function playerPassPack(player_id, set_code, table) {
-  return passPack(playerIndex(player_id, table), set_code, table);
 }
 
 function passPack(player_index, set_code, table) {
@@ -280,14 +265,54 @@ function nextPack(set_code, table) {
   table.current_pack++;
 }
 
+function makePick(player_index, set_code, table, pile_number, card, insertBefore) {
 
-function makePick(pack, pile, card, insertBefore) {
+  // alias player
+  let player = table.players[player_index];
+  let piles = player.picks.piles;
+  let pack = player.picks.packs[0];
+
+  // if the pile_number is null then choose the least populated pile
+  // of the first 6 pile
+  if (pile_number === null) {
+    pile_number = piles.slice(0, 6).reduce( (shortestPileIndex, pile, index) => {
+      if (pile.length < piles[shortestPileIndex].length)
+        return index;
+      else
+        return shortestPileIndex;
+    }, 0);
+  }
 
   // remove from pack
   pack.splice(cardIndex(pack, card), 1);
 
   // add to pile
-  addCardToPile(pile, card, insertBefore);
+  addCardToPile(piles[pile_number], card, insertBefore);
+
+  // pass pack to next player if it's not empty
+  if (pack.length > 0)
+    passPack(player_index, set_code, table);  
+
+}
+
+function autoPickTimedOutPlayers(set_code, table) {
+
+  // for each player
+  for (let i = 0; i<table.players; i++) {
+
+    // if it's a real player as opposed to a bot
+    let player = table.players[i];
+    if (player.id !== null) {
+
+      // auto-pick if we are past the pick end time
+      if (player.picks.packs.length > 0 &&
+          new Date().getTime() > player.picks.pick_end_time) {
+        let deck = _flatten(player.picks.piles);
+        let card = draftbot.pick(set_code, deck, player.picks.packs[0]);
+        makePick(i, set_code, table, null, card, null);
+      }
+    }
+  }
 }
 
 function aiPickAndPass(player_id, set_code, table) {
@@ -310,11 +335,9 @@ function aiPickAndPass(player_id, set_code, table) {
     while (player.picks.packs.length > 0 &&
            player.picks.packs[0].length > 0) {
       let pack = player.picks.packs[0];
-      let pile = player.picks.piles[0];
-      let card = draftbot.pick(set_code, pile, pack);
-      makePick(pack, pile, card, null);
-      if (pack.length > 0)
-        passPack(player_index, set_code, table);
+      let piles = player.picks.piles;
+      let card = draftbot.pick(set_code, _flatten(piles), pack);
+      makePick(player_index, set_code, table, null, card, null);
     }
   }
 }
