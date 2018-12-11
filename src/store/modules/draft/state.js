@@ -2,6 +2,8 @@
 import { PICKS, DECK } from './constants'
 
 
+// - remove pack from within player?
+
 // - ui needs to gracefully handle no packs (waiting....)
 
 // - how to implement pick timer? (perhaps the host forces picks?). or perhaps

@@ -130,7 +130,8 @@ export default {
         // record the data
         let table = this.$store.state.drafts[draft_id].table;
         table.players.forEach((player) => {
-          this.decks.push(draftbot.deckColors(player.picks.piles[0]));
+          let cards = _flatten(player.picks.piles);
+          this.decks.push(draftbot.deckColors(cards));
         });
 
         // remove draft data

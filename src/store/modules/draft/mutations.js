@@ -144,6 +144,10 @@ function updateTable(state, updator) {
 
 function packToPick(set_code, player_id, table, card, pile_number, insertBefore, clear_table = true) {
 
+  // when we are running this code under firestore we need to account for the 
+  // fact that another writer could have auto-picked for us (as a result of the
+  // time expiring).
+
   // null card means have the AI pick
   let player = selectors.activePlayer(player_id, table);
   if (!card) {
@@ -184,10 +188,10 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
     } else {
 
       // move picks to deck
-      movePicksToDeck(player_id, table);
+      movePicksToDeck(table);
 
       // complete picks
-      completePicks(player_id, table, clear_table);
+      completePicks(table, clear_table);
     }
 
   } 
@@ -316,32 +320,35 @@ function cardToDeckPile(c, deck) {
   return pile;
 }
 
-function movePicksToDeck(player_id, table) {
+function movePicksToDeck(table) {
 
-  // non-sideboard cards
-  let player = selectors.activePlayer(player_id, table);
-  let picks = player.picks;
-  let deck = player.deck;
-  picks.piles.slice(0, PICKS.PILES).forEach(function(pile) {
-    pile.forEach((c) => cardToDeckPile(c, deck));
+  // move picks for all non-bots
+  table.players.filter(player => player.id !== null).forEach(player => {
+    
+    // non-sideboard cards
+    let picks = player.picks;
+    let deck = player.deck;
+    picks.piles.slice(0, PICKS.PILES).forEach(function(pile) {
+      pile.forEach((c) => cardToDeckPile(c, deck));
+    });
+
+    // sideboard cards
+    deck.piles[DECK.SIDEBOARD] = picks.piles[PICKS.SIDEBOARD].slice();
+
+    // prune out all basic lands
+    deck.piles = deck.piles.map(function(pile) {
+      return pile.filter((card) => !filters.basicLand(card));
+    });
+
+    // sort all deck piles
+    deck.piles.forEach((pile) => pile.sort(orderCards));
+
+    // apply auto lands
+    deck.lands.basic = computeAutoLands(deck);
   });
-
-  // sideboard cards
-  deck.piles[DECK.SIDEBOARD] = picks.piles[PICKS.SIDEBOARD].slice();
-
-  // prune out all basic lands
-  deck.piles = deck.piles.map(function(pile) {
-    return pile.filter((card) => !filters.basicLand(card));
-  });
-
-  // sort all deck piles
-  deck.piles.forEach((pile) => pile.sort(orderCards));
-
-  // apply auto lands
-  deck.lands.basic = computeAutoLands(deck);
 }
 
-function completePicks(player_id, table, clear_table) {
+function completePicks(table, clear_table) {
   
   // set completed status
   table.picks_complete = true;
@@ -349,7 +356,7 @@ function completePicks(player_id, table, clear_table) {
   // clear the table
   if (clear_table) {
     table.all_packs = [];
-    table.players = table.players.filter((player) => player.id === player_id);
+    table.players = table.players.filter((player) => player.id !== null);
   }
 }
 
