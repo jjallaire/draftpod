@@ -29,7 +29,7 @@ export default {
           set_code: draft.set.code,
           set_name: draft.set.name,
           current_pack: draft.table.current_pack,
-          current_pick: selectors.currentPick(getters.player.id, draft),
+          current_pick: selectors.currentPick(getters.player.id, draft.set.code, draft.table),
           picks_complete: draft.table.picks_complete,
           deck_total_cards: selectors.deckTotalCards(active_player.deck),
           card_colors: selectors.cardColors(selectors.activeCards(getters.player.id, draft.table))

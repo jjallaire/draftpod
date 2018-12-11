@@ -112,7 +112,7 @@ export default {
     },
 
     current_pick: function() {
-      return selectors.currentPick(this.player.id, this.draft);
+      return selectors.currentPick(this.player.id, this.set.code, this.table);
     },
 
     pick_ratings: function() {

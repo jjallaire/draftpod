@@ -50,7 +50,7 @@ export default {
       });
 
       // distribute first pack
-      nextPack(table);
+      nextPack(state.set.code, table);
     });
   },
 
@@ -174,17 +174,17 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
 
   // pass pack to next player
   if (pack.length > 0)
-    playerPassPack(player_id, table);
+    playerPassPack(player_id, set_code, table);
 
   // ai pick and pass loop
-  aiPickAndPass(set_code, player_id, table);
+  aiPickAndPass(player_id, set_code, table);
 
   // check whether the pack is completed
   if (selectors.packCompleted(table)) {
 
     // if we still have packs to go then create the next pack
     if (table.current_pack < 3) {
-      nextPack(table);
+      nextPack(set_code, table);
     } else {
 
       // move picks to deck
@@ -202,21 +202,41 @@ function playerIndex(player_id, table) {
   return table.players.findIndex((player) => player.id === player_id);
 }
 
-function playerPassPack(player_id, table) {
-  return passPack(playerIndex(player_id, table), table);
+function playerPassPack(player_id, set_code, table) {
+  return passPack(playerIndex(player_id, table), set_code, table);
 }
 
-function passPack(player_index, table) {
+function passPack(player_index, set_code, table) {
   
   // first remove the pack from our packs
   let player = table.players[player_index];
   let pack = player.picks.packs.shift();
 
+  // if this reveals a pack beneath the one we were 
+  // just considering set the pick end time
+  if (player.picks.packs.length > 0)
+    player.picks.pick_end_time = nextPickEndTime(set_code, player);
+
   // now pass to the next player
   let next_player_index = nextPlayerIndex(player_index, table);
-  table.players[next_player_index].picks.packs.push(pack);
+  let next_player = table.players[next_player_index];
+  next_player.picks.packs.push(pack);
+
+  // if the player previously had no packs in consideration
+  // then set the pack_start_time
+  if (next_player.picks.packs.length === 1)
+    next_player.picks.pick_end_time = nextPickEndTime(set_code, next_player);
 
 }
+
+function nextPickEndTime(set_code, player) {
+  let cards_picked = _flatten(player.picks.piles).length;
+  let current_pick = (cards_picked % set.pack_cards(set_code)) + 1;
+  let pick_seconds = 80 - (5 * current_pick);
+  return new Date().getTime() + (1000 * pick_seconds);
+}
+
+
 
 function nextPlayerIndex(player_index, table) {
   
@@ -242,7 +262,7 @@ function nextPlayerIndex(player_index, table) {
 
 
 
-function nextPack(table) {
+function nextPack(set_code, table) {
 
   // grab next set of packs
   let pack_begin = table.current_pack * 8;
@@ -250,8 +270,11 @@ function nextPack(table) {
   let packs = table.all_packs.slice(pack_begin, pack_end);
 
   // distribute packs
-  for (let i=0; i<packs.length; i++)
-    table.players[i].picks.packs = [packs[i]];
+  for (let i=0; i<packs.length; i++) {
+    let player = table.players[i];
+    player.picks.packs = [packs[i]];
+    player.picks.pick_end_time = nextPickEndTime(set_code, player);
+  }
 
   // update current pack
   table.current_pack++;
@@ -267,7 +290,7 @@ function makePick(pack, pile, card, insertBefore) {
   addCardToPile(pile, card, insertBefore);
 }
 
-function aiPickAndPass(set_code, player_id, table) {
+function aiPickAndPass(player_id, set_code, table) {
 
   // get player index
   let player_index = playerIndex(player_id, table);
@@ -291,7 +314,7 @@ function aiPickAndPass(set_code, player_id, table) {
       let card = draftbot.pick(set_code, pile, pack);
       makePick(pack, pile, card, null);
       if (pack.length > 0)
-        passPack(player_index, table);
+        passPack(player_index, set_code, table);
     }
   }
 }

@@ -2,6 +2,7 @@ import _flatten from 'lodash/flatten'
 
 import * as filters from './card-filters'
 import * as draftbot from './draftbot'
+import * as set from './set'
 import { DECK } from './constants'
 
 const local_images = false && process.env.NODE_ENV !== 'production';
@@ -91,10 +92,10 @@ export function draftThumbnail(player_id, draft) {
     return cardImageUris(draftbot.pick(draft.set.code, [], active_player.picks.packs[0]))[0];
 }
 
-export function currentPick(player_id, draft) {
-  if (!draft.table.picks_complete) {
-    let cards_picked = activeCards(player_id, draft.table).length;
-    let current_pick = (cards_picked % draft.set.pack_cards) + 1;
+export function currentPick(player_id, set_code, table) {
+  if (!table.picks_complete) {
+    let cards_picked = activeCards(player_id, table).length;
+    let current_pick = (cards_picked % set.pack_cards(set_code)) + 1;
     return current_pick;
   } else {
     return 0;

@@ -35,7 +35,7 @@ export default {
       return selectors.activeCards(this.player.id, this.draft.table);
     },
     current_pick: function() {
-      return selectors.currentPick(this.player.id, this.draft);
+      return selectors.currentPick(this.player.id, this.draft.set.code, this.draft.table);
     },
     card_preview_image: function() {
       return selectors.draftThumbnail(this.player.id, this.draft);

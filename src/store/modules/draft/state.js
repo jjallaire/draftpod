@@ -1,9 +1,6 @@
 
 import { PICKS, DECK } from './constants'
 
-
-// - remove pack from within player?
-
 // - ui needs to gracefully handle no packs (waiting....)
 
 // - how to implement pick timer? (perhaps the host forces picks?). or perhaps
@@ -54,7 +51,12 @@ export default function() {
 
 function playerPicks() {
   return {
+    // packs that have been passed to me waiting for picks (FIFO)
     packs: [],
+
+    // what time I begin considering this pac
+    pack_start_time: null,
+
     // piles for cards + 1 pile for sideboard
     piles: [...Array(PICKS.PILES+1)].map(() => Array()),
   }
