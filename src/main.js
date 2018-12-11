@@ -74,7 +74,6 @@ Vue.config.productionTip = false
 firebase.initializeApp({
   apiKey: "AIzaSyABxin54k8yFGsJa5YRofmvLOntb7shpAk",
   authDomain: "draftpod-5da26.firebaseapp.com",
-  databaseURL: "https://draftpod-5da26.firebaseio.com",
   projectId: "draftpod-5da26",
   storageBucket: "draftpod-5da26.appspot.com",
   messagingSenderId: "979913671141"
