@@ -1,4 +1,7 @@
+
+
 import Vue from 'vue'
+Vue.config.productionTip = false
 
 import '@/components/core/bootstrap.js'
 
@@ -8,10 +11,46 @@ import firebase from 'firebase/app'
 import 'firebase/auth'
 
 import uuidv4 from 'uuid'
-
 import router from './router'
 import { store } from './store'
 import { SET_PLAYER_ID } from './store/mutations'
+
+// configure sentry in production mode
+if (process.env.NODE_ENV === 'production') {
+  Sentry.init({
+    dsn: 'https://49f3775ddef847b6a96c84d63bdeb02b@sentry.io/1331583',
+    integrations: [new Sentry.Integrations.Vue({ Vue })]
+  });
+}
+
+// attempt to login to firebase
+firebase.auth().signInAnonymously()
+  .then(response => {
+    initApp(response.user.uid);
+  })
+  .catch(() => {
+    initApp();
+  });
+
+function initApp(firebase_uid) {
+
+  // attempt to use the firebase uid, fallback to whatever user_id
+  // we might have already stored, then finally to a new randomly generated id
+  let player_id = firebase_uid || store.getters.player.id || uuidv4();
+
+  // write the player id
+  store.commit(SET_PLAYER_ID, player_id);
+
+  // start the app
+  new Vue({
+    router,
+    store,
+    render: (h) => h('router-view')
+  }).$mount('#app');  
+
+}
+
+
 
 
 // TODO: firebase:
@@ -60,49 +99,5 @@ import { SET_PLAYER_ID } from './store/mutations'
 //    - trash/hide/second pile (pile which won't be in decklist) 
 
 
-// configure sentry in production mode
-if (process.env.NODE_ENV === 'production') {
-  Sentry.init({
-    dsn: 'https://49f3775ddef847b6a96c84d63bdeb02b@sentry.io/1331583',
-    integrations: [new Sentry.Integrations.Vue({ Vue })]
-  });
-}
 
-Vue.config.productionTip = false
-
-// initialize firebase
-firebase.initializeApp({
-  apiKey: "AIzaSyABxin54k8yFGsJa5YRofmvLOntb7shpAk",
-  authDomain: "draftpod-5da26.firebaseapp.com",
-  projectId: "draftpod-5da26",
-  storageBucket: "draftpod-5da26.appspot.com",
-  messagingSenderId: "979913671141"
-});
-
-firebase.auth().signInAnonymously()
-  .then(response => {
-    initApp(response.user.uid);
-  })
-  .catch(() => {
-    initApp();
-  });
-
-
-function initApp(firebase_uid) {
-
-  // attempt to use the firebase uid, fallback to whatever user_id
-  // we might have already stored, then finally to a new randomly generated id
-  let player_id = firebase_uid || store.getters.player.id || uuidv4();
-
-  // write the player id
-  store.commit(SET_PLAYER_ID, player_id);
-
-  // start the app
-  new Vue({
-    router,
-    store,
-    render: (h) => h('router-view')
-  }).$mount('#app');  
-
-}
 
