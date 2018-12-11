@@ -2,13 +2,7 @@
 import { PICKS, DECK } from './constants'
 
 // - ui needs to gracefully handle no packs (waiting....)
-
-// - how to implement pick timer? (perhaps the host forces picks?). or perhaps
-//    there is a scheduled server-side function? maybe all clients can 
-//    be responsible for noticing the pick_timer and forcing the picks
-//    via a call to a firebase function
-// 
-
+ 
 // - sync the table to firestore
 
 // - when writing / reading to firestore, "compress" the cards by just including

@@ -61,14 +61,14 @@ export default {
   [SIMULATE_DRAFT](state, { player_id }) {
     updateTable(state, (table) => {
       while (!table.picks_complete) {
-        packToPick(state.set.code, player_id, table, null,  null, null, false);
+        packToPick(state.set.code, false, player_id, table, null,  null, null, false);
       }
     });
   },
 
   [PACK_TO_PICK](state, { player_id, card, pile_number, insertBefore }) {
     updateTable(state, (table) => {
-      packToPick(state.set.code, player_id, table, card, pile_number, insertBefore)
+      packToPick(state.set.code, state.options.pick_timer, player_id, table, card, pile_number, insertBefore)
     });
   },
 
@@ -142,7 +142,7 @@ function updateTable(state, updator) {
   state.table = table;
 }
 
-function packToPick(set_code, player_id, table, card, pile_number, insertBefore, clear_table = true) {
+function packToPick(set_code, pick_timer, player_id, table, card, pile_number, insertBefore, clear_table = true) {
 
   // when we are running this code under firestore we need to account for the 
   // fact that another writer could have auto-picked for us (as a result of the
@@ -163,7 +163,8 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
 
   // auto-picks for other players that have timed out (we do this here b/c if another player
   // disconnects they'll never make a pick)
-  autoPickTimedOutPlayers(set_code, table);
+  if (pick_timer)
+    autoPickTimedOutPlayers(set_code, table);
 
   // ai pick and pass loop
   aiPickAndPass(player_id, set_code, table);
