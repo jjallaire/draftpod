@@ -9,7 +9,7 @@ import InfoBar from '../infobar/InfoBar.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 
 import { REMOVE_DRAFTS } from '@/store/mutations'
-import { RESUME_DRAFT, PACK_TO_PICK, PICK_TO_PILE, 
+import { RESUME_DRAFT, WRITE_TABLE, PACK_TO_PICK, PICK_TO_PILE, 
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/mutations';
 
@@ -30,6 +30,7 @@ const NS_DRAFTS = "drafts";
 
 import * as selectors from '@/store/modules/draft/selectors'
 import * as draftbot from '@/store/modules/draft/draftbot'
+import { firestore } from '@/store/firebase'
 
 export default {
   name: 'DraftTable',
@@ -72,6 +73,13 @@ export default {
  
     // resume draft
     this.resumeDraft();
+
+    // track firebase snapshots
+    firestore.collection("drafts").doc(this.draft_id)
+      .onSnapshot(doc => {
+        let table = JSON.parse(doc.data().table);
+        this.writeTable({ table });
+    });
 
     // update fullscreen state on change
     this.onFullscreenChange();
@@ -147,6 +155,9 @@ export default {
       removeDrafts: REMOVE_DRAFTS,
       resumeDraft(dispatch) {
         return dispatch(this.namespace + '/' + RESUME_DRAFT, this.withPlayerId({}));
+      },
+      writeTable(dispatch, payload) {
+        return dispatch(this.namespace + '/' + WRITE_TABLE, payload);
       },
       packToPick(dispatch, payload) {
         return dispatch(this.namespace + '/' + PACK_TO_PICK, this.withPlayerId(payload));

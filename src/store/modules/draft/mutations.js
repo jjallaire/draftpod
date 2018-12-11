@@ -2,6 +2,7 @@
 export const START_DRAFT = 'START_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const SIMULATE_DRAFT = 'SIMULATE_DRAFT'
+export const WRITE_TABLE = 'WRITE_TABLE'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const NEXT_PACK = 'NEXT_PACK'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
@@ -17,6 +18,7 @@ import _flatten from 'lodash/flatten'
 import _remove from 'lodash/remove'
 
 import * as set from './set/'
+import { firestore } from '../../firebase'
 import * as draftbot from './draftbot'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
@@ -24,8 +26,11 @@ import { PICKS, DECK } from './constants'
 
 export default {
 
-  [START_DRAFT](state, { player_id, set_code, cardpool, options }) {
+  [START_DRAFT](state, { id, player_id, set_code, cardpool, options }) {
     
+    // initialize id
+    state.id = id;
+
     // initialize set
     state.set = {
       code: set_code,
@@ -63,7 +68,10 @@ export default {
     updateTable(state, (table) => {
       resetPickTimer(player_id, state.set.code, table);
     });
+  },
 
+  [WRITE_TABLE](state, { table }) {
+    state.table = table;
   },
 
   [SIMULATE_DRAFT](state, { player_id }) {
@@ -145,9 +153,21 @@ function cardIndex(cards, card) {
 }
 
 function updateTable(state, updator) {
+  
+  // TODO: this will need to be a transaction with an invalidator function to prevent the 
+  // write if state changed from underneath
+
+  // make the changes
   let table = JSON.parse(JSON.stringify(state.table));
   updator(table);
+
+  // write locally
   state.table = table;
+
+  // write to firebase
+  firestore.collection("drafts").doc(state.id).update({
+    table: JSON.stringify(table)
+  });
 }
 
 function packToPick(set_code, pick_timer, player_id, table, card, pile_number, insertBefore, clear_table = true) {

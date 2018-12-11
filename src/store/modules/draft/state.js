@@ -4,6 +4,9 @@ import { PICKS, DECK } from './constants'
 export default function() {
   return {
 
+    // id
+    id: null,
+
     // start time
     start_time: new Date().getTime(), 
 
