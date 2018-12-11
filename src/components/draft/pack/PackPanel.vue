@@ -8,7 +8,7 @@ export default {
   props: {
     pack: {
       type: Array,
-      required: true
+      default: null
     }
   },
   computed: {
@@ -22,10 +22,13 @@ export default {
 
 <template>
   <UiPanel class="pack-panel">
-    <div>
+    <div v-if="pack">
       <MtgCard v-for="card in pack" :key="card.key" 
             :card="card" :drag_source="drag_source">
       </MtgCard>
+    </div>
+    <div v-else>
+      Waiting for pack....
     </div>
   </UiPanel>  
 

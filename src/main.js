@@ -34,8 +34,17 @@ import { SET_PLAYER_ID } from './store/mutations'
 //    - https://github.com/fiery-data/fiery-vuex
 
 
-// TODO: draft_history purging should get entries that don't match the 
-// current player_id (otherwise they could accumulate forever)
+
+// - ui needs to gracefully handle no packs (waiting....)
+ 
+// - sync the table to firestore
+
+// - when writing / reading to firestore, "compress" the cards by just including
+//   the multiverse id
+
+// TODO: remove Home and About for now (redirect to /Draft)
+// TODO: add 404 handler
+
 
 // TODO: at larger deck sizes during building it's possible for a color
 // to be auto-assigned 0 mana even though there is a card in that color

@@ -1,13 +1,6 @@
 
 import { PICKS, DECK } from './constants'
 
-// - ui needs to gracefully handle no packs (waiting....)
- 
-// - sync the table to firestore
-
-// - when writing / reading to firestore, "compress" the cards by just including
-//   the multiverse id
-
 export default function() {
   return {
 

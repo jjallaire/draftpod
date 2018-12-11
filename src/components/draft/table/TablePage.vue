@@ -106,6 +106,14 @@ export default {
     active_player: function() {
       return selectors.activePlayer(this.player.id, this.table);
     },
+
+    active_pack: function() {
+      let packs = this.active_player.picks.packs;
+      if (packs.length > 0)
+        return packs[0];
+      else
+        return null;
+    },
     
     active_cards: function() {
       return selectors.activeCards(this.player.id, this.table);
@@ -117,9 +125,13 @@ export default {
 
     pick_ratings: function() {
       if (this.options.pick_ratings) {
-        let deck = _flatten(this.active_player.picks.piles);
-        let pack = this.active_player.picks.packs[0];
-        return draftbot.cardRatings(deck, pack);
+        let pack = this.active_pack;
+        if (pack) {
+          let deck = _flatten(this.active_player.picks.piles);
+          return draftbot.cardRatings(this.set.code, deck, pack);
+        } else {
+          return [];
+        }
       } else {
         return null;
       }
@@ -243,7 +255,7 @@ export default {
     <div class="draft-page">
         <div class="draft-cards">
           <transition name="pack-hide">
-            <PackPanel v-if="!table.picks_complete" :pack="active_player.picks.packs[0]"/>
+            <PackPanel v-if="!table.picks_complete" :pack="active_pack"/>
           </transition>
           <PickPanel v-if="!table.picks_complete" 
                      :picks="active_player.picks" 
