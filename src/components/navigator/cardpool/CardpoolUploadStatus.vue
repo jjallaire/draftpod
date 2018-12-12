@@ -14,6 +14,18 @@ export default {
     },
   },
 
+  computed: { 
+    display() {
+      if (this.status.success.length === 0 && 
+          this.status.error.length === 0 &&
+          this.status.warning.length === 0) {
+        return 'none';
+      } else {
+        return 'initial';
+      }
+    }
+  },
+
   components: {
     CheckIcon
   }
@@ -24,7 +36,7 @@ export default {
 
 <template>
 
-<div class="cardpool-upload-status">
+<div class="cardpool-upload-status" :style="{ display: display }">
   <div v-for="message in status.success" :key="message" class="text-success">
     <CheckIcon /> {{ message }}
   </div>

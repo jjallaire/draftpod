@@ -261,7 +261,7 @@ export default {
     </select>
     <div>
       <div class="custom-cardpool">
-        <div class="card-body bg-primary" v-if="is_new_cardpool">
+        <div class="cardpool-new card-body bg-primary" v-if="is_new_cardpool">
           <div class="form-group">
             <label for="custom-cardpool-name">Cardpool Name:</label>
             <input class="form-control" id="custom-cardpool-name" placeholder="Enter name" 
@@ -305,9 +305,12 @@ export default {
 
 <style>
 
-.custom-cardpool {
-  padding-top: 8px;
+.custom-cardpool .cardpool-new,
+.custom-cardpool .cardpool-bar {
+  margin-top: 8px;
 }
+
+
 
 .custom-cardpool .card-body {
   padding-top: 15px;
