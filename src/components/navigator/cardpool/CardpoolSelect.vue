@@ -50,6 +50,10 @@ export default {
   watch: {
     set_code() {
       this.clearCardpoolInput();
+    },
+    value() {
+      if (this.is_new_cardpool)
+        this.focusCardpoolName();
     }
   },
 
@@ -98,11 +102,7 @@ export default {
 
     onChangeCardpool(event) {
       this.clearCardpoolInput();
-      if (this.is_new_cardpool) {
-        this.focusCardpoolName();
-      } else {
-        this.$emit('input', event.target.value);
-      }
+      this.$emit('input', event.target.value);
     },
 
     onUploadCardpool(event) {

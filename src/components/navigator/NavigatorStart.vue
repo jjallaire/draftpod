@@ -3,12 +3,15 @@
 import ContentPanel from '@/components/core/ContentPanel.vue'
 import SetSelect from '@/components/core/SetSelect.vue'
 import CardpoolSelect from './cardpool/CardpoolSelect.vue'
+import PlayersSelect from './PlayersSelect.vue'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
 import { CARDPOOL } from '@/store/constants'
 import { UPDATE_PREFERENCES } from '@/store/mutations'
 import { CREATE_DRAFT } from '@/store/actions'
+
+import * as messagebox from '@/components/core/messagebox.js'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 
@@ -33,7 +36,7 @@ export default {
   },
 
   components: {
-    ContentPanel, SetSelect, CardpoolSelect
+    ContentPanel, SetSelect, CardpoolSelect, PlayersSelect
   },
 
   computed: {
@@ -56,6 +59,13 @@ export default {
     }),
 
     onStartDraft: function() {
+
+      // validate that we don't have an unresolved new-cardpool
+      if (this.cardpool === 'new-cardpool') {
+        messagebox.alert("Please complete the details for the new cardpool and then click " +
+                         "the Use Cardpool button to confirm you want to use it for this draft.");
+        return;
+      }
 
       // update prefs for future drafts
       this.updatePreferences({
@@ -126,6 +136,7 @@ export default {
                     @input="onCardpoolInput"
                     :options="cardpool_options(set_code)" 
                     :set_code="set_code"/>
+    <PlayersSelect value="single" />
     <div class="form-group row">
       <label for="draft-options" class="col-sm-3 col-form-label">Options:</label>
       <div id="draft-options" class="col-sm-8">

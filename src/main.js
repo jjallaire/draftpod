@@ -51,6 +51,8 @@ function initApp(firebase_uid) {
 }
 
 
+// currently we can't switch away from custom cardpools!
+
 // allow initiation and joining of drafts
 
 // when writing / reading to firestore, "compress" the cards by just including
