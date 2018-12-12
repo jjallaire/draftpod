@@ -32,6 +32,7 @@ export default function() {
       players: [...Array(8)].map(function() {
         return {
           id: null,
+          name: null,
           picks: playerPicks(),
           deck: playerDeck(),
         }

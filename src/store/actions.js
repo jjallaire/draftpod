@@ -57,7 +57,7 @@ export default {
           // initialize
           commit("drafts/" + draft_id + "/" + START_DRAFT, {
             id: draft_id,
-            player_id: state.player.id,
+            player: state.player,
             set_code,
             cardpool,
             options

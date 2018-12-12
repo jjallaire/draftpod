@@ -27,7 +27,7 @@ import { PICKS, DECK } from './constants'
 export default {
 
  
-  [START_DRAFT](state, { id, player_id, set_code, cardpool, options }) {
+  [START_DRAFT](state, { id, player, set_code, cardpool, options }) {
     
     // initialize id
     state.id = id;
@@ -47,9 +47,10 @@ export default {
     
     initTable(state, (table) => {
 
-      // set the player_id to the first player
-      table.players[0].id = player_id;
-
+      // set the player info to the first player
+      table.players[0].id = player.id;
+      table.players[0].name = player.name || "Me";
+     
       // initialize packs
       table.all_packs = [...Array(24)].map(function() {
         return booster(set_code, cardpool);
