@@ -6,8 +6,8 @@ import uuidv4 from 'uuid'
 import { START_DRAFT } from './modules/draft/mutations';
 
 import * as set from './modules/draft/set/'
+import firestore from './modules/draft/firestore'
 import { useDraftModule } from '@/store'
-import { firestore } from './firebase'
 import { CARDPOOL } from '@/store/constants'
 
 export const CREATE_DRAFT = 'CREATE_DRAFT'
@@ -63,19 +63,21 @@ export default {
             options
           });
 
-          // write to firestore
-          let draft = state.drafts[draft_id];
-          firestore.collection('drafts').doc(draft_id).set({
-            set: draft.set,
-            options: draft.options,
-            table: JSON.stringify(draft.table)
-          }).then(function() {
-            resolve({ draft_id });
-          })
-          .catch(function() {
-            // TODO: reject promise
-            resolve({ draft_id });
-          });
+          // write to firestore if requested
+          if (options.firestore) {
+            firestore.createDraft(draft_id, state.drafts[draft_id])
+              .then(function() {
+
+              })
+              .catch(function(error) {
+                // TODO: reject promise
+                // eslint-disable-next-line
+                console.log(error);
+              });
+          }
+
+          // resolve (as we've already written locally)
+          resolve({ draft_id });
         });
     });
   },

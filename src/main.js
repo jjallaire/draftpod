@@ -50,9 +50,6 @@ function initApp(firebase_uid) {
 
 }
 
-
-
-
 // TODO: firebase:
 
 //   - https://www.smashingmagazine.com/2018/04/vuejs-firebase-firestore/

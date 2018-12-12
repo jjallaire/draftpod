@@ -18,7 +18,7 @@ import _flatten from 'lodash/flatten'
 import _remove from 'lodash/remove'
 
 import * as set from './set/'
-import { firestore } from '../../firebase'
+import firestore from './firestore'
 import * as draftbot from './draftbot'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
@@ -26,6 +26,7 @@ import { PICKS, DECK } from './constants'
 
 export default {
 
+ 
   [START_DRAFT](state, { id, player_id, set_code, cardpool, options }) {
     
     // initialize id
@@ -44,7 +45,7 @@ export default {
       ...options,
     };
     
-    updateTable(state, (table) => {
+    initTable(state, (table) => {
 
       // set the player_id to the first player
       table.players[0].id = player_id;
@@ -152,22 +153,41 @@ function cardIndex(cards, card) {
   return cards.findIndex((element) => element.key === card.key);
 }
 
-function updateTable(state, updator) {
-  
-  // TODO: this will need to be a transaction with an invalidator function to prevent the 
-  // write if state changed from underneath
+// write initial values for the table (no firebase sync as we
+// will want to initialize firebase with these values)
+function initTable(state, writer) {
+  let table = JSON.parse(JSON.stringify(state.table));
+  writer(table);
+  state.table = table;
+}
+
+// update the table, writing through to firebase
+function updateTable(state, writer) {
 
   // make the changes
   let table = JSON.parse(JSON.stringify(state.table));
-  updator(table);
+  writer(table);
 
   // write locally
   state.table = table;
 
-  // write to firebase
-  firestore.collection("drafts").doc(state.id).update({
-    table: JSON.stringify(table)
-  });
+  // write to firestore if requested
+  if (state.options.firestore) {
+
+    // TODO: this will need to be a transaction with an invalidator function to prevent the 
+    // write if state changed from underneath
+
+    firestore.updateDraftTable(state.id, table) 
+      .then(function() {
+
+      })
+      .catch(function(error) {
+        // TODO: reject promise
+        // eslint-disable-next-line
+        console.log(error);
+      });
+
+  }
 }
 
 function packToPick(set_code, pick_timer, player_id, table, card, pile_number, insertBefore, clear_table = true) {

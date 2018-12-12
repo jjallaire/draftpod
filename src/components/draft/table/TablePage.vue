@@ -30,7 +30,7 @@ const NS_DRAFTS = "drafts";
 
 import * as selectors from '@/store/modules/draft/selectors'
 import * as draftbot from '@/store/modules/draft/draftbot'
-import { firestore } from '@/store/firebase'
+import firestore from '@/store/modules/draft/firestore'
 
 export default {
   name: 'DraftTable',
@@ -47,6 +47,7 @@ export default {
       fullscreen: false,
       fullscreenEnabled: fscreen.fullscreenEnabled,
       card_preview: ["/images/card-back.png"],
+      firestoreUnsubscribe: null
     };
   },
 
@@ -74,12 +75,12 @@ export default {
     // resume draft
     this.resumeDraft();
 
-    // track firebase snapshots
-    firestore.collection("drafts").doc(this.draft_id)
-      .onSnapshot(doc => {
-        let table = JSON.parse(doc.data().table);
+    // track firestore if required
+    if (this.options.firestore) {
+      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
         this.writeTable({ table });
-    });
+      });
+    }
 
     // update fullscreen state on change
     this.onFullscreenChange();
@@ -89,6 +90,9 @@ export default {
   beforeDestroy() {
    
     fscreen.removeEventListener('fullscreenchange', this.onFullscreenChange);
+
+    if (this.firestoreUnsubscribe)
+      this.firestoreUnsubscribe();
   },
 
   computed: {

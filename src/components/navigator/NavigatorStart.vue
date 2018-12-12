@@ -71,7 +71,8 @@ export default {
         cardpool: this.cardpool, 
         options: { 
           pick_timer: this.pick_timer, 
-          pick_ratings: this.pick_ratings 
+          pick_ratings: this.pick_ratings,
+          firestore: true
         }
       }).then(( {draft_id }) => {
         this.$router.push({ path: "/draft/" + draft_id });
