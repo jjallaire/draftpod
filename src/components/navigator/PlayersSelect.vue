@@ -20,6 +20,12 @@ export default {
     }
   },
 
+  computed: {
+    is_multi_player: function() {
+      return this.inputVal === 'multiple';
+    }
+  },
+
   methods: {
     onChangePlayers(event) {
       this.inputVal = event.target.value;
@@ -39,12 +45,10 @@ export default {
     <select id="draft-players" class="form-control" :value="inputVal"
             @change="onChangePlayers">
       <option value="single">Single Player</option>
-      <option value="single">Multiple Players</option>
+      <option value="multiple">Multiple Players</option>
     </select>
-    <div>
-      
-     <!-- Optional multi-player UI -->
-
+    <div v-if="is_multi_player" class="players-multiple card-body bg-primary">
+      <slot></slot>
     </div>
   </div>
 </div>
@@ -52,6 +56,10 @@ export default {
 
 </template>
 
-<style>
+<style scoped>
+
+.players-multiple {
+  margin-top: 8px;
+}
 
 </style>

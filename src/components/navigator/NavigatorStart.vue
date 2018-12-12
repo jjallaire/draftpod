@@ -22,6 +22,7 @@ export default {
     return {
       set_code: 'grn',
       cardpool: CARDPOOL.CUBE + '4/4/1/1',
+      players: 'single',
       pick_timer: true,
       pick_ratings: false
     }
@@ -136,7 +137,9 @@ export default {
                     @input="onCardpoolInput"
                     :options="cardpool_options(set_code)" 
                     :set_code="set_code"/>
-    <PlayersSelect value="single" />
+    <PlayersSelect v-model="players">
+      Multiple players
+    </PlayersSelect>
     <div class="form-group row">
       <label for="draft-options" class="col-sm-3 col-form-label">Options:</label>
       <div id="draft-options" class="col-sm-8">
