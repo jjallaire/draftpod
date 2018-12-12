@@ -13,9 +13,26 @@ export default {
   },
 
   // update the draft table
-  updateDraftTable(id, table) {
-    return firestore.collection("drafts").doc(id).update({
-      table: JSON.stringify(table)
+  updateDraftTable(id, writer) {
+
+    // get a reference to the draft document
+    let docRef = firestore.collection("drafts").doc(id);
+
+    // run the transaction
+    return firestore.runTransaction(transaction => {
+
+      // fetch the latest copy of the draft table
+      return transaction.get(docRef).then(doc => {
+
+        // apply the changes using the passed writer
+        let table = JSON.parse(doc.data().table);
+        writer(table);
+
+        // update the database
+        transaction.update(docRef, {
+          table: JSON.stringify(table)
+        });
+      });
     });
   },
 
@@ -25,7 +42,11 @@ export default {
       .onSnapshot(doc => {
         let table = JSON.parse(doc.data().table);
         onchanged(table);
-    });
+      }, error => {
+        // TODO: improve handling
+        // eslint-disable-next-line
+        console.log(error);
+      });
   },
 
 }

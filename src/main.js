@@ -54,6 +54,8 @@ function initApp(firebase_uid) {
 
 // firebase updates using transaction handler that manages conflicts
 
+// generally, how do we manifest firebase errors in the UI?
+
 // allow initiation and joining of drafts
 
 // error if we attempt to initialize firebase and can't (i.e. when offline)

@@ -178,7 +178,7 @@ function updateTable(state, writer) {
     // TODO: this will need to be a transaction with an invalidator function to prevent the 
     // write if state changed from underneath
 
-    firestore.updateDraftTable(state.id, table) 
+    firestore.updateDraftTable(state.id, writer) 
       .then(function() {
 
       })
