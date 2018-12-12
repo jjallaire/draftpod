@@ -50,36 +50,21 @@ function initApp(firebase_uid) {
 
 }
 
-// TODO: firebase:
-
-//   - https://www.smashingmagazine.com/2018/04/vuejs-firebase-firestore/
-//    (describes how to setup security)
-
-//    Use onSnapshot to detect writes by other users
-
-//   - https://vuejsdevelopers.com/2017/10/16/vue-js-firestore/
 
 
+// firebase updates using transaction handler that manages conflicts
 
-//   - https://medium.com/js-dojo/build-a-realtime-chat-app-with-vuejs-vuex-and-firestore-32d081668709
-//   - https://medium.com/@amenallah.hsoumi/building-a-progressive-quiz-app-with-vue-vuex-and-firestore-part-1-ce73c7ba695d
+// allow initiation and joining of drafts
 
-// a library (but we should probably learn the low-level basics first):
-//    - https://mesqueeb.github.io/vuex-easy-firestore/
-// another library:
-//    - https://github.com/fiery-data/fiery-vuex
+// error if we attempt to initialize firebase and can't (i.e. when offline)
+// generally, what happens to our firebase code when we are offline
+
+// when writing / reading to firestore, "compress" the cards by just including
+// the multiverse id
 
 
- 
-// - sync the table to firestore
-
-// - when writing / reading to firestore, "compress" the cards by just including
-//   the multiverse id
 
 // TODO: don't allow resetting pick timer in multi-user drafts?
-
-// TODO: reject promise when firestore fails (createDraft) and/or allow for local
-// mode that doesn't interact with firestore
 
 // TODO: at larger deck sizes during building it's possible for a color
 // to be auto-assigned 0 mana even though there is a card in that color
