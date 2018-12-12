@@ -21,7 +21,7 @@ export default {
     useDraftModule(draft_id);
 
     // download/generate cardpool and return draft_id
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
 
       // download set data
       set.cards(set_code)
@@ -67,17 +67,14 @@ export default {
           if (options.firestore) {
             firestore.createDraft(draft_id, state.drafts[draft_id])
               .then(function() {
-
+                resolve({ draft_id });
               })
               .catch(function(error) {
-                // TODO: reject promise
-                // eslint-disable-next-line
-                console.log(error);
+                reject(error);
               });
-          }
-
-          // resolve (as we've already written locally)
-          resolve({ draft_id });
+          } else {
+            resolve({ draft_id });
+          }      
         });
     });
   },

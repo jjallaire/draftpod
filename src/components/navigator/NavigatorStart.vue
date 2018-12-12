@@ -76,6 +76,11 @@ export default {
         }
       }).then(( {draft_id }) => {
         this.$router.push({ path: "/draft/" + draft_id });
+      })
+      .catch((error) => {
+        // TODO: real error handler
+        // eslint-disable-next-line
+        console.log(error);
       });   
     },
 
