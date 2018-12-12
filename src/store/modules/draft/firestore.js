@@ -3,6 +3,9 @@ import { firestore } from '../../firebase'
 
 export default {
 
+  // constants for rejected promises
+  error_invalidated: "0972183F-BA7B-49F8-A402-4EA22F33640D",
+
   // create a draft within the firestore
   createDraft(id, draft) {
     return firestore.collection('drafts').doc(id).set({
@@ -29,7 +32,7 @@ export default {
 
         // use optional invalidator to confirm we should still perform the write
         if (invalidator && !invalidator(table))
-          return Promise.reject('Write no longer valid');
+          return Promise.reject(this.error_invalidated);
 
         // apply the changes using the passed writer
         writer(table);

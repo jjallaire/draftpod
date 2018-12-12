@@ -91,7 +91,7 @@ export default {
     // pick timer expires)
     const pickedBefore = selectors.activeCards(player_id, state.table).length;
     const invalidator = (table) => {
-      
+
       // if the draft completed then invalidate
       if (table.picks_complete)
         return false;
@@ -197,13 +197,12 @@ function updateTable(state, writer, invalidator) {
   if (state.options.firestore) {
 
     firestore.updateDraftTable(state.id, writer, invalidator) 
-      .then(function() {
-
-      })
       .catch(function(error) {
-        // TODO: reject promise
-        // eslint-disable-next-line
-        console.log(error);
+        if (error !== firestore.error_invalidated) {
+          // TODO: reject promise
+          // eslint-disable-next-line
+          console.log(error);
+        }
       });
 
   }

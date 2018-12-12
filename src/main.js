@@ -51,20 +51,15 @@ function initApp(firebase_uid) {
 }
 
 
-
-// firebase updates using transaction handler that manages conflicts
-
-// generally, how do we manifest firebase errors in the UI?
-
 // allow initiation and joining of drafts
-
-// error if we attempt to initialize firebase and can't (i.e. when offline)
-// generally, what happens to our firebase code when we are offline
 
 // when writing / reading to firestore, "compress" the cards by just including
 // the multiverse id
 
+// error if we attempt to initialize firebase and can't (i.e. when offline)
+// generally, what happens to our firebase code when we are offline?
 
+// generally, how do we manifest firebase errors in the UI?
 
 // TODO: don't allow resetting pick timer in multi-user drafts?
 
