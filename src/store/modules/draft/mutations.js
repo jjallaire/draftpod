@@ -85,9 +85,30 @@ export default {
   },
 
   [PACK_TO_PICK](state, { player_id, card, pile_number, insertBefore }) {
+
+    // invalidator function to ensure that we don't write our pick in the case
+    // where we've already been auto-picked by another client (e.g. when the
+    // pick timer expires)
+    const pickedBefore = selectors.activeCards(player_id, state.table).length;
+    const invalidator = (table) => {
+      
+      // if the draft completed then invalidate
+      if (table.picks_complete)
+        return false;
+
+      // if our picks have been advanced then invalidate
+      let picked = selectors.activeCards(player_id, table).length;
+      if (pickedBefore !== picked)
+        return false;
+
+      // otherwise we are in the clear
+      return true;
+    };
+
     updateTable(state, (table) => {
-      packToPick(state.set.code, state.options.pick_timer, player_id, table, card, pile_number, insertBefore)
-    });
+      packToPick(state.set.code, state.options.pick_timer, player_id, 
+                 table, card, pile_number, insertBefore)
+    }, invalidator);
   },
 
   [PICK_TO_PILE](state, { player_id, card, pile_number, insertBefore}) {
@@ -163,7 +184,7 @@ function initTable(state, writer) {
 }
 
 // update the table, writing through to firebase
-function updateTable(state, writer) {
+function updateTable(state, writer, invalidator) {
 
   // make the changes
   let table = JSON.parse(JSON.stringify(state.table));
@@ -175,10 +196,7 @@ function updateTable(state, writer) {
   // write to firestore if requested
   if (state.options.firestore) {
 
-    // TODO: this will need to be a transaction with an invalidator function to prevent the 
-    // write if state changed from underneath
-
-    firestore.updateDraftTable(state.id, writer) 
+    firestore.updateDraftTable(state.id, writer, invalidator) 
       .then(function() {
 
       })

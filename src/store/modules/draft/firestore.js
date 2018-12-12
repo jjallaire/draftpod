@@ -13,7 +13,7 @@ export default {
   },
 
   // update the draft table
-  updateDraftTable(id, writer) {
+  updateDraftTable(id, writer, invalidator) {
 
     // get a reference to the draft document
     let docRef = firestore.collection("drafts").doc(id);
@@ -24,14 +24,23 @@ export default {
       // fetch the latest copy of the draft table
       return transaction.get(docRef).then(doc => {
 
-        // apply the changes using the passed writer
+        // read the table
         let table = JSON.parse(doc.data().table);
+
+        // use optional invalidator to confirm we should still perform the write
+        if (invalidator && !invalidator(table))
+          return Promise.reject('Write no longer valid');
+
+        // apply the changes using the passed writer
         writer(table);
 
         // update the database
         transaction.update(docRef, {
           table: JSON.stringify(table)
         });
+
+        // return success
+        return Promise.resolve();
       });
     });
   },
