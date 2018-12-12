@@ -210,10 +210,6 @@ function updateTable(state, writer, invalidator) {
 
 function packToPick(set_code, pick_timer, player_id, table, card, pile_number, insertBefore, clear_table = true) {
 
-  // when we are running this code under firestore we need to account for the 
-  // fact that another writer could have auto-picked for us (as a result of the
-  // time expiring). in this case 
-
   // alias player
   let player_index = playerIndex(player_id, table);
   
