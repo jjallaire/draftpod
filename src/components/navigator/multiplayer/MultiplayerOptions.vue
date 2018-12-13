@@ -71,7 +71,7 @@ export default {
          :value="inputVal.player_name" @input="onNameChanged" ref="name"/>
 
   <br/>
-  <p>Provide this URL to other players that wish to join the draft: </p>
+  <p>Provide this URL to other players you want to invite to the draft: </p>
   
   <span class="join-url">{{ join_url }} </span>
 
@@ -81,6 +81,13 @@ export default {
      data-toggle="tooltip" data-placement="top">
     <ClipboardIcon title="Copy URL to clipboard"/>
   </a>
+
+  <br/><br/>
+  
+  <p>
+    Click Start Draft when all of the invited players have joined and 
+    you are ready to start.
+  </p>
 
   </div>
 </div>
@@ -97,6 +104,7 @@ export default {
 #copy-join-url-to-clipboard {
   cursor: pointer;
   margin-left: 8px;
+
 }
 
 #copy-join-url-to-clipboard:hover {
