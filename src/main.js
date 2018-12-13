@@ -82,6 +82,11 @@ function initApp(firebase_uid) {
 //    - drop targets to deck not big enough
 //    - trash/hide/second pile (pile which won't be in decklist) 
 
+// TODO: purging drafts w/ start_time: null could cause a new pageload
+// of the navigator page load to purge a draft from underneath another
+// instance of the navigator page. maybe we don't write the draft 
+// locally until the draft page loads?
+
 // TODO: sane tablet experience
 
 
