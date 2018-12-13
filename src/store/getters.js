@@ -9,7 +9,7 @@ export default {
 
   draft: (state) => (id) => state.drafts[id],
   
-  draft_orphans: function(state) {
+  drafts_pending: function(state) {
     let drafts = Object.keys(state.drafts);
     return drafts.filter(id => state.drafts[id].start_time === null);
   },
