@@ -3,7 +3,9 @@
 import ContentPanel from '@/components/core/ContentPanel.vue'
 import SetSelect from '@/components/core/SetSelect.vue'
 import CardpoolSelect from './cardpool/CardpoolSelect.vue'
-import PlayersSelect from './PlayersSelect.vue'
+import PlayersSelect from './multiplayer/PlayersSelect.vue'
+import MultiplayerPending from './multiplayer/MultiplayerPending.vue'
+import MultiplayerOptions from './multiplayer/MultiplayerOptions.vue'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
@@ -38,7 +40,8 @@ export default {
   },
 
   components: {
-    ContentPanel, SetSelect, CardpoolSelect, PlayersSelect
+    ContentPanel, SetSelect, CardpoolSelect, 
+    PlayersSelect, MultiplayerPending, MultiplayerOptions
   },
 
   computed: {
@@ -173,12 +176,13 @@ export default {
                     @input="onCardpoolInput"
                     :options="cardpool_options(set_code)" 
                     :set_code="set_code"/>
-    <PlayersSelect v-model="players" @input="onPlayersChanged">
+    <PlayersSelect v-model="players" 
+                   @input="onPlayersChanged">
       <div v-if="multi_player_draft_id">
-        Multi-player draft
+        <MultiplayerOptions :draft_id="multi_player_draft_id"/>
       </div>
       <div v-else>
-        Creating draft....
+        <MultiplayerPending />
       </div>
     </PlayersSelect>
     <div class="form-group row">
