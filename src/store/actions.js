@@ -1,7 +1,7 @@
 
 
 
-import uuidv4 from 'uuid'
+import shortUuid from 'short-uuid'
 
 import { START_DRAFT } from './modules/draft/mutations';
 
@@ -17,7 +17,7 @@ export default {
   [INIT_DRAFT]( { commit, state }, { set_code, cardpool, options } ) {
 
     // create a new draft module
-    let draft_id = uuidv4();
+    let draft_id = shortUuid().new();
     useDraftModule(draft_id);
 
     // download/generate cardpool and return draft_id
