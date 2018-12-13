@@ -9,7 +9,7 @@ import PlayersSelect from './PlayersSelect.vue'
 import { store } from '@/store'
 import { CARDPOOL } from '@/store/constants'
 import { UPDATE_PREFERENCES } from '@/store/mutations'
-import { CREATE_DRAFT } from '@/store/actions'
+import { INIT_DRAFT } from '@/store/actions'
 
 import * as messagebox from '@/components/core/messagebox.js'
 
@@ -22,9 +22,10 @@ export default {
     return {
       set_code: 'grn',
       cardpool: CARDPOOL.CUBE + '4/4/1/1',
-      players: 'single',
       pick_timer: true,
-      pick_ratings: false
+      pick_ratings: false,
+      players: 'single',
+      multi_player_draft_id: null
     }
   },
 
@@ -56,37 +57,18 @@ export default {
     }),
 
     ...mapActions({
-      createDraft: CREATE_DRAFT
+      initDraft: INIT_DRAFT
     }),
 
     onStartDraft: function() {
 
-      // validate that we don't have an unresolved new-cardpool
-      if (this.cardpool === 'new-cardpool') {
-        messagebox.alert("Please complete the details for the new cardpool and then click " +
-                         "the Use Cardpool button to confirm you want to use it for this draft.");
+      // validate the draft
+      if (!this.validateDraft())
         return;
-      }
-
-      // update prefs for future drafts
-      this.updatePreferences({
-        set_code: this.set_code,
-        cardpool: this.cardpool,
-        pick_timer: this.pick_timer,
-        pick_ratings: this.pick_ratings
-      });
 
       // create the draft then navigate to it
-      this.createDraft({ 
-        set_code: this.set_code, 
-        cardpool: this.cardpool, 
-        options: { 
-          pick_timer: this.pick_timer, 
-          pick_ratings: this.pick_ratings,
-          firestore: this.players === 'multiple'
-        }
-      }).then(( {draft_id }) => {
-        this.$router.push({ path: "/draft/" + draft_id });
+      this.createDraft().then(( {draft_id }) => {
+        this.beginDraft(draft_id);
       })
       .catch((error) => {
         // TODO: real error handler
@@ -97,6 +79,43 @@ export default {
 
     onCardpoolInput(value) {
       this.cardpool = value;
+    },
+
+    validateDraft() {
+      // validate that we don't have an unresolved new-cardpool
+      if (this.cardpool === 'new-cardpool') {
+        messagebox.alert("Please complete the details for the new cardpool and then click " +
+                         "the Use Cardpool button to confirm you want to use it for this draft.");
+        return false;
+      }
+
+      return true;
+    },
+
+    createDraft() {
+      return this.initDraft({ 
+        set_code: this.set_code, 
+        cardpool: this.cardpool, 
+        options: { 
+          pick_timer: this.pick_timer, 
+          pick_ratings: this.pick_ratings,
+          firestore: this.players === 'multiple'
+        }
+      });
+    },
+
+    beginDraft(draft_id) {
+
+       // update prefs for future drafts
+      this.updatePreferences({
+        set_code: this.set_code,
+        cardpool: this.cardpool,
+        pick_timer: this.pick_timer,
+        pick_ratings: this.pick_ratings
+      });
+
+      // navigate to the draft
+      this.$router.push({ path: "/draft/" + draft_id });
     },
 
     applySetPreferences() {
@@ -115,6 +134,23 @@ export default {
 
     hasInputVal(options, value) {
       return options.filter((option) => option.value == value).length > 0
+    },
+
+    onPlayersChanged() {
+      // if this is a request for a multi-player draft then create a new 
+      // draft if we don't already have one
+      if (this.players === 'multiple' && this.multi_player_draft_id === null) {
+        
+        // create the draft then set our draft_id
+        this.createDraft().then(( {draft_id }) => {
+          this.multi_player_draft_id = draft_id;
+        })
+        .catch((error) => {
+          // TODO: real error handler
+          // eslint-disable-next-line
+          console.log(error);
+        });   
+      }
     },
 
     onSetChanged() {
@@ -137,8 +173,13 @@ export default {
                     @input="onCardpoolInput"
                     :options="cardpool_options(set_code)" 
                     :set_code="set_code"/>
-    <PlayersSelect v-model="players">
-      Multiple players
+    <PlayersSelect v-model="players" @input="onPlayersChanged">
+      <div v-if="multi_player_draft_id">
+        Multi-player draft
+      </div>
+      <div v-else>
+        Creating draft....
+      </div>
     </PlayersSelect>
     <div class="form-group row">
       <label for="draft-options" class="col-sm-3 col-form-label">Options:</label>

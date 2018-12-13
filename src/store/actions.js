@@ -10,11 +10,11 @@ import firestore from './modules/draft/firestore'
 import { useDraftModule } from '@/store'
 import { CARDPOOL } from '@/store/constants'
 
-export const CREATE_DRAFT = 'CREATE_DRAFT'
+export const INIT_DRAFT = 'INIT_DRAFT'
 
 export default {
 
-  [CREATE_DRAFT]( { commit, state }, { set_code, cardpool, options } ) {
+  [INIT_DRAFT]( { commit, state }, { set_code, cardpool, options } ) {
 
     // create a new draft module
     let draft_id = uuidv4();

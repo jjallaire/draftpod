@@ -7,7 +7,7 @@ import ContentPanel from '@/components/core/ContentPanel.vue'
 import SetSelect from '@/components/core/SetSelect.vue'
 
 import { mapActions, mapMutations } from 'vuex'
-import { CREATE_DRAFT } from '@/store/actions'
+import { INIT_DRAFT } from '@/store/actions'
 import { REMOVE_DRAFTS } from '@/store/mutations'
 import { SIMULATE_DRAFT } from '@/store/modules/draft/mutations'
 
@@ -117,7 +117,7 @@ export default {
      runNextSimulation() {
 
       // create the draft
-      this.createDraft({ 
+      this.initDraft({ 
         set_code: this.set_code, 
         cardpool: CARDPOOL.CUBE + '4/4/2/1', 
       }).then(({ draft_id }) => {
@@ -146,7 +146,7 @@ export default {
     },
 
     ...mapActions({
-      createDraft: CREATE_DRAFT
+      initDraft: INIT_DRAFT
     }),
     ...mapMutations({
       removeDrafts: REMOVE_DRAFTS
