@@ -86,7 +86,7 @@ export default {
   
   <p>
     Click Start Draft when all of the invited players have joined and 
-    you are ready to start.
+    you are ready to begin.
   </p>
 
   </div>
