@@ -2,8 +2,12 @@
 
 <script>
 
+import Spinner from 'vue-simple-spinner'
+
 export default {
-  name: 'MultiplayerPending'
+  name: 'MultiplayerPending',
+
+  components: { Spinner }
 }
 
 </script>
@@ -13,7 +17,7 @@ export default {
 
 <div>
 
-Creating draft....
+<Spinner message="Creating draft..."  size="medium"  line-fg-color="#62c462" text-fg-color="#aaa"/>
 
 </div>
 
