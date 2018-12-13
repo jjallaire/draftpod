@@ -118,6 +118,12 @@ export default {
         this.createDraft().then(( {draft_id }) => {
           this.multi_player.draft_id = draft_id;
           this.joinMultiplayerDraft();
+          this.$nextTick(() => {
+            this.$refs.provideCardRatings.scrollIntoView({
+              behavior: "smooth",
+              block: "start"
+            });
+          });
         })
         .catch((error) => {
           // TODO: real error handler
@@ -271,7 +277,7 @@ export default {
           </small>
         </div>
         <div class="form-check">
-          <input type="checkbox" :disabled="is_multi_player" class="form-check-input" id="draft-analysis"  v-model="pick_ratings">
+          <input ref="provideCardRatings" type="checkbox" :disabled="is_multi_player" class="form-check-input" id="draft-analysis"  v-model="pick_ratings">
           <label class="form-check-label" for="draft-analysis">Provide card ratings</label>
           <small class="form-text text-muted">
              Optional display of ratings for the cards in the current pack.
@@ -279,7 +285,7 @@ export default {
         </div>
       </div>
     </div>
-    <PlayersSelect v-model="players" @input="onPlayersChanged">
+    <PlayersSelect ref="playersSelect" v-model="players" @input="onPlayersChanged">
       <div v-if="multi_player.draft_id">
         <MultiplayerOptions v-model="multi_player" @input="onMultiplayerOptionsChanged"/>
       </div>
@@ -290,7 +296,7 @@ export default {
     <br/>
     <div class="form-group row">
       <div class="col-sm-10">
-        <button type="button" class="btn btn-success" @click="onStartDraft">Start Draft</button>
+        <button type="button" ref="startDraft" class="btn btn-success" @click="onStartDraft">Start Draft</button>
       </div>
     </div>
   </form>

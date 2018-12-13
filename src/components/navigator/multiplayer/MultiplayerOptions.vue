@@ -69,27 +69,32 @@ export default {
   <label for="multiplayer-draft-name">Host player:</label>
   <input class="form-control" id="multiplayer-draft-name" placeholder="Enter your name" 
          :value="inputVal.player_name" @input="onNameChanged" ref="name"/>
+</div>
 
-  <br/>
-  <p>Provide this URL to other players you want to invite to the draft: </p>
+<div class="form-group">
+  <label for="multiplayer-draft-players">Other players:</label>
+  <div id="multiplayer-draft-players" class="card-body bg-light">
+
+  </div>
+</div> 
+
+  <p>Provide this URL to the other players you wish to invite: </p>
   
-  <span class="join-url">{{ join_url }} </span>
-
-  <a id="copy-join-url-to-clipboard"
+  <p>
+    <span class="join-url">{{ join_url }} </span>
+    <a id="copy-join-url-to-clipboard"
      v-clipboard="join_url"
      v-clipboard:success="onClipboardSuccess"
      data-toggle="tooltip" data-placement="top">
-    <ClipboardIcon title="Copy URL to clipboard"/>
-  </a>
-
-  <br/><br/>
-  
-  <p>
-    Click Start Draft when all of the invited players have joined and 
-    you are ready to begin.
+      <ClipboardIcon title="Copy URL to clipboard"/>
+    </a>
   </p>
 
-  </div>
+  <p>
+    Click Start Draft once the other players have all joined and you are ready to begin the draft.
+  </p>
+
+  
 </div>
 
 </template>
@@ -97,8 +102,18 @@ export default {
 
 <style>
 
+#multiplayer-draft-name {
+  background-color: rgb(236,236,236);
+}
+
+#multiplayer-draft-players {
+  border-radius: 0.25rem;
+  height: 120px;
+  background-color: rgb(236,236,236);
+}
+
 .join-url {
-  color:#e9ecef ;
+  color: rgb(236,236,236); ;
 }
 
 #copy-join-url-to-clipboard {

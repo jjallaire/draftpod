@@ -58,6 +58,10 @@ export default {
 
 <style scoped>
 
+#draft-players {
+  background-color: rgb(236,236,236);
+}
+
 .players-multiple {
   margin-top: 8px;
 }
