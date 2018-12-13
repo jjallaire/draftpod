@@ -9,11 +9,20 @@ export default {
 
   draft: (state) => (id) => state.drafts[id],
   
+  draft_orphans: function(state) {
+    let drafts = Object.keys(state.drafts);
+    return drafts.filter(id => state.drafts[id].start_time === null);
+  },
+
   draft_history: function(state, getters) {
     let drafts = Object.keys(state.drafts);
     return drafts
       .map((id) => {
         let draft = state.drafts[id];
+
+        // if there is no start time yet then don't return it
+        if (draft.start_time === null)
+          return null;
 
         // get the active player -- if this draft doesn't yet have our player 
         // assigned (true after it's just been created) or doesn't contain

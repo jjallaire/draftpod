@@ -271,7 +271,7 @@ function passPack(player_index, set_code, table) {
   next_player.picks.packs.push(pack);
 
   // if the player previously had no packs in consideration
-  // then set the pack_start_time
+  // then set the pick_end_time
   if (next_player.picks.packs.length === 1)
     next_player.picks.pick_end_time = nextPickEndTime(set_code, next_player);
 

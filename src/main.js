@@ -51,9 +51,9 @@ function initApp(firebase_uid) {
 }
 
 
-// currently we can't switch away from custom cardpools!
-
 // allow initiation and joining of drafts
+// a bit of progress treatment when creating a multiple player draft
+
 
 // when writing / reading to firestore, "compress" the cards by just including
 // the multiverse id
@@ -82,6 +82,6 @@ function initApp(firebase_uid) {
 //    - drop targets to deck not big enough
 //    - trash/hide/second pile (pile which won't be in decklist) 
 
-
+// TODO: sane tablet experience
 
 

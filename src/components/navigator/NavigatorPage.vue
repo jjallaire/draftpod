@@ -24,12 +24,17 @@ export default {
   computed: {
     ...mapGetters([
       'draft_history',
+      'draft_orphans',
       'draft_in_progress'
     ]),
   },
 
   created() {
-    // keep only the most recent 5 drafts
+
+    // remove orphans
+    this.removeDrafts(this.draft_orphans);
+
+    // keep only the most recent 7 drafts
     let purge_draft_ids = this.draft_history
       .slice(7)
       .map((draft) => draft.id);

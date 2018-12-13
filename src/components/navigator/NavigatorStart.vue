@@ -83,7 +83,7 @@ export default {
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
-          firestore: true
+          firestore: this.players === 'multiple'
         }
       }).then(( {draft_id }) => {
         this.$router.push({ path: "/draft/" + draft_id });

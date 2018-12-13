@@ -8,7 +8,7 @@ export default function() {
     id: null,
 
     // start time
-    start_time: new Date().getTime(), 
+    start_time: null, 
 
     // set 
     set: {
