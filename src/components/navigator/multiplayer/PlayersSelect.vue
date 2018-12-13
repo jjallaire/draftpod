@@ -47,7 +47,7 @@ export default {
       <option value="single">Single Player</option>
       <option value="multiple">Multiple Players</option>
     </select>
-    <div v-if="is_multi_player" class="players-multiple card-body bg-primary">
+    <div v-if="is_multi_player" class="players-multiple navigator-inline-panel card-body bg-primary">
       <slot></slot>
     </div>
   </div>

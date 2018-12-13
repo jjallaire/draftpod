@@ -1,5 +1,6 @@
 
 export const START_DRAFT = 'START_DRAFT'
+export const JOIN_DRAFT = 'JOIN_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const SIMULATE_DRAFT = 'SIMULATE_DRAFT'
 export const WRITE_TABLE = 'WRITE_TABLE'
@@ -49,7 +50,7 @@ export default {
 
       // set the player info to the first player
       table.players[0].id = player.id;
-      table.players[0].name = player.name || "Me";
+      table.players[0].name = player.name;
      
       // initialize packs
       table.all_packs = [...Array(24)].map(function() {
@@ -60,6 +61,23 @@ export default {
       nextPack(state.set.code, table);
     });
   },  
+
+  [JOIN_DRAFT](state, player_info) {
+    updateTable(state, (table) => {
+      // lookup the player
+      let player = selectors.activePlayer(player_info.id, table);
+
+      // if we found the player then update their player info
+      if (player) {
+
+        player = { ...player, ...player_info };
+    
+      // otherwise find a seat at the table
+      } else {
+        // TODO
+      }
+    });
+  },
 
   [RESUME_DRAFT](state, { player_id }) {
     

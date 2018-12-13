@@ -24,6 +24,10 @@ export default {
       type: String,
       required: true
     },
+    disabled: {
+      type: Boolean,
+      required: true
+    },
     options: {
       type: Object,
       required: true
@@ -247,7 +251,7 @@ export default {
 <div class="form-group row">
   <label for="draft-cardpool" class="col-sm-3 col-form-label">Cardpool:</label>
   <div class="col-sm-8">
-    <select id="draft-cardpool" class="form-control" :value="value"
+    <select :disabled="disabled" id="draft-cardpool" class="form-control" :value="value"
             @change="onChangeCardpool">
       <optgroup label="Set Cube">
         <option v-for="option in options.cubes" :key="option.value"
@@ -261,7 +265,7 @@ export default {
     </select>
     <div>
       <div class="custom-cardpool">
-        <div class="cardpool-new card-body bg-primary" v-if="is_new_cardpool">
+        <div class="cardpool-new navigator-inline-panel card-body bg-primary" v-if="is_new_cardpool">
           <div class="form-group">
             <label for="custom-cardpool-name">Cardpool Name:</label>
             <input class="form-control" id="custom-cardpool-name" placeholder="Enter name" 
@@ -304,18 +308,6 @@ export default {
 </template>
 
 <style>
-
-.custom-cardpool .cardpool-new,
-.custom-cardpool .cardpool-bar {
-  margin-top: 8px;
-}
-
-
-
-.custom-cardpool .card-body {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
 
 .custom-cardpool .btn {
   margin-top: 10px;

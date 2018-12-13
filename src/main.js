@@ -13,7 +13,7 @@ import 'firebase/auth'
 import uuidv4 from 'uuid'
 import router from './router'
 import { store } from './store'
-import { SET_PLAYER_ID } from './store/mutations'
+import { SET_PLAYER_INFO } from './store/mutations'
 
 // configure sentry in production mode
 if (process.env.NODE_ENV === 'production') {
@@ -39,7 +39,7 @@ function initApp(firebase_uid) {
   let player_id = firebase_uid || store.getters.player.id || uuidv4();
 
   // write the player id
-  store.commit(SET_PLAYER_ID, player_id);
+  store.commit(SET_PLAYER_INFO, { id: player_id } );
 
   // start the app
   new Vue({
