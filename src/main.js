@@ -53,6 +53,9 @@ function initApp(firebase_uid) {
 
 // allow initiation and joining of drafts
 
+
+// TODO: warn when starting a draft with no other players joined
+
 // when writing / reading to firestore, "compress" the cards by just including
 // the multiverse id
 
