@@ -78,7 +78,7 @@ export default {
   </div>
 </div> 
 
-  <p>Provide this URL to the other players you wish to invite: </p>
+  <p>Other players can join the draft using this URL:</p>
   
   <p>
     <span class="join-url">{{ join_url }} </span>
