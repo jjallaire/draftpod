@@ -52,8 +52,6 @@ function initApp(firebase_uid) {
 
 
 // allow initiation and joining of drafts
-// a bit of progress treatment when creating a multiple player draft
-
 
 // when writing / reading to firestore, "compress" the cards by just including
 // the multiverse id
