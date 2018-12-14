@@ -52,8 +52,49 @@ function initApp(firebase_uid) {
 
 // allow initiation and joining of drafts
 
+// TOOD: general cleanup of JoinPage
+
+// TODO: disconnect from firestore after we get into deck building
+
+// TODO: get stuck waiting for a pack at startup????
+
+// TODO: firefox appears to have no drop target at startup (remedies w/ a reload or 
+// with the first card to be picked?)
+
+// TODO: show the actual name of the invitor and the name of the set
+
+// TODO: waiting for pack never terminates b/c we never make another pick to tickle
+// the auto-pick logic
+
+// TODO: we removed the side-effect of draft purging in SET_PLAYER_INFO. Here is the code
+// (we need to bring it back somewhere else)
+/*
+    // remove drafts that don't have this player id
+    let drafts = Object.keys(state.drafts);
+    let stranded_drafts = drafts.filter((id) => {
+      let draft = state.drafts[id];
+      return selectors.activePlayer(state.player.id, draft.table) === undefined;
+    });
+    removeDrafts(state, stranded_drafts);
+*/
+
+// TODO: validate that we have a name before joining the draftix
+
+// TODO: if we show up at a draft and we are already in it (and it's started)
+// then just navigate to it
+
+// TODO: handle removal of a pending multiplayer draft
+
+// TODO: can we get some improved code re-use around firestore subscribe (we always write the table)
+
+// TODO: handle started draft that we haven't joined (too late)
+
+// TODO: handle full table of drafters
 
 // TODO: warn when starting a draft with no other players joined
+
+// TODO: what happens when the same player id attempts to join / sync to updates
+// within the same browser domain (i.e. another window)
 
 // when writing / reading to firestore, "compress" the cards by just including
 // the multiverse id

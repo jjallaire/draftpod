@@ -11,7 +11,7 @@ export default {
   
   drafts_pending: function(state) {
     let drafts = Object.keys(state.drafts);
-    return drafts.filter(id => state.drafts[id].start_time === null);
+    return drafts.filter(id => state.drafts[id].table.start_time === null);
   },
 
   draft_history: function(state, getters) {
@@ -21,7 +21,7 @@ export default {
         let draft = state.drafts[id];
 
         // if there is no start time yet then don't return it
-        if (draft.start_time === null)
+        if (draft.table.start_time === null)
           return null;
 
         // get the active player -- if this draft doesn't yet have our player 
@@ -34,7 +34,7 @@ export default {
 
         return {
           id: id,
-          start_time: draft.start_time,
+          start_time: draft.table.start_time,
           set_code: draft.set.code,
           set_name: draft.set.name,
           current_pack: draft.table.current_pack,

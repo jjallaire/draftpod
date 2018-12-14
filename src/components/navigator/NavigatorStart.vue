@@ -10,9 +10,10 @@ import MultiplayerOptions from './multiplayer/MultiplayerOptions.vue'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
+import firestore from '@/store/modules/draft/firestore'
 import { CARDPOOL } from '@/store/constants'
 import { SET_PLAYER_INFO, UPDATE_PREFERENCES, REMOVE_DRAFTS } from '@/store/mutations'
-import { JOIN_DRAFT } from '@/store/modules/draft/mutations'
+import { JOIN_DRAFT, START_DRAFT, WRITE_TABLE } from '@/store/modules/draft/mutations'
 import { INIT_DRAFT } from '@/store/actions'
 
 // drafts namespace
@@ -23,6 +24,8 @@ import * as messagebox from '@/components/core/messagebox.js'
 import _debounce from 'lodash/debounce'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
+
+import * as selectors from '@/store/modules/draft/selectors'
 
 export default {
   name: 'NavigatorStart',
@@ -36,7 +39,8 @@ export default {
       players: 'single',
       multi_player: {
         draft_id: null,
-        player_name: null
+        player_name: null,
+        firestoreUnsubscribe: null
       }
     }
   },
@@ -48,6 +52,10 @@ export default {
     this.pick_ratings = this.preferences.pick_ratings;
     this.multi_player.player_name = this.player.name;
     this.applySetPreferences();
+  },
+
+  beforeDestroy() {
+    this.multiplayerDraftDisconnect();
   },
 
   components: {
@@ -70,6 +78,15 @@ export default {
 
     is_editing_new_cardpool() {
       return this.cardpool === 'new-cardpool';
+    },
+
+    multi_players() {
+      if (this.is_multi_player && this.multi_player.draft_id) {
+        let draft = this.$store.state[NS_DRAFTS][this.multi_player.draft_id];
+        return selectors.allPlayers(draft.table);
+      } else {
+        return [];
+      }
     }
   },
 
@@ -81,6 +98,12 @@ export default {
       removeDrafts: REMOVE_DRAFTS,
       joinDraft(dispatch, payload) {
         return dispatch(NS_DRAFTS + '/' + this.multi_player.draft_id + '/' + JOIN_DRAFT, payload);
+      },
+      startDraft(dispatch) {
+        return dispatch(NS_DRAFTS + '/' + this.multi_player.draft_id + '/' + START_DRAFT);
+      },
+      writeTable(dispatch, payload) {
+        return dispatch(NS_DRAFTS + '/' + this.multi_player.draft_id + '/' + WRITE_TABLE, payload);
       },
     }),
 
@@ -123,6 +146,7 @@ export default {
         this.createDraft().then(( {draft_id }) => {
           this.multi_player.draft_id = draft_id;
           this.joinMultiplayerDraft();
+          this.multiplayerDraftConnect();
           utils.scrollIntoView(this.$refs.provideCardRatings);
         })
         .catch((error) => {
@@ -139,11 +163,29 @@ export default {
           this.multi_player.draft_id = null;
         }
 
+        // disconnect from firestore
+        this.multiplayerDraftDisconnect();
+
         // scroll to top
         this.scrollToStartNewDraft();
       }
     },
 
+    multiplayerDraftConnect() {
+      this.multiplayerDraftDisconnect();
+      this.multi_player.firestoreUnsubscribe = firestore.onDraftTableChanged(
+        this.multi_player.draft_id, 
+        table => {
+          this.writeTable({ table });
+        });
+    },
+
+    multiplayerDraftDisconnect() {
+      if (this.multi_player.firestoreUnsubscribe) {
+        this.multi_player.firestoreUnsubscribe();
+        this.multi_player.firestoreUnsubscribe = null;
+      }
+    },
 
 
     beginDraft(draft_id) {
@@ -164,6 +206,9 @@ export default {
       // join the draft
       if (this.is_multi_player)
         this.joinMultiplayerDraft();
+
+      // start the draft
+      this.startDraft();
 
       // navigate to the draft
       this.$router.push({ path: "/draft/" + draft_id });
@@ -297,7 +342,7 @@ export default {
     </div>
     <PlayersSelect :disabled="is_editing_new_cardpool" ref="playersSelect" v-model="players" @input="onPlayersChanged">
       <div v-if="multi_player.draft_id">
-        <MultiplayerOptions v-model="multi_player" @input="onMultiplayerOptionsChanged"/>
+        <MultiplayerOptions v-model="multi_player" :players="multi_players" @input="onMultiplayerOptionsChanged"/>
       </div>
       <div v-else>
         <MultiplayerPending />

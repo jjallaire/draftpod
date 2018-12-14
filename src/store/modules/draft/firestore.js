@@ -9,10 +9,23 @@ export default {
   // create a draft within the firestore
   createDraft(id, draft) {
     return firestore.collection('drafts').doc(id).set({
+      id: id,
       set: draft.set,
       options: draft.options,
       table: JSON.stringify(draft.table)
     });
+  },
+
+  getDraft(id) {
+    return new Promise((resolve) => {
+      firestore.collection("drafts").doc(id).get().then(doc => {
+        resolve({
+          ...doc.data(),
+          table: JSON.parse(doc.data().table)
+        });
+      });
+    });
+    
   },
 
   // update the draft table

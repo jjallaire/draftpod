@@ -1,6 +1,7 @@
 
-export const START_DRAFT = 'START_DRAFT'
+export const CREATE_DRAFT = 'CREATE_DRAFT'
 export const JOIN_DRAFT = 'JOIN_DRAFT'
+export const START_DRAFT = 'START_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const SIMULATE_DRAFT = 'SIMULATE_DRAFT'
 export const WRITE_TABLE = 'WRITE_TABLE'
@@ -28,7 +29,7 @@ import { PICKS, DECK } from './constants'
 export default {
 
  
-  [START_DRAFT](state, { id, player, set_code, cardpool, options }) {
+  [CREATE_DRAFT](state, { id, player, set_code, cardpool, options }) {
     
     // initialize id
     state.id = id;
@@ -56,9 +57,6 @@ export default {
       table.all_packs = [...Array(24)].map(function() {
         return booster(set_code, cardpool);
       });
-
-      // distribute first pack
-      nextPack(state.set.code, table);
     });
   },  
 
@@ -70,22 +68,36 @@ export default {
       // if we found the player then update their player info
       if (player) {
 
-        player = { ...player, ...player_info };
+        player.id = player_info.id;
+        player.name = player_info.name;
+        return true;
     
       // otherwise find a seat at the table
       } else {
-        // TODO
+        let seats = [0,4,2,6,1,5,3,7];
+        let seat = seats.find(seat => table.players[seat].id === null);
+        if (seat !== undefined) {
+          table.players[seat] = { ...table.players[seat], ...player_info };
+          return true;
+        } else {
+          return false;
+        }
       }
+    });
+  },
+
+  [START_DRAFT](state) {
+     updateTable(state, (table) => {
+      table.start_time = new Date().getTime();
+      nextPack(state.set.code, table);
     });
   },
 
   [RESUME_DRAFT](state, { player_id }) {
     
-    // set the draft start time
-    state.start_time = new Date().getTime();
-
     // reset the pick_timer
     updateTable(state, (table) => {
+      table.start_time = new Date().getTime();
       resetPickTimer(player_id, state.set.code, table);
     });
   },

@@ -17,6 +17,10 @@ export default {
     value: {
       type: Object,
       required: true 
+    },
+    players: {
+      type: Array,
+      required: true
     }
   },
 
@@ -30,7 +34,8 @@ export default {
     join_url: function() {
       return window.location.origin + this.$route.fullPath + 
              this.inputVal.draft_id + "/join"
-    }
+    },
+
   },
 
   mounted() {
@@ -74,7 +79,9 @@ export default {
 <div class="form-group">
   <label for="multiplayer-draft-players">Other players:</label>
   <div id="multiplayer-draft-players" class="card-body bg-light">
-
+    <span v-for="(player, index) in players" :key="index">
+      {{  player }} <br/>
+    </span>
   </div>
 </div> 
 
@@ -110,6 +117,7 @@ export default {
   border-radius: 0.25rem;
   height: 120px;
   background-color: rgb(236,236,236);
+  padding: 5px;
 }
 
 .join-url {

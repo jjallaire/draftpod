@@ -3,7 +3,7 @@
 
 import shortUuid from 'short-uuid'
 
-import { START_DRAFT } from './modules/draft/mutations';
+import { CREATE_DRAFT } from './modules/draft/mutations';
 
 import * as set from './modules/draft/set/'
 import firestore from './modules/draft/firestore'
@@ -55,7 +55,7 @@ export default {
           }
 
           // initialize
-          commit("drafts/" + draft_id + "/" + START_DRAFT, {
+          commit("drafts/" + draft_id + "/" + CREATE_DRAFT, {
             id: draft_id,
             player: state.player,
             set_code,

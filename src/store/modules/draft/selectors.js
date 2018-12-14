@@ -117,6 +117,12 @@ export function activePlayer(player_id, table) {
   return table.players.find((player) => player.id === player_id);
 }
 
+export function allPlayers(table) {
+  return table.players
+    .filter((player) => player.id !== null)
+    .map((player) => player.name);
+}
+
 export function activeCards(player_id, table) {
   let player = activePlayer(player_id, table);
   let piles = table.picks_complete ? player.deck.piles : player.picks.piles;

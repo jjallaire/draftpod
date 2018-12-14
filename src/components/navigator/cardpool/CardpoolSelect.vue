@@ -231,9 +231,7 @@ export default {
     },
 
     focusCardpoolName() {
-      this.$nextTick(() => {
-        this.$refs.cardpool_name.focus();
-      });
+      utils.focus(this.$refs.cardpool_name);
     },
 
    

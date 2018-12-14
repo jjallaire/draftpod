@@ -7,9 +7,6 @@ export default function() {
     // id
     id: null,
 
-    // start time
-    start_time: null, 
-
     // set 
     set: {
       code: null,
@@ -26,6 +23,7 @@ export default function() {
 
     // table
     table: {
+      start_time: null,
       all_packs: [],
       current_pack: 0,
       picks_complete: false,

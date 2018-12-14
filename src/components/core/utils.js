@@ -10,3 +10,9 @@ export function scrollIntoView(el, options) {
     });
   });
 }
+
+export function focus(el) {
+  Vue.nextTick(() => {
+    el.focus();
+  });
+}
