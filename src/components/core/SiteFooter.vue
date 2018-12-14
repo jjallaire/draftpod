@@ -30,6 +30,7 @@ Not approved/endorsed by Wizards. Portions of the materials used are property of
 
 .site-footer {
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 </style>

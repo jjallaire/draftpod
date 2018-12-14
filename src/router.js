@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 
 import HomePage from './components/HomePage.vue'
 import TablePage from './components/draft/table/TablePage.vue'
+import JoinPage from './components/JoinPage.vue'
 import NavigatorPage from './components/navigator/NavigatorPage.vue'
 import SimulatorPage from './components/SimulatorPage.vue'
 import AboutPage from './components/AboutPage.vue'
@@ -33,6 +34,14 @@ export default new VueRouter({
           next("/draft/");
         }
       } 
+    },
+    { path: '/draft/:draft_id/join', component: JoinPage, props: true,
+      beforeEnter: (to, from, next) => {
+        let draft_id = to.params.draft_id;
+        let preserve = draft_id in store.state.drafts;
+        useDraftModule(draft_id, { preserveState: preserve });
+        next();
+      }
     },
     { path: '/simulator/', component: SimulatorPage },
     { path: '/about', component: AboutPage },

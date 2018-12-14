@@ -4,7 +4,14 @@ import NavBar from './core/NavBar.vue'
 import SiteFooter from './core/SiteFooter.vue'
 
 export default {
-  name: 'AboutPage',
+  name: 'JoinPage',
+
+  props: {
+    draft_id: {
+      type: Object,
+      required: true
+    }
+  },
 
   components: {
     NavBar, SiteFooter
@@ -21,8 +28,8 @@ export default {
 
   <div class="container">
 
-  <div class="about-content">
-  About
+  <div class="join-content">
+  Join
   </div>
 
   <SiteFooter />
@@ -36,8 +43,8 @@ export default {
 
 <style>
 
-.about-content {
-  min-height: 70vh;
+.join-content {
+  min-height: 60vh;
 }
 
 </style>
