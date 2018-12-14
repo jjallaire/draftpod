@@ -11,6 +11,10 @@ export default {
     value: {
       type: String,
       required: true
+    },
+    disabled: {
+      type: Boolean,
+      required: true
     }
   },
 
@@ -42,7 +46,7 @@ export default {
 <div class="form-group row">
   <label for="draft-players" class="col-sm-3 col-form-label">Players:</label>
   <div class="col-sm-8">
-    <select id="draft-players" class="form-control" :value="inputVal"
+    <select :disabled="disabled" id="draft-players" class="form-control" :value="inputVal"
             @change="onChangePlayers">
       <option value="single">Single Player</option>
       <option value="multiple">Multiple Players</option>

@@ -66,6 +66,10 @@ export default {
     
     is_multi_player() {
       return this.players === 'multiple';
+    },
+
+    is_editing_new_cardpool() {
+      return this.cardpool === 'new-cardpool';
     }
   },
 
@@ -291,7 +295,7 @@ export default {
         </div>
       </div>
     </div>
-    <PlayersSelect ref="playersSelect" v-model="players" @input="onPlayersChanged">
+    <PlayersSelect :disabled="is_editing_new_cardpool" ref="playersSelect" v-model="players" @input="onPlayersChanged">
       <div v-if="multi_player.draft_id">
         <MultiplayerOptions v-model="multi_player" @input="onMultiplayerOptionsChanged"/>
       </div>
