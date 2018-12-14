@@ -83,15 +83,15 @@ export default {
   <p>
     <span class="join-url">{{ join_url }} </span>
     <a id="copy-join-url-to-clipboard"
-     v-clipboard="join_url"
-     v-clipboard:success="onClipboardSuccess"
-     data-toggle="tooltip" data-placement="top">
+      v-clipboard="join_url"
+      v-clipboard:success="onClipboardSuccess"
+      data-toggle="tooltip" data-placement="top">
       <ClipboardIcon title="Copy URL to clipboard"/>
     </a>
   </p>
 
   <p>
-    Click Start Draft once the other players have all joined and you are ready to begin the draft.
+    Click <strong>Start Draft</strong> once the other players have all joined and you are ready to begin the draft.
   </p>
 
   
@@ -113,7 +113,7 @@ export default {
 }
 
 .join-url {
-  color: rgb(236,236,236); ;
+  color: rgb(236,236,236); 
 }
 
 #copy-join-url-to-clipboard {
