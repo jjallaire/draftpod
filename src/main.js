@@ -50,6 +50,9 @@ function initApp(firebase_uid) {
 
 }
 
+// TODO: cardpool bar has lost it's padding
+
+// TODO: we can select multiple while new-cardpool is selected
 
 // allow initiation and joining of drafts
 
