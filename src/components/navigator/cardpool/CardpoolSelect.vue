@@ -320,6 +320,7 @@ export default {
 
 .cardpool-bar {
   padding-right: 8px;
+  padding-top: 6px;
   vertical-align: middle;
 }
 
