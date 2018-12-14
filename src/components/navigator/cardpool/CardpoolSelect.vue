@@ -4,6 +4,7 @@ import { CARDPOOL } from '@/store/constants'
 import { SET_CARDPOOL, REMOVE_CARDPOOL } from '@/store/mutations'
 
 import { mapGetters, mapMutations } from 'vuex'
+import * as utils from '@/components/core/utils'
 import * as filters from '@/components/core/filters'
 import * as selectors from '@/store/selectors.js'
 
@@ -55,9 +56,13 @@ export default {
     set_code() {
       this.clearCardpoolInput();
     },
-    value() {
-      if (this.is_new_cardpool)
+    value(newValue, oldValue) {
+      if (this.is_new_cardpool) {
         this.focusCardpoolName();
+        utils.scrollIntoView(this.$refs.selectCardpool);
+      } else if (oldValue === 'new-cardpool') {
+        this.$emit('newCardpoolComplete')
+      }
     }
   },
 
@@ -252,7 +257,7 @@ export default {
   <label for="draft-cardpool" class="col-sm-3 col-form-label">Cardpool:</label>
   <div class="col-sm-8">
     <select :disabled="disabled" id="draft-cardpool" class="form-control" :value="value"
-            @change="onChangeCardpool">
+            @change="onChangeCardpool" ref="selectCardpool">
       <optgroup label="Set Cube">
         <option v-for="option in options.cubes" :key="option.value"
                 :value="option.value">{{ option.caption }}</option>

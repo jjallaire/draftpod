@@ -1,5 +1,6 @@
 <script>
 
+import * as utils from '@/components/core/utils'
 import ContentPanel from '@/components/core/ContentPanel.vue'
 import SetSelect from '@/components/core/SetSelect.vue'
 import CardpoolSelect from './cardpool/CardpoolSelect.vue'
@@ -118,12 +119,7 @@ export default {
         this.createDraft().then(( {draft_id }) => {
           this.multi_player.draft_id = draft_id;
           this.joinMultiplayerDraft();
-          this.$nextTick(() => {
-            this.$refs.provideCardRatings.scrollIntoView({
-              behavior: "smooth",
-              block: "start"
-            });
-          });
+          utils.scrollIntoView(this.$refs.provideCardRatings);
         })
         .catch((error) => {
           // TODO: real error handler
@@ -138,6 +134,9 @@ export default {
           this.removeDrafts([this.multi_player.draft_id]);
           this.multi_player.draft_id = null;
         }
+
+        // scroll to top
+        this.scrollToStartNewDraft();
       }
     },
 
@@ -227,7 +226,13 @@ export default {
        this.joinMultiplayerDraft();
     }, 2000),
 
+    onNewCardpoolComplete() {
+      this.scrollToStartNewDraft();
+    },
 
+    scrollToStartNewDraft() {
+      utils.scrollIntoView(this.$refs.startNewDraft.$el);
+    },
 
     applySetPreferences() {
 
@@ -259,11 +264,12 @@ export default {
 
 <template>
 
-<ContentPanel caption="Start New Draft">
+<ContentPanel ref="startNewDraft" caption="Start New Draft">
   <form>
     <SetSelect :disabled="is_multi_player" v-model="set_code" @input="onSetChanged" />
     <CardpoolSelect :disabled="is_multi_player" :value="cardpool" 
                     @input="onCardpoolInput"
+                    @newCardpoolComplete="onNewCardpoolComplete"
                     :options="cardpool_options(set_code)" 
                     :set_code="set_code"/>
     <div class="form-group row">
