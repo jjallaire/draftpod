@@ -73,8 +73,6 @@ function initApp(firebase_uid) {
 // TODO: firefox appears to have no drop target at startup (remedies w/ a reload or 
 // with the first card to be picked?)
 
-// TODO: show the actual name of the invitor and the name of the set
-
 
 // TODO: we removed the side-effect of draft purging in SET_PLAYER_INFO. Here is the code
 // (we need to bring it back somewhere else)

@@ -117,7 +117,11 @@ export function activePlayer(player_id, table) {
   return table.players.find((player) => player.id === player_id);
 }
 
-export function allPlayers(table) {
+export function hostPlayerName(table) {
+  return table.players[0].name;
+}
+
+export function allPlayerNames(table) {
   return table.players
     .filter((player) => player.id !== null)
     .map((player) => player.name);

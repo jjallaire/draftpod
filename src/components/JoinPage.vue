@@ -61,6 +61,14 @@ export default {
       'player'
     ]),
 
+    host_player: function() {
+      return selectors.hostPlayerName(this.draft.table);
+    },
+
+    set_name: function() {
+      return this.draft.set.name;
+    },
+
     is_joined: function() {
       return selectors.activePlayer(this.player.id, this.draft.table) !== undefined;
     },
@@ -131,7 +139,7 @@ export default {
 
   <h3>Guilds of Ravnica Draft</h3>
 
-  <p>JJ has invited you to join a Guilds of Ravnica draft.</p>
+  <p>{{ host_player }} has invited you to join a {{ set_name }} draft.</p>
 
   <div v-if="!is_joined" class="row join-input">
     <label class="sr-only" for="join-draft-name">Name</label>

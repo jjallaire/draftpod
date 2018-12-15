@@ -83,7 +83,7 @@ export default {
     multi_players() {
       if (this.is_multi_player && this.multi_player.draft_id) {
         let draft = this.$store.state[NS_DRAFTS][this.multi_player.draft_id];
-        return selectors.allPlayers(draft.table);
+        return selectors.allPlayerNames(draft.table);
       } else {
         return [];
       }
