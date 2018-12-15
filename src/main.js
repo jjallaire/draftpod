@@ -50,7 +50,19 @@ function initApp(firebase_uid) {
 
 }
 
-// allow initiation and joining of drafts
+
+// autoPickTimedOutPlayers seems to be over aggressive right now (all the way to pick 12!)
+
+// TODO: waiting for pack never terminates b/c we never make another pick to tickle
+// the auto-pick logic (after the other player disconnects)
+
+// perhaps the above 2 need to be in a timer loop?
+// also, we should delay the auto-pick a bit to prevent race conditions
+
+// instead of "Waiting for Pack" at end of pack/draft maybe "Waiting for other players to pick"
+
+// ensure trailing slash on /draft URL (othwerise join link is bad!)
+
 
 // TOOD: general cleanup of JoinPage
 
@@ -63,8 +75,6 @@ function initApp(firebase_uid) {
 
 // TODO: show the actual name of the invitor and the name of the set
 
-// TODO: waiting for pack never terminates b/c we never make another pick to tickle
-// the auto-pick logic
 
 // TODO: we removed the side-effect of draft purging in SET_PLAYER_INFO. Here is the code
 // (we need to bring it back somewhere else)

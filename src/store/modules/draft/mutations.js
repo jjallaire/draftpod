@@ -103,7 +103,7 @@ export default {
   },
 
   [WRITE_TABLE](state, { table }) {
-    state.table = table;
+    writeTable(state, table);
   },
 
   [SIMULATE_DRAFT](state, { player_id }) {
@@ -210,7 +210,7 @@ function cardIndex(cards, card) {
 function initTable(state, writer) {
   let table = JSON.parse(JSON.stringify(state.table));
   writer(table);
-  state.table = table;
+  writeTable(state, table);
 }
 
 // update the table, writing through to firebase
@@ -221,8 +221,8 @@ function updateTable(state, writer, invalidator) {
   writer(table);
 
   // write locally
-  state.table = table;
-
+  writeTable(state, table);
+  
   // write to firestore if requested
   if (state.options.firestore) {
 
@@ -236,6 +236,10 @@ function updateTable(state, writer, invalidator) {
       });
 
   }
+}
+
+function writeTable(state, table) {
+  state.table = table;
 }
 
 function packToPick(set_code, pick_timer, player_id, table, card, pile_number, insertBefore, clear_table = true) {
@@ -255,8 +259,8 @@ function packToPick(set_code, pick_timer, player_id, table, card, pile_number, i
 
   // auto-picks for other players that have timed out (we do this here b/c if another player
   // disconnects they'll never make a pick)
-  if (pick_timer)
-    autoPickTimedOutPlayers(set_code, table);
+  //if (pick_timer)
+  // autoPickTimedOutPlayers(set_code, table);
 
   // ai pick and pass loop
   aiPickAndPass(player_id, set_code, table);
@@ -393,6 +397,7 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
 
 }
 
+// eslint-disable-next-line
 function autoPickTimedOutPlayers(set_code, table) {
 
   // for each player
@@ -418,15 +423,21 @@ function aiPickAndPass(player_id, set_code, table) {
   // get player index
   let player_index = playerIndex(player_id, table);
 
-  // execute pick and pass for adjacent bots (until
-  // we hit another player)
+  // execute pick and pass for all bots
+  let current_index = player_index;
   for(;;) {
 
-    // advance to next player -- bail if they aren't a bot
-    player_index = nextPlayerIndex(player_index, table);
-    let player = table.players[player_index];
-    if (player.id)
+    // advance to next player -
+    current_index = nextPlayerIndex(current_index, table);
+
+    // bail if we've been around the circle
+    if (current_index === player_index)
       break;
+
+    // skip if it's not a bot
+    let player = table.players[current_index];
+    if (player.id)
+      continue;
 
     // it's a bot, execute a pick and pass loop until we 
     // have no more picks to make
@@ -435,7 +446,7 @@ function aiPickAndPass(player_id, set_code, table) {
       let pack = player.picks.packs[0];
       let piles = player.picks.piles;
       let card = draftbot.pick(set_code, _flatten(piles), pack);
-      makePick(player_index, set_code, table, null, card, null);
+      makePick(current_index, set_code, table, null, card, null);
     }
   }
 }
