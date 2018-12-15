@@ -25,6 +25,7 @@ import * as draftbot from './draftbot'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
 import { PICKS, DECK } from './constants'
+import Vue from 'vue';
 
 export default {
 
@@ -239,7 +240,7 @@ function updateTable(state, writer, invalidator) {
 }
 
 function writeTable(state, table) {
-  state.table = table;
+  Vue.set(state, "table", table);
 }
 
 function packToPick(set_code, pick_timer, player_id, table, card, pile_number, insertBefore, clear_table = true) {
