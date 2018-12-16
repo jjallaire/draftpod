@@ -37,6 +37,9 @@ export default {
     current_pick: function() {
       return selectors.currentPick(this.player.id, this.draft.set.code, this.draft.table);
     },
+    picks_complete: function() {
+      return selectors.picksComplete(this.player.id, this.draft.set.code, this.draft.table);
+    },
     card_preview_image: function() {
       return selectors.draftThumbnail(this.player.id, this.draft);
     },
@@ -67,7 +70,7 @@ export default {
       <div class="col-sm-3">
         <h4>{{ draft.set.name }}</h4>
         <p>
-          <span v-if="draft.table.picks_complete">
+          <span v-if="picks_complete">
             Deck: {{ deck_total_cards }} / 40
           </span>
           <span v-else>

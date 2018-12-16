@@ -149,6 +149,10 @@ export default {
       return selectors.currentPick(this.player.id, this.set.code, this.table);
     },
 
+    picks_complete: function() {
+      return selectors.picksComplete(this.player.id, this.set.code, this.table);
+    },
+
     pick_ratings: function() {
       if (this.options.pick_ratings) {
         let pack = this.active_pack;
@@ -256,7 +260,7 @@ export default {
       </span>
       <span class="navbar-text">
         {{ set.name }} 
-        <span v-if="!table.picks_complete">
+        <span v-if="!picks_complete">
           &mdash;
           Pack {{ table.current_pack }}, Pick {{ current_pick }}
           <PickTimer v-if="options.pick_timer && active_pack" :pick_end_time="active_player.picks.pick_end_time" />
@@ -287,9 +291,9 @@ export default {
     <div class="draft-page">
         <div class="draft-cards">
           <transition name="pack-hide">
-            <PackPanel v-if="!table.picks_complete" :pack="active_pack"/>
+            <PackPanel v-if="!picks_complete" :pack="active_pack"/>
           </transition>
-          <PickPanel v-if="!table.picks_complete" 
+          <PickPanel v-if="!picks_complete" 
                      :picks="active_player.picks" 
                      :pick_ratings="pick_ratings"/>
           <DeckPanel v-else :deck="active_player.deck"/>

@@ -50,12 +50,10 @@ function initApp(firebase_uid) {
 
 }
 
-// instead of "Waiting for Pack" at end of pack/draft maybe "Waiting for other players to pick"
-// appearance of hourglass in ux
 
-// ensure trailing slash on /draft URL (othwerise join link is bad!)
+// vertical alignment of waiting for pack hourglass
 
-// move immediately to deck building even if other players haven't finished picking
+// TODO: 400 error from firestore during initial bootstrapping?
 
 // TOOD: general cleanup of JoinPage / router / multiplayer
 
@@ -80,6 +78,8 @@ function initApp(firebase_uid) {
 // then just navigate to it
 
 // TODO: handle removal of a pending multiplayer draft
+
+// polish waiting for list, etc.
 
 // TODO: can we get some improved code re-use around firestore subscribe (we always write the table)
 
