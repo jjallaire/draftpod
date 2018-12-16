@@ -100,6 +100,8 @@ function initApp(firebase_uid) {
 
 // generally, how do we manifest firebase errors in the UI?
 
+// TODO: take some air out of the select boxes in start UI
+
 // TODO: don't allow resetting pick timer in multi-user drafts?
 
 // TODO: at larger deck sizes during building it's possible for a color
