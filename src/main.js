@@ -57,6 +57,7 @@ function initApp(firebase_uid) {
 
 // ensure trailing slash on /draft URL (othwerise join link is bad!)
 
+// move immediately to deck building even if other players haven't finished picking
 
 // TOOD: general cleanup of JoinPage
 
