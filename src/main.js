@@ -50,12 +50,10 @@ function initApp(firebase_uid) {
 
 }
 
-
 // autoPickTimedOutPlayers seems to be over aggressive right now (all the way to pick 12!)
 
 // TODO: waiting for pack never terminates b/c we never make another pick to tickle
 // the auto-pick logic (after the other player disconnects)
-
 // perhaps the above 2 need to be in a timer loop?
 // also, we should delay the auto-pick a bit to prevent race conditions
 
@@ -70,8 +68,6 @@ function initApp(firebase_uid) {
 
 // TODO: get stuck waiting for a pack at startup????
 
-// TODO: firefox appears to have no drop target at startup (remedies w/ a reload or 
-// with the first card to be picked?)
 
 
 // TODO: we removed the side-effect of draft purging in SET_PLAYER_INFO. Here is the code

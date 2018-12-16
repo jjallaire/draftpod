@@ -2,6 +2,7 @@
 import Vue from 'vue'
 export const SET_PLAYER_INFO = 'SET_PLAYER_INFO'
 export const UPDATE_PREFERENCES = 'UPDATE_PREFERENCES'
+export const SET_DRAFT = 'SET_DRAFT'
 export const REMOVE_DRAFTS = 'REMOVE_DRAFTS'
 export const SET_CARDPOOL = 'SET_CARDPOOL'
 export const REMOVE_CARDPOOL = 'REMOVE_CARDPOOL'
@@ -31,6 +32,10 @@ export default {
     if (!state.preferences.sets[prefs.set_code])
       Vue.set(state.preferences.sets, prefs.set_code, {});
     Vue.set(state.preferences.sets[prefs.set_code], "cardpool", prefs.cardpool);  
+  },
+
+  [SET_DRAFT](state, { draft_id, draft }) {
+    Vue.set(state.drafts, draft_id, draft);
   },
 
   [REMOVE_DRAFTS](state, draft_ids) {

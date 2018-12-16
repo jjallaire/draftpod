@@ -10,6 +10,7 @@ import SimulatorPage from './components/SimulatorPage.vue'
 import AboutPage from './components/AboutPage.vue'
 
 import { store, useDraftModule } from './store'
+import { SET_DRAFT } from './store/mutations'
 import firestore from './store/modules/draft/firestore'
 
 Vue.use(VueRouter)
@@ -50,7 +51,7 @@ export default new VueRouter({
           continueNavigation();
         } else {
           firestore.getDraft(draft_id).then(draft => {
-            store.state.drafts[draft_id] = draft;
+            store.commit(SET_DRAFT, { draft_id, draft });
             continueNavigation();
           });
         }
