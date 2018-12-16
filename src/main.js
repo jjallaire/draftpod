@@ -50,14 +50,10 @@ function initApp(firebase_uid) {
 
 }
 
-// autoPickTimedOutPlayers seems to be over aggressive right now (all the way to pick 12!)
-
-// TODO: waiting for pack never terminates b/c we never make another pick to tickle
-// the auto-pick logic (after the other player disconnects)
-// perhaps the above 2 need to be in a timer loop?
-// also, we should delay the auto-pick a bit to prevent race conditions
+// on resume during multi-player old-state flashes in (do the same as join)
 
 // instead of "Waiting for Pack" at end of pack/draft maybe "Waiting for other players to pick"
+// appearance of hourglass in ux
 
 // ensure trailing slash on /draft URL (othwerise join link is bad!)
 

@@ -64,7 +64,7 @@ export default {
           });
 
           // write to firestore if requested
-          if (options.firestore) {
+          if (options.multi_player) {
             firestore.createDraft(draft_id, state.drafts[draft_id])
               .then(function() {
                 resolve({ draft_id });

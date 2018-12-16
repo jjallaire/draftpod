@@ -247,7 +247,7 @@ export default {
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
-          firestore: this.players === 'multiple'
+          multi_player: this.players === 'multiple'
         }
       });
     },

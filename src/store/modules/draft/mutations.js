@@ -6,6 +6,7 @@ export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const SIMULATE_DRAFT = 'SIMULATE_DRAFT'
 export const WRITE_TABLE = 'WRITE_TABLE'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
+export const PICK_TIMER_EXPIRED_PICKS = 'PICK_TIMER_EXPIRED_PICKS'
 export const NEXT_PACK = 'NEXT_PACK'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
 export const DECK_TO_SIDEBOARD = 'DECK_TO_SIDEBOARD'
@@ -96,11 +97,14 @@ export default {
 
   [RESUME_DRAFT](state, { player_id }) {
     
-    // reset the pick_timer
-    updateTable(state, (table) => {
-      table.start_time = new Date().getTime();
-      resetPickTimer(player_id, state.set.code, table);
-    });
+    // for single-player drafts update the start_time and reset
+    // the pick_timer 
+    if (!state.options.multi_player) {
+      updateTable(state, (table) => {
+        table.start_time = new Date().getTime();
+        resetPickTimer(player_id, state.set.code, table);
+      });
+    }
   },
 
   [WRITE_TABLE](state, { table }) {
@@ -110,7 +114,7 @@ export default {
   [SIMULATE_DRAFT](state, { player_id }) {
     updateTable(state, (table) => {
       while (!table.picks_complete) {
-        packToPick(state.set.code, false, player_id, table, null,  null, null, false);
+        packToPick(state.set.code, player_id, table, null,  null, null, false);
       }
     });
   },
@@ -137,9 +141,19 @@ export default {
     };
 
     updateTable(state, (table) => {
-      packToPick(state.set.code, state.options.pick_timer, player_id, 
+      packToPick(state.set.code, player_id, 
                  table, card, pile_number, insertBefore)
     }, invalidator);
+  },
+
+  [PICK_TIMER_EXPIRED_PICKS](state, { player_id } ) {
+    let timed_out_player_indexes = timedOutOtherPlayerIndexes(player_id, state.table);
+    if (timed_out_player_indexes.length > 0) {
+      updateTable(state, (table) => {
+        makePickTimerExpiredPicks(state.set.code, table, timed_out_player_indexes);
+        draftBotPickAndPass(playerIndex(player_id, table), state.set.code, table);
+      })
+    }
   },
 
   [PICK_TO_PILE](state, { player_id, card, pile_number, insertBefore}) {
@@ -225,7 +239,7 @@ function updateTable(state, writer, invalidator) {
   writeTable(state, table);
   
   // write to firestore if requested
-  if (state.options.firestore) {
+  if (state.options.multi_player) {
 
     firestore.updateDraftTable(state.id, writer, invalidator) 
       .catch(function(error) {
@@ -243,7 +257,7 @@ function writeTable(state, table) {
   Vue.set(state, "table", table);
 }
 
-function packToPick(set_code, pick_timer, player_id, table, card, pile_number, insertBefore, clear_table = true) {
+function packToPick(set_code, player_id, table, card, pile_number, insertBefore, clear_table = true) {
 
   // alias player
   let player_index = playerIndex(player_id, table);
@@ -258,13 +272,8 @@ function packToPick(set_code, pick_timer, player_id, table, card, pile_number, i
   // make the pick 
   makePick(player_index, set_code, table, pile_number, card, insertBefore);
 
-  // auto-picks for other players that have timed out (we do this here b/c if another player
-  // disconnects they'll never make a pick)
-  //if (pick_timer)
-  // autoPickTimedOutPlayers(set_code, table);
-
   // ai pick and pass loop
-  aiPickAndPass(player_id, set_code, table);
+  draftBotPickAndPass(player_index, set_code, table);
 
   // check whether the pack is completed
   if (selectors.packCompleted(table)) {
@@ -284,6 +293,7 @@ function packToPick(set_code, pick_timer, player_id, table, card, pile_number, i
   } 
 
 }
+
 
 function playerIndex(player_id, table) {
   return table.players.findIndex((player) => player.id === player_id);
@@ -398,31 +408,43 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
 
 }
 
-// eslint-disable-next-line
-function autoPickTimedOutPlayers(set_code, table) {
 
-  // for each player
-  for (let i = 0; i<table.players; i++) {
+function timedOutOtherPlayerIndexes(player_id, table) {
+
+  let indexes = [];
+
+  for (let i = 0; i<table.players.length; i++) {
 
     // if it's a real player as opposed to a bot
     let player = table.players[i];
     if (player.id !== null) {
 
-      // auto-pick if we are past the pick end time
+      // check if we are past the end time
       if (player.picks.packs.length > 0 &&
+          player.picks.packs[0].length > 0 &&
           new Date().getTime() > player.picks.pick_end_time) {
-        let deck = _flatten(player.picks.piles);
-        let card = draftbot.pick(set_code, deck, player.picks.packs[0]);
-        makePick(i, set_code, table, null, card, null);
+        indexes.push(i);
       }
     }
   }
+
+  // filter out the current player
+  let player_index = playerIndex(player_id, table);
+  return indexes.filter(i => i !== player_index);
 }
 
-function aiPickAndPass(player_id, set_code, table) {
+function makePickTimerExpiredPicks(set_code, table, player_indexes) {
 
-  // get player index
-  let player_index = playerIndex(player_id, table);
+  player_indexes.forEach(i => {
+    let player = table.players[i];
+    let deck = _flatten(player.picks.piles);
+    let card = draftbot.pick(set_code, deck, player.picks.packs[0]);
+    makePick(i, set_code, table, null, card, null);
+  });
+
+}
+
+function draftBotPickAndPass(player_index, set_code, table) {
 
   // execute pick and pass for all bots
   let current_index = player_index;

@@ -18,7 +18,7 @@ export default function() {
     options: {
       pick_timer: false,
       pick_ratings: false,
-      firestore: false
+      multi_player: false
     },
 
     // table

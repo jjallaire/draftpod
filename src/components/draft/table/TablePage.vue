@@ -10,6 +10,7 @@ import DeckPanel from '../deck/DeckPanel.vue'
 
 import { REMOVE_DRAFTS } from '@/store/mutations'
 import { RESUME_DRAFT, WRITE_TABLE, PACK_TO_PICK, PICK_TO_PILE, 
+         PICK_TIMER_EXPIRED_PICKS,
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/mutations';
 
@@ -47,7 +48,8 @@ export default {
       fullscreen: false,
       fullscreenEnabled: fscreen.fullscreenEnabled,
       card_preview: ["/images/card-back.png"],
-      firestoreUnsubscribe: null
+      firestoreUnsubscribe: null,
+      pick_timeout_timer: null
     };
   },
 
@@ -75,11 +77,20 @@ export default {
     // resume draft
     this.resumeDraft();
 
-    // track firestore if required
-    if (this.options.firestore) {
+    // multiplayer
+    if (this.options.multi_player) {
+
+      // track firestore
       this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
         this.writeTable({ table });
       });
+
+      // pick timer for other players that may have disconnected
+      if (this.options.pick_timer) {
+        // each player polls at a slightly different time to reduce collisions
+        let timer_ms = Math.floor(((Math.random() * 3) + 4) * 1000); 
+        this.pick_timeout_timer = setInterval(this.pickTimerExpiredPicks, timer_ms);
+      }
     }
 
     // update fullscreen state on change
@@ -93,6 +104,9 @@ export default {
 
     if (this.firestoreUnsubscribe)
       this.firestoreUnsubscribe();
+
+    if (this.pick_timeout_timer)
+      clearInterval(this.pick_timeout_timer);
   },
 
   computed: {
@@ -168,6 +182,9 @@ export default {
       },
       pickToPile(dispatch, payload) {
         return dispatch(this.namespace + '/' + PICK_TO_PILE, this.withPlayerId(payload));
+      },
+      pickTimerExpiredPicks(dispatch) {
+        return dispatch(this.namespace + '/' + PICK_TIMER_EXPIRED_PICKS, this.withPlayerId({}));
       },
       deckToSideboard(dispatch, payload) {
         return dispatch(this.namespace + '/' + DECK_TO_SIDEBOARD, this.withPlayerId(payload));
