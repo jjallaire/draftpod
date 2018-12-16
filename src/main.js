@@ -126,4 +126,6 @@ function initApp(firebase_uid) {
 
 // TODO: sane tablet experience
 
-
+// TODO: links:
+//   Ben Stark "Drafting the Hard Way"
+//   Reid Duke: "Draft Signals"
