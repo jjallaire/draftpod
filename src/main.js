@@ -61,9 +61,6 @@ function initApp(firebase_uid) {
 
 // TODO: disconnect from firestore after we get into deck building
 
-// TODO: get stuck waiting for a pack at startup????
-
-
 
 // TODO: we removed the side-effect of draft purging in SET_PLAYER_INFO. Here is the code
 // (we need to bring it back somewhere else)
