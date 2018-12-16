@@ -50,8 +50,6 @@ function initApp(firebase_uid) {
 
 }
 
-// on resume during multi-player old-state flashes in (do the same as join)
-
 // instead of "Waiting for Pack" at end of pack/draft maybe "Waiting for other players to pick"
 // appearance of hourglass in ux
 
@@ -59,7 +57,7 @@ function initApp(firebase_uid) {
 
 // move immediately to deck building even if other players haven't finished picking
 
-// TOOD: general cleanup of JoinPage
+// TOOD: general cleanup of JoinPage / router / multiplayer
 
 // TODO: disconnect from firestore after we get into deck building
 

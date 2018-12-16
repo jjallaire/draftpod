@@ -30,8 +30,17 @@ export default new VueRouter({
       beforeEnter: (to, from, next) => {
         let draft_id = to.params.draft_id;
         if (draft_id in store.state.drafts) {
+          
           useDraftModule(draft_id, { preserveState: true });
-          next();
+
+          if (store.state.drafts[draft_id].options.multi_player) {
+            firestore.getDraft(draft_id).then(draft => {
+              store.commit(SET_DRAFT, { draft_id, draft });
+              next();
+            });
+          } else {
+            next();
+          }
         } else {
           next("/draft/");
         }
