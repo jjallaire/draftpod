@@ -417,10 +417,10 @@ function timedOutOtherPlayerIndexes(player_id, table) {
     let player = table.players[i];
     if (player.id !== null) {
 
-      // check if we are past the end time
+      // check if we are 2 seconds past the end time
       if (player.picks.packs.length > 0 &&
           player.picks.packs[0].length > 0 &&
-          new Date().getTime() > player.picks.pick_end_time) {
+          new Date().getTime() > (player.picks.pick_end_time + 2000)) {
         indexes.push(i);
       }
     }
