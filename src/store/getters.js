@@ -9,9 +9,10 @@ export default {
 
   draft: (state) => (id) => state.drafts[id],
   
-  drafts_pending: function(state) {
+  orphaned_drafts: function(state, getters) {
     let drafts = Object.keys(state.drafts);
-    return drafts.filter(id => state.drafts[id].table.start_time === null);
+    return drafts
+      .filter(id => isOrphanedDraft(getters.player.id, state.drafts[id]));
   },
 
   draft_history: function(state, getters) {
@@ -20,17 +21,12 @@ export default {
       .map((id) => {
         let draft = state.drafts[id];
 
-        // if there is no start time yet then don't return it
-        if (draft.table.start_time === null)
+        // don't return orphans
+        if (isOrphanedDraft(getters.player.id, draft))
           return null;
 
-        // get the active player -- if this draft doesn't yet have our player 
-        // assigned (true after it's just been created) or doesn't contain
-        // our player (true if it was created with a different player_id)
-        // then don't return it
-        let active_player = selectors.activePlayer(getters.player.id, draft.table);
-        if (!active_player)
-          return null;
+        // alias player
+        let player = selectors.activePlayer(getters.player.id, draft.table);
 
         return {
           id: id,
@@ -40,13 +36,13 @@ export default {
           current_pack: draft.table.current_pack,
           current_pick: selectors.currentPick(getters.player.id, draft.set.code, draft.table),
           picks_complete: selectors.picksComplete(getters.player.id, draft.set.code, draft.table),
-          deck_total_cards: selectors.deckTotalCards(active_player.deck),
+          deck_total_cards: selectors.deckTotalCards(player.deck),
           card_colors: selectors.cardColors(selectors.activeCards(getters.player.id, draft.table))
                         .filter((color) => color.count > 0)
                         .slice(0,2),
         }
       })
-      .filter((draft) => draft !== null && draft.current_pack > 0)
+      .filter((draft) => draft !== null)
       .sort((a, b) => b.start_time - a.start_time);
   },
 
@@ -113,6 +109,11 @@ export default {
     }
   },
 };
+
+function isOrphanedDraft(player_id, draft) {
+  return draft.table.start_time === null ||
+         !selectors.activePlayer(player_id, draft.table);
+}
 
 
 

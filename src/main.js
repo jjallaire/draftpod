@@ -51,18 +51,6 @@ function initApp(firebase_uid) {
 }
 
 
-// TODO: we removed the side-effect of draft purging in SET_PLAYER_INFO. Here is the code
-// (we need to bring it back somewhere else)
-/*
-    // remove drafts that don't have this player id
-    let drafts = Object.keys(state.drafts);
-    let stranded_drafts = drafts.filter((id) => {
-      let draft = state.drafts[id];
-      return selectors.activePlayer(state.player.id, draft.table) === undefined;
-    });
-    removeDrafts(state, stranded_drafts);
-*/
-
 // TODO: validate that we have a name before joining the draftix
 
 // TODO: if we show up at a draft and we are already in it (and it's started)

@@ -23,8 +23,8 @@ export default {
 
   computed: {
     ...mapGetters([
+      'orphaned_drafts',
       'draft_history',
-      'drafts_pending',
       'draft_in_progress'
     ]),
   },
@@ -32,7 +32,7 @@ export default {
   created() {
 
     // remove orphans
-    this.removeDrafts(this.drafts_pending);
+    this.removeDrafts(this.orphaned_drafts);
 
     // keep only the most recent 7 drafts
     let purge_draft_ids = this.draft_history
