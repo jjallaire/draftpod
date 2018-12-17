@@ -96,11 +96,11 @@ export default {
       updatePreferences: UPDATE_PREFERENCES,
       setPlayerInfo: SET_PLAYER_INFO,
       removeDrafts: REMOVE_DRAFTS,
+      startDraft(dispatch, draft_id) {
+        return dispatch(NS_DRAFTS + '/' + draft_id + '/' + START_DRAFT);
+      },
       joinDraft(dispatch, payload) {
         return dispatch(NS_DRAFTS + '/' + this.multi_player.draft_id + '/' + JOIN_DRAFT, payload);
-      },
-      startDraft(dispatch) {
-        return dispatch(NS_DRAFTS + '/' + this.multi_player.draft_id + '/' + START_DRAFT);
       },
       writeTable(dispatch, payload) {
         return dispatch(NS_DRAFTS + '/' + this.multi_player.draft_id + '/' + WRITE_TABLE, payload);
@@ -210,7 +210,7 @@ export default {
         this.joinMultiplayerDraft();
 
       // start the draft
-      this.startDraft();
+      this.startDraft(draft_id);
 
       // navigate to the draft
       this.$router.push({ path: "/draft/" + draft_id });
