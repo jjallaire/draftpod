@@ -8,6 +8,8 @@ Vue.use(Clipboard)
 
 import ClipboardIcon from "vue-material-design-icons/ClipboardOutline.vue"
 
+import MultiplayerPlayers from '@/components/core/MultiplayerPlayers.vue'
+
 import jquery from 'jquery'
 
 export default {
@@ -59,7 +61,7 @@ export default {
   },
 
   components: {
-    ClipboardIcon
+    ClipboardIcon, MultiplayerPlayers
   }
   
 }
@@ -71,20 +73,13 @@ export default {
 
 <div>
 
-<div class="form-group">
-  <label for="multiplayer-draft-name">Host player:</label>
-  <input class="form-control" id="multiplayer-draft-name" placeholder="Enter your name" 
-         :value="inputVal.player_name" @input="onNameChanged" ref="name"/>
-</div>
-
-<div class="form-group">
-  <label for="multiplayer-draft-players">Other players:</label>
-  <div id="multiplayer-draft-players" class="card-body bg-light">
-    <span v-for="(player, index) in players" :key="index">
-      {{  player }} <br/>
-    </span>
+  <div class="form-group">
+    <label for="multiplayer-draft-name">Host player:</label>
+    <input class="form-control" id="multiplayer-draft-name" placeholder="Enter your name" 
+          :value="inputVal.player_name" @input="onNameChanged" ref="name"/>
   </div>
-</div> 
+
+  <MultiplayerPlayers :players="players" />
 
   <p>Other players can join the draft using this URL:</p>
   

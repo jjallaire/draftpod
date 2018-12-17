@@ -57,8 +57,6 @@ function initApp(firebase_uid) {
 
 // polish waiting for list, etc.
 
-// TODO: can we get some improved code re-use around firestore subscribe (we always write the table)
-
 // TODO: handle started draft that we haven't joined (too late)
 
 // TODO: handle full table of drafters

@@ -2,6 +2,7 @@
 
 import NavBar from './core/NavBar.vue'
 import SiteFooter from './core/SiteFooter.vue'
+import MultiplayerPlayers from './core/MultiplayerPlayers.vue'
 
 import { mapState, mapGetters, mapMutations } from 'vuex'
 
@@ -77,6 +78,10 @@ export default {
     namespace: function() {
       return NS_DRAFTS + '/' + this.draft_id;
     },
+
+    multi_players: function() {
+      return selectors.allPlayerNames(this.draft.table);
+    }
   },
 
   methods: {
@@ -125,7 +130,7 @@ export default {
   },
 
   components: {
-    NavBar, SiteFooter
+    NavBar, SiteFooter, MultiplayerPlayers
   }
 }
 
@@ -164,6 +169,8 @@ export default {
   </div>
   
 
+  <MultiplayerPlayers :players="multi_players" />
+
   </div>
   
   </div>
@@ -185,9 +192,14 @@ export default {
   min-height: 60vh;
 }
 
+.join-content .multiplayer-players {
+  width: 96%;
+  margin-top: 25px;
+}
+
 .join-input {
   margin-left: 0px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 #join-draft-name {
