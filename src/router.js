@@ -29,19 +29,27 @@ export default new VueRouter({
     { path: '/draft/', component: NavigatorPage },
     { path: '/draft/:draft_id', component: TablePage, props: true, 
       beforeEnter: (to, from, next) => {
+        
+        // if the draft exists
         let draft_id = to.params.draft_id;
         if (draft_id in store.state.drafts) {
 
+          // bind draft module
           useDraftModule(draft_id, { preserveState: true });
 
+          // sync from firestore if this is a multi-player draft
           if (store.state.drafts[draft_id].options.multi_player) {
             firestore.getDraft(draft_id).then(draft => {
               store.commit(SET_DRAFT, { draft_id, draft });
               next();
             });
+
+          // single player draft, proceed without syncing
           } else {
             next();
           }
+
+        // draft doesn't exist so just navigate to the main draft page
         } else {
           next("/draft/");
         }
@@ -50,18 +58,23 @@ export default new VueRouter({
     { path: '/draft/:draft_id/join', component: JoinPage, props: true,
       beforeEnter: (to, from, next) => {
         
+        // alias ids
         let player_id = store.state.player.id;
         let draft_id = to.params.draft_id;
 
+        // sync from firestore
         firestore.getDraft(draft_id).then(draft => {
+
+          // write locally
           store.commit(SET_DRAFT, { draft_id, draft });
+
+          // bind draft module
           useDraftModule(draft_id, { preserveState: true });
 
-          // if the draft is already started and we are in it then
-          // navigate to it directly
-          let table = draft.table;
-          if (selectors.isStarted(table) && selectors.hasPlayer(player_id, table))
+          // if the draft is already started and we are in it then navigate to it (skip join)
+          if (selectors.isStarted(draft.table) && selectors.hasPlayer(player_id, draft.table))
             next("/draft/" + draft_id);
+
           // otherwise continue to join ui
           else
             next();

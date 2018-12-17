@@ -50,16 +50,6 @@ function initApp(firebase_uid) {
 
 }
 
-
-// TODO: what happens when the same player id attempts to join / sync to updates
-// within the same browser domain (i.e. another window)
-
-// TOOD: general cleanup of JoinPage / router / multiplayer
-
-// TODO: disconnect from firestore after we get into deck building?
-
-
-
 // when writing / reading to firestore, "compress" the cards by just including
 // the multiverse id. could also be used for local storage?
 

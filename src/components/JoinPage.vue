@@ -133,7 +133,7 @@ export default {
         name: player_name
       });
      
-      // update the player info
+      // update the player info for future drafts
       this.setPlayerInfo({
         name: player_name
       });

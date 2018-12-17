@@ -283,7 +283,7 @@ export default {
       });
     },
 
-    // update the player name as we type (but no more than ever 2 seconds)
+    // update the player name as we type (but no more than every 2 seconds)
     onMultiplayerOptionsChanged: _debounce(function() {
        this.joinMultiplayerDraft();
     }, 2000),
