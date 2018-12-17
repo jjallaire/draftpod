@@ -2,6 +2,8 @@
 <script>
 
 
+import PersonIcon from 'vue-material-design-icons/Account.vue'
+
 export default {
   name: 'MultiplayerPlayers',
 
@@ -11,6 +13,10 @@ export default {
       required: true
     },
   },
+
+  components: { 
+    PersonIcon
+  }
 
 }
 
@@ -22,9 +28,9 @@ export default {
 <div class="multiplayer-players form-group">
   <label for="multiplayer-draft-players">Players:</label>
   <div id="multiplayer-draft-players" class="card-body bg-light">
-    <span v-for="(player, index) in players" :key="index">
-      {{  player }} <br/>
-    </span>
+    <div v-for="(player, index) in players" :key="index">
+      <PersonIcon /> <span>{{  player }}</span>
+    </div>
   </div>
 </div> 
 
@@ -33,9 +39,19 @@ export default {
 
 <style>
 
-.multiplayer-draft-players {
+#multiplayer-draft-players {
   position: relative;
   overflow-y: scroll;
+}
+
+#multiplayer-draft-players span {
+  vertical-align: middle;
+  color: #52575C;
+  margin-right: 5px;
+}
+
+#multiplayer-draft-players .material-design-icon svg {
+  padding-bottom: 2px;
 }
 
 </style>

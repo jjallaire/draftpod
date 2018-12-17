@@ -60,7 +60,7 @@ export default {
 .pack-panel .waiting-for-pack {
   width: 100%;
   text-align: center;
-  margin-top: 8%;
+  margin-top: 12%;
   font-size: 1.1rem;
   color: rgba(255,255,255,0.7);
 }
@@ -68,6 +68,10 @@ export default {
 .pack-panel .waiting-for-pack span {
   vertical-align: middle;
   margin-right: 3px;
+}
+
+.pack-panel .waiting-for-pack .material-design-icon svg {
+  padding-bottom: 3px;
 }
 
 @media only screen and (max-width: 1000px) {
