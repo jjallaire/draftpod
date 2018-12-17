@@ -50,9 +50,6 @@ function initApp(firebase_uid) {
 
 }
 
-
-// TODO: validate that we have a name before joining the draftix
-
 // TODO: if we show up at a draft and we are already in it (and it's started)
 // then just navigate to it
 
@@ -71,9 +68,6 @@ function initApp(firebase_uid) {
 // TODO: what happens when the same player id attempts to join / sync to updates
 // within the same browser domain (i.e. another window)
 
-
-// TODO: 400 error from firestore during initial bootstrapping?
-
 // TOOD: general cleanup of JoinPage / router / multiplayer
 
 // TODO: disconnect from firestore after we get into deck building?
@@ -81,7 +75,7 @@ function initApp(firebase_uid) {
 
 
 // when writing / reading to firestore, "compress" the cards by just including
-// the multiverse id
+// the multiverse id. could also be used for local storage?
 
 // error if we attempt to initialize firebase and can't (i.e. when offline)
 // generally, what happens to our firebase code when we are offline?

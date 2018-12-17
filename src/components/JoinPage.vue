@@ -12,6 +12,7 @@ import { JOIN_DRAFT, WRITE_TABLE } from '@/store/modules/draft/mutations'
 
 import * as utils from './core/utils'
 import * as selectors from '@/store/modules/draft/selectors'
+import * as messagebox from '@/components/core/messagebox'
 import firestore from '@/store/modules/draft/firestore'
 
 const NS_DRAFTS = "drafts";
@@ -93,6 +94,14 @@ export default {
 
       // get the player name
       let player_name = this.player_name.trim();
+
+      // ensure we have a name
+      if (player_name.length === 0) {
+        messagebox.alert(
+          "Please enter the name you want to be identified by during the draft.",
+          () => { utils.focus(this.$refs.playerName); });
+        return false;
+      }
 
       // join the draft
       this.joinDraft({

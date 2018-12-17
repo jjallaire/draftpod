@@ -48,7 +48,8 @@ export default {
   methods: {
     onNameChanged(event) {
       this.inputVal.player_name = event.target.value.trim();
-      this.$emit('input', this.inputVal);
+      if (this.inputVal.player_name.length > 0)
+        this.$emit('input', this.inputVal);
     },
     onClipboardSuccess() {
       let copy_url = jquery('#copy-join-url-to-clipboard');
