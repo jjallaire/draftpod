@@ -40,14 +40,19 @@ export default {
   created() {
     this.player_name = this.player.name;
 
-    this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
-      this.writeTable({ table });
-      this.enterDraftIfStarted();
-    });
+    if (this.is_available) {
+      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
+        if (selectors.isStarted(table))
+          this.$router.push({ path: "/draft/" +  this.draft_id });
+        else
+          this.writeTable({ table });
+      });
+    }
   },
 
   mounted() {
-    utils.focus(this.$refs.playerName);
+    if (this.is_available)
+      utils.focus(this.$refs.playerName);
   },
 
   beforeDestroy() {
@@ -71,6 +76,18 @@ export default {
 
     set_name: function() {
       return this.draft.set.name;
+    },
+
+    is_started: function() {
+      return this.draft.table.start_time !== null;
+    },
+
+    is_full: function() {
+      return !this.is_joined &&  (this.multi_players.length >= 8);
+    },
+
+    is_available: function() {
+      return !this.is_full && !this.is_started;
     },
 
     is_joined: function() {
@@ -123,11 +140,6 @@ export default {
      
   
     },
-
-    enterDraftIfStarted() {
-      if (this.draft.table.start_time !== null)
-        this.$router.push({ path: "/draft/" +  this.draft_id });
-    }
     
   },
 
@@ -157,7 +169,20 @@ export default {
 
   <p>{{ host_player }} has invited you to join a {{ set_name }} draft.</p>
 
-  <div v-if="!is_joined" class="row join-input">
+
+  <div v-if="is_started">
+    <div class="alert alert-warning">
+        This draft has already started, so it's no longer possible for you to 
+        join. If you want to join, ask the host to create a new
+        draft and re-invite all of the players.
+    </div>
+  </div>
+  <div v-else-if="is_full">
+    <div class="alert alert-warning">
+        This draft already has 8 players so cannot be joined.
+    </div>
+  </div>
+  <div v-else-if="!is_joined" class="row join-input">
     <label class="sr-only" for="join-draft-name">Name</label>
     <input v-model="player_name" ref="playerName" 
            v-on:keyup.enter="onJoinDraft"
@@ -214,6 +239,14 @@ export default {
 
 .join-content .waiting-for-draft .circles-to-rhombuses-spinner .circle {
   border-width: 2px;
+}
+
+.join-content .alert {
+  width: 96%;
+}
+
+.join-content .alert h4 {
+  font-size: 18px;
 }
 
 .join-content .multiplayer-players {

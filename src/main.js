@@ -50,9 +50,6 @@ function initApp(firebase_uid) {
 
 }
 
-// TODO: handle started draft that we haven't joined (too late)
-
-// TODO: handle full table of drafters
 
 // TODO: what happens when the same player id attempts to join / sync to updates
 // within the same browser domain (i.e. another window)
@@ -70,8 +67,6 @@ function initApp(firebase_uid) {
 // generally, what happens to our firebase code when we are offline?
 
 // generally, how do we manifest firebase errors in the UI?
-
-// TODO: take some air out of the select boxes in start UI
 
 // TODO: at larger deck sizes during building it's possible for a color
 // to be auto-assigned 0 mana even though there is a card in that color
