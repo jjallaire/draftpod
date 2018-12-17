@@ -1,5 +1,4 @@
 
-- restore home and about
 
 - when writing / reading to firestore, "compress" the cards by just including
   the multiverse id. could also be used for local storage?
