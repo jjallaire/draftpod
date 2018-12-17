@@ -52,7 +52,9 @@ function initApp(firebase_uid) {
 
 }
 
-// when writing / reading to firestore, "compress" the cards by just including
+// TODO: restore home and about
+
+// TODO: when writing / reading to firestore, "compress" the cards by just including
 // the multiverse id. could also be used for local storage?
 
 // TODO: favicon

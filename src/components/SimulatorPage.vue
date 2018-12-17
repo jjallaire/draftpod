@@ -9,13 +9,16 @@ import SetSelect from '@/components/core/SetSelect.vue'
 import { mapActions, mapMutations } from 'vuex'
 import { INIT_DRAFT } from '@/store/actions'
 import { REMOVE_DRAFTS } from '@/store/mutations'
-import { SIMULATE_DRAFT } from '@/store/modules/draft/mutations'
+import { START_DRAFT, SIMULATE_DRAFT } from '@/store/modules/draft/mutations'
 
 import { CARDPOOL } from '@/store/constants'
 import * as draftbot from '@/store/modules/draft/draftbot'
 
 import _flatten from 'lodash/flatten'
 import _isEqual from 'lodash/isEqual'
+
+// drafts namespace
+const NS_DRAFTS = "drafts";
 
 export default {
   name: 'SimulatorPage',
@@ -122,6 +125,8 @@ export default {
         cardpool: CARDPOOL.CUBE + '4/4/2/1', 
       }).then(({ draft_id }) => {
 
+        this.startDraft(draft_id);
+
         // execute simulation
         this.$store.commit("drafts/" + draft_id + "/" + SIMULATE_DRAFT, {
           player_id: this.$store.state.player.id
@@ -146,10 +151,13 @@ export default {
     },
 
     ...mapActions({
-      initDraft: INIT_DRAFT
+      initDraft: INIT_DRAFT,
     }),
     ...mapMutations({
-      removeDrafts: REMOVE_DRAFTS
+      removeDrafts: REMOVE_DRAFTS,
+      startDraft(dispatch, draft_id) {
+        return dispatch(NS_DRAFTS + '/' + draft_id + '/' + START_DRAFT);
+      },
     }),
   },
 

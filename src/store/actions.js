@@ -14,7 +14,7 @@ export const INIT_DRAFT = 'INIT_DRAFT'
 
 export default {
 
-  [INIT_DRAFT]( { commit, state }, { set_code, cardpool, options } ) {
+  [INIT_DRAFT]( { commit, state }, { set_code, cardpool, options = {}} ) {
 
     // create a new draft module
     let draft_id = shortUuid().new();
