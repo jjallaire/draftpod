@@ -84,7 +84,7 @@ export default {
     multi_players() {
       if (this.is_multi_player && this.multi_player.draft_id) {
         let draft = this.$store.state[NS_DRAFTS][this.multi_player.draft_id];
-        return selectors.allPlayerNames(draft.table);
+        return selectors.allPlayerNames(draft.table).filter(name => name !== null);
       } else {
         return [];
       }
@@ -284,10 +284,10 @@ export default {
       });
     },
 
-    // update the player name as we type (but no more than every 2 seconds)
+    // update the player name as we type (but no more than every 1 second)
     onMultiplayerOptionsChanged: _debounce(function() {
        this.joinMultiplayerDraft();
-    }, 2000),
+    }, 1000),
 
     onNewCardpoolComplete() {
       this.scrollToStartNewDraft();
