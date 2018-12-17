@@ -30,7 +30,7 @@ export default {
       </MtgCard>
     </div>
     <div class="waiting-for-pack" v-else>
-      <HourglassIcon /> Waiting for pack...
+      <HourglassIcon /> <span>Waiting for pack...</span>
     </div>
   </UiPanel>  
 
@@ -63,6 +63,11 @@ export default {
   margin-top: 8%;
   font-size: 1.1rem;
   color: rgba(255,255,255,0.7);
+}
+
+.pack-panel .waiting-for-pack span {
+  vertical-align: middle;
+  margin-right: 3px;
 }
 
 @media only screen and (max-width: 1000px) {

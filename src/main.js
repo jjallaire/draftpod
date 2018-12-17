@@ -51,15 +51,6 @@ function initApp(firebase_uid) {
 }
 
 
-// vertical alignment of waiting for pack hourglass
-
-// TODO: 400 error from firestore during initial bootstrapping?
-
-// TOOD: general cleanup of JoinPage / router / multiplayer
-
-// TODO: disconnect from firestore after we get into deck building
-
-
 // TODO: we removed the side-effect of draft purging in SET_PLAYER_INFO. Here is the code
 // (we need to bring it back somewhere else)
 /*
@@ -91,6 +82,15 @@ function initApp(firebase_uid) {
 
 // TODO: what happens when the same player id attempts to join / sync to updates
 // within the same browser domain (i.e. another window)
+
+
+// TODO: 400 error from firestore during initial bootstrapping?
+
+// TOOD: general cleanup of JoinPage / router / multiplayer
+
+// TODO: disconnect from firestore after we get into deck building?
+
+
 
 // when writing / reading to firestore, "compress" the cards by just including
 // the multiverse id
