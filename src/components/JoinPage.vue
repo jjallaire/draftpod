@@ -65,6 +65,9 @@ export default {
       draft: function(state) {
         return state[NS_DRAFTS][this.draft_id];
       },
+      draft_exists: function(state) {
+        return state[NS_DRAFTS].hasOwnProperty(this.draft_id);
+      }
     }),
     ...mapGetters([
       'player'
@@ -87,7 +90,7 @@ export default {
     },
 
     is_available: function() {
-      return !this.is_full && !this.is_started;
+      return this.draft_exists && !this.is_full && !this.is_started;
     },
 
     is_joined: function() {
@@ -167,8 +170,9 @@ export default {
 
   <h3>Guilds of Ravnica Draft</h3>
 
-  <p>{{ host_player }} has invited you to join a {{ set_name }} draft.</p>
+  <div v-if="draft_exists">
 
+  <p>{{ host_player }} has invited you to join a {{ set_name }} draft.</p>
 
   <div v-if="is_started">
     <div class="alert alert-warning">
@@ -200,11 +204,18 @@ export default {
     <div>Waiting for draft to start...</div> 
   </div>
   
-
   <MultiplayerPlayers :players="multi_players" />
 
   </div>
+
+  <div v-else class="no-draft-found">
+    <div class="alert alert-warning">
+        The draft you were invited to could not be found.
+    </div>
+  </div>
   
+  </div>
+    
   </div>
 
   </div>
@@ -235,6 +246,10 @@ export default {
 
 .join-content .waiting-for-draft div {
   display: inline-block;
+}
+
+.join-content .no-draft-found .alert {
+  margin-top: 20px;
 }
 
 .join-content .waiting-for-draft .circles-to-rhombuses-spinner .circle {

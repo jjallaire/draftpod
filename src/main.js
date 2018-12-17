@@ -6,6 +6,7 @@ Vue.config.productionTip = false
 import '@/components/core/bootstrap.js'
 
 import * as Sentry from '@sentry/browser';
+import * as log from './log'
 
 import firebase from 'firebase/app'
 import 'firebase/auth'
@@ -28,7 +29,8 @@ firebase.auth().signInAnonymously()
   .then(response => {
     initApp(response.user.uid);
   })
-  .catch(() => {
+  .catch((error) => {
+    log.logException(error);
     initApp();
   });
 

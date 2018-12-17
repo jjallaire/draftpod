@@ -20,6 +20,7 @@ import _shuffle from 'lodash/shuffle'
 import _flatten from 'lodash/flatten'
 import _remove from 'lodash/remove'
 
+import * as log from '@/log'
 import * as set from './set/'
 import firestore from './firestore'
 import * as draftbot from './draftbot'
@@ -244,9 +245,7 @@ function updateTable(state, writer, invalidator) {
     firestore.updateDraftTable(state.id, writer, invalidator) 
       .catch(function(error) {
         if (error !== firestore.error_invalidated) {
-          // TODO: reject promise
-          // eslint-disable-next-line
-          console.log(error);
+          log.logException(error);
         }
       });
 

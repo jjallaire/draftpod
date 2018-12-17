@@ -10,8 +10,9 @@ import SimulatorPage from './components/SimulatorPage.vue'
 import AboutPage from './components/AboutPage.vue'
 
 import { store, useDraftModule } from './store'
-import { SET_DRAFT } from './store/mutations'
+import { SET_DRAFT, REMOVE_DRAFTS } from './store/mutations'
 import firestore from './store/modules/draft/firestore'
+import * as log from '@/log'
 import * as selectors from './store/modules/draft/selectors'
 
 Vue.use(VueRouter)
@@ -41,6 +42,10 @@ export default new VueRouter({
           if (store.state.drafts[draft_id].options.multi_player) {
             firestore.getDraft(draft_id).then(draft => {
               store.commit(SET_DRAFT, { draft_id, draft });
+              next();
+            })
+            .catch(error => {
+              log.logException(error);
               next();
             });
 
@@ -78,6 +83,11 @@ export default new VueRouter({
           // otherwise continue to join ui
           else
             next();
+        })
+        .catch(error => {
+          log.logException(error);
+          store.commit(REMOVE_DRAFTS, [draft_id]);
+          next();
         });
       }
     },

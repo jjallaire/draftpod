@@ -1,5 +1,6 @@
 <script>
 
+import * as log from '@/log'
 import * as utils from '@/components/core/utils'
 import ContentPanel from '@/components/core/ContentPanel.vue'
 import SetSelect from '@/components/core/SetSelect.vue'
@@ -129,9 +130,8 @@ export default {
               this.beginDraft(draft_id);
             })
             .catch((error) => {
-              // TODO: real error handler
-              // eslint-disable-next-line
-              console.log(error);
+              log.logException(error);
+              messagebox.alert("Unable to start draft: " + error.message);
             });   
           }
         }
@@ -152,10 +152,11 @@ export default {
           utils.scrollIntoView(this.$refs.provideCardRatings);
         })
         .catch((error) => {
-          // TODO: real error handler
-          // eslint-disable-next-line
-          console.log(error);
-        });
+          log.logException(error);
+          messagebox.alert(
+            "Unable to start draft: " + error.message,
+            () => window.location.reload());
+        }); 
 
       } else {
 

@@ -1,4 +1,5 @@
 
+import * as log from '@/log'
 import { firestore } from '../../firebase'
 
 export default {
@@ -17,12 +18,15 @@ export default {
   },
 
   getDraft(id) {
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
       firestore.collection("drafts").doc(id).get().then(doc => {
         resolve({
           ...doc.data(),
           table: JSON.parse(doc.data().table)
         });
+      })
+      .catch(error => {
+        reject(error);
       });
     });
     
@@ -54,9 +58,7 @@ export default {
         transaction.update(docRef, {
           table: JSON.stringify(table)
         });
-
-        // return success
-        return Promise.resolve();
+        
       });
     });
   },
@@ -65,12 +67,13 @@ export default {
   onDraftTableChanged(id, onchanged) {
     return firestore.collection("drafts").doc(id)
       .onSnapshot(doc => {
-        let table = JSON.parse(doc.data().table);
-        onchanged(table);
+        let data = doc.data();
+        if (data) {
+          let table = JSON.parse(data.table);
+          onchanged(table);
+        }
       }, error => {
-        // TODO: improve handling
-        // eslint-disable-next-line
-        console.log(error);
+        log.logException(error);
       });
   },
 
