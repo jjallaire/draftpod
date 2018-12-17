@@ -8,11 +8,10 @@
     
     <slot>
       <span class="navbar-text">
-        Virtual draft pod for Magic the Gathering<sup class="trademark">&trade;</sup>
+        Draft simulator for Magic the Gathering<sup class="trademark">&trade;</sup>
       </span>
     </slot>
 
-    <!---
     <ul class="navbar-nav ml-auto">
       <router-link tag="li" class="nav-item" active-class="active" to="/" exact>
         <a class="nav-link">Home</a>
@@ -20,11 +19,10 @@
       <router-link tag="li" class="nav-item" active-class="active" to="/draft/">
         <a class="nav-link">Draft</a>
       </router-link>
-      <router-link tag="li" class="nav-item" active-class="active" to="/about/">
-        <a class="nav-link">About</a>
+      <router-link tag="li" class="nav-item" active-class="active" to="/faq/">
+        <a class="nav-link">FAQ</a>
       </router-link>
     </ul>
-    -->
     
   </nav>
 </template>
@@ -60,6 +58,10 @@ export default {
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255,255,255,0.7);
+}
+
+.navbar-dark .navbar-nav {
+  padding-right: 8px;
 }
 
 .navbar-dark .navbar-text {

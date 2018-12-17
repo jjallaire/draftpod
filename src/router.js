@@ -7,7 +7,7 @@ import TablePage from './components/draft/table/TablePage.vue'
 import JoinPage from './components/JoinPage.vue'
 import NavigatorPage from './components/navigator/NavigatorPage.vue'
 import SimulatorPage from './components/SimulatorPage.vue'
-import AboutPage from './components/AboutPage.vue'
+import FAQPage from './components/FAQPage.vue'
 import NotFoundPage from './components/NotFoundPage.vue'
 
 import { store, useDraftModule } from './store'
@@ -23,11 +23,7 @@ export default new VueRouter({
   mode: 'history',
   
   routes: [
-    { path: '/', component: HomePage,
-      beforeEnter: (to, from, next) => {
-        next("/draft/");
-      } 
-    },
+    { path: '/', component: HomePage },
     { path: '/draft/', component: NavigatorPage },
     { path: '/draft/:draft_id', component: TablePage, props: true, 
       beforeEnter: (to, from, next) => {
@@ -93,7 +89,7 @@ export default new VueRouter({
       }
     },
     { path: '/simulator/', component: SimulatorPage },
-    { path: '/about', component: AboutPage },
+    { path: '/faq/', component: FAQPage },
     { path: '*', component: NotFoundPage }
   ],
   
