@@ -92,6 +92,14 @@ export function draftThumbnail(player_id, draft) {
     return cardImageUris(draftbot.pick(draft.set.code, [], active_player.picks.packs[0]))[0];
 }
 
+export function isStarted(table) {
+  return table.start_time !== null;
+}
+
+export function hasPlayer(player_id, table) {
+  return activePlayer(player_id, table) !== undefined;
+}
+
 export function picksComplete(player_id, set_code, table) {
   
   if (table.picks_complete)

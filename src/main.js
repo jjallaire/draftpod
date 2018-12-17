@@ -50,11 +50,6 @@ function initApp(firebase_uid) {
 
 }
 
-// TODO: if we show up at a draft and we are already in it (and it's started)
-// then just navigate to it
-
-// TODO: handle removal of a pending multiplayer draft
-
 // TODO: handle started draft that we haven't joined (too late)
 
 // TODO: handle full table of drafters
