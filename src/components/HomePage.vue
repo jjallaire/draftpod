@@ -45,7 +45,10 @@ export default {
         </li>
       </ul>
 
-      <a class="draftpod-start-draft btn btn-success btn-lg" href="#" role="button">Start a Draft &#8250;</a>
+      <router-link class="draftpod-start-draft btn btn-success btn-lg" role="button" to="/draft/">
+        Start a Draft &#8250;
+      </router-link>
+
     </p>
 
     <p class="lead">
