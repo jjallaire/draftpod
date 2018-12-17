@@ -68,10 +68,6 @@ export default {
 
 <style>
 
-.home-content {
-  min-height: 70vh;
-}
-
 .home-content .jumbotron {
   padding-top: 2rem;
 }
