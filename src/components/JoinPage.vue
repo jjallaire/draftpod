@@ -16,6 +16,8 @@ import * as selectors from '@/store/modules/draft/selectors'
 import * as messagebox from '@/components/core/messagebox'
 import firestore from '@/store/modules/draft/firestore'
 
+import { CirclesToRhombusesSpinner } from 'epic-spinners'
+
 const NS_DRAFTS = "drafts";
 
 export default {
@@ -130,7 +132,7 @@ export default {
   },
 
   components: {
-    NavBar, SiteFooter, MultiplayerPlayers
+    NavBar, SiteFooter, MultiplayerPlayers, CirclesToRhombusesSpinner
   }
 }
 
@@ -164,8 +166,13 @@ export default {
     <button class="btn btn-success col-sm-3" @click="onJoinDraft">Join Draft</button>
   </div>
 
-  <div v-else>
-    Waiting for draft to start...
+  <div v-else class="waiting-for-draft" >
+   <CirclesToRhombusesSpinner 
+      :circles-num="3"
+      :circle-size="12"
+      color="#aaa"
+    /> 
+    <div>Waiting for draft to start...</div> 
   </div>
   
 
@@ -192,14 +199,26 @@ export default {
   min-height: 60vh;
 }
 
+.join-content .join-input,
+.join-content .waiting-for-draft {
+  height: 40px;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+
+
+.join-content .waiting-for-draft div {
+  display: inline-block;
+}
+
+.join-content .waiting-for-draft .circles-to-rhombuses-spinner .circle {
+  border-width: 2px;
+}
+
 .join-content .multiplayer-players {
   width: 96%;
   margin-top: 25px;
-}
-
-.join-input {
-  margin-left: 0px;
-  margin-top: 30px;
 }
 
 #join-draft-name {

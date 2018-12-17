@@ -55,8 +55,6 @@ function initApp(firebase_uid) {
 
 // TODO: handle removal of a pending multiplayer draft
 
-// polish waiting for list, etc.
-
 // TODO: handle started draft that we haven't joined (too late)
 
 // TODO: handle full table of drafters
