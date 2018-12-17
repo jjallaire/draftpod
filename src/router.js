@@ -8,6 +8,7 @@ import JoinPage from './components/JoinPage.vue'
 import NavigatorPage from './components/navigator/NavigatorPage.vue'
 import SimulatorPage from './components/SimulatorPage.vue'
 import AboutPage from './components/AboutPage.vue'
+import NotFoundPage from './components/NotFoundPage.vue'
 
 import { store, useDraftModule } from './store'
 import { SET_DRAFT, REMOVE_DRAFTS } from './store/mutations'
@@ -93,6 +94,7 @@ export default new VueRouter({
     },
     { path: '/simulator/', component: SimulatorPage },
     { path: '/about', component: AboutPage },
+    { path: '*', component: NotFoundPage }
   ],
   
   scrollBehavior (to, from, savedPosition) {

@@ -55,17 +55,6 @@ function initApp(firebase_uid) {
 // when writing / reading to firestore, "compress" the cards by just including
 // the multiverse id. could also be used for local storage?
 
-// error if we attempt to initialize firebase and can't (i.e. when offline)
-// generally, what happens to our firebase code when we are offline?
-
-// generally, how do we manifest firebase errors in the UI?
-
-// TODO: at larger deck sizes during building it's possible for a color
-// to be auto-assigned 0 mana even though there is a card in that color
-// (fraction is likely too small)
-
-// TODO: add 404 handler
-
 // TODO: favicon
 
 // TODO: remove mana and set symbols?
@@ -77,12 +66,11 @@ function initApp(firebase_uid) {
 //    - drop targets to deck not big enough
 //    - trash/hide/second pile (pile which won't be in decklist) 
 
-// TODO: purging drafts w/ no start_time: null could cause a new pageload
-// of the navigator page load to purge a draft from underneath another
-// instance of the navigator page. maybe we don't write the draft 
-// locally until the draft page loads?
-
 // TODO: sane tablet experience
+
+// TODO: at larger deck sizes during building it's possible for a color
+// to be auto-assigned 0 mana even though there is a card in that color
+// (fraction is likely too small)
 
 // TODO: links:
 //   Ben Stark "Drafting the Hard Way"
