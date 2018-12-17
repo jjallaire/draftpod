@@ -54,8 +54,6 @@ function initApp(firebase_uid) {
 
 // TODO: handle full table of drafters
 
-// TODO: warn when starting a draft with no other players joined
-
 // TODO: what happens when the same player id attempts to join / sync to updates
 // within the same browser domain (i.e. another window)
 

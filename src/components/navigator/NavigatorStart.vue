@@ -115,26 +115,28 @@ export default {
     onStartDraft: function() {
 
       // validate the draft
-      if (!this.validateDraft())
-        return;
+      this.validateDraft().then(valid => {
+        if (valid) {
+          // if this is a multiplayer draft then it's already created 
+          // so we simply join it
+          if (this.players === 'multiple') {
 
-      // if this is a multiplayer draft then it's already created 
-      // so we simply join it
-      if (this.players === 'multiple') {
+            this.beginDraft(this.multi_player.draft_id);
 
-        this.beginDraft(this.multi_player.draft_id);
-
-      } else {
-        // create the draft then navigate to it
-        this.createDraft().then(( {draft_id }) => {
-          this.beginDraft(draft_id);
-        })
-        .catch((error) => {
-          // TODO: real error handler
-          // eslint-disable-next-line
-          console.log(error);
-        });   
-      }
+          } else {
+            // create the draft then navigate to it
+            this.createDraft().then(( {draft_id }) => {
+              this.beginDraft(draft_id);
+            })
+            .catch((error) => {
+              // TODO: real error handler
+              // eslint-disable-next-line
+              console.log(error);
+            });   
+          }
+        }
+      });
+    
     },
 
     onPlayersChanged() {
@@ -215,29 +217,40 @@ export default {
     },
 
     validateDraft() {
-      // validate that we don't have an unresolved new-cardpool
-      if (this.cardpool === 'new-cardpool') {
-        messagebox.alert("Please complete the details for the new cardpool and then click " +
-                         "the Use Cardpool button to confirm you want to use it for this draft.");
-        return false;
-      }
 
-      // validation for multi-user drafts
-      if (this.players === 'multiple') {
+      return new Promise((resolve) => {
 
-        if (!this.multi_player.draft_id) {
-          messagebox.alert("Please wait for the draft be created before starting it.");
-          return false;
+        // validate that we don't have an unresolved new-cardpool
+        if (this.cardpool === 'new-cardpool') {
+          messagebox.alert("Please complete the details for the new cardpool and then click " +
+                          "the Use Cardpool button to confirm you want to use it for this draft.");
+          resolve(false);
         }
 
-        if (!this.multi_player.player_name) {
-          messagebox.alert("Please enter the name you want to be identified by during the draft.");
-          return false;
+        // validation for multi-user drafts
+        if (this.players === 'multiple') {
+
+          if (!this.multi_player.draft_id) {
+            messagebox.alert("Please wait for the draft be created before starting it.");
+            resolve(false);
+          }
+
+          if (!this.multi_player.player_name) {
+            messagebox.alert("Please enter the name you want to be identified by during the draft.");
+            resolve(false);
+          }
+
+          if (this.multi_players.length <= 1) {
+            messagebox.confirm("No other players have joined this draft. Are you sure you want " + 
+                               "to start drafting?",
+                               () => resolve(true), () => resolve(false));
+            return;
+          }
         }
 
-      }
+        resolve(true);
+      });
 
-      return true;
     },
 
     createDraft() {
