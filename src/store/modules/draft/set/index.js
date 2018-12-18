@@ -29,7 +29,7 @@ export function cards(set_code) {
     if (cards_cache[set_code]) {
       setTimeout(() => {
         resolve(cards_cache[set_code]);
-      }, 10);
+      }, 0);
     } else {
       axios.get('/sets/' + set_code + '/cards.json')
         .then(response => {
