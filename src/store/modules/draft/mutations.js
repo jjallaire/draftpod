@@ -232,15 +232,24 @@ function initTable(state, writer) {
 // update the table, writing through to firebase
 function updateTable(state, writer, invalidator) {
 
+  // create a writer that will stamp the write with a
+  // version (this will allow us to ignore the onSnapshot
+  // that comes from firebase)
+  const update_version = shortUuid().new();
+  const versioned_writer = (table) => {
+    writer(table);
+    table.update_version = update_version;
+  };
+
   // make the changes locally
   let table = JSON.parse(JSON.stringify(state.table));
   writer(table);
-  writeTable(state, table);
+  writeTable(state, table, update_version);
   
   // write to firestore if requested
   if (state.options.multi_player) {
 
-    firestore.updateDraftTable(state.id, writer, invalidator) 
+    firestore.updateDraftTable(state.id, versioned_writer, invalidator) 
       .catch(function(error) {
         if (error !== firestore.error_invalidated) {
           log.logException(error);
@@ -250,8 +259,11 @@ function updateTable(state, writer, invalidator) {
   }
 }
 
-function writeTable(state, table) {
-  Vue.set(state, "table", table);
+function writeTable(state, table, update_version) {
+  Vue.set(state, "table", {
+    ...table,
+    update_version: update_version || shortUuid().new()
+  });
 }
 
 function packToPick(set_code, player_id, table, card, pile_number, insertBefore, clear_table = true) {

@@ -1,4 +1,6 @@
 
+import shortUuid from 'short-uuid'
+
 import { PICKS, DECK } from './constants'
 
 export default function() {
@@ -24,6 +26,7 @@ export default function() {
     // table
     table: {
       start_time: null,
+      update_version: shortUuid().new(),
       all_packs: [],
       current_pack: 0,
       picks_complete: false,
