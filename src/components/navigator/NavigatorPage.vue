@@ -34,9 +34,9 @@ export default {
     // remove orphans
     this.removeDrafts(this.orphaned_drafts);
 
-    // keep only the most recent 7 drafts
+    // keep only the most recent 5 drafts
     let purge_draft_ids = this.draft_history
-      .slice(7)
+      .slice(5)
       .map((draft) => draft.id);
 
     // perform purge
