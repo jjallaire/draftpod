@@ -19,9 +19,11 @@
       <router-link tag="li" class="nav-item" active-class="active" to="/draft/">
         <a class="nav-link">Draft</a>
       </router-link>
+      <!--
       <router-link tag="li" class="nav-item" active-class="active" to="/faq/">
         <a class="nav-link">FAQ</a>
       </router-link>
+      -->
     </ul>
     
   </nav>
@@ -60,9 +62,11 @@ export default {
   color: rgba(255,255,255,0.7);
 }
 
+/*
 .navbar-dark .navbar-nav {
   padding-right: 8px;
 }
+*/
 
 .navbar-dark .navbar-text {
   color: rgba(255,255,255,0.7);

@@ -29,12 +29,6 @@ export default {
 
     <hr/>
 
-    <p class="draftpod-intro lead">
-      Love drafting but wish you could practice more? 
-      Want to draft in a full 8-player pod but only have 2 or 3 players? 
-      If so, draftpod is for you!
-    </p>
-
     <img class="img-fluid draftpod-screenshot" align="left" src="/images/screenshot.png" />
 
     <p class="lead">
