@@ -29,7 +29,7 @@ export default {
       return this.draft_info(this.draft_id);
     },
     active_player: function() {
-      return selectors.activePlayer(this.player_id, this.draft.table);
+      return selectors.activePlayer(this.player.id, this.draft.table);
     },
     active_cards: function() {
       return selectors.activeCards(this.player.id, this.draft.table);
