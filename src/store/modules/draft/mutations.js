@@ -231,15 +231,9 @@ function initTable(state, writer) {
 
 // update the table, writing through to firebase
 function updateTable(state, writer, invalidator) {
-
-  // make the changes
-  let table = JSON.parse(JSON.stringify(state.table));
-  writer(table);
-
-  // write locally
-  writeTable(state, table);
   
-  // write to firestore if requested
+  // for multi-player we write to firestore (then rely on the the onSnapshot handler
+  // to perform the write back to local state/)
   if (state.options.multi_player) {
 
     firestore.updateDraftTable(state.id, writer, invalidator) 
@@ -249,6 +243,13 @@ function updateTable(state, writer, invalidator) {
         }
       });
 
+  // write local state for single-player mode
+  } else {
+  
+    let table = JSON.parse(JSON.stringify(state.table));
+    writer(table);
+    writeTable(state, table);
+    
   }
 }
 

@@ -19,6 +19,8 @@
   to be auto-assigned 0 mana even though there is a card in that color
   (fraction is likely too small)
 
+- sane ui when you are invited to a draft but they don't yet have a username
+
 - ability to see the other players at the table in multiplayer
 
 - ability to see other players colors / rewind in single player
