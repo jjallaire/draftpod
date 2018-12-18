@@ -15,7 +15,7 @@ export const SIDEBOARD_TO_SIDEBOARD = 'SIDEBOARD_TO_SIDEBOARD'
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 
-import uuidv4 from 'uuid'
+import shortUuid from 'short-uuid'
 import _shuffle from 'lodash/shuffle'
 import _flatten from 'lodash/flatten'
 import _remove from 'lodash/remove'
@@ -475,7 +475,7 @@ function draftBotPickAndPass(player_index, set_code, table) {
 function cardToDeckPile(c, deck) {
 
   // add card to pile
-  let card = {...c, key: uuidv4()};
+  let card = {...c, key: shortUuid().new()};
   let deck_piles = deck.piles;
   let pile = null;
 
@@ -701,7 +701,7 @@ function pileToPile(card, pile_number, piles, insertBefore) {
 }
 
 function addCardToPile(pile, card, insertBefore) {
-  let card_copy = { ...card, key: uuidv4() };
+  let card_copy = { ...card, key: shortUuid().new() };
   if (insertBefore !== null)
     pile.splice(insertBefore, 0, card_copy);
   else
@@ -745,7 +745,7 @@ function booster(set_code, cardpool) {
   
         // accumulate card
         cards.push({...card, 
-          key: uuidv4(), 
+          key: shortUuid().new(), 
         });
       }
       if (cards.length >= number)

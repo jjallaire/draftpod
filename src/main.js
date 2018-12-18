@@ -11,7 +11,8 @@ import * as log from './log'
 import firebase from 'firebase/app'
 import 'firebase/auth'
 
-import uuidv4 from 'uuid'
+import shortUuid from 'short-uuid'
+
 import router from './router'
 import { store } from './store'
 import { SET_PLAYER_INFO } from './store/mutations'
@@ -38,7 +39,7 @@ function initApp(firebase_uid) {
 
   // attempt to use the firebase uid, fallback to whatever user_id
   // we might have already stored, then finally to a new randomly generated id
-  let player_id = firebase_uid || store.getters.player.id || uuidv4();
+  let player_id = firebase_uid || store.getters.player.id || shortUuid().new();
 
   // write the player id
   store.commit(SET_PLAYER_INFO, { id: player_id } );

@@ -1,6 +1,7 @@
 
 import * as log from '@/log'
 import { firestore } from '../../firebase'
+import * as set from './set'
 
 export default {
 
@@ -22,9 +23,10 @@ export default {
   getDraft(id) {
     return new Promise((resolve, reject) => {
       firestore.collection("drafts").doc(id).get().then(doc => {
-        return unserializeDraftTable(doc.data().table).then(table => {
+        let draft = doc.data();
+        return unserializeDraftTable(draft.set.code, draft.table).then(table => {
           resolve({
-            ...doc.data(),
+            ...draft,
             table: table
           });
         });
@@ -48,8 +50,11 @@ export default {
       // fetch the latest copy of the draft table
       return transaction.get(docRef).then(doc => {
 
+        // get the draft
+        let draft = doc.data();
+
         // read the table
-        return unserializeDraftTable(doc.data().table).then(table => {
+        return unserializeDraftTable(draft.set.code, draft.table).then(table => {
 
           // use optional invalidator to confirm we should still perform the write
           if (invalidator && !invalidator(table))
@@ -73,9 +78,9 @@ export default {
   onDraftTableChanged(id, onchanged) {
     return firestore.collection("drafts").doc(id)
       .onSnapshot(doc => {
-        let data = doc.data();
-        if (data) {
-          unserializeDraftTable(data.table)
+        let draft = doc.data();
+        if (draft) {
+          unserializeDraftTable(draft.set.code, draft.table)
             .then(onchanged)
             .catch(log.logException);
         }
@@ -88,12 +93,68 @@ export default {
 
 function serializeDraftTable(table) {
   return new Promise((resolve) => {
-    resolve(JSON.stringify(table));
+    // convert cards to card ids
+    let saved_table = convertDraftTable(table, cardsToIds);
+
+    // serialize as json string
+    resolve(JSON.stringify(saved_table));
   });
 }
 
-function unserializeDraftTable(table) {
+function unserializeDraftTable(set_code, table) {
   return new Promise((resolve) => {
-    resolve(JSON.parse(table));
+    return set.cards(set_code).then(set_cards => {
+      // parse from json string
+      let saved_table = JSON.parse(table);
+    
+      // return the table w/ ids converted to cards
+      resolve(
+        convertDraftTable(saved_table, idsToCards(set_cards))
+      );
+    });
   });
+}
+
+
+function convertDraftTable(table, cardConverter) {
+  return {
+    ...table,
+    all_packs: table.all_packs.map(cardConverter),
+    players: table.players.map(player => {
+      return {
+        ...player,
+        deck: {
+          ...player.deck,
+          piles: player.deck.piles.map(cardConverter)
+        },
+        picks: {
+          ...player.picks,
+          packs: player.picks.packs.map(cardConverter),
+          piles: player.picks.piles.map(cardConverter)
+        },
+
+      }
+   })
+  };
+}
+
+function cardsToIds(cards) {
+  return cards.map(card => (card === null) ? null : { id: card.id, key: card.key });
+}
+
+function idsToCards(set_cards) {
+
+  // build a hash-table for the cards
+  let cards = {};
+  set_cards.forEach(card => {
+    cards[card.id] = card;
+  });
+
+  return function(ids) {
+    return ids.map(id => { 
+      return {
+        ...cards[id.id], key: id.key 
+      }
+    });
+  }
 }
