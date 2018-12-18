@@ -23,6 +23,9 @@
 
 - ability to see other players colors / rewind in single player
 
+- log all picks in google storage
+
+- remove unused firebase config
 
 Links:
 
