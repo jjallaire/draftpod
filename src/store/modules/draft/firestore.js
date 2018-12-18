@@ -9,20 +9,24 @@ export default {
 
   // create a draft within the firestore
   createDraft(id, draft) {
-    return firestore.collection('drafts').doc(id).set({
-      id: id,
-      set: draft.set,
-      options: draft.options,
-      table: JSON.stringify(draft.table)
+    return serializeDraftTable(draft.table).then(table => {
+      return firestore.collection('drafts').doc(id).set({
+        id: id,
+        set: draft.set,
+        options: draft.options,
+        table: table
+      });
     });
   },
 
   getDraft(id) {
     return new Promise((resolve, reject) => {
       firestore.collection("drafts").doc(id).get().then(doc => {
-        resolve({
-          ...doc.data(),
-          table: JSON.parse(doc.data().table)
+        return unserializeDraftTable(doc.data().table).then(table => {
+          resolve({
+            ...doc.data(),
+            table: table
+          });
         });
       })
       .catch(error => {
@@ -45,20 +49,22 @@ export default {
       return transaction.get(docRef).then(doc => {
 
         // read the table
-        let table = JSON.parse(doc.data().table);
+        return unserializeDraftTable(doc.data().table).then(table => {
 
-        // use optional invalidator to confirm we should still perform the write
-        if (invalidator && !invalidator(table))
-          return Promise.reject(this.error_invalidated);
+          // use optional invalidator to confirm we should still perform the write
+          if (invalidator && !invalidator(table))
+            return Promise.reject(this.error_invalidated);
 
-        // apply the changes using the passed writer
-        writer(table);
+          // apply the changes using the passed writer
+          writer(table);
 
-        // update the database
-        transaction.update(docRef, {
-          table: JSON.stringify(table)
+          // update the database
+          return serializeDraftTable(table).then(table => {
+            transaction.update(docRef, {
+              table: table
+            });
+          });
         });
-        
       });
     });
   },
@@ -69,12 +75,25 @@ export default {
       .onSnapshot(doc => {
         let data = doc.data();
         if (data) {
-          let table = JSON.parse(data.table);
-          onchanged(table);
+          unserializeDraftTable(data.table)
+            .then(onchanged)
+            .catch(log.logException);
         }
       }, error => {
         log.logException(error);
       });
   },
 
+}
+
+function serializeDraftTable(table) {
+  return new Promise((resolve) => {
+    resolve(JSON.stringify(table));
+  });
+}
+
+function unserializeDraftTable(table) {
+  return new Promise((resolve) => {
+    resolve(JSON.parse(table));
+  });
 }
