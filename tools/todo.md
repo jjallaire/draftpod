@@ -1,7 +1,5 @@
 
 
-- favicon
-
 - remove mana and set symbols?
 
 - import Decked Builder YAML (.coll2)
@@ -11,8 +9,6 @@
     - drop targets to deck not big enough
     - trash/hide/second pile (pile which won't be in decklist) 
     - additional 'unused pile'
-
-- compressed representation for local storage?
 
 - sane tablet experience
 
