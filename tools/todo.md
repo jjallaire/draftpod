@@ -2,8 +2,6 @@
 
 - remove mana and set symbols?
 
-- does pick polling need to continue until all players have picked?
-
 - import Decked Builder YAML (.coll2)
 
 - sideboard:
