@@ -141,7 +141,7 @@ export function hostPlayerName(table) {
 
 export function allPlayerNames(table) {
   return table.players
-    .filter((player) => player.id !== null)
+    .filter((player) => player.id !== null && player.name !== null)
     .map((player) => player.name);
 }
 

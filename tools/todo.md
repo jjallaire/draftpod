@@ -17,15 +17,11 @@
 - we do get the 400 error due to multiple requests in flight when multiplayer
   drafts are created. See if we can consolidate some of these operations.
 
-- sane ui when you are invited to a draft but they don't yet have a username
-
 - ability to see the other players at the table in multiplayer
 
 - ability to see other players colors / rewind in single player
 
 - log all picks in google storage
-
-- remove unused firebase config
 
 Links:
 

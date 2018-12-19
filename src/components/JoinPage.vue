@@ -172,7 +172,12 @@ export default {
 
   <div v-if="draft_exists">
 
-  <p>{{ host_player }} has invited you to join a {{ set_name }} draft.</p>
+  
+  <p>
+    <span v-if="host_player">{{ host_player }} has invited you </span> 
+    <span v-else>You have been invited </span>
+    to join a {{ set_name }} draft.
+  </p>
 
   <div v-if="is_started">
     <div class="alert alert-warning">
