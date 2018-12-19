@@ -6,10 +6,13 @@
 
 - import Decked Builder YAML (.coll2)
 
+- key can probably be a simple integer not a uuid
+
 - sideboard:
     - automatic ordering?
     - drop targets to deck not big enough
     - trash/hide/second pile (pile which won't be in decklist) 
+    - additional 'unused pile'
 
 - compressed representation for local storage?
 

@@ -3,11 +3,13 @@
 import NavBar from './core/NavBar.vue'
 import SiteFooter from './core/SiteFooter.vue'
 
+import ChevronIcon from 'vue-material-design-icons/ChevronDoubleRight.vue'
+
 export default {
   name: 'HomePage',
 
   components: {
-    NavBar, SiteFooter
+    NavBar, SiteFooter, ChevronIcon
   }
 }
 
@@ -40,7 +42,7 @@ export default {
       </ul>
 
       <router-link class="draftpod-start-draft btn btn-success btn-lg" role="button" to="/draft/">
-        Start a Draft &#8250;
+        Start a Draft <ChevronIcon/>
       </router-link>
 
     </p>
@@ -78,6 +80,11 @@ export default {
 .home-content .draftpod-start-draft {
   margin-top: 20px;
 }
+
+.home-content .draftpod-start-draft svg {
+  margin-bottom: 3px;
+}
+
 
 .home-content .draftpod-intro {
   margin-bottom: 35px;
