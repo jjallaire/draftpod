@@ -21,7 +21,9 @@
 
 - ability to see other players colors / rewind in single player
 
-- log all picks in google storage
+- log all picks 
+
+- disconnect/delete after multiplayer draft
 
 Links:
 
