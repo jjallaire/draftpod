@@ -58,7 +58,7 @@ export default {
     },
     value(newValue, oldValue) {
       if (this.is_new_cardpool) {
-        this.focusCardpoolName();
+        this.$nextTick(this.focusCardpoolName);
         utils.scrollIntoView(this.$refs.selectCardpool);
       } else if (oldValue === 'new-cardpool') {
         this.$emit('newCardpoolComplete')
