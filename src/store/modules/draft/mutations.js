@@ -372,10 +372,10 @@ function nextPlayerIndex(player_index, table) {
 function nextPack(set_code, table) {
 
   // grab next set of packs
-  let pack_begin = table.current_pack * 8;
-  let pack_end = pack_begin + 8;
-  let packs = table.all_packs.slice(pack_begin, pack_end);
-
+  let packs = [];
+  for (let i=0; i<8; i++)
+    packs.push(table.all_packs.shift());
+  
   // distribute packs
   for (let i=0; i<packs.length; i++) {
     let player = table.players[i];
@@ -544,10 +544,8 @@ function completePicks(table, clear_table) {
   table.picks_complete = true;
 
   // clear the table
-  if (clear_table) {
-    table.all_packs = [];
+  if (clear_table)
     table.players = table.players.filter((player) => player.id !== null);
-  }
 }
 
 
