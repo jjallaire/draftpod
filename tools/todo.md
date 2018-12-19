@@ -1,7 +1,5 @@
 
 
-- remove mana and set symbols?
-
 - import Decked Builder YAML (.coll2)
 
 - sideboard:
