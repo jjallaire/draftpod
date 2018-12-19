@@ -1,4 +1,12 @@
 
+
+- pack 1, pick 1 in second pack
+
+- had to go back to moving picks to deck at the end of all picks
+  (were getting stranded with 44 picks so never firing on picksComplete)
+
+- auto-pick needs to check if there is a pack
+
 - import Decked Builder YAML (.coll2)
 
 - sideboard:

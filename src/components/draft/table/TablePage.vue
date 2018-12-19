@@ -160,7 +160,7 @@ export default {
     },
 
     picks_complete: function() {
-      return selectors.picksComplete(this.player.id, this.set.code, this.table);
+      return this.table.picks_complete;
     },
 
     pick_ratings: function() {

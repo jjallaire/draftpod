@@ -100,16 +100,6 @@ export function hasPlayer(player_id, table) {
   return activePlayer(player_id, table) !== undefined;
 }
 
-export function picksComplete(player_id, set_code, table) {
-  
-  if (table.picks_complete)
-    return true;
-
-  let cards_picked = activeCards(player_id, table).length;
-  let total_cards = set.pack_cards(set_code) * 3;
-  return cards_picked >= total_cards; 
-}
-
 export function currentPick(player_id, set_code, table) {
   if (!table.picks_complete) {
     let cards_picked = activeCards(player_id, table).length;

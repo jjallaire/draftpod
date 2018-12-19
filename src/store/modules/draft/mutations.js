@@ -302,6 +302,10 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
     if (table.current_pack < 3) {
       nextPack(set_code, table);
     } else {
+
+      // move picks to deck
+      movePicksToDeck(table);
+
       // complete picks
       completePicks(table, clear_table);
     }
@@ -421,10 +425,6 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
   // pass pack to next player if it's not empty
   if (pack.length > 0)
     passPack(player_index, set_code, table);  
-
-  // move picks to deck for non-ai players if we are done
-  if (player.id !== null && selectors.picksComplete(player.id, set_code, table))
-    movePicksToDeck(player);
 }
 
 
@@ -521,28 +521,29 @@ function cardToDeckPile(player, c, deck) {
   return pile;
 }
 
-function movePicksToDeck(player) {
+function movePicksToDeck(table) {
+  table.players.filter(player => player.id !== null).forEach(player => {
+    // non-sideboard cards
+    let picks = player.picks;
+    let deck = player.deck;
+    picks.piles.slice(0, PICKS.PILES).forEach(function(pile) {
+      pile.forEach((c) => cardToDeckPile(player, c, deck));
+    });
 
-  // non-sideboard cards
-  let picks = player.picks;
-  let deck = player.deck;
-  picks.piles.slice(0, PICKS.PILES).forEach(function(pile) {
-    pile.forEach((c) => cardToDeckPile(player, c, deck));
+    // sideboard cards
+    deck.piles[DECK.SIDEBOARD] = picks.piles[PICKS.SIDEBOARD].slice();
+
+    // prune out all basic lands
+    deck.piles = deck.piles.map(function(pile) {
+      return pile.filter((card) => !filters.basicLand(card));
+    });
+
+    // sort all deck piles
+    deck.piles.forEach((pile) => pile.sort(orderCards));
+
+    // apply auto lands
+    deck.lands.basic = computeAutoLands(deck);
   });
-
-  // sideboard cards
-  deck.piles[DECK.SIDEBOARD] = picks.piles[PICKS.SIDEBOARD].slice();
-
-  // prune out all basic lands
-  deck.piles = deck.piles.map(function(pile) {
-    return pile.filter((card) => !filters.basicLand(card));
-  });
-
-  // sort all deck piles
-  deck.piles.forEach((pile) => pile.sort(orderCards));
-
-  // apply auto lands
-  deck.lands.basic = computeAutoLands(deck);
 }
 
 function completePicks(table, clear_table) {
