@@ -34,6 +34,7 @@ export default function() {
         return {
           id: null,
           name: null,
+          next_key: 0,
           picks: playerPicks(),
           deck: playerDeck(),
         }

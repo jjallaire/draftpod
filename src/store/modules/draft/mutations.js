@@ -159,8 +159,9 @@ export default {
 
   [PICK_TO_PILE](state, { player_id, card, pile_number, insertBefore}) {
     updateTable(state, (table) => {
-      let picks = selectors.activePlayer(player_id, table).picks;
-      pileToPile(card, pile_number, picks.piles, insertBefore);
+      let player = selectors.activePlayer(player_id, table);
+      let picks = player.picks;
+      pileToPile(player, card, pile_number, picks.piles, insertBefore);
     });
     
   },
@@ -168,8 +169,9 @@ export default {
   [DECK_TO_SIDEBOARD](state, { player_id, card, insertBefore}) {
     updateTable(state, (table) => {
       // move the card
-      let deck = selectors.activePlayer(player_id, table).deck;
-      pileToPile(card, DECK.SIDEBOARD, deck.piles, insertBefore);
+      let player = selectors.activePlayer(player_id, table);
+      let deck = player.deck;
+      pileToPile(player, card, DECK.SIDEBOARD, deck.piles, insertBefore);
       // apply auto-lands if necessary
       if (deck.lands.auto)
         deck.lands.basic = computeAutoLands(deck);
@@ -179,12 +181,13 @@ export default {
   [SIDEBOARD_TO_DECK](state, { player_id, card }) {
     updateTable(state, (table) => {
       // remove from sideboard
-      let deck = selectors.activePlayer(player_id, table).deck;
+      let player = selectors.activePlayer(player_id, table);
+      let deck = player.deck;
       let sideboard = deck.piles[DECK.SIDEBOARD];
       sideboard.splice(cardIndex(sideboard, card), 1);
 
       // card to deck pile
-      let pile = cardToDeckPile(card, deck);
+      let pile = cardToDeckPile(player, card, deck);
       pile.sort(orderCards);
 
       // apply auto-lands if necessary
@@ -195,8 +198,9 @@ export default {
 
   [SIDEBOARD_TO_SIDEBOARD](state, { player_id, card, insertBefore }) {
     updateTable(state, (table) => {
-      let deck = selectors.activePlayer(player_id, table).deck;
-      pileToPile(card, DECK.SIDEBOARD, deck.piles, insertBefore);
+      let player = selectors.activePlayer(player_id, table);
+      let deck = player.deck;
+      pileToPile(player, card, DECK.SIDEBOARD, deck.piles, insertBefore);
     });
   },
 
@@ -405,7 +409,7 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
   pack.splice(cardIndex(pack, card), 1);
 
   // add to pile
-  addCardToPile(piles[pile_number], card, insertBefore);
+  addCardToPile(player, piles[pile_number], card, insertBefore);
 
   // pass pack to next player if it's not empty
   if (pack.length > 0)
@@ -439,6 +443,10 @@ function timedOutOtherPlayerIndexes(player_id, table) {
   // filter out the current player
   let player_index = playerIndex(player_id, table);
   return indexes.filter(i => i !== player_index);
+}
+
+function nextKey(player) {
+  return player.next_key++;
 }
 
 function makePickTimerExpiredPicks(set_code, table, player_indexes) {
@@ -482,10 +490,10 @@ function draftBotPickAndPass(player_index, set_code, table) {
   }
 }
 
-function cardToDeckPile(c, deck) {
+function cardToDeckPile(player, c, deck) {
 
   // add card to pile
-  let card = {...c, key: shortUuid().new()};
+  let card = {...c, key: nextKey(player)};
   let deck_piles = deck.piles;
   let pile = null;
 
@@ -512,7 +520,7 @@ function movePicksToDeck(player) {
   let picks = player.picks;
   let deck = player.deck;
   picks.piles.slice(0, PICKS.PILES).forEach(function(pile) {
-    pile.forEach((c) => cardToDeckPile(c, deck));
+    pile.forEach((c) => cardToDeckPile(player, c, deck));
   });
 
   // sideboard cards
@@ -685,7 +693,7 @@ function orderCards(a, b) {
     return 1;
 }
 
-function pileToPile(card, pile_number, piles, insertBefore) {
+function pileToPile(player, card, pile_number, piles, insertBefore) {
   // remove from existing pile 
   let pile = piles[pile_number];
   piles.forEach(function (p) {
@@ -707,11 +715,11 @@ function pileToPile(card, pile_number, piles, insertBefore) {
   });
 
   // add to new pile
-  addCardToPile(pile, card, insertBefore);
+  addCardToPile(player, pile, card, insertBefore);
 }
 
-function addCardToPile(pile, card, insertBefore) {
-  let card_copy = { ...card, key: shortUuid().new() };
+function addCardToPile(player, pile, card, insertBefore) {
+  let card_copy = { ...card, key: nextKey(player) };
   if (insertBefore !== null)
     pile.splice(insertBefore, 0, card_copy);
   else
@@ -726,6 +734,9 @@ function addCardToPile(pile, card, insertBefore) {
 // automatically include the fallbacks)
 
 function booster(set_code, cardpool) {
+
+  // track next key
+  let next_key = 0;
 
   // track cards already selected (to prevent duplicates)
   let selectedCardIds = [];
@@ -755,7 +766,7 @@ function booster(set_code, cardpool) {
   
         // accumulate card
         cards.push({...card, 
-          key: shortUuid().new(), 
+          key: next_key++, 
         });
       }
       if (cards.length >= number)
