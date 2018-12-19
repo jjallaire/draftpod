@@ -65,33 +65,15 @@ export default {
 
   [JOIN_DRAFT](state, player_info) {
     updateTable(state, (table) => {
-      // lookup the player
-      let player = selectors.activePlayer(player_info.id, table);
-
-      // if we found the player then update their player info
-      if (player) {
-
-        player.id = player_info.id;
-        player.name = player_info.name;
-        return true;
-    
-      // otherwise find a seat at the table
-      } else {
-        let seats = [0,4,2,6,1,5,3,7];
-        let seat = seats.find(seat => table.players[seat].id === null);
-        if (seat !== undefined) {
-          table.players[seat] = { ...table.players[seat], ...player_info };
-          return true;
-        } else {
-          return false;
-        }
-      }
+      joinDraft(player_info, table);
     });
   },
 
-  [START_DRAFT](state) {
+  [START_DRAFT](state, player_info) {
      updateTable(state, (table) => {
       table.start_time = new Date().getTime();
+      if (player_info)
+        joinDraft(player_info, table);
       nextPack(state.set.code, table);
     });
   },
@@ -219,6 +201,31 @@ export default {
     });
   },
 };
+
+function joinDraft(player_info, table) {
+
+  // lookup the player
+  let player = selectors.activePlayer(player_info.id, table);
+
+  // if we found the player then update their player info
+  if (player) {
+
+    player.id = player_info.id;
+    player.name = player_info.name;
+    return true;
+
+  // otherwise find a seat at the table
+  } else {
+    let seats = [0,4,2,6,1,5,3,7];
+    let seat = seats.find(seat => table.players[seat].id === null);
+    if (seat !== undefined) {
+      table.players[seat] = { ...table.players[seat], ...player_info };
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
 
 
 function cardIndex(cards, card) {

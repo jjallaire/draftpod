@@ -1,5 +1,4 @@
 
-
 - import Decked Builder YAML (.coll2)
 
 - sideboard:
@@ -13,9 +12,6 @@
 - at larger deck sizes during building it's possible for a color
   to be auto-assigned 0 mana even though there is a card in that color
   (fraction is likely too small)
-
-- we do get the 400 error due to multiple requests in flight when multiplayer
-  drafts are created. See if we can consolidate some of these operations.
 
 - ability to see the other players at the table in multiplayer
 

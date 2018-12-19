@@ -206,12 +206,17 @@ export default {
         pick_ratings: this.pick_ratings
       });
 
-      // join the draft
-      if (this.is_multi_player)
-        this.joinMultiplayerDraft();
+      // multiplayer info if we have it
+      let player_info = null;
+      if (this.is_multi_player) {
+        player_info = {
+          id: this.player.id,
+          name: this.multi_player.player_name
+        }
+      }
 
       // start the draft
-      this.startDraft(draft_id);
+      this.startDraft(draft_id, player_info);
 
       // navigate to the draft
       this.$router.push({ path: "/draft/" + draft_id });
