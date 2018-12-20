@@ -3,7 +3,6 @@
 
 - import Decked Builder YAML (.coll2)
 
-- ensure that 15 cards per pack isn't a hard coded thing (it probably is in the pick timer and upload)
 - error if we don't fill all the packs? (otherwise exposed on completed calculations)
 
 - sideboard:
