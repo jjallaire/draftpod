@@ -4,7 +4,6 @@ import * as filters from './card-filters'
 import * as draftbot from './draftbot'
 import * as set from './set'
 import { DECK } from './constants'
-import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from 'constants';
 
 const local_images = true && process.env.NODE_ENV !== 'production';
 
