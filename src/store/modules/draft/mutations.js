@@ -116,7 +116,7 @@ export default {
 
       // if our picks have been advanced then invalidate
       let picked = selectors.activeCards(player_id, table).length;
-      if (pickedBefore !== picked)
+      if (pickedBefore > picked)
         return false;
 
       // otherwise we are in the clear
