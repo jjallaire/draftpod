@@ -51,7 +51,7 @@ export default {
   },
 
   mounted() {
-    if (this.is_available)
+    if (!this.is_joined && this.$refs.playerName)
       utils.focus(this.$refs.playerName);
   },
 
