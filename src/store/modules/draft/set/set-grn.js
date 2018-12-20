@@ -18,7 +18,18 @@ export default {
 
   pack_cards: 15,
 
-  cube: cube.build,
+  cube: function(cardsInSet, multiples) {
+
+    // generate default cube
+    let cards = cube.build(cardsInSet, multiples);
+
+    // generate additional guildgates (since 1 appears in every
+    // pack we need roughly 2x the multiple of commons)
+    return cards.concat(
+      cube.select(cardsInSet, guildgate, multiples.common)
+    );
+    
+  },
 
   booster(selectCards) {
     let cards = [].concat(
@@ -27,13 +38,6 @@ export default {
       selectCards(commonNotGuildgate, 10),
       selectCards([guildgate, filters.basicLand], 1),
     );
-
-    /*
-    if (cards.length === 14) {
-      debugger;
-      selectCards([guildgate, filters.basicLand], 1);
-    }
-    */
 
     return cards;
   },
