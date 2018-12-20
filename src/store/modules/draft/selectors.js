@@ -4,6 +4,7 @@ import * as filters from './card-filters'
 import * as draftbot from './draftbot'
 import * as set from './set'
 import { DECK } from './constants'
+import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from 'constants';
 
 const local_images = true && process.env.NODE_ENV !== 'production';
 
@@ -114,6 +115,15 @@ export function currentPick(player_id, set_code, table) {
     let cards_picked = activeCards(player_id, table).length;
     let current_pick = (cards_picked % set.pack_cards(set_code)) + 1;
     return current_pick;
+  } else {
+    return 0;
+  }
+}
+
+export function currentPack(player_id, set_code, table) {
+  if (!table.picks_complete) {
+    let cards_picked = activeCards(player_id, table).length;
+    return Math.floor((cards_picked / set.pack_cards(set_code))) + 1;
   } else {
     return 0;
   }

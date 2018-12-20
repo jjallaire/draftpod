@@ -155,6 +155,10 @@ export default {
       return selectors.activeCards(this.player.id, this.table);
     },
 
+    current_pack: function() {
+      return selectors.currentPack(this.player.id, this.set.code, this.table);
+    },
+
     current_pick: function() {
       return selectors.currentPick(this.player.id, this.set.code, this.table);
     },
@@ -272,7 +276,7 @@ export default {
         {{ set.name }} 
         <span v-if="!picks_complete">
           &mdash;
-          Pack {{ table.current_pack }}, Pick {{ current_pick }}
+          Pack {{ current_pack }}, Pick {{ current_pick }}
           <PickTimer v-if="options.pick_timer && active_pack" :pick_end_time="active_player.picks.pick_end_time" />
         </span>
       </span> 
