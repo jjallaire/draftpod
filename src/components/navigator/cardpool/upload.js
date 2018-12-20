@@ -77,17 +77,20 @@ export function handleCardpoolUpload(set_code, file, complete) {
         cards = cards.filter((card) => cardsInSet.includes(card.id));
         let total_cards = selectors.countCardpoolCards(cards);
 
+        // establish how many cards we need for this set
+        let set_cards_required = 24 * set.pack_cards(set_code);
+
         // if this leaves us with no cards then that's an error
         if (total_cards === 0) {
           valid = false;
           status.error.push(
             "The CSV you uploaded does not contain cards from " + set_name + "."
           );
-        } else if (total_cards < 360) {
+        } else if (total_cards < set_cards_required) {
           valid = false;
           status.error.push(
             "The uploaded CSV has only " + total_cards + " cards from " + set_name + 
-            ", which is less than the 360 cards required for an 8-player draft."
+            ", which is less than the " + set_cards_required + " cards required for an 8-player draft."
           );
         }
       

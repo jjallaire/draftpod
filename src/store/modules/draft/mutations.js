@@ -134,7 +134,6 @@ export default {
     if (timed_out_player_indexes.length > 0) {
       updateTable(state, (table) => {
         makePickTimerExpiredPicks(state.set.code, table, timed_out_player_indexes);
-        draftBotPickAndPass(playerIndex(player_id, table), state.set.code, table);
       })
     }
   },
@@ -344,9 +343,12 @@ function resetPickTimer(player_id, set_code, table) {
 }
 
 function nextPickEndTime(set_code, player) {
+  let seconds_per_pick = 5;
+  let pack_cards = set.pack_cards(set_code);
+  let max_pick_seconds = (seconds_per_pick * pack_cards); 
   let cards_picked = _flatten(player.picks.piles).length;
-  let current_pick = (cards_picked % set.pack_cards(set_code)) + 1;
-  let pick_seconds = 80 - (5 * current_pick);
+  let current_pick = (cards_picked % pack_cards) + 1;
+  let pick_seconds = max_pick_seconds + seconds_per_pick - (seconds_per_pick * current_pick);
   return new Date().getTime() + (1000 * pick_seconds);
 }
 
@@ -457,14 +459,10 @@ function nextKey(player) {
 }
 
 function makePickTimerExpiredPicks(set_code, table, player_indexes) {
-
   player_indexes.forEach(i => {
     let player = table.players[i];
-    let deck = _flatten(player.picks.piles);
-    let card = draftbot.pick(set_code, deck, player.picks.packs[0]);
-    makePick(i, set_code, table, null, card, null);
+    packToPick(set_code, player.id, table, null, null, null);
   });
-
 }
 
 function draftBotPickAndPass(player_index, set_code, table) {
