@@ -2,6 +2,8 @@
 
 - pack 1, pick 1 in second pack
 
+- when a user is offlline or has weak connectivity then a lot of rewinds happen
+
 - had to go back to moving picks to deck at the end of all picks
   (were getting stranded with 44 picks so never firing on picksComplete)
 
