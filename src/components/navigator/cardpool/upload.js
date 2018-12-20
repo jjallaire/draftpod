@@ -57,7 +57,7 @@ export function handleCardpoolUpload(set_code, file, complete) {
 
       // extract the fields
       cards = cards.map((card) => {
-        let id = card['id'] || card['Mvid'];
+        let id = set.card_id_filter(set_code, card['id'] || card['Mvid']);
         let quantity = card['quantity'] || card['Total Qty'];
         return {
           id: id,

@@ -20,6 +20,14 @@ export function name(set_code) {
   return sets[set_code].name;
 }
 
+export function card_id_filter(set_code, id) {
+  let filter = sets[set_code].card_id_filter;
+  if (filter)
+    return filter(id);
+  else 
+    return id;
+}
+
 export function pack_cards(set_code) {
   return sets[set_code].pack_cards;
 }

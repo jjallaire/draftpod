@@ -18,7 +18,7 @@ export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 import shortUuid from 'short-uuid'
 import _shuffle from 'lodash/shuffle'
 import _flatten from 'lodash/flatten'
-import _remove from 'lodash/remove'
+import _pullAt from 'lodash/pullAt'
 
 import * as log from '@/log'
 import * as set from './set/'
@@ -732,13 +732,6 @@ function addCardToPile(player, pile, card, insertBefore) {
     pile.push(card_copy);
 }
 
-// the booster function needs to mutate the cardpool 
-// (perhaps return a new cardpool?)
-
-// the 'cards' function needs to accept fallbacks
-// (and we need a new set of booster filters that 
-// automatically include the fallbacks)
-
 function booster(set_code, cardpool) {
 
   // track next key
@@ -767,7 +760,7 @@ function booster(set_code, cardpool) {
         // record index selected (will be removed from cardpool)
         selectedIndexes.push(index);
 
-        // record ids selected (used to prevetn duplicates)
+        // record ids selected (used to prevent duplicates)
         selectedCardIds.push(card.id);
   
         // accumulate card
@@ -780,7 +773,7 @@ function booster(set_code, cardpool) {
     }
   
     // remove drawn cards from cardpool
-    _remove(cardpool, (value, index) => selectedIndexes.indexOf(index) !== -1);
+    _pullAt(cardpool, selectedIndexes);
   
     // return cards
     return cards;

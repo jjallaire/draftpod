@@ -11,6 +11,8 @@
 
 - import Decked Builder YAML (.coll2)
 
+- error if we don't fill all the packs? (otherwise exposed on completed calculations)
+
 - sideboard:
     - automatic ordering?
     - drop targets to deck not big enough
