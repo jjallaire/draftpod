@@ -6,9 +6,6 @@
 - ensure that 15 cards per pack isn't a hard coded thing (it probably is in the pick timer and upload)
 - error if we don't fill all the packs? (otherwise exposed on completed calculations)
 
-- once we get into deckbuilder mode we stop polling for expired picks which means that
-  abandoned players don't complete their picks (this may be fine, let's just make sure)
-
 - sideboard:
     - automatic ordering?
     - drop targets to deck not big enough

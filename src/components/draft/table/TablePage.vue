@@ -97,7 +97,7 @@ export default {
         // each player polls at a slightly different time to reduce collisions
         let timer_ms = Math.floor(((Math.random() * 3) + 4) * 1000); 
         this.pick_timeout_timer = setInterval(() => {
-          if (!this.picks_complete)
+          if (!this.table.picks_complete)
             this.pickTimerExpiredPicks();
         }, timer_ms);
       }
