@@ -549,13 +549,13 @@ function completePicks(table, clear_table) {
   table.picks_complete = true;
 
   // remove non-ai players
-  if (clear_table)
+  if (clear_table) {
     table.players = table.players.filter((player) => player.id !== null);
-
-  // clear picks
-  table.players.forEach(player => {
-    player.picks.piles = [...Array(PICKS.PILES+1)].map(() => Array());
-  });
+    // clear picks
+    table.players.forEach(player => {
+      player.picks.piles = [...Array(PICKS.PILES+1)].map(() => Array());
+    });
+  }
 }
 
 
