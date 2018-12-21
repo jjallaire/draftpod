@@ -1,6 +1,8 @@
 
 
 
+- Ensure that the pick timer can successfully end the draft for another drafter
+
 - Invalidator is causing us to rewind some state. Need to narrow the scope of the auto-pick invalidation to just surprise that exact pick
 
 - Should make the bots rare draft (or some of them)
@@ -23,13 +25,13 @@
 
 - ability to see the other players at the table in multiplayer
 
-- ability to see other players colors / rewind in single player
+- ability to see other players colors after the draft in single player
 
 - log all picks 
 
 - disconnect/delete after multiplayer draft
 
-- GRPD analysis
+- GRPR analysis
 
 Links:
 
