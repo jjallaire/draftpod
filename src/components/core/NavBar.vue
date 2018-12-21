@@ -3,7 +3,7 @@
 
     <img class="navbar-logo" src="/images/logo.svg" />
     <span class="navbar-brand">
-      <router-link class="text-light" to="/" exact>draftpod</router-link>
+      <router-link class="text-light" to="/draft/" exact>draftpod</router-link>
     </span>
     
     <slot>
