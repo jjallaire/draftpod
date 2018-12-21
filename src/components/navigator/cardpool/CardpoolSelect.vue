@@ -275,16 +275,16 @@ export default {
                    ref="cardpool_name" v-model="new_cardpool.name"/>
           </div>
           <div class="form-group">
-            <label for="custom-cardpool-upload">Upload Cardpool CSV:</label>
+            <label for="custom-cardpool-upload">Upload Cardpool:</label>
             <input type="file"  id="custom-cardpool-upload" class="form-control cardpool-upload" 
                    aria-describedby="custom-cardpool-upload-help" 
-                   accept="text/csv" @change="onUploadCardpool"/>
+                   accept="text/csv,.coll2" @change="onUploadCardpool"/>
             <CardpoolUploadStatus :status="new_cardpool.upload_status" />
             <small id="custom-cardpool-upload-help" class="form-text text-muted">
-              <p>The cardpool CSV should include <strong>id</strong> 
-              and <strong>quantity</strong> fields (Multiverse ID and number of each card).
-              CSVs exported from <a href="http://www.deckedbuilder.com" target="_blank">Decked Builder</a> 
-              collections meet these requirements.</p>
+              <p>
+                The cardpool file should either be a Decked Builder collection file (.coll2) or a CSV with <strong>id</strong> 
+                and <strong>quantity</strong> fields (Multiverse ID and number of each card, respectively).
+              </p>
             </small>
 
             <div class="form-group">
@@ -300,7 +300,7 @@ export default {
           <a class="cardpool-action float-right" @click="onRemoveCardpool"><DeleteIcon title="Remove Cardpool"/><span>Remove</span></a>
           <a class="cardpool-action float-right" @click="onUpdateCardpoolClicked"><UploadIcon title="Update Cardpool"/><span>Update...</span></a>
           <input type="file"  id="custom-cardpool-update" ref="cardpool_upload_update"
-                accept="text/csv" @change="onUpdateCardpoolUpload"/>
+                accept="text/csv,.coll2" @change="onUpdateCardpoolUpload"/>
         </div>
         <div style="clear: both;"></div>
         <CardpoolUploadStatus :status="custom_cardpool.upload_status" />
@@ -319,6 +319,7 @@ export default {
 .cardpool-bar {
   padding-right: 8px;
   padding-top: 6px;
+  padding-bottom: 3px;
   vertical-align: middle;
 }
 

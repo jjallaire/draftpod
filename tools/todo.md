@@ -1,13 +1,14 @@
 
 
 
-- import Decked Builder YAML (.coll2)
 
 - sideboard:
     - automatic ordering?
     - drop targets to deck not big enough
     - trash/hide/second pile (pile which won't be in decklist) 
     - additional 'unused pile'
+
+- contraptions pile for unstable?
 
 - sane tablet experience
 
