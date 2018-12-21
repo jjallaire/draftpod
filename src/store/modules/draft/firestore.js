@@ -85,7 +85,7 @@ export default {
             .catch(log.logException);
         }
       }, error => {
-        log.logException(error);
+        log.logException(error, "onDraftTableChanged");
       });
   },
 

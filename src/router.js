@@ -42,7 +42,7 @@ export default new VueRouter({
               next();
             })
             .catch(error => {
-              log.logException(error);
+              log.logException(error, "onGetDraftBeforeDraft");
               next();
             });
 
@@ -82,7 +82,7 @@ export default new VueRouter({
             next();
         })
         .catch(error => {
-          log.logException(error);
+          log.logException(error, "onGetDraftBeforeJoin");
           store.commit(REMOVE_DRAFTS, [draft_id]);
           next();
         });

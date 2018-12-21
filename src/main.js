@@ -31,7 +31,7 @@ firebase.auth().signInAnonymously()
     initApp(response.user.uid);
   })
   .catch((error) => {
-    log.logException(error);
+    log.logException(error, "onAnonymousSignIn");
     initApp();
   });
 

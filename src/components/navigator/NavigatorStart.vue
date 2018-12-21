@@ -130,7 +130,7 @@ export default {
               this.beginDraft(draft_id);
             })
             .catch((error) => {
-              log.logException(error);
+              log.logException(error, "onStartDraft");
               messagebox.alert("Unable to start draft: " + error.message);
             });   
           }
@@ -152,7 +152,7 @@ export default {
           utils.scrollIntoView(this.$refs.provideCardRatings);
         })
         .catch((error) => {
-          log.logException(error);
+          log.logException(error, "onCreateMultiplayerDraft");
           messagebox.alert(
             "Unable to start draft: " + error.message,
             () => window.location.reload());

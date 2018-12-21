@@ -262,7 +262,7 @@ function updateTable(state, writer, invalidator) {
     firestore.updateDraftTable(state.id, versioned_writer, invalidator) 
       .catch(function(error) {
         if (error !== firestore.error_invalidated) {
-          log.logException(error);
+          log.logException(error, "onUpdateDraftTable");
         }
       });
 
