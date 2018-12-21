@@ -21,9 +21,9 @@ export function cardRatings(set_code, deck, pack) {
   // bias compared to off-color cards?
   let color_bias_pick = 7;
   
-  // after what pick do we stop considering on-color cards even if
+  // after what pick do we stop considering off-color cards even if
   // they have a very high rating?
-  let color_lock_pick = set.pack_cards(set_code);
+  let color_lock_pick = set.pack_cards(set_code) + 4;
 
   // return ratings                               
   return pack
@@ -49,13 +49,24 @@ export function cardRatings(set_code, deck, pack) {
       }
     })
 
-    // order cards by rating (after ~ 15 picks we will refuse to order
-    // a card without a color bonus above one with a color bonus)
+    // order cards by rating with some adjustments for color commitment
+    // and rare-drafting
     .sort((a, b) => {
+      
+      // tie in ratings goes to the larger color_bonus
       if (a.rating === b.rating)
         return b.color_bonus - a.color_bonus;
+      
+      // if we see a ~ top 10 card we will always take it
+      else if (a.base_rating >= 4.5 || b.base_rating >= 4.5)
+        return b.base_rating - a.base_rating;
+
+      // before pick ~ 20 we'll just compare the ratings
       else if (pick_number <= color_lock_pick)
         return b.rating - a.rating
+     
+      // otherwise, after ~ pick 20 we will refuse to order 
+      // a card without a color bonus above one with a color bonus
       else {
         if (b.color_bonus == 0 && a.color_bonus !== 0)
           return -1;
