@@ -581,9 +581,12 @@ function computeAutoLands(deck) {
   const total_land_cards = 17;
   let total_card_colors = selectors.sumValues(card_colors);  
   let mana_targets = {};
-  Object.keys(card_colors).map(
-    (color) => mana_targets[color] = (card_colors[color]/total_card_colors) * total_land_cards
-  );
+  Object.keys(card_colors).map(color => {
+    let target = (card_colors[color]/total_card_colors) * total_land_cards;
+    if (target > 0)
+      target = Math.max(target, 1);
+    mana_targets[color] = target;
+  });
 
   // now count existing sources of mana (e.g. dual lands)
   let lands = deck.piles[DECK.LANDS];
