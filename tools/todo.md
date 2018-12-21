@@ -16,10 +16,10 @@
 
 - ability to see other players colors after the draft in single player
 
-- log all picks 
-
+- store user ID in session cookie (so that there is no association saved)
 - disconnect/delete after multiplayer draft
-
+- log all picks 
+      <card-id>, <pack-cards>
 - GRPR analysis
 
 Links:
