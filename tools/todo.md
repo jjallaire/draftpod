@@ -1,6 +1,10 @@
 
 
 
+- Invalidator is causing us to rewind some state. Need to narrow the scope of the auto-pick invalidation to just surprise that exact pick
+
+- Should make the bots rare draft (or some of them)
+
 - import Decked Builder YAML (.coll2)
 
 - error if we don't fill all the packs? (otherwise exposed on completed calculations)
