@@ -63,6 +63,13 @@ export default {
             options
           });
 
+          // fail if we didn't get enough cards per pack
+          let table = state.drafts[draft_id].table;
+          if (table.all_packs.find(pack => pack.length !== set.pack_cards(set_code))) {
+            reject(new Error("The cardpool did not have enough cards to make 24 booster packs."));
+            return;
+          }
+
           // write to firestore if requested
           if (options.multi_player) {
             firestore.createDraft(draft_id, state.drafts[draft_id])
