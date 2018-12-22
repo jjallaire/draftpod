@@ -13,13 +13,9 @@
 - sane tablet experience
 
 - ability to see the other players at the table in multiplayer
-
 - ability to see other players colors after the draft in single player
 
 - store user ID in session cookie (so that there is no association saved)
-- disconnect/delete after multiplayer draft
-- log all picks 
-      <card-id>, <pack-cards>
 - GRPR analysis
 
 Links:
