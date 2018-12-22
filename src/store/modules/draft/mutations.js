@@ -137,7 +137,8 @@ export default {
     let timed_out_player_indexes = timedOutOtherPlayerIndexes(player_id, state.table);
     if (timed_out_player_indexes.length > 0) {
       updateTable(state, (table) => {
-        makePickTimerExpiredPicks(state.set.code, table, timed_out_player_indexes);
+        let indexes = timedOutOtherPlayerIndexes(player_id, table);
+        makePickTimerExpiredPicks(state.set.code, table, indexes);
       })
     }
   },
