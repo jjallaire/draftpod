@@ -25,7 +25,7 @@ export default {
 <template>
   <UiPanel class="pack-panel">
     <div v-if="pack">
-      <MtgCard v-for="card in pack" :key="card.key" 
+      <MtgCard v-for="(card, index) in pack" :key="index" 
             :card="card" :drag_source="drag_source">
       </MtgCard>
     </div>

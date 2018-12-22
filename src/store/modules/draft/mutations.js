@@ -739,9 +739,6 @@ function addCardToPile(player, pile, card, insertBefore) {
 
 function booster(set_code, cardpool) {
 
-  // track next key
-  let next_key = 0;
-
   // track cards already selected (to prevent duplicates)
   let selectedCardIds = [];
 
@@ -769,9 +766,7 @@ function booster(set_code, cardpool) {
         selectedCardIds.push(card.id);
   
         // accumulate card
-        cards.push({...card, 
-          key: next_key++, 
-        });
+        cards.push(card);
       }
       if (cards.length >= number)
         break;

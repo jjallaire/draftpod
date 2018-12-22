@@ -139,7 +139,18 @@ function convertDraftTable(table, cardConverter) {
 }
 
 function cardsToIds(cards) {
-  return cards.map(card => (card === null) ? null : { id: card.id, key: card.key });
+  return cards.map(card => {
+    if (card !== null) {
+      // if the card has a key then save that too
+      if (card.key)
+        return { id: card.id, key: card.key }
+      // otherwise just save the plain integer id
+      else
+        return card.id;
+    } else {
+      return null;
+    }
+  });  
 }
 
 function idsToCards(set_cards) {
@@ -150,11 +161,13 @@ function idsToCards(set_cards) {
     cards[card.id] = card;
   });
 
+  // unserialize either plain ids or object with id/key
   return function(ids) {
     return ids.map(id => { 
-      return {
-        ...cards[id.id], key: id.key 
-      }
+      if (typeof id === 'object')
+        return { ...cards[id.id], key: id.key };
+      else
+        return cards[id];
     });
   }
 }
