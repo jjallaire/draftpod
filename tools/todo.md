@@ -11,6 +11,8 @@
 - contraptions pile for unstable?
 
 - sane tablet experience
+   - native touch event support; OR
+   - https://github.com/kutlugsahin/vue-smooth-dnd
 
 - ability to see the other players at the table in multiplayer
 - ability to see other players colors after the draft in single player
