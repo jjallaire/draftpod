@@ -16,9 +16,6 @@
 - ability to see other players colors after the draft in single player
 - ability to rewind draft?
 
-- store user ID in session cookie (so that there is no association saved)
-- GRPR analysis
-
 Links:
 
 - Ben Stark "Drafting the Hard Way"
