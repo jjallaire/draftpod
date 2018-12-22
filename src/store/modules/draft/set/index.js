@@ -3,13 +3,15 @@
 import dom from './set-dom'
 import m19 from './set-m19'
 import grn from './set-grn'
+import ust from './set-ust'
 
 import axios from 'axios'
 
 const sets = {
   dom,
   m19,
-  grn
+  grn,
+  ust
 }
 
 const cards_cache = {

@@ -40,6 +40,7 @@ export default {
       <option value="grn">Guilds of Ravnica</option>
       <option value="m19">Core Set 2019</option>
       <option value="dom">Dominaria</option>
+      <option value="ust">Unstable</option>
     </select>
   </div>
 </div>
