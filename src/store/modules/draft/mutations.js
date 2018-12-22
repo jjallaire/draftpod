@@ -61,6 +61,10 @@ export default {
         return booster(set_code, cardpool);
       });
     });
+
+    // save the packs we started with
+    state.packs = state.table.all_packs
+      .map(pack => pack.map(card => card.id).join(','));
   },  
 
   [JOIN_DRAFT](state, player_info) {
@@ -420,6 +424,9 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
   // add to pile
   addCardToPile(player, piles[pile_number], card, insertBefore);
 
+  // record pick_order
+  player.picks.pick_order.push(card.id);
+
   // pass pack to next player if it's not empty
   if (pack.length > 0)
     passPack(player_index, set_code, table);  
@@ -548,10 +555,8 @@ function completePicks(table, clear_table) {
   // set completed status
   table.picks_complete = true;
 
-  // remove non-ai players
+  // clear picks 
   if (clear_table) {
-    table.players = table.players.filter((player) => player.id !== null);
-    // clear picks
     table.players.forEach(player => {
       player.picks.piles = [...Array(PICKS.PILES+1)].map(() => Array());
     });

@@ -15,6 +15,7 @@ export default {
         id: id,
         set: draft.set,
         options: draft.options,
+        packs: draft.packs,
         table: table
       });
     });

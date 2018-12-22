@@ -23,6 +23,9 @@ export default function() {
       multi_player: false
     },
 
+    // packs for this draft
+    packs: null,
+
     // table
     table: {
       start_time: null,
@@ -53,6 +56,9 @@ function playerPicks() {
 
     // piles for cards + 1 pile for sideboard
     piles: [...Array(PICKS.PILES+1)].map(() => Array()),
+
+    // pick order
+    pick_order: []
   }
 }
 
