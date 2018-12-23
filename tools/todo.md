@@ -1,9 +1,6 @@
 
 
 
-- Unstable: uncommonNotContraption needs to be able to use bootser.uncommon
-  (filters.join needs to handle multiple)
-
 - Unstable: augment cards show up as 0 mana. Would have to pull it out of the 
   Oracle text field, e.g. "oracle_text": "At the beginning of your upkeep,\nAugment {5}{U}"
 
