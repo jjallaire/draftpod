@@ -10,7 +10,6 @@ import DeckPanel from '../deck/DeckPanel.vue'
 
 import { REMOVE_DRAFTS } from '@/store/mutations'
 import { RESUME_DRAFT, WRITE_TABLE, PACK_TO_PICK, PICK_TO_PILE, 
-         PICK_TIMER_EXPIRED_PICKS,
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/mutations';
 
@@ -91,16 +90,6 @@ export default {
         // write locally
         this.writeTable({ table });
       });
-
-      // pick timer for other players that may have disconnected
-      if (this.options.pick_timer) {
-        // each player polls at a slightly different time to reduce collisions
-        let timer_ms = Math.floor(((Math.random() * 3) + 4) * 1000); 
-        this.pick_timeout_timer = setInterval(() => {
-          if (!this.table.picks_complete)
-            this.pickTimerExpiredPicks();
-        }, timer_ms);
-      }
     }
 
     // update fullscreen state on change
@@ -200,9 +189,6 @@ export default {
       },
       pickToPile(dispatch, payload) {
         return dispatch(this.namespace + '/' + PICK_TO_PILE, this.withPlayerId(payload));
-      },
-      pickTimerExpiredPicks(dispatch) {
-        return dispatch(this.namespace + '/' + PICK_TIMER_EXPIRED_PICKS, this.withPlayerId({}));
       },
       deckToSideboard(dispatch, payload) {
         return dispatch(this.namespace + '/' + DECK_TO_SIDEBOARD, this.withPlayerId(payload));

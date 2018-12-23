@@ -6,7 +6,6 @@ export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const SIMULATE_DRAFT = 'SIMULATE_DRAFT'
 export const WRITE_TABLE = 'WRITE_TABLE'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
-export const PICK_TIMER_EXPIRED_PICKS = 'PICK_TIMER_EXPIRED_PICKS'
 export const NEXT_PACK = 'NEXT_PACK'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
 export const DECK_TO_SIDEBOARD = 'DECK_TO_SIDEBOARD'
@@ -107,40 +106,10 @@ export default {
   },
 
   [PACK_TO_PICK](state, { player_id, card, pile_number, insertBefore }) {
-
-    // invalidator function to ensure that we don't write our pick in the case
-    // where we've already been auto-picked by another client (e.g. when the
-    // pick timer expires)
-    const pickedBefore = selectors.activeCards(player_id, state.table).length;
-    const invalidator = (table) => {
-
-      // if the draft completed then invalidate
-      if (table.picks_complete)
-        return false;
-
-      // if our picks have been advanced (e.g. by a pick-timeout) then invalidate
-      let picked = selectors.activeCards(player_id, table).length;
-      if (picked > pickedBefore)
-        return false;
-
-      // otherwise we are in the clear
-      return true;
-    };
-
     updateTable(state, (table) => {
       packToPick(state.set.code, player_id, 
                  table, card, pile_number, insertBefore)
-    }, invalidator);
-  },
-
-  [PICK_TIMER_EXPIRED_PICKS](state, { player_id } ) {
-    let timed_out_player_indexes = timedOutOtherPlayerIndexes(player_id, state.table);
-    if (timed_out_player_indexes.length > 0) {
-      updateTable(state, (table) => {
-        let indexes = timedOutOtherPlayerIndexes(player_id, table);
-        makePickTimerExpiredPicks(state.set.code, table, indexes);
-      })
-    }
+    });
   },
 
   [PICK_TO_PILE](state, { player_id, card, pile_number, insertBefore}) {
@@ -245,7 +214,7 @@ function initTable(state, writer) {
 }
 
 // update the table, writing through to firebase
-function updateTable(state, writer, invalidator) {
+function updateTable(state, writer) {
 
   // create a writer that will stamp the write with a
   // version (this will allow us to ignore the onSnapshot
@@ -264,11 +233,9 @@ function updateTable(state, writer, invalidator) {
   // write to firestore if requested
   if (state.options.multi_player) {
 
-    firestore.updateDraftTable(state.id, versioned_writer, invalidator) 
+    firestore.updateDraftTable(state.id, versioned_writer) 
       .catch(function(error) {
-        if (error !== firestore.error_invalidated) {
-          log.logException(error, "onUpdateDraftTable");
-        }
+        log.logException(error, "onUpdateDraftTable");
       });
 
   }
@@ -438,39 +405,8 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
 }
 
 
-function timedOutOtherPlayerIndexes(player_id, table) {
-
-  let indexes = [];
-
-  for (let i = 0; i<table.players.length; i++) {
-
-    // if it's a real player as opposed to a bot
-    let player = table.players[i];
-    if (player.id !== null) {
-
-      // check if we are 2 seconds past the end time
-      if (player.picks.packs.length > 0 &&
-          player.picks.packs[0].length > 0 &&
-          new Date().getTime() > (player.picks.pick_end_time + 2000)) {
-        indexes.push(i);
-      }
-    }
-  }
-
-  // filter out the current player
-  let player_index = playerIndex(player_id, table);
-  return indexes.filter(i => i !== player_index);
-}
-
 function nextKey(player) {
   return player.next_key++;
-}
-
-function makePickTimerExpiredPicks(set_code, table, player_indexes) {
-  player_indexes.forEach(i => {
-    let player = table.players[i];
-    packToPick(set_code, player.id, table, null, null, null);
-  });
 }
 
 function draftBotPickAndPass(player_index, set_code, table) {
