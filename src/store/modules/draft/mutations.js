@@ -18,7 +18,6 @@ import shortUuid from 'short-uuid'
 import _shuffle from 'lodash/shuffle'
 import _flatten from 'lodash/flatten'
 import _pullAt from 'lodash/pullAt'
-import _findIndex from 'lodash/findIndex'
 
 import * as log from '@/log'
 import * as set from './set/'
@@ -388,7 +387,7 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
   }
 
   // remove from pack
-  pack.splice(_findIndex(pack, c => c.id === card.id), 1);
+  pack.splice(cardIndex(pack, card), 1);
 
   // add to pile
   addCardToPile(player, piles[pile_number], card, insertBefore);
@@ -403,11 +402,6 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
   // move picks to deck for non-ai players if we are done
   if (player.id !== null && selectors.picksComplete(player.id, set_code, table))
     movePicksToDeck(player);
-}
-
-
-function nextKey(player) {
-  return player.next_key++;
 }
 
 function draftBotPickAndPass(player_index, set_code, table) {
@@ -443,7 +437,7 @@ function draftBotPickAndPass(player_index, set_code, table) {
 function cardToDeckPile(player, c, deck) {
 
   // add card to pile
-  let card = {...c, key: nextKey(player)};
+  let card = {...c, key: shortUuid().new()};
   let deck_piles = deck.piles;
   let pile = null;
 
@@ -677,7 +671,7 @@ function pileToPile(player, card, pile_number, piles, insertBefore) {
 }
 
 function addCardToPile(player, pile, card, insertBefore) {
-  let card_copy = { ...card, key: nextKey(player) };
+  let card_copy = { ...card, key: shortUuid().new() };
   if (insertBefore !== null)
     pile.splice(insertBefore, 0, card_copy);
   else
@@ -713,7 +707,10 @@ function booster(set_code, cardpool) {
         selectedCardIds.push(card.id);
   
         // accumulate card
-        cards.push(card);
+        cards.push({
+          ...card,
+          key: shortUuid().new()
+        });
       }
       if (cards.length >= number)
         break;
