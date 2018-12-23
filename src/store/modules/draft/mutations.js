@@ -18,6 +18,7 @@ import shortUuid from 'short-uuid'
 import _shuffle from 'lodash/shuffle'
 import _flatten from 'lodash/flatten'
 import _pullAt from 'lodash/pullAt'
+import _findIndex from 'lodash/findIndex'
 
 import * as log from '@/log'
 import * as set from './set/'
@@ -387,7 +388,7 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
   }
 
   // remove from pack
-  pack.splice(cardIndex(pack, card), 1);
+  pack.splice(_findIndex(pack, c => c.id === card.id), 1);
 
   // add to pile
   addCardToPile(player, piles[pile_number], card, insertBefore);
