@@ -2,6 +2,7 @@
 
 import * as cube from './cube'
 import * as filters from '../card-filters'
+import * as booster from './booster'
 
 export default {
 
@@ -15,9 +16,9 @@ export default {
 
     let cards = [].concat(
       selectCards(contraption, 2),
-      selectCards(packRateSlotNotContraption, 1),
-      selectCards(uncommonNotContraption, 3),
-      selectCards(commonNotContraption, 8)
+      selectCards(unstableFilter(booster.packRareSlot), 1),
+      selectCards(unstableFilter(booster.uncommon), 3),
+      selectCards(unstableFilter(booster.common), 8)
     );
 
     return cards;
@@ -29,10 +30,9 @@ export function contraption(card) {
   return card.type_line.includes("Contraption");
 }
 
-const packRateSlotNotContraption = filters.join(filters.packRareSlot, card => !contraption(card));
-const uncommonNotContraption = filters.join(filters.uncommon, card => !contraption(card));
-const commonNotContraption = filters.join(filters.common, card => !contraption(card));
-
+function unstableFilter(boosterFilter) {
+  return boosterFilter.map(filter => filters.join(filter, card => !contraption(card)));
+}
 
 
 

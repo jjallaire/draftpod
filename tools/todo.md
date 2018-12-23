@@ -1,9 +1,13 @@
 
 
 
-- Unstable: augment cards show up as 0 mana
+- Unstable: uncommonNotContraption needs to be able to use bootser.uncommon
+  (filters.join needs to handle multiple)
 
-- fail to import all of the card faces for Unstable:
+- Unstable: augment cards show up as 0 mana. Would have to pull it out of the 
+  Oracle text field, e.g. "oracle_text": "At the beginning of your upkeep,\nAugment {5}{U}"
+
+- Unstable: fail to import all of the card faces
     - Novellamenta - 98
     - Secret Base - 162
     - Extremely Slow Zombie - 169
@@ -11,9 +15,6 @@
     - Amatuer Auteur - 203
     - Curious Killbot - 208
     - Beast in Show - 209
-
-- Unstable uncommonNotContraption needs to be able to use bootser.uncommon
-  (filters.join needs to handle multiple)
 
 - sideboard:
     - automatic ordering?
