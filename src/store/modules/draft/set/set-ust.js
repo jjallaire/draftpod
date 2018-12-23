@@ -8,7 +8,7 @@ export default {
 
   name: "Unstable",
 
-  pack_cards: 14,
+  pack_cards: 12,
 
   cube: cube.build,
 
@@ -18,7 +18,7 @@ export default {
       selectCards(contraption, 2),
       selectCards(unstableFilter(booster.packRareSlot), 1),
       selectCards(unstableFilter(booster.uncommon), 3),
-      selectCards(unstableFilter(booster.common), 8)
+      selectCards(unstableFilter(booster.common), 6)
     );
 
     return cards;
