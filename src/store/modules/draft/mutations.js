@@ -631,20 +631,24 @@ function rankColors(card_colors) {
 
 function orderCards(a, b) {
 
-  let aIsCreature = filters.creature(a);
-  let bIsCreature = filters.creature(b);
-
-  if (aIsCreature === bIsCreature) {
-    if (a.name < b.name)
+  if (a.cmc !== b.cmc) {
+    return a.cmc - b.cmc;
+  } else {
+    let aIsCreature = filters.creature(a);
+    let bIsCreature = filters.creature(b);
+  
+    if (aIsCreature === bIsCreature) {
+      if (a.name < b.name)
+        return -1;
+      else if (b.name < a.name)
+        return 1;
+      else
+        return 0;
+    } else if (aIsCreature && !bIsCreature)
       return -1;
-    else if (b.name < a.name)
+    else if (bIsCreature && !aIsCreature)
       return 1;
-    else
-      return 0;
-  } else if (aIsCreature && !bIsCreature)
-    return -1;
-  else if (bIsCreature && !aIsCreature)
-    return 1;
+  }
 }
 
 function pileToPile(player, card, pile_number, piles, insertBefore) {
