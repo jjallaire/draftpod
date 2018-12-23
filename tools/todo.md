@@ -1,9 +1,7 @@
 
 
 
-- Unstable: contraptions always snapped up first
 - Unstable: augment cards show up as 0 mana
-- Unstable: Order 0 drops before 1 drops and 6 drops before 6+ drops
 
 - fail to import all of the card faces for Unstable:
     - Novellamenta - 98
