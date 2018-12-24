@@ -50,6 +50,9 @@ download_set <- function(set,
     # get id
     multiverse_ids <- card$multiverse_ids
     
+    # convert collector_number to integer
+    collector_number <- as.integer(gsub("[A-Za-z]+", "", card$collector_number))
+    
     # get rating
     if (!is.null(ratings)) {
       ratings_for_id <- subset(ratings, id == multiverse_ids[[1]])
@@ -65,7 +68,7 @@ download_set <- function(set,
     list(
       id = multiverse_ids[[1]],
       name = card$name,
-      collector_number = as.integer(card$collector_number),
+      collector_number = collector_number,
       multiverse_ids = I(multiverse_ids),
       image_uris = I(image_uris),
       type_line = card$type_line,

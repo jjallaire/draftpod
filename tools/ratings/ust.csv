@@ -1,14 +1,16 @@
 "id","name","rating"
-439390,"Adorable Kitten",1.5
+439390,"Adorable Kitten",2
 439391,"Aerial Toastmaster",2
+439392,"Amateur Auteur",0.5
 439393,"By Gnome Means",3
 439394,"Chivalrous Chevalier",1.5
 439395,"Do-It-Yourself Seraph",4
 439396,"Gimme Five",0
 439397,"GO TO JAIL",3.5
-439398,"Half-Kitten, Half-",2
+439398,"Half-Kitten, Half-",1.5
 439399,"Humming-",3
 439400,"Jackknight",3.5
+439401,"Knight of the Kitchen Sink",3
 439402,"Knight of the Widget",1.5
 439403,"Midlife Upgrade",0
 439404,"Oddly Uneven",3.5
@@ -18,7 +20,7 @@
 439408,"Riveting Rigger",2.5
 439409,"Rules Lawyer",4
 439410,"Sacrifice Play",2
-439411,"Shaggy Camel",1.5
+439411,"Shaggy Camel",2
 439412,"Side Quest",1
 439413,"Success!",1.5
 439414,"Teacher's Pet",3
@@ -37,40 +39,42 @@
 439427,"Magic Word",3.5
 439428,"Mer Man",2.5
 439429,"More or Less",1.5
+439430,"Novellamental",2.5
 439431,"Numbing Jellyfish",0.5
 439432,"S.N.E.A.K. Dispatcher",3
 439433,"Socketed Sprocketer",2
 439434,"Spell Suck",2.5
-439435,"Spy Eye",2.5
+439435,"Spy Eye",3
 439436,"Suspicious Nanny",3
 439437,"Time Out",3
 439439,"Wall of Fortune",1.5
 439440,"Big Boa Constrictor",2
 439441,"capital offense",3.5
 439442,"Dirty Rat",1.5
+439443,"Extremely Slow Zombie",1
 439444,"Finders, Keepers",3.5
 439445,"Hangman",3
-439446,"Hazmat Suit (Used)",0.5
+439446,"Hazmat Suit (Used)",1
 439447,"Hoisted Hireling",2.5
 439448,"Inhumaniac",3
 439449,"Masterful Ninja",3.5
 439450,"Ninja",1.5
-439451,"Old-Fashioned Vampire",3
+439451,"Old-Fashioned Vampire",3.5
 439452,"Over My Dead Bodies",3
 439453,"Overt Operative",3
 439454,"""Rumors of My Death . . .""",1
 439455,"Skull Saucer",3
 439457,"Snickering Squirrel",2
 439458,"Spike, Tournament Grinder",3.5
-439459,"Squirrel-Powered Scheme",2.5
+439459,"Squirrel-Powered Scheme",3
 439460,"Steady-Handed Mook",3
 439461,"Stinging Scorpion",1
 439462,"Subcontract",1.5
 439463,"Summon the Pack",3.5
-439464,"Zombified",1
+439464,"Zombified",1.5
 439465,"The Big Idea",4
 439466,"Box of Free-Range Goblins",0
-439467,"Bumbling Pangolin",1
+439467,"Bumbling Pangolin",1.5
 439468,"Common Iguana",1
 439469,"The Countdown Is at One",3
 439470,"Feisty Stegosaurus",2.5
@@ -89,16 +93,18 @@
 439484,"Steamflogger Temp",1
 439485,"Steamfloggery",1.5
 439486,"Super-Duper Death Ray",3.5
+439487,"Target Minotaur",1
 439488,"Three-Headed Goblin",3.5
 439489,"Work a Double",2
 439490,"Wrench-Rigger",3
 439491,"As Luck Would Have It",2
+439492,"Beast in Show",0
 439493,"Chittering Doom",2
 439494,"Clever Combo",2
 439495,"Druid of the Sacred Beaker",3
 439496,"Eager Beaver",1.5
 439497,"Earl of Squirrel",4.5
-439498,"First Pick",2
+439498,"First Pick",2.5
 439499,"Ground Pounder",2.5
 439500,"Half-Squirrel, Half-",3
 439501,"Hydradoodle",4
@@ -107,11 +113,11 @@
 439505,"Mother Kangaroo",1.5
 439506,"Multi-Headed",1.5
 439507,"Really Epic Punch",3
-439508,"Selfie Preservation",1.5
-439509,"Serpentine",3
+439508,"Selfie Preservation",2
+439509,"Serpentine",3.5
 439510,"Shellephant",2.5
 439511,"Slaying Mantis",3
-439512,"Squirrel Dealer",2.5
+439512,"Squirrel Dealer",3
 439513,"Steamflogger Service Rep",2
 439514,"Wild Crocodile",2.5
 439515,"Willing Test Subject",1.5
@@ -120,7 +126,7 @@
 439518,"Cramped Bunker",2
 439519,"Dr. Julius Jumblemorph",4.5
 439520,"The Grand Calcutron",3
-439521,"Grusilda, Monster Masher",3.5
+439521,"Grusilda, Monster Masher",4
 439522,"Hot Fix",3
 439523,"Ol' Buzzbark",4.5
 439524,"Phoebe, Head of S.N.E.A.K.",4.5
@@ -133,6 +139,7 @@
 439531,"Clock of DOOOOOOOOOOOOM!",2
 439532,"Cogmentor",1
 439533,"Contraption Cannon",0.5
+439534,"Curious Killbot",0
 439535,"Entirely Normal Armchair",3.5
 439537,"Gnome-Made Engine",1.5
 439538,"Handy Dandy Clone Machine",3
@@ -165,7 +172,7 @@
 439566,"Division Table",0
 439567,"Dogsnail Engine",0
 439568,"Dual Doomsuits",3.5
-439569,"Duplication Device",2
+439569,"Duplication Device",2.5
 439570,"Faerie Aerie",4
 439571,"Genetic Recombinator",2.5
 439572,"Gift Horse",3
@@ -199,12 +206,12 @@
 439600,"Widget Contraption",3
 439601,"Plains",0.5
 439602,"Island",1
-439603,"Swamp",0
+439603,"Swamp",0.5
 439604,"Mountain",1
 439605,"Forest",1
-439628,"Knight of the Kitchen Sink",3
-439633,"Garbage Elemental",2
-439638,"Ineffable Blessing",3.5
-439643,"Everythingamajig",3.5
+439606,"Secret Base",1.5
+439631,"Garbage Elemental",2
+439635,"Ineffable Blessing",3.5
+439641,"Everythingamajig",3.5
 439648,"Very Cryptic Command",3.5
-439653,"Sly Spy",3
+439654,"Sly Spy",3
