@@ -1,1 +1,4589 @@
-[{"id":439556,"name":"Accessories to Murder","collector_number":167,"multiverse_ids":[439556],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/167.jpg?1522208496"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":1.5},{"id":439390,"name":"Adorable Kitten","collector_number":1,"multiverse_ids":[439390],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/1.jpg?1522205313"],"type_line":"Host Creature — Cat","mana_cost":"{W}","cmc":1,"colors":["W"],"rarity":"common","rating":2},{"id":439391,"name":"Aerial Toastmaster","collector_number":2,"multiverse_ids":[439391],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/2.jpg?1522205326"],"type_line":"Artifact Creature — Cyborg Rigger","mana_cost":"{3}{W}","cmc":4,"colors":["W"],"rarity":"uncommon","rating":2},{"id":439392,"name":"Amateur Auteur","collector_number":3,"multiverse_ids":[439392],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/3a.jpg?1522205340"],"type_line":"Creature — Human","mana_cost":"{1}{W}","cmc":2,"colors":["W"],"rarity":"common","rating":0.5},{"id":439528,"name":"Angelic Rocket","collector_number":139,"multiverse_ids":[439528],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/139.jpg?1522207988"],"type_line":"Artifact Host Creature — Angel","mana_cost":"{8}","cmc":8,"colors":[],"rarity":"rare","rating":4},{"id":439415,"name":"Animate Library","collector_number":26,"multiverse_ids":[439415],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/26.jpg?1522205862"],"type_line":"Enchantment — Aura","mana_cost":"{4}{U}{U}","cmc":6,"colors":["U"],"rarity":"rare","rating":3.5},{"id":439557,"name":"Applied Aeronautics","collector_number":168,"multiverse_ids":[439557],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/168.jpg?1522208515"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":0.5},{"id":439558,"name":"Arms Depot","collector_number":169,"multiverse_ids":[439558],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/169.jpg?1522208527"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":3},{"id":439491,"name":"As Luck Would Have It","collector_number":102,"multiverse_ids":[439491],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/102.jpg?1522207381"],"type_line":"Enchantment","mana_cost":"{G}","cmc":1,"colors":["G"],"rarity":"rare","rating":2},{"id":439559,"name":"Auto-Key","collector_number":170,"multiverse_ids":[439559],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/170.jpg?1522208539"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":0},{"id":439516,"name":"Baron Von Count","collector_number":127,"multiverse_ids":[439516],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/127.jpg?1522207829"],"type_line":"Legendary Creature — Human Villain","mana_cost":"{1}{B}{R}","cmc":3,"colors":["B","R"],"rarity":"mythic","rating":3.5},{"id":439492,"name":"Beast in Show","collector_number":103,"multiverse_ids":[439492],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/103a.jpg?1522207393"],"type_line":"Creature — Beast","mana_cost":"{4}{G}{G}","cmc":6,"colors":["G"],"rarity":"common","rating":0},{"id":439560,"name":"Bee-Bee Gun","collector_number":171,"multiverse_ids":[439560],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/171.jpg?1522208557"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"mythic","rating":3},{"id":439517,"name":"Better Than One","collector_number":128,"multiverse_ids":[439517],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/128.jpg?1522207841"],"type_line":"Sorcery","mana_cost":"{G}{W}","cmc":2,"colors":["G","W"],"rarity":"rare","rating":3},{"id":439440,"name":"Big Boa Constrictor","collector_number":51,"multiverse_ids":[439440],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/51.jpg?1522206381"],"type_line":"Host Creature — Snake","mana_cost":"{3}{B}","cmc":4,"colors":["B"],"rarity":"common","rating":2},{"id":439416,"name":"Blurry Beeble","collector_number":27,"multiverse_ids":[439416],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/27.jpg?1522205874"],"type_line":"Artifact Creature — Cyborg Beeble","mana_cost":"{U}","cmc":1,"colors":["U"],"rarity":"common","rating":2.5},{"id":439561,"name":"Boomflinger","collector_number":172,"multiverse_ids":[439561],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/172.jpg?1522208570"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":1},{"id":439529,"name":"Border Guardian","collector_number":140,"multiverse_ids":[439529],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/140.jpg?1522208001"],"type_line":"Artifact Creature — Knight","mana_cost":"{4}","cmc":4,"colors":[],"rarity":"uncommon","rating":1},{"id":439466,"name":"Box of Free-Range Goblins","collector_number":77,"multiverse_ids":[439466],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/77.jpg?1522206912"],"type_line":"Sorcery","mana_cost":"{4}{R}{R}","cmc":6,"colors":["R"],"rarity":"common","rating":0},{"id":439467,"name":"Bumbling Pangolin","collector_number":78,"multiverse_ids":[439467],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/78.jpg?1529426547"],"type_line":"Host Creature — Pangolin Beast","mana_cost":"{3}{R}","cmc":4,"colors":["R"],"rarity":"common","rating":1.5},{"id":439562,"name":"Buzz Buggy","collector_number":173,"multiverse_ids":[439562],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/173.jpg?1522208582"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":2},{"id":439530,"name":"Buzzing Whack-a-Doodle","collector_number":141,"multiverse_ids":[439530],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/141.jpg?1522208014"],"type_line":"Artifact","mana_cost":"{4}","cmc":4,"colors":[],"rarity":"uncommon","rating":3},{"id":439393,"name":"By Gnome Means","collector_number":4,"multiverse_ids":[439393],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/4.jpg?1522205408"],"type_line":"Enchantment","mana_cost":"{2}{W}","cmc":3,"colors":["W"],"rarity":"rare","rating":3},{"id":439441,"name":"capital offense","collector_number":52,"multiverse_ids":[439441],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/52.jpg?1522206397"],"type_line":"instant","mana_cost":"{2}{B}{B}","cmc":4,"colors":["B"],"rarity":"common","rating":3.5},{"id":439417,"name":"Chipper Chopper","collector_number":28,"multiverse_ids":[439417],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/28.jpg?1522205890"],"type_line":"Artifact Creature — Cyborg Rigger","mana_cost":"{3}{U}","cmc":4,"colors":["U"],"rarity":"common","rating":2.5},{"id":439493,"name":"Chittering Doom","collector_number":104,"multiverse_ids":[439493],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/104.jpg?1522207449"],"type_line":"Enchantment","mana_cost":"{3}{G}","cmc":4,"colors":["G"],"rarity":"uncommon","rating":2},{"id":439394,"name":"Chivalrous Chevalier","collector_number":5,"multiverse_ids":[439394],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/5.jpg?1522205420"],"type_line":"Artifact Creature — Cyborg Knight","mana_cost":"{4}{W}","cmc":5,"colors":["W"],"rarity":"common","rating":1.5},{"id":439494,"name":"Clever Combo","collector_number":105,"multiverse_ids":[439494],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/105.jpg?1522207460"],"type_line":"Sorcery","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"uncommon","rating":2},{"id":439418,"name":"Clocknapper","collector_number":29,"multiverse_ids":[439418],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/29.jpg?1522205903"],"type_line":"Creature — Human Spy","mana_cost":"{3}{U}{U}","cmc":5,"colors":["U"],"rarity":"rare","rating":4.5},{"id":439531,"name":"Clock of DOOOOOOOOOOOOM!","collector_number":142,"multiverse_ids":[439531],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/142.jpg?1526142828"],"type_line":"Artifact","mana_cost":"{4}","cmc":4,"colors":[],"rarity":"uncommon","rating":2},{"id":439532,"name":"Cogmentor","collector_number":143,"multiverse_ids":[439532],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/143.jpg?1522208037"],"type_line":"Artifact Creature — Gnome Rigger","mana_cost":"{1}","cmc":1,"colors":[],"rarity":"uncommon","rating":1},{"id":439468,"name":"Common Iguana","collector_number":79,"multiverse_ids":[439468],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/79.jpg?1522206938"],"type_line":"Host Creature — Lizard","mana_cost":"{1}{R}","cmc":2,"colors":["R"],"rarity":"common","rating":1},{"id":439533,"name":"Contraption Cannon","collector_number":144,"multiverse_ids":[439533],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/144.jpg?1522208048"],"type_line":"Artifact","mana_cost":"{4}","cmc":4,"colors":[],"rarity":"uncommon","rating":0.5},{"id":439419,"name":"Crafty Octopus","collector_number":30,"multiverse_ids":[439419],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/30.jpg?1522205921"],"type_line":"Host Creature — Octopus Rigger","mana_cost":"{2}{U}","cmc":3,"colors":["U"],"rarity":"common","rating":3},{"id":439518,"name":"Cramped Bunker","collector_number":129,"multiverse_ids":[439518],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/129.jpg?1522207854"],"type_line":"Enchantment","mana_cost":"{4}{R}{G}","cmc":6,"colors":["G","R"],"rarity":"rare","rating":2},{"id":439420,"name":"Crow Storm","collector_number":31,"multiverse_ids":[439420],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/31.jpg?1522205936"],"type_line":"Sorcery","mana_cost":"{2}{U}","cmc":3,"colors":["U"],"rarity":"uncommon","rating":3.5},{"id":439534,"name":"Curious Killbot","collector_number":145,"multiverse_ids":[439534],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/145a.jpg?1522208061"],"type_line":"Artifact Creature — Killbot","mana_cost":"{2}","cmc":2,"colors":[],"rarity":"common","rating":0},{"id":439563,"name":"Deadly Poison Sampler","collector_number":174,"multiverse_ids":[439563],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/174.jpg?1522208595"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":3},{"id":439421,"name":"Defective Detective","collector_number":32,"multiverse_ids":[439421],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/32.jpg?1522205951"],"type_line":"Creature — Human Spy","mana_cost":"{2}{U}","cmc":3,"colors":["U"],"rarity":"common","rating":2},{"id":439655,"name":"Delighted Killbot","collector_number":145,"multiverse_ids":[439655],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/145b.jpg?1522208072"],"type_line":"Artifact Creature — Killbot","mana_cost":"{2}","cmc":2,"colors":[],"rarity":"common","rating":0},{"id":439656,"name":"Despondent Killbot","collector_number":145,"multiverse_ids":[439656],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/145c.jpg?1522208084"],"type_line":"Artifact Creature — Killbot","mana_cost":"{2}","cmc":2,"colors":[],"rarity":"common","rating":0},{"id":439564,"name":"Dictation Quillograph","collector_number":175,"multiverse_ids":[439564],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/175.jpg?1522208607"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":0},{"id":439442,"name":"Dirty Rat","collector_number":53,"multiverse_ids":[439442],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/53.jpg?1522206414"],"type_line":"Host Creature — Rat","mana_cost":"{1}{B}","cmc":2,"colors":["B"],"rarity":"common","rating":1.5},{"id":439565,"name":"Dispatch Dispensary","collector_number":176,"multiverse_ids":[439565],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/176.jpg?1522208619"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":3},{"id":439566,"name":"Division Table","collector_number":177,"multiverse_ids":[439566],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/177.jpg?1522208631"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":0},{"id":439567,"name":"Dogsnail Engine","collector_number":178,"multiverse_ids":[439567],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/178.jpg?1522208645"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":0},{"id":439395,"name":"Do-It-Yourself Seraph","collector_number":6,"multiverse_ids":[439395],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/6.jpg?1522205434"],"type_line":"Artifact Creature — Cyborg Angel","mana_cost":"{4}{W}{W}","cmc":6,"colors":["W"],"rarity":"mythic","rating":4},{"id":439519,"name":"Dr. Julius Jumblemorph","collector_number":130,"multiverse_ids":[439519],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/130.jpg?1522207868"],"type_line":"Legendary Creature","mana_cost":"{2}{G}{W}","cmc":4,"colors":["G","W"],"rarity":"mythic","rating":4.5},{"id":439495,"name":"Druid of the Sacred Beaker","collector_number":106,"multiverse_ids":[439495],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/106.jpg?1522207476"],"type_line":"Creature — Deer Bird Ape Druid","mana_cost":"{2}{G}","cmc":3,"colors":["G"],"rarity":"uncommon","rating":3},{"id":439568,"name":"Dual Doomsuits","collector_number":179,"multiverse_ids":[439568],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/179.jpg?1522208658"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":3.5},{"id":439569,"name":"Duplication Device","collector_number":180,"multiverse_ids":[439569],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/180.jpg?1522208669"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":2.5},{"id":439496,"name":"Eager Beaver","collector_number":107,"multiverse_ids":[439496],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/107.jpg?1522207488"],"type_line":"Host Creature — Beaver","mana_cost":"{2}{G}","cmc":3,"colors":["G"],"rarity":"common","rating":1.5},{"id":439497,"name":"Earl of Squirrel","collector_number":108,"multiverse_ids":[439497],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/108.jpg?1522207502"],"type_line":"Creature — Squirrel Advisor","mana_cost":"{4}{G}{G}","cmc":6,"colors":["G"],"rarity":"rare","rating":4.5},{"id":439657,"name":"Enraged Killbot","collector_number":145,"multiverse_ids":[439657],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/145d.jpg?1522208096"],"type_line":"Artifact Creature — Killbot","mana_cost":"{2}","cmc":2,"colors":[],"rarity":"common","rating":0},{"id":439535,"name":"Entirely Normal Armchair","collector_number":146,"multiverse_ids":[439535],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/146.jpg?1522208109"],"type_line":"Artifact","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":3.5},{"id":439641,"name":"Everythingamajig","collector_number":147,"multiverse_ids":[439641],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/147c.jpg?1522208152"],"type_line":"Artifact","mana_cost":"{5}","cmc":5,"colors":[],"rarity":"rare","rating":3.5},{"id":439644,"name":"Everythingamajig","collector_number":147,"multiverse_ids":[439644],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/147f.jpg?1522208190"],"type_line":"Artifact","mana_cost":"{8}","cmc":8,"colors":[],"rarity":"rare","rating":0},{"id":439640,"name":"Everythingamajig","collector_number":147,"multiverse_ids":[439640],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/147b.jpg?1522208136"],"type_line":"Artifact","mana_cost":"{5}","cmc":5,"colors":[],"rarity":"rare","rating":0},{"id":439536,"name":"Everythingamajig","collector_number":147,"multiverse_ids":[439536],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/147a.jpg?1522208122"],"type_line":"Artifact","mana_cost":"{5}","cmc":5,"colors":[],"rarity":"rare","rating":0},{"id":439643,"name":"Everythingamajig","collector_number":147,"multiverse_ids":[439643],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/147e.jpg?1522208176"],"type_line":"Artifact","mana_cost":"{5}","cmc":5,"colors":[],"rarity":"rare","rating":0},{"id":439642,"name":"Everythingamajig","collector_number":147,"multiverse_ids":[439642],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/147d.jpg?1522208163"],"type_line":"Artifact","mana_cost":"{6}","cmc":6,"colors":[],"rarity":"rare","rating":0},{"id":439443,"name":"Extremely Slow Zombie","collector_number":54,"multiverse_ids":[439443],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/54a.jpg?1522206428"],"type_line":"Creature — Zombie","mana_cost":"{1}{B}","cmc":2,"colors":["B"],"rarity":"common","rating":1},{"id":439570,"name":"Faerie Aerie","collector_number":181,"multiverse_ids":[439570],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/181.jpg?1522208681"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"mythic","rating":4},{"id":439470,"name":"Feisty Stegosaurus","collector_number":81,"multiverse_ids":[439470],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/81.jpg?1522206967"],"type_line":"Host Creature — Dinosaur","mana_cost":"{4}{R}","cmc":5,"colors":["R"],"rarity":"common","rating":2.5},{"id":439444,"name":"Finders, Keepers","collector_number":55,"multiverse_ids":[439444],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/55.jpg?1522206495"],"type_line":"Sorcery","mana_cost":"{5}{B}","cmc":6,"colors":["B"],"rarity":"common","rating":3.5},{"id":439498,"name":"First Pick","collector_number":109,"multiverse_ids":[439498],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/109.jpg?1522207516"],"type_line":"Instant","mana_cost":"{3}{G}","cmc":4,"colors":["G"],"rarity":"uncommon","rating":2.5},{"id":439422,"name":"Five-Finger Discount","collector_number":33,"multiverse_ids":[439422],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/33.jpg?1522205967"],"type_line":"Sorcery","mana_cost":"{4}{U}{U}","cmc":6,"colors":["U"],"rarity":"uncommon","rating":3.5},{"id":439605,"name":"Forest","collector_number":216,"multiverse_ids":[439605],"image_uris":["https://img.scryfall.com/cards/normal/front/f/8/f8772631-d4a1-440d-ac89-ac6659bdc073.jpg?1545331507"],"type_line":"Basic Land — Forest","mana_cost":"","cmc":0,"colors":["G"],"rarity":"common","rating":1},{"id":439631,"name":"Garbage Elemental","collector_number":82,"multiverse_ids":[439631],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/82c.jpg?1522207006"],"type_line":"Creature — Elemental","mana_cost":"{4}{R}","cmc":5,"colors":["R"],"rarity":"uncommon","rating":2},{"id":439632,"name":"Garbage Elemental","collector_number":82,"multiverse_ids":[439632],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/82d.jpg?1522207023"],"type_line":"Creature — Elemental","mana_cost":"{4}{R}","cmc":5,"colors":["R"],"rarity":"uncommon","rating":0},{"id":439471,"name":"Garbage Elemental","collector_number":82,"multiverse_ids":[439471],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/82a.jpg?1522206979"],"type_line":"Creature — Elemental","mana_cost":"{4}{R}","cmc":5,"colors":["R"],"rarity":"uncommon","rating":0},{"id":439634,"name":"Garbage Elemental","collector_number":82,"multiverse_ids":[439634],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/82f.jpg?1522207050"],"type_line":"Creature — Elemental","mana_cost":"{4}{R}","cmc":5,"colors":["R"],"rarity":"uncommon","rating":0},{"id":439633,"name":"Garbage Elemental","collector_number":82,"multiverse_ids":[439633],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/82e.jpg?1522207038"],"type_line":"Creature — Elemental","mana_cost":"{4}{R}","cmc":5,"colors":["R"],"rarity":"uncommon","rating":0},{"id":439630,"name":"Garbage Elemental","collector_number":82,"multiverse_ids":[439630],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/82b.jpg?1522206993"],"type_line":"Creature — Elemental Rigger","mana_cost":"{4}{R}","cmc":5,"colors":["R"],"rarity":"uncommon","rating":0},{"id":439571,"name":"Genetic Recombinator","collector_number":182,"multiverse_ids":[439571],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/182.jpg?1522208694"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":2.5},{"id":439572,"name":"Gift Horse","collector_number":183,"multiverse_ids":[439572],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/183.jpg?1522208706"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":3},{"id":439396,"name":"Gimme Five","collector_number":7,"multiverse_ids":[439396],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/7.jpg?1522205448"],"type_line":"Instant","mana_cost":"{W}","cmc":1,"colors":["W"],"rarity":"uncommon","rating":0},{"id":439573,"name":"Gnomeball Machine","collector_number":184,"multiverse_ids":[439573],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/184.jpg?1522208717"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":3},{"id":439537,"name":"Gnome-Made Engine","collector_number":148,"multiverse_ids":[439537],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/148.jpg?1522208203"],"type_line":"Artifact Host Creature — Construct","mana_cost":"{4}","cmc":4,"colors":[],"rarity":"common","rating":1.5},{"id":439472,"name":"Goblin Haberdasher","collector_number":83,"multiverse_ids":[439472],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/83.jpg?1522207064"],"type_line":"Creature — Goblin Hatificer","mana_cost":"{2}{R}","cmc":3,"colors":["R"],"rarity":"uncommon","rating":1.5},{"id":439574,"name":"Goblin Slingshot","collector_number":185,"multiverse_ids":[439574],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/185.jpg?1522208729"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":3.5},{"id":439397,"name":"GO TO JAIL","collector_number":8,"multiverse_ids":[439397],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/8.jpg?1522205463"],"type_line":"Enchantment","mana_cost":"{W}","cmc":1,"colors":["W"],"rarity":"common","rating":3.5},{"id":439423,"name":"Graveyard Busybody","collector_number":34,"multiverse_ids":[439423],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/34.jpg?1522205982"],"type_line":"Creature — Human Spy","mana_cost":"{4}{U}{U}","cmc":6,"colors":["U"],"rarity":"rare","rating":3},{"id":439499,"name":"Ground Pounder","collector_number":110,"multiverse_ids":[439499],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/110.jpg?1522207530"],"type_line":"Creature — Goblin Warrior","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"common","rating":2.5},{"id":439521,"name":"Grusilda, Monster Masher","collector_number":132,"multiverse_ids":[439521],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/132.jpg?1531008792"],"type_line":"Legendary Creature — Zombie Villain","mana_cost":"{3}{B}{R}","cmc":5,"colors":["B","R"],"rarity":"rare","rating":4},{"id":439575,"name":"Guest List","collector_number":186,"multiverse_ids":[439575],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/186.jpg?1522208741"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":3.5},{"id":439398,"name":"Half-Kitten, Half-","collector_number":9,"multiverse_ids":[439398],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/9.jpg?1522205476"],"type_line":"Creature — Cat","mana_cost":"","cmc":0,"colors":["W"],"rarity":"uncommon","rating":1.5},{"id":439473,"name":"Half-Orc, Half-","collector_number":84,"multiverse_ids":[439473],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/84.jpg?1522207079"],"type_line":"Creature — Orc Warrior","mana_cost":"","cmc":0,"colors":["R"],"rarity":"uncommon","rating":1.5},{"id":439424,"name":"Half-Shark, Half-","collector_number":35,"multiverse_ids":[439424],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/35.jpg?1522205997"],"type_line":"Creature — Fish","mana_cost":"","cmc":0,"colors":["U"],"rarity":"uncommon","rating":2},{"id":439500,"name":"Half-Squirrel, Half-","collector_number":111,"multiverse_ids":[439500],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/111.jpg?1522207545"],"type_line":"Creature — Squirrel","mana_cost":"","cmc":0,"colors":["G"],"rarity":"uncommon","rating":3},{"id":439476,"name":"Hammerfest Boomtacular","collector_number":87,"multiverse_ids":[439476],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/87.jpg?1522207123"],"type_line":"Enchantment","mana_cost":"{3}{R}{R}","cmc":5,"colors":["R"],"rarity":"uncommon","rating":1.5},{"id":439474,"name":"Hammer Helper","collector_number":85,"multiverse_ids":[439474],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/85.jpg?1522207092"],"type_line":"Sorcery","mana_cost":"{3}{R}","cmc":4,"colors":["R"],"rarity":"common","rating":0.5},{"id":439475,"name":"Hammer Jammer","collector_number":86,"multiverse_ids":[439475],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/86.jpg?1522207106"],"type_line":"Creature — Goblin Warrior","mana_cost":"{3}{R}","cmc":4,"colors":["R"],"rarity":"uncommon","rating":1.5},{"id":439538,"name":"Handy Dandy Clone Machine","collector_number":149,"multiverse_ids":[439538],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/149.jpg?1522208218"],"type_line":"Artifact","mana_cost":"{3}","cmc":3,"colors":[],"rarity":"rare","rating":3},{"id":439445,"name":"Hangman","collector_number":56,"multiverse_ids":[439445],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/56.jpg?1522206509"],"type_line":"Creature — Human Villain","mana_cost":"{B}","cmc":1,"colors":["B"],"rarity":"rare","rating":3},{"id":439576,"name":"Hard Hat Area","collector_number":187,"multiverse_ids":[439576],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/187.jpg?1522208755"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"mythic","rating":3.5},{"id":439446,"name":"Hazmat Suit (Used)","collector_number":57,"multiverse_ids":[439446],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/57.jpg?1522206524"],"type_line":"Enchantment — Aura","mana_cost":"{3}{B}","cmc":4,"colors":["B"],"rarity":"common","rating":1},{"id":439577,"name":"Head Banger","collector_number":188,"multiverse_ids":[439577],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/188.jpg?1522208768"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":0},{"id":439447,"name":"Hoisted Hireling","collector_number":58,"multiverse_ids":[439447],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/58.jpg?1522206541"],"type_line":"Creature — Zombie","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"common","rating":2.5},{"id":439522,"name":"Hot Fix","collector_number":133,"multiverse_ids":[439522],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/133.jpg?1522207911"],"type_line":"Sorcery","mana_cost":"{4}{W}{U}","cmc":6,"colors":["U","W"],"rarity":"rare","rating":3},{"id":439399,"name":"Humming-","collector_number":10,"multiverse_ids":[439399],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/10.jpg?1522205489"],"type_line":"Creature — Bird","mana_cost":"","cmc":0,"colors":["W"],"rarity":"common","rating":3},{"id":439501,"name":"Hydradoodle","collector_number":112,"multiverse_ids":[439501],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/112.jpg?1522207558"],"type_line":"Creature — Hydra Hound","mana_cost":"{X}{X}{G}{G}","cmc":2,"colors":["G"],"rarity":"rare","rating":4},{"id":439578,"name":"Hypnotic Swirly Disc","collector_number":189,"multiverse_ids":[439578],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/189.jpg?1522208784"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":1},{"id":439425,"name":"Incite Insight","collector_number":36,"multiverse_ids":[439425],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/36.jpg?1522206009"],"type_line":"Sorcery","mana_cost":"{X}{U}{U}","cmc":2,"colors":["U"],"rarity":"rare","rating":3},{"id":439635,"name":"Ineffable Blessing","collector_number":113,"multiverse_ids":[439635],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/113b.jpg?1522207587"],"type_line":"Enchantment","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"rare","rating":3.5},{"id":439639,"name":"Ineffable Blessing","collector_number":113,"multiverse_ids":[439639],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/113f.jpg?1522207637"],"type_line":"Enchantment","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"rare","rating":0},{"id":439637,"name":"Ineffable Blessing","collector_number":113,"multiverse_ids":[439637],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/113d.jpg?1522207613"],"type_line":"Enchantment","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"rare","rating":0},{"id":439502,"name":"Ineffable Blessing","collector_number":113,"multiverse_ids":[439502],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/113a.jpg?1522207574"],"type_line":"Enchantment","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"rare","rating":0},{"id":439638,"name":"Ineffable Blessing","collector_number":113,"multiverse_ids":[439638],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/113e.jpg?1522207625"],"type_line":"Enchantment","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"rare","rating":0},{"id":439636,"name":"Ineffable Blessing","collector_number":113,"multiverse_ids":[439636],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/113c.jpg?1526594978"],"type_line":"Enchantment","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"rare","rating":0},{"id":439477,"name":"Infinity Elemental","collector_number":88,"multiverse_ids":[439477],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/88.jpg?1522207136"],"type_line":"Creature — Elemental","mana_cost":"{4}{R}{R}{R}","cmc":7,"colors":["R"],"rarity":"mythic","rating":3.5},{"id":439579,"name":"Inflation Station","collector_number":190,"multiverse_ids":[439579],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/190.jpg?1522208797"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":2},{"id":439448,"name":"Inhumaniac","collector_number":59,"multiverse_ids":[439448],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/59.jpg?1522206554"],"type_line":"Creature — Brainiac","mana_cost":"{1}{B}","cmc":2,"colors":["B"],"rarity":"uncommon","rating":3},{"id":439580,"name":"Insufferable Syphon","collector_number":191,"multiverse_ids":[439580],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/191.jpg?1522208810"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":1},{"id":439602,"name":"Island","collector_number":213,"multiverse_ids":[439602],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/213.jpg?1534901014"],"type_line":"Basic Land — Island","mana_cost":"","cmc":0,"colors":["U"],"rarity":"common","rating":1},{"id":439478,"name":"It That Gets Left Hanging","collector_number":89,"multiverse_ids":[439478],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/89.jpg?1522207153"],"type_line":"Creature — Elemental Horror","mana_cost":"{5}{R}","cmc":6,"colors":["R"],"rarity":"common","rating":0.5},{"id":439400,"name":"Jackknight","collector_number":11,"multiverse_ids":[439400],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/11.jpg?1522205509"],"type_line":"Artifact Creature — Cyborg Knight","mana_cost":"{1}{W}","cmc":2,"colors":["W"],"rarity":"rare","rating":3.5},{"id":439581,"name":"Jamming Device","collector_number":192,"multiverse_ids":[439581],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/192.jpg?1522208821"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":2.5},{"id":439503,"name":"Joyride Rigger","collector_number":114,"multiverse_ids":[439503],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/114.jpg?1522207655"],"type_line":"Creature — Goblin Rigger","mana_cost":"{3}{G}","cmc":4,"colors":["G"],"rarity":"common","rating":3},{"id":439479,"name":"Just Desserts","collector_number":90,"multiverse_ids":[439479],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/90.jpg?1522207168"],"type_line":"Instant","mana_cost":"{1}{R}","cmc":2,"colors":["R"],"rarity":"common","rating":3.5},{"id":439426,"name":"Kindly Cognician","collector_number":37,"multiverse_ids":[439426],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/37.jpg?1522206026"],"type_line":"Artifact Creature — Cyborg Artificer","mana_cost":"{1}{U}","cmc":2,"colors":["U"],"rarity":"uncommon","rating":2.5},{"id":439539,"name":"Kindslaver","collector_number":150,"multiverse_ids":[439539],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/150.jpg?1522208231"],"type_line":"Legendary Artifact","mana_cost":"{5}","cmc":5,"colors":[],"rarity":"rare","rating":3.5},{"id":439401,"name":"Knight of the Kitchen Sink","collector_number":12,"multiverse_ids":[439401],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/12a.jpg?1522205523"],"type_line":"Artifact Creature — Cyborg Knight","mana_cost":"{W}{W}","cmc":2,"colors":["W"],"rarity":"uncommon","rating":3},{"id":439625,"name":"Knight of the Kitchen Sink","collector_number":12,"multiverse_ids":[439625],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/12b.jpg?1522205552"],"type_line":"Artifact Creature — Cyborg Knight","mana_cost":"{W}{W}","cmc":2,"colors":["W"],"rarity":"uncommon","rating":0},{"id":439626,"name":"Knight of the Kitchen Sink","collector_number":12,"multiverse_ids":[439626],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/12c.jpg?1522205574"],"type_line":"Artifact Creature — Cyborg Knight","mana_cost":"{W}{W}","cmc":2,"colors":["W"],"rarity":"uncommon","rating":0},{"id":439627,"name":"Knight of the Kitchen Sink","collector_number":12,"multiverse_ids":[439627],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/12d.jpg?1522205595"],"type_line":"Artifact Creature — Cyborg Knight","mana_cost":"{W}{W}","cmc":2,"colors":["W"],"rarity":"uncommon","rating":0},{"id":439628,"name":"Knight of the Kitchen Sink","collector_number":12,"multiverse_ids":[439628],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/12e.jpg?1522205608"],"type_line":"Artifact Creature — Cyborg Knight","mana_cost":"{W}{W}","cmc":2,"colors":["W"],"rarity":"uncommon","rating":0},{"id":439629,"name":"Knight of the Kitchen Sink","collector_number":12,"multiverse_ids":[439629],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/12f.jpg?1522205626"],"type_line":"Artifact Creature — Cyborg Knight","mana_cost":"{W}{W}","cmc":2,"colors":["W"],"rarity":"uncommon","rating":0},{"id":439402,"name":"Knight of the Widget","collector_number":13,"multiverse_ids":[439402],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/13.jpg?1522205640"],"type_line":"Artifact Creature — Cyborg Knight","mana_cost":"{2}{W}","cmc":3,"colors":["W"],"rarity":"uncommon","rating":1.5},{"id":439540,"name":"Krark's Other Thumb","collector_number":151,"multiverse_ids":[439540],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/151.jpg?1522208245"],"type_line":"Legendary Artifact","mana_cost":"{2}","cmc":2,"colors":[],"rarity":"uncommon","rating":3},{"id":439541,"name":"Labro Bot","collector_number":152,"multiverse_ids":[439541],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/152.jpg?1522208257"],"type_line":"Artifact Host Creature — Hound","mana_cost":"{5}","cmc":5,"colors":[],"rarity":"uncommon","rating":3},{"id":439582,"name":"Lackey Recycler","collector_number":193,"multiverse_ids":[439582],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/193.jpg?1522208834"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":0.5},{"id":439542,"name":"Lobe Lobber","collector_number":153,"multiverse_ids":[439542],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/153.jpg?1522208269"],"type_line":"Artifact — Equipment","mana_cost":"{2}","cmc":2,"colors":[],"rarity":"uncommon","rating":1},{"id":439543,"name":"Mad Science Fair Project","collector_number":154,"multiverse_ids":[439543],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/154.jpg?1522208282"],"type_line":"Artifact","mana_cost":"{3}","cmc":3,"colors":[],"rarity":"common","rating":1.5},{"id":439427,"name":"Magic Word","collector_number":38,"multiverse_ids":[439427],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/38.jpg?1522206042"],"type_line":"Enchantment — Aura","mana_cost":"{2}{U}","cmc":3,"colors":["U"],"rarity":"common","rating":3.5},{"id":439583,"name":"Mandatory Friendship Shackles","collector_number":194,"multiverse_ids":[439583],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/194.jpg?1522208845"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":0},{"id":439527,"name":"Mary O'Kill","collector_number":138,"multiverse_ids":[439527],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/138.jpg?1522207977"],"type_line":"Legendary Creature — Human Villain","mana_cost":"{5}{B/R}","cmc":6,"colors":["B","R"],"rarity":"rare","rating":3.5},{"id":439449,"name":"Masterful Ninja","collector_number":60,"multiverse_ids":[439449],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/60.jpg?1522206570"],"type_line":"Creature — Troll Ninja","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"rare","rating":3.5},{"id":439428,"name":"Mer Man","collector_number":39,"multiverse_ids":[439428],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/39.jpg?1522206063"],"type_line":"Host Creature — Human Fish","mana_cost":"{4}{U}","cmc":5,"colors":["U"],"rarity":"common","rating":2.5},{"id":439403,"name":"Midlife Upgrade","collector_number":14,"multiverse_ids":[439403],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/14.jpg?1522205654"],"type_line":"Sorcery","mana_cost":"{3}{W}","cmc":4,"colors":["W"],"rarity":"uncommon","rating":0},{"id":439544,"name":"Modular Monstrosity","collector_number":155,"multiverse_ids":[439544],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/155.jpg?1522208295"],"type_line":"Artifact Creature — Construct","mana_cost":"{7}","cmc":7,"colors":[],"rarity":"rare","rating":4},{"id":439504,"name":"Monkey-","collector_number":115,"multiverse_ids":[439504],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/115.jpg?1522207668"],"type_line":"Creature — Monkey","mana_cost":"","cmc":0,"colors":["G"],"rarity":"uncommon","rating":1},{"id":439429,"name":"More or Less","collector_number":40,"multiverse_ids":[439429],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/40.jpg?1522206081"],"type_line":"Instant","mana_cost":"{U}","cmc":1,"colors":["U"],"rarity":"uncommon","rating":1.5},{"id":439505,"name":"Mother Kangaroo","collector_number":116,"multiverse_ids":[439505],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/116.jpg?1522207680"],"type_line":"Host Creature — Kangaroo","mana_cost":"{4}{G}","cmc":5,"colors":["G"],"rarity":"common","rating":1.5},{"id":439604,"name":"Mountain","collector_number":215,"multiverse_ids":[439604],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/215.jpg?1534900931"],"type_line":"Basic Land — Mountain","mana_cost":"","cmc":0,"colors":["R"],"rarity":"common","rating":1},{"id":439506,"name":"Multi-Headed","collector_number":117,"multiverse_ids":[439506],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/117.jpg?1522207694"],"type_line":"Creature — Hydra","mana_cost":"","cmc":0,"colors":["G"],"rarity":"common","rating":1.5},{"id":439584,"name":"Neural Network","collector_number":195,"multiverse_ids":[439584],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/195.jpg?1522208858"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":1.5},{"id":439450,"name":"Ninja","collector_number":61,"multiverse_ids":[439450],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/61.jpg?1522206585"],"type_line":"Creature — Ninja","mana_cost":"","cmc":0,"colors":["B"],"rarity":"uncommon","rating":1.5},{"id":439430,"name":"Novellamental","collector_number":41,"multiverse_ids":[439430],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/41a.jpg?1522206097"],"type_line":"Creature — Elemental","mana_cost":"{1}{U}","cmc":2,"colors":["U"],"rarity":"common","rating":2.5},{"id":439431,"name":"Numbing Jellyfish","collector_number":42,"multiverse_ids":[439431],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/42.jpg?1522206153"],"type_line":"Host Creature — Jellyfish","mana_cost":"{3}{U}","cmc":4,"colors":["U"],"rarity":"common","rating":0.5},{"id":439585,"name":"Oaken Power Suit","collector_number":196,"multiverse_ids":[439585],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/196.jpg?1522208870"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":3},{"id":439404,"name":"Oddly Uneven","collector_number":15,"multiverse_ids":[439404],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/15.jpg?1522205670"],"type_line":"Sorcery","mana_cost":"{3}{W}{W}","cmc":5,"colors":["W"],"rarity":"rare","rating":3.5},{"id":439523,"name":"Ol' Buzzbark","collector_number":134,"multiverse_ids":[439523],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/134.jpg?1522207922"],"type_line":"Legendary Creature — Goblin Warrior","mana_cost":"{X}{R}{G}","cmc":2,"colors":["G","R"],"rarity":"mythic","rating":4.5},{"id":439451,"name":"Old-Fashioned Vampire","collector_number":62,"multiverse_ids":[439451],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/62.jpg?1522206599"],"type_line":"Creature — Vampyre","mana_cost":"{3}{B}{B}","cmc":5,"colors":["B"],"rarity":"uncommon","rating":3.5},{"id":439405,"name":"Old Guard","collector_number":16,"multiverse_ids":[439405],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/16.jpg?1522205684"],"type_line":"Artifact Creature — Cyborg Soldier","mana_cost":"{1}{W}","cmc":2,"colors":["W"],"rarity":"common","rating":2.5},{"id":439586,"name":"Optical Optimizer","collector_number":197,"multiverse_ids":[439586],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/197.jpg?1522208881"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":2},{"id":439406,"name":"Ordinary Pony","collector_number":17,"multiverse_ids":[439406],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/17.jpg?1522205708"],"type_line":"Host Creature — Horse","mana_cost":"{2}{W}","cmc":3,"colors":["W"],"rarity":"common","rating":3},{"id":439452,"name":"Over My Dead Bodies","collector_number":63,"multiverse_ids":[439452],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/63.jpg?1522206615"],"type_line":"Enchantment","mana_cost":"{4}{B}{B}","cmc":6,"colors":["B"],"rarity":"rare","rating":3},{"id":439453,"name":"Overt Operative","collector_number":64,"multiverse_ids":[439453],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/64.jpg?1522206630"],"type_line":"Creature — Human Ninja Rigger","mana_cost":"{3}{B}","cmc":4,"colors":["B"],"rarity":"uncommon","rating":3},{"id":439480,"name":"Painiac","collector_number":91,"multiverse_ids":[439480],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/91.jpg?1522207186"],"type_line":"Creature — Brainiac","mana_cost":"{2}{R}","cmc":3,"colors":["R"],"rarity":"common","rating":2},{"id":439481,"name":"Party Crasher","collector_number":92,"multiverse_ids":[439481],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/92.jpg?1522207201"],"type_line":"Creature — Goblin Berserker","mana_cost":"{4}{R}","cmc":5,"colors":["R"],"rarity":"uncommon","rating":2.5},{"id":439587,"name":"Pet Project","collector_number":198,"multiverse_ids":[439587],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/198.jpg?1522208894"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"mythic","rating":4},{"id":439524,"name":"Phoebe, Head of S.N.E.A.K.","collector_number":135,"multiverse_ids":[439524],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/135.jpg?1522207938"],"type_line":"Legendary Creature — Human Spy","mana_cost":"{1}{U}{B}","cmc":3,"colors":["B","U"],"rarity":"mythic","rating":4.5},{"id":439601,"name":"Plains","collector_number":212,"multiverse_ids":[439601],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/212.jpg?1534901049"],"type_line":"Basic Land — Plains","mana_cost":"","cmc":0,"colors":["W"],"rarity":"common","rating":0.5},{"id":439545,"name":"Proper Laboratory Attire","collector_number":156,"multiverse_ids":[439545],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/156.jpg?1522208307"],"type_line":"Artifact — Equipment","mana_cost":"{1}","cmc":1,"colors":[],"rarity":"uncommon","rating":1.5},{"id":439588,"name":"Quick-Stick Lick Trick","collector_number":199,"multiverse_ids":[439588],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/199.jpg?1522208912"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":1},{"id":439589,"name":"Rapid Prototyper","collector_number":200,"multiverse_ids":[439589],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/200.jpg?1522208924"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"mythic","rating":4},{"id":439507,"name":"Really Epic Punch","collector_number":118,"multiverse_ids":[439507],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/118.jpg?1522207707"],"type_line":"Sorcery","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"common","rating":3},{"id":439590,"name":"Record Store","collector_number":201,"multiverse_ids":[439590],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/201.jpg?1522208935"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":3.5},{"id":439591,"name":"Refibrillator","collector_number":202,"multiverse_ids":[439591],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/202.jpg?1522208949"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":3},{"id":439407,"name":"Rhino-","collector_number":18,"multiverse_ids":[439407],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/18.jpg?1522205721"],"type_line":"Creature — Rhino","mana_cost":"","cmc":0,"colors":["W"],"rarity":"uncommon","rating":1},{"id":439408,"name":"Riveting Rigger","collector_number":19,"multiverse_ids":[439408],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/19.jpg?1522205738"],"type_line":"Artifact Creature — Cyborg Rigger","mana_cost":"{2}{W}","cmc":3,"colors":["W"],"rarity":"common","rating":2.5},{"id":439546,"name":"Robo-","collector_number":157,"multiverse_ids":[439546],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/157.jpg?1522208319"],"type_line":"Artifact Creature — Construct","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":1},{"id":439409,"name":"Rules Lawyer","collector_number":20,"multiverse_ids":[439409],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/20.jpg?1522205762"],"type_line":"Artifact Creature — Cyborg Advisor","mana_cost":"{3}{W}{W}","cmc":5,"colors":["W"],"rarity":"rare","rating":4},{"id":439454,"name":"\"Rumors of My Death . . .\"","collector_number":65,"multiverse_ids":[439454],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/65.jpg?1522206647"],"type_line":"Enchantment","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"uncommon","rating":1},{"id":439410,"name":"Sacrifice Play","collector_number":21,"multiverse_ids":[439410],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/21.jpg?1522205778"],"type_line":"Instant","mana_cost":"{2}{W}","cmc":3,"colors":["W"],"rarity":"common","rating":2},{"id":439592,"name":"Sap Sucker","collector_number":203,"multiverse_ids":[439592],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/203.jpg?1522208965"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":["G"],"rarity":"common","rating":1},{"id":439606,"name":"Secret Base","collector_number":165,"multiverse_ids":[439606],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/165a.jpg?1522208421"],"type_line":"Land","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":1.5},{"id":439508,"name":"Selfie Preservation","collector_number":119,"multiverse_ids":[439508],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/119.jpg?1522207719"],"type_line":"Sorcery","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"common","rating":2},{"id":439509,"name":"Serpentine","collector_number":120,"multiverse_ids":[439509],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/120.jpg?1522207735"],"type_line":"Creature — Wurm","mana_cost":"","cmc":0,"colors":["G"],"rarity":"rare","rating":3.5},{"id":439411,"name":"Shaggy Camel","collector_number":22,"multiverse_ids":[439411],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/22.jpg?1522205795"],"type_line":"Host Creature — Camel","mana_cost":"{3}{W}","cmc":4,"colors":["W"],"rarity":"common","rating":2},{"id":439510,"name":"Shellephant","collector_number":121,"multiverse_ids":[439510],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/121.jpg?1522207746"],"type_line":"Creature — Turtle and/or Elephant","mana_cost":"{1}{G}{G}","cmc":3,"colors":["G"],"rarity":"uncommon","rating":2.5},{"id":439412,"name":"Side Quest","collector_number":23,"multiverse_ids":[439412],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/23.jpg?1522205809"],"type_line":"Sorcery","mana_cost":"{W}","cmc":1,"colors":["W"],"rarity":"uncommon","rating":1},{"id":439455,"name":"Skull Saucer","collector_number":66,"multiverse_ids":[439455],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/66.jpg?1522206664"],"type_line":"Creature — Zombie Head","mana_cost":"{4}{B}{B}","cmc":6,"colors":["B"],"rarity":"uncommon","rating":3},{"id":439511,"name":"Slaying Mantis","collector_number":122,"multiverse_ids":[439511],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/122.jpg?1522207760"],"type_line":"Creature — Insect Wrestler","mana_cost":"{5}{G}{G}","cmc":7,"colors":["G"],"rarity":"uncommon","rating":3},{"id":439654,"name":"Sly Spy","collector_number":67,"multiverse_ids":[439654],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/67f.jpg?1522206762"],"type_line":"Creature — Human Spy","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"uncommon","rating":3},{"id":439651,"name":"Sly Spy","collector_number":67,"multiverse_ids":[439651],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/67c.jpg?1522206713"],"type_line":"Creature — Human Spy","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"uncommon","rating":0},{"id":439456,"name":"Sly Spy","collector_number":67,"multiverse_ids":[439456],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/67a.jpg?1522206684"],"type_line":"Creature — Human Spy","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"uncommon","rating":0},{"id":439653,"name":"Sly Spy","collector_number":67,"multiverse_ids":[439653],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/67e.jpg?1522206744"],"type_line":"Creature — Human Spy","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"uncommon","rating":0},{"id":439650,"name":"Sly Spy","collector_number":67,"multiverse_ids":[439650],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/67b.jpg?1522206699"],"type_line":"Creature — Human Spy","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"uncommon","rating":0},{"id":439652,"name":"Sly Spy","collector_number":67,"multiverse_ids":[439652],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/67d.jpg?1522206730"],"type_line":"Creature — Human Spy","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"uncommon","rating":0},{"id":439432,"name":"S.N.E.A.K. Dispatcher","collector_number":43,"multiverse_ids":[439432],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/43.jpg?1522206167"],"type_line":"Creature — Human Spy","mana_cost":"{1}{U}","cmc":2,"colors":["U"],"rarity":"uncommon","rating":3},{"id":439457,"name":"Snickering Squirrel","collector_number":68,"multiverse_ids":[439457],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/68.jpg?1522206775"],"type_line":"Creature — Squirrel Advisor","mana_cost":"{B}","cmc":1,"colors":["B"],"rarity":"common","rating":2},{"id":439433,"name":"Socketed Sprocketer","collector_number":44,"multiverse_ids":[439433],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/44.jpg?1522206183"],"type_line":"Artifact Creature — Cyborg Knight","mana_cost":"{U}","cmc":1,"colors":["U"],"rarity":"uncommon","rating":2},{"id":439434,"name":"Spell Suck","collector_number":45,"multiverse_ids":[439434],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/45.jpg?1522206197"],"type_line":"Instant","mana_cost":"{2}{U}{U}","cmc":4,"colors":["U"],"rarity":"common","rating":2.5},{"id":439458,"name":"Spike, Tournament Grinder","collector_number":69,"multiverse_ids":[439458],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/69.jpg?1530703204"],"type_line":"Legendary Creature — Human Gamer","mana_cost":"{2}{B/P}{B/P}","cmc":4,"colors":["B"],"rarity":"rare","rating":3.5},{"id":439547,"name":"Split Screen","collector_number":158,"multiverse_ids":[439547],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/158.jpg?1522208331"],"type_line":"Artifact","mana_cost":"{4}","cmc":4,"colors":[],"rarity":"rare","rating":3.5},{"id":439435,"name":"Spy Eye","collector_number":46,"multiverse_ids":[439435],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/46.jpg?1522206209"],"type_line":"Creature — Eye Spy","mana_cost":"{2}{U}{U}","cmc":4,"colors":["U"],"rarity":"uncommon","rating":3},{"id":439512,"name":"Squirrel Dealer","collector_number":123,"multiverse_ids":[439512],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/123.jpg?1522207772"],"type_line":"Creature — Raccoon Lizard Bird","mana_cost":"{G}","cmc":1,"colors":["G"],"rarity":"common","rating":3},{"id":439459,"name":"Squirrel-Powered Scheme","collector_number":70,"multiverse_ids":[439459],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/70.jpg?1522206806"],"type_line":"Enchantment","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"uncommon","rating":3},{"id":439548,"name":"Staff of the Letter Magus","collector_number":159,"multiverse_ids":[439548],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/159.jpg?1522208344"],"type_line":"Artifact","mana_cost":"{3}","cmc":3,"colors":[],"rarity":"uncommon","rating":0},{"id":439549,"name":"Stamp of Approval","collector_number":160,"multiverse_ids":[439549],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/160.jpg?1522208356"],"type_line":"Artifact","mana_cost":"{3}","cmc":3,"colors":[],"rarity":"uncommon","rating":2},{"id":439460,"name":"Steady-Handed Mook","collector_number":71,"multiverse_ids":[439460],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/71.jpg?1522206821"],"type_line":"Creature — Human Rigger","mana_cost":"{2}{B}","cmc":3,"colors":["B"],"rarity":"common","rating":3},{"id":439482,"name":"Steamflogger Boss","collector_number":93,"multiverse_ids":[439482],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/93.jpg?1522207218"],"type_line":"Creature — Goblin Rigger","mana_cost":"{3}{R}","cmc":4,"colors":["R"],"rarity":"rare","rating":4},{"id":439483,"name":"Steamflogger of the Month","collector_number":94,"multiverse_ids":[439483],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/94.jpg?1522207233"],"type_line":"Creature — Goblin Rigger","mana_cost":"{3}{R}{R}","cmc":5,"colors":["R"],"rarity":"rare","rating":3.5},{"id":439513,"name":"Steamflogger Service Rep","collector_number":124,"multiverse_ids":[439513],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/124.jpg?1522207787"],"type_line":"Creature — Goblin Rigger","mana_cost":"{2}{G}","cmc":3,"colors":["G"],"rarity":"uncommon","rating":2},{"id":439484,"name":"Steamflogger Temp","collector_number":95,"multiverse_ids":[439484],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/95.jpg?1522207248"],"type_line":"Creature — Goblin Rigger","mana_cost":"{1}{R}","cmc":2,"colors":["R"],"rarity":"uncommon","rating":1},{"id":439485,"name":"Steamfloggery","collector_number":96,"multiverse_ids":[439485],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/96.jpg?1522207261"],"type_line":"Instant","mana_cost":"{4}{R}{R}","cmc":6,"colors":["R"],"rarity":"uncommon","rating":1.5},{"id":439550,"name":"Steam-Powered","collector_number":161,"multiverse_ids":[439550],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/161.jpg?1522208368"],"type_line":"Artifact Creature — Construct","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":1},{"id":439551,"name":"Steel Squirrel","collector_number":162,"multiverse_ids":[439551],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/162.jpg?1522208380"],"type_line":"Artifact Creature — Squirrel","mana_cost":"{2}","cmc":2,"colors":[],"rarity":"uncommon","rating":1},{"id":439461,"name":"Stinging Scorpion","collector_number":72,"multiverse_ids":[439461],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/72.jpg?1522206834"],"type_line":"Host Creature — Scorpion","mana_cost":"{4}{B}","cmc":5,"colors":["B"],"rarity":"common","rating":1},{"id":439462,"name":"Subcontract","collector_number":73,"multiverse_ids":[439462],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/73.jpg?1522206853"],"type_line":"Sorcery","mana_cost":"{B}","cmc":1,"colors":["B"],"rarity":"common","rating":1.5},{"id":439413,"name":"Success!","collector_number":24,"multiverse_ids":[439413],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/24.jpg?1522205832"],"type_line":"Instant","mana_cost":"{W}","cmc":1,"colors":["W"],"rarity":"common","rating":1.5},{"id":439463,"name":"Summon the Pack","collector_number":74,"multiverse_ids":[439463],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/74.jpg?1522206868"],"type_line":"Sorcery","mana_cost":"{7}{B}","cmc":8,"colors":["B"],"rarity":"mythic","rating":3.5},{"id":439593,"name":"Sundering Fork","collector_number":204,"multiverse_ids":[439593],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/204.jpg?1522208977"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":1.5},{"id":439486,"name":"Super-Duper Death Ray","collector_number":97,"multiverse_ids":[439486],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/97.jpg?1522207275"],"type_line":"Instant","mana_cost":"{2}{R}","cmc":3,"colors":["R"],"rarity":"uncommon","rating":3.5},{"id":439436,"name":"Suspicious Nanny","collector_number":47,"multiverse_ids":[439436],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/47.jpg?1522206225"],"type_line":"Creature — Human Spy Rigger","mana_cost":"{4}{U}","cmc":5,"colors":["U"],"rarity":"uncommon","rating":3},{"id":439603,"name":"Swamp","collector_number":214,"multiverse_ids":[439603],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/214.jpg?1534900970"],"type_line":"Basic Land — Swamp","mana_cost":"","cmc":0,"colors":["B"],"rarity":"common","rating":0.5},{"id":439552,"name":"Sword of Dungeons & Dragons","collector_number":163,"multiverse_ids":[439552],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/163.jpg?1522208392"],"type_line":"Artifact — Equipment","mana_cost":"{3}","cmc":3,"colors":[],"rarity":"mythic","rating":4.5},{"id":439594,"name":"Targeting Rocket","collector_number":205,"multiverse_ids":[439594],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/205.jpg?1522208992"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":0},{"id":439487,"name":"Target Minotaur","collector_number":98,"multiverse_ids":[439487],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/98a.jpg?1522207287"],"type_line":"Creature — Minotaur Warrior","mana_cost":"{1}{R}","cmc":2,"colors":["R"],"rarity":"common","rating":1},{"id":439414,"name":"Teacher's Pet","collector_number":25,"multiverse_ids":[439414],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/25.jpg?1522205848"],"type_line":"Creature — Cat Bird Scientist","mana_cost":"{1}{W}","cmc":2,"colors":["W"],"rarity":"uncommon","rating":3},{"id":439465,"name":"The Big Idea","collector_number":76,"multiverse_ids":[439465],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/76.jpg?1522206898"],"type_line":"Legendary Creature — Brainiac Villain","mana_cost":"{4}{R}{R}","cmc":6,"colors":["B","R"],"rarity":"rare","rating":4},{"id":439469,"name":"The Countdown Is at One","collector_number":80,"multiverse_ids":[439469],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/80.jpg?1522206952"],"type_line":"Sorcery","mana_cost":"{3}{R}{R}","cmc":5,"colors":["R"],"rarity":"rare","rating":3},{"id":439520,"name":"The Grand Calcutron","collector_number":131,"multiverse_ids":[439520],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/131.jpg?1522207881"],"type_line":"Legendary Artifact","mana_cost":"{W}{U}","cmc":2,"colors":["U","W"],"rarity":"mythic","rating":3},{"id":439488,"name":"Three-Headed Goblin","collector_number":99,"multiverse_ids":[439488],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/99.jpg?1522207342"],"type_line":"Creature — Goblin Mutant","mana_cost":"{3}{R}{R}","cmc":5,"colors":["R"],"rarity":"rare","rating":3.5},{"id":439595,"name":"Thud-for-Duds","collector_number":206,"multiverse_ids":[439595],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/206.jpg?1522209004"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":1},{"id":439437,"name":"Time Out","collector_number":48,"multiverse_ids":[439437],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/48.jpg?1522206242"],"type_line":"Instant","mana_cost":"{4}{U}","cmc":5,"colors":["U"],"rarity":"common","rating":3},{"id":439596,"name":"Top-Secret Tunnel","collector_number":207,"multiverse_ids":[439596],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/207.jpg?1522209016"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":2.5},{"id":439597,"name":"Tread Mill","collector_number":208,"multiverse_ids":[439597],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/208.jpg?1522209033"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":1.5},{"id":439598,"name":"Turbo-Thwacking Auto-Hammer","collector_number":209,"multiverse_ids":[439598],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/209.jpg?1522209046"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":1.5},{"id":439599,"name":"Twiddlestick Charger","collector_number":210,"multiverse_ids":[439599],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/210.jpg?1522209060"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"common","rating":1},{"id":439525,"name":"Urza, Academy Headmaster","collector_number":136,"multiverse_ids":[439525],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/136.jpg?1522207950"],"type_line":"Legendary Planeswalker — Urza","mana_cost":"{W}{U}{B}{R}{G}","cmc":5,"colors":["B","G","R","U","W"],"rarity":"mythic","rating":3},{"id":439648,"name":"Very Cryptic Command","collector_number":49,"multiverse_ids":[439648],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/49e.jpg?1522206333"],"type_line":"Instant","mana_cost":"{1}{U}{U}{U}","cmc":4,"colors":["U"],"rarity":"rare","rating":3.5},{"id":439646,"name":"Very Cryptic Command","collector_number":49,"multiverse_ids":[439646],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/49c.jpg?1522206297"],"type_line":"Instant","mana_cost":"{1}{U}{U}{U}","cmc":4,"colors":["U"],"rarity":"rare","rating":0},{"id":439647,"name":"Very Cryptic Command","collector_number":49,"multiverse_ids":[439647],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/49d.jpg?1522206318"],"type_line":"Instant","mana_cost":"{1}{U}{U}{U}","cmc":4,"colors":["U"],"rarity":"rare","rating":0},{"id":439649,"name":"Very Cryptic Command","collector_number":49,"multiverse_ids":[439649],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/49f.jpg?1522206350"],"type_line":"Instant","mana_cost":"{1}{U}{U}{U}","cmc":4,"colors":["U"],"rarity":"rare","rating":0},{"id":439645,"name":"Very Cryptic Command","collector_number":49,"multiverse_ids":[439645],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/49a.jpg?1530716392"],"type_line":"Instant","mana_cost":"{1}{U}{U}{U}","cmc":4,"colors":["U"],"rarity":"rare","rating":0},{"id":439438,"name":"Very Cryptic Command","collector_number":49,"multiverse_ids":[439438],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/49b.jpg?1522206277"],"type_line":"Instant","mana_cost":"{1}{U}{U}{U}","cmc":4,"colors":["U"],"rarity":"rare","rating":0},{"id":439553,"name":"Voracious Vacuum","collector_number":164,"multiverse_ids":[439553],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/164.jpg?1522208405"],"type_line":"Artifact Host Creature — Construct","mana_cost":"{3}","cmc":3,"colors":[],"rarity":"common","rating":1},{"id":439439,"name":"Wall of Fortune","collector_number":50,"multiverse_ids":[439439],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/50.jpg?1522206369"],"type_line":"Artifact Creature — Wall","mana_cost":"{1}{U}","cmc":2,"colors":["U"],"rarity":"common","rating":1.5},{"id":439555,"name":"Watermarket","collector_number":166,"multiverse_ids":[439555],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/166.jpg?1530716303"],"type_line":"Land","mana_cost":"","cmc":0,"colors":[],"rarity":"rare","rating":3.5},{"id":439600,"name":"Widget Contraption","collector_number":211,"multiverse_ids":[439600],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/211.jpg?1522209073"],"type_line":"Artifact — Contraption","mana_cost":"","cmc":0,"colors":[],"rarity":"uncommon","rating":3},{"id":439514,"name":"Wild Crocodile","collector_number":125,"multiverse_ids":[439514],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/125.jpg?1522207800"],"type_line":"Host Creature — Crocodile","mana_cost":"{1}{G}","cmc":2,"colors":["G"],"rarity":"common","rating":2.5},{"id":439515,"name":"Willing Test Subject","collector_number":126,"multiverse_ids":[439515],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/126.jpg?1522207817"],"type_line":"Creature — Spider Monkey Scientist","mana_cost":"{2}{G}","cmc":3,"colors":["G"],"rarity":"common","rating":1.5},{"id":439489,"name":"Work a Double","collector_number":100,"multiverse_ids":[439489],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/100.jpg?1522207354"],"type_line":"Sorcery","mana_cost":"{2}{R}{R}","cmc":4,"colors":["R"],"rarity":"common","rating":2},{"id":439490,"name":"Wrench-Rigger","collector_number":101,"multiverse_ids":[439490],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/101.jpg?1522207367"],"type_line":"Creature — Goblin Rigger","mana_cost":"{R}","cmc":1,"colors":["R"],"rarity":"common","rating":3},{"id":439526,"name":"X","collector_number":137,"multiverse_ids":[439526],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/137.jpg?1522207964"],"type_line":"Legendary Creature — Human Spy","mana_cost":"{U}{B}","cmc":2,"colors":["B","U"],"rarity":"rare","rating":4},{"id":439464,"name":"Zombified","collector_number":75,"multiverse_ids":[439464],"image_uris":["https://img.scryfall.com/cards/normal/en/ust/75.jpg?1522206885"],"type_line":"Creature — Zombie","mana_cost":"","cmc":0,"colors":["B"],"rarity":"uncommon","rating":1.5}]
+[
+  {
+    "id": 439556,
+    "name": "Accessories to Murder",
+    "collector_number": 167,
+    "multiverse_ids": [
+      439556
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/167.jpg?1522208496"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439390,
+    "name": "Adorable Kitten",
+    "collector_number": 1,
+    "multiverse_ids": [
+      439390
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/1.jpg?1522205313"
+    ],
+    "type_line": "Host Creature — Cat",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439391,
+    "name": "Aerial Toastmaster",
+    "collector_number": 2,
+    "multiverse_ids": [
+      439391
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/2.jpg?1522205326"
+    ],
+    "type_line": "Artifact Creature — Cyborg Rigger",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 439392,
+    "name": "Amateur Auteur",
+    "collector_number": 3,
+    "multiverse_ids": [
+      439392
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/3a.jpg?1522205340"
+    ],
+    "type_line": "Creature — Human",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 439528,
+    "name": "Angelic Rocket",
+    "collector_number": 139,
+    "multiverse_ids": [
+      439528
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/139.jpg?1522207988"
+    ],
+    "type_line": "Artifact Host Creature — Angel",
+    "mana_cost": "{8}",
+    "cmc": 8,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 439415,
+    "name": "Animate Library",
+    "collector_number": 26,
+    "multiverse_ids": [
+      439415
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/26.jpg?1522205862"
+    ],
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439557,
+    "name": "Applied Aeronautics",
+    "collector_number": 168,
+    "multiverse_ids": [
+      439557
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/168.jpg?1522208515"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 439558,
+    "name": "Arms Depot",
+    "collector_number": 169,
+    "multiverse_ids": [
+      439558
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/169.jpg?1522208527"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439491,
+    "name": "As Luck Would Have It",
+    "collector_number": 102,
+    "multiverse_ids": [
+      439491
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/102.jpg?1522207381"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 2
+  },
+  {
+    "id": 439559,
+    "name": "Auto-Key",
+    "collector_number": 170,
+    "multiverse_ids": [
+      439559
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/170.jpg?1522208539"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439516,
+    "name": "Baron Von Count",
+    "collector_number": 127,
+    "multiverse_ids": [
+      439516
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/127.jpg?1522207829"
+    ],
+    "type_line": "Legendary Creature — Human Villain",
+    "mana_cost": "{1}{B}{R}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": 3.5
+  },
+  {
+    "id": 439492,
+    "name": "Beast in Show",
+    "collector_number": 103,
+    "multiverse_ids": [
+      439492
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/103a.jpg?1522207393"
+    ],
+    "type_line": "Creature — Beast",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439560,
+    "name": "Bee-Bee Gun",
+    "collector_number": 171,
+    "multiverse_ids": [
+      439560
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/171.jpg?1522208557"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "mythic",
+    "rating": 3
+  },
+  {
+    "id": 439517,
+    "name": "Better Than One",
+    "collector_number": 128,
+    "multiverse_ids": [
+      439517
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/128.jpg?1522207841"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{G}{W}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439440,
+    "name": "Big Boa Constrictor",
+    "collector_number": 51,
+    "multiverse_ids": [
+      439440
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/51.jpg?1522206381"
+    ],
+    "type_line": "Host Creature — Snake",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439416,
+    "name": "Blurry Beeble",
+    "collector_number": 27,
+    "multiverse_ids": [
+      439416
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/27.jpg?1522205874"
+    ],
+    "type_line": "Artifact Creature — Cyborg Beeble",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439561,
+    "name": "Boomflinger",
+    "collector_number": 172,
+    "multiverse_ids": [
+      439561
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/172.jpg?1522208570"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439529,
+    "name": "Border Guardian",
+    "collector_number": 140,
+    "multiverse_ids": [
+      439529
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/140.jpg?1522208001"
+    ],
+    "type_line": "Artifact Creature — Knight",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439466,
+    "name": "Box of Free-Range Goblins",
+    "collector_number": 77,
+    "multiverse_ids": [
+      439466
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/77.jpg?1522206912"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439467,
+    "name": "Bumbling Pangolin",
+    "collector_number": 78,
+    "multiverse_ids": [
+      439467
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/78.jpg?1529426547"
+    ],
+    "type_line": "Host Creature — Pangolin Beast",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439562,
+    "name": "Buzz Buggy",
+    "collector_number": 173,
+    "multiverse_ids": [
+      439562
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/173.jpg?1522208582"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439530,
+    "name": "Buzzing Whack-a-Doodle",
+    "collector_number": 141,
+    "multiverse_ids": [
+      439530
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/141.jpg?1522208014"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439393,
+    "name": "By Gnome Means",
+    "collector_number": 4,
+    "multiverse_ids": [
+      439393
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/4.jpg?1522205408"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439441,
+    "name": "capital offense",
+    "collector_number": 52,
+    "multiverse_ids": [
+      439441
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/52.jpg?1522206397"
+    ],
+    "type_line": "instant",
+    "mana_cost": "{2}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 439417,
+    "name": "Chipper Chopper",
+    "collector_number": 28,
+    "multiverse_ids": [
+      439417
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/28.jpg?1522205890"
+    ],
+    "type_line": "Artifact Creature — Cyborg Rigger",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439493,
+    "name": "Chittering Doom",
+    "collector_number": 104,
+    "multiverse_ids": [
+      439493
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/104.jpg?1522207449"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 439394,
+    "name": "Chivalrous Chevalier",
+    "collector_number": 5,
+    "multiverse_ids": [
+      439394
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/5.jpg?1522205420"
+    ],
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439494,
+    "name": "Clever Combo",
+    "collector_number": 105,
+    "multiverse_ids": [
+      439494
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/105.jpg?1522207460"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 439418,
+    "name": "Clocknapper",
+    "collector_number": 29,
+    "multiverse_ids": [
+      439418
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/29.jpg?1522205903"
+    ],
+    "type_line": "Creature — Human Spy",
+    "mana_cost": "{3}{U}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 4.5
+  },
+  {
+    "id": 439531,
+    "name": "Clock of DOOOOOOOOOOOOM!",
+    "collector_number": 142,
+    "multiverse_ids": [
+      439531
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/142.jpg?1526142828"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 439532,
+    "name": "Cogmentor",
+    "collector_number": 143,
+    "multiverse_ids": [
+      439532
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/143.jpg?1522208037"
+    ],
+    "type_line": "Artifact Creature — Gnome Rigger",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439468,
+    "name": "Common Iguana",
+    "collector_number": 79,
+    "multiverse_ids": [
+      439468
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/79.jpg?1522206938"
+    ],
+    "type_line": "Host Creature — Lizard",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439533,
+    "name": "Contraption Cannon",
+    "collector_number": 144,
+    "multiverse_ids": [
+      439533
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/144.jpg?1522208048"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0.5
+  },
+  {
+    "id": 439419,
+    "name": "Crafty Octopus",
+    "collector_number": 30,
+    "multiverse_ids": [
+      439419
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/30.jpg?1522205921"
+    ],
+    "type_line": "Host Creature — Octopus Rigger",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 439518,
+    "name": "Cramped Bunker",
+    "collector_number": 129,
+    "multiverse_ids": [
+      439518
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/129.jpg?1522207854"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{4}{R}{G}",
+    "cmc": 6,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 2
+  },
+  {
+    "id": 439420,
+    "name": "Crow Storm",
+    "collector_number": 31,
+    "multiverse_ids": [
+      439420
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/31.jpg?1522205936"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 439534,
+    "name": "Curious Killbot",
+    "collector_number": 145,
+    "multiverse_ids": [
+      439534
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/145a.jpg?1522208061"
+    ],
+    "type_line": "Artifact Creature — Killbot",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439563,
+    "name": "Deadly Poison Sampler",
+    "collector_number": 174,
+    "multiverse_ids": [
+      439563
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/174.jpg?1522208595"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439421,
+    "name": "Defective Detective",
+    "collector_number": 32,
+    "multiverse_ids": [
+      439421
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/32.jpg?1522205951"
+    ],
+    "type_line": "Creature — Human Spy",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439655,
+    "name": "Delighted Killbot",
+    "collector_number": 145,
+    "multiverse_ids": [
+      439655
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/145b.jpg?1522208072"
+    ],
+    "type_line": "Artifact Creature — Killbot",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439656,
+    "name": "Despondent Killbot",
+    "collector_number": 145,
+    "multiverse_ids": [
+      439656
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/145c.jpg?1522208084"
+    ],
+    "type_line": "Artifact Creature — Killbot",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439564,
+    "name": "Dictation Quillograph",
+    "collector_number": 175,
+    "multiverse_ids": [
+      439564
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/175.jpg?1522208607"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439442,
+    "name": "Dirty Rat",
+    "collector_number": 53,
+    "multiverse_ids": [
+      439442
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/53.jpg?1522206414"
+    ],
+    "type_line": "Host Creature — Rat",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439565,
+    "name": "Dispatch Dispensary",
+    "collector_number": 176,
+    "multiverse_ids": [
+      439565
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/176.jpg?1522208619"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439566,
+    "name": "Division Table",
+    "collector_number": 177,
+    "multiverse_ids": [
+      439566
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/177.jpg?1522208631"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439567,
+    "name": "Dogsnail Engine",
+    "collector_number": 178,
+    "multiverse_ids": [
+      439567
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/178.jpg?1522208645"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439395,
+    "name": "Do-It-Yourself Seraph",
+    "collector_number": 6,
+    "multiverse_ids": [
+      439395
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/6.jpg?1522205434"
+    ],
+    "type_line": "Artifact Creature — Cyborg Angel",
+    "mana_cost": "{4}{W}{W}",
+    "cmc": 6,
+    "colors": [
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 4
+  },
+  {
+    "id": 439519,
+    "name": "Dr. Julius Jumblemorph",
+    "collector_number": 130,
+    "multiverse_ids": [
+      439519
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/130.jpg?1522207868"
+    ],
+    "type_line": "Legendary Creature",
+    "mana_cost": "{2}{G}{W}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5
+  },
+  {
+    "id": 439495,
+    "name": "Druid of the Sacred Beaker",
+    "collector_number": 106,
+    "multiverse_ids": [
+      439495
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/106.jpg?1522207476"
+    ],
+    "type_line": "Creature — Deer Bird Ape Druid",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439568,
+    "name": "Dual Doomsuits",
+    "collector_number": 179,
+    "multiverse_ids": [
+      439568
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/179.jpg?1522208658"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439569,
+    "name": "Duplication Device",
+    "collector_number": 180,
+    "multiverse_ids": [
+      439569
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/180.jpg?1522208669"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 2.5
+  },
+  {
+    "id": 439496,
+    "name": "Eager Beaver",
+    "collector_number": 107,
+    "multiverse_ids": [
+      439496
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/107.jpg?1522207488"
+    ],
+    "type_line": "Host Creature — Beaver",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439497,
+    "name": "Earl of Squirrel",
+    "collector_number": 108,
+    "multiverse_ids": [
+      439497
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/108.jpg?1522207502"
+    ],
+    "type_line": "Creature — Squirrel Advisor",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 4.5
+  },
+  {
+    "id": 439657,
+    "name": "Enraged Killbot",
+    "collector_number": 145,
+    "multiverse_ids": [
+      439657
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/145d.jpg?1522208096"
+    ],
+    "type_line": "Artifact Creature — Killbot",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439535,
+    "name": "Entirely Normal Armchair",
+    "collector_number": 146,
+    "multiverse_ids": [
+      439535
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/146.jpg?1522208109"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 439641,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439641
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/147c.jpg?1522208152"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439644,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439644
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/147f.jpg?1522208190"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{8}",
+    "cmc": 8,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439640,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439640
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/147b.jpg?1522208136"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439536,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439536
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/147a.jpg?1522208122"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439643,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439643
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/147e.jpg?1522208176"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439642,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439642
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/147d.jpg?1522208163"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{6}",
+    "cmc": 6,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439443,
+    "name": "Extremely Slow Zombie",
+    "collector_number": 54,
+    "multiverse_ids": [
+      439443
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/54a.jpg?1522206428"
+    ],
+    "type_line": "Creature — Zombie",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439570,
+    "name": "Faerie Aerie",
+    "collector_number": 181,
+    "multiverse_ids": [
+      439570
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/181.jpg?1522208681"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "mythic",
+    "rating": 4
+  },
+  {
+    "id": 439470,
+    "name": "Feisty Stegosaurus",
+    "collector_number": 81,
+    "multiverse_ids": [
+      439470
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/81.jpg?1522206967"
+    ],
+    "type_line": "Host Creature — Dinosaur",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439444,
+    "name": "Finders, Keepers",
+    "collector_number": 55,
+    "multiverse_ids": [
+      439444
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/55.jpg?1522206495"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{5}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 439498,
+    "name": "First Pick",
+    "collector_number": 109,
+    "multiverse_ids": [
+      439498
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/109.jpg?1522207516"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 439422,
+    "name": "Five-Finger Discount",
+    "collector_number": 33,
+    "multiverse_ids": [
+      439422
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/33.jpg?1522205967"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 439605,
+    "name": "Forest",
+    "collector_number": 216,
+    "multiverse_ids": [
+      439605
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/front/f/8/f8772631-d4a1-440d-ac89-ac6659bdc073.jpg?1545331507"
+    ],
+    "type_line": "Basic Land — Forest",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439631,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439631
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/82c.jpg?1522207006"
+    ],
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 439632,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439632
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/82d.jpg?1522207023"
+    ],
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439471,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439471
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/82a.jpg?1522206979"
+    ],
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439634,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439634
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/82f.jpg?1522207050"
+    ],
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439633,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439633
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/82e.jpg?1522207038"
+    ],
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439630,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439630
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/82b.jpg?1522206993"
+    ],
+    "type_line": "Creature — Elemental Rigger",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439571,
+    "name": "Genetic Recombinator",
+    "collector_number": 182,
+    "multiverse_ids": [
+      439571
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/182.jpg?1522208694"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 439572,
+    "name": "Gift Horse",
+    "collector_number": 183,
+    "multiverse_ids": [
+      439572
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/183.jpg?1522208706"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439396,
+    "name": "Gimme Five",
+    "collector_number": 7,
+    "multiverse_ids": [
+      439396
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/7.jpg?1522205448"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439573,
+    "name": "Gnomeball Machine",
+    "collector_number": 184,
+    "multiverse_ids": [
+      439573
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/184.jpg?1522208717"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439537,
+    "name": "Gnome-Made Engine",
+    "collector_number": 148,
+    "multiverse_ids": [
+      439537
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/148.jpg?1522208203"
+    ],
+    "type_line": "Artifact Host Creature — Construct",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439472,
+    "name": "Goblin Haberdasher",
+    "collector_number": 83,
+    "multiverse_ids": [
+      439472
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/83.jpg?1522207064"
+    ],
+    "type_line": "Creature — Goblin Hatificer",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439574,
+    "name": "Goblin Slingshot",
+    "collector_number": 185,
+    "multiverse_ids": [
+      439574
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/185.jpg?1522208729"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439397,
+    "name": "GO TO JAIL",
+    "collector_number": 8,
+    "multiverse_ids": [
+      439397
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/8.jpg?1522205463"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 439423,
+    "name": "Graveyard Busybody",
+    "collector_number": 34,
+    "multiverse_ids": [
+      439423
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/34.jpg?1522205982"
+    ],
+    "type_line": "Creature — Human Spy",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439499,
+    "name": "Ground Pounder",
+    "collector_number": 110,
+    "multiverse_ids": [
+      439499
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/110.jpg?1522207530"
+    ],
+    "type_line": "Creature — Goblin Warrior",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439521,
+    "name": "Grusilda, Monster Masher",
+    "collector_number": 132,
+    "multiverse_ids": [
+      439521
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/132.jpg?1531008792"
+    ],
+    "type_line": "Legendary Creature — Zombie Villain",
+    "mana_cost": "{3}{B}{R}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 439575,
+    "name": "Guest List",
+    "collector_number": 186,
+    "multiverse_ids": [
+      439575
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/186.jpg?1522208741"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439398,
+    "name": "Half-Kitten, Half-",
+    "collector_number": 9,
+    "multiverse_ids": [
+      439398
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/9.jpg?1522205476"
+    ],
+    "type_line": "Creature — Cat",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439473,
+    "name": "Half-Orc, Half-",
+    "collector_number": 84,
+    "multiverse_ids": [
+      439473
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/84.jpg?1522207079"
+    ],
+    "type_line": "Creature — Orc Warrior",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439424,
+    "name": "Half-Shark, Half-",
+    "collector_number": 35,
+    "multiverse_ids": [
+      439424
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/35.jpg?1522205997"
+    ],
+    "type_line": "Creature — Fish",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 439500,
+    "name": "Half-Squirrel, Half-",
+    "collector_number": 111,
+    "multiverse_ids": [
+      439500
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/111.jpg?1522207545"
+    ],
+    "type_line": "Creature — Squirrel",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439476,
+    "name": "Hammerfest Boomtacular",
+    "collector_number": 87,
+    "multiverse_ids": [
+      439476
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/87.jpg?1522207123"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439474,
+    "name": "Hammer Helper",
+    "collector_number": 85,
+    "multiverse_ids": [
+      439474
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/85.jpg?1522207092"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 439475,
+    "name": "Hammer Jammer",
+    "collector_number": 86,
+    "multiverse_ids": [
+      439475
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/86.jpg?1522207106"
+    ],
+    "type_line": "Creature — Goblin Warrior",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439538,
+    "name": "Handy Dandy Clone Machine",
+    "collector_number": 149,
+    "multiverse_ids": [
+      439538
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/149.jpg?1522208218"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439445,
+    "name": "Hangman",
+    "collector_number": 56,
+    "multiverse_ids": [
+      439445
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/56.jpg?1522206509"
+    ],
+    "type_line": "Creature — Human Villain",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439576,
+    "name": "Hard Hat Area",
+    "collector_number": 187,
+    "multiverse_ids": [
+      439576
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/187.jpg?1522208755"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "mythic",
+    "rating": 3.5
+  },
+  {
+    "id": 439446,
+    "name": "Hazmat Suit (Used)",
+    "collector_number": 57,
+    "multiverse_ids": [
+      439446
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/57.jpg?1522206524"
+    ],
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439577,
+    "name": "Head Banger",
+    "collector_number": 188,
+    "multiverse_ids": [
+      439577
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/188.jpg?1522208768"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439447,
+    "name": "Hoisted Hireling",
+    "collector_number": 58,
+    "multiverse_ids": [
+      439447
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/58.jpg?1522206541"
+    ],
+    "type_line": "Creature — Zombie",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439522,
+    "name": "Hot Fix",
+    "collector_number": 133,
+    "multiverse_ids": [
+      439522
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/133.jpg?1522207911"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{W}{U}",
+    "cmc": 6,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439399,
+    "name": "Humming-",
+    "collector_number": 10,
+    "multiverse_ids": [
+      439399
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/10.jpg?1522205489"
+    ],
+    "type_line": "Creature — Bird",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 439501,
+    "name": "Hydradoodle",
+    "collector_number": 112,
+    "multiverse_ids": [
+      439501
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/112.jpg?1522207558"
+    ],
+    "type_line": "Creature — Hydra Hound",
+    "mana_cost": "{X}{X}{G}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 439578,
+    "name": "Hypnotic Swirly Disc",
+    "collector_number": 189,
+    "multiverse_ids": [
+      439578
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/189.jpg?1522208784"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 1
+  },
+  {
+    "id": 439425,
+    "name": "Incite Insight",
+    "collector_number": 36,
+    "multiverse_ids": [
+      439425
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/36.jpg?1522206009"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{X}{U}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439635,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439635
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/113b.jpg?1522207587"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439639,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439639
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/113f.jpg?1522207637"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439637,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439637
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/113d.jpg?1522207613"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439502,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439502
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/113a.jpg?1522207574"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439638,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439638
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/113e.jpg?1522207625"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439636,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439636
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/113c.jpg?1526594978"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439477,
+    "name": "Infinity Elemental",
+    "collector_number": 88,
+    "multiverse_ids": [
+      439477
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/88.jpg?1522207136"
+    ],
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{4}{R}{R}{R}",
+    "cmc": 7,
+    "colors": [
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": 3.5
+  },
+  {
+    "id": 439579,
+    "name": "Inflation Station",
+    "collector_number": 190,
+    "multiverse_ids": [
+      439579
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/190.jpg?1522208797"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439448,
+    "name": "Inhumaniac",
+    "collector_number": 59,
+    "multiverse_ids": [
+      439448
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/59.jpg?1522206554"
+    ],
+    "type_line": "Creature — Brainiac",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439580,
+    "name": "Insufferable Syphon",
+    "collector_number": 191,
+    "multiverse_ids": [
+      439580
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/191.jpg?1522208810"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439602,
+    "name": "Island",
+    "collector_number": 213,
+    "multiverse_ids": [
+      439602
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/213.jpg?1534901014"
+    ],
+    "type_line": "Basic Land — Island",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439478,
+    "name": "It That Gets Left Hanging",
+    "collector_number": 89,
+    "multiverse_ids": [
+      439478
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/89.jpg?1522207153"
+    ],
+    "type_line": "Creature — Elemental Horror",
+    "mana_cost": "{5}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 439400,
+    "name": "Jackknight",
+    "collector_number": 11,
+    "multiverse_ids": [
+      439400
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/11.jpg?1522205509"
+    ],
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439581,
+    "name": "Jamming Device",
+    "collector_number": 192,
+    "multiverse_ids": [
+      439581
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/192.jpg?1522208821"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 439503,
+    "name": "Joyride Rigger",
+    "collector_number": 114,
+    "multiverse_ids": [
+      439503
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/114.jpg?1522207655"
+    ],
+    "type_line": "Creature — Goblin Rigger",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 439479,
+    "name": "Just Desserts",
+    "collector_number": 90,
+    "multiverse_ids": [
+      439479
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/90.jpg?1522207168"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 439426,
+    "name": "Kindly Cognician",
+    "collector_number": 37,
+    "multiverse_ids": [
+      439426
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/37.jpg?1522206026"
+    ],
+    "type_line": "Artifact Creature — Cyborg Artificer",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 439539,
+    "name": "Kindslaver",
+    "collector_number": 150,
+    "multiverse_ids": [
+      439539
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/150.jpg?1522208231"
+    ],
+    "type_line": "Legendary Artifact",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439401,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439401
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/12a.jpg?1522205523"
+    ],
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439625,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439625
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/12b.jpg?1522205552"
+    ],
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439626,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439626
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/12c.jpg?1522205574"
+    ],
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439627,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439627
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/12d.jpg?1522205595"
+    ],
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439628,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439628
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/12e.jpg?1522205608"
+    ],
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439629,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439629
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/12f.jpg?1522205626"
+    ],
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439402,
+    "name": "Knight of the Widget",
+    "collector_number": 13,
+    "multiverse_ids": [
+      439402
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/13.jpg?1522205640"
+    ],
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439540,
+    "name": "Krark's Other Thumb",
+    "collector_number": 151,
+    "multiverse_ids": [
+      439540
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/151.jpg?1522208245"
+    ],
+    "type_line": "Legendary Artifact",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439541,
+    "name": "Labro Bot",
+    "collector_number": 152,
+    "multiverse_ids": [
+      439541
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/152.jpg?1522208257"
+    ],
+    "type_line": "Artifact Host Creature — Hound",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439582,
+    "name": "Lackey Recycler",
+    "collector_number": 193,
+    "multiverse_ids": [
+      439582
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/193.jpg?1522208834"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 439542,
+    "name": "Lobe Lobber",
+    "collector_number": 153,
+    "multiverse_ids": [
+      439542
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/153.jpg?1522208269"
+    ],
+    "type_line": "Artifact — Equipment",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439543,
+    "name": "Mad Science Fair Project",
+    "collector_number": 154,
+    "multiverse_ids": [
+      439543
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/154.jpg?1522208282"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439427,
+    "name": "Magic Word",
+    "collector_number": 38,
+    "multiverse_ids": [
+      439427
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/38.jpg?1522206042"
+    ],
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 439583,
+    "name": "Mandatory Friendship Shackles",
+    "collector_number": 194,
+    "multiverse_ids": [
+      439583
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/194.jpg?1522208845"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 439527,
+    "name": "Mary O'Kill",
+    "collector_number": 138,
+    "multiverse_ids": [
+      439527
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/138.jpg?1522207977"
+    ],
+    "type_line": "Legendary Creature — Human Villain",
+    "mana_cost": "{5}{B/R}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439449,
+    "name": "Masterful Ninja",
+    "collector_number": 60,
+    "multiverse_ids": [
+      439449
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/60.jpg?1522206570"
+    ],
+    "type_line": "Creature — Troll Ninja",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439428,
+    "name": "Mer Man",
+    "collector_number": 39,
+    "multiverse_ids": [
+      439428
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/39.jpg?1522206063"
+    ],
+    "type_line": "Host Creature — Human Fish",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439403,
+    "name": "Midlife Upgrade",
+    "collector_number": 14,
+    "multiverse_ids": [
+      439403
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/14.jpg?1522205654"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439544,
+    "name": "Modular Monstrosity",
+    "collector_number": 155,
+    "multiverse_ids": [
+      439544
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/155.jpg?1522208295"
+    ],
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{7}",
+    "cmc": 7,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 439504,
+    "name": "Monkey-",
+    "collector_number": 115,
+    "multiverse_ids": [
+      439504
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/115.jpg?1522207668"
+    ],
+    "type_line": "Creature — Monkey",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439429,
+    "name": "More or Less",
+    "collector_number": 40,
+    "multiverse_ids": [
+      439429
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/40.jpg?1522206081"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439505,
+    "name": "Mother Kangaroo",
+    "collector_number": 116,
+    "multiverse_ids": [
+      439505
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/116.jpg?1522207680"
+    ],
+    "type_line": "Host Creature — Kangaroo",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439604,
+    "name": "Mountain",
+    "collector_number": 215,
+    "multiverse_ids": [
+      439604
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/215.jpg?1534900931"
+    ],
+    "type_line": "Basic Land — Mountain",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439506,
+    "name": "Multi-Headed",
+    "collector_number": 117,
+    "multiverse_ids": [
+      439506
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/117.jpg?1522207694"
+    ],
+    "type_line": "Creature — Hydra",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439584,
+    "name": "Neural Network",
+    "collector_number": 195,
+    "multiverse_ids": [
+      439584
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/195.jpg?1522208858"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439450,
+    "name": "Ninja",
+    "collector_number": 61,
+    "multiverse_ids": [
+      439450
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/61.jpg?1522206585"
+    ],
+    "type_line": "Creature — Ninja",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439430,
+    "name": "Novellamental",
+    "collector_number": 41,
+    "multiverse_ids": [
+      439430
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/41a.jpg?1522206097"
+    ],
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439431,
+    "name": "Numbing Jellyfish",
+    "collector_number": 42,
+    "multiverse_ids": [
+      439431
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/42.jpg?1522206153"
+    ],
+    "type_line": "Host Creature — Jellyfish",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 439585,
+    "name": "Oaken Power Suit",
+    "collector_number": 196,
+    "multiverse_ids": [
+      439585
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/196.jpg?1522208870"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439404,
+    "name": "Oddly Uneven",
+    "collector_number": 15,
+    "multiverse_ids": [
+      439404
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/15.jpg?1522205670"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439523,
+    "name": "Ol' Buzzbark",
+    "collector_number": 134,
+    "multiverse_ids": [
+      439523
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/134.jpg?1522207922"
+    ],
+    "type_line": "Legendary Creature — Goblin Warrior",
+    "mana_cost": "{X}{R}{G}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5
+  },
+  {
+    "id": 439451,
+    "name": "Old-Fashioned Vampire",
+    "collector_number": 62,
+    "multiverse_ids": [
+      439451
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/62.jpg?1522206599"
+    ],
+    "type_line": "Creature — Vampyre",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 439405,
+    "name": "Old Guard",
+    "collector_number": 16,
+    "multiverse_ids": [
+      439405
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/16.jpg?1522205684"
+    ],
+    "type_line": "Artifact Creature — Cyborg Soldier",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439586,
+    "name": "Optical Optimizer",
+    "collector_number": 197,
+    "multiverse_ids": [
+      439586
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/197.jpg?1522208881"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 439406,
+    "name": "Ordinary Pony",
+    "collector_number": 17,
+    "multiverse_ids": [
+      439406
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/17.jpg?1522205708"
+    ],
+    "type_line": "Host Creature — Horse",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 439452,
+    "name": "Over My Dead Bodies",
+    "collector_number": 63,
+    "multiverse_ids": [
+      439452
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/63.jpg?1522206615"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439453,
+    "name": "Overt Operative",
+    "collector_number": 64,
+    "multiverse_ids": [
+      439453
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/64.jpg?1522206630"
+    ],
+    "type_line": "Creature — Human Ninja Rigger",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439480,
+    "name": "Painiac",
+    "collector_number": 91,
+    "multiverse_ids": [
+      439480
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/91.jpg?1522207186"
+    ],
+    "type_line": "Creature — Brainiac",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439481,
+    "name": "Party Crasher",
+    "collector_number": 92,
+    "multiverse_ids": [
+      439481
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/92.jpg?1522207201"
+    ],
+    "type_line": "Creature — Goblin Berserker",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 439587,
+    "name": "Pet Project",
+    "collector_number": 198,
+    "multiverse_ids": [
+      439587
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/198.jpg?1522208894"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "mythic",
+    "rating": 4
+  },
+  {
+    "id": 439524,
+    "name": "Phoebe, Head of S.N.E.A.K.",
+    "collector_number": 135,
+    "multiverse_ids": [
+      439524
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/135.jpg?1522207938"
+    ],
+    "type_line": "Legendary Creature — Human Spy",
+    "mana_cost": "{1}{U}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5
+  },
+  {
+    "id": 439601,
+    "name": "Plains",
+    "collector_number": 212,
+    "multiverse_ids": [
+      439601
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/212.jpg?1534901049"
+    ],
+    "type_line": "Basic Land — Plains",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 439545,
+    "name": "Proper Laboratory Attire",
+    "collector_number": 156,
+    "multiverse_ids": [
+      439545
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/156.jpg?1522208307"
+    ],
+    "type_line": "Artifact — Equipment",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439588,
+    "name": "Quick-Stick Lick Trick",
+    "collector_number": 199,
+    "multiverse_ids": [
+      439588
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/199.jpg?1522208912"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439589,
+    "name": "Rapid Prototyper",
+    "collector_number": 200,
+    "multiverse_ids": [
+      439589
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/200.jpg?1522208924"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "mythic",
+    "rating": 4
+  },
+  {
+    "id": 439507,
+    "name": "Really Epic Punch",
+    "collector_number": 118,
+    "multiverse_ids": [
+      439507
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/118.jpg?1522207707"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 439590,
+    "name": "Record Store",
+    "collector_number": 201,
+    "multiverse_ids": [
+      439590
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/201.jpg?1522208935"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439591,
+    "name": "Refibrillator",
+    "collector_number": 202,
+    "multiverse_ids": [
+      439591
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/202.jpg?1522208949"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439407,
+    "name": "Rhino-",
+    "collector_number": 18,
+    "multiverse_ids": [
+      439407
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/18.jpg?1522205721"
+    ],
+    "type_line": "Creature — Rhino",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439408,
+    "name": "Riveting Rigger",
+    "collector_number": 19,
+    "multiverse_ids": [
+      439408
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/19.jpg?1522205738"
+    ],
+    "type_line": "Artifact Creature — Cyborg Rigger",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439546,
+    "name": "Robo-",
+    "collector_number": 157,
+    "multiverse_ids": [
+      439546
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/157.jpg?1522208319"
+    ],
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439409,
+    "name": "Rules Lawyer",
+    "collector_number": 20,
+    "multiverse_ids": [
+      439409
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/20.jpg?1522205762"
+    ],
+    "type_line": "Artifact Creature — Cyborg Advisor",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 439454,
+    "name": "\"Rumors of My Death . . .\"",
+    "collector_number": 65,
+    "multiverse_ids": [
+      439454
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/65.jpg?1522206647"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439410,
+    "name": "Sacrifice Play",
+    "collector_number": 21,
+    "multiverse_ids": [
+      439410
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/21.jpg?1522205778"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439592,
+    "name": "Sap Sucker",
+    "collector_number": 203,
+    "multiverse_ids": [
+      439592
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/203.jpg?1522208965"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439606,
+    "name": "Secret Base",
+    "collector_number": 165,
+    "multiverse_ids": [
+      439606
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/165a.jpg?1522208421"
+    ],
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439508,
+    "name": "Selfie Preservation",
+    "collector_number": 119,
+    "multiverse_ids": [
+      439508
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/119.jpg?1522207719"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439509,
+    "name": "Serpentine",
+    "collector_number": 120,
+    "multiverse_ids": [
+      439509
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/120.jpg?1522207735"
+    ],
+    "type_line": "Creature — Wurm",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439411,
+    "name": "Shaggy Camel",
+    "collector_number": 22,
+    "multiverse_ids": [
+      439411
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/22.jpg?1522205795"
+    ],
+    "type_line": "Host Creature — Camel",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439510,
+    "name": "Shellephant",
+    "collector_number": 121,
+    "multiverse_ids": [
+      439510
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/121.jpg?1522207746"
+    ],
+    "type_line": "Creature — Turtle and/or Elephant",
+    "mana_cost": "{1}{G}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 439412,
+    "name": "Side Quest",
+    "collector_number": 23,
+    "multiverse_ids": [
+      439412
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/23.jpg?1522205809"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439455,
+    "name": "Skull Saucer",
+    "collector_number": 66,
+    "multiverse_ids": [
+      439455
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/66.jpg?1522206664"
+    ],
+    "type_line": "Creature — Zombie Head",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439511,
+    "name": "Slaying Mantis",
+    "collector_number": 122,
+    "multiverse_ids": [
+      439511
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/122.jpg?1522207760"
+    ],
+    "type_line": "Creature — Insect Wrestler",
+    "mana_cost": "{5}{G}{G}",
+    "cmc": 7,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439654,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439654
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/67f.jpg?1522206762"
+    ],
+    "type_line": "Creature — Human Spy",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439651,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439651
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/67c.jpg?1522206713"
+    ],
+    "type_line": "Creature — Human Spy",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439456,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439456
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/67a.jpg?1522206684"
+    ],
+    "type_line": "Creature — Human Spy",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439653,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439653
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/67e.jpg?1522206744"
+    ],
+    "type_line": "Creature — Human Spy",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439650,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439650
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/67b.jpg?1522206699"
+    ],
+    "type_line": "Creature — Human Spy",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439652,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439652
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/67d.jpg?1522206730"
+    ],
+    "type_line": "Creature — Human Spy",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439432,
+    "name": "S.N.E.A.K. Dispatcher",
+    "collector_number": 43,
+    "multiverse_ids": [
+      439432
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/43.jpg?1522206167"
+    ],
+    "type_line": "Creature — Human Spy",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439457,
+    "name": "Snickering Squirrel",
+    "collector_number": 68,
+    "multiverse_ids": [
+      439457
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/68.jpg?1522206775"
+    ],
+    "type_line": "Creature — Squirrel Advisor",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439433,
+    "name": "Socketed Sprocketer",
+    "collector_number": 44,
+    "multiverse_ids": [
+      439433
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/44.jpg?1522206183"
+    ],
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 439434,
+    "name": "Spell Suck",
+    "collector_number": 45,
+    "multiverse_ids": [
+      439434
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/45.jpg?1522206197"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439458,
+    "name": "Spike, Tournament Grinder",
+    "collector_number": 69,
+    "multiverse_ids": [
+      439458
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/69.jpg?1530703204"
+    ],
+    "type_line": "Legendary Creature — Human Gamer",
+    "mana_cost": "{2}{B/P}{B/P}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439547,
+    "name": "Split Screen",
+    "collector_number": 158,
+    "multiverse_ids": [
+      439547
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/158.jpg?1522208331"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439435,
+    "name": "Spy Eye",
+    "collector_number": 46,
+    "multiverse_ids": [
+      439435
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/46.jpg?1522206209"
+    ],
+    "type_line": "Creature — Eye Spy",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439512,
+    "name": "Squirrel Dealer",
+    "collector_number": 123,
+    "multiverse_ids": [
+      439512
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/123.jpg?1522207772"
+    ],
+    "type_line": "Creature — Raccoon Lizard Bird",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 439459,
+    "name": "Squirrel-Powered Scheme",
+    "collector_number": 70,
+    "multiverse_ids": [
+      439459
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/70.jpg?1522206806"
+    ],
+    "type_line": "Enchantment",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439548,
+    "name": "Staff of the Letter Magus",
+    "collector_number": 159,
+    "multiverse_ids": [
+      439548
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/159.jpg?1522208344"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439549,
+    "name": "Stamp of Approval",
+    "collector_number": 160,
+    "multiverse_ids": [
+      439549
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/160.jpg?1522208356"
+    ],
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 439460,
+    "name": "Steady-Handed Mook",
+    "collector_number": 71,
+    "multiverse_ids": [
+      439460
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/71.jpg?1522206821"
+    ],
+    "type_line": "Creature — Human Rigger",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 439482,
+    "name": "Steamflogger Boss",
+    "collector_number": 93,
+    "multiverse_ids": [
+      439482
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/93.jpg?1522207218"
+    ],
+    "type_line": "Creature — Goblin Rigger",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 439483,
+    "name": "Steamflogger of the Month",
+    "collector_number": 94,
+    "multiverse_ids": [
+      439483
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/94.jpg?1522207233"
+    ],
+    "type_line": "Creature — Goblin Rigger",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439513,
+    "name": "Steamflogger Service Rep",
+    "collector_number": 124,
+    "multiverse_ids": [
+      439513
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/124.jpg?1522207787"
+    ],
+    "type_line": "Creature — Goblin Rigger",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 439484,
+    "name": "Steamflogger Temp",
+    "collector_number": 95,
+    "multiverse_ids": [
+      439484
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/95.jpg?1522207248"
+    ],
+    "type_line": "Creature — Goblin Rigger",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439485,
+    "name": "Steamfloggery",
+    "collector_number": 96,
+    "multiverse_ids": [
+      439485
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/96.jpg?1522207261"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{4}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439550,
+    "name": "Steam-Powered",
+    "collector_number": 161,
+    "multiverse_ids": [
+      439550
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/161.jpg?1522208368"
+    ],
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439551,
+    "name": "Steel Squirrel",
+    "collector_number": 162,
+    "multiverse_ids": [
+      439551
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/162.jpg?1522208380"
+    ],
+    "type_line": "Artifact Creature — Squirrel",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439461,
+    "name": "Stinging Scorpion",
+    "collector_number": 72,
+    "multiverse_ids": [
+      439461
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/72.jpg?1522206834"
+    ],
+    "type_line": "Host Creature — Scorpion",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439462,
+    "name": "Subcontract",
+    "collector_number": 73,
+    "multiverse_ids": [
+      439462
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/73.jpg?1522206853"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439413,
+    "name": "Success!",
+    "collector_number": 24,
+    "multiverse_ids": [
+      439413
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/24.jpg?1522205832"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439463,
+    "name": "Summon the Pack",
+    "collector_number": 74,
+    "multiverse_ids": [
+      439463
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/74.jpg?1522206868"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{7}{B}",
+    "cmc": 8,
+    "colors": [
+      "B"
+    ],
+    "rarity": "mythic",
+    "rating": 3.5
+  },
+  {
+    "id": 439593,
+    "name": "Sundering Fork",
+    "collector_number": 204,
+    "multiverse_ids": [
+      439593
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/204.jpg?1522208977"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439486,
+    "name": "Super-Duper Death Ray",
+    "collector_number": 97,
+    "multiverse_ids": [
+      439486
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/97.jpg?1522207275"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 439436,
+    "name": "Suspicious Nanny",
+    "collector_number": 47,
+    "multiverse_ids": [
+      439436
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/47.jpg?1522206225"
+    ],
+    "type_line": "Creature — Human Spy Rigger",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439603,
+    "name": "Swamp",
+    "collector_number": 214,
+    "multiverse_ids": [
+      439603
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/214.jpg?1534900970"
+    ],
+    "type_line": "Basic Land — Swamp",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 439552,
+    "name": "Sword of Dungeons & Dragons",
+    "collector_number": 163,
+    "multiverse_ids": [
+      439552
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/163.jpg?1522208392"
+    ],
+    "type_line": "Artifact — Equipment",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "mythic",
+    "rating": 4.5
+  },
+  {
+    "id": 439594,
+    "name": "Targeting Rocket",
+    "collector_number": 205,
+    "multiverse_ids": [
+      439594
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/205.jpg?1522208992"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 439487,
+    "name": "Target Minotaur",
+    "collector_number": 98,
+    "multiverse_ids": [
+      439487
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/98a.jpg?1522207287"
+    ],
+    "type_line": "Creature — Minotaur Warrior",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439414,
+    "name": "Teacher's Pet",
+    "collector_number": 25,
+    "multiverse_ids": [
+      439414
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/25.jpg?1522205848"
+    ],
+    "type_line": "Creature — Cat Bird Scientist",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439465,
+    "name": "The Big Idea",
+    "collector_number": 76,
+    "multiverse_ids": [
+      439465
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/76.jpg?1522206898"
+    ],
+    "type_line": "Legendary Creature — Brainiac Villain",
+    "mana_cost": "{4}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 439469,
+    "name": "The Countdown Is at One",
+    "collector_number": 80,
+    "multiverse_ids": [
+      439469
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/80.jpg?1522206952"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 439520,
+    "name": "The Grand Calcutron",
+    "collector_number": 131,
+    "multiverse_ids": [
+      439520
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/131.jpg?1522207881"
+    ],
+    "type_line": "Legendary Artifact",
+    "mana_cost": "{W}{U}",
+    "cmc": 2,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 3
+  },
+  {
+    "id": 439488,
+    "name": "Three-Headed Goblin",
+    "collector_number": 99,
+    "multiverse_ids": [
+      439488
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/99.jpg?1522207342"
+    ],
+    "type_line": "Creature — Goblin Mutant",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439595,
+    "name": "Thud-for-Duds",
+    "collector_number": 206,
+    "multiverse_ids": [
+      439595
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/206.jpg?1522209004"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 439437,
+    "name": "Time Out",
+    "collector_number": 48,
+    "multiverse_ids": [
+      439437
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/48.jpg?1522206242"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 439596,
+    "name": "Top-Secret Tunnel",
+    "collector_number": 207,
+    "multiverse_ids": [
+      439596
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/207.jpg?1522209016"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439597,
+    "name": "Tread Mill",
+    "collector_number": 208,
+    "multiverse_ids": [
+      439597
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/208.jpg?1522209033"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439598,
+    "name": "Turbo-Thwacking Auto-Hammer",
+    "collector_number": 209,
+    "multiverse_ids": [
+      439598
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/209.jpg?1522209046"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 439599,
+    "name": "Twiddlestick Charger",
+    "collector_number": 210,
+    "multiverse_ids": [
+      439599
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/210.jpg?1522209060"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439525,
+    "name": "Urza, Academy Headmaster",
+    "collector_number": 136,
+    "multiverse_ids": [
+      439525
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/136.jpg?1522207950"
+    ],
+    "type_line": "Legendary Planeswalker — Urza",
+    "mana_cost": "{W}{U}{B}{R}{G}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 3
+  },
+  {
+    "id": 439648,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439648
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/49e.jpg?1522206333"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439646,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439646
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/49c.jpg?1522206297"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439647,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439647
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/49d.jpg?1522206318"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439649,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439649
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/49f.jpg?1522206350"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439645,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439645
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/49a.jpg?1530716392"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439438,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439438
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/49b.jpg?1522206277"
+    ],
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 0
+  },
+  {
+    "id": 439553,
+    "name": "Voracious Vacuum",
+    "collector_number": 164,
+    "multiverse_ids": [
+      439553
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/164.jpg?1522208405"
+    ],
+    "type_line": "Artifact Host Creature — Construct",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 439439,
+    "name": "Wall of Fortune",
+    "collector_number": 50,
+    "multiverse_ids": [
+      439439
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/50.jpg?1522206369"
+    ],
+    "type_line": "Artifact Creature — Wall",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439555,
+    "name": "Watermarket",
+    "collector_number": 166,
+    "multiverse_ids": [
+      439555
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/166.jpg?1530716303"
+    ],
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 439600,
+    "name": "Widget Contraption",
+    "collector_number": 211,
+    "multiverse_ids": [
+      439600
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/211.jpg?1522209073"
+    ],
+    "type_line": "Artifact — Contraption",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 439514,
+    "name": "Wild Crocodile",
+    "collector_number": 125,
+    "multiverse_ids": [
+      439514
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/125.jpg?1522207800"
+    ],
+    "type_line": "Host Creature — Crocodile",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 439515,
+    "name": "Willing Test Subject",
+    "collector_number": 126,
+    "multiverse_ids": [
+      439515
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/126.jpg?1522207817"
+    ],
+    "type_line": "Creature — Spider Monkey Scientist",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 439489,
+    "name": "Work a Double",
+    "collector_number": 100,
+    "multiverse_ids": [
+      439489
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/100.jpg?1522207354"
+    ],
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 439490,
+    "name": "Wrench-Rigger",
+    "collector_number": 101,
+    "multiverse_ids": [
+      439490
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/101.jpg?1522207367"
+    ],
+    "type_line": "Creature — Goblin Rigger",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 439526,
+    "name": "X",
+    "collector_number": 137,
+    "multiverse_ids": [
+      439526
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/137.jpg?1522207964"
+    ],
+    "type_line": "Legendary Creature — Human Spy",
+    "mana_cost": "{U}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 439464,
+    "name": "Zombified",
+    "collector_number": 75,
+    "multiverse_ids": [
+      439464
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/ust/75.jpg?1522206885"
+    ],
+    "type_line": "Creature — Zombie",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  }
+]
