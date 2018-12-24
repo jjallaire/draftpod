@@ -45,7 +45,7 @@ export default {
 <template>
   <Drag v-if="drag_source" tag="span" class="mtgcard mtgcard-draggable" 
         @dragstart="onDragStart"
-        :transfer-data="{drag_source, card}" :key="card.key">
+        :transfer-data="{drag_source, card}">
      <img :src="cardImageUris[0]" @mouseover="onMouseOver"/>
   </Drag>
   <span v-else class="mtgcard" draggable="false">
