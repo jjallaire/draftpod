@@ -437,7 +437,7 @@ function draftBotPickAndPass(player_index, set_code, table) {
 function cardToDeckPile(player, c, deck) {
 
   // add card to pile
-  let card = {...c, key: shortUuid().new()};
+  let card = JSON.parse(JSON.stringify(c)); 
   let deck_piles = deck.piles;
   let pile = null;
 
@@ -671,7 +671,7 @@ function pileToPile(player, card, pile_number, piles, insertBefore) {
 }
 
 function addCardToPile(player, pile, card, insertBefore) {
-  let card_copy = { ...card, key: shortUuid().new() };
+  let card_copy = JSON.parse(JSON.stringify(card)); 
   if (insertBefore !== null)
     pile.splice(insertBefore, 0, card_copy);
   else
