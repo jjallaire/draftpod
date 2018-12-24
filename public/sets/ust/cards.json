@@ -1573,8 +1573,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/9.jpg?1522205476"
     ],
     "type_line": "Creature — Cat",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
     "colors": [
       "W"
     ],
@@ -1592,8 +1592,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/84.jpg?1522207079"
     ],
     "type_line": "Creature — Orc Warrior",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3,
     "colors": [
       "R"
     ],
@@ -1611,8 +1611,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/35.jpg?1522205997"
     ],
     "type_line": "Creature — Fish",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{5}{U}",
+    "cmc": 6,
     "colors": [
       "U"
     ],
@@ -1630,8 +1630,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/111.jpg?1522207545"
     ],
     "type_line": "Creature — Squirrel",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{G}",
+    "cmc": 1,
     "colors": [
       "G"
     ],
@@ -1834,8 +1834,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/10.jpg?1522205489"
     ],
     "type_line": "Creature — Bird",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
     "colors": [
       "W"
     ],
@@ -2590,8 +2590,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/115.jpg?1522207668"
     ],
     "type_line": "Creature — Monkey",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
     "colors": [
       "G"
     ],
@@ -2666,8 +2666,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/117.jpg?1522207694"
     ],
     "type_line": "Creature — Hydra",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
     "colors": [
       "G"
     ],
@@ -2702,8 +2702,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/61.jpg?1522206585"
     ],
     "type_line": "Creature — Ninja",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
     "colors": [
       "B"
     ],
@@ -3125,8 +3125,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/18.jpg?1522205721"
     ],
     "type_line": "Creature — Rhino",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
     "colors": [
       "W"
     ],
@@ -3163,8 +3163,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/157.jpg?1522208319"
     ],
     "type_line": "Artifact Creature — Construct",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{2}",
+    "cmc": 2,
     "colors": [],
     "rarity": "uncommon",
     "rating": 1
@@ -3292,8 +3292,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/120.jpg?1522207735"
     ],
     "type_line": "Creature — Wurm",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
     "colors": [
       "G"
     ],
@@ -3837,8 +3837,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/161.jpg?1522208368"
     ],
     "type_line": "Artifact Creature — Construct",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{4}",
+    "cmc": 4,
     "colors": [],
     "rarity": "uncommon",
     "rating": 1
@@ -4578,8 +4578,8 @@
       "https://img.scryfall.com/cards/normal/en/ust/75.jpg?1522206885"
     ],
     "type_line": "Creature — Zombie",
-    "mana_cost": "",
-    "cmc": 0,
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
     "colors": [
       "B"
     ],
@@ -4587,3 +4587,4 @@
     "rating": 1.5
   }
 ]
+

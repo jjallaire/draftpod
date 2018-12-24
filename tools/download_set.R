@@ -65,6 +65,28 @@ download_set <- function(set,
       rating <- NULL
     }
     
+    # see if we need to extract the cmc from the oracle_text
+    # for Unstable
+    cmc <- card$cmc
+    if (set == "ust") {
+      if (identical(as.integer(cmc), 0L)) {
+        m <- regexpr("Augment [{}0-9A-Z]+", card$oracle_text)
+        augment <- regmatches(card$oracle_text, m)
+        if (length(augment) > 0) {
+          augment <- sub("Augment ", "", augment)
+          mana_cost <- augment
+          augment <- gsub("[{}]", "", augment)
+          number <- gsub("[A-Z]", "", augment)
+          if (nzchar(number))
+            number <- as.integer(number)
+          else
+            number <- 0L
+          letters <- nchar(gsub("[0-9]", "", augment))
+          cmc <- number + letters
+        }
+      }
+    }
+    
     list(
       id = multiverse_ids[[1]],
       name = card$name,
@@ -73,7 +95,7 @@ download_set <- function(set,
       image_uris = I(image_uris),
       type_line = card$type_line,
       mana_cost = mana_cost,
-      cmc = card$cmc,
+      cmc = cmc,
       colors = I(card$color_identity),
       rarity = card$rarity,
       rating = rating
