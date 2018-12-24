@@ -17,8 +17,8 @@ export default {
     let cards = [].concat(
       selectCards(contraption, 2),
       selectCards(unstableFilter(booster.packRareSlot), 1),
-      selectCards(unstableFilter(booster.uncommon), 4),
-      selectCards(unstableFilter(booster.common), 7)
+      selectCards(unstableFilter(booster.uncommon), 3),
+      selectCards(unstableFilter(booster.common), 8)
     );
 
     return cards;
