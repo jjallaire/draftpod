@@ -1,13 +1,6 @@
 
 
 
-- Duplicaiton of cards when in picks can happen. Possibly due to moving
-  a pick and then the other player's table state merges over it / with it
-     
-- Same pile to pile is executed twice?     
-
-- Too many multiples of card in packs (Inhumanic). Maybe fixed by card.key?
-
 - Need more cards for unstable cube (now at 12)
 
 - Unstable: augment cards show up as 0 mana. Would have to pull it out of the 
