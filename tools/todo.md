@@ -1,5 +1,4 @@
 
-- Need more cards for unstable cube (now at 12)
 
 - sideboard:
     - automatic ordering?
