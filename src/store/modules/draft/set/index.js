@@ -5,6 +5,7 @@ import m19 from './set-m19'
 import grn from './set-grn'
 import ust from './set-ust'
 import mma from './set-mma'
+import isd from './set-isd'
 
 import axios from 'axios'
 
@@ -13,7 +14,8 @@ const sets = {
   m19,
   grn,
   ust,
-  mma
+  mma,
+  isd
 }
 
 const cards_cache = {
