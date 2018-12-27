@@ -25,6 +25,8 @@ import * as messagebox from '@/components/core/messagebox.js'
  
 import _flatten from 'lodash/flatten'
 
+import MobileDetect from 'mobile-detect'
+
 // drafts namespace
 const NS_DRAFTS = "drafts";
 
@@ -46,6 +48,7 @@ export default {
     return { 
       fullscreen: false,
       fullscreenEnabled: fscreen.fullscreenEnabled,
+      isTablet: false,
       card_preview: ["/images/card-back.png"],
       firestoreUnsubscribe: null,
       pick_timeout_timer: null
@@ -73,6 +76,11 @@ export default {
 
   created() {
  
+    // detect tablet
+    let md = new MobileDetect(window.navigator.userAgent);
+    if (md.tablet())
+      this.isTablet = true;
+
     // resume draft
     this.resumeDraft();
 
@@ -288,7 +296,7 @@ export default {
     
     </NavBar>
 
-    <div class="draft-page">
+    <div :class="{ 'draft-page': true, 'tablet': isTablet}">
         <div class="draft-cards">
           <transition name="pack-hide">
             <PackPanel v-if="!picks_complete" :pack="active_pack"/>
@@ -299,7 +307,7 @@ export default {
           <DeckPanel v-else :deck="active_player.deck"/>
         </div>
 
-        <InfoBar :card_preview="card_preview" :cards="active_cards"/>
+        <InfoBar v-if="!isTablet" :card_preview="card_preview" :cards="active_cards"/>
     </div>
   
   </div>
@@ -353,6 +361,19 @@ export default {
   .draft-cards {
     right: 200px;
   }
+}
+
+
+.tablet .draft-cards {
+  right: 0;
+}
+
+.tablet .pack-panel .mtgcard img {
+  width: 12.1%;
+}
+
+.tablet .draft-cards .pack-panel {
+  padding-bottom: 34%;
 }
 
 .draft-cards .pack-panel {
