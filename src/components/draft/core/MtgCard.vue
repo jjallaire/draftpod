@@ -14,8 +14,15 @@ export default {
       default: null
     }
   },
+  data: function() {
+    return {
+      zoom_img: null,
+      cursor_offset: null
+    }
+  },
   inject: [
     'setCardPreview',
+    'touchDragManager'
   ],
   components: {
     Drag
@@ -25,10 +32,12 @@ export default {
       return selectors.cardImageUris(this.card);
     }
   },
+
   methods: {
     onMouseOver() {
       this.setCardPreview(this.cardImageUris);
     },
+
     onDragStart(data, event) {
       // record offset of cursor to card image (used for determining
       // location within pile to drop card)
@@ -38,6 +47,22 @@ export default {
         y: event.clientY - cardRect.top
       };
     },
+
+    onTouchStart(event) {
+      this.touchDragManager.onTouchStart(event, this.card, this.drag_source);
+    },
+
+    onTouchMove(event) {
+      this.touchDragManager.onTouchMove(event);
+    },
+
+    onTouchEnd() {
+      this.touchDragManager.onTouchEnd();
+    },
+
+    onContextMenu() {
+      return false;
+    },    
   }
 }
 </script>
@@ -45,8 +70,14 @@ export default {
 <template>
   <Drag v-if="drag_source" tag="span" class="mtgcard mtgcard-draggable" 
         @dragstart="onDragStart"
-        :transfer-data="{drag_source, card}">
-     <img :src="cardImageUris[0]" @mouseover="onMouseOver"/>
+        :transfer-data="{drag_source, card}"
+        >
+     <img :src="cardImageUris[0]" 
+          @mouseover="onMouseOver" 
+          @touchstart="onTouchStart" 
+          @touchmove="onTouchMove"
+          @touchend="onTouchEnd" 
+          @contextmenu="onContextMenu"/>
   </Drag>
   <span v-else class="mtgcard" draggable="false">
     <img :src="cardImageUris[0]" />
@@ -54,11 +85,13 @@ export default {
 </template>
 
 <style>
-.mtgcard-draggable {
+.mtgcard-draggable  {
   cursor: move; /* fallback if grab cursor is unsupported */
   cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
+  -webkit-touch-callout: none;
 }
+
 </style>
 

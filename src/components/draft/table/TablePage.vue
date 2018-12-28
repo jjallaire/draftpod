@@ -27,6 +27,8 @@ import _flatten from 'lodash/flatten'
 
 import MobileDetect from 'mobile-detect'
 
+import TouchDragManager from '../core/TouchDragManager.js'
+
 // drafts namespace
 const NS_DRAFTS = "drafts";
 
@@ -50,6 +52,7 @@ export default {
       fullscreenEnabled: fscreen.fullscreenEnabled,
       isTablet: false,
       card_preview: ["/images/card-back.png"],
+      touchDragManager: new TouchDragManager(),
       firestoreUnsubscribe: null,
       pick_timeout_timer: null
     };
@@ -70,7 +73,8 @@ export default {
       sideboardToSideboard: this.sideboardToSideboard,
       disableAutoLands: this.disableAutoLands,
       setBasicLands: this.setBasicLands,
-      setCardPreview: this.setCardPreview
+      setCardPreview: this.setCardPreview,
+      touchDragManager: this.touchDragManager
     }
   },
 
