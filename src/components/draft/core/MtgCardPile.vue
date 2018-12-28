@@ -236,9 +236,6 @@ function cardInsertLocation(data, event) {
   width: 11.5%;
 }
 
-.tablet .pile {
-  width: 12.1%;
-}
 
 .pile-separator {
   width: 1.5%;
