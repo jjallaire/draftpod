@@ -6,12 +6,9 @@
     - additional 'unused pile' (pile which won't be in decklist) 
 
 - sane tablet experience
-   - native touch event support; OR
-   - https://github.com/kutlugsahin/vue-smooth-dnd
-   - Draggable.js looks promising in terms of unifiying DnD and touch: 
-     https://shopify.github.io/draggable/docs/
-
+   - touch for drag and drop
    - orientation issues: https://stackoverflow.com/questions/14360581/force-landscape-orientation-mode
+
 
 - ability to see the other players at the table in multiplayer
 - ability to see other players colors after the draft in single player
