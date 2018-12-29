@@ -40,8 +40,33 @@ export default {
     'pickToPile',
     'deckToSideboard',
     'sideboardToDeck',
-    'sideboardToSideboard'
+    'sideboardToSideboard',
+    'touchDragManager'
   ],
+
+  mounted() {
+    this.touchDragManager.registerDropTarget({
+      element: this.$refs.drop.$el, 
+      handlers: {
+        onEnter(data, touch) {
+          console.log("onTouchEnter");
+        },
+        onMove(data, touch) {
+          console.log("onTouchMove");
+        },
+        onLeave(data, touch) {
+          console.log("onTouchLeave");
+        },
+        onDrop(data, touch) {
+          console.log("onTouchDrop");
+        },
+      }
+    });
+  },
+
+  beforeDestroy() {
+    this.touchDragManager.unregisterDropTarget(this.$refs.drop.$el);
+  },
 
   computed: {
     pile: function() { return this.piles[this.number]},
@@ -206,7 +231,8 @@ function cardInsertLocation(data, event) {
         @drop="handleDrop(...arguments)" 
         @dragover="handleDragover(...arguments)"
         @dragenter="handleDragenter(...arguments)"
-        @dragleave="handleDragleave(...arguments)">
+        @dragleave="handleDragleave(...arguments)"
+        ref="drop">
     <div class="pile-caption" v-if="caption" 
         :style="{textAlign: caption_center ? 'center' : 'left'}">
       {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>

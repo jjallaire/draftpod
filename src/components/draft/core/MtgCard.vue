@@ -56,8 +56,8 @@ export default {
       this.touchDragManager.onTouchMove(event);
     },
 
-    onTouchEnd() {
-      this.touchDragManager.onTouchEnd();
+    onTouchEnd(event) {
+      this.touchDragManager.onTouchEnd(event);
     },
 
     onContextMenu() {
