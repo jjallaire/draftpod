@@ -5,9 +5,7 @@
 
 - tablet
 
-    - smaller card pop-up?
-    - create a delay before showing pop-up card
-    - some move tolerance before initiating drag
+    - width of elements on navigator screen
     - smaller size for drag image from pack (matching piles)
     - analog to drag (+) feedback
     - view decklist not download/copy
