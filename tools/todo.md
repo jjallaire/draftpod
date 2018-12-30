@@ -1,11 +1,16 @@
 
-
 - flashback 
 
     - sometimes we see a past state then we flash back to our current state
 
 - tablet
 
+    - smaller card pop-up?
+    - create a delay before showing pop-up card
+    - some move tolerance before initiating drag
+    - smaller size for drag image from pack (matching piles)
+    - analog to drag (+) feedback
+    - view decklist not download/copy
     - give mobile same handling as tablet? (.mobile)
     - force into landscape 
        https://stackoverflow.com/questions/14360581/force-landscape-orientation-mode
