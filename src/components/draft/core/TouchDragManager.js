@@ -89,7 +89,7 @@ export default class TouchDragManager {
       if (vm.active_drag && vm.active_drag.drag_image == dragImg)
         if (dragImg.style.opacity === "0")
           dragImg.style.opacity = 1;
-    }, 500);
+    }, 300);
   }
 
   // handle touch move
