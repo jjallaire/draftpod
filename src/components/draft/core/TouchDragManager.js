@@ -33,7 +33,7 @@ export default class TouchDragManager {
     this.clearActiveDrag();
 
     // compute the size and location for the drag image
-    const extraWidth = 100;
+    const extraWidth = 60;
     const extraHeight = extraWidth * 1.3968;
     let cardRect = event.target.getBoundingClientRect();
     let previewRect =  { 
@@ -61,6 +61,7 @@ export default class TouchDragManager {
     dragImg.style.width = previewRect.width + 'px';
     dragImg.style.height = previewRect.height + 'px';
     dragImg.style.zIndex = 2000;
+    dragImg.style.opacity = 0;
     document.body.appendChild(dragImg);
 
     // compute cursor offset
@@ -75,8 +76,20 @@ export default class TouchDragManager {
       card: card,
       drag_source: drag_source,
       drag_image: dragImg,
+      cursorStart: {
+        x: touch.clientX,
+        y: touch.clientY
+      },
       cursorOffset: offset,
     };
+
+    // delay display of image
+    let vm = this;
+    setTimeout(() => {
+      if (vm.active_drag && vm.active_drag.drag_image == dragImg)
+        if (dragImg.style.opacity === "0")
+          dragImg.style.opacity = 1;
+    }, 500);
   }
 
   // handle touch move
@@ -84,15 +97,21 @@ export default class TouchDragManager {
 
     if (this.active_drag) {
 
-      // move card for feedback
+      // move card for feedback if we've moved enough
+      let dragThreshold = 10;
       let touch = event.targetTouches[0];
-      let drag_image = this.active_drag.drag_image;
-      drag_image.style.opacity = 0.6;
-      drag_image.style.left = touch.pageX - this.active_drag.cursorOffset.x + 'px';
-      drag_image.style.top = touch.pageY - this.active_drag.cursorOffset.y + 'px';
-      let cardRect = event.target.getBoundingClientRect();
-      drag_image.style.height = cardRect.height + 'px';
-      drag_image.style.width = cardRect.width + 'px' ;
+      if (this.active_drag.cursorStart === null ||
+          Math.abs(this.active_drag.cursorStart.x - touch.clientX) > dragThreshold || 
+          Math.abs(this.active_drag.cursorStart.y - touch.clientY) > dragThreshold) {
+        this.active_drag.cursorStart = null;
+        let drag_image = this.active_drag.drag_image;
+        drag_image.style.opacity = 0.6;
+        drag_image.style.left = touch.pageX - this.active_drag.cursorOffset.x + 'px';
+        drag_image.style.top = touch.pageY - this.active_drag.cursorOffset.y + 'px';
+        let cardRect = event.target.getBoundingClientRect();
+        drag_image.style.height = cardRect.height + 'px';
+        drag_image.style.width = cardRect.width + 'px' ;
+      }
 
       // see if there is a drag target
       let target = this.findTouchTarget(touch);
