@@ -168,7 +168,7 @@ export default {
 
   <div class="col-sm-8 offset-sm-2">
 
-  <h3>Guilds of Ravnica Draft</h3>
+  <h3>{{ set_name }} Draft</h3>
 
   <div v-if="draft_exists">
 
