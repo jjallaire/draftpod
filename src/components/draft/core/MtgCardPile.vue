@@ -46,32 +46,27 @@ export default {
 
   mounted() {
     this.touchDragManager.registerDropTarget({
-      element: this.$refs.drop.$el, 
+      element: this.pile_element,
       handlers: {
-        onEnter(data, touch) {
-          console.log("onTouchEnter");
-        },
-        onMove(data, touch) {
-          console.log("onTouchMove");
-        },
-        onLeave(data, touch) {
-          console.log("onTouchLeave");
-        },
-        onDrop(data, touch) {
-          console.log("onTouchDrop");
-        },
+        onEnter: this.handleDragenter,
+        onMove: this.handleDragover,
+        onLeave: this.handleDragleave,
+        onDrop: this.handleDrop
       }
     });
   },
 
   beforeDestroy() {
-    this.touchDragManager.unregisterDropTarget(this.$refs.drop.$el);
+    this.touchDragManager.unregisterDropTarget(this.pile_element);
   },
 
   computed: {
     pile: function() { return this.piles[this.number]},
     pick_number: function() {
       return _flatten(this.piles).length + 1;
+    },
+    pile_element: function() {
+      return this.$refs.drop.$el;
     }
   },
   data: function() {
@@ -99,14 +94,16 @@ export default {
       
       // reject if not one of our drag sources or if it's the wrong pick number
       if (!data || !data.drag_source || (data.pick_number != this.pick_number)) {
-        event.dataTransfer.dropEffect = 'none';
+        if (event.dataTransfer)
+          event.dataTransfer.dropEffect = 'none';
         return;
       }
 
       // reject for deck to deck
       if (data.drag_source === "DRAG_SOURCE_DECK" &&
           this.drag_source === "DRAG_SOURCE_DECK") {
-        event.dataTransfer.dropEffect = 'none';
+        if (event.dataTransfer)
+          event.dataTransfer.dropEffect = 'none';
         return;
       }
 
@@ -117,7 +114,7 @@ export default {
       }
 
       // see if we need to provider insert feedback
-      let insertLoc = cardInsertLocation(data, event);
+      let insertLoc = this.cardInsertLocation(data, event);
       if (insertLoc.feedbackAt !== null)
         this.provideDragFeedback(insertLoc.feedbackAt);
       else
@@ -138,7 +135,7 @@ export default {
         return;
 
       // check for insert location
-      let insertLoc = cardInsertLocation(data, event);
+      let insertLoc = this.cardInsertLocation(data, event);
       
       // event: pack to pick
       if (data.drag_source === "DRAG_SOURCE_PACK") {
@@ -192,36 +189,34 @@ export default {
 
     clearDragFeedback: function() {
       this.styles.dragInsert.display = "none";
-    }
+    },
+
+    // compute insert location for a card
+    cardInsertLocation: function(data, event) { 
+      const pileBoundingRect = this.pile_element.getBoundingClientRect();
+      const cursorOffset = data.cursorOffset;
+      const dragCardTop = event.clientY - cursorOffset.y - pileBoundingRect.top;
+
+      let insertLocation = {
+        insertBefore: null,
+        feedbackAt: null
+      };
+      const cards = this.pile_element.getElementsByClassName("mtgcard");
+      for (let i = 0; i<cards.length; i++) {
+        let cardTop = cards.item(i).getBoundingClientRect().top - pileBoundingRect.top;
+        if (cardTop > dragCardTop) {
+          insertLocation.insertBefore = i;
+          insertLocation.feedbackAt = cardTop;
+          break;
+        }
+      }
+
+      return insertLocation;
+    } 
 
   },
 
 };
-
-// compute insert location for a card
-function cardInsertLocation(data, event) { 
-
-  const pileElement = event.currentTarget;
-  const pileBoundingRect = pileElement.getBoundingClientRect();
-  const cursorOffset = data.cursorOffset;
-  const dragCardTop = event.clientY - cursorOffset.y - pileBoundingRect.top;
-
-  let insertLocation = {
-    insertBefore: null,
-    feedbackAt: null
-  };
-  const cards = pileElement.getElementsByClassName("mtgcard");
-  for (let i = 0; i<cards.length; i++) {
-    let cardTop = cards.item(i).getBoundingClientRect().top - pileBoundingRect.top;
-    if (cardTop > dragCardTop) {
-      insertLocation.insertBefore = i;
-      insertLocation.feedbackAt = cardTop;
-      break;
-    }
-  }
-
-  return insertLocation;
-}
 
 </script>
 

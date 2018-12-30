@@ -75,7 +75,7 @@ export default class TouchDragManager {
       card: card,
       drag_source: drag_source,
       drag_image: dragImg,
-      offset: offset,
+      cursorOffset: offset,
     };
   }
 
@@ -88,8 +88,8 @@ export default class TouchDragManager {
       let touch = event.targetTouches[0];
       let drag_image = this.active_drag.drag_image;
       drag_image.style.opacity = 0.6;
-      drag_image.style.left = touch.pageX - this.active_drag.offset.x + 'px';
-      drag_image.style.top = touch.pageY - this.active_drag.offset.y + 'px';
+      drag_image.style.left = touch.pageX - this.active_drag.cursorOffset.x + 'px';
+      drag_image.style.top = touch.pageY - this.active_drag.cursorOffset.y + 'px';
       let cardRect = event.target.getBoundingClientRect();
       drag_image.style.height = cardRect.height + 'px';
       drag_image.style.width = cardRect.width + 'px' ;
@@ -137,7 +137,7 @@ export default class TouchDragManager {
   onTouchEnd(event) {
     if (this.active_drag) {
       if (this.active_drop_target) {
-        let touch = event.targetTouches[0];
+        let touch = event.changedTouches[0];
         this.active_drop_target.handlers.onDrop(this.active_drag, touch);
         this.active_drop_target = null;
       }
