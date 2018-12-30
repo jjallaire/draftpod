@@ -96,7 +96,7 @@ export default {
       if (!data || !data.drag_source || (data.pick_number != this.pick_number)) {
         if (event.dataTransfer)
           event.dataTransfer.dropEffect = 'none';
-        return;
+        return false;
       }
 
       // reject for deck to deck
@@ -104,13 +104,13 @@ export default {
           this.drag_source === "DRAG_SOURCE_DECK") {
         if (event.dataTransfer)
           event.dataTransfer.dropEffect = 'none';
-        return;
+        return true;
       }
 
       // no insert feedback for sideboard to deck
       if (data.drag_source === "DRAG_SOURCE_SIDEBOARD" &&
           this.drag_source === "DRAG_SOURCE_DECK") {
-        return;
+        return true;
       }
 
       // see if we need to provider insert feedback
@@ -119,6 +119,9 @@ export default {
         this.provideDragFeedback(insertLoc.feedbackAt);
       else
         this.clearDragFeedback();
+
+      // return true
+      return true;
     },
 
     handleDragleave() {

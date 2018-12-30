@@ -109,7 +109,10 @@ export default class TouchDragManager {
         // are we just moving within the same target?
         } else if (this.active_drop_target.element == target.element) {
 
-          target.handlers.onMove(this.active_drag, touch);
+          // perform move (check for invalidation by drop source)
+          let isValidTarget = target.handlers.onMove(this.active_drag, touch);
+          if (!isValidTarget)
+            this.clearActiveDrag();
 
         // otherwise we're leaving another target and entering this one
         } else {
