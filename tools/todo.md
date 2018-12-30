@@ -5,9 +5,14 @@
     - sometimes we see a past state then we flash back to our current state
 
 - drag and drop
-    - hookup handlers in MtgCardPile
-    - confirm that data.pick_number will work the same way
+   
     - handle drag into pick ratings
+
+- tablet
+
+    - give mobile same handling as tablet? (.mobile)
+    - force into landscape 
+    - full screen forcing/toggle
 
 - sideboard:
     - automatic ordering?
