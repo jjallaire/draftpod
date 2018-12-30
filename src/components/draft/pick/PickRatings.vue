@@ -13,6 +13,23 @@ export default {
     }
   },
 
+  inject: [
+    'touchDragManager'
+  ],
+
+  mounted() {
+    this.touchDragManager.registerDropTarget({
+      element: this.$el,
+      handlers: {
+        onMove: this.handleDragover,
+      }
+    });
+  },
+
+  beforeDestroy() {
+    this.touchDragManager.unregisterDropTarget(this.$el);
+  },
+
   filters: {
     rating: function(value) {
       return (Math.round( value * 10 ) / 10).toFixed(1);
@@ -22,6 +39,7 @@ export default {
   methods: {
     handleDragover(data) {
       this.$emit('pick-dragged', data);
+      return true;
     },
 
     card_colors: function(card) {

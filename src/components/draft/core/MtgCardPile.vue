@@ -46,7 +46,7 @@ export default {
 
   mounted() {
     this.touchDragManager.registerDropTarget({
-      element: this.pile_element,
+      element: this.$el,
       handlers: {
         onEnter: this.handleDragenter,
         onMove: this.handleDragover,
@@ -57,7 +57,7 @@ export default {
   },
 
   beforeDestroy() {
-    this.touchDragManager.unregisterDropTarget(this.pile_element);
+    this.touchDragManager.unregisterDropTarget(this.$el);
   },
 
   computed: {
@@ -65,9 +65,6 @@ export default {
     pick_number: function() {
       return _flatten(this.piles).length + 1;
     },
-    pile_element: function() {
-      return this.$refs.drop.$el;
-    }
   },
   data: function() {
     return {
@@ -196,7 +193,7 @@ export default {
 
     // compute insert location for a card
     cardInsertLocation: function(data, event) { 
-      const pileBoundingRect = this.pile_element.getBoundingClientRect();
+      const pileBoundingRect = this.$el.getBoundingClientRect();
       const cursorOffset = data.cursorOffset;
       const dragCardTop = event.clientY - cursorOffset.y - pileBoundingRect.top;
 
@@ -204,7 +201,7 @@ export default {
         insertBefore: null,
         feedbackAt: null
       };
-      const cards = this.pile_element.getElementsByClassName("mtgcard");
+      const cards = this.$el.getElementsByClassName("mtgcard");
       for (let i = 0; i<cards.length; i++) {
         let cardTop = cards.item(i).getBoundingClientRect().top - pileBoundingRect.top;
         if (cardTop > dragCardTop) {
@@ -229,8 +226,7 @@ export default {
         @drop="handleDrop(...arguments)" 
         @dragover="handleDragover(...arguments)"
         @dragenter="handleDragenter(...arguments)"
-        @dragleave="handleDragleave(...arguments)"
-        ref="drop">
+        @dragleave="handleDragleave(...arguments)">
     <div class="pile-caption" v-if="caption" 
         :style="{textAlign: caption_center ? 'center' : 'left'}">
       {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>

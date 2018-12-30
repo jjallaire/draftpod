@@ -103,22 +103,26 @@ export default class TouchDragManager {
         // are we entering for the first time
         if (!this.active_drop_target) {
 
-          target.handlers.onEnter(this.active_drag, touch);
+          if (target.handlers.onEnter)
+            target.handlers.onEnter(this.active_drag, touch);
           this.active_drop_target = target;
          
         // are we just moving within the same target?
         } else if (this.active_drop_target.element == target.element) {
 
           // perform move (check for invalidation by drop source)
-          let isValidTarget = target.handlers.onMove(this.active_drag, touch);
-          if (!isValidTarget)
-            this.clearActiveDrag();
+          if (target.handlers.onMove) {
+            let isValidTarget = target.handlers.onMove(this.active_drag, touch);
+            if (!isValidTarget)
+              this.clearActiveDrag();
+          }
 
         // otherwise we're leaving another target and entering this one
         } else {
-
-          this.active_drop_target.handlers.onLeave(this.active_drag, touch);
-          target.handlers.onEnter(this.active_drag, touch);
+          if (this.active_drop_target.handlers.onLeave)
+            this.active_drop_target.handlers.onLeave(this.active_drag, touch);
+          if (target.handlers.onEnter)
+            target.handlers.onEnter(this.active_drag, touch);
           this.active_drop_target = target;
 
         }
@@ -126,7 +130,8 @@ export default class TouchDragManager {
 
         // leave any active target
         if (this.active_drop_target) {
-          this.active_drop_target.handlers.onLeave(this.active_drag, touch);
+          if (this.active_drop_target.handlers.onLeave)
+            this.active_drop_target.handlers.onLeave(this.active_drag, touch);
           this.active_drop_target = null;
         }
       }
@@ -141,7 +146,8 @@ export default class TouchDragManager {
     if (this.active_drag) {
       if (this.active_drop_target) {
         let touch = event.changedTouches[0];
-        this.active_drop_target.handlers.onDrop(this.active_drag, touch);
+        if (this.active_drop_target.handlers.onDrop)
+          this.active_drop_target.handlers.onDrop(this.active_drag, touch);
         this.active_drop_target = null;
       }
       this.clearActiveDrag();
