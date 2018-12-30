@@ -70,8 +70,8 @@ export default class TouchDragManager {
       y: touch.clientY - cardRect.top
     };
 
-     // set active touch
-     this.active_drag = {
+    // set active touch
+    this.active_drag = {
       card: card,
       drag_source: drag_source,
       drag_image: dragImg,
