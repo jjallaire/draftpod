@@ -5,6 +5,7 @@
 
 - tablet
 
+    - try on other tablets
     - width of elements on navigator screen
     - smaller size for drag image from pack (matching piles)
     - analog to drag (+) feedback
