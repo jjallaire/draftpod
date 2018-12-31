@@ -4,16 +4,9 @@
     - sometimes we see a past state then we flash back to our current state
 
 - tablet
-
-    - width of drag image (sync to piles)
     - width of elements on navigator screen
     - analog to drag (+) feedback
     - view decklist not download/copy
-    - other ios-specific home screen icons/metadata
-    - web app manifest for non ios mobile devices
-        - fullscreen
-        - landscape mode
-
 - sideboard:
     - automatic ordering?
     - drop targets to deck not big enough
