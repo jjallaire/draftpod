@@ -9,9 +9,10 @@
     - width of elements on navigator screen
     - analog to drag (+) feedback
     - view decklist not download/copy
-    - give mobile same handling as tablet? (.mobile)
-        - slightly larger preview popup on phone
     - other ios-specific home screen icons/metadata
+    - web app manifest for non ios mobile devices
+        - fullscreen
+        - landscape mode
 
 - sideboard:
     - automatic ordering?
