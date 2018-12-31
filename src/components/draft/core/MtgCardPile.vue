@@ -134,6 +134,12 @@ export default {
       if (data.pick_number != this.pick_number)
         return;
 
+      // reject if it's deck to deck
+      if (data.drag_source === "DRAG_SOURCE_DECK" &&
+          this.drag_source === "DRAG_SOURCE_DECK") {
+          return;
+      }
+
       // check for insert location
       let insertLoc = this.cardInsertLocation(data, event);
       
