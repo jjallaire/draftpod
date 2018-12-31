@@ -115,8 +115,9 @@ export default class TouchDragManager {
         drag_image.style.opacity = 0.6;
         drag_image.style.left = touch.pageX - this.active_drag.cursorOffset.x + 'px';
         drag_image.style.top = touch.pageY - this.active_drag.cursorOffset.y + 'px';
-        drag_image.style.width = '11.25%';
-        drag_image.style.height = 'auto';
+        let cardRect = event.target.getBoundingClientRect();
+        drag_image.style.height = cardRect.height + 'px';
+        drag_image.style.width = cardRect.width + 'px' ;
       }
 
       // see if there is a drag target
