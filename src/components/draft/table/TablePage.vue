@@ -20,6 +20,7 @@ import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
 import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
 import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
 
+
 import fscreen from 'fscreen'
 import * as messagebox from '@/components/core/messagebox.js'
  
@@ -50,6 +51,7 @@ export default {
     return { 
       fullscreen: false,
       fullscreenEnabled: fscreen.fullscreenEnabled,
+      isMobile: false,
       isTablet: false,
       card_preview: ["/images/card-back.png"],
       touchDragManager: new TouchDragManager(),
@@ -80,8 +82,10 @@ export default {
 
   created() {
  
-    // detect tablet
+    // detect mobile
     let md = new MobileDetect(window.navigator.userAgent);
+    if (md.mobile())
+      this.isMobile = true;
     if (md.tablet())
       this.isTablet = true;
 
@@ -300,7 +304,7 @@ export default {
     
     </NavBar>
 
-    <div :class="{ 'draft-page': true, 'tablet': isTablet}">
+    <div :class="{ 'draft-page': true, 'mobile': isMobile, 'tablet': isTablet }">
         <div class="draft-cards">
           <transition name="pack-hide">
             <PackPanel v-if="!picks_complete" :pack="active_pack"/>
@@ -311,7 +315,7 @@ export default {
           <DeckPanel v-else :deck="active_player.deck"/>
         </div>
 
-        <InfoBar v-if="!isTablet" :card_preview="card_preview" :cards="active_cards"/>
+        <InfoBar v-if="!isMobile" :card_preview="card_preview" :cards="active_cards"/>
     </div>
   
   </div>
@@ -368,15 +372,15 @@ export default {
 }
 
 
-.tablet .draft-cards {
+.mobile .draft-cards {
   right: 0;
 }
 
-.tablet .pack-panel .mtgcard img {
+.mobile .pack-panel .mtgcard img {
   width: 12.1%;
 }
 
-.tablet .draft-cards .pack-panel {
+.mobile .draft-cards .pack-panel {
   padding-bottom: 34%;
 }
 

@@ -4,6 +4,8 @@
 import './TouchDragManager.css'
 import _remove from 'lodash/remove'
 
+import MobileDetect from 'mobile-detect'
+
 export default class TouchDragManager {
   
   constructor() {
@@ -14,6 +16,11 @@ export default class TouchDragManager {
     // possible drop targets and active target
     this.drop_targets = [];
     this.active_drop_target = null;
+
+    // mobile detect
+    let md = new MobileDetect(window.navigator.userAgent);
+    this.isMobile = md.mobile();
+    this.isTablet = md.tablet();
   }
 
   // register a new target
@@ -33,7 +40,7 @@ export default class TouchDragManager {
     this.clearActiveDrag();
 
     // compute the size and location for the drag image
-    const extraWidth = 60;
+    const extraWidth = !this.isTablet ? 200 : 100;
     const extraHeight = extraWidth * 1.3968;
     let cardRect = event.target.getBoundingClientRect();
     let previewRect =  { 
