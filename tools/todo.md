@@ -5,13 +5,11 @@
 
 - tablet
 
-    - context menu appears sometimes on chrome windows
-    - slightly larger preview popup on phone
-    - try on other tablets
     - width of elements on navigator screen
     - analog to drag (+) feedback
     - view decklist not download/copy
     - give mobile same handling as tablet? (.mobile)
+        - slightly larger preview popup on phone
     - force into landscape 
        https://stackoverflow.com/questions/14360581/force-landscape-orientation-mode
     - full screen forcing/toggle
