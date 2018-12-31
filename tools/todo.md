@@ -5,6 +5,10 @@
 
 - tablet
 
+    - consider including phone in mobile (explore other implications)
+    - give picks area a bit more width in tablet mode
+    - context menu appears sometimes on chrome windows
+    - slightly larger preview popup on phone
     - try on other tablets
     - width of elements on navigator screen
     - smaller size for drag image from pack (matching piles)
