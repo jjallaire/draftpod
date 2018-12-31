@@ -5,14 +5,12 @@
 
 - tablet
 
+    - width of drag image (sync to piles)
     - width of elements on navigator screen
     - analog to drag (+) feedback
     - view decklist not download/copy
     - give mobile same handling as tablet? (.mobile)
         - slightly larger preview popup on phone
-    - force into landscape 
-       https://stackoverflow.com/questions/14360581/force-landscape-orientation-mode
-    - full screen forcing/toggle
     - other ios-specific home screen icons/metadata
 
 - sideboard:
