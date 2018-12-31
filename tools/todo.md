@@ -13,6 +13,7 @@
     - force into landscape 
        https://stackoverflow.com/questions/14360581/force-landscape-orientation-mode
     - full screen forcing/toggle
+    - other ios-specific home screen icons/metadata
 
 - sideboard:
     - automatic ordering?
