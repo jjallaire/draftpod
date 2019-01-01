@@ -27,6 +27,10 @@
     - ability to rewind draft?
     - let the host remove players (rather than distributed pick timer)
 
+- general:
+
+    - some progress treatment for joining/connecting?
+
 Links:
 
 - Ben Stark "Drafting the Hard Way"
