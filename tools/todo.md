@@ -1,6 +1,7 @@
 
 - tablet/mobile:
 
+    - width of drag image from pack
     - width of elements on navigator screen
     - analog to drag (+) feedback
     - view decklist not download/copy
