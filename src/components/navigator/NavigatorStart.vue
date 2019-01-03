@@ -247,9 +247,11 @@ export default {
           }
 
           if (this.multi_players.length <= 1) {
-            messagebox.confirm("No other players have joined this draft. Are you sure you want " + 
-                               "to start drafting?",
-                               () => resolve(true), () => resolve(false));
+            messagebox.confirm(
+              "Start Draft",
+              "<p>No other players have yet joined this draft so you will be the only player.<p>" +
+              "Are you sure you want to start drafting?",
+              () => resolve(true), () => resolve(false));
             return;
           }
         }

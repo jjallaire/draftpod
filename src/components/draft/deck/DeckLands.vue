@@ -84,6 +84,7 @@ export default {
       if (this.deck.lands.auto) {
         
         messagebox.confirm(
+          "Disable Auto Lands",
           "<p>Editing the number of lands will disable auto-lands " + 
           "(lands for your deck will no longer be automatically calculated).</p> " +
           "Do you want to disable auto-lands?", 

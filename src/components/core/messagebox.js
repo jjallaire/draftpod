@@ -7,6 +7,8 @@ export function alert(message, dismissed) {
   bootbox.confirm({
     message: message,
     className: "draftpod-bootbox-dialog",
+    closeButton: false,
+    size: 'large',
     buttons: {
       confirm: {
         label: 'OK',
@@ -17,20 +19,26 @@ export function alert(message, dismissed) {
         className: 'hidden-button'
       }
     },
-    callback: (result) => {
+    callback: () => {
       if (dismissed)
         dismissed();
     }
   });
 }
 
-export function confirm(message, confirmed, cancelled) {
+export function confirm(title, message, confirmed, cancelled) {
 
   bootbox.confirm({
+
+    title: title,
 
     message: message,
     
     className: "draftpod-bootbox-dialog",
+
+    closeButton: false,
+
+    size: 'large',
 
     buttons: {
       confirm: {

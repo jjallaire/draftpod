@@ -169,7 +169,9 @@ export default {
       this.clearCustomCardpoolUploadStatus();
       let cardpool = this.selected_custom_cardpool;
       messagebox.confirm(
-        "Are you sure you want to remove the " + cardpool.caption + " cardpool?",
+        "Remove Cardpool",
+        "<p>You will no longer be able to use the " + cardpool.caption + " cardpool after it is removed.</p>" +
+        "Remove the cardpool?",
         () => {
           this.removeCardpool({
             set_code: this.set_code, 

@@ -55,7 +55,9 @@ export default {
     }),
     removeDraft({ draft_id, source }) {
       messagebox.confirm(
-        "<p>Remove draft from history?</p> ",
+        "Remove Draft",
+        "<p>You will no longer be able to access this draft after it is removed.</p>" + 
+        "Remove draft from history?",
         () => {
           this.removeDrafts([draft_id]);
           if (source === "resume")

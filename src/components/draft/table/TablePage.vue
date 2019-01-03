@@ -240,14 +240,19 @@ export default {
     },
     onExitDraft: function() {
       let vm = this;
-      messagebox.confirm("<p>Do you want to exit this draft?</p>" +
-                         "<p><em class='text-muted'>You can pick up where you left off in the draft later.</em></p>", function() {
-        vm.$router.push({ path: "/draft/" });
-      });
+      messagebox.confirm(
+        "Exit Draft",
+        "<p>You can pick up where you left off in the draft later.</p>" + 
+        "Do you want to exit this draft? ",
+        function() {
+          vm.$router.push({ path: "/draft/" });
+        });
     },
     onRemoveDraft: function() {
       messagebox.confirm(
-        "<p>Discard draft?</p> ",
+        "Discard Draft",
+        "<p>You will no longer be able to access this draft after it is discarded.</p>" +
+        "Do you want to discard this draft? ",
         () => {
           this.removeDrafts([this.draft_id]);
           this.$router.push({ path: "/draft/" });
