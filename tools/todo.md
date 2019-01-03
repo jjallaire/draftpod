@@ -1,14 +1,8 @@
 
 - tablet/mobile:
 
-    - width of elements on navigator screen
     - view decklist not download/copy
-
-- sideboard:
-
-    - automatic ordering?
-    - drop targets to deck not big enough
-    - additional 'unused pile' (pile which won't be in decklist) 
+    - consider single-row for mobile phone (use only Y for pick detection)
 
 - flashback: 
 
@@ -18,6 +12,14 @@
     - should we consider only committing after the server verifies? that would
       imply turning all of the mutations into actions and having some sort
       of global waiting/progress treatment
+
+
+- sideboard:
+
+    - automatic ordering?
+    - drop targets to deck not big enough
+    - additional 'unused pile' (pile which won't be in decklist) 
+
 
 - player view:
 
