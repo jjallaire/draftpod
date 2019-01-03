@@ -71,7 +71,7 @@ function chartData(cards) {
     labels: ['1', '2', '3', '4', '5', '6+'],
     series: [
       {
-        name: "Creatures",
+        name: "Creature",
         data: creatures
       },
       {

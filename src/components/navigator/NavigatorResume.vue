@@ -70,7 +70,7 @@ export default {
 
   <ContentPanel caption="Draft in Progress" class="resume-draft">
     <div class="row">
-      <div class="col-sm-3">
+      <div class="col-sm-4 col-lg-3">
         <h4>{{ draft.set.name }}</h4>
         <p>
           <span v-if="picks_complete">
@@ -86,14 +86,14 @@ export default {
             Resume Draft
         </button>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4 col-lg-3">
         <ManaLegend :cards="active_cards" />
         <ManaCurve :cards="active_cards" :height="150" />
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4 col-lg-3">
         <ManaColors :cards="active_cards" />
       </div>
-      <div class="col-sm-2">
+      <div class="col-lg-3 d-none d-lg-block">
         <img class="card-preview" :src="card_preview_image" height="150"/>
       </div>
     </div>

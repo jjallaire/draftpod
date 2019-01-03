@@ -60,7 +60,7 @@ export default {
         </span>
       </div>
       <div class="col-md-3 text-muted">
-        {{ draft.start_time | prettyDate }}
+        {{ new Date(draft.start_time).toLocaleDateString() }}
       </div>
       <div class="col-md-1 text-muted">
         <RemoveDraft :draft_id="draft.id" remove_source="recent" />
