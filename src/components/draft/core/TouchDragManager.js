@@ -41,7 +41,7 @@ export default class TouchDragManager {
     this.clearActiveDrag();
 
     // compute the size and location for the drag image
-    const extraWidth = !this.isTablet ? 180 : 100;
+    const extraWidth = this.isPhone ? 140 : 100;
     const extraHeight = extraWidth * 1.3968;
     let cardRect = event.target.getBoundingClientRect();
     let previewRect =  { 
@@ -110,14 +110,16 @@ export default class TouchDragManager {
 
       // clear active drag if this is a horizontal swipe on the phone (scrolling)
       if (this.isPhone &&
+          this.active_drag.drag_source === "DRAG_SOURCE_PACK" &&
           this.active_drag.cursorStart !== null &&
           Math.abs(this.active_drag.cursorStart.x - touch.clientX) > dragThreshold) {
         this.clearActiveDrag();
         return;
       }
      
-      // move card for feedback if we've moved enough vertically
+      // move card for feedback if we've moved enough 
       if (this.active_drag.cursorStart === null ||
+          Math.abs(this.active_drag.cursorStart.x - touch.clientX) > dragThreshold ||
           Math.abs(this.active_drag.cursorStart.y - touch.clientY) > dragThreshold) {
         this.active_drag.cursorStart = null;
         let drag_image = this.active_drag.drag_image;
@@ -125,8 +127,12 @@ export default class TouchDragManager {
         drag_image.style.left = touch.pageX - this.active_drag.cursorOffset.x + 'px';
         drag_image.style.top = touch.pageY - this.active_drag.cursorOffset.y + 'px';
         let cardRect = event.target.getBoundingClientRect();
-        drag_image.style.height = cardRect.height + 'px';
-        drag_image.style.width = cardRect.width + 'px' ;
+        if (this.isPhone)
+          drag_image.style.width = "11%";
+        else
+          drag_image.style.width = cardRect.width + 'px' ;
+        drag_image.style.height = 'auto';
+       
       } 
 
       // see if there is a drag target
