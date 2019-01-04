@@ -41,7 +41,7 @@ export default class TouchDragManager {
     this.clearActiveDrag();
 
     // compute the size and location for the drag image
-    const extraWidth = this.isPhone ? 140 : 100;
+    const extraWidth = this.isPhone ? 130 : 100;
     const extraHeight = extraWidth * 1.3968;
     let cardRect = event.target.getBoundingClientRect();
     let previewRect =  { 
@@ -109,9 +109,12 @@ export default class TouchDragManager {
       let touch = event.targetTouches[0];
 
       // clear active drag if this is a horizontal swipe on the phone (scrolling)
+      let scrollContainer = event.target.parentElement.parentElement;
       if (this.isPhone &&
+          scrollContainer.scrollWidth > scrollContainer.offsetWidth && 
           this.active_drag.drag_source === "DRAG_SOURCE_PACK" &&
           this.active_drag.cursorStart !== null &&
+
           Math.abs(this.active_drag.cursorStart.x - touch.clientX) > dragThreshold) {
         this.clearActiveDrag();
         return;
