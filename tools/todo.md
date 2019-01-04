@@ -1,9 +1,4 @@
 
-- tablet/mobile:
-
-    - phone scrolling
-    - view decklist not download/copy
-    - https://blog.mobiscroll.com/working-with-touch-events/
   
 - flashback: 
 
