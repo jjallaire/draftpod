@@ -106,7 +106,9 @@ export default {
   background-color: rgb(236,236,236);
 }
 
-.mobile .deck .deck-copy {
+.mobile .deck .deck-copy,
+.mobile .deck .deck-download
+ {
   display: none;
 }
 
