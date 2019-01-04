@@ -147,9 +147,9 @@ export default {
     onUseCardpool() {
       // validate inputs
       if (!this.new_cardpool.name)
-        messagebox.alert('Please provide a name for the cardpool', this.focusCardpoolName);
+        messagebox.alert('Custom Cardpool', 'Please provide a name for the cardpool', this.focusCardpoolName);
       else if (this.new_cardpool.cards.length === 0)
-        messagebox.alert('Please upload a CSV for the cardpool');
+        messagebox.alert('Custom Cardpool', 'Please upload a CSV for the cardpool');
       else {
         // save the cardpool
         this.setCardpool({

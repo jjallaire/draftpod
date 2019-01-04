@@ -44,7 +44,7 @@ export default {
 <template>
 
   <button id="copy-deck-to-clipboard"
-      class="btn btn-sm btn-secondary text-light" 
+      class="btn btn-sm btn-secondary text-light deck-copy" 
       v-clipboard="deck_list"
       v-clipboard:success="onClipboardSuccess"
       data-toggle="tooltip"  data-placement="top">

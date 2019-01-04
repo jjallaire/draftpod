@@ -3,15 +3,16 @@ import bootbox from 'bootbox'
 
 import './messagebox.css'
 
-export function alert(message, dismissed) {
+export function alert(title, message, dismissed = null, okCaption = 'OK') {
   bootbox.confirm({
+    title: title,
     message: message,
     className: "draftpod-bootbox-dialog",
     closeButton: false,
     size: 'large',
     buttons: {
       confirm: {
-        label: 'OK',
+        label: okCaption,
         className: 'btn-primary'
       },
       cancel: {

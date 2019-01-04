@@ -4,6 +4,7 @@ import UiPanel from '@/components/core/UiPanel.vue'
 import MtgCardPile from '@/components/draft/core/MtgCardPile.vue'
 import DeckCopy from './DeckCopy.vue'
 import DeckDownload from './DeckDownload.vue'
+import DeckView from './DeckView.vue'
 import DeckLands from './DeckLands.vue'
 
 import * as selectors from '@/store/modules/draft/selectors'
@@ -51,7 +52,7 @@ export default {
   },
 
   components: {
-    UiPanel, MtgCardPile, DeckCopy, DeckDownload, DeckLands
+    UiPanel, MtgCardPile, DeckCopy, DeckDownload, DeckView, DeckLands
   }
 }
 
@@ -67,7 +68,7 @@ export default {
       </div>
     </template>
     <template slot="header-right">
-      <DeckCopy :deck_list="deck_list" />
+      <DeckView :deck_list="deck_list" />
       <DeckDownload :deck_list="deck_list" />
     </template>
     <div class="deck-piles deck-piles-top">
@@ -102,6 +103,11 @@ export default {
 
 .deck {
   background-color: rgb(236,236,236);
+}
+
+.mobile .deck .deck-copy,
+.mobile .deck .deck-download {
+  display: none;
 }
 
 .deck .card-header {

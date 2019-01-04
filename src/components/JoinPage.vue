@@ -125,6 +125,7 @@ export default {
       // ensure we have a name
       if (player_name.length === 0) {
         messagebox.alert(
+          "Unable to Join Draft",
           "Please enter the name you want to be identified by during the draft.",
           () => { utils.focus(this.$refs.playerName); });
         return false;

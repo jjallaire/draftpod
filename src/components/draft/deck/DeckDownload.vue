@@ -1,6 +1,6 @@
 <script>
 
-import DownloadIcon from "vue-material-design-icons/FileDownloadOutline.vue"
+import DownloadIcon from "vue-material-design-icons/ArrowDownBoldBox.vue"
 
 import saveAs from 'file-saver';
 
@@ -32,7 +32,7 @@ export default {
 
 <template>
 
-  <button class="btn btn-sm btn-secondary text-light"
+  <button class="btn btn-sm btn-secondary text-light deck-download"
           @click="onDownloadDeck" >
     <DownloadIcon/> Download <span class="btn-extra-text">Decklist</span>
   </button>

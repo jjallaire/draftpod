@@ -131,7 +131,7 @@ export default {
             })
             .catch((error) => {
               log.logException(error, "onStartDraft");
-              messagebox.alert("Unable to start draft: " + error.message);
+              messagebox.alert("Draft Error", "Unable to start draft: " + error.message);
             });   
           }
         }
@@ -154,6 +154,7 @@ export default {
         .catch((error) => {
           log.logException(error, "onCreateMultiplayerDraft");
           messagebox.alert(
+            "Draft Error",
             "Unable to start draft: " + error.message,
             () => window.location.reload());
         }); 
@@ -228,7 +229,8 @@ export default {
 
         // validate that we don't have an unresolved new-cardpool
         if (this.cardpool === 'new-cardpool') {
-          messagebox.alert("Please complete the details for the new cardpool and then click " +
+          messagebox.alert("Unable to Start Draft",
+                          "Please complete the details for the new cardpool and then click " +
                           "the Use Cardpool button to confirm you want to use it for this draft.");
           resolve(false);
         }
@@ -237,12 +239,12 @@ export default {
         if (this.players === 'multiple') {
 
           if (!this.multi_player.draft_id) {
-            messagebox.alert("Please wait for the draft be created before starting it.");
+            messagebox.alert("Unable to Start Draft", "Please wait for the draft be created before starting it.");
             resolve(false);
           }
 
           if (!this.multi_player.player_name) {
-            messagebox.alert("Please enter the name you want to be identified by during the draft.");
+            messagebox.alert("Unable to Start Draft", "Please enter the name you want to be identified by during the draft.");
             resolve(false);
           }
 
