@@ -143,7 +143,7 @@ export default {
   display: none
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 600px) {
   .deck .card-header .btn-extra-text {
     display: inherit
   }
