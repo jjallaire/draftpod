@@ -21,7 +21,7 @@ export default {
 
   methods: {
     onViewDeck(event) {
-      messagebox.alert("Decklist", "<textarea class='deck-list'>" + this.deck_list + "</textarea>", null, "Close");
+      messagebox.alert("Decklist", "<textarea readonly class='deck-list'>" + this.deck_list + "</textarea>", null, "Close");
       event.target.blur();
     }
   },
@@ -44,12 +44,12 @@ export default {
 
 .deck-list {
   width: 100%;
-  height: 100x;
+  height: 100px;
 }
 
 @media only screen and (min-height: 320px) {
 .deck-list {
-  height: 275px;
+  height: 250px;
 } 
 }
 
