@@ -69,6 +69,7 @@ export default {
     </template>
     <template slot="header-right">
       <DeckView :deck_list="deck_list" />
+      <DeckCopy :deck_list="deck_list" />
       <DeckDownload :deck_list="deck_list" />
     </template>
     <div class="deck-piles deck-piles-top">
@@ -105,9 +106,12 @@ export default {
   background-color: rgb(236,236,236);
 }
 
-.mobile .deck .deck-copy,
-.mobile .deck .deck-download {
+.mobile .deck .deck-copy {
   display: none;
+}
+
+.mobile .deck .card-header .btn-extra-text {
+  display: inherit;
 }
 
 .deck .card-header {
@@ -149,7 +153,7 @@ export default {
   display: none
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   .deck .card-header .btn-extra-text {
     display: inherit
   }
