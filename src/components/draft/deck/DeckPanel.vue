@@ -69,7 +69,6 @@ export default {
     </template>
     <template slot="header-right">
       <DeckView :deck_list="deck_list" />
-      <DeckCopy :deck_list="deck_list" />
       <DeckDownload :deck_list="deck_list" />
     </template>
     <div class="deck-piles deck-piles-top">
