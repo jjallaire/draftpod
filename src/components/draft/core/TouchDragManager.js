@@ -21,6 +21,7 @@ export default class TouchDragManager {
     let md = new MobileDetect(window.navigator.userAgent);
     this.isMobile = md.mobile();
     this.isTablet = md.tablet();
+    this.isPhone = this.isMobile && !this.isTablet;
   }
 
   // register a new target
@@ -104,11 +105,19 @@ export default class TouchDragManager {
 
     if (this.active_drag) {
 
-      // move card for feedback if we've moved enough
-      let dragThreshold = 10;
+      let dragThreshold = 20;
       let touch = event.targetTouches[0];
+
+      // clear active drag if this is a horizontal swipe on the phone (scrolling)
+      if (this.isPhone &&
+          this.active_drag.cursorStart !== null &&
+          Math.abs(this.active_drag.cursorStart.x - touch.clientX) > dragThreshold) {
+        this.clearActiveDrag();
+        return;
+      }
+     
+      // move card for feedback if we've moved enough vertically
       if (this.active_drag.cursorStart === null ||
-          Math.abs(this.active_drag.cursorStart.x - touch.clientX) > dragThreshold || 
           Math.abs(this.active_drag.cursorStart.y - touch.clientY) > dragThreshold) {
         this.active_drag.cursorStart = null;
         let drag_image = this.active_drag.drag_image;
@@ -118,7 +127,7 @@ export default class TouchDragManager {
         let cardRect = event.target.getBoundingClientRect();
         drag_image.style.height = cardRect.height + 'px';
         drag_image.style.width = cardRect.width + 'px' ;
-      }
+      } 
 
       // see if there is a drag target
       let target = this.findTouchTarget(touch);
