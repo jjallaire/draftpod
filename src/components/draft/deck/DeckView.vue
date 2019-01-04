@@ -41,10 +41,22 @@ export default {
 
 <style>
 
+
 .deck-list {
   width: 100%;
-  height: calc(100vh - 200px);
+  height: 100x;
 }
 
+@media only screen and (min-height: 320px) {
+.deck-list {
+  height: 275px;
+} 
+}
+
+@media only screen and (min-height: 800px) {
+.deck-list {
+  height: calc(100vh - 200px);
+} 
+}
 
 </style>
