@@ -1,9 +1,9 @@
 
 - tablet/mobile:
 
+    - phone scrolling
     - view decklist not download/copy
-    - consider single-row for mobile phone (use only Y for pick detection)
-
+  
 - flashback: 
 
     - sometimes we see a past state then we flash back to our current state
@@ -12,6 +12,7 @@
     - should we consider only committing after the server verifies? that would
       imply turning all of the mutations into actions and having some sort
       of global waiting/progress treatment
+    - could also screen out local update of my pack/picks unless it was from me
 
 
 - sideboard:
