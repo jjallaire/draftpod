@@ -41,7 +41,7 @@ export default {
     <transition-group v-if="draft_history.length > 0" name="recent-draft-row">
     <div v-for="draft in draft_history" :key="draft.id" class="row align-items-center"
          @click="onDraftNavigate(draft)">
-      <div class="col-md-3">
+      <div class="col-md-4">
          <SetIcon :set_code="draft.set_code" />
          <span class="set-name">{{ draft.set_name }}</span>
       </div>
@@ -59,7 +59,7 @@ export default {
           Pack {{ draft.current_pack }}, Pick {{ draft.current_pick }}
         </span>
       </div>
-      <div class="col-md-3 text-muted">
+      <div class="col-md-2 text-muted">
         {{ new Date(draft.start_time).toLocaleDateString() }}
       </div>
       <div class="col-md-1 text-muted">
@@ -91,7 +91,7 @@ export default {
 .recent-drafts .simple-svg-wrapper {
   display: inline-block;
   margin-right: 13px;
-  width: 25px;
+  width: 20px;
 }
 
 .recent-drafts .simple-svg-wrapper svg {
