@@ -40,7 +40,7 @@ export default class TouchDragManager {
     this.clearActiveDrag();
 
     // compute the size and location for the drag image
-    const extraWidth = !this.isTablet ? 200 : 100;
+    const extraWidth = !this.isTablet ? 180 : 100;
     const extraHeight = extraWidth * 1.3968;
     let cardRect = event.target.getBoundingClientRect();
     let previewRect =  { 

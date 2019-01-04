@@ -52,6 +52,7 @@ export default {
       fullscreen: false,
       fullscreenEnabled: fscreen.fullscreenEnabled,
       isMobile: false,
+      isPhone: false,
       isTablet: false,
       card_preview: ["/images/card-back.png"],
       touchDragManager: new TouchDragManager(),
@@ -88,6 +89,8 @@ export default {
       this.isMobile = true;
     if (md.tablet())
       this.isTablet = true;
+    if (this.isMobile && !this.isTablet)
+      this.isPhone = true;
 
     // resume draft
     this.resumeDraft();
@@ -309,7 +312,7 @@ export default {
     
     </NavBar>
 
-    <div :class="{ 'draft-page': true, 'mobile': isMobile, 'tablet': isTablet }">
+    <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
         <div class="draft-cards">
           <transition name="pack-hide">
             <PackPanel v-if="!picks_complete" :pack="active_pack"/>
@@ -387,6 +390,23 @@ export default {
 
 .mobile .draft-cards .pack-panel {
   padding-bottom: 34%;
+}
+
+.phone .pack-panel .mtgcard img {
+  width: 17.5%;
+}
+
+.phone .draft-cards .pack-panel {
+  height: 51%;
+  padding-bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  padding-right: 10px;
+}
+
+.phone .draft-cards .pack-panel .pack-container {
+  overflow-x: scroll;
+  white-space: nowrap;
 }
 
 .draft-cards .pack-panel {
