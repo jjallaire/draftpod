@@ -99,7 +99,7 @@ export default {
     if (this.options.multi_player) {
 
       // track firestore
-      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.player.id, this.draft_id, table => {
+      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
 
         // ignore if we already have this update version (this effectively ignores
         // changes that result from this client)

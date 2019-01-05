@@ -41,7 +41,7 @@ export default {
     this.player_name = this.player.name;
 
     if (this.is_available) {
-      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.player.id, this.draft_id, table => {
+      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
         if (selectors.isStarted(table))
           this.$router.push({ path: "/draft/" +  this.draft_id });
         else
