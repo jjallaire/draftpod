@@ -6,7 +6,7 @@ import * as Sentry from '@sentry/browser';
 const production = process.env.NODE_ENV === 'production';
 
 export function logException(error, tag) {
-  console.log(error);
+  console.log(tag + ": " + error);
   if (production) {
     Sentry.withScope(scope => {
       if (tag)
