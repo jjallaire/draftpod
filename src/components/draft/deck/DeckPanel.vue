@@ -170,7 +170,7 @@ export default {
 
 .deck .deck-sideboard {
   position: absolute;
-  min-height: 700px;
+  min-height: 600px;
 }
 
 .deck .deck-piles {
