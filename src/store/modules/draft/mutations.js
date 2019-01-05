@@ -257,7 +257,7 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
   if (!card) {
     let player = table.players[player_index];
     let deck = _flatten(player.picks.piles);
-    card = draftbot.pick(set_code, deck, player.picks.packs[0]);
+    card = draftbot.pick(set_code, deck, player.packs[0]);
   }
 
   // make the pick 
@@ -290,28 +290,28 @@ function passPack(player_index, set_code, table) {
   
   // first remove the pack from our packs
   let player = table.players[player_index];
-  let pack = player.picks.packs.shift();
+  let pack = player.packs.shift();
 
   // if this reveals a pack beneath the one we were 
   // just considering set the pick end time
-  if (player.picks.packs.length > 0)
-    player.picks.pick_end_time = nextPickEndTime(set_code, player);
+  if (player.packs.length > 0)
+    player.pick_end_time = nextPickEndTime(set_code, player);
 
   // now pass to the next player
   let next_player_index = nextPlayerIndex(player_index, table);
   let next_player = table.players[next_player_index];
-  next_player.picks.packs.push(pack);
+  next_player.packs.push(pack);
 
   // if the player previously had no packs in consideration
   // then set the pick_end_time
-  if (next_player.picks.packs.length === 1)
-    next_player.picks.pick_end_time = nextPickEndTime(set_code, next_player);
+  if (next_player.packs.length === 1)
+    next_player.pick_end_time = nextPickEndTime(set_code, next_player);
 
 }
 
 function resetPickTimer(player_id, set_code, table) {
   let player = selectors.activePlayer(player_id, table);
-  player.picks.pick_end_time = nextPickEndTime(set_code, player);
+  player.pick_end_time = nextPickEndTime(set_code, player);
 }
 
 function nextPickEndTime(set_code, player) {
@@ -360,8 +360,8 @@ function nextPack(set_code, table) {
   // distribute packs
   for (let i=0; i<packs.length; i++) {
     let player = table.players[i];
-    player.picks.packs = [packs[i]];
-    player.picks.pick_end_time = nextPickEndTime(set_code, player);
+    player.packs = [packs[i]];
+    player.pick_end_time = nextPickEndTime(set_code, player);
   }
 
   // update current pack
@@ -373,7 +373,7 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
   // alias player
   let player = table.players[player_index];
   let piles = player.picks.piles;
-  let pack = player.picks.packs[0];
+  let pack = player.packs[0];
 
   // if the pile_number is null then choose the least populated pile
   // of the first 6 pile
@@ -424,9 +424,9 @@ function draftBotPickAndPass(player_index, set_code, table) {
 
     // it's a bot, execute a pick and pass loop until we 
     // have no more picks to make
-    while (player.picks.packs.length > 0 &&
-           player.picks.packs[0].length > 0) {
-      let pack = player.picks.packs[0];
+    while (player.packs.length > 0 &&
+           player.packs[0].length > 0) {
+      let pack = player.packs[0];
       let piles = player.picks.piles;
       let card = draftbot.pick(set_code, _flatten(piles), pack);
       makePick(current_index, set_code, table, null, card, null);

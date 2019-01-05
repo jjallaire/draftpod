@@ -37,6 +37,8 @@ export default function() {
         return {
           id: null,
           name: null,
+          packs: [],
+          pick_end_time: null,
           picks: playerPicks(),
           deck: playerDeck(),
         }
@@ -47,12 +49,6 @@ export default function() {
 
 function playerPicks() {
   return {
-    // packs that have been passed to me waiting for picks (FIFO)
-    packs: [],
-
-    // when does this pack end
-    pick_end_time: null,
-
     // piles for cards + 1 pile for sideboard
     piles: [...Array(PICKS.PILES+1)].map(() => Array()),
 

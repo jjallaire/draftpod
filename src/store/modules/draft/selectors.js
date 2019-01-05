@@ -132,7 +132,7 @@ export function packCompleted(table) {
   // if any players still have cards to pick from then we are not complete
   for (let i = 0; i<table.players.length; i++) {
     let player = table.players[i];
-    if (player.picks.packs.length > 0 && player.picks.packs[0].length > 0)
+    if (player.packs.length > 0 && player.packs[0].length > 0)
       return false;
   }
   // otherwise are complete

@@ -152,7 +152,7 @@ export default {
     },
 
     active_pack: function() {
-      let packs = this.active_player.picks.packs;
+      let packs = this.active_player.packs;
       if (packs.length > 0 && packs[0].length > 0)
         return packs[0];
       else
@@ -287,7 +287,7 @@ export default {
         <span v-if="!picks_complete">
           &mdash;
           Pack {{ current_pack }}, Pick {{ current_pick }}
-          <PickTimer v-if="options.pick_timer && active_pack" :pick_end_time="active_player.picks.pick_end_time" />
+          <PickTimer v-if="options.pick_timer && active_pack" :pick_end_time="active_player.pick_end_time" />
         </span>
       </span> 
     

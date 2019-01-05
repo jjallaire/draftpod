@@ -123,7 +123,7 @@ function convertDraftTable(table, cardConverter) {
         },
         picks: {
           ...player.picks,
-          packs: player.picks.packs.map(cardConverter),
+          packs: player.packs.map(cardConverter),
           piles: player.picks.piles.map(cardConverter)
         },
 
