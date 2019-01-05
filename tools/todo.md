@@ -27,6 +27,8 @@
 
 - general:
 
+    - response to fix for flashback: use session local storage to prevent/warn/block
+      drafting from multiple tabs
     - if we cancel a single player multiplayer draft name validation still occurs
     - some progress treatment for joining/connecting?
     - improve name of decklist download file (set/date/colors/etc)

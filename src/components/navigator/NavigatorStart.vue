@@ -178,6 +178,7 @@ export default {
     multiplayerDraftConnect() {
       this.multiplayerDraftDisconnect();
       this.multi_player.firestoreUnsubscribe = firestore.onDraftTableChanged(
+        this.player.id,
         this.multi_player.draft_id, 
         table => {
           this.writeTable({ table });

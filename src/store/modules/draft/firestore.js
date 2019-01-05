@@ -69,8 +69,8 @@ export default {
   },
 
   // subscribe to updates
-  onDraftTableChanged(id, onchanged) {
-    return firestore.collection("drafts").doc(id)
+  onDraftTableChanged(player_id, draft_id, onchanged) {
+    return firestore.collection("drafts").doc(draft_id)
       .onSnapshot(doc => {
         let draft = doc.data();
         if (draft) {
@@ -117,13 +117,13 @@ function convertDraftTable(table, cardConverter) {
     players: table.players.map(player => {
       return {
         ...player,
+        packs: player.packs.map(cardConverter),
         deck: {
           ...player.deck,
           piles: player.deck.piles.map(cardConverter)
         },
         picks: {
           ...player.picks,
-          packs: player.packs.map(cardConverter),
           piles: player.picks.piles.map(cardConverter)
         },
 
