@@ -59,4 +59,10 @@ export default {
 } 
 }
 
+@media only screen and (min-height: 700px) {
+.deck-list {
+  height: calc(100vh - 200px);
+} 
+}
+
 </style>
