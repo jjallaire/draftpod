@@ -27,8 +27,14 @@
 
 - general:
 
-    - response to fix for flashback: use session local storage to prevent/warn/block
-      drafting from multiple tabs
+    - we have seen computeAutoLands end up in an infinite loop. see the
+      tools/bugs/auto-lands-deck.json for a repro
+ 
+    - response to fix for flashback: 
+        - use session local storage to prevent/warn/block drafting from multiple tabs
+        - warn/error when firestore.updateDraftTable results in an error (i.e. user
+          may be offline and commits aren't actually happening)
+
     - if we cancel a single player multiplayer draft name validation still occurs
     - some progress treatment for joining/connecting?
     - improve name of decklist download file (set/date/colors/etc)
