@@ -106,6 +106,13 @@ export default {
         if (table.update_version === this.table.update_version)
           return;
 
+        // prevent changes to this player's picks and deck (prevent flashback which
+        // occurs when receiving changes from other players that don't reflect the
+        // latest picks or deck state for this player)  
+        let player = selectors.activePlayer(this.player.id, table);
+        player.picks = this.active_player.picks;
+        player.deck = this.active_player.deck;
+
         // write locally
         this.writeTable({ table });
       });
