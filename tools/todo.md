@@ -1,16 +1,5 @@
 
   
-- flashback: 
-
-    - sometimes we see a past state then we flash back to our current state
-    - during flash-back you can double-pick a card
-    - if a user loses the network connection then everyone is stuck waiting
-    - should we consider only committing after the server verifies? that would
-      imply turning all of the mutations into actions and having some sort
-      of global waiting/progress treatment
-    - could also screen out local update of my pack/picks unless it was from me
-
-
 - sideboard:
 
     - automatic ordering?
