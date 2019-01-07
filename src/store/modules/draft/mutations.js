@@ -30,9 +30,9 @@ import Vue from 'vue';
 
 export default {
 
- 
+
   [CREATE_DRAFT](state, { id, player, set_code, cardpool, options }) {
-    
+
     // initialize id
     state.id = id;
 
@@ -48,13 +48,13 @@ export default {
       ...state.options,
       ...options,
     };
-    
+
     initTable(state, (table) => {
 
       // set the player info to the first player
       table.players[0].id = player.id;
       table.players[0].name = player.name;
-     
+
       // initialize packs
       table.all_packs = [...Array(24)].map(function() {
         return booster(set_code, cardpool);
@@ -64,16 +64,16 @@ export default {
     // save the packs we started with
     state.packs = state.table.all_packs
       .map(pack => pack.map(card => card.id).join(','));
-  },  
+  },
 
   [JOIN_DRAFT](state, player_info) {
-    updateTable(state, (table) => {
+    updateTable(state, null, null, (table) => {
       joinDraft(player_info, table);
     });
   },
 
   [START_DRAFT](state, player_info) {
-     updateTable(state, (table) => {
+    updateTable(state, null, null, (table) => {
       table.start_time = new Date().getTime();
       if (player_info)
         joinDraft(player_info, table);
@@ -81,12 +81,18 @@ export default {
     });
   },
 
-  [RESUME_DRAFT](state, { player_id }) {
+  [RESUME_DRAFT](state, { player_id, client_id }) {
+
+    // for multi-player drafts set the client id 
+    if (state.options.multi_player) {
+      updateTable(state, player_id, null, (table) => {
+        let player = selectors.activePlayer(player_id, table);
+        player.client_id = client_id;
+      });
     
-    // for single-player drafts update the start_time and reset
-    // the pick_timer 
-    if (!state.options.multi_player) {
-      updateTable(state, (table) => {
+    // for single-player drafts update the start_time and reset the pick_timer 
+    } else {
+      updateTable(state, null, null, (table) => {
         table.start_time = new Date().getTime();
         resetPickTimer(player_id, state.set.code, table);
       });
@@ -98,31 +104,31 @@ export default {
   },
 
   [SIMULATE_DRAFT](state, { player_id }) {
-    updateTable(state, (table) => {
+    updateTable(state, player_id, null, (table) => {
       while (!table.picks_complete) {
-        packToPick(state.set.code, player_id, table, null,  null, null, false);
+        packToPick(state.set.code, player_id, table, null, null, null, false);
       }
     });
   },
 
-  [PACK_TO_PICK](state, { player_id, card, pile_number, insertBefore }) {
-    updateTable(state, (table) => {
-      packToPick(state.set.code, player_id, 
-                 table, card, pile_number, insertBefore)
+  [PACK_TO_PICK](state, { player_id, client_id, card, pile_number, insertBefore }) {
+    updateTable(state, player_id, client_id, (table) => {
+      packToPick(state.set.code, player_id,
+        table, card, pile_number, insertBefore)
     });
   },
 
-  [PICK_TO_PILE](state, { player_id, card, pile_number, insertBefore}) {
-    updateTable(state, (table) => {
+  [PICK_TO_PILE](state, { player_id, client_id, card, pile_number, insertBefore }) {
+    updateTable(state, player_id, client_id, (table) => {
       let player = selectors.activePlayer(player_id, table);
       let picks = player.picks;
       pileToPile(player, card, pile_number, picks.piles, insertBefore);
     });
-    
+
   },
 
-  [DECK_TO_SIDEBOARD](state, { player_id, card, insertBefore}) {
-    updateTable(state, (table) => {
+  [DECK_TO_SIDEBOARD](state, { player_id, client_id, card, insertBefore }) {
+    updateTable(state, player_id, client_id, (table) => {
       // move the card
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
@@ -133,8 +139,8 @@ export default {
     });
   },
 
-  [SIDEBOARD_TO_DECK](state, { player_id, card }) {
-    updateTable(state, (table) => {
+  [SIDEBOARD_TO_DECK](state, { player_id, client_id, card }) {
+    updateTable(state, player_id, client_id, (table) => {
       // remove from sideboard
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
@@ -151,24 +157,24 @@ export default {
     });
   },
 
-  [SIDEBOARD_TO_SIDEBOARD](state, { player_id, card, insertBefore }) {
-    updateTable(state, (table) => {
+  [SIDEBOARD_TO_SIDEBOARD](state, { player_id, client_id, card, insertBefore }) {
+    updateTable(state, player_id, client_id, (table) => {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.SIDEBOARD, deck.piles, insertBefore);
     });
   },
 
-  [DISABLE_AUTO_LANDS](state, { player_id, color_order }) {
-    updateTable(state, (table) => {
+  [DISABLE_AUTO_LANDS](state, { player_id, client_id, color_order }) {
+    updateTable(state, player_id, client_id, (table) => {
       let deck = selectors.activePlayer(player_id, table).deck;
       deck.lands.auto = false;
       deck.lands.color_order = color_order;
     });
   },
 
-  [SET_BASIC_LANDS](state, { player_id, color, lands }) {
-    updateTable(state, (table) => {
+  [SET_BASIC_LANDS](state, { player_id, client_id, color, lands }) {
+    updateTable(state, player_id, client_id, (table) => {
       let deck = selectors.activePlayer(player_id, table).deck;
       deck.lands.basic[color] = lands;
     });
@@ -187,9 +193,9 @@ function joinDraft(player_info, table) {
     player.name = player_info.name;
     return true;
 
-  // otherwise find a seat at the table
+    // otherwise find a seat at the table
   } else {
-    let seats = [0,4,2,6,1,5,3,7];
+    let seats = [0, 4, 2, 6, 1, 5, 3, 7];
     let seat = seats.find(seat => table.players[seat].id === null);
     if (seat !== undefined) {
       table.players[seat] = { ...table.players[seat], ...player_info };
@@ -214,7 +220,13 @@ function initTable(state, writer) {
 }
 
 // update the table, writing through to firebase
-function updateTable(state, writer) {
+function updateTable(state, player_id, client_id, writer) {
+
+  // validate that another client hasn't taken over the draft
+  if (state.options.multi_player) {
+    if (!firestore.validateClientId(player_id, client_id, state.table))
+      return;  
+  }
 
   // create a writer that will stamp the write with a
   // version (this will allow us to ignore the onSnapshot
@@ -229,11 +241,11 @@ function updateTable(state, writer) {
   let table = JSON.parse(JSON.stringify(state.table));
   writer(table);
   writeTable(state, table, update_version);
-  
+
   // write to firestore if requested
   if (state.options.multi_player) {
 
-    firestore.updateDraftTable(state.id, versioned_writer) 
+    firestore.updateDraftTable(state.id, versioned_writer)
       .catch(function(error) {
         log.logException(error, "onUpdateDraftTable");
       });
@@ -252,7 +264,7 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
 
   // alias player
   let player_index = playerIndex(player_id, table);
-  
+
   // null card means have the AI pick
   if (!card) {
     let player = table.players[player_index];
@@ -277,7 +289,7 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
       completePicks(table, clear_table);
     }
 
-  } 
+  }
 
 }
 
@@ -287,7 +299,7 @@ function playerIndex(player_id, table) {
 }
 
 function passPack(player_index, set_code, table) {
-  
+
   // first remove the pack from our packs
   let player = table.players[player_index];
   let pack = player.packs.shift();
@@ -317,7 +329,7 @@ function resetPickTimer(player_id, set_code, table) {
 function nextPickEndTime(set_code, player) {
   let seconds_per_pick = 5;
   let pack_cards = set.pack_cards(set_code);
-  let max_pick_seconds = (seconds_per_pick * pack_cards); 
+  let max_pick_seconds = (seconds_per_pick * pack_cards);
   let cards_picked = _flatten(player.picks.piles).length;
   let current_pick = (cards_picked % pack_cards) + 1;
   let pick_seconds = max_pick_seconds + seconds_per_pick - (seconds_per_pick * current_pick);
@@ -327,7 +339,7 @@ function nextPickEndTime(set_code, player) {
 
 
 function nextPlayerIndex(player_index, table) {
-  
+
   let next_player_index = 0;
 
   if (table.current_pack === 2) {
@@ -336,7 +348,7 @@ function nextPlayerIndex(player_index, table) {
     if (next_player_index >= table.players.length)
       next_player_index = 0;
 
-  // pass left
+    // pass left
   } else {
 
     next_player_index = player_index - 1;
@@ -344,7 +356,7 @@ function nextPlayerIndex(player_index, table) {
       next_player_index = table.players.length - 1;
 
   }
-  
+
   return next_player_index;
 }
 
@@ -354,11 +366,11 @@ function nextPack(set_code, table) {
 
   // grab next set of packs
   let packs = [];
-  for (let i=0; i<8; i++)
+  for (let i = 0; i < 8; i++)
     packs.push(table.all_packs.shift());
-  
+
   // distribute packs
-  for (let i=0; i<packs.length; i++) {
+  for (let i = 0; i < packs.length; i++) {
     let player = table.players[i];
     player.packs = [packs[i]];
     player.pick_end_time = nextPickEndTime(set_code, player);
@@ -378,7 +390,7 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
   // if the pile_number is null then choose the least populated pile
   // of the first 6 pile
   if (pile_number === null) {
-    pile_number = piles.slice(0, 6).reduce( (shortestPileIndex, pile, index) => {
+    pile_number = piles.slice(0, 6).reduce((shortestPileIndex, pile, index) => {
       if (pile.length < piles[shortestPileIndex].length)
         return index;
       else
@@ -397,7 +409,7 @@ function makePick(player_index, set_code, table, pile_number, card, insertBefore
 
   // pass pack to next player if it's not empty
   if (pack.length > 0)
-    passPack(player_index, set_code, table);  
+    passPack(player_index, set_code, table);
 
   // move picks to deck for non-ai players if we are done
   if (player.id !== null && selectors.picksComplete(player.id, set_code, table))
@@ -408,7 +420,7 @@ function draftBotPickAndPass(player_index, set_code, table) {
 
   // execute pick and pass for all bots
   let current_index = player_index;
-  for(;;) {
+  for (; ;) {
 
     // advance to next player -
     current_index = nextPlayerIndex(current_index, table);
@@ -425,7 +437,7 @@ function draftBotPickAndPass(player_index, set_code, table) {
     // it's a bot, execute a pick and pass loop until we 
     // have no more picks to make
     while (player.packs.length > 0 &&
-           player.packs[0].length > 0) {
+      player.packs[0].length > 0) {
       let pack = player.packs[0];
       let piles = player.picks.piles;
       let card = draftbot.pick(set_code, _flatten(piles), pack);
@@ -437,7 +449,7 @@ function draftBotPickAndPass(player_index, set_code, table) {
 function cardToDeckPile(player, c, deck) {
 
   // add card to pile
-  let card = JSON.parse(JSON.stringify(c)); 
+  let card = JSON.parse(JSON.stringify(c));
   let deck_piles = deck.piles;
   let pile = null;
 
@@ -447,7 +459,7 @@ function cardToDeckPile(player, c, deck) {
     let offset = filters.creature(card) ? 0 : DECK.PILES / 2;
     if (card.cmc <= 1)
       pile = deck_piles[offset];
-    else if (card.cmc>= 6)
+    else if (card.cmc >= 6)
       pile = deck_piles[offset + 5];
     else
       pile = deck_piles[offset + card.cmc - 1];
@@ -483,14 +495,14 @@ function movePicksToDeck(player) {
 }
 
 function completePicks(table, clear_table) {
-  
+
   // set completed status
   table.picks_complete = true;
 
   // clear picks 
   if (clear_table) {
     table.players.forEach(player => {
-      player.picks.piles = [...Array(PICKS.PILES+1)].map(() => Array());
+      player.picks.piles = [...Array(PICKS.PILES + 1)].map(() => Array());
     });
   }
 }
@@ -513,13 +525,13 @@ function computeAutoLands(deck) {
 
   // count again w/ the color_ranking
   card_colors = countColors(cards, color_ranking);
- 
+
   // compute the target number of mana sources we need in our mana base
   const total_land_cards = 17;
-  let total_card_colors = selectors.sumValues(card_colors);  
+  let total_card_colors = selectors.sumValues(card_colors);
   let mana_targets = {};
   Object.keys(card_colors).map(color => {
-    let target = (card_colors[color]/total_card_colors) * total_land_cards;
+    let target = (card_colors[color] / total_card_colors) * total_land_cards;
     if (target > 0)
       target = Math.max(target, 1);
     mana_targets[color] = target;
@@ -528,7 +540,7 @@ function computeAutoLands(deck) {
   // now count existing sources of mana (e.g. dual lands)
   let lands = deck.piles[DECK.LANDS];
   let mana_existing = countColors(lands);
- 
+
   // adjust for existing mana sources 
   let mana_required = {};
   Object.keys(mana_targets).map(
@@ -544,13 +556,13 @@ function computeAutoLands(deck) {
 
   // take total after adjustment (used to calculate new % values)
   let total_mana_required = selectors.sumValues(mana_required);
-    
+
   // function to yield basic lands
   let basic_lands_required = total_land_cards - lands.length;
   function basicLands(rounder) {
     let basic_lands = {};
-    Object.keys(mana_required).map(function(color) {
-      let lands = mana_required[color]/total_mana_required * basic_lands_required;
+    Object.keys(mana_required).map(function (color) {
+      let lands = mana_required[color] / total_mana_required * basic_lands_required;
       if (rounder)
         lands = rounder(lands);
       basic_lands[color] = lands;
@@ -562,17 +574,17 @@ function computeAutoLands(deck) {
   let basic_lands = basicLands();
   let basic_lands_rounded = basicLands(Math.round);
   let basic_lands_rounded_sum = selectors.sumValues(basic_lands_rounded);
-  while(basic_lands_rounded_sum != basic_lands_required) {
+  while (basic_lands_rounded_sum != basic_lands_required) {
     let is_rounded_larger = basic_lands_rounded_sum > basic_lands_required;
     let max_difference_color = null;
     let max_difference_value = 0;
     let colors = Object.keys(basic_lands);
-    for (let i=0; i<colors.length; i++) {
+    for (let i = 0; i < colors.length; i++) {
       let color = colors[i];
       let difference = Math.abs(basic_lands_rounded[color] - basic_lands[color]);
       if (max_difference_value < difference) {
         if ((is_rounded_larger && basic_lands_rounded[color] > basic_lands[color]) ||
-            (!is_rounded_larger && basic_lands_rounded[color] < basic_lands[color])) {
+          (!is_rounded_larger && basic_lands_rounded[color] < basic_lands[color])) {
           max_difference_value = difference;
           max_difference_color = color;
         }
@@ -582,20 +594,20 @@ function computeAutoLands(deck) {
     basic_lands_rounded[max_difference_color] += modify_value;
     basic_lands_rounded_sum += modify_value;
   }
- 
+
   // return basic lands
   return basic_lands_rounded;
 }
 
- // count colors in sets of cards
- function countColors(cards, color_ranking) {
+// count colors in sets of cards
+function countColors(cards, color_ranking) {
   let all_colors = ['B', 'U', 'W', 'R', 'G'];
   let color_regex = /[BUWRG/]+(?=\})/g;
   function colorReducer(accumulator, card) {
     if (card.mana_cost !== null && card.mana_cost !== "") {
       let card_colors = card.mana_cost.match(color_regex) || [];
-      for (let i = 0; i<card_colors.length; i++) {
-        let card_color = card_colors[i]; 
+      for (let i = 0; i < card_colors.length; i++) {
+        let card_color = card_colors[i];
         // apply ranking if we have one and are dealing w/ multiple 
         // color options to play the card
         if (color_ranking) {
@@ -604,17 +616,17 @@ function computeAutoLands(deck) {
             // exclude split colors if we can pay for the other color in our top 2
             if (color_ranking.indexOf(colors[0]) < 2 && color_ranking.indexOf(colors[1]) >= 2)
               card_color = colors[0];
-            else if (color_ranking.indexOf(colors[1]) < 2 && color_ranking.indexOf( colors[0]) >= 2)
+            else if (color_ranking.indexOf(colors[1]) < 2 && color_ranking.indexOf(colors[0]) >= 2)
               card_color = colors[1];
           }
         }
-        for (let c = 0; c<all_colors.length; c++) {
+        for (let c = 0; c < all_colors.length; c++) {
           if (card_color.indexOf(all_colors[c]) !== -1)
             accumulator[all_colors[c]]++;
         }
       }
     } else {
-      for (let i=0; i<card.colors.length; i++) 
+      for (let i = 0; i < card.colors.length; i++)
         accumulator[card.colors[i]]++;
     }
     return accumulator;
@@ -627,7 +639,7 @@ function rankColors(card_colors) {
   return Object.keys(card_colors)
     .map((color) => { return { color: color, count: card_colors[color] } })
     .sort((a, b) => b.count - a.count)
-    .map((x) => x.color );
+    .map((x) => x.color);
 }
 
 function orderCards(a, b) {
@@ -637,7 +649,7 @@ function orderCards(a, b) {
   } else {
     let aIsCreature = filters.creature(a);
     let bIsCreature = filters.creature(b);
-  
+
     if (aIsCreature === bIsCreature) {
       if (a.name < b.name)
         return -1;
@@ -678,7 +690,7 @@ function pileToPile(player, card, pile_number, piles, insertBefore) {
 }
 
 function addCardToPile(player, pile, card, insertBefore) {
-  let card_copy = JSON.parse(JSON.stringify(card)); 
+  let card_copy = JSON.parse(JSON.stringify(card));
   if (insertBefore !== null)
     pile.splice(insertBefore, 0, card_copy);
   else
@@ -694,11 +706,11 @@ function booster(set_code, cardpool) {
 
     // generate range of indexes then shuffle it
     let indexes = _shuffle([...Array(cardpool.length).keys()]);
-  
+
     // scan through the cards and match the filter
     let selectedIndexes = [];
     let cards = [];
-    for (let i=0; i<indexes.length; i++) {
+    for (let i = 0; i < indexes.length; i++) {
       let index = indexes[i];
       let card = cardpool[index];
       if (filter(card)) {
@@ -706,13 +718,13 @@ function booster(set_code, cardpool) {
         // detect duplicate 
         if (selectedCardIds.indexOf(card.id) !== -1)
           continue;
-  
+
         // record index selected (will be removed from cardpool)
         selectedIndexes.push(index);
 
         // record ids selected (used to prevent duplicates)
         selectedCardIds.push(card.id);
-  
+
         // accumulate card
         cards.push({
           ...card,
@@ -722,13 +734,13 @@ function booster(set_code, cardpool) {
       if (cards.length >= number)
         break;
     }
-  
+
     // remove drawn cards from cardpool
     _pullAt(cardpool, selectedIndexes);
-  
+
     // return cards
     return cards;
-  }    
+  }
 
 
   // function to draw next n cards that pass a set of filters
@@ -739,7 +751,7 @@ function booster(set_code, cardpool) {
 
     // call the filters in sequence until we select all the cards we need
     let cards = [];
-    for (let i=0; i<filters.length; i++) {
+    for (let i = 0; i < filters.length; i++) {
       let filter = filters[i];
       cards = cards.concat(select(filter, number - cards.length));
       if (cards.length >= number)
@@ -747,7 +759,7 @@ function booster(set_code, cardpool) {
     }
 
     // return the cards
-    return cards;    
+    return cards;
   }
 
   // generate booster for set using selectCards function

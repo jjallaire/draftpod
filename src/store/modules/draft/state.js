@@ -36,6 +36,7 @@ export default function() {
       players: [...Array(8)].map(function() {
         return {
           id: null,
+          client_id: null,
           name: null,
           packs: [],
           pick_end_time: null,

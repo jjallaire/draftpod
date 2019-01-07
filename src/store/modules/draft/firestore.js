@@ -2,6 +2,8 @@
 import * as log from '@/log'
 import { firestore } from '../../firebase'
 import * as set from './set'
+import * as selectors from './selectors'
+import * as messagebox from '@/components/core/messagebox.js'
 
 export default {
 
@@ -82,6 +84,26 @@ export default {
         log.logException(error, "onDraftTableChanged");
       });
   },
+
+  validateClientId(player_id, client_id, table) {
+    if (player_id !== null && client_id !== null) {
+      let player = selectors.activePlayer(player_id, table);
+      if (client_id !== player.client_id) {
+        messagebox.alert(
+          "Disconnected from Draft", 
+          "<p>Another browser was connected to this draft, so this browser was disconnected.</p>" +
+          "You can reconnect by clicking the button below.",
+          () => {
+            window.location.reload();
+          },
+          "Reconnect to Draft",
+          false
+        );
+        return false;
+      }
+    } 
+    return true;
+  }
 
 }
 

@@ -28,6 +28,8 @@ import _flatten from 'lodash/flatten'
 
 import MobileDetect from 'mobile-detect'
 
+import shortUuid from 'short-uuid'
+
 import TouchDragManager from '../core/TouchDragManager.js'
 
 // drafts namespace
@@ -49,6 +51,7 @@ export default {
 
   data: function() {
     return { 
+      client_id: shortUuid().new(),
       fullscreen: false,
       fullscreenEnabled: fscreen.fullscreenEnabled,
       isMobile: false,
@@ -92,6 +95,9 @@ export default {
     if (this.isMobile && !this.isTablet)
       this.isPhone = true;
 
+    // client_id before we resume the draft (allow it once during initial sync)
+    let oldClientId = this.active_player.client_id;
+
     // resume draft
     this.resumeDraft();
 
@@ -100,6 +106,17 @@ export default {
 
       // track firestore
       this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
+
+        // get activePlayer reference
+        let activePlayer = selectors.activePlayer(this.player.id, table);
+
+        // if we aren't using the old client id then validate it hasn't changed
+        if (activePlayer.client_id !== oldClientId) {
+          if (!firestore.validateClientId(this.player.id, this.client_id, table)) {
+            this.firestoreUnsubscribe();
+            return;
+          }
+        }
 
         // ignore if we already have this update version (this effectively ignores
         // changes that result from this client)
@@ -113,7 +130,7 @@ export default {
         player.picks = this.active_player.picks;
         player.deck = this.active_player.deck;
 
-        // write locally
+        // write locally. 
         this.writeTable({ table });
       });
     }
@@ -235,6 +252,7 @@ export default {
     withPlayerId: function(payload) {
       return {
         player_id: this.player.id,
+        client_id: this.client_id,
         ...payload
       }
     },
