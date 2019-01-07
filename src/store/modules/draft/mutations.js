@@ -262,7 +262,10 @@ function updateTable(state, player_id, client_id, writer) {
 
     firestore.updateDraftTable(state.id, versioned_writer)
       .then(function() {
+
+        // set connected flag to false to indicate we can do pick timer picks
         firestore.connected = true;
+      
       })
       .catch(function(error) {
         
