@@ -532,7 +532,14 @@ function computeAutoLands(deck) {
   // adjust for existing mana sources 
   let mana_required = {};
   Object.keys(mana_targets).map(
-    (color) => mana_required[color] = Math.max(mana_targets[color] - mana_existing[color], 0)
+    color => {
+      let target = mana_targets[color];
+      if (target > 0)
+        // ensure at least 1 mana required (prevent total_mana_required === 0)
+        mana_required[color] = Math.max(mana_targets[color] - mana_existing[color], 1);
+      else
+        mana_required[color] = 0;
+    }
   )
 
   // take total after adjustment (used to calculate new % values)
