@@ -13,7 +13,7 @@ export const SIDEBOARD_TO_SIDEBOARD = 'SIDEBOARD_TO_SIDEBOARD'
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 
-import { WRITE_TABLE } from './mutations'
+import { WRITE_TABLE, SET_CONNECTED } from './mutations'
 
 import shortUuid from 'short-uuid'
 import _flatten from 'lodash/flatten'
@@ -71,7 +71,7 @@ export default {
   },
 
   [PICK_TIMER_PICK]({ commit, state }, { player_id, client_id }) {
-    if (firestore.connected) {
+    if (state.connected) {
       updateTable({ commit, state }, player_id, client_id, (table) => {
         packToPick(state.set.code, player_id,
           table, null, null, null)
@@ -184,8 +184,10 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
 
   // validate that another client hasn't taken over the draft
   if (state.options.multi_player) {
-    if (!firestore.validateClientId(player_id, client_id, state.table))
-      return;  
+    if (!firestore.validateClientId(player_id, client_id, state.table)) {
+      commit(SET_CONNECTED, { connected: false });
+      return; 
+    }
   }
 
   // create a writer that will stamp the write with a
@@ -213,14 +215,15 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
       .then(function() {
 
         // set connected flag to false to indicate we can do pick timer picks
-        firestore.connected = true;
+        if (!state.connected)
+          commit(SET_CONNECTED, { connected: true });
       
       })
       .catch(function(error) {
         
         // set connected flag to false so we don't attempt pick timer picks
-        firestore.connected = false;
-
+        commit(SET_CONNECTED, { connected: false });
+      
         // rollback state
         commit(WRITE_TABLE, { table: previousTable });
         

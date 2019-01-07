@@ -26,6 +26,10 @@ export default function() {
     // packs for this draft
     packs: null,
 
+    // are we connected to the backend? (i.e. should we be
+    // peforming auto-picks)
+    connected: true,
+
     // table
     table: {
       start_time: null,

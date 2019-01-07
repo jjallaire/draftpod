@@ -13,7 +13,7 @@ import { REMOVE_DRAFTS } from '@/store/mutations'
 import { RESUME_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE, 
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/actions';
-import { WRITE_TABLE } from '@/store/modules/draft/mutations'
+import { WRITE_TABLE, SET_CONNECTED } from '@/store/modules/draft/mutations'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
 
@@ -115,6 +115,7 @@ export default {
         // if we aren't using the old client id then validate it hasn't changed
         if (activePlayer.client_id !== oldClientId) {
           if (!firestore.validateClientId(this.player.id, this.client_id, table)) {
+            this.setConnected({ connected: false });
             this.firestoreUnsubscribe();
             return;
           }
@@ -225,6 +226,9 @@ export default {
       removeDrafts: REMOVE_DRAFTS,
       writeTable(dispatch, payload) {
         return dispatch(this.namespace + '/' + WRITE_TABLE, payload);
+      },
+      setConnected(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SET_CONNECTED, payload);
       },
     }),
     ...mapActions({

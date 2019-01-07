@@ -1,12 +1,12 @@
 
 export const CREATE_DRAFT = 'CREATE_DRAFT'
 export const WRITE_TABLE = 'WRITE_TABLE'
+export const SET_CONNECTED = 'SET_CONNECTED'
 
 import * as set from './set/'
 
 import shortUuid from 'short-uuid'
 import _shuffle from 'lodash/shuffle'
-import _flatten from 'lodash/flatten'
 import _pullAt from 'lodash/pullAt'
 
 import Vue from 'vue';
@@ -52,6 +52,9 @@ export default {
     writeTable(state, table, update_version);
   },
 
+  [SET_CONNECTED](state, { connected }) {
+    state.connected = connected;
+  }
 };
 
 // write initial values for the table (no firebase sync as we
@@ -61,7 +64,6 @@ function initTable(state, writer) {
   writer(table);
   writeTable(state, table);
 }
-
 
 function writeTable(state, table, update_version) {
   Vue.set(state, "table", {
