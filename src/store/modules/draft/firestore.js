@@ -7,6 +7,9 @@ import * as messagebox from '@/components/core/messagebox.js'
 
 export default {
 
+  // connected status
+  connected: true,
+
   // create a draft within the firestore
   createDraft(id, draft) {
     return serializeDraftTable(draft.table).then(table => {

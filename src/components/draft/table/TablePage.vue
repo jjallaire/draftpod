@@ -9,7 +9,7 @@ import InfoBar from '../infobar/InfoBar.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 
 import { REMOVE_DRAFTS } from '@/store/mutations'
-import { RESUME_DRAFT, WRITE_TABLE, PACK_TO_PICK, PICK_TO_PILE, 
+import { RESUME_DRAFT, WRITE_TABLE, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE, 
          DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/mutations';
 
@@ -71,7 +71,7 @@ export default {
 
   provide: function() {
     return {
-      aiPick: this.aiPick,
+      pickTimerPick: this.pickTimerPick,
       packToPick: this.packToPick,
       pickToPile: this.pickToPile,
       deckToSideboard: this.deckToSideboard,
@@ -227,6 +227,9 @@ export default {
       writeTable(dispatch, payload) {
         return dispatch(this.namespace + '/' + WRITE_TABLE, payload);
       },
+      pickTimerPick(dispatch) {
+        return dispatch(this.namespace + '/' + PICK_TIMER_PICK, this.withPlayerId({}));
+      },
       packToPick(dispatch, payload) {
         return dispatch(this.namespace + '/' + PACK_TO_PICK, this.withPlayerId(payload));
       },
@@ -255,13 +258,6 @@ export default {
         client_id: this.client_id,
         ...payload
       }
-    },
-    aiPick: function() {
-      this.packToPick({
-        card: null,
-        pile_number: null, 
-        insertBefore: null
-      });
     },
     setCardPreview: function(card_preview) {
       this.card_preview = card_preview;

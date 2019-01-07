@@ -5,6 +5,7 @@ export const START_DRAFT = 'START_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
 export const SIMULATE_DRAFT = 'SIMULATE_DRAFT'
 export const WRITE_TABLE = 'WRITE_TABLE'
+export const PICK_TIMER_PICK = 'PICK_TIMER_PICK'
 export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const NEXT_PACK = 'NEXT_PACK'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
@@ -110,6 +111,15 @@ export default {
         packToPick(state.set.code, player_id, table, null, null, null, false);
       }
     });
+  },
+
+  [PICK_TIMER_PICK](state, { player_id, client_id }) {
+    if (firestore.connected) {
+      updateTable(state, player_id, client_id, (table) => {
+        packToPick(state.set.code, player_id,
+          table, null, null, null)
+      });
+    }
   },
 
   [PACK_TO_PICK](state, { player_id, client_id, card, pile_number, insertBefore }) {
@@ -251,9 +261,15 @@ function updateTable(state, player_id, client_id, writer) {
   if (state.options.multi_player) {
 
     firestore.updateDraftTable(state.id, versioned_writer)
+      .then(function() {
+        firestore.connected = true;
+      })
       .catch(function(error) {
         
-        // rollback
+        // set connected flag to false so we don't attempt pick timer picks
+        firestore.connected = false;
+
+        // rollback state
         writeTable(state, previousTable);
         
         // log error 

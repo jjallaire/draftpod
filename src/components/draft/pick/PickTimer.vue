@@ -27,7 +27,7 @@ export default {
   },
 
   inject: [
-    'aiPick'
+    'pickTimerPick'
   ],
 
   methods: {
@@ -37,7 +37,7 @@ export default {
 
       // check for expiration
       if (this.pick_time_remaining <= -1) {
-        this.aiPick();
+        this.pickTimerPick();
       }
     }
   },
