@@ -101,8 +101,8 @@ export default {
     }
   },
 
-  [WRITE_TABLE](state, { table }) {
-    writeTable(state, table);
+  [WRITE_TABLE](state, { table, update_version }) {
+    writeTable(state, table, update_version);
   },
 
   [SIMULATE_DRAFT](state, { player_id }) {
