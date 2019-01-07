@@ -9,7 +9,8 @@ import { mapState, mapGetters, mapMutations } from 'vuex'
 // eslint-disable-next-line 
 import { store } from '@/store'
 import { SET_PLAYER_INFO } from '@/store/mutations'
-import { JOIN_DRAFT, WRITE_TABLE } from '@/store/modules/draft/mutations'
+import { JOIN_DRAFT, } from '@/store/modules/draft/actions'
+import { WRITE_TABLE } from '@/store/modules/draft/mutations'
 
 import * as utils from './core/utils'
 import * as selectors from '@/store/modules/draft/selectors'

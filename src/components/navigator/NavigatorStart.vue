@@ -14,7 +14,8 @@ import { store } from '@/store'
 import firestore from '@/store/modules/draft/firestore'
 import { CARDPOOL } from '@/store/constants'
 import { SET_PLAYER_INFO, UPDATE_PREFERENCES, REMOVE_DRAFTS } from '@/store/mutations'
-import { JOIN_DRAFT, START_DRAFT, WRITE_TABLE } from '@/store/modules/draft/mutations'
+import { JOIN_DRAFT, START_DRAFT } from '@/store/modules/draft/actions'
+import { WRITE_TABLE } from '@/store/modules/draft/mutations'
 import { INIT_DRAFT } from '@/store/actions'
 
 // drafts namespace
@@ -97,20 +98,19 @@ export default {
       updatePreferences: UPDATE_PREFERENCES,
       setPlayerInfo: SET_PLAYER_INFO,
       removeDrafts: REMOVE_DRAFTS,
+      writeTable(dispatch, payload) {
+        return dispatch(NS_DRAFTS + '/' + this.multi_player.draft_id + '/' + WRITE_TABLE, payload);
+      },
+    }),
+
+    ...mapActions({
+      initDraft: INIT_DRAFT,
       startDraft(dispatch, draft_id) {
         return dispatch(NS_DRAFTS + '/' + draft_id + '/' + START_DRAFT);
       },
       joinDraft(dispatch, payload) {
         return dispatch(NS_DRAFTS + '/' + this.multi_player.draft_id + '/' + JOIN_DRAFT, payload);
       },
-      writeTable(dispatch, payload) {
-        return dispatch(NS_DRAFTS + '/' + this.multi_player.draft_id + '/' + WRITE_TABLE, payload);
-      },
-    }),
-
-
-    ...mapActions({
-      initDraft: INIT_DRAFT
     }),
 
     onStartDraft: function() {

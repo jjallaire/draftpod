@@ -9,7 +9,7 @@ import SetSelect from '@/components/core/SetSelect.vue'
 import { mapActions, mapMutations } from 'vuex'
 import { INIT_DRAFT } from '@/store/actions'
 import { REMOVE_DRAFTS } from '@/store/mutations'
-import { START_DRAFT, SIMULATE_DRAFT } from '@/store/modules/draft/mutations'
+import { START_DRAFT, SIMULATE_DRAFT } from '@/store/modules/draft/actions'
 
 import { CARDPOOL } from '@/store/constants'
 import * as draftbot from '@/store/modules/draft/draftbot'

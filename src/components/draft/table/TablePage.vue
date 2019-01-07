@@ -9,11 +9,13 @@ import InfoBar from '../infobar/InfoBar.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 
 import { REMOVE_DRAFTS } from '@/store/mutations'
-import { RESUME_DRAFT, WRITE_TABLE, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE, 
-         DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
-         DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/mutations';
 
-import { mapState, mapGetters, mapMutations } from 'vuex';
+import { RESUME_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE, 
+         DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
+         DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/actions';
+import { WRITE_TABLE } from '@/store/modules/draft/mutations'
+
+import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
 
 import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
 import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
@@ -221,11 +223,13 @@ export default {
   methods: {
     ...mapMutations({
       removeDrafts: REMOVE_DRAFTS,
-      resumeDraft(dispatch) {
-        return dispatch(this.namespace + '/' + RESUME_DRAFT, this.withPlayerId({}));
-      },
       writeTable(dispatch, payload) {
         return dispatch(this.namespace + '/' + WRITE_TABLE, payload);
+      },
+    }),
+    ...mapActions({
+      resumeDraft(dispatch) {
+        return dispatch(this.namespace + '/' + RESUME_DRAFT, this.withPlayerId({}));
       },
       pickTimerPick(dispatch) {
         return dispatch(this.namespace + '/' + PICK_TIMER_PICK, this.withPlayerId({}));
