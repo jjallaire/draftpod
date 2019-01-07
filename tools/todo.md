@@ -16,8 +16,7 @@
 
 - general:
 
-    - we have seen computeAutoLands end up in an infinite loop. see the
-      tools/bugs/auto-lands-deck.json for a repro
+    - Enter key in make draft name submits
  
     - response to fix for flashback: 
         - use session local storage to prevent/warn/block drafting from multiple tabs
