@@ -36,7 +36,7 @@ export default {
     return {
       set_code: 'grn',
       cardpool: CARDPOOL.CUBE + '4/4/1/1',
-      pick_timer: true,
+      pick_timer: false,
       pick_ratings: false,
       players: 'single',
       multi_player: {

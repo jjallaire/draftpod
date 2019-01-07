@@ -14,7 +14,7 @@ const debug = process.env.NODE_ENV !== 'production'
 Vue.use(Vuex)
 
 const vuexPersist = new VuexPersist({
-  key: 'draftpod-alpha4',
+  key: 'draftpod-alpha5',
   storage: window.localStorage
 });
 
@@ -26,7 +26,7 @@ export const store = new Vuex.Store({
     },
     preferences: {
       set_code: 'grn',
-      pick_timer: true,
+      pick_timer: false,
       pick_ratings: false,
       sets: {}
     },
