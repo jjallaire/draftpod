@@ -15,7 +15,7 @@
     - let the host remove players (rather than distributed pick timer)
 
 - general:
- 
+
     - we still get a 400 error during the initialization sequence for multiplayer
     - if we cancel a single player multiplayer draft name validation still occurs
     - some progress treatment for joining/connecting?
