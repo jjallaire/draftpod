@@ -26,6 +26,7 @@ import * as draftbot from './draftbot'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
 import { PICKS, DECK } from './constants'
+import * as messagebox from '@/components/core/messagebox.js'
 import Vue from 'vue';
 
 export default {
@@ -237,6 +238,10 @@ function updateTable(state, player_id, client_id, writer) {
     table.update_version = update_version;
   };
 
+  // record the state prior to the changes (will be used to roll back the local state
+  // if an error occurs updating firebase)
+  let previousTable = JSON.parse(JSON.stringify(state.table));
+
   // make the changes locally
   let table = JSON.parse(JSON.stringify(state.table));
   writer(table);
@@ -247,7 +252,19 @@ function updateTable(state, player_id, client_id, writer) {
 
     firestore.updateDraftTable(state.id, versioned_writer)
       .catch(function(error) {
+        
+        // rollback
+        writeTable(state, previousTable);
+        
+        // log error 
         log.logException(error, "onUpdateDraftTable");
+
+        // notify user
+        messagebox.alert(
+          "Connection Error",
+          "<p>An error occurred while communicating with the draftpod server: " + error + "</p>" +
+          "Please ensure that your internet connection is working correctly before continuing with the draft."
+        );
       });
 
   }
