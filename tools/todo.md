@@ -15,11 +15,9 @@
     - let the host remove players (rather than distributed pick timer)
 
 - general:
-
-    - Enter key in make draft name submits
  
     - response to fix for flashback: 
-        - use session local storage to prevent/warn/block drafting from multiple tabs
+       
         - warn/error when firestore.updateDraftTable results in an error (i.e. user
           may be offline and commits aren't actually happening)
 
