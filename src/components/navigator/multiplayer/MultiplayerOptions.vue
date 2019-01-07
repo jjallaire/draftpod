@@ -76,7 +76,7 @@ export default {
   <div class="form-group">
     <label for="multiplayer-draft-name">Host player:</label>
     <input class="form-control" id="multiplayer-draft-name" placeholder="Enter your name" 
-          :value="inputVal.player_name" @input="onNameChanged" ref="name"/>
+          :value="inputVal.player_name" @input="onNameChanged" v-on:keyup.enter.prevent="onNameChanged" ref="name"/>
   </div>
 
   <MultiplayerPlayers :players="players" />

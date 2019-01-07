@@ -296,7 +296,7 @@ export default {
     // update the player name as we type (but no more than every 1 second)
     onMultiplayerOptionsChanged: _debounce(function() {
        this.joinMultiplayerDraft();
-    }, 1000),
+    }, 500),
 
     onNewCardpoolComplete() {
       this.scrollToStartNewDraft();
@@ -337,7 +337,7 @@ export default {
 <template>
 
 <ContentPanel ref="startNewDraft" caption="Start New Draft">
-  <form>
+  <form v-on:submit.prevent>
     <SetSelect :disabled="is_multi_player" v-model="set_code" @input="onSetChanged" />
     <CardpoolSelect :disabled="is_multi_player" :value="cardpool" 
                     @input="onCardpoolInput"
