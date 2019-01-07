@@ -180,7 +180,10 @@ export default {
       this.multi_player.firestoreUnsubscribe = firestore.onDraftTableChanged(
         this.multi_player.draft_id, 
         table => {
-          this.writeTable({ table });
+          if (selectors.isStarted(table))
+            this.$router.push({ path: "/draft/" + this.multi_player.draft_id });
+          else
+            this.writeTable({ table });
         });
     },
 
@@ -218,9 +221,6 @@ export default {
 
       // start the draft
       this.startDraft(draft_id, player_info);
-
-      // navigate to the draft
-      this.$router.push({ path: "/draft/" + draft_id });
     },
 
     validateDraft() {
