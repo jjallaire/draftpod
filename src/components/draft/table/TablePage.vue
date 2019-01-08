@@ -27,6 +27,7 @@ import fscreen from 'fscreen'
 import * as messagebox from '@/components/core/messagebox.js'
  
 import _flatten from 'lodash/flatten'
+import _debounce from 'lodash/debounce'
 
 import MobileDetect from 'mobile-detect'
 
@@ -106,8 +107,9 @@ export default {
     // multiplayer
     if (this.options.multi_player) {
 
-      // track firestore
-      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
+      // track firestore. debounce to a 1 second delay so that we don't get flashback
+      // where we temporarily see an older state from another client
+      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, _debounce(table => {
 
         // get activePlayer reference
         let activePlayer = selectors.activePlayer(this.player.id, table);
@@ -122,20 +124,13 @@ export default {
         }
 
         // ignore if we already have this update version (this effectively ignores
-        // changes that result from this client)
+        // changes that we already have locally since we wrote them)
         if (table.update_version === this.table.update_version)
           return;
 
-        // prevent changes to this player's picks and deck (prevent flashback which
-        // occurs when receiving changes from other players that don't reflect the
-        // latest picks or deck state for this player)  
-        let player = selectors.activePlayer(this.player.id, table);
-        player.picks = this.active_player.picks;
-        player.deck = this.active_player.deck;
-
         // write locally. 
         this.writeTable({ table });
-      });
+      }, 1000));
     }
 
     // update fullscreen state on change
