@@ -241,11 +241,13 @@ export default {
           if (!this.multi_player.draft_id) {
             messagebox.alert("Unable to Start Draft", "Please wait for the draft be created before starting it.");
             resolve(false);
+            return;
           }
 
           if (!this.multi_player.player_name) {
             messagebox.alert("Unable to Start Draft", "Please enter the name you want to be identified by during the draft.");
             resolve(false);
+            return;
           }
 
           if (this.multi_players.length <= 1) {
