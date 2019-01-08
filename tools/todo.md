@@ -14,11 +14,6 @@
     - ability to rewind draft?
     - let the host remove players (rather than distributed pick timer)
 
-- general:
-
-    - browser version check at startup (prevent wierd errors)
-    - some progress treatment for joining/connecting?
-    - improve name of decklist download file (set/date/colors/etc)
 
 Links:
 
