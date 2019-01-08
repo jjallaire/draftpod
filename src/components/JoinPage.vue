@@ -4,7 +4,7 @@ import NavBar from './core/NavBar.vue'
 import SiteFooter from './core/SiteFooter.vue'
 import MultiplayerPlayers from './core/MultiplayerPlayers.vue'
 
-import { mapState, mapGetters, mapMutations } from 'vuex'
+import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
@@ -109,13 +109,16 @@ export default {
 
   methods: {
     ...mapMutations({
-      joinDraft(dispatch, payload) {
-        return dispatch(this.namespace+ '/' + JOIN_DRAFT, payload);
-      },
       writeTable(dispatch, payload) {
         return dispatch(this.namespace + '/' + WRITE_TABLE, payload);
       },
       setPlayerInfo: SET_PLAYER_INFO
+    }),
+
+    ...mapActions({
+      joinDraft(dispatch, payload) {
+        return dispatch(this.namespace+ '/' + JOIN_DRAFT, payload);
+      },
     }),
 
     onJoinDraft() {
