@@ -17,7 +17,6 @@
 - general:
 
     - browser version check at startup (prevent wierd errors)
-    - if we cancel a single player multiplayer draft name validation still occurs
     - some progress treatment for joining/connecting?
     - improve name of decklist download file (set/date/colors/etc)
 
