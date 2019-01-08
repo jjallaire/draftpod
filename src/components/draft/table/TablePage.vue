@@ -130,6 +130,7 @@ export default {
 
         // write locally. 
         this.writeTable({ table });
+        
       }, 1000));
     }
 

@@ -16,6 +16,9 @@
 
 - general:
 
+    - sentry: can't read property map of undefined. can repro this 
+      by setting 2 browsers in a draft with pick timeout == 0
+    - browser version check at startup (prevent wierd errors)
     - if we cancel a single player multiplayer draft name validation still occurs
     - some progress treatment for joining/connecting?
     - improve name of decklist download file (set/date/colors/etc)
