@@ -9,6 +9,10 @@ export default {
   name: 'DeckDownload',
 
   props: {
+    set_name: {
+      type: String,
+      required: true
+    },
     deck_list: {
       type: String,
       required: true
@@ -22,7 +26,9 @@ export default {
   methods: {
     onDownloadDeck(event) {
       let blob = new Blob([this.deck_list], { type: "text/plain;charset=utf-8" });
-      saveAs(blob, "decklist.txt");
+      let date = new Date();
+      let dateString = date.toISOString();
+      saveAs(blob, "Decklist - " + this.set_name + " (" + dateString + ").txt");
       event.target.blur();
     }
   },

@@ -14,6 +14,10 @@ export default {
   name: 'Deck',
 
   props: {
+    set_name: {
+      type: String,
+      required: true
+    },
     deck: {
       type: Object,
       required: true
@@ -69,7 +73,7 @@ export default {
     </template>
     <template slot="header-right">
       <DeckView :deck_list="deck_list" />
-      <DeckDownload :deck_list="deck_list" />
+      <DeckDownload :set_name="set_name" :deck_list="deck_list" />
     </template>
     <div class="deck-piles deck-piles-top">
       <MtgCardPile v-for="number in 5" 

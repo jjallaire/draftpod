@@ -130,7 +130,7 @@ export default {
 
         // write locally. 
         this.writeTable({ table });
-        
+
       }, 1000));
     }
 
@@ -341,7 +341,7 @@ export default {
           <PickPanel v-if="!picks_complete" 
                      :picks="active_player.picks" 
                      :pick_ratings="pick_ratings"/>
-          <DeckPanel v-else :deck="active_player.deck"/>
+          <DeckPanel v-else :set_name="set.name" :deck="active_player.deck"/>
         </div>
 
         <InfoBar v-if="!isMobile" :card_preview="card_preview" :cards="active_cards"/>
