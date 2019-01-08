@@ -174,11 +174,7 @@ export default {
     },
 
     active_pack: function() {
-      let packs = this.active_player.packs;
-      if (packs.length > 0 && packs[0].length > 0)
-        return packs[0];
-      else
-        return null;
+      return selectors.activePack(this.player.id, this.table);
     },
     
     active_cards: function() {

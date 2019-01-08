@@ -143,6 +143,15 @@ export function activePlayer(player_id, table) {
   return table.players.find((player) => player.id === player_id);
 }
 
+export function activePack(player_id, table) {
+  let player = activePlayer(player_id, table);
+  let packs = player.packs;
+  if (packs.length > 0 && packs[0].length > 0)
+    return packs[0];
+  else
+    return null;
+}
+
 export function hostPlayerName(table) {
   return table.players[0].name;
 }

@@ -73,16 +73,14 @@ export default {
   [PICK_TIMER_PICK]({ commit, state }, { player_id, client_id }) {
     if (state.connected) {
       updateTable({ commit, state }, player_id, client_id, (table) => {
-        packToPick(state.set.code, player_id,
-          table, null, null, null)
+        packToPick(state.set.code, player_id, table, null, null, null)
       });
     }
   },
 
   [PACK_TO_PICK]({ commit, state }, { player_id, client_id, card, pile_number, insertBefore }) {
     updateTable({ commit, state }, player_id, client_id, (table) => {
-      packToPick(state.set.code, player_id,
-        table, card, pile_number, insertBefore)
+      packToPick(state.set.code, player_id, table, card, pile_number, insertBefore)
     });
   },
 
@@ -242,6 +240,12 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
 }
 
 function packToPick(set_code, player_id, table, card, pile_number, insertBefore, clear_table = true) {
+
+  // it's possible that a packToPick gesture occurs (e.g. from a pick timer or stale drop)
+  // that can't be fulfilled because there is no current pack. in this case just ignore
+  // the request entirely
+  if (!selectors.activePack(player_id, table))
+    return;
 
   // alias player
   let player_index = playerIndex(player_id, table);
