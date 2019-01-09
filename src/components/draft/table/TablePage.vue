@@ -344,7 +344,8 @@ export default {
           <DeckPanel v-else :set_name="set.name" :deck="active_player.deck"/>
         </div>
 
-        <InfoBar v-if="!isMobile" :card_preview="card_preview" :cards="active_cards"/>
+        <InfoBar v-if="!isMobile" :card_preview="card_preview" :cards="active_cards" 
+                 class="user-select-none"/>
     </div>
   
   </div>
