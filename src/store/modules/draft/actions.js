@@ -119,6 +119,7 @@ export default {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.UNUSED, deck.piles, null);
+      deck.piles[DECK.UNUSED].sort(orderCards);
     });
   },
 
@@ -133,6 +134,7 @@ export default {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.SIDEBOARD, deck.piles, null);
+      deck.piles[DECK.SIDEBOARD].sort(orderCards);
     });
   },
 
@@ -465,6 +467,9 @@ function deckToUnplayed(player_id, table, card, targetPile) {
   let player = selectors.activePlayer(player_id, table);
   let deck = player.deck;
   pileToPile(player, card, targetPile, deck.piles, null);
+  // sort
+  deck.piles[targetPile].sort(orderCards);
+
   // apply auto-lands if necessary
   if (deck.lands.auto)
     deck.lands.basic = computeAutoLands(deck);
