@@ -5,6 +5,7 @@ Vue.config.productionTip = false
 
 import '@/components/core/browser-update.js'
 import '@/components/core/bootstrap.js'
+import '@/components/core/styles.css'
 
 import * as Sentry from '@sentry/browser';
 import * as log from './log'

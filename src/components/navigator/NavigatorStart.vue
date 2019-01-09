@@ -344,7 +344,7 @@ export default {
 
 <template>
 
-<ContentPanel ref="startNewDraft" caption="Start New Draft">
+<ContentPanel ref="startNewDraft" caption="Start New Draft" class="user-select-none">
   <form v-on:submit.prevent>
     <SetSelect :disabled="is_multi_player" v-model="set_code" @input="onSetChanged" />
     <CardpoolSelect :disabled="is_multi_player" :value="cardpool" 

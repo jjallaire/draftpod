@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-dark navbar-expand-sm">
+  <nav class="navbar navbar-dark navbar-expand-sm user-select-none">
 
     <img class="navbar-logo" src="/images/logo.svg" />
     <span class="navbar-brand">

@@ -68,7 +68,7 @@ export default {
 
 <template>
 
-  <ContentPanel caption="Draft in Progress" class="resume-draft">
+  <ContentPanel caption="Draft in Progress" class="resume-draft user-select-none">
     <div class="row">
       <div class="col-sm-4 col-lg-3">
         <h4>{{ draft.set.name }}</h4>

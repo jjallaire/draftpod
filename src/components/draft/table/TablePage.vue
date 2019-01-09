@@ -334,7 +334,7 @@ export default {
     </NavBar>
 
     <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
-        <div class="draft-cards">
+        <div class="draft-cards user-select-none">
           <transition name="pack-hide">
             <PackPanel v-if="!picks_complete" :pack="active_pack"/>
           </transition>
