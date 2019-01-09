@@ -33,14 +33,21 @@ export default {
       type: String,
       default: "DRAG_SOURCE_PILE"
     },
+    controls_offset: {
+      type: Number,
+      default: 0
+    }
   },
 
   inject: [
     'packToPick',
     'pickToPile',
     'deckToSideboard',
+    'deckToUnused',
     'sideboardToDeck',
-    'sideboardToSideboard',
+    'sideboardToUnused',
+    'unusedToDeck',
+    'unusedToSideboard',
     'touchDragManager'
   ],
 
@@ -96,17 +103,10 @@ export default {
         return false;
       }
 
-      // reject for deck to deck
-      if (data.drag_source === "DRAG_SOURCE_DECK" &&
-          this.drag_source === "DRAG_SOURCE_DECK") {
-        if (event.dataTransfer)
-          event.dataTransfer.dropEffect = 'none';
-        return true;
-      }
-
-      // no insert feedback for sideboard to deck
-      if (data.drag_source === "DRAG_SOURCE_SIDEBOARD" &&
-          this.drag_source === "DRAG_SOURCE_DECK") {
+      // no insert feedback for deck building since we do automatic ordering
+      if (this.drag_source === "DRAG_SOURCE_DECK" ||
+          this.drag_source === "DRAG_SOURCE_SIDEBOARD" ||
+          this.drag_source === "DRAG_SOURCE_UNUSED") {
         return true;
       }
 
@@ -116,6 +116,9 @@ export default {
         this.provideDragFeedback(insertLoc.feedbackAt);
       else
         this.clearDragFeedback();
+
+      // stop propagation
+      event.stopPropagation();
 
       // return true
       return true;
@@ -131,13 +134,15 @@ export default {
       this.clearDragFeedback();
 
       // reject if it's the wrong pick_number
-      if (!data || (data.pick_number != this.pick_number))
+      if (!data || (data.pick_number != this.pick_number)) {
+        event.stopPropagation();
         return;
+      }
 
-      // reject if it's deck to deck
-      if (data.drag_source === "DRAG_SOURCE_DECK" &&
-          this.drag_source === "DRAG_SOURCE_DECK") {
-          return;
+      // reject if it's an invalid transfer
+      if (this.isInvalidTransfer(data.drag_source)) {
+        event.stopPropagation();
+        return;
       }
 
       // check for insert location
@@ -161,12 +166,17 @@ export default {
         });
       }
 
-      // event: deck to sideboard
+      // event: deck to sideboard/unused
       else if (data.drag_source === "DRAG_SOURCE_DECK") {
-        this.deckToSideboard({
-          card: data.card,
-          insertBefore: insertLoc.insertBefore
-        });
+        if (this.drag_source === "DRAG_SOURCE_SIDEBOARD") {
+          this.deckToSideboard({
+            card: data.card,
+          });
+        } else if (this.drag_source === "DRAG_SOURCE_UNUSED") {
+          this.deckToUnused({
+            card: data.card,
+          });
+        }
       } 
 
       // events: sideboard
@@ -175,10 +185,22 @@ export default {
           this.sideboardToDeck({
             card: data.card
           });
-        } else if (this.drag_source === "DRAG_SOURCE_SIDEBOARD") {
-          this.sideboardToSideboard({
+        } else if (this.drag_source === "DRAG_SOURCE_UNUSED") {
+          this.sideboardToUnused({
             card: data.card,
-            insertBefore: insertLoc.insertBefore
+          });
+        }
+      }
+
+      // events: unused
+      else if (data.drag_source === "DRAG_SOURCE_UNUSED") {
+        if (this.drag_source === "DRAG_SOURCE_DECK") {
+          this.unusedToDeck({
+            card: data.card
+          });
+        } else if (this.drag_source === "DRAG_SOURCE_SIDEBOARD") {
+          this.unusedToSideboard({
+            card: data.card,
           });
         }
       }
@@ -186,6 +208,14 @@ export default {
       // execute onAfterDrop if we have it
       if (data.onAfterDrop)
         data.onAfterDrop();
+
+       // stop propagation
+      event.stopPropagation();
+    },
+
+    isInvalidTransfer: function(drag_source) {
+      return ["DRAG_SOURCE_DECK", "DRAG_SOURCE_SIDEBOARD", "DRAG_SOURCE_UNUSED"].indexOf(drag_source) !== -1 &&
+             drag_source === this.drag_source
     },
 
     provideDragFeedback: function(location) {
@@ -243,7 +273,7 @@ export default {
     </MtgCard>
     <div class="pile-controls" 
         :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 
-                              + (pile.length >= 1 ? 140 : 6) + '%'}">
+                              + (pile.length >= 1 ? 140 : 6) + controls_offset + '%'}">
       <slot name="controls"></slot>
     </div>
     <div class="pile-drag-insert" :style="styles.dragInsert"></div>

@@ -11,7 +11,9 @@ import DeckPanel from '../deck/DeckPanel.vue'
 import { REMOVE_DRAFTS } from '@/store/mutations'
 
 import { RESUME_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE, 
-         DECK_TO_SIDEBOARD, SIDEBOARD_TO_DECK, SIDEBOARD_TO_SIDEBOARD, 
+         DECK_TO_SIDEBOARD, DECK_TO_UNUSED, 
+         SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED, 
+         UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/actions';
 import { WRITE_TABLE, SET_CONNECTED } from '@/store/modules/draft/mutations'
 
@@ -78,8 +80,11 @@ export default {
       packToPick: this.packToPick,
       pickToPile: this.pickToPile,
       deckToSideboard: this.deckToSideboard,
+      deckToUnused: this.deckToUnused,
       sideboardToDeck: this.sideboardToDeck,
-      sideboardToSideboard: this.sideboardToSideboard,
+      sideboardToUnused: this.sideboardToUnused,
+      unusedToDeck: this.unusedToDeck,
+      unusedToSideboard: this.unusedToSideboard,
       disableAutoLands: this.disableAutoLands,
       setBasicLands: this.setBasicLands,
       setCardPreview: this.setCardPreview,
@@ -239,11 +244,20 @@ export default {
       deckToSideboard(dispatch, payload) {
         return dispatch(this.namespace + '/' + DECK_TO_SIDEBOARD, this.withPlayerId(payload));
       },
+      deckToUnused(dispatch, payload) {
+        return dispatch(this.namespace + '/' + DECK_TO_UNUSED, this.withPlayerId(payload));
+      },
       sideboardToDeck(dispatch, payload) {
         return dispatch(this.namespace + '/' + SIDEBOARD_TO_DECK, this.withPlayerId(payload));
       },
-      sideboardToSideboard(dispatch, payload) {
-        return dispatch(this.namespace + '/' + SIDEBOARD_TO_SIDEBOARD, this.withPlayerId(payload));
+      sideboardToUnused(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SIDEBOARD_TO_UNUSED, this.withPlayerId(payload));
+      },
+      unusedToDeck(dispatch, payload) {
+        return dispatch(this.namespace + '/' + UNUSED_TO_DECK, this.withPlayerId(payload));
+      },
+      unusedToSideboard(dispatch, payload) {
+        return dispatch(this.namespace + '/' + UNUSED_TO_SIDEBOARD, this.withPlayerId(payload));
       },
       disableAutoLands(dispatch, payload) {
         return dispatch(this.namespace + '/' + DISABLE_AUTO_LANDS, this.withPlayerId(payload));

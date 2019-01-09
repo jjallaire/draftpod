@@ -52,6 +52,12 @@ export default {
       return {
         marginTop: margin_top + '%',
       };
+    },
+    unused_pile_offset: function() {
+      if (this.deck.piles[DECK.SIDEBOARD].length === 0)
+        return 140;
+      else
+        return 10;
     }
   },
 
@@ -91,7 +97,12 @@ export default {
       </MtgCardPile>
       <div class="pile pile-separator"></div>
       <MtgCardPile class="deck-sideboard" :key="13" caption="Sideboard" :piles="piles" :number="13" 
-            drag_source="DRAG_SOURCE_SIDEBOARD">
+                   drag_source="DRAG_SOURCE_SIDEBOARD" :controls_offset="unused_pile_offset">
+        <div slot="controls">
+           <MtgCardPile class="deck-unused" :key="14" caption="Unused" :piles="piles" :number="14" 
+                        drag_source="DRAG_SOURCE_UNUSED">
+           </MtgCardPile>
+        </div>
       </MtgCardPile>
     </div>
     <div class="deck-piles deck-piles-bottom" :style="piles_bottom_style">
@@ -175,6 +186,15 @@ export default {
 .deck .deck-sideboard {
   position: absolute;
   min-height: 600px;
+}
+
+.deck .deck-sideboard .pile-controls div {
+  padding-top: 0;
+}
+
+.deck .deck-sideboard .deck-unused {
+  width: 100%;
+  min-height: 300px;
 }
 
 .deck .deck-piles {

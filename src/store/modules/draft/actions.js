@@ -8,8 +8,11 @@ export const PACK_TO_PICK = 'PACK_TO_PICK'
 export const NEXT_PACK = 'NEXT_PACK'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
 export const DECK_TO_SIDEBOARD = 'DECK_TO_SIDEBOARD'
+export const DECK_TO_UNUSED = 'DECK_TO_UNUSED'
 export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
-export const SIDEBOARD_TO_SIDEBOARD = 'SIDEBOARD_TO_SIDEBOARD'
+export const SIDEBOARD_TO_UNUSED = 'SIDEBOARD_TO_UNUSED'
+export const UNUSED_TO_DECK = 'UNUSED_TO_DECK'
+export const UNUSED_TO_SIDEBOARD = 'UNUSED_TO_SIDEBOARD'
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 
@@ -93,41 +96,43 @@ export default {
 
   },
 
-  [DECK_TO_SIDEBOARD]({ commit, state }, { player_id, client_id, card, insertBefore }) {
+  [DECK_TO_SIDEBOARD]({ commit, state }, { player_id, client_id, card }) {
     updateTable({ commit, state }, player_id, client_id, (table) => {
-      // move the card
-      let player = selectors.activePlayer(player_id, table);
-      let deck = player.deck;
-      pileToPile(player, card, DECK.SIDEBOARD, deck.piles, insertBefore);
-      // apply auto-lands if necessary
-      if (deck.lands.auto)
-        deck.lands.basic = computeAutoLands(deck);
+      deckToUnplayed(player_id, table, card, DECK.SIDEBOARD);
+    });
+  },
+
+  [DECK_TO_UNUSED]({ commit, state }, { player_id, client_id, card }) {
+    updateTable({ commit, state }, player_id, client_id, (table) => {
+      deckToUnplayed(player_id, table, card, DECK.UNUSED);
     });
   },
 
   [SIDEBOARD_TO_DECK]({ commit, state }, { player_id, client_id, card }) {
     updateTable({ commit, state }, player_id, client_id, (table) => {
-      // remove from sideboard
-      let player = selectors.activePlayer(player_id, table);
-      let deck = player.deck;
-      let sideboard = deck.piles[DECK.SIDEBOARD];
-      sideboard.splice(cardIndex(sideboard, card), 1);
-
-      // card to deck pile
-      let pile = cardToDeckPile(player, card, deck);
-      pile.sort(orderCards);
-
-      // apply auto-lands if necessary
-      if (deck.lands.auto)
-        deck.lands.basic = computeAutoLands(deck);
+      unplayedToDeck(player_id, table, card, DECK.SIDEBOARD);
     });
   },
 
-  [SIDEBOARD_TO_SIDEBOARD]({ commit, state }, { player_id, client_id, card, insertBefore }) {
+  [SIDEBOARD_TO_UNUSED]({ commit, state }, { player_id, client_id, card }) {
     updateTable({ commit, state }, player_id, client_id, (table) => {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
-      pileToPile(player, card, DECK.SIDEBOARD, deck.piles, insertBefore);
+      pileToPile(player, card, DECK.UNUSED, deck.piles, null);
+    });
+  },
+
+  [UNUSED_TO_DECK]({ commit, state }, { player_id, client_id, card }) {
+    updateTable({ commit, state }, player_id, client_id, (table) => {
+      unplayedToDeck(player_id, table, card, DECK.UNUSED);
+    });
+  },
+
+  [UNUSED_TO_SIDEBOARD]({ commit, state }, { player_id, client_id, card }) {
+    updateTable({ commit, state }, player_id, client_id, (table) => {
+      let player = selectors.activePlayer(player_id, table);
+      let deck = player.deck;
+      pileToPile(player, card, DECK.SIDEBOARD, deck.piles, null);
     });
   },
 
@@ -453,6 +458,32 @@ function cardToDeckPile(player, c, deck) {
 
   // return the pile
   return pile;
+}
+
+function deckToUnplayed(player_id, table, card, targetPile) {
+  // move the card
+  let player = selectors.activePlayer(player_id, table);
+  let deck = player.deck;
+  pileToPile(player, card, targetPile, deck.piles, null);
+  // apply auto-lands if necessary
+  if (deck.lands.auto)
+    deck.lands.basic = computeAutoLands(deck);
+}
+
+function unplayedToDeck(player_id, table, card, sourcePile) {
+  // remove from sideboard/unused
+  let player = selectors.activePlayer(player_id, table);
+  let deck = player.deck;
+  let source = deck.piles[sourcePile];
+  source.splice(cardIndex(source, card), 1);
+
+  // card to deck pile
+  let pile = cardToDeckPile(player, card, deck);
+  pile.sort(orderCards);
+
+  // apply auto-lands if necessary
+  if (deck.lands.auto)
+    deck.lands.basic = computeAutoLands(deck);
 }
 
 function movePicksToDeck(player) {

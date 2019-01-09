@@ -64,8 +64,8 @@ function playerPicks() {
 
 function playerDeck() {
   return {
-    // piles for cards + 1 pile each for lands/sideboard
-    piles: [...Array(DECK.PILES+2)].map(() => Array()),
+    // piles for cards + 1 pile each for lands/sideboard/unused
+    piles: [...Array(DECK.PILES+3)].map(() => Array()),
     lands: {
       basic: {
         R: 0,
