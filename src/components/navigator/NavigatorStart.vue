@@ -221,6 +221,12 @@ export default {
 
       // start the draft
       this.startDraft(draft_id, player_info);
+
+      // navivate to it for single-player mode (in multi-player mode
+      // we wait for the commit to propagage all the way through)
+      if (!this.is_multi_player) {
+        this.$router.push({ path: "/draft/" + draft_id });
+      }
     },
 
     validateDraft() {
