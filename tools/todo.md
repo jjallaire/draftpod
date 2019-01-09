@@ -2,10 +2,7 @@
   
 - sideboard:
 
-    - automatic ordering?
-    - drop targets to deck not big enough
-    - additional 'unused pile' (pile which won't be in decklist) 
-
+    - automatic ordering of sideboard and unused
 
 - player view:
 
