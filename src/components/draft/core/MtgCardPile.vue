@@ -83,7 +83,7 @@ export default {
 
     handleDragenter(data) {
       // tag the data with the current pick number
-      if (!data.pick_number)
+      if (data && !data.pick_number)
         data.pick_number = this.pick_number;
     },
 
@@ -131,7 +131,7 @@ export default {
       this.clearDragFeedback();
 
       // reject if it's the wrong pick_number
-      if (data.pick_number != this.pick_number)
+      if (!data || (data.pick_number != this.pick_number))
         return;
 
       // reject if it's deck to deck
