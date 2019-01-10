@@ -1,8 +1,8 @@
 
   
-- sideboard:
+- general:
 
-    - automatic ordering of sideboard and unused
+    - infobar seems to be counting sideboard in deck building
 
 - player view:
 
