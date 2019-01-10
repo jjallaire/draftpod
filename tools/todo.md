@@ -1,9 +1,5 @@
 
   
-- general:
-
-    - infobar seems to be counting sideboard in deck building
-
 - player view:
 
     - ability to see the other players at the table in multiplayer
