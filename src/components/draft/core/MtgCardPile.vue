@@ -118,7 +118,8 @@ export default {
         this.clearDragFeedback();
 
       // stop propagation
-      event.stopPropagation();
+      if (event.stopPropagation)
+        event.stopPropagation();
 
       // return true
       return true;
@@ -135,13 +136,15 @@ export default {
 
       // reject if it's the wrong pick_number
       if (!data || (data.pick_number != this.pick_number)) {
-        event.stopPropagation();
+        if (event.stopPropagation)
+          event.stopPropagation();
         return;
       }
 
       // reject if it's an invalid transfer
       if (this.isInvalidTransfer(data.drag_source)) {
-        event.stopPropagation();
+        if (event.stopPropagation)
+          event.stopPropagation();
         return;
       }
 
@@ -210,7 +213,8 @@ export default {
         data.onAfterDrop();
 
        // stop propagation
-      event.stopPropagation();
+      if (event.stopPropagation)
+        event.stopPropagation();
     },
 
     isInvalidTransfer: function(drag_source) {
