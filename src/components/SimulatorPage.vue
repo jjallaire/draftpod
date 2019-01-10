@@ -128,7 +128,7 @@ export default {
         this.startDraft(draft_id);
 
         // execute simulation
-        this.$store.commit("drafts/" + draft_id + "/" + SIMULATE_DRAFT, {
+        this.$store.dispatch("drafts/" + draft_id + "/" + SIMULATE_DRAFT, {
           player_id: this.$store.state.player.id
         });
 
@@ -155,6 +155,8 @@ export default {
     }),
     ...mapMutations({
       removeDrafts: REMOVE_DRAFTS,
+    }),
+    ...mapActions({
       startDraft(dispatch, draft_id) {
         return dispatch(NS_DRAFTS + '/' + draft_id + '/' + START_DRAFT);
       },
