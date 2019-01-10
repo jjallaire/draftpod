@@ -20,6 +20,7 @@ import { WRITE_TABLE, SET_CONNECTED } from './mutations'
 
 import shortUuid from 'short-uuid'
 import _flatten from 'lodash/flatten'
+import _orderBy from 'lodash/orderBy'
 
 import * as log from '@/log'
 import * as set from './set/'
@@ -119,7 +120,7 @@ export default {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.UNUSED, deck.piles, null);
-      deck.piles[DECK.UNUSED].sort(orderCards);
+      deck.piles[DECK.UNUSED] = orderUnplayedPile(deck, deck.piles[DECK.UNUSED]);
     });
   },
 
@@ -134,7 +135,7 @@ export default {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.SIDEBOARD, deck.piles, null);
-      deck.piles[DECK.SIDEBOARD].sort(orderCards);
+      deck.piles[DECK.SIDEBOARD] = orderUnplayedPile(deck, deck.piles[DECK.SIDEBOARD]);
     });
   },
 
@@ -443,23 +444,23 @@ function cardToDeckPile(player, c, deck) {
   // add card to pile
   let card = JSON.parse(JSON.stringify(c));
   let deck_piles = deck.piles;
-  let pile = null;
+  let pileIndex = null;
 
   if (filters.land(card)) {
-    pile = deck_piles[DECK.LANDS];
+    pileIndex = DECK.LANDS;
   } else {
     let offset = filters.creature(card) ? 0 : DECK.PILES / 2;
     if (card.cmc <= 1)
-      pile = deck_piles[offset];
+      pileIndex = offset;
     else if (card.cmc >= 6)
-      pile = deck_piles[offset + 5];
+      pileIndex = offset + 5;
     else
-      pile = deck_piles[offset + card.cmc - 1];
+      pileIndex = offset + card.cmc - 1;
   }
-  pile.push(card);
+  deck_piles[pileIndex].push(card);
 
-  // return the pile
-  return pile;
+  // return the pile index
+  return pileIndex;
 }
 
 function deckToUnplayed(player_id, table, card, targetPile) {
@@ -468,8 +469,8 @@ function deckToUnplayed(player_id, table, card, targetPile) {
   let deck = player.deck;
   pileToPile(player, card, targetPile, deck.piles, null);
   // sort
-  deck.piles[targetPile].sort(orderCards);
-
+  deck.piles[targetPile] = orderUnplayedPile(deck, deck.piles[targetPile]);
+  
   // apply auto-lands if necessary
   if (deck.lands.auto)
     deck.lands.basic = computeAutoLands(deck);
@@ -483,8 +484,8 @@ function unplayedToDeck(player_id, table, card, sourcePile) {
   source.splice(cardIndex(source, card), 1);
 
   // card to deck pile
-  let pile = cardToDeckPile(player, card, deck);
-  pile.sort(orderCards);
+  let pileIndex = cardToDeckPile(player, card, deck);
+  deck.piles[pileIndex] = orderDeckPile(deck.piles[pileIndex]);
 
   // apply auto-lands if necessary
   if (deck.lands.auto)
@@ -509,8 +510,11 @@ function movePicksToDeck(player) {
   });
 
   // sort all deck piles
-  deck.piles.forEach((pile) => pile.sort(orderCards));
+  deck.piles.forEach((pile) => orderDeckPile(pile));
 
+  // sort unplayed cards
+  deck.piles[DECK.SIDEBOARD] = orderUnplayedPile(deck, deck.piles[DECK.SIDEBOARD]);
+  
   // apply auto lands
   deck.lands.basic = computeAutoLands(deck);
 }
@@ -663,26 +667,15 @@ function rankColors(card_colors) {
     .map((x) => x.color);
 }
 
-function orderCards(a, b) {
+function orderDeckPile(pile) {
+  return _orderBy(pile, ["cmc", "name"], ["asc", "asc"]);
+}
 
-  if (a.cmc !== b.cmc) {
-    return a.cmc - b.cmc;
-  } else {
-    let aIsCreature = filters.creature(a);
-    let bIsCreature = filters.creature(b);
-
-    if (aIsCreature === bIsCreature) {
-      if (a.name < b.name)
-        return -1;
-      else if (b.name < a.name)
-        return 1;
-      else
-        return 0;
-    } else if (aIsCreature && !bIsCreature)
-      return -1;
-    else if (bIsCreature && !aIsCreature)
-      return 1;
-  }
+function orderUnplayedPile(deck, pile) {
+  let cards =  pile.map((card) => { 
+    return { ...card, creature: filters.creature(card) ? 1 : 0 }
+  }); 
+  return _orderBy(cards, ["creature", "cmc", "name"], ["desc", "desc", "asc"]);
 }
 
 function pileToPile(player, card, pile_number, piles, insertBefore) {
