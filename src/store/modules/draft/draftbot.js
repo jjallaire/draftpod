@@ -81,7 +81,7 @@ export function cardRatings(set_code, deck, pack) {
 
 // What are the colors of this deck? (multiply cards of various colors by their
 // rating and then return the top numColors). note that we only consider cards
-// rated 1.5 or higher for this computtion
+// rated 1.5 or higher for this computation
 export function deckColors(deck, numColors = 2) {
 
   let colorAffinity = deck.reduce((colors, card) => {
