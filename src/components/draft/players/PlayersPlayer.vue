@@ -2,6 +2,7 @@
 <script>
 
 import PlayerIcon from 'vue-material-design-icons/Account.vue'
+import BotIcon from 'vue-material-design-icons/AccountOutline.vue'
 
 export default {
   name: 'PlayersPlayer',
@@ -9,12 +10,13 @@ export default {
   props: {
     player: {
       type: Object,
-      default: null
+      required: true
     }
   },
 
   components: {
-    PlayerIcon
+    PlayerIcon,
+    BotIcon
   }
 }
 
@@ -23,8 +25,18 @@ export default {
 <template>
 
 <div class="player">
-  <div><PlayerIcon /></div> 
-  <div class="player-name"> the </div>
+  <div>
+    <div>
+      <PlayerIcon title="Player" v-if="player.id"/>
+      <BotIcon title="Bot" v-else/>
+    </div> 
+    <div v-if="player.id" class="player-name">
+      {{ player.name || "Me"}}
+    </div>
+    <div v-else class="player-name">
+      Bot
+    </div>
+  </div>
 </div>
 
 </template>
@@ -33,16 +45,28 @@ export default {
 <style>
 
 .player {
-  border: 1px solid red;
+  width: 80px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
-.player div {
+.player div div {
   text-align: center;
 }
 
+
+
 .player .player-name {
   width: 100%;
+  font-size: 0.7rem;
+  padding: 3px;
+  padding-top: 0;
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
+  text-align: center;
 }
 
 </style>

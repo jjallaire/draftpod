@@ -338,7 +338,7 @@ export default {
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <PlayersIcon/> Players
             </a>
-            <div class="dropdown-menu" aria-labelledby="playersMenuLink">
+            <div class="dropdown-menu players-menu" aria-labelledby="playersMenuLink">
               <PlayersPopup :players="draft.table.players"/>
             </div>
           </div>
@@ -391,6 +391,11 @@ export default {
   font-weight: 400;
   margin-left: 8px;
   min-width: 45px;
+}
+
+.navbar .players-menu {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .draft-page {
