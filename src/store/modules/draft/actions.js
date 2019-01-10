@@ -682,7 +682,7 @@ function orderUnplayedPiles(deck) {
 function orderUnplayedPile(deck, pile) {
   
   // function to reduce colors to a single string
-  const asColors = colors => {
+  const asColor = colors => {
     if (colors.length > 0)
       return colors.join();
     else
@@ -691,10 +691,17 @@ function orderUnplayedPile(deck, pile) {
 
   // count incidence of different colors in deck
   let colorCounts = selectors.deckCards(deck).reduce((counts, card) => {
-    let colors = asColors(card.colors);
-    if (!counts.hasOwnProperty(colors))
-      counts[colors] = 0;
-    counts[colors] = counts[colors] + 1;
+    // ignore lands
+    if (filters.land(card))
+      return counts;
+    // count colors
+    function incrementColor(color) {
+      if (!counts.hasOwnProperty(color))
+        counts[color] = 0;
+      counts[color] = counts[color] + 1;
+    }
+    card.colors.forEach(incrementColor);
+    incrementColor(asColor(card.colors));
     return counts;
   }, {});
 
@@ -703,8 +710,8 @@ function orderUnplayedPile(deck, pile) {
     return { 
       ...card, 
       creature: filters.creature(card) ? 1 : 0,
-      colorTag: asColors(card.colors),
-      colorOrder: colorCounts[asColors(card.colors)] || 0,
+      colorTag: asColor(card.colors),
+      colorOrder: colorCounts[asColor(card.colors)] || 0,
     }
   }); 
 

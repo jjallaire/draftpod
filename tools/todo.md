@@ -1,4 +1,8 @@
 
+
+- general 
+
+    - simulator seems to be broken
   
 - player view:
 
