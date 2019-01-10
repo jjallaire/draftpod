@@ -120,7 +120,7 @@ export default {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.UNUSED, deck.piles, null);
-      deck.piles[DECK.UNUSED] = orderUnplayedPile(deck, deck.piles[DECK.UNUSED]);
+      orderUnplayedPiles(deck);
     });
   },
 
@@ -135,7 +135,7 @@ export default {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.SIDEBOARD, deck.piles, null);
-      deck.piles[DECK.SIDEBOARD] = orderUnplayedPile(deck, deck.piles[DECK.SIDEBOARD]);
+      orderUnplayedPiles(deck);
     });
   },
 
@@ -469,7 +469,7 @@ function deckToUnplayed(player_id, table, card, targetPile) {
   let deck = player.deck;
   pileToPile(player, card, targetPile, deck.piles, null);
   // sort
-  deck.piles[targetPile] = orderUnplayedPile(deck, deck.piles[targetPile]);
+  orderUnplayedPiles(deck);
   
   // apply auto-lands if necessary
   if (deck.lands.auto)
@@ -486,6 +486,9 @@ function unplayedToDeck(player_id, table, card, sourcePile) {
   // card to deck pile
   let pileIndex = cardToDeckPile(player, card, deck);
   deck.piles[pileIndex] = orderDeckPile(deck.piles[pileIndex]);
+
+  // sort unplayed
+  orderUnplayedPiles(deck);
 
   // apply auto-lands if necessary
   if (deck.lands.auto)
@@ -513,7 +516,7 @@ function movePicksToDeck(player) {
   deck.piles.forEach((pile) => orderDeckPile(pile));
 
   // sort unplayed cards
-  deck.piles[DECK.SIDEBOARD] = orderUnplayedPile(deck, deck.piles[DECK.SIDEBOARD]);
+  orderUnplayedPiles(deck);
   
   // apply auto lands
   deck.lands.basic = computeAutoLands(deck);
@@ -671,11 +674,45 @@ function orderDeckPile(pile) {
   return _orderBy(pile, ["cmc", "name"], ["asc", "asc"]);
 }
 
+function orderUnplayedPiles(deck) {
+  deck.piles[DECK.SIDEBOARD] = orderUnplayedPile(deck, deck.piles[DECK.SIDEBOARD]);
+  deck.piles[DECK.UNUSED] = orderUnplayedPile(deck, deck.piles[DECK.UNUSED]);
+}
+
 function orderUnplayedPile(deck, pile) {
-  let cards =  pile.map((card) => { 
-    return { ...card, creature: filters.creature(card) ? 1 : 0 }
+  
+  // function to reduce colors to a single string
+  const asColors = colors => {
+    if (colors.length > 0)
+      return colors.join();
+    else
+      return "N"; // colorless 
+  };
+
+  // count incidence of different colors in deck
+  let colorCounts = selectors.deckCards(deck).reduce((counts, card) => {
+    let colors = asColors(card.colors);
+    if (!counts.hasOwnProperty(colors))
+      counts[colors] = 0;
+    counts[colors] = counts[colors] + 1;
+    return counts;
+  }, {});
+
+  // genereate sort fields
+  let cards = pile.map((card) => { 
+    return { 
+      ...card, 
+      creature: filters.creature(card) ? 1 : 0,
+      colorTag: asColors(card.colors),
+      colorOrder: colorCounts[asColors(card.colors)] || 0,
+    }
   }); 
-  return _orderBy(cards, ["creature", "cmc", "name"], ["desc", "desc", "asc"]);
+
+  // return sorted array of cards
+  return _orderBy(cards, 
+    ["colorOrder",  "colorTag", "creature", "cmc"], 
+    ["desc", "asc", "desc", "asc"]
+  );
 }
 
 function pileToPile(player, card, pile_number, piles, insertBefore) {
