@@ -1,9 +1,5 @@
 
 
-- general 
-
-    - simulator seems to be broken
-  
 - player view:
 
     - ability to see the other players at the table in multiplayer
