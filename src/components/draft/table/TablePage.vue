@@ -7,6 +7,7 @@ import PickPanel from '../pick/PickPanel.vue';
 import PickTimer from '../pick/PickTimer.vue'
 import InfoBar from '../infobar/InfoBar.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
+import PlayersPopup from '../players/PlayersPopup.vue'
 
 import { REMOVE_DRAFTS } from '@/store/mutations'
 
@@ -19,6 +20,7 @@ import { WRITE_TABLE, SET_CONNECTED } from '@/store/modules/draft/mutations'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
 
+import PlayersIcon from "vue-material-design-icons/AccountMultiple.vue"
 import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
 import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
 import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
@@ -71,7 +73,7 @@ export default {
 
   components: {
     NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
-    FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, DeleteIcon
+    PlayersIcon, PlayersPopup, FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, DeleteIcon
   },
 
   provide: function() {
@@ -296,6 +298,9 @@ export default {
           this.$router.push({ path: "/draft/" });
         })
     },
+    onShowPlayers: function() {
+      alert("Show Players!");
+    },
     onFullscreenChange: function() {
       this.fullscreen = fscreen.fullscreenElement !== null;
     },
@@ -327,6 +332,18 @@ export default {
       </span> 
     
       <ul class="navbar-nav">
+        <li class="nav-item">
+          <div class="dropdown">
+            <a id="playersMenuLink" class="nav-link icon-link dropdown-toggle" title="Players" 
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <PlayersIcon/> Players
+            </a>
+            <div class="dropdown-menu" aria-labelledby="playersMenuLink">
+              <PlayersPopup :players="draft.table.players"/>
+            </div>
+          </div>
+        </li>
+
         <li class="nav-item">
           <a class="nav-link icon-link">
             <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
