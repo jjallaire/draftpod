@@ -686,7 +686,7 @@ function orderUnplayedPile(deck, pile) {
     if (colors.length > 0)
       return colors.join();
     else
-      return "N"; // colorless 
+      return "C"; // colorless 
   };
 
   // count incidence of different colors in deck
