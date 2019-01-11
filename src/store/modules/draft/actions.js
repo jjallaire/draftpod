@@ -18,7 +18,6 @@ export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 
 import { WRITE_TABLE, SET_CONNECTED } from './mutations'
 
-import shortUuid from 'short-uuid'
 import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
 
@@ -208,16 +207,7 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
     // if an error occurs updating firebase)
     let previousTable = JSON.parse(JSON.stringify(state.table));
     
-    // create a writer that will stamp the write with a
-    // version (this will allow us to ignore the onSnapshot
-    // that comes from firebase)
-    const update_version = shortUuid().new();
-    const versioned_writer = (table) => {
-      writer(table);
-      table.update_version = update_version;
-    };
-
-    firestore.updateDraftTable(state.id, versioned_writer)
+    firestore.updateDraftTable(state.id, writer)
       .then(function(updatedTable) {
 
         // write to local table

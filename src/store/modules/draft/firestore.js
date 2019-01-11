@@ -1,9 +1,11 @@
 
 import * as log from '@/log'
-import { firestore } from '../../firebase'
 import * as set from './set'
 import * as selectors from './selectors'
 import * as messagebox from '@/components/core/messagebox.js'
+
+import { firestore } from '../../firebase'
+import shortUuid from 'short-uuid'
 
 export default {
 
@@ -56,15 +58,16 @@ export default {
         // read the table
         return unserializeDraftTable(draft.set.code, draft.table).then(table => {
 
-          // apply the changes using the passed writer
+          // apply the changes using the passed writer then write an update_version
           writer(table);
+          table.update_version = shortUuid().new();
 
           // update the database
           return serializeDraftTable(table).then(serializedTable => {
             transaction.update(docRef, {
               table: serializedTable
             });
-            return Promise.resolve(table);
+            return table;
           });
         });
       });
