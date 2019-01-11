@@ -60,10 +60,11 @@ export default {
           writer(table);
 
           // update the database
-          return serializeDraftTable(table).then(table => {
+          return serializeDraftTable(table).then(serializedTable => {
             transaction.update(docRef, {
-              table: table
+              table: serializedTable
             });
+            return Promise.resolve(table);
           });
         });
       });

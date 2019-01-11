@@ -196,29 +196,32 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
     }
   }
 
-  // create a writer that will stamp the write with a
-  // version (this will allow us to ignore the onSnapshot
-  // that comes from firebase)
-  const update_version = shortUuid().new();
-  const versioned_writer = (table) => {
-    writer(table);
-    table.update_version = update_version;
-  };
-
-  // record the state prior to the changes (will be used to roll back the local state
-  // if an error occurs updating firebase)
-  let previousTable = JSON.parse(JSON.stringify(state.table));
-
   // make the changes locally
   let table = JSON.parse(JSON.stringify(state.table));
   writer(table);
-  commit(WRITE_TABLE, { table, update_version });
+  commit(WRITE_TABLE, { table });
 
   // write to firestore if requested
   if (state.options.multi_player) {
 
+    // record the state prior to the changes (will be used to roll back the local state
+    // if an error occurs updating firebase)
+    let previousTable = JSON.parse(JSON.stringify(state.table));
+    
+    // create a writer that will stamp the write with a
+    // version (this will allow us to ignore the onSnapshot
+    // that comes from firebase)
+    const update_version = shortUuid().new();
+    const versioned_writer = (table) => {
+      writer(table);
+      table.update_version = update_version;
+    };
+
     firestore.updateDraftTable(state.id, versioned_writer)
-      .then(function() {
+      .then(function(updatedTable) {
+
+        // write to local table
+        commit(WRITE_TABLE, { table: updatedTable });
 
         // set connected flag to false to indicate we can do pick timer picks
         if (!state.connected)
