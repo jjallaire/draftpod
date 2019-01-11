@@ -258,12 +258,18 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore)
   // alias player
   let player_index = playerIndex(player_id, table);
 
+  // cards picked so far
+  let player = table.players[player_index];
+  let picks = _flatten(player.picks.piles);
+
   // null card means have the AI pick
-  if (!card) {
-    let player = table.players[player_index];
-    let deck = _flatten(player.picks.piles);
-    card = draftbot.pick(set_code, deck, player.packs[0]);
-  }
+  if (!card)  
+    card = draftbot.pick(set_code, picks, player.packs[0]);
+
+  // it's possible that a card can be picked twice if there is flashback, in that
+  // case simply ignore the request entirely
+  if (picks.find(pick => pick.key === card.key) !== undefined)
+    return;
 
   // make the pick 
   makePick(player_index, set_code, table, pile_number, card, insertBefore);
