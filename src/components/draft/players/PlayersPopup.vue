@@ -9,6 +9,10 @@ export default {
     players: {
       type: Array,
       required: true
+    },
+    table: {
+      type: Object,
+      required: true
     }
   },
 
@@ -23,20 +27,20 @@ export default {
 
 <div class="players">
   <div class="players-column players-column-left">
-    <PlayersPlayer :player="players[0]" />
-    <PlayersPlayer :player="players[1]"/>
-    <PlayersPlayer :player="players[2]"/>
-    <PlayersPlayer :player="players[3]"/>
+    <PlayersPlayer :player="players[0]" :show_bot_colors="table.picks_complete"/>
+    <PlayersPlayer :player="players[1]" :show_bot_colors="table.picks_complete"/>
+    <PlayersPlayer :player="players[2]" :show_bot_colors="table.picks_complete"/>
+    <PlayersPlayer :player="players[3]" :show_bot_colors="table.picks_complete"/>
   </div>
 
   <div class="players-table">
     
   </div>
   <div class="players-column players-column-right">
-    <PlayersPlayer :player="players[7]"/>
-    <PlayersPlayer :player="players[6]"/>
-    <PlayersPlayer :player="players[5]"/>
-    <PlayersPlayer :player="players[4]"/>
+    <PlayersPlayer :player="players[7]" :show_bot_colors="table.picks_complete"/>
+    <PlayersPlayer :player="players[6]" :show_bot_colors="table.picks_complete"/>
+    <PlayersPlayer :player="players[5]" :show_bot_colors="table.picks_complete"/>
+    <PlayersPlayer :player="players[4]" :show_bot_colors="table.picks_complete"/>
   </div>
   
 </div>

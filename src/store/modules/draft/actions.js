@@ -69,7 +69,7 @@ export default {
   [SIMULATE_DRAFT]({ commit, state }, { player_id }) {
     updateTable({ commit, state }, player_id, null, (table) => {
       while (!table.picks_complete) {
-        packToPick(state.set.code, player_id, table, null, null, null, false);
+        packToPick(state.set.code, player_id, table, null, null, null);
       }
     });
   },
@@ -247,7 +247,7 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
   }
 }
 
-function packToPick(set_code, player_id, table, card, pile_number, insertBefore, clear_table = true) {
+function packToPick(set_code, player_id, table, card, pile_number, insertBefore) {
 
   // it's possible that a packToPick gesture occurs (e.g. from a pick timer or stale drop)
   // that can't be fulfilled because there is no current pack. in this case just ignore
@@ -279,7 +279,7 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore,
       nextPack(set_code, table);
     } else {
       // complete picks
-      completePicks(table, clear_table);
+      completePicks(table);
     }
 
   }
@@ -522,17 +522,9 @@ function movePicksToDeck(player) {
   deck.lands.basic = computeAutoLands(deck);
 }
 
-function completePicks(table, clear_table) {
-
+function completePicks(table) {
   // set completed status
   table.picks_complete = true;
-
-  // clear picks 
-  if (clear_table) {
-    table.players.forEach(player => {
-      player.picks.piles = [...Array(PICKS.PILES + 1)].map(() => Array());
-    });
-  }
 }
 
 

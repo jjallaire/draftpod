@@ -25,7 +25,7 @@ export function cardTypes(cards) {
 }
 
 // count card colors 
-export function cardColors(cards, includeLands = false) {
+export function cardColors(cards, includeLands = false, percentFilter = null, maxColors = null) {
   let colors = {
     W: {
       name: "Plains",
@@ -78,11 +78,27 @@ export function cardColors(cards, includeLands = false) {
     return {...color, percent: total_cards > 0 ? color.count / total_cards : 0 }
   });
 
-  // return
-  return colors.sort(function(a, b) {
+  // sort by frequency
+  colors = colors.sort(function(a, b) {
     return b.count - a.count;
   });
+
+  // apply filter if requested
+  if (percentFilter !== null)
+    colors = colors.filter((color) => color.percent > percentFilter);
+
+  // apply maxColors if requested
+  if (maxColors !== null)
+    colors = colors.slice(0, maxColors);
+
+  // return
+  return colors;
 }
+
+export function playerColors(player_id, table, percentFilter = 0, maxColors = 2) {
+  return cardColors(activeCards(player_id, table), false, percentFilter, maxColors);
+}
+
 export function draftThumbnail(player_id, draft) {
   let active_cards = activeCards(player_id, draft.table);
   if (active_cards.length > 0)

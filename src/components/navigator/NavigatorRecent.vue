@@ -1,6 +1,7 @@
 
 <script>
 
+import ColorIcon from  '@/components/core/ColorIcon.vue'
 import SetIcon from '@/components/core/SetIcon.vue'
 import ContentPanel from '@/components/core//ContentPanel.vue'
 import RemoveDraft from './RemoveDraft.vue'
@@ -28,7 +29,7 @@ export default {
   },
 
   components: {
-    ContentPanel, SetIcon, RemoveDraft
+    ContentPanel, SetIcon, ColorIcon, RemoveDraft
   }
 
 }
@@ -46,10 +47,7 @@ export default {
          <span class="set-name">{{ draft.set_name }}</span>
       </div>
       <div class="col-md-2">
-         <img v-for="color in draft.card_colors" :key="color.name" 
-              class="color-icon"
-              :src="color.img"
-              :title="color.name + ' (' + Math.round(color.percent * 100) + '%)'"/>
+        <ColorIcon v-for="color in draft.card_colors" :key="color.name" :color="color" />
       </div>
       <div class="col-md-3 text-muted">
         <span v-if="draft.picks_complete">

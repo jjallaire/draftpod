@@ -37,9 +37,7 @@ export default {
           current_pick: selectors.currentPick(getters.player.id, draft.set.code, draft.table),
           picks_complete: selectors.picksComplete(getters.player.id, draft.set.code, draft.table),
           deck_total_cards: selectors.deckTotalCards(player.deck),
-          card_colors: selectors.cardColors(selectors.activeCards(getters.player.id, draft.table))
-                        .filter((color) => color.count > 0)
-                        .slice(0,2),
+          card_colors: selectors.playerColors(getters.player.id, draft.table),
         }
       })
       .filter((draft) => draft !== null)
