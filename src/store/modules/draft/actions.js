@@ -208,10 +208,7 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
     let previousTable = JSON.parse(JSON.stringify(state.table));
     
     firestore.updateDraftTable(state.id, writer)
-      .then(function(updatedTable) {
-
-        // write to local table
-        commit(WRITE_TABLE, { table: updatedTable });
+      .then(function() {
 
         // set connected flag to false to indicate we can do pick timer picks
         if (!state.connected)

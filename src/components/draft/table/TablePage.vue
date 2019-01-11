@@ -135,10 +135,16 @@ export default {
         if (table.update_version === this.table.update_version)
           return;
 
+        // ignore if the pick number is less than we have locally (as that 
+        // implies this is from an older state and will therefore be soon
+        // replaced with a newer state)
+        if (activePlayer.picks.pick_order.length < this.active_player.picks.pick_order.length)
+          return;
+
         // write locally. 
         this.writeTable({ table });
 
-      }, 2000));
+      }, 1000));
     }
 
     // update fullscreen state on change
