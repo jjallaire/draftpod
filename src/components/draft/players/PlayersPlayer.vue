@@ -19,15 +19,15 @@ export default {
       type: Object,
       required: true
     },
-    show_bot_colors: {
+    picks_complete: {
       type: Boolean,
       required: true
     }
   },
-  
+
   computed: {
     bot_colors: function() {
-      if (this.show_bot_colors) {
+      if (this.picks_complete) {
         let piles = this.player.picks.piles;
         let cards = _flatten(piles.slice(0, DECK.PILES));
         return selectors.cardColors(cards, false, 0, 2);
@@ -35,7 +35,22 @@ export default {
         return [];
       }
     },
+    current_pick: function() {
+      if (!this.picks_complete) {
+        let pick = this.currentPick(this.player.id);
+        if (pick === 0)
+          return "Done"
+        else
+          return "Pick " + pick;
+      } else {
+        return "Done";
+      }
+    }
   },
+
+  inject: [
+    'currentPick'
+  ],
 
   components: {
     PlayerIcon,
@@ -55,15 +70,16 @@ export default {
       <BotIcon title="Bot" v-else/>
     </div> 
     <div v-if="player.id" class="player-name">
-      {{ player.name || "Me"}}
+      {{ player.name || "Me"}} 
+      <div class="pick-number" v-if="!picks_complete"><em>{{ current_pick }}</em></div>
     </div>
     <div v-else class="player-colors">
-      <span v-if="show_bot_colors">
+      <div v-if="picks_complete">
         <ColorIcon v-for="color in bot_colors" :key="color.name" :color="color" />
-      </span>
-      <span v-else class="player-name">
+      </div>
+      <div v-else class="player-name">
         Bot
-      </span>
+      </div>
     </div>
   </div>
 </div>
@@ -85,12 +101,16 @@ export default {
   text-align: center;
 }
 
+.player .pick-number {
+  margin-top: -3px;
+}
 
 
 .player .player-name {
   width: 100%;
   font-size: 0.7rem;
   padding: 3px;
+  margin-top: -3px;
   padding-top: 0;
   white-space: nowrap;
   overflow: hidden;
@@ -105,7 +125,7 @@ export default {
 .player .player-colors .color-icon {
   width: 12px;
   height: auto;
-  margin-top: -10px;
+  margin-top: -14px;
 }
 
 .player .player-colors .color-icon:not(:last-child) {
