@@ -339,7 +339,7 @@ export default {
               <PlayersIcon/> Players
             </a>
             <div class="dropdown-menu players-menu" aria-labelledby="playersMenuLink">
-              <PlayersPopup :players="draft.table.players" :set="draft.set" :table="draft.table"/>
+              <PlayersPopup :players="draft.table.players" :draft="draft"/>
             </div>
           </div>
         </li>

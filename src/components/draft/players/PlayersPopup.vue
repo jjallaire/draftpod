@@ -12,13 +12,18 @@ export default {
       type: Array,
       required: true
     },
-    set: {
+    draft: {
       type: Object,
       required: true
     },
-    table: {
-      type: Object,
-      required: true
+  },
+
+  computed: {
+    set: function() {
+      return this.draft.set;
+    },
+    table: function() {
+      return this.draft.table;
     }
   },
 
@@ -33,7 +38,8 @@ export default {
 
   provide: function() {
     return {
-      currentPick: this.currentPick
+      currentPick: this.currentPick,
+      multi_player: this.draft.options.multi_player
     }
   },
  

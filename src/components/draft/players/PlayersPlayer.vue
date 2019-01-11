@@ -22,7 +22,7 @@ export default {
     picks_complete: {
       type: Boolean,
       required: true
-    }
+    },
   },
 
   computed: {
@@ -49,7 +49,8 @@ export default {
   },
 
   inject: [
-    'currentPick'
+    'currentPick',
+    'multi_player'
   ],
 
   components: {
@@ -74,7 +75,7 @@ export default {
       <div class="pick-number" v-if="!picks_complete"><em>{{ current_pick }}</em></div>
     </div>
     <div v-else class="player-colors">
-      <div v-if="picks_complete">
+      <div v-if="!multi_player && picks_complete">
         <ColorIcon v-for="color in bot_colors" :key="color.name" :color="color" />
       </div>
       <div v-else class="player-name">
