@@ -138,7 +138,7 @@ export default {
         // write locally. 
         this.writeTable({ table });
 
-      }, 1000));
+      }, 2000));
     }
 
     // update fullscreen state on change
