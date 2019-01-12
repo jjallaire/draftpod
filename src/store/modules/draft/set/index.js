@@ -3,6 +3,7 @@
 import dom from './set-dom'
 import m19 from './set-m19'
 import grn from './set-grn'
+import rna from './set-rna'
 import ust from './set-ust'
 import mma from './set-mma'
 import isd from './set-isd'
@@ -13,6 +14,7 @@ const sets = {
   dom,
   m19,
   grn,
+  rna,
   ust,
   mma,
   isd
@@ -25,6 +27,12 @@ const cards_cache = {
 export function name(set_code) {
   return sets[set_code].name;
 }
+
+export function capabilities(set_code) {
+  return sets[set_code].capabilities || {
+    custom_cardpool: true
+  };
+} 
 
 export function card_id_filter(set_code, id) {
   let filter = sets[set_code].card_id_filter;

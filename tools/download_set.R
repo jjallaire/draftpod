@@ -52,6 +52,14 @@ download_set <- function(set,
     
     # convert collector_number to integer
     collector_number <- as.integer(gsub("[A-Za-z]+", "", card$collector_number))
+
+    # if there is no multiverse id then use a baseline for the set + collector number
+    if (length(multiverse_ids) == 0) {
+      baseline <- switch(set,
+        rna = 500000,
+      )
+      multiverse_ids <- list(baseline + collector_number)
+    }
     
     # get rating
     if (!is.null(ratings)) {
@@ -104,6 +112,7 @@ download_set <- function(set,
   
   # filter out collector number > threshold
   max_collector_number <- switch(set,
+                                 rna = 259,
                                  grn = 259,
                                  m19 = 280,
                                  dom = 269,

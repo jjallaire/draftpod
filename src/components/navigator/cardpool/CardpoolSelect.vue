@@ -8,6 +8,8 @@ import * as utils from '@/components/core/utils'
 import * as filters from '@/components/core/filters'
 import * as selectors from '@/store/selectors.js'
 
+import * as set from '@/store/modules/draft/set/'
+
 import { handleCardpoolUpload, uploadStatusEmpty } from './upload'
 
 import * as messagebox from '@/components/core/messagebox.js'
@@ -70,6 +72,10 @@ export default {
     ...mapGetters([
       'cardpool',
     ]),
+
+    supports_custom_cardpool() {
+      return set.capabilities(this.set_code).custom_cardpool;
+    },
   
     is_new_cardpool() {
       return this.value === 'new-cardpool';
@@ -262,7 +268,7 @@ export default {
         <option v-for="option in options.cubes" :key="option.value"
                 :value="option.value">{{ option.caption }}</option>
       </optgroup>
-      <optgroup label="Custom">
+      <optgroup v-if="supports_custom_cardpool" label="Custom">
         <option v-for="option in options.custom" :key="option.value"
                 :value="option.value">{{ option.caption }}</option>
         <option value="new-cardpool">New Custom Cardpool...</option>

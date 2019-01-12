@@ -37,6 +37,7 @@ export default {
   <label for="draft-set" class="col-sm-3 col-form-label">Set:</label>
   <div class="col-sm-8">
     <select :disabled="disabled" id="draft-set" class="form-control" v-model="inputVal">
+      <option value="rna">Ravnica Allegiance</option>
       <option value="grn">Guilds of Ravnica</option>
       <option value="m19">Core Set 2019</option>
       <option value="dom">Dominaria</option>
