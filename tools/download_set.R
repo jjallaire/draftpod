@@ -127,7 +127,7 @@ download_set <- function(set,
   set_dir <- file.path(sets_dir, set)
   dir.create(set_dir, showWarnings = FALSE, recursive = TRUE)
   set_json <- file.path(set_dir, "cards.json")
-  jsonlite::write_json(cards, set_json, auto_unbox = TRUE)
+  jsonlite::write_json(cards, set_json, auto_unbox = TRUE, pretty = TRUE)
   
   # download images
   if (download_images) {
