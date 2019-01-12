@@ -72,7 +72,7 @@ export default {
     </div> 
     <div v-if="player.id" class="player-name">
       {{ player.name || "Me"}} 
-      <div class="pick-number" v-if="!picks_complete"><em>{{ current_pick }}</em></div>
+      <div class="pick-number" v-if="!picks_complete">{{ current_pick }}</div>
     </div>
     <div v-else class="player-colors">
       <div v-if="!multi_player && picks_complete">
@@ -91,11 +91,15 @@ export default {
 <style>
 
 .player {
-  width: 80px;
-  height: 60px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center; 
+}
+
+.player:hover {
+  border: 1px solid #aaa;
+  border-radius: 5px;
 }
 
 .player div div {
@@ -103,7 +107,8 @@ export default {
 }
 
 .player .pick-number {
-  margin-top: -3px;
+  margin-top: -1px;
+  font-size: 0.5rem;
 }
 
 

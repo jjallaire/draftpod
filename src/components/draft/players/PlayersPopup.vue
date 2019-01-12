@@ -77,18 +77,23 @@ export default {
 
 <style>
 
+
+
 .players {
-  width: 300px;
-  height: 260px;
+  width: 370px;
+  height: 340px;
 }
 
+.player {
+  height: 80px;
+}
 
 .players-table {
   position: absolute;
   top: 10px;
   bottom: 10px;
-  left: 80px;
-  width: 140px;
+  left: 100px;
+  width: 170px;
   border: 5px solid #aaa;
   border-radius: 15px;
 }
@@ -97,16 +102,15 @@ export default {
   position: absolute;
   top: 10px;
   bottom: 10px;
-  width: 80px;
+  width: 90px;
 }
 
 .players-column-left {
-  left: 0;
+  left: 5px;
 }
 
 .players-column-right {
-  right: 0;
+  right: 5px;
 }
-
 
 </style>
