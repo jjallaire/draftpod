@@ -126,6 +126,7 @@ export default {
         // if we aren't using the old client id then validate it hasn't changed
         if (!activePlayer || activePlayer.client_id !== oldClientId) {
           if (!firestore.validateClient(this.player.id, this.client_id, table)) {
+            this.writeTable({ table });
             this.setConnected({ connected: false });
             this.firestoreUnsubscribe();
             return;
