@@ -63,7 +63,7 @@ export default {
         "Are you sure you want to remove this player from the draft? They "+
         "cannot rejoin the draft after they have been removed.",
         () => {
-
+          this.removePlayer({ remove_player_id: this.player.id });
         });
     }
 
@@ -72,7 +72,8 @@ export default {
   inject: [
     'currentPick',
     'multi_player',
-    'is_host_player'
+    'is_host_player',
+    'removePlayer'
   ],
 
   components: {

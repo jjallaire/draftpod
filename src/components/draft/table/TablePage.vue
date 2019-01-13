@@ -15,7 +15,8 @@ import { RESUME_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE,
          DECK_TO_SIDEBOARD, DECK_TO_UNUSED, 
          SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED, 
          UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
-         DISABLE_AUTO_LANDS, SET_BASIC_LANDS } from '@/store/modules/draft/actions';
+         DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
+         REMOVE_PLAYER } from '@/store/modules/draft/actions';
 import { WRITE_TABLE, SET_CONNECTED } from '@/store/modules/draft/mutations'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
@@ -89,13 +90,14 @@ export default {
       unusedToSideboard: this.unusedToSideboard,
       disableAutoLands: this.disableAutoLands,
       setBasicLands: this.setBasicLands,
+      removePlayer: this.removePlayer,
       setCardPreview: this.setCardPreview,
       touchDragManager: this.touchDragManager
     }
   },
 
   created() {
- 
+
     // detect mobile
     let md = new MobileDetect(window.navigator.userAgent);
     if (md.mobile())
@@ -122,8 +124,8 @@ export default {
         let activePlayer = selectors.activePlayer(this.player.id, table);
 
         // if we aren't using the old client id then validate it hasn't changed
-        if (activePlayer.client_id !== oldClientId) {
-          if (!firestore.validateClientId(this.player.id, this.client_id, table)) {
+        if (!activePlayer || activePlayer.client_id !== oldClientId) {
+          if (!firestore.validateClient(this.player.id, this.client_id, table)) {
             this.setConnected({ connected: false });
             this.firestoreUnsubscribe();
             return;
@@ -272,6 +274,9 @@ export default {
       },
       setBasicLands(dispatch, payload) {
         return dispatch(this.namespace + '/' + SET_BASIC_LANDS, this.withPlayerId(payload));
+      },
+      removePlayer(dispatch, payload) {
+        return dispatch(this.namespace + '/' + REMOVE_PLAYER, this.withPlayerId(payload));
       },
     }),
     withPlayerId: function(payload) {

@@ -15,6 +15,7 @@ export const UNUSED_TO_DECK = 'UNUSED_TO_DECK'
 export const UNUSED_TO_SIDEBOARD = 'UNUSED_TO_SIDEBOARD'
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
+export const REMOVE_PLAYER = 'REMOVE_PLAYER'
 
 import { WRITE_TABLE, SET_CONNECTED } from './mutations'
 
@@ -152,6 +153,21 @@ export default {
       deck.lands.basic[color] = lands;
     });
   },
+
+  [REMOVE_PLAYER]({ commit, state }, { player_id, client_id, remove_player_id }) {
+    updateTable({ commit, state }, player_id, client_id, (table) => {
+      
+      // remove the player
+      let player = selectors.activePlayer(remove_player_id, table);
+      player.id = null;
+      player.name = null;
+      player.client_id = null;
+
+      // make any pending picks using ai
+      draftBotPickAndPass(0, state.set.code, table);
+      
+    });
+  },
 };
 
 function joinDraft(player_info, table) {
@@ -189,7 +205,7 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
 
   // validate that another client hasn't taken over the draft
   if (state.options.multi_player) {
-    if (!firestore.validateClientId(player_id, client_id, state.table)) {
+    if (!firestore.validateClient(player_id, client_id, state.table)) {
       commit(SET_CONNECTED, { connected: false });
       return; 
     }

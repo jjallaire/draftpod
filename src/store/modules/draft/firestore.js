@@ -3,7 +3,7 @@ import * as log from '@/log'
 import * as set from './set'
 import * as selectors from './selectors'
 import * as messagebox from '@/components/core/messagebox.js'
-
+import router from '@/router'
 import { firestore } from '../../firebase'
 import shortUuid from 'short-uuid'
 
@@ -89,10 +89,25 @@ export default {
       });
   },
 
-  validateClientId(player_id, client_id, table) {
+  validateClient(player_id, client_id, table) {
     if (player_id !== null && client_id !== null) {
+      
       let player = selectors.activePlayer(player_id, table);
-      if (client_id !== player.client_id) {
+
+      // player has been removed from the draft
+      if (player === undefined) {
+        messagebox.alert(
+          "Removed from Draft", 
+          "You have been removed from the draft by the host.",
+          () => {
+            router.push({ path: "/draft/" });
+          },
+        );
+        return false;
+      }
+
+      // another browser has taken over this draft
+      else if (client_id !== player.client_id) {
         messagebox.alert(
           "Disconnected from Draft", 
           "<p>Another browser was connected to this draft, so this browser was disconnected.</p>" +
