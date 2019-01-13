@@ -4,6 +4,9 @@
 import PlayerIcon from 'vue-material-design-icons/Account.vue'
 import BotIcon from 'vue-material-design-icons/AccountOutline.vue'
 import ColorIcon from  '@/components/core/ColorIcon.vue'
+import RemoveIcon from 'vue-material-design-icons/AccountRemove.vue'
+
+import * as messagebox from '@/components/core/messagebox.js'
 
 import * as selectors from '@/store/modules/draft/selectors'
 
@@ -22,6 +25,10 @@ export default {
     picks_complete: {
       type: Boolean,
       required: true
+    },
+    removable: {
+      type: Boolean,
+      default: true
     },
   },
 
@@ -45,18 +52,34 @@ export default {
       } else {
         return "Done";
       }
+    },
+  },
+
+  methods: {
+    onRemovePlayer(event){
+      event.stopPropagation();
+      messagebox.confirm(
+        "Remove Player", 
+        "Are you sure you want to remove this player from the draft? They "+
+        "cannot rejoin the draft after they have been removed.",
+        () => {
+
+        });
     }
+
   },
 
   inject: [
     'currentPick',
-    'multi_player'
+    'multi_player',
+    'is_host_player'
   ],
 
   components: {
     PlayerIcon,
     BotIcon,
-    ColorIcon
+    ColorIcon,
+    RemoveIcon
   }
 }
 
@@ -66,6 +89,9 @@ export default {
 
 <div class="player">
   <div>
+    <div v-if="player.id && removable && is_host_player" class="player-remove">
+      <RemoveIcon title="Remove Player from Draft" @click.native="onRemovePlayer"/>
+    </div>
     <div>
       <PlayerIcon title="Player" v-if="player.id"/>
       <BotIcon title="Bot" v-else/>
@@ -92,14 +118,38 @@ export default {
 
 .player {
   width: 100%;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center; 
+  cursor: default;
 }
 
 .player:hover {
   border: 1px solid #aaa;
   border-radius: 5px;
+}
+
+.player-remove {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  display: none;
+  cursor: pointer;
+}
+
+
+.player:hover .player-remove {
+  display: initial;
+}
+
+.player-remove .account-remove-icon svg {
+  width: 15x;
+  height: 15px;
+  margin-top: -8px;
+  color: #ee5f5b;
 }
 
 .player div div {

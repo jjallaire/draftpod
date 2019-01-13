@@ -4,6 +4,8 @@ import PlayersPlayer from './PlayersPlayer.vue'
 
 import * as selectors from '@/store/modules/draft/selectors'
 
+import { mapGetters } from 'vuex'
+
 export default {
   name: 'PlayersPopup',
 
@@ -18,12 +20,22 @@ export default {
     },
   },
 
+
   computed: {
+    ...mapGetters([
+      'player'
+    ]),
     set: function() {
       return this.draft.set;
     },
     table: function() {
       return this.draft.table;
+    },
+    is_host_player: function() {
+      let player_index = this.draft.table.players.findIndex(
+        (player) => player.id === this.player.id
+      );
+      return player_index === 0;
     }
   },
 
@@ -39,7 +51,8 @@ export default {
   provide: function() {
     return {
       currentPick: this.currentPick,
-      multi_player: this.draft.options.multi_player
+      multi_player: this.draft.options.multi_player,
+      is_host_player: this.is_host_player
     }
   },
  
@@ -54,7 +67,8 @@ export default {
 
 <div class="players">
   <div class="players-column players-column-left">
-    <PlayersPlayer :player="players[0]" :picks_complete="table.picks_complete"/>
+    <PlayersPlayer :player="players[0]" :picks_complete="table.picks_complete"
+                   :removable="false"/>
     <PlayersPlayer :player="players[1]" :picks_complete="table.picks_complete"/>
     <PlayersPlayer :player="players[2]" :picks_complete="table.picks_complete"/>
     <PlayersPlayer :player="players[3]" :picks_complete="table.picks_complete"/>
