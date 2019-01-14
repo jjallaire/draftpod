@@ -31,7 +31,6 @@ import fscreen from 'fscreen'
 import * as messagebox from '@/components/core/messagebox.js'
  
 import _flatten from 'lodash/flatten'
-import _debounce from 'lodash/debounce'
 
 import MobileDetect from 'mobile-detect'
 
@@ -115,9 +114,8 @@ export default {
     // multiplayer
     if (this.options.multi_player) {
 
-      // track firestore. debounce to a 1 second delay so that we don't get flashback
-      // where we temporarily see an older state from another client
-      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, _debounce(table => {
+      // track firestore
+      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
 
         // get activePlayer reference
         let player = selectors.activePlayer(this.player.id, table);
@@ -152,7 +150,7 @@ export default {
         // write locally. 
         this.writeTable({ table });
 
-      }, 1000));
+      });
     }
 
     // update fullscreen state on change
