@@ -55,7 +55,7 @@ export default {
       return player_index === host_index;
     },
     bot_colors: function() {
-      if (this.picks_complete) {
+      if (this.draft.options.show_bot_colors || this.picks_complete) {
         let piles = this.player.picks.piles;
         let cards = _flatten(piles.slice(0, DECK.PILES));
         return selectors.cardColors(cards, false, 0, 2);
@@ -95,12 +95,6 @@ export default {
 
 
   methods: {
-    currentPick(player_id) {
-      if (selectors.picksComplete(player_id, this.set.code, this.table))
-        return 0;
-      else
-        return selectors.currentPick(player_id, this.set.code, this.table);
-    },
     onRemovePlayer(event){
       event.stopPropagation();
       messagebox.confirm(
@@ -144,7 +138,7 @@ export default {
       <div class="pick-number" v-if="!picks_complete">{{ current_pick }}</div>
     </div>
     <div v-else class="player-colors">
-      <div v-if="picks_complete">
+      <div v-if="bot_colors.length > 0">
         <ColorIcon v-for="color in bot_colors" :key="color.name" :color="color" />
       </div>
       <div v-else class="player-name">

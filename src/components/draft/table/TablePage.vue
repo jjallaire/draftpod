@@ -17,7 +17,7 @@ import { RESUME_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE,
          UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
          REMOVE_PLAYER } from '@/store/modules/draft/actions';
-import { WRITE_TABLE, SET_CONNECTED } from '@/store/modules/draft/mutations'
+import { WRITE_TABLE, SET_CONNECTED, SET_SHOW_BOT_COLORS } from '@/store/modules/draft/mutations'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
 
@@ -89,6 +89,7 @@ export default {
       disableAutoLands: this.disableAutoLands,
       setBasicLands: this.setBasicLands,
       removePlayer: this.removePlayer,
+      setShowBotColors: this.setShowBotColors,
       setCardPreview: this.setCardPreview,
       touchDragManager: this.touchDragManager
     }
@@ -247,6 +248,9 @@ export default {
       },
       setConnected(dispatch, payload) {
         return dispatch(this.namespace + '/' + SET_CONNECTED, payload);
+      },
+      setShowBotColors(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SET_SHOW_BOT_COLORS, payload);
       },
     }),
     ...mapActions({

@@ -20,7 +20,8 @@ export default function() {
     options: {
       pick_timer: false,
       pick_ratings: false,
-      multi_player: false
+      multi_player: false,
+      show_bot_colors: false
     },
 
     // packs for this draft

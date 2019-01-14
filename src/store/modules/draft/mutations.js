@@ -2,6 +2,7 @@
 export const CREATE_DRAFT = 'CREATE_DRAFT'
 export const WRITE_TABLE = 'WRITE_TABLE'
 export const SET_CONNECTED = 'SET_CONNECTED'
+export const SET_SHOW_BOT_COLORS = 'SET_SHOW_BOT_COLORS'
 
 import * as set from './set/'
 
@@ -50,6 +51,10 @@ export default {
 
   [WRITE_TABLE](state, { table, update_version }) {
     writeTable(state, table, update_version);
+  },
+
+  [SET_SHOW_BOT_COLORS](state, { show_bot_colors }) {
+    state.options.show_bot_colors = show_bot_colors;
   },
 
   [SET_CONNECTED](state, { connected }) {

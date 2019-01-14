@@ -21,10 +21,28 @@ export default {
     picks_complete: function() {
       return this.draft.table.picks_complete;
     },
+    multi_player: function() {
+      return this.draft.options.multi_player;
+    },
+    show_bot_colors: function() {
+      return this.draft.options.show_bot_colors;
+    },
     players: function() {
       return this.draft.table.players;
     }
   },
+
+  methods: {
+    onShowBotColors(event) {
+      event.stopPropagation();
+      this.setShowBotColors({ show_bot_colors: true });
+    }
+  },
+
+  inject: [
+    'setShowBotColors'
+  ],
+
   components: {
     PlayersPlayer
   }
@@ -46,6 +64,10 @@ export default {
     <div v-if="!picks_complete" class="pack-number">
       Pack {{ current_pack }}
     </div>
+    <a v-if="!picks_complete && !show_bot_colors && !multi_player" class="show-bot-colors"
+       @click="onShowBotColors">
+      Show bot colors
+    </a>
   </div>
 
   <div class="players-column players-column-right">
@@ -83,7 +105,7 @@ export default {
   border: 5px solid #aaa;
   border-radius: 15px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center; 
 }
 
@@ -91,9 +113,19 @@ export default {
   font-size: 1.1em;
   font-weight: 500;
   color: rgba(255,255,255,0.4);
-  padding-bottom: 20px;
-
+  margin-top: 100px;
 }
+
+.players-table .show-bot-colors {
+  font-size: 0.7rem;
+  padding-top: 5px;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.players-table .show-bot-colors:hover {
+  color: #e9ecef !important;
+} 
 
 .players-column {
   position: absolute;
