@@ -303,14 +303,23 @@ export default {
       this.card_preview = card_preview;
     },
     onExitDraft: function() {
-      let vm = this;
-      messagebox.confirm(
-        "Exit Draft",
-        "<p>You can pick up where you left off in the draft later.</p>" + 
-        "Do you want to exit this draft? ",
-        function() {
-          vm.$router.push({ path: "/draft/" });
-        });
+      if (this.options.multi_player) {
+         messagebox.confirm(
+          "Exit Draft",
+          "<p>You cannot rejoin the draft after you have exited.</p>" + 
+          "Do you want to exit this draft? ",
+          () => {
+            this.removePlayer({ remove_player_id: this.player.id });
+          });
+      } else {
+        messagebox.confirm(
+          "Exit Draft",
+          "<p>You can pick up where you left off in the draft later.</p>" + 
+          "Do you want to exit this draft? ",
+          () => {
+            this.$router.push({ path: "/draft/" });
+          });
+      }
     },
     onRemoveDraft: function() {
       messagebox.confirm(

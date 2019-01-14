@@ -425,30 +425,26 @@ function draftBotPickAndPass(player_index, set_code, table) {
 
   // execute pick and pass for all bots
   let current_index = player_index;
-  for (; ;) {
+  do {
+
+    // get a reference to the player: it's a bot, execute a pick and pass loop until we 
+    // have no more picks to make
+    let player = table.players[current_index];
+    if (player.id === null) {
+      while (player.packs.length > 0 &&
+        player.packs[0].length > 0) {
+        let pack = player.packs[0];
+        let piles = player.picks.piles;
+        let card = draftbot.pick(set_code, _flatten(piles), pack);
+        makePick(current_index, set_code, table, null, card, null);
+      }
+    }
 
     // advance to next player -
     current_index = nextPlayerIndex(current_index, table);
 
-    // bail if we've been around the circle
-    if (current_index === player_index)
-      break;
-
-    // skip if it's not a bot
-    let player = table.players[current_index];
-    if (player.id)
-      continue;
-
-    // it's a bot, execute a pick and pass loop until we 
-    // have no more picks to make
-    while (player.packs.length > 0 &&
-      player.packs[0].length > 0) {
-      let pack = player.packs[0];
-      let piles = player.picks.piles;
-      let card = draftbot.pick(set_code, _flatten(piles), pack);
-      makePick(current_index, set_code, table, null, card, null);
-    }
-  }
+  // terminate once we get back to the original player_index
+  } while(current_index !== player_index);
 }
 
 function cardToDeckPile(player, c, deck) {
