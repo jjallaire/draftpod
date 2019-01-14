@@ -350,7 +350,7 @@ export default {
       </span> 
     
       <ul class="navbar-nav">
-        <li v-if="!isPhone && options.multi_player || picks_complete" class="nav-item">
+        <li v-if="!isPhone" class="nav-item">
           <div class="dropdown">
             <a id="playersMenuLink" class="nav-link icon-link dropdown-toggle" title="Players" 
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
