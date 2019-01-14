@@ -40,9 +40,6 @@ export default {
     table: function() {
       return this.draft.table;
     },
-    multi_player: function() {
-      return this.draft.options.multi_player;
-    },
     is_host_player: function() {
       // get the index of the active player
       let player_index = this.draft.table.players.findIndex(
@@ -133,7 +130,7 @@ export default {
       <div class="pick-number" v-if="!picks_complete">{{ current_pick }}</div>
     </div>
     <div v-else class="player-colors">
-      <div v-if="!multi_player && picks_complete">
+      <div v-if="picks_complete">
         <ColorIcon v-for="color in bot_colors" :key="color.name" :color="color" />
       </div>
       <div v-else class="player-name">
