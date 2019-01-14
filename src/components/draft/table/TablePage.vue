@@ -121,10 +121,10 @@ export default {
       this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, _debounce(table => {
 
         // get activePlayer reference
-        let activePlayer = selectors.activePlayer(this.player.id, table);
+        let player = selectors.activePlayer(this.player.id, table);
 
         // if we aren't using the old client id then validate it hasn't changed
-        if (!activePlayer || activePlayer.client_id !== oldClientId) {
+        if (!player || player.client_id !== oldClientId) {
           if (!firestore.validateClient(this.player.id, this.client_id, table)) {
             this.writeTable({ table });
             this.setConnected({ connected: false });
@@ -141,8 +141,14 @@ export default {
         // ignore if the pick number is less than we have locally (as that 
         // implies this is from an older state and will therefore be soon
         // replaced with a newer state)
-        if (activePlayer.picks.pick_order.length < this.active_player.picks.pick_order.length)
+        if (player.picks.pick_order.length < this.active_player.picks.pick_order.length)
           return;
+
+        // prevent changes to this player's picks and deck (prevent flashback which
+        // occurs when receiving changes from other players that don't reflect the
+        // latest picks or deck state for this player)  
+        player.picks = this.active_player.picks;
+        player.deck = this.active_player.deck;
 
         // write locally. 
         this.writeTable({ table });
