@@ -13,6 +13,7 @@ import * as selectors from '@/store/modules/draft/selectors'
 import { DECK } from '@/store/modules/draft/constants'
 
 import _flatten from 'lodash/flatten'
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'PlayersPlayer',
@@ -22,13 +23,40 @@ export default {
       type: Object,
       required: true
     },
-    picks_complete: {
-      type: Boolean,
+    draft: {
+      type: Object,
       required: true
     },
   },
 
-  computed: {
+   computed: {
+    ...mapGetters({
+      activePlayer: 'player' 
+    }),
+
+    set: function() {
+      return this.draft.set;
+    },
+    table: function() {
+      return this.draft.table;
+    },
+    multi_player: function() {
+      return this.draft.options.multi_player;
+    },
+    is_host_player: function() {
+      // get the index of the active player
+      let player_index = this.draft.table.players.findIndex(
+        (player) => player.id === this.activePlayer.id
+      );
+
+      // get the host index (first non-bot player)
+      let host_index = this.draft.table.players.findIndex(
+        (player) => player.id !== null
+      );
+
+      // check if we are the host
+      return player_index === host_index;
+    },
     bot_colors: function() {
       if (this.picks_complete) {
         let piles = this.player.picks.piles;
@@ -37,6 +65,9 @@ export default {
       } else {
         return [];
       }
+    },
+    picks_complete: function() {
+      return this.draft.table.picks_complete;
     },
     current_pick: function() {
       if (!this.picks_complete) {
@@ -51,7 +82,14 @@ export default {
     },
   },
 
+
   methods: {
+    currentPick(player_id) {
+      if (selectors.picksComplete(player_id, this.set.code, this.table))
+        return 0;
+      else
+        return selectors.currentPick(player_id, this.set.code, this.table);
+    },
     onRemovePlayer(event){
       event.stopPropagation();
       messagebox.confirm(
@@ -66,9 +104,6 @@ export default {
   },
 
   inject: [
-    'currentPick',
-    'multi_player',
-    'is_host_player',
     'removePlayer'
   ],
 
@@ -84,9 +119,9 @@ export default {
 
 <template>
 
-<div class="player">
+<div :class="{ player: true, 'host-player': is_host_player }">
   <div>
-    <div v-if="player.id && is_host_player" class="player-remove">
+    <div v-if="player.id" class="player-remove">
       <RemoveIcon title="Remove Player from Draft" @click.native="onRemovePlayer"/>
     </div>
     <div>
@@ -138,7 +173,7 @@ export default {
 }
 
 
-.player:hover .player-remove {
+.host-player:hover .player-remove {
   display: initial;
 }
 
