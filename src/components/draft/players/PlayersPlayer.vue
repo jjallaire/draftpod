@@ -164,7 +164,7 @@ export default {
 
 
 .player .player-name {
-  width: 100%;
+  width: 90px;
   font-size: 0.7rem;
   padding: 3px;
   margin-top: -3px;
