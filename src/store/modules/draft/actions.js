@@ -521,8 +521,8 @@ function movePicksToDeck(player) {
   });
 
   // sort all deck piles
-  deck.piles.forEach((pile) => orderDeckPile(pile));
-
+  deck.piles = deck.piles.map(pile => orderDeckPile(pile));
+ 
   // sort unplayed cards
   orderUnplayedPiles(deck);
   
