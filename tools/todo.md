@@ -1,9 +1,7 @@
 
 
 
-- Sorting of deck piles isn't respecting name
 - Improved draft bots
-
 
 Links:
 
