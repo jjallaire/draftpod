@@ -67,8 +67,7 @@ export default {
 
 <div class="players">
   <div class="players-column players-column-left">
-    <PlayersPlayer :player="players[0]" :picks_complete="table.picks_complete"
-                   :removable="false"/>
+    <PlayersPlayer :player="players[0]" :picks_complete="table.picks_complete"/>
     <PlayersPlayer :player="players[1]" :picks_complete="table.picks_complete"/>
     <PlayersPlayer :player="players[2]" :picks_complete="table.picks_complete"/>
     <PlayersPlayer :player="players[3]" :picks_complete="table.picks_complete"/>

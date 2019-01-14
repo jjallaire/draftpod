@@ -26,10 +26,6 @@ export default {
       type: Boolean,
       required: true
     },
-    removable: {
-      type: Boolean,
-      default: true
-    },
   },
 
   computed: {
@@ -60,7 +56,7 @@ export default {
       event.stopPropagation();
       messagebox.confirm(
         "Remove Player", 
-        "Are you sure you want to remove this player from the draft? They "+
+        "Are you sure you want to remove this player from the draft? Players "+
         "cannot rejoin the draft after they have been removed.",
         () => {
           this.removePlayer({ remove_player_id: this.player.id });
@@ -90,7 +86,7 @@ export default {
 
 <div class="player">
   <div>
-    <div v-if="player.id && removable && is_host_player" class="player-remove">
+    <div v-if="player.id && is_host_player" class="player-remove">
       <RemoveIcon title="Remove Player from Draft" @click.native="onRemovePlayer"/>
     </div>
     <div>
