@@ -157,14 +157,18 @@ export default {
   [REMOVE_PLAYER]({ commit, state }, { player_id, client_id, remove_player_id }) {
     updateTable({ commit, state }, player_id, client_id, (table) => {
       
-      // remove the player
+      // determine player index
+      let player_index = selectors.playerIndex(player_id, table);
+
+      // turn the player into a bot
       let player = selectors.activePlayer(remove_player_id, table);
       player.id = null;
       player.name = null;
       player.client_id = null;
+      player.bot = draftbot.create();
 
       // make any pending picks using ai
-      draftBotPickAndPass(0, state.set.code, table);
+      draftBotPickAndPass(player_index, state.set.code, table);
       
     });
   },
@@ -262,7 +266,7 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore)
     return;
 
   // alias player
-  let player_index = playerIndex(player_id, table);
+  let player_index = selectors.playerIndex(player_id, table);
 
   // cards picked so far
   let player = table.players[player_index];
@@ -270,7 +274,7 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore)
 
   // null card means have the AI pick
   if (!card)  
-    card = draftbot.pick(set_code, picks, player.packs[0]);
+    card = draftbot.pick(player.bot, set_code, picks, player.packs[0]);
 
   // it's possible that a card can be picked twice if there is flashback, in that
   // case simply ignore the request entirely
@@ -296,11 +300,6 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore)
 
   }
 
-}
-
-
-function playerIndex(player_id, table) {
-  return table.players.findIndex((player) => player.id === player_id);
 }
 
 function passPack(player_index, set_code, table) {
@@ -435,7 +434,7 @@ function draftBotPickAndPass(player_index, set_code, table) {
         player.packs[0].length > 0) {
         let pack = player.packs[0];
         let piles = player.picks.piles;
-        let card = draftbot.pick(set_code, _flatten(piles), pack);
+        let card = draftbot.pick(player.bot, set_code, _flatten(piles), pack);
         makePick(current_index, set_code, table, null, card, null);
       }
     }

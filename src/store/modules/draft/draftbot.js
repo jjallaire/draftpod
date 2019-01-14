@@ -1,14 +1,24 @@
 
 import * as set from './set'
 
+// create a new draft bot
+export function create() {
+  return {
+
+  };
+}
+
 // pick a card given deck and pack
-export function pick(set_code, deck, pack) {
-  let ratings = cardRatings(set_code, deck, pack);
+export function pick(bot, set_code, deck, pack) {
+  let ratings = cardRatings(bot, set_code, deck, pack);
   return ratings[0].card;
 }
 
 // determine the ratings for all cards in a pack
-export function cardRatings(set_code, deck, pack) {
+export function cardRatings(bot, set_code, deck, pack) {
+
+  // provide default bot if none is specified
+  bot = bot || create();
 
   // determine the colors used within the deck (2 colors with the
   // highest overall power-level)

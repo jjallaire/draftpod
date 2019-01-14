@@ -226,7 +226,7 @@ export default {
         let pack = this.active_pack;
         if (pack) {
           let deck = _flatten(this.active_player.picks.piles);
-          return draftbot.cardRatings(this.set.code, deck, pack);
+          return draftbot.cardRatings(this.active_player.bot, this.set.code, deck, pack);
         } else {
           return [];
         }

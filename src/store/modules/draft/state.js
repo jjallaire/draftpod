@@ -2,6 +2,8 @@
 import shortUuid from 'short-uuid'
 
 import { PICKS, DECK } from './constants'
+import * as draftbot from './draftbot'
+
 
 export default function() {
   return {
@@ -43,6 +45,7 @@ export default function() {
           id: null,
           client_id: null,
           name: null,
+          bot: draftbot.create(),
           packs: [],
           pick_end_time: null,
           picks: playerPicks(),

@@ -100,9 +100,10 @@ export function playerColors(player_id, table, percentFilter = 0, maxColors = 2)
 }
 
 export function draftThumbnail(player_id, draft) {
+  let player = activePlayer(player_id, draft.table);
   let active_cards = activeCards(player_id, draft.table);
   if (active_cards.length > 0)
-    return cardImageUris(draftbot.pick(draft.set.code, active_cards, active_cards))[0];
+    return cardImageUris(draftbot.pick(player.bot, draft.set.code, active_cards, active_cards))[0];
   else 
     return null;
 }
@@ -113,6 +114,10 @@ export function isStarted(table) {
 
 export function hasPlayer(player_id, table) {
   return activePlayer(player_id, table) !== undefined;
+}
+
+export function playerIndex(player_id, table) {
+  return table.players.findIndex((player) => player.id === player_id);
 }
 
 export function picksComplete(player_id, set_code, table) {
