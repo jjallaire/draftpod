@@ -1,11 +1,7 @@
 
 
 
-- Improve pick drag target for large vertical picks areas
-
 - Sorting of deck piles isn't respecting name
-
--
 - Improved draft bots
 
 
