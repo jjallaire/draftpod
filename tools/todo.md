@@ -1,8 +1,6 @@
 
 
 
-
-- Make players a bit smaller
 - Sorting of deck piles isn't respecting name
 
 - Consider ability to see bot colors during draft

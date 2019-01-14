@@ -66,13 +66,27 @@ export default {
     picks_complete: function() {
       return this.draft.table.picks_complete;
     },
+    current_pack: function() {
+      return this.draft.table.current_pack;
+    },
     current_pick: function() {
       if (!this.picks_complete) {
-        let pick = this.currentPick(this.player.id);
-        if (pick === 0)
-          return "Done"
-        else
-          return "Pick " + pick;
+        
+        // determime if the player is done with all picks
+        let player_id = this.player.id;
+        let playerPicksComplete = selectors.picksComplete(player_id, this.set.code, this.table);
+        if (playerPicksComplete)
+          return "Done";
+
+        // determine if the player has finished the current pack
+        let playerPack = selectors.currentPack(player_id, this.set.code, this.table);
+        if (playerPack > this.current_pack)
+          return "Done";
+      
+        // display pick number
+        let playerPick = selectors.currentPick(player_id, this.set.code, this.table);
+        return "Pick " + playerPick;
+       
       } else {
         return "Done";
       }
@@ -187,7 +201,7 @@ export default {
 
 .player .pick-number {
   margin-top: -1px;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
 }
 
 

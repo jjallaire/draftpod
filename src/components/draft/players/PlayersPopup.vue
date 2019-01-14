@@ -14,6 +14,13 @@ export default {
 
   
   computed: {
+
+    current_pack: function() {
+      return this.draft.table.current_pack;
+    },
+    picks_complete: function() {
+      return this.draft.table.picks_complete;
+    },
     players: function() {
       return this.draft.table.players;
     }
@@ -36,8 +43,11 @@ export default {
   </div>
 
   <div class="players-table">
-    
+    <div v-if="!picks_complete" class="pack-number">
+      Pack {{ current_pack }}
+    </div>
   </div>
+
   <div class="players-column players-column-right">
     <PlayersPlayer :player="players[7]" :draft="draft"/>
     <PlayersPlayer :player="players[6]" :draft="draft"/>
@@ -72,6 +82,17 @@ export default {
   width: 150px;
   border: 5px solid #aaa;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.players-table .pack-number {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: rgba(255,255,255,0.4);
+  padding-bottom: 20px;
+
 }
 
 .players-column {
