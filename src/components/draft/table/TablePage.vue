@@ -172,6 +172,13 @@ export default {
       clearInterval(this.pick_timeout_timer);
   },
 
+  watch: {
+    active_player: function (val) {
+      if (val === undefined)
+        this.$router.push({ path: "/draft/"});
+    }
+  },
+
   computed: {
     ...mapState({
       draft: function(state) {

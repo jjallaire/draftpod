@@ -3,7 +3,6 @@ import * as log from '@/log'
 import * as set from './set'
 import * as selectors from './selectors'
 import * as messagebox from '@/components/core/messagebox.js'
-import router from '@/router'
 import { firestore } from '../../firebase'
 import shortUuid from 'short-uuid'
 
@@ -96,13 +95,6 @@ export default {
 
       // player has been removed from the draft
       if (player === undefined) {
-        messagebox.alert(
-          "Removed from Draft", 
-          "You have been removed from the draft by the host.",
-          () => {
-            router.push({ path: "/draft/" });
-          },
-        );
         return false;
       }
 
