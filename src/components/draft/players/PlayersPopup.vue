@@ -52,29 +52,29 @@ export default {
 <style>
 
 .players {
-  width: 370px;
-  height: 340px;
+  width: 310px;
+  height: 290px;
 }
 
 .player {
-  height: 80px;
+  height: 70px;
 }
 
 .players-table {
   position: absolute;
   top: 10px;
   bottom: 10px;
-  left: 100px;
-  width: 170px;
+  left: 80px;
+  width: 150px;
   border: 5px solid #aaa;
   border-radius: 15px;
 }
 
 .players-column {
   position: absolute;
-  top: 10px;
-  bottom: 10px;
-  width: 90px;
+  top: 5px;
+  bottom: 5px;
+  width: 70px;
 }
 
 .players-column-left {

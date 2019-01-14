@@ -162,7 +162,7 @@ export default {
 .player-remove {
   position: absolute;
   top: 0;
-  right: 10px;
+  right: 8px;
   width: 15px;
   height: 15px;
   display: none;
@@ -177,7 +177,7 @@ export default {
 .player-remove .account-remove-icon svg {
   width: 15x;
   height: 15px;
-  margin-top: -8px;
+  margin-top: -15px;
   color: #ee5f5b;
 }
 
@@ -192,7 +192,7 @@ export default {
 
 
 .player .player-name {
-  width: 90px;
+  width: 70px;
   font-size: 0.7rem;
   padding: 3px;
   margin-top: -3px;
