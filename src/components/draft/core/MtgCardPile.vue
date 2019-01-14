@@ -289,7 +289,7 @@ export default {
 .pile {
   display: inline-block;
   position: relative;
-  min-height: 250px;
+  min-height: 40vh;
   margin-right: 4px;
 }
 .pile {
