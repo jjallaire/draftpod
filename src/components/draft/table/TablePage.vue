@@ -25,7 +25,6 @@ import PlayersIcon from "vue-material-design-icons/AccountMultiple.vue"
 import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
 import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
 import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
-import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
 
 
 import fscreen from 'fscreen'
@@ -74,7 +73,7 @@ export default {
 
   components: {
     NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
-    PlayersIcon, PlayersPopup, FullScreenIcon, FullScreenExitIcon, ExitToAppIcon, DeleteIcon
+    PlayersIcon, PlayersPopup, FullScreenIcon, FullScreenExitIcon, ExitToAppIcon
   },
 
   provide: function() {
@@ -372,11 +371,6 @@ export default {
         <li class="nav-item">
           <a class="nav-link icon-link">
             <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link icon-link">
-            <DeleteIcon title="Discard Draft" @click.native="onRemoveDraft"/>
           </a>
         </li>
         <li v-if="fullscreenEnabled" class="nav-item">
