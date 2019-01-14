@@ -1,6 +1,8 @@
 
 
+- Make players a bit smaller
 - Name truncation not working
+- Could the host remove his/her self?
 - Sorting of deck piles isn't respecting name
 - Enable player to remove themselves from the draft
 - Consider ability to see bot colors during draft
