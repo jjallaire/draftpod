@@ -56,6 +56,10 @@ export default {
   height: 290px;
 }
 
+.players-menu {
+  margin-top: 1px;
+}
+
 .player {
   height: 70px;
 }
