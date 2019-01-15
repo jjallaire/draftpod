@@ -34,13 +34,13 @@ import * as messagebox from '@/components/core/messagebox.js'
 export default {
 
   [JOIN_DRAFT]( { commit, state }, player_info) {
-    updateTable({ commit, state }, null, null, (table) => {
+    return updateTable({ commit, state }, null, null, (table) => {
       joinDraft(player_info, table);
     });
   },
 
   [START_DRAFT]({ commit, state }, player_info) {
-    updateTable({ commit, state }, null, null, (table) => {
+    return updateTable({ commit, state }, null, null, (table) => {
       table.start_time = new Date().getTime();
       if (player_info)
         joinDraft(player_info, table);
@@ -52,14 +52,14 @@ export default {
 
     // for multi-player drafts set the client id 
     if (state.options.multi_player) {
-      updateTable({ commit, state }, player_id, null, (table) => {
+      return updateTable({ commit, state }, player_id, null, (table) => {
         let player = selectors.activePlayer(player_id, table);
         player.client_id = client_id;
       });
     
     // for single-player drafts update the start_time and reset the pick_timer 
     } else {
-      updateTable({ commit, state }, null, null, (table) => {
+      return updateTable({ commit, state }, null, null, (table) => {
         table.start_time = new Date().getTime();
         resetPickTimer(player_id, state.set.code, table);
       });
@@ -67,7 +67,7 @@ export default {
   },
 
   [SIMULATE_DRAFT]({ commit, state }, { player_id }) {
-    updateTable({ commit, state }, player_id, null, (table) => {
+    return updateTable({ commit, state }, player_id, null, (table) => {
       while (!table.picks_complete) {
         packToPick(state.set.code, player_id, table, null, null, null);
       }
@@ -76,20 +76,22 @@ export default {
 
   [PICK_TIMER_PICK]({ commit, state }, { player_id, client_id }) {
     if (state.connected) {
-      updateTable({ commit, state }, player_id, client_id, (table) => {
+      return updateTable({ commit, state }, player_id, client_id, (table) => {
         packToPick(state.set.code, player_id, table, null, null, null)
       });
+    } else {
+      return Promise.resolve();
     }
   },
 
   [PACK_TO_PICK]({ commit, state }, { player_id, client_id, card, pile_number, insertBefore }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       packToPick(state.set.code, player_id, table, card, pile_number, insertBefore)
     });
   },
 
   [PICK_TO_PILE]({ commit, state }, { player_id, client_id, card, pile_number, insertBefore }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       let player = selectors.activePlayer(player_id, table);
       let picks = player.picks;
       pileToPile(player, card, pile_number, picks.piles, insertBefore);
@@ -98,25 +100,25 @@ export default {
   },
 
   [DECK_TO_SIDEBOARD]({ commit, state }, { player_id, client_id, card }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       deckToUnplayed(player_id, table, card, DECK.SIDEBOARD);
     });
   },
 
   [DECK_TO_UNUSED]({ commit, state }, { player_id, client_id, card }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       deckToUnplayed(player_id, table, card, DECK.UNUSED);
     });
   },
 
   [SIDEBOARD_TO_DECK]({ commit, state }, { player_id, client_id, card }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       unplayedToDeck(player_id, table, card, DECK.SIDEBOARD);
     });
   },
 
   [SIDEBOARD_TO_UNUSED]({ commit, state }, { player_id, client_id, card }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.UNUSED, deck.piles, null);
@@ -125,13 +127,13 @@ export default {
   },
 
   [UNUSED_TO_DECK]({ commit, state }, { player_id, client_id, card }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       unplayedToDeck(player_id, table, card, DECK.UNUSED);
     });
   },
 
   [UNUSED_TO_SIDEBOARD]({ commit, state }, { player_id, client_id, card }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.SIDEBOARD, deck.piles, null);
@@ -140,7 +142,7 @@ export default {
   },
 
   [DISABLE_AUTO_LANDS]({ commit, state }, { player_id, client_id, color_order }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       let deck = selectors.activePlayer(player_id, table).deck;
       deck.lands.auto = false;
       deck.lands.color_order = color_order;
@@ -148,14 +150,14 @@ export default {
   },
 
   [SET_BASIC_LANDS]({ commit, state }, { player_id, client_id, color, lands }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       let deck = selectors.activePlayer(player_id, table).deck;
       deck.lands.basic[color] = lands;
     });
   },
 
   [REMOVE_PLAYER]({ commit, state }, { player_id, client_id, remove_player_id }) {
-    updateTable({ commit, state }, player_id, client_id, (table) => {
+    return updateTable({ commit, state }, player_id, client_id, (table) => {
       
       // determine player index
       let player_index = selectors.playerIndex(player_id, table);
@@ -207,54 +209,67 @@ function cardIndex(cards, card) {
 // update the table, writing through to firebase
 function updateTable({ commit, state }, player_id, client_id, writer) {
 
-  // validate that another client hasn't taken over the draft
-  if (state.options.multi_player) {
-    if (!firestore.validateClient(player_id, client_id, state.table)) {
-      commit(SET_CONNECTED, { connected: false });
-      return; 
-    }
-  }
-
-  // make the changes locally
-  let table = JSON.parse(JSON.stringify(state.table));
-  writer(table);
-  commit(WRITE_TABLE, { table });
-
-  // write to firestore if requested
-  if (state.options.multi_player) {
-
-    // record the state prior to the changes (will be used to roll back the local state
-    // if an error occurs updating firebase)
-    let previousTable = JSON.parse(JSON.stringify(state.table));
+  return new Promise((resolve) => {
     
-    firestore.updateDraftTable(state.id, writer)
-      .then(function() {
-
-        // set connected flag to false to indicate we can do pick timer picks
-        if (!state.connected)
-          commit(SET_CONNECTED, { connected: true });
-      
-      })
-      .catch(function(error) {
-        
-        // set connected flag to false so we don't attempt pick timer picks
+    // validate that another client hasn't taken over the draft
+    if (state.options.multi_player) {
+      if (!firestore.validateClient(player_id, client_id, state.table)) {
         commit(SET_CONNECTED, { connected: false });
+        return Promise.resolve(); 
+      }
+    }
+
+    // make the changes locally
+    let table = JSON.parse(JSON.stringify(state.table));
+    writer(table);
+    commit(WRITE_TABLE, { table });
+
+    // write to firestore if requested
+    if (state.options.multi_player) {
+
+      // record the state prior to the changes (will be used to roll back the local state
+      // if an error occurs updating firebase)
+      let previousTable = JSON.parse(JSON.stringify(state.table));
       
-        // rollback state
-        commit(WRITE_TABLE, { table: previousTable });
+      firestore.updateDraftTable(state.id, writer)
+        .then(function() {
+
+          // set connected flag to false to indicate we can do pick timer picks
+          if (!state.connected)
+            commit(SET_CONNECTED, { connected: true });
+
+          // resolve the promise
+          resolve();
         
-        // log error 
-        log.logException(error, "onUpdateDraftTable");
+        })
+        .catch(function(error) {
+          
+          // set connected flag to false so we don't attempt pick timer picks
+          commit(SET_CONNECTED, { connected: false });
+        
+          // rollback state
+          commit(WRITE_TABLE, { table: previousTable });
+          
+          // log error 
+          log.logException(error, "onUpdateDraftTable");
 
-        // notify user
-        messagebox.alert(
-          "Connection Error",
-          "<p>An error occurred while communicating with the draftpod server: " + error + "</p>" +
-          "Please ensure that your internet connection is working correctly before continuing with the draft."
-        );
-      });
+          // notify user
+          messagebox.alert(
+            "Connection Error",
+            "<p>An error occurred while communicating with the draftpod server: " + error + "</p>" +
+            "Please ensure that your internet connection is working correctly before continuing with the draft."
+          );
 
-  }
+          // resolve the promise
+          resolve();
+        });
+    } else {
+      resolve();
+    }
+  });
+
+  
+
 }
 
 function packToPick(set_code, player_id, table, card, pile_number, insertBefore) {

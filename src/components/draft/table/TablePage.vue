@@ -106,53 +106,49 @@ export default {
     if (this.isMobile && !this.isTablet)
       this.isPhone = true;
 
-    // client_id before we resume the draft (allow it once during initial sync)
-    let oldClientId = this.active_player.client_id;
-
     // resume draft
-    this.resumeDraft();
+    this.resumeDraft().then(() => {
+      
+      // multiplayer
+      if (this.options.multi_player) {
 
-    // multiplayer
-    if (this.options.multi_player) {
+        // track firestore
+        this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
 
-      // track firestore
-      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
+          // get activePlayer reference
+          let player = selectors.activePlayer(this.player.id, table);
 
-        // get activePlayer reference
-        let player = selectors.activePlayer(this.player.id, table);
-
-        // if we aren't using the old client id then validate it hasn't changed
-        if (!player || player.client_id !== oldClientId) {
+          // validate that the client hasn't changed
           if (!firestore.validateClient(this.player.id, this.client_id, table)) {
             this.writeTable({ table });
             this.setConnected({ connected: false });
             this.firestoreUnsubscribe();
             return;
           }
-        }
+          
+          // ignore if we already have this update version (this effectively ignores
+          // changes that we already have locally since we wrote them)
+          if (table.update_version === this.table.update_version)
+            return;
 
-        // ignore if we already have this update version (this effectively ignores
-        // changes that we already have locally since we wrote them)
-        if (table.update_version === this.table.update_version)
-          return;
+          // ignore if the pick number is less than we have locally (as that 
+          // implies this is from an older state and will therefore be soon
+          // replaced with a newer state)
+          if (player.picks.pick_order.length < this.active_player.picks.pick_order.length)
+            return;
 
-        // ignore if the pick number is less than we have locally (as that 
-        // implies this is from an older state and will therefore be soon
-        // replaced with a newer state)
-        if (player.picks.pick_order.length < this.active_player.picks.pick_order.length)
-          return;
+          // prevent changes to this player's picks and deck (prevent flashback which
+          // occurs when receiving changes from other players that don't reflect the
+          // latest picks or deck state for this player)  
+          player.picks = this.active_player.picks;
+          player.deck = this.active_player.deck;
 
-        // prevent changes to this player's picks and deck (prevent flashback which
-        // occurs when receiving changes from other players that don't reflect the
-        // latest picks or deck state for this player)  
-        player.picks = this.active_player.picks;
-        player.deck = this.active_player.deck;
+          // write locally. 
+          this.writeTable({ table });
 
-        // write locally. 
-        this.writeTable({ table });
-
-      });
-    }
+        });
+      }
+    });
 
     // update fullscreen state on change
     this.onFullscreenChange();
