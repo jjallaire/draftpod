@@ -27,15 +27,21 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-// attempt to login to firebase
-firebase.auth().signInAnonymously()
-  .then(response => {
-    initApp(response.user.uid);
-  })
-  .catch((error) => {
-    log.logException(error, "onAnonymousSignIn");
-    initApp();
-  });
+// login to firebase
+firebase.auth().onAuthStateChanged(function(user) {
+  if (user) {
+    initApp(user.uid);
+  } else {
+    firebase.auth().signInAnonymously()
+      .then(response => {
+        initApp(response.user.uid);
+      })
+      .catch(error => {
+        log.logException(error, "onAnonymousSignIn");
+        initApp();
+      });
+  }
+});
 
 function initApp(firebase_uid) {
 
