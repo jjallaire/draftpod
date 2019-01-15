@@ -32,7 +32,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 0.5
+    "rating": 1
   },
   {
     "id": 500152,
@@ -67,7 +67,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 500002,
@@ -136,7 +136,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 500031,
@@ -153,7 +153,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 500004,
@@ -222,7 +222,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 500154,
@@ -276,7 +276,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 500062,
@@ -433,7 +433,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 500063,
@@ -485,7 +485,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 500159,
@@ -572,7 +572,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 500160,
@@ -590,7 +590,7 @@
       "R"
     ],
     "rarity": "mythic",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 500222,
@@ -728,7 +728,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 500162,
@@ -746,7 +746,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 500034,
@@ -833,7 +833,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 500007,
@@ -842,7 +842,7 @@
     "multiverse_ids": [
       500007
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547234366"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547504593"],
     "type_line": "Creature — Pegasus",
     "mana_cost": "{1}{W}",
     "cmc": 2,
@@ -868,7 +868,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 500069,
@@ -937,7 +937,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 500097,
@@ -954,7 +954,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 500071,
@@ -1059,7 +1059,7 @@
       "R"
     ],
     "rarity": "mythic",
-    "rating": 4
+    "rating": 4.5
   },
   {
     "id": 500167,
@@ -1077,7 +1077,7 @@
       "W"
     ],
     "rarity": "mythic",
-    "rating": 3.5
+    "rating": 4
   },
   {
     "id": 500168,
@@ -1095,7 +1095,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 500073,
@@ -1198,7 +1198,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 500170,
@@ -1250,7 +1250,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 500039,
@@ -1267,7 +1267,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 500100,
@@ -1302,7 +1302,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 500172,
@@ -1492,7 +1492,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 500247,
@@ -1559,7 +1559,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 500127,
@@ -1576,7 +1576,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 500233,
@@ -1591,7 +1591,7 @@
     "cmc": 2,
     "colors": [],
     "rarity": "rare",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 500104,
@@ -1608,7 +1608,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 500248,
@@ -1626,7 +1626,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 500177,
@@ -1679,7 +1679,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 500128,
@@ -1696,7 +1696,7 @@
       "G"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 500178,
@@ -1714,7 +1714,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 3
   },
   {
     "id": 500129,
@@ -1731,7 +1731,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 500249,
@@ -1942,7 +1942,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 500183,
@@ -2029,7 +2029,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 500131,
@@ -2132,7 +2132,7 @@
       "W"
     ],
     "rarity": "mythic",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 500187,
@@ -2150,7 +2150,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 4
   },
   {
     "id": 500014,
@@ -2167,7 +2167,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 500188,
@@ -2185,7 +2185,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 500189,
@@ -2203,7 +2203,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 500190,
@@ -2238,7 +2238,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 500015,
@@ -2324,7 +2324,7 @@
       "U"
     ],
     "rarity": "mythic",
-    "rating": 4.5
+    "rating": 4
   },
   {
     "id": 500016,
@@ -2341,7 +2341,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 500108,
@@ -2358,7 +2358,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 500192,
@@ -2445,7 +2445,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 500252,
@@ -2481,7 +2481,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 0.5
+    "rating": 1
   },
   {
     "id": 500080,
@@ -2498,7 +2498,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 500044,
@@ -2532,7 +2532,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 4
+    "rating": 3.5
   },
   {
     "id": 500194,
@@ -2550,7 +2550,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 500082,
@@ -2582,7 +2582,7 @@
     "cmc": 0,
     "colors": [],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 500045,
@@ -2651,7 +2651,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 0.5
   },
   {
     "id": 500046,
@@ -2792,7 +2792,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 500199,
@@ -2828,7 +2828,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 500018,
@@ -2845,7 +2845,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 500134,
@@ -2862,7 +2862,7 @@
       "G"
     ],
     "rarity": "rare",
-    "rating": 0.5
+    "rating": 0
   },
   {
     "id": 500135,
@@ -2879,7 +2879,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 500200,
@@ -2914,7 +2914,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 500227,
@@ -2949,7 +2949,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 500228,
@@ -2967,7 +2967,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 500201,
@@ -2985,7 +2985,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 500109,
@@ -3055,7 +3055,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 500110,
@@ -3090,7 +3090,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 500112,
@@ -3124,7 +3124,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 500138,
@@ -3158,7 +3158,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 0.5
+    "rating": 1
   },
   {
     "id": 500140,
@@ -3175,7 +3175,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 500203,
@@ -3193,7 +3193,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 500113,
@@ -3210,7 +3210,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 500238,
@@ -3240,7 +3240,7 @@
     "cmc": 1,
     "colors": [],
     "rarity": "uncommon",
-    "rating": 1
+    "rating": 0.5
   },
   {
     "id": 500218,
@@ -3276,7 +3276,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 500219,
@@ -3399,7 +3399,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 500207,
@@ -3435,7 +3435,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 500240,
@@ -3487,7 +3487,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 500115,
@@ -3538,7 +3538,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 500054,
@@ -3555,7 +3555,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 500116,
@@ -3572,7 +3572,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 500022,
@@ -3679,7 +3679,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 500209,
@@ -3697,7 +3697,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 500118,
@@ -3714,7 +3714,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 500086,
@@ -3731,7 +3731,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 500023,
@@ -3766,7 +3766,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 500259,
@@ -3784,7 +3784,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 500143,
@@ -3887,7 +3887,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 500211,
@@ -4026,7 +4026,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 500229,
@@ -4044,7 +4044,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 4
+    "rating": 3.5
   },
   {
     "id": 500120,
@@ -4110,7 +4110,7 @@
     "cmc": 5,
     "colors": [],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 500147,
@@ -4247,7 +4247,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 500220,
@@ -4334,7 +4334,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 500060,
@@ -4404,6 +4404,6 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   }
 ]
