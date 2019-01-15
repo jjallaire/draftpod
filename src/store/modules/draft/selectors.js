@@ -103,7 +103,7 @@ export function draftThumbnail(player_id, draft) {
   let player = activePlayer(player_id, draft.table);
   let active_cards = activeCards(player_id, draft.table);
   if (active_cards.length > 0)
-    return cardImageUris(draftbot.pick(player.bot, draft.set.code, active_cards, active_cards))[0];
+    return cardImageUris(draftbot.pick(player.bot, active_cards, active_cards))[0];
   else 
     return null;
 }

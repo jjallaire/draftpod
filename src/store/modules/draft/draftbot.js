@@ -1,24 +1,45 @@
 
-import * as set from './set'
-
 // create a new draft bot
 export function create() {
   return {
+    // does the bot have a color preference?
+    color_preference: {
+      color: sampleFrom([...new Array(15).fill(null), 'R', 'W', 'G', 'B', 'U']),
+      picks: sampleFrom([2, 3, 4, 5])
+    },
+
+    // at what pick do we start giving on-color cards a slight
+    // bias compared to off-color cards?
+    color_bias_threshold: sampleFrom([5, 7, 7, 9]),
+
+    // after what pick do we stop considering off-color cards even if
+    // they have a very high rating?
+    color_lock_threshold: sampleFrom([16, 18, 20]),
+
+    // variance for distribution of ratings
+    variance: sampleFrom([0, 0, 0, 0.1, 0.1, 0.1, 0.1, 0.2, 0.2, 0.2])
 
   };
 }
 
+// create a 'default' auto-pick bot
+export function createAutoPicker() {
+  return {
+    color_preference: null,
+    color_bias_threshold: 7,
+    color_lock_threshold: 20,
+    variance: 0
+  };
+}
+
 // pick a card given deck and pack
-export function pick(bot, set_code, deck, pack) {
-  let ratings = cardRatings(bot, set_code, deck, pack, false);
+export function pick(bot, deck, pack) {
+  let ratings = cardRatings(bot, deck, pack, false);
   return ratings[0].card;
 }
 
 // determine the ratings for all cards in a pack
-export function cardRatings(bot, set_code, deck, pack, display) {
-
-  // provide default bot if none is specified
-  bot = bot || create();
+export function cardRatings(bot, deck, pack, display) {
 
   // determine the colors used within the deck (2 colors with the
   // highest overall power-level)
@@ -27,20 +48,31 @@ export function cardRatings(bot, set_code, deck, pack, display) {
   // how many picks have we made?
   let pick_number = deck.length + 1;
 
-  // at what pick do we start giving on-color cards a slight
-  // bias compared to off-color cards?
-  let color_bias_pick = 7;
-  
-  // after what pick do we stop considering off-color cards even if
-  // they have a very high rating?
-  let color_lock_pick = set.pack_cards(set_code) + 4;
-
   // function to compare ratings (breaking ties w/ the color_bonus)
   function compareRatings(a, b) {
     if (a.rating === b.rating)
       return b.color_bonus - a.color_bonus;
     else
       return b.rating - a.rating;
+  }
+
+  // function to adjust card ratings (i.e. give them some variance to 
+  // simulate disagreement on card evaluation)
+  function adjustedRating(card) {
+   
+    // apply some variance to card evaluation
+    let rating = normalRandom(card.rating, bot.variance);
+
+    // bias to preferred color in early picks
+    if (bot.color_preference) {
+      if (pick_number <= bot.color_preference.picks &&
+          card.colors.indexOf(bot.color_preference.color) !== -1) {
+        rating += 1.0;
+      }
+    }
+
+    // return adjusted rating
+    return rating;
   }
 
   // return ratings                               
@@ -53,17 +85,18 @@ export function cardRatings(bot, set_code, deck, pack, display) {
       let color_bonus = colorBonus(deck, deck_colors, card);
 
       // provide a color bias past a certain threshold
-      if (pick_number >= color_bias_pick) {
+      if (pick_number >= bot.color_bias_threshold) {
         if (color_bonus > 0)
           color_bonus += 0.5;
       }
       
       // return the card and the various components of the final adjusted rating
+      let rating = adjustedRating(card);
       return {
         card: card,
-        base_rating: card.rating,
+        base_rating: rating,
         color_bonus: color_bonus,
-        rating: card.rating + color_bonus
+        rating: rating + color_bonus
       }
     })
 
@@ -85,19 +118,17 @@ export function cardRatings(bot, set_code, deck, pack, display) {
           return b.base_rating - a.base_rating;
 
         // before pick ~ 20 we'll just compare the ratings
-        else if (pick_number <= color_lock_pick)
+        else if (pick_number <= bot.color_lock_threshold)
           return compareRatings(a, b);
     
         // otherwise, after ~ pick 20 we will refuse to order 
         // a card without a color bonus above one with a color bonus
-        else {
-          if (b.color_bonus == 0 && a.color_bonus !== 0)
-            return -1;
-          else if (a.color_bonus == 0 && b.color_bonus !== 0)
-            return 1;
-          else
-            return compareRatings(a, b);
-        }
+        else if (b.color_bonus == 0 && a.color_bonus !== 0)
+          return -1;
+        else if (a.color_bonus == 0 && b.color_bonus !== 0)
+          return 1;
+        else
+          return compareRatings(a, b);
       }
     });
 
@@ -175,4 +206,26 @@ function colorBonus(deck, deck_colors, card) {
   ];
   return color_bonus_factor * color_bounus_level;
 
+}
+
+
+// function to yield a number from normal random distribution
+function normalRandom(mean, variance) {
+  let v1, v2, s;
+  do {
+    let u1 = Math.random();
+    let u2 = Math.random();
+    v1 = 2 * u1 - 1;
+    v2 = 2 * u2 - 1;
+    s = v1 * v1 + v2 * v2;
+  } while (s > 1);
+  let x = Math.sqrt(-2 * Math.log(s) / s) * v1;
+  x = mean + Math.sqrt(variance) * x;
+  return x;
+}
+
+function sampleFrom(arr) {
+  let index = Math.floor(Math.random() * arr.length);
+  index = Math.min(index, arr.length - 1);
+  return arr[index];
 }

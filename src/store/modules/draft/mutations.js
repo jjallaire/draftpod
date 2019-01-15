@@ -5,6 +5,7 @@ export const SET_CONNECTED = 'SET_CONNECTED'
 export const SET_SHOW_BOT_COLORS = 'SET_SHOW_BOT_COLORS'
 
 import * as set from './set/'
+import * as draftbot from './draftbot'
 
 import shortUuid from 'short-uuid'
 import _shuffle from 'lodash/shuffle'
@@ -37,6 +38,7 @@ export default {
       // set the player info to the first player
       table.players[0].id = player.id;
       table.players[0].name = player.name;
+      table.players[0].bot = draftbot.createAutoPicker();
 
       // initialize packs
       table.all_packs = [...Array(24)].map(function() {

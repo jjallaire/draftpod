@@ -186,6 +186,7 @@ function joinDraft(player_info, table) {
 
     player.id = player_info.id;
     player.name = player_info.name;
+    player.bot = draftbot.createAutoPicker();
     return true;
 
     // otherwise find a seat at the table
@@ -289,7 +290,7 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore)
 
   // null card means have the AI pick
   if (!card)  
-    card = draftbot.pick(player.bot, set_code, picks, player.packs[0]);
+    card = draftbot.pick(player.bot, picks, player.packs[0]);
 
   // it's possible that a card can be picked twice if there is flashback, in that
   // case simply ignore the request entirely
@@ -449,7 +450,7 @@ function draftBotPickAndPass(player_index, set_code, table) {
         player.packs[0].length > 0) {
         let pack = player.packs[0];
         let piles = player.picks.piles;
-        let card = draftbot.pick(player.bot, set_code, _flatten(piles), pack);
+        let card = draftbot.pick(player.bot, _flatten(piles), pack);
         makePick(current_index, set_code, table, null, card, null);
       }
     }
