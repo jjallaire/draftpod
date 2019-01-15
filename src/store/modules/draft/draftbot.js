@@ -10,12 +10,12 @@ export function create() {
 
 // pick a card given deck and pack
 export function pick(bot, set_code, deck, pack) {
-  let ratings = cardRatings(bot, set_code, deck, pack);
+  let ratings = cardRatings(bot, set_code, deck, pack, false);
   return ratings[0].card;
 }
 
 // determine the ratings for all cards in a pack
-export function cardRatings(bot, set_code, deck, pack) {
+export function cardRatings(bot, set_code, deck, pack, display) {
 
   // provide default bot if none is specified
   bot = bot || create();
@@ -34,6 +34,14 @@ export function cardRatings(bot, set_code, deck, pack) {
   // after what pick do we stop considering off-color cards even if
   // they have a very high rating?
   let color_lock_pick = set.pack_cards(set_code) + 4;
+
+  // function to compare ratings (breaking ties w/ the color_bonus)
+  function compareRatings(a, b) {
+    if (a.rating === b.rating)
+      return b.color_bonus - a.color_bonus;
+    else
+      return b.rating - a.rating;
+  }
 
   // return ratings                               
   return pack
@@ -63,27 +71,33 @@ export function cardRatings(bot, set_code, deck, pack) {
     // and rare-drafting
     .sort((a, b) => {
       
-      // tie in ratings goes to the larger color_bonus
-      if (a.rating === b.rating)
-        return b.color_bonus - a.color_bonus;
       
-      // if we see a ~ top 10 card we will always take it
-      else if (a.base_rating >= 4.5 || b.base_rating >= 4.5)
-        return b.base_rating - a.base_rating;
+      // if this is for display then we always use the straight rating
+      if (display) {
 
-      // before pick ~ 20 we'll just compare the ratings
-      else if (pick_number <= color_lock_pick)
-        return b.rating - a.rating
-     
-      // otherwise, after ~ pick 20 we will refuse to order 
-      // a card without a color bonus above one with a color bonus
-      else {
-        if (b.color_bonus == 0 && a.color_bonus !== 0)
-          return -1;
-        else if (a.color_bonus == 0 && b.color_bonus !== 0)
-          return 1;
-        else
-          return b.rating - a.rating;
+        return compareRatings(a, b);
+      
+      // otherwise make adjustments to the bot behavior as appropriate
+      } else {
+
+        // if we see a ~ top 10 card we will always take it
+        if (a.base_rating >= 4.5 || b.base_rating >= 4.5)
+          return b.base_rating - a.base_rating;
+
+        // before pick ~ 20 we'll just compare the ratings
+        else if (pick_number <= color_lock_pick)
+          return compareRatings(a, b);
+    
+        // otherwise, after ~ pick 20 we will refuse to order 
+        // a card without a color bonus above one with a color bonus
+        else {
+          if (b.color_bonus == 0 && a.color_bonus !== 0)
+            return -1;
+          else if (a.color_bonus == 0 && b.color_bonus !== 0)
+            return 1;
+          else
+            return compareRatings(a, b);
+        }
       }
     });
 

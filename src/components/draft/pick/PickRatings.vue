@@ -85,10 +85,9 @@ export default {
 <p class="ratings-note">
 Card ratings provide a rough idea of the relative power level between cards, 
 but don't necessarily reflect optimal draft selections. The pick rating displayed reflects a baseline
-card rating plus a bonus for matching the color of the deck (the bonuses are lower in pack 1). The bots 
-you are drafting with use this rating to make selections, however a human drafter will also consider 
-draft signals, deck synergies, mana curve, and creatue/spell ratio; often resulting in a
-different pick.
+card rating plus a bonus for matching the color of the deck (the bonuses are lower in pack 1). Ratings don't reflect
+draft signals, deck synergies, mana curve, and creatue/spell ratio&mdash;these considerations will often result in a
+pick different than the highest rated card.
 </p>
 
 </Drop>
