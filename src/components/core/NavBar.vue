@@ -79,7 +79,6 @@ export default {
 }
 
 
-
 .navbar .nav-link.icon-link {
   padding-top: 0;
   padding-bottom: 0.2rem;
@@ -104,8 +103,9 @@ export default {
   height: 26px;
 }
 
-.navbar-dark .navbar-nav {
-  padding-right: 8px;
+.navbar .navbar-nav .nav-link {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navbar .navbar-github-image {
