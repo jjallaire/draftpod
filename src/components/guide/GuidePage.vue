@@ -36,39 +36,39 @@ export default {
   <div class="row">
     <div class="col-md-3">
       <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <a class="nav-link active" id="v-pills-intro-tab" data-toggle="pill" href="#v-pills-intro" role="tab" aria-controls="v-pills-intro" aria-selected="true">Introduction</a>
-        <a class="nav-link" id="v-pills-single-player-tab" data-toggle="pill" href="#v-pills-single-player" role="tab" aria-controls="v-pills-single-player" aria-selected="false">Single-Player Drafts</a>
-        <a class="nav-link" id="v-pills-multi-player-tab" data-toggle="pill" href="#v-pills-multi-player" role="tab" aria-controls="v-pills-multi-player" aria-selected="false">Multi-Player Drafts</a>
-        <a class="nav-link" id="v-pills-draft-cube-tab" data-toggle="pill" href="#v-pills-draft-cube" role="tab" aria-controls="v-pills-draft-cube" aria-selected="false">Creating a Draft Cube</a>
-        <a class="nav-link" id="v-pills-faq-tab" data-toggle="pill" href="#v-pills-faq" role="tab" aria-controls="v-pills-faq" aria-selected="false">Frequently Asked Questions</a>
-        <a class="nav-link" id="v-pills-feedback-tab" data-toggle="pill" href="#v-pills-feedback" role="tab" aria-controls="v-pills-feedback" aria-selected="false">Feedback &amp; Support</a>
+        <a class="nav-link active" id="intro-tab" data-toggle="pill" href="#intro" role="tab" aria-controls="intro" aria-selected="true">Introduction</a>
+        <a class="nav-link" id="single-player-tab" data-toggle="pill" href="#single-player" role="tab" aria-controls="single-player" aria-selected="false">Single-Player Drafts</a>
+        <a class="nav-link" id="multi-player-tab" data-toggle="pill" href="#multi-player" role="tab" aria-controls="multi-player" aria-selected="false">Multi-Player Drafts</a>
+        <a class="nav-link" id="draft-cube-tab" data-toggle="pill" href="#draft-cube" role="tab" aria-controls="draft-cube" aria-selected="false">Creating a Draft Cube</a>
+        <a class="nav-link" id="faq-tab" data-toggle="pill" href="#faq" role="tab" aria-controls="faq" aria-selected="false">Frequently Asked Questions</a>
+        <a class="nav-link" id="feedback-tab" data-toggle="pill" href="#feedback" role="tab" aria-controls="feedback" aria-selected="false">Feedback &amp; Support</a>
       </div>
     </div>
 
     <div class="col-md-8">
       <div class="tab-content" id="v-pills-tabContent">
-        <div class="tab-pane fade show active" id="v-pills-intro" role="tabpanel" aria-labelledby="v-pills-intro-tab">
+        <div class="tab-pane fade show active" id="intro" role="tabpanel" aria-labelledby="intro-tab">
           <IntroMd/>
         </div>
         
-        <div class="tab-pane fade" id="v-pills-single-player" role="tabpanel" aria-labelledby="v-pills-single-player-tab">
+        <div class="tab-pane fade" id="single-player" role="tabpanel" aria-labelledby="single-player-tab">
           <SinglePlayerMd/>
         </div>
         
-        <div class="tab-pane fade" id="v-pills-multi-player" role="tabpanel" aria-labelledby="v-pills-multi-player-tab">
+        <div class="tab-pane fade" id="multi-player" role="tabpanel" aria-labelledby="multi-player-tab">
           <MultiPlayerMd/>
         </div>
 
-        <div class="tab-pane fade" id="v-pills-draft-cube" role="tabpanel" aria-labelledby="v-pills-draft-cube-tab">
+        <div class="tab-pane fade" id="draft-cube" role="tabpanel" aria-labelledby="draft-cube-tab">
           <DraftCubeMd/>
         </div>
 
 
-        <div class="tab-pane fade" id="v-pills-faq" role="tabpanel" aria-labelledby="v-pills-faq-tab">
+        <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
           <FAQMd/>
         </div>
         
-        <div class="tab-pane fade" id="v-pills-feedback" role="tabpanel" aria-labelledby="v-pills-feedback-tab">
+        <div class="tab-pane fade" id="feedback" role="tabpanel" aria-labelledby="feedback-tab">
           <FeedbackMd/>
         </div>
       </div>
