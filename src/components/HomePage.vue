@@ -41,8 +41,11 @@ export default {
         </li>
       </ul>
 
+      <router-link class="draftpod-learn-more btn btn-warning btn-lg" role="button" to="/guide/">
+        Learn More
+      </router-link> 
       <router-link class="draftpod-start-draft btn btn-success btn-lg" role="button" to="/draft/">
-        Start a Draft <ChevronIcon/>
+        Start a Draft <ChevronIcon />
       </router-link>
 
     </p>
@@ -75,7 +78,7 @@ export default {
 }
 
 .home-content .draftpod-screenshot {
-  width: 60%;
+  width: 50%;
   margin-right: 45px;
 }
 
@@ -83,9 +86,15 @@ export default {
   margin-bottom: 15px;
 }
 
-.home-content .draftpod-start-draft {
+.home-content .btn {
   margin-top: 20px;
 }
+
+.home-content .draftpod-learn-more {
+  margin-right: 20px;
+}
+
+
 
 .home-content .draftpod-start-draft svg {
   margin-bottom: 3px;
