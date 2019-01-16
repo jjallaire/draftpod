@@ -29,7 +29,7 @@ export default {
 
   <div class="container">
 
-  <h1>Guide to using draftpod</h1>
+  <h1>Using draftpod</h1>
 
   <hr/>
 
@@ -93,7 +93,11 @@ export default {
 }
 
 .guide-page h2 {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.guide-page h5 {
+  margin-top: 20px;
 }
 
 .guide-page .nav-pills .nav-link {
