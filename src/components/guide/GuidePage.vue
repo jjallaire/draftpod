@@ -26,17 +26,58 @@ https://codepen.io/moso/pen/vKGxMx
   <NavBar />
 
   <div class="container">
-  <div class="row"> 
-  <div class="col-sm-10">
 
-  <div class="faq-content">
-  
   <h1>Guide to using draftpod</h1>
 
+  <hr/>
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <a class="nav-link active" id="v-pills-intro-tab" data-toggle="pill" href="#v-pills-intro" role="tab" aria-controls="v-pills-intro" aria-selected="true">Intro to draftpod</a>
+        <a class="nav-link" id="v-pills-single-player-tab" data-toggle="pill" href="#v-pills-single-player" role="tab" aria-controls="v-pills-single-player" aria-selected="false">Single-Player Drafts</a>
+        <a class="nav-link" id="v-pills-multi-player-tab" data-toggle="pill" href="#v-pills-multi-player" role="tab" aria-controls="v-pills-multi-player" aria-selected="false">Multi-Player Drafts</a>
+        <a class="nav-link" id="v-pills-draft-cube-tab" data-toggle="pill" href="#v-pills-draft-cube" role="tab" aria-controls="v-pills-draft-cube" aria-selected="false">Creating a Draft Cube</a>
+        <a class="nav-link" id="v-pills-faq-tab" data-toggle="pill" href="#v-pills-faq" role="tab" aria-controls="v-pills-faq" aria-selected="false">Frequently Asked Questions</a>
+        <a class="nav-link" id="v-pills-feedback-tab" data-toggle="pill" href="#v-pills-feedback" role="tab" aria-controls="v-pills-feedback" aria-selected="false">Feedback &amp; Support</a>
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-intro" role="tabpanel" aria-labelledby="v-pills-intro-tab">
+          Intro. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+        </div>
+        
+        <div class="tab-pane fade" id="v-pills-single-player" role="tabpanel" aria-labelledby="v-pills-single-player-tab">
+          Single Player. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+        </div>
+        
+        <div class="tab-pane fade" id="v-pills-multi-player" role="tabpanel" aria-labelledby="v-pills-multi-player-tab">
+          Multi Player. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+        </div>
+
+        <div class="tab-pane fade" id="v-pills-draft-cube" role="tabpanel" aria-labelledby="v-pills-draft-cube-tab">
+          Cube. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+        </div>
+
+
+        <div class="tab-pane fade" id="v-pills-faq" role="tabpanel" aria-labelledby="v-pills-faq-tab">
+          FAQ. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+        </div>
+        
+        <div class="tab-pane fade" id="v-pills-feedback" role="tabpanel" aria-labelledby="v-pills-feedback-tab">
+          Feedback. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
   <h3>What is draftpod?</h3>
 
   <p>
-    Draftpod is a Magic the Gathering draft simulator. 
+    Draftpod is an MTG draft simulator. 
     Booter draft is one of the most enjoyable ways to play Magic, however drafts typically require 6-8 players. 
     A draft simulator allows you draft by yourself (for practice), or to conduct drafts with smaller groups of players, 
     in which case simulated players (draft bots) take the other seats at the table.
@@ -96,40 +137,20 @@ https://codepen.io/moso/pen/vKGxMx
     Once draftpod knows about your cardpool you are ready to draft. After the draft completes you can download a 
     decklist, pull those cards out of the cardpool, and play your games!
   </p>
-
-
-  </div>
-  </div>
-  </div>
+  -->
 
   <SiteFooter />
 
   </div>
-  
+
   </div>
+  
+
 
 </template>
 
 
 <style>
-
-.faq-content {
-  min-height: 70vh;
-}
-
-.faq-content h1 {
-  margin-bottom: 30px;
-}
-
-.faq-content h3 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.faq-content p,
-.faq-content ul {
-  font-size: 1.2em;
-}
 
 </style>
 
