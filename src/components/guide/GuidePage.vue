@@ -88,6 +88,10 @@ export default {
 
 <style>
 
+.guide-page a {
+  color: #d9d9d9;
+}
+
 .guide-page h2 {
   margin-bottom: 25px;
 }
