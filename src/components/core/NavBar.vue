@@ -24,6 +24,12 @@
       </router-link>
     </ul>
     
+    <!--
+    <a href="https://github.com/jjallaire/draftpod">
+      <img class="navbar-github-image" src="/images/github.png"/>
+    </a>
+    -->
+
   </nav>
 </template>
 
@@ -59,12 +65,6 @@ export default {
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255,255,255,0.7);
 }
-
-/*
-.navbar-dark .navbar-nav {
-  padding-right: 8px;
-}
-*/
 
 .navbar-dark .navbar-text {
   color: rgba(255,255,255,0.7);
@@ -102,6 +102,19 @@ export default {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
   height: 26px;
+}
+
+.navbar-dark .navbar-nav {
+  padding-right: 8px;
+}
+
+.navbar .navbar-github-image {
+  height: 15px;
+  margin-top: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 3px;
+  vertical-align: initial;
 }
 
 .navbar .navbar-text {
