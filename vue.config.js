@@ -1,5 +1,6 @@
 
 module.exports = {
+
   pages: {
     index: {
       // entry for the page
@@ -11,13 +12,26 @@ module.exports = {
     },
   },
 
+
   chainWebpack: config => {
     config
+      .module.rule('md')
+        .test(/\.md/)
+        .use('vue-loader')
+        .loader('vue-loader')
+        .end()
+        .use('vue-markdown-loader')
+        .loader('vue-markdown-loader/lib/markdown-compiler')
+        .options({
+          raw: true
+        });
+
+    config    
       .plugin('copy')
-      .tap(args => {
-        args[0][0].ignore.push('images/cards/*');
-        return args;
-      })
+        .tap(args => {
+          args[0][0].ignore.push('images/cards/*');
+          return args;
+        });
   }
   
 }

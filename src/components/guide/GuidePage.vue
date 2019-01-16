@@ -3,21 +3,23 @@
 import NavBar from '../core/NavBar.vue'
 import SiteFooter from '../core/SiteFooter.vue'
 
+import IntroMd from './articles/intro.md'
+import SinglePlayerMd from './articles/single-player.md'
+import MultiPlayerMd from './articles/multi-player.md'
+import DraftCubeMd from './articles/draft-cube.md'
+import FAQMd from './articles/faq.md'
+import FeedbackMd from './articles/feedback.md'
+
 export default {
   name: 'GuidePage',
 
   components: {
-    NavBar, SiteFooter
+    NavBar, SiteFooter, 
+    IntroMd, SinglePlayerMd, MultiPlayerMd, DraftCubeMd, FAQMd, FeedbackMd
   }
 }
 
 </script>
-
-<!---
-
-https://codepen.io/moso/pen/vKGxMx
-
--->
 
 <template>
  
@@ -34,7 +36,7 @@ https://codepen.io/moso/pen/vKGxMx
   <div class="row">
     <div class="col-md-3">
       <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <a class="nav-link active" id="v-pills-intro-tab" data-toggle="pill" href="#v-pills-intro" role="tab" aria-controls="v-pills-intro" aria-selected="true">Intro to draftpod</a>
+        <a class="nav-link active" id="v-pills-intro-tab" data-toggle="pill" href="#v-pills-intro" role="tab" aria-controls="v-pills-intro" aria-selected="true">Introduction</a>
         <a class="nav-link" id="v-pills-single-player-tab" data-toggle="pill" href="#v-pills-single-player" role="tab" aria-controls="v-pills-single-player" aria-selected="false">Single-Player Drafts</a>
         <a class="nav-link" id="v-pills-multi-player-tab" data-toggle="pill" href="#v-pills-multi-player" role="tab" aria-controls="v-pills-multi-player" aria-selected="false">Multi-Player Drafts</a>
         <a class="nav-link" id="v-pills-draft-cube-tab" data-toggle="pill" href="#v-pills-draft-cube" role="tab" aria-controls="v-pills-draft-cube" aria-selected="false">Creating a Draft Cube</a>
@@ -46,28 +48,28 @@ https://codepen.io/moso/pen/vKGxMx
     <div class="col-md-8">
       <div class="tab-content" id="v-pills-tabContent">
         <div class="tab-pane fade show active" id="v-pills-intro" role="tabpanel" aria-labelledby="v-pills-intro-tab">
-          Intro. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+          <IntroMd/>
         </div>
         
         <div class="tab-pane fade" id="v-pills-single-player" role="tabpanel" aria-labelledby="v-pills-single-player-tab">
-          Single Player. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+          <SinglePlayerMd/>
         </div>
         
         <div class="tab-pane fade" id="v-pills-multi-player" role="tabpanel" aria-labelledby="v-pills-multi-player-tab">
-          Multi Player. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+          <MultiPlayerMd/>
         </div>
 
         <div class="tab-pane fade" id="v-pills-draft-cube" role="tabpanel" aria-labelledby="v-pills-draft-cube-tab">
-          Cube. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+          <DraftCubeMd/>
         </div>
 
 
         <div class="tab-pane fade" id="v-pills-faq" role="tabpanel" aria-labelledby="v-pills-faq-tab">
-          FAQ. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+          <FAQMd/>
         </div>
         
         <div class="tab-pane fade" id="v-pills-feedback" role="tabpanel" aria-labelledby="v-pills-feedback-tab">
-          Feedback. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit sapien a interdum egestas. Duis id odio eu libero tempor pellentesque. Nullam pharetra et eros non elementum. Curabitur nec congue enim. Mauris tristique interdum vestibulum. Vestibulum ipsum turpis, aliquet ut imperdiet non, facilisis vel quam. Etiam condimentum sem a erat volutpat tristique. Nulla luctus rutrum luctus. Donec sed ex sed neque venenatis imperdiet eget nec tellus. Suspendisse potenti. Vestibulum elementum nisl lacus, sed molestie nunc fringilla eget. Pellentesque at aliquet orci. Fusce hendrerit sapien vel justo suscipit euismod. Nulla efficitur quam eu semper fermentum. Praesent eu aliquam enim, eu tincidunt elit. In ullamcorper, odio sit amet bibendum pulvinar, sem sapien sollicitudin nibh, sit amet consequat massa erat in eros.
+          <FeedbackMd/>
         </div>
       </div>
     </div>
