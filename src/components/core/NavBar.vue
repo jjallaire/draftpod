@@ -19,11 +19,9 @@
       <router-link tag="li" class="nav-item" active-class="active" to="/draft/">
         <a class="nav-link">Draft</a>
       </router-link>
-      <!--
-      <router-link tag="li" class="nav-item" active-class="active" to="/faq/">
-        <a class="nav-link">FAQ</a>
+      <router-link tag="li" class="nav-item" active-class="active" to="/guide/">
+        <a class="nav-link">Guide</a>
       </router-link>
-      -->
     </ul>
     
   </nav>

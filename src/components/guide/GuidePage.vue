@@ -1,10 +1,10 @@
 <script>
 
-import NavBar from './core/NavBar.vue'
-import SiteFooter from './core/SiteFooter.vue'
+import NavBar from '../core/NavBar.vue'
+import SiteFooter from '../core/SiteFooter.vue'
 
 export default {
-  name: 'FAQPage',
+  name: 'GuidePage',
 
   components: {
     NavBar, SiteFooter
@@ -12,6 +12,12 @@ export default {
 }
 
 </script>
+
+<!---
+
+https://codepen.io/moso/pen/vKGxMx
+
+-->
 
 <template>
  
@@ -25,7 +31,7 @@ export default {
 
   <div class="faq-content">
   
-  <h1>Frequently Asked Questions</h1>
+  <h1>Guide to using draftpod</h1>
 
   <h3>What is draftpod?</h3>
 

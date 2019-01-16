@@ -7,7 +7,7 @@ import TablePage from './components/draft/table/TablePage.vue'
 import JoinPage from './components/JoinPage.vue'
 import NavigatorPage from './components/navigator/NavigatorPage.vue'
 import SimulatorPage from './components/SimulatorPage.vue'
-import FAQPage from './components/FAQPage.vue'
+import GuidePage from './components/guide/GuidePage.vue'
 import NotFoundPage from './components/NotFoundPage.vue'
 
 import { store, useDraftModule } from './store'
@@ -88,8 +88,8 @@ export default new VueRouter({
         });
       }
     },
+    { path: '/guide/', component: GuidePage },
     { path: '/simulator/', component: SimulatorPage },
-    { path: '/faq/', component: FAQPage },
     { path: '*', component: NotFoundPage }
   ],
   
