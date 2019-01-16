@@ -88,6 +88,10 @@ export default {
 
 <style>
 
+.guide-page h2 {
+  margin-bottom: 25px;
+}
+
 .guide-page .nav-pills .nav-link {
   padding-top: 20px;
   padding-bottom: 20px;
