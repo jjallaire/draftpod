@@ -21,7 +21,7 @@ https://codepen.io/moso/pen/vKGxMx
 
 <template>
  
-  <div>
+  <div class="guide-page">
     
   <NavBar />
 
@@ -151,6 +151,13 @@ https://codepen.io/moso/pen/vKGxMx
 
 
 <style>
+
+.guide-page .nav-pills .nav-link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  border-radius: 0;
+}
 
 </style>
 
