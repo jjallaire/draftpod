@@ -104,8 +104,8 @@ export default {
 }
 
 .navbar .navbar-nav .nav-link {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 .navbar .navbar-github-image {
