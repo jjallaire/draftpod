@@ -32,7 +32,9 @@ It's ultimately up to you how to balance considerations of cost and variety when
 
 Once you've assmbled the cards, you need to sort them by collector number (which appears in the bottom left hand corder of each cards). The most efficient way to do this is typically to first sort by color, and then sort by collector number within each color.
 
-Once the cards are ordered, you should enter them 
+Once the cards are ordered, you need to enter them into a [Decked Builder]() collection. Note that you aren't strictly required to use Decked Builder, it's just the most straightforward alternative (details on using other methods are provided below). 
+
+Decked Builder includes a set entry mode that will allow you to quickly enter the quantity of each card you have. 
 
 
 
