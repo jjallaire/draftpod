@@ -65,7 +65,7 @@ export default {
   <div class="row">
     <div class="col-md-3">
       <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <a class="nav-link active" id="intro-tab" data-toggle="pill" href="#intro" role="tab" aria-controls="intro" aria-selected="true">Introduction</a>
+        <a class="nav-link active" id="intro-tab" data-toggle="pill" href="#intro" role="tab" aria-controls="intro" aria-selected="true">Welcome</a>
         <a class="nav-link" id="single-player-tab" data-toggle="pill" href="#single-player" role="tab" aria-controls="single-player" aria-selected="false">Single-Player Drafts</a>
         <a class="nav-link" id="multi-player-tab" data-toggle="pill" href="#multi-player" role="tab" aria-controls="multi-player" aria-selected="false">Multi-Player Drafts</a>
         <a class="nav-link" id="draft-cube-tab" data-toggle="pill" href="#draft-cube" role="tab" aria-controls="draft-cube" aria-selected="false">Creating a Draft Cube</a>
