@@ -1,13 +1,13 @@
 "id","name","rating"
 457145,"Angel of Grace",4.5
-457146,"Angelic Exaltation",2
-457147,"Archway Angel",2
-457148,"Arrester's Zeal",2
+457146,"Angelic Exaltation",2.5
+457147,"Archway Angel",2.5
+457148,"Arrester's Zeal",1.5
 457149,"Bring to Trial",2
 457150,"Civic Stalwart",2
 457151,"Concordia Pegasus",2
-457152,"Expose to Daylight",0.5
-457153,"Forbidding Spirit",2.5
+457152,"Expose to Daylight",1
+457153,"Forbidding Spirit",3
 457154,"Haazda Officer",1.5
 457155,"Hero of Precinct One",3.5
 457156,"Impassioned Orator",2
@@ -18,18 +18,18 @@
 457161,"Prowling Caracal",0.5
 457162,"Rally to Battle",1.5
 457163,"Resolute Watchdog",2
-457164,"Sentinel's Mark",2.5
-457165,"Sky Tether",2.5
+457164,"Sentinel's Mark",2
+457165,"Sky Tether",2
 457166,"Smothering Tithe",1
 457167,"Spirit of the Spires",3
 457168,"Summary Judgment",3
-457169,"Syndicate Messenger",3
+457169,"Syndicate Messenger",2.5
 457170,"Tenth District Veteran",1.5
 457171,"Tithe Taker",3
 457172,"Twilight Panther",2
-457173,"Unbreakable Formation",3.5
+457173,"Unbreakable Formation",3
 457174,"Watchful Giant",1
-457175,"Arrester's Admonition",2.5
+457175,"Arrester's Admonition",2
 457176,"Benthic Biomancer",3
 457177,"Chillbringer",3
 457178,"Clear the Mind",0
@@ -37,20 +37,20 @@
 457180,"Coral Commando",0
 457181,"Essence Capture",2.5
 457182,"Eyes Everywhere",1
-457183,"Faerie Duelist",2
+457183,"Faerie Duelist",2.5
 457184,"Gateway Sneak",3
-457185,"Humongulus",1
+457185,"Humongulus",1.5
 457186,"Mass Manipulation",3.5
 457187,"Mesmerizing Benthid",4
 457188,"Persistent Petitioners",1
-457189,"Precognitive Perception",3.5
+457189,"Precognitive Perception",3
 457190,"Prying Eyes",1
 457191,"Pteramander",3
 457192,"Quench",1.5
 457193,"Sage's Row Savant",2.5
 457194,"Senate Courier",1.5
 457195,"Shimmer of Possibility",1.5
-457196,"Skatewing Spy",3
+457196,"Skatewing Spy",3.5
 457197,"Skitter Eel",2.5
 457198,"Slimebind",2
 457199,"Sphinx of Foresight",4
@@ -65,24 +65,24 @@
 457208,"Bladebrand",2
 457209,"Bloodmist Infiltrator",1.5
 457210,"Carrion Imp",1.5
-457211,"Catacomb Crocodile",1.5
-457212,"Clear the Stage",3.5
+457211,"Catacomb Crocodile",1
+457212,"Clear the Stage",3
 457213,"Consign to the Pit",3
-457214,"Cry of the Carnarium",3.5
+457214,"Cry of the Carnarium",3
 457215,"Dead Revels",1.5
-457216,"Debtors' Transport",1
-457217,"Drill Bit",1.5
+457216,"Debtors' Transport",1.5
+457217,"Drill Bit",1
 457218,"Font of Agonies",0.5
 457219,"Grotesque Demise",3
-457220,"Gutterbones",3
-457221,"Ill-Gotten Inheritance",2
+457220,"Gutterbones",2.5
+457221,"Ill-Gotten Inheritance",1.5
 457222,"Noxious Groodion",2.5
 457223,"Orzhov Enforcer",3.5
-457224,"Orzhov Racketeers",3
-457225,"Pestilent Spirit",3.5
-457226,"Plague Wight",1.5
+457224,"Orzhov Racketeers",2.5
+457225,"Pestilent Spirit",4
+457226,"Plague Wight",2
 457227,"Priest of Forgotten Gods",2.5
-457228,"Rakdos Trumpeter",1.5
+457228,"Rakdos Trumpeter",2
 457229,"Spawn of Mayhem",4.5
 457230,"Spire Mangler",3
 457231,"Thirsting Shade",1
@@ -92,10 +92,10 @@
 457235,"Act of Treason",1
 457236,"Amplifire",3
 457237,"Burn Bright",1
-457238,"Burning-Tree Vandal",2.5
+457238,"Burning-Tree Vandal",3
 457239,"Cavalcade of Calamity",0.5
 457240,"Clamor Shaman",3
-457241,"Dagger Caster",3.5
+457241,"Dagger Caster",3
 457242,"Deface",0
 457243,"Electrodominance",4
 457244,"Feral Maaka",1
@@ -105,12 +105,12 @@
 457248,"Goblin Gathering",1.5
 457249,"Gravel-Hide Goblin",1.5
 457250,"Immolation Shaman",3
-457251,"Light Up the Stage",2.5
-457252,"Mirror March",1.5
+457251,"Light Up the Stage",3
+457252,"Mirror March",1
 457253,"Rix Maadi Reveler",3.5
 457254,"Rubble Reading",0
 457255,"Rubblebelt Recluse",2
-457256,"Rumbling Ruin",2
+457256,"Rumbling Ruin",2.5
 457257,"Scorchmark",3
 457258,"Skarrgan Hellkite",4.5
 457259,"Skewer the Critics",3.5
@@ -125,48 +125,48 @@
 457268,"End-Raze Forerunners",3.5
 457269,"Enraged Ceratok",3
 457270,"Gatebreaker Ram",2
-457271,"Gift of Strength",2
+457271,"Gift of Strength",1.5
 457272,"Growth-Chamber Guardian",3
 457273,"Gruul Beastmaster",3
 457274,"Guardian Project",3
 457275,"Incubation Druid",3.5
-457276,"Mammoth Spider",2.5
+457276,"Mammoth Spider",2
 457277,"Open the Gates",1.5
 457278,"Rampage of the Clans",0.5
-457279,"Rampaging Rendhorn",3
+457279,"Rampaging Rendhorn",2.5
 457280,"Regenesis",1
 457281,"Root Snare",0
-457282,"Sagittars' Volley",1
+457282,"Sagittars' Volley",1.5
 457283,"Saruli Caretaker",1
 457284,"Sauroform Hybrid",3
 457285,"Silhana Wayfinder",3
-457286,"Steeple Creeper",2
-457287,"Stony Strength",1.5
+457286,"Steeple Creeper",1.5
+457287,"Stony Strength",2
 457288,"Sylvan Brushstrider",1
 457289,"Territorial Boar",1.5
 457290,"Titanic Brawl",3
-457291,"Tower Defense",0.5
+457291,"Tower Defense",0
 457292,"Trollbred Guardian",3.5
-457293,"Wilderness Reclamation",1.5
+457293,"Wilderness Reclamation",1
 457294,"Wrecking Beast",1.5
-457295,"Absorb",2
+457295,"Absorb",3
 457296,"Aeromunculus",3
 457297,"Applied Biomancy",3
-457298,"Azorius Knight-Arbiter",3
+457298,"Azorius Knight-Arbiter",3.5
 457299,"Azorius Skyguard",3.5
 457300,"Basilica Bell-Haunt",3.5
 457301,"Bedevil",4
 457302,"Biomancer's Familiar",3.5
-457303,"Bolrac-Clan Crusher",2.5
+457303,"Bolrac-Clan Crusher",3
 457304,"Captive Audience",3
-457305,"Cindervines",1
+457305,"Cindervines",1.5
 457306,"Clan Guildmage",3
 457307,"Combine Guildmage",3
 457308,"Cult Guildmage",3
 457309,"Deputy of Detention",4
 457310,"Domri, Chaos Bringer",4
 457311,"Dovin, Grand Arbiter",4
-457312,"Dovin's Acuity",3
+457312,"Dovin's Acuity",2.5
 457313,"Emergency Powers",1.5
 457314,"Ethereal Absolution",4.5
 457315,"Final Payment",3.5
@@ -180,16 +180,16 @@
 457323,"Gruul Spellbreaker",4
 457324,"Gyre Engineer",2.5
 457325,"Hackrobat",3
-457326,"High Alert",2
+457326,"High Alert",1.5
 457327,"Hydroid Krasis",4.5
 457328,"Imperious Oligarch",3
 457329,"Judith, the Scourge Diva",4
 457330,"Kaya, Orzhov Usurper",2.5
 457331,"Kaya's Wrath",3.5
-457332,"Knight of the Last Breath",2.5
+457332,"Knight of the Last Breath",2
 457333,"Lavinia, Azorius Renegade",1
-457334,"Lawmage's Binding",4
-457335,"Macabre Mockery",1.5
+457334,"Lawmage's Binding",3.5
+457335,"Macabre Mockery",2
 457336,"Mortify",4
 457337,"Nikya of the Old Ways",3.5
 457338,"Pitiless Pontiff",3
@@ -202,24 +202,24 @@
 457345,"Rhythm of the Wild",3.5
 457346,"Rubblebelt Runner",2.5
 457347,"Savage Smash",3.5
-457348,"Senate Guildmage",3
+457348,"Senate Guildmage",3.5
 457349,"Seraph of the Scales",4.5
 457350,"Sharktocrab",3.5
 457351,"Simic Ascendancy",3
 457352,"Sphinx of New Prahv",3.5
-457353,"Sphinx's Insight",1.5
+457353,"Sphinx's Insight",2
 457354,"Sunder Shaman",3.5
 457355,"Syndicate Guildmage",3
 457356,"Teysa Karlov",3.5
 457357,"Theater of Horrors",3.5
 457358,"Zegana, Utopian Speaker",4
-457359,"Zhur-Taa Goblin",3
+457359,"Zhur-Taa Goblin",3.5
 457360,"Footlight Fiend",1.5
-457361,"Rubble Slinger",1.5
+457361,"Rubble Slinger",2
 457362,"Scuttlegator",1
 457363,"Senate Griffin",3
 457364,"Vizkopa Vampire",2
-457365,"Bedeck // Bedazzle",3
+457365,"Bedeck // Bedazzle",3.5
 457366,"Carnival // Carnage",3
 457367,"Collision // Colossus",3.5
 457368,"Consecrate // Consume",3
@@ -229,27 +229,27 @@
 457372,"Revival // Revenge",3
 457373,"Thrash // Threat",4
 457374,"Warrant // Warden",3.5
-457375,"Azorius Locket",1.5
+457375,"Azorius Locket",1
 457376,"Gate Colossus",2
-457377,"Glass of the Guildpact",1.5
-457378,"Gruul Locket",0.5
+457377,"Glass of the Guildpact",2.5
+457378,"Gruul Locket",1
 457379,"Junktroller",0
-457380,"Orzhov Locket",1
-457381,"Rakdos Locket",1
+457380,"Orzhov Locket",0.5
+457381,"Rakdos Locket",0.5
 457382,"Scrabbling Claws",0
-457383,"Screaming Shield",0
+457383,"Screaming Shield",0.5
 457384,"Simic Locket",0.5
 457385,"Sphinx of the Guildpact",3
-457386,"Tome of the Guildpact",2
-457387,"Azorius Guildgate",1
+457386,"Tome of the Guildpact",1.5
+457387,"Azorius Guildgate",1.5
 457389,"Blood Crypt",1.5
-457390,"Breeding Pool",2.5
+457390,"Breeding Pool",2
 457391,"Gateway Plaza",1
 457392,"Godless Shrine",1.5
 457393,"Gruul Guildgate",2
 457395,"Hallowed Fountain",1.5
 457396,"Orzhov Guildgate",2
 457398,"Plaza of Harmony",1
-457399,"Rakdos Guildgate",2
-457401,"Simic Guildgate",1.5
-457403,"Stomping Ground",2
+457399,"Rakdos Guildgate",1.5
+457401,"Simic Guildgate",2
+457403,"Stomping Ground",1.5

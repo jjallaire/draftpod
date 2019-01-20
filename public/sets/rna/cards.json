@@ -15,7 +15,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 2
+    "rating": 3
   },
   {
     "id": 457235,
@@ -84,7 +84,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457145,
@@ -136,7 +136,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457175,
@@ -153,7 +153,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457148,
@@ -170,7 +170,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457205,
@@ -222,7 +222,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457298,
@@ -240,7 +240,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457375,
@@ -258,7 +258,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457299,
@@ -329,7 +329,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457301,
@@ -503,7 +503,25 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
+  },
+  {
+    "id": 457390,
+    "name": "Breeding Pool",
+    "collector_number": 246,
+    "multiverse_ids": [
+      457390
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb54233c-0844-4965-9cde-e8a4ef3e11b8.jpg?1547235605"],
+    "type_line": "Land — Forest Island",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 2
   },
   {
     "id": 457149,
@@ -554,7 +572,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457304,
@@ -624,7 +642,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457239,
@@ -676,7 +694,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457150,
@@ -762,7 +780,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457179,
@@ -901,7 +919,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457308,
@@ -936,7 +954,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457215,
@@ -970,7 +988,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457242,
@@ -1026,6 +1044,42 @@
     "rating": 4
   },
   {
+    "id": 457310,
+    "name": "Domri, Chaos Bringer",
+    "collector_number": 166,
+    "multiverse_ids": [
+      457310
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1f56bbf3-3884-495a-b9cd-6585d86f76f1.jpg?1547235191"],
+    "type_line": "Legendary Planeswalker — Domri",
+    "mana_cost": "{2}{R}{G}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": 4
+  },
+  {
+    "id": 457311,
+    "name": "Dovin, Grand Arbiter",
+    "collector_number": 167,
+    "multiverse_ids": [
+      457311
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/6/e6784910-0204-4a39-bb38-50daa03e94c2.jpg?1547235197"],
+    "type_line": "Legendary Planeswalker — Dovin",
+    "mana_cost": "{1}{W}{U}",
+    "cmc": 3,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 4
+  },
+  {
     "id": 457312,
     "name": "Dovin's Acuity",
     "collector_number": 168,
@@ -1041,7 +1095,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457217,
@@ -1058,7 +1112,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457243,
@@ -1179,7 +1233,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 0.5
+    "rating": 1
   },
   {
     "id": 457182,
@@ -1213,7 +1267,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457244,
@@ -1335,7 +1389,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457317,
@@ -1522,7 +1576,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457377,
@@ -1537,7 +1591,7 @@
     "cmc": 2,
     "colors": [],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 2.5
   },
   {
     "id": 457248,
@@ -1713,7 +1767,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 0.5
+    "rating": 1
   },
   {
     "id": 457323,
@@ -1765,7 +1819,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457324,
@@ -1871,7 +1925,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457185,
@@ -1888,7 +1942,25 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
+  },
+  {
+    "id": 457327,
+    "name": "Hydroid Krasis",
+    "collector_number": 183,
+    "multiverse_ids": [
+      457327
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/801dd9c6-b159-4e1c-af2c-214c1f573633.jpg?1547235284"],
+    "type_line": "Creature — Jellyfish Hydra Beast",
+    "mana_cost": "{X}{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5
   },
   {
     "id": 457221,
@@ -1905,7 +1977,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457250,
@@ -2045,6 +2117,24 @@
     "rating": 1
   },
   {
+    "id": 457330,
+    "name": "Kaya, Orzhov Usurper",
+    "collector_number": 186,
+    "multiverse_ids": [
+      457330
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fdb4b2ef-5196-4f7f-88ff-64b2cdb36c6b.jpg?1547235300"],
+    "type_line": "Legendary Planeswalker — Kaya",
+    "mana_cost": "{1}{W}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 2.5
+  },
+  {
     "id": 457331,
     "name": "Kaya's Wrath",
     "collector_number": 187,
@@ -2095,7 +2185,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457333,
@@ -2131,7 +2221,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 4
+    "rating": 3.5
   },
   {
     "id": 457251,
@@ -2148,7 +2238,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457159,
@@ -2183,7 +2273,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457276,
@@ -2200,7 +2290,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457186,
@@ -2268,7 +2358,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457336,
@@ -2391,7 +2481,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 0.5
   },
   {
     "id": 457224,
@@ -2408,7 +2498,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457188,
@@ -2442,7 +2532,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 4
   },
   {
     "id": 457338,
@@ -2477,7 +2567,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457398,
@@ -2509,7 +2599,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457227,
@@ -2666,7 +2756,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457381,
@@ -2684,7 +2774,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 0.5
   },
   {
     "id": 457342,
@@ -2705,6 +2795,24 @@
     "rating": 2
   },
   {
+    "id": 457343,
+    "name": "Rakdos, the Showstopper",
+    "collector_number": 199,
+    "multiverse_ids": [
+      457343
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4e3c30c7-c52e-41a0-b7c2-21d39c05160b.jpg?1547235368"],
+    "type_line": "Legendary Creature — Demon",
+    "mana_cost": "{4}{B}{R}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5
+  },
+  {
     "id": 457228,
     "name": "Rakdos Trumpeter",
     "collector_number": 84,
@@ -2720,7 +2828,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457162,
@@ -2771,7 +2879,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457344,
@@ -2842,6 +2950,24 @@
     ],
     "rarity": "uncommon",
     "rating": 2
+  },
+  {
+    "id": 457372,
+    "name": "Revival // Revenge",
+    "collector_number": 228,
+    "multiverse_ids": [
+      457372
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50ae0831-f3ba-4535-bfb6-feefbbc15275.jpg?1547582061"],
+    "type_line": "Sorcery // Sorcery",
+    "mana_cost": "{W/B}{W/B} // {4}{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 3
   },
   {
     "id": 457345,
@@ -2964,7 +3090,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457256,
@@ -2981,7 +3107,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457193,
@@ -3015,7 +3141,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457283,
@@ -3114,7 +3240,7 @@
     "cmc": 1,
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0
+    "rating": 0.5
   },
   {
     "id": 457362,
@@ -3186,7 +3312,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457164,
@@ -3203,7 +3329,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457349,
@@ -3309,7 +3435,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457384,
@@ -3361,7 +3487,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457259,
@@ -3412,7 +3538,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457198,
@@ -3571,7 +3697,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457262,
@@ -3640,7 +3766,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457403,
@@ -3658,7 +3784,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457287,
@@ -3675,7 +3801,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457263,
@@ -3796,7 +3922,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457170,
@@ -3846,6 +3972,24 @@
     "colors": [
       "B",
       "W"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 457357,
+    "name": "Theater of Horrors",
+    "collector_number": 213,
+    "multiverse_ids": [
+      457357
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/ad42efd5-79c8-44f9-b3d6-d9058e0cb0f6.jpg?1547235443"],
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{B}{R}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R"
     ],
     "rarity": "rare",
     "rating": 3.5
@@ -3966,7 +4110,7 @@
     "cmc": 5,
     "colors": [],
     "rarity": "rare",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457291,
@@ -3983,7 +4127,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 0.5
+    "rating": 0
   },
   {
     "id": 457292,
@@ -4035,7 +4179,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457232,
@@ -4190,7 +4334,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457204,
@@ -4260,6 +4404,6 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   }
 ]
