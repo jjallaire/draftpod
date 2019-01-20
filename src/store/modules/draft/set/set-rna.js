@@ -8,18 +8,6 @@ export default {
 
   name: "Ravnica Allegiance",
 
-  capabilities: {
-    custom_cardpool: false
-  },
-
-  card_id_filter: function(id) {
-    // scryfall doesn't have all of the guildgates (a & b)
-    if ([500244,500250,500253,500256,500258].indexOf(id) !== -1)
-      return id-1;
-    else
-      return id;
-  },
-
   pack_cards: 15,
 
   cube: function(cardsInSet, multiples) {
