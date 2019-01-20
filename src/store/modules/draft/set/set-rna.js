@@ -8,6 +8,10 @@ export default {
 
   name: "Ravnica Allegiance",
 
+  capabilities: {
+    custom_cardpool: false
+  },
+
   pack_cards: 15,
 
   cube: function(cardsInSet, multiples) {
