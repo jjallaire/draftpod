@@ -81,7 +81,9 @@ export default {
         if (draft) {
           unserializeDraftTable(draft.set.code, draft.table)
             .then(onchanged)
-            .catch(log.logException);
+            .catch(error => {
+              log.logException(error, "onDraftTableChangedUnserialize");
+            });
         }
       }, error => {
         log.logException(error, "onDraftTableChanged");
@@ -119,25 +121,33 @@ export default {
 }
 
 function serializeDraftTable(table) {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     // convert cards to card ids
-    let saved_table = convertDraftTable(table, cardsToIds);
-
-    // serialize as json string
-    resolve(JSON.stringify(saved_table));
+    try {
+      let saved_table = convertDraftTable(table, cardsToIds);
+      resolve(JSON.stringify(saved_table));
+    } catch(error) {
+      log.addBreadcrumb('table', JSON.stringify(table));
+      reject(error);
+    } 
   });
 }
 
 function unserializeDraftTable(set_code, table) {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     return set.cards(set_code).then(set_cards => {
       // parse from json string
       let saved_table = JSON.parse(table);
     
       // return the table w/ ids converted to cards
-      resolve(
-        convertDraftTable(saved_table, idsToCards(set_cards))
-      );
+      try {
+        resolve(
+          convertDraftTable(saved_table, idsToCards(set_cards))
+        );
+      } catch(error) {
+        log.addBreadcrumb('table', table);
+        reject(error);
+      }
     });
   });
 }
