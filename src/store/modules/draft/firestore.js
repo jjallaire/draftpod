@@ -101,6 +101,7 @@ export default {
       }
 
       // another browser has taken over this draft
+      /*
       else if (client_id !== player.client_id) {
         messagebox.alert(
           "Disconnected from Draft", 
@@ -114,6 +115,7 @@ export default {
         );
         return false;
       }
+      */
     } 
     return true;
   }
