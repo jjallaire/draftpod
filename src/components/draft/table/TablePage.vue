@@ -108,9 +108,12 @@ export default {
 
     // resume draft
     this.resumeDraft().then(() => {
-      
+  
       // multiplayer
       if (this.options.multi_player) {
+
+        // wait to validate the client until we see our first commit
+        let validateClient = false;
 
         // track firestore
         this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
@@ -118,8 +121,15 @@ export default {
           // get activePlayer reference
           let player = selectors.activePlayer(this.player.id, table);
 
+          // see if we should start validating the client (we do this only after we've 
+          // seen our client in a change, this is to eliminate the possibility of failing
+          // validation as a result of snapshots coming from other clients that occurred
+          // prior to our resuming the draft)
+          if (!validateClient)
+            validateClient = this.client_id === player.client_id;
+
           // validate that the client hasn't changed
-          if (!firestore.validateClient(this.player.id, this.client_id, table)) {
+          if (validateClient && !firestore.validateClient(this.player.id, this.client_id, table)) {
             this.writeTable({ table });
             this.setConnected({ connected: false });
             this.firestoreUnsubscribe();
