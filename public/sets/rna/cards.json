@@ -506,24 +506,6 @@
     "rating": 2.5
   },
   {
-    "id": 457390,
-    "name": "Breeding Pool",
-    "collector_number": 246,
-    "multiverse_ids": [
-      457390
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb54233c-0844-4965-9cde-e8a4ef3e11b8.jpg?1547235605"],
-    "type_line": "Land — Forest Island",
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "G",
-      "U"
-    ],
-    "rarity": "rare",
-    "rating": 2.5
-  },
-  {
     "id": 457149,
     "name": "Bring to Trial",
     "collector_number": 5,
@@ -1041,42 +1023,6 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 4
-  },
-  {
-    "id": 457310,
-    "name": "Domri, Chaos Bringer",
-    "collector_number": 166,
-    "multiverse_ids": [
-      457310
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1f56bbf3-3884-495a-b9cd-6585d86f76f1.jpg?1547235191"],
-    "type_line": "Legendary Planeswalker — Domri",
-    "mana_cost": "{2}{R}{G}",
-    "cmc": 4,
-    "colors": [
-      "G",
-      "R"
-    ],
-    "rarity": "mythic",
-    "rating": 4
-  },
-  {
-    "id": 457311,
-    "name": "Dovin, Grand Arbiter",
-    "collector_number": 167,
-    "multiverse_ids": [
-      457311
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/6/e6784910-0204-4a39-bb38-50daa03e94c2.jpg?1547235197"],
-    "type_line": "Legendary Planeswalker — Dovin",
-    "mana_cost": "{1}{W}{U}",
-    "cmc": 3,
-    "colors": [
-      "U",
-      "W"
-    ],
-    "rarity": "mythic",
     "rating": 4
   },
   {
@@ -1945,24 +1891,6 @@
     "rating": 1
   },
   {
-    "id": 457327,
-    "name": "Hydroid Krasis",
-    "collector_number": 183,
-    "multiverse_ids": [
-      457327
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/801dd9c6-b159-4e1c-af2c-214c1f573633.jpg?1547235284"],
-    "type_line": "Creature — Jellyfish Hydra Beast",
-    "mana_cost": "{X}{G}{U}",
-    "cmc": 2,
-    "colors": [
-      "G",
-      "U"
-    ],
-    "rarity": "mythic",
-    "rating": 4.5
-  },
-  {
     "id": 457221,
     "name": "Ill-Gotten Inheritance",
     "collector_number": 77,
@@ -2115,24 +2043,6 @@
     ],
     "rarity": "common",
     "rating": 1
-  },
-  {
-    "id": 457330,
-    "name": "Kaya, Orzhov Usurper",
-    "collector_number": 186,
-    "multiverse_ids": [
-      457330
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fdb4b2ef-5196-4f7f-88ff-64b2cdb36c6b.jpg?1547235300"],
-    "type_line": "Legendary Planeswalker — Kaya",
-    "mana_cost": "{1}{W}{B}",
-    "cmc": 3,
-    "colors": [
-      "B",
-      "W"
-    ],
-    "rarity": "mythic",
-    "rating": 2.5
   },
   {
     "id": 457331,
@@ -2795,24 +2705,6 @@
     "rating": 2
   },
   {
-    "id": 457343,
-    "name": "Rakdos, the Showstopper",
-    "collector_number": 199,
-    "multiverse_ids": [
-      457343
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4e3c30c7-c52e-41a0-b7c2-21d39c05160b.jpg?1547235368"],
-    "type_line": "Legendary Creature — Demon",
-    "mana_cost": "{4}{B}{R}",
-    "cmc": 6,
-    "colors": [
-      "B",
-      "R"
-    ],
-    "rarity": "mythic",
-    "rating": 4.5
-  },
-  {
     "id": 457228,
     "name": "Rakdos Trumpeter",
     "collector_number": 84,
@@ -2950,24 +2842,6 @@
     ],
     "rarity": "uncommon",
     "rating": 2
-  },
-  {
-    "id": 457372,
-    "name": "Revival // Revenge",
-    "collector_number": 228,
-    "multiverse_ids": [
-      457372
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50ae0831-f3ba-4535-bfb6-feefbbc15275.jpg?1547582061"],
-    "type_line": "Sorcery // Sorcery",
-    "mana_cost": "{W/B}{W/B} // {4}{W}{B}",
-    "cmc": 2,
-    "colors": [
-      "B",
-      "W"
-    ],
-    "rarity": "rare",
-    "rating": 3
   },
   {
     "id": 457345,
@@ -3972,24 +3846,6 @@
     "colors": [
       "B",
       "W"
-    ],
-    "rarity": "rare",
-    "rating": 3.5
-  },
-  {
-    "id": 457357,
-    "name": "Theater of Horrors",
-    "collector_number": 213,
-    "multiverse_ids": [
-      457357
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/ad42efd5-79c8-44f9-b3d6-d9058e0cb0f6.jpg?1547235443"],
-    "type_line": "Enchantment",
-    "mana_cost": "{1}{B}{R}",
-    "cmc": 3,
-    "colors": [
-      "B",
-      "R"
     ],
     "rarity": "rare",
     "rating": 3.5
