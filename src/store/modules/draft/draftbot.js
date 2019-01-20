@@ -4,20 +4,20 @@ export function create() {
   return {
     // does the bot have a color preference?
     color_preference: {
-      color: sampleFrom([...new Array(15).fill(null), 'R', 'W', 'G', 'B', 'U']),
-      picks: sampleFrom([2, 3, 4, 5])
+      color: sampleFrom([...new Array(25).fill(null), 'R', 'W', 'G', 'B', 'U']),
+      picks: sampleFrom([4, 5, 6])
     },
 
     // at what pick do we start giving on-color cards a slight
     // bias compared to off-color cards?
-    color_bias_threshold: sampleFrom([5, 7, 7, 9]),
+    color_bias_threshold: sampleFrom([7, 7, 7, 9]),
 
     // after what pick do we stop considering off-color cards even if
     // they have a very high rating?
     color_lock_threshold: sampleFrom([16, 18, 20]),
 
     // variance for distribution of ratings
-    variance: sampleFrom([0, 0, 0, 0.1, 0.1, 0.1, 0.1, 0.2, 0.2, 0.2])
+    variance: sampleFrom([0, 0, 0, 0, 0, 0.1, 0.1, 0.1, 0.1, 0.2])
 
   };
 }
