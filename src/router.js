@@ -26,6 +26,41 @@ export default new VueRouter({
   routes: [
     { path: '/', component: HomePage },
     { path: '/draft/', component: NavigatorPage },
+    { path: '/draft/:draft_id/join', component: JoinPage, props: true,
+      beforeEnter: (to, from, next) => {
+        
+        // alias ids
+        let player_id = store.state.player.id;
+        let draft_id = to.params.draft_id;
+
+        // sync from firestore
+        firestore.getDraft(draft_id).then(draft => {
+
+          if (draft) {
+            // write locally
+            store.commit(SET_DRAFT, { draft_id, draft });
+
+            // bind draft module
+            useDraftModule(draft_id, { preserveState: true });
+
+            // if the draft is already started and we are in it then navigate to it (skip join)
+            if (selectors.isStarted(draft.table) && selectors.hasPlayer(player_id, draft.table))
+              next("/draft/" + draft_id);
+            // otherwise continue to join ui
+            else
+              next();
+          } else {
+            draftNotFound(next, draft_id);
+          }
+        })
+        .catch(error => {
+          log.logException(error, "onGetDraftBeforeJoin");
+          store.commit(REMOVE_DRAFTS, [draft_id]);
+          draftNotFound(next, draft_id);
+        });
+      }
+    },
+    { path: '/draft/:draft_id/not-found', component: DraftNotFoundPage, props: true },
     { path: '/draft/:draft_id', component: TablePage, props: true, 
       beforeEnter: (to, from, next) => {
         
@@ -62,41 +97,6 @@ export default new VueRouter({
         }
       } 
     },
-    { path: '/draft/:draft_id/join', component: JoinPage, props: true,
-      beforeEnter: (to, from, next) => {
-        
-        // alias ids
-        let player_id = store.state.player.id;
-        let draft_id = to.params.draft_id;
-
-        // sync from firestore
-        firestore.getDraft(draft_id).then(draft => {
-
-          if (draft) {
-            // write locally
-            store.commit(SET_DRAFT, { draft_id, draft });
-
-            // bind draft module
-            useDraftModule(draft_id, { preserveState: true });
-
-            // if the draft is already started and we are in it then navigate to it (skip join)
-            if (selectors.isStarted(draft.table) && selectors.hasPlayer(player_id, draft.table))
-              next("/draft/" + draft_id);
-            // otherwise continue to join ui
-            else
-              next();
-          } else {
-            draftNotFound(next, draft_id);
-          }
-        })
-        .catch(error => {
-          log.logException(error, "onGetDraftBeforeJoin");
-          store.commit(REMOVE_DRAFTS, [draft_id]);
-          draftNotFound(next, draft_id);
-        });
-      }
-    },
-    { path: '/draft/:draft_id/not-found', component: DraftNotFoundPage, props: true },
     { path: '/guide/', component: GuidePage },
     { path: '/simulator/', component: SimulatorPage },
     { path: '*', component: NotFoundPage }
