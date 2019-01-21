@@ -292,11 +292,6 @@ function packToPick(set_code, player_id, table, card, pile_number, insertBefore)
   if (!card)  
     card = draftbot.pick(player.bot, picks, player.packs[0]);
 
-  // it's possible that a card can be picked twice if there is flashback, in that
-  // case simply ignore the request entirely
-  if (picks.find(pick => pick.key === card.key) !== undefined)
-    return;
-
   // make the pick 
   makePick(player_index, set_code, table, pile_number, card, insertBefore);
 
