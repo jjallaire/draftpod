@@ -9,6 +9,7 @@ import NavigatorPage from './components/navigator/NavigatorPage.vue'
 import SimulatorPage from './components/SimulatorPage.vue'
 import GuidePage from './components/guide/GuidePage.vue'
 import NotFoundPage from './components/NotFoundPage.vue'
+import DraftNotFoundPage from './components/draft/NotFoundPage.vue'
 
 import { store, useDraftModule } from './store'
 import { SET_DRAFT, REMOVE_DRAFTS } from './store/mutations'
@@ -38,8 +39,12 @@ export default new VueRouter({
           // sync from firestore if this is a multi-player draft
           if (store.state.drafts[draft_id].options.multi_player) {
             firestore.getDraft(draft_id).then(draft => {
-              store.commit(SET_DRAFT, { draft_id, draft });
-              next();
+              if (draft) {
+                store.commit(SET_DRAFT, { draft_id, draft });
+                next();
+              } else {
+                draftNotFound(next, draft_id);
+              }
             })
             .catch(error => {
               log.logException(error, "onGetDraftBeforeDraft");
@@ -51,9 +56,9 @@ export default new VueRouter({
             next();
           }
 
-        // draft doesn't exist so just navigate to the main draft page
+        // draft doesn't exist so navigate to the draft not found page
         } else {
-          next("/draft/");
+          draftNotFound(next, draft_id);
         }
       } 
     },
@@ -67,19 +72,22 @@ export default new VueRouter({
         // sync from firestore
         firestore.getDraft(draft_id).then(draft => {
 
-          // write locally
-          store.commit(SET_DRAFT, { draft_id, draft });
+          if (draft) {
+            // write locally
+            store.commit(SET_DRAFT, { draft_id, draft });
 
-          // bind draft module
-          useDraftModule(draft_id, { preserveState: true });
+            // bind draft module
+            useDraftModule(draft_id, { preserveState: true });
 
-          // if the draft is already started and we are in it then navigate to it (skip join)
-          if (selectors.isStarted(draft.table) && selectors.hasPlayer(player_id, draft.table))
-            next("/draft/" + draft_id);
-
-          // otherwise continue to join ui
-          else
-            next();
+            // if the draft is already started and we are in it then navigate to it (skip join)
+            if (selectors.isStarted(draft.table) && selectors.hasPlayer(player_id, draft.table))
+              next("/draft/" + draft_id);
+            // otherwise continue to join ui
+            else
+              next();
+          } else {
+            draftNotFound(next, draft_id);
+          }
         })
         .catch(error => {
           log.logException(error, "onGetDraftBeforeJoin");
@@ -88,6 +96,7 @@ export default new VueRouter({
         });
       }
     },
+    { path: '/draft/:draft_id/not-found', component: DraftNotFoundPage, props: true },
     { path: '/guide/', component: GuidePage },
     { path: '/simulator/', component: SimulatorPage },
     { path: '*', component: NotFoundPage }
@@ -99,7 +108,12 @@ export default new VueRouter({
     } else {
       return { x: 0, y: 0 }
     }
-  }
-
+  },
 });
+
+
+function draftNotFound(next, draft_id) {
+  next("/draft/" + draft_id + "/not-found"); 
+}
+
 

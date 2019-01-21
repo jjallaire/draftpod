@@ -26,12 +26,16 @@ export default {
     return new Promise((resolve, reject) => {
       firestore.collection("drafts").doc(id).get().then(doc => {
         let draft = doc.data();
-        return unserializeDraftTable(draft.set.code, draft.table).then(table => {
-          resolve({
-            ...draft,
-            table: table
+        if (draft) {
+          return unserializeDraftTable(draft.set.code, draft.table).then(table => {
+            resolve({
+              ...draft,
+              table: table
+            });
           });
-        });
+        } else {
+          resolve(null);
+        }
       })
       .catch(error => {
         reject(error);
