@@ -48,7 +48,7 @@ export default new VueRouter({
             })
             .catch(error => {
               log.logException(error, "onGetDraftBeforeDraft");
-              next();
+              draftNotFound(next, draft_id);
             });
 
           // single player draft, proceed without syncing
@@ -92,7 +92,7 @@ export default new VueRouter({
         .catch(error => {
           log.logException(error, "onGetDraftBeforeJoin");
           store.commit(REMOVE_DRAFTS, [draft_id]);
-          next();
+          draftNotFound(next, draft_id);
         });
       }
     },

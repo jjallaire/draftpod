@@ -33,10 +33,16 @@ export default {
    <br/>
    <h5>The requested draft (id: {{ draft_id }}) was not found.</h5>
    <br/>
-   <p>Note that draftpod only saves your last 5 drafts so this draft ID may be 
-      valid, however no longer available in your draft history.</p>
-    <br/>
-    <a href="/draft/">Return to main draft page</a>
+   <p>Some reasons that this error may have occurred:</p>
+    <ul>
+      <li>The draft is no longer available in your draft history (draftpod only saves
+          your last 5 drafts).
+      </li>
+      <li>You are attempting to join a multi-player draft however your internet connection is offline.</li>
+    </ul>
+
+  <br/>
+  <a href="/draft/">Return to main draft page</a>
   </div>
 
   <SiteFooter />
