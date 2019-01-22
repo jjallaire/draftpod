@@ -1,7 +1,12 @@
 
 import Vue from 'vue'
 import Vuex from 'vuex'
-import VuexPersist from 'vuex-persist'
+
+import LocalForage from 'localforage'
+import 'localforage-getitems'
+import 'localforage-setitems'
+
+import _merge from 'lodash/merge'
 
 import getters from './getters'
 import mutations from './mutations'
@@ -13,13 +18,21 @@ const debug = process.env.NODE_ENV !== 'production'
 
 Vue.use(Vuex)
 
-const vuexPersist = new VuexPersist({
-  key: 'draftpod-alpha8',
-  storage: window.localStorage
+// Configure localforage
+LocalForage.config({
+  driver      : [LocalForage.INDEXEDDB, LocalForage.WEBSQL, LocalForage.LOCALSTORAGE],
+  name        : 'Draftpod',
+  version     : 1.0,
+  storeName   : 'draftpod-beta1'
 });
 
-export const store = new Vuex.Store({
-  state: {
+
+export var store = null;
+
+export function initializeStore() {
+
+  // initial (default) state
+  const initialState = {
     player: {
       id: null,
       name: null
@@ -33,18 +46,54 @@ export const store = new Vuex.Store({
     cardpools: {
       
     }
-  },
-  modules: {
-    drafts: { namespaced: true }
-  },
-  getters,
-  mutations,
-  actions,
-  plugins: [vuexPersist.plugin],
-  strict: debug,
-});
+  };
+
+  // plugin to persist state to LocalForage
+  const persistPlugin = store => {
+    store.subscribe((mutations, state) => {
+      LocalForage.setItems(state);
+    })
+  };
+  
+  // read from LocalForage then return store
+  return new Promise((resolve) => {
+    return LocalForage.getItems().then(savedState => {
+      const mergedStates = _merge({}, initialState, savedState);
+      store = new Vuex.Store({
+        plugins: [persistPlugin],
+        state: mergedStates,
+        getters,
+        mutations,
+        actions,
+        strict: debug,
+      });
+
+      // register drafts module
+      useDraftsModule();
+
+      resolve(store);
+    });
+  });
+}
+
+function useDraftsModule() {
+  if (!store._modules.root._children["drafts"]) {
+    let preserveState = store.state.drafts !== undefined;
+    store.registerModule(
+      "drafts", 
+      { 
+        namespaced: true, 
+        state: {} 
+      }, 
+      { 
+        preserveState: preserveState 
+      });
+  }
+}
 
 export function useDraftModule(draft_id, options) {
+
+  // register draft sub-module on demand
   if (!store._modules.root._children["drafts"]._children[draft_id]) {
     store.registerModule(
       ["drafts", draft_id], 

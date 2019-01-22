@@ -16,7 +16,7 @@ import 'firebase/auth'
 import shortUuid from 'short-uuid'
 
 import router from './router'
-import { store } from './store'
+import { initializeStore } from './store'
 import { SET_PLAYER_INFO } from './store/mutations'
 
 // configure sentry in production mode
@@ -45,18 +45,27 @@ firebase.auth().onAuthStateChanged(function(user) {
 
 function initApp(firebase_uid) {
 
-  // attempt to use the firebase uid, fallback to whatever user_id
-  // we might have already stored, then finally to a new randomly generated id
-  let player_id = firebase_uid || store.getters.player.id || shortUuid().new();
+  // initialize the store then the app
+  initializeStore()
+    .then(store => {
+      
+      // attempt to use the firebase uid, fallback to whatever user_id
+      // we might have already stored, then finally to a new randomly generated id
+      let player_id = firebase_uid || store.getters.player.id || shortUuid().new();
 
-  // write the player id
-  store.commit(SET_PLAYER_INFO, { id: player_id } );
+      // write the player id
+      store.commit(SET_PLAYER_INFO, { id: player_id } );
 
-  // start the app
-  new Vue({
-    router,
-    store,
-    render: (h) => h('router-view')
-  }).$mount('#app');  
+      // start the app
+      new Vue({
+        router,
+        store,
+        render: (h) => h('router-view')
+      }).$mount('#app');  
+    })
+  .catch(error => {
+    log.logException(error, "onInitializeStore");
+  });
 
+  
 }
