@@ -1,6 +1,7 @@
 <script>
 
 import PlayersPlayer from './PlayersPlayer.vue'
+import PlayersArrow from './PlayersArrow.vue'
 
 export default {
   name: 'PlayersPopup',
@@ -44,7 +45,7 @@ export default {
   ],
 
   components: {
-    PlayersPlayer
+    PlayersPlayer, PlayersArrow
   }
 }
 
@@ -62,6 +63,10 @@ export default {
 
   <div class="players-table">
     <div v-if="!picks_complete" class="pack-number">
+      <PlayersArrow v-if="current_pack !== 2" corner="top-right" />
+      <PlayersArrow v-if="current_pack !== 2" corner="bottom-left" />
+      <PlayersArrow v-if="current_pack === 2" corner="top-left" />
+      <PlayersArrow v-if="current_pack === 2" corner="bottom-right" />
       Pack {{ current_pack }}
     </div>
     <a v-if="!picks_complete && !show_bot_colors && !multi_player" class="show-bot-colors"
