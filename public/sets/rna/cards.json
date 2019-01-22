@@ -7,6 +7,7 @@
       457295
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/e/1e8a43c1-42d1-45ef-8a63-4b87775a6e88.jpg?1547235112"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{W}{U}{U}",
     "cmc": 3,
@@ -15,7 +16,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457235,
@@ -25,6 +26,7 @@
       457235
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1f2328c4-7344-48bf-b515-977499bcfd1c.jpg?1547234786"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{2}{R}",
     "cmc": 3,
@@ -42,6 +44,7 @@
       457296
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/671c94c1-df52-4985-ad78-3e1c9c78df18.jpg?1547235117"],
+    "layout": "normal",
     "type_line": "Creature — Homunculus Mutant",
     "mana_cost": "{1}{G}{U}",
     "cmc": 3,
@@ -60,6 +63,7 @@
       457236
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/a/7a58c77f-7c15-44f4-8011-6046482a2d08.jpg?1547234791"],
+    "layout": "normal",
     "type_line": "Creature — Elemental",
     "mana_cost": "{2}{R}{R}",
     "cmc": 4,
@@ -77,6 +81,7 @@
       457146
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/e/ee7b5ae5-0f6b-4f45-8597-4e6212d2ad0e.jpg?1547234342"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{3}{W}",
     "cmc": 4,
@@ -84,7 +89,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457145,
@@ -94,6 +99,7 @@
       457145
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/80164e61-3e94-4e10-9bd1-518b8dc7fc4c.jpg?1547234337"],
+    "layout": "normal",
     "type_line": "Creature — Angel",
     "mana_cost": "{3}{W}{W}",
     "cmc": 5,
@@ -111,6 +117,7 @@
       457297
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/9/f91ed618-7b0b-4a70-95ad-d9ed46e28692.jpg?1547235122"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{G}{U}",
     "cmc": 2,
@@ -119,7 +126,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457147,
@@ -129,6 +136,7 @@
       457147
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/2/b209d219-b946-4226-a8b4-65a5f3837fac.jpg?1547434950"],
+    "layout": "normal",
     "type_line": "Creature — Angel",
     "mana_cost": "{5}{W}",
     "cmc": 6,
@@ -136,7 +144,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457175,
@@ -146,6 +154,7 @@
       457175
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/3/637c2d6a-e6b8-4dc5-81aa-da1b7384e006.jpg?1547234482"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{U}",
     "cmc": 3,
@@ -153,7 +162,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457148,
@@ -163,6 +172,7 @@
       457148
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/0/b075a6f2-5196-45e9-b062-f131f7b1a347.jpg?1547234352"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{W}",
     "cmc": 1,
@@ -180,6 +190,7 @@
       457205
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/a/ea166114-2f9b-4ca6-b573-1f49f7485580.jpg?1547234628"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{3}{B}{B}",
     "cmc": 5,
@@ -187,7 +198,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 1
+    "rating": 0.5
   },
   {
     "id": 457265,
@@ -197,6 +208,7 @@
       457265
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2f420b35-1f73-41c8-a15f-1aee4af0999c.jpg?1547234951"],
+    "layout": "normal",
     "type_line": "Creature — Beast",
     "mana_cost": "{3}{G}",
     "cmc": 4,
@@ -214,6 +226,7 @@
       457387
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/3/93cf5412-c711-41b4-ab3b-7788a0a22228.jpg?1546514068"],
+    "layout": "normal",
     "type_line": "Land — Gate",
     "mana_cost": "",
     "cmc": 0,
@@ -222,7 +235,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457298,
@@ -232,6 +245,7 @@
       457298
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/0/60befc28-2ab8-4b59-a33f-0328c5d2f995.jpg?1547236099"],
+    "layout": "normal",
     "type_line": "Creature — Human Knight",
     "mana_cost": "{3}{W}{U}",
     "cmc": 5,
@@ -240,7 +254,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457375,
@@ -250,6 +264,7 @@
       457375
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/13aed078-9e29-48e7-b145-5252362031a0.jpg?1547235537"],
+    "layout": "normal",
     "type_line": "Artifact",
     "mana_cost": "{3}",
     "cmc": 3,
@@ -258,7 +273,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457299,
@@ -268,6 +283,7 @@
       457299
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/2/c2fddecd-e660-43de-bccc-52f60a089052.jpg?1547235132"],
+    "layout": "normal",
     "type_line": "Creature — Human Knight",
     "mana_cost": "{4}{W}{U}",
     "cmc": 6,
@@ -286,6 +302,7 @@
       457206
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/6/e635c433-0398-442a-856e-1869f6bf2cfd.jpg?1547234634"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{1}{B}",
     "cmc": 2,
@@ -293,7 +310,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 1
+    "rating": 0.5
   },
   {
     "id": 457300,
@@ -303,6 +320,7 @@
       457300
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/7/e72f4329-db6f-4284-b63e-55f22a0a0f6e.jpg?1547235137"],
+    "layout": "normal",
     "type_line": "Creature — Spirit",
     "mana_cost": "{W}{W}{B}{B}",
     "cmc": 4,
@@ -321,6 +339,7 @@
       457365
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547581992"],
+    "layout": "split",
     "type_line": "Instant // Instant",
     "mana_cost": "{B/R}{B/R} // {4}{B}{R}",
     "cmc": 2,
@@ -339,6 +358,7 @@
       457301
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/81e2b96b-ecf2-4dd9-bc9d-3c46ee8c59e6.jpg?1547235144"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{B}{B}{R}",
     "cmc": 3,
@@ -357,6 +377,7 @@
       457176
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/b/7b0cb4d6-350b-4e66-b035-dac7b3ba77cc.jpg?1547234487"],
+    "layout": "normal",
     "type_line": "Creature — Merfolk Wizard Mutant",
     "mana_cost": "{U}",
     "cmc": 1,
@@ -374,6 +395,7 @@
       457266
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/f/6f11029a-b24d-4248-834f-b852b56857f6.jpg?1547234957"],
+    "layout": "normal",
     "type_line": "Creature — Ooze",
     "mana_cost": "{3}{G}{G}",
     "cmc": 5,
@@ -391,6 +413,7 @@
       457267
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/d/0dd73fb2-453f-40b9-8beb-dfa99e6a706e.jpg?1547234962"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{4}{G}{G}",
     "cmc": 6,
@@ -408,6 +431,7 @@
       457302
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/3/d38c9891-36d1-4565-9c4a-1cd9dbf8c048.jpg?1547235149"],
+    "layout": "normal",
     "type_line": "Creature — Mutant",
     "mana_cost": "{G}{U}",
     "cmc": 2,
@@ -426,6 +450,7 @@
       457208
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f738545d-5483-45ec-bb31-d62b0fae9ea7.jpg?1547234644"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{B}",
     "cmc": 2,
@@ -433,7 +458,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457207,
@@ -443,6 +468,7 @@
       457207
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/099bc474-e656-4167-b105-3a3a36c0b23e.jpg?1547417149"],
+    "layout": "normal",
     "type_line": "Creature — Human Rogue",
     "mana_cost": "{4}{B}",
     "cmc": 5,
@@ -460,6 +486,7 @@
       457389
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5faba6c8-3463-47c1-ba01-09eb87fcb2d5.jpg?1547235600"],
+    "layout": "normal",
     "type_line": "Land — Swamp Mountain",
     "mana_cost": "",
     "cmc": 0,
@@ -468,7 +495,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457209,
@@ -478,6 +505,7 @@
       457209
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/909489a9-2678-4b6f-9d5e-2c04bb4cbd66.jpg?1547234650"],
+    "layout": "normal",
     "type_line": "Creature — Vampire",
     "mana_cost": "{2}{B}",
     "cmc": 3,
@@ -495,6 +523,7 @@
       457303
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/5080975e-693a-44f5-a718-9ee947dada6d.jpg?1547235154"],
+    "layout": "normal",
     "type_line": "Creature — Ogre Warrior",
     "mana_cost": "{3}{R}{G}",
     "cmc": 5,
@@ -513,6 +542,7 @@
       457390
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb54233c-0844-4965-9cde-e8a4ef3e11b8.jpg?1547235605"],
+    "layout": "normal",
     "type_line": "Land — Forest Island",
     "mana_cost": "",
     "cmc": 0,
@@ -531,6 +561,7 @@
       457149
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/3/63d566fc-0936-4035-96fd-f8b0c4eadbf5.jpg?1547234357"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{2}{W}",
     "cmc": 3,
@@ -548,6 +579,7 @@
       457237
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b8574ffd-3e72-41de-90bf-69363189f047.jpg?1547234797"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{R}",
     "cmc": 3,
@@ -565,6 +597,7 @@
       457238
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c5674753-17e4-4e35-a12c-13e1e077ec70.jpg?1547234802"],
+    "layout": "normal",
     "type_line": "Creature — Human Rogue",
     "mana_cost": "{2}{R}",
     "cmc": 3,
@@ -582,6 +615,7 @@
       457304
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/6/065f63b2-472e-4148-8294-88ed38a5685f.jpg?1547235160"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{5}{B}{R}",
     "cmc": 7,
@@ -590,7 +624,7 @@
       "R"
     ],
     "rarity": "mythic",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457366,
@@ -600,6 +634,7 @@
       457366
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547582000"],
+    "layout": "split",
     "type_line": "Instant // Sorcery",
     "mana_cost": "{B/R} // {2}{B}{R}",
     "cmc": 1,
@@ -618,6 +653,7 @@
       457210
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/5/958caf1d-b159-4c27-8248-00c345f880be.jpg?1547234655"],
+    "layout": "normal",
     "type_line": "Creature — Imp",
     "mana_cost": "{3}{B}",
     "cmc": 4,
@@ -635,6 +671,7 @@
       457211
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/4/440c53f0-7922-4e14-802d-d7a22f8fed85.jpg?1547234660"],
+    "layout": "normal",
     "type_line": "Creature — Crocodile",
     "mana_cost": "{4}{B}",
     "cmc": 5,
@@ -652,6 +689,7 @@
       457239
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8a81e889-490b-4aeb-8e84-ea9a390bb8fe.jpg?1547234808"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{1}{R}",
     "cmc": 2,
@@ -659,7 +697,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 0.5
+    "rating": 1
   },
   {
     "id": 457177,
@@ -669,6 +707,7 @@
       457177
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/5/158547fa-7313-4e77-949f-afc68ebfb022.jpg?1547234491"],
+    "layout": "normal",
     "type_line": "Creature — Elemental",
     "mana_cost": "{4}{U}",
     "cmc": 5,
@@ -676,7 +715,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457305,
@@ -686,6 +725,7 @@
       457305
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/f/9f970f79-3051-4ba1-badb-697ef321cbb3.jpg?1547235165"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{R}{G}",
     "cmc": 2,
@@ -704,6 +744,7 @@
       457150
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aa981489-4301-43f6-b1d7-2aa42e00cf75.jpg?1547234362"],
+    "layout": "normal",
     "type_line": "Creature — Elephant Soldier",
     "mana_cost": "{3}{W}",
     "cmc": 4,
@@ -711,7 +752,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457240,
@@ -721,6 +762,7 @@
       457240
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/3/b3f073d7-f60a-44c1-aec9-cf42bbdb3153.jpg?1547234813"],
+    "layout": "normal",
     "type_line": "Creature — Goblin Shaman",
     "mana_cost": "{2}{R}",
     "cmc": 3,
@@ -738,6 +780,7 @@
       457306
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/4/34a18415-015c-4d3f-8042-b156a673e125.jpg?1547235170"],
+    "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "mana_cost": "{R}{G}",
     "cmc": 2,
@@ -756,6 +799,7 @@
       457178
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/7/a7da6982-9e57-41d2-a052-f2a3bb646436.jpg?1547234496"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{2}{U}",
     "cmc": 3,
@@ -773,6 +817,7 @@
       457212
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0ac65975-6ff5-4863-b7b7-d7dbea213b50.jpg?1547234665"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{4}{B}",
     "cmc": 5,
@@ -790,6 +835,7 @@
       457179
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/5/258aeef1-565a-4f19-b12c-d46d54ba231d.jpg?1547235730"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{U}",
     "cmc": 3,
@@ -797,7 +843,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457367,
@@ -807,6 +853,7 @@
       457367
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547582011"],
+    "layout": "split",
     "type_line": "Instant // Instant",
     "mana_cost": "{1}{R/G} // {R}{G}",
     "cmc": 2,
@@ -825,6 +872,7 @@
       457307
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3a6e2816-d50b-41a5-b503-faa58dc7c94a.jpg?1547235176"],
+    "layout": "normal",
     "type_line": "Creature — Merfolk Wizard",
     "mana_cost": "{G}{U}",
     "cmc": 2,
@@ -843,6 +891,7 @@
       457151
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547504593"],
+    "layout": "normal",
     "type_line": "Creature — Pegasus",
     "mana_cost": "{1}{W}",
     "cmc": 2,
@@ -860,6 +909,7 @@
       457368
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547582024"],
+    "layout": "split",
     "type_line": "Instant // Sorcery",
     "mana_cost": "{1}{W/B} // {2}{W}{B}",
     "cmc": 2,
@@ -878,6 +928,7 @@
       457213
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/09991fad-4282-4a17-bfb1-03eaa13502df.jpg?1547234671"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{5}{B}",
     "cmc": 6,
@@ -885,7 +936,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 2
   },
   {
     "id": 457180,
@@ -895,6 +946,7 @@
       457180
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/889cc2a0-d9a6-4368-92e0-055a7d7bf9d1.jpg?1547234506"],
+    "layout": "normal",
     "type_line": "Creature — Merfolk Warrior",
     "mana_cost": "{2}{U}",
     "cmc": 3,
@@ -912,6 +964,7 @@
       457214
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/1/715a14a3-046e-45ca-b943-dd630e5202b7.jpg?1547234675"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{1}{B}{B}",
     "cmc": 3,
@@ -919,7 +972,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457308,
@@ -929,6 +982,7 @@
       457308
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/5/0536c2fa-7402-49a1-9016-dcf5633ca9ef.jpg?1547235181"],
+    "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "mana_cost": "{B}{R}",
     "cmc": 2,
@@ -947,6 +1001,7 @@
       457241
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/8/48a7ac34-ec4a-4571-abb1-bff1fb67c78f.jpg?1547234819"],
+    "layout": "normal",
     "type_line": "Creature — Viashino Rogue",
     "mana_cost": "{3}{R}",
     "cmc": 4,
@@ -964,6 +1019,7 @@
       457215
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/5/f5b2c21a-419d-4896-82e3-1b5cb32b158e.jpg?1547234681"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{3}{B}",
     "cmc": 4,
@@ -981,6 +1037,7 @@
       457216
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7cd03b99-d62e-428a-9e0d-097f1227a4da.jpg?1547234686"],
+    "layout": "normal",
     "type_line": "Creature — Thrull",
     "mana_cost": "{5}{B}",
     "cmc": 6,
@@ -988,7 +1045,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457242,
@@ -998,6 +1055,7 @@
       457242
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/3/43df9f41-944e-4cf3-ac80-524eadac221d.jpg?1547234824"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{R}",
     "cmc": 1,
@@ -1015,6 +1073,7 @@
       457369
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547582033"],
+    "layout": "split",
     "type_line": "Instant // Instant",
     "mana_cost": "{1}{W/U} // {2}{W}{U}",
     "cmc": 2,
@@ -1033,6 +1092,7 @@
       457309
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/e/7e362055-78a1-48fa-a4ef-6cf7e0b21b14.jpg?1547235186"],
+    "layout": "normal",
     "type_line": "Creature — Vedalken Wizard",
     "mana_cost": "{1}{W}{U}",
     "cmc": 3,
@@ -1051,6 +1111,7 @@
       457310
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1f56bbf3-3884-495a-b9cd-6585d86f76f1.jpg?1547235191"],
+    "layout": "normal",
     "type_line": "Legendary Planeswalker — Domri",
     "mana_cost": "{2}{R}{G}",
     "cmc": 4,
@@ -1069,6 +1130,7 @@
       457311
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/6/e6784910-0204-4a39-bb38-50daa03e94c2.jpg?1547235197"],
+    "layout": "normal",
     "type_line": "Legendary Planeswalker — Dovin",
     "mana_cost": "{1}{W}{U}",
     "cmc": 3,
@@ -1087,6 +1149,7 @@
       457312
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547650427"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{1}{W}{U}",
     "cmc": 3,
@@ -1105,6 +1168,7 @@
       457217
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/3/73f8710c-9c5e-4d11-b45f-0728c54bd631.jpg?1547234692"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{2}{B}",
     "cmc": 3,
@@ -1122,6 +1186,7 @@
       457243
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c63877b-cdab-4ce4-a1c0-c088eb62a57a.jpg?1547234829"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{X}{R}{R}",
     "cmc": 2,
@@ -1139,6 +1204,7 @@
       457313
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/6473a93f-879f-4f44-8650-ee05a647c763.jpg?1547235208"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{5}{W}{U}",
     "cmc": 7,
@@ -1157,6 +1223,7 @@
       457268
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a50d79fe-6d37-42f3-b7b0-0c3018282fa2.jpg?1547234967"],
+    "layout": "normal",
     "type_line": "Creature — Boar",
     "mana_cost": "{5}{G}{G}{G}",
     "cmc": 8,
@@ -1174,6 +1241,7 @@
       457269
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/4/c44fc50f-8958-422f-933f-fd043d642c97.jpg?1547235391"],
+    "layout": "normal",
     "type_line": "Creature — Rhino",
     "mana_cost": "{2}{G}{G}",
     "cmc": 4,
@@ -1181,7 +1249,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457181,
@@ -1191,6 +1259,7 @@
       457181
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce137910-0f0e-4f94-9b95-6e0eeeba164e.jpg?1547234511"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{U}{U}",
     "cmc": 2,
@@ -1198,7 +1267,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 1.5
   },
   {
     "id": 457314,
@@ -1208,6 +1277,7 @@
       457314
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547650405"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{4}{W}{B}",
     "cmc": 6,
@@ -1226,6 +1296,7 @@
       457152
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/094c2ac3-040f-41fe-9a37-c037d90baec0.jpg?1547234371"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{W}",
     "cmc": 3,
@@ -1233,7 +1304,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 0.5
   },
   {
     "id": 457182,
@@ -1243,6 +1314,7 @@
       457182
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1fdbf073-3ee6-402b-bd40-4781f40a6cae.jpg?1547234516"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{2}{U}",
     "cmc": 3,
@@ -1250,7 +1322,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 1
+    "rating": 2
   },
   {
     "id": 457183,
@@ -1260,6 +1332,7 @@
       457183
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/7/a7da9c9b-aeef-4f48-bc8f-39425841cc8c.jpg?1547234522"],
+    "layout": "normal",
     "type_line": "Creature — Faerie Rogue",
     "mana_cost": "{1}{U}",
     "cmc": 2,
@@ -1277,6 +1350,7 @@
       457244
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3c969aa0-b0e5-42cd-abba-0a3c7266142c.jpg?1547235033"],
+    "layout": "normal",
     "type_line": "Creature — Cat",
     "mana_cost": "{1}{R}",
     "cmc": 2,
@@ -1294,6 +1368,7 @@
       457315
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/49a21a8f-9c7b-4ae8-8635-f2ee2151c8de.jpg?1547235218"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{W}{B}",
     "cmc": 2,
@@ -1312,6 +1387,7 @@
       457316
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/21e1161f-bd2c-45a7-a86b-3b2e5210f148.jpg?1547235224"],
+    "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "mana_cost": "{B}{R}",
     "cmc": 2,
@@ -1330,6 +1406,7 @@
       457245
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/6/16957271-12bb-4031-b476-f7678b753ae3.jpg?1547234840"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{5}{R}",
     "cmc": 6,
@@ -1337,7 +1414,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457218,
@@ -1347,6 +1424,7 @@
       457218
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/7/d7c02aec-4a89-4ccc-8525-6f979c10d799.jpg?1547485363"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{B}",
     "cmc": 1,
@@ -1364,6 +1442,7 @@
       457360
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c604697-5c81-4329-9b16-f19bd90ba08c.jpg?1547235459"],
+    "layout": "normal",
     "type_line": "Creature — Devil",
     "mana_cost": "{B/R}",
     "cmc": 1,
@@ -1372,7 +1451,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457153,
@@ -1382,6 +1461,7 @@
       457153
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/1/c17056e7-95c6-4bed-a747-3b40dcda275a.jpg?1547234376"],
+    "layout": "normal",
     "type_line": "Creature — Spirit Cleric",
     "mana_cost": "{1}{W}{W}",
     "cmc": 3,
@@ -1399,6 +1479,7 @@
       457317
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bce2eef7-03a4-415f-8bb7-a29d50ce1b0f.jpg?1547235229"],
+    "layout": "normal",
     "type_line": "Creature — Cat Beast",
     "mana_cost": "{2}{R}{G}",
     "cmc": 4,
@@ -1417,6 +1498,7 @@
       457318
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50595d02-edad-48a6-b10c-6fa859cc88bb.jpg?1547235235"],
+    "layout": "normal",
     "type_line": "Creature — Elf Lizard Wizard",
     "mana_cost": "{G}{G}{U}{U}",
     "cmc": 4,
@@ -1425,7 +1507,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457319,
@@ -1435,6 +1517,7 @@
       457319
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/cc2b7cfe-4696-4448-93d2-33be596e32d9.jpg?1547235240"],
+    "layout": "normal",
     "type_line": "Creature — Frog Lizard",
     "mana_cost": "{3}{G}{U}",
     "cmc": 5,
@@ -1443,7 +1526,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457270,
@@ -1453,6 +1536,7 @@
       457270
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5ef592d1-e5e1-4252-8741-402c32d65dfd.jpg?1547234979"],
+    "layout": "normal",
     "type_line": "Creature — Sheep",
     "mana_cost": "{2}{G}",
     "cmc": 3,
@@ -1460,7 +1544,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457376,
@@ -1470,12 +1554,13 @@
       457376
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/9/99767e2f-a558-4d63-b9b6-923d15b433e1.jpg?1547235542"],
+    "layout": "normal",
     "type_line": "Artifact Creature — Construct",
     "mana_cost": "{8}",
     "cmc": 8,
     "colors": [],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457246,
@@ -1485,6 +1570,7 @@
       457246
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2b574b44-01e1-4197-99bd-57e54aebc5ff.jpg?1547234846"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{2}{R}",
     "cmc": 3,
@@ -1492,7 +1578,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 1.5
+    "rating": 2.5
   },
   {
     "id": 457391,
@@ -1502,6 +1588,7 @@
       457391
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/4/3433a2c2-d252-4cd8-97e8-389875b2cda0.jpg?1547235610"],
+    "layout": "normal",
     "type_line": "Land — Gate",
     "mana_cost": "",
     "cmc": 0,
@@ -1517,6 +1604,7 @@
       457184
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/d/edc0229d-05e6-41b7-b7a9-2a8b2b258add.jpg?1547234527"],
+    "layout": "normal",
     "type_line": "Creature — Vedalken Rogue",
     "mana_cost": "{2}{U}",
     "cmc": 3,
@@ -1524,7 +1612,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2
   },
   {
     "id": 457320,
@@ -1534,6 +1622,7 @@
       457320
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/821c4ab5-eb75-445a-bbec-e50af54dba7a.jpg?1547236113"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{3}{B}{R}",
     "cmc": 5,
@@ -1552,6 +1641,7 @@
       457247
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/d/4da3969c-1979-4eee-828a-4a7189121eba.jpg?1547259854"],
+    "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "mana_cost": "{3}{R}",
     "cmc": 4,
@@ -1569,6 +1659,7 @@
       457271
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb363b1d-0b80-453c-98ca-e9f873bb7add.jpg?1547235437"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{G}",
     "cmc": 2,
@@ -1586,12 +1677,13 @@
       457377
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/1/d1022d41-c1d0-42bf-b3e5-d6fb02d47119.jpg?1547235547"],
+    "layout": "normal",
     "type_line": "Artifact",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
     "rarity": "rare",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457248,
@@ -1601,6 +1693,7 @@
       457248
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/4/147bef05-4497-44d5-9dd6-fb5dc08e78f7.jpg?1547234856"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{2}{R}",
     "cmc": 3,
@@ -1608,7 +1701,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457392,
@@ -1618,6 +1711,7 @@
       457392
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ced4c824-2dfc-42ae-84e6-09f8e3f51b5b.jpg?1547235615"],
+    "layout": "normal",
     "type_line": "Land — Plains Swamp",
     "mana_cost": "",
     "cmc": 0,
@@ -1636,6 +1730,7 @@
       457321
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/56f82d97-ce50-490c-ad7f-46d70a73e454.jpg?1547235251"],
+    "layout": "normal",
     "type_line": "Creature — Thrull",
     "mana_cost": "{3}{W}{B}",
     "cmc": 5,
@@ -1654,6 +1749,7 @@
       457249
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/4942068c-ffde-4a6b-849e-8acf05e1d2e1.jpg?1547234862"],
+    "layout": "normal",
     "type_line": "Creature — Goblin Shaman",
     "mana_cost": "{1}{R}",
     "cmc": 2,
@@ -1672,6 +1768,7 @@
       457219
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/6/b698c5e1-3816-4f35-8e39-65dc68f5c64f.jpg?1547234703"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{B}",
     "cmc": 3,
@@ -1679,7 +1776,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457272,
@@ -1689,6 +1786,7 @@
       457272
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f97cdf4-231d-4bd0-af5e-bcb64ce1556c.jpg?1547234989"],
+    "layout": "normal",
     "type_line": "Creature — Elf Crab Warrior",
     "mana_cost": "{1}{G}",
     "cmc": 2,
@@ -1696,7 +1794,7 @@
       "G"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457322,
@@ -1706,6 +1804,7 @@
       457322
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c77a6b1-ef06-4da5-8e86-a5204216cb77.jpg?1547235257"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{G}{U}",
     "cmc": 2,
@@ -1714,7 +1813,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 1.5
   },
   {
     "id": 457273,
@@ -1724,6 +1823,7 @@
       457273
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2b0aaded-515f-4ac9-a72f-6948b4d4df51.jpg?1547234994"],
+    "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "mana_cost": "{3}{G}",
     "cmc": 4,
@@ -1741,6 +1841,7 @@
       457393
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1547579459"],
+    "layout": "normal",
     "type_line": "Land — Gate",
     "mana_cost": "",
     "cmc": 0,
@@ -1759,6 +1860,7 @@
       457378
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/e/1ec78880-a8ec-4c87-bc3f-e2a79d154884.jpg?1547235552"],
+    "layout": "normal",
     "type_line": "Artifact",
     "mana_cost": "{3}",
     "cmc": 3,
@@ -1777,6 +1879,7 @@
       457323
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/326679a2-782d-45a0-9a06-b147ceff3979.jpg?1547235262"],
+    "layout": "normal",
     "type_line": "Creature — Ogre Warrior",
     "mana_cost": "{1}{R}{G}",
     "cmc": 3,
@@ -1795,6 +1898,7 @@
       457274
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/ccad6ce0-ddf0-458d-bdae-3d7805fdc775.jpg?1547234999"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{3}{G}",
     "cmc": 4,
@@ -1802,7 +1906,7 @@
       "G"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457220,
@@ -1812,6 +1916,7 @@
       457220
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/a/6a1c710b-bd67-4174-ab02-6ae98a7575ac.jpg?1547234708"],
+    "layout": "normal",
     "type_line": "Creature — Skeleton Warrior",
     "mana_cost": "{B}",
     "cmc": 1,
@@ -1819,7 +1924,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457324,
@@ -1829,6 +1934,7 @@
       457324
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/26dd6a1d-4dcb-4392-9856-c0e4140efbd7.jpg?1547235268"],
+    "layout": "normal",
     "type_line": "Creature — Vedalken Wizard",
     "mana_cost": "{1}{G}{U}",
     "cmc": 3,
@@ -1837,7 +1943,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457154,
@@ -1847,6 +1953,7 @@
       457154
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5ba5f096-c6ea-4db6-966b-617e3454813f.jpg?1547234381"],
+    "layout": "normal",
     "type_line": "Creature — Human Soldier",
     "mana_cost": "{2}{W}",
     "cmc": 3,
@@ -1854,7 +1961,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457325,
@@ -1864,6 +1971,7 @@
       457325
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/4/a41335c2-3d11-4f95-8d9f-66b04398c10b.jpg?1547235273"],
+    "layout": "normal",
     "type_line": "Creature — Human Rogue",
     "mana_cost": "{1}{B}{R}",
     "cmc": 3,
@@ -1882,6 +1990,7 @@
       457395
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/9/f97a6d34-03ab-49f1-b02e-405b733f8843.jpg?1547235621"],
+    "layout": "normal",
     "type_line": "Land — Plains Island",
     "mana_cost": "",
     "cmc": 0,
@@ -1890,7 +1999,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457155,
@@ -1900,6 +2009,7 @@
       457155
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/87732718-1067-4e5f-a76d-409539c9ef3f.jpg?1547234386"],
+    "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "mana_cost": "{1}{W}",
     "cmc": 2,
@@ -1917,6 +2027,7 @@
       457326
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce124f6e-ef0c-4d01-a876-e34d3e445108.jpg?1547235278"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{1}{W}{U}",
     "cmc": 3,
@@ -1935,6 +2046,7 @@
       457185
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/21982dc7-4f79-4251-8382-95cd1f627e0f.jpg?1547234532"],
+    "layout": "normal",
     "type_line": "Creature — Homunculus",
     "mana_cost": "{4}{U}",
     "cmc": 5,
@@ -1942,7 +2054,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457327,
@@ -1952,6 +2064,7 @@
       457327
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/801dd9c6-b159-4e1c-af2c-214c1f573633.jpg?1547235284"],
+    "layout": "normal",
     "type_line": "Creature — Jellyfish Hydra Beast",
     "mana_cost": "{X}{G}{U}",
     "cmc": 2,
@@ -1960,7 +2073,7 @@
       "U"
     ],
     "rarity": "mythic",
-    "rating": 4.5
+    "rating": 4
   },
   {
     "id": 457221,
@@ -1970,6 +2083,7 @@
       457221
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/d/3d44b342-f611-4836-a9d5-83b00a24318f.jpg?1547234713"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{3}{B}",
     "cmc": 4,
@@ -1977,7 +2091,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457250,
@@ -1987,6 +2101,7 @@
       457250
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/5/45e668e5-ef50-43eb-852e-b111370459c8.jpg?1547234867"],
+    "layout": "normal",
     "type_line": "Creature — Viashino Shaman",
     "mana_cost": "{1}{R}",
     "cmc": 2,
@@ -2004,6 +2119,7 @@
       457156
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2bd746e3-8934-4c86-894e-2cb1738b1d58.jpg?1547234391"],
+    "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "mana_cost": "{1}{W}",
     "cmc": 2,
@@ -2021,6 +2137,7 @@
       457328
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fd27ba9e-5b9c-468f-9a44-bf2e89138e72.jpg?1547235289"],
+    "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "mana_cost": "{W}{B}",
     "cmc": 2,
@@ -2039,6 +2156,7 @@
       457275
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/075bbe5d-d0f3-4be3-a3a6-072d5d3d614c.jpg?1547235005"],
+    "layout": "normal",
     "type_line": "Creature — Elf Druid",
     "mana_cost": "{1}{G}",
     "cmc": 2,
@@ -2046,7 +2164,7 @@
       "G"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 4
   },
   {
     "id": 457370,
@@ -2056,6 +2174,7 @@
       457370
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547582042"],
+    "layout": "split",
     "type_line": "Sorcery // Instant",
     "mana_cost": "{G/U} // {1}{G}{U}",
     "cmc": 1,
@@ -2074,6 +2193,7 @@
       457329
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0a742125-730d-4082-bfd8-5feb7733def4.jpg?1547235294"],
+    "layout": "normal",
     "type_line": "Legendary Creature — Human Shaman",
     "mana_cost": "{1}{B}{R}",
     "cmc": 3,
@@ -2092,6 +2212,7 @@
       457379
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547580949"],
+    "layout": "normal",
     "type_line": "Artifact Creature — Golem",
     "mana_cost": "{4}",
     "cmc": 4,
@@ -2107,6 +2228,7 @@
       457157
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/d/1df611df-3490-4b07-8034-6da9a0122a81.jpg?1547234396"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{W}",
     "cmc": 2,
@@ -2124,6 +2246,7 @@
       457330
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fdb4b2ef-5196-4f7f-88ff-64b2cdb36c6b.jpg?1547235300"],
+    "layout": "normal",
     "type_line": "Legendary Planeswalker — Kaya",
     "mana_cost": "{1}{W}{B}",
     "cmc": 3,
@@ -2132,7 +2255,7 @@
       "W"
     ],
     "rarity": "mythic",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457331,
@@ -2142,6 +2265,7 @@
       457331
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5ed140c1-752b-4539-88f2-1fa354049b17.jpg?1547235305"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{W}{W}{B}{B}",
     "cmc": 4,
@@ -2160,6 +2284,7 @@
       457158
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6ce239e9-9b35-4dde-8a44-6c7ce4eb2d1a.jpg?1547234401"],
+    "layout": "normal",
     "type_line": "Creature — Human Knight",
     "mana_cost": "{4}{W}",
     "cmc": 5,
@@ -2177,6 +2302,7 @@
       457332
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/76fccf60-2df5-4c14-893f-41d3f86c545f.jpg?1547235310"],
+    "layout": "normal",
     "type_line": "Creature — Giant Knight",
     "mana_cost": "{5}{W}{B}",
     "cmc": 7,
@@ -2185,7 +2311,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457333,
@@ -2195,6 +2321,7 @@
       457333
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/4/c497d496-1232-4614-93b0-9864fa93c29f.jpg?1547235316"],
+    "layout": "normal",
     "type_line": "Legendary Creature — Human Soldier",
     "mana_cost": "{W}{U}",
     "cmc": 2,
@@ -2213,6 +2340,7 @@
       457334
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8a7be1f-3fba-4ff2-a4f1-aebd3d20da8f.jpg?1547236145"],
+    "layout": "normal",
     "type_line": "Enchantment — Aura",
     "mana_cost": "{1}{W}{U}",
     "cmc": 3,
@@ -2231,6 +2359,7 @@
       457251
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/2/9287b848-2aeb-4c70-ac4a-acafb871b7a4.jpg?1547234873"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{2}{R}",
     "cmc": 3,
@@ -2248,6 +2377,7 @@
       457159
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/2469bc93-57ca-4077-bda2-160b4160adad.jpg?1547234406"],
+    "layout": "normal",
     "type_line": "Creature — Beast",
     "mana_cost": "{4}{W}",
     "cmc": 5,
@@ -2265,6 +2395,7 @@
       457335
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9c1aee37-dcee-4e58-be9b-81ca57cedb53.jpg?1547235326"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{B}{R}",
     "cmc": 4,
@@ -2273,7 +2404,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457276,
@@ -2283,6 +2414,7 @@
       457276
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/a/9a684871-ff6e-4474-82da-30757c324c73.jpg?1547235010"],
+    "layout": "normal",
     "type_line": "Creature — Spider",
     "mana_cost": "{4}{G}",
     "cmc": 5,
@@ -2300,6 +2432,7 @@
       457186
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/782760d7-59cc-4d40-a885-6a7980094fee.jpg?1547234537"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{X}{X}{U}{U}{U}{U}",
     "cmc": 4,
@@ -2307,7 +2440,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457187,
@@ -2317,6 +2450,7 @@
       457187
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5bed7c69-1302-4c1a-b410-b4e6c4ef4c0c.jpg?1547234542"],
+    "layout": "normal",
     "type_line": "Creature — Octopus",
     "mana_cost": "{3}{U}{U}",
     "cmc": 5,
@@ -2334,6 +2468,7 @@
       457160
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/f/bf2a093a-25f0-4247-94dc-550865d86317.jpg?1547234411"],
+    "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "mana_cost": "{2}{W}",
     "cmc": 3,
@@ -2351,6 +2486,7 @@
       457252
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50a27943-f08c-4cbd-affb-8e59411b3d4f.jpg?1547234878"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{5}{R}",
     "cmc": 6,
@@ -2358,7 +2494,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457336,
@@ -2368,6 +2504,7 @@
       457336
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/ebf6c0dc-5c7b-4170-99bc-2637ea44e716.jpg?1547235332"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{W}{B}",
     "cmc": 3,
@@ -2386,6 +2523,7 @@
       457337
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1547235337"],
+    "layout": "normal",
     "type_line": "Legendary Creature — Centaur Druid",
     "mana_cost": "{3}{R}{G}",
     "cmc": 5,
@@ -2404,6 +2542,7 @@
       457222
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/6/b6cb3d78-1a60-4e9b-b387-afeb58677536.jpg?1547234718"],
+    "layout": "normal",
     "type_line": "Creature — Beast",
     "mana_cost": "{2}{B}",
     "cmc": 3,
@@ -2421,6 +2560,7 @@
       457277
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff326c57-accb-4b75-9bc9-b5ef1a85f38d.jpg?1547235511"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{G}",
     "cmc": 1,
@@ -2438,6 +2578,7 @@
       457223
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/a/6a72b49e-be14-485b-a467-31cbac9aa1c5.jpg?1547234723"],
+    "layout": "normal",
     "type_line": "Creature — Human Rogue",
     "mana_cost": "{1}{B}",
     "cmc": 2,
@@ -2455,6 +2596,7 @@
       457396
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1547579495"],
+    "layout": "normal",
     "type_line": "Land — Gate",
     "mana_cost": "",
     "cmc": 0,
@@ -2473,6 +2615,7 @@
       457380
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/761e7188-bad1-4775-84a2-15da9a42a57c.jpg?1547235562"],
+    "layout": "normal",
     "type_line": "Artifact",
     "mana_cost": "{3}",
     "cmc": 3,
@@ -2491,6 +2634,7 @@
       457224
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/29b89f68-72ba-493d-95c4-eb37751fbd3d.jpg?1547234729"],
+    "layout": "normal",
     "type_line": "Creature — Human Rogue",
     "mana_cost": "{4}{B}",
     "cmc": 5,
@@ -2508,6 +2652,7 @@
       457188
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/9/e93f0c57-eb80-4dde-bdb0-326970491621.jpg?1547234547"],
+    "layout": "normal",
     "type_line": "Creature — Human Advisor",
     "mana_cost": "{1}{U}",
     "cmc": 2,
@@ -2515,7 +2660,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 0
   },
   {
     "id": 457225,
@@ -2525,6 +2670,7 @@
       457225
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f9a0387-5116-484b-bb2b-064bd42e7fff.jpg?1547234734"],
+    "layout": "normal",
     "type_line": "Creature — Spirit",
     "mana_cost": "{2}{B}",
     "cmc": 3,
@@ -2532,7 +2678,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 4
+    "rating": 3.5
   },
   {
     "id": 457338,
@@ -2542,6 +2688,7 @@
       457338
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/98f66c03-cf79-4de0-be55-b921cbdc5038.jpg?1547235342"],
+    "layout": "normal",
     "type_line": "Creature — Vampire Cleric",
     "mana_cost": "{W}{B}",
     "cmc": 2,
@@ -2560,6 +2707,7 @@
       457226
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/6/962d354f-f2ad-4b47-8666-0ed64543b676.jpg?1547234739"],
+    "layout": "normal",
     "type_line": "Creature — Zombie",
     "mana_cost": "{1}{B}",
     "cmc": 2,
@@ -2577,6 +2725,7 @@
       457398
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/07f2ae00-206d-4984-84eb-d10ab75d3791.jpg?1547235626"],
+    "layout": "normal",
     "type_line": "Land",
     "mana_cost": "",
     "cmc": 0,
@@ -2592,6 +2741,7 @@
       457189
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/2/724fd1ea-05ad-497c-9989-825ada48e684.jpg?1547234551"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{3}{U}{U}",
     "cmc": 5,
@@ -2599,7 +2749,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457227,
@@ -2609,6 +2759,7 @@
       457227
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/3/e3378fe8-3355-48aa-90d4-9cb739200160.jpg?1547234744"],
+    "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "mana_cost": "{1}{B}",
     "cmc": 2,
@@ -2616,7 +2767,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457339,
@@ -2626,6 +2777,7 @@
       457339
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84abfc59-10a7-4cb5-9cdd-81797116c810.jpg?1547235348"],
+    "layout": "normal",
     "type_line": "Legendary Creature — Elf Ooze Wizard",
     "mana_cost": "{2}{G}{U}",
     "cmc": 4,
@@ -2644,6 +2796,7 @@
       457161
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c5382fc4-3384-449e-a83f-43a59158d55b.jpg?1547234416"],
+    "layout": "normal",
     "type_line": "Creature — Cat",
     "mana_cost": "{1}{W}",
     "cmc": 2,
@@ -2661,6 +2814,7 @@
       457190
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/11ee2c64-68f1-434b-8092-ae80d6575666.jpg?1547234556"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{4}{U}{U}",
     "cmc": 6,
@@ -2678,6 +2832,7 @@
       457191
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/280f2a85-1900-460b-a768-164fc2dea636.jpg?1547234561"],
+    "layout": "normal",
     "type_line": "Creature — Salamander Drake",
     "mana_cost": "{U}",
     "cmc": 1,
@@ -2695,6 +2850,7 @@
       457192
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/e/ee0ba01b-de96-4f8f-9405-ff3ad288afac.jpg?1547234566"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{U}",
     "cmc": 2,
@@ -2702,7 +2858,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457340,
@@ -2712,6 +2868,7 @@
       457340
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/f/bf8dad4d-bc4f-46fb-892c-dbf6481cdc46.jpg?1547235352"],
+    "layout": "normal",
     "type_line": "Creature — Demon",
     "mana_cost": "{2}{B}{R}",
     "cmc": 4,
@@ -2730,6 +2887,7 @@
       457341
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d819a944-0b3e-4e26-87da-2417081928e7.jpg?1547235358"],
+    "layout": "normal",
     "type_line": "Creature — Human Rogue",
     "mana_cost": "{B}{B}{R}{R}",
     "cmc": 4,
@@ -2748,6 +2906,7 @@
       457399
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1547579529"],
+    "layout": "normal",
     "type_line": "Land — Gate",
     "mana_cost": "",
     "cmc": 0,
@@ -2756,7 +2915,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457381,
@@ -2766,6 +2925,7 @@
       457381
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/f/4fd60d9b-2282-4b32-9bff-efb2bcf87d22.jpg?1547235568"],
+    "layout": "normal",
     "type_line": "Artifact",
     "mana_cost": "{3}",
     "cmc": 3,
@@ -2774,7 +2934,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 0.5
+    "rating": 1
   },
   {
     "id": 457342,
@@ -2784,6 +2944,7 @@
       457342
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5ed534af-e16a-4d1d-8884-938fc7e13ca8.jpg?1547235363"],
+    "layout": "normal",
     "type_line": "Creature — Ogre Warrior",
     "mana_cost": "{1}{B}{R}",
     "cmc": 3,
@@ -2802,6 +2963,7 @@
       457343
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4e3c30c7-c52e-41a0-b7c2-21d39c05160b.jpg?1547235368"],
+    "layout": "normal",
     "type_line": "Legendary Creature — Demon",
     "mana_cost": "{4}{B}{R}",
     "cmc": 6,
@@ -2820,6 +2982,7 @@
       457228
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/2822aff3-9985-424b-9f19-b49e987c25e4.jpg?1547234750"],
+    "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "mana_cost": "{1}{B}",
     "cmc": 2,
@@ -2838,6 +3001,7 @@
       457162
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/0/d0798546-1ef4-485e-b094-cba12a12c67c.jpg?1547310303"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{3}{W}",
     "cmc": 4,
@@ -2855,6 +3019,7 @@
       457278
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/28ebab7d-d03d-4473-aa9b-485aebb66433.jpg?1547235021"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{3}{G}",
     "cmc": 4,
@@ -2872,6 +3037,7 @@
       457279
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/2/12c1b820-0f06-41f6-804f-5c98f60c1529.jpg?1547235026"],
+    "layout": "normal",
     "type_line": "Creature — Beast",
     "mana_cost": "{4}{G}",
     "cmc": 5,
@@ -2889,6 +3055,7 @@
       457344
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/d/6d5a6085-bb5d-412e-8831-757996bbc8fb.jpg?1547235374"],
+    "layout": "normal",
     "type_line": "Creature — Wurm",
     "mana_cost": "{3}{R}{G}{G}",
     "cmc": 6,
@@ -2897,7 +3064,7 @@
       "R"
     ],
     "rarity": "mythic",
-    "rating": 4
+    "rating": 4.5
   },
   {
     "id": 457280,
@@ -2907,6 +3074,7 @@
       457280
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/8/18a362c1-af92-4094-a7c2-f09952767606.jpg?1547235031"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{3}{G}{G}",
     "cmc": 5,
@@ -2924,6 +3092,7 @@
       457371
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6200937-3146-4972-ab83-051ade3b7a52.jpg?1547582051"],
+    "layout": "split",
     "type_line": "Instant // Sorcery",
     "mana_cost": "{G/U}{G/U} // {1}{G}{U}",
     "cmc": 2,
@@ -2942,6 +3111,7 @@
       457163
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/56d86909-b7f3-4a46-9904-e173853b79f1.jpg?1547234426"],
+    "layout": "normal",
     "type_line": "Creature — Hound",
     "mana_cost": "{W}",
     "cmc": 1,
@@ -2959,6 +3129,7 @@
       457372
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50ae0831-f3ba-4535-bfb6-feefbbc15275.jpg?1547582061"],
+    "layout": "split",
     "type_line": "Sorcery // Sorcery",
     "mana_cost": "{W/B}{W/B} // {4}{W}{B}",
     "cmc": 2,
@@ -2977,6 +3148,7 @@
       457345
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84062ce2-fea2-4e06-b83b-7cc597fb2a1b.jpg?1547235379"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{1}{R}{G}",
     "cmc": 3,
@@ -2995,6 +3167,7 @@
       457253
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/4/c40396da-18e2-42ca-a78c-4838a38f68b8.jpg?1547234883"],
+    "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "mana_cost": "{1}{R}",
     "cmc": 2,
@@ -3013,6 +3186,7 @@
       457281
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f38b1a2-3f85-4dcd-b90d-bb049651b8b7.jpg?1547235037"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{G}",
     "cmc": 2,
@@ -3030,6 +3204,7 @@
       457255
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2faac11b-4ece-4537-aa55-c2d0afa41786.jpg?1547259835"],
+    "layout": "normal",
     "type_line": "Creature — Ogre Berserker",
     "mana_cost": "{4}{R}",
     "cmc": 5,
@@ -3047,6 +3222,7 @@
       457346
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/78cc4e02-949f-4879-9f32-7c33490d0b45.jpg?1547236136"],
+    "layout": "normal",
     "type_line": "Creature — Viashino Warrior",
     "mana_cost": "{1}{R}{G}",
     "cmc": 3,
@@ -3055,7 +3231,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457254,
@@ -3065,6 +3241,7 @@
       457254
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8ace095a-3ea9-4121-8ffb-5b3612b96985.jpg?1547234889"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{3}{R}",
     "cmc": 4,
@@ -3082,6 +3259,7 @@
       457361
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f006255f-b18d-4d52-b97a-17909b67decc.jpg?1547235464"],
+    "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "mana_cost": "{2}{R/G}",
     "cmc": 3,
@@ -3090,7 +3268,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457256,
@@ -3100,6 +3278,7 @@
       457256
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/1/71fe7057-de70-456d-8f33-f64652447bdd.jpg?1547234899"],
+    "layout": "normal",
     "type_line": "Creature — Elemental",
     "mana_cost": "{5}{R}",
     "cmc": 6,
@@ -3117,6 +3296,7 @@
       457193
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/5/d573626b-e7fa-4c31-a3d4-b853adfe787e.jpg?1547234571"],
+    "layout": "normal",
     "type_line": "Creature — Vedalken Wizard",
     "mana_cost": "{1}{U}",
     "cmc": 2,
@@ -3134,6 +3314,7 @@
       457282
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/3/d3104cad-e684-4bd7-b26b-5aa862f7a2b3.jpg?1547235042"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{G}",
     "cmc": 3,
@@ -3141,7 +3322,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457283,
@@ -3151,6 +3332,7 @@
       457283
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/ef3358cb-714c-49bf-b7e9-a69d02d7799e.jpg?1547235047"],
+    "layout": "normal",
     "type_line": "Creature — Dryad",
     "mana_cost": "{G}",
     "cmc": 1,
@@ -3168,6 +3350,7 @@
       457284
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2f7ecad5-8bb5-416f-b8ef-a04aba4dc4b5.jpg?1547235053"],
+    "layout": "normal",
     "type_line": "Creature — Human Lizard Warrior",
     "mana_cost": "{1}{G}",
     "cmc": 2,
@@ -3185,6 +3368,7 @@
       457347
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/c/4ca942d7-a3a3-429f-a159-fc2363d9bca6.jpg?1547235390"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{1}{R}{G}",
     "cmc": 3,
@@ -3193,7 +3377,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457257,
@@ -3203,6 +3387,7 @@
       457257
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/a/2a14834f-78ae-4ca5-9ce0-5b928ad3d76c.jpg?1547234906"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{R}",
     "cmc": 2,
@@ -3220,6 +3405,7 @@
       457382
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/67b06cb5-5e74-456f-81b1-fced1346cc47.jpg?1547235574"],
+    "layout": "normal",
     "type_line": "Artifact",
     "mana_cost": "{1}",
     "cmc": 1,
@@ -3235,6 +3421,7 @@
       457383
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/ebb42a80-0442-4850-b0e7-41182d5633ff.jpg?1547235579"],
+    "layout": "normal",
     "type_line": "Artifact — Equipment",
     "mana_cost": "{1}",
     "cmc": 1,
@@ -3250,6 +3437,7 @@
       457362
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d886fd9a-7800-41f1-b692-32a439b045da.jpg?1547235470"],
+    "layout": "normal",
     "type_line": "Creature — Crab Turtle Crocodile",
     "mana_cost": "{4}{G/U}{G/U}",
     "cmc": 6,
@@ -3258,7 +3446,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457194,
@@ -3268,6 +3456,7 @@
       457194
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/da8dc5c8-4eb7-4e41-8431-b41251f7814e.jpg?1547234575"],
+    "layout": "normal",
     "type_line": "Creature — Bird",
     "mana_cost": "{2}{U}",
     "cmc": 3,
@@ -3276,7 +3465,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457363,
@@ -3286,6 +3475,7 @@
       457363
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/6/465adbb4-4c64-44eb-8323-61d23282c6b8.jpg?1547235475"],
+    "layout": "normal",
     "type_line": "Creature — Griffin",
     "mana_cost": "{2}{W/U}{W/U}",
     "cmc": 4,
@@ -3304,6 +3494,7 @@
       457348
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/1/913b3a2a-e3fd-4095-ab2a-5e356ea179df.jpg?1547235395"],
+    "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "mana_cost": "{W}{U}",
     "cmc": 2,
@@ -3322,6 +3513,7 @@
       457164
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/6/e6f4f661-ee4b-4fa5-99c4-106731d117ce.jpg?1547234432"],
+    "layout": "normal",
     "type_line": "Enchantment — Aura",
     "mana_cost": "{1}{W}",
     "cmc": 2,
@@ -3329,7 +3521,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 3
   },
   {
     "id": 457349,
@@ -3339,6 +3531,7 @@
       457349
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/6/d602e9e6-31ed-4d17-b39c-457b3b182943.jpg?1547235400"],
+    "layout": "normal",
     "type_line": "Creature — Angel",
     "mana_cost": "{2}{W}{B}",
     "cmc": 4,
@@ -3357,6 +3550,7 @@
       457350
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e0f31228-0c47-4c51-932d-50fdec965f15.jpg?1547235405"],
+    "layout": "normal",
     "type_line": "Creature — Fish Octopus Crab",
     "mana_cost": "{2}{G}{U}",
     "cmc": 4,
@@ -3375,6 +3569,7 @@
       457195
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/76e3092d-2422-438c-b5dd-bf8eca33a76e.jpg?1547234580"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{1}{U}",
     "cmc": 2,
@@ -3392,6 +3587,7 @@
       457285
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/a/ea6cd6a5-da6c-483c-a9f7-49e666ac0b6c.jpg?1547235058"],
+    "layout": "normal",
     "type_line": "Creature — Elf Scout",
     "mana_cost": "{1}{G}",
     "cmc": 2,
@@ -3399,7 +3595,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457351,
@@ -3409,6 +3605,7 @@
       457351
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff824392-fb5c-496c-be2f-6dfa6e04e3a2.jpg?1547235411"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{G}{U}",
     "cmc": 2,
@@ -3417,7 +3614,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457401,
@@ -3427,6 +3624,7 @@
       457401
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6e73e082-b16a-45d5-bc4a-24c694b0b9af.jpg?1547579556"],
+    "layout": "normal",
     "type_line": "Land — Gate",
     "mana_cost": "",
     "cmc": 0,
@@ -3445,6 +3643,7 @@
       457384
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/29c65978-e5b0-428e-aace-f99768ca6106.jpg?1547235584"],
+    "layout": "normal",
     "type_line": "Artifact",
     "mana_cost": "{3}",
     "cmc": 3,
@@ -3463,6 +3662,7 @@
       457258
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/e/be941a2e-4eb0-45b3-9da0-834053907a65.jpg?1547234911"],
+    "layout": "normal",
     "type_line": "Creature — Dragon",
     "mana_cost": "{3}{R}{R}",
     "cmc": 5,
@@ -3480,6 +3680,7 @@
       457196
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/ef4a517c-515b-4adc-8ea6-fb86820f22ed.jpg?1547234586"],
+    "layout": "normal",
     "type_line": "Creature — Vedalken Rogue Mutant",
     "mana_cost": "{3}{U}",
     "cmc": 4,
@@ -3487,7 +3688,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457259,
@@ -3497,6 +3698,7 @@
       457259
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/7/97295660-6bea-46ae-9a3b-0fc6abba407f.jpg?1547650387"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{2}{R}",
     "cmc": 3,
@@ -3514,6 +3716,7 @@
       457197
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/db328f03-7dae-445b-8e71-99dd88f26a9e.jpg?1547270044"],
+    "layout": "normal",
     "type_line": "Creature — Fish Crab",
     "mana_cost": "{3}{U}",
     "cmc": 4,
@@ -3531,6 +3734,7 @@
       457165
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39c47be3-0228-46de-b4b5-911fb86d4596.jpg?1547234437"],
+    "layout": "normal",
     "type_line": "Enchantment — Aura",
     "mana_cost": "{W}",
     "cmc": 1,
@@ -3538,7 +3742,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457198,
@@ -3548,6 +3752,7 @@
       457198
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/6/b6263410-20c5-43b4-8183-3c02c10d07fb.jpg?1547234596"],
+    "layout": "normal",
     "type_line": "Enchantment — Aura",
     "mana_cost": "{1}{U}",
     "cmc": 2,
@@ -3565,6 +3770,7 @@
       457260
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/f/4f24b2b6-b994-455f-b8e6-aa73e1be81b4.jpg?1547234922"],
+    "layout": "normal",
     "type_line": "Creature — Elemental",
     "mana_cost": "{1}{R}",
     "cmc": 2,
@@ -3582,6 +3788,7 @@
       457166
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/a/7af082fa-86a3-4f7b-966d-2be1f1d0c0bc.jpg?1547234442"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{3}{W}",
     "cmc": 4,
@@ -3599,6 +3806,7 @@
       457229
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8be01b8d-e0ef-44d1-ac97-39bb5a0e76be.jpg?1547434931"],
+    "layout": "normal",
     "type_line": "Creature — Demon",
     "mana_cost": "{2}{B}{B}",
     "cmc": 4,
@@ -3616,6 +3824,7 @@
       457261
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/dbee1daa-b4ba-49ee-bed1-e70fa09942a2.jpg?1547234929"],
+    "layout": "normal",
     "type_line": "Creature — Goblin Warrior",
     "mana_cost": "{R}",
     "cmc": 1,
@@ -3633,6 +3842,7 @@
       457199
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/f/cf2386fd-edc0-4731-8f4e-7a7c45548bf3.jpg?1547234600"],
+    "layout": "normal",
     "type_line": "Creature — Sphinx",
     "mana_cost": "{2}{U}{U}",
     "cmc": 4,
@@ -3650,6 +3860,7 @@
       457352
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/9/d9aec56e-50a3-491f-89c6-32907ea3161a.jpg?1547235416"],
+    "layout": "normal",
     "type_line": "Creature — Sphinx",
     "mana_cost": "{W}{W}{U}{U}",
     "cmc": 4,
@@ -3668,6 +3879,7 @@
       457385
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/d/3d30399e-2ecb-4de2-b830-673a3f059197.jpg?1547584469"],
+    "layout": "normal",
     "type_line": "Artifact Creature — Sphinx",
     "mana_cost": "{7}",
     "cmc": 7,
@@ -3689,6 +3901,7 @@
       457353
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/7/d71c2435-0312-4279-a9e1-fab7432756b7.jpg?1547235421"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{W}{U}",
     "cmc": 4,
@@ -3697,7 +3910,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457262,
@@ -3707,6 +3920,7 @@
       457262
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/8/58f70b8a-62ec-4ae6-97d2-3c6ae86a3602.jpg?1547235275"],
+    "layout": "normal",
     "type_line": "Creature — Human Rogue",
     "mana_cost": "{3}{R}",
     "cmc": 4,
@@ -3724,6 +3938,7 @@
       457230
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a3ce548d-764a-4397-bae3-d348dca78421.jpg?1547234760"],
+    "layout": "normal",
     "type_line": "Creature — Insect",
     "mana_cost": "{2}{B}",
     "cmc": 3,
@@ -3741,6 +3956,7 @@
       457167
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/dbd11910-58e2-4233-a18c-e97413126597.jpg?1547234446"],
+    "layout": "normal",
     "type_line": "Creature — Spirit",
     "mana_cost": "{3}{W}",
     "cmc": 4,
@@ -3758,6 +3974,7 @@
       457286
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/4/f4afafb4-3fc0-4ccf-a942-e4bd2f146d89.jpg?1547235742"],
+    "layout": "normal",
     "type_line": "Creature — Frog Snake",
     "mana_cost": "{2}{G}",
     "cmc": 3,
@@ -3766,7 +3983,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457403,
@@ -3776,6 +3993,7 @@
       457403
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/c/dcaa1ff6-304e-4660-9df3-36de8e89592e.jpg?1547235631"],
+    "layout": "normal",
     "type_line": "Land — Mountain Forest",
     "mana_cost": "",
     "cmc": 0,
@@ -3784,7 +4002,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 2.5
   },
   {
     "id": 457287,
@@ -3794,6 +4012,7 @@
       457287
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8bbab274-69dd-44a9-9310-a15779c35cad.jpg?1547235069"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{G}",
     "cmc": 1,
@@ -3801,7 +4020,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457263,
@@ -3811,6 +4030,7 @@
       457263
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8de24cba-545a-438b-9516-1c19a50ca78c.jpg?1547234940"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{R}",
     "cmc": 1,
@@ -3828,6 +4048,7 @@
       457168
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/0/c0b20fec-8373-4c6c-b3c1-ee7cff64dd37.jpg?1547235589"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{W}",
     "cmc": 2,
@@ -3845,6 +4066,7 @@
       457354
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9bb6a8bb-9eec-4f9b-a5a8-604631e4b823.jpg?1547235426"],
+    "layout": "normal",
     "type_line": "Creature — Giant Shaman",
     "mana_cost": "{R}{R}{G}{G}",
     "cmc": 4,
@@ -3863,6 +4085,7 @@
       457200
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8dbb3d2f-4ee4-46e2-98aa-4aa388bd5375.jpg?1547234605"],
+    "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{5}{U}",
     "cmc": 6,
@@ -3880,6 +4103,7 @@
       457288
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8bc288a3-ea56-450a-96fd-c2123121f663.jpg?1547235074"],
+    "layout": "normal",
     "type_line": "Creature — Beast",
     "mana_cost": "{2}{G}",
     "cmc": 3,
@@ -3887,7 +4111,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457355,
@@ -3897,6 +4121,7 @@
       457355
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e82d3c8d-849a-445b-bc7c-365514d1511f.jpg?1547235432"],
+    "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "mana_cost": "{W}{B}",
     "cmc": 2,
@@ -3915,6 +4140,7 @@
       457169
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/0/10273046-4c74-42d8-afaa-6cfbe0bd4e8f.jpg?1547234451"],
+    "layout": "normal",
     "type_line": "Creature — Bird",
     "mana_cost": "{3}{W}",
     "cmc": 4,
@@ -3922,7 +4148,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457170,
@@ -3932,6 +4158,7 @@
       457170
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/ef573e92-3106-4b42-90e8-0e165de0659f.jpg?1547235708"],
+    "layout": "normal",
     "type_line": "Creature — Human Soldier",
     "mana_cost": "{2}{W}",
     "cmc": 3,
@@ -3939,7 +4166,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457289,
@@ -3949,6 +4176,7 @@
       457289
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5e9ddae7-7e7c-46c7-ad7d-9a686c256b9d.jpg?1547235079"],
+    "layout": "normal",
     "type_line": "Creature — Boar",
     "mana_cost": "{1}{G}",
     "cmc": 2,
@@ -3966,6 +4194,7 @@
       457356
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bcfaa19e-995e-447d-a0a2-46e5d117d5ec.jpg?1547235437"],
+    "layout": "normal",
     "type_line": "Legendary Creature — Human Advisor",
     "mana_cost": "{2}{W}{B}",
     "cmc": 4,
@@ -3984,6 +4213,7 @@
       457357
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/ad42efd5-79c8-44f9-b3d6-d9058e0cb0f6.jpg?1547235443"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{1}{B}{R}",
     "cmc": 3,
@@ -4002,6 +4232,7 @@
       457231
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a920c2e6-4a1f-487c-ad3f-b772443f0633.jpg?1547234765"],
+    "layout": "normal",
     "type_line": "Creature — Shade",
     "mana_cost": "{B}",
     "cmc": 1,
@@ -4019,6 +4250,7 @@
       457201
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/4/948b569b-6341-418b-99b5-f79dfb3fe8dd.jpg?1547234609"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{U}{U}",
     "cmc": 3,
@@ -4026,7 +4258,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457373,
@@ -4036,6 +4268,7 @@
       457373
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/e/2eefd8c1-96ce-4d7a-8aaf-29c35d634dda.jpg?1547582073"],
+    "layout": "split",
     "type_line": "Instant // Sorcery",
     "mana_cost": "{R/G}{R/G} // {2}{R}{G}",
     "cmc": 2,
@@ -4054,6 +4287,7 @@
       457264
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/3/b3815ab6-87cd-4310-8068-ec721ee10a24.jpg?1547234946"],
+    "layout": "normal",
     "type_line": "Creature — Goblin Rogue",
     "mana_cost": "{R}",
     "cmc": 1,
@@ -4071,6 +4305,7 @@
       457290
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bcf9b57a-a759-4488-965a-651070cd2156.jpg?1547235085"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{G}",
     "cmc": 2,
@@ -4088,6 +4323,7 @@
       457171
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/d/bd26b7b1-992d-4b8c-bc33-51aab5abdf98.jpg?1547234462"],
+    "layout": "normal",
     "type_line": "Creature — Human Soldier",
     "mana_cost": "{1}{W}",
     "cmc": 2,
@@ -4105,12 +4341,13 @@
       457386
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/5/95e307d4-7e5f-4f00-869e-da0e7abbf27f.jpg?1547235595"],
+    "layout": "normal",
     "type_line": "Artifact",
     "mana_cost": "{5}",
     "cmc": 5,
     "colors": [],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457291,
@@ -4120,6 +4357,7 @@
       457291
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/195e94a4-a698-4c66-9428-5cc8a40d42c6.jpg?1547235090"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{G}",
     "cmc": 2,
@@ -4137,6 +4375,7 @@
       457292
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8e3e51f6-7091-4cf3-86a3-b8c5946f3796.jpg?1547235096"],
+    "layout": "normal",
     "type_line": "Creature — Troll Frog Warrior",
     "mana_cost": "{4}{G}",
     "cmc": 5,
@@ -4154,6 +4393,7 @@
       457172
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5fb149cc-74ca-4bc3-8efc-10ce872b59fb.jpg?1547234467"],
+    "layout": "normal",
     "type_line": "Creature — Cat Spirit",
     "mana_cost": "{W}",
     "cmc": 1,
@@ -4162,7 +4402,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457173,
@@ -4172,6 +4412,7 @@
       457173
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/6/46cc8574-7b8c-492c-8a36-75cb0192f853.jpg?1547234472"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{W}",
     "cmc": 3,
@@ -4179,7 +4420,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457232,
@@ -4189,6 +4430,7 @@
       457232
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1be7e297-4602-44f8-b919-07015813fd7e.jpg?1547234770"],
+    "layout": "normal",
     "type_line": "Creature — Ogre Warrior",
     "mana_cost": "{3}{B}",
     "cmc": 4,
@@ -4196,7 +4438,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457233,
@@ -4206,6 +4448,7 @@
       457233
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/f/bfcb9805-eca0-476c-9480-0c958acdb50f.jpg?1547270171"],
+    "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{B}",
     "cmc": 3,
@@ -4213,7 +4456,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457202,
@@ -4223,6 +4466,7 @@
       457202
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/d/3d866d26-b630-46d3-bcc2-b810c844cc89.jpg?1547234614"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{2}{U}",
     "cmc": 3,
@@ -4240,6 +4484,7 @@
       457234
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c0bfb47-c753-42fa-969b-7b10b87b0462.jpg?1547580981"],
+    "layout": "normal",
     "type_line": "Creature — Vampire",
     "mana_cost": "{3}{B}",
     "cmc": 4,
@@ -4257,6 +4502,7 @@
       457364
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/1/61245466-694f-4a80-b556-4e7f876aedca.jpg?1547235480"],
+    "layout": "normal",
     "type_line": "Creature — Vampire",
     "mana_cost": "{2}{W/B}",
     "cmc": 3,
@@ -4265,7 +4511,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457203,
@@ -4275,6 +4521,7 @@
       457203
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/03a0a627-ea7a-48bb-bf30-60b2677dd8ae.jpg?1547234619"],
+    "layout": "normal",
     "type_line": "Creature — Wall",
     "mana_cost": "{1}{U}",
     "cmc": 2,
@@ -4292,6 +4539,7 @@
       457374
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/0070651d-79aa-4ea6-b703-6ecd3528b548.jpg?1547582083"],
+    "layout": "split",
     "type_line": "Instant // Sorcery",
     "mana_cost": "{W/U}{W/U} // {3}{W}{U}",
     "cmc": 2,
@@ -4310,6 +4558,7 @@
       457174
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/1/61a38f24-1eb3-4914-be1f-0b5f6d4b09d5.jpg?1547235721"],
+    "layout": "normal",
     "type_line": "Creature — Giant Soldier",
     "mana_cost": "{5}{W}",
     "cmc": 6,
@@ -4327,6 +4576,7 @@
       457293
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/54af08f7-9c6c-464e-b2f7-2b5803f36481.jpg?1547235101"],
+    "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{3}{G}",
     "cmc": 4,
@@ -4334,7 +4584,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457204,
@@ -4344,6 +4594,7 @@
       457204
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/2/120aa3b3-d358-4df3-be39-9b7ce926673a.jpg?1547234623"],
+    "layout": "normal",
     "type_line": "Creature — Drake",
     "mana_cost": "{4}{U}",
     "cmc": 5,
@@ -4351,7 +4602,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457294,
@@ -4361,6 +4612,7 @@
       457294
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/74e6f7be-4493-4081-ac67-d782ab2b3723.jpg?1547235106"],
+    "layout": "normal",
     "type_line": "Creature — Beast",
     "mana_cost": "{5}{G}{G}",
     "cmc": 7,
@@ -4368,7 +4620,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2.5
   },
   {
     "id": 457358,
@@ -4378,6 +4630,7 @@
       457358
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd199a48-5ac8-4ab9-a33c-bbce6f7c9d1b.jpg?1547235448"],
+    "layout": "normal",
     "type_line": "Legendary Creature — Merfolk Wizard",
     "mana_cost": "{2}{G}{U}",
     "cmc": 4,
@@ -4396,6 +4649,7 @@
       457359
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/13070db2-cf89-4552-8b6c-76426274321a.jpg?1547235453"],
+    "layout": "normal",
     "type_line": "Creature — Goblin Berserker",
     "mana_cost": "{R}{G}",
     "cmc": 2,
@@ -4404,6 +4658,6 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   }
 ]
