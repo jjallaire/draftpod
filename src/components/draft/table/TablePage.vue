@@ -63,7 +63,7 @@ export default {
       isMobile: false,
       isPhone: false,
       isTablet: false,
-      card_preview: ["/images/card-back.png"],
+      card_preview: null,
       touchDragManager: new TouchDragManager(),
       firestoreUnsubscribe: null,
       pick_timeout_timer: null

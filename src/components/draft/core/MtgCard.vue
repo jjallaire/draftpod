@@ -35,7 +35,7 @@ export default {
 
   methods: {
     onMouseOver() {
-      this.setCardPreview(this.cardImageUris);
+      this.setCardPreview(this.card);
     },
 
     onDragStart(data, event) {

@@ -8,6 +8,10 @@ export default {
       type: String,
       required: true
     },
+    card_layout: {
+      type: String,
+      default: "normal"
+    }
   },
 }
 
@@ -15,7 +19,7 @@ export default {
 
 <template>
 
-  <div class="card-viewer">
+  <div :class="{ 'card-viewer': true, 'layout-split': card_layout === 'split'}">
     <img :src="card_preview" />
   </div>
 
@@ -27,6 +31,12 @@ export default {
 .card-viewer {
   width: 100%;  
   margin-bottom: 4px;
+}
+
+.card-viewer.layout-split {
+  transform: rotate(90deg); 
+  transform-origin: left top; 
+  margin-left: 100%;
 }
 
 .card-viewer img {

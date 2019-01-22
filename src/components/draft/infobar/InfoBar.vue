@@ -6,17 +6,35 @@ import ManaLegend from './ManaLegend.vue'
 import ManaCurve from './ManaCurve.vue'
 import ManaColors from './ManaColors.vue'
 
+import * as selectors from '@/store/modules/draft/selectors'
+
+
 export default {
   name: 'InfoBar',
 
   props: {
     card_preview: {
-      type: Array,
-      required: true
+      type: Object,
+      default: null
     },
     cards: {
       type: Array,
       required: true
+    }
+  },
+
+  computed: {
+    cardImageUris() {
+      if (this.card_preview)
+        return selectors.cardImageUris(this.card_preview);
+      else
+        return ["/images/card-back.png"];
+    },
+    cardLayout() {
+      if (this.card_preview)
+        return this.card_preview.layout;
+      else
+        return "normal";
     }
   },
 
@@ -31,9 +49,9 @@ export default {
 
   <div class="infobar">
     
-    <PreviewImage :card_preview="card_preview[0]" />
+    <PreviewImage :card_preview="cardImageUris[0]" :card_layout="cardLayout"/>
     <transition name="flip-card">
-    <PreviewImage v-if="card_preview.length > 1" :card_preview="card_preview[1]" />
+    <PreviewImage v-if="cardImageUris.length > 1" :card_preview="cardImageUris[1]" />
     </transition>
     <UiPanel class="deck-stats" caption="Cards"> 
       <ManaLegend :cards="cards" />
