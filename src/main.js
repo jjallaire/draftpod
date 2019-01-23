@@ -9,6 +9,7 @@ import '@/components/core/styles.css'
 
 import * as Sentry from '@sentry/browser';
 import * as log from './core/log'
+import progress from './core/progress'
 
 import firebase from 'firebase/app'
 import 'firebase/auth'
@@ -32,6 +33,7 @@ firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     initApp(user.uid);
   } else {
+    progress.start();
     firebase.auth().signInAnonymously()
       .then(response => {
         initApp(response.user.uid);
@@ -39,6 +41,9 @@ firebase.auth().onAuthStateChanged(function(user) {
       .catch(error => {
         log.logException(error, "onAnonymousSignIn");
         initApp();
+      })
+      .finally(() => {
+        progress.stop();
       });
   }
 });
