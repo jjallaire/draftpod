@@ -23,28 +23,33 @@ export default {
   name: 'GuidePage',
 
   mounted() {
-    let url = location.href.replace(/\/$/, "");
-
-    if (location.hash) {
+    
+    function navigateToHash() {
+      let url = location.href.replace(/\/$/, "");
       const hash = url.split("#");
+      if (hash.length === 1)
+        hash.push("welcome");
       jquery('#v-pills-tab a[href="#'+hash[1]+'"]').tab("show");
       url = location.href.replace(/\/#/, "#");
-      history.replaceState(null, null, url);
       setTimeout(() => {
         jquery(window).scrollTop(0);
       }, 400);
-    } 
+    }
+
+    if (location.hash) 
+      navigateToHash();
+    else
+      history.pushState(null, null, "/guide#welcome/");
+
+    window.addEventListener("hashchange", navigateToHash); 
     
     jquery('a[data-toggle="pill"]').on("click", function() {
+      let url = location.href.replace(/\/$/, "");
       let newUrl;
       const hash = jquery(this).attr("href");
-      if(hash == "#intro") {
-        newUrl = url.split("#")[0];
-      } else {
-        newUrl = url.split("#")[0] + hash;
-      }
+      newUrl = url.split("#")[0] + hash;
       newUrl += "/";
-      history.replaceState(null, null, newUrl);
+      history.pushState(null, null, newUrl);
     });
   },
 
@@ -72,7 +77,7 @@ export default {
   <div class="row">
     <div class="col-md-3">
       <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <a class="nav-link active" id="intro-tab" data-toggle="pill" href="#intro" role="tab" aria-controls="intro" aria-selected="true">Welcome</a>
+        <a class="nav-link active" id="welcome-tab" data-toggle="pill" href="#welcome" role="tab" aria-controls="welcome" aria-selected="true">Welcome</a>
         <a class="nav-link" id="single-player-tab" data-toggle="pill" href="#single-player" role="tab" aria-controls="single-player" aria-selected="false">Single-Player Drafts</a>
         <a class="nav-link" id="multi-player-tab" data-toggle="pill" href="#multi-player" role="tab" aria-controls="multi-player" aria-selected="false">Multi-Player Drafts</a>
         <a class="nav-link" id="set-cubes-tab" data-toggle="pill" href="#set-cubes" role="tab" aria-controls="multi-player" aria-selected="false">Creating a Set Cube</a>
@@ -83,7 +88,7 @@ export default {
 
     <div class="col-md-8">
       <div class="tab-content" id="v-pills-tabContent">
-        <div class="tab-pane fade show active" id="intro" role="tabpanel" aria-labelledby="intro-tab">
+        <div class="tab-pane fade show active" id="welcome" role="tabpanel" aria-labelledby="welcome-tab">
           <WelcomeMd/>
         </div>
         
