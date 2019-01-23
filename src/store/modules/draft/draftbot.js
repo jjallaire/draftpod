@@ -8,13 +8,10 @@ export function create() {
       picks: sampleFrom([4, 5, 6])
     },
 
-    // at what pick do we start giving on-color cards a slight
-    // bias compared to off-color cards?
-    color_bias_threshold: sampleFrom([7, 7, 7, 9]),
-
-    // after what pick do we stop considering off-color cards even if
-    // they have a very high rating?
-    color_lock_threshold: sampleFrom([16, 18, 20]),
+    color_behavior: {
+      bias_threshold: sampleFrom([7, 7, 7, 9]),
+      lock_threshold: sampleFrom([16, 18, 20]),
+    },
 
     // variance for distribution of ratings
     variance: sampleFrom([0, 0, 0, 0, 0, 0.1, 0.1, 0.1, 0.1, 0.2])
@@ -26,8 +23,10 @@ export function create() {
 export function createAutoPicker() {
   return {
     color_preference: null,
-    color_bias_threshold: 7,
-    color_lock_threshold: 20,
+    color_behavior: {
+      bias_threshold: 7,
+      lock_threshold: 20,
+    },
     variance: 0
   };
 }
@@ -85,7 +84,7 @@ export function cardRatings(bot, deck, pack, display) {
       let color_bonus = colorBonus(deck, deck_colors, card);
 
       // provide a color bias past a certain threshold
-      if (pick_number >= bot.color_bias_threshold) {
+      if (pick_number >= bot.color_behavior.bias_threshold) {
         if (color_bonus > 0)
           color_bonus += 0.5;
       }
@@ -118,7 +117,7 @@ export function cardRatings(bot, deck, pack, display) {
           return b.base_rating - a.base_rating;
 
         // before pick ~ 20 we'll just compare the ratings
-        else if (pick_number <= bot.color_lock_threshold)
+        else if (pick_number <= bot.color_behavior.lock_threshold)
           return compareRatings(a, b);
     
         // otherwise, after ~ pick 20 we will refuse to order 
