@@ -33,7 +33,7 @@ export default {
       url = location.href.replace(/\/#/, "#");
       setTimeout(() => {
         jquery(window).scrollTop(0);
-      }, 400);
+      }, 100);
     }
 
     if (location.hash) 
@@ -50,6 +50,9 @@ export default {
       newUrl = url.split("#")[0] + hash;
       newUrl += "/";
       history.pushState(null, null, newUrl);
+      setTimeout(() => {
+        jquery(window).scrollTop(0);
+      }, 100);
     });
   },
 
