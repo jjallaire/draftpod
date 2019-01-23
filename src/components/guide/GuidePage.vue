@@ -1,5 +1,12 @@
 <script>
 
+/*
+Docs todo:
+   - Article on set cubes
+   - Navigation to set-cubes from multi-player / history
+   - Use web contact form for Feedback and Support
+*/
+
 import NavBar from '../core/NavBar.vue'
 import SiteFooter from '../core/SiteFooter.vue'
 
