@@ -12,7 +12,7 @@ Once you've started a draft, you can leave and return later to finish (so long a
 
 ### Card Ratings
 
-If you are getting to know a new set, it's sometimes interesting to see how your picks compare to the card ratings used internally by draftpod (which are in turn based on the community ratings provided at <http://draftaholicsanonmyous.com>). 
+If you are getting to know a new set, it's sometimes interesting to see how your picks compare to the card ratings used internally by draftpod (which are in turn based on the community ratings provided at <https://draftaholicsanonymous.com/>). 
 
 You can enable card ratings by selecting it as an option when starting a new draft. In this mode, there is a **Ratings** pane that will appear alongside the **Picks** pane which you can optionally display when evaluating cards in a pack:
 
@@ -26,7 +26,7 @@ While card ratings provide a rough idea of the relative power level between card
 
 ### Bot Colors
 
-One of the most important skills in drafting is reading the signals provided by other drafters about what colors are "open" and thus more likely to yield higher quality cards as the draft proceeds. While the techniques for doing this are beyond the scope of this guide, you can learn the basics from the articles [Drafting the Hard Way]() by Ben Stark and [Draft Signals]() by Reid Duke.
+One of the most important skills in drafting is reading the signals provided by other drafters about what colors are "open" and thus more likely to yield higher quality cards as the draft proceeds. While the techniques for doing this are beyond the scope of this guide, you can learn the basics from the articles [Signals in Booster Draft](https://magic.wizards.com/en/articles/archive/level-one/signals-booster-draft-2015-01-19) by Reid Duke and [Drafting the Hard Way](https://www.channelfireball.com/articles/stark-reality-drafting-the-hard-way/) by Ben Stark.
 
 If you are using draftpod to practice reading signals, at the end of the draft you'll naturally want to see how you did. You can view the 2 main colors drafted by bots at the table using the **Players** menu on the main toolbar:
 
