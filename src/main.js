@@ -31,12 +31,12 @@ if (process.env.NODE_ENV === 'production') {
 // login to firebase
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
-    initApp(user.uid);
+    initApp();
   } else {
     progress.start();
     firebase.auth().signInAnonymously()
-      .then(response => {
-        initApp(response.user.uid);
+      .then(() => {
+        initApp();
       })
       .catch(error => {
         log.logException(error, "onAnonymousSignIn");
@@ -48,15 +48,14 @@ firebase.auth().onAuthStateChanged(function(user) {
   }
 });
 
-function initApp(firebase_uid) {
+function initApp() {
 
   // initialize the store then the app
   initializeStore()
     .then(store => {
       
-      // attempt to use the firebase uid, fallback to whatever user_id
-      // we might have already stored, then finally to a new randomly generated id
-      let player_id = firebase_uid || store.getters.player.id || shortUuid().new();
+      // determine player_id
+      let player_id = store.getters.player.id || shortUuid().new();
 
       // write the player id
       store.commit(SET_PLAYER_INFO, { id: player_id } );
