@@ -10,10 +10,31 @@ NProgress.configure({
   showSpinner: false
 });
 
-export function start() {
-  NProgress.start();
+class Progress {
+
+  constructor() {
+    this.startDelay = null;
+  }
+
+  start(delay) {
+    this.clearDelay();
+    this.startDelay = setTimeout(() => {
+      NProgress.start();
+    }, delay || 0);
+  }
+
+  stop() {
+    this.clearDelay();
+    NProgress.done();
+  }
+
+  clearDelay() {
+    if (this.startDelay) {
+      clearTimeout(this.startDelay);
+      this.startDelay = undefined;
+    }
+  }
+
 }
 
-export function stop() {
-  NProgress.done();
-}
+export default new Progress();

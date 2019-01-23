@@ -15,7 +15,7 @@ import { store, useDraftModule } from '../store'
 import { SET_DRAFT, REMOVE_DRAFTS } from '../store/mutations'
 import firestore from '../store/modules/draft/firestore'
 import * as log from './log'
-import * as progress from './progress'
+import progress from './progress'
 import * as selectors from '../store/modules/draft/selectors'
 
 Vue.use(VueRouter)
@@ -35,7 +35,7 @@ export default new VueRouter({
         let draft_id = to.params.draft_id;
 
         // sync from firestore
-        progress.start();
+        progress.start(350);
         firestore.getDraft(draft_id).then(draft => {
 
           if (draft) {
@@ -79,7 +79,7 @@ export default new VueRouter({
           // sync from firestore if this is a multi-player draft
           if (store.state.drafts[draft_id].options.multi_player) {
 
-            progress.start();
+            progress.start(350);
             firestore.getDraft(draft_id).then(draft => {
               if (draft) {
                 store.commit(SET_DRAFT, { draft_id, draft });
