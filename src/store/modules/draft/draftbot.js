@@ -9,8 +9,11 @@ export function create() {
     },
 
     color_behavior: {
-      bias_threshold: sampleFrom([7, 7, 7, 9]),
-      lock_threshold: sampleFrom([16, 18, 20]),
+      // at what pick do we start giving on-color cards a +0.5 bonus?
+      bias_threshold: sampleFrom([3, 5, 7, 9]),
+
+      // at what pick do we start not considering off-color cards at all?
+      lock_threshold: sampleFrom([8, 10, 12, 14, 16, 18, 20]),
     },
 
     // variance for distribution of ratings
