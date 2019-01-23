@@ -6,6 +6,7 @@ import SiteFooter from '../core/SiteFooter.vue'
 import WelcomeMd from './articles/welcome.md'
 import SinglePlayerMd from './articles/single-player.md'
 import MultiPlayerMd from './articles/multi-player.md'
+import SetCubesMd from './articles/set-cubes.md'
 import FAQMd from './articles/faq.md'
 import FeedbackMd from './articles/feedback.md'
 
@@ -42,7 +43,7 @@ export default {
 
   components: {
     NavBar, SiteFooter, 
-    WelcomeMd, SinglePlayerMd, MultiPlayerMd, FAQMd, FeedbackMd
+    WelcomeMd, SinglePlayerMd, MultiPlayerMd, SetCubesMd, FAQMd, FeedbackMd
   }
 }
 
@@ -67,6 +68,7 @@ export default {
         <a class="nav-link active" id="intro-tab" data-toggle="pill" href="#intro" role="tab" aria-controls="intro" aria-selected="true">Welcome</a>
         <a class="nav-link" id="single-player-tab" data-toggle="pill" href="#single-player" role="tab" aria-controls="single-player" aria-selected="false">Single-Player Drafts</a>
         <a class="nav-link" id="multi-player-tab" data-toggle="pill" href="#multi-player" role="tab" aria-controls="multi-player" aria-selected="false">Multi-Player Drafts</a>
+        <a class="nav-link" id="set-cubes-tab" data-toggle="pill" href="#set-cubes" role="tab" aria-controls="multi-player" aria-selected="false">Creating a Set Cube</a>
         <a class="nav-link" id="faq-tab" data-toggle="pill" href="#faq" role="tab" aria-controls="faq" aria-selected="false">Frequently Asked Questions</a>
         <a class="nav-link" id="feedback-tab" data-toggle="pill" href="#feedback" role="tab" aria-controls="feedback" aria-selected="false">Feedback &amp; Support</a>
       </div>
@@ -85,6 +87,12 @@ export default {
         <div class="tab-pane fade" id="multi-player" role="tabpanel" aria-labelledby="multi-player-tab">
           <MultiPlayerMd/>
         </div>
+
+          
+        <div class="tab-pane fade" id="set-cubes" role="tabpanel" aria-labelledby="set-cubes-tab">
+          <SetCubesMd/>
+        </div>
+
 
         <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
           <FAQMd/>

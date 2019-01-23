@@ -6,83 +6,65 @@ In multi-player mode you conduct the draft online (along with draft bots that fi
 
 ### Getting Started
 
-To use draftpod for a multi-player draft you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. If you have a standard set cube (e.g. 3 of each common, 2 of each uncommon, and 1 of each rare and mythic) then this is easy. If you have a custom set cube (e.g. the cards from a booster box) then some special setup is required (this is covered in the article on [Creating a Set Cube]()). 
+To use draftpod for a multi-player draft you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. There are a number of techniques for assembling a cardpool which are covered in the [Creating a Set Cube]() article. You'll need to consult this article before hosting a multi-player draft, but for remainder of this article we'll assume that we already have a cardpool to draft from.
 
-To start a new multi-player draft, go to the [Draft](/draft/) page, select the set you want to draft from and the _cardpool_ you have on hand, then choose **Multiple Players**:
-
-
+To start a new multi-player draft, go to the [Draft](/draft/) page, select the set you want to draft from and the _cardpool_ are drafting from, then choose **Multiple Players**:
 
 <p>
-<img src="/images/guide/start-draft.png" width="100%" />
+<img src="/images/guide/multi-player.png" width="100%" />
 </p>
 
-Once you've started a draft, you can leave and return later to finish (so long as you are using the same browser you initiated the draft from). Draftpod will keep your last several drafts in case you want to refer back to them or refine the decks you've built from them.
+Then, copy the provided URL and send it to the other players you'd like to have join you. Once a player joins their  name will appear in the players list. 
 
+Once all of the players have joined, click **Start Draft** to begin.
 
-There is some setup required for multi-player mode, all of which is covered below.
+After you make all of your picks, you'll end up in deckbuilding mode where you can specify which cards will make your main deck and sideboard. Once you've completed deckbuilding, click the **View Decklist** button to see a list of the cards in your deck and sideboard:
+
+<p>
+<img src="/images/guide/view-decklist.png" width="100%" />
+</p>
+
+You can then pull these cards from your physical cardpool and begin playing. Note that the decklist is presented in collector number order (i.e. by color, ordered alphabetically within each color). If you sort/store your cardpool in this order it only takes a couple of minutes to pull out the cards.
 
 ### Draft Cardpools
 
-While you'll be drafting online, you'll ultimately need to have paper Magic cards to play your matches. Each draft therefore requires the specification of a _cardpool_ of eligible cards (consisting of the paper cards you have available for play).
+In order to draft online and then play with physical cards, draftpod needs to know exactly which cards you have in your cardpool. There are a number of approaches to building cardpools, including:
 
-To assemble a cardpool and use it with Draftpod you need to take the following steps:
+1. Including every card in the set (for example, 3 of each common, 2 of each uncommon, and 1 of each rare and mythic rare). This provides for great variety but it can be challenging to collect a complete set!
 
-1. Identify the cards you want to use (they should all be from a single Magic set).
+2. Creating a card pool from a large inventory of cards (e.g. 2 booster boxes). This typically results in reasonably good variety (at least 3 of each common and 2 of nearly all uncommons, with a dozen or so rares and mythics not available).
 
-2. Sort the cards by collector number (the small number that appers in the bottom left of the card). This is essentially sorting the cards by color (with cards ordered alphabetically within each color).
-3. Catalog the list of cards (and their quantitites) into a Decked Builder collection, then upload the collection to Draftpod.
-4. When you are done drafting, pull the cards you need to build your deck from the cardpool. This is quite straightforward since Draftpod produces decklists ordered by collector number, which will be the order you store your cards in.
+3. Creating a card pool from a smaller inventory of cards (e.g. a single booster box). This results in less variety but still enough so to preserve the fun and challenge of booster draft.
 
-This may sound like a lot of work, but all in all typically requires only 3 or 4 hours to create a cardpool you can use over and over again for many drafts. Let's take a closer look at each of these steps.
+You can use any set of Magic cards with draftpod so long as they are from the same set and you have at least 384 of them (8 players x 3 boosters x 15 cards/booster).
 
-#### Selecting Cards
+See the article on [Creating a Set Cube]() for more details on how to create custom cubes and register them for play on draftpod.
 
-The cards within a cardpool need to all come from the same Magic set. Furthermore, you need at least 384 cards in a cardpool (8 players x 3 boosters x 15 cards/booster). In an ideal world, a cardpool will also have an equal number of each card in a set (note that you'll need a smaller number of the higher rarity cards because they appear less frequently in booster packs). Having equal numbers of each card means that the cardpool will have no inherent bias towards specific cards, colors, or archetypes.
+### Pick Timer
 
-That said, it can be quite difficult to collect all of the cards in a set so your cardpool may not achieve a perfect balance. In our experience, if you purchase 2 booster boxes for a given set (72 packs) you will be able to assemble a cardpool that has 3 of each common, 2 of nearly all of the uncommons, and 1 of a significant majority of rares and mythics.
+In a multi-player draft it's sometimes desirable to apply a time limit for each pick to ensure that players aren't waiting an inordinate amount of time for packs. You can enable a pick timer in draftpod when creating a new draft:
 
-It's ultimately up to you how to balance considerations of cost and variety when composing a cardpool. You can certainly build a cardpool from a single booster box and have lots of fun drafting it, it just won't have quite the same variety as one built from more cards.
+<p>
+<img src="/images/guide/pick-timer.png" width="100%" />
+</p>
 
-#### Ordering and Cataloging
+The time limit will be 1 minute, 15 seconds for the first pick in each pack, and then 5 seconds less for each pick thereafter. If the pick timer expires then the draftpod bot logic will be used to automatically make a pick.
 
-Once you've assmbled the cards, you need to sort them by collector number (which appears in the bottom left hand corder of each cards). The most efficient way to do this is typically to first sort by color, and then sort by collector number within each color.
+### Players at the Table
 
-Once the cards are ordered, you need to enter them into a [Decked Builder]() collection. Note that you aren't strictly required to use Decked Builder, it's just the most straightforward alternative (details on using other methods are provided below). 
+In a multi-player draft, you'll have a mix of real drafters and draft bots at the table. You can see whom is at the table and where they are seated using the **Players** menu on the navigation bar:
 
-Decked Builder includes a set entry mode that will allow you to quickly enter the quantity of each card you have. 
+<p>
+<img src="/images/guide/multi-player-table.png" width="100%" />
+</p>
 
+#### Removing a Player
 
+If one of the players needs to leave the draft before it completes, you will need to remove them from the draft in order for the other players to continue (otherwise they'll just end up waiting forever for the player to pass their packs). The host player is able to remove other players by hovering over them in the **Players** view and clicking the **Remove** icon:
 
-#### Uploading to Draftpod
-
-
-
-
-
-
-
-
+<p>
+<img src="/images/guide/multi-player-remove.png" width="100%" />
+</p>
 
 
-
-To conduct a multi-player draft, you first need to assemble a set of Magic cards to draft from (a "cardpool"). There are a few requirements for the cardpool:
-
-- The cards should be from one of draftpod's supported sets.
-
-- All of the cards in the pool should be from a single set (no mixing of sets within a single cardpool).
-
-- You need at least 384 cards in the cardpool (8 players x 3 boosters x 15 cards/booster)
-
-- Your cardpool will ideally have an even number of each common, uncommon, rare, and mythic rare in the set. For example,4 of each common, 3 of each uncommon, and 1 of each rare and mythic. This isn't required, but you will have a more varied drafting experience with an even distribution of cards.
-
-- That said, you can also simply buy a Booster Box of the set you want to draft and use that as your cardpool, or
-even just assemble whatever extra cards you have on hand from the set. It's always better to have a complete set of all the cards but certainly not required.
-
-Once you've assembled your cardpool, you should organize it by card collector number (cards in each Magic set are numbered sequentially). This will make it easier to pull out the cards to build your deck after you've  completed the draft. 
-
-When creating a multi-player draft, you'll also need to tell draftpod which cards are in your pool. If you've built a pool with an even number of the various rarities then there is likely an option that covers your pool (e.g. 4/4/1/1, 4/4/2/1, 3/3/1/1, etc.) so you won't need to manually enter a list of your cards.
-
-However, if you've built a custom cardpool (e.g. from a Booster Box) then you should enter the cards in your pool into a [Decked Builder](http://www.deckedbuilder.com/) collection. Once you've done this you can export the collection to a CSV file and then upload it to draftpod when defining your cardpool.
-
-Once draftpod knows about your cardpool you are ready to draft. After the draft completes you can download a decklist, pull those cards out of the cardpool, and play your games!
 
