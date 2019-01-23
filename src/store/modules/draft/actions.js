@@ -22,7 +22,7 @@ import { WRITE_TABLE, SET_CONNECTED } from './mutations'
 import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
 
-import * as log from '@/log'
+import * as log from '@/core/log'
 import * as set from './set/'
 import firestore from './firestore'
 import * as draftbot from './draftbot'

@@ -2,20 +2,21 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import HomePage from './components/HomePage.vue'
-import TablePage from './components/draft/table/TablePage.vue'
-import JoinPage from './components/JoinPage.vue'
-import NavigatorPage from './components/navigator/NavigatorPage.vue'
-import SimulatorPage from './components/SimulatorPage.vue'
-import GuidePage from './components/guide/GuidePage.vue'
-import NotFoundPage from './components/NotFoundPage.vue'
-import DraftNotFoundPage from './components/draft/NotFoundPage.vue'
+import HomePage from '../components/HomePage.vue'
+import TablePage from '../components/draft/table/TablePage.vue'
+import JoinPage from '../components/JoinPage.vue'
+import NavigatorPage from '../components/navigator/NavigatorPage.vue'
+import SimulatorPage from '../components/SimulatorPage.vue'
+import GuidePage from '../components/guide/GuidePage.vue'
+import NotFoundPage from '../components/NotFoundPage.vue'
+import DraftNotFoundPage from '../components/draft/NotFoundPage.vue'
 
-import { store, useDraftModule } from './store'
-import { SET_DRAFT, REMOVE_DRAFTS } from './store/mutations'
-import firestore from './store/modules/draft/firestore'
-import * as log from '@/log'
-import * as selectors from './store/modules/draft/selectors'
+import { store, useDraftModule } from '../store'
+import { SET_DRAFT, REMOVE_DRAFTS } from '../store/mutations'
+import firestore from '../store/modules/draft/firestore'
+import * as log from './log'
+import * as progress from './progress'
+import * as selectors from '../store/modules/draft/selectors'
 
 Vue.use(VueRouter)
 
@@ -34,6 +35,7 @@ export default new VueRouter({
         let draft_id = to.params.draft_id;
 
         // sync from firestore
+        progress.start();
         firestore.getDraft(draft_id).then(draft => {
 
           if (draft) {
@@ -57,6 +59,9 @@ export default new VueRouter({
           log.logException(error, "onGetDraftBeforeJoin");
           store.commit(REMOVE_DRAFTS, [draft_id]);
           draftNotFound(next, draft_id);
+        })
+        .finally(() => {
+          progress.stop();
         });
       }
     },
@@ -73,6 +78,8 @@ export default new VueRouter({
 
           // sync from firestore if this is a multi-player draft
           if (store.state.drafts[draft_id].options.multi_player) {
+
+            progress.start();
             firestore.getDraft(draft_id).then(draft => {
               if (draft) {
                 store.commit(SET_DRAFT, { draft_id, draft });
@@ -84,8 +91,11 @@ export default new VueRouter({
             .catch(error => {
               log.logException(error, "onGetDraftBeforeDraft");
               draftNotFound(next, draft_id);
+            })
+            .finally(() => {
+              progress.stop();
             });
-
+           
           // single player draft, proceed without syncing
           } else {
             next();

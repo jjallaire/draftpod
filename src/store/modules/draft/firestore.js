@@ -1,5 +1,5 @@
 
-import * as log from '@/log'
+import * as log from '@/core/log'
 import * as set from './set'
 import * as selectors from './selectors'
 // eslint-disable-next-line 

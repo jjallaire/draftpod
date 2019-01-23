@@ -8,14 +8,14 @@ import '@/components/core/bootstrap.js'
 import '@/components/core/styles.css'
 
 import * as Sentry from '@sentry/browser';
-import * as log from './log'
+import * as log from './core/log'
 
 import firebase from 'firebase/app'
 import 'firebase/auth'
 
 import shortUuid from 'short-uuid'
 
-import router from './router'
+import router from './core/router'
 import { initializeStore } from './store'
 import { SET_PLAYER_INFO } from './store/mutations'
 

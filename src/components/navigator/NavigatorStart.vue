@@ -1,6 +1,6 @@
 <script>
 
-import * as log from '@/log'
+import * as log from '@/core/log'
 import * as utils from '@/components/core/utils'
 import ContentPanel from '@/components/core/ContentPanel.vue'
 import SetSelect from '@/components/core/SetSelect.vue'
