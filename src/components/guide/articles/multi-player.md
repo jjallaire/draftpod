@@ -1,8 +1,23 @@
 ## Multi-Player Drafts
 
-Multi-player mode enables you to conduct a simulated 8-person draft even when you have only have 2 or 3 actual players available. While there are other ways to draft with a small handful of players, they inevitably compromise on depth and quantity of available cards, so aren't nearly as rich in strategy as a full draft. Draftpod multi-player mode lets you draft with a friend or small group in a fashion that feels much more like a real 8-player draft.
+Multi-player mode enables you to conduct a simulated 8-person draft even when you have only have 2 or 3 actual players available. While there are other ways to draft with a small handful of players, they inevitably compromise on depth and quantity of available cards, so aren't nearly as rich in strategy (and fun!) as a full draft. Draftpod multi-player mode lets you draft with a friend or small group in a fashion that feels much more like a real 8-player draft.
 
-In multi-player mode you conduct the draft online (along with draft bots that fill in an 8 person table), and then use the resulting decklist to build a deck using paper magic cards you already have. Then you are ready to play some matches! For 2 player drafts you might try best of 3 or 5; for 3 player drafts you might try a round-robin or double-elimination bracket.
+In multi-player mode you conduct the draft online (along with draft bots that fill in an 8 person table), and then use the resulting decklists to assemble decks from paper magic cards that you already have. 
+
+### Getting Started
+
+To use draftpod for a multi-player draft you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. If you have a standard set cube (e.g. 3 of each common, 2 of each uncommon, and 1 of each rare and mythic) then this is easy. If you have a custom set cube (e.g. the cards from a booster box) then some special setup is required (this is covered in the article on [Creating a Set Cube]()). 
+
+To start a new multi-player draft, go to the [Draft](/draft/) page, select the set you want to draft from and the _cardpool_ you have on hand, then choose **Multiple Players**:
+
+
+
+<p>
+<img src="/images/guide/start-draft.png" width="100%" />
+</p>
+
+Once you've started a draft, you can leave and return later to finish (so long as you are using the same browser you initiated the draft from). Draftpod will keep your last several drafts in case you want to refer back to them or refine the decks you've built from them.
+
 
 There is some setup required for multi-player mode, all of which is covered below.
 
