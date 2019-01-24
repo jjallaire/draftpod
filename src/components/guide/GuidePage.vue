@@ -5,7 +5,6 @@ Docs todo:
    - Article on set cubes
    - Navigation to set-cubes from multi-player / history
    - Cleanup history/hash handling code
-   - Fixed position for side navigation
    - Use web contact form for Feedback and Support
    - Add some Google Analytics
 */
@@ -148,6 +147,10 @@ export default {
   top: 70px;
 }
 
+.guide-page .nav-pills {
+  padding-bottom: 30px;
+}
+
 .guide-page .nav-pills .nav-link {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -155,6 +158,8 @@ export default {
   border-radius: 0;
   color: rgba(255,255,255,0.7);
 }
+
+
 
 </style>
 
