@@ -35,9 +35,9 @@ export default {
    <br/>
    <p>Some reasons that this error may have occurred:</p>
     <ul>
-      <li>You are attempting to join a multi-player draft however your internet connection is offline.</li>
+      <li>You are attempting to join a multi-player draft, however your internet connection is offline.</li>
       <li>The draft is no longer available in your draft history (draftpod only saves
-          your last 5 drafts).
+          your last 10 drafts).
       </li>
     </ul>
 
