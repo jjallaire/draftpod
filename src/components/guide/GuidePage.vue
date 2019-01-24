@@ -5,7 +5,6 @@ Docs todo:
    - Article on set cubes
    - Cleanup history/hash handling code
    - Use web contact form for Feedback and Support
-   - Add some Google Analytics
 */
 
 import NavBar from '../core/NavBar.vue'
