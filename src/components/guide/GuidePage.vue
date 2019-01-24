@@ -3,7 +3,6 @@
 /*
 Docs todo:
    - Article on set cubes
-   - Navigation to set-cubes from multi-player / history
    - Cleanup history/hash handling code
    - Use web contact form for Feedback and Support
    - Add some Google Analytics
