@@ -4,7 +4,10 @@
 Docs todo:
    - Article on set cubes
    - Navigation to set-cubes from multi-player / history
+   - Cleanup history/hash handling code
+   - Fixed position for side navigation
    - Use web contact form for Feedback and Support
+   - Add some Google Analytics
 */
 
 import NavBar from '../core/NavBar.vue'
@@ -73,13 +76,9 @@ export default {
 
   <div class="container">
 
-  <h1>Using draftpod</h1>
-
-  <hr/>
-
   <div class="row">
     <div class="col-md-3">
-      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <div class="nav flex-column nav-pills sticky-top" id="v-pills-tab" role="tablist" aria-orientation="vertical">
         <a class="nav-link active" id="welcome-tab" data-toggle="pill" href="#welcome" role="tab" aria-controls="welcome" aria-selected="true">Welcome</a>
         <a class="nav-link" id="single-player-tab" data-toggle="pill" href="#single-player" role="tab" aria-controls="single-player" aria-selected="false">Single-Player Drafts</a>
         <a class="nav-link" id="multi-player-tab" data-toggle="pill" href="#multi-player" role="tab" aria-controls="multi-player" aria-selected="false">Multi-Player Drafts</a>
@@ -143,6 +142,10 @@ export default {
 
 .guide-page h5 {
   margin-top: 20px;
+}
+
+.guide-page .sticky-top {
+  top: 70px;
 }
 
 .guide-page .nav-pills .nav-link {
