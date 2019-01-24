@@ -12,6 +12,13 @@ export default {
     }
   },
 
+  computed: {
+    draft_url: function() {
+      return window.location.protocol + "//" + window.location.host + 
+             "/draft/" + this.draft_id;
+    }
+  },
+
   components: {
     ErrorPage
   }
@@ -22,14 +29,18 @@ export default {
 <template>
  
   <ErrorPage title="Draft Not Found">
-    <h5>The requested draft (id={{ draft_id }}) was not found.</h5>
+    <h5>The requested draft was not found.</h5>
     <br/>
     <p>
-      This may have occurred because the draft you are requesting belongs to another player (draftpod URLs cannot be shared 
+      The draft URL you requested (<a :href="draft_url">{{ draft_url }}</a>) may not refer to a valid draft.
+    </p>
+
+    <p>
+      This error also may have occurred because the draft you are requesting belongs to another player (draftpod URLs cannot be shared 
       between different players).
     </p>
     <p>
-      This also may have occurred because the draft is no longer available in your history (draftpod only saves
+      Another possibility is that draft is no longer available in your history (draftpod only saves
       your last 10 drafts).
     </p>
      

@@ -58,7 +58,7 @@ export default new VueRouter({
         .catch(error => {
           log.logException(error, "onGetDraftBeforeJoin");
           store.commit(REMOVE_DRAFTS, [draft_id]);
-          draftNotFound(next, draft_id);
+          firestoreError(next, error, draft_id);
         })
         .finally(() => {
           progress.stop();
@@ -90,7 +90,7 @@ export default new VueRouter({
             })
             .catch(error => {
               log.logException(error, "onGetDraftBeforeDraft");
-              draftNotFound(next, draft_id);
+              firestoreError(next, error, draft_id);
             })
             .finally(() => {
               progress.stop();
@@ -123,6 +123,12 @@ export default new VueRouter({
 
 
 function draftNotFound(next, draft_id) {
+  next("/draft/" + draft_id + "/not-found"); 
+}
+
+// eslint-disable-next-line
+function firestoreError(next, draft_id, error) {
+  console.log("firestore error");
   next("/draft/" + draft_id + "/not-found"); 
 }
 
