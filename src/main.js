@@ -8,6 +8,7 @@ import '@/components/core/bootstrap.js'
 import '@/components/core/styles.css'
 
 import * as Sentry from '@sentry/browser';
+import VueAnalytics from 'vue-analytics'
 import * as log from './core/log'
 import progress from './core/progress'
 
@@ -20,8 +21,20 @@ import router from './core/router'
 import { initializeStore } from './store'
 import { SET_PLAYER_INFO } from './store/mutations'
 
+// check for production mode
+let production = process.env.NODE_ENV === 'production';
+
+// configure google analytics
+Vue.use(VueAnalytics, {
+  id: 'UA-20375833-22',
+  router: router,
+  debug: {
+    sendHitTask: production
+  }
+});
+
 // configure sentry in production mode
-if (process.env.NODE_ENV === 'production') {
+if (production) {
   Sentry.init({
     dsn: 'https://49f3775ddef847b6a96c84d63bdeb02b@sentry.io/1331583',
     integrations: [new Sentry.Integrations.Vue({ Vue })]
