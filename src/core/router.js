@@ -9,7 +9,7 @@ import NavigatorPage from '../components/navigator/NavigatorPage.vue'
 import SimulatorPage from '../components/SimulatorPage.vue'
 import GuidePage from '../components/guide/GuidePage.vue'
 import NotFoundPage from '../components/NotFoundPage.vue'
-import DraftNotFoundPage from '../components/draft/NotFoundPage.vue'
+import DraftNotFoundPage from '../components/draft/DraftNotFoundPage.vue'
 
 import { store, useDraftModule } from '../store'
 import { SET_DRAFT, REMOVE_DRAFTS } from '../store/mutations'

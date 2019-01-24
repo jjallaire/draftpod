@@ -1,7 +1,6 @@
 <script>
 
-import NavBar from './core/NavBar.vue'
-import SiteFooter from './core/SiteFooter.vue'
+import ErrorPage from './core/ErrorPage.vue'
 
 export default {
   name: 'NotFoundPage',
@@ -13,39 +12,19 @@ export default {
   },
 
   components: {
-    NavBar, SiteFooter
+    ErrorPage
   }
 }
 
 </script>
 
 <template>
- 
-  <div>
-    
-  <NavBar />
-
-  <div class="container">
-
-  <div class="not-found-content">
-   <h3>404: Page Not Found</h3>
-   {{ page_url }}
-  </div>
-
-  <SiteFooter />
-
-  </div>
-    
-  </div>
-
+  <ErrorPage title="404: Page Not Found">
+    {{ page_url }}
+  </ErrorPage>
 </template>
 
-
 <style>
-
-.not-found-content {
-  min-height: 70vh;
-}
 
 </style>
 
