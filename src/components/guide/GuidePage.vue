@@ -1,11 +1,5 @@
 <script>
 
-/*
-Docs todo:
-   - Article on set cubes
-   - Cleanup history/hash handling code
-*/
-
 import NavBar from '../core/NavBar.vue'
 import SiteFooter from '../core/SiteFooter.vue'
 
