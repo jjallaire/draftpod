@@ -42,8 +42,6 @@ export default {
       <option value="m19">Core Set 2019</option>
       <option value="dom">Dominaria</option>
       <option value="ust">Unstable</option>
-      <option value="mma">Modern Masters</option>
-      <option value="isd">Innistrad</option>
     </select>
   </div>
 </div>
