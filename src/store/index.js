@@ -3,8 +3,6 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import LocalForage from 'localforage'
-import 'localforage-getitems'
-import 'localforage-setitems'
 
 import _merge from 'lodash/merge'
 
@@ -70,10 +68,13 @@ export function initializeStore() {
 
       // write state
       Promise.all(serializers).then(() => {
-        LocalForage.setItems({
-          ...state,
-          drafts
-        });
+        LocalForage.setItem(
+          "state",
+          {
+            ...state,
+            drafts
+          }
+        );
       });
     })
   };
@@ -81,7 +82,10 @@ export function initializeStore() {
   // read from LocalForage then return store
   return new Promise((resolve) => {
     
-    return LocalForage.getItems().then(savedState => {
+    return LocalForage.getItem("state").then(savedState => {
+
+      // default empty saved state
+      savedState = savedState || {};
 
       // unroll card ids into cards
       let drafts = {};
