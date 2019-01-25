@@ -174,6 +174,9 @@ export default {
   color: rgba(255,255,255,0.7);
 }
 
+.guide-page .tab-content {
+  padding-left: 10px;
+}
 
 
 </style>
