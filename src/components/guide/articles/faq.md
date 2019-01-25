@@ -21,6 +21,24 @@ The [Channel Fireball](https://www.channelfireball.com/articles/) and [Star City
 
 You can also sit on the shoulder of the some of the very best Magic players in the world as they draft by watching streams and/or YouTube videos. You can find lots of streams on [Twitch](https://www.twitch.tv/magic/videos) as well as archives of previous drafts from [Ben Stark](https://www.youtube.com/results?search_query=Channel+BenS), [Reid Duke](https://www.youtube.com/results?search_query=Channel+Reid), [Luis Scott Vargas](https://www.youtube.com/results?search_query=Channel+LSV), and [Marshall Sutcliffe](https://www.youtube.com/results?search_query=Channel+Marshall) (among others) on the Channel Fireball YouTube channel.
 
+#### How are draftpod card ratings derived?
+
+The card ratings used by draftpod are based on the P1P1 community evaluations available at [https://draftaholicsanonymous.com/](https://draftaholicsanonymous.com/). 
+
+The site publishes a list of cards for each set in order of community preference (e.g. here's the ordering for [Ravnica Allegiance](https://www.draftaholicsanonymous.com/p1p1-ravnica-allegiance/)).
+
+For the purposes of drafting, this pick order is then translated into a rating scale for each card from 0 to 5. This is done by applying the distribution of ratings for recent sets provided by Luis Scott Vargas on [Channel Fireball](https://www.channelfireball.com/articles/) to the pick order:
+
+<p>
+<img src="/images/guide/ratings-distribution.png" width="100%" />
+</p>
+
+So the first card in the pick order has a rating of 5.0, the next several a rating of 4.5, and so on until the last few cards in the set receive a rating of 0. 
+
+Applying the LSV distribution to pick orders enables us to derive ratings for any set for which an ordering is available (as opposed to only the sets that LSV has already rated). It also allow us to track the drafting "meta" as the community evaluation of cards changes over the course of a set release.
+
+
+
 #### Where are my previous drafts stored?
 
 Your last several drafts are saved by draftpod within your web browser's local storage. You can review and return to these recent drafts so long as you are using the same browser (if you switch to another browser you won't see the drafts created within the first browser).
