@@ -5,7 +5,6 @@ Docs todo:
    - Article on set cubes
    - Cleanup history/hash handling code
    - Use web contact form for Feedback and Support
-   - Special message for offline / not found (common error page)
 */
 
 import NavBar from '../core/NavBar.vue'
