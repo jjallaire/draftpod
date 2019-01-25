@@ -8,7 +8,7 @@
     
     <slot>
       <span class="navbar-text">
-        Draft simulator for Magic the Gathering<sup class="trademark">&trade;</sup>
+        Draft simulator for Magic the Gathering
       </span>
     </slot>
 
