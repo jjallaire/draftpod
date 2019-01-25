@@ -2,12 +2,12 @@
 import * as set from './set'
 import * as log from '@/core/log'
 
-export function serializeDraftTable(table) {
+export function serializeDraftTable(table, stringify = true) {
   return new Promise((resolve, reject) => {
     // convert cards to card ids
     try {
       let saved_table = convertDraftTable(table, cardsToIds);
-      resolve(JSON.stringify(saved_table));
+      resolve(stringify ? JSON.stringify(saved_table) : saved_table);
     } catch(error) {
       log.addBreadcrumb('table', JSON.stringify(table));
       reject(error);
@@ -15,11 +15,11 @@ export function serializeDraftTable(table) {
   });
 }
 
-export function unserializeDraftTable(set_code, table) {
+export function unserializeDraftTable(set_code, table, stringify = true) {
   return new Promise((resolve, reject) => {
     return set.cards(set_code).then(set_cards => {
-      // parse from json string
-      let saved_table = JSON.parse(table);
+      // parse from json string if necessary
+      let saved_table = stringify ? JSON.parse(table) : table;
     
       // return the table w/ ids converted to cards
       try {

@@ -14,6 +14,8 @@ import actions from './actions'
 
 import draftModule from './modules/draft'
 
+import * as serializer from './modules/draft/serializer'
+
 const debug = process.env.NODE_ENV !== 'production'
 
 Vue.use(Vuex)
@@ -23,7 +25,7 @@ LocalForage.config({
   driver      : [LocalForage.INDEXEDDB, LocalForage.WEBSQL, LocalForage.LOCALSTORAGE],
   name        : 'Draftpod',
   version     : 1.0,
-  storeName   : 'draftpod-beta1'
+  storeName   : 'draftpod-beta5'
 });
 
 
@@ -51,28 +53,73 @@ export function initializeStore() {
 
   // plugin to persist state to LocalForage
   const persistPlugin = store => {
+
     store.subscribe((mutations, state) => {
-      LocalForage.setItems(state);
+
+      // save cards using ids rather than full data
+      let drafts = {};
+      let serializers = Object.keys(state.drafts).map(draft_id => {
+        let draft = state.drafts[draft_id];
+        return serializer.serializeDraftTable(draft.table, false).then(table => {
+          drafts[draft_id] = {
+            ...draft, 
+            table: table
+          }
+        });
+      });
+
+      // write state
+      Promise.all(serializers).then(() => {
+        LocalForage.setItems({
+          ...state,
+          drafts
+        });
+      });
     })
   };
   
   // read from LocalForage then return store
   return new Promise((resolve) => {
+    
     return LocalForage.getItems().then(savedState => {
-      const mergedStates = _merge({}, initialState, savedState);
-      store = new Vuex.Store({
-        plugins: [persistPlugin],
-        state: mergedStates,
-        getters,
-        mutations,
-        actions,
-        strict: debug,
-      });
 
-      // register drafts module
-      useDraftsModule();
+      // unroll card ids into cards
+      let drafts = {};
+      let unserializers = [];
+      if (savedState.drafts) {
+        unserializers = Object.keys(savedState.drafts).map(draft_id => {
+          let draft = savedState.drafts[draft_id];
+          return serializer.unserializeDraftTable(draft.set.code, draft.table, false).then(table => {
+              drafts[draft.id] = {
+                ...draft,
+                table: table
+              };
+          });
+        });
+      }
 
-      resolve(store);
+      // read into state
+      Promise.all(unserializers).then(() => {
+        savedState = {
+          ...savedState,
+          drafts
+        };
+
+        const mergedStates = _merge({}, initialState, savedState);
+        store = new Vuex.Store({
+          plugins: [persistPlugin],
+          state: mergedStates,
+          getters,
+          mutations,
+          actions,
+          strict: debug,
+        });
+
+        // register drafts module
+        useDraftsModule();
+
+        resolve(store);
+      });      
     });
   });
 }
