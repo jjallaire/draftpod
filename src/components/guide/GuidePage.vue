@@ -149,7 +149,12 @@ export default {
   margin-bottom: 20px;
 }
 
+.guide-page h4,
 .guide-page h5 {
+  margin-top: 20px;
+}
+
+#faq h4 {
   margin-top: 20px;
 }
 

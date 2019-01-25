@@ -27,17 +27,21 @@ The card ratings used by draftpod are based on the P1P1 community evaluations av
 
 The site publishes a list of cards for each set in order of community preference (e.g. here's the ordering for [Ravnica Allegiance](https://www.draftaholicsanonymous.com/p1p1-ravnica-allegiance/)).
 
-For the purposes of drafting, this pick order is then translated into a rating scale for each card from 0 to 5. This is done by applying the distribution of ratings for recent sets provided by Luis Scott Vargas on [Channel Fireball](https://www.channelfireball.com/articles/) to the pick order:
+For the purposes of drafting, this pick order is then translated into a rating scale for each card from 0 to 5. This is done by applying the distribution of ratings for recent sets provided by Luis Scott Vargas on [Channel Fireball](https://www.channelfireball.com/articles/ravnica-allegiance-limited-set-review-white/) to the pick order:
 
 <p>
 <img src="/images/guide/ratings-distribution.png" width="100%" />
 </p>
 
-So the first card in the pick order has a rating of 5.0, the next several a rating of 4.5, and so on until the last few cards in the set receive a rating of 0. 
+So the first one or two cards in the pick order will have a rating of 5.0, the next several a rating of 4.5, and so on until the last few cards in the set receive a rating of 0. 
 
 Applying the LSV distribution to pick orders enables us to derive ratings for any set for which an ordering is available (as opposed to only the sets that LSV has already rated). It also allow us to track the drafting "meta" as the community evaluation of cards changes over the course of a set release.
 
+#### Can I use draftpod on mobile devices?
 
+Yes you can. There is touch gesture support which makes using draftpod on medium sized screens (i.e. tablets) a good experience. You can also use draftpod on a phone, however the deck-building experience isn't terrific (the card images are often too small to read and manipulate). 
+
+One thing you can do to make the experience somewhat better on phones is to add draftpod to your home screen (this will ensure that it always runs in full screen mode so no space is taken up by browser navigation/tabs).
 
 #### Where are my previous drafts stored?
 
