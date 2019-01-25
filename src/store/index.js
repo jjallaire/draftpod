@@ -45,7 +45,8 @@ export function initializeStore() {
     },
     cardpools: {
       
-    }
+    },
+    firebase_error: null
   };
 
   // plugin to persist state to LocalForage

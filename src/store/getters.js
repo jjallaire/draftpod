@@ -7,6 +7,8 @@ export default {
 
   player: (state) => state.player,
 
+  firebase_error: (state) => state.firebase_error,
+
   draft: (state) => (id) => state.drafts[id],
   
   orphaned_drafts: function(state, getters) {

@@ -6,6 +6,7 @@ export const SET_DRAFT = 'SET_DRAFT'
 export const REMOVE_DRAFTS = 'REMOVE_DRAFTS'
 export const SET_CARDPOOL = 'SET_CARDPOOL'
 export const REMOVE_CARDPOOL = 'REMOVE_CARDPOOL'
+export const SET_FIREBASE_ERROR = 'SET_FIREBASE_ERROR'
 
 import _omit from 'lodash/omit'
 
@@ -57,6 +58,18 @@ export default {
 
   [REMOVE_CARDPOOL](state, { set_code, name }) {
     Vue.delete(state.cardpools[set_code], name);
+  },
+
+  [SET_FIREBASE_ERROR](state, error ) {
+    if (error) {
+      Vue.set(state, "firebase_error", {
+        code: error.code,
+        name: error.name,
+        message: error.message
+      });
+    } else {
+      Vue.set(state, "firebase_error", null);
+    }
   },
 
 }

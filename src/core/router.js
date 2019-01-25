@@ -12,7 +12,7 @@ import NotFoundPage from '../components/NotFoundPage.vue'
 import DraftNotFoundPage from '../components/draft/DraftNotFoundPage.vue'
 
 import { store, useDraftModule } from '../store'
-import { SET_DRAFT, REMOVE_DRAFTS } from '../store/mutations'
+import { SET_DRAFT, REMOVE_DRAFTS, SET_FIREBASE_ERROR } from '../store/mutations'
 import firestore from '../store/modules/draft/firestore'
 import * as log from './log'
 import progress from './progress'
@@ -29,7 +29,7 @@ export default new VueRouter({
     { path: '/draft/', component: NavigatorPage },
     { path: '/draft/:draft_id/join', component: JoinPage, props: true,
       beforeEnter: (to, from, next) => {
-        
+
         // alias ids
         let player_id = store.state.player.id;
         let draft_id = to.params.draft_id;
@@ -56,9 +56,18 @@ export default new VueRouter({
           }
         })
         .catch(error => {
-          log.logException(error, "onGetDraftBeforeJoin");
+          // log error 
+          if (shouldLogError(error))
+            log.logException(error, "onGetDraftBeforeJoin");
+
+          // clear any residual draft data
           store.commit(REMOVE_DRAFTS, [draft_id]);
-          firestoreError(next, error, draft_id);
+
+          // set the router error so the join page can display it
+          store.commit(SET_FIREBASE_ERROR, error);
+
+          // on to the join page
+          next();
         })
         .finally(() => {
           progress.stop();
@@ -89,8 +98,15 @@ export default new VueRouter({
               }
             })
             .catch(error => {
-              log.logException(error, "onGetDraftBeforeDraft");
-              firestoreError(next, error, draft_id);
+              // log error
+              if (shouldLogError(error))
+                log.logException(error, "onGetDraftBeforeDraft");
+
+              // set the router error so the table page can display it
+              store.commit(SET_FIREBASE_ERROR, error);
+
+              // on to page
+              next();
             })
             .finally(() => {
               progress.stop();
@@ -126,10 +142,13 @@ function draftNotFound(next, draft_id) {
   next("/draft/" + draft_id + "/not-found"); 
 }
 
-// eslint-disable-next-line
-function firestoreError(next, draft_id, error) {
-  console.log("firestore error");
-  next("/draft/" + draft_id + "/not-found"); 
+function shouldLogError(error) {
+  if (error.name === "FirebaseError") {
+    // exclude offline errors from logging (as they are expected)
+    return error.code !== "unavailable";
+  } else {
+    return true;
+  }
 }
 
 

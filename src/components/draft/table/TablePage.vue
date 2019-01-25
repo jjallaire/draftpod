@@ -2,6 +2,7 @@
 
 import SetIcon from '@/components/core/SetIcon.vue'
 import NavBar from '@/components/core/NavBar.vue'
+import FirebaseError from '@/components/core/FirebaseError.vue'
 import PackPanel from '../pack/PackPanel.vue';
 import PickPanel from '../pick/PickPanel.vue';
 import PickTimer from '../pick/PickTimer.vue'
@@ -9,7 +10,7 @@ import InfoBar from '../infobar/InfoBar.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 import PlayersPopup from '../players/PlayersPopup.vue'
 
-import { REMOVE_DRAFTS } from '@/store/mutations'
+import { REMOVE_DRAFTS, SET_FIREBASE_ERROR } from '@/store/mutations'
 
 import { RESUME_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE, 
          DECK_TO_SIDEBOARD, DECK_TO_UNUSED, 
@@ -66,13 +67,15 @@ export default {
       card_preview: null,
       touchDragManager: new TouchDragManager(),
       firestoreUnsubscribe: null,
-      pick_timeout_timer: null
+      pick_timeout_timer: null,
+      firebase_error: null
     };
   },
 
   components: {
     NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
-    PlayersIcon, PlayersPopup, FullScreenIcon, FullScreenExitIcon, ExitToAppIcon
+    PlayersIcon, PlayersPopup, FullScreenIcon, FullScreenExitIcon, ExitToAppIcon,
+    FirebaseError
   },
 
   provide: function() {
@@ -105,6 +108,14 @@ export default {
       this.isTablet = true;
     if (this.isMobile && !this.isTablet)
       this.isPhone = true;
+
+    // collect/handle firebase_error if there is one. if there is an error
+    // then we abort processing 
+    if (this.$store.getters.firebase_error) {
+      this.firebase_error = this.$store.getters.firebase_error;
+      this.$store.commit(SET_FIREBASE_ERROR, null);
+      return;
+    }
 
     // resume draft
     this.resumeDraft().then(() => {
@@ -357,7 +368,18 @@ export default {
 
 <template>
 
-  <div>
+  <div v-if="firebase_error">
+    <NavBar />
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-10 offset-sm-1">
+    <FirebaseError :error="firebase_error" />
+    </div>
+    </div>
+    </div>
+  </div>
+
+  <div v-else>
 
     <NavBar> 
       <span class="navbar-text navbar-set-icon">

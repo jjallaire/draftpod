@@ -2,13 +2,14 @@
 
 import NavBar from './core/NavBar.vue'
 import SiteFooter from './core/SiteFooter.vue'
+import FirebaseError from './core/FirebaseError.vue'
 import MultiplayerPlayers from './core/MultiplayerPlayers.vue'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
-import { SET_PLAYER_INFO } from '@/store/mutations'
+import { SET_PLAYER_INFO, SET_FIREBASE_ERROR } from '@/store/mutations'
 import { JOIN_DRAFT, } from '@/store/modules/draft/actions'
 import { WRITE_TABLE } from '@/store/modules/draft/mutations'
 
@@ -34,12 +35,21 @@ export default {
   data: function() {
     return {
       player_name: '',
-      firestoreUnsubscribe: null
+      firestoreUnsubscribe: null,
+      firebase_error: null
     }
   },
 
   created() {
+    
+    // cache player name
     this.player_name = this.player.name;
+
+    // collect firebase if there is one
+    if (this.$store.getters.firebase_error) {
+      this.firebase_error = this.$store.getters.firebase_error;
+      this.$store.commit(SET_FIREBASE_ERROR, null);
+    }
 
     if (this.is_available) {
       this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
@@ -71,7 +81,7 @@ export default {
       }
     }),
     ...mapGetters([
-      'player'
+      'player',
     ]),
 
     host_player: function() {
@@ -91,11 +101,11 @@ export default {
     },
 
     is_available: function() {
-      return this.draft_exists && !this.is_full && !this.is_started;
+      return !this.firebase_error && this.draft_exists && !this.is_full && !this.is_started;
     },
 
     is_joined: function() {
-      return selectors.activePlayer(this.player.id, this.draft.table) !== undefined;
+      return !this.firebase_error && (selectors.activePlayer(this.player.id, this.draft.table) !== undefined);
     },
 
     namespace: function() {
@@ -152,7 +162,7 @@ export default {
   },
 
   components: {
-    NavBar, SiteFooter, MultiplayerPlayers, CirclesToRhombusesSpinner
+    NavBar, SiteFooter, FirebaseError, MultiplayerPlayers, CirclesToRhombusesSpinner
   }
 }
 
@@ -173,10 +183,13 @@ export default {
 
   <div class="col-sm-8 offset-sm-2">
 
+  <div v-if="firebase_error">
+    <FirebaseError :error="firebase_error" />
+  </div>
+
+  <div v-else-if="draft_exists">  
+
   <h3>{{ set_name }} Draft</h3>
-
-  <div v-if="draft_exists">
-
   
   <p>
     <span v-if="host_player">{{ host_player }} has invited you </span> 
@@ -264,6 +277,10 @@ export default {
 
 .join-content .waiting-for-draft .circles-to-rhombuses-spinner .circle {
   border-width: 2px;
+}
+
+.join-content h2 {
+  margin-bottom: 20px;
 }
 
 .join-content .alert {
