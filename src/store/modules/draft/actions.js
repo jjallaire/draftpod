@@ -235,7 +235,7 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
       firestore.updateDraftTable(state.id, writer)
         .then(function() {
 
-          // set connected flag to false to indicate we can do pick timer picks
+          // set connected flag to true to indicate we can do pick timer picks
           if (!state.connected)
             commit(SET_CONNECTED, { connected: true });
 
