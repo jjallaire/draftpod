@@ -15,7 +15,7 @@ import SinglePlayerMd from './articles/single-player.md'
 import MultiPlayerMd from './articles/multi-player.md'
 import SetCubesMd from './articles/set-cubes.md'
 import FAQMd from './articles/faq.md'
-import FeedbackMd from './articles/feedback.md'
+import Feedback from './articles/Feedback.vue'
 
 import jquery from 'jquery'
 
@@ -58,7 +58,7 @@ export default {
 
   components: {
     NavBar, SiteFooter, 
-    WelcomeMd, SinglePlayerMd, MultiPlayerMd, SetCubesMd, FAQMd, FeedbackMd
+    WelcomeMd, SinglePlayerMd, MultiPlayerMd, SetCubesMd, FAQMd, Feedback
   }
 }
 
@@ -109,8 +109,10 @@ export default {
           <FAQMd/>
         </div>
         
+
+
         <div class="tab-pane fade" id="feedback" role="tabpanel" aria-labelledby="feedback-tab">
-          <FeedbackMd/>
+          <Feedback/> 
         </div>
       </div>
     </div>
