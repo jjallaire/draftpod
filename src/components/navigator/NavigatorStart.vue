@@ -34,7 +34,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'grn',
+      set_code: 'rna',
       cardpool: CARDPOOL.CUBE + '4/4/1/1',
       pick_timer: false,
       pick_ratings: false,

@@ -8,8 +8,16 @@ export default {
 
   name: "Ravnica Allegiance",
 
-  capabilities: {
-    custom_cardpool: false
+  card_id_filter: function(id) {
+    // convert temporariy decked builder ids to mvid
+    if (id >= 1235178 && id <= 1235436)
+      id = 457145 + (id - 1235178);
+   
+    // we don't end up importing the (b) guildgates from scryfall
+    if ([457388,457394,457397,457400,457402].indexOf(id) !== -1)
+      return id-1;
+    else
+      return id;
   },
 
   pack_cards: 15,

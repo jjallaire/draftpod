@@ -9,7 +9,7 @@ export default {
   name: "Guilds of Ravnica",
 
   card_id_filter: function(id) {
-    // scryfall doesn't have all of the guildgates (a & b)
+    // we don't endup importing the (b) guildgates from scryfall
     if ([452994,452996,452999,453002,453006].indexOf(id) !== -1)
       return id-1;
     else

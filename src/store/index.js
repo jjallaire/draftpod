@@ -25,7 +25,7 @@ LocalForage.config({
   driver      : [LocalForage.INDEXEDDB, LocalForage.WEBSQL, LocalForage.LOCALSTORAGE],
   name        : 'Draftpod',
   version     : 1.0,
-  storeName   : 'draftpod-beta5'
+  storeName   : 'draftpod-beta6'
 });
 
 
@@ -40,7 +40,7 @@ export function initializeStore() {
       name: null
     },
     preferences: {
-      set_code: 'grn',
+      set_code: 'rna',
       pick_timer: false,
       pick_ratings: false,
       sets: {}

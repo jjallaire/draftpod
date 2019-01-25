@@ -25,7 +25,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'grn',
+      set_code: 'rna',
       number: 100,
       decks: []
     }
