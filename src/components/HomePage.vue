@@ -27,7 +27,7 @@ export default {
 
   <div class="jumbotron text-muted">
     <h1 class="display-3">draftpod</h1>
-    <h5>Draft simulator for MTG</h5>
+    <h5>Draft simulator for Magic the Gathering<sup class="trademark">&trade;</sup></h5>
 
     <hr/>
 
