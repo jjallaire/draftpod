@@ -22,37 +22,54 @@ export default {
   name: 'GuidePage',
 
   mounted() {
-    
-    function navigateToHash() {
-      let url = location.href.replace(/\/$/, "");
-      const hash = url.split("#");
-      if (hash.length === 1)
-        hash.push("welcome");
-      jquery('#v-pills-tab a[href="#'+hash[1]+'"]').tab("show");
-      url = location.href.replace(/\/#/, "#");
-      setTimeout(() => {
-        jquery(window).scrollTop(0);
-      }, 100);
+    this.manageTabHistory();
+  },
+
+  methods: {
+    manageTabHistory() {
+      // page url normalized w/o trailing slash
+      function pageUrl() {
+        return location.href.replace(/\/$/, "");
+      }
+
+      // scroll to the top of the page (we do this on tab switch)
+      function scrollToTop() {
+        setTimeout(() => {
+          jquery(window).scrollTop(0);
+        }, 100);
+      }
+
+      // navigate to the tab indicated in the current hash
+      function navigateToHash() {
+        const url = pageUrl();
+        let hash = url.split("#");
+        if (hash.length < 2)
+          hash = "welcome";
+        else
+          hash = hash[1];
+        jquery('#v-pills-tab a[href="#'+hash+'"]').tab("show");
+        scrollToTop();
+      }
+
+      // navigate when the hash changes (e.g. the back button)
+      window.addEventListener("hashchange", navigateToHash); 
+
+      // navigate immediately at startup if we have a hash
+      if (location.hash) 
+        navigateToHash();
+      // otherwise navigate to the welcome page (will also trigger navigateToHash)
+      else
+        history.pushState(null, null, "/guide#welcome/");
+
+      // interact w/ history and scroll top top when the tab is clicked  
+      jquery('a[data-toggle="pill"]').on("click", function() {
+        const url = pageUrl();
+        const hash = jquery(this).attr("href");
+        let newUrl = url.split("#")[0] + hash + "/";
+        history.pushState(null, null, newUrl);
+        scrollToTop();
+      });
     }
-
-    if (location.hash) 
-      navigateToHash();
-    else
-      history.pushState(null, null, "/guide#welcome/");
-
-    window.addEventListener("hashchange", navigateToHash); 
-    
-    jquery('a[data-toggle="pill"]').on("click", function() {
-      let url = location.href.replace(/\/$/, "");
-      let newUrl;
-      const hash = jquery(this).attr("href");
-      newUrl = url.split("#")[0] + hash;
-      newUrl += "/";
-      history.pushState(null, null, newUrl);
-      setTimeout(() => {
-        jquery(window).scrollTop(0);
-      }, 100);
-    });
   },
 
   components: {
