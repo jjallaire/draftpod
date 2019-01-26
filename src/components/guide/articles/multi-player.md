@@ -18,7 +18,7 @@ Then, copy the provided URL and send it to the other players you'd like to have 
 
 Once all of the players have joined, click **Start Draft** to begin.
 
-After you make all of your picks, you'll end up in deckbuilding mode where you can specify which cards will make your main deck and sideboard. Once you've completed deckbuilding, click the **View Decklist** button to see a list of the cards in your deck and sideboard:
+After you make all of your picks, you'll end up in deck-building mode where you can specify which cards will make your main deck and sideboard. Once you've completed deck-building, click the **View Decklist** button to see a list of the cards in your deck and sideboard:
 
 <p>
 <img src="/images/guide/view-decklist.png" width="100%" />
