@@ -13,6 +13,8 @@ That said, it can be quite difficult to collect all of the cards in a set so you
 
 It should also be noted that when draftpod generates booster packs it automatically substitutes lower-rarity cards if there are not enough available of a given rarity level (for example, automatically substituting an uncommon if all of the rares have been utilized). This means it's also possible to build a cardpool consisting of only uncommons and commons (or even of only commons). 
 
+See articles [Cube Design: Set Cubes](https://www.channelfireball.com/articles/cube-design-set-cubes/) and [9 Things You Need to Know about How to Make a Set Cube](http://www.metamox.com/blog/9-things-you-need-to-know-about-how-to-make-a-set-cube/) for additional discussion on creating set cubes.
+
 ### Organizing Cards
 
 Once you've decided on the type of cardpool you want to build and obtained the cards for it, you need to organize it so it's ready to be used with draftpod. Organizing consists of 2 steps:
@@ -40,7 +42,7 @@ Once you've done this, you are ready to enter the cards into a cardpool database
 
 ### Cardpool Database
 
-Once you have a cardpool, you need register it with draftpod so that it can build packs that correspond to the cards you have on hand. To do this you create a database of cards in the pool. We recommend using <a href="https://www.deckedbuilder.com/" target="_blank">Decked Builder</a> for this, since it has excellent data entry features which make entering cards a snap (it takes about 20 minutes to enter an entire cardpool). 
+Once you have a cardpool, you need register it with draftpod so that it can build packs that correspond to the cards you have on hand. To do this you create a database of cards in the pool. We recommend using <a href="https://www.deckedbuilder.com/">Decked Builder</a> for this, since it has excellent data entry features which make entering cards a snap (it takes about 20 minutes to enter an entire cardpool). 
 
 Note that while we recommend Decked Builder, you can use any program you like for creating the database so long as it can export a CSV file with _id_ (Multiverse ID) and _quantity_ fields.
 
@@ -90,22 +92,22 @@ Assuming your cards are ordered by collector number, pulling cards from a deckli
 
 #### Cases
 
-A cardpool with 3 of every common, 2 of every uncommon, and 1 of each rare and mythic in a set will typically consist of around 550 cards. You can store 550 sleeved cards in a standard <a href="https://www.amazon.com/BCW-Count-Corrugated-Cardboard-Storage/dp/B07C5YZWYQ/" target="_blank">BCW 930 Count Cardboard Case</a> cardboard case:
+A cardpool with 3 of every common, 2 of every uncommon, and 1 of each rare and mythic in a set will typically consist of around 550 cards. You can store 550 sleeved cards in a standard <a href="https://www.amazon.com/BCW-Count-Corrugated-Cardboard-Storage/dp/B07C5YZWYQ/">BCW 930 Count Cardboard Case</a> cardboard case:
 
 <p>
-<a href="https://www.amazon.com/BCW-Count-Corrugated-Cardboard-Storage/dp/B07C5YZWYQ/" target="_blank"><img src="/images/guide/bcw-case.jpg" width="100%" /></a>
+<a href="https://www.amazon.com/BCW-Count-Corrugated-Cardboard-Storage/dp/B07C5YZWYQ/"><img src="/images/guide/bcw-case.jpg" width="100%" /></a>
 </p>
 
-You can also fit 550 sleeved cards into a <a href="https://www.amazon.com/Quiver-Carrying-Exterior-Dividers-Compatible/dp/B00XYC3MNI" target="_blank">Quiver Game Card Case</a>:
+You can also fit 550 sleeved cards into a <a href="https://www.amazon.com/Quiver-Carrying-Exterior-Dividers-Compatible/dp/B00XYC3MNI">Quiver Game Card Case</a>:
 
 <p>
-<a href="https://www.amazon.com/Quiver-Carrying-Exterior-Dividers-Compatible/dp/B00XYC3MNI" target="_blank"><img src="/images/guide/quiver-case.jpg" width="100%" /></a>
+<a href="https://www.amazon.com/Quiver-Carrying-Exterior-Dividers-Compatible/dp/B00XYC3MNI"><img src="/images/guide/quiver-case.jpg" width="100%" /></a>
 </p>
 
-Finally, you may also want to pre-sleeve a set of lands. Assuming you use the same color sleeves for all of your draftpod cardpools, the lands can of course be shared between multiple pools. <a href="https://www.amazon.com/Compartment-Trading-Pokemon-Gathering-Magnetic/dp/B07F96FH8P" target="_blank">The Monster Hydra 5 Deck Box</a> is a good way to store a set of lands:
+Finally, you may also want to pre-sleeve a set of lands. Assuming you use the same color sleeves for all of your draftpod cardpools, the lands can of course be shared between multiple pools. <a href="https://www.amazon.com/Compartment-Trading-Pokemon-Gathering-Magnetic/dp/B07F96FH8P">The Monster Hydra 5 Deck Box</a> is a good way to store a set of lands:
 
 <p>
-<a href="https://www.amazon.com/Compartment-Trading-Pokemon-Gathering-Magnetic/dp/B07F96FH8P" target="_blank"><img src="/images/guide/monster-deckbox.jpg" width="100%" /></a>
+<a href="https://www.amazon.com/Compartment-Trading-Pokemon-Gathering-Magnetic/dp/B07F96FH8P"><img src="/images/guide/monster-deckbox.jpg" width="100%" /></a>
 </p>
 
 
