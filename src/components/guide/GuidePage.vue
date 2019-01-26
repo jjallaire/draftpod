@@ -6,7 +6,7 @@ import SiteFooter from '../core/SiteFooter.vue'
 import WelcomeMd from './articles/welcome.md'
 import SinglePlayerMd from './articles/single-player.md'
 import MultiPlayerMd from './articles/multi-player.md'
-import SetCubesMd from './articles/set-cubes.md'
+import CardpoolsMd from './articles/cardpools.md'
 import FAQMd from './articles/faq.md'
 import Feedback from './articles/Feedback.vue'
 
@@ -68,7 +68,7 @@ export default {
 
   components: {
     NavBar, SiteFooter, 
-    WelcomeMd, SinglePlayerMd, MultiPlayerMd, SetCubesMd, FAQMd, Feedback
+    WelcomeMd, SinglePlayerMd, MultiPlayerMd, CardpoolsMd, FAQMd, Feedback
   }
 }
 
@@ -89,7 +89,7 @@ export default {
         <a class="nav-link active" id="welcome-tab" data-toggle="pill" href="#welcome" role="tab" aria-controls="welcome" aria-selected="true">Welcome</a>
         <a class="nav-link" id="single-player-tab" data-toggle="pill" href="#single-player" role="tab" aria-controls="single-player" aria-selected="false">Single-Player Drafts</a>
         <a class="nav-link" id="multi-player-tab" data-toggle="pill" href="#multi-player" role="tab" aria-controls="multi-player" aria-selected="false">Multi-Player Drafts</a>
-        <a class="nav-link" id="set-cubes-tab" data-toggle="pill" href="#set-cubes" role="tab" aria-controls="multi-player" aria-selected="false">Creating a Set Cube</a>
+        <a class="nav-link" id="cardpools-tab" data-toggle="pill" href="#cardpools" role="tab" aria-controls="multi-player" aria-selected="false">Draft Cardpools</a>
         <a class="nav-link" id="faq-tab" data-toggle="pill" href="#faq" role="tab" aria-controls="faq" aria-selected="false">Frequently Asked Questions</a>
         <a class="nav-link" id="feedback-tab" data-toggle="pill" href="#feedback" role="tab" aria-controls="feedback" aria-selected="false">Feedback &amp; Support</a>
       </div>
@@ -110,8 +110,8 @@ export default {
         </div>
 
           
-        <div class="tab-pane fade" id="set-cubes" role="tabpanel" aria-labelledby="set-cubes-tab">
-          <SetCubesMd/>
+        <div class="tab-pane fade" id="cardpools" role="tabpanel" aria-labelledby="cardpools-tab">
+          <CardpoolsMd/>
         </div>
 
 

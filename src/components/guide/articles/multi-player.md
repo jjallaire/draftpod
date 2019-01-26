@@ -6,7 +6,7 @@ In multi-player mode you conduct the draft online (along with draft bots that fi
 
 ### Getting Started
 
-To use draftpod for a multi-player draft you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. There are a number of techniques for assembling a cardpool which are covered in the [Creating a Set Cube](/guide#set-cubes/) You'll need to consult this article before hosting a multi-player draft, but for remainder of this article we'll assume that we already have a cardpool to draft from.
+To use draftpod for a multi-player draft you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. There are a number of techniques for assembling a cardpool which are covered in the [Draft Cardpools](/guide#cardpools/) article. You'll need to consult this article before hosting a multi-player draft, but for remainder of this article we'll assume that we already have a cardpool to draft from.
 
 To start a new multi-player draft, go to the [Draft](/draft/) page, select the set you want to draft from and the _cardpool_ are drafting from, then choose **Multiple Players**:
 
@@ -38,7 +38,7 @@ In order to draft online and then play with physical cards, draftpod needs to kn
 
 You can use any set of Magic cards with draftpod so long as they are from the same set and you have at least 384 of them (8 players x 3 boosters x 15 cards/booster).
 
-See the article on [Creating a Set Cube](/guide#set-cubes/) for more details on how to create custom cubes and register them for play on draftpod.
+See the article on [Draft Cardpools](/guide#cardpools/) for more details on how to create a cardpool and register it for play on draftpod.
 
 ### Pick Timer
 
