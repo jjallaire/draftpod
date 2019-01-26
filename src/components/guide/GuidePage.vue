@@ -17,6 +17,7 @@ export default {
 
   mounted() {
     this.manageTabHistory();
+    this.manageExternalLinks();
   },
 
   methods: {
@@ -63,6 +64,10 @@ export default {
         history.pushState(null, null, newUrl);
         scrollToTop();
       });
+    },
+
+    manageExternalLinks() {
+      jquery(".guide-page a[href^='http']").attr("target","_blank");
     }
   },
 
