@@ -89,7 +89,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457145,
@@ -144,7 +144,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457175,
@@ -180,7 +180,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457205,
@@ -273,7 +273,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457299,
@@ -310,7 +310,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 0
+    "rating": 0.5
   },
   {
     "id": 457300,
@@ -338,11 +338,11 @@
     "multiverse_ids": [
       457365
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547581992"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1548262516"],
     "layout": "split",
     "type_line": "Instant // Instant",
     "mana_cost": "{B/R}{B/R} // {4}{B}{R}",
-    "cmc": 2,
+    "cmc": 8,
     "colors": [
       "B",
       "R"
@@ -385,7 +385,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457266,
@@ -421,7 +421,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457302,
@@ -551,7 +551,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457149,
@@ -624,7 +624,7 @@
       "R"
     ],
     "rarity": "mythic",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457366,
@@ -633,11 +633,11 @@
     "multiverse_ids": [
       457366
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547582000"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1548262508"],
     "layout": "split",
     "type_line": "Instant // Sorcery",
     "mana_cost": "{B/R} // {2}{B}{R}",
-    "cmc": 1,
+    "cmc": 5,
     "colors": [
       "B",
       "R"
@@ -661,7 +661,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457211,
@@ -679,7 +679,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457239,
@@ -734,7 +734,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457150,
@@ -752,7 +752,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457240,
@@ -843,7 +843,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457367,
@@ -852,11 +852,11 @@
     "multiverse_ids": [
       457367
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547582011"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1548262504"],
     "layout": "split",
     "type_line": "Instant // Instant",
     "mana_cost": "{1}{R/G} // {R}{G}",
-    "cmc": 2,
+    "cmc": 4,
     "colors": [
       "G",
       "R"
@@ -899,7 +899,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457368,
@@ -908,17 +908,17 @@
     "multiverse_ids": [
       457368
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547582024"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1548262499"],
     "layout": "split",
     "type_line": "Instant // Sorcery",
     "mana_cost": "{1}{W/B} // {2}{W}{B}",
-    "cmc": 2,
+    "cmc": 6,
     "colors": [
       "B",
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457213,
@@ -936,7 +936,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457180,
@@ -954,7 +954,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 0
+    "rating": 0.5
   },
   {
     "id": 457214,
@@ -1045,7 +1045,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457242,
@@ -1072,17 +1072,17 @@
     "multiverse_ids": [
       457369
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547582033"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1548262497"],
     "layout": "split",
     "type_line": "Instant // Instant",
     "mana_cost": "{1}{W/U} // {2}{W}{U}",
-    "cmc": 2,
+    "cmc": 6,
     "colors": [
       "U",
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457309,
@@ -1120,7 +1120,7 @@
       "R"
     ],
     "rarity": "mythic",
-    "rating": 4
+    "rating": 4.5
   },
   {
     "id": 457311,
@@ -1139,7 +1139,7 @@
       "W"
     ],
     "rarity": "mythic",
-    "rating": 3.5
+    "rating": 4
   },
   {
     "id": 457312,
@@ -1194,7 +1194,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 4
+    "rating": 3.5
   },
   {
     "id": 457313,
@@ -1267,7 +1267,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457314,
@@ -1322,7 +1322,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457183,
@@ -1340,7 +1340,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457244,
@@ -1451,7 +1451,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457153,
@@ -1469,7 +1469,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457317,
@@ -1578,7 +1578,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457391,
@@ -1683,7 +1683,7 @@
     "cmc": 2,
     "colors": [],
     "rarity": "rare",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457248,
@@ -1758,7 +1758,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457219,
@@ -1813,7 +1813,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457273,
@@ -1961,7 +1961,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457325,
@@ -1980,7 +1980,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457395,
@@ -2036,7 +2036,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457185,
@@ -2054,7 +2054,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457327,
@@ -2073,7 +2073,7 @@
       "U"
     ],
     "rarity": "mythic",
-    "rating": 4.5
+    "rating": 4
   },
   {
     "id": 457221,
@@ -2091,7 +2091,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457250,
@@ -2109,7 +2109,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457156,
@@ -2127,7 +2127,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457328,
@@ -2173,11 +2173,11 @@
     "multiverse_ids": [
       457370
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547582042"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1548262479"],
     "layout": "split",
     "type_line": "Sorcery // Instant",
     "mana_cost": "{G/U} // {1}{G}{U}",
-    "cmc": 1,
+    "cmc": 4,
     "colors": [
       "G",
       "U"
@@ -2218,7 +2218,7 @@
     "cmc": 4,
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0
+    "rating": 0.5
   },
   {
     "id": 457157,
@@ -2236,7 +2236,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457330,
@@ -2255,7 +2255,7 @@
       "W"
     ],
     "rarity": "mythic",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457331,
@@ -2422,7 +2422,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2.5
   },
   {
     "id": 457186,
@@ -2476,7 +2476,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457252,
@@ -2494,7 +2494,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457336,
@@ -2550,7 +2550,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 1.5
   },
   {
     "id": 457277,
@@ -2605,7 +2605,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457380,
@@ -2624,7 +2624,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1
   },
   {
     "id": 457224,
@@ -2642,7 +2642,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 3
   },
   {
     "id": 457188,
@@ -2678,7 +2678,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 4
   },
   {
     "id": 457338,
@@ -2715,7 +2715,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457398,
@@ -2767,7 +2767,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457339,
@@ -2804,7 +2804,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 0
   },
   {
     "id": 457190,
@@ -2858,7 +2858,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457340,
@@ -2877,7 +2877,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457341,
@@ -2934,7 +2934,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457342,
@@ -2953,7 +2953,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457343,
@@ -2991,7 +2991,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457162,
@@ -3027,7 +3027,7 @@
       "G"
     ],
     "rarity": "rare",
-    "rating": 0.5
+    "rating": 0
   },
   {
     "id": 457279,
@@ -3091,17 +3091,17 @@
     "multiverse_ids": [
       457371
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6200937-3146-4972-ab83-051ade3b7a52.jpg?1547582051"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6200937-3146-4972-ab83-051ade3b7a52.jpg?1548262474"],
     "layout": "split",
     "type_line": "Instant // Sorcery",
     "mana_cost": "{G/U}{G/U} // {1}{G}{U}",
-    "cmc": 2,
+    "cmc": 5,
     "colors": [
       "G",
       "U"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 457163,
@@ -3128,11 +3128,11 @@
     "multiverse_ids": [
       457372
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50ae0831-f3ba-4535-bfb6-feefbbc15275.jpg?1547582061"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50ae0831-f3ba-4535-bfb6-feefbbc15275.jpg?1548262464"],
     "layout": "split",
     "type_line": "Sorcery // Sorcery",
     "mana_cost": "{W/B}{W/B} // {4}{W}{B}",
-    "cmc": 2,
+    "cmc": 8,
     "colors": [
       "B",
       "W"
@@ -3304,7 +3304,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457282,
@@ -3340,7 +3340,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 0.5
   },
   {
     "id": 457284,
@@ -3358,7 +3358,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 457347,
@@ -3427,7 +3427,7 @@
     "cmc": 1,
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0.5
+    "rating": 0
   },
   {
     "id": 457362,
@@ -3446,7 +3446,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457194,
@@ -3465,7 +3465,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457363,
@@ -3503,7 +3503,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457164,
@@ -3595,7 +3595,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2
   },
   {
     "id": 457351,
@@ -3614,7 +3614,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457401,
@@ -3670,7 +3670,7 @@
       "R"
     ],
     "rarity": "mythic",
-    "rating": 5
+    "rating": 4.5
   },
   {
     "id": 457196,
@@ -3688,7 +3688,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457259,
@@ -3724,7 +3724,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457165,
@@ -3742,7 +3742,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457198,
@@ -3760,7 +3760,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457260,
@@ -3778,7 +3778,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457166,
@@ -3814,7 +3814,7 @@
       "B"
     ],
     "rarity": "mythic",
-    "rating": 4.5
+    "rating": 5
   },
   {
     "id": 457261,
@@ -3891,7 +3891,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457353,
@@ -3910,7 +3910,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457262,
@@ -3928,7 +3928,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457230,
@@ -4002,7 +4002,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457287,
@@ -4166,7 +4166,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457289,
@@ -4240,7 +4240,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 0.5
+    "rating": 1
   },
   {
     "id": 457201,
@@ -4267,17 +4267,17 @@
     "multiverse_ids": [
       457373
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/e/2eefd8c1-96ce-4d7a-8aaf-29c35d634dda.jpg?1547582073"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/e/2eefd8c1-96ce-4d7a-8aaf-29c35d634dda.jpg?1548262458"],
     "layout": "split",
     "type_line": "Instant // Sorcery",
     "mana_cost": "{R/G}{R/G} // {2}{R}{G}",
-    "cmc": 2,
+    "cmc": 6,
     "colors": [
       "G",
       "R"
     ],
     "rarity": "rare",
-    "rating": 4
+    "rating": 3.5
   },
   {
     "id": 457264,
@@ -4295,7 +4295,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457290,
@@ -4313,7 +4313,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457171,
@@ -4347,7 +4347,7 @@
     "cmc": 5,
     "colors": [],
     "rarity": "rare",
-    "rating": 2.5
+    "rating": 1.5
   },
   {
     "id": 457291,
@@ -4420,7 +4420,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457232,
@@ -4438,7 +4438,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457233,
@@ -4511,7 +4511,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 457203,
@@ -4538,11 +4538,11 @@
     "multiverse_ids": [
       457374
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/0070651d-79aa-4ea6-b703-6ecd3528b548.jpg?1547582083"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/0070651d-79aa-4ea6-b703-6ecd3528b548.jpg?1548262451"],
     "layout": "split",
     "type_line": "Instant // Sorcery",
     "mana_cost": "{W/U}{W/U} // {3}{W}{U}",
-    "cmc": 2,
+    "cmc": 7,
     "colors": [
       "U",
       "W"
@@ -4566,7 +4566,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 0.5
+    "rating": 1
   },
   {
     "id": 457293,
@@ -4584,7 +4584,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457204,
@@ -4658,6 +4658,6 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   }
 ]
