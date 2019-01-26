@@ -122,7 +122,7 @@ export default {
       // create the draft
       this.initDraft({ 
         set_code: this.set_code, 
-        cardpool: CARDPOOL.CUBE + '4/4/2/1', 
+        cardpool: CARDPOOL.CUBE + '6/3/1/1', 
       }).then(({ draft_id }) => {
 
         this.startDraft(draft_id);

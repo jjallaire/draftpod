@@ -23,7 +23,7 @@ LocalForage.config({
   driver      : [LocalForage.INDEXEDDB, LocalForage.WEBSQL, LocalForage.LOCALSTORAGE],
   name        : 'Draftpod',
   version     : 1.0,
-  storeName   : 'draftpod-beta6'
+  storeName   : 'draftpod-beta7'
 });
 
 
