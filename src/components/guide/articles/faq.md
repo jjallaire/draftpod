@@ -41,8 +41,6 @@ Applying the LSV distribution to pick orders enables us to derive ratings for an
 
 Yes you can. There is touch gesture support which makes using draftpod on medium sized screens (i.e. tablets) a good experience. You can also use draftpod on a phone, however the deck-building experience isn't terrific (the card images are often too small to read and manipulate). 
 
-One thing you can do to make the experience somewhat better on phones is to add draftpod to your home screen (this will ensure that it always runs in full screen mode so no space is taken up by browser navigation/tabs).
-
 #### Where are my previous drafts stored?
 
 Your last several drafts are saved by draftpod within your web browser's local storage. You can review and return to these recent drafts so long as you are using the same browser (if you switch to another browser you won't see the drafts created within the first browser).
