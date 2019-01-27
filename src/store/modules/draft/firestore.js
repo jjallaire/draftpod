@@ -96,6 +96,7 @@ export default {
       });
   },
 
+
   validateClient(player_id, client_id, table) {
     if (player_id !== null && client_id !== null) {
       
@@ -122,7 +123,11 @@ export default {
       }
     } 
     return true;
-  }
+  },
+
+  isUnavailableError(error) {
+    return error.name === "FirebaseError" && error.code === "unavailable";
+  },
 
 }
 

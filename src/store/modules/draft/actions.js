@@ -264,7 +264,8 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
           commit(WRITE_TABLE, { table: previousTable });
           
           // log error 
-          log.logException(error, "onUpdateDraftTable");
+          if (!firestore.isUnavailableError(error))
+            log.logException(error, "onUpdateDraftTable");
 
           // resolve the promise
           resolve();

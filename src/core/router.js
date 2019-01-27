@@ -143,12 +143,7 @@ function draftNotFound(next, draft_id) {
 }
 
 function shouldLogError(error) {
-  if (error.name === "FirebaseError") {
-    // exclude offline errors from logging (as they are expected)
-    return error.code !== "unavailable";
-  } else {
-    return true;
-  }
+  return !firestore.isUnavailableError(error);
 }
 
 
