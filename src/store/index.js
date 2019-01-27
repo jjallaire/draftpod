@@ -3,6 +3,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import LocalForage from 'localforage'
+import MobileDetect from 'mobile-detect'
 
 import _merge from 'lodash/merge'
 
@@ -18,12 +19,19 @@ const debug = process.env.NODE_ENV !== 'production'
 
 Vue.use(Vuex)
 
-// Configure localforage
+
+// LocalForage driver (force localStorage on iOS due to buggy indexeddb)
+let md = new MobileDetect(window.navigator.userAgent);
+let driver = md.os() === "iOS" ? 
+  [LocalForage.LOCALSTORAGE] : 
+  [LocalForage.INDEXEDDB, LocalForage.WEBSQL, LocalForage.LOCALSTORAGE];
+
+// Initialize LocalForage
 LocalForage.config({
-  driver      : [LocalForage.INDEXEDDB, LocalForage.WEBSQL, LocalForage.LOCALSTORAGE],
+  driver      : driver,
   name        : 'Draftpod',
   version     : 1.0,
-  storeName   : 'draftpod-beta7'
+  storeName   : 'draftpod-beta8'
 });
 
 
