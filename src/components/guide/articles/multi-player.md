@@ -4,9 +4,9 @@ Multi-player mode enables you to conduct a simulated 8-person draft even when yo
 
 In multi-player mode you conduct the draft online (along with draft bots that fill in an 8 person table), and then use the resulting decklists to assemble decks from paper magic cards that you already have. 
 
-### Getting Started
+To use draftpod for a multi-player draft you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. There are a number of techniques for assembling a cardpool which are covered in the [Draft Cardpools](/guide#cardpools/) article. You'll need to consult this article before hosting a multi-player draft, but for remainder of this article we'll assume that you already have a cardpool to draft from.
 
-To use draftpod for a multi-player draft you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. There are a number of techniques for assembling a cardpool which are covered in the [Draft Cardpools](/guide#cardpools/) article. You'll need to consult this article before hosting a multi-player draft, but for remainder of this article we'll assume that we already have a cardpool to draft from.
+### Drafting
 
 To start a new multi-player draft, go to the [Draft](/draft/) page, select the set you want to draft from and the _cardpool_ are drafting from, then choose **Multiple Players**:
 
@@ -14,9 +14,13 @@ To start a new multi-player draft, go to the [Draft](/draft/) page, select the s
 <img src="/images/guide/multi-player.png" width="100%" />
 </p>
 
-Then, copy the provided URL and send it to the other players you'd like to have join you. Once a player joins their  name will appear in the players list. 
+Then, copy the provided URL and send it to the other players you'd like to have join. 
 
-Once all of the players have joined, click **Start Draft** to begin.
+Players should use a desktop, laptop or tablet rather than a mobile phone (since phones don't generally have large enough screens to accomodate the draftpod UI).
+
+When a player joins, their name will appear in the players list. Once all of the players have joined, click **Start Draft** to begin.
+
+### Deck Building
 
 After you make all of your picks, you'll end up in deck-building mode where you can specify which cards will make your main deck and sideboard. Once you've completed deck-building, click the **View Decklist** button to see a list of the cards in your deck and sideboard:
 

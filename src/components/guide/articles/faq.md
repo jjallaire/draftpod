@@ -37,10 +37,6 @@ So the first one or two cards in the pick order will have a rating of 5.0, the n
 
 Applying the LSV distribution to pick orders enables us to derive ratings for any set for which an ordering is available (as opposed to only the sets that LSV has already rated). It also allow us to track the drafting "meta" as the community evaluation of cards changes over the course of a set release.
 
-#### Can I use draftpod on mobile devices?
-
-Yes you can. There is touch gesture support which makes using draftpod on medium sized screens (i.e. tablets) a good experience. You can also use draftpod on a phone, however the deck-building experience isn't terrific (the card images are often too small to read and manipulate). 
-
 #### Where are my previous drafts stored?
 
 Your last several drafts are saved by draftpod within your web browser's local storage. You can review and return to these recent drafts so long as you are using the same browser (if you switch to another browser you won't see the drafts created within the first browser).
