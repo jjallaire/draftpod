@@ -125,9 +125,17 @@ export default {
     return true;
   },
 
-  isUnavailableError(error) {
-    return error.name === "FirebaseError" && error.code === "unavailable";
+  isFirebaseError(error) {
+    return error.name === "FirebaseError";
   },
+
+  isUnavailableError(error) {
+    return this.isFirebaseError(error) && error.code === "unavailable";
+  },
+
+  isAbortedError(error) {
+    return this.isFirebaseError(error) && error.code === "aborted";
+  }
 
 }
 

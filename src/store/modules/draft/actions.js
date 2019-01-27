@@ -263,9 +263,11 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
           // rollback state
           commit(WRITE_TABLE, { table: previousTable });
           
-          // log error 
-          if (!firestore.isUnavailableError(error))
+          // log error if it's not one that occurs in the ordinary course of using firestore
+          if (!firestore.isUnavailableError(error) && 
+              !firestore.isAbortedError(error)) {
             log.logException(error, "onUpdateDraftTable");
+          }
 
           // resolve the promise
           resolve();
