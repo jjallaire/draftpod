@@ -24,7 +24,7 @@ export default {
     <p>{{ error.message }}</p>
   </div>
   <p v-if="error.code === 'unavailable'">
-    Please be sure that your internet connection is online before joining the draft.
+    Please be sure that your internet connection is online before continuing.
   </p>
 </div>
 

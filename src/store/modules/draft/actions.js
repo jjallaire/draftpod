@@ -245,6 +245,18 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
         })
         .catch(function(error) {
           
+          // notify user
+          messagebox.alert(
+            "Connection Error",
+            "<p>An error occurred while communicating with the draftpod server: " + error + "</p>" +
+            "<p>Please be sure that your internet connection is online, " +
+            "then click the button below to attempt to reconnect with the draftpod server.</p>",
+            () => {
+              window.location.reload();
+            },
+            "Reconnect to Draft",
+          );
+
           // set connected flag to false so we don't attempt pick timer picks
           commit(SET_CONNECTED, { connected: false });
         
@@ -253,13 +265,6 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
           
           // log error 
           log.logException(error, "onUpdateDraftTable");
-
-          // notify user
-          messagebox.alert(
-            "Connection Error",
-            "<p>An error occurred while communicating with the draftpod server: " + error + "</p>" +
-            "Please ensure that your internet connection is working correctly before continuing with the draft."
-          );
 
           // resolve the promise
           resolve();
