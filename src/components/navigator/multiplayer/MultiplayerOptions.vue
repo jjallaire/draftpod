@@ -50,7 +50,7 @@ export default {
     onNameChanged(event) {
       this.inputVal.player_name = event.target.value.trim();
       if (this.inputVal.player_name.length > 0)
-        this.$emit('joinUrl', this.inputVal);
+        this.$emit('input', this.inputVal);
     },
    
     onCopyJoinUrl(event) {
