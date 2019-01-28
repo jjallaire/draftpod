@@ -111,6 +111,9 @@ export default {
         else
           window.getSelection().removeAllRanges();
       }
+
+      // blur
+      joinUrl.blur();
     },
 
     onClipboardSuccess() {
