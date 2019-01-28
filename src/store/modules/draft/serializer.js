@@ -3,16 +3,16 @@ import * as set from './set'
 import * as log from '@/core/log'
 
 export function serializeDraftTable(table, stringify = true) {
-  return new Promise((resolve, reject) => {
-    // convert cards to card ids
-    try {
-      let saved_table = convertDraftTable(table, cardsToIds);
-      resolve(stringify ? JSON.stringify(saved_table) : saved_table);
-    } catch(error) {
-      log.addBreadcrumb('table', JSON.stringify(table));
-      reject(error);
-    } 
-  });
+  // convert cards to card ids. this is not current async but we return promises
+  // so that clients are coded for async in the case we take on an async dependency
+  // (as unserializeDraftTable already has)
+  try {
+    let saved_table = convertDraftTable(table, cardsToIds);
+    return Promise.resolve(stringify ? JSON.stringify(saved_table) : saved_table);
+  } catch(error) {
+    log.addBreadcrumb('table', JSON.stringify(table));
+    return Promise.reject(error);
+  } 
 }
 
 export function unserializeDraftTable(draft, stringify = true) {
