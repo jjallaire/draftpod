@@ -39,13 +39,13 @@ function convertDraftTable(table, cardConverter) {
     players: table.players.map(player => {
       return {
         ...player,
+        packs: player.packs.map(cardConverter),
         deck: {
           ...player.deck,
           piles: player.deck.piles.map(cardConverter)
         },
         picks: {
           ...player.picks,
-          packs: player.packs.map(cardConverter),
           piles: player.picks.piles.map(cardConverter)
         },
 
