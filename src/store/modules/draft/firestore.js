@@ -80,25 +80,31 @@ export default {
       // fetch the latest copy of the draft table
       return transaction.get(docRef).then(doc => {
 
-        // get the draft
-        let draft = doc.data();
-
         // read the table
-        return serializer.unserializeDraftTable(draft).then(table => {
+        return serializer.unserializeDraftTable(doc.data());
 
-          // apply the changes using the passed writer then write an update_version
-          writer(table);
-          table.update_version = shortUuid().new();
+      })
 
-          // update the database
-          return serializer.serializeDraftTable(table).then(serializedTable => {
-            transaction.update(docRef, {
-              table: serializedTable
-            });
-            return table;
-          });
+      // apply the changes using the passed writer, then serialize
+      .then(table => {
+
+        writer(table);
+        table.update_version = shortUuid().new();
+
+        // serialize the table
+        return serializer.serializeDraftTable(table);
+
+      })
+      
+      // write the transaction
+      .then(serializedTable => {
+
+        transaction.update(docRef, {
+          table: serializedTable
         });
+
       });
+        
     });
   },
 
