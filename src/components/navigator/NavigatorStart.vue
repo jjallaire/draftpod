@@ -238,36 +238,35 @@ export default {
         if (this.cardpool === 'new-cardpool') {
           messagebox.alert("Unable to Start Draft",
                           "Please complete the details for the new cardpool and then click " +
-                          "the Use Cardpool button to confirm you want to use it for this draft.");
+                          "the <strong>Use Cardpool</strong> button to confirm you want to use it for this draft.");
           resolve(false);
         }
 
         // validation for multi-user drafts
-        if (this.players === 'multiple') {
+        else if (this.players === 'multiple') {
 
           if (!this.multi_player.draft_id) {
             messagebox.alert("Unable to Start Draft", "Please wait for the draft be created before starting it.");
             resolve(false);
-            return;
           }
 
-          if (!this.multi_player.player_name) {
+          else if (!this.multi_player.player_name) {
             messagebox.alert("Unable to Start Draft", "Please enter the name you want to be identified by during the draft.");
             resolve(false);
-            return;
           }
 
-          if (this.multi_players.length <= 1) {
+          else if (this.multi_players.length <= 1) {
             messagebox.confirm(
               "Start Draft",
               "<p>No other players have yet joined this draft so you will be the only player.<p>" +
               "Are you sure you want to start drafting?",
               () => resolve(true), () => resolve(false));
-            return;
+          } else {
+            resolve(true);
           }
+        } else {
+          resolve(true);
         }
-
-        resolve(true);
       });
 
     },
