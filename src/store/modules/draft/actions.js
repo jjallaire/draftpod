@@ -220,6 +220,10 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
       }
     }
 
+    // record the state prior to the changes (will be used to roll back the local state
+    // if an error occurs updating firebase)
+    let previousTable = JSON.parse(JSON.stringify(state.table));
+ 
     // make the changes locally
     let table = JSON.parse(JSON.stringify(state.table));
     writer(table);
@@ -228,10 +232,6 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
     // write to firestore if requested
     if (state.options.multi_player) {
 
-      // record the state prior to the changes (will be used to roll back the local state
-      // if an error occurs updating firebase)
-      let previousTable = JSON.parse(JSON.stringify(state.table));
-      
       firestore.updateDraftTable(state.id, writer)
         .then(function() {
 
