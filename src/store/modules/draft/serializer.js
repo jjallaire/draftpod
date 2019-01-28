@@ -19,21 +19,15 @@ export function unserializeDraftTable(draft, stringify = true) {
   
   let set_code = draft.set.code;
   let table = draft.table;
-  return new Promise((resolve, reject) => {
-    return set.cards(set_code).then(set_cards => {
-      // parse from json string if necessary
-      let saved_table = stringify ? JSON.parse(table) : table;
-    
-      // return the table w/ ids converted to cards
-      try {
-        resolve(
-          convertDraftTable(saved_table, idsToCards(set_cards))
-        );
-      } catch(error) {
-        log.addBreadcrumb('table', table);
-        reject(error);
-      }
-    });
+  
+  return set.cards(set_code).then(set_cards => {
+    let saved_table = stringify ? JSON.parse(table) : table;
+    try {
+      return convertDraftTable(saved_table, idsToCards(set_cards))
+    } catch(error) {
+      log.addBreadcrumb('table', table);
+      return Promise.reject(error);
+    }
   });
 }
 

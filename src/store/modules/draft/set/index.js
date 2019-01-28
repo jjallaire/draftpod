@@ -47,19 +47,15 @@ export function pack_cards(set_code) {
 }
 
 export function cards(set_code) {
-  return new Promise((resolve) => {
-    if (cards_cache[set_code]) {
-      setTimeout(() => {
-        resolve(cards_cache[set_code]);
-      }, 0);
-    } else {
-      axios.get('/sets/' + set_code + '/cards.json')
-        .then(response => {
-          cards_cache[set_code] = response.data;
-          resolve(cards_cache[set_code]);
-        });
-    }
-  });
+  if (cards_cache[set_code]) {
+    return Promise.resolve(cards_cache[set_code]);
+  } else {
+    return axios.get('/sets/' + set_code + '/cards.json')
+      .then(response => {
+        cards_cache[set_code] = response.data;
+        return cards_cache[set_code];
+      });
+  }
 }
 
 export function cube(set_code, cardsInSet, multiples) {
