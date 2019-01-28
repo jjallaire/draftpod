@@ -87,10 +87,8 @@ export default {
       if (isiOSDevice) {
 
         let editable = joinUrl.contentEditable;
-        let readOnly = joinUrl.readOnly;
 
         joinUrl.contentEditable = true;
-        joinUrl.readOnly = false;
 
         var selection = window.getSelection();
         selection.removeAllRanges();
@@ -105,7 +103,6 @@ export default {
         }
 
         joinUrl.contentEditable = editable;
-        joinUrl.readOnly = readOnly;
 
       // in most environments we can just call select()
       } else {
