@@ -56,8 +56,8 @@ initializeStore()
       render: (h) => h('router-view')
     }).$mount('#app');  
   })
-.catch(error => {
-  log.logException(error, "onInitializeStore");
-});
+  .catch(error => {
+    log.logException(error, "onInitializeStore");
+  });
 
   
