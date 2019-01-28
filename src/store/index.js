@@ -88,9 +88,8 @@ export function initializeStore() {
   };
   
   // read from LocalForage then return store
-  return new Promise((resolve) => {
-    
-    return LocalForage.getItem("state").then(savedState => {
+  return LocalForage.getItem("state")
+    .then(savedState => {
 
       // default empty saved state
       savedState = savedState || {};
@@ -111,7 +110,7 @@ export function initializeStore() {
       }
 
       // read into state
-      Promise.all(unserializers).then(() => {
+      return Promise.all(unserializers).then(() => {
         savedState = {
           ...savedState,
           drafts
@@ -130,9 +129,8 @@ export function initializeStore() {
         // register drafts module
         useDraftsModule();
 
-        resolve(store);
+        return store;
       });      
-    });
   });
 }
 
