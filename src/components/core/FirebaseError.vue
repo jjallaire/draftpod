@@ -1,5 +1,7 @@
 <script>
 
+import firestore from '@/store/modules/draft/firestore'
+
 export default {
   name: 'FirebaseError',
 
@@ -7,6 +9,12 @@ export default {
     error: {
       type: Object,
       required: true
+    }
+  },
+
+  methods: {
+    isConnectivityError(error) {
+      return firestore.isConnectivityError(error);
     }
   }
 }
@@ -17,13 +25,13 @@ export default {
 <template>
 
 <div class="firebase-error">
-  <h2>Draftpod Connection Error</h2>
+  <h2>Connection Error</h2>
   <h5>An error occurred while attempting to connect to the draftpod server:</h5> 
   <div class="alert alert-primary">
     <p>{{ error.name }} ({{ error.code }})</p>
     <p>{{ error.message }}</p>
   </div>
-  <p v-if="error.code === 'unavailable'">
+  <p v-if="isConnectivityError(error)">
     Please be sure that your internet connection is online before continuing.
   </p>
 </div>

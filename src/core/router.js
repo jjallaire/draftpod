@@ -143,7 +143,7 @@ function draftNotFound(next, draft_id) {
 }
 
 function shouldLogError(error) {
-  return !firestore.isUnavailableError(error);
+  return !firestore.isConnectivityError(error);
 }
 
 

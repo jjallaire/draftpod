@@ -130,7 +130,7 @@ export default {
               this.beginDraft(draft_id);
             })
             .catch((error) => {
-              if (!firestore.isUnavailableError(error))
+              if (!firestore.isConnectivityError(error))
                 log.logException(error, "onStartDraft");
               messagebox.alert("Draft Error", "Unable to start draft: " + error.message);
             });   

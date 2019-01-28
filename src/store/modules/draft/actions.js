@@ -262,7 +262,7 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
         commit(WRITE_TABLE, { table: previousTable });
         
         // log error if it's not one that occurs in the ordinary course of using firestore
-        if (!firestore.isUnavailableError(error) && 
+        if (!firestore.isConnectivityError(error) && 
             !firestore.isAbortedError(error)) {
           log.logException(error, "onUpdateDraftTable");
         }

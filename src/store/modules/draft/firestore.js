@@ -11,6 +11,7 @@ import shortUuid from 'short-uuid'
 // track logged in status
 import firebase from 'firebase/app'
 import 'firebase/auth'
+
 let _signedIn = false;
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
@@ -161,8 +162,17 @@ export default {
     return error.name === "FirebaseError";
   },
 
+  isAuthConnectivityError(error) {
+    return error.name === "Error" && error.code === "auth/network-request-failed" ;
+  },
+
   isUnavailableError(error) {
-    return this.isFirebaseError(error) && error.code === "unavailable";
+    this.isFirebaseError(error) && error.code === "unavailable";
+  },
+
+  isConnectivityError(error) {
+    return this.isAuthConnectivityError(error) ||
+           this.isUnavailableError(error)
   },
 
   isAbortedError(error) {
