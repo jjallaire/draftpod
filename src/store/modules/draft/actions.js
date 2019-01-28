@@ -210,7 +210,7 @@ function cardIndex(cards, card) {
 // update the table, writing through to firebase
 function updateTable({ commit, state }, player_id, client_id, writer) {
 
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     
     // validate that another client hasn't taken over the draft
     if (state.options.multi_player) {
@@ -269,8 +269,8 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
             log.logException(error, "onUpdateDraftTable");
           }
 
-          // resolve the promise
-          resolve();
+          // reject the promise
+          reject(error);
         });
     } else {
       resolve();
