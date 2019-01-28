@@ -118,10 +118,10 @@ export default {
     }
 
     // resume draft
-    this.resumeDraft().then(() => {
+    this.resumeDraft().then((success) => {
   
       // multiplayer
-      if (this.options.multi_player) {
+      if (success && this.options.multi_player) {
 
         // wait to validate the client until we see our first commit
         let validateClient = false;

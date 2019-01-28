@@ -209,75 +209,70 @@ function cardIndex(cards, card) {
 
 // update the table, writing through to firebase
 function updateTable({ commit, state }, player_id, client_id, writer) {
-
-  return new Promise((resolve, reject) => {
     
-    // validate that another client hasn't taken over the draft
-    if (state.options.multi_player) {
-      if (!firestore.validateClient(player_id, client_id, state.table)) {
+  // validate that another client hasn't taken over the draft
+  if (state.options.multi_player) {
+    if (!firestore.validateClient(player_id, client_id, state.table)) {
+      commit(SET_CONNECTED, { connected: false });
+      return Promise.resolve(false); 
+    }
+  }
+
+  // record the state prior to the changes (will be used to roll back the local state
+  // if an error occurs updating firebase)
+  let previousTable = JSON.parse(JSON.stringify(state.table));
+
+  // make the changes locally
+  let table = JSON.parse(JSON.stringify(state.table));
+  writer(table);
+  commit(WRITE_TABLE, { table });
+
+  // write to firestore if requested
+  if (state.options.multi_player) {
+
+    return firestore.updateDraftTable(state.id, writer)
+      .then(function() {
+
+        // set connected flag to true to indicate we can do pick timer picks
+        if (!state.connected)
+          commit(SET_CONNECTED, { connected: true });
+
+        // successfully updated
+        return true;
+
+      })
+      .catch(function(error) {
+        
+        // notify user
+        messagebox.alert(
+          "Connection Error",
+          "<p>An error occurred while communicating with the draftpod server: " + error + "</p>" +
+          "<p>Please be sure that your internet connection is online, " +
+          "then click the button below to attempt to reconnect with the draftpod server.</p>",
+          () => {
+            window.location.reload();
+          },
+          "Reconnect to Draft",
+        );
+
+        // set connected flag to false so we don't attempt pick timer picks
         commit(SET_CONNECTED, { connected: false });
-        return Promise.resolve(); 
-      }
-    }
-
-    // record the state prior to the changes (will be used to roll back the local state
-    // if an error occurs updating firebase)
-    let previousTable = JSON.parse(JSON.stringify(state.table));
- 
-    // make the changes locally
-    let table = JSON.parse(JSON.stringify(state.table));
-    writer(table);
-    commit(WRITE_TABLE, { table });
-
-    // write to firestore if requested
-    if (state.options.multi_player) {
-
-      firestore.updateDraftTable(state.id, writer)
-        .then(function() {
-
-          // set connected flag to true to indicate we can do pick timer picks
-          if (!state.connected)
-            commit(SET_CONNECTED, { connected: true });
-
-          // resolve the promise
-          resolve();
+      
+        // rollback state
+        commit(WRITE_TABLE, { table: previousTable });
         
-        })
-        .catch(function(error) {
-          
-          // notify user
-          messagebox.alert(
-            "Connection Error",
-            "<p>An error occurred while communicating with the draftpod server: " + error + "</p>" +
-            "<p>Please be sure that your internet connection is online, " +
-            "then click the button below to attempt to reconnect with the draftpod server.</p>",
-            () => {
-              window.location.reload();
-            },
-            "Reconnect to Draft",
-          );
+        // log error if it's not one that occurs in the ordinary course of using firestore
+        if (!firestore.isUnavailableError(error) && 
+            !firestore.isAbortedError(error)) {
+          log.logException(error, "onUpdateDraftTable");
+        }
 
-          // set connected flag to false so we don't attempt pick timer picks
-          commit(SET_CONNECTED, { connected: false });
-        
-          // rollback state
-          commit(WRITE_TABLE, { table: previousTable });
-          
-          // log error if it's not one that occurs in the ordinary course of using firestore
-          if (!firestore.isUnavailableError(error) && 
-              !firestore.isAbortedError(error)) {
-            log.logException(error, "onUpdateDraftTable");
-          }
-
-          // reject the promise
-          reject(error);
-        });
-    } else {
-      resolve();
-    }
-  });
-
-  
+        // not successfully updated
+        return false;
+      });
+  } else {
+    return Promise.resolve(true);
+  }  
 
 }
 
