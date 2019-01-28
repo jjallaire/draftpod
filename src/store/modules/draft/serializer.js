@@ -15,7 +15,10 @@ export function serializeDraftTable(table, stringify = true) {
   });
 }
 
-export function unserializeDraftTable(set_code, table, stringify = true) {
+export function unserializeDraftTable(draft, stringify = true) {
+  
+  let set_code = draft.set.code;
+  let table = draft.table;
   return new Promise((resolve, reject) => {
     return set.cards(set_code).then(set_cards => {
       // parse from json string if necessary

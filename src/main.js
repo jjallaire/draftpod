@@ -10,10 +10,6 @@ import '@/components/core/styles.css'
 import * as Sentry from '@sentry/browser';
 import VueAnalytics from 'vue-analytics'
 import * as log from './core/log'
-import progress from './core/progress'
-
-import firebase from 'firebase/app'
-import 'firebase/auth'
 
 import shortUuid from 'short-uuid'
 
@@ -41,48 +37,27 @@ if (production) {
   });
 }
 
-// login to firebase
-firebase.auth().onAuthStateChanged(function(user) {
-  if (user) {
-    initApp();
-  } else {
-    progress.start();
-    firebase.auth().signInAnonymously()
-      .then(() => {
-        initApp();
-      })
-      .catch(error => {
-        log.logException(error, "onAnonymousSignIn");
-        initApp();
-      })
-      .finally(() => {
-        progress.stop();
-      });
-  }
+
+
+// initialize the store then the app
+initializeStore()
+  .then(store => {
+    
+    // determine player_id
+    let player_id = store.getters.player.id || shortUuid().new();
+
+    // write the player id
+    store.commit(SET_PLAYER_INFO, { id: player_id } );
+
+    // start the app
+    new Vue({
+      router,
+      store,
+      render: (h) => h('router-view')
+    }).$mount('#app');  
+  })
+.catch(error => {
+  log.logException(error, "onInitializeStore");
 });
 
-function initApp() {
-
-  // initialize the store then the app
-  initializeStore()
-    .then(store => {
-      
-      // determine player_id
-      let player_id = store.getters.player.id || shortUuid().new();
-
-      // write the player id
-      store.commit(SET_PLAYER_INFO, { id: player_id } );
-
-      // start the app
-      new Vue({
-        router,
-        store,
-        render: (h) => h('router-view')
-      }).$mount('#app');  
-    })
-  .catch(error => {
-    log.logException(error, "onInitializeStore");
-  });
-
   
-}

@@ -8,40 +8,63 @@ import * as messagebox from '@/components/core/messagebox.js'
 import { firestore } from '../../firebase'
 import shortUuid from 'short-uuid'
 
+// track logged in status
+import firebase from 'firebase/app'
+import 'firebase/auth'
+let _signedIn = false;
+firebase.auth().onAuthStateChanged(function(user) {
+  if (user) {
+    _signedIn = true;
+  } else {
+    _signedIn = false;
+  }
+});
+
+function ensureSignedIn() {
+  if (!_signedIn)
+    return firebase.auth().signInAnonymously();
+  else
+    return Promise.resolve();
+}
+
+
 export default {
 
   // create a draft within the firestore
   createDraft(id, draft) {
-    return serializer.serializeDraftTable(draft.table).then(table => {
-      return firestore.collection('drafts').doc(id).set({
-        id: id,
-        set: draft.set,
-        options: draft.options,
-        packs: draft.packs,
-        table: table
-      });
+    return ensureSignedIn()
+      .then(() => {
+        return serializer.serializeDraftTable(draft.table);
+      })
+      .then(table => {
+        return firestore.collection('drafts').doc(id).set({
+          id: id,
+          set: draft.set,
+          options: draft.options,
+          packs: draft.packs,
+          table: table
+        });
     });
   },
 
   getDraft(id) {
-    return new Promise((resolve, reject) => {
-      firestore.collection("drafts").doc(id).get().then(doc => {
+    return ensureSignedIn()
+      .then(() => {
+        return firestore.collection("drafts").doc(id).get();
+      })
+      .then(doc => {
         let draft = doc.data();
         if (draft) {
-          return serializer.unserializeDraftTable(draft.set.code, draft.table).then(table => {
-            resolve({
+          return serializer.unserializeDraftTable(draft).then(table => {
+            return {
               ...draft,
               table: table
-            });
+            };
           });
         } else {
-          resolve(null);
+          return null;
         }
-      })
-      .catch(error => {
-        reject(error);
       });
-    });
     
   },
 
@@ -61,7 +84,7 @@ export default {
         let draft = doc.data();
 
         // read the table
-        return serializer.unserializeDraftTable(draft.set.code, draft.table).then(table => {
+        return serializer.unserializeDraftTable(draft).then(table => {
 
           // apply the changes using the passed writer then write an update_version
           writer(table);
@@ -85,7 +108,7 @@ export default {
       .onSnapshot(doc => {
         let draft = doc.data();
         if (draft) {
-          serializer.unserializeDraftTable(draft.set.code, draft.table)
+          serializer.unserializeDraftTable(draft)
             .then(onchanged)
             .catch(error => {
               log.logException(error, "onDraftTableChangedUnserialize");

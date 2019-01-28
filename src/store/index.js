@@ -101,7 +101,7 @@ export function initializeStore() {
       if (savedState.drafts) {
         unserializers = Object.keys(savedState.drafts).map(draft_id => {
           let draft = savedState.drafts[draft_id];
-          return serializer.unserializeDraftTable(draft.set.code, draft.table, false).then(table => {
+          return serializer.unserializeDraftTable(draft, false).then(table => {
               drafts[draft.id] = {
                 ...draft,
                 table: table
