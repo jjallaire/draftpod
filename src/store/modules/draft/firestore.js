@@ -44,7 +44,10 @@ export default {
           packs: draft.packs,
           table: table
         });
-    });
+      })
+      .then(() => {
+        return id;
+      });
   },
 
   getDraft(id) {

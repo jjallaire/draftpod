@@ -126,7 +126,7 @@ export default {
 
           } else {
             // create the draft then navigate to it
-            this.createDraft().then(( {draft_id }) => {
+            this.createDraft().then(draft_id => {
               this.beginDraft(draft_id);
             })
             .catch((error) => {
@@ -146,7 +146,7 @@ export default {
       if (this.players === 'multiple') {
         
         // create the draft 
-        this.createDraft().then(( {draft_id }) => {
+        this.createDraft().then(draft_id => {
           this.multi_player.draft_id = draft_id;
           this.joinMultiplayerDraft();
           this.multiplayerDraftConnect();
