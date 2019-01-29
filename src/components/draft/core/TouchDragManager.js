@@ -57,10 +57,19 @@ export default class TouchDragManager {
     if (overflowY > 0)
       previewRect.top -= overflowY;
     
+    let splitCard = card.layout === 'split';
+    if (splitCard) {
+      previewRect.top = previewRect.top - (cardRect.height - cardRect.width);
+      if (previewRect.left === 0)
+        previewRect.left = previewRect.left + (cardRect.height - cardRect.width);
+    }
+    
     // create and position drag image
     let dragImg =  document.createElement("img");
     dragImg.style.position = "absolute";
     dragImg.classList.add("mtgcard-touch-drag-image");
+    if (splitCard)
+      dragImg.classList.add('layout-split');
     dragImg.setAttribute('src', event.target.getAttribute('src'));
     dragImg.setAttribute('draggable', 'false');
     dragImg.setAttribute('oncontextmenu', 'return false;');

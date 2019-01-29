@@ -9,3 +9,7 @@
   user-select: none;
 }
 
+.mtgcard-touch-drag-image.layout-split {
+  transform: rotate(90deg); 
+}
+
