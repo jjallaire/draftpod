@@ -4,7 +4,7 @@ Multi-player mode enables you to conduct a simulated 8-person draft even when yo
 
 In multi-player mode you conduct the draft online (along with draft bots that fill in an 8 person table), and then use the resulting decklists to assemble decks from paper magic cards that you already have. 
 
-To use draftpod for a multi-player draft you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. There are a number of techniques for assembling a cardpool which are covered in the [Draft Cardpools](/guide#cardpools/) article. You'll need to consult this article before hosting a multi-player draft, but for remainder of this article we'll assume that you already have a cardpool to draft from.
+To use Draftpod for a multi-player draft you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. There are a number of techniques for assembling a cardpool which are covered in the [Draft Cardpools](/guide#cardpools/) article. You'll need to consult this article before hosting a multi-player draft, but for remainder of this article we'll assume that you already have a cardpool to draft from.
 
 ### Drafting
 
@@ -16,7 +16,7 @@ To start a new multi-player draft, go to the [Draft](/draft/) page, select the s
 
 Then, copy the provided URL and send it to the other players you'd like to have join. 
 
-Players should use a desktop, laptop or tablet rather than a mobile phone (since phones don't generally have large enough screens to accomodate the draftpod UI).
+Players should use a desktop, laptop or tablet rather than a mobile phone (since phones don't generally have large enough screens to accomodate the Draftpod UI).
 
 When a player joins, their name will appear in the players list. Once all of the players have joined, click **Start Draft** to begin.
 
@@ -32,7 +32,7 @@ You can then pull these cards from your physical cardpool and begin playing. Not
 
 ### Draft Cardpools
 
-In order to draft online and then play with physical cards, draftpod needs to know exactly which cards you have in your cardpool. There are a number of approaches to building cardpools, including:
+In order to draft online and then play with physical cards, Draftpod needs to know exactly which cards you have in your cardpool. There are a number of approaches to building cardpools, including:
 
 1. Including every card in the set (for example, 3 of each common, 2 of each uncommon, and 1 of each rare and mythic rare). This provides for great variety but it can be challenging to collect a complete set!
 
@@ -40,19 +40,19 @@ In order to draft online and then play with physical cards, draftpod needs to kn
 
 3. Creating a card pool from a smaller inventory of cards (e.g. a single booster box). This results in less variety but still enough so to preserve the fun and challenge of booster draft.
 
-You can use any set of Magic cards with draftpod so long as they are from the same set and you have at least 384 of them (8 players x 3 boosters x 15 cards/booster).
+You can use any set of Magic cards with Draftpod so long as they are from the same set and you have at least 384 of them (8 players x 3 boosters x 15 cards/booster).
 
-See the article on [Draft Cardpools](/guide#cardpools/) for more details on how to create a cardpool and register it for play on draftpod.
+See the article on [Draft Cardpools](/guide#cardpools/) for more details on how to create a cardpool and register it for play on Draftpod.
 
 ### Pick Timer
 
-In a multi-player draft it's sometimes desirable to apply a time limit for each pick to ensure that players aren't waiting an inordinate amount of time for packs. You can enable a pick timer in draftpod when creating a new draft:
+In a multi-player draft it's sometimes desirable to apply a time limit for each pick to ensure that players aren't waiting an inordinate amount of time for packs. You can enable a pick timer in Draftpod when creating a new draft:
 
 <p>
 <img src="/images/guide/pick-timer.png" width="100%" />
 </p>
 
-The time limit will be 1 minute, 15 seconds for the first pick in each pack, and then 5 seconds less for each pick thereafter. If the pick timer expires then the draftpod bot logic will be used to automatically make a pick.
+The time limit will be 1 minute, 15 seconds for the first pick in each pack, and then 5 seconds less for each pick thereafter. If the pick timer expires then the Draftpod bot logic will be used to automatically make a pick.
 
 ### Players at the Table
 

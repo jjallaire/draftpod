@@ -3,7 +3,7 @@
 
 #### How can I practice drafting on my own?
 
-While draftpod single-player mode enables you to practice draft decision making, there is no substitute for playing real matches to learn firsthand how the cards play and interact. If you don't have a friend or group to draft with, the best way to practice on your own is [Magic Arena](https://magic.wizards.com/en/mtgarena), which offers a fantastic solo-drafting experience (you draft against bots and then play games against real opponents online).
+While Draftpod single-player mode enables you to practice draft decision making, there is no substitute for playing real matches to learn firsthand how the cards play and interact. If you don't have a friend or group to draft with, the best way to practice on your own is [Magic Arena](https://magic.wizards.com/en/mtgarena), which offers a fantastic solo-drafting experience (you draft against bots and then play games against real opponents online).
 
 Magic Arena also offers a [ranking system](https://magic.wizards.com/en/articles/archive/december-state-beta-rank-10-breakdown-2018-12-12) that enables you to track your improvement as a drafter over time, as well increase the quality and challenge of your opponents as your skills progress.
 
@@ -21,9 +21,9 @@ The [Channel Fireball](https://www.channelfireball.com/articles/) and [Star City
 
 You can also sit on the shoulder of the some of the very best Magic players in the world as they draft by watching streams and/or YouTube videos. You can find lots of streams on [Twitch](https://www.twitch.tv/magic/videos) as well as archives of previous drafts from [Ben Stark](https://www.youtube.com/results?search_query=Channel+BenS), [Reid Duke](https://www.youtube.com/results?search_query=Channel+Reid), [Luis Scott Vargas](https://www.youtube.com/results?search_query=Channel+LSV), and [Marshall Sutcliffe](https://www.youtube.com/results?search_query=Channel+Marshall) (among others) on the Channel Fireball YouTube channel.
 
-#### How are draftpod card ratings derived?
+#### How are Draftpod card ratings derived?
 
-The card ratings used by draftpod are based on the P1P1 community evaluations available at [https://draftaholicsanonymous.com/](https://draftaholicsanonymous.com/). 
+The card ratings used by Draftpod are based on the P1P1 community evaluations available at [https://draftaholicsanonymous.com/](https://draftaholicsanonymous.com/). 
 
 The site publishes a list of cards for each set in order of community preference (e.g. here's the ordering for [Ravnica Allegiance](https://www.draftaholicsanonymous.com/p1p1-ravnica-allegiance/)).
 
@@ -39,5 +39,5 @@ Applying the LSV distribution to pick orders enables us to derive ratings for an
 
 #### Where are my previous drafts stored?
 
-Your last several drafts are saved by draftpod within your web browser's local storage. You can review and return to these recent drafts so long as you are using the same browser (if you switch to another browser you won't see the drafts created within the first browser).
+Your last several drafts are saved by Draftpod within your web browser's local storage. You can review and return to these recent drafts so long as you are using the same browser (if you switch to another browser you won't see the drafts created within the first browser).
 

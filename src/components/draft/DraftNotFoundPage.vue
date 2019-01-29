@@ -36,11 +36,11 @@ export default {
     </p>
 
     <p>
-      This error also may have occurred because the draft you are requesting belongs to another player (draftpod URLs cannot be shared 
+      This error also may have occurred because the draft you are requesting belongs to another player (Draftpod URLs cannot be shared 
       between different players).
     </p>
     <p>
-      Another possibility is that draft is no longer available in your history (draftpod only saves
+      Another possibility is that draft is no longer available in your history (Draftpod only saves
       your last 10 drafts).
     </p>
      

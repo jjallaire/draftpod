@@ -26,7 +26,7 @@ export default {
   <div class="home-content">
 
   <div class="jumbotron text-muted">
-    <h1 class="display-3">draftpod</h1>
+    <h1 class="display-3">Draftpod</h1>
     <h5>Draft simulator for Magic the Gathering</h5>
 
     <hr/>

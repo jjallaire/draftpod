@@ -10,7 +10,7 @@ export default {
 <h2>Feedback &amp; Support</h2>
 
 <p>
-If you have questions, encounter problems, or have ideas about how to improve draftpod, 
+If you have questions, encounter problems, or have ideas about how to improve Draftpod, 
 please feel free to contact us.
 </p>
 

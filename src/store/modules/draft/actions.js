@@ -246,9 +246,9 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
         // notify user
         messagebox.alert(
           "Connection Error",
-          "<p>An error occurred while communicating with the draftpod server: " + error + "</p>" +
+          "<p>An error occurred while communicating with the Draftpod server: " + error + "</p>" +
           "<p>Please be sure that your internet connection is online, " +
-          "then click the button below to attempt to reconnect with the draftpod server.</p>",
+          "then click the button below to attempt to reconnect.</p>",
           () => {
             window.location.reload();
           },
