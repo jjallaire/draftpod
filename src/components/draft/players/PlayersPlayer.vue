@@ -56,9 +56,13 @@ export default {
     },
     bot_colors: function() {
       if (this.draft.options.show_bot_colors || this.picks_complete) {
-        let piles = this.player.picks.piles;
-        let cards = _flatten(piles.slice(0, DECK.PILES));
-        return selectors.cardColors(cards, false, 0, 2);
+        if (this.picks_complete) {
+          return this.player.picks.colors.map(selectors.cardColorInfo);
+        } else {
+          let piles = this.player.picks.piles;
+          let cards = _flatten(piles.slice(0, DECK.PILES));
+          return selectors.cardColors(cards, false, 0, 2);
+        }
       } else {
         return [];
       }

@@ -12,7 +12,6 @@ import { REMOVE_DRAFTS } from '@/store/mutations'
 import { START_DRAFT, SIMULATE_DRAFT } from '@/store/modules/draft/actions'
 
 import { CARDPOOL } from '@/store/constants'
-import * as draftbot from '@/store/modules/draft/draftbot'
 
 import _flatten from 'lodash/flatten'
 import _isEqual from 'lodash/isEqual'
@@ -123,7 +122,7 @@ export default {
       this.initDraft({ 
         set_code: this.set_code, 
         cardpool: CARDPOOL.CUBE + '6/3/1/1', 
-      }).then(({ draft_id }) => {
+      }).then(( draft_id ) => {
 
         this.startDraft(draft_id);
 
@@ -135,8 +134,7 @@ export default {
         // record the data
         let table = this.$store.state.drafts[draft_id].table;
         table.players.forEach((player) => {
-          let cards = _flatten(player.picks.piles);
-          this.decks.push(draftbot.deckColors(cards));
+          this.decks.push(player.picks.colors);
         });
 
         // remove draft data

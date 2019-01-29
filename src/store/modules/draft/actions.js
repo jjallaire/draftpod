@@ -544,8 +544,23 @@ function movePicksToDeck(player) {
 }
 
 function completePicks(table) {
+  
   // set completed status
   table.picks_complete = true;
+
+  // wipe out piles (but save colors)
+  table.players.forEach(player => {
+
+    // save the player colors
+    let cards = _flatten(player.picks.piles);
+    player.picks.colors = draftbot.deckColors(cards);
+
+    // wipe out the piles
+    player.picks.piles = [...Array(PICKS.PILES + 1)].map(() => Array());
+
+  });
+  
+
 }
 
 

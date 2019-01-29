@@ -24,39 +24,50 @@ export function cardTypes(cards) {
   }
 }
 
-// count card colors 
-export function cardColors(cards, includeLands = false, percentFilter = null, maxColors = null) {
-  let colors = {
-    W: {
+export function cardColorInfo(code) {
+  switch(code) {
+    case 'W': return {
       name: "Plains",
       img: "/images/mana-white.svg",
       count: 0
-    },
-    B: {
+    };
+    case 'B': return {
       name: "Swamp",
       img: "/images/mana-black.svg",
       count: 0
-    },
-    U: {
+    };
+    case 'U': return {
       name: "Island",
       img: "/images/mana-blue.svg",
       count: 0
-    },
-    R: {
+    };
+    case 'R': return {
       name: "Mountain",
       img: "/images/mana-red.svg",
       count: 0
-    },
-    G: {
+    };
+    case 'G': return {
       name: "Forest",
       img: "/images/mana-green.svg",
       count: 0
-    },
-    C: {
+    };
+    case 'C':  return {
       name: "Colorless",
       img: "/images/mana-colorless.svg",
       count: 0
-    },
+    };
+  }
+}
+
+// count card colors 
+export function cardColors(cards, includeLands = false, percentFilter = null, maxColors = null) {
+  let colors = {
+    W: cardColorInfo('W'),
+    B: cardColorInfo('B'),
+    U: cardColorInfo('U'),
+    R: cardColorInfo('R'),
+    G: cardColorInfo('G'),
+    C: cardColorInfo('C')
   };
   for (let i=0; i<cards.length; i++) {
     let card = cards[i];

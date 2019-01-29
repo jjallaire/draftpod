@@ -62,7 +62,10 @@ function playerPicks() {
     piles: [...Array(PICKS.PILES+1)].map(() => Array()),
 
     // pick order
-    pick_order: []
+    pick_order: [],
+
+    // colors (computed after all picks are complete)
+    colors: []
   }
 }
 
