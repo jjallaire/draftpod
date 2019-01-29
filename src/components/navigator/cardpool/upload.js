@@ -106,8 +106,8 @@ export function handleCardpoolCsvUpload(set_code, file, complete) {
 
       // extract the fields
       cards = cards.map((card) => {
-        let id = set.card_id_filter(set_code, card['id'] || card['Mvid']);
-        let quantity = card['quantity'] || card['Total Qty'];
+        let id = set.card_id_filter(set_code, readId(card));
+        let quantity = readQuantity(card);
         return {
           id: id,
           quantity: quantity
