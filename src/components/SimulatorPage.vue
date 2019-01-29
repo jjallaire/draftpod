@@ -112,8 +112,8 @@ export default {
       this.decks = [];
 
       // run next simulation
-      this.$nextTick(this.runNextSimulation);
-
+      setTimeout(this.runNextSimulation, 5);
+    
     },
 
      runNextSimulation() {
@@ -143,7 +143,7 @@ export default {
         // schedule next execution if we need to
         let completed = this.decks.length / 8;
         if (completed < this.number)
-          this.$nextTick(this.runNextSimulation);
+           setTimeout(this.runNextSimulation, 5);
       });
 
     },
