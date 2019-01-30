@@ -37,6 +37,8 @@ import MobileDetect from 'mobile-detect'
 
 import shortUuid from 'short-uuid'
 
+import jquery from 'jquery'
+
 import TouchDragManager from '../core/TouchDragManager.js'
 
 // drafts namespace
@@ -108,6 +110,10 @@ export default {
       this.isTablet = true;
     if (this.isMobile && !this.isTablet)
       this.isPhone = true;
+
+    // manage players popup on iOS (needed in order to make it dismiss)
+    if (md.os() === 'iOS')
+      this.managePlayersPopupForiOS();
 
     // collect/handle firebase_error if there is one. if there is an error
     // then we abort processing 
@@ -359,6 +365,16 @@ export default {
       else
         fscreen.exitFullscreen();
     },
+
+    managePlayersPopupForiOS() {
+      jquery(document).on("touchstart", function(event){
+      if (jquery(event.target).closest('.dropdown-menu').length === 0) {
+        jquery('.dropdown.show .dropdown-toggle').each(function() {
+          jquery(this).dropdown('toggle');
+        });
+      }
+    });
+    }
   }
 }
 </script>
