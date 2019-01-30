@@ -47,15 +47,8 @@ export default {
       }
 
       // navigate when the hash changes (e.g. the back button)
-      window.addEventListener("hashchange", navigateToHash); 
-
-      // navigate immediately at startup if we have a hash
-      if (location.hash) 
-        navigateToHash();
-      // otherwise navigate to the welcome page (will also trigger navigateToHash)
-      else
-        history.pushState(null, null, "/guide#welcome/");
-
+      window.addEventListener("popstate", navigateToHash); 
+    
       // interact w/ history and scroll top top when the tab is clicked  
       jquery('a[data-toggle="pill"]').on("click", function() {
         const url = pageUrl();
@@ -64,6 +57,9 @@ export default {
         history.pushState(null, null, newUrl);
         scrollToTop();
       });
+
+      // navigate immediately at startup 
+      navigateToHash();
     },
 
     manageExternalLinks() {
