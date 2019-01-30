@@ -66,8 +66,6 @@ export default {
   color: rgba(255,255,255,0.7);
  
 }
-
-.navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255,255,255,0.7);
   background-image: none;
