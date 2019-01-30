@@ -350,9 +350,6 @@ export default {
           this.$router.push({ path: "/draft/" });
         })
     },
-    onShowPlayers: function() {
-      alert("Show Players!");
-    },
     onFullscreenChange: function() {
       this.fullscreen = fscreen.fullscreenElement !== null;
     },
@@ -397,7 +394,7 @@ export default {
       <ul class="navbar-nav">
         <li class="nav-item">
           <div class="dropdown">
-            <a id="playersMenuLink" class="nav-link icon-link dropdown-toggle" title="Players" 
+            <a href="#" id="playersMenuLink" class="nav-link icon-link dropdown-toggle" title="Players" 
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <PlayersIcon/> Players
             </a>
