@@ -37,6 +37,8 @@ import MobileDetect from 'mobile-detect'
 
 import shortUuid from 'short-uuid'
 
+import jquery from 'jquery'
+
 import TouchDragManager from '../core/TouchDragManager.js'
 
 // drafts namespace
@@ -510,7 +512,7 @@ export default {
 }
 
 .phone .draft-cards .pack-panel {
-  height: 51%;
+  height: 47%;
   padding-bottom: 0;
   overflow: hidden;
   width: 100%;
