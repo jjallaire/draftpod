@@ -37,8 +37,6 @@ import MobileDetect from 'mobile-detect'
 
 import shortUuid from 'short-uuid'
 
-import jquery from 'jquery'
-
 import TouchDragManager from '../core/TouchDragManager.js'
 
 // drafts namespace
