@@ -368,7 +368,7 @@ export default {
 
     managePlayersPopupForiOS() {
       jquery(document).on("touchstart", function(event){
-      if (jquery(event.target).closest('.show').length === 0) {
+      if (jquery(event.target).closest('.dropdown-menu').length === 0) {
         jquery('.dropdown.show .dropdown-toggle').each(function() {
           jquery(this).dropdown('toggle');
         });
