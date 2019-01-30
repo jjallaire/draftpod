@@ -12,15 +12,15 @@ export default {
 
   name: 'DeckCopy',
 
+  components: {
+    ClipboardIcon
+  },
+
   props: {
     deck_list: {
       type: String,
       required: true
     }
-  },
-
-  components: {
-    ClipboardIcon
   },
 
   mounted() {
@@ -43,11 +43,13 @@ export default {
 
 <template>
 
-  <button id="copy-deck-to-clipboard"
-      class="btn btn-sm btn-secondary text-light deck-copy" 
-      v-clipboard="deck_list"
-      v-clipboard:success="onClipboardSuccess"
-      data-toggle="tooltip"  data-placement="top">
+  <button 
+    v-clipboard="deck_list"
+    v-clipboard:success="onClipboardSuccess" 
+    id="copy-deck-to-clipboard"
+    class="btn btn-sm btn-secondary text-light deck-copy"
+    data-toggle="tooltip" 
+    data-placement="top">
     <ClipboardIcon/> Copy <span class="btn-extra-text">Decklist</span>
   </button>
 

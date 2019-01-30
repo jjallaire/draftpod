@@ -15,11 +15,15 @@ export default {
 
 <template>
 
-<div>
+  <div>
 
-<Spinner message="Creating draft..."  size="medium"  line-fg-color="#62c462" text-fg-color="#aaa"/>
+    <Spinner 
+      message="Creating draft..." 
+      size="medium" 
+      line-fg-color="#62c462" 
+      text-fg-color="#aaa"/>
 
-</div>
+  </div>
 
 </template>
 

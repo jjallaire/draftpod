@@ -1,9 +1,14 @@
 <template>
   <nav class="navbar navbar-dark navbar-expand-sm user-select-none">
 
-    <img class="navbar-logo" src="/images/logo.svg" />
+    <img 
+      class="navbar-logo" 
+      src="/images/logo.svg" >
     <span class="navbar-brand">
-      <router-link class="text-light" to="/" exact>Draftpod</router-link>
+      <router-link 
+        class="text-light" 
+        to="/" 
+        exact>Draftpod</router-link>
     </span>
     
     <slot>
@@ -13,13 +18,26 @@
     </slot>
 
     <ul class="navbar-nav ml-auto">
-      <router-link tag="li" class="nav-item" active-class="active" to="/" exact>
+      <router-link 
+        tag="li" 
+        class="nav-item" 
+        active-class="active" 
+        to="/" 
+        exact>
         <a class="nav-link">Home</a>
       </router-link>
-      <router-link tag="li" class="nav-item" active-class="active" to="/draft/">
+      <router-link 
+        tag="li" 
+        class="nav-item" 
+        active-class="active" 
+        to="/draft/">
         <a class="nav-link">Draft</a>
       </router-link>
-      <router-link tag="li" class="nav-item" active-class="active" to="/guide/">
+      <router-link 
+        tag="li" 
+        class="nav-item" 
+        active-class="active" 
+        to="/guide/">
         <a class="nav-link">Guide</a>
       </router-link>
     </ul>

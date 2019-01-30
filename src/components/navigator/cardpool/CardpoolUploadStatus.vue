@@ -3,14 +3,20 @@
 
 import CheckIcon from "vue-material-design-icons/Check.vue"
 
+import { uploadStatusEmpty } from './upload.js'
+
 export default {
 
   name: 'CardpoolUploadStatus',
 
+  components: {
+    CheckIcon
+  },
+
   props: {
     status: {
       type: Object,
-      requred: true
+      default: uploadStatusEmpty()
     },
   },
 
@@ -26,27 +32,34 @@ export default {
     }
   },
 
-  components: {
-    CheckIcon
-  }
-
 }
 
 </script>
 
 <template>
 
-<div class="cardpool-upload-status" :style="{ display: display }">
-  <div v-for="message in status.success" :key="message" class="text-success">
-    <CheckIcon /> {{ message }}
+  <div 
+    :style="{ display: display }" 
+    class="cardpool-upload-status">
+    <div 
+      v-for="message in status.success" 
+      :key="message" 
+      class="text-success">
+      <CheckIcon /> {{ message }}
+    </div>
+    <div 
+      v-for="message in status.error" 
+      :key="message" 
+      class="text-danger">
+      {{ message }}
+    </div>
+    <div 
+      v-for="message in status.warning" 
+      :key="message" 
+      class="text-warning">
+      {{ message }}
+    </div>
   </div>
-  <div v-for="message in status.error" :key="message" class="text-danger">
-    {{ message }}
-  </div>
-   <div v-for="message in status.warning" :key="message" class="text-warning">
-    {{ message }}
-  </div>
-</div>
 
 </template>
 

@@ -11,6 +11,14 @@ import * as filters from '@/components/core/filters'
 export default {
   name: 'NavigatorRecent',
 
+  filters: {
+    prettyDate: filters.prettyDate
+  },
+
+  components: {
+    ContentPanel, SetIcon, ColorIcon, RemoveDraft
+  },
+
   props: {
     draft_history: {
       type: Array,
@@ -24,48 +32,54 @@ export default {
     },
   },
 
-  filters: {
-    prettyDate: filters.prettyDate
-  },
-
-  components: {
-    ContentPanel, SetIcon, ColorIcon, RemoveDraft
-  }
-
 }
 
 </script>
 
 <template>
 
-  <ContentPanel caption="Recent Drafts" class="recent-drafts user-select-none">
-    <transition-group v-if="draft_history.length > 0" name="recent-draft-row">
-    <div v-for="draft in draft_history" :key="draft.id" class="row align-items-center"
-         @click="onDraftNavigate(draft)">
-      <div class="col-md-4">
-         <SetIcon :set_code="draft.set_code" />
-         <span class="set-name">{{ draft.set_name }}</span>
+  <ContentPanel 
+    caption="Recent Drafts" 
+    class="recent-drafts user-select-none">
+    <transition-group 
+      v-if="draft_history.length > 0" 
+      name="recent-draft-row">
+      <div 
+        v-for="draft in draft_history" 
+        :key="draft.id" 
+        class="row align-items-center"
+        @click="onDraftNavigate(draft)">
+        <div class="col-md-4">
+          <SetIcon :set_code="draft.set_code" />
+          <span class="set-name">{{ draft.set_name }}</span>
+        </div>
+        <div class="col-md-2">
+          <ColorIcon 
+            v-for="color in draft.card_colors" 
+            :key="color.name" 
+            :color="color" />
+        </div>
+        <div class="col-md-3 text-muted">
+          <span v-if="draft.picks_complete">
+            Deck: {{ draft.deck_total_cards }} / 40
+          </span>
+          <span v-else>
+            Pack {{ draft.current_pack }}, Pick {{ draft.current_pick }}
+          </span>
+        </div>
+        <div class="col-md-2 text-muted">
+          {{ new Date(draft.start_time).toLocaleDateString() }}
+        </div>
+        <div class="col-md-1 text-muted">
+          <RemoveDraft 
+            :draft_id="draft.id" 
+            remove_source="recent" />
+        </div>
       </div>
-      <div class="col-md-2">
-        <ColorIcon v-for="color in draft.card_colors" :key="color.name" :color="color" />
-      </div>
-      <div class="col-md-3 text-muted">
-        <span v-if="draft.picks_complete">
-              Deck: {{ draft.deck_total_cards }} / 40
-        </span>
-        <span v-else>
-          Pack {{ draft.current_pack }}, Pick {{ draft.current_pick }}
-        </span>
-      </div>
-      <div class="col-md-2 text-muted">
-        {{ new Date(draft.start_time).toLocaleDateString() }}
-      </div>
-      <div class="col-md-1 text-muted">
-        <RemoveDraft :draft_id="draft.id" remove_source="recent" />
-      </div>
-    </div>
     </transition-group>
-    <div v-else class="row no-drafts align-items-center">
+    <div 
+      v-else 
+      class="row no-drafts align-items-center">
       <div class="col-sm-12">
         <div class="text-center text-muted">No previous drafts</div>
       </div>

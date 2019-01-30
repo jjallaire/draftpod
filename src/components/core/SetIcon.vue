@@ -6,16 +6,16 @@ import { SimpleSVG } from 'vue-simple-svg'
 export default {
   name: 'SetIcon',
 
+  components: {
+    'simple-svg': SimpleSVG
+  },
+
   props: {
     set_code: {
       type: String,
-      required: false
+      required: true
     },
   },
-
-  components: {
-    'simple-svg': SimpleSVG
-  }
 }
 
 </script>

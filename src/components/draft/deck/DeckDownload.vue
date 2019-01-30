@@ -8,6 +8,10 @@ export default {
 
   name: 'DeckDownload',
 
+  components: {
+    DownloadIcon
+  },
+
   props: {
     set_name: {
       type: String,
@@ -17,10 +21,6 @@ export default {
       type: String,
       required: true
     }
-  },
-
-  components: {
-    DownloadIcon
   },
 
   methods: {
@@ -38,8 +38,9 @@ export default {
 
 <template>
 
-  <button class="btn btn-sm btn-secondary text-light deck-download"
-          @click="onDownloadDeck" >
+  <button 
+    class="btn btn-sm btn-secondary text-light deck-download"
+    @click="onDownloadDeck" >
     <DownloadIcon/> Download <span class="btn-extra-text">Decklist</span>
   </button>
 

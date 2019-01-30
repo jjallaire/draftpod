@@ -51,6 +51,12 @@ import firestore from '@/store/modules/draft/firestore'
 export default {
   name: 'DraftTable',
 
+  components: {
+    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
+    PlayersIcon, PlayersPopup, FullScreenIcon, FullScreenExitIcon, ExitToAppIcon,
+    FirebaseError
+  },
+
   props: {
     draft_id: {
       type: String,
@@ -74,29 +80,74 @@ export default {
     };
   },
 
-  components: {
-    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
-    PlayersIcon, PlayersPopup, FullScreenIcon, FullScreenExitIcon, ExitToAppIcon,
-    FirebaseError
+  computed: {
+    ...mapState({
+      draft: function(state) {
+        return state[NS_DRAFTS][this.draft_id];
+      },
+    }),
+    ...mapGetters([
+      'player'
+    ]),
+
+    set: function() {
+      return this.draft.set;
+    },
+    options: function() {
+      return this.draft.options;
+    },
+    table: function() {
+      return this.draft.table;
+    },
+
+    active_player: function() {
+      return selectors.activePlayer(this.player.id, this.table);
+    },
+
+    active_pack: function() {
+      return selectors.activePack(this.player.id, this.table);
+    },
+    
+    active_cards: function() {
+      return selectors.activeCards(this.player.id, this.table);
+    },
+
+    current_pack: function() {
+      return selectors.currentPack(this.player.id, this.set.code, this.table);
+    },
+
+    current_pick: function() {
+      return selectors.currentPick(this.player.id, this.set.code, this.table);
+    },
+
+    picks_complete: function() {
+      return selectors.picksComplete(this.player.id, this.set.code, this.table);
+    },
+
+    pick_ratings: function() {
+      if (this.options.pick_ratings) {
+        let pack = this.active_pack;
+        if (pack) {
+          let deck = _flatten(this.active_player.picks.piles);
+          return draftbot.cardRatings(this.active_player.bot, deck, pack, true);
+        } else {
+          return [];
+        }
+      } else {
+        return null;
+      }
+    },
+
+    namespace: function() {
+      return NS_DRAFTS + '/' + this.draft_id;
+    },
   },
 
-  provide: function() {
-    return {
-      pickTimerPick: this.pickTimerPick,
-      packToPick: this.packToPick,
-      pickToPile: this.pickToPile,
-      deckToSideboard: this.deckToSideboard,
-      deckToUnused: this.deckToUnused,
-      sideboardToDeck: this.sideboardToDeck,
-      sideboardToUnused: this.sideboardToUnused,
-      unusedToDeck: this.unusedToDeck,
-      unusedToSideboard: this.unusedToSideboard,
-      disableAutoLands: this.disableAutoLands,
-      setBasicLands: this.setBasicLands,
-      removePlayer: this.removePlayer,
-      setShowBotColors: this.setShowBotColors,
-      setCardPreview: this.setCardPreview,
-      touchDragManager: this.touchDragManager
+
+  watch: {
+    active_player: function (val) {
+      if (val === undefined)
+        this.$router.push({ path: "/draft/"});
     }
   },
 
@@ -193,75 +244,6 @@ export default {
       clearInterval(this.pick_timeout_timer);
   },
 
-  watch: {
-    active_player: function (val) {
-      if (val === undefined)
-        this.$router.push({ path: "/draft/"});
-    }
-  },
-
-  computed: {
-    ...mapState({
-      draft: function(state) {
-        return state[NS_DRAFTS][this.draft_id];
-      },
-    }),
-    ...mapGetters([
-      'player'
-    ]),
-
-    set: function() {
-      return this.draft.set;
-    },
-    options: function() {
-      return this.draft.options;
-    },
-    table: function() {
-      return this.draft.table;
-    },
-
-    active_player: function() {
-      return selectors.activePlayer(this.player.id, this.table);
-    },
-
-    active_pack: function() {
-      return selectors.activePack(this.player.id, this.table);
-    },
-    
-    active_cards: function() {
-      return selectors.activeCards(this.player.id, this.table);
-    },
-
-    current_pack: function() {
-      return selectors.currentPack(this.player.id, this.set.code, this.table);
-    },
-
-    current_pick: function() {
-      return selectors.currentPick(this.player.id, this.set.code, this.table);
-    },
-
-    picks_complete: function() {
-      return selectors.picksComplete(this.player.id, this.set.code, this.table);
-    },
-
-    pick_ratings: function() {
-      if (this.options.pick_ratings) {
-        let pack = this.active_pack;
-        if (pack) {
-          let deck = _flatten(this.active_player.picks.piles);
-          return draftbot.cardRatings(this.active_player.bot, deck, pack, true);
-        } else {
-          return [];
-        }
-      } else {
-        return null;
-      }
-    },
-
-    namespace: function() {
-      return NS_DRAFTS + '/' + this.draft_id;
-    },
-  },
 
   methods: {
     ...mapMutations({
@@ -368,14 +350,35 @@ export default {
 
     managePlayersPopupForiOS() {
       jquery(document).on("touchstart", function(event){
-      if (jquery(event.target).closest('.dropdown-menu').length === 0) {
-        jquery('.dropdown.show .dropdown-toggle').each(function() {
-          jquery(this).dropdown('toggle');
-        });
-      }
-    });
+        if (jquery(event.target).closest('.dropdown-menu').length === 0) {
+          jquery('.dropdown.show .dropdown-toggle').each(function() {
+            jquery(this).dropdown('toggle');
+          });
+        }
+      });
     }
-  }
+  },
+
+  provide: function() {
+      return {
+        pickTimerPick: this.pickTimerPick,
+        packToPick: this.packToPick,
+        pickToPile: this.pickToPile,
+        deckToSideboard: this.deckToSideboard,
+        deckToUnused: this.deckToUnused,
+        sideboardToDeck: this.sideboardToDeck,
+        sideboardToUnused: this.sideboardToUnused,
+        unusedToDeck: this.unusedToDeck,
+        unusedToSideboard: this.unusedToSideboard,
+        disableAutoLands: this.disableAutoLands,
+        setBasicLands: this.setBasicLands,
+        removePlayer: this.removePlayer,
+        setShowBotColors: this.setShowBotColors,
+        setCardPreview: this.setCardPreview,
+        touchDragManager: this.touchDragManager
+      }
+    },
+
 }
 </script>
 
@@ -384,11 +387,11 @@ export default {
   <div v-if="firebase_error">
     <NavBar />
     <div class="container">
-    <div class="row">
-    <div class="col-sm-10 offset-sm-1">
-    <FirebaseError :error="firebase_error" />
-    </div>
-    </div>
+      <div class="row">
+        <div class="col-sm-10 offset-sm-1">
+          <FirebaseError :error="firebase_error" />
+        </div>
+      </div>
     </div>
   </div>
 
@@ -396,25 +399,35 @@ export default {
 
     <NavBar> 
       <span class="navbar-text navbar-set-icon">
-         <SetIcon :set_code="set.code"/>   
+        <SetIcon :set_code="set.code"/>   
       </span>
       <span class="navbar-text">
         {{ set.name }} 
         <span v-if="!picks_complete">
           &mdash;
           Pack {{ current_pack }}, Pick {{ current_pick }}
-          <PickTimer v-if="options.pick_timer && active_pack" :pick_end_time="active_player.pick_end_time" />
+          <PickTimer 
+            v-if="options.pick_timer && active_pack" 
+            :pick_end_time="active_player.pick_end_time" />
         </span>
       </span> 
     
       <ul class="navbar-nav">
         <li class="nav-item">
           <div class="dropdown">
-            <a href="#" id="playersMenuLink" class="nav-link icon-link dropdown-toggle" title="Players" 
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a 
+              id="playersMenuLink" 
+              href="#" 
+              class="nav-link icon-link dropdown-toggle" 
+              title="Players" 
+              data-toggle="dropdown" 
+              aria-haspopup="true" 
+              aria-expanded="false">
               <PlayersIcon/> Players
             </a>
-            <div class="dropdown-menu players-menu" aria-labelledby="playersMenuLink">
+            <div 
+              class="dropdown-menu players-menu" 
+              aria-labelledby="playersMenuLink">
               <PlayersPopup :draft="draft"/>
             </div>
           </div>
@@ -422,13 +435,23 @@ export default {
 
         <li class="nav-item">
           <a class="nav-link icon-link">
-            <ExitToAppIcon title="Exit Draft" @click.native="onExitDraft"/>
+            <ExitToAppIcon 
+              title="Exit Draft" 
+              @click.native="onExitDraft"/>
           </a>
         </li>
-        <li v-if="fullscreenEnabled" class="nav-item">
+        <li 
+          v-if="fullscreenEnabled" 
+          class="nav-item">
           <a class="nav-link icon-link">
-            <FullScreenExitIcon  v-if="fullscreen" title="Exit fullscreen mode" @click.native="onFullscreenToggle"/>
-            <FullScreenIcon v-else title="Fullscreen mode" @click.native="onFullscreenToggle"/>
+            <FullScreenExitIcon 
+              v-if="fullscreen" 
+              title="Exit fullscreen mode" 
+              @click.native="onFullscreenToggle"/>
+            <FullScreenIcon 
+              v-else 
+              title="Fullscreen mode" 
+              @click.native="onFullscreenToggle"/>
           </a>
         </li>
       </ul> 
@@ -436,18 +459,27 @@ export default {
     </NavBar>
 
     <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
-        <div class="draft-cards user-select-none">
-          <transition name="pack-hide">
-            <PackPanel v-if="!picks_complete" :pack="active_pack"/>
-          </transition>
-          <PickPanel v-if="!picks_complete" 
-                     :picks="active_player.picks" 
-                     :pick_ratings="pick_ratings"/>
-          <DeckPanel v-else :set_name="set.name" :deck="active_player.deck"/>
-        </div>
+      <div class="draft-cards user-select-none">
+        <transition name="pack-hide">
+          <PackPanel 
+            v-if="!picks_complete" 
+            :pack="active_pack"/>
+        </transition>
+        <PickPanel 
+          v-if="!picks_complete" 
+          :picks="active_player.picks" 
+          :pick_ratings="pick_ratings"/>
+        <DeckPanel 
+          v-else 
+          :set_name="set.name" 
+          :deck="active_player.deck"/>
+      </div>
 
-        <InfoBar v-if="!isMobile" :card_preview="card_preview" :cards="active_cards" 
-                 class="user-select-none"/>
+      <InfoBar 
+        v-if="!isMobile" 
+        :card_preview="card_preview" 
+        :cards="active_cards" 
+        class="user-select-none"/>
     </div>
   
   </div>

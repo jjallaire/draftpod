@@ -8,15 +8,15 @@ export default {
 
   name: 'DeckView',
 
+  components: {
+    ViewIcon
+  },
+
   props: {
     deck_list: {
       type: String,
       required: true
     }
-  },
-
-  components: {
-    ViewIcon
   },
 
   methods: {
@@ -31,8 +31,9 @@ export default {
 
 <template>
 
-  <button class="btn btn-sm btn-secondary text-light deck-view"
-          @click="onViewDeck" >
+  <button 
+    class="btn btn-sm btn-secondary text-light deck-view"
+    @click="onViewDeck" >
     <ViewIcon/> View <span class="btn-extra-text">Decklist</span>
   </button>
 

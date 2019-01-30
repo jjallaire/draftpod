@@ -7,16 +7,16 @@ import PersonIcon from 'vue-material-design-icons/Account.vue'
 export default {
   name: 'MultiplayerPlayers',
 
+  components: { 
+    PersonIcon
+  },
+
   props: {
     players: {
       type: Array,
       required: true
     },
   },
-
-  components: { 
-    PersonIcon
-  }
 
 }
 
@@ -25,14 +25,18 @@ export default {
 
 <template>
   
-<div class="multiplayer-players form-group">
-  <label for="multiplayer-draft-players">Players:</label>
-  <div id="multiplayer-draft-players" class="card-body bg-light">
-    <div v-for="(player, index) in players" :key="index">
-      <PersonIcon /> <span>{{  player }}</span>
+  <div class="multiplayer-players form-group">
+    <label for="multiplayer-draft-players">Players:</label>
+    <div 
+      id="multiplayer-draft-players" 
+      class="card-body bg-light">
+      <div 
+        v-for="(player, index) in players" 
+        :key="index">
+        <PersonIcon /> <span>{{ player }}</span>
+      </div>
     </div>
-  </div>
-</div> 
+  </div> 
 
 </template>
 

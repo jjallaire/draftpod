@@ -33,18 +33,24 @@ export default {
 
 <template>
 
-<div class="form-group row">
-  <label for="draft-set" class="col-sm-3 col-form-label">Set:</label>
-  <div class="col-sm-8">
-    <select :disabled="disabled" id="draft-set" class="form-control" v-model="inputVal">
-      <option value="rna">Ravnica Allegiance</option>
-      <option value="grn">Guilds of Ravnica</option>
-      <option value="m19">Core Set 2019</option>
-      <option value="dom">Dominaria</option>
-      <option value="ust">Unstable</option>
-    </select>
+  <div class="form-group row">
+    <label 
+      for="draft-set" 
+      class="col-sm-3 col-form-label">Set:</label>
+    <div class="col-sm-8">
+      <select 
+        id="draft-set" 
+        :disabled="disabled" 
+        v-model="inputVal" 
+        class="form-control">
+        <option value="rna">Ravnica Allegiance</option>
+        <option value="grn">Guilds of Ravnica</option>
+        <option value="m19">Core Set 2019</option>
+        <option value="dom">Dominaria</option>
+        <option value="ust">Unstable</option>
+      </select>
+    </div>
   </div>
-</div>
 
 </template>
 

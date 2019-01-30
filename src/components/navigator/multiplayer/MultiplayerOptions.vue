@@ -11,6 +11,10 @@ import * as log from '@/core/log'
 export default {
   name: 'MultiplayerOptions',
 
+  components: {
+    ClipboardIcon, MultiplayerPlayers
+  },
+
   props: {
     value: {
       type: Object,
@@ -122,10 +126,6 @@ export default {
       setTimeout(() => copy_url.tooltip('hide'), 1500);
     },
   },
-
-  components: {
-    ClipboardIcon, MultiplayerPlayers
-  }
   
 }
 
@@ -134,33 +134,48 @@ export default {
 
 <template>
 
-<div>
+  <div>
 
-  <div class="form-group">
-    <label for="multiplayer-draft-name">Host player:</label>
-    <input class="form-control" id="multiplayer-draft-name" placeholder="Enter your name" 
-          :value="inputVal.player_name" @input="onNameChanged" v-on:keyup.enter.prevent="onNameChanged" ref="name"/>
-  </div>
+    <div class="form-group">
+      <label for="multiplayer-draft-name">Host player:</label>
+      <input 
+        id="multiplayer-draft-name" 
+        ref="name" 
+        :value="inputVal.player_name" 
+        class="form-control" 
+        placeholder="Enter your name" 
+        @input="onNameChanged" 
+        @keyup.enter.prevent="onNameChanged">
+    </div>
 
-  <MultiplayerPlayers :players="players" />
+    <MultiplayerPlayers :players="players" />
 
-  <div class="form-group">
-    <label for="multiplayer-join-url">
-      Other players can join using this URL: 
-      <a @click="onCopyJoinUrl" href="" id="copy-join-url-to-clipboard"
-         data-toggle="tooltip" data-placement="top">
-         <ClipboardIcon title="Copy URL to clipboard"/> Copy
-      </a>
-    </label>
-    <textarea id="multiplayer-join-url" readonly ref="joinUrl" :value="join_url" class="join-url" />
-  </div>
+    <div class="form-group">
+      <label for="multiplayer-join-url">
+        Other players can join using this URL: 
+        <a 
+          id="copy-join-url-to-clipboard" 
+          href="" 
+          data-toggle="tooltip"
+          data-placement="top" 
+          @click="onCopyJoinUrl">
+          <ClipboardIcon title="Copy URL to clipboard"/> Copy
+        </a>
+      </label>
+      <textarea 
+        id="multiplayer-join-url" 
+        ref="joinUrl" 
+        :value="join_url" 
+        readonly 
+        class="join-url" />
+    </div>
 
-  <p>
-    Click <strong>Start Draft</strong> once the other players have all joined and you are ready to begin the draft.
-  </p>
+    <p>
+      Click <strong>Start Draft</strong> once the other players have all joined and you are ready to begin the draft.
+    </p>
 
   
-</div>
+  </div>
 
 </template>
 

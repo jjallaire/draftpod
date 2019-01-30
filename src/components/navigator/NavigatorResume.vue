@@ -13,6 +13,10 @@ import * as selectors from '@/store/modules/draft/selectors'
 export default {
   name: 'NavigatorResume',
 
+  components: {
+    ContentPanel, ManaLegend, ManaCurve, ManaColors, RemoveDraft
+  },
+
   props: {
     draft_id: {
       type: String,
@@ -58,17 +62,15 @@ export default {
     }
   },
 
-  components: {
-    ContentPanel, ManaLegend, ManaCurve, ManaColors, RemoveDraft
-  }
-
 }
 
 </script>
 
 <template>
 
-  <ContentPanel caption="Draft in Progress" class="resume-draft user-select-none">
+  <ContentPanel 
+    caption="Draft in Progress" 
+    class="resume-draft user-select-none">
     <div class="row">
       <div class="col-sm-4 col-lg-3">
         <h4>{{ draft.set.name }}</h4>
@@ -79,22 +81,31 @@ export default {
           <span v-else>
             Pack {{ current_pack }}, Pick {{ current_pick }}
           </span>
-          <RemoveDraft :draft_id="draft_id"  remove_source="resume"/>
+          <RemoveDraft 
+            :draft_id="draft_id" 
+            remove_source="resume"/>
         </p>
-        <button type="button" class="btn btn-warning resume-button" 
-                @click="onResumeDraft">
-            Resume Draft
+        <button 
+          type="button" 
+          class="btn btn-warning resume-button" 
+          @click="onResumeDraft">
+          Resume Draft
         </button>
       </div>
       <div class="col-sm-4 col-lg-3">
         <ManaLegend :cards="active_cards" />
-        <ManaCurve :cards="active_cards" :height="150" />
+        <ManaCurve 
+          :cards="active_cards" 
+          :height="150" />
       </div>
       <div class="col-sm-4 col-lg-3">
         <ManaColors :cards="active_cards" />
       </div>
       <div class="col-lg-3 d-none d-lg-block">
-        <img class="card-preview" :src="card_preview_image" height="150"/>
+        <img 
+          :src="card_preview_image" 
+          class="card-preview" 
+          height="150">
       </div>
     </div>
   </ContentPanel>

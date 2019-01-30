@@ -130,16 +130,24 @@ export default {
 <template>
 
   <div class="deck-lands">
-  <table class="table table-sm deck-colors">
-    <tbody>
-    <tr v-for="color in colors" :key="color.img">
-      <td align="center"><img :src="color.img" :title="color.name" width=18></td>
-      <td align="center"><input type="number" min="0" :value="color.count" 
-          @input="handleLandInput(color.color, $event)" 
-          @blur="handleLandBlur(color.color, $event)"></td>
-    </tr>
-    </tbody>
-  </table>
+    <table class="table table-sm deck-colors">
+      <tbody>
+        <tr 
+          v-for="color in colors" 
+          :key="color.img">
+          <td align="center"><img 
+            :src="color.img" 
+            :title="color.name" 
+            width="18"></td>
+          <td align="center"><input 
+            :value="color.count" 
+            type="number" 
+            min="0" 
+            @input="handleLandInput(color.color, $event)" 
+            @blur="handleLandBlur(color.color, $event)"></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
 </template>

@@ -7,8 +7,14 @@ import * as selectors from '@/store/modules/draft/selectors'
 
 export default {
   name: 'MtgCard',
+  components: {
+    Drag
+  },
   props: {
-    card: Object,
+    card: {
+      type: Object,
+      required: true
+    },
     drag_source: {
       type: String,
       default: null
@@ -24,9 +30,6 @@ export default {
     'setCardPreview',
     'touchDragManager'
   ],
-  components: {
-    Drag
-  },
   computed: {
     cardImageUris() {
       return selectors.cardImageUris(this.card);
@@ -68,19 +71,26 @@ export default {
 </script>
 
 <template>
-  <Drag v-if="drag_source" tag="span" class="mtgcard mtgcard-draggable" 
-        @dragstart="onDragStart"
-        :transfer-data="{drag_source, card}"
-        >
-     <img :src="cardImageUris[0]" 
-          @mouseover="onMouseOver" 
-          @touchstart="onTouchStart" 
-          @touchmove="onTouchMove"
-          @touchend="onTouchEnd" 
-          @contextmenu="onContextMenu"/>
+  <Drag 
+    v-if="drag_source" 
+    :transfer-data="{drag_source, card}" 
+    tag="span" 
+    class="mtgcard mtgcard-draggable"
+    @dragstart="onDragStart"
+  >
+    <img 
+      :src="cardImageUris[0]" 
+      @mouseover="onMouseOver" 
+      @touchstart="onTouchStart" 
+      @touchmove="onTouchMove"
+      @touchend="onTouchEnd" 
+      @contextmenu="onContextMenu">
   </Drag>
-  <span v-else class="mtgcard" draggable="false">
-    <img :src="cardImageUris[0]" />
+  <span 
+    v-else 
+    class="mtgcard" 
+    draggable="false">
+    <img :src="cardImageUris[0]" >
   </span>
 </template>
 

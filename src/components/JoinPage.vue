@@ -25,6 +25,10 @@ const NS_DRAFTS = "drafts";
 export default {
   name: 'JoinPage',
 
+  components: {
+    NavBar, SiteFooter, FirebaseError, MultiplayerPlayers, CirclesToRhombusesSpinner
+  },
+
   props: {
     draft_id: {
       type: String,
@@ -38,37 +42,6 @@ export default {
       firestoreUnsubscribe: null,
       firebase_error: null
     }
-  },
-
-  created() {
-    
-    // cache player name
-    this.player_name = this.player.name;
-
-    // collect firebase if there is one
-    if (this.$store.getters.firebase_error) {
-      this.firebase_error = this.$store.getters.firebase_error;
-      this.$store.commit(SET_FIREBASE_ERROR, null);
-    }
-
-    if (this.is_available) {
-      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
-        if (selectors.isStarted(table))
-          this.$router.push({ path: "/draft/" +  this.draft_id });
-        else
-          this.writeTable({ table });
-      });
-    }
-  },
-
-  mounted() {
-    if (!this.is_joined && this.$refs.playerName)
-      utils.focus(this.$refs.playerName);
-  },
-
-  beforeDestroy() {
-    if (this.firestoreUnsubscribe)
-      this.firestoreUnsubscribe();
   },
 
   computed: {
@@ -117,6 +90,38 @@ export default {
     }
   },
 
+  created() {
+    
+    // cache player name
+    this.player_name = this.player.name;
+
+    // collect firebase if there is one
+    if (this.$store.getters.firebase_error) {
+      this.firebase_error = this.$store.getters.firebase_error;
+      this.$store.commit(SET_FIREBASE_ERROR, null);
+    }
+
+    if (this.is_available) {
+      this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
+        if (selectors.isStarted(table))
+          this.$router.push({ path: "/draft/" +  this.draft_id });
+        else
+          this.writeTable({ table });
+      });
+    }
+  },
+
+  mounted() {
+    if (!this.is_joined && this.$refs.playerName)
+      utils.focus(this.$refs.playerName);
+  },
+
+  beforeDestroy() {
+    if (this.firestoreUnsubscribe)
+      this.firestoreUnsubscribe();
+  },
+  
+
   methods: {
     ...mapMutations({
       writeTable(dispatch, payload) {
@@ -161,9 +166,6 @@ export default {
     
   },
 
-  components: {
-    NavBar, SiteFooter, FirebaseError, MultiplayerPlayers, CirclesToRhombusesSpinner
-  }
 }
 
 
@@ -173,79 +175,92 @@ export default {
  
   <div>
     
-  <NavBar />
+    <NavBar />
 
-  <div class="container">
+    <div class="container">
 
-  <div class="join-content">
+      <div class="join-content">
 
-  <div class="row">
+        <div class="row">
 
-  <div class="col-sm-8 offset-sm-2">
+          <div class="col-sm-8 offset-sm-2">
 
-  <div v-if="firebase_error">
-    <FirebaseError :error="firebase_error" />
-  </div>
+            <div v-if="firebase_error">
+              <FirebaseError :error="firebase_error" />
+            </div>
 
-  <div v-else-if="draft_exists">  
+            <div v-else-if="draft_exists">  
 
-  <h3>{{ set_name }} Draft</h3>
+              <h3>{{ set_name }} Draft</h3>
   
-  <p>
-    <span v-if="host_player">{{ host_player }} has invited you </span> 
-    <span v-else>You have been invited </span>
-    to join a {{ set_name }} draft.
-  </p>
+              <p>
+                <span v-if="host_player">{{ host_player }} has invited you </span> 
+                <span v-else>You have been invited </span>
+                to join a {{ set_name }} draft.
+              </p>
 
-  <div v-if="is_started">
-    <div class="alert alert-warning">
-        This draft has already started, so it's no longer possible for you to 
-        join. If you want to join, ask the host to create a new
-        draft and re-invite all of the players.
-    </div>
-  </div>
-  <div v-else-if="is_full">
-    <div class="alert alert-warning">
-        This draft already has 8 players so cannot be joined.
-    </div>
-  </div>
-  <div v-else-if="!is_joined" class="row join-input">
-    <label class="sr-only" for="join-draft-name">Name</label>
-    <input v-model="player_name" ref="playerName" 
-           v-on:keyup.enter="onJoinDraft"
-           id="join-draft-name" class="form-control col-sm-8"  
-           placeholder="Enter your name" />
-    <button class="btn btn-success col-sm-3" @click="onJoinDraft">Join Draft</button>
-  </div>
+              <div v-if="is_started">
+                <div class="alert alert-warning">
+                  This draft has already started, so it's no longer possible for you to 
+                  join. If you want to join, ask the host to create a new
+                  draft and re-invite all of the players.
+                </div>
+              </div>
+              <div v-else-if="is_full">
+                <div class="alert alert-warning">
+                  This draft already has 8 players so cannot be joined.
+                </div>
+              </div>
+              <div 
+                v-else-if="!is_joined" 
+                class="row join-input">
+                <label 
+                  class="sr-only" 
+                  for="join-draft-name">Name</label>
+                <input 
+                  id="join-draft-name" 
+                  ref="playerName" 
+                  v-model="player_name"
+                  class="form-control col-sm-8" 
+                  placeholder="Enter your name"  
+                  @keyup.enter="onJoinDraft" >
+                <button 
+                  class="btn btn-success col-sm-3" 
+                  @click="onJoinDraft">Join Draft</button>
+              </div>
 
-  <div v-else class="waiting-for-draft" >
-   <CirclesToRhombusesSpinner 
-      :circles-num="3"
-      :circle-size="12"
-      color="#aaa"
-    /> 
-    <div>Waiting for draft to start...</div> 
-  </div>
+              <div 
+                v-else 
+                class="waiting-for-draft" >
+                <CirclesToRhombusesSpinner 
+                  :circles-num="3"
+                  :circle-size="12"
+                  color="#aaa"
+                /> 
+                <div>Waiting for draft to start...</div> 
+              </div>
   
-  <MultiplayerPlayers :players="multi_players" />
+              <MultiplayerPlayers :players="multi_players" />
 
-  </div>
+            </div>
 
-  <div v-else class="no-draft-found">
-    <div class="alert alert-warning">
-        The draft you were invited to could not be found.
-    </div>
-  </div>
+            <div 
+              v-else 
+              class="no-draft-found">
+              <div class="alert alert-warning">
+                The draft you were invited to could not be found.
+              </div>
+            </div>
   
-  </div>
+          </div>
     
-  </div>
+        </div>
 
-  </div>
+      </div>
 
-  <SiteFooter />
+      <SiteFooter />
 
-  </div>
+    </div>
     
   </div>
 

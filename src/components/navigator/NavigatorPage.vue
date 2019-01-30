@@ -15,6 +15,10 @@ import * as messagebox from '@/components/core/messagebox.js'
 export default {
   name: 'DraftNavigator',
 
+  components: {
+    NavBar, NavigatorResume, NavigatorStart, NavigatorRecent, SiteFooter
+  },
+
   data: function() {
     return {
       show_resume: true
@@ -65,10 +69,6 @@ export default {
         });
     }
   },
-
-  components: {
-    NavBar, NavigatorResume, NavigatorStart, NavigatorRecent, SiteFooter
-  },
 }
 
 </script>
@@ -77,22 +77,23 @@ export default {
 
   <div>
 
-  <NavBar /> 
+    <NavBar /> 
 
-  <div class="container">
+    <div class="container">
     
-    <transition name="resume-slide-out">
-      <NavigatorResume v-if="draft_in_progress && show_resume" 
-        :draft_id="draft_in_progress.id"
+      <transition name="resume-slide-out">
+        <NavigatorResume 
+          v-if="draft_in_progress && show_resume" 
+          :draft_id="draft_in_progress.id"
+        />
+      </transition>
+      <NavigatorStart />
+      <NavigatorRecent 
+        :draft_history="draft_history"
       />
-    </transition>
-    <NavigatorStart />
-    <NavigatorRecent 
-      :draft_history="draft_history"
-    />
 
-    <SiteFooter />   
-  </div>
+      <SiteFooter />   
+    </div>
 
   </div>
 

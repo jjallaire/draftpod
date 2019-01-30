@@ -6,6 +6,16 @@ import * as selectors from '@/store/modules/draft/selectors'
 export default {
   name: 'PickRatings',
 
+  filters: {
+    rating: function(value) {
+      return (Math.round( value * 10 ) / 10).toFixed(1);
+    }
+  },
+
+  components: {
+    Drop
+  },
+
   props: {
     pick_ratings: {
       type: Array,
@@ -30,12 +40,6 @@ export default {
     this.touchDragManager.unregisterDropTarget(this.$el);
   },
 
-  filters: {
-    rating: function(value) {
-      return (Math.round( value * 10 ) / 10).toFixed(1);
-    }
-  },
-
   methods: {
     handleDragover(data) {
       this.$emit('pick-dragged', data);
@@ -46,53 +50,63 @@ export default {
       return selectors.cardColors([card], true).filter((color) => color.count > 0);
     }
   },
-
-  components: {
-    Drop
-  }
 }
 
 </script>
 
 
 <template>
-<Drop v-if="pick_ratings.length > 0" @dragover="handleDragover(...arguments)">
-<table class="ratings-table table table-sm">
-<thead class="">
-<th>Card</th>
-<th>Colors</th>
-<th>Rating</th>
-<th>Color Bonus</th>
-<th>Pick Rating</th>
-</thead>
-<tbody>
-<tr v-for="pick_rating in pick_ratings" :key="pick_rating.card.id">
-  <td width="15%">{{ pick_rating.card.name }}</td>
-  <td width="20%">
-      <img v-for="color in card_colors(pick_rating.card)" :key="color.name"
-           :src="color.img" class="mana-color"/>
-  </td>
-  <td width="15%">{{ pick_rating.base_rating | rating }}</td>
-  <td width="15%" v-if="pick_rating.color_bonus > 0">+{{ pick_rating.color_bonus | rating }}</td>
-  <td width="15%" class="no-color-bonus" v-else>&mdash;</td>
-  <td width="15%">{{ pick_rating.rating | rating }}</td>
-</tr>
-</tbody>
-</table>
+  <Drop 
+    v-if="pick_ratings.length > 0" 
+    @dragover="handleDragover(...arguments)">
+    <table class="ratings-table table table-sm">
+      <thead class="">
+        <th>Card</th>
+        <th>Colors</th>
+        <th>Rating</th>
+        <th>Color Bonus</th>
+        <th>Pick Rating</th>
+      </thead>
+      <tbody>
+        <tr 
+          v-for="pick_rating in pick_ratings" 
+          :key="pick_rating.card.id">
+          <td width="15%">{{ pick_rating.card.name }}</td>
+          <td width="20%">
+            <img 
+              v-for="color in card_colors(pick_rating.card)" 
+              :key="color.name"
+              :src="color.img" 
+              class="mana-color">
+          </td>
+          <td width="15%">{{ pick_rating.base_rating | rating }}</td>
+          <td 
+            v-if="pick_rating.color_bonus > 0" 
+            width="15%">+{{ pick_rating.color_bonus | rating }}</td>
+          <td 
+            v-else 
+            width="15%" 
+            class="no-color-bonus">&mdash;</td>
+          <td width="15%">{{ pick_rating.rating | rating }}</td>
+        </tr>
+      </tbody>
+    </table>
 
 
 
-<p class="ratings-note">
-Card ratings provide a rough idea of the relative power level between cards, 
-but don't necessarily reflect optimal draft selections. The pick rating displayed reflects a baseline
-card rating plus a bonus for matching the color of the deck (the bonuses are lower in pack 1). Ratings don't reflect
-draft signals, deck synergies, mana curve, and creatue/spell ratio&mdash;these considerations will often result in a
-pick different than the highest rated card. Ratings are based on the community P1P1 evaluations provided at 
-<a target="_blank" href="https://draftaholicsanonymous.com/">https://draftaholicsanonymous.com</a>.
-</p>
+    <p class="ratings-note">
+      Card ratings provide a rough idea of the relative power level between cards, 
+      but don't necessarily reflect optimal draft selections. The pick rating displayed reflects a baseline
+      card rating plus a bonus for matching the color of the deck (the bonuses are lower in pack 1). Ratings don't reflect
+      draft signals, deck synergies, mana curve, and creatue/spell ratio&mdash;these considerations will often result in a
+      pick different than the highest rated card. Ratings are based on the community P1P1 evaluations provided at 
+      <a 
+        target="_blank" 
+        href="https://draftaholicsanonymous.com/">https://draftaholicsanonymous.com</a>.
+    </p>
 
 
-</Drop>
+  </Drop>
 
 </template>
 

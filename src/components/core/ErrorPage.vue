@@ -6,16 +6,16 @@ import SiteFooter from './SiteFooter.vue'
 export default {
   name: 'ErrorPage',
 
+  components: {
+    NavBar, SiteFooter
+  },
+
   props: {
     title: {
       type: String,
       required: true
     }
   },
-
-  components: {
-    NavBar, SiteFooter
-  }
 }
 
 </script>
@@ -24,23 +24,23 @@ export default {
  
   <div class="error-page">
     
-  <NavBar />
+    <NavBar />
 
-  <div class="container">
-  <div class="row">
-  <div class="col-sm-10">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10">
 
-  <h2>{{ title }}</h2>
+          <h2>{{ title }}</h2>
   
-  <div class="error-content">
-  <slot></slot>
-  </div>
+          <div class="error-content">
+            <slot/>
+          </div>
 
-  <SiteFooter />
+          <SiteFooter />
 
-  </div>
-  </div>
-  </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </template>

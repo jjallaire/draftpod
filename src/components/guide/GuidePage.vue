@@ -15,6 +15,11 @@ import jquery from 'jquery'
 export default {
   name: 'GuidePage',
 
+  components: {
+    NavBar, SiteFooter, 
+    WelcomeMd, SinglePlayerMd, MultiPlayerMd, CardpoolsMd, FAQMd, Feedback
+  },
+
   mounted() {
     this.manageTabHistory();
     this.manageExternalLinks();
@@ -66,11 +71,6 @@ export default {
       jquery(".guide-page a[href^='http']").attr("target","_blank");
     }
   },
-
-  components: {
-    NavBar, SiteFooter, 
-    WelcomeMd, SinglePlayerMd, MultiPlayerMd, CardpoolsMd, FAQMd, Feedback
-  }
 }
 
 
@@ -80,58 +80,130 @@ export default {
  
   <div class="guide-page">
     
-  <NavBar />
+    <NavBar />
 
-  <div class="container">
+    <div class="container">
 
-  <div class="row">
-    <div class="col-md-3">
-      <div class="nav flex-column nav-pills sticky-top" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <a class="nav-link active" id="welcome-tab" data-toggle="pill" href="#welcome" role="tab" aria-controls="welcome" aria-selected="true">Welcome</a>
-        <a class="nav-link" id="single-player-tab" data-toggle="pill" href="#single-player" role="tab" aria-controls="single-player" aria-selected="false">Single-Player Drafts</a>
-        <a class="nav-link" id="multi-player-tab" data-toggle="pill" href="#multi-player" role="tab" aria-controls="multi-player" aria-selected="false">Multi-Player Drafts</a>
-        <a class="nav-link" id="cardpools-tab" data-toggle="pill" href="#cardpools" role="tab" aria-controls="multi-player" aria-selected="false">Draft Cardpools</a>
-        <a class="nav-link" id="faq-tab" data-toggle="pill" href="#faq" role="tab" aria-controls="faq" aria-selected="false">Frequently Asked Questions</a>
-        <a class="nav-link" id="feedback-tab" data-toggle="pill" href="#feedback" role="tab" aria-controls="feedback" aria-selected="false">Feedback &amp; Support</a>
-      </div>
-    </div>
-
-    <div class="col-md-8">
-      <div class="tab-content" id="v-pills-tabContent">
-        <div class="tab-pane fade show active" id="welcome" role="tabpanel" aria-labelledby="welcome-tab">
-          <WelcomeMd/>
+      <div class="row">
+        <div class="col-md-3">
+          <div 
+            id="v-pills-tab" 
+            class="nav flex-column nav-pills sticky-top" 
+            role="tablist" 
+            aria-orientation="vertical">
+            <a 
+              id="welcome-tab" 
+              class="nav-link active" 
+              data-toggle="pill" 
+              href="#welcome" 
+              role="tab" 
+              aria-controls="welcome" 
+              aria-selected="true">Welcome</a>
+            <a 
+              id="single-player-tab" 
+              class="nav-link" 
+              data-toggle="pill" 
+              href="#single-player" 
+              role="tab" 
+              aria-controls="single-player" 
+              aria-selected="false">Single-Player Drafts</a>
+            <a 
+              id="multi-player-tab" 
+              class="nav-link" 
+              data-toggle="pill" 
+              href="#multi-player" 
+              role="tab" 
+              aria-controls="multi-player" 
+              aria-selected="false">Multi-Player Drafts</a>
+            <a 
+              id="cardpools-tab" 
+              class="nav-link" 
+              data-toggle="pill" 
+              href="#cardpools" 
+              role="tab" 
+              aria-controls="multi-player" 
+              aria-selected="false">Draft Cardpools</a>
+            <a 
+              id="faq-tab" 
+              class="nav-link" 
+              data-toggle="pill" 
+              href="#faq" 
+              role="tab" 
+              aria-controls="faq" 
+              aria-selected="false">Frequently Asked Questions</a>
+            <a 
+              id="feedback-tab" 
+              class="nav-link" 
+              data-toggle="pill" 
+              href="#feedback" 
+              role="tab" 
+              aria-controls="feedback" 
+              aria-selected="false">Feedback &amp; Support</a>
+          </div>
         </div>
+
+        <div class="col-md-8">
+          <div 
+            id="v-pills-tabContent" 
+            class="tab-content">
+            <div 
+              id="welcome" 
+              class="tab-pane fade show active" 
+              role="tabpanel" 
+              aria-labelledby="welcome-tab">
+              <WelcomeMd/>
+            </div>
         
-        <div class="tab-pane fade" id="single-player" role="tabpanel" aria-labelledby="single-player-tab">
-          <SinglePlayerMd/>
-        </div>
+            <div 
+              id="single-player" 
+              class="tab-pane fade" 
+              role="tabpanel" 
+              aria-labelledby="single-player-tab">
+              <SinglePlayerMd/>
+            </div>
         
-        <div class="tab-pane fade" id="multi-player" role="tabpanel" aria-labelledby="multi-player-tab">
-          <MultiPlayerMd/>
-        </div>
+            <div 
+              id="multi-player" 
+              class="tab-pane fade" 
+              role="tabpanel" 
+              aria-labelledby="multi-player-tab">
+              <MultiPlayerMd/>
+            </div>
 
           
-        <div class="tab-pane fade" id="cardpools" role="tabpanel" aria-labelledby="cardpools-tab">
-          <CardpoolsMd/>
-        </div>
+            <div 
+              id="cardpools" 
+              class="tab-pane fade" 
+              role="tabpanel" 
+              aria-labelledby="cardpools-tab">
+              <CardpoolsMd/>
+            </div>
 
 
-        <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
-          <FAQMd/>
-        </div>
+            <div 
+              id="faq" 
+              class="tab-pane fade" 
+              role="tabpanel" 
+              aria-labelledby="faq-tab">
+              <FAQMd/>
+            </div>
         
 
 
-        <div class="tab-pane fade" id="feedback" role="tabpanel" aria-labelledby="feedback-tab">
-          <Feedback/> 
+            <div 
+              id="feedback" 
+              class="tab-pane fade" 
+              role="tabpanel" 
+              aria-labelledby="feedback-tab">
+              <Feedback/> 
+            </div>
+          </div>
         </div>
       </div>
+
+      <SiteFooter />
+
     </div>
-  </div>
-
-  <SiteFooter />
-
-  </div>
 
   </div>
   

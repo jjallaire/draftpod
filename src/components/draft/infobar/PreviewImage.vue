@@ -20,7 +20,7 @@ export default {
 <template>
 
   <div :class="{ 'card-viewer': true, 'layout-split': card_layout === 'split'}">
-    <img :src="card_preview" />
+    <img :src="card_preview" >
   </div>
 
 </template>

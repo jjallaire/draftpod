@@ -5,15 +5,15 @@ import ErrorPage from './core/ErrorPage.vue'
 export default {
   name: 'NotFoundPage',
 
+  components: {
+    ErrorPage
+  },
+
   computed: {
     page_url: function() {
       return window.location.href;
     }
   },
-
-  components: {
-    ErrorPage
-  }
 }
 
 </script>

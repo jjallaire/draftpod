@@ -6,6 +6,10 @@ import PlayersArrow from './PlayersArrow.vue'
 export default {
   name: 'PlayersPopup',
 
+  components: {
+    PlayersPlayer, PlayersArrow
+  },
+
   props: {
     draft: {
       type: Object,
@@ -43,46 +47,70 @@ export default {
   inject: [
     'setShowBotColors'
   ],
-
-  components: {
-    PlayersPlayer, PlayersArrow
-  }
 }
 
 </script>
 
 <template>
 
-<div class="players">
-  <div class="players-column players-column-left">
-    <PlayersPlayer :player="players[0]" :draft="draft"/>
-    <PlayersPlayer :player="players[1]" :draft="draft"/>
-    <PlayersPlayer :player="players[2]" :draft="draft"/>
-    <PlayersPlayer :player="players[3]" :draft="draft"/>
-  </div>
-
-  <div class="players-table">
-    <div v-if="!picks_complete" class="pack-number">
-      <PlayersArrow v-if="current_pack !== 2" corner="top-right" />
-      <PlayersArrow v-if="current_pack !== 2" corner="bottom-left" />
-      <PlayersArrow v-if="current_pack === 2" corner="top-left" />
-      <PlayersArrow v-if="current_pack === 2" corner="bottom-right" />
-      Pack {{ current_pack }}
+  <div class="players">
+    <div class="players-column players-column-left">
+      <PlayersPlayer 
+        :player="players[0]" 
+        :draft="draft"/>
+      <PlayersPlayer 
+        :player="players[1]" 
+        :draft="draft"/>
+      <PlayersPlayer 
+        :player="players[2]" 
+        :draft="draft"/>
+      <PlayersPlayer 
+        :player="players[3]" 
+        :draft="draft"/>
     </div>
-    <a v-if="!picks_complete && !show_bot_colors && !multi_player" class="show-bot-colors"
-       @click="onShowBotColors">
-      Show bot colors
-    </a>
-  </div>
 
-  <div class="players-column players-column-right">
-    <PlayersPlayer :player="players[7]" :draft="draft"/>
-    <PlayersPlayer :player="players[6]" :draft="draft"/>
-    <PlayersPlayer :player="players[5]" :draft="draft"/>
-    <PlayersPlayer :player="players[4]" :draft="draft"/>
-  </div>
+    <div class="players-table">
+      <div 
+        v-if="!picks_complete" 
+        class="pack-number">
+        <PlayersArrow 
+          v-if="current_pack !== 2" 
+          corner="top-right" />
+        <PlayersArrow 
+          v-if="current_pack !== 2" 
+          corner="bottom-left" />
+        <PlayersArrow 
+          v-if="current_pack === 2" 
+          corner="top-left" />
+        <PlayersArrow 
+          v-if="current_pack === 2" 
+          corner="bottom-right" />
+        Pack {{ current_pack }}
+      </div>
+      <a 
+        v-if="!picks_complete && !show_bot_colors && !multi_player" 
+        class="show-bot-colors"
+        @click="onShowBotColors">
+        Show bot colors
+      </a>
+    </div>
+
+    <div class="players-column players-column-right">
+      <PlayersPlayer 
+        :player="players[7]" 
+        :draft="draft"/>
+      <PlayersPlayer 
+        :player="players[6]" 
+        :draft="draft"/>
+      <PlayersPlayer 
+        :player="players[5]" 
+        :draft="draft"/>
+      <PlayersPlayer 
+        :player="players[4]" 
+        :draft="draft"/>
+    </div>
   
-</div>
+  </div>
 
 </template>
 

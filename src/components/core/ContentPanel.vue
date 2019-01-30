@@ -6,24 +6,26 @@ import UiPanel from '@/components/core/UiPanel.vue'
 
 export default {
   name: 'ContentPanel',
+
+  components: {
+    UiPanel
+  },
   props: {
     caption: {
       type: String,
       required: true
     },
   },
-
-  components: {
-    UiPanel
-  }
 }
 
 </script>
 
 <template>
 
-  <UiPanel class="content-panel" :caption="caption" >
-    <slot></slot>
+  <UiPanel 
+    :caption="caption" 
+    class="content-panel" >
+    <slot/>
   </UiPanel>
 
 </template>

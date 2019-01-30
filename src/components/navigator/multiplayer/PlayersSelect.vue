@@ -43,19 +43,27 @@ export default {
 
 <template>
 
-<div class="form-group row">
-  <label for="draft-players" class="col-sm-3 col-form-label">Players:</label>
-  <div class="col-sm-8">
-    <select :disabled="disabled" id="draft-players" class="form-control" :value="inputVal"
-            @change="onChangePlayers">
-      <option value="single">Single Player</option>
-      <option value="multiple">Multiple Players</option>
-    </select>
-    <div v-if="is_multi_player" class="players-multiple navigator-inline-panel card-body bg-primary">
-      <slot></slot>
+  <div class="form-group row">
+    <label 
+      for="draft-players" 
+      class="col-sm-3 col-form-label">Players:</label>
+    <div class="col-sm-8">
+      <select 
+        id="draft-players" 
+        :disabled="disabled" 
+        :value="inputVal" 
+        class="form-control"
+        @change="onChangePlayers">
+        <option value="single">Single Player</option>
+        <option value="multiple">Multiple Players</option>
+      </select>
+      <div 
+        v-if="is_multi_player" 
+        class="players-multiple navigator-inline-panel card-body bg-primary">
+        <slot/>
+      </div>
     </div>
   </div>
-</div>
 
 
 </template>

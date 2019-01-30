@@ -1,12 +1,14 @@
 <template>
   <div class="card">
-    <div v-if="caption" class="card-header">
+    <div 
+      v-if="caption" 
+      class="card-header">
       <div class="float-left header-text text-light">{{ caption }}</div>
-      <div class="float-left"><slot name="header-left"></slot></div>
-      <div class="float-right"><slot name="header-right"></slot></div>
+      <div class="float-left"><slot name="header-left"/></div>
+      <div class="float-right"><slot name="header-right"/></div>
     </div>
     <div class="card-body">
-      <slot></slot>
+      <slot/>
     </div>
   </div>
 </template>
@@ -20,7 +22,7 @@ export default {
   props: {
     caption: {
       type: String,
-      required: false
+      default: null
     },
   }
 }

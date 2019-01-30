@@ -22,6 +22,8 @@ const NS_DRAFTS = "drafts";
 export default {
   name: 'SimulatorPage',
 
+  components: { NavBar, ContentPanel, SetSelect },
+
   data: function() {
     return {
       set_code: 'rna',
@@ -161,7 +163,6 @@ export default {
     }),
   },
 
-  components: { NavBar, ContentPanel, SetSelect }
 }
 
 
@@ -172,64 +173,85 @@ export default {
 
   <div>
 
-  <NavBar /> 
+    <NavBar /> 
 
-  <div class="container">
+    <div class="container">
     
-    <ContentPanel caption="Simulate Drafts">
-      <form>
-        <SetSelect v-model="set_code" />
-        <div class="form-group row">
-          <label for="number-of-drafts" class="col-sm-3 col-form-label">Number of drafts:</label>
-          <div class="col-sm-8">
-            <input id="number-of-drafts" class="form-control" type="number" min="1" v-model.number="number"  />
-          </div>
-        </div>
-        <br/>
-        <div class="form-group row">
-          <div class="col-sm-3">
-            <button type="button" class="btn btn-success" @click="onSimulateDrafts">Start Simulations</button>
-          </div>
-          <div class="col-sm-8">
-            <div class="progress bg-warning" :style="{ width: percent_complete + '%', height: '45px' }">
-              <div class="progress-bar" role="progressbar" :aria-valuenow="percent_complete" aria-valuemin="0" aria-valuemax="100"></div>
+      <ContentPanel caption="Simulate Drafts">
+        <form>
+          <SetSelect v-model="set_code" />
+          <div class="form-group row">
+            <label 
+              for="number-of-drafts" 
+              class="col-sm-3 col-form-label">Number of drafts:</label>
+            <div class="col-sm-8">
+              <input 
+                id="number-of-drafts" 
+                v-model.number="number" 
+                class="form-control" 
+                type="number" 
+                min="1" >
             </div>
           </div>
-        </div>
-      </form>
-    </ContentPanel>
+          <br>
+          <div class="form-group row">
+            <div class="col-sm-3">
+              <button 
+                type="button" 
+                class="btn btn-success" 
+                @click="onSimulateDrafts">Start Simulations</button>
+            </div>
+            <div class="col-sm-8">
+              <div 
+                :style="{ width: percent_complete + '%', height: '45px' }" 
+                class="progress bg-warning">
+                <div 
+                  :aria-valuenow="percent_complete" 
+                  class="progress-bar" 
+                  role="progressbar" 
+                  aria-valuemin="0" 
+                  aria-valuemax="100"/>
+              </div>
+            </div>
+          </div>
+        </form>
+      </ContentPanel>
 
-    <ContentPanel caption="Simulation Results">
+      <ContentPanel caption="Simulation Results">
 
-      <div class="row">
-        <div class="col-sm-5">
-          <table class="table">
-            <tbody>
-              <tr v-for="guild in deck_guilds" :key="guild.name">
-                <td>{{ guild.name }}</td> 
-                <td align="center">{{ guild.count }}</td> 
-                <td align="right">{{ guild.percent }}%</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="row">
+          <div class="col-sm-5">
+            <table class="table">
+              <tbody>
+                <tr 
+                  v-for="guild in deck_guilds" 
+                  :key="guild.name">
+                  <td>{{ guild.name }}</td> 
+                  <td align="center">{{ guild.count }}</td> 
+                  <td align="right">{{ guild.percent }}%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-5 offset-sm-1">
+            <table class="table">
+              <tbody>
+                <tr 
+                  v-for="color in deck_colors" 
+                  :key="color.name">
+                  <td>{{ color.name }}</td> 
+                  <td align="right">{{ color.count }}</td>
+                  <td align="right">{{ color.percent }}%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <div class="col-sm-5 offset-sm-1">
-          <table class="table">
-            <tbody>
-              <tr v-for="color in deck_colors" :key="color.name">
-                <td>{{ color.name }}</td> 
-                <td align="right">{{ color.count }}</td>
-                <td align="right">{{ color.percent }}%</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
   
-    </ContentPanel>
+      </ContentPanel>
 
 
-  </div>
+    </div>
 
   </div>
 

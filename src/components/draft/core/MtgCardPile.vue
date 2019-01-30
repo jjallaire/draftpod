@@ -8,6 +8,9 @@ import _flatten from 'lodash/flatten'
 export default {
 
   name: 'MtgCardPile',
+  components: {
+    MtgCard, Drop
+  },
 
   props: {
     piles: {
@@ -19,7 +22,8 @@ export default {
       required: true,
     },
     caption: {
-      type: String
+      type: String,
+      default: null,
     },
     caption_count: {
       type: Boolean,
@@ -50,6 +54,23 @@ export default {
     'unusedToSideboard',
     'touchDragManager'
   ],
+  data: function() {
+    return {
+      styles: {
+        dragInsert: {
+          marginTop: "0",
+          display: "none"
+        },
+      },
+    }
+  },
+
+  computed: {
+    pile: function() { return this.piles[this.number]},
+    pick_number: function() {
+      return _flatten(this.piles).length + 1;
+    },
+  },
 
   mounted() {
     this.touchDragManager.registerDropTarget({
@@ -65,26 +86,6 @@ export default {
 
   beforeDestroy() {
     this.touchDragManager.unregisterDropTarget(this.$el);
-  },
-
-  computed: {
-    pile: function() { return this.piles[this.number]},
-    pick_number: function() {
-      return _flatten(this.piles).length + 1;
-    },
-  },
-  data: function() {
-    return {
-      styles: {
-        dragInsert: {
-          marginTop: "0",
-          display: "none"
-        },
-      },
-    }
-  },
-  components: {
-    MtgCard, Drop
   },
   methods: {
 
@@ -262,25 +263,33 @@ export default {
 
 <template>
 
-  <Drop class="pile" 
-        @drop="handleDrop(...arguments)" 
-        @dragover="handleDragover(...arguments)"
-        @dragenter="handleDragenter(...arguments)"
-        @dragleave="handleDragleave(...arguments)">
-    <div class="pile-caption" v-if="caption" 
-        :style="{textAlign: caption_center ? 'center' : 'left'}">
-      {{ caption }}<span v-if="caption_count"> ({{pile.length}})</span>
+  <Drop 
+    class="pile" 
+    @drop="handleDrop(...arguments)" 
+    @dragover="handleDragover(...arguments)"
+    @dragenter="handleDragenter(...arguments)"
+    @dragleave="handleDragleave(...arguments)">
+    <div 
+      v-if="caption" 
+      :style="{textAlign: caption_center ? 'center' : 'left'}" 
+      class="pile-caption">
+      {{ caption }}<span v-if="caption_count"> ({{ pile.length }})</span>
     </div>
-    <MtgCard v-for="(card, index) in pile" :key="card.key"
-          :card="card" :drag_source="drag_source"
-          :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}">
-    </MtgCard>
-    <div class="pile-controls" 
-        :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 
-                              + (pile.length >= 1 ? 140 : 6) + controls_offset + '%'}">
-      <slot name="controls"></slot>
+    <MtgCard 
+      v-for="(card, index) in pile" 
+      :key="card.key"
+      :card="card" 
+      :drag_source="drag_source"
+      :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}"/>
+    <div 
+      :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 
+      + (pile.length >= 1 ? 140 : 6) + controls_offset + '%'}" 
+      class="pile-controls">
+      <slot name="controls"/>
     </div>
-    <div class="pile-drag-insert" :style="styles.dragInsert"></div>
+    <div 
+      :style="styles.dragInsert" 
+      class="pile-drag-insert"/>
   </Drop>
 
 </template>

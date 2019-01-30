@@ -5,6 +5,10 @@ import ErrorPage from '../core/ErrorPage.vue'
 export default {
   name: 'DraftNotFoundPage',
 
+  components: {
+    ErrorPage
+  },
+
   props: {
     draft_id: {
       type: String,
@@ -18,10 +22,6 @@ export default {
              "/draft/" + this.draft_id;
     }
   },
-
-  components: {
-    ErrorPage
-  }
 }
 
 </script>
@@ -30,7 +30,7 @@ export default {
  
   <ErrorPage title="Draft Not Found">
     <h5>The requested draft was not found.</h5>
-    <br/>
+    <br>
     <p>
       The draft URL you requested (<a :href="draft_url">{{ draft_url }}</a>) may not refer to a valid draft.
     </p>

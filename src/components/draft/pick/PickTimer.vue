@@ -17,6 +17,24 @@ export default {
       timer: null
     }
   },
+
+  computed: {
+    pick_time_remaining: function() {
+      return Math.round((this.pick_end_time - this.now) / 1000);
+    },
+    badge_class: function() {
+      if (this.pick_time_remaining > 10)
+        return "badge-transparent";
+      else
+        return "badge-danger";
+    },
+    time_display: function() {
+      let seconds_remaining = Math.max(this.pick_time_remaining, 0);
+      let minutes = Math.floor(seconds_remaining / 60);
+      let seconds = seconds_remaining % 60;
+      return minutes + ':' + ('00'+ seconds).slice(-2);
+    }
+  },
   
   created () {
     this.timer = setInterval(this.onPickTimer, 1000);
@@ -41,24 +59,6 @@ export default {
       }
     }
   },
-
-  computed: {
-    pick_time_remaining: function() {
-      return Math.round((this.pick_end_time - this.now) / 1000);
-    },
-    badge_class: function() {
-      if (this.pick_time_remaining > 10)
-        return "badge-transparent";
-      else
-        return "badge-danger";
-    },
-    time_display: function() {
-      let seconds_remaining = Math.max(this.pick_time_remaining, 0);
-      let minutes = Math.floor(seconds_remaining / 60);
-      let seconds = seconds_remaining % 60;
-      return minutes + ':' + ('00'+ seconds).slice(-2);
-    }
-  },
 }
 
 </script>
@@ -66,7 +66,9 @@ export default {
 
 <template>
 
-  <span class="pick-timer badge text-light" :class="badge_class">
+  <span 
+    :class="badge_class" 
+    class="pick-timer badge text-light">
     {{ time_display }}
   </span>
 

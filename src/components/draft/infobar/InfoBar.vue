@@ -12,6 +12,10 @@ import * as selectors from '@/store/modules/draft/selectors'
 export default {
   name: 'InfoBar',
 
+  components: {
+    UiPanel, PreviewImage, ManaCurve, ManaColors, ManaLegend
+  },
+
   props: {
     card_preview: {
       type: Object,
@@ -37,10 +41,6 @@ export default {
         return "normal";
     }
   },
-
-  components: {
-    UiPanel, PreviewImage, ManaCurve, ManaColors, ManaLegend
-  },
 }
 
 </script>
@@ -49,11 +49,17 @@ export default {
 
   <div class="infobar">
     
-    <PreviewImage :card_preview="cardImageUris[0]" :card_layout="cardLayout"/>
+    <PreviewImage 
+      :card_preview="cardImageUris[0]" 
+      :card_layout="cardLayout"/>
     <transition name="flip-card">
-    <PreviewImage v-if="cardImageUris.length > 1" :card_preview="cardImageUris[1]" />
+      <PreviewImage 
+        v-if="cardImageUris.length > 1" 
+        :card_preview="cardImageUris[1]" />
     </transition>
-    <UiPanel class="deck-stats" caption="Cards"> 
+    <UiPanel 
+      class="deck-stats" 
+      caption="Cards"> 
       <ManaLegend :cards="cards" />
       <ManaCurve :cards="cards" />
       <ManaColors :cards="cards" />

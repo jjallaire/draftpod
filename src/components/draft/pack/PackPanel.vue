@@ -7,6 +7,9 @@ import HourglassIcon from 'vue-material-design-icons/TimerSandEmpty.vue'
 
 export default {
   name: 'PackPanel',
+  components: {
+    MtgCard, UiPanel, HourglassIcon
+  },
   props: {
     pack: {
       type: Array,
@@ -16,20 +19,23 @@ export default {
   computed: {
     drag_source: () => "DRAG_SOURCE_PACK",
   },
-  components: {
-    MtgCard, UiPanel, HourglassIcon
-  },
 }
 </script>
 
 <template>
   <UiPanel class="pack-panel">
-    <div class="pack-container" v-if="pack">
-      <MtgCard v-for="card in pack" :key="card.key" 
-            :card="card" :drag_source="drag_source">
-      </MtgCard>
+    <div 
+      v-if="pack" 
+      class="pack-container">
+      <MtgCard 
+        v-for="card in pack" 
+        :key="card.key" 
+        :card="card" 
+        :drag_source="drag_source"/>
     </div>
-    <div class="waiting-for-pack" v-else>
+    <div 
+      v-else 
+      class="waiting-for-pack">
       <HourglassIcon /> <span>Waiting for pack...</span>
     </div>
   </UiPanel>  

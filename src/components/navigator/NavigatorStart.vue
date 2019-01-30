@@ -32,6 +32,11 @@ import * as selectors from '@/store/modules/draft/selectors'
 export default {
   name: 'NavigatorStart',
 
+  components: {
+    ContentPanel, SetSelect, CardpoolSelect, 
+    PlayersSelect, MultiplayerPending, MultiplayerOptions
+  },
+
   data: function() {
     return {
       set_code: 'rna',
@@ -45,24 +50,6 @@ export default {
         firestoreUnsubscribe: null
       }
     }
-  },
-
-  created() {
-    this.set_code = this.preferences.set_code;
-    this.cardpool = this.cardpool;
-    this.pick_timer = this.preferences.pick_timer;
-    this.pick_ratings = this.preferences.pick_ratings;
-    this.multi_player.player_name = this.player.name;
-    this.applySetPreferences();
-  },
-
-  beforeDestroy() {
-    this.multiplayerDraftDisconnect();
-  },
-
-  components: {
-    ContentPanel, SetSelect, CardpoolSelect, 
-    PlayersSelect, MultiplayerPending, MultiplayerOptions
   },
 
   computed: {
@@ -90,6 +77,19 @@ export default {
         return [];
       }
     }
+  },
+
+  created() {
+    this.set_code = this.preferences.set_code;
+    this.cardpool = this.cardpool;
+    this.pick_timer = this.preferences.pick_timer;
+    this.pick_ratings = this.preferences.pick_ratings;
+    this.multi_player.player_name = this.player.name;
+    this.applySetPreferences();
+  },
+
+  beforeDestroy() {
+    this.multiplayerDraftDisconnect();
   },
 
   methods: {
@@ -344,49 +344,87 @@ export default {
 
 <template>
 
-<ContentPanel ref="startNewDraft" caption="Start New Draft" class="user-select-none">
-  <form v-on:submit.prevent>
-    <SetSelect :disabled="is_multi_player" v-model="set_code" @input="onSetChanged" />
-    <CardpoolSelect :disabled="is_multi_player" :value="cardpool" 
-                    @input="onCardpoolInput"
-                    @newCardpoolComplete="onNewCardpoolComplete"
-                    :options="cardpool_options(set_code)" 
-                    :set_code="set_code"/>
-    <div class="form-group row">
-      <label for="draft-options" class="col-sm-3 col-form-label">Options:</label>
-      <div id="draft-options" class="col-sm-8">
-        <div class="form-check">
-          <input type="checkbox" :disabled="is_multi_player" class="form-check-input" id="draft-timer"  v-model="pick_timer">
-          <label class="form-check-label" for="draft-timer">Apply pick time limit</label>
-          <small class="form-text text-muted">
-             1 minute, 15 seconds for the first pick (5 seconds less for each pick thereafter).
-          </small>
+  <ContentPanel 
+    ref="startNewDraft" 
+    caption="Start New Draft" 
+    class="user-select-none">
+    <form @submit.prevent>
+      <SetSelect 
+        :disabled="is_multi_player" 
+        v-model="set_code" 
+        @input="onSetChanged" />
+      <CardpoolSelect 
+        :disabled="is_multi_player" 
+        :value="cardpool" 
+        :options="cardpool_options(set_code)"
+        :set_code="set_code"
+        @input="onCardpoolInput" 
+        @newCardpoolComplete="onNewCardpoolComplete"/>
+      <div class="form-group row">
+        <label 
+          for="draft-options" 
+          class="col-sm-3 col-form-label">Options:</label>
+        <div 
+          id="draft-options" 
+          class="col-sm-8">
+          <div class="form-check">
+            <input 
+              id="draft-timer" 
+              :disabled="is_multi_player" 
+              v-model="pick_timer" 
+              type="checkbox" 
+              class="form-check-input">
+            <label 
+              class="form-check-label" 
+              for="draft-timer">Apply pick time limit</label>
+            <small class="form-text text-muted">
+              1 minute, 15 seconds for the first pick (5 seconds less for each pick thereafter).
+            </small>
+          </div>
+          <div class="form-check">
+            <input 
+              id="draft-analysis" 
+              ref="provideCardRatings" 
+              :disabled="is_multi_player" 
+              v-model="pick_ratings" 
+              type="checkbox" 
+              class="form-check-input">
+            <label 
+              class="form-check-label" 
+              for="draft-analysis">Provide card ratings</label>
+            <small class="form-text text-muted">
+              Optional display of ratings for the cards in the current pack.
+            </small>
+          </div>
         </div>
-        <div class="form-check">
-          <input ref="provideCardRatings" type="checkbox" :disabled="is_multi_player" class="form-check-input" id="draft-analysis"  v-model="pick_ratings">
-          <label class="form-check-label" for="draft-analysis">Provide card ratings</label>
-          <small class="form-text text-muted">
-             Optional display of ratings for the cards in the current pack.
-          </small>
+      </div>
+      <PlayersSelect 
+        ref="playersSelect" 
+        :disabled="is_editing_new_cardpool" 
+        v-model="players" 
+        @input="onPlayersChanged">
+        <div v-if="multi_player.draft_id">
+          <MultiplayerOptions 
+            v-model="multi_player" 
+            :players="multi_players" 
+            @input="onMultiplayerOptionsChanged"/>
+        </div>
+        <div v-else>
+          <MultiplayerPending />
+        </div>
+      </PlayersSelect>
+      <br>
+      <div class="form-group row">
+        <div class="col-sm-10">
+          <button 
+            ref="startDraft" 
+            type="button" 
+            class="btn btn-success" 
+            @click="onStartDraft">Start Draft</button>
         </div>
       </div>
-    </div>
-    <PlayersSelect :disabled="is_editing_new_cardpool" ref="playersSelect" v-model="players" @input="onPlayersChanged">
-      <div v-if="multi_player.draft_id">
-        <MultiplayerOptions v-model="multi_player" :players="multi_players" @input="onMultiplayerOptionsChanged"/>
-      </div>
-      <div v-else>
-        <MultiplayerPending />
-      </div>
-    </PlayersSelect>
-    <br/>
-    <div class="form-group row">
-      <div class="col-sm-10">
-        <button type="button" ref="startDraft" class="btn btn-success" @click="onStartDraft">Start Draft</button>
-      </div>
-    </div>
-  </form>
-</ContentPanel>
+    </form>
+  </ContentPanel>
 
 </template>
 

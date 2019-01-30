@@ -5,6 +5,10 @@ import DeleteIcon from "vue-material-design-icons/DeleteOutline.vue"
 export default {
   name: 'RemoveDraft',
 
+  components: {
+    DeleteIcon
+  },
+
   props: {
     draft_id: {
       type: String,
@@ -20,10 +24,6 @@ export default {
     'removeDraft'
   ],
 
-  components: {
-    DeleteIcon
-  },
-
   methods: {
     onDraftRemove() {
       this.removeDraft({
@@ -37,7 +37,8 @@ export default {
 
 <template>
 
- <a class="remove-draft-button" 
+  <a 
+    class="remove-draft-button" 
     @click.stop="onDraftRemove">
     <DeleteIcon title="Remove draft"/>
   </a>
