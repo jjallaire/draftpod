@@ -5,7 +5,7 @@ module.exports = {
     jest: true
   },
   'extends': [
-    'plugin:vue/recommended',
+    'plugin:vue/essential',
     'eslint:recommended'
   ],
   rules: {

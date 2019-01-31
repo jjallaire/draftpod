@@ -12,28 +12,34 @@ export default {
 
   computed: {
     arrowStyle: function() {
+      let style = null;
       switch(this.corner) {
         case "top-right":
-          return {
+          style = {
             top: "3px",
             right: "1px"
           };
+          break;
         case "top-left":
-          return {
+          style = {
             top: "3px",
             left: "2px"
           };
+          break;
         case "bottom-left":
-          return {
+          style = {
             bottom: "4px",
             left: "2px"
           };
+          break;
         case "bottom-right":
-          return {
+          style = {
             bottom: "4px",
             right: "1px"
           };
+          break;
       } 
+      return style;
     }
   }
 }

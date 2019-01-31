@@ -2,7 +2,6 @@
 
 import UiPanel from '@/components/core/UiPanel.vue'
 import MtgCardPile from '@/components/draft/core/MtgCardPile.vue'
-import DeckCopy from './DeckCopy.vue'
 import DeckDownload from './DeckDownload.vue'
 import DeckView from './DeckView.vue'
 import DeckLands from './DeckLands.vue'
@@ -14,7 +13,7 @@ export default {
   name: 'Deck',
 
   components: {
-    UiPanel, MtgCardPile, DeckCopy, DeckDownload, DeckView, DeckLands
+    UiPanel, MtgCardPile, DeckDownload, DeckView, DeckLands
   },
 
   props: {
