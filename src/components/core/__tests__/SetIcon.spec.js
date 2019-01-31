@@ -1,5 +1,7 @@
 
 
+import SetIcon from '../SetIcon.vue'
+
 test('sanity test', () => {
-  expect(true).toBe(true)
+  console.log(SetIcon)
 })
