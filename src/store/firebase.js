@@ -5,6 +5,7 @@
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/storage'
+import 'firebase/app'
 
 // initialize firebase
 firebase.initializeApp({
@@ -17,7 +18,7 @@ firebase.initializeApp({
 
 export const firestore = firebase.firestore();
 
-export const storage = firebase.storage();
+export const draft_storage = firebase.app().storage("gs://draftpod-drafts");
 
 
 

@@ -5,7 +5,7 @@ import * as serializer from './serializer'
 
 // eslint-disable-next-line 
 import * as messagebox from '@/components/core/messagebox.js'
-import { firestore, storage } from '../../firebase'
+import { firestore, draft_storage } from '../../firebase'
 import shortUuid from 'short-uuid'
 
 // track logged in status
@@ -135,17 +135,21 @@ export default {
       .then(() => {
         // prepare file to upload
         let logFileName =  shortUuid().new() + ".json";
-        let draftLog = JSON.stringify(selectors.draftLog(player_id, draft).packs);
+        let draftLog = selectors.draftLog(player_id, draft);
         let metadata = {
           name: logFileName,
           contentType: 'application/json',
         };
 
         // perform upload
-        let storageRef = storage.ref();
-        let draftsRef = storageRef.child("drafts");
-        let logFileRef = draftsRef.child(logFileName);
-        return logFileRef.putString(draftLog, 'raw', metadata);        
+        let storageRef = draft_storage.ref();
+        let dayRef = storageRef.child(new Date(draftLog.time).toISOString().split("T")[0]);
+        let logFileRef = dayRef.child(logFileName);
+        return logFileRef.putString(
+          JSON.stringify({ time: draftLog.time, packs: draftLog.packs }), 
+          'raw', 
+          metadata
+        );        
       })
       .then(snapshot => {
         return snapshot.ref.getDownloadURL();
