@@ -27,6 +27,7 @@ import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
 import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
 import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
 
+import * as log from '@/core/log'
 
 import fscreen from 'fscreen'
 import * as messagebox from '@/components/core/messagebox.js'
@@ -40,6 +41,8 @@ import shortUuid from 'short-uuid'
 import jquery from 'jquery'
 
 import TouchDragManager from '../core/TouchDragManager.js'
+
+const production = process.env.NODE_ENV === 'production';
 
 // drafts namespace
 const NS_DRAFTS = "drafts";
@@ -148,6 +151,16 @@ export default {
     active_player: function (val) {
       if (val === undefined)
         this.$router.push({ path: "/draft/"});
+    },
+    picks_complete(newValue, oldValue) {
+      // save draft log when picks complete
+      if (production && (newValue && !oldValue)) {
+        firestore.saveDraftLog(this.player.id, this.draft).then(() => {
+          // success
+        }).catch(error => {
+          log.logException(error, "onSaveDraftLog");
+        });
+      }
     }
   },
 

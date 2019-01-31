@@ -17,8 +17,9 @@ export default {
 
   [CREATE_DRAFT](state, { id, player, set_code, cardpool, options }) {
 
-    // initialize id
+    // initialize id and event id
     state.id = id;
+    state.event_id = shortUuid().new();
 
     // initialize set
     state.set = {

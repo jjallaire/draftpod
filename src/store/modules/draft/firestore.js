@@ -5,7 +5,7 @@ import * as serializer from './serializer'
 
 // eslint-disable-next-line 
 import * as messagebox from '@/components/core/messagebox.js'
-import { firestore } from '../../firebase'
+import { firestore, storage } from '../../firebase'
 import shortUuid from 'short-uuid'
 
 // track logged in status
@@ -126,6 +126,29 @@ export default {
         }
       }, error => {
         log.logException(error, "onDraftTableChanged");
+      });
+  },
+
+  // save a draft log
+  saveDraftLog(player_id, draft) {
+    return ensureSignedIn()
+      .then(() => {
+        // prepare file to upload
+        let logFileName =  shortUuid().new() + ".txt";
+        let draftLog = JSON.stringify(selectors.draftLog(player_id, draft));
+        let metadata = {
+          name: logFileName,
+          contentType: 'application/json',
+        };
+
+        // perform upload
+        let storageRef = storage.ref();
+        let draftsRef = storageRef.child("drafts");
+        let logFileRef = draftsRef.child(logFileName);
+        return logFileRef.putString(draftLog, 'raw', metadata);        
+      })
+      .then(snapshot => {
+        return snapshot.ref.getDownloadURL();
       });
   },
 

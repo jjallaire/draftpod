@@ -328,7 +328,11 @@ function passPack(player_index, set_code, table) {
     player.pick_end_time = nextPickEndTime(set_code, player);
 
   // now pass to the next player
-  let next_player_index = nextPlayerIndex(player_index, table);
+  let next_player_index = selectors.nextPlayerIndex(
+    player_index, 
+    table.players.length, 
+    table.current_pack
+  );
   let next_player = table.players[next_player_index];
   next_player.packs.push(pack);
 
@@ -353,31 +357,6 @@ function nextPickEndTime(set_code, player) {
   let pick_seconds = max_pick_seconds + seconds_per_pick - (seconds_per_pick * current_pick);
   return new Date().getTime() + (1000 * pick_seconds);
 }
-
-
-
-function nextPlayerIndex(player_index, table) {
-
-  let next_player_index = 0;
-
-  if (table.current_pack === 2) {
-
-    next_player_index = player_index + 1;
-    if (next_player_index >= table.players.length)
-      next_player_index = 0;
-
-    // pass left
-  } else {
-
-    next_player_index = player_index - 1;
-    if (next_player_index < 0)
-      next_player_index = table.players.length - 1;
-
-  }
-
-  return next_player_index;
-}
-
 
 
 function nextPack(set_code, table) {
@@ -454,7 +433,11 @@ function draftBotPickAndPass(player_index, set_code, table) {
     }
 
     // advance to next player -
-    current_index = nextPlayerIndex(current_index, table);
+    current_index = selectors.nextPlayerIndex(
+      current_index, 
+      table.players.length, 
+      table.current_pack
+    );
 
   // terminate once we get back to the original player_index
   } while(current_index !== player_index);

@@ -14,7 +14,7 @@ export function addBreadcrumb(category, message, level = 'info') {
 }
 
 export function logException(error, tag) {
-  console.log(tag + ": " + error);
+  console.log(tag + ": " + error.message);
   if (production) {
     Sentry.withScope(scope => {
       if (tag)

@@ -11,6 +11,9 @@ export default function() {
     // id
     id: null,
 
+    // event id
+    event_id: null,
+
     // set 
     set: {
       code: null,
