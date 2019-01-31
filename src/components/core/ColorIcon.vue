@@ -19,12 +19,11 @@ export default {
 
 
 <template>
-
   <img 
     :src="color.img" 
     :title="color.name + ' (' + Math.round(color.percent * 100) + '%)'"
-    class="color-icon">
-
+    class="color-icon"
+  >
 </template>
 
 <style>

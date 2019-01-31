@@ -127,50 +127,59 @@ export default {
 </script>
 
 <template>
-
   <div :class="{ player: true, 'host-player': is_host_player }">
     <div>
       <div 
         v-if="player.id" 
-        class="player-remove">
+        class="player-remove"
+      >
         <RemoveIcon 
           title="Remove Player from Draft" 
-          @click.native="onRemovePlayer"/>
+          @click.native="onRemovePlayer"
+        />
       </div>
       <div>
         <PlayerIcon 
           v-if="player.id" 
-          title="Player"/>
+          title="Player"
+        />
         <BotIcon 
           v-else 
-          title="Bot"/>
+          title="Bot"
+        />
       </div> 
       <div 
         v-if="player.id" 
-        class="player-name">
+        class="player-name"
+      >
         {{ player.name || "Me" }} 
         <div 
           v-if="!picks_complete" 
-          class="pick-number">{{ current_pick }}</div>
+          class="pick-number"
+        >
+          {{ current_pick }}
+        </div>
       </div>
       <div 
         v-else 
-        class="player-colors">
+        class="player-colors"
+      >
         <div v-if="bot_colors.length > 0">
           <ColorIcon 
             v-for="color in bot_colors" 
             :key="color.name" 
-            :color="color" />
+            :color="color"
+          />
         </div>
         <div 
           v-else 
-          class="player-name">
+          class="player-name"
+        >
           Bot
         </div>
       </div>
     </div>
   </div>
-
 </template>
 
 

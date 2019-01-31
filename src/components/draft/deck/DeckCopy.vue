@@ -42,17 +42,18 @@ export default {
 </script>
 
 <template>
-
   <button 
-    v-clipboard="deck_list"
-    v-clipboard:success="onClipboardSuccess" 
     id="copy-deck-to-clipboard"
+    v-clipboard="deck_list" 
+    v-clipboard:success="onClipboardSuccess"
     class="btn btn-sm btn-secondary text-light deck-copy"
     data-toggle="tooltip" 
-    data-placement="top">
-    <ClipboardIcon/> Copy <span class="btn-extra-text">Decklist</span>
+    data-placement="top"
+  >
+    <ClipboardIcon /> Copy <span class="btn-extra-text">
+      Decklist
+    </span>
   </button>
-
 </template>
 
 

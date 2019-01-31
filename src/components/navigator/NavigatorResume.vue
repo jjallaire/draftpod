@@ -67,10 +67,10 @@ export default {
 </script>
 
 <template>
-
   <ContentPanel 
     caption="Draft in Progress" 
-    class="resume-draft user-select-none">
+    class="resume-draft user-select-none"
+  >
     <div class="row">
       <div class="col-sm-4 col-lg-3">
         <h4>{{ draft.set.name }}</h4>
@@ -83,12 +83,14 @@ export default {
           </span>
           <RemoveDraft 
             :draft_id="draft_id" 
-            remove_source="resume"/>
+            remove_source="resume"
+          />
         </p>
         <button 
           type="button" 
           class="btn btn-warning resume-button" 
-          @click="onResumeDraft">
+          @click="onResumeDraft"
+        >
           Resume Draft
         </button>
       </div>
@@ -96,7 +98,8 @@ export default {
         <ManaLegend :cards="active_cards" />
         <ManaCurve 
           :cards="active_cards" 
-          :height="150" />
+          :height="150"
+        />
       </div>
       <div class="col-sm-4 col-lg-3">
         <ManaColors :cards="active_cards" />
@@ -105,11 +108,11 @@ export default {
         <img 
           :src="card_preview_image" 
           class="card-preview" 
-          height="150">
+          height="150"
+        >
       </div>
     </div>
   </ContentPanel>
-
 </template>
 
 <style>

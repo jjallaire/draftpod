@@ -37,30 +37,32 @@ export default {
 </script>
 
 <template>
-
   <div 
     :style="{ display: display }" 
-    class="cardpool-upload-status">
+    class="cardpool-upload-status"
+  >
     <div 
       v-for="message in status.success" 
       :key="message" 
-      class="text-success">
+      class="text-success"
+    >
       <CheckIcon /> {{ message }}
     </div>
     <div 
       v-for="message in status.error" 
       :key="message" 
-      class="text-danger">
+      class="text-danger"
+    >
       {{ message }}
     </div>
     <div 
       v-for="message in status.warning" 
       :key="message" 
-      class="text-warning">
+      class="text-warning"
+    >
       {{ message }}
     </div>
   </div>
-
 </template>
 
 <style>

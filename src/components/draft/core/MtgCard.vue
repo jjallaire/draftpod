@@ -84,13 +84,15 @@ export default {
       @touchstart="onTouchStart" 
       @touchmove="onTouchMove"
       @touchend="onTouchEnd" 
-      @contextmenu="onContextMenu">
+      @contextmenu="onContextMenu"
+    >
   </Drag>
   <span 
     v-else 
     class="mtgcard" 
-    draggable="false">
-    <img :src="cardImageUris[0]" >
+    draggable="false"
+  >
+    <img :src="cardImageUris[0]">
   </span>
 </template>
 

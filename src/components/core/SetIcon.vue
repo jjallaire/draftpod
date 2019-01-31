@@ -22,7 +22,7 @@ export default {
 
 
 <template>
-  <simple-svg :filepath="'/sets/' + set_code + '/icon.svg'"/>
+  <simple-svg :filepath="'/sets/' + set_code + '/icon.svg'" />
 </template>
 
 

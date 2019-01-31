@@ -23,7 +23,6 @@ export default {
 
 
 <template>
-
   <div class="firebase-error">
     <h2>Connection Error</h2>
     <h5>An error occurred while attempting to connect to the Draftpod server:</h5> 
@@ -35,8 +34,6 @@ export default {
       Please be sure that your internet connection is online before continuing.
     </p>
   </div>
-
-
 </template>
 
 <style>

@@ -27,12 +27,13 @@ export default {
 </script>
 
 <template>
- 
   <ErrorPage title="Draft Not Found">
     <h5>The requested draft was not found.</h5>
     <br>
     <p>
-      The draft URL you requested (<a :href="draft_url">{{ draft_url }}</a>) may not refer to a valid draft.
+      The draft URL you requested (<a :href="draft_url">
+        {{ draft_url }}
+      </a>) may not refer to a valid draft.
     </p>
 
     <p>
@@ -43,9 +44,7 @@ export default {
       Another possibility is that draft is no longer available in your history (Draftpod only saves
       your last 10 drafts).
     </p>
-     
   </ErrorPage>
-  
 </template>
 
 

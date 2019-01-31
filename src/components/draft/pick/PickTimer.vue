@@ -65,13 +65,12 @@ export default {
 
 
 <template>
-
   <span 
     :class="badge_class" 
-    class="pick-timer badge text-light">
+    class="pick-timer badge text-light"
+  >
     {{ time_display }}
   </span>
-
 </template>
 
 <style>

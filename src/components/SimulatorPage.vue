@@ -170,27 +170,28 @@ export default {
 
 
 <template>
-
   <div>
-
     <NavBar /> 
 
     <div class="container">
-    
       <ContentPanel caption="Simulate Drafts">
         <form>
           <SetSelect v-model="set_code" />
           <div class="form-group row">
             <label 
               for="number-of-drafts" 
-              class="col-sm-3 col-form-label">Number of drafts:</label>
+              class="col-sm-3 col-form-label"
+            >
+              Number of drafts:
+            </label>
             <div class="col-sm-8">
               <input 
                 id="number-of-drafts" 
                 v-model.number="number" 
                 class="form-control" 
                 type="number" 
-                min="1" >
+                min="1"
+              >
             </div>
           </div>
           <br>
@@ -199,18 +200,23 @@ export default {
               <button 
                 type="button" 
                 class="btn btn-success" 
-                @click="onSimulateDrafts">Start Simulations</button>
+                @click="onSimulateDrafts"
+              >
+                Start Simulations
+              </button>
             </div>
             <div class="col-sm-8">
               <div 
                 :style="{ width: percent_complete + '%', height: '45px' }" 
-                class="progress bg-warning">
+                class="progress bg-warning"
+              >
                 <div 
                   :aria-valuenow="percent_complete" 
                   class="progress-bar" 
                   role="progressbar" 
                   aria-valuemin="0" 
-                  aria-valuemax="100"/>
+                  aria-valuemax="100"
+                />
               </div>
             </div>
           </div>
@@ -218,17 +224,21 @@ export default {
       </ContentPanel>
 
       <ContentPanel caption="Simulation Results">
-
         <div class="row">
           <div class="col-sm-5">
             <table class="table">
               <tbody>
                 <tr 
                   v-for="guild in deck_guilds" 
-                  :key="guild.name">
+                  :key="guild.name"
+                >
                   <td>{{ guild.name }}</td> 
-                  <td align="center">{{ guild.count }}</td> 
-                  <td align="right">{{ guild.percent }}%</td>
+                  <td align="center">
+                    {{ guild.count }}
+                  </td> 
+                  <td align="right">
+                    {{ guild.percent }}%
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -238,24 +248,23 @@ export default {
               <tbody>
                 <tr 
                   v-for="color in deck_colors" 
-                  :key="color.name">
+                  :key="color.name"
+                >
                   <td>{{ color.name }}</td> 
-                  <td align="right">{{ color.count }}</td>
-                  <td align="right">{{ color.percent }}%</td>
+                  <td align="right">
+                    {{ color.count }}
+                  </td>
+                  <td align="right">
+                    {{ color.percent }}%
+                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-  
       </ContentPanel>
-
-
     </div>
-
   </div>
-
-
 </template>
 
 <style>

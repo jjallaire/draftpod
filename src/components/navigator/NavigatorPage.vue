@@ -74,13 +74,10 @@ export default {
 </script>
 
 <template>
-
   <div>
-
     <NavBar /> 
 
     <div class="container">
-    
       <transition name="resume-slide-out">
         <NavigatorResume 
           v-if="draft_in_progress && show_resume" 
@@ -94,10 +91,7 @@ export default {
 
       <SiteFooter />   
     </div>
-
   </div>
-
-
 </template>
 
 <style>

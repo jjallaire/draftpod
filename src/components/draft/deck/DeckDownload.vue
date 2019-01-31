@@ -37,13 +37,14 @@ export default {
 </script>
 
 <template>
-
   <button 
     class="btn btn-sm btn-secondary text-light deck-download"
-    @click="onDownloadDeck" >
-    <DownloadIcon/> Download <span class="btn-extra-text">Decklist</span>
+    @click="onDownloadDeck"
+  >
+    <DownloadIcon /> Download <span class="btn-extra-text">
+      Decklist
+    </span>
   </button>
-
 </template>
 
 

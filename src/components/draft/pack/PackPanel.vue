@@ -26,20 +26,22 @@ export default {
   <UiPanel class="pack-panel">
     <div 
       v-if="pack" 
-      class="pack-container">
+      class="pack-container"
+    >
       <MtgCard 
         v-for="card in pack" 
         :key="card.key" 
         :card="card" 
-        :drag_source="drag_source"/>
+        :drag_source="drag_source"
+      />
     </div>
     <div 
       v-else 
-      class="waiting-for-pack">
+      class="waiting-for-pack"
+    >
       <HourglassIcon /> <span>Waiting for pack...</span>
     </div>
-  </UiPanel>  
-
+  </UiPanel>
 </template>
 
 <style>

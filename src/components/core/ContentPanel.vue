@@ -21,13 +21,12 @@ export default {
 </script>
 
 <template>
-
   <UiPanel 
     :caption="caption" 
-    class="content-panel" >
-    <slot/>
+    class="content-panel"
+  >
+    <slot />
   </UiPanel>
-
 </template>
 
 <style>

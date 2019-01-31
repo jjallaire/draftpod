@@ -262,36 +262,41 @@ export default {
 </script>
 
 <template>
-
   <Drop 
     class="pile" 
     @drop="handleDrop(...arguments)" 
     @dragover="handleDragover(...arguments)"
     @dragenter="handleDragenter(...arguments)"
-    @dragleave="handleDragleave(...arguments)">
+    @dragleave="handleDragleave(...arguments)"
+  >
     <div 
       v-if="caption" 
       :style="{textAlign: caption_center ? 'center' : 'left'}" 
-      class="pile-caption">
-      {{ caption }}<span v-if="caption_count"> ({{ pile.length }})</span>
+      class="pile-caption"
+    >
+      {{ caption }}<span v-if="caption_count">
+        ({{ pile.length }})
+      </span>
     </div>
     <MtgCard 
       v-for="(card, index) in pile" 
       :key="card.key"
       :card="card" 
       :drag_source="drag_source"
-      :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}"/>
+      :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}"
+    />
     <div 
       :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 
-      + (pile.length >= 1 ? 140 : 6) + controls_offset + '%'}" 
-      class="pile-controls">
-      <slot name="controls"/>
+        + (pile.length >= 1 ? 140 : 6) + controls_offset + '%'}" 
+      class="pile-controls"
+    >
+      <slot name="controls" />
     </div>
     <div 
       :style="styles.dragInsert" 
-      class="pile-drag-insert"/>
+      class="pile-drag-insert"
+    />
   </Drop>
-
 </template>
 
 <style>

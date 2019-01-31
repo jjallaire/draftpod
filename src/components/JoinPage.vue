@@ -172,30 +172,27 @@ export default {
 </script>
 
 <template>
- 
   <div>
-    
     <NavBar />
 
     <div class="container">
-
       <div class="join-content">
-
         <div class="row">
-
           <div class="col-sm-8 offset-sm-2">
-
             <div v-if="firebase_error">
               <FirebaseError :error="firebase_error" />
             </div>
 
-            <div v-else-if="draft_exists">  
-
+            <div v-else-if="draft_exists">
               <h3>{{ set_name }} Draft</h3>
   
               <p>
-                <span v-if="host_player">{{ host_player }} has invited you </span> 
-                <span v-else>You have been invited </span>
+                <span v-if="host_player">
+                  {{ host_player }} has invited you
+                </span> 
+                <span v-else>
+                  You have been invited
+                </span>
                 to join a {{ set_name }} draft.
               </p>
 
@@ -213,25 +210,34 @@ export default {
               </div>
               <div 
                 v-else-if="!is_joined" 
-                class="row join-input">
+                class="row join-input"
+              >
                 <label 
                   class="sr-only" 
-                  for="join-draft-name">Name</label>
+                  for="join-draft-name"
+                >
+                  Name
+                </label>
                 <input 
                   id="join-draft-name" 
                   ref="playerName" 
                   v-model="player_name"
                   class="form-control col-sm-8" 
                   placeholder="Enter your name"  
-                  @keyup.enter="onJoinDraft" >
+                  @keyup.enter="onJoinDraft"
+                >
                 <button 
                   class="btn btn-success col-sm-3" 
-                  @click="onJoinDraft">Join Draft</button>
+                  @click="onJoinDraft"
+                >
+                  Join Draft
+                </button>
               </div>
 
               <div 
                 v-else 
-                class="waiting-for-draft" >
+                class="waiting-for-draft"
+              >
                 <CirclesToRhombusesSpinner 
                   :circles-num="3"
                   :circle-size="12"
@@ -241,29 +247,23 @@ export default {
               </div>
   
               <MultiplayerPlayers :players="multi_players" />
-
             </div>
 
             <div 
               v-else 
-              class="no-draft-found">
+              class="no-draft-found"
+            >
               <div class="alert alert-warning">
                 The draft you were invited to could not be found.
               </div>
             </div>
-  
           </div>
-    
         </div>
-
       </div>
 
       <SiteFooter />
-
     </div>
-    
   </div>
-
 </template>
 
 

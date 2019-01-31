@@ -18,7 +18,6 @@ export default {
       a subsidiary of Hasbro, Inc. This website is not produced by, endorsed by, supported by, 
       or affiliated with Wizards of the Coast.
     </p>
-
   </footer>
 </template>
 

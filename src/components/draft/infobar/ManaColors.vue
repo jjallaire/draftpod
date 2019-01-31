@@ -23,21 +23,27 @@ export default {
 
 
 <template>
-
   <table class="table table-sm deck-colors">
     <tbody>
       <tr 
         v-for="color in colors" 
-        :key="color.img">
-        <td width="60%"><img 
-          :src="color.img" 
-          width="18"> {{ color.name }}</td>
-        <td align="right">{{ color.count }}</td>
-        <td align="right">{{ (color.percent * 100).toFixed(0) + '%' }}</td>
+        :key="color.img"
+      >
+        <td width="60%">
+          <img 
+            :src="color.img" 
+            width="18"
+          > {{ color.name }}
+        </td>
+        <td align="right">
+          {{ color.count }}
+        </td>
+        <td align="right">
+          {{ (color.percent * 100).toFixed(0) + '%' }}
+        </td>
       </tr>
     </tbody>
   </table>
-
 </template>
 
 

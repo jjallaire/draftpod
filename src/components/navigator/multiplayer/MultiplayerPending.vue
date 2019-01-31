@@ -14,17 +14,14 @@ export default {
 
 
 <template>
-
   <div>
-
     <Spinner 
       message="Creating draft..." 
       size="medium" 
       line-fg-color="#62c462" 
-      text-fg-color="#aaa"/>
-
+      text-fg-color="#aaa"
+    />
   </div>
-
 </template>
 
 

@@ -70,7 +70,8 @@ export default {
 <template>
   <UiPanel 
     :caption="'Deck: ' + deck_total_cards + ' / 40'" 
-    class="deck">
+    class="deck"
+  >
     <template slot="header-left">
       <div class="card-type-counts">
         Creatures: {{ deck_card_types.creatures }} &nbsp;
@@ -82,7 +83,8 @@ export default {
       <DeckView :deck_list="deck_list" />
       <DeckDownload 
         :set_name="set_name" 
-        :deck_list="deck_list" />
+        :deck_list="deck_list"
+      />
     </template>
     <div class="deck-piles deck-piles-top">
       <MtgCardPile 
@@ -91,25 +93,29 @@ export default {
         :caption="number + ''" 
         :piles="piles" 
         :number="number-1" 
-        drag_source="DRAG_SOURCE_DECK"/>
+        drag_source="DRAG_SOURCE_DECK"
+      />
       <MtgCardPile 
         :key="5" 
         :piles="piles" 
         :number="5" 
         caption="6+" 
-        drag_source="DRAG_SOURCE_DECK"/>
-      <div class="pile pile-separator"/>
+        drag_source="DRAG_SOURCE_DECK"
+      />
+      <div class="pile pile-separator" />
       <MtgCardPile 
         :key="12" 
         :caption="'Lands (' + deck_land_count + ')'"
         :piles="piles" 
         :number="12" 
-        drag_source="DRAG_SOURCE_DECK">
+        drag_source="DRAG_SOURCE_DECK"
+      >
         <DeckLands 
           slot="controls" 
-          :deck="deck"/>
+          :deck="deck"
+        />
       </MtgCardPile>
-      <div class="pile pile-separator"/>
+      <div class="pile pile-separator" />
       <MtgCardPile 
         :key="13" 
         :piles="piles" 
@@ -117,7 +123,8 @@ export default {
         :controls_offset="unused_pile_offset" 
         class="deck-sideboard" 
         caption="Sideboard" 
-        drag_source="DRAG_SOURCE_SIDEBOARD">
+        drag_source="DRAG_SOURCE_SIDEBOARD"
+      >
         <div slot="controls">
           <MtgCardPile 
             :key="14" 
@@ -125,19 +132,22 @@ export default {
             :number="14" 
             class="deck-unused" 
             caption="Unused" 
-            drag_source="DRAG_SOURCE_UNUSED"/>
+            drag_source="DRAG_SOURCE_UNUSED"
+          />
         </div>
       </MtgCardPile>
     </div>
     <div 
       :style="piles_bottom_style" 
-      class="deck-piles deck-piles-bottom">
+      class="deck-piles deck-piles-bottom"
+    >
       <MtgCardPile 
         v-for="number in 6" 
         :key="number + 6 - 1" 
         :piles="piles" 
         :number="number + 6 - 1" 
-        drag_source="DRAG_SOURCE_DECK"/>
+        drag_source="DRAG_SOURCE_DECK"
+      />
     </div>
   </UiPanel>
 </template>

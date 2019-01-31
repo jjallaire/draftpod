@@ -58,7 +58,8 @@ export default {
 <template>
   <Drop 
     v-if="pick_ratings.length > 0" 
-    @dragover="handleDragover(...arguments)">
+    @dragover="handleDragover(...arguments)"
+  >
     <table class="ratings-table table table-sm">
       <thead class="">
         <th>Card</th>
@@ -70,24 +71,38 @@ export default {
       <tbody>
         <tr 
           v-for="pick_rating in pick_ratings" 
-          :key="pick_rating.card.id">
-          <td width="15%">{{ pick_rating.card.name }}</td>
+          :key="pick_rating.card.id"
+        >
+          <td width="15%">
+            {{ pick_rating.card.name }}
+          </td>
           <td width="20%">
             <img 
               v-for="color in card_colors(pick_rating.card)" 
               :key="color.name"
               :src="color.img" 
-              class="mana-color">
+              class="mana-color"
+            >
           </td>
-          <td width="15%">{{ pick_rating.base_rating | rating }}</td>
+          <td width="15%">
+            {{ pick_rating.base_rating | rating }}
+          </td>
           <td 
             v-if="pick_rating.color_bonus > 0" 
-            width="15%">+{{ pick_rating.color_bonus | rating }}</td>
+            width="15%"
+          >
+            +{{ pick_rating.color_bonus | rating }}
+          </td>
           <td 
             v-else 
             width="15%" 
-            class="no-color-bonus">&mdash;</td>
-          <td width="15%">{{ pick_rating.rating | rating }}</td>
+            class="no-color-bonus"
+          >
+            &mdash;
+          </td>
+          <td width="15%">
+            {{ pick_rating.rating | rating }}
+          </td>
         </tr>
       </tbody>
     </table>
@@ -102,12 +117,12 @@ export default {
       pick different than the highest rated card. Ratings are based on the community P1P1 evaluations provided at 
       <a 
         target="_blank" 
-        href="https://draftaholicsanonymous.com/">https://draftaholicsanonymous.com</a>.
+        href="https://draftaholicsanonymous.com/"
+      >
+        https://draftaholicsanonymous.com
+      </a>.
     </p>
-
-
   </Drop>
-
 </template>
 
 <style>

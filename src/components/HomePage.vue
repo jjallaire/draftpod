@@ -14,17 +14,15 @@ export default {
 </script>
 
 <template>
- 
   <div>
-    
     <NavBar />
     
     <div class="container">
-
       <div class="home-content">
-
         <div class="jumbotron text-muted">
-          <h1 class="display-3">Draftpod</h1>
+          <h1 class="display-3">
+            Draftpod
+          </h1>
           <h5>Draft simulator for Magic the Gathering</h5>
 
           <hr>
@@ -32,45 +30,43 @@ export default {
           <img 
             class="img-fluid draftpod-screenshot" 
             align="left" 
-            src="/images/screenshot.png" >
+            src="/images/screenshot.png"
+          >
 
           <p class="lead">
             <ul class="draftpod-features">
               <li>Practice evaluating cards, reading signals, and building decks in single-player mode.</li>
-              <li>Simulate a full 8-person draft even when you have only 2 or 3 players in 
-              multi-player mode.
+              <li>
+                Simulate a full 8-person draft even when you have only 2 or 3 players in 
+                multi-player mode.
               </li>
             </ul>
 
             <router-link 
               class="draftpod-learn-more btn btn-warning" 
               role="button" 
-              to="/guide/">
+              to="/guide/"
+            >
               Learn More
             </router-link> 
             <router-link 
               class="draftpod-start-draft btn btn-success" 
               role="button" 
-              to="/draft/">
+              to="/draft/"
+            >
               Start a Draft
             </router-link>
-
           </p>
 
-          <div style="clear: both; margin-bottom: 10px;"/>
+          <div style="clear: both; margin-bottom: 10px;" />
 
-          <p class="lead"/>
-
+          <p class="lead" />
         </div>
-
       </div>
 
       <SiteFooter />
-
     </div>
-
   </div>
-
 </template>
 
 <style>

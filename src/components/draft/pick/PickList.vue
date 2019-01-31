@@ -25,13 +25,15 @@ export default {
       v-for="number in 7" 
       :key="number-1" 
       :piles="piles" 
-      :number="number-1"/>
-    <div class="pile pile-separator"/>
+      :number="number-1"
+    />
+    <div class="pile pile-separator" />
     <MtgCardPile 
       :key="7" 
       :piles="piles" 
       :number="7" 
-      caption="Sideboard"/>
+      caption="Sideboard"
+    />
   </div>
 </template>
 

@@ -24,20 +24,22 @@ export default {
 
 
 <template>
-  
   <div class="multiplayer-players form-group">
-    <label for="multiplayer-draft-players">Players:</label>
+    <label for="multiplayer-draft-players">
+      Players:
+    </label>
     <div 
       id="multiplayer-draft-players" 
-      class="card-body bg-light">
+      class="card-body bg-light"
+    >
       <div 
         v-for="(player, index) in players" 
-        :key="index">
+        :key="index"
+      >
         <PersonIcon /> <span>{{ player }}</span>
       </div>
     </div>
-  </div> 
-
+  </div>
 </template>
 
 

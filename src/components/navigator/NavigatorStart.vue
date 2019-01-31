@@ -343,40 +343,50 @@ export default {
 </script>
 
 <template>
-
   <ContentPanel 
     ref="startNewDraft" 
     caption="Start New Draft" 
-    class="user-select-none">
+    class="user-select-none"
+  >
     <form @submit.prevent>
       <SetSelect 
-        :disabled="is_multi_player" 
         v-model="set_code" 
-        @input="onSetChanged" />
+        :disabled="is_multi_player" 
+        @input="onSetChanged"
+      />
       <CardpoolSelect 
         :disabled="is_multi_player" 
         :value="cardpool" 
         :options="cardpool_options(set_code)"
         :set_code="set_code"
         @input="onCardpoolInput" 
-        @newCardpoolComplete="onNewCardpoolComplete"/>
+        @newCardpoolComplete="onNewCardpoolComplete"
+      />
       <div class="form-group row">
         <label 
           for="draft-options" 
-          class="col-sm-3 col-form-label">Options:</label>
+          class="col-sm-3 col-form-label"
+        >
+          Options:
+        </label>
         <div 
           id="draft-options" 
-          class="col-sm-8">
+          class="col-sm-8"
+        >
           <div class="form-check">
             <input 
               id="draft-timer" 
-              :disabled="is_multi_player" 
               v-model="pick_timer" 
+              :disabled="is_multi_player" 
               type="checkbox" 
-              class="form-check-input">
+              class="form-check-input"
+            >
             <label 
               class="form-check-label" 
-              for="draft-timer">Apply pick time limit</label>
+              for="draft-timer"
+            >
+              Apply pick time limit
+            </label>
             <small class="form-text text-muted">
               1 minute, 15 seconds for the first pick (5 seconds less for each pick thereafter).
             </small>
@@ -385,13 +395,17 @@ export default {
             <input 
               id="draft-analysis" 
               ref="provideCardRatings" 
-              :disabled="is_multi_player" 
               v-model="pick_ratings" 
+              :disabled="is_multi_player" 
               type="checkbox" 
-              class="form-check-input">
+              class="form-check-input"
+            >
             <label 
               class="form-check-label" 
-              for="draft-analysis">Provide card ratings</label>
+              for="draft-analysis"
+            >
+              Provide card ratings
+            </label>
             <small class="form-text text-muted">
               Optional display of ratings for the cards in the current pack.
             </small>
@@ -400,14 +414,16 @@ export default {
       </div>
       <PlayersSelect 
         ref="playersSelect" 
-        :disabled="is_editing_new_cardpool" 
         v-model="players" 
-        @input="onPlayersChanged">
+        :disabled="is_editing_new_cardpool" 
+        @input="onPlayersChanged"
+      >
         <div v-if="multi_player.draft_id">
           <MultiplayerOptions 
             v-model="multi_player" 
             :players="multi_players" 
-            @input="onMultiplayerOptionsChanged"/>
+            @input="onMultiplayerOptionsChanged"
+          />
         </div>
         <div v-else>
           <MultiplayerPending />
@@ -420,12 +436,14 @@ export default {
             ref="startDraft" 
             type="button" 
             class="btn btn-success" 
-            @click="onStartDraft">Start Draft</button>
+            @click="onStartDraft"
+          >
+            Start Draft
+          </button>
         </div>
       </div>
     </form>
   </ContentPanel>
-
 </template>
 
 

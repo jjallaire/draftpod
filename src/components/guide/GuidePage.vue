@@ -77,20 +77,18 @@ export default {
 </script>
 
 <template>
- 
   <div class="guide-page">
-    
     <NavBar />
 
     <div class="container">
-
       <div class="row">
         <div class="col-md-3">
           <div 
             id="v-pills-tab" 
             class="nav flex-column nav-pills sticky-top" 
             role="tablist" 
-            aria-orientation="vertical">
+            aria-orientation="vertical"
+          >
             <a 
               id="welcome-tab" 
               class="nav-link active" 
@@ -98,7 +96,10 @@ export default {
               href="#welcome" 
               role="tab" 
               aria-controls="welcome" 
-              aria-selected="true">Welcome</a>
+              aria-selected="true"
+            >
+              Welcome
+            </a>
             <a 
               id="single-player-tab" 
               class="nav-link" 
@@ -106,7 +107,10 @@ export default {
               href="#single-player" 
               role="tab" 
               aria-controls="single-player" 
-              aria-selected="false">Single-Player Drafts</a>
+              aria-selected="false"
+            >
+              Single-Player Drafts
+            </a>
             <a 
               id="multi-player-tab" 
               class="nav-link" 
@@ -114,7 +118,10 @@ export default {
               href="#multi-player" 
               role="tab" 
               aria-controls="multi-player" 
-              aria-selected="false">Multi-Player Drafts</a>
+              aria-selected="false"
+            >
+              Multi-Player Drafts
+            </a>
             <a 
               id="cardpools-tab" 
               class="nav-link" 
@@ -122,7 +129,10 @@ export default {
               href="#cardpools" 
               role="tab" 
               aria-controls="multi-player" 
-              aria-selected="false">Draft Cardpools</a>
+              aria-selected="false"
+            >
+              Draft Cardpools
+            </a>
             <a 
               id="faq-tab" 
               class="nav-link" 
@@ -130,7 +140,10 @@ export default {
               href="#faq" 
               role="tab" 
               aria-controls="faq" 
-              aria-selected="false">Frequently Asked Questions</a>
+              aria-selected="false"
+            >
+              Frequently Asked Questions
+            </a>
             <a 
               id="feedback-tab" 
               class="nav-link" 
@@ -138,36 +151,43 @@ export default {
               href="#feedback" 
               role="tab" 
               aria-controls="feedback" 
-              aria-selected="false">Feedback &amp; Support</a>
+              aria-selected="false"
+            >
+              Feedback &amp; Support
+            </a>
           </div>
         </div>
 
         <div class="col-md-8">
           <div 
             id="v-pills-tabContent" 
-            class="tab-content">
+            class="tab-content"
+          >
             <div 
               id="welcome" 
               class="tab-pane fade show active" 
               role="tabpanel" 
-              aria-labelledby="welcome-tab">
-              <WelcomeMd/>
+              aria-labelledby="welcome-tab"
+            >
+              <WelcomeMd />
             </div>
         
             <div 
               id="single-player" 
               class="tab-pane fade" 
               role="tabpanel" 
-              aria-labelledby="single-player-tab">
-              <SinglePlayerMd/>
+              aria-labelledby="single-player-tab"
+            >
+              <SinglePlayerMd />
             </div>
         
             <div 
               id="multi-player" 
               class="tab-pane fade" 
               role="tabpanel" 
-              aria-labelledby="multi-player-tab">
-              <MultiPlayerMd/>
+              aria-labelledby="multi-player-tab"
+            >
+              <MultiPlayerMd />
             </div>
 
           
@@ -175,8 +195,9 @@ export default {
               id="cardpools" 
               class="tab-pane fade" 
               role="tabpanel" 
-              aria-labelledby="cardpools-tab">
-              <CardpoolsMd/>
+              aria-labelledby="cardpools-tab"
+            >
+              <CardpoolsMd />
             </div>
 
 
@@ -184,8 +205,9 @@ export default {
               id="faq" 
               class="tab-pane fade" 
               role="tabpanel" 
-              aria-labelledby="faq-tab">
-              <FAQMd/>
+              aria-labelledby="faq-tab"
+            >
+              <FAQMd />
             </div>
         
 
@@ -194,21 +216,17 @@ export default {
               id="feedback" 
               class="tab-pane fade" 
               role="tabpanel" 
-              aria-labelledby="feedback-tab">
-              <Feedback/> 
+              aria-labelledby="feedback-tab"
+            >
+              <Feedback /> 
             </div>
           </div>
         </div>
       </div>
 
       <SiteFooter />
-
     </div>
-
   </div>
-  
-
-
 </template>
 
 

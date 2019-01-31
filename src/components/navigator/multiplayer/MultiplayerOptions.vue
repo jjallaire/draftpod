@@ -133,11 +133,11 @@ export default {
 
 
 <template>
-
   <div>
-
     <div class="form-group">
-      <label for="multiplayer-draft-name">Host player:</label>
+      <label for="multiplayer-draft-name">
+        Host player:
+      </label>
       <input 
         id="multiplayer-draft-name" 
         ref="name" 
@@ -145,7 +145,8 @@ export default {
         class="form-control" 
         placeholder="Enter your name" 
         @input="onNameChanged" 
-        @keyup.enter.prevent="onNameChanged">
+        @keyup.enter.prevent="onNameChanged"
+      >
     </div>
 
     <MultiplayerPlayers :players="players" />
@@ -158,8 +159,9 @@ export default {
           href="" 
           data-toggle="tooltip"
           data-placement="top" 
-          @click="onCopyJoinUrl">
-          <ClipboardIcon title="Copy URL to clipboard"/> Copy
+          @click="onCopyJoinUrl"
+        >
+          <ClipboardIcon title="Copy URL to clipboard" /> Copy
         </a>
       </label>
       <textarea 
@@ -167,16 +169,14 @@ export default {
         ref="joinUrl" 
         :value="join_url" 
         readonly 
-        class="join-url" />
+        class="join-url"
+      />
     </div>
 
     <p>
       Click <strong>Start Draft</strong> once the other players have all joined and you are ready to begin the draft.
     </p>
-
-  
   </div>
-
 </template>
 
 

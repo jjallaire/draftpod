@@ -30,13 +30,14 @@ export default {
 </script>
 
 <template>
-
   <button 
     class="btn btn-sm btn-secondary text-light deck-view"
-    @click="onViewDeck" >
-    <ViewIcon/> View <span class="btn-extra-text">Decklist</span>
+    @click="onViewDeck"
+  >
+    <ViewIcon /> View <span class="btn-extra-text">
+      Decklist
+    </span>
   </button>
-
 </template>
 
 

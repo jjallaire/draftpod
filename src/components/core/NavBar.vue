@@ -1,14 +1,17 @@
 <template>
   <nav class="navbar navbar-dark navbar-expand-sm user-select-none">
-
     <img 
       class="navbar-logo" 
-      src="/images/logo.svg" >
+      src="/images/logo.svg"
+    >
     <span class="navbar-brand">
       <router-link 
         class="text-light" 
         to="/" 
-        exact>Draftpod</router-link>
+        exact
+      >
+        Draftpod
+      </router-link>
     </span>
     
     <slot>
@@ -23,22 +26,31 @@
         class="nav-item" 
         active-class="active" 
         to="/" 
-        exact>
-        <a class="nav-link">Home</a>
+        exact
+      >
+        <a class="nav-link">
+          Home
+        </a>
       </router-link>
       <router-link 
         tag="li" 
         class="nav-item" 
         active-class="active" 
-        to="/draft/">
-        <a class="nav-link">Draft</a>
+        to="/draft/"
+      >
+        <a class="nav-link">
+          Draft
+        </a>
       </router-link>
       <router-link 
         tag="li" 
         class="nav-item" 
         active-class="active" 
-        to="/guide/">
-        <a class="nav-link">Guide</a>
+        to="/guide/"
+      >
+        <a class="nav-link">
+          Guide
+        </a>
       </router-link>
     </ul>
     
@@ -47,7 +59,6 @@
       <img class="navbar-github-image" src="/images/github.png"/>
     </a>
     -->
-
   </nav>
 </template>
 

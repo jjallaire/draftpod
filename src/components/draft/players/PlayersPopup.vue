@@ -52,45 +52,54 @@ export default {
 </script>
 
 <template>
-
   <div class="players">
     <div class="players-column players-column-left">
       <PlayersPlayer 
         :player="players[0]" 
-        :draft="draft"/>
+        :draft="draft"
+      />
       <PlayersPlayer 
         :player="players[1]" 
-        :draft="draft"/>
+        :draft="draft"
+      />
       <PlayersPlayer 
         :player="players[2]" 
-        :draft="draft"/>
+        :draft="draft"
+      />
       <PlayersPlayer 
         :player="players[3]" 
-        :draft="draft"/>
+        :draft="draft"
+      />
     </div>
 
     <div class="players-table">
       <div 
         v-if="!picks_complete" 
-        class="pack-number">
+        class="pack-number"
+      >
         <PlayersArrow 
           v-if="current_pack !== 2" 
-          corner="top-right" />
+          corner="top-right"
+        />
         <PlayersArrow 
           v-if="current_pack !== 2" 
-          corner="bottom-left" />
+          corner="bottom-left"
+        />
         <PlayersArrow 
           v-if="current_pack === 2" 
-          corner="top-left" />
+          corner="top-left"
+        />
         <PlayersArrow 
           v-if="current_pack === 2" 
-          corner="bottom-right" />
+          corner="bottom-right"
+        />
         Pack {{ current_pack }}
       </div>
       <a 
         v-if="!picks_complete && !show_bot_colors && !multi_player" 
         class="show-bot-colors"
-        @click="onShowBotColors">
+        @click="onShowBotColors"
+      >
         Show bot colors
       </a>
     </div>
@@ -98,20 +107,22 @@ export default {
     <div class="players-column players-column-right">
       <PlayersPlayer 
         :player="players[7]" 
-        :draft="draft"/>
+        :draft="draft"
+      />
       <PlayersPlayer 
         :player="players[6]" 
-        :draft="draft"/>
+        :draft="draft"
+      />
       <PlayersPlayer 
         :player="players[5]" 
-        :draft="draft"/>
+        :draft="draft"
+      />
       <PlayersPlayer 
         :player="players[4]" 
-        :draft="draft"/>
+        :draft="draft"
+      />
     </div>
-  
   </div>
-
 </template>
 
 <style>

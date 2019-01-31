@@ -37,13 +37,12 @@ export default {
 </script>
 
 <template>
-
   <div class="pick-panel card bg-white">
-  
     <div class="card-header tabs-header">
       <ul 
         class="nav" 
-        role="tablist">
+        role="tablist"
+      >
         <li class="nav-item">
           <a 
             id="deck-tab" 
@@ -52,13 +51,15 @@ export default {
             href="#deck" 
             role="tab" 
             aria-controls="deck" 
-            aria-selected="true">
+            aria-selected="true"
+          >
             Picks
           </a>
         </li>
         <li 
           v-if="pick_ratings" 
-          class="nav-item">
+          class="nav-item"
+        >
           <a 
             id="pick-ratings-tab" 
             class="nav-link" 
@@ -66,7 +67,8 @@ export default {
             href="#pick-ratings"
             role="tab" 
             aria-controls="pick-ratings" 
-            aria-selected="false">
+            aria-selected="false"
+          >
             Ratings
           </a>
         </li>
@@ -78,7 +80,8 @@ export default {
         id="deck" 
         class="tab-pane fade show active" 
         role="tabpanel" 
-        aria-labelledby="deck-tab" >
+        aria-labelledby="deck-tab"
+      >
         <PickList :piles="picks.piles" />
       </div>
       <div 
@@ -86,14 +89,15 @@ export default {
         id="pick-ratings" 
         class="tab-pane fade" 
         role="tabpanel" 
-        aria-labelledby="pick-ratings-tab">
+        aria-labelledby="pick-ratings-tab"
+      >
         <PickRatings 
           :pick_ratings="pick_ratings" 
-          @pick-dragged="onPickDragged" />
+          @pick-dragged="onPickDragged"
+        />
       </div>
     </div>
   </div>
-
 </template>
 
 <style>

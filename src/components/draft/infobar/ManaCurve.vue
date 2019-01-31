@@ -108,7 +108,7 @@ function chartOptions(height) {
 </script>
 
 <template>
-  <div class="mana-curve ct-chart ct-perfect-fourth"/>
+  <div class="mana-curve ct-chart ct-perfect-fourth" />
 </template>
 
 <style>

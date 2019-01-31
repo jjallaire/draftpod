@@ -383,7 +383,6 @@ export default {
 </script>
 
 <template>
-
   <div v-if="firebase_error">
     <NavBar />
     <div class="container">
@@ -396,10 +395,9 @@ export default {
   </div>
 
   <div v-else>
-
     <NavBar> 
       <span class="navbar-text navbar-set-icon">
-        <SetIcon :set_code="set.code"/>   
+        <SetIcon :set_code="set.code" />   
       </span>
       <span class="navbar-text">
         {{ set.name }} 
@@ -408,7 +406,8 @@ export default {
           Pack {{ current_pack }}, Pick {{ current_pick }}
           <PickTimer 
             v-if="options.pick_timer && active_pack" 
-            :pick_end_time="active_player.pick_end_time" />
+            :pick_end_time="active_player.pick_end_time"
+          />
         </span>
       </span> 
     
@@ -422,13 +421,15 @@ export default {
               title="Players" 
               data-toggle="dropdown" 
               aria-haspopup="true" 
-              aria-expanded="false">
-              <PlayersIcon/> Players
+              aria-expanded="false"
+            >
+              <PlayersIcon /> Players
             </a>
             <div 
               class="dropdown-menu players-menu" 
-              aria-labelledby="playersMenuLink">
-              <PlayersPopup :draft="draft"/>
+              aria-labelledby="playersMenuLink"
+            >
+              <PlayersPopup :draft="draft" />
             </div>
           </div>
         </li>
@@ -437,25 +438,28 @@ export default {
           <a class="nav-link icon-link">
             <ExitToAppIcon 
               title="Exit Draft" 
-              @click.native="onExitDraft"/>
+              @click.native="onExitDraft"
+            />
           </a>
         </li>
         <li 
           v-if="fullscreenEnabled" 
-          class="nav-item">
+          class="nav-item"
+        >
           <a class="nav-link icon-link">
             <FullScreenExitIcon 
               v-if="fullscreen" 
               title="Exit fullscreen mode" 
-              @click.native="onFullscreenToggle"/>
+              @click.native="onFullscreenToggle"
+            />
             <FullScreenIcon 
               v-else 
               title="Fullscreen mode" 
-              @click.native="onFullscreenToggle"/>
+              @click.native="onFullscreenToggle"
+            />
           </a>
         </li>
-      </ul> 
-    
+      </ul>
     </NavBar>
 
     <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
@@ -463,27 +467,29 @@ export default {
         <transition name="pack-hide">
           <PackPanel 
             v-if="!picks_complete" 
-            :pack="active_pack"/>
+            :pack="active_pack"
+          />
         </transition>
         <PickPanel 
           v-if="!picks_complete" 
           :picks="active_player.picks" 
-          :pick_ratings="pick_ratings"/>
+          :pick_ratings="pick_ratings"
+        />
         <DeckPanel 
           v-else 
           :set_name="set.name" 
-          :deck="active_player.deck"/>
+          :deck="active_player.deck"
+        />
       </div>
 
       <InfoBar 
         v-if="!isMobile" 
         :card_preview="card_preview" 
         :cards="active_cards" 
-        class="user-select-none"/>
+        class="user-select-none"
+      />
     </div>
-  
   </div>
-
 </template>
 
 <style>

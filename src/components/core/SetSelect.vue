@@ -32,26 +32,38 @@ export default {
 </script>
 
 <template>
-
   <div class="form-group row">
     <label 
       for="draft-set" 
-      class="col-sm-3 col-form-label">Set:</label>
+      class="col-sm-3 col-form-label"
+    >
+      Set:
+    </label>
     <div class="col-sm-8">
       <select 
         id="draft-set" 
-        :disabled="disabled" 
         v-model="inputVal" 
-        class="form-control">
-        <option value="rna">Ravnica Allegiance</option>
-        <option value="grn">Guilds of Ravnica</option>
-        <option value="m19">Core Set 2019</option>
-        <option value="dom">Dominaria</option>
-        <option value="ust">Unstable</option>
+        :disabled="disabled" 
+        class="form-control"
+      >
+        <option value="rna">
+          Ravnica Allegiance
+        </option>
+        <option value="grn">
+          Guilds of Ravnica
+        </option>
+        <option value="m19">
+          Core Set 2019
+        </option>
+        <option value="dom">
+          Dominaria
+        </option>
+        <option value="ust">
+          Unstable
+        </option>
       </select>
     </div>
   </div>
-
 </template>
 
 <style>

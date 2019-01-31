@@ -21,28 +21,23 @@ export default {
 </script>
 
 <template>
- 
   <div class="error-page">
-    
     <NavBar />
 
     <div class="container">
       <div class="row">
         <div class="col-sm-10">
-
           <h2>{{ title }}</h2>
   
           <div class="error-content">
-            <slot/>
+            <slot />
           </div>
 
           <SiteFooter />
-
         </div>
       </div>
     </div>
   </div>
-
 </template>
 
 

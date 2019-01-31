@@ -46,27 +46,26 @@ export default {
 </script>
 
 <template>
-
   <div class="infobar">
-    
     <PreviewImage 
       :card_preview="cardImageUris[0]" 
-      :card_layout="cardLayout"/>
+      :card_layout="cardLayout"
+    />
     <transition name="flip-card">
       <PreviewImage 
         v-if="cardImageUris.length > 1" 
-        :card_preview="cardImageUris[1]" />
+        :card_preview="cardImageUris[1]"
+      />
     </transition>
     <UiPanel 
       class="deck-stats" 
-      caption="Cards"> 
+      caption="Cards"
+    > 
       <ManaLegend :cards="cards" />
       <ManaCurve :cards="cards" />
       <ManaColors :cards="cards" />
     </UiPanel>
-    
   </div>
-
 </template>
 
 <style>

@@ -36,13 +36,12 @@ export default {
 </script>
 
 <template>
-
   <a 
     class="remove-draft-button" 
-    @click.stop="onDraftRemove">
-    <DeleteIcon title="Remove draft"/>
+    @click.stop="onDraftRemove"
+  >
+    <DeleteIcon title="Remove draft" />
   </a>
-
 </template>
 
 <style>

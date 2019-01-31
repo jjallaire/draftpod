@@ -259,11 +259,13 @@ export default {
 </script>
 
 <template>
-
   <div class="form-group row">
     <label 
       for="draft-cardpool" 
-      class="col-sm-3 col-form-label">Cardpool:</label>
+      class="col-sm-3 col-form-label"
+    >
+      Cardpool:
+    </label>
     <div class="col-sm-8">
       <select 
         id="draft-cardpool" 
@@ -271,50 +273,68 @@ export default {
         :disabled="disabled" 
         :value="value"
         class="form-control" 
-        @change="onChangeCardpool">
+        @change="onChangeCardpool"
+      >
         <optgroup label="Set Cube">
           <option 
             v-for="option in options.cubes" 
             :key="option.value"
-            :value="option.value">{{ option.caption }}</option>
+            :value="option.value"
+          >
+            {{ option.caption }}
+          </option>
         </optgroup>
         <optgroup 
           v-if="supports_custom_cardpool" 
-          label="Custom">
+          label="Custom"
+        >
           <option 
             v-for="option in options.custom" 
             :key="option.value"
-            :value="option.value">{{ option.caption }}</option>
-          <option value="new-cardpool">New Custom Cardpool...</option>
+            :value="option.value"
+          >
+            {{ option.caption }}
+          </option>
+          <option value="new-cardpool">
+            New Custom Cardpool...
+          </option>
         </optgroup>
       </select>
       <div>
         <div class="custom-cardpool">
           <div 
             v-if="is_new_cardpool" 
-            class="cardpool-new navigator-inline-panel card-body bg-primary">
+            class="cardpool-new navigator-inline-panel card-body bg-primary"
+          >
             <div class="form-group">
-              <label for="custom-cardpool-name">Cardpool Name:</label>
+              <label for="custom-cardpool-name">
+                Cardpool Name:
+              </label>
               <input 
                 id="custom-cardpool-name" 
                 ref="cardpool_name" 
                 v-model="new_cardpool.name" 
                 class="form-control" 
-                placeholder="Enter name">
+                placeholder="Enter name"
+              >
             </div>
             <div class="form-group">
-              <label for="custom-cardpool-upload">Upload Cardpool:</label>
+              <label for="custom-cardpool-upload">
+                Upload Cardpool:
+              </label>
               <input 
                 id="custom-cardpool-upload" 
                 type="file" 
                 class="form-control cardpool-upload" 
                 aria-describedby="custom-cardpool-upload-help" 
                 accept="text/csv,.coll2" 
-                @change="onUploadCardpool">
+                @change="onUploadCardpool"
+              >
               <CardpoolUploadStatus :status="new_cardpool.upload_status" />
               <small 
                 id="custom-cardpool-upload-help" 
-                class="form-text text-muted">
+                class="form-text text-muted"
+              >
                 <p>
                   The cardpool file should either be a Decked Builder collection file (.coll2) or a CSV with <strong>id</strong> 
                   and <strong>quantity</strong> fields (Multiverse ID and number of each card, respectively).
@@ -325,31 +345,42 @@ export default {
                 <button 
                   type="button" 
                   class="btn btn-warning" 
-                  @click="onUseCardpool">Use Cardpool</button>
+                  @click="onUseCardpool"
+                >
+                  Use Cardpool
+                </button>
               </div>
             </div>
           </div>
           <div 
             v-else-if="selected_custom_cardpool" 
-            class="cardpool-bar">
+            class="cardpool-bar"
+          >
             <span class="cardpool-card-count">
               {{ selected_custom_cardpool_card_count | prettyNumber }} cards
             </span>
             {{ selected_custom_cardpool.updated | prettyDate }}
             <a 
               class="cardpool-action float-right" 
-              @click="onRemoveCardpool"><DeleteIcon title="Remove Cardpool"/><span>Remove</span></a>
+              @click="onRemoveCardpool"
+            >
+              <DeleteIcon title="Remove Cardpool" /><span>Remove</span>
+            </a>
             <a 
               class="cardpool-action float-right" 
-              @click="onUpdateCardpoolClicked"><UploadIcon title="Update Cardpool"/><span>Update...</span></a>
+              @click="onUpdateCardpoolClicked"
+            >
+              <UploadIcon title="Update Cardpool" /><span>Update...</span>
+            </a>
             <input 
               id="custom-cardpool-update" 
               ref="cardpool_upload_update" 
               type="file"
               accept="text/csv,.coll2" 
-              @change="onUpdateCardpoolUpload">
+              @change="onUpdateCardpoolUpload"
+            >
           </div>
-          <div style="clear: both;"/>
+          <div style="clear: both;" />
           <CardpoolUploadStatus :status="custom_cardpool.upload_status" />
         </div>
       </div>
