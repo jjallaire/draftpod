@@ -271,8 +271,7 @@ export function draftLog(player_id, draft) {
   let botIdx = 1;
   let playerIdx = 1;
   let log = {
-    event: draft.event_id,
-    time: new Date(draft.table.start_time).toLocaleDateString('en-US'),
+    time: draft.table.start_time,
     players: draft.table.players.map(player => {
       if (player.id === player_id) {
         playerIdx++;

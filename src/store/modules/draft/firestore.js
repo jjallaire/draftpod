@@ -134,8 +134,8 @@ export default {
     return ensureSignedIn()
       .then(() => {
         // prepare file to upload
-        let logFileName =  shortUuid().new() + ".txt";
-        let draftLog = JSON.stringify(selectors.draftLog(player_id, draft));
+        let logFileName =  shortUuid().new() + ".json";
+        let draftLog = JSON.stringify(selectors.draftLog(player_id, draft).packs);
         let metadata = {
           name: logFileName,
           contentType: 'application/json',

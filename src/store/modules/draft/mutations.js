@@ -19,7 +19,6 @@ export default {
 
     // initialize id and event id
     state.id = id;
-    state.event_id = shortUuid().new();
 
     // initialize set
     state.set = {
