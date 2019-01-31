@@ -7,7 +7,7 @@
     <span class="navbar-brand">
       <router-link 
         class="text-light" 
-        to="/" 
+        to="/draft/" 
         exact
       >
         Draftpod
