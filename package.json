@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test:unit": "jest",
+    "test": "npm run lint && npm run test:unit"
   },
   "dependencies": {
     "@sentry/browser": "^4.5.3",
@@ -41,13 +43,15 @@
     "@vue/cli-plugin-babel": "^3.3.0",
     "@vue/cli-plugin-eslint": "^3.3.0",
     "@vue/cli-service": "^3.3.1",
+    "jest": "^24.0.0",
     "vue-markdown-loader": "^2.4.1",
     "vue-template-compiler": "^2.5.22"
   },
   "eslintConfig": {
     "root": true,
     "env": {
-      "node": true
+      "node": true,
+      "jest": true
     },
     "extends": [
       "eslint:recommended",
