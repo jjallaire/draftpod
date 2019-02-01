@@ -2,7 +2,9 @@
 
 import DownloadIcon from "vue-material-design-icons/ArrowDownBoldBox.vue"
 
+import JSZip from 'jszip'
 import saveAs from 'file-saver';
+import * as draftlog from '@/store/modules/draft/draftlog'
 
 export default {
 
@@ -23,12 +25,28 @@ export default {
     }
   },
 
+  inject: [
+    'generateDraftLog'
+  ],
+
   methods: {
     onDownloadDeck(event) {
-      let blob = new Blob([this.deck_list], { type: "text/plain;charset=utf-8" });
-      let date = new Date();
-      let dateString = date.toISOString();
-      saveAs(blob, "Decklist - " + this.set_name + " (" + dateString + ").txt");
+
+      // draft file/folder name
+      let log = this.generateDraftLog();
+      let dateString = new Date(log.time).toISOString();
+      let draftName =  this.set_name + " (" + dateString + ")";
+
+      // generate mtgo log then download
+      draftlog.asMtgoLog(log).then(mtgoLog => {
+        let zip = new JSZip();
+        zip.file("Decklist.txt", this.deck_list);
+        zip.file("Draftlog.txt", mtgoLog);
+        return zip.generateAsync({type:"blob"});
+      }).then(blob => {
+        saveAs(blob, "Draftpod - " + draftName + ".zip");
+      });
+
       event.target.blur();
     }
   },
@@ -41,9 +59,7 @@ export default {
     class="btn btn-sm btn-secondary text-light deck-download"
     @click="onDownloadDeck"
   >
-    <DownloadIcon /> Download <span class="btn-extra-text">
-      Decklist
-    </span>
+    <DownloadIcon /> Download
   </button>
 </template>
 
