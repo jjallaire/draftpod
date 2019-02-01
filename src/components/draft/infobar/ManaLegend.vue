@@ -42,6 +42,7 @@ export default {
 
 .mana-key {
   padding-right: 12px;
+  margin-right: 4px;
 }
 
 .creatures-key {
