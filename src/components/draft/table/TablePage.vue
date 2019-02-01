@@ -49,6 +49,7 @@ const NS_DRAFTS = "drafts";
 
 import * as selectors from '@/store/modules/draft/selectors'
 import * as draftbot from '@/store/modules/draft/draftbot'
+import * as draftlog from '@/store/modules/draft/draftlog'
 import firestore from '@/store/modules/draft/firestore'
 
 export default {
@@ -322,6 +323,9 @@ export default {
     setCardPreview: function(card_preview) {
       this.card_preview = card_preview;
     },
+    generateDraftLog() {
+      return draftlog.generate(this.player.id, this.draft);
+    },
     onExitDraft: function() {
       if (this.options.multi_player) {
          messagebox.confirm(
@@ -388,7 +392,8 @@ export default {
         removePlayer: this.removePlayer,
         setShowBotColors: this.setShowBotColors,
         setCardPreview: this.setCardPreview,
-        touchDragManager: this.touchDragManager
+        touchDragManager: this.touchDragManager,
+        generateDraftLog: this.generateDraftLog
       }
     },
 

@@ -31,6 +31,26 @@ export function unserializeDraftTable(draft, stringify = true) {
   });
 }
 
+export function idsToCards(set_cards) {
+
+  // build a hash-table for the cards
+  let cards = {};
+  set_cards.forEach(card => {
+    cards[card.id] = card;
+  });
+
+  // unserialize either plain ids or object with id/key
+  return function(ids) {
+    return ids.map(id => { 
+      if (typeof id === 'object')
+        return { ...cards[id.id], key: id.key };
+      else
+        return cards[id];
+    });
+  }
+}
+
+
 
 function convertDraftTable(table, cardConverter) {
   return {
@@ -69,22 +89,4 @@ function cardsToIds(cards) {
   });  
 }
 
-function idsToCards(set_cards) {
-
-  // build a hash-table for the cards
-  let cards = {};
-  set_cards.forEach(card => {
-    cards[card.id] = card;
-  });
-
-  // unserialize either plain ids or object with id/key
-  return function(ids) {
-    return ids.map(id => { 
-      if (typeof id === 'object')
-        return { ...cards[id.id], key: id.key };
-      else
-        return cards[id];
-    });
-  }
-}
 

@@ -1,6 +1,7 @@
 
 import * as log from '@/core/log'
 import * as selectors from './selectors'
+import * as draftlog from './draftlog'
 import * as serializer from './serializer'
 
 // eslint-disable-next-line 
@@ -135,7 +136,7 @@ export default {
       .then(() => {
         // prepare file to upload
         let logFileName =  shortUuid().new() + ".json";
-        let draftLog = selectors.draftLog(player_id, draft);
+        let draftLog = draftlog.generate(player_id, draft);
         let metadata = {
           name: logFileName,
           contentType: 'application/json',
