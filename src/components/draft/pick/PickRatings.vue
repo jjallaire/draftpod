@@ -47,7 +47,9 @@ export default {
     },
 
     card_colors: function(card) {
-      return selectors.cardColors([card], true).filter((color) => color.count > 0);
+      return selectors.orderColorPair(
+        selectors.cardColors([card], true).filter((color) => color.count > 0)
+      );
     }
   },
 }

@@ -28,31 +28,37 @@ export function cardTypes(cards) {
 export function cardColorInfo(code) {
   switch(code) {
     case 'W': return {
+      code: 'W',
       name: "Plains",
       img: "/images/mana-white.svg",
       count: 0
     };
     case 'B': return {
+      code: 'B',
       name: "Swamp",
       img: "/images/mana-black.svg",
       count: 0
     };
     case 'U': return {
+      code: 'U',
       name: "Island",
       img: "/images/mana-blue.svg",
       count: 0
     };
     case 'R': return {
+      code: 'R',
       name: "Mountain",
       img: "/images/mana-red.svg",
       count: 0
     };
     case 'G': return {
+      code: 'G',
       name: "Forest",
       img: "/images/mana-green.svg",
       count: 0
     };
     case 'C':  return {
+      code: 'C',
       name: "Colorless",
       img: "/images/mana-colorless.svg",
       count: 0
@@ -107,8 +113,41 @@ export function cardColors(cards, includeLands = false, percentFilter = null, ma
   return colors;
 }
 
-export function playerColors(player_id, table, percentFilter = 0, maxColors = 2) {
-  return cardColors(activeCards(player_id, table), false, percentFilter, maxColors);
+export function playerColors(player_id, table) {
+  
+  // get colors
+  let colors = cardColors(activeCards(player_id, table), false, 0, 2);
+
+  // order them
+  return orderColorPair(colors);
+
+}
+
+export function orderColorPair(colors) {
+  
+  // apply standard ordering
+  if (colors.length === 2) {
+    let standardPairs = [
+      ['W', 'U'], // azorious
+      ['U', 'B'], // dimir
+      ['B', 'R'], // rakdos
+      ['R', 'G'], // gruul
+      ['G', 'W'], // selesnya
+      ['W', 'B'], // orzhov
+      ['U', 'R'], // izzet
+      ['B', 'G'], // golgari
+      ['R', 'W'], // boros
+      ['G', 'U'], // simic
+    ];
+    for (let i = 0; i<standardPairs.length; i++) {
+      let colorPair = standardPairs[i];
+      if (colors[0].code === colorPair[1] && colors[1].code === colorPair[0])
+        return [colors[1], colors[0]];
+    }    
+  } 
+
+  // fall through to just return the colors unmodified
+  return colors;
 }
 
 export function draftThumbnail(player_id, draft) {
