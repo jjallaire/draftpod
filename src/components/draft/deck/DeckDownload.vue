@@ -37,11 +37,24 @@ export default {
       let dateString = new Date(log.time).toISOString();
       let draftName =  this.set_name + " (" + dateString + ")";
 
+      let README = `This archive contains a record of your draft:
+
+  - Draftlog.txt: Log of every pick made in the draft
+  - Decklist.txt: Cards in main deck and sideboard
+         
+If you want to share your draft with others, these sites 
+enable you to publish your draft log and deck list:
+      
+  - https://magic.flooey.org/draft/upload
+  - http://draftsignals.com/
+`;
+
       // generate mtgo log then download
       draftlog.asMtgoLog(log).then(mtgoLog => {
         let zip = new JSZip();
         zip.file("Decklist.txt", this.deck_list);
         zip.file("Draftlog.txt", mtgoLog);
+        zip.file("README.txt", README);
         return zip.generateAsync({type:"blob"});
       }).then(blob => {
         saveAs(blob, "Draftpod - " + draftName + ".zip");
