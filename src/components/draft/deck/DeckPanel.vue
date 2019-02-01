@@ -7,7 +7,6 @@ import DeckView from './DeckView.vue'
 import DeckLands from './DeckLands.vue'
 
 import * as selectors from '@/store/modules/draft/selectors'
-import * as draftlog from '@/store/modules/draft/draftlog'
 import { DECK } from '@/store/modules/draft/constants'
 
 
@@ -65,17 +64,6 @@ export default {
         return 10;
     }
   },
-
-  mounted() {
-    let log = this.generateDraftLog();
-    draftlog.asMtgoLog(log).then(log => {
-      console.log(log);
-    });
-  },
-
-  inject: [
-    'generateDraftLog'
-  ]
 }
 
 </script>
