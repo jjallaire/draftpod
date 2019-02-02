@@ -61,6 +61,12 @@ export default {
         <option value="ust">
           Unstable
         </option>
+        <option value="mma">
+          Modern Masters
+        </option>
+        <option value="isd">
+          Innistrad
+        </option>
       </select>
     </div>
   </div>
