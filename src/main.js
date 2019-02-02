@@ -17,12 +17,14 @@ import router from './core/router'
 import { initializeStore } from './store'
 import { SET_PLAYER_INFO } from './store/mutations'
 
+import config from './config'
+
 // check for production mode
 let production = process.env.NODE_ENV === 'production';
 
 // configure google analytics
 Vue.use(VueAnalytics, {
-  id: 'UA-20375833-22',
+  id: config.ga.id,
   router: router,
   debug: {
     sendHitTask: production
@@ -32,7 +34,7 @@ Vue.use(VueAnalytics, {
 // configure sentry in production mode
 if (production) {
   Sentry.init({
-    dsn: 'https://49f3775ddef847b6a96c84d63bdeb02b@sentry.io/1331583',
+    dsn: config.sentry.dsn,
     integrations: [new Sentry.Integrations.Vue({ Vue })]
   });
 }

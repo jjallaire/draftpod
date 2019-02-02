@@ -4,9 +4,8 @@ import * as selectors from './selectors'
 import * as draftlog from './draftlog'
 import * as serializer from './serializer'
 
-// eslint-disable-next-line 
 import * as messagebox from '@/components/core/messagebox.js'
-import { firestore, draft_storage } from '../../firebase'
+import { firestore, draft_storage } from '@/core/firebase'
 import shortUuid from 'short-uuid'
 
 // track logged in status
