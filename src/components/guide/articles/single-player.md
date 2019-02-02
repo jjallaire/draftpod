@@ -42,6 +42,28 @@ Note that bot colors by default only appear at the end of the draft. If however 
 <img src="/images/guide/show-bot-colors.png" width="100%" />
 </p>
 
+If you are practicing reading signals often just seeing bot colors after pack 1 provides enough feedback to let you know whether you've read things correctly.
+
+### Reviewing Drafts
+
+If you want to review amd analyze your draft after it's complete, you can download a draft log and decklist using the **Download** button within the deck builder:
+
+<p>
+<img src="/images/guide/download-deck.png" width="100%" />
+</p>
+
+The download includes 2 files:
+
+- **Draftlog.txt** &mdash; A log of every pick made in the draft
+- **Decklist.txt** &mdash; List of main deck and sideboard cards
+         
+
+These files can in turn be uploaded to these websites, both of which allow you to view a pick-by-pick replay of your draft:
+
+  - <https://magic.flooey.org/draft/upload>
+  - <http://draftsignals.com/>
+
+
 
 
 

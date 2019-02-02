@@ -3,6 +3,7 @@ import * as selectors from './selectors'
 import * as serializer from './serializer'
 
 import _remove from 'lodash/remove'
+import shortUuid from 'short-uuid'
 
 export function generate(player_id, draft) {
 
@@ -110,7 +111,7 @@ export function asMtgoLog(log) {
   return Promise.all(setDownloads).then(() => {
 
     // preamble
-    lines.push("Event #: " + log.id);
+    lines.push("Event #: " + shortUuid().new());
     lines.push("Time:    " + new Date(log.time).toLocaleDateString('en-US'));
     lines.push("Players:");
     log.players.forEach(player => {

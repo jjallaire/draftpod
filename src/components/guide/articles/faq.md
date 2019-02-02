@@ -41,3 +41,23 @@ Applying the LSV distribution to pick orders enables us to derive ratings for an
 
 Your last several drafts are saved by Draftpod within your web browser's local storage. You can review and return to these recent drafts so long as you are using the same browser (if you switch to another browser you won't see the drafts created within the first browser).
 
+If you want to sakeepve a more permanent record of your drafts, you can download draft logs and decklists using the **Download** button within the deck builder:
+
+<p>
+<img src="/images/guide/download-deck.png" width="100%" />
+</p>
+
+The download includes 2 files:
+
+- **Draftlog.txt** &mdash; A log of every pick made in the draft
+- **Decklist.txt** &mdash; List of main deck and sideboard cards
+         
+These files can in turn be uploaded to these websites, both of which allow you to view a pick-by-pick replay of your draft:
+
+  - <https://magic.flooey.org/draft/upload>
+  - <http://draftsignals.com/>
+
+
+
+
+
