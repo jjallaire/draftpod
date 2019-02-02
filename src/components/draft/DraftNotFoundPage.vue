@@ -31,9 +31,7 @@ export default {
     <h5>The requested draft was not found.</h5>
     <br>
     <p>
-      The draft URL you requested (<a :href="draft_url">
-        {{ draft_url }}
-      </a>) may not refer to a valid draft.
+      The draft URL you requested (<a :href="draft_url">{{ draft_url }}</a>) may not refer to a valid draft.
     </p>
 
     <p>
