@@ -28,7 +28,8 @@ export default {
           <hr>
 
           <img 
-            class="img-fluid draftpod-screenshot" 
+            class="draftpod-screenshot" 
+            width="50%"
             align="left" 
             src="/images/screenshot.png"
           >
@@ -80,7 +81,6 @@ export default {
 }
 
 .home-content .draftpod-screenshot {
-  width: 50%;
   margin-right: 45px;
 }
 
