@@ -11,7 +11,8 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    "vue/prop-name-casing": ["error", "snake_case"]
+    "vue/prop-name-casing": ["error", "snake_case"],
+    "vue/singleline-html-element-content-newline": ["off"]
   },
   parserOptions: {
     parser: 'babel-eslint'
