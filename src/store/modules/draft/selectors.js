@@ -5,7 +5,8 @@ import * as draftbot from './draftbot'
 import * as set from './set'
 import { DECK } from './constants'
 
-const local_images = true && process.env.NODE_ENV !== 'production';
+const local_images = process.env.VUE_APP_LOCAL_IMAGES && 
+                     process.env.NODE_ENV !== 'production';
 
 // get card image_uris (support local images for development)
 export function cardImageUris(card) {
