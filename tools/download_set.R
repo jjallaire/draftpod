@@ -117,9 +117,7 @@ download_set <- function(set,
                                  grn = 259,
                                  m19 = 280,
                                  dom = 269,
-                                 ust = 216,
-                                 mma = 229,
-                                 isd = 249
+                                 ust = 216
   )
   cards <- Filter(function(card) card$collector_number <= max_collector_number, cards)
   
