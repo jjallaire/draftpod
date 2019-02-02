@@ -191,7 +191,10 @@ export default {
     // resume draft
     this.resumeDraft().then((success) => {
   
-      // multiplayer
+      // for multiplayer, subscribe to changes in firestore. in the case of multiplayer
+      // the success flag indicates whether we wrote all the way through to firestore. if
+      // we did then subscribe to changes, otherwise don't (in that case the document
+      // may have been purged within firestore)
       if (success && this.options.multi_player) {
 
         // wait to validate the client until we see our first commit

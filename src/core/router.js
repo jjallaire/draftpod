@@ -85,14 +85,24 @@ export default new VueRouter({
           // bind draft module
           useDraftModule(draft_id, { preserveState: true });
 
-          // sync from firestore if this is a multi-player draft
-          if (store.state.drafts[draft_id].options.multi_player) {
+          // attempt to sync from firestore if this is a multi-player draft 
+          let localDraft = store.state.drafts[draft_id];
+          if (localDraft.options.multi_player) {
 
             progress.start(350);
             firestore.getDraft(draft_id).then(draft => {
+
+              // if we got the draft then save it and move on to the page
               if (draft) {
                 store.commit(SET_DRAFT, { draft_id, draft });
                 next();
+              
+              // if picks are already complete then we can ignore when the
+              // draft isn't found (as it may have been purged from firestore)
+              } else if (localDraft.table.picks_complete) {
+                next();
+              
+              // otherwise show draft not found page
               } else {
                 draftNotFound(next, draft_id);
               }
@@ -112,7 +122,7 @@ export default new VueRouter({
               progress.stop();
             });
            
-          // single player draft, proceed without syncing
+          // proceed without syncing
           } else {
             next();
           }
