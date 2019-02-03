@@ -5,6 +5,8 @@ import m19 from './set-m19'
 import grn from './set-grn'
 import rna from './set-rna'
 import ust from './set-ust'
+import xln from './set-xln'
+import rix from './set-rix'
 
 import axios from 'axios'
 
@@ -13,7 +15,9 @@ const sets = {
   m19,
   grn,
   rna,
-  ust
+  ust,
+  xln,
+  rix
 }
 
 const cards_cache = {

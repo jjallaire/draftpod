@@ -58,6 +58,12 @@ export default {
         <option value="dom">
           Dominaria
         </option>
+        <option value="rix">
+          Rivals of Ixalan
+        </option>
+        <option value="xln">
+          Ixalan
+        </option>
         <option value="ust">
           Unstable
         </option>

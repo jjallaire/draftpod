@@ -1,0 +1,4773 @@
+[
+  {
+    "id": 435152,
+    "name": "Adanto Vanguard",
+    "collector_number": 1,
+    "multiverse_ids": [
+      435152
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/1.jpg?1527427467"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Soldier",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435373,
+    "name": "Admiral Beckett Brass",
+    "collector_number": 217,
+    "multiverse_ids": [
+      435373
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/217.jpg?1527430800"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Pirate",
+    "mana_cost": "{1}{U}{B}{R}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": 3
+  },
+  {
+    "id": 435197,
+    "name": "Air Elemental",
+    "collector_number": 45,
+    "multiverse_ids": [
+      435197
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/45.jpg?1527428107"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{3}{U}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435330,
+    "name": "Ancient Brontodon",
+    "collector_number": 175,
+    "multiverse_ids": [
+      435330
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/175.jpg?1527430126"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{6}{G}{G}",
+    "cmc": 8,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 435286,
+    "name": "Angrath's Marauders",
+    "collector_number": 132,
+    "multiverse_ids": [
+      435286
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/132.jpg?1527429400"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{5}{R}{R}",
+    "cmc": 7,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 2.5
+  },
+  {
+    "id": 435242,
+    "name": "Anointed Deacon",
+    "collector_number": 89,
+    "multiverse_ids": [
+      435242
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/89.jpg?1527428773"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Cleric",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435198,
+    "name": "Arcane Adaptation",
+    "collector_number": 46,
+    "multiverse_ids": [
+      435198
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/46.jpg?1527428123"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 0.5
+  },
+  {
+    "id": 435243,
+    "name": "Arguel's Blood Fast // Temple of Aclazotz",
+    "collector_number": 90,
+    "multiverse_ids": [
+      435243,
+      435244
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/xln/90a.jpg?1527428806",
+      "https://img.scryfall.com/cards/normal/en/xln/90b.jpg?1527428806"
+    ],
+    "layout": "transform",
+    "type_line": "Legendary Enchantment // Legendary Land",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 2
+  },
+  {
+    "id": 435153,
+    "name": "Ashes of the Abhorrent",
+    "collector_number": 2,
+    "multiverse_ids": [
+      435153
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/2.jpg?1527427483"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 0.5
+  },
+  {
+    "id": 435331,
+    "name": "Atzocan Archer",
+    "collector_number": 176,
+    "multiverse_ids": [
+      435331
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/176.jpg?1527430142"],
+    "layout": "normal",
+    "type_line": "Creature — Human Archer",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 435154,
+    "name": "Axis of Mortality",
+    "collector_number": 3,
+    "multiverse_ids": [
+      435154
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/3.jpg?1527427496"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{4}{W}{W}",
+    "cmc": 6,
+    "colors": [
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 0.5
+  },
+  {
+    "id": 435374,
+    "name": "Belligerent Brontodon",
+    "collector_number": 218,
+    "multiverse_ids": [
+      435374
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/218.jpg?1527430813"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{5}{G}{W}",
+    "cmc": 7,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 435155,
+    "name": "Bellowing Aegisaur",
+    "collector_number": 4,
+    "multiverse_ids": [
+      435155
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/4.jpg?1527427510"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{5}{W}",
+    "cmc": 6,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435156,
+    "name": "Bishop of Rebirth",
+    "collector_number": 5,
+    "multiverse_ids": [
+      435156
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/5.jpg?1527427524"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Cleric",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 435245,
+    "name": "Bishop of the Bloodstained",
+    "collector_number": 91,
+    "multiverse_ids": [
+      435245
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/91.jpg?1527428823"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Cleric",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435157,
+    "name": "Bishop's Soldier",
+    "collector_number": 6,
+    "multiverse_ids": [
+      435157
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/6.jpg?1527427542"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Soldier",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435246,
+    "name": "Blight Keeper",
+    "collector_number": 92,
+    "multiverse_ids": [
+      435246
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/92.jpg?1527428835"],
+    "layout": "normal",
+    "type_line": "Creature — Bat Imp",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435332,
+    "name": "Blinding Fog",
+    "collector_number": 177,
+    "multiverse_ids": [
+      435332
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/177.jpg?1527430157"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435247,
+    "name": "Bloodcrazed Paladin",
+    "collector_number": 93,
+    "multiverse_ids": [
+      435247
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/93.jpg?1535332848"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Knight",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 435333,
+    "name": "Blossom Dryad",
+    "collector_number": 178,
+    "multiverse_ids": [
+      435333
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/178.jpg?1527430170"],
+    "layout": "normal",
+    "type_line": "Creature — Dryad",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435287,
+    "name": "Bonded Horncrest",
+    "collector_number": 133,
+    "multiverse_ids": [
+      435287
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/133.jpg?1527429416"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 435248,
+    "name": "Boneyard Parley",
+    "collector_number": 94,
+    "multiverse_ids": [
+      435248
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/94.jpg?1527428866"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{5}{B}{B}",
+    "cmc": 7,
+    "colors": [
+      "B"
+    ],
+    "rarity": "mythic",
+    "rating": 2
+  },
+  {
+    "id": 435288,
+    "name": "Brazen Buccaneers",
+    "collector_number": 134,
+    "multiverse_ids": [
+      435288
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/134.jpg?1527429430"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435158,
+    "name": "Bright Reprisal",
+    "collector_number": 7,
+    "multiverse_ids": [
+      435158
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/7.jpg?1527427558"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435289,
+    "name": "Burning Sun's Avatar",
+    "collector_number": 135,
+    "multiverse_ids": [
+      435289
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/135.jpg?1527429445"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur Avatar",
+    "mana_cost": "{3}{R}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 435375,
+    "name": "Call to the Feast",
+    "collector_number": 219,
+    "multiverse_ids": [
+      435375
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/219.jpg?1527430825"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{W}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435199,
+    "name": "Cancel",
+    "collector_number": 47,
+    "multiverse_ids": [
+      435199
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/47.jpg?1527428137"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435290,
+    "name": "Captain Lannery Storm",
+    "collector_number": 136,
+    "multiverse_ids": [
+      435290
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/136.jpg?1527429461"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Pirate",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435291,
+    "name": "Captivating Crew",
+    "collector_number": 137,
+    "multiverse_ids": [
+      435291
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/137.jpg?1527429474"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4.5
+  },
+  {
+    "id": 435334,
+    "name": "Carnage Tyrant",
+    "collector_number": 179,
+    "multiverse_ids": [
+      435334
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/179.jpg?1527430183"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5
+  },
+  {
+    "id": 435292,
+    "name": "Charging Monstrosaur",
+    "collector_number": 138,
+    "multiverse_ids": [
+      435292
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/138.jpg?1527429486"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 4
+  },
+  {
+    "id": 435200,
+    "name": "Chart a Course",
+    "collector_number": 48,
+    "multiverse_ids": [
+      435200
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/48.jpg?1527428151"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435389,
+    "name": "Cobbled Wings",
+    "collector_number": 233,
+    "multiverse_ids": [
+      435389
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/233.jpg?1527431027"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435335,
+    "name": "Colossal Dreadmaw",
+    "collector_number": 180,
+    "multiverse_ids": [
+      435335
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/180.jpg?1527430202"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435336,
+    "name": "Commune with Dinosaurs",
+    "collector_number": 181,
+    "multiverse_ids": [
+      435336
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/181.jpg?1527430214"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435390,
+    "name": "Conqueror's Galleon // Conqueror's Foothold",
+    "collector_number": 234,
+    "multiverse_ids": [
+      435390,
+      435391
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/xln/234a.jpg?1527431057",
+      "https://img.scryfall.com/cards/normal/en/xln/234b.jpg?1527431057"
+    ],
+    "layout": "transform",
+    "type_line": "Artifact — Vehicle // Land",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 435249,
+    "name": "Contract Killing",
+    "collector_number": 95,
+    "multiverse_ids": [
+      435249
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/95.jpg?1527428880"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 435250,
+    "name": "Costly Plunder",
+    "collector_number": 96,
+    "multiverse_ids": [
+      435250
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/96.jpg?1527428894"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435337,
+    "name": "Crash the Ramparts",
+    "collector_number": 182,
+    "multiverse_ids": [
+      435337
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/182.jpg?1527430234"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435338,
+    "name": "Crushing Canopy",
+    "collector_number": 183,
+    "multiverse_ids": [
+      435338
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/183.jpg?1527430248"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435201,
+    "name": "Daring Saboteur",
+    "collector_number": 49,
+    "multiverse_ids": [
+      435201
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/49.jpg?1527428164"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435251,
+    "name": "Dark Nourishment",
+    "collector_number": 97,
+    "multiverse_ids": [
+      435251
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/97.jpg?1527428908"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435376,
+    "name": "Deadeye Plunderers",
+    "collector_number": 220,
+    "multiverse_ids": [
+      435376
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/220.jpg?1527430842"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{3}{U}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 435202,
+    "name": "Deadeye Quartermaster",
+    "collector_number": 50,
+    "multiverse_ids": [
+      435202
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/50.jpg?1527428179"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 435252,
+    "name": "Deadeye Tormentor",
+    "collector_number": 98,
+    "multiverse_ids": [
+      435252
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/98.jpg?1527428923"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435253,
+    "name": "Deadeye Tracker",
+    "collector_number": 99,
+    "multiverse_ids": [
+      435253
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/99.jpg?1527428937"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 435339,
+    "name": "Deathgorge Scavenger",
+    "collector_number": 184,
+    "multiverse_ids": [
+      435339
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/184.jpg?1527430260"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435254,
+    "name": "Deathless Ancient",
+    "collector_number": 100,
+    "multiverse_ids": [
+      435254
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/100.jpg?1527428951"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Knight",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435340,
+    "name": "Deeproot Champion",
+    "collector_number": 185,
+    "multiverse_ids": [
+      435340
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/185.jpg?1527430274"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Shaman",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 2
+  },
+  {
+    "id": 435341,
+    "name": "Deeproot Warrior",
+    "collector_number": 186,
+    "multiverse_ids": [
+      435341
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/186.jpg?1527430287"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Warrior",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435203,
+    "name": "Deeproot Waters",
+    "collector_number": 51,
+    "multiverse_ids": [
+      435203
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/51.jpg?1527428192"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 435293,
+    "name": "Demolish",
+    "collector_number": 139,
+    "multiverse_ids": [
+      435293
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/139.jpg?1527429501"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435159,
+    "name": "Demystify",
+    "collector_number": 8,
+    "multiverse_ids": [
+      435159
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/8.jpg?1527427570"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435204,
+    "name": "Depths of Desire",
+    "collector_number": 52,
+    "multiverse_ids": [
+      435204
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/52.jpg?1527428208"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435255,
+    "name": "Desperate Castaways",
+    "collector_number": 101,
+    "multiverse_ids": [
+      435255
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/101.jpg?1527428971"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435294,
+    "name": "Dinosaur Stampede",
+    "collector_number": 140,
+    "multiverse_ids": [
+      435294
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/140.jpg?1527429513"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 435377,
+    "name": "Dire Fleet Captain",
+    "collector_number": 221,
+    "multiverse_ids": [
+      435377
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/221.jpg?1527430855"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Pirate",
+    "mana_cost": "{B}{R}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435256,
+    "name": "Dire Fleet Hoarder",
+    "collector_number": 102,
+    "multiverse_ids": [
+      435256
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/102.jpg?1527428984"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435257,
+    "name": "Dire Fleet Interloper",
+    "collector_number": 103,
+    "multiverse_ids": [
+      435257
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/103.jpg?1527428998"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435258,
+    "name": "Dire Fleet Ravager",
+    "collector_number": 104,
+    "multiverse_ids": [
+      435258
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/104.jpg?1527429011"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Pirate Wizard",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "mythic",
+    "rating": 3.5
+  },
+  {
+    "id": 435205,
+    "name": "Dive Down",
+    "collector_number": 53,
+    "multiverse_ids": [
+      435205
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/53.jpg?1527428220"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435392,
+    "name": "Dowsing Dagger // Lost Vale",
+    "collector_number": 235,
+    "multiverse_ids": [
+      435392,
+      435393
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/xln/235a.jpg?1527431099",
+      "https://img.scryfall.com/cards/normal/en/xln/235b.jpg?1527431099"
+    ],
+    "layout": "transform",
+    "type_line": "Artifact — Equipment // Land",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 2
+  },
+  {
+    "id": 435413,
+    "name": "Dragonskull Summit",
+    "collector_number": 252,
+    "multiverse_ids": [
+      435413
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/252.jpg?1527431403"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 1.5
+  },
+  {
+    "id": 435206,
+    "name": "Dreamcaller Siren",
+    "collector_number": 54,
+    "multiverse_ids": [
+      435206
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/54.jpg?1527428234"],
+    "layout": "normal",
+    "type_line": "Creature — Siren Pirate",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435342,
+    "name": "Drover of the Mighty",
+    "collector_number": 187,
+    "multiverse_ids": [
+      435342
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/187.jpg?1527430307"],
+    "layout": "normal",
+    "type_line": "Creature — Human Druid",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435414,
+    "name": "Drowned Catacomb",
+    "collector_number": 253,
+    "multiverse_ids": [
+      435414
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/253.jpg?1527431423"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 1.5
+  },
+  {
+    "id": 435295,
+    "name": "Dual Shot",
+    "collector_number": 141,
+    "multiverse_ids": [
+      435295
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/141.jpg?1527429526"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435259,
+    "name": "Duress",
+    "collector_number": 105,
+    "multiverse_ids": [
+      435259
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/105.jpg?1527429026"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435160,
+    "name": "Duskborne Skymarcher",
+    "collector_number": 9,
+    "multiverse_ids": [
+      435160
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/9.jpg?1527427584"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Cleric",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435394,
+    "name": "Dusk Legion Dreadnought",
+    "collector_number": 236,
+    "multiverse_ids": [
+      435394
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/236.jpg?1527431120"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 435395,
+    "name": "Elaborate Firecannon",
+    "collector_number": 237,
+    "multiverse_ids": [
+      435395
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/237.jpg?1527431132"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 435343,
+    "name": "Emergent Growth",
+    "collector_number": 188,
+    "multiverse_ids": [
+      435343
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/188.jpg?1527430327"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 435161,
+    "name": "Emissary of Sunrise",
+    "collector_number": 10,
+    "multiverse_ids": [
+      435161
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/10.jpg?1527427597"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435344,
+    "name": "Emperor's Vanguard",
+    "collector_number": 189,
+    "multiverse_ids": [
+      435344
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/189.jpg?1527430348"],
+    "layout": "normal",
+    "type_line": "Creature — Human Scout",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435162,
+    "name": "Encampment Keeper",
+    "collector_number": 11,
+    "multiverse_ids": [
+      435162
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/11.jpg?1527427615"],
+    "layout": "normal",
+    "type_line": "Creature — Hound",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 435207,
+    "name": "Entrancing Melody",
+    "collector_number": 55,
+    "multiverse_ids": [
+      435207
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/55.jpg?1527428248"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{X}{U}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435260,
+    "name": "Fathom Fleet Captain",
+    "collector_number": 106,
+    "multiverse_ids": [
+      435260
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/106.jpg?1527429041"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435261,
+    "name": "Fathom Fleet Cutthroat",
+    "collector_number": 107,
+    "multiverse_ids": [
+      435261
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/107.jpg?1527429056"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435296,
+    "name": "Fathom Fleet Firebrand",
+    "collector_number": 142,
+    "multiverse_ids": [
+      435296
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/142.jpg?1527429540"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435208,
+    "name": "Favorable Winds",
+    "collector_number": 56,
+    "multiverse_ids": [
+      435208
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/56.jpg?1527428261"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 435396,
+    "name": "Fell Flagship",
+    "collector_number": 238,
+    "multiverse_ids": [
+      435396
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/238.jpg?1527431149"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 435415,
+    "name": "Field of Ruin",
+    "collector_number": 254,
+    "multiverse_ids": [
+      435415
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/254.jpg?1527431443"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 435297,
+    "name": "Fiery Cannonade",
+    "collector_number": 143,
+    "multiverse_ids": [
+      435297
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/143.jpg?1527429554"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435299,
+    "name": "Firecannon Blast",
+    "collector_number": 145,
+    "multiverse_ids": [
+      435299
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/145.jpg?1527429579"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 435298,
+    "name": "Fire Shrine Keeper",
+    "collector_number": 144,
+    "multiverse_ids": [
+      435298
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/144.jpg?1527429568"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435209,
+    "name": "Fleet Swallower",
+    "collector_number": 57,
+    "multiverse_ids": [
+      435209
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/57.jpg?1527428279"],
+    "layout": "normal",
+    "type_line": "Creature — Fish",
+    "mana_cost": "{5}{U}{U}",
+    "cmc": 7,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 2.5
+  },
+  {
+    "id": 435437,
+    "name": "Forest",
+    "collector_number": 276,
+    "multiverse_ids": [
+      435437
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/276.jpg?1527431779"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435300,
+    "name": "Frenzied Raptor",
+    "collector_number": 146,
+    "multiverse_ids": [
+      435300
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/146.jpg?1527429598"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435397,
+    "name": "Gilded Sentinel",
+    "collector_number": 239,
+    "multiverse_ids": [
+      435397
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/239.jpg?1527431162"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Golem",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435378,
+    "name": "Gishath, Sun's Avatar",
+    "collector_number": 222,
+    "multiverse_ids": [
+      435378
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/222.jpg?1527430869"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Dinosaur Avatar",
+    "mana_cost": "{5}{R}{G}{W}",
+    "cmc": 8,
+    "colors": [
+      "G",
+      "R",
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 3
+  },
+  {
+    "id": 435416,
+    "name": "Glacial Fortress",
+    "collector_number": 255,
+    "multiverse_ids": [
+      435416
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/255.jpg?1527431458"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 1
+  },
+  {
+    "id": 435163,
+    "name": "Glorifier of Dusk",
+    "collector_number": 12,
+    "multiverse_ids": [
+      435163
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/12.jpg?1527427628"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Soldier",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435164,
+    "name": "Goring Ceratops",
+    "collector_number": 13,
+    "multiverse_ids": [
+      435164
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/13.jpg?1527427647"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{5}{W}{W}",
+    "cmc": 7,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 2.5
+  },
+  {
+    "id": 435345,
+    "name": "Grazing Whiptail",
+    "collector_number": 190,
+    "multiverse_ids": [
+      435345
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/190.jpg?1527430368"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{2}{G}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435262,
+    "name": "Grim Captain's Call",
+    "collector_number": 108,
+    "multiverse_ids": [
+      435262
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/108.jpg?1527429072"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 435346,
+    "name": "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
+    "collector_number": 191,
+    "multiverse_ids": [
+      435346,
+      435347
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/xln/191a.jpg?1527430399",
+      "https://img.scryfall.com/cards/normal/en/xln/191b.jpg?1527430399"
+    ],
+    "layout": "transform",
+    "type_line": "Legendary Enchantment // Legendary Land",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 1.5
+  },
+  {
+    "id": 435301,
+    "name": "Headstrong Brute",
+    "collector_number": 147,
+    "multiverse_ids": [
+      435301
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/147.jpg?1527429611"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Pirate",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435210,
+    "name": "Headwater Sentries",
+    "collector_number": 58,
+    "multiverse_ids": [
+      435210
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/58.jpg?1527428291"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Warrior",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 435263,
+    "name": "Heartless Pillage",
+    "collector_number": 109,
+    "multiverse_ids": [
+      435263
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/109.jpg?1527429083"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 435211,
+    "name": "Herald of Secret Streams",
+    "collector_number": 59,
+    "multiverse_ids": [
+      435211
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/59.jpg?1527428304"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Warrior",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 435398,
+    "name": "Hierophant's Chalice",
+    "collector_number": 240,
+    "multiverse_ids": [
+      435398
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/240.jpg?1527431174"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435302,
+    "name": "Hijack",
+    "collector_number": 148,
+    "multiverse_ids": [
+      435302
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/148.jpg?1527429626"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435379,
+    "name": "Hostage Taker",
+    "collector_number": 223,
+    "multiverse_ids": [
+      435379
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/223.jpg?1527430883"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{2}{U}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 4.5
+  },
+  {
+    "id": 435380,
+    "name": "Huatli, Warrior Poet",
+    "collector_number": 224,
+    "multiverse_ids": [
+      435380
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/224.jpg?1527430898"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Huatli",
+    "mana_cost": "{3}{R}{W}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5
+  },
+  {
+    "id": 435165,
+    "name": "Imperial Aerosaur",
+    "collector_number": 14,
+    "multiverse_ids": [
+      435165
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/14.jpg?1527427662"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435166,
+    "name": "Imperial Lancer",
+    "collector_number": 15,
+    "multiverse_ids": [
+      435166
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/15.jpg?1527427677"],
+    "layout": "normal",
+    "type_line": "Creature — Human Knight",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 435167,
+    "name": "Inspiring Cleric",
+    "collector_number": 16,
+    "multiverse_ids": [
+      435167
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/16.jpg?1527427691"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Cleric",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435425,
+    "name": "Island",
+    "collector_number": 264,
+    "multiverse_ids": [
+      435425
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/264.jpg?1527431586"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435168,
+    "name": "Ixalan's Binding",
+    "collector_number": 17,
+    "multiverse_ids": [
+      435168
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/17.jpg?1527427704"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 4
+  },
+  {
+    "id": 435348,
+    "name": "Ixalli's Diviner",
+    "collector_number": 192,
+    "multiverse_ids": [
+      435348
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/192.jpg?1527430420"],
+    "layout": "normal",
+    "type_line": "Creature — Human Druid",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435349,
+    "name": "Ixalli's Keeper",
+    "collector_number": 193,
+    "multiverse_ids": [
+      435349
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/193.jpg?1527430437"],
+    "layout": "normal",
+    "type_line": "Creature — Human Shaman",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435212,
+    "name": "Jace, Cunning Castaway",
+    "collector_number": 60,
+    "multiverse_ids": [
+      435212
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/60.jpg?1527428317"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Jace",
+    "mana_cost": "{1}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": 3.5
+  },
+  {
+    "id": 435350,
+    "name": "Jade Guardian",
+    "collector_number": 194,
+    "multiverse_ids": [
+      435350
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/194.jpg?1527430450"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Shaman",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435351,
+    "name": "Jungle Delver",
+    "collector_number": 195,
+    "multiverse_ids": [
+      435351
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/195.jpg?1527430470"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Warrior",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435169,
+    "name": "Kinjalli's Caller",
+    "collector_number": 18,
+    "multiverse_ids": [
+      435169
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/18.jpg?1527427716"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435170,
+    "name": "Kinjalli's Sunwing",
+    "collector_number": 19,
+    "multiverse_ids": [
+      435170
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/19.jpg?1527427732"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 435264,
+    "name": "Kitesail Freebooter",
+    "collector_number": 110,
+    "multiverse_ids": [
+      435264
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/110.jpg?1527429096"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435213,
+    "name": "Kopala, Warden of Waves",
+    "collector_number": 61,
+    "multiverse_ids": [
+      435213
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/61.jpg?1527428330"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Merfolk Wizard",
+    "mana_cost": "{1}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 2.5
+  },
+  {
+    "id": 435352,
+    "name": "Kumena's Speaker",
+    "collector_number": 196,
+    "multiverse_ids": [
+      435352
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/196.jpg?1527430483"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Shaman",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 435171,
+    "name": "Legion Conquistador",
+    "collector_number": 20,
+    "multiverse_ids": [
+      435171
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/20.jpg?1527427750"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Soldier",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435172,
+    "name": "Legion's Judgment",
+    "collector_number": 21,
+    "multiverse_ids": [
+      435172
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/21.jpg?1527427762"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435173,
+    "name": "Legion's Landing // Adanto, the First Fort",
+    "collector_number": 22,
+    "multiverse_ids": [
+      435173,
+      435174
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/xln/22a.jpg?1527427791",
+      "https://img.scryfall.com/cards/normal/en/xln/22b.jpg?1527427791"
+    ],
+    "layout": "transform",
+    "type_line": "Legendary Enchantment // Legendary Land",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 435304,
+    "name": "Lightning-Rig Crew",
+    "collector_number": 150,
+    "multiverse_ids": [
+      435304
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/150.jpg?1527429657"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Pirate",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 435303,
+    "name": "Lightning Strike",
+    "collector_number": 149,
+    "multiverse_ids": [
+      435303
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/149.jpg?1527429641"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 4
+  },
+  {
+    "id": 435214,
+    "name": "Lookout's Dispersal",
+    "collector_number": 62,
+    "multiverse_ids": [
+      435214
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/62.jpg?1527428342"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 435175,
+    "name": "Looming Altisaur",
+    "collector_number": 23,
+    "multiverse_ids": [
+      435175
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/23.jpg?1527427807"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435265,
+    "name": "Lurking Chupacabra",
+    "collector_number": 111,
+    "multiverse_ids": [
+      435265
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/111.jpg?1527429111"],
+    "layout": "normal",
+    "type_line": "Creature — Beast Horror",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 435305,
+    "name": "Makeshift Munitions",
+    "collector_number": 151,
+    "multiverse_ids": [
+      435305
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/151.jpg?1527429674"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 435381,
+    "name": "Marauding Looter",
+    "collector_number": 225,
+    "multiverse_ids": [
+      435381
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/225.jpg?1527430910"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{2}{U}{R}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435266,
+    "name": "March of the Drowned",
+    "collector_number": 112,
+    "multiverse_ids": [
+      435266
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/112.jpg?1527429127"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435267,
+    "name": "Mark of the Vampire",
+    "collector_number": 113,
+    "multiverse_ids": [
+      435267
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/113.jpg?1527429145"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435176,
+    "name": "Mavren Fein, Dusk Apostle",
+    "collector_number": 24,
+    "multiverse_ids": [
+      435176
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/24.jpg?1527427824"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Vampire Cleric",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 435353,
+    "name": "Merfolk Branchwalker",
+    "collector_number": 197,
+    "multiverse_ids": [
+      435353
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/197.jpg?1527430496"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Scout",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435433,
+    "name": "Mountain",
+    "collector_number": 272,
+    "multiverse_ids": [
+      435433
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/272.jpg?1527431712"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435215,
+    "name": "Navigator's Ruin",
+    "collector_number": 63,
+    "multiverse_ids": [
+      435215
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/63.jpg?1527428355"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 435306,
+    "name": "Nest Robber",
+    "collector_number": 152,
+    "multiverse_ids": [
+      435306
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/152.jpg?1527429690"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435354,
+    "name": "New Horizons",
+    "collector_number": 198,
+    "multiverse_ids": [
+      435354
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/198.jpg?1527430510"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435355,
+    "name": "Old-Growth Dryads",
+    "collector_number": 199,
+    "multiverse_ids": [
+      435355
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/199.jpg?1527430523"],
+    "layout": "normal",
+    "type_line": "Creature — Dryad",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 1
+  },
+  {
+    "id": 435216,
+    "name": "One With the Wind",
+    "collector_number": 64,
+    "multiverse_ids": [
+      435216
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/64.jpg?1527428370"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435217,
+    "name": "Opt",
+    "collector_number": 65,
+    "multiverse_ids": [
+      435217
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/65.jpg?1527428386"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435307,
+    "name": "Otepec Huntmaster",
+    "collector_number": 153,
+    "multiverse_ids": [
+      435307
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/153.jpg?1527429704"],
+    "layout": "normal",
+    "type_line": "Creature — Human Shaman",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435218,
+    "name": "Overflowing Insight",
+    "collector_number": 66,
+    "multiverse_ids": [
+      435218
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/66.jpg?1527428399"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{U}{U}{U}",
+    "cmc": 7,
+    "colors": [
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": 1.5
+  },
+  {
+    "id": 435177,
+    "name": "Paladin of the Bloodstained",
+    "collector_number": 25,
+    "multiverse_ids": [
+      435177
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/25.jpg?1527427839"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Knight",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435219,
+    "name": "Perilous Voyage",
+    "collector_number": 67,
+    "multiverse_ids": [
+      435219
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/67.jpg?1527428411"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 435399,
+    "name": "Pillar of Origins",
+    "collector_number": 241,
+    "multiverse_ids": [
+      435399
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/241.jpg?1527431187"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0.5
+  },
+  {
+    "id": 435178,
+    "name": "Pious Interdiction",
+    "collector_number": 26,
+    "multiverse_ids": [
+      435178
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/26.jpg?1527427850"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 435400,
+    "name": "Pirate's Cutlass",
+    "collector_number": 242,
+    "multiverse_ids": [
+      435400
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/242.jpg?1527431203"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435220,
+    "name": "Pirate's Prize",
+    "collector_number": 68,
+    "multiverse_ids": [
+      435220
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/68.jpg?1527428423"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435421,
+    "name": "Plains",
+    "collector_number": 260,
+    "multiverse_ids": [
+      435421
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/260.jpg?1527431524"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435356,
+    "name": "Pounce",
+    "collector_number": 200,
+    "multiverse_ids": [
+      435356
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/200.jpg?1527430540"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435179,
+    "name": "Priest of the Wakening Sun",
+    "collector_number": 27,
+    "multiverse_ids": [
+      435179
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/27.jpg?1527427865"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 2.5
+  },
+  {
+    "id": 435401,
+    "name": "Primal Amulet // Primal Wellspring",
+    "collector_number": 243,
+    "multiverse_ids": [
+      435401,
+      435402
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/xln/243a.jpg?1527431234",
+      "https://img.scryfall.com/cards/normal/en/xln/243b.jpg?1527431234"
+    ],
+    "layout": "transform",
+    "type_line": "Artifact // Land",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 1.5
+  },
+  {
+    "id": 435221,
+    "name": "Prosperous Pirates",
+    "collector_number": 69,
+    "multiverse_ids": [
+      435221
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/69.jpg?1527428437"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435403,
+    "name": "Prying Blade",
+    "collector_number": 244,
+    "multiverse_ids": [
+      435403
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/244.jpg?1527431252"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435180,
+    "name": "Pterodon Knight",
+    "collector_number": 28,
+    "multiverse_ids": [
+      435180
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/28.jpg?1527427878"],
+    "layout": "normal",
+    "type_line": "Creature — Human Knight",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435268,
+    "name": "Queen's Agent",
+    "collector_number": 114,
+    "multiverse_ids": [
+      435268
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/114.jpg?1527429161"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Scout",
+    "mana_cost": "{5}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435269,
+    "name": "Queen's Bay Soldier",
+    "collector_number": 115,
+    "multiverse_ids": [
+      435269
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/115.jpg?1527429174"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Soldier",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435181,
+    "name": "Queen's Commission",
+    "collector_number": 29,
+    "multiverse_ids": [
+      435181
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/29.jpg?1527427891"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435382,
+    "name": "Raging Swordtooth",
+    "collector_number": 226,
+    "multiverse_ids": [
+      435382
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/226.jpg?1527430923"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{3}{R}{G}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435270,
+    "name": "Raiders' Wake",
+    "collector_number": 116,
+    "multiverse_ids": [
+      435270
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/116.jpg?1527429187"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 435182,
+    "name": "Rallying Roar",
+    "collector_number": 30,
+    "multiverse_ids": [
+      435182
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/30.jpg?1527427906"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 435308,
+    "name": "Rampaging Ferocidon",
+    "collector_number": 154,
+    "multiverse_ids": [
+      435308
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/154.jpg?1527429722"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 435357,
+    "name": "Ranging Raptors",
+    "collector_number": 201,
+    "multiverse_ids": [
+      435357
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/201.jpg?1527430554"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435183,
+    "name": "Raptor Companion",
+    "collector_number": 31,
+    "multiverse_ids": [
+      435183
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/31.jpg?1527427917"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435309,
+    "name": "Raptor Hatchling",
+    "collector_number": 155,
+    "multiverse_ids": [
+      435309
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/155.jpg?1527429735"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435358,
+    "name": "Ravenous Daggertooth",
+    "collector_number": 202,
+    "multiverse_ids": [
+      435358
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/202.jpg?1527430566"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435383,
+    "name": "Regisaur Alpha",
+    "collector_number": 227,
+    "multiverse_ids": [
+      435383
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/227.jpg?1527430942"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{3}{R}{G}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4.5
+  },
+  {
+    "id": 435310,
+    "name": "Repeating Barrage",
+    "collector_number": 156,
+    "multiverse_ids": [
+      435310
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/156.jpg?1527429759"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 435271,
+    "name": "Revel in Riches",
+    "collector_number": 117,
+    "multiverse_ids": [
+      435271
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/117.jpg?1527429199"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 1
+  },
+  {
+    "id": 435311,
+    "name": "Rigging Runner",
+    "collector_number": 157,
+    "multiverse_ids": [
+      435311
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/157.jpg?1527429775"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Pirate",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 435312,
+    "name": "Rile",
+    "collector_number": 158,
+    "multiverse_ids": [
+      435312
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/158.jpg?1527429794"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 435359,
+    "name": "Ripjaw Raptor",
+    "collector_number": 203,
+    "multiverse_ids": [
+      435359
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/203.jpg?1527430582"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{2}{G}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 4.5
+  },
+  {
+    "id": 435184,
+    "name": "Ritual of Rejuvenation",
+    "collector_number": 32,
+    "multiverse_ids": [
+      435184
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/32.jpg?1527427928"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435360,
+    "name": "River Heralds' Boon",
+    "collector_number": 204,
+    "multiverse_ids": [
+      435360
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/204.jpg?1527430598"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435222,
+    "name": "River Sneak",
+    "collector_number": 70,
+    "multiverse_ids": [
+      435222
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/70.jpg?1527428449"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Warrior",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 435223,
+    "name": "River's Rebuke",
+    "collector_number": 71,
+    "multiverse_ids": [
+      435223
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/71.jpg?1527428461"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435417,
+    "name": "Rootbound Crag",
+    "collector_number": 256,
+    "multiverse_ids": [
+      435417
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/256.jpg?1527431473"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 2
+  },
+  {
+    "id": 435313,
+    "name": "Rowdy Crew",
+    "collector_number": 159,
+    "multiverse_ids": [
+      435313
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/159.jpg?1527429812"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": 3.5
+  },
+  {
+    "id": 435272,
+    "name": "Ruin Raider",
+    "collector_number": 118,
+    "multiverse_ids": [
+      435272
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/118.jpg?1527429210"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Pirate",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435314,
+    "name": "Rummaging Goblin",
+    "collector_number": 160,
+    "multiverse_ids": [
+      435314
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/160.jpg?1527429845"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Rogue",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435224,
+    "name": "Run Aground",
+    "collector_number": 72,
+    "multiverse_ids": [
+      435224
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/72.jpg?1527428476"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435273,
+    "name": "Ruthless Knave",
+    "collector_number": 119,
+    "multiverse_ids": [
+      435273
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/119.jpg?1527429223"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Pirate",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 435225,
+    "name": "Sailor of Means",
+    "collector_number": 73,
+    "multiverse_ids": [
+      435225
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/73.jpg?1527428488"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435274,
+    "name": "Sanctum Seeker",
+    "collector_number": 120,
+    "multiverse_ids": [
+      435274
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/120.jpg?1527429240"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Knight",
+    "mana_cost": "{2}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 435185,
+    "name": "Sanguine Sacrament",
+    "collector_number": 33,
+    "multiverse_ids": [
+      435185
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/33.jpg?1527427944"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{X}{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 0.5
+  },
+  {
+    "id": 435361,
+    "name": "Savage Stomp",
+    "collector_number": 205,
+    "multiverse_ids": [
+      435361
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/205.jpg?1527430618"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435226,
+    "name": "Search for Azcanta // Azcanta, the Sunken Ruin",
+    "collector_number": 74,
+    "multiverse_ids": [
+      435226,
+      435227
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/xln/74a.jpg?1527428520",
+      "https://img.scryfall.com/cards/normal/en/xln/74b.jpg?1527428520"
+    ],
+    "layout": "transform",
+    "type_line": "Legendary Enchantment // Legendary Land",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435275,
+    "name": "Seekers' Squire",
+    "collector_number": 121,
+    "multiverse_ids": [
+      435275
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/121.jpg?1527429256"],
+    "layout": "normal",
+    "type_line": "Creature — Human Scout",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435404,
+    "name": "Sentinel Totem",
+    "collector_number": 245,
+    "multiverse_ids": [
+      435404
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/245.jpg?1527431265"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 435186,
+    "name": "Settle the Wreckage",
+    "collector_number": 34,
+    "multiverse_ids": [
+      435186
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/34.jpg?1527427957"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{W}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4
+  },
+  {
+    "id": 435405,
+    "name": "Shadowed Caravel",
+    "collector_number": 246,
+    "multiverse_ids": [
+      435405
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/246.jpg?1527431282"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 1.5
+  },
+  {
+    "id": 435228,
+    "name": "Shaper Apprentice",
+    "collector_number": 75,
+    "multiverse_ids": [
+      435228
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/75.jpg?1527428535"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Wizard",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435384,
+    "name": "Shapers of Nature",
+    "collector_number": 228,
+    "multiverse_ids": [
+      435384
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/228.jpg?1527430959"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Shaman",
+    "mana_cost": "{1}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435362,
+    "name": "Shapers' Sanctuary",
+    "collector_number": 206,
+    "multiverse_ids": [
+      435362
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/206.jpg?1527430630"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 1
+  },
+  {
+    "id": 435187,
+    "name": "Sheltering Light",
+    "collector_number": 35,
+    "multiverse_ids": [
+      435187
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/35.jpg?1527427969"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 435188,
+    "name": "Shining Aerosaur",
+    "collector_number": 36,
+    "multiverse_ids": [
+      435188
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/36.jpg?1527427982"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435229,
+    "name": "Shipwreck Looter",
+    "collector_number": 76,
+    "multiverse_ids": [
+      435229
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/76.jpg?1527428549"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435230,
+    "name": "Shore Keeper",
+    "collector_number": 77,
+    "multiverse_ids": [
+      435230
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/77.jpg?1527428561"],
+    "layout": "normal",
+    "type_line": "Creature — Trilobite",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435231,
+    "name": "Siren Lookout",
+    "collector_number": 78,
+    "multiverse_ids": [
+      435231
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/78.jpg?1527428574"],
+    "layout": "normal",
+    "type_line": "Creature — Siren Pirate",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 435233,
+    "name": "Siren's Ruse",
+    "collector_number": 80,
+    "multiverse_ids": [
+      435233
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/80.jpg?1527428611"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435232,
+    "name": "Siren Stormtamer",
+    "collector_number": 79,
+    "multiverse_ids": [
+      435232
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/79.jpg?1527428588"],
+    "layout": "normal",
+    "type_line": "Creature — Siren Pirate Wizard",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435276,
+    "name": "Skittering Heartstopper",
+    "collector_number": 122,
+    "multiverse_ids": [
+      435276
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/122.jpg?1527429269"],
+    "layout": "normal",
+    "type_line": "Creature — Insect",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435277,
+    "name": "Skulduggery",
+    "collector_number": 123,
+    "multiverse_ids": [
+      435277
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/123.jpg?1527429279"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435189,
+    "name": "Skyblade of the Legion",
+    "collector_number": 37,
+    "multiverse_ids": [
+      435189
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/37.jpg?1527427999"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Soldier",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435278,
+    "name": "Skymarch Bloodletter",
+    "collector_number": 124,
+    "multiverse_ids": [
+      435278
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/124.jpg?1527429291"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Soldier",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435385,
+    "name": "Sky Terror",
+    "collector_number": 229,
+    "multiverse_ids": [
+      435385
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/229.jpg?1527430973"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{R}{W}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435190,
+    "name": "Slash of Talons",
+    "collector_number": 38,
+    "multiverse_ids": [
+      435190
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/38.jpg?1527428013"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435406,
+    "name": "Sleek Schooner",
+    "collector_number": 247,
+    "multiverse_ids": [
+      435406
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/247.jpg?1527431294"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2
+  },
+  {
+    "id": 435363,
+    "name": "Slice in Twain",
+    "collector_number": 207,
+    "multiverse_ids": [
+      435363
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/207.jpg?1527430647"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{G}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 0
+  },
+  {
+    "id": 435364,
+    "name": "Snapping Sailback",
+    "collector_number": 208,
+    "multiverse_ids": [
+      435364
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/208.jpg?1527430662"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435407,
+    "name": "Sorcerous Spyglass",
+    "collector_number": 248,
+    "multiverse_ids": [
+      435407
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/248.jpg?1527431310"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 1
+  },
+  {
+    "id": 435234,
+    "name": "Spell Pierce",
+    "collector_number": 81,
+    "multiverse_ids": [
+      435234
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/81.jpg?1527428633"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435235,
+    "name": "Spell Swindle",
+    "collector_number": 82,
+    "multiverse_ids": [
+      435235
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/82.jpg?1527428654"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{3}{U}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 1.5
+  },
+  {
+    "id": 435365,
+    "name": "Spike-Tailed Ceratops",
+    "collector_number": 209,
+    "multiverse_ids": [
+      435365
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/209.jpg?1527430675"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435279,
+    "name": "Spreading Rot",
+    "collector_number": 125,
+    "multiverse_ids": [
+      435279
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/125.jpg?1527429304"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435315,
+    "name": "Star of Extinction",
+    "collector_number": 161,
+    "multiverse_ids": [
+      435315
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/161.jpg?1527429864"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{5}{R}{R}",
+    "cmc": 7,
+    "colors": [
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": 3
+  },
+  {
+    "id": 435191,
+    "name": "Steadfast Armasaur",
+    "collector_number": 39,
+    "multiverse_ids": [
+      435191
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/39.jpg?1527428026"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5
+  },
+  {
+    "id": 435236,
+    "name": "Storm Fleet Aerialist",
+    "collector_number": 83,
+    "multiverse_ids": [
+      435236
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/83.jpg?1527428678"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435316,
+    "name": "Storm Fleet Arsonist",
+    "collector_number": 162,
+    "multiverse_ids": [
+      435316
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/162.jpg?1527429883"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Pirate",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435317,
+    "name": "Storm Fleet Pyromancer",
+    "collector_number": 163,
+    "multiverse_ids": [
+      435317
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/163.jpg?1527429896"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate Wizard",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435237,
+    "name": "Storm Fleet Spy",
+    "collector_number": 84,
+    "multiverse_ids": [
+      435237
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/84.jpg?1527428695"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435238,
+    "name": "Storm Sculptor",
+    "collector_number": 85,
+    "multiverse_ids": [
+      435238
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/85.jpg?1527428717"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Wizard",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435319,
+    "name": "Sunbird's Invocation",
+    "collector_number": 165,
+    "multiverse_ids": [
+      435319
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/165.jpg?1527429924"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{5}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 2
+  },
+  {
+    "id": 435318,
+    "name": "Sun-Crowned Hunters",
+    "collector_number": 164,
+    "multiverse_ids": [
+      435318
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/164.jpg?1527429911"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{4}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435418,
+    "name": "Sunpetal Grove",
+    "collector_number": 257,
+    "multiverse_ids": [
+      435418
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/257.jpg?1527431487"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 2
+  },
+  {
+    "id": 435192,
+    "name": "Sunrise Seeker",
+    "collector_number": 40,
+    "multiverse_ids": [
+      435192
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/40.jpg?1527428038"],
+    "layout": "normal",
+    "type_line": "Creature — Human Scout",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
+    "id": 435320,
+    "name": "Sure Strike",
+    "collector_number": 166,
+    "multiverse_ids": [
+      435320
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/166.jpg?1527429942"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435429,
+    "name": "Swamp",
+    "collector_number": 268,
+    "multiverse_ids": [
+      435429
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/268.jpg?1527431644"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
+    "id": 435321,
+    "name": "Swashbuckling",
+    "collector_number": 167,
+    "multiverse_ids": [
+      435321
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/167.jpg?1527429958"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 1.5
+  },
+  {
+    "id": 435280,
+    "name": "Sword-Point Diplomacy",
+    "collector_number": 126,
+    "multiverse_ids": [
+      435280
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/126.jpg?1527429315"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 1.5
+  },
+  {
+    "id": 435239,
+    "name": "Tempest Caller",
+    "collector_number": 86,
+    "multiverse_ids": [
+      435239
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/86.jpg?1527428733"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Wizard",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5
+  },
+  {
+    "id": 435193,
+    "name": "Territorial Hammerskull",
+    "collector_number": 41,
+    "multiverse_ids": [
+      435193
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/41.jpg?1527428056"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 435408,
+    "name": "Thaumatic Compass // Spires of Orazca",
+    "collector_number": 249,
+    "multiverse_ids": [
+      435408,
+      435409
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/xln/249a.jpg?1527431340",
+      "https://img.scryfall.com/cards/normal/en/xln/249b.jpg?1527431340"
+    ],
+    "layout": "transform",
+    "type_line": "Artifact // Land",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 435322,
+    "name": "Thrash of Raptors",
+    "collector_number": 168,
+    "multiverse_ids": [
+      435322
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/168.jpg?1527429975"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2
+  },
+  {
+    "id": 435366,
+    "name": "Thundering Spineback",
+    "collector_number": 210,
+    "multiverse_ids": [
+      435366
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/210.jpg?1527430693"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{5}{G}{G}",
+    "cmc": 7,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435323,
+    "name": "Tilonalli's Knight",
+    "collector_number": 169,
+    "multiverse_ids": [
+      435323
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/169.jpg?1527430004"],
+    "layout": "normal",
+    "type_line": "Creature — Human Knight",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435324,
+    "name": "Tilonalli's Skinshifter",
+    "collector_number": 170,
+    "multiverse_ids": [
+      435324
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/170.jpg?1527430019"],
+    "layout": "normal",
+    "type_line": "Creature — Human Shaman",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 2
+  },
+  {
+    "id": 435367,
+    "name": "Tishana's Wayfinder",
+    "collector_number": 211,
+    "multiverse_ids": [
+      435367
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/211.jpg?1527430710"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Scout",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435386,
+    "name": "Tishana, Voice of Thunder",
+    "collector_number": 230,
+    "multiverse_ids": [
+      435386
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/230.jpg?1527430987"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Merfolk Shaman",
+    "mana_cost": "{5}{G}{U}",
+    "cmc": 7,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": 3
+  },
+  {
+    "id": 435194,
+    "name": "Tocatli Honor Guard",
+    "collector_number": 42,
+    "multiverse_ids": [
+      435194
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/42.jpg?1527428068"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 1
+  },
+  {
+    "id": 435410,
+    "name": "Treasure Map // Treasure Cove",
+    "collector_number": 250,
+    "multiverse_ids": [
+      435410,
+      435411
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/xln/250a.jpg?1527431365",
+      "https://img.scryfall.com/cards/normal/en/xln/250b.jpg?1527431365"
+    ],
+    "layout": "transform",
+    "type_line": "Artifact // Land",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435325,
+    "name": "Trove of Temptation",
+    "collector_number": 171,
+    "multiverse_ids": [
+      435325
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/171.jpg?1527430035"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 435419,
+    "name": "Unclaimed Territory",
+    "collector_number": 258,
+    "multiverse_ids": [
+      435419
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/258.jpg?1527431498"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 435326,
+    "name": "Unfriendly Fire",
+    "collector_number": 172,
+    "multiverse_ids": [
+      435326
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/172.jpg?1527430055"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 435420,
+    "name": "Unknown Shores",
+    "collector_number": 259,
+    "multiverse_ids": [
+      435420
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/259.jpg?1527431509"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 0.5
+  },
+  {
+    "id": 435195,
+    "name": "Vampire's Zeal",
+    "collector_number": 43,
+    "multiverse_ids": [
+      435195
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/43.jpg?1527428080"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
+    "id": 435327,
+    "name": "Vance's Blasting Cannons // Spitfire Bastion",
+    "collector_number": 173,
+    "multiverse_ids": [
+      435327,
+      435328
+    ],
+    "image_uris": [
+      "https://img.scryfall.com/cards/normal/en/xln/173a.jpg?1527430090",
+      "https://img.scryfall.com/cards/normal/en/xln/173b.jpg?1527430090"
+    ],
+    "layout": "transform",
+    "type_line": "Legendary Enchantment // Legendary Land",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435412,
+    "name": "Vanquisher's Banner",
+    "collector_number": 251,
+    "multiverse_ids": [
+      435412
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/251.jpg?1527431384"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435281,
+    "name": "Vanquish the Weak",
+    "collector_number": 127,
+    "multiverse_ids": [
+      435281
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/127.jpg?1527429331"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
+    "id": 435368,
+    "name": "Verdant Rebirth",
+    "collector_number": 212,
+    "multiverse_ids": [
+      435368
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/212.jpg?1527430729"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5
+  },
+  {
+    "id": 435369,
+    "name": "Verdant Sun's Avatar",
+    "collector_number": 213,
+    "multiverse_ids": [
+      435369
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/213.jpg?1527430742"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur Avatar",
+    "mana_cost": "{5}{G}{G}",
+    "cmc": 7,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 3
+  },
+  {
+    "id": 435282,
+    "name": "Vicious Conquistador",
+    "collector_number": 128,
+    "multiverse_ids": [
+      435282
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/128.jpg?1527429344"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Soldier",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435370,
+    "name": "Vineshaper Mystic",
+    "collector_number": 214,
+    "multiverse_ids": [
+      435370
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/214.jpg?1527430754"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Shaman",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435387,
+    "name": "Vona, Butcher of Magan",
+    "collector_number": 231,
+    "multiverse_ids": [
+      435387
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/231.jpg?1527431002"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Vampire Knight",
+    "mana_cost": "{3}{W}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 4
+  },
+  {
+    "id": 435388,
+    "name": "Vraska, Relic Seeker",
+    "collector_number": 232,
+    "multiverse_ids": [
+      435388
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/232.jpg?1527431015"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Vraska",
+    "mana_cost": "{4}{B}{G}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "rarity": "mythic",
+    "rating": 5
+  },
+  {
+    "id": 435283,
+    "name": "Vraska's Contempt",
+    "collector_number": 129,
+    "multiverse_ids": [
+      435283
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/129.jpg?1527429358"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 4.5
+  },
+  {
+    "id": 435196,
+    "name": "Wakening Sun's Avatar",
+    "collector_number": 44,
+    "multiverse_ids": [
+      435196
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/44.jpg?1527428093"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur Avatar",
+    "mana_cost": "{5}{W}{W}{W}",
+    "cmc": 8,
+    "colors": [
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 3
+  },
+  {
+    "id": 435371,
+    "name": "Waker of the Wilds",
+    "collector_number": 215,
+    "multiverse_ids": [
+      435371
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/215.jpg?1527430771"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Shaman",
+    "mana_cost": "{2}{G}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 3.5
+  },
+  {
+    "id": 435284,
+    "name": "Walk the Plank",
+    "collector_number": 130,
+    "multiverse_ids": [
+      435284
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/130.jpg?1527429373"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{B}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 4
+  },
+  {
+    "id": 435285,
+    "name": "Wanted Scoundrels",
+    "collector_number": 131,
+    "multiverse_ids": [
+      435285
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/131.jpg?1527429386"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435240,
+    "name": "Watertrap Weaver",
+    "collector_number": 87,
+    "multiverse_ids": [
+      435240
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/87.jpg?1527428746"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Wizard",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3
+  },
+  {
+    "id": 435372,
+    "name": "Wildgrowth Walker",
+    "collector_number": 216,
+    "multiverse_ids": [
+      435372
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/216.jpg?1527430784"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3
+  },
+  {
+    "id": 435329,
+    "name": "Wily Goblin",
+    "collector_number": 174,
+    "multiverse_ids": [
+      435329
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/174.jpg?1527430113"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Pirate",
+    "mana_cost": "{R}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 1
+  },
+  {
+    "id": 435241,
+    "name": "Wind Strider",
+    "collector_number": 88,
+    "multiverse_ids": [
+      435241
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/88.jpg?1527428759"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Wizard",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2.5
+  }
+]
