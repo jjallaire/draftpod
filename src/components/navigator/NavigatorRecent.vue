@@ -2,7 +2,6 @@
 <script>
 
 import ColorIcon from  '@/components/core/ColorIcon.vue'
-import SetIcon from '@/components/core/SetIcon.vue'
 import ContentPanel from '@/components/core//ContentPanel.vue'
 import RemoveDraft from './RemoveDraft.vue'
 
@@ -16,7 +15,7 @@ export default {
   },
 
   components: {
-    ContentPanel, SetIcon, ColorIcon, RemoveDraft
+    ContentPanel, ColorIcon, RemoveDraft
   },
 
   props: {
@@ -52,7 +51,6 @@ export default {
         @click="onDraftNavigate(draft)"
       >
         <div class="col-md-4">
-          <SetIcon :set_code="draft.set_code" />
           <span class="set-name">
             {{ draft.set_name }}
           </span>

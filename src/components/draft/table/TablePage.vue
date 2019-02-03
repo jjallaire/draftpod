@@ -1,6 +1,5 @@
 <script>
 
-import SetIcon from '@/components/core/SetIcon.vue'
 import NavBar from '@/components/core/NavBar.vue'
 import FirebaseError from '@/components/core/FirebaseError.vue'
 import PackPanel from '../pack/PackPanel.vue';
@@ -56,7 +55,7 @@ export default {
   name: 'DraftTable',
 
   components: {
-    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar, SetIcon,
+    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar,
     PlayersIcon, PlayersPopup, FullScreenIcon, FullScreenExitIcon, ExitToAppIcon,
     FirebaseError
   },
@@ -417,9 +416,6 @@ export default {
 
   <div v-else>
     <NavBar> 
-      <span class="navbar-text navbar-set-icon">
-        <SetIcon :set_code="set.code" />   
-      </span>
       <span class="navbar-text">
         {{ set.name }} 
         <span v-if="!picks_complete">

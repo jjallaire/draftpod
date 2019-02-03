@@ -147,11 +147,6 @@ download_set <- function(set,
     }
   }
   
-  # download set icon
-  set_info <- jsonlite::fromJSON(paste0("https://api.scryfall.com/sets/", set))
-  set_icon <- file.path(set_dir, "icon.svg")
-  curl::curl_download(set_info$icon_svg_uri, set_icon)
-  
 }
 
 
