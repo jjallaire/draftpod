@@ -249,15 +249,9 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
 
       })
       .catch(function(error) {
-        
+      
         // clear waiting flag
         commit(SET_WAITING, { waiting: false });
-
-        // if it's a not found error and the draft is complete then ignore it.
-        // (this will allow drafts with picks_complete to be purged from firestore)
-        if (error.message === firestore.errors.DraftNotFound && table.picks_complete) {
-          return false;
-        }
 
         // notify user
         messagebox.alert(

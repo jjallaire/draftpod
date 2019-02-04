@@ -31,11 +31,6 @@ function ensureSignedIn() {
 
 export default {
 
-  errors: {
-    DraftNotFound: "DraftNotFound"
-  },
-  
-
   // create a draft within the firestore
   createDraft(id, draft) {
     return ensureSignedIn()
@@ -89,10 +84,9 @@ export default {
       // fetch the latest copy of the draft table
       return transaction.get(docRef).then(doc => {
 
-        if (doc.data())
-          return serializer.unserializeDraftTable(doc.data());
-        else
-          return Promise.reject(new Error(this.errors.DraftNotFound));
+        // read the table
+        return serializer.unserializeDraftTable(doc.data());
+
       })
 
       // apply the changes using the passed writer, then serialize
