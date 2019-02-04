@@ -17,7 +17,7 @@ import { RESUME_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE,
          UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
          REMOVE_PLAYER } from '@/store/modules/draft/actions';
-import { WRITE_TABLE, SET_CONNECTED, SET_SHOW_BOT_COLORS } from '@/store/modules/draft/mutations'
+import { WRITE_TABLE, SET_CONNECTED, SET_WAITING, SET_SHOW_BOT_COLORS } from '@/store/modules/draft/mutations'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
 
@@ -101,6 +101,9 @@ export default {
     },
     table: function() {
       return this.draft.table;
+    },
+    waiting: function() {
+      return this.draft.waiting;
     },
 
     active_player: function() {
@@ -187,9 +190,12 @@ export default {
       return;
     }
 
+    // clear waiting flag
+    this.setWaiting({ waiting: false});
+  
     // resume draft
     this.resumeDraft().then((success) => {
-  
+ 
       // for multiplayer, subscribe to changes in firestore. in the case of multiplayer
       // the success flag indicates whether we wrote all the way through to firestore. if
       // we did then subscribe to changes, otherwise don't (in that case the document
@@ -201,6 +207,12 @@ export default {
 
         // track firestore
         this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
+
+          // write locally. 
+          this.writeTable({ table });
+
+          // clear waiting flag
+          this.setWaiting({ waiting: false });
 
           // get activePlayer reference
           let player = selectors.activePlayer(this.player.id, table);
@@ -214,32 +226,9 @@ export default {
 
           // validate that the client hasn't changed
           if (validateClient && !firestore.validateClient(this.player.id, this.client_id, table)) {
-            this.writeTable({ table });
             this.setConnected({ connected: false });
             this.firestoreUnsubscribe();
-            return;
           }
-          
-          // ignore if we already have this update version (this effectively ignores
-          // changes that we already have locally since we wrote them)
-          if (table.update_version === this.table.update_version)
-            return;
-
-          // ignore if the pick number is less than we have locally (as that 
-          // implies this is from an older state and will therefore be soon
-          // replaced with a newer state)
-          if (player.picks.pick_order.length < this.active_player.picks.pick_order.length)
-            return;
-
-          // prevent changes to this player's picks and deck (prevent flashback which
-          // occurs when receiving changes from other players that don't reflect the
-          // latest picks or deck state for this player)  
-          player.picks = this.active_player.picks;
-          player.deck = this.active_player.deck;
-
-          // write locally. 
-          this.writeTable({ table });
-
         });
       }
     });
@@ -269,6 +258,9 @@ export default {
       },
       setConnected(dispatch, payload) {
         return dispatch(this.namespace + '/' + SET_CONNECTED, payload);
+      },
+      setWaiting(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SET_WAITING, payload);
       },
       setShowBotColors(dispatch, payload) {
         return dispatch(this.namespace + '/' + SET_SHOW_BOT_COLORS, payload);
@@ -480,6 +472,11 @@ export default {
     </NavBar>
 
     <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
+      <div 
+        v-if="waiting" 
+        class="waiting-glass"
+      />
+
       <div class="draft-cards user-select-none">
         <transition name="pack-hide">
           <PackPanel 
@@ -522,6 +519,18 @@ export default {
 .navbar .players-menu {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.waiting-glass {
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  cursor: wait;
 }
 
 .draft-page {

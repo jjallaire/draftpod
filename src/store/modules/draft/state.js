@@ -1,6 +1,4 @@
 
-import shortUuid from 'short-uuid'
-
 import { PICKS, DECK } from './constants'
 import * as draftbot from './draftbot'
 
@@ -33,10 +31,12 @@ export default function() {
     // peforming auto-picks)
     connected: true,
 
+    // are we currently waiting for a back-end transaction
+    waiting: false,
+
     // table
     table: {
       start_time: null,
-      update_version: shortUuid().new(),
       all_packs: [],
       current_pack: 0,
       picks_complete: false,

@@ -2,6 +2,7 @@
 export const CREATE_DRAFT = 'CREATE_DRAFT'
 export const WRITE_TABLE = 'WRITE_TABLE'
 export const SET_CONNECTED = 'SET_CONNECTED'
+export const SET_WAITING = 'SET_WAITING'
 export const SET_SHOW_BOT_COLORS = 'SET_SHOW_BOT_COLORS'
 
 import * as set from './set/'
@@ -51,8 +52,8 @@ export default {
       .map(pack => pack.map(card => card.id).join(','));
   },
 
-  [WRITE_TABLE](state, { table, update_version }) {
-    writeTable(state, table, update_version);
+  [WRITE_TABLE](state, { table }) {
+    writeTable(state, table);
   },
 
   [SET_SHOW_BOT_COLORS](state, { show_bot_colors }) {
@@ -61,6 +62,10 @@ export default {
 
   [SET_CONNECTED](state, { connected }) {
     state.connected = connected;
+  },
+
+  [SET_WAITING](state, { waiting }) {
+    Vue.set(state, "waiting", waiting);
   }
 };
 
@@ -72,11 +77,8 @@ function initTable(state, writer) {
   writeTable(state, table);
 }
 
-function writeTable(state, table, update_version) {
-  Vue.set(state, "table", {
-    ...table,
-    update_version: update_version || shortUuid().new()
-  });
+function writeTable(state, table) {
+  Vue.set(state, "table", table);
 }
 
 

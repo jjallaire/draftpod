@@ -99,7 +99,6 @@ export default {
       .then(table => {
 
         writer(table);
-        table.update_version = shortUuid().new();
 
         // serialize the table
         return serializer.serializeDraftTable(table);

@@ -17,7 +17,7 @@ export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 export const REMOVE_PLAYER = 'REMOVE_PLAYER'
 
-import { WRITE_TABLE, SET_CONNECTED } from './mutations'
+import { WRITE_TABLE, SET_CONNECTED, SET_WAITING } from './mutations'
 
 import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
@@ -218,18 +218,25 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
     }
   }
 
-  // record the state prior to the changes (will be used to roll back the local state
-  // if an error occurs updating firebase)
-  let previousTable = JSON.parse(JSON.stringify(state.table));
-
-  // make the changes locally
+  // apply the changes 
   let table = JSON.parse(JSON.stringify(state.table));
   writer(table);
-  commit(WRITE_TABLE, { table });
 
-  // write to firestore if requested
-  if (state.options.multi_player) {
+  // local write for single player mode
+  if (!state.options.multi_player) {
 
+    // make the changes locally
+    commit(WRITE_TABLE, { table });
+
+    // resolve with success
+    return Promise.resolve(true);
+
+  } else {  
+
+    // set state to waiting (provides glass with wait cursor)
+    commit(SET_WAITING, { waiting: true });
+
+    // initialize transaction
     return firestore.updateDraftTable(state.id, writer)
       .then(function() {
 
@@ -243,6 +250,9 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
       })
       .catch(function(error) {
         
+        // clear waiting flag
+        commit(SET_WAITING, { waiting: false });
+
         // if it's a not found error and the draft is complete then ignore it.
         // (this will allow drafts with picks_complete to be purged from firestore)
         if (error.message === firestore.errors.DraftNotFound && table.picks_complete) {
@@ -263,10 +273,7 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
 
         // set connected flag to false so we don't attempt pick timer picks
         commit(SET_CONNECTED, { connected: false });
-      
-        // rollback state
-        commit(WRITE_TABLE, { table: previousTable });
-        
+    
         // log error if it's not one that occurs in the ordinary course of using firestore
         if (!firestore.isConnectivityError(error) && 
             !firestore.isAbortedError(error)) {
@@ -276,9 +283,7 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
         // not successfully updated
         return false;
       });
-  } else {
-    return Promise.resolve(true);
-  }  
+  } 
 
 }
 
