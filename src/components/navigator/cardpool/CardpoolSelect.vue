@@ -336,8 +336,9 @@ export default {
                 class="form-text text-muted"
               >
                 <p>
-                  The cardpool file should either be a Decked Builder collection file (.coll2) or a CSV with <strong>id</strong> 
-                  and <strong>quantity</strong> fields (Multiverse ID and number of each card, respectively).
+                  The cardpool file should either be a Decked Builder collection file (.coll2), or a CSV exported from Deckbox.org or 
+                  Decked Builder. See the article on <a href="/guide#cardpools/" target="_blank">Draft Cardpools</a>
+                  for additional details.
                 </p>
               </small>
 
@@ -435,8 +436,8 @@ export default {
 }
 
 .form-text.text-muted a {
-  color: #cbd3da !important;
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
 }
 
 .form-text.text-muted a:hover {

@@ -2,6 +2,9 @@
 import Papa from 'papaparse'
 import YAML from 'yaml'
 
+import _compact from 'lodash/compact'
+import _intersection from 'lodash/intersection'
+
 import * as filters from '@/components/core/filters'
 
 import * as set from '@/store/modules/draft/set/'
@@ -51,7 +54,7 @@ export function handleCardpoolColl2Upload(set_code, file, complete) {
     });
 
     // complete upload
-    completeCardpoolUpload(set_code, cards, complete);
+    completeCardpoolUpload(set_code, cards, false, complete);
   };
   reader.readAsText(file);
 }
@@ -74,8 +77,8 @@ export function handleCardpoolCsvUpload(set_code, file, complete) {
       let cards = results.data;
 
       // functions for reading card fields
-      const readId = (card) => card['id'] || card['Mvid'];
-      const readQuantity = (card) => card['quantity'] || card['Total Qty'];
+      const readId = (card) => card['Mvid'] || card['Card Number'] || card['id'] ;
+      const readQuantity = (card) => card['Total Qty'] || card ['Count'] || card['quantity'];
 
       // validate that we have data
       if (!cards || (cards.length === 0)) {
@@ -104,6 +107,26 @@ export function handleCardpoolCsvUpload(set_code, file, complete) {
         return;
       }
 
+      // check whether this is a deckbox upload. 
+      let deckboxKeys = ['Card Number', 'Count', 'Edition'];
+      let deckbox = _intersection(deckboxKeys, Object.keys(cards[0])).length === deckboxKeys.length;
+
+      // some special handling for deckbox
+      if (deckbox) {
+        // filter by edition (need to do this b/c 'Card Number' has no meaning outside of the edition)
+        cards = cards.filter(card => set.is_edition(set_code, card.Edition));
+
+        // consoliate counts across variations (e.g. foil, signed, alternate art, etc.)
+        let reduced_cards = cards.reduce((reduced, card) => {
+          if (reduced[card['Card Number']])
+            reduced[card['Card Number']]['Count'] += card['Count'];
+          else
+            reduced[card['Card Number']] = card;
+          return reduced;
+        }, {});
+        cards = Object.values(reduced_cards);
+      }
+
       // extract the fields
       cards = cards.map((card) => {
         let id = set.card_id_filter(set_code, readId(card));
@@ -115,7 +138,7 @@ export function handleCardpoolCsvUpload(set_code, file, complete) {
       });
 
       // complete upload
-      completeCardpoolUpload(set_code, cards, complete);
+      completeCardpoolUpload(set_code, cards, deckbox, complete);
     },
   
     error: function(error) {
@@ -127,7 +150,7 @@ export function handleCardpoolCsvUpload(set_code, file, complete) {
 }
 
 
-function completeCardpoolUpload(set_code, cards, complete) {
+function completeCardpoolUpload(set_code, cards, deckbox, complete) {
 
    // track status
    let status = uploadStatusEmpty();
@@ -137,6 +160,25 @@ function completeCardpoolUpload(set_code, cards, complete) {
 
     // alias set name
     let set_name = set.name(set_code);
+
+    // if it's a deckbox upload then we need to convert Card Number to Mvid
+    if (deckbox) {
+      // build a hash table by collector number
+      let cardsByCollectorNumber = {};
+      set_cards.forEach(card => {
+        cardsByCollectorNumber[card.collector_number] = card;
+      });
+      // convert to mvid (filter out cards we don't have in our database, e.g. cards
+      // from plainswalker decks)
+      cards = _compact(cards.map(card => { 
+        let cardInfo = cardsByCollectorNumber[card.id];
+        if (cardInfo) {
+          return { ...card, id: cardInfo.id } 
+        } else {
+          return null;
+        }
+      }));
+    }
 
     // filter out cards that aren't in the set (record number of
     // cards before and after for validation)

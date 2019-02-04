@@ -7,7 +7,7 @@ This article covers selecting a set of cards to draft with, organizing them for 
 
 ### Selecting Cards 
 
-The cards within a cardpool need to all come from the same set. Furthermore, you need at least 384 cards in the pool (8 players x 3 boosters x 15 cards/booster). In an ideal world, a cardpool will also have an equal number of each card in a set (for example, 3 of each common, 3 of each uncommon, and 1 of each rare and mythic). Having equal numbers of each card means that the cardpool will have no inherent bias towards specific cards, colors, or archetypes.
+The cards within a cardpool need to all come from the same set. Furthermore, you need at least 384 cards in the pool (8 players x 3 boosters x 15 cards/booster). In an ideal world, a cardpool will also have an equal number of cards of various rarities (for example, 3 of each common, 2 of each uncommon, and 1 of each rare and mythic). Having equal numbers of each card means that the cardpool will have no inherent bias towards specific cards, colors, or archetypes.
 
 That said, it can be quite difficult to collect all of the cards in a set so your cardpool may not achieve a perfect balance. In our experience, if you purchase 2 booster boxes for a given set (72 packs) you will be able to assemble a cardpool that has 3 of each common, 2 of nearly all of the uncommons, and 1 of a significant majority of rares and mythics. It's also quite practical to build a cardpool from a single booster box and have lots of fun drafting it, it just won't have the same variety as one built from more cards.
 
@@ -42,9 +42,11 @@ Once you've done this, you are ready to enter the cards into a cardpool database
 
 ### Cardpool Database
 
-Once you have a cardpool, you need register it with Draftpod so that it can build packs that correspond to the cards you have on hand. To do this you create a database of cards in the pool. We recommend using <a href="https://www.deckedbuilder.com/">Decked Builder</a> for this, since it has excellent data entry features which make entering cards a snap (it takes about 20 minutes to enter an entire cardpool). 
+Once you have a cardpool, you need register it with Draftpod so that it can build packs that correspond to the cards you have on hand. To do this you create a database of cards in the pool. We recommend using either <a href="https://www.deckedbuilder.com/">Decked Builder</a> or <a href="https://deckbox.org">Deckbox</a> for this, as both have excellent data entry features that make entering cards a snap (it takes about 20 minutes to enter an entire cardpool). 
 
-Note that while we recommend Decked Builder, you can use any program you like for creating the database so long as it can export a CSV file with _id_ (Multiverse ID) and _quantity_ fields.
+Note that while we recommend Decked Builder or Deckbox, you can use any program you like for creating the database so long as it can export a CSV file with _id_ (Multiverse ID) and _quantity_ fields.
+
+#### Decked Builder
 
 To use Decked Builder, start by creating a new collection. Then, use the filtering UI in the top-left of the Decked Builder window to select your set, and order it by color. For example, here's Decked Builder setup to enter cards for a _Guilds of Ravnica_ cardpool:
 
@@ -55,6 +57,19 @@ To use Decked Builder, start by creating a new collection. Then, use the filteri
 In this illustration we've already begun entering the quantities of cards within our cardpool (note the numbers overlaid on the cards in the middle pane). To enter the quantity of card, just select it (via mouse or arrow key) and press the number of you have. Since the display of cards in Decked Builder matches the way we've sorted our cardpool, it's very quick and easy to enter all of the cards.
 
 Once you are done entering, be sure to save the collection to disk. You are now ready to use the cardpool with Draftpod.
+
+#### Deckbox
+
+If you are using Deckbox to manage your collection, you can export a CSV file that is compatible with Draftpod by using **Search &amp; Filter** to select the set you want to export cards from (in this example we've set **Edition Owned** to _Ravnica Allegiance_). 
+
+Then, use the **Export** option available on the **Tools** menu to export a CSV:
+
+
+<p>
+<img src="/images/guide/deckbox.png" width="100%" />
+</p>
+
+When presented with the Deckbox CSV export options, you can accept the defaults. The downloaded CSV is ready to use as a Draftpod cardpool.
 
 ### Uploading a Cardpool
 
@@ -70,7 +85,7 @@ Select the **New Custom Cardpool** option, then you'll be presented with the opp
 <img src="/images/guide/upload-cardpool.png" width="100%" />
 </p>
 
-Upload the Decked Builder collection file for your cardpool, assign the cardpool a name, then click the **Use Cardpool** button. You are now ready to use your cardpool with Draftpod.
+Upload the collection file or CSV for your cardpool, assign the cardpool a name, then click the **Use Cardpool** button. You are now ready to use your cardpool with Draftpod.
 
 Note that Draftpod will automatically save the cardpool for use in future drafts. Whenever you select the cardpool for play, you'll also be given the opportunity to update it's contents (in the case that you've added or removed cards from the pool):
 
@@ -78,7 +93,7 @@ Note that Draftpod will automatically save the cardpool for use in future drafts
 <img src="/images/guide/update-cardpool.png" width="100%" />
 </p>
 
-As mentioned above, you aren't required to use Decked Builder when creating your cardpool database. Rather than uploading a Decked Builder collection file you can also upload a any CSV file that has _id_ (Multiverse ID) and _quantity_ fields (one record per card in your cardpool).
+As mentioned above, you aren't required to use Decked Builder or Deckbox when creating your cardpool database. Any CSV file that has _id_ (Multiverse ID) and _quantity_ fields (one record per card in your cardpool) can be imported into Draftpod.
 
 ### Storing Cardpools
 

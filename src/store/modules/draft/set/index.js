@@ -28,6 +28,14 @@ export function name(set_code) {
   return sets[set_code].name;
 }
 
+export function is_edition(set_code, edition) {
+  let is_edition = sets[set_code].is_edition;
+  if (is_edition)
+    return is_edition(edition);
+  else
+    return name(set_code) === edition;
+}
+
 export function capabilities(set_code) {
   return sets[set_code].capabilities || {
     custom_cardpool: true

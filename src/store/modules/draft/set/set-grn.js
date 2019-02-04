@@ -10,7 +10,9 @@ export default {
 
   card_id_filter: function(id) {
     // we don't endup importing the (b) guildgates from scryfall
-    if ([452994,452996,452999,453002,453006].indexOf(id) !== -1)
+    if ([452994,452996,452999,453002,453006, // Mvid
+         244, 246, 249, 252, 256]            // Collector Number
+      .indexOf(id) !== -1)
       return id-1;
     else
       return id;
