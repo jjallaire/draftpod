@@ -36,11 +36,11 @@ export default {
 
           <p class="lead">
             <ul class="draftpod-features">
-              <li>Practice evaluating cards, reading signals, and building decks in single-player mode.</li>
               <li>
                 Simulate a full 8-person draft even when you have only 2 or 3 players in 
                 multi-player mode.
               </li>
+              <li>Practice evaluating cards, reading signals, and building decks in single-player mode.</li>
             </ul>
 
             <router-link 
