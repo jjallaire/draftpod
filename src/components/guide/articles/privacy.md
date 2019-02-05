@@ -2,7 +2,7 @@
 
 Draftpod is very careful about the collection and use of personal information. Any information we do collect is only used to operate Draftpod. We don't sell or trade vistor information with other companies.
 
-This document provides details about what kind of data Draftpod gathers and how we manage and protect it. 
+This document provides details about what kind of data Draftpod gathers and how we manage it.
 
 ### Contact Form
 
