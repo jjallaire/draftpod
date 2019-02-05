@@ -8,7 +8,7 @@ import SinglePlayerMd from './articles/single-player.md'
 import MultiPlayerMd from './articles/multi-player.md'
 import CardpoolsMd from './articles/cardpools.md'
 import FAQMd from './articles/faq.md'
-import Feedback from './articles/Feedback.vue'
+import Contact from './articles/Contact.vue'
 
 import jquery from 'jquery'
 
@@ -17,7 +17,7 @@ export default {
 
   components: {
     NavBar, SiteFooter, 
-    WelcomeMd, SinglePlayerMd, MultiPlayerMd, CardpoolsMd, FAQMd, Feedback
+    WelcomeMd, SinglePlayerMd, MultiPlayerMd, CardpoolsMd, FAQMd, Contact
   },
 
   mounted() {
@@ -145,15 +145,15 @@ export default {
               Frequently Asked Questions
             </a>
             <a 
-              id="feedback-tab" 
+              id="contact-tab" 
               class="nav-link" 
               data-toggle="pill" 
-              href="#feedback" 
+              href="#contact" 
               role="tab" 
-              aria-controls="feedback" 
+              aria-controls="contact" 
               aria-selected="false"
             >
-              Feedback &amp; Support
+              Contact Us
             </a>
           </div>
         </div>
@@ -213,12 +213,12 @@ export default {
 
 
             <div 
-              id="feedback" 
+              id="contact" 
               class="tab-pane fade" 
               role="tabpanel" 
-              aria-labelledby="feedback-tab"
+              aria-labelledby="contact-tab"
             >
-              <Feedback /> 
+              <Contact /> 
             </div>
           </div>
         </div>

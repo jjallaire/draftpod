@@ -1,13 +1,13 @@
 <script>
 export default { 
-    name: 'Feedback'
+    name: 'Contact'
 }
 
 </script>
 
 <template>
   <div>
-    <h2>Feedback &amp; Support</h2>
+    <h2>Contact Us</h2>
 
     <p>
       If you have questions, encounter problems, or have ideas about how to improve Draftpod, 
@@ -85,7 +85,7 @@ export default {
                 id="form_message" 
                 name="message" 
                 class="form-control" 
-                rows="4" 
+                rows="7" 
                 required="required" 
                 data-error="Please, leave us a message."
               />
