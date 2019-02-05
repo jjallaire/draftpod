@@ -14,6 +14,7 @@ import DraftNotFoundPage from '../components/draft/DraftNotFoundPage.vue'
 import { store, useDraftModule } from '../store'
 import { SET_DRAFT, REMOVE_DRAFTS, SET_FIREBASE_ERROR } from '../store/mutations'
 import firestore from '../store/modules/draft/firestore'
+import { CONVERT_TO_SINGLE_PLAYER } from '../store/modules/draft/mutations'
 import * as log from './log'
 import progress from './progress'
 import * as selectors from '../store/modules/draft/selectors'
@@ -90,12 +91,22 @@ export default new VueRouter({
 
             progress.start(350);
             firestore.getDraft(draft_id).then(draft => {
+              
+              // sync draft to local store if it was found
               if (draft) {
                 store.commit(SET_DRAFT, { draft_id, draft });
-                next();
+
+              // if not found then it was likely removed from the server
+              // in that case, downgrade to a single-player draft
               } else {
-                draftNotFound(next, draft_id);
+                store.commit("drafts/" + draft_id + "/" + CONVERT_TO_SINGLE_PLAYER, { 
+                  player_id: store.state.player.id
+                });
               }
+
+              // advance to the page
+              next();
+              
             })
             .catch(error => {
               // log error

@@ -242,7 +242,8 @@ function updateTable({ commit, state }, player_id, writer) {
 
         // log error if it's not one that occurs in the ordinary course of using firestore
         if (!firestore.isConnectivityError(error) && 
-            !firestore.isAbortedError(error)) {
+            !firestore.isAbortedError(error) &&
+            !firestore.isDraftNotFoundError(error)) {
           log.logException(error, "onUpdateDraftTable");
         }
       });

@@ -26,8 +26,14 @@ function ensureSignedIn() {
     return Promise.resolve();
 }
 
+const errors = {
+  DraftNotFound: "Draft Not Found"
+}
 
 export default {
+
+  // export errors
+  errors: errors,
 
   // create a draft within the firestore
   createDraft(id, draft) {
@@ -81,8 +87,10 @@ export default {
       return transaction.get(docRef).then(doc => {
 
         // read the table
-        return serializer.unserializeDraftTable(doc.data());
-
+        if (doc.data())
+          return serializer.unserializeDraftTable(doc.data());
+        else
+          return Promise.reject(new Error(this.errors.DraftNotFound));
       })
 
       // apply the changes using the passed writer, then serialize
@@ -166,6 +174,10 @@ export default {
   isConnectivityError(error) {
     return this.isAuthConnectivityError(error) ||
            this.isUnavailableError(error)
+  },
+
+  isDraftNotFoundError(error) {
+    return error.name === "Error" && error.message === errors.DraftNotFound;
   },
 
   isAbortedError(error) {

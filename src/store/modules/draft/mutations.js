@@ -4,6 +4,7 @@ export const WRITE_TABLE = 'WRITE_TABLE'
 export const SET_CONNECTED = 'SET_CONNECTED'
 export const SET_WAITING = 'SET_WAITING'
 export const SET_SHOW_BOT_COLORS = 'SET_SHOW_BOT_COLORS'
+export const CONVERT_TO_SINGLE_PLAYER = 'CONVERT_TO_SINGLE_PLAYER'
 
 import * as set from './set/'
 import * as draftbot from './draftbot'
@@ -66,6 +67,25 @@ export default {
 
   [SET_WAITING](state, { waiting }) {
     state.waiting = waiting;
+  },
+
+  [CONVERT_TO_SINGLE_PLAYER](state, { player_id }) {
+    
+    // convert any player not myself into a bot
+    state.table.players.forEach(player => {
+      if (player.id !== player_id) {
+        player.id = null;
+        player.name = null;
+        player.bot = draftbot.create();
+      }
+    });
+
+    // turn off master multi-player flag
+    state.options.multi_player = false;
+
+    // reset connected and waiting flags
+    state.connected = true;
+    state.waiting = false;
   }
 };
 
