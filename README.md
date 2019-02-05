@@ -31,7 +31,7 @@ Draftpod is built upon the foundation of several other open-source projects whic
 - [Vue Analytics](https://matteogabriele.gitbooks.io/vue-analytics/content/)
 - [Vue Browser Update](https://www.npmjs.com/package/vue-browserupdate)
 - [Vue Drag Drop](https://github.com/cameronhimself/vue-drag-drop)
-- [Vue Material Design Icons](https://www.npmjs.com/package/vue-material-design-icons)
+- [Vue MD Icons](https://www.npmjs.com/package/vue-material-design-icons)
 - [Vue Simple Spinner](https://github.com/dzwillia/vue-simple-spinner)
 - [Vue Simple SVG](https://github.com/seiyable/vue-simple-svg)
 - [Bootstrap 4](https://getbootstrap.com/docs/4.0/)
@@ -42,7 +42,16 @@ Draftpod is built upon the foundation of several other open-source projects whic
 - [Lodash](https://lodash.com/)
 - [LocalForage](https://localforage.github.io/localForage/)
 - [NProgress](http://ricostacruz.com/nprogress/)
-- 
+- [Mobile Detect](http://hgoebl.github.io/mobile-detect.js/)
+- [Fscreen](https://github.com/rafrex/fscreen)
+- [Chartist](https://gionkunz.github.io/chartist-js/)
+- [Epic Spinners](https://github.com/epicmaxco/epic-spinners)
+- [Papa Parse](https://www.papaparse.com/)
+- [FileSaver](https://github.com/eligrey/FileSaver.js/)
+- [JSZip](https://stuk.github.io/jszip/)
+- [YAML](https://eemeli.org/yaml/)
+- [short-uuid](https://github.com/oculus42/short-uuid)
+
 
 The [Draftpod logo](https://game-icons.net/faithtoken/originals/card-random.html) was designed by [Faithtoken](http://www.faithtoken.com/) and is used via the [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) license.
 
