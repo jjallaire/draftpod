@@ -65,7 +65,7 @@ export default {
   },
 
   [SET_WAITING](state, { waiting }) {
-    Vue.set(state, "waiting", waiting);
+    state.waiting = waiting;
   }
 };
 

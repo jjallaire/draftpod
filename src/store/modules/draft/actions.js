@@ -34,13 +34,13 @@ import * as messagebox from '@/components/core/messagebox.js'
 export default {
 
   [JOIN_DRAFT]( { commit, state }, player_info) {
-    return updateTable({ commit, state }, null, null, (table) => {
+    return updateTable({ commit, state }, null, (table) => {
       joinDraft(player_info, table);
     });
   },
 
   [START_DRAFT]({ commit, state }, player_info) {
-    return updateTable({ commit, state }, null, null, (table) => {
+    return updateTable({ commit, state }, null, (table) => {
       table.start_time = new Date().getTime();
       if (player_info)
         joinDraft(player_info, table);
@@ -48,35 +48,30 @@ export default {
     });
   },
 
-  [RESUME_DRAFT]({ commit, state }, { player_id, client_id }) {
+  [RESUME_DRAFT]({ commit, state }, { player_id }) {
 
-    // for multi-player drafts set the client id 
-    if (state.options.multi_player) {
-      return updateTable({ commit, state }, player_id, null, (table) => {
-        let player = selectors.activePlayer(player_id, table);
-        player.client_id = client_id;
-      });
-    
     // for single-player drafts update the start_time and reset the pick_timer 
-    } else {
-      return updateTable({ commit, state }, null, null, (table) => {
+    if (!state.options.multi_player) {
+      return updateTable({ commit, state }, null, (table) => {
         table.start_time = new Date().getTime();
         resetPickTimer(player_id, state.set.code, table);
       });
+    } else {
+      return Promise.resolve();
     }
   },
 
   [SIMULATE_DRAFT]({ commit, state }, { player_id }) {
-    return updateTable({ commit, state }, player_id, null, (table) => {
+    return updateTable({ commit, state }, player_id, (table) => {
       while (!table.picks_complete) {
         packToPick(state.set.code, player_id, table, null, null, null);
       }
     });
   },
 
-  [PICK_TIMER_PICK]({ commit, state }, { player_id, client_id }) {
+  [PICK_TIMER_PICK]({ commit, state }, { player_id }) {
     if (state.connected) {
-      return updateTable({ commit, state }, player_id, client_id, (table) => {
+      return updateTable({ commit, state }, player_id, (table) => {
         packToPick(state.set.code, player_id, table, null, null, null)
       });
     } else {
@@ -84,14 +79,14 @@ export default {
     }
   },
 
-  [PACK_TO_PICK]({ commit, state }, { player_id, client_id, card, pile_number, insertBefore }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [PACK_TO_PICK]({ commit, state }, { player_id, card, pile_number, insertBefore }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       packToPick(state.set.code, player_id, table, card, pile_number, insertBefore)
     });
   },
 
-  [PICK_TO_PILE]({ commit, state }, { player_id, client_id, card, pile_number, insertBefore }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [PICK_TO_PILE]({ commit, state }, { player_id, card, pile_number, insertBefore }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       let player = selectors.activePlayer(player_id, table);
       let picks = player.picks;
       pileToPile(player, card, pile_number, picks.piles, insertBefore);
@@ -99,26 +94,26 @@ export default {
 
   },
 
-  [DECK_TO_SIDEBOARD]({ commit, state }, { player_id, client_id, card }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [DECK_TO_SIDEBOARD]({ commit, state }, { player_id, card }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       deckToUnplayed(player_id, table, card, DECK.SIDEBOARD);
     });
   },
 
-  [DECK_TO_UNUSED]({ commit, state }, { player_id, client_id, card }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [DECK_TO_UNUSED]({ commit, state }, { player_id, card }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       deckToUnplayed(player_id, table, card, DECK.UNUSED);
     });
   },
 
-  [SIDEBOARD_TO_DECK]({ commit, state }, { player_id, client_id, card }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [SIDEBOARD_TO_DECK]({ commit, state }, { player_id, card }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       unplayedToDeck(player_id, table, card, DECK.SIDEBOARD);
     });
   },
 
-  [SIDEBOARD_TO_UNUSED]({ commit, state }, { player_id, client_id, card }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [SIDEBOARD_TO_UNUSED]({ commit, state }, { player_id, card }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.UNUSED, deck.piles, null);
@@ -126,14 +121,14 @@ export default {
     });
   },
 
-  [UNUSED_TO_DECK]({ commit, state }, { player_id, client_id, card }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [UNUSED_TO_DECK]({ commit, state }, { player_id, card }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       unplayedToDeck(player_id, table, card, DECK.UNUSED);
     });
   },
 
-  [UNUSED_TO_SIDEBOARD]({ commit, state }, { player_id, client_id, card }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [UNUSED_TO_SIDEBOARD]({ commit, state }, { player_id, card }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       let player = selectors.activePlayer(player_id, table);
       let deck = player.deck;
       pileToPile(player, card, DECK.SIDEBOARD, deck.piles, null);
@@ -141,23 +136,23 @@ export default {
     });
   },
 
-  [DISABLE_AUTO_LANDS]({ commit, state }, { player_id, client_id, color_order }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [DISABLE_AUTO_LANDS]({ commit, state }, { player_id, color_order }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       let deck = selectors.activePlayer(player_id, table).deck;
       deck.lands.auto = false;
       deck.lands.color_order = color_order;
     });
   },
 
-  [SET_BASIC_LANDS]({ commit, state }, { player_id, client_id, color, lands }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [SET_BASIC_LANDS]({ commit, state }, { player_id, color, lands }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       let deck = selectors.activePlayer(player_id, table).deck;
       deck.lands.basic[color] = lands;
     });
   },
 
-  [REMOVE_PLAYER]({ commit, state }, { player_id, client_id, remove_player_id }) {
-    return updateTable({ commit, state }, player_id, client_id, (table) => {
+  [REMOVE_PLAYER]({ commit, state }, { player_id, remove_player_id }) {
+    return updateTable({ commit, state }, player_id, (table) => {
       
       // determine player index
       let player_index = selectors.playerIndex(player_id, table);
@@ -166,7 +161,6 @@ export default {
       let player = selectors.activePlayer(remove_player_id, table);
       player.id = null;
       player.name = null;
-      player.client_id = null;
       player.bot = draftbot.create();
 
       // make any pending picks using ai
@@ -208,28 +202,15 @@ function cardIndex(cards, card) {
 }
 
 // update the table, writing through to firebase
-function updateTable({ commit, state }, player_id, client_id, writer) {
+function updateTable({ commit, state }, player_id, writer) {
     
-  // validate that another client hasn't taken over the draft
-  if (state.options.multi_player) {
-    if (!firestore.validateClient(player_id, client_id, state.table)) {
-      commit(SET_CONNECTED, { connected: false });
-      return Promise.resolve(false); 
-    }
-  }
-
-  // apply the changes 
-  let table = JSON.parse(JSON.stringify(state.table));
-  writer(table);
-
   // local write for single player mode
   if (!state.options.multi_player) {
 
-    // make the changes locally
+    // apply the changes
+    let table = JSON.parse(JSON.stringify(state.table));
+    writer(table);
     commit(WRITE_TABLE, { table });
-
-    // resolve with success
-    return Promise.resolve(true);
 
   } else {  
 
@@ -238,16 +219,7 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
 
     // initialize transaction
     return firestore.updateDraftTable(state.id, writer)
-      .then(function() {
-
-        // set connected flag to true to indicate we can do pick timer picks
-        if (!state.connected)
-          commit(SET_CONNECTED, { connected: true });
-
-        // successfully updated
-        return true;
-
-      })
+    
       .catch(function(error) {
       
         // clear waiting flag
@@ -267,15 +239,12 @@ function updateTable({ commit, state }, player_id, client_id, writer) {
 
         // set connected flag to false so we don't attempt pick timer picks
         commit(SET_CONNECTED, { connected: false });
-    
+
         // log error if it's not one that occurs in the ordinary course of using firestore
         if (!firestore.isConnectivityError(error) && 
             !firestore.isAbortedError(error)) {
           log.logException(error, "onUpdateDraftTable");
         }
-
-        // not successfully updated
-        return false;
       });
   } 
 

@@ -17,7 +17,7 @@ import { RESUME_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE,
          UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
          REMOVE_PLAYER } from '@/store/modules/draft/actions';
-import { WRITE_TABLE, SET_CONNECTED, SET_WAITING, SET_SHOW_BOT_COLORS } from '@/store/modules/draft/mutations'
+import { WRITE_TABLE, SET_WAITING, SET_SHOW_BOT_COLORS } from '@/store/modules/draft/mutations'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
 
@@ -34,8 +34,6 @@ import * as messagebox from '@/components/core/messagebox.js'
 import _flatten from 'lodash/flatten'
 
 import MobileDetect from 'mobile-detect'
-
-import shortUuid from 'short-uuid'
 
 import jquery from 'jquery'
 
@@ -69,7 +67,6 @@ export default {
 
   data: function() {
     return { 
-      client_id: shortUuid().new(),
       fullscreen: false,
       fullscreenEnabled: fscreen.fullscreenEnabled,
       isMobile: false,
@@ -189,18 +186,12 @@ export default {
       this.$store.commit(SET_FIREBASE_ERROR, null);
       return;
     }
-
-    // clear waiting flag
-    this.setWaiting({ waiting: false});
-  
+ 
     // resume draft
-    this.resumeDraft().then((success) => {
+    this.resumeDraft().then(() => {
 
       // multiplayer
-      if (success && this.options.multi_player) {
-
-        // wait to validate the client until we see our first commit
-        let validateClient = false;
+      if (this.options.multi_player) {
 
         // track firestore
         this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
@@ -211,21 +202,6 @@ export default {
           // clear waiting flag
           this.setWaiting({ waiting: false });
 
-          // get activePlayer reference
-          let player = selectors.activePlayer(this.player.id, table);
-
-          // see if we should start validating the client (we do this only after we've 
-          // seen our client in a change, this is to eliminate the possibility of failing
-          // validation as a result of snapshots coming from other clients that occurred
-          // prior to our resuming the draft)
-          if (!validateClient)
-            validateClient = this.client_id === player.client_id;
-
-          // validate that the client hasn't changed
-          if (validateClient && !firestore.validateClient(this.player.id, this.client_id, table)) {
-            this.setConnected({ connected: false });
-            this.firestoreUnsubscribe();
-          }
         });
       }
     });
@@ -252,9 +228,6 @@ export default {
       removeDrafts: REMOVE_DRAFTS,
       writeTable(dispatch, payload) {
         return dispatch(this.namespace + '/' + WRITE_TABLE, payload);
-      },
-      setConnected(dispatch, payload) {
-        return dispatch(this.namespace + '/' + SET_CONNECTED, payload);
       },
       setWaiting(dispatch, payload) {
         return dispatch(this.namespace + '/' + SET_WAITING, payload);
@@ -307,7 +280,6 @@ export default {
     withPlayerId: function(payload) {
       return {
         player_id: this.player.id,
-        client_id: this.client_id,
         ...payload
       }
     },

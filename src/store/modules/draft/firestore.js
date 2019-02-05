@@ -1,10 +1,8 @@
 
 import * as log from '@/core/log'
-import * as selectors from './selectors'
 import * as draftlog from './draftlog'
 import * as serializer from './serializer'
 
-import * as messagebox from '@/components/core/messagebox.js'
 import { firestore, draft_storage } from '@/core/firebase'
 import shortUuid from 'short-uuid'
 
@@ -39,10 +37,8 @@ export default {
       })
       .then(table => {
         return firestore.collection('drafts').doc(id).set({
+          ...draft,
           id: id,
-          set: draft.set,
-          options: draft.options,
-          packs: draft.packs,
           table: table
         });
       })
@@ -153,35 +149,6 @@ export default {
       .then(snapshot => {
         return snapshot.ref.getDownloadURL();
       });
-  },
-
-
-  validateClient(player_id, client_id, table) {
-    if (player_id !== null && client_id !== null) {
-      
-      let player = selectors.activePlayer(player_id, table);
-
-      // player has been removed from the draft
-      if (player === undefined) {
-        return false;
-      }
-
-      // another browser has taken over this draft
-      else if (client_id !== player.client_id) {
-        messagebox.alert(
-          "Disconnected from Draft", 
-          "<p>Another browser was connected to this draft, so this browser was disconnected.</p>" +
-          "You can reconnect by clicking the button below.",
-          () => {
-            window.location.reload();
-          },
-          "Reconnect to Draft",
-          false
-        );
-        return false;
-      }
-    } 
-    return true;
   },
 
   isFirebaseError(error) {
