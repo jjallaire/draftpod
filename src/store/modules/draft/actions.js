@@ -17,7 +17,7 @@ export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 export const REMOVE_PLAYER = 'REMOVE_PLAYER'
 
-import { WRITE_TABLE, SET_CONNECTED, SET_WAITING } from './mutations'
+import { WRITE_TABLE, SET_CONNECTED, SET_WAITING, CONVERT_TO_SINGLE_PLAYER } from './mutations'
 
 import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
@@ -204,13 +204,18 @@ function cardIndex(cards, card) {
 // update the table, writing through to firebase
 function updateTable({ commit, state }, player_id, writer) {
     
+  // helper function to locally write changes
+  function writeChangesLocal() {
+    let table = JSON.parse(JSON.stringify(state.table));
+    writer(table);
+    commit(WRITE_TABLE, { table });
+  }
+
   // local write for single player mode
   if (!state.options.multi_player) {
 
     // apply the changes
-    let table = JSON.parse(JSON.stringify(state.table));
-    writer(table);
-    commit(WRITE_TABLE, { table });
+    writeChangesLocal();
 
   } else {  
 
@@ -225,26 +230,36 @@ function updateTable({ commit, state }, player_id, writer) {
         // clear waiting flag
         commit(SET_WAITING, { waiting: false });
 
-        // notify user
-        messagebox.alert(
-          "Connection Error",
-          "<p>An error occurred while communicating with the Draftpod server: " + error + "</p>" +
-          "<p>Please be sure that your internet connection is online, " +
-          "then click the button below to attempt to reconnect.</p>",
-          () => {
-            window.location.reload();
-          },
-          "Reconnect to Draft",
-        );
+        // if this is a DraftNotFound then the draft has been removed from the firestore,
+        // in that case flip into single-player mode
+        if (firestore.isDraftNotFoundError(error)) {
 
-        // set connected flag to false so we don't attempt pick timer picks
-        commit(SET_CONNECTED, { connected: false });
+          commit(CONVERT_TO_SINGLE_PLAYER, { player_id });       
+          writeChangesLocal();
 
-        // log error if it's not one that occurs in the ordinary course of using firestore
-        if (!firestore.isConnectivityError(error) && 
-            !firestore.isAbortedError(error) &&
-            !firestore.isDraftNotFoundError(error)) {
-          log.logException(error, "onUpdateDraftTable");
+        } else {
+
+          // notify user
+          messagebox.alert(
+            "Connection Error",
+            "<p>An error occurred while communicating with the Draftpod server: " + error + "</p>" +
+            "<p>Please be sure that your internet connection is online, " +
+            "then click the button below to attempt to reconnect.</p>",
+            () => {
+              window.location.reload();
+            },
+            "Reconnect to Draft",
+          );
+
+          // set connected flag to false so we don't attempt pick timer picks
+          commit(SET_CONNECTED, { connected: false });
+
+          // log error if it's not one that occurs in the ordinary course of using firestore
+          if (!firestore.isConnectivityError(error) && 
+              !firestore.isAbortedError(error) &&
+              !firestore.isDraftNotFoundError(error)) {
+            log.logException(error, "onUpdateDraftTable");
+          }
         }
       });
   } 
