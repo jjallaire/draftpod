@@ -37,11 +37,20 @@ So the first one or two cards in the pick order will have a rating of 5.0, the n
 
 Applying the LSV distribution to pick orders enables us to derive ratings for any set for which an ordering is available (as opposed to only the sets that LSV has already rated). It also allow us to track the drafting "meta" as the community evaluation of cards changes over the course of a set release.
 
+#### How can I contribute to Drafpod?
+
+Draftpod is open-source software (development takes place on GitHub at <https://github.com/jjallaire/draftpod>). 
+
+If you have ideas for imporving Draftpod, you can [post an issue](https://github.com/jjallaire/draftpod/issues) on the Draftpod repository.
+
+If you want to submit a feature or bugfix we welcome your contributions! Before getting to work you should be sure to review the [contribution guidelines](https://github.com/jjallaire/draftpod/blob/master/CONTRIBUTING.md). Then, when your change is ready, [send us a pull request](https://github.com/jjallaire/draftpod/pulls).
+
+
 #### Where are my previous drafts stored?
 
 Your last several drafts are saved by Draftpod within your web browser's local storage. You can review and return to these recent drafts so long as you are using the same browser (if you switch to another browser you won't see the drafts created within the first browser).
 
-If you want to sakeepve a more permanent record of your drafts, you can download draft logs and decklists using the **Download** button within the deck builder:
+If you want to keep a more permanent record of your drafts, you can download draft logs and decklists using the **Download** button within the deck builder:
 
 <p>
 <img src="/images/guide/download-deck.png" width="100%" />

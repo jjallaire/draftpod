@@ -9,7 +9,7 @@
 
 [Booster Draft](https://magic.wizards.com/en/game-info/gameplay/formats/booster-draft) is one of the most enjoyable ways to play Magic. In fact, drafting is one of the best gaming experiences that you can find anywhere!
 
-Traditionally, the only ways to draft were to pull together a group of 6-8 players, attend a [game store event](https://magic.wizards.com/en/events/event-types/friday-night-magic), or queue into an [MTGO Draft League](https://magic.wizards.com/en/MTGO/content/magic-online-limited-events). More recently, [Magic Arena](https://magic.wizards.com/en/mtgarena), has been offering a fantastic solo-drafting experience (you draft against bots and then play games against real opponents online).
+Traditionally, the only ways to draft were to pull together a group of 6-8 players, attend a [store event](https://magic.wizards.com/en/events/event-types/friday-night-magic), or queue into an [MTGO Draft League](https://magic.wizards.com/en/MTGO/content/magic-online-limited-events). More recently, [Magic Arena](https://magic.wizards.com/en/mtgarena), has been offering a fantastic solo-drafting experience (you draft against bots and then play games against real opponents online).
 
 But what about playing at home on the kitchen table? What about getting together with a friend for a beer and some Magic? What if you want to draft whenever you play tabletop Magic, even if you have only a couple of players? Draftpod was developed to make this possible.
 
