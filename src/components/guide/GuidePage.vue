@@ -8,6 +8,7 @@ import SinglePlayerMd from './articles/single-player.md'
 import MultiPlayerMd from './articles/multi-player.md'
 import CardpoolsMd from './articles/cardpools.md'
 import FAQMd from './articles/faq.md'
+import PrivacyMd from './articles/privacy.md'
 import Contact from './articles/Contact.vue'
 
 import jquery from 'jquery'
@@ -17,7 +18,7 @@ export default {
 
   components: {
     NavBar, SiteFooter, 
-    WelcomeMd, SinglePlayerMd, MultiPlayerMd, CardpoolsMd, FAQMd, Contact
+    WelcomeMd, SinglePlayerMd, MultiPlayerMd, CardpoolsMd, FAQMd, PrivacyMd, Contact
   },
 
   mounted() {
@@ -145,6 +146,17 @@ export default {
               Frequently Asked Questions
             </a>
             <a 
+              id="privacy-tab" 
+              class="nav-link" 
+              data-toggle="pill" 
+              href="#privacy" 
+              role="tab" 
+              aria-controls="privacy" 
+              aria-selected="false"
+            >
+              Privacy Notice
+            </a>
+            <a 
               id="contact-tab" 
               class="nav-link" 
               data-toggle="pill" 
@@ -209,8 +221,16 @@ export default {
             >
               <FAQMd />
             </div>
-        
 
+
+            <div 
+              id="privacy" 
+              class="tab-pane fade" 
+              role="tabpanel" 
+              aria-labelledby="privacy-tab"
+            >
+              <PrivacyMd />
+            </div>        
 
             <div 
               id="contact" 
