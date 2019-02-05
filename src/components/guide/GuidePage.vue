@@ -111,7 +111,7 @@ export default {
             >
               Multi-Player Drafts
             </a>
-             <a 
+            <a 
               id="single-player-tab" 
               class="nav-link" 
               data-toggle="pill" 
