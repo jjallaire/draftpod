@@ -1,4 +1,4 @@
-## Draft simulator for Magic the Gathering
+# Draftpod
 
 <img src="https://github.com/jjallaire/draftpod/raw/master/public/images/screenshot.png" align="right" width="35%" />
 
