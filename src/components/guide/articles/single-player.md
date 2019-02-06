@@ -46,7 +46,7 @@ If you are practicing reading signals often just seeing bot colors after pack 1 
 
 ### Reviewing Drafts
 
-If you want to review amd analyze your draft after it's complete, you can download a draft log and decklist using the **Download** button within the deck builder:
+If you want to review and analyze your draft after it's complete, you can download a draft log and deck list using the **Download** button within the deck builder:
 
 <p>
 <img src="/images/guide/download-deck.png" width="100%" />

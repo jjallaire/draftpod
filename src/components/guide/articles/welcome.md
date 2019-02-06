@@ -13,7 +13,7 @@ Traditionally, the only ways to draft were to pull together a group of 6-8 playe
 
 But what about playing at home on the kitchen table? What about getting together with a friend for a beer and some Magic? What if you want to draft whenever you play tabletop Magic, even if you have only a couple of players? Draftpod was developed to make this possible.
 
-Draftpod provides a simulator that enables you to conduct drafts with 2 or 3 players, in which case simulated players (draft bots) take the other seats at the table. When the draft is complete, you use the resulting decklists to assemble decks from paper magic cards in your collection, and then play some games! 
+Draftpod provides a simulator that enables you to conduct drafts with 2 or 3 players, in which case simulated players (draft bots) take the other seats at the table. When the draft is complete, you use the resulting deck lists to assemble decks from paper magic cards in your collection, and then play some games! 
 
 Draftpod also includes a single-player mode that enables you to practice evaluating cards, reading signals, and building decks. Our hope is that Draftpod will provide a great way for 2, 3, or 4 players to draft without compromising on the depth of strategy and skill that makes drafting such a great gaming experience. We also hope it will be a valuable learning resource for players trying to improve their skills.
 

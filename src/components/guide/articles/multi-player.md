@@ -16,7 +16,7 @@ To start a new multi-player draft, go to the [Draft](/draft/) page, select the s
 
 Then, copy the provided URL and send it to the other players you'd like to have join. 
 
-Players should use a desktop, laptop or tablet rather than a mobile phone (since phones don't generally have large enough screens to accomodate the Draftpod UI).
+Players should use a desktop, laptop or tablet rather than a mobile phone (since phones don't generally have large enough screens to accommodate the Draftpod UI).
 
 When a player joins, their name will appear in the players list. Once all of the players have joined, click **Start Draft** to begin.
 

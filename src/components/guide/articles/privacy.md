@@ -1,6 +1,6 @@
 ## Privacy Notice
 
-Draftpod is very careful about the collection and use of personal information. Any information we do collect is only used to operate Draftpod. We don't sell or trade vistor information with other companies.
+Draftpod is very careful about the collection and use of personal information. Any information we do collect is only used to operate Draftpod. We don't sell or trade visitor information with other companies.
 
 This document provides details about what kind of data Draftpod gathers and how we manage it.
 
@@ -26,7 +26,7 @@ Opt-out: You can set a [Do Not Track](https://allaboutdnt.com/) setting in your 
 
 Draftpod stores an archive of the most recent 10 drafts within your browser's local storage. This data is only available to your browser and is not transmitted to Draftpod.
 
-In order to conduct multi-player drafts, Draftpod stores the current state of the draft table within a [Google Cloud Firestore](https://cloud.google.com/firestore/) document. The player data within the stored draft table includes a user-provided first name, but no other personally identifyable information.
+In order to conduct multi-player drafts, Draftpod stores the current state of the draft table within a [Google Cloud Firestore](https://cloud.google.com/firestore/) document. The player data within the stored draft table includes a user-provided first name, but no other personally identifiable information.
 
 When drafts are completed, Draftpod logs the order of picks within the draft for subsequent analysis (e.g. to improve card ratings and develop improved bot drafters). This data is completely anonymous (there is no way to tie it back to the person or browser that originated it). The data is stored within a [Google Cloud Storage](https://cloud.google.com/storage/) bucket.
 
