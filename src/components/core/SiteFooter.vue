@@ -21,13 +21,12 @@ export default {
     </p>
 
     <p class="small">
-      Copyright &copy; 2019 <a href="https://github.com/jjallaire/draftpod/blob/master/AUTHORS">Draftpod</a>.
+      Copyright &copy; 2019 Draftpod.
       <span class="footer-links">
         <a href="/guide#welcome/">About</a>
         <a href="/guide#faq/">FAQ</a>
         <a href="/guide#privacy/">Privacy</a>
         <a href="/guide#contact/">Contact</a>
-        <a href="https://github.com/jjallaire/draftpod">GitHub</a>
       </span>
     </p>
   </footer>
