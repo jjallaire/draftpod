@@ -102,17 +102,6 @@ export default {
               Welcome
             </a>
             <a 
-              id="multi-player-tab" 
-              class="nav-link" 
-              data-toggle="pill" 
-              href="#multi-player" 
-              role="tab" 
-              aria-controls="multi-player" 
-              aria-selected="false"
-            >
-              Multi-Player Drafts
-            </a>
-            <a 
               id="single-player-tab" 
               class="nav-link" 
               data-toggle="pill" 
@@ -122,6 +111,17 @@ export default {
               aria-selected="false"
             >
               Single-Player Drafts
+            </a>
+            <a 
+              id="multi-player-tab" 
+              class="nav-link" 
+              data-toggle="pill" 
+              href="#multi-player" 
+              role="tab" 
+              aria-controls="multi-player" 
+              aria-selected="false"
+            >
+              Multi-Player Drafts
             </a>
             <a 
               id="cardpools-tab" 

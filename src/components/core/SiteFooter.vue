@@ -20,8 +20,9 @@ export default {
       <CopyrightNoticeMd />
     </p>
 
-    <p class="text-center small">
-      <span class="footer-links pull-right">
+    <p class="small">
+      Copyright &copy; 2019 <a href="https://github.com/jjallaire/draftpod/blob/master/AUTHORS">Draftpod</a>.
+      <span class="footer-links">
         <a href="/guide#welcome/">About</a>
         <a href="/guide#faq/">FAQ</a>
         <a href="/guide#privacy/">Privacy</a>
@@ -44,7 +45,7 @@ export default {
 }
 
 .site-footer .footer-links a {
-  color: #bbb !important;
+  color: #ccc !important;
   margin-left: 15px;
   margin-right: 15px;
 }

@@ -17,4 +17,4 @@ Draftpod provides a simulator that enables you to conduct drafts with 2 or 3 pla
 
 Draftpod also includes a single-player mode that enables you to practice evaluating cards, reading signals, and building decks. Our hope is that Draftpod will provide a great way for 2, 3, or 4 players to draft without compromising on the depth of strategy and skill that makes drafting such a great gaming experience. We also hope it will be a valuable learning resource for players trying to improve their skills.
 
-To get started with Draftpod, check out the articles on conducting [Multi-Player Drafts](/guide/#multi-player) and [Single-Player Drafts](/guide/#single-player).
+To get started with Draftpod, check out the articles on conducting [Single-Player Drafts](/guide/#single-player) and  [Multi-Player Drafts](/guide/#multi-player).
