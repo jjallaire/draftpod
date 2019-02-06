@@ -16,7 +16,7 @@ When errors occur within Draftpod, a log of the error is sent to the [Sentry](ht
 
 When you use Draftpod, we collect statistical data about the device and network you used to access the site. We also collect behavior data. For example, we keep track of which buttons and links people click to get around on the site and how often they come back.
 
-This information is stored with [Google Analytics](https://en.wikipedia.org/wiki/Google_Analytics) and is anonymized and aggregated. Only Draftpod administrators have access our analytics data. We collect this information so that we can make better decisions about how to improve Draftpod. We never sell or trade this information to any other company.
+This information is stored with [Google Analytics](https://en.wikipedia.org/wiki/Google_Analytics) and is anonymized and aggregated. Only Draftpod administrators have access to our analytics data. We collect this information so that we can make better decisions about how to improve Draftpod. We never sell or trade this information to any other company.
 
 Opt-out: You have the option to [opt-out of Google Analytics](https://tools.google.com/dlpage/gaoptout) using their browser extension or any of the available content blocking plugins for your platform.
 
