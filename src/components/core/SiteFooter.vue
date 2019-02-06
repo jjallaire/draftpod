@@ -21,7 +21,7 @@ export default {
     </p>
 
     <p class="small">
-      Copyright &copy; 2019 Draftpod.
+      All other content &copy; 2019 Draftpod. All rights reserved.
       <span class="footer-links">
         <a href="/guide#welcome/">About</a>
         <a href="/guide#faq/">FAQ</a>
