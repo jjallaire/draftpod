@@ -8,7 +8,7 @@ This document provides details about what kind of data Draftpod gathers and how 
 
 The Draftpod [contact form](/guide#contact/) requests that you provide your name and email address. This information is used only for following up on requests via email. 
 
-## Community Forum
+### Community Forum
 
 The [Draftpod Forum](https://forum.draftpod.io/) is hosted on [Discourse](https://www.discourse.org/). See the forum [Privacy Policy](https://forum.draftpod.io/t/privacy-policy/6) for additional details on how Discourse handles information.
 
