@@ -53,7 +53,7 @@ It's important to note that bots don't need to know how to build good decks. Rat
 
 #### Who created Draftpod? What are the goals of the project?
 
-Draftpod was created by [J.J. Allaire](https://github.com/jjallaire), a software engineer that loves to play Magic and even more-so loves to draft. After trying various forms of 2 or 3 player draft (Winston Draft, Half-Pack Draft, etc.) and feeling like they were nowhere even close to "real" drafts, he wanted to find a better way. 
+Draftpod was created by [J.J. Allaire](https://github.com/jjallaire), a software engineer that loves to play Magic and even more-so loves to draft. After trying various forms of 2 or 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, he wanted to find a better way. 
 
 The goal of Draftpod is to provide a compelling solution to the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138). We hope the Magic community finds the site useful, and that it enables lots of players to draft more and draft better.  
 
