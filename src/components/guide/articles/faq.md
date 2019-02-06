@@ -37,6 +37,20 @@ So the first one or two cards in the pick order will have a rating of 5.0, the n
 
 Applying the LSV distribution to pick orders enables us to derive ratings for any set for which an ordering is available (as opposed to only the sets that LSV has already rated). It also allow us to track the drafting "meta" as the community evaluation of cards changes over the course of a set release.
 
+#### How do Draftpod bots decide which cards to pick?
+
+The key to making virtual drafts feel as close as possible to real drafts are the draft bots. Creating bots that provide a realistic experience is quite challenging and always a work in progress. The core approach to draft bots taken by Draftpod is as follows:
+
+- Bots use a baseline set of pick ratings derived from the P1P1 community evaluations available at [https://draftaholicsanonymous.com/](https://draftaholicsanonymous.com/).
+
+- Bots attempt to find color lanes over the first pack of the draft, giving a bonus to cards that match the colors of the ones in their pile.
+
+- Once a bot has found their color lanes they "lock in" to picking cards from only those colors. Depending on the bot, this occurs late in pack 1 or early in pack 2.
+
+Those are the core mechanics which drive the bots. In addition, some variance is applied to bot behavior so that it is less predictable from draft to draft. Specifically, some bots favor certain colors, some bots are better than others are card evaluation (i.e. how closely their picks track to underlying ratings), and some bots lock into colors sooner than others.
+
+It's important to note that bots don't need to know how to build good decks. Rather, they just need to take cards out of the pool _in aggregate_ in a fashion that approximates what real players do. We're very interested in improving bot behavior to model real drafts as closely as possible, so please [let us know](/guide#contact/) how well it's working for you and how you think it could be improved.
+
 #### Where are my previous drafts stored?
 
 Your last several drafts are saved by Draftpod within your web browser's local storage. You can review and return to these recent drafts so long as you are using the same browser (if you switch to another browser you won't see the drafts created within the first browser).
