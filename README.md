@@ -14,6 +14,26 @@ a great way for 2, 3, or 4 players to draft without compromising on the depth of
 strategy and skill that makes drafting such a great gaming experience. We also hope
 it will be a valuable learning resource for players trying to improve their skills.
 
+## Development
+
+Here's how to setup a local Draftpod development configuration:
+
+- Install node.js / npm from <https://nodejs.org/en/>
+
+- Clone the Draftpod repository 
+
+- Install required JavaScript dependencies via:
+
+    ```bash
+    npm install
+    ```
+
+- Run the site with:
+
+    ```bash
+    npm run serve
+    ```
+
 ## Acknowledgements
 
 Draftpod is built upon the foundation of several other open-source projects which we'd like to acknowledge here:
