@@ -51,6 +51,15 @@ Those are the core mechanics which drive the bots. In addition, some variance is
 
 It's important to note that bots don't need to know how to build good decks. Rather, they just need to take cards out of the pool _in aggregate_ in a fashion that approximates what real players do. We're very interested in improving bot behavior to model real drafts as closely as possible, so please [let us know](/guide#contact/) how well it's working for you and how you think it could be improved.
 
+#### Who created Draftpod? What are the goals of the project?
+
+Draftpod was created by [J.J. Allaire](https://github.com/jjallaire), a software engineer that loves to play Magic and even moreso loves to draft. After trying various forms of 2 or 3 player draft (Winston Draft, Half-Pack Draft, etc.) and feeling like they were nowhere even close to "real" drafts, he wanted to find a better way. 
+
+The goal of Draftpod is to provide a compelling solution to the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138). We hope the Magic community finds the site useful, and that it enables lots of players to draft more and draft better.  
+
+Draftpod is a free service and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. 
+
+
 #### Where are my previous drafts stored?
 
 Your last several drafts are saved by Draftpod within your web browser's local storage. You can review and return to these recent drafts so long as you are using the same browser (if you switch to another browser you won't see the drafts created within the first browser).
