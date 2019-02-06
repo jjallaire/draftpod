@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <footer class="site-footer">
+  <footer class="site-footer text-muted">
     <p class="small">
       <CopyrightNoticeMd />
     </p>
@@ -44,7 +44,7 @@ export default {
 }
 
 .site-footer .footer-links a {
-  color: #ccc !important;
+  color: #999 !important;
   margin-left: 15px;
   margin-right: 15px;
 }

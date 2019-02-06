@@ -19,7 +19,7 @@ export default {
     
     <div class="container">
       <div class="home-content">
-        <div class="jumbotron text-muted">
+        <div class="jumbotron ">
           <h1 class="display-3">
             Draftpod
           </h1>
@@ -72,8 +72,13 @@ export default {
 
 <style>
 
+
 .home-content .jumbotron {
   padding-top: 2rem;
+}
+
+.home-content .jumbotron .display-3 {
+  font-weight: 300;
 }
 
 .home-content .lead {
