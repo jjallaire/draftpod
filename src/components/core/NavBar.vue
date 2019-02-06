@@ -52,6 +52,11 @@
           Guide
         </a>
       </router-link>
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="https://forum.draftpod.io/">
+          Forum
+        </a>
+      </li>
     </ul>
   
   </nav>

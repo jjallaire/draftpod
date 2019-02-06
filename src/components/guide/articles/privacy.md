@@ -8,6 +8,10 @@ This document provides details about what kind of data Draftpod gathers and how 
 
 The Draftpod [contact form](/guide#contact/) requests that you provide your name and email address. This information is used only for following up on requests via email. 
 
+## Community Forum
+
+The [Draftpod Forum](https://forum.draftpod.io/) is hosted on [Discourse](https://www.discourse.org/). See the forum [Privacy Policy](https://forum.draftpod.io/t/privacy-policy/6) for additional details on how Discourse handles information.
+
 ### Error Reporting
 
 When errors occur within Draftpod, a log of the error is sent to the [Sentry](https://sentry.io/) error-reporting service. Error reports also include various types of system diagnostic information (e.g. browser version, operating system, etc.). This information is used only for diagnosing and fixing errors which occur in the service.
