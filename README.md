@@ -1,6 +1,6 @@
 # Draftpod
 
-<img src="raw/master/public/images/screenshot.png" align="right" width="35%" />
+<img src="https://github.com/jjallaire/draftpod/raw/master/public/images/screenshot.png" align="right" width="35%" />
 
 [Draftpod](https://draftpod.org) provides a simulator that enables you to conduct Magic the Gathering
 [booster drafts](https://magic.wizards.com/en/game-info/gameplay/formats/booster-draft) 
