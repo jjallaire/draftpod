@@ -18,17 +18,18 @@ it will be a valuable learning resource for players trying to improve their skil
 
 Here's how to setup a local Draftpod development configuration:
 
-- Install node.js / npm from <https://nodejs.org/en/>
+1) Install node.js / npm from <https://nodejs.org/en/>
 
-- Clone the Draftpod repository 
+2) Clone the Draftpod repository 
 
-- Install required JavaScript dependencies via:
+3) Switch to the repository directory, then install required JavaScript dependencies:
 
     ```bash
+    cd ~/projects/draftpod
     npm install
     ```
 
-- Run the site with:
+4) Run the site with:
 
     ```bash
     npm run serve
