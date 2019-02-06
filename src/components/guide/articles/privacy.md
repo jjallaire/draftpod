@@ -6,7 +6,7 @@ This document provides details about what kind of data Draftpod gathers and how 
 
 ### Contact Form
 
-The Draftpod [contact form](https://draftpod-c0eac.firebaseapp.com/guide#contact/) requests that you provide your name and email address. This information is used only for following up on requests via email. 
+The Draftpod [contact form](/guide#contact/) requests that you provide your name and email address. This information is used only for following up on requests via email. 
 
 ### Error Reporting
 
