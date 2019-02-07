@@ -45,8 +45,7 @@ export default {
 
 .site-footer .footer-links a {
   color: #999 !important;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 30px;
 }
 
 </style>
