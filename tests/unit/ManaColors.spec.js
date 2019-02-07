@@ -1,7 +1,7 @@
 
 
 import { mount } from '@vue/test-utils'
-import ManaColors from '../ManaColors.vue'
+import ManaColors from '../../src/components/draft/infobar/ManaColors.vue'
 
 import cards from './cards.json'
 
