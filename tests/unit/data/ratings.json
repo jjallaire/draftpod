@@ -1,0 +1,396 @@
+[
+  {
+    "card": {
+      "id": 457199,
+      "name": "Sphinx of Foresight",
+      "collector_number": 55,
+      "multiverse_ids": [
+        457199
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/c/f/cf2386fd-edc0-4731-8f4e-7a7c45548bf3.jpg?1547234600"
+      ],
+      "layout": "normal",
+      "type_line": "Creature — Sphinx",
+      "mana_cost": "{2}{U}{U}",
+      "cmc": 4,
+      "colors": [
+        "U"
+      ],
+      "rarity": "rare",
+      "rating": 4,
+      "key": "gMbcr6TtgKB6VjKqu96Y3q"
+    },
+    "base_rating": 4,
+    "color_bonus": 0,
+    "rating": 4
+  },
+  {
+    "card": {
+      "id": 457367,
+      "name": "Collision // Colossus",
+      "collector_number": 223,
+      "multiverse_ids": [
+        457367
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1548262504"
+      ],
+      "layout": "split",
+      "type_line": "Instant // Instant",
+      "mana_cost": "{1}{R/G} // {R}{G}",
+      "cmc": 4,
+      "colors": [
+        "G",
+        "R"
+      ],
+      "rarity": "uncommon",
+      "rating": 3.5,
+      "key": "6UVXvo5jowqTeXVvGmzyjy"
+    },
+    "base_rating": 3.5,
+    "color_bonus": 0,
+    "rating": 3.5
+  },
+  {
+    "card": {
+      "id": 457246,
+      "name": "Gates Ablaze",
+      "collector_number": 102,
+      "multiverse_ids": [
+        457246
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/2/b/2b574b44-01e1-4197-99bd-57e54aebc5ff.jpg?1547234846"
+      ],
+      "layout": "normal",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{R}",
+      "cmc": 3,
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "rating": 3,
+      "key": "r2PZHcCEqLWNQpRh3U9YfX"
+    },
+    "base_rating": 3,
+    "color_bonus": 0,
+    "rating": 3
+  },
+  {
+    "card": {
+      "id": 457370,
+      "name": "Incubation // Incongruity",
+      "collector_number": 226,
+      "multiverse_ids": [
+        457370
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1548262479"
+      ],
+      "layout": "split",
+      "type_line": "Sorcery // Instant",
+      "mana_cost": "{G/U} // {1}{G}{U}",
+      "cmc": 4,
+      "colors": [
+        "G",
+        "U"
+      ],
+      "rarity": "uncommon",
+      "rating": 2.5,
+      "key": "6ECsieyQrUetDHkLv9d1za"
+    },
+    "base_rating": 2.5,
+    "color_bonus": 0,
+    "rating": 2.5
+  },
+  {
+    "card": {
+      "id": 457399,
+      "name": "Rakdos Guildgate",
+      "collector_number": 255,
+      "multiverse_ids": [
+        457399
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1547579529"
+      ],
+      "layout": "normal",
+      "type_line": "Land — Gate",
+      "mana_cost": "",
+      "cmc": 0,
+      "colors": [
+        "B",
+        "R"
+      ],
+      "rarity": "common",
+      "rating": 2.5,
+      "key": "ueMTRwU5PjjXLcke1Qe1Zh"
+    },
+    "base_rating": 2.5,
+    "color_bonus": 0,
+    "rating": 2.5
+  },
+  {
+    "card": {
+      "id": 457247,
+      "name": "Ghor-Clan Wrecker",
+      "collector_number": 103,
+      "multiverse_ids": [
+        457247
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/4/d/4da3969c-1979-4eee-828a-4a7189121eba.jpg?1547259854"
+      ],
+      "layout": "normal",
+      "type_line": "Creature — Human Warrior",
+      "mana_cost": "{3}{R}",
+      "cmc": 4,
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "rating": 2,
+      "key": "3s9zZp339nCMdMyg7fVpjo"
+    },
+    "base_rating": 2,
+    "color_bonus": 0,
+    "rating": 2
+  },
+  {
+    "card": {
+      "id": 457156,
+      "name": "Impassioned Orator",
+      "collector_number": 12,
+      "multiverse_ids": [
+        457156
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/2/b/2bd746e3-8934-4c86-894e-2cb1738b1d58.jpg?1547234391"
+      ],
+      "layout": "normal",
+      "type_line": "Creature — Human Cleric",
+      "mana_cost": "{1}{W}",
+      "cmc": 2,
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "rating": 2,
+      "key": "mGAReRTvvkSjpJioiApTW8"
+    },
+    "base_rating": 2,
+    "color_bonus": 0,
+    "rating": 2
+  },
+  {
+    "card": {
+      "id": 457194,
+      "name": "Senate Courier",
+      "collector_number": 50,
+      "multiverse_ids": [
+        457194
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/d/a/da8dc5c8-4eb7-4e41-8431-b41251f7814e.jpg?1547234575"
+      ],
+      "layout": "normal",
+      "type_line": "Creature — Bird",
+      "mana_cost": "{2}{U}",
+      "cmc": 3,
+      "colors": [
+        "U",
+        "W"
+      ],
+      "rarity": "common",
+      "rating": 2,
+      "key": "9qoLxMdQhdDkDfsARFs2VA"
+    },
+    "base_rating": 2,
+    "color_bonus": 0,
+    "rating": 2
+  },
+  {
+    "card": {
+      "id": 457263,
+      "name": "Storm Strike",
+      "collector_number": 119,
+      "multiverse_ids": [
+        457263
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/8/d/8de24cba-545a-438b-9516-1c19a50ca78c.jpg?1547234940"
+      ],
+      "layout": "normal",
+      "type_line": "Instant",
+      "mana_cost": "{R}",
+      "cmc": 1,
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "rating": 1.5,
+      "key": "2YBzLRZ7QhTWWsmNuSY38U"
+    },
+    "base_rating": 1.5,
+    "color_bonus": 0,
+    "rating": 1.5
+  },
+  {
+    "card": {
+      "id": 457170,
+      "name": "Tenth District Veteran",
+      "collector_number": 26,
+      "multiverse_ids": [
+        457170
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/e/f/ef573e92-3106-4b42-90e8-0e165de0659f.jpg?1547235708"
+      ],
+      "layout": "normal",
+      "type_line": "Creature — Human Soldier",
+      "mana_cost": "{2}{W}",
+      "cmc": 3,
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "rating": 1.5,
+      "key": "v5ao3sFGHosmsaqt64oeRV"
+    },
+    "base_rating": 1.5,
+    "color_bonus": 0,
+    "rating": 1.5
+  },
+  {
+    "card": {
+      "id": 457215,
+      "name": "Dead Revels",
+      "collector_number": 71,
+      "multiverse_ids": [
+        457215
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/f/5/f5b2c21a-419d-4896-82e3-1b5cb32b158e.jpg?1547234681"
+      ],
+      "layout": "normal",
+      "type_line": "Sorcery",
+      "mana_cost": "{3}{B}",
+      "cmc": 4,
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "rating": 1.5,
+      "key": "mwRdd4W7DF739akbKAH8UV"
+    },
+    "base_rating": 1.5,
+    "color_bonus": 0,
+    "rating": 1.5
+  },
+  {
+    "card": {
+      "id": 457152,
+      "name": "Expose to Daylight",
+      "collector_number": 8,
+      "multiverse_ids": [
+        457152
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/0/9/094c2ac3-040f-41fe-9a37-c037d90baec0.jpg?1547234371"
+      ],
+      "layout": "normal",
+      "type_line": "Instant",
+      "mana_cost": "{2}{W}",
+      "cmc": 3,
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "rating": 1,
+      "key": "voZ1LAhUzTAtX3VKcLpgFW"
+    },
+    "base_rating": 1,
+    "color_bonus": 0,
+    "rating": 1
+  },
+  {
+    "card": {
+      "id": 457174,
+      "name": "Watchful Giant",
+      "collector_number": 30,
+      "multiverse_ids": [
+        457174
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/6/1/61a38f24-1eb3-4914-be1f-0b5f6d4b09d5.jpg?1547235721"
+      ],
+      "layout": "normal",
+      "type_line": "Creature — Giant Soldier",
+      "mana_cost": "{5}{W}",
+      "cmc": 6,
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "rating": 0.5,
+      "key": "vYbnjZApms7f6k4TdfNb4W"
+    },
+    "base_rating": 0.5,
+    "color_bonus": 0,
+    "rating": 0.5
+  },
+  {
+    "card": {
+      "id": 457178,
+      "name": "Clear the Mind",
+      "collector_number": 34,
+      "multiverse_ids": [
+        457178
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/a/7/a7da6982-9e57-41d2-a052-f2a3bb646436.jpg?1547234496"
+      ],
+      "layout": "normal",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{U}",
+      "cmc": 3,
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "rating": 0.5,
+      "key": "dtaockuQi9sehnFvcDjUES"
+    },
+    "base_rating": 0.5,
+    "color_bonus": 0,
+    "rating": 0.5
+  },
+  {
+    "card": {
+      "id": 457237,
+      "name": "Burn Bright",
+      "collector_number": 93,
+      "multiverse_ids": [
+        457237
+      ],
+      "image_uris": [
+        "https://img.scryfall.com/cards/normal/front/b/8/b8574ffd-3e72-41de-90bf-69363189f047.jpg?1547234797"
+      ],
+      "layout": "normal",
+      "type_line": "Instant",
+      "mana_cost": "{2}{R}",
+      "cmc": 3,
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "rating": 0,
+      "key": "phM5sFcZaYnUzwsT4wrNbJ"
+    },
+    "base_rating": 0,
+    "color_bonus": 0,
+    "rating": 0
+  }
+]

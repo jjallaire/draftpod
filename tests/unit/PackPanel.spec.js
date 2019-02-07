@@ -3,7 +3,7 @@
 import { mount } from '@vue/test-utils'
 import PackPanel from '../../src/components/draft/pack/PackPanel.vue'
 
-import cards from './cards.json'
+import cards from './data/cards.json'
 
 describe('PackPanel.vue', () => {
 
@@ -11,7 +11,7 @@ describe('PackPanel.vue', () => {
     const wrapper = mount(PackPanel, {
       propsData: { pack: cards },
       provide: {
-        touchDragManager() {},
+        touchDragManager: null,
         setCardPreview() {}
       }
     });
