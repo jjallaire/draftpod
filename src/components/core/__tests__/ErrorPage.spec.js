@@ -1,11 +1,20 @@
 
 
+
+import { shallowMount } from '@vue/test-utils'
+
 import ErrorPage from '../ErrorPage.vue'
 
 describe('ErrorPage.vue', () => {
 
-  test('sanity test', () => {
-    console.log(ErrorPage)
+  test('renders page', () => {
+    const title = "Test Error";
+    const wrapper = shallowMount(ErrorPage, {
+      propsData: {
+        title
+      }
+    });
+    expect(wrapper.text()).toContain(title);
   });
 
 });
