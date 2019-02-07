@@ -1,0 +1,1005 @@
+{
+  "piles": [
+    [
+      {
+        "id": 457283,
+        "name": "Saruli Caretaker",
+        "collector_number": 139,
+        "multiverse_ids": [
+          457283
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/e/f/ef3358cb-714c-49bf-b7e9-a69d02d7799e.jpg?1547235047"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Dryad",
+        "mana_cost": "{G}",
+        "cmc": 1,
+        "colors": [
+          "G"
+        ],
+        "rarity": "common",
+        "rating": 0.5,
+        "key": "ceb4cYGwJQxQ19QMyJsNr8"
+      }
+    ],
+    [
+      {
+        "id": 457306,
+        "name": "Clan Guildmage",
+        "collector_number": 162,
+        "multiverse_ids": [
+          457306
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/3/4/34a18415-015c-4d3f-8042-b156a673e125.jpg?1547235170"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Human Shaman",
+        "mana_cost": "{R}{G}",
+        "cmc": 2,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 3,
+        "key": "roS5RfW3WufPjGb323B8Kt"
+      },
+      {
+        "id": 457307,
+        "name": "Combine Guildmage",
+        "collector_number": 163,
+        "multiverse_ids": [
+          457307
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/3/a/3a6e2816-d50b-41a5-b503-faa58dc7c94a.jpg?1547235176"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Merfolk Wizard",
+        "mana_cost": "{G}{U}",
+        "cmc": 2,
+        "colors": [
+          "G",
+          "U"
+        ],
+        "rarity": "uncommon",
+        "rating": 3,
+        "key": "3wwe4Y1BgHPrUpYi2jooAc"
+      },
+      {
+        "id": 457244,
+        "name": "Feral Maaka",
+        "collector_number": 100,
+        "multiverse_ids": [
+          457244
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/3/c/3c969aa0-b0e5-42cd-abba-0a3c7266142c.jpg?1547235033"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Cat",
+        "mana_cost": "{1}{R}",
+        "cmc": 2,
+        "colors": [
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 1,
+        "key": "9sXVjgF1msYHKh6XUEPeBc"
+      },
+      {
+        "id": 457275,
+        "name": "Incubation Druid",
+        "collector_number": 131,
+        "multiverse_ids": [
+          457275
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/0/7/075bbe5d-d0f3-4be3-a3a6-072d5d3d614c.jpg?1547235005"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Elf Druid",
+        "mana_cost": "{1}{G}",
+        "cmc": 2,
+        "colors": [
+          "G"
+        ],
+        "rarity": "rare",
+        "rating": 4,
+        "key": "m5BTh8MoQahNSDGToVDLW8"
+      },
+      {
+        "id": 457228,
+        "name": "Rakdos Trumpeter",
+        "collector_number": 84,
+        "multiverse_ids": [
+          457228
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/2/8/2822aff3-9985-424b-9f19-b49e987c25e4.jpg?1547234750"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Human Shaman",
+        "mana_cost": "{1}{B}",
+        "cmc": 2,
+        "colors": [
+          "B",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 1.5,
+        "key": "3ppzUARwSVtAo4ttvkoBmd"
+      },
+      {
+        "id": 457289,
+        "name": "Territorial Boar",
+        "collector_number": 145,
+        "multiverse_ids": [
+          457289
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/5/e/5e9ddae7-7e7c-46c7-ad7d-9a686c256b9d.jpg?1547235079"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Boar",
+        "mana_cost": "{1}{G}",
+        "cmc": 2,
+        "colors": [
+          "G"
+        ],
+        "rarity": "common",
+        "rating": 1.5,
+        "key": "vSP6TnZgRGZHYGB93mMLc2"
+      }
+    ],
+    [
+      {
+        "id": 457361,
+        "name": "Rubble Slinger",
+        "collector_number": 217,
+        "multiverse_ids": [
+          457361
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/f/0/f006255f-b18d-4d52-b97a-17909b67decc.jpg?1547235464"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Human Warrior",
+        "mana_cost": "{2}{R/G}",
+        "cmc": 3,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 1.5,
+        "key": "uBvp7yZt9pJdw9TP8s4nX"
+      },
+      {
+        "id": 457346,
+        "name": "Rubblebelt Runner",
+        "collector_number": 202,
+        "multiverse_ids": [
+          457346
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/7/8/78cc4e02-949f-4879-9f32-7c33490d0b45.jpg?1547236136"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Viashino Warrior",
+        "mana_cost": "{1}{R}{G}",
+        "cmc": 3,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2,
+        "key": "ccqsqeN937YoeUGzjDjuGW"
+      },
+      {
+        "id": 457346,
+        "name": "Rubblebelt Runner",
+        "collector_number": 202,
+        "multiverse_ids": [
+          457346
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/7/8/78cc4e02-949f-4879-9f32-7c33490d0b45.jpg?1547236136"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Viashino Warrior",
+        "mana_cost": "{1}{R}{G}",
+        "cmc": 3,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2,
+        "key": "7mueqkcDViMuJnWDMWpkgb"
+      },
+      {
+        "id": 457346,
+        "name": "Rubblebelt Runner",
+        "collector_number": 202,
+        "multiverse_ids": [
+          457346
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/7/8/78cc4e02-949f-4879-9f32-7c33490d0b45.jpg?1547236136"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Viashino Warrior",
+        "mana_cost": "{1}{R}{G}",
+        "cmc": 3,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2,
+        "key": "tGP2YDNm95PPeNbahaQMi4"
+      }
+    ],
+    [
+      {
+        "id": 457241,
+        "name": "Dagger Caster",
+        "collector_number": 97,
+        "multiverse_ids": [
+          457241
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/4/8/48a7ac34-ec4a-4571-abb1-bff1fb67c78f.jpg?1547234819"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Viashino Rogue",
+        "mana_cost": "{3}{R}",
+        "cmc": 4,
+        "colors": [
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 3,
+        "key": "37odbA4XybHgeT1RateLDp"
+      },
+      {
+        "id": 457317,
+        "name": "Frenzied Arynx",
+        "collector_number": 173,
+        "multiverse_ids": [
+          457317
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/b/c/bce2eef7-03a4-415f-8bb7-a29d50ce1b0f.jpg?1547235229"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Cat Beast",
+        "mana_cost": "{2}{R}{G}",
+        "cmc": 4,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 3.5,
+        "key": "gcMGHTWRbq4mAoXHT9JWP5"
+      },
+      {
+        "id": 457247,
+        "name": "Ghor-Clan Wrecker",
+        "collector_number": 103,
+        "multiverse_ids": [
+          457247
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/4/d/4da3969c-1979-4eee-828a-4a7189121eba.jpg?1547259854"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Human Warrior",
+        "mana_cost": "{3}{R}",
+        "cmc": 4,
+        "colors": [
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2,
+        "key": "jCKFVzs58pg5k5wgmwM6hH"
+      },
+      {
+        "id": 457273,
+        "name": "Gruul Beastmaster",
+        "collector_number": 129,
+        "multiverse_ids": [
+          457273
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/2/b/2b0aaded-515f-4ac9-a72f-6948b4d4df51.jpg?1547234994"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Human Shaman",
+        "mana_cost": "{3}{G}",
+        "cmc": 4,
+        "colors": [
+          "G"
+        ],
+        "rarity": "uncommon",
+        "rating": 3,
+        "key": "2zCBfUvHjXoS8aPD1QErms"
+      },
+      {
+        "id": 457363,
+        "name": "Senate Griffin",
+        "collector_number": 219,
+        "multiverse_ids": [
+          457363
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/4/6/465adbb4-4c64-44eb-8323-61d23282c6b8.jpg?1547235475"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Griffin",
+        "mana_cost": "{2}{W/U}{W/U}",
+        "cmc": 4,
+        "colors": [
+          "U",
+          "W"
+        ],
+        "rarity": "common",
+        "rating": 3,
+        "key": "wPjoUVCKZoVRXN7DPnae5W"
+      },
+      {
+        "id": 457262,
+        "name": "Spikewheel Acrobat",
+        "collector_number": 118,
+        "multiverse_ids": [
+          457262
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/5/8/58f70b8a-62ec-4ae6-97d2-3c6ae86a3602.jpg?1547235275"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Human Rogue",
+        "mana_cost": "{3}{R}",
+        "cmc": 4,
+        "colors": [
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 1.5,
+        "key": "4PcSQohutYFjT5rS49U1J7"
+      },
+      {
+        "id": 457262,
+        "name": "Spikewheel Acrobat",
+        "collector_number": 118,
+        "multiverse_ids": [
+          457262
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/5/8/58f70b8a-62ec-4ae6-97d2-3c6ae86a3602.jpg?1547235275"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Human Rogue",
+        "mana_cost": "{3}{R}",
+        "cmc": 4,
+        "colors": [
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 1.5,
+        "key": "bnypCcrXiWCMwNWpPpEbq6"
+      }
+    ],
+    [
+      {
+        "id": 457303,
+        "name": "Bolrac-Clan Crusher",
+        "collector_number": 159,
+        "multiverse_ids": [
+          457303
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/5/0/5080975e-693a-44f5-a718-9ee947dada6d.jpg?1547235154"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Ogre Warrior",
+        "mana_cost": "{3}{R}{G}",
+        "cmc": 5,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 2.5,
+        "key": "ou4j84WLTV6VddcYM9tFNU"
+      },
+      {
+        "id": 457185,
+        "name": "Humongulus",
+        "collector_number": 41,
+        "multiverse_ids": [
+          457185
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/2/1/21982dc7-4f79-4251-8382-95cd1f627e0f.jpg?1547234532"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Homunculus",
+        "mana_cost": "{4}{U}",
+        "cmc": 5,
+        "colors": [
+          "U"
+        ],
+        "rarity": "common",
+        "rating": 1,
+        "key": "9vncLoVgdLYmKsUrzECQzg"
+      }
+    ],
+    [
+      {
+        "id": 457256,
+        "name": "Rumbling Ruin",
+        "collector_number": 112,
+        "multiverse_ids": [
+          457256
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/7/1/71fe7057-de70-456d-8f33-f64652447bdd.jpg?1547234899"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Elemental",
+        "mana_cost": "{5}{R}",
+        "cmc": 6,
+        "colors": [
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 1.5,
+        "key": "cDVnCpnMrYNhZuGW68Zbdi"
+      },
+      {
+        "id": 457294,
+        "name": "Wrecking Beast",
+        "collector_number": 150,
+        "multiverse_ids": [
+          457294
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/7/4/74e6f7be-4493-4081-ac67-d782ab2b3723.jpg?1547235106"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Beast",
+        "mana_cost": "{5}{G}{G}",
+        "cmc": 7,
+        "colors": [
+          "G"
+        ],
+        "rarity": "common",
+        "rating": 2,
+        "key": "g5jG39CyyWnVfLZbNmc4Q5"
+      },
+      {
+        "id": 457294,
+        "name": "Wrecking Beast",
+        "collector_number": 150,
+        "multiverse_ids": [
+          457294
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/7/4/74e6f7be-4493-4081-ac67-d782ab2b3723.jpg?1547235106"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Beast",
+        "mana_cost": "{5}{G}{G}",
+        "cmc": 7,
+        "colors": [
+          "G"
+        ],
+        "rarity": "common",
+        "rating": 2,
+        "key": "4jMhnhvUi1mKcq7LnMbVYK"
+      }
+    ],
+    [
+      {
+        "id": 457242,
+        "name": "Deface",
+        "collector_number": 98,
+        "multiverse_ids": [
+          457242
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/4/3/43df9f41-944e-4cf3-ac80-524eadac221d.jpg?1547234824"
+        ],
+        "layout": "normal",
+        "type_line": "Sorcery",
+        "mana_cost": "{R}",
+        "cmc": 1,
+        "colors": [
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 0,
+        "key": "xqMx3ooXLPRs84eYFnZd7T"
+      },
+      {
+        "id": 457242,
+        "name": "Deface",
+        "collector_number": 98,
+        "multiverse_ids": [
+          457242
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/4/3/43df9f41-944e-4cf3-ac80-524eadac221d.jpg?1547234824"
+        ],
+        "layout": "normal",
+        "type_line": "Sorcery",
+        "mana_cost": "{R}",
+        "cmc": 1,
+        "colors": [
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 0,
+        "key": "4kua1HkeQ2p7N4RXTvStBY"
+      }
+    ],
+    [
+      {
+        "id": 457206,
+        "name": "Bankrupt in Blood",
+        "collector_number": 62,
+        "multiverse_ids": [
+          457206
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/e/6/e635c433-0398-442a-856e-1869f6bf2cfd.jpg?1547234634"
+        ],
+        "layout": "normal",
+        "type_line": "Sorcery",
+        "mana_cost": "{1}{B}",
+        "cmc": 2,
+        "colors": [
+          "B"
+        ],
+        "rarity": "uncommon",
+        "rating": 0.5,
+        "key": "tS8H8JEabRQkiKDGKiPynq"
+      },
+      {
+        "id": 457239,
+        "name": "Cavalcade of Calamity",
+        "collector_number": 95,
+        "multiverse_ids": [
+          457239
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/8/a/8a81e889-490b-4aeb-8e84-ea9a390bb8fe.jpg?1547234808"
+        ],
+        "layout": "normal",
+        "type_line": "Enchantment",
+        "mana_cost": "{1}{R}",
+        "cmc": 2,
+        "colors": [
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 0.5,
+        "key": "jC2GzZZZn5fgUGyTVtGiu6"
+      },
+      {
+        "id": 457322,
+        "name": "Growth Spiral",
+        "collector_number": 178,
+        "multiverse_ids": [
+          457322
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/7/c/7c77a6b1-ef06-4da5-8e86-a5204216cb77.jpg?1547235257"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{G}{U}",
+        "cmc": 2,
+        "colors": [
+          "G",
+          "U"
+        ],
+        "rarity": "common",
+        "rating": 1.5,
+        "key": "q1n3AfSPMBz769xkXSpP6w"
+      },
+      {
+        "id": 457281,
+        "name": "Root Snare",
+        "collector_number": 137,
+        "multiverse_ids": [
+          457281
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/5/f/5f38b1a2-3f85-4dcd-b90d-bb049651b8b7.jpg?1547235037"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{1}{G}",
+        "cmc": 2,
+        "colors": [
+          "G"
+        ],
+        "rarity": "common",
+        "rating": 0,
+        "key": "jnnzUEbyrrxaEoXwq6gJCx"
+      },
+      {
+        "id": 457195,
+        "name": "Shimmer of Possibility",
+        "collector_number": 51,
+        "multiverse_ids": [
+          457195
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/7/6/76e3092d-2422-438c-b5dd-bf8eca33a76e.jpg?1547234580"
+        ],
+        "layout": "normal",
+        "type_line": "Sorcery",
+        "mana_cost": "{1}{U}",
+        "cmc": 2,
+        "colors": [
+          "U"
+        ],
+        "rarity": "common",
+        "rating": 1.5,
+        "key": "3W7RucWj9Bv3R3KU3Sw6H3"
+      },
+      {
+        "id": 457290,
+        "name": "Titanic Brawl",
+        "collector_number": 146,
+        "multiverse_ids": [
+          457290
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/b/c/bcf9b57a-a759-4488-965a-651070cd2156.jpg?1547235085"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{1}{G}",
+        "cmc": 2,
+        "colors": [
+          "G"
+        ],
+        "rarity": "common",
+        "rating": 3,
+        "key": "jqrCbV6q5dNEQMnaKM8H8x"
+      }
+    ],
+    [
+      {
+        "id": 457237,
+        "name": "Burn Bright",
+        "collector_number": 93,
+        "multiverse_ids": [
+          457237
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/b/8/b8574ffd-3e72-41de-90bf-69363189f047.jpg?1547234797"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{2}{R}",
+        "cmc": 3,
+        "colors": [
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 0,
+        "key": "obLyXgWs4wfEJpXrVkyCny"
+      },
+      {
+        "id": 457248,
+        "name": "Goblin Gathering",
+        "collector_number": 104,
+        "multiverse_ids": [
+          457248
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/1/4/147bef05-4497-44d5-9dd6-fb5dc08e78f7.jpg?1547234856"
+        ],
+        "layout": "normal",
+        "type_line": "Sorcery",
+        "mana_cost": "{2}{R}",
+        "cmc": 3,
+        "colors": [
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 1,
+        "key": "bfY8FAjtHGVt9fKpNM8c7K"
+      },
+      {
+        "id": 457378,
+        "name": "Gruul Locket",
+        "collector_number": 234,
+        "multiverse_ids": [
+          457378
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/1/e/1ec78880-a8ec-4c87-bc3f-e2a79d154884.jpg?1547235552"
+        ],
+        "layout": "normal",
+        "type_line": "Artifact",
+        "mana_cost": "{3}",
+        "cmc": 3,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2,
+        "key": "t3iJGUqH12BXoB5kH8qET1"
+      },
+      {
+        "id": 457282,
+        "name": "Sagittars' Volley",
+        "collector_number": 138,
+        "multiverse_ids": [
+          457282
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/d/3/d3104cad-e684-4bd7-b26b-5aa862f7a2b3.jpg?1547235042"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{2}{G}",
+        "cmc": 3,
+        "colors": [
+          "G"
+        ],
+        "rarity": "common",
+        "rating": 1,
+        "key": "iU2eYAd3fBy8zuPbyc5LFq"
+      },
+      {
+        "id": 457347,
+        "name": "Savage Smash",
+        "collector_number": 203,
+        "multiverse_ids": [
+          457347
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/4/c/4ca942d7-a3a3-429f-a159-fc2363d9bca6.jpg?1547235390"
+        ],
+        "layout": "normal",
+        "type_line": "Sorcery",
+        "mana_cost": "{1}{R}{G}",
+        "cmc": 3,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 3.5,
+        "key": "ajVdEWEbtttzjenFZpouF7"
+      },
+      {
+        "id": 457347,
+        "name": "Savage Smash",
+        "collector_number": 203,
+        "multiverse_ids": [
+          457347
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/4/c/4ca942d7-a3a3-429f-a159-fc2363d9bca6.jpg?1547235390"
+        ],
+        "layout": "normal",
+        "type_line": "Sorcery",
+        "mana_cost": "{1}{R}{G}",
+        "cmc": 3,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 3.5,
+        "key": "4WYXHYcPQdM8rSTiLHBBua"
+      }
+    ],
+    [
+      {
+        "id": 457367,
+        "name": "Collision // Colossus",
+        "collector_number": 223,
+        "multiverse_ids": [
+          457367
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1548262504"
+        ],
+        "layout": "split",
+        "type_line": "Instant // Instant",
+        "mana_cost": "{1}{R/G} // {R}{G}",
+        "cmc": 4,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 3.5,
+        "key": "9XUiba77qx7cTobcvg1eKq"
+      }
+    ],
+    [
+      {
+        "id": 457212,
+        "name": "Clear the Stage",
+        "collector_number": 68,
+        "multiverse_ids": [
+          457212
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/0/a/0ac65975-6ff5-4863-b7b7-d7dbea213b50.jpg?1547234665"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{4}{B}",
+        "cmc": 5,
+        "colors": [
+          "B"
+        ],
+        "rarity": "uncommon",
+        "rating": 3,
+        "key": "iMPGB8NE3EePqyioiay4Kd"
+      }
+    ],
+    [
+      {
+        "id": 457245,
+        "name": "Flames of the Raze-Boar",
+        "collector_number": 101,
+        "multiverse_ids": [
+          457245
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/1/6/16957271-12bb-4031-b476-f7678b753ae3.jpg?1547234840"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{5}{R}",
+        "cmc": 6,
+        "colors": [
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 3,
+        "key": "da1jjnTQwYrT1xBt8BCKx4"
+      }
+    ],
+    [
+      {
+        "id": 457391,
+        "name": "Gateway Plaza",
+        "collector_number": 247,
+        "multiverse_ids": [
+          457391
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/3/4/3433a2c2-d252-4cd8-97e8-389875b2cda0.jpg?1547235610"
+        ],
+        "layout": "normal",
+        "type_line": "Land — Gate",
+        "mana_cost": "",
+        "cmc": 0,
+        "colors": [],
+        "rarity": "common",
+        "rating": 1,
+        "key": "n8kNmoBexnxkzzzX6Bop5P"
+      },
+      {
+        "id": 457393,
+        "name": "Gruul Guildgate",
+        "collector_number": 249,
+        "multiverse_ids": [
+          457393
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1547579459"
+        ],
+        "layout": "normal",
+        "type_line": "Land — Gate",
+        "mana_cost": "",
+        "cmc": 0,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2.5,
+        "key": "gACgVbnGmYwE2J6ASacMSN"
+      },
+      {
+        "id": 457393,
+        "name": "Gruul Guildgate",
+        "collector_number": 249,
+        "multiverse_ids": [
+          457393
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1547579459"
+        ],
+        "layout": "normal",
+        "type_line": "Land — Gate",
+        "mana_cost": "",
+        "cmc": 0,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2.5,
+        "key": "v9FVpCdA3zgDXNi35cMfVn"
+      },
+      {
+        "id": 457393,
+        "name": "Gruul Guildgate",
+        "collector_number": 249,
+        "multiverse_ids": [
+          457393
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1547579459"
+        ],
+        "layout": "normal",
+        "type_line": "Land — Gate",
+        "mana_cost": "",
+        "cmc": 0,
+        "colors": [
+          "G",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2.5,
+        "key": "aJHhZAnWKN8HPyxaqAMpRm"
+      },
+      {
+        "id": 457399,
+        "name": "Rakdos Guildgate",
+        "collector_number": 255,
+        "multiverse_ids": [
+          457399
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1547579529"
+        ],
+        "layout": "normal",
+        "type_line": "Land — Gate",
+        "mana_cost": "",
+        "cmc": 0,
+        "colors": [
+          "B",
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2.5,
+        "key": "i6qY2DuT4ErMiWxDxcAnEc"
+      }
+    ],
+    [],
+    []
+  ],
+  "lands": {
+    "basic": {
+      "R": 3,
+      "W": 1,
+      "B": 1,
+      "U": 2,
+      "G": 5
+    },
+    "auto": true,
+    "color_order": null
+  }
+}

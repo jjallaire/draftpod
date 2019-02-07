@@ -5,15 +5,14 @@ import PackPanel from '../../src/components/draft/pack/PackPanel.vue'
 
 import cards from './data/cards.json'
 
+import providers from './util/providers'
+
 describe('PackPanel.vue', () => {
 
   test('displays cards', () => {
     const wrapper = mount(PackPanel, {
       propsData: { pack: cards },
-      provide: {
-        touchDragManager: null,
-        setCardPreview() {}
-      }
+      provide: providers
     });
     const cardSpans = wrapper.findAll('.pack-container .mtgcard');
     expect(cardSpans).toHaveLength(cards.length);

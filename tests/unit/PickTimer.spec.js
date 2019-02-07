@@ -3,14 +3,14 @@
 import { mount } from '@vue/test-utils'
 import PickTimer from '../../src/components/draft/pick/PickTimer.vue'
 
+import providers from './util/providers'
+
 describe('PickTimer.vue', () => {
 
   function pickTimerOptions(secondsRemaining) {
     return {
       propsData: { pick_end_time: new Date().getTime() + (1000 * secondsRemaining) },
-      provide: {
-        pickTimerPick: null
-      }
+      provide: providers
     }
   }
 
