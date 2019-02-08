@@ -69,7 +69,7 @@ export default {
     },
 
     manageExternalLinks() {
-      jquery(".guide-page a[href^='http']").attr("target","_blank");
+      jquery(".guide-page .container a[href^='http']").attr("target","_blank");
     }
   },
 }
