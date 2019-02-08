@@ -39,7 +39,10 @@ if (production) {
   });
 }
 
-
+if (process.env.VUE_APP_BRANCH)
+  console.log(process.env.VUE_APP_BRANCH);
+else
+  console.log("(no branch)");
 
 // initialize the store then the app
 initializeStore()
