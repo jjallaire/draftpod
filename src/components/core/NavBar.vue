@@ -53,7 +53,7 @@
         </a>
       </router-link>
       <li class="nav-item">
-        <a class="nav-link" target="_blank" href="https://forum.draftpod.io/">
+        <a class="nav-link" target="_blank" href="https://forum.draftpod.org/">
           Forum
         </a>
       </li>

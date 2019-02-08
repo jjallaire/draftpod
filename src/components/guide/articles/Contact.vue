@@ -11,7 +11,7 @@ export default {
 
     <p>
       If you have questions, encounter problems, or have ideas about how to improve Draftpod,  
-      please post to our <a href="https://forum.draftpod.io" target="_blank">community discussion forum</a>.
+      please post to our <a href="https://forum.draftpod.org" target="_blank">community discussion forum</a>.
     </p>
 
     <p>

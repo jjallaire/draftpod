@@ -10,7 +10,7 @@ The Draftpod [contact form](/guide#contact/) requests that you provide your name
 
 ### Community Forum
 
-The [Draftpod Forum](https://forum.draftpod.io/) is hosted on [Discourse](https://www.discourse.org/). See the forum [Privacy Policy](https://forum.draftpod.io/t/privacy-policy/6) for additional details on how Discourse handles information.
+The [Draftpod Forum](https://forum.draftpod.org/) is hosted on [Discourse](https://www.discourse.org/). See the forum [Privacy Policy](https://forum.draftpod.org/t/privacy-policy/6) for additional details on how Discourse handles information.
 
 ### Error Reporting
 

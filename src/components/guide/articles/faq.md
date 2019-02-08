@@ -49,7 +49,7 @@ The key to making virtual drafts feel as close as possible to real drafts are th
 
 Those are the core mechanics which drive the bots. In addition, some variance is applied to bot behavior so that it is less predictable from draft to draft. Specifically, some bots favor certain colors, some bots are better than others are card evaluation (i.e. how closely their picks track to underlying ratings), and some bots lock into colors sooner than others.
 
-It's important to note that bots don't need to know how to build good decks. Rather, they just need to take cards out of the pool _in aggregate_ in a fashion that approximates what real players do. We're very interested in improving bot behavior to model real drafts as closely as possible, so please [let us know](https://forum.draftpod.io/) how well it's working for you and how you think it could be improved.
+It's important to note that bots don't need to know how to build good decks. Rather, they just need to take cards out of the pool _in aggregate_ in a fashion that approximates what real players do. We're very interested in improving bot behavior to model real drafts as closely as possible, so please [let us know](https://forum.draftpod.org/) how well it's working for you and how you think it could be improved.
 
 #### Who created Draftpod? What are the goals of the project?
 
