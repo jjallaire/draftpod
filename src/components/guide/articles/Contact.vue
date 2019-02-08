@@ -21,7 +21,7 @@ export default {
     <form 
       id="contact-form" 
       method="post" 
-      action="https://formspree.io/info@draftpod.io" 
+      action="https://formspree.io/jj.allaire@gmail.com" 
       role="form"
     >
       <div class="messages" />
