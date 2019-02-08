@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "test": "npm run lint && npm run test:unit"
+    "test": "npm run lint && npm run test:unit",
+    "deploy": "npm run test:unit && npm run build"
   },
   "dependencies": {
     "@sentry/browser": "^4.5.3",
