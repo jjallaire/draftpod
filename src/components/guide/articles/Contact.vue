@@ -22,8 +22,7 @@ export default {
       id="contact-form"
       name="contact"
       method="post" 
-      action="/guide#contact/"
-      data-netlify="true" 
+      netlify
       role="form"
     >
       <div class="messages" />
