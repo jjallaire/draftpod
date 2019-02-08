@@ -58,6 +58,9 @@ export default {
  
   methods: {
     onResumeDraft: function() {
+
+      throw new Error("Unable to resume draft!!!!");
+
       this.$router.push({ path: "/draft/" + this.draft_id });
     }
   },
