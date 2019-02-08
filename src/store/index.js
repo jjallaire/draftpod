@@ -31,7 +31,7 @@ LocalForage.config({
   driver      : driver,
   name        : 'Draftpod',
   version     : 1.0,
-  storeName   : 'draftpod-beta12'
+  storeName   : 'draftpod'
 });
 
 
