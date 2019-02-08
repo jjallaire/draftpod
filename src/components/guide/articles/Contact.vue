@@ -22,6 +22,7 @@ export default {
       id="contact-form"
       name="contact"
       method="post" 
+      action="/"
       netlify
       role="form"
     >
