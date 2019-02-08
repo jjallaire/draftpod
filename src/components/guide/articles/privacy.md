@@ -30,7 +30,7 @@ Opt-out: You can set a [Do Not Track](https://allaboutdnt.com/) setting in your 
 
 Draftpod stores an archive of the most recent 10 drafts within your browser's local storage. This data is only available to your browser and is not transmitted to Draftpod.
 
-In order to conduct multi-player drafts, Draftpod stores the current state of the draft table within a [Google Cloud Firestore](https://cloud.google.com/firestore/) document. The player data within the stored draft table includes a user-provided first name, but no other personally identifiable information.
+In addition, for multi-player drafts the current state of the draft table is written to a [Google Cloud Firestore](https://cloud.google.com/firestore/) document. The player data within the stored draft table includes a user-provided first name, but no other personally identifiable information.
 
 When drafts are completed, Draftpod logs the order of picks within the draft for subsequent analysis. This data is completely anonymous (there is no way to tie it back to the person or browser that originated it). This data is used to improve card ratings, develop improved bot drafters, and may in the future be shared publicly (again, fully anonymized). The data is stored within a [Google Cloud Storage](https://cloud.google.com/storage/) bucket.
 
