@@ -35,6 +35,7 @@ Here's how to setup a local Draftpod development configuration:
     npm run serve
     ```
 
+
 ## Acknowledgements
 
 Draftpod is built upon the foundation of several other open-source projects which we'd like to acknowledge here:
