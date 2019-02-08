@@ -21,6 +21,13 @@ The [Channel Fireball](https://www.channelfireball.com/articles/) and [Star City
 
 You can also sit on the shoulder of the some of the very best Magic players in the world as they draft by watching streams and/or YouTube videos. You can find lots of streams on [Twitch](https://www.twitch.tv/magic/videos) as well as archives of previous drafts from [Ben Stark](https://www.youtube.com/results?search_query=Channel+BenS), [Reid Duke](https://www.youtube.com/results?search_query=Channel+Reid), [Luis Scott Vargas](https://www.youtube.com/results?search_query=Channel+LSV), and [Marshall Sutcliffe](https://www.youtube.com/results?search_query=Channel+Marshall) (among others) on the Channel Fireball YouTube channel.
 
+
+#### Draftpod is a free service. Will it always be free?
+
+Yes, Draftpod is free and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. 
+
+Draftpod was created by a group of software engineers that love to play Magic and even more-so love to draft. After trying various forms of 2 or 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, we wanted to find a better way. We built Draftpod as a way of solving the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138) for ourselves, and hope that the rest of the Magic community also finds it useful. 
+
 #### How are Draftpod card ratings derived?
 
 The card ratings used by Draftpod are based on the P1P1 community evaluations available at [https://draftaholicsanonymous.com/](https://draftaholicsanonymous.com/). 
@@ -50,15 +57,6 @@ The key to making virtual drafts feel as close as possible to real drafts are th
 Those are the core mechanics which drive the bots. In addition, some variance is applied to bot behavior so that it is less predictable from draft to draft. Specifically, some bots favor certain colors, some bots are better than others are card evaluation (i.e. how closely their picks track to underlying ratings), and some bots lock into colors sooner than others.
 
 It's important to note that bots don't need to know how to build good decks. Rather, they just need to take cards out of the pool _in aggregate_ in a fashion that approximates what real players do. We're very interested in improving bot behavior to model real drafts as closely as possible, so please [let us know](https://forum.draftpod.org/) how well it's working for you and how you think it could be improved.
-
-#### Who created Draftpod? What are the goals of the project?
-
-Draftpod was created by a group of software engineers that love to play Magic and even more-so love to draft. After trying various forms of 2 or 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, we wanted to find a better way. 
-
-The goal of Draftpod is to provide a compelling solution to the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138). We hope the Magic community finds the site useful, and that it enables lots of players to draft more and draft better.  
-
-Draftpod is a free service and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. 
-
 
 #### Where are my previous drafts stored?
 
