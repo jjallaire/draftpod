@@ -19,9 +19,11 @@ export default {
     </p>
 
     <form 
-      id="contact-form" 
+      id="contact-form"
+      name="contact"
       method="post" 
-      action="https://formspree.io/jj.allaire@gmail.com" 
+      action="/guide#contact/"
+      data-netlify="true" 
       role="form"
     >
       <div class="messages" />
