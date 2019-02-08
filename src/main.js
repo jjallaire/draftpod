@@ -37,12 +37,12 @@ if (production) {
     dsn: config.sentry.dsn,
     integrations: [new Sentry.Integrations.Vue({ Vue })]
   });
+  if (process.env.VUE_APP_BRANCH) {
+    Sentry.configureScope((scope) => {
+      scope.setTag("branch", process.env.VUE_APP_BRANCH);
+    });
+  }
 }
-
-if (process.env.VUE_APP_BRANCH)
-  console.log(process.env.VUE_APP_BRANCH);
-else
-  console.log("(no branch)");
 
 // initialize the store then the app
 initializeStore()
