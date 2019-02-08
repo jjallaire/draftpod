@@ -2,7 +2,7 @@
 export default {
 
   ga: {
-    id: "UA-20375833-22"
+    id: "UA-134148899-1"
   },
 
   sentry: {
