@@ -1,7 +1,6 @@
 <script>
 
 import Chartist from 'chartist'
-import "chartist/dist/chartist.min.css"
 
 import * as filters from '@/store/modules/draft/card-filters'
 
@@ -110,6 +109,9 @@ function chartOptions(height) {
 <template>
   <div class="mana-curve ct-chart ct-perfect-fourth" />
 </template>
+
+
+<style src="../../../../node_modules/chartist/dist/chartist.min.css"></style>
 
 <style>
 .mana-curve {
