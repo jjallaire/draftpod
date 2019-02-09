@@ -1,4 +1,9 @@
 module.exports = {
+
+  // comment-in for code coverage
+  // collectCoverage: true,
+  // coverageReporters: ["json", "html"],
+  
   moduleFileExtensions: [
     'js',
     'jsx',
