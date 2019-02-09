@@ -1,14 +1,11 @@
 
 
-import state from '../../data/state.json'
 
-import _cloneDeep from 'lodash/cloneDeep'
-
-import { createTestStore } from '../../../src/store'
+import { testStore } from '../../util/test-store'
 
 describe('Store Getters', () => {
 
-  let store = createTestStore(_cloneDeep(state));
+  let store = testStore();
 
   test('player info', () => {
     let player = store.getters.player;
