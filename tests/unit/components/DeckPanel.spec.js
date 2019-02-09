@@ -3,11 +3,11 @@
 
 
 import { mount } from '@vue/test-utils'
-import DeckPanel from '../../src/components/draft/deck/DeckPanel.vue'
+import DeckPanel from '../../../src/components/draft/deck/DeckPanel.vue'
 
-import deck from './data/deck.json'
+import deck from '../../data/deck.json'
 
-import providers from './util/providers'
+import providers from '../../util/providers'
 
 describe('DeckPanel.vue', () => {
 

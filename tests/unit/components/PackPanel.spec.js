@@ -1,11 +1,11 @@
 
 
 import { mount } from '@vue/test-utils'
-import PackPanel from '../../src/components/draft/pack/PackPanel.vue'
+import PackPanel from '../../../src/components/draft/pack/PackPanel.vue'
 
-import cards from './data/cards.json'
+import cards from '../../data/cards.json'
 
-import providers from './util/providers'
+import providers from '../../util/providers'
 
 describe('PackPanel.vue', () => {
 

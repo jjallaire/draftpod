@@ -1,9 +1,9 @@
 
 
 import { mount } from '@vue/test-utils'
-import ManaColors from '../../src/components/draft/infobar/ManaColors.vue'
+import ManaColors from '../../../src/components/draft/infobar/ManaColors.vue'
 
-import cards from './data/cards.json'
+import cards from '../../data/cards.json'
 
 describe('ManaColors.vue', () => {
 

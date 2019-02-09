@@ -1,10 +1,10 @@
 
 
-import state from './data/state.json'
+import state from '../../data/state.json'
 
 import _cloneDeep from 'lodash/cloneDeep'
 
-import { createTestStore } from '../../src/store'
+import { createTestStore } from '../../../src/store'
 
 describe('Store Getters', () => {
 
