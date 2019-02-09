@@ -1,7 +1,7 @@
 
 
 import { CARDPOOL } from '@/store/constants'
-import { SET_PLAYER_INFO, UPDATE_PREFERENCES } from '@/store/mutations'
+import { SET_PLAYER_INFO, UPDATE_PREFERENCES, SET_FIREBASE_ERROR } from '@/store/mutations'
 
 import { testStore } from '../../util/test-store'
 
@@ -40,6 +40,28 @@ describe('Store Mutations', () => {
     expect(store.state.preferences.sets.dom.cardpool).toBe(newCardpool);
     expect(store.state.preferences.pick_timer).toBe(true);
     expect(store.state.preferences.pick_ratings).toBe(true);
+
+  });
+
+  test('firebase errors', () => {
+
+    // setting an error
+    let errName = "FirebaseError";
+    let errCode = "customcode";
+    let errMessage = "This is the message";
+    store.commit(SET_FIREBASE_ERROR, {
+      name: errName,
+      code: errCode,
+      message: errMessage
+    });
+    let error = store.state.firebase_error;
+    expect(error.name).toBe(errName);
+    expect(error.code).toBe(errCode);
+    expect(error.message).toBe(errMessage);
+
+    // clearing the error
+    store.commit(SET_FIREBASE_ERROR, null);
+    expect(store.state.firebase_error).toBe(null);
 
   });
   
