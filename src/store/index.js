@@ -161,6 +161,40 @@ export function useDraftModule(draft_id, options) {
  }
 }
 
+export function createTestStore(state) {
+
+  // create the store
+  let testStore = new Vuex.Store({
+    state: state,
+    getters,
+    mutations,
+    actions,
+    strict: debug,
+  });
+
+  // register the root drafts module
+  testStore.registerModule(
+    "drafts", 
+    { 
+      namespaced: true, 
+      state: {} 
+    }, 
+    { 
+      preserveState: true 
+    });
+
+  // register draft submodules
+  Object.keys(state.drafts).forEach(draft_id => {
+    testStore.registerModule(
+      ["drafts", draft_id], 
+      draftModule, 
+      { namespaced: true, preserveState: true } 
+    );
+  });
+
+  return testStore;
+}
+
 
 
 if (module.hot) {
