@@ -1,7 +1,11 @@
 
 
 import { CARDPOOL } from '@/store/constants'
-import { SET_PLAYER_INFO, UPDATE_PREFERENCES, SET_FIREBASE_ERROR } from '@/store/mutations'
+import { SET_PLAYER_INFO, UPDATE_PREFERENCES, 
+         SET_CARDPOOL, REMOVE_CARDPOOL,
+         SET_FIREBASE_ERROR } from '@/store/mutations'
+
+import cardpool_cards from '../../data/cardpool.json'
 
 import { testStore } from '../../util/test-store'
 
@@ -42,6 +46,30 @@ describe('Store Mutations', () => {
     expect(store.state.preferences.pick_ratings).toBe(true);
 
   });
+
+  test('cardpools', () => {
+
+    let setCode = 'grn';
+    let name = 'GRN Cube';
+    store.commit(SET_CARDPOOL, {
+      set_code: setCode,
+      name: name,
+      cards: cardpool_cards
+    });
+
+    expect(store.getters.cardpools(setCode).length).toBe(1);
+
+    let cardpool = store.getters.cardpool(setCode, name);
+    expect(cardpool.name).toBe(name);
+    
+    store.commit(REMOVE_CARDPOOL, {
+      set_code: setCode,
+      name: name
+    });
+
+    expect(store.getters.cardpools(setCode).length).toBe(0);
+
+  })
 
   test('firebase errors', () => {
 
