@@ -20,7 +20,7 @@ export default {
     let draft_id = shortUuid().new();
     useDraftModule(draft_id);
 
-      // download set data
+    // download set data
     return set.cards(set_code)
       .then(set_cards => {
 
