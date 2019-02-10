@@ -22,8 +22,6 @@ import config from './config'
 // check for production mode
 let production = process.env.NODE_ENV === 'production';
 
-console.log(process.env.NODE_ENV);
-
 // configure google analytics
 Vue.use(VueAnalytics, {
   id: config.ga.id,
