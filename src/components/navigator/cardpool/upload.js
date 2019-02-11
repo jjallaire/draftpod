@@ -21,6 +21,11 @@ export function handleCardpoolUpload(set_code, file, complete) {
 }
 
 export function handleCardpoolColl2Upload(set_code, file, complete) {
+
+  // if the file is a string then convert it to a Blob
+  if (typeof file === 'string' || file instanceof String)
+    file = new Blob([file], { type: 'text/plain' });
+
   let reader = new FileReader();
   reader.onload = function() {
     
