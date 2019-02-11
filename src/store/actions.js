@@ -14,11 +14,11 @@ export const INIT_DRAFT = 'INIT_DRAFT'
 
 export default {
 
-  [INIT_DRAFT]( { commit, state }, { set_code, cardpool, options = {}} ) {
+  [INIT_DRAFT]( { commit, state }, { set_code, cardpool, options = {}, targetStore = null }  ) {
 
     // create a new draft module
     let draft_id = shortUuid().new();
-    useDraftModule(draft_id);
+    useDraftModule(draft_id, {}, targetStore);
 
     // download set data
     return set.cards(set_code)
