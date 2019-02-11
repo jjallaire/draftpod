@@ -1,30 +1,24 @@
 
+import { DECK } from '@/store/modules/draft/constants'
 
-import { RESUME_DRAFT, SIMULATE_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK,
-         /*
-         , , PICK_TO_PILE, 
-         DECK_TO_SIDEBOARD, DECK_TO_UNUSED, 
-         SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED, 
+import { RESUME_DRAFT, SIMULATE_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE,
+         DECK_TO_SIDEBOARD, DECK_TO_UNUSED, SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED,
          UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
+         /*
+
+         , , 
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
          REMOVE_PLAYER 
          */
         } from '@/store/modules/draft/actions';
 
 import { testStore } from '../../../util/test-store'
-import { PICK_TO_PILE } from '../../../../src/store/modules/draft/actions';
 
 describe('Draft Store Actions', () => {
 
-  test('simulate draft', () => {
-    let simulateStore = testStore();
-    simulateStore.dispatch("drafts/" + draft_id + "/" + SIMULATE_DRAFT, { player_id });
-    expect(simulateStore.state.drafts[draft_id].table.picks_complete).toBe(true);
-  });
-
   let store = testStore();
-  let draft_id = store.getters.draft_in_progress.id;
   let player_id = store.getters.player.id;
+  let draft_id = store.getters.draft_in_progress.id;
 
   function table(store) {
     return store.state.drafts[draft_id].table;
@@ -32,6 +26,10 @@ describe('Draft Store Actions', () => {
 
   function player(store) {
     return table(store).players[0];
+  }
+
+  function deck(store) {
+    return player(store).deck;
   }
 
   function dispatch(action, payload) {
@@ -66,6 +64,62 @@ describe('Draft Store Actions', () => {
       expect(player(store).picks.piles[1].length).toBe(pile1Before + 1);
     });
   });
+
+  test('simulate draft', () => {
+    return dispatch(SIMULATE_DRAFT, { player_id }).then(() => {
+      expect(table(store).picks_complete).toBe(true);
+    });
+  });
+
+  test('deck to sideboard', () => {
+    let card = deck(store).piles[2][0];
+    return dispatch(DECK_TO_SIDEBOARD, { player_id, card }).then(() => {
+      let sideboard = deck(store).piles[DECK.SIDEBOARD];
+      expect(sideboard).toEqual(expect.arrayContaining([card]));
+    });
+  });
+
+  test('sideboard to unused', () => {
+    let card = deck(store).piles[DECK.SIDEBOARD][0];
+    return dispatch(SIDEBOARD_TO_UNUSED, { player_id, card }).then(() => {
+      let unused = deck(store).piles[DECK.UNUSED];
+      expect(unused).toEqual(expect.arrayContaining([card]));
+    });
+  });
+
+  test('unused to sideboard', () => {
+    let card = deck(store).piles[DECK.UNUSED][0];
+    return dispatch(UNUSED_TO_SIDEBOARD, { player_id, card }).then(() => {
+      let sideboard = deck(store).piles[DECK.SIDEBOARD];
+      expect(sideboard).toEqual(expect.arrayContaining([card]));
+    });
+  });
+
+  test('sideboard to deck', () => {
+    let card = deck(store).piles[DECK.SIDEBOARD][0];
+    return dispatch(SIDEBOARD_TO_DECK, { player_id, card }).then(() => {
+      let cardPile = deck(store).piles[card.cmc - 1];
+      expect(cardPile).toEqual(expect.arrayContaining([card]));
+    });
+  });
+
+  test('deck to unused', () => {
+    let card = deck(store).piles[2][0];
+    return dispatch(DECK_TO_UNUSED, { player_id, card }).then(() => {
+      let unused = deck(store).piles[DECK.UNUSED];
+      expect(unused).toEqual(expect.arrayContaining([card]));
+    });
+  });
+
+  test('unused to deck', () => {
+    let card = deck(store).piles[DECK.UNUSED][0];
+    return dispatch(UNUSED_TO_DECK, { player_id, card }).then(() => {
+      let cardPile = deck(store).piles[card.cmc - 1];
+      expect(cardPile).toEqual(expect.arrayContaining([card]));
+    });
+  });
+
+
 
 
 
