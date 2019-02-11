@@ -1,7 +1,13 @@
 
 
 import { CARDPOOL } from '@/store/constants'
-import { SET_PLAYER_INFO, UPDATE_PREFERENCES, SET_FIREBASE_ERROR } from '@/store/mutations'
+import { SET_PLAYER_INFO, UPDATE_PREFERENCES, 
+         SET_DRAFT, REMOVE_DRAFTS,
+         SET_CARDPOOL, REMOVE_CARDPOOL,
+         SET_FIREBASE_ERROR } from '@/store/mutations'
+
+import draft from '../../data/draft.json'
+import cardpool_cards from '../../data/cardpool.json'
 
 import { testStore } from '../../util/test-store'
 
@@ -42,6 +48,47 @@ describe('Store Mutations', () => {
     expect(store.state.preferences.pick_ratings).toBe(true);
 
   });
+
+  test('drafts', () => {
+
+    let numDrafts = store.getters.draft_history.length;    
+
+    store.commit(SET_DRAFT, {
+      draft_id: draft.id,
+      draft: draft
+    });
+
+    //expect(store.getters.draft_history.length).toBe(numDrafts + 1);
+    expect(store.getters.draft(draft.id).set.code).toBe(draft.set.code);
+
+    store.commit(REMOVE_DRAFTS, [ draft.id ]);
+    expect(store.getters.draft_history.length).toBe(numDrafts);
+
+  });
+
+  test('cardpools', () => {
+
+    let setCode = 'grn';
+    let name = 'GRN Cube';
+    store.commit(SET_CARDPOOL, {
+      set_code: setCode,
+      name: name,
+      cards: cardpool_cards
+    });
+
+    expect(store.getters.cardpools(setCode).length).toBe(1);
+
+    let cardpool = store.getters.cardpool(setCode, name);
+    expect(cardpool.name).toBe(name);
+    
+    store.commit(REMOVE_CARDPOOL, {
+      set_code: setCode,
+      name: name
+    });
+
+    expect(store.getters.cardpools(setCode).length).toBe(0);
+
+  })
 
   test('firebase errors', () => {
 

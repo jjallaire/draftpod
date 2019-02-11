@@ -134,10 +134,11 @@ export function initializeStore() {
   });
 }
 
-function useDraftsModule() {
-  if (!store._modules.root._children["drafts"]) {
-    let preserveState = store.state.drafts !== undefined;
-    store.registerModule(
+function useDraftsModule(targetStore) {
+  targetStore = targetStore || store;
+  if (!targetStore._modules.root._children["drafts"]) {
+    let preserveState = targetStore.state.drafts !== undefined;
+    targetStore.registerModule(
       "drafts", 
       { 
         namespaced: true, 
@@ -149,11 +150,12 @@ function useDraftsModule() {
   }
 }
 
-export function useDraftModule(draft_id, options) {
+export function useDraftModule(draft_id, options, targetStore) {
 
   // register draft sub-module on demand
-  if (!store._modules.root._children["drafts"]._children[draft_id]) {
-    store.registerModule(
+  targetStore = targetStore || store;
+  if (!targetStore._modules.root._children["drafts"]._children[draft_id]) {
+    targetStore.registerModule(
       ["drafts", draft_id], 
       draftModule, 
       { namespaced: true, ...options }
@@ -173,23 +175,11 @@ export function createTestStore(state) {
   });
 
   // register the root drafts module
-  testStore.registerModule(
-    "drafts", 
-    { 
-      namespaced: true, 
-      state: {} 
-    }, 
-    { 
-      preserveState: true 
-    });
+  useDraftsModule(testStore);
 
   // register draft submodules
   Object.keys(state.drafts).forEach(draft_id => {
-    testStore.registerModule(
-      ["drafts", draft_id], 
-      draftModule, 
-      { namespaced: true, preserveState: true } 
-    );
+    useDraftModule(draft_id, { preserveState: true }, testStore);
   });
 
   return testStore;

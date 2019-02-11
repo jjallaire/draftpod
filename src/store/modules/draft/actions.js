@@ -217,6 +217,8 @@ function updateTable({ commit, state }, player_id, writer) {
     // apply the changes
     writeChangesLocal();
 
+    return Promise.resolve();
+
   } else {  
 
     // set state to waiting (provides glass with wait cursor)

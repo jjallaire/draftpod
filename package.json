@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "test": "npm run lint && npm run test:unit",
-    "deploy": "export NODE_ENV=production && export VUE_APP_BRANCH=$BRANCH && npm run test:unit && npm run build"
+    "deploy": "export VUE_APP_BRANCH=$BRANCH && npm run test:unit && npm run build"
   },
   "dependencies": {
     "@sentry/browser": "^4.5.3",
