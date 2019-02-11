@@ -30,9 +30,6 @@ describe('NavigatorPage.vue', () => {
       const recentDrafts = wrapper.findAll('.recent-drafts .card-body .row');
       expect(recentDrafts).toHaveLength(3);
 
-      // do a snapshot test
-      expect(wrapper.element).toMatchSnapshot();
-
     });
 
     
