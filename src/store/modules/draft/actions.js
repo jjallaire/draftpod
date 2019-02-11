@@ -21,6 +21,7 @@ import { WRITE_TABLE, SET_CONNECTED, SET_WAITING, CONVERT_TO_SINGLE_PLAYER } fro
 
 import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
+import _omit from 'lodash/omit'
 
 import * as log from '@/core/log'
 import * as set from './set/'
@@ -718,11 +719,13 @@ function orderUnplayedPile(deck, pile) {
     }
   }); 
 
-  // return sorted array of cards
+  // return sorted array of cards (w/o sort fields)
   return _orderBy(cards, 
     ["colorOrder",  "colorTag", "creature", "cmc"], 
     ["desc", "asc", "desc", "asc"]
-  );
+  ).map(card => {
+    return _omit(card, ["colorOrder",  "colorTag", "creature"]);
+  });
 }
 
 function pileToPile(player, card, pile_number, piles, insertBefore) {
