@@ -28,6 +28,9 @@ describe('DeckPanel.vue', () => {
     let landCards = deckPiles.at(7).findAll('.mtgcard');
     expect(landCards).toHaveLength(5);
 
+    // do a snapshot test
+    expect(wrapper.element).toMatchSnapshot();
+
   });
   
 });

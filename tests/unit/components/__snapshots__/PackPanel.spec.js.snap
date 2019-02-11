@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PackPanel.vue displays cards 1`] = `
+<div
+  class="card pack-panel"
+>
+  <!---->
+   
+  <div
+    class="card-body"
+  >
+    <div
+      class="pack-container"
+    >
+      <span
+        class="mtgcard mtgcard-draggable"
+        draggable="true"
+      >
+        <img
+          src="/images/cards/457307.jpg"
+        />
+         
+        <div
+          style="position: fixed; top: -1000px;"
+        />
+      </span>
+      <span
+        class="mtgcard mtgcard-draggable"
+        draggable="true"
+      >
+        <img
+          src="/images/cards/457241.jpg"
+        />
+         
+        <div
+          style="position: fixed; top: -1000px;"
+        />
+      </span>
+      <span
+        class="mtgcard mtgcard-draggable"
+        draggable="true"
+      >
+        <img
+          src="/images/cards/457290.jpg"
+        />
+         
+        <div
+          style="position: fixed; top: -1000px;"
+        />
+      </span>
+      <span
+        class="mtgcard mtgcard-draggable"
+        draggable="true"
+      >
+        <img
+          src="/images/cards/457294.jpg"
+        />
+         
+        <div
+          style="position: fixed; top: -1000px;"
+        />
+      </span>
+      <span
+        class="mtgcard mtgcard-draggable"
+        draggable="true"
+      >
+        <img
+          src="/images/cards/457212.jpg"
+        />
+         
+        <div
+          style="position: fixed; top: -1000px;"
+        />
+      </span>
+      <span
+        class="mtgcard mtgcard-draggable"
+        draggable="true"
+      >
+        <img
+          src="/images/cards/457322.jpg"
+        />
+         
+        <div
+          style="position: fixed; top: -1000px;"
+        />
+      </span>
+      <span
+        class="mtgcard mtgcard-draggable"
+        draggable="true"
+      >
+        <img
+          src="/images/cards/457399.jpg"
+        />
+         
+        <div
+          style="position: fixed; top: -1000px;"
+        />
+      </span>
+      <span
+        class="mtgcard mtgcard-draggable"
+        draggable="true"
+      >
+        <img
+          src="/images/cards/457346.jpg"
+        />
+         
+        <div
+          style="position: fixed; top: -1000px;"
+        />
+      </span>
+      <span
+        class="mtgcard mtgcard-draggable"
+        draggable="true"
+      >
+        <img
+          src="/images/cards/457391.jpg"
+        />
+         
+        <div
+          style="position: fixed; top: -1000px;"
+        />
+      </span>
+      <span
+        class="mtgcard mtgcard-draggable"
+        draggable="true"
+      >
+        <img
+          src="/images/cards/457347.jpg"
+        />
+         
+        <div
+          style="position: fixed; top: -1000px;"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;

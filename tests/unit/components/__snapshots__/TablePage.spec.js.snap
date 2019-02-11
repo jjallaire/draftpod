@@ -1,0 +1,1319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablePage.vue draft table displays 1`] = `
+<div>
+  <nav
+    class="navbar navbar-dark navbar-expand-sm user-select-none"
+  >
+    <img
+      class="navbar-logo"
+      src="/images/logo.svg"
+    />
+     
+    <span
+      class="navbar-brand"
+    >
+      <a
+        class="text-light"
+      >
+        
+      Draftpod
+    
+      </a>
+    </span>
+     
+    <span
+      class="navbar-text"
+    >
+      
+      Ravnica Allegiance 
+      
+      <span>
+        
+        —
+        Pack 1, Pick 4
+        
+        <!---->
+      </span>
+    </span>
+     
+    <ul
+      class="navbar-nav"
+    >
+      <li
+        class="nav-item"
+      >
+        <div
+          class="dropdown"
+        >
+          <a
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="nav-link icon-link dropdown-toggle"
+            data-toggle="dropdown"
+            href="#"
+            id="playersMenuLink"
+            title="Players"
+          >
+            <span
+              aria-label="Account Multiple icon"
+              class="material-design-icon account-multiple-icon"
+              role="img"
+            >
+              <svg
+                class="material-design-icon__svg"
+                fill="currentColor"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M16,13C15.71,13 15.38,13 15.03,13.05C16.19,13.89 17,15 17,16.5V19H23V16.5C23,14.17 18.33,13 16,13M8,13C5.67,13 1,14.17 1,16.5V19H15V16.5C15,14.17 10.33,13 8,13M8,11C9.66,11 11,9.66 11,8C11,6.34 9.66,5 8,5C6.34,5 5,6.34 5,8C5,9.66 6.34,11 8,11M16,11C17.66,11 19,9.66 19,8C19,6.34 17.66,5 16,5C14.34,5 13,6.34 13,8C13,9.66 14.34,11 16,11Z"
+                >
+                  <title>
+                    Account Multiple icon
+                  </title>
+                </path>
+              </svg>
+            </span>
+             Players
+          
+          </a>
+           
+          <div
+            aria-labelledby="playersMenuLink"
+            class="dropdown-menu players-menu"
+          >
+            <div
+              class="players"
+            >
+              <div
+                class="players-column players-column-left"
+              >
+                <div
+                  class="player host-player"
+                >
+                  <div>
+                    <div
+                      class="player-remove"
+                    >
+                      <span
+                        aria-label="Remove Player from Draft"
+                        class="material-design-icon account-remove-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M15,14C17.67,14 23,15.33 23,18V20H7V18C7,15.33 12.33,14 15,14M15,12C12.79,12 11,10.21 11,8C11,5.79 12.79,4 15,4C17.21,4 19,5.79 19,8C19,10.21 17.21,12 15,12M5,9.59L7.12,7.46L8.54,8.88L6.41,11L8.54,13.12L7.12,14.54L5,12.41L2.88,14.54L1.46,13.12L3.59,11L1.46,8.88L2.88,7.46L5,9.59Z"
+                          >
+                            <title>
+                              Remove Player from Draft
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                    </div>
+                     
+                    <div>
+                      <span
+                        aria-label="Player"
+                        class="material-design-icon account-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M12,4C14.21,4 16,5.79 16,8C16,10.21 14.21,12 12,12C9.79,12 8,10.21 8,8C8,5.79 9.79,4 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"
+                          >
+                            <title>
+                              Player
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                    </div>
+                     
+                    <div
+                      class="player-name"
+                    >
+                      
+      Me 
+      
+                      <div
+                        class="pick-number"
+                      >
+                        
+        Pick 4
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 
+                <div
+                  class="player host-player"
+                >
+                  <div>
+                    <!---->
+                     
+                    <div>
+                      <span
+                        aria-label="Bot"
+                        class="material-design-icon account-outline-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M12,4C14.21,4 16,5.79 16,8C16,10.21 14.21,12 12,12C9.79,12 8,10.21 8,8C8,5.79 9.79,4 12,4M12,6C10.9,6 10,6.9 10,8C10,9.1 10.9,10 12,10C13.1,10 14,9.1 14,8C14,6.9 13.1,6 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z"
+                          >
+                            <title>
+                              Bot
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                    </div>
+                     
+                    <div
+                      class="player-colors"
+                    >
+                      <div
+                        class="player-name"
+                      >
+                        
+        Bot
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 
+                <div
+                  class="player host-player"
+                >
+                  <div>
+                    <!---->
+                     
+                    <div>
+                      <span
+                        aria-label="Bot"
+                        class="material-design-icon account-outline-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M12,4C14.21,4 16,5.79 16,8C16,10.21 14.21,12 12,12C9.79,12 8,10.21 8,8C8,5.79 9.79,4 12,4M12,6C10.9,6 10,6.9 10,8C10,9.1 10.9,10 12,10C13.1,10 14,9.1 14,8C14,6.9 13.1,6 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z"
+                          >
+                            <title>
+                              Bot
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                    </div>
+                     
+                    <div
+                      class="player-colors"
+                    >
+                      <div
+                        class="player-name"
+                      >
+                        
+        Bot
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 
+                <div
+                  class="player host-player"
+                >
+                  <div>
+                    <!---->
+                     
+                    <div>
+                      <span
+                        aria-label="Bot"
+                        class="material-design-icon account-outline-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M12,4C14.21,4 16,5.79 16,8C16,10.21 14.21,12 12,12C9.79,12 8,10.21 8,8C8,5.79 9.79,4 12,4M12,6C10.9,6 10,6.9 10,8C10,9.1 10.9,10 12,10C13.1,10 14,9.1 14,8C14,6.9 13.1,6 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z"
+                          >
+                            <title>
+                              Bot
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                    </div>
+                     
+                    <div
+                      class="player-colors"
+                    >
+                      <div
+                        class="player-name"
+                      >
+                        
+        Bot
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="players-table"
+              >
+                <div
+                  class="pack-number"
+                >
+                  <svg
+                    class="player-arrow"
+                    height="24"
+                    style="top: 3px; right: 1px;"
+                    viewBox="0 0 224 224"
+                    width="24"
+                    x="0px"
+                    xmlns="http://www.w3.org/2000/svg"
+                    y="0px"
+                  >
+                    <g
+                      fill-rule="nonzero"
+                      font-family="none"
+                      font-size="none"
+                      font-weight="none"
+                      stroke="none"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-width="1"
+                      text-anchor="none"
+                    >
+                      <path
+                        d="M0,224v-224h224v224z"
+                        fill="none"
+                      />
+                       
+                      <g
+                        fill="#aaaaaa"
+                      >
+                        <path
+                          d="M28,28v18.66667h28c46.5042,0 84,37.4958 84,84v18.66667h-37.33333l46.66667,46.66667l46.66667,-46.66667h-37.33333v-18.66667c0,-56.5918 -46.07487,-102.66667 -102.66667,-102.66667z"
+                        />
+                         
+                        <!---->
+                         
+                        <!---->
+                         
+                        <!---->
+                      </g>
+                    </g>
+                  </svg>
+                   
+                  <svg
+                    class="player-arrow"
+                    height="24"
+                    style="bottom: 4px; left: 2px;"
+                    viewBox="0 0 224 224"
+                    width="24"
+                    x="0px"
+                    xmlns="http://www.w3.org/2000/svg"
+                    y="0px"
+                  >
+                    <g
+                      fill-rule="nonzero"
+                      font-family="none"
+                      font-size="none"
+                      font-weight="none"
+                      stroke="none"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-width="1"
+                      text-anchor="none"
+                    >
+                      <path
+                        d="M0,224v-224h224v224z"
+                        fill="none"
+                      />
+                       
+                      <g
+                        fill="#aaaaaa"
+                      >
+                        <!---->
+                         
+                        <path
+                          d="M74.66667,28l-46.66667,46.66667h37.33333v18.66667c0,56.5918 46.07487,102.66667 102.66667,102.66667h28v-18.66667h-28c-46.5042,0 -84,-37.4958 -84,-84v-18.66667h37.33333z"
+                        />
+                         
+                        <!---->
+                         
+                        <!---->
+                      </g>
+                    </g>
+                  </svg>
+                   
+                  <!---->
+                   
+                  <!---->
+                  
+      Pack 1
+    
+                </div>
+                 
+                <a
+                  class="show-bot-colors"
+                >
+                  
+      Show bot colors
+    
+                </a>
+              </div>
+               
+              <div
+                class="players-column players-column-right"
+              >
+                <div
+                  class="player host-player"
+                >
+                  <div>
+                    <!---->
+                     
+                    <div>
+                      <span
+                        aria-label="Bot"
+                        class="material-design-icon account-outline-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M12,4C14.21,4 16,5.79 16,8C16,10.21 14.21,12 12,12C9.79,12 8,10.21 8,8C8,5.79 9.79,4 12,4M12,6C10.9,6 10,6.9 10,8C10,9.1 10.9,10 12,10C13.1,10 14,9.1 14,8C14,6.9 13.1,6 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z"
+                          >
+                            <title>
+                              Bot
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                    </div>
+                     
+                    <div
+                      class="player-colors"
+                    >
+                      <div
+                        class="player-name"
+                      >
+                        
+        Bot
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 
+                <div
+                  class="player host-player"
+                >
+                  <div>
+                    <!---->
+                     
+                    <div>
+                      <span
+                        aria-label="Bot"
+                        class="material-design-icon account-outline-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M12,4C14.21,4 16,5.79 16,8C16,10.21 14.21,12 12,12C9.79,12 8,10.21 8,8C8,5.79 9.79,4 12,4M12,6C10.9,6 10,6.9 10,8C10,9.1 10.9,10 12,10C13.1,10 14,9.1 14,8C14,6.9 13.1,6 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z"
+                          >
+                            <title>
+                              Bot
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                    </div>
+                     
+                    <div
+                      class="player-colors"
+                    >
+                      <div
+                        class="player-name"
+                      >
+                        
+        Bot
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 
+                <div
+                  class="player host-player"
+                >
+                  <div>
+                    <!---->
+                     
+                    <div>
+                      <span
+                        aria-label="Bot"
+                        class="material-design-icon account-outline-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M12,4C14.21,4 16,5.79 16,8C16,10.21 14.21,12 12,12C9.79,12 8,10.21 8,8C8,5.79 9.79,4 12,4M12,6C10.9,6 10,6.9 10,8C10,9.1 10.9,10 12,10C13.1,10 14,9.1 14,8C14,6.9 13.1,6 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z"
+                          >
+                            <title>
+                              Bot
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                    </div>
+                     
+                    <div
+                      class="player-colors"
+                    >
+                      <div
+                        class="player-name"
+                      >
+                        
+        Bot
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 
+                <div
+                  class="player host-player"
+                >
+                  <div>
+                    <!---->
+                     
+                    <div>
+                      <span
+                        aria-label="Bot"
+                        class="material-design-icon account-outline-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M12,4C14.21,4 16,5.79 16,8C16,10.21 14.21,12 12,12C9.79,12 8,10.21 8,8C8,5.79 9.79,4 12,4M12,6C10.9,6 10,6.9 10,8C10,9.1 10.9,10 12,10C13.1,10 14,9.1 14,8C14,6.9 13.1,6 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z"
+                          >
+                            <title>
+                              Bot
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                    </div>
+                     
+                    <div
+                      class="player-colors"
+                    >
+                      <div
+                        class="player-name"
+                      >
+                        
+        Bot
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+       
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link icon-link"
+        >
+          <span
+            aria-label="Exit Draft"
+            class="material-design-icon exit-to-app-icon"
+            role="img"
+          >
+            <svg
+              class="material-design-icon__svg"
+              fill="currentColor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+            >
+              <path
+                d="M19,3H5C3.89,3 3,3.89 3,5V9H5V5H19V19H5V15H3V19C3,20.1 3.9,21 5,21H19C20.1,21 21,20.1 21,19V5C21,3.89 20.1,3 19,3M10.08,15.58L11.5,17L16.5,12L11.5,7L10.08,8.41L12.67,11H3V13H12.67L10.08,15.58Z"
+              >
+                <title>
+                  Exit Draft
+                </title>
+              </path>
+            </svg>
+          </span>
+        </a>
+      </li>
+       
+      <!---->
+    </ul>
+     
+    <ul
+      class="navbar-nav ml-auto"
+    >
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+        >
+          
+        Home
+      
+        </a>
+      </li>
+       
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+        >
+          
+        Draft
+      
+        </a>
+      </li>
+       
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+        >
+          
+        Guide
+      
+        </a>
+      </li>
+       
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+          href="https://forum.draftpod.org/"
+        >
+          
+        Forum
+      
+        </a>
+      </li>
+    </ul>
+  </nav>
+   
+  <div
+    class="draft-page"
+  >
+    <!---->
+     
+    <div
+      class="draft-cards user-select-none"
+    >
+      <div
+        class="card pack-panel"
+        name="pack-hide"
+      >
+        <!---->
+         
+        <div
+          class="card-body"
+        >
+          <div
+            class="pack-container"
+          >
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457395.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457368.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457346.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457378.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457216.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457148.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457287.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457375.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457254.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457149.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457198.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+            <span
+              class="mtgcard mtgcard-draggable"
+              draggable="true"
+            >
+              <img
+                src="/images/cards/457396.jpg"
+              />
+               
+              <div
+                style="position: fixed; top: -1000px;"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="pick-panel card bg-white"
+      >
+        <div
+          class="card-header tabs-header"
+        >
+          <ul
+            class="nav"
+            role="tablist"
+          >
+            <li
+              class="nav-item"
+            >
+              <a
+                aria-controls="deck"
+                aria-selected="true"
+                class="nav-link active"
+                data-toggle="tab"
+                href="#deck"
+                id="deck-tab"
+                role="tab"
+              >
+                
+          Picks
+        
+              </a>
+            </li>
+             
+            <!---->
+          </ul>
+        </div>
+         
+        <div
+          class="card-body tab-content"
+        >
+          <div
+            aria-labelledby="deck-tab"
+            class="tab-pane fade show active"
+            id="deck"
+            role="tabpanel"
+          >
+            <div
+              class="pick-list"
+            >
+              <div
+                class="pile"
+              >
+                <!---->
+                  
+                <div
+                  class="pile-controls"
+                  style="margin-top: -10%;"
+                />
+                 
+                <div
+                  class="pile-drag-insert"
+                  style="margin-top: 0px; display: none;"
+                />
+              </div>
+              <div
+                class="pile"
+              >
+                <!---->
+                  
+                <div
+                  class="pile-controls"
+                  style="margin-top: -10%;"
+                />
+                 
+                <div
+                  class="pile-drag-insert"
+                  style="margin-top: 0px; display: none;"
+                />
+              </div>
+              <div
+                class="pile"
+              >
+                <!---->
+                  
+                <div
+                  class="pile-controls"
+                  style="margin-top: -10%;"
+                />
+                 
+                <div
+                  class="pile-drag-insert"
+                  style="margin-top: 0px; display: none;"
+                />
+              </div>
+              <div
+                class="pile"
+              >
+                <!---->
+                 
+                <span
+                  class="mtgcard mtgcard-draggable"
+                  draggable="true"
+                  style="margin-top: 0%;"
+                >
+                  <img
+                    src="/images/cards/457262.jpg"
+                  />
+                   
+                  <div
+                    style="position: fixed; top: -1000px;"
+                  />
+                </span>
+                 
+                <div
+                  class="pile-controls"
+                  style="margin-top: 140%;"
+                />
+                 
+                <div
+                  class="pile-drag-insert"
+                  style="margin-top: 0px; display: none;"
+                />
+              </div>
+              <div
+                class="pile"
+              >
+                <!---->
+                  
+                <div
+                  class="pile-controls"
+                  style="margin-top: -10%;"
+                />
+                 
+                <div
+                  class="pile-drag-insert"
+                  style="margin-top: 0px; display: none;"
+                />
+              </div>
+              <div
+                class="pile"
+              >
+                <!---->
+                  
+                <div
+                  class="pile-controls"
+                  style="margin-top: -10%;"
+                />
+                 
+                <div
+                  class="pile-drag-insert"
+                  style="margin-top: 0px; display: none;"
+                />
+              </div>
+              <div
+                class="pile"
+              >
+                <!---->
+                 
+                <span
+                  class="mtgcard mtgcard-draggable"
+                  draggable="true"
+                  style="margin-top: 0%;"
+                >
+                  <img
+                    src="/images/cards/457345.jpg"
+                  />
+                   
+                  <div
+                    style="position: fixed; top: -1000px;"
+                  />
+                </span>
+                <span
+                  class="mtgcard mtgcard-draggable"
+                  draggable="true"
+                  style="margin-top: 16%;"
+                >
+                  <img
+                    src="/images/cards/457259.jpg"
+                  />
+                   
+                  <div
+                    style="position: fixed; top: -1000px;"
+                  />
+                </span>
+                 
+                <div
+                  class="pile-controls"
+                  style="margin-top: 156%;"
+                />
+                 
+                <div
+                  class="pile-drag-insert"
+                  style="margin-top: 0px; display: none;"
+                />
+              </div>
+               
+              <div
+                class="pile pile-separator"
+              />
+               
+              <div
+                class="pile"
+              >
+                <div
+                  class="pile-caption"
+                  style="text-align: center;"
+                >
+                  
+    Sideboard
+                  <!---->
+                </div>
+                  
+                <div
+                  class="pile-controls"
+                  style="margin-top: 6%;"
+                />
+                 
+                <div
+                  class="pile-drag-insert"
+                  style="margin-top: 0px; display: none;"
+                />
+              </div>
+            </div>
+          </div>
+           
+          <!---->
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="infobar user-select-none"
+    >
+      <div
+        class="card-viewer"
+      >
+        <img
+          src="/images/card-back.png"
+        />
+      </div>
+       
+      <!---->
+       
+      <div
+        class="card deck-stats"
+      >
+        <div
+          class="card-header"
+        >
+          <div
+            class="float-left header-text text-light"
+          >
+            
+      Cards
+    
+          </div>
+           
+          <div
+            class="float-left"
+          />
+           
+          <div
+            class="float-right"
+          />
+        </div>
+         
+        <div
+          class="card-body"
+        >
+          <div
+            class="mana-curve-legend"
+          >
+            <span
+              class="mana-key creatures-key bg-danger"
+            >
+              
+ 
+    
+            </span>
+             Creature (1)
+    
+            <span
+              class="mana-key other-key bg-info"
+            >
+              
+ 
+    
+            </span>
+             Other (2)
+  
+          </div>
+           
+          <div
+            class="mana-curve ct-chart ct-perfect-fourth"
+          />
+           
+          <table
+            class="table table-sm deck-colors"
+          >
+            <tbody>
+              <tr>
+                <td
+                  width="60%"
+                >
+                  <img
+                    src="/images/mana-red.svg"
+                    width="18"
+                  />
+                   Mountain
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        3
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        75%
+      
+                </td>
+              </tr>
+              <tr>
+                <td
+                  width="60%"
+                >
+                  <img
+                    src="/images/mana-green.svg"
+                    width="18"
+                  />
+                   Forest
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        1
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        25%
+      
+                </td>
+              </tr>
+              <tr>
+                <td
+                  width="60%"
+                >
+                  <img
+                    src="/images/mana-white.svg"
+                    width="18"
+                  />
+                   Plains
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        0
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        0%
+      
+                </td>
+              </tr>
+              <tr>
+                <td
+                  width="60%"
+                >
+                  <img
+                    src="/images/mana-black.svg"
+                    width="18"
+                  />
+                   Swamp
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        0
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        0%
+      
+                </td>
+              </tr>
+              <tr>
+                <td
+                  width="60%"
+                >
+                  <img
+                    src="/images/mana-blue.svg"
+                    width="18"
+                  />
+                   Island
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        0
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        0%
+      
+                </td>
+              </tr>
+              <tr>
+                <td
+                  width="60%"
+                >
+                  <img
+                    src="/images/mana-colorless.svg"
+                    width="18"
+                  />
+                   Colorless
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        0
+      
+                </td>
+                 
+                <td
+                  align="right"
+                >
+                  
+        0%
+      
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

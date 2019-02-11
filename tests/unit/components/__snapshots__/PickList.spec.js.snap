@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PickList.vue displays picks 1`] = `
+<div
+  class="pick-list"
+>
+  <div
+    class="pile"
+  >
+    <!---->
+      
+    <div
+      class="pile-controls"
+      style="margin-top: -10%;"
+    />
+     
+    <div
+      class="pile-drag-insert"
+      style="margin-top: 0px; display: none;"
+    />
+  </div>
+  <div
+    class="pile"
+  >
+    <!---->
+     
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 0%;"
+    >
+      <img
+        src="/images/cards/457359.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 16%;"
+    >
+      <img
+        src="/images/cards/457284.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+     
+    <div
+      class="pile-controls"
+      style="margin-top: 156%;"
+    />
+     
+    <div
+      class="pile-drag-insert"
+      style="margin-top: 0px; display: none;"
+    />
+  </div>
+  <div
+    class="pile"
+  >
+    <!---->
+     
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 0%;"
+    >
+      <img
+        src="/images/cards/457238.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 16%;"
+    >
+      <img
+        src="/images/cards/457346.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 32%;"
+    >
+      <img
+        src="/images/cards/457346.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+     
+    <div
+      class="pile-controls"
+      style="margin-top: 172%;"
+    />
+     
+    <div
+      class="pile-drag-insert"
+      style="margin-top: 0px; display: none;"
+    />
+  </div>
+  <div
+    class="pile"
+  >
+    <!---->
+     
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 0%;"
+    >
+      <img
+        src="/images/cards/457354.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+     
+    <div
+      class="pile-controls"
+      style="margin-top: 140%;"
+    />
+     
+    <div
+      class="pile-drag-insert"
+      style="margin-top: 0px; display: none;"
+    />
+  </div>
+  <div
+    class="pile"
+  >
+    <!---->
+     
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 0%;"
+    >
+      <img
+        src="/images/cards/457337.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 16%;"
+    >
+      <img
+        src="/images/cards/457279.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 32%;"
+    >
+      <img
+        src="/images/cards/457255.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+     
+    <div
+      class="pile-controls"
+      style="margin-top: 172%;"
+    />
+     
+    <div
+      class="pile-drag-insert"
+      style="margin-top: 0px; display: none;"
+    />
+  </div>
+  <div
+    class="pile"
+  >
+    <!---->
+     
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 0%;"
+    >
+      <img
+        src="/images/cards/457385.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+     
+    <div
+      class="pile-controls"
+      style="margin-top: 140%;"
+    />
+     
+    <div
+      class="pile-drag-insert"
+      style="margin-top: 0px; display: none;"
+    />
+  </div>
+  <div
+    class="pile"
+  >
+    <!---->
+     
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 0%;"
+    >
+      <img
+        src="/images/cards/457186.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 16%;"
+    >
+      <img
+        src="/images/cards/457237.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 32%;"
+    >
+      <img
+        src="/images/cards/457263.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+     
+    <div
+      class="pile-controls"
+      style="margin-top: 172%;"
+    />
+     
+    <div
+      class="pile-drag-insert"
+      style="margin-top: 0px; display: none;"
+    />
+  </div>
+   
+  <div
+    class="pile pile-separator"
+  />
+   
+  <div
+    class="pile"
+  >
+    <div
+      class="pile-caption"
+      style="text-align: center;"
+    >
+      
+    Sideboard
+      <!---->
+    </div>
+     
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 16%;"
+    >
+      <img
+        src="/images/cards/457308.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 32%;"
+    >
+      <img
+        src="/images/cards/457282.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 48%;"
+    >
+      <img
+        src="/images/cards/457379.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 64%;"
+    >
+      <img
+        src="/images/cards/457231.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 80%;"
+    >
+      <img
+        src="/images/cards/457201.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+    <span
+      class="mtgcard mtgcard-draggable"
+      draggable="true"
+      style="margin-top: 96%;"
+    >
+      <img
+        src="/images/cards/457396.jpg"
+      />
+       
+      <div
+        style="position: fixed; top: -1000px;"
+      />
+    </span>
+     
+    <div
+      class="pile-controls"
+      style="margin-top: 236%;"
+    />
+     
+    <div
+      class="pile-drag-insert"
+      style="margin-top: 0px; display: none;"
+    />
+  </div>
+</div>
+`;

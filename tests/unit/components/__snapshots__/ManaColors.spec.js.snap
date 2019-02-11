@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManaColors.vue displays all colors 1`] = `
+<table
+  class="table table-sm deck-colors"
+>
+  <tbody>
+    <tr>
+      <td
+        width="60%"
+      >
+        <img
+          src="/images/mana-green.svg"
+          width="18"
+        />
+         Forest
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        6
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        50%
+      
+      </td>
+    </tr>
+    <tr>
+      <td
+        width="60%"
+      >
+        <img
+          src="/images/mana-red.svg"
+          width="18"
+        />
+         Mountain
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        3
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        25%
+      
+      </td>
+    </tr>
+    <tr>
+      <td
+        width="60%"
+      >
+        <img
+          src="/images/mana-blue.svg"
+          width="18"
+        />
+         Island
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        2
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        17%
+      
+      </td>
+    </tr>
+    <tr>
+      <td
+        width="60%"
+      >
+        <img
+          src="/images/mana-black.svg"
+          width="18"
+        />
+         Swamp
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        1
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        8%
+      
+      </td>
+    </tr>
+    <tr>
+      <td
+        width="60%"
+      >
+        <img
+          src="/images/mana-white.svg"
+          width="18"
+        />
+         Plains
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        0
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        0%
+      
+      </td>
+    </tr>
+    <tr>
+      <td
+        width="60%"
+      >
+        <img
+          src="/images/mana-colorless.svg"
+          width="18"
+        />
+         Colorless
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        0
+      
+      </td>
+       
+      <td
+        align="right"
+      >
+        
+        0%
+      
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

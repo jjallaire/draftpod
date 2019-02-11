@@ -18,6 +18,8 @@ describe('PickTimer.vue', () => {
     const wrapper = mount(PickTimer, pickTimerOptions(20));
     expect(wrapper.text()).toContain('0:');
     expect(wrapper.classes()).toContain('badge-transparent');
+    // do a snapshot test
+    expect(wrapper.element).toMatchSnapshot();
   });
 
   test('displays red background', () => {

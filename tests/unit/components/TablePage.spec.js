@@ -31,6 +31,10 @@ describe('TablePage.vue', () => {
       const deckPiles = wrapper.findAll('.pick-list .pile');
       expect(deckPiles).toHaveLength(9);
 
+
+      // do a snapshot test
+      expect(wrapper.element).toMatchSnapshot();
+
     });
 
     

@@ -16,6 +16,9 @@ describe('PickRatings.vue', () => {
     });
     const ratingRows = wrapper.findAll('.ratings-table tbody>tr');
     expect(ratingRows).toHaveLength(ratings.length);
+
+    // do a snapshot test
+    expect(wrapper.element).toMatchSnapshot();
   });
 
 });

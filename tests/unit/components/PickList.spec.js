@@ -26,6 +26,9 @@ describe('PickList.vue', () => {
     // check for cards in sideboard
     let landCards = deckPiles.at(8).findAll('.mtgcard');
     expect(landCards).toHaveLength(6);
+
+    // do a snapshot test
+    expect(wrapper.element).toMatchSnapshot();
   });
   
 });

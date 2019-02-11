@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PickTimer.vue displays time remaining 1`] = `
+<span
+  class="pick-timer badge text-light badge-transparent"
+>
+  
+  0:20
+
+</span>
+`;

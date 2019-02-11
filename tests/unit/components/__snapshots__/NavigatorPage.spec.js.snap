@@ -1,0 +1,1172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigatorPage.vue navigator page displays 1`] = `
+<div>
+  <nav
+    class="navbar navbar-dark navbar-expand-sm user-select-none"
+  >
+    <img
+      class="navbar-logo"
+      src="/images/logo.svg"
+    />
+     
+    <span
+      class="navbar-brand"
+    >
+      <a
+        class="text-light"
+      >
+        
+      Draftpod
+    
+      </a>
+    </span>
+     
+    <span
+      class="navbar-text"
+    >
+      
+      Draft simulator for Magic the Gathering
+    
+    </span>
+     
+    <ul
+      class="navbar-nav ml-auto"
+    >
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+        >
+          
+        Home
+      
+        </a>
+      </li>
+       
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+        >
+          
+        Draft
+      
+        </a>
+      </li>
+       
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+        >
+          
+        Guide
+      
+        </a>
+      </li>
+       
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+          href="https://forum.draftpod.org/"
+        >
+          
+        Forum
+      
+        </a>
+      </li>
+    </ul>
+  </nav>
+   
+  <div
+    class="container"
+  >
+    <div
+      class="card content-panel resume-draft user-select-none"
+      name="resume-slide-out"
+    >
+      <div
+        class="card-header"
+      >
+        <div
+          class="float-left header-text text-light"
+        >
+          
+      Draft in Progress
+    
+        </div>
+         
+        <div
+          class="float-left"
+        />
+         
+        <div
+          class="float-right"
+        />
+      </div>
+       
+      <div
+        class="card-body"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-4 col-lg-3"
+          >
+            <h4>
+              Ravnica Allegiance
+            </h4>
+             
+            <p>
+              <span>
+                
+          Pack 1, Pick 4
+        
+              </span>
+               
+              <a
+                class="remove-draft-button"
+              >
+                <span
+                  aria-label="Remove draft"
+                  class="material-design-icon delete-outline-icon"
+                  role="img"
+                >
+                  <svg
+                    class="material-design-icon__svg"
+                    fill="currentColor"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path
+                      d="M6,19C6,20.1 6.9,21 8,21H16C17.1,21 18,20.1 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+                    >
+                      <title>
+                        Remove draft
+                      </title>
+                    </path>
+                  </svg>
+                </span>
+              </a>
+            </p>
+             
+            <button
+              class="btn btn-warning resume-button"
+              type="button"
+            >
+              
+        Resume Draft
+      
+            </button>
+          </div>
+           
+          <div
+            class="col-sm-4 col-lg-3"
+          >
+            <div
+              class="mana-curve-legend"
+            >
+              <span
+                class="mana-key creatures-key bg-danger"
+              >
+                
+ 
+    
+              </span>
+               Creature (1)
+    
+              <span
+                class="mana-key other-key bg-info"
+              >
+                
+ 
+    
+              </span>
+               Other (2)
+  
+            </div>
+             
+            <div
+              class="mana-curve ct-chart ct-perfect-fourth"
+            />
+          </div>
+           
+          <div
+            class="col-sm-4 col-lg-3"
+          >
+            <table
+              class="table table-sm deck-colors"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    width="60%"
+                  >
+                    <img
+                      src="/images/mana-red.svg"
+                      width="18"
+                    />
+                     Mountain
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        3
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        75%
+      
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    width="60%"
+                  >
+                    <img
+                      src="/images/mana-green.svg"
+                      width="18"
+                    />
+                     Forest
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        1
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        25%
+      
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    width="60%"
+                  >
+                    <img
+                      src="/images/mana-white.svg"
+                      width="18"
+                    />
+                     Plains
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        0
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        0%
+      
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    width="60%"
+                  >
+                    <img
+                      src="/images/mana-black.svg"
+                      width="18"
+                    />
+                     Swamp
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        0
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        0%
+      
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    width="60%"
+                  >
+                    <img
+                      src="/images/mana-blue.svg"
+                      width="18"
+                    />
+                     Island
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        0
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        0%
+      
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    width="60%"
+                  >
+                    <img
+                      src="/images/mana-colorless.svg"
+                      width="18"
+                    />
+                     Colorless
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        0
+      
+                  </td>
+                   
+                  <td
+                    align="right"
+                  >
+                    
+        0%
+      
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+           
+          <div
+            class="col-lg-3 d-none d-lg-block"
+          >
+            <img
+              class="card-preview"
+              height="150"
+              src="/images/cards/457345.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="card content-panel user-select-none"
+    >
+      <div
+        class="card-header"
+      >
+        <div
+          class="float-left header-text text-light"
+        >
+          
+      Start New Draft
+    
+        </div>
+         
+        <div
+          class="float-left"
+        />
+         
+        <div
+          class="float-right"
+        />
+      </div>
+       
+      <div
+        class="card-body"
+      >
+        <form>
+          <div
+            class="form-group row"
+          >
+            <label
+              class="col-sm-3 col-form-label"
+              for="draft-set"
+            >
+              
+    Set:
+  
+            </label>
+             
+            <div
+              class="col-sm-8"
+            >
+              <select
+                class="form-control"
+                id="draft-set"
+              >
+                <option
+                  value="rna"
+                >
+                  
+        Ravnica Allegiance
+      
+                </option>
+                 
+                <option
+                  value="grn"
+                >
+                  
+        Guilds of Ravnica
+      
+                </option>
+                 
+                <option
+                  value="m19"
+                >
+                  
+        Core Set 2019
+      
+                </option>
+                 
+                <option
+                  value="dom"
+                >
+                  
+        Dominaria
+      
+                </option>
+                 
+                <option
+                  value="rix"
+                >
+                  
+        Rivals of Ixalan
+      
+                </option>
+                 
+                <option
+                  value="xln"
+                >
+                  
+        Ixalan
+      
+                </option>
+                 
+                <option
+                  value="ust"
+                >
+                  
+        Unstable
+      
+                </option>
+              </select>
+            </div>
+          </div>
+           
+          <div
+            class="form-group row"
+          >
+            <label
+              class="col-sm-3 col-form-label"
+              for="draft-cardpool"
+            >
+              
+    Cardpool:
+  
+            </label>
+             
+            <div
+              class="col-sm-8"
+            >
+              <select
+                class="form-control"
+                id="draft-cardpool"
+              >
+                <optgroup
+                  label="Set Cube"
+                >
+                  <option
+                    value="_cube_:3/2/1/1"
+                  >
+                    
+          3x Common, 2x Uncommon, 1x Rare, 1x Mythic
+        
+                  </option>
+                  <option
+                    value="_cube_:4/2/1/1"
+                  >
+                    
+          4x Common, 2x Uncommon, 1x Rare, 1x Mythic
+        
+                  </option>
+                  <option
+                    value="_cube_:6/3/1/1"
+                  >
+                    
+          6x Common, 3x Uncommon, 1x Rare, 1x Mythic
+        
+                  </option>
+                  <option
+                    value="_cube_:4/4/1/1"
+                  >
+                    
+          4x Common, 4x Uncommon, 1x Rare, 1x Mythic
+        
+                  </option>
+                  <option
+                    value="_cube_:4/4/0/0"
+                  >
+                    
+          4x Common, 4x Uncommon
+        
+                  </option>
+                </optgroup>
+                 
+                <optgroup
+                  label="Custom"
+                >
+                  <option
+                    value="_custom_:RNA Cube"
+                  >
+                    
+          RNA Cube
+        
+                  </option>
+                   
+                  <option
+                    value="new-cardpool"
+                  >
+                    
+          New Custom Cardpool...
+        
+                  </option>
+                </optgroup>
+              </select>
+               
+              <div>
+                <div
+                  class="custom-cardpool"
+                >
+                  <div
+                    class="cardpool-bar"
+                  >
+                    <span
+                      class="cardpool-card-count"
+                    >
+                      
+            553 cards
+          
+                    </span>
+                    
+          2019-2-9, 1:58 PM
+          
+                    <a
+                      class="cardpool-action float-right"
+                    >
+                      <span
+                        aria-label="Remove Cardpool"
+                        class="material-design-icon delete-outline-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M6,19C6,20.1 6.9,21 8,21H16C17.1,21 18,20.1 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+                          >
+                            <title>
+                              Remove Cardpool
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                      <span>
+                        Remove
+                      </span>
+                    </a>
+                     
+                    <a
+                      class="cardpool-action float-right"
+                    >
+                      <span
+                        aria-label="Update Cardpool"
+                        class="material-design-icon cloud-upload-icon"
+                        role="img"
+                      >
+                        <svg
+                          class="material-design-icon__svg"
+                          fill="currentColor"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path
+                            d="M14,13V17H10V13H7L12,8L17,13M19.35,10.03C18.67,6.59 15.64,4 12,4C9.11,4 6.6,5.64 5.35,8.03C2.34,8.36 0,10.9 0,14C0,17.31 2.69,20 6,20H19C21.76,20 24,17.76 24,15C24,12.36 21.95,10.22 19.35,10.03Z"
+                          >
+                            <title>
+                              Update Cardpool
+                            </title>
+                          </path>
+                        </svg>
+                      </span>
+                      <span>
+                        Update...
+                      </span>
+                    </a>
+                     
+                    <input
+                      accept="text/csv,.coll2"
+                      id="custom-cardpool-update"
+                      type="file"
+                    />
+                  </div>
+                   
+                  <div
+                    style="clear: both;"
+                  />
+                   
+                  <div
+                    class="cardpool-upload-status"
+                    style="display: none;"
+                  >
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="form-group row"
+          >
+            <label
+              class="col-sm-3 col-form-label"
+              for="draft-options"
+            >
+              
+        Options:
+      
+            </label>
+             
+            <div
+              class="col-sm-8"
+              id="draft-options"
+            >
+              <div
+                class="form-check"
+              >
+                <input
+                  class="form-check-input"
+                  id="draft-timer"
+                  type="checkbox"
+                />
+                 
+                <label
+                  class="form-check-label"
+                  for="draft-timer"
+                >
+                  
+            Apply pick time limit
+          
+                </label>
+                 
+                <small
+                  class="form-text text-muted"
+                >
+                  
+            1 minute, 15 seconds for the first pick (5 seconds less for each pick thereafter).
+          
+                </small>
+              </div>
+               
+              <div
+                class="form-check"
+              >
+                <input
+                  class="form-check-input"
+                  id="draft-analysis"
+                  type="checkbox"
+                />
+                 
+                <label
+                  class="form-check-label"
+                  for="draft-analysis"
+                >
+                  
+            Provide card ratings
+          
+                </label>
+                 
+                <small
+                  class="form-text text-muted"
+                >
+                  
+            Optional display of ratings for the cards in the current pack.
+          
+                </small>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="form-group row"
+          >
+            <label
+              class="col-sm-3 col-form-label"
+              for="draft-players"
+            >
+              
+    Players:
+  
+            </label>
+             
+            <div
+              class="col-sm-8"
+            >
+              <select
+                class="form-control"
+                id="draft-players"
+              >
+                <option
+                  value="single"
+                >
+                  
+        Single Player
+      
+                </option>
+                 
+                <option
+                  value="multiple"
+                >
+                  
+        Multiple Players
+      
+                </option>
+              </select>
+               
+              <!---->
+            </div>
+          </div>
+           
+          <br />
+           
+          <div
+            class="form-group row"
+          >
+            <div
+              class="col-sm-10"
+            >
+              <button
+                class="btn btn-success"
+                type="button"
+              >
+                
+          Start Draft
+        
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+     
+    <div
+      class="card content-panel recent-drafts user-select-none"
+    >
+      <div
+        class="card-header"
+      >
+        <div
+          class="float-left header-text text-light"
+        >
+          
+      Recent Drafts
+    
+        </div>
+         
+        <div
+          class="float-left"
+        />
+         
+        <div
+          class="float-right"
+        />
+      </div>
+       
+      <div
+        class="card-body"
+      >
+        <span
+          name="recent-draft-row"
+        >
+          <div
+            class="row align-items-center"
+          >
+            <div
+              class="col-md-4"
+            >
+              <span
+                class="set-name"
+              >
+                
+          Ravnica Allegiance
+        
+              </span>
+            </div>
+             
+            <div
+              class="col-md-2"
+            >
+              <img
+                class="color-icon"
+                src="/images/mana-red.svg"
+                title="Mountain (75%)"
+              />
+              <img
+                class="color-icon"
+                src="/images/mana-green.svg"
+                title="Forest (25%)"
+              />
+            </div>
+             
+            <div
+              class="col-md-3 text-muted"
+            >
+              <span>
+                
+          Pack 1, Pick 4
+        
+              </span>
+            </div>
+             
+            <div
+              class="col-md-2 text-muted"
+            >
+              
+        2019-2-9
+      
+            </div>
+             
+            <div
+              class="col-md-1 text-muted"
+            >
+              <a
+                class="remove-draft-button"
+              >
+                <span
+                  aria-label="Remove draft"
+                  class="material-design-icon delete-outline-icon"
+                  role="img"
+                >
+                  <svg
+                    class="material-design-icon__svg"
+                    fill="currentColor"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path
+                      d="M6,19C6,20.1 6.9,21 8,21H16C17.1,21 18,20.1 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+                    >
+                      <title>
+                        Remove draft
+                      </title>
+                    </path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            class="row align-items-center"
+          >
+            <div
+              class="col-md-4"
+            >
+              <span
+                class="set-name"
+              >
+                
+          Ravnica Allegiance
+        
+              </span>
+            </div>
+             
+            <div
+              class="col-md-2"
+            >
+              <img
+                class="color-icon"
+                src="/images/mana-green.svg"
+                title="Forest (50%)"
+              />
+              <img
+                class="color-icon"
+                src="/images/mana-blue.svg"
+                title="Island (50%)"
+              />
+            </div>
+             
+            <div
+              class="col-md-3 text-muted"
+            >
+              <span>
+                
+          Pack 1, Pick 4
+        
+              </span>
+            </div>
+             
+            <div
+              class="col-md-2 text-muted"
+            >
+              
+        2019-2-9
+      
+            </div>
+             
+            <div
+              class="col-md-1 text-muted"
+            >
+              <a
+                class="remove-draft-button"
+              >
+                <span
+                  aria-label="Remove draft"
+                  class="material-design-icon delete-outline-icon"
+                  role="img"
+                >
+                  <svg
+                    class="material-design-icon__svg"
+                    fill="currentColor"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path
+                      d="M6,19C6,20.1 6.9,21 8,21H16C17.1,21 18,20.1 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+                    >
+                      <title>
+                        Remove draft
+                      </title>
+                    </path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            class="row align-items-center"
+          >
+            <div
+              class="col-md-4"
+            >
+              <span
+                class="set-name"
+              >
+                
+          Ravnica Allegiance
+        
+              </span>
+            </div>
+             
+            <div
+              class="col-md-2"
+            >
+              <img
+                class="color-icon"
+                src="/images/mana-white.svg"
+                title="Plains (37%)"
+              />
+              <img
+                class="color-icon"
+                src="/images/mana-black.svg"
+                title="Swamp (54%)"
+              />
+            </div>
+             
+            <div
+              class="col-md-3 text-muted"
+            >
+              <span>
+                
+          Deck: 40 / 40
+        
+              </span>
+            </div>
+             
+            <div
+              class="col-md-2 text-muted"
+            >
+              
+        2019-2-9
+      
+            </div>
+             
+            <div
+              class="col-md-1 text-muted"
+            >
+              <a
+                class="remove-draft-button"
+              >
+                <span
+                  aria-label="Remove draft"
+                  class="material-design-icon delete-outline-icon"
+                  role="img"
+                >
+                  <svg
+                    class="material-design-icon__svg"
+                    fill="currentColor"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path
+                      d="M6,19C6,20.1 6.9,21 8,21H16C17.1,21 18,20.1 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+                    >
+                      <title>
+                        Remove draft
+                      </title>
+                    </path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+     
+    <footer
+      class="site-footer text-muted"
+    >
+      <p
+        class="small"
+      >
+        
+    Draftpod is unofficial Fan Content permitted under the Wizards 
+    
+        <a
+          href="https://company.wizards.com/fancontentpolicy"
+        >
+          Fan Content Policy
+        </a>
+        . 
+    The literal and graphical information  presented on this site about Magic: The Gathering, including card images, is copyright
+    © Wizards of the Coast, LLC, a subsidiary of Hasbro, Inc. This website is not produced by, endorsed by, supported by, 
+    or affiliated with Wizards of the Coast.
+  
+      </p>
+       
+      <p
+        class="small"
+      >
+        
+    Card ratings are derived from the P1P1 pick order lists published by
+    
+        <a
+          href="https://www.draftaholicsanonymous.com"
+        >
+          Draftaholics Anonymous
+        </a>
+        . 
+    Card data is drawn from the 
+        <a
+          href="https://scryfall.com/docs/api"
+        >
+          Scryfall API
+        </a>
+        . 
+    The Draftpod logo was designed by 
+        <a
+          href="http://www.faithtoken.com/"
+        >
+          Faithtoken
+        </a>
+         
+    and is used via the 
+        <a
+          href="https://creativecommons.org/licenses/by/3.0/"
+        >
+          CC BY 3.0
+        </a>
+         license. 
+    Material Design UI icons are © 2014 Austin Andrews and © 2014 Google.
+  
+      </p>
+       
+      <p
+        class="small"
+      >
+        
+    All other content © 2019 Draftpod. All rights reserved.
+    
+        <span
+          class="footer-links"
+        >
+          <a
+            href="/guide#welcome/"
+          >
+            About
+          </a>
+           
+          <a
+            href="/guide#faq/"
+          >
+            FAQ
+          </a>
+           
+          <a
+            href="/guide#privacy/"
+          >
+            Privacy
+          </a>
+           
+          <a
+            href="/guide#contact/"
+          >
+            Contact
+          </a>
+        </span>
+      </p>
+    </footer>
+  </div>
+</div>
+`;

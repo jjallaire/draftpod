@@ -16,6 +16,9 @@ describe('PackPanel.vue', () => {
     });
     const cardSpans = wrapper.findAll('.pack-container .mtgcard');
     expect(cardSpans).toHaveLength(cards.length);
+
+    // do a snapshot test
+    expect(wrapper.element).toMatchSnapshot();
   });
 
 });

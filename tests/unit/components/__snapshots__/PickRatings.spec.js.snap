@@ -1,0 +1,717 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PickRatings.vue displays ratings 1`] = `
+<div>
+  <table
+    class="ratings-table table table-sm"
+  >
+    <thead>
+      <th>
+        Card
+      </th>
+       
+      <th>
+        Colors
+      </th>
+       
+      <th>
+        Rating
+      </th>
+       
+      <th>
+        Color Bonus
+      </th>
+       
+      <th>
+        Pick Rating
+      </th>
+    </thead>
+     
+    <tbody>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Sphinx of Foresight
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-blue.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          4.0
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          4.0
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Collision // Colossus
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-red.svg"
+          />
+          <img
+            class="mana-color"
+            src="/images/mana-green.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          3.5
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          3.5
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Gates Ablaze
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-red.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          3.0
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          3.0
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Incubation // Incongruity
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-green.svg"
+          />
+          <img
+            class="mana-color"
+            src="/images/mana-blue.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          2.5
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          2.5
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Rakdos Guildgate
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-black.svg"
+          />
+          <img
+            class="mana-color"
+            src="/images/mana-red.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          2.5
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          2.5
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Ghor-Clan Wrecker
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-red.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          2.0
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          2.0
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Impassioned Orator
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-white.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          2.0
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          2.0
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Senate Courier
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-white.svg"
+          />
+          <img
+            class="mana-color"
+            src="/images/mana-blue.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          2.0
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          2.0
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Storm Strike
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-red.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          1.5
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          1.5
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Tenth District Veteran
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-white.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          1.5
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          1.5
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Dead Revels
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-black.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          1.5
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          1.5
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Expose to Daylight
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-white.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          1.0
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          1.0
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Watchful Giant
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-white.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          0.5
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          0.5
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Clear the Mind
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-blue.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          0.5
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          0.5
+        
+        </td>
+      </tr>
+      <tr>
+        <td
+          width="15%"
+        >
+          
+          Burn Bright
+        
+        </td>
+         
+        <td
+          width="20%"
+        >
+          <img
+            class="mana-color"
+            src="/images/mana-red.svg"
+          />
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          0.0
+        
+        </td>
+         
+        <td
+          class="no-color-bonus"
+          width="15%"
+        >
+          
+          —
+        
+        </td>
+         
+        <td
+          width="15%"
+        >
+          
+          0.0
+        
+        </td>
+      </tr>
+    </tbody>
+  </table>
+   
+  <p
+    class="ratings-note"
+  >
+    
+    Card ratings provide a rough idea of the relative power level between cards, 
+    but don't necessarily reflect optimal draft selections. The pick rating displayed reflects a baseline
+    card rating plus a bonus for matching the color of the deck (the bonuses are lower in pack 1). Ratings don't reflect
+    draft signals, deck synergies, mana curve, and creatue/spell ratio—these considerations will often result in a
+    pick different than the highest rated card. Ratings are based on the community P1P1 evaluations provided at 
+    
+    <a
+      href="https://draftaholicsanonymous.com/"
+      target="_blank"
+    >
+      
+      https://draftaholicsanonymous.com
+    
+    </a>
+    .
+  
+  </p>
+</div>
+`;

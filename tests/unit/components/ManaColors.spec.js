@@ -13,6 +13,9 @@ describe('ManaColors.vue', () => {
     });
     const colorRows = wrapper.findAll('.deck-colors tbody>tr');
     expect(colorRows).toHaveLength(6);
+
+    // do a snapshot test
+    expect(wrapper.element).toMatchSnapshot();
   });
 
 });
