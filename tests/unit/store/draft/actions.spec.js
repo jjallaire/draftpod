@@ -3,11 +3,11 @@ import { DECK } from '@/store/modules/draft/constants'
 
 import { RESUME_DRAFT, SIMULATE_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE,
          DECK_TO_SIDEBOARD, DECK_TO_UNUSED, SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED,
-         UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
+         UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD, DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
          /*
 
          , , 
-         DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
+         , ,
          REMOVE_PLAYER 
          */
         } from '@/store/modules/draft/actions';
@@ -119,8 +119,21 @@ describe('Draft Store Actions', () => {
     });
   });
 
+  test('disable auto-lands', () => {
+    let color_order = ['B', 'W', 'U', 'R', 'G'];
+    return dispatch(DISABLE_AUTO_LANDS, { player_id, color_order }).then(() => {
+      expect(deck(store).lands.auto).toBe(false);
+      expect(deck(store).lands.color_order).toBe(color_order);
+    });
+  });
 
-
+  test('set basic lands', () => {
+    let color = 'R';
+    let lands = 5;
+    return dispatch(SET_BASIC_LANDS, { player_id, color, lands }).then(() => {
+      expect(deck(store).lands.basic[color]).toBe(lands);
+    });
+  });
 
 
 });
