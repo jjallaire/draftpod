@@ -4,6 +4,10 @@ module.exports = {
   // collectCoverage: true,
   // coverageReporters: ["json", "html"],
   
+  setupFiles: [
+    "<rootDir>/tests/util/setup.js"
+  ],
+
   moduleFileExtensions: [
     'js',
     'jsx',
