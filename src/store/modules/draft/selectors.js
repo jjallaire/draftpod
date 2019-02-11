@@ -6,7 +6,7 @@ import * as set from './set'
 import { DECK } from './constants'
 
 const local_images = process.env.VUE_APP_LOCAL_IMAGES && 
-                     process.env.NODE_ENV !== 'production';
+                     process.env.NODE_ENV === 'development';
 
 // get card image_uris (support local images for development)
 export function cardImageUris(card) {
