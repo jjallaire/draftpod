@@ -172,7 +172,6 @@ export default {
           name: this.new_cardpool.name,
           cards: this.new_cardpool.cards
         });
-        console.log(JSON.stringify(this.new_cardpool.cards));
         // notify parent listener of the selection
         this.$nextTick(() => {
           this.$emit('input', CARDPOOL.CUSTOM + this.new_cardpool.name);
