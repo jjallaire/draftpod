@@ -26,7 +26,7 @@ You can also sit on the shoulder of the some of the very best Magic players in t
 
 Yes, Draftpod is free and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. 
 
-Draftpod was created by a group of software engineers that love to play Magic and even more-so love to draft. After trying various forms of 2 or 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, we wanted to find a better way. We built Draftpod as a way of solving the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138) for ourselves, and hope that the rest of the Magic community also finds it useful. 
+Draftpod was created by a group of software engineers that love to play Magic and even more so love to draft. After trying various forms of 2 and 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, we wanted to find a better way. We built Draftpod as a way of solving the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138) for ourselves, and hope that the rest of the Magic community also finds it useful. 
 
 #### How are Draftpod card ratings derived?
 
