@@ -14,6 +14,10 @@ yarn-error.log*
 # Code coverage reports
 /coverage
 
+# nightwatch reports/log
+/tests/e2e/reports
+selenium-server.log
+
 # Editor directories and files
 .idea
 .vscode
