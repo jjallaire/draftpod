@@ -7,8 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "node tests/e2e/runner.js",
-    "test": "npm run lint && npm run test:unit && npm run test:e2e",
+    "test:e2e": "npm run build && node tests/e2e/runner.js",
+    "test": "npm run lint && npm run test:unit",
     "deploy": "export VUE_APP_BRANCH=$BRANCH && npm run test:unit && npm run build"
   },
   "dependencies": {
@@ -55,6 +55,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "flush-promises": "^1.0.2",
+    "geckodriver": "^1.14.1",
     "nightwatch": "^1.0.19",
     "selenium-server": "^3.141.59",
     "vue-markdown-loader": "^2.4.1",

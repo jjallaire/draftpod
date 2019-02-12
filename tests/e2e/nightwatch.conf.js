@@ -7,13 +7,20 @@ module.exports = {
     host: '127.0.0.1',
     port: 4444,
     cli_args: {
-      'WebDriver.chrome.driver': require('chromedriver').path
+      'WebDriver.chrome.driver': require('chromedriver').path,
+      'WebDriver.gecko.driver': require('geckodriver').path
     }
   },
   test_settings: {
     chrome: {
       desiredCapabilities: {
         browserName: 'chrome'
+      }
+    },
+
+    firefox: {
+      desiredCapabilities: {
+        browserName: 'firefox'
       }
     }
   }
