@@ -10,7 +10,7 @@ module.exports = {
       'WebDriver.chrome.driver': require('chromedriver').path
     }
   },
-test_settings: {
+  test_settings: {
     chrome: {
       desiredCapabilities: {
         browserName: 'chrome'
