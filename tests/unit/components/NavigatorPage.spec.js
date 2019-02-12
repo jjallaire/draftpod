@@ -2,7 +2,7 @@
 import { mount } from '@vue/test-utils'
 import NavigatorPage from '../../../src/components/navigator/NavigatorPage.vue'
 
-import { testStore } from '../../util/test-store'
+import { testStore } from '../util/test-store'
 
 import { RouterLinkStub } from '@vue/test-utils'
 

@@ -3,7 +3,7 @@
 import { mount } from '@vue/test-utils'
 import PickTimer from '../../../src/components/draft/pick/PickTimer.vue'
 
-import providers from '../../util/providers'
+import providers from '../util/providers'
 
 describe('PickTimer.vue', () => {
 

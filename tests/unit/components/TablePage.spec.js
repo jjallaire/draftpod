@@ -2,7 +2,7 @@
 import { mount } from '@vue/test-utils'
 import TablePage from '../../../src/components/draft/table/TablePage.vue'
 
-import { testStore } from '../../util/test-store'
+import { testStore } from '../util/test-store'
 
 import { RouterLinkStub } from '@vue/test-utils'
 

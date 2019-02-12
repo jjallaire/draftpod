@@ -3,9 +3,9 @@
 import { mount } from '@vue/test-utils'
 import PickRatings from '../../../src/components/draft/pick/PickRatings.vue'
 
-import ratings from '../../data/ratings.json'
+import ratings from '../data/ratings.json'
 
-import providers from '../../util/providers'
+import providers from '../util/providers'
 
 describe('PickRatings.vue', () => {
 

@@ -3,7 +3,7 @@ import { CARDPOOL } from '@/store/constants'
 import { INIT_DRAFT } from '@/store/actions'
 import { START_DRAFT } from '@/store/modules/draft/actions'
 
-import { testStore } from '../../util/test-store'
+import { testStore } from '../util/test-store'
 
 describe('Store Actions', () => {
 

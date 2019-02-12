@@ -5,9 +5,9 @@
 import { mount } from '@vue/test-utils'
 import PickList from '../../../src/components/draft/pick/PickList.vue'
 
-import piles from '../../data/piles.json'
+import piles from '../data/piles.json'
 
-import providers from '../../util/providers'
+import providers from '../util/providers'
 
 describe('PickList.vue', () => {
 

@@ -6,10 +6,10 @@ import { SET_PLAYER_INFO, UPDATE_PREFERENCES,
          SET_CARDPOOL, REMOVE_CARDPOOL,
          SET_FIREBASE_ERROR } from '@/store/mutations'
 
-import draft from '../../data/draft.json'
-import cardpool_cards from '../../data/cardpool.json'
+import draft from '../data/draft.json'
+import cardpool_cards from '../data/cardpool.json'
 
-import { testStore } from '../../util/test-store'
+import { testStore } from '../util/test-store'
 
 import shortUuid from 'short-uuid'
 

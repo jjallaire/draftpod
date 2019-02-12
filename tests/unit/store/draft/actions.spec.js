@@ -4,15 +4,9 @@ import { DECK } from '@/store/modules/draft/constants'
 import { RESUME_DRAFT, SIMULATE_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE,
          DECK_TO_SIDEBOARD, DECK_TO_UNUSED, SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED,
          UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD, DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
-         /*
-
-         , , 
-         , ,
-         REMOVE_PLAYER 
-         */
         } from '@/store/modules/draft/actions';
 
-import { testStore } from '../../../util/test-store'
+import { testStore } from '../../util/test-store'
 
 describe('Draft Store Actions', () => {
 

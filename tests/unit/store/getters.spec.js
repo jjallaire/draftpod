@@ -1,7 +1,7 @@
 
 
 
-import { testStore } from '../../util/test-store'
+import { testStore } from '../util/test-store'
 
 describe('Store Getters', () => {
 

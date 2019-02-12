@@ -8,7 +8,7 @@ import { handleCardpoolCsvUpload, handleCardpoolColl2Upload } from '@/components
 describe('Cardpool Uploads', () => {
 
   function dataToString(file) {
-    let dataFilePath = path.resolve(__dirname, '../../data/upload/' + file);
+    let dataFilePath = path.resolve(__dirname, '../data/upload/' + file);
     return fs.readFileSync(dataFilePath, 'UTF-8');
   }
 

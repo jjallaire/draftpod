@@ -5,7 +5,7 @@ module.exports = {
   // coverageReporters: ["json", "html"],
   
   setupFiles: [
-    "<rootDir>/tests/util/setup.js"
+    "<rootDir>/tests/unit/util/setup.js"
   ],
 
   moduleFileExtensions: [
