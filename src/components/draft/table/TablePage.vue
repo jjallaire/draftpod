@@ -39,6 +39,10 @@ import jquery from 'jquery'
 
 import TouchDragManager from '../core/TouchDragManager.js'
 
+import Vue from 'vue'
+import VueHotkey from 'v-hotkey'
+Vue.use(VueHotkey);
+
 const production = process.env.NODE_ENV === 'production';
 
 // drafts namespace
@@ -144,6 +148,16 @@ export default {
     namespace: function() {
       return NS_DRAFTS + '/' + this.draft_id;
     },
+
+    keymap: function() {
+      return {
+        'shift+enter': () => {
+          if (!this.waiting && !this.picks_complete)
+            this.pickTimerPick();
+        } 
+      };
+    }
+
   },
 
 
@@ -446,7 +460,10 @@ export default {
         class="waiting-glass"
       />
 
-      <div class="draft-cards user-select-none">
+      <div 
+        v-hotkey="keymap"
+        class="draft-cards user-select-none"
+      >
         <transition name="pack-hide">
           <PackPanel 
             v-if="!picks_complete" 
