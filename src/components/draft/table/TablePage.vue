@@ -200,6 +200,8 @@ export default {
       this.$store.commit(SET_FIREBASE_ERROR, null);
       return;
     }
+
+    log.logMessage("Logging a message");
  
     // resume draft
     this.resumeDraft().then(() => {
