@@ -117,7 +117,6 @@ download_set <- function(set,
                                  grn = 259,
                                  m19 = 280,
                                  dom = 269,
-                                 ust = 216,
                                  xln = 279,
                                  rix = 196)
   

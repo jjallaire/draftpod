@@ -64,9 +64,6 @@ export default {
         <option value="xln">
           Ixalan
         </option>
-        <option value="ust">
-          Unstable
-        </option>
       </select>
     </div>
   </div>
