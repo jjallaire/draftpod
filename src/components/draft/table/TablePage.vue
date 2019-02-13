@@ -201,8 +201,6 @@ export default {
       return;
     }
 
-    log.logMessage("Logging a message");
- 
     // resume draft
     this.resumeDraft().then(() => {
 
