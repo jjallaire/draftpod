@@ -20,7 +20,7 @@ export default {
     </p>
     <p class="small">
       Card ratings are derived from the 
-      <a href="https://www.channelfireball.com/tag/lsvs-set-review/">LSV set reviews</a> 
+      <a href="https://www.channelfireball.com/tag/lsvs-set-review/">LSV set reviews</a>
       published by <a href="https://www.channelfireball.com/">Channel Fireball</a>. 
       Card data is drawn from the <a href="https://scryfall.com/docs/api">Scryfall API</a>. 
       The Draftpod logo was designed by <a href="http://www.faithtoken.com/">Faithtoken</a> 
@@ -29,7 +29,7 @@ export default {
     </p>
 
     <p class="small">
-      All other content &copy; 2019 Draftpod. All rights reserved.
+      &copy; 2019 Draftpod. All rights reserved.
       <span class="footer-links">
         <a href="/guide#welcome/">About</a>
         <a href="/guide#faq/">FAQ</a>
