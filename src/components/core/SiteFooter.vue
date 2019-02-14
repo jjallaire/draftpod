@@ -19,8 +19,9 @@ export default {
       or affiliated with Wizards of the Coast.
     </p>
     <p class="small">
-      Card ratings are derived from the P1P1 pick order lists published by
-      <a href="https://www.draftaholicsanonymous.com">Draftaholics Anonymous</a>. 
+      Card ratings are derived from the 
+      <a href="https://www.channelfireball.com/tag/lsvs-set-review/">LSV set reviews</a> 
+      published by <a href="https://www.channelfireball.com/">Channel Fireball</a>. 
       Card data is drawn from the <a href="https://scryfall.com/docs/api">Scryfall API</a>. 
       The Draftpod logo was designed by <a href="http://www.faithtoken.com/">Faithtoken</a> 
       and is used via the <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> license. 

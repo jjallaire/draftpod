@@ -30,25 +30,13 @@ Draftpod was created by a group of software engineers that love to play Magic an
 
 #### How are Draftpod card ratings derived?
 
-The card ratings used by Draftpod are based on the P1P1 community evaluations available at [https://draftaholicsanonymous.com/](https://draftaholicsanonymous.com/). 
-
-The site publishes a list of cards for each set in order of community preference (e.g. here's the ordering for [Ravnica Allegiance](https://www.draftaholicsanonymous.com/p1p1-ravnica-allegiance/)).
-
-For the purposes of drafting, this pick order is then translated into a rating scale for each card from 0 to 5. This is done by applying the distribution of ratings for recent sets provided by Luis Scott Vargas on [Channel Fireball](https://www.channelfireball.com/articles/ravnica-allegiance-limited-set-review-white/) to the pick order:
-
-<p>
-<img src="/images/guide/ratings-distribution.png" width="100%" />
-</p>
-
-So the first one or two cards in the pick order will have a rating of 5.0, the next several a rating of 4.5, and so on until the last few cards in the set receive a rating of 0. 
-
-Applying the LSV distribution to pick orders enables us to derive ratings for any set for which an ordering is available (as opposed to only the sets that LSV has already rated). It also allow us to track the drafting "meta" as the community evaluation of cards changes over the course of a set release.
+When a set is first released, Draftpod uses card ratings based on the [LSV set reviews](https://www.channelfireball.com/tag/lsvs-set-review/) published by Channel Fireball. Subsequently, we collect data on the picks made during Draftpod drafts, and modify the ratings to reflect pick orders observed over time. The ratings are also time-biased, so that more recent picks are weighed more than older picks. This enables Draftpod to track the "draft meta" as it evolves over the course of a set release.
 
 #### How do Draftpod bots decide which cards to pick?
 
 The key to making virtual drafts feel as close as possible to real drafts are the draft bots. Creating bots that provide a realistic experience is quite challenging and always a work in progress. The core approach to draft bots taken by Draftpod is as follows:
 
-- Bots use a baseline set of pick ratings derived from the P1P1 community evaluations available at [https://draftaholicsanonymous.com/](https://draftaholicsanonymous.com/).
+- Bots use pick ratings initially derived from [LSV set reviews](https://www.channelfireball.com/tag/lsvs-set-review/), then subsequently from pick orders observed during Draftpod drafts.
 
 - Bots attempt to find color lanes over the first pack of the draft, giving a bonus to cards that match the colors of the ones in their pile.
 

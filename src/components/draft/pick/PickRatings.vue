@@ -116,13 +116,7 @@ export default {
       but don't necessarily reflect optimal draft selections. The pick rating displayed reflects a baseline
       card rating plus a bonus for matching the color of the deck (the bonuses are lower in pack 1). Ratings don't reflect
       draft signals, deck synergies, mana curve, and creatue/spell ratio&mdash;these considerations will often result in a
-      pick different than the highest rated card. Ratings are based on the community P1P1 evaluations provided at 
-      <a 
-        target="_blank" 
-        href="https://draftaholicsanonymous.com/"
-      >
-        https://draftaholicsanonymous.com
-      </a>.
+      pick different than the highest rated card.
     </p>
   </Drop>
 </template>

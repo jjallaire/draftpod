@@ -14,7 +14,7 @@ Once you've started a draft, you can leave and return later to finish (so long a
 
 ### Card Ratings
 
-If you are getting to know a new set, it's sometimes interesting to see how your picks compare to the card ratings used internally by draftpod (which are in turn based on the community ratings provided at <https://draftaholicsanonymous.com/>). 
+If you are getting to know a new set, it's sometimes interesting to see how your picks compare to the card ratings used internally by draftpod.
 
 You can enable card ratings by selecting it as an option when starting a new draft. In this mode, there is a **Ratings** pane that will appear alongside the **Picks** pane which you can optionally display when evaluating cards in a pack:
 
