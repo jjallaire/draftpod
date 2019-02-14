@@ -21,6 +21,15 @@ The [Channel Fireball](https://www.channelfireball.com/articles/) and [Star City
 
 You can also sit on the shoulder of the some of the very best Magic players in the world as they draft by watching streams and/or YouTube videos. You can find lots of streams on [Twitch](https://www.twitch.tv/magic/videos) as well as archives of previous drafts from [Ben Stark](https://www.youtube.com/results?search_query=Channel+BenS), [Reid Duke](https://www.youtube.com/results?search_query=Channel+Reid), [Luis Scott Vargas](https://www.youtube.com/results?search_query=Channel+LSV), and [Marshall Sutcliffe](https://www.youtube.com/results?search_query=Channel+Marshall) (among others) on the Channel Fireball YouTube channel.
 
+#### Where can I find card ratings and suggested pick orders?
+
+When preparing to draft a specific set, you might want to study the card evaluations of other players in the Magic community. You can find draft-specific ratings and pick orders at the following sites:
+
+- [LSV's Limited Set Reviews](https://www.channelfireball.com/tag/lsvs-set-review/) on ChannelFireball.com provide both numerical ratings and commentary on each card in the set.
+
+- [Draftaholics Anonymous](http://www.draftaholicsanonymous.com/) publishes set pick orders that are derived from presenting users with a choice of 2 cards for a hypothetical P1P1.
+
+- [Magic Community Set Reviews](https://www.mtgcommunityreview.com/) provides an aggregation of full set ratings done by community members.
 
 #### Draftpod is a free service. Will it always be free?
 
