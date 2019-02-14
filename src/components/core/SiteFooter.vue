@@ -18,16 +18,7 @@ export default {
       &copy; Wizards of the Coast, LLC, a subsidiary of Hasbro, Inc. This website is not produced by, endorsed by, supported by, 
       or affiliated with Wizards of the Coast.
     </p>
-    <p class="small">
-      Card ratings are derived from the 
-      <a href="https://www.channelfireball.com/tag/lsvs-set-review/">LSV set reviews</a>
-      published by <a href="https://www.channelfireball.com/">Channel Fireball</a>. 
-      Card data is drawn from the <a href="https://scryfall.com/docs/api">Scryfall API</a>. 
-      The Draftpod logo was designed by <a href="http://www.faithtoken.com/">Faithtoken</a> 
-      and is used via the <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> license. 
-      Material Design UI icons are &copy; 2014 Austin Andrews and &copy; 2014 Google.
-    </p>
-
+   
     <p class="small">
       &copy; 2019 Draftpod. All rights reserved.
       <span class="footer-links">
