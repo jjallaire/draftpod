@@ -41,7 +41,7 @@ Draftpod was created by a group of software engineers that love to play Magic an
 
 The key to making virtual drafts feel as close as possible to real drafts are the draft bots. Creating bots that provide a realistic experience is quite challenging and always a work in progress. The core approach to draft bots taken by Draftpod is as follows:
 
-- Bots evaluate cards based on pick orders observed during previous Draftpod drafts.
+- Bots evaluate cards based on ratings, which are in turn dervived from pick orders observed during previous Draftpod drafts.
 
 - Bots attempt to find color lanes over the first pack of the draft, giving a bonus to cards that match the colors of the ones in their pile.
 
