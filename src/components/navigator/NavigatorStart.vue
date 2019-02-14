@@ -150,7 +150,7 @@ export default {
           this.multi_player.draft_id = draft_id;
           this.joinMultiplayerDraft();
           this.multiplayerDraftConnect();
-          utils.scrollIntoView(this.$refs.provideCardRatings);
+          utils.scrollIntoView(this.$refs.draftTimer);
         })
         .catch((error) => {
           log.logException(error, "onCreateMultiplayerDraft");
@@ -277,7 +277,7 @@ export default {
         cardpool: this.cardpool, 
         options: { 
           pick_timer: this.pick_timer, 
-          pick_ratings: this.pick_ratings,
+          pick_ratings: false,
           multi_player: this.players === 'multiple'
         }
       });
@@ -376,6 +376,7 @@ export default {
           <div class="form-check">
             <input 
               id="draft-timer" 
+              ref="draftTimer"
               v-model="pick_timer" 
               :disabled="is_multi_player" 
               type="checkbox" 
@@ -391,7 +392,7 @@ export default {
               1 minute, 15 seconds for the first pick (5 seconds less for each pick thereafter).
             </small>
           </div>
-          <div class="form-check">
+          <div class="form-check" style="display: none;">
             <input 
               id="draft-analysis" 
               ref="provideCardRatings" 
