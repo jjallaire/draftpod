@@ -46,6 +46,7 @@ Draftpod is built upon the foundation of several other open-source projects whic
 - [Vue Analytics](https://matteogabriele.gitbooks.io/vue-analytics/content/)
 - [Vue Browser Update](https://www.npmjs.com/package/vue-browserupdate)
 - [Vue Drag Drop](https://github.com/cameronhimself/vue-drag-drop)
+- [Vue Hotkey](https://github.com/Dafrok/v-hotkey)
 - [Vue MD Icons](https://www.npmjs.com/package/vue-material-design-icons)
 - [Vue Simple Spinner](https://github.com/dzwillia/vue-simple-spinner)
 - [Vue Simple SVG](https://github.com/seiyable/vue-simple-svg)
