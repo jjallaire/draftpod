@@ -28,15 +28,11 @@ Yes, Draftpod is free and will always remain so. We won't ever show adds, sell o
 
 Draftpod was created by a group of software engineers that love to play Magic and even more so love to draft. After trying various forms of 2 and 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, we wanted to find a better way. We built Draftpod as a way of solving the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138) for ourselves, and hope that the rest of the Magic community also finds it useful. 
 
-#### How are Draftpod card ratings derived?
-
-When a set is first released, Draftpod uses card ratings based on the [LSV set reviews](https://www.channelfireball.com/tag/lsvs-set-review/) published by Channel Fireball. Subsequently, we collect data on the picks made during Draftpod drafts, and modify the ratings to reflect pick orders observed over time. The ratings are also time-biased, so that more recent picks are weighed more than older picks. This enables Draftpod to track the "draft meta" as it evolves over the course of a set release.
-
 #### How do Draftpod bots decide which cards to pick?
 
 The key to making virtual drafts feel as close as possible to real drafts are the draft bots. Creating bots that provide a realistic experience is quite challenging and always a work in progress. The core approach to draft bots taken by Draftpod is as follows:
 
-- Bots use pick ratings initially derived from [LSV set reviews](https://www.channelfireball.com/tag/lsvs-set-review/), then subsequently from pick orders observed during Draftpod drafts.
+- Bots evaluate cards based on pick orders observed during previous Draftpod drafts.
 
 - Bots attempt to find color lanes over the first pack of the draft, giving a bonus to cards that match the colors of the ones in their pile.
 
