@@ -41,7 +41,7 @@ Draftpod was created by a group of software engineers that love to play Magic an
 
 The key to making virtual drafts feel as close as possible to real drafts are the draft bots. Creating bots that provide a realistic experience is quite challenging and always a work in progress. The core approach to draft bots taken by Draftpod is as follows:
 
-- Bots evaluate cards based on ratings. When a set is first released, the card ratings are based on the P1P1 community evaluations available from [Draftaholics Anonymous](https://draftaholicsanonymous.com/). Subsequently, we collect data on the picks made during Draftpod drafts, and modify the ratings to reflect pick orders observed over time. 
+- The baseline evaluation metric for bots is a card rating from 0-5 (see below for how these ratings are derived). In the first 2 or 3 picks of Pack 1 bots are typically taking the highest rated card in the pack.
 
 - Bots attempt to find color lanes over the first pack of the draft, giving a bonus to cards that match the colors of the ones in their pile.
 
@@ -50,6 +50,18 @@ The key to making virtual drafts feel as close as possible to real drafts are th
 Those are the core mechanics which drive the bots. In addition, some variance is applied to bot behavior so that it is less predictable from draft to draft. Specifically, some bots favor certain colors, some bots are better than others at card evaluation (i.e. how closely their picks track to underlying ratings), and some bots lock into colors sooner than others.
 
 It's important to note that bots don't need to know how to build good decks. Rather, they just need to take cards out of the pool _in aggregate_ in a fashion that approximates what real players do. We're very interested in improving bot behavior to model real drafts as closely as possible, so please [let us know](https://forum.draftpod.org/) how well it's working for you and how you think it could be improved.
+
+#### How are Draftpod card ratings derived?
+
+When a set is first released, card ratings are derived from the community-based P1P1 pick order lists published by [Draftaholics Anonymous](https://draftaholicsanonymous.com/). Subsequently, we collect data on the picks made during Draftpod drafts, and modify the pick order list to reflect the current "meta" for the set.
+
+Pick orders then need to be translated into a rating scale for each card from 0 to 5. This is done by applying the distribution of ratings for recent sets provided by Luis Scott Vargas on [Channel Fireball](https://www.channelfireball.com/tag/lsvs-set-review/) to the pick order:
+
+<p>
+<img src="/images/guide/ratings-distribution.png" width="100%" />
+</p>
+
+So the first one or two cards in the pick order will have a rating of 5.0, the next several a rating of 4.5, and so on until the last few cards in the set receive a rating of 0. Projecting pick orders onto a ratings scale makes it possible for bots to apply color bonuses to picks (e.g. +1.0 or +2.0 for on-color cards).
 
 #### Where are my previous drafts stored?
 
