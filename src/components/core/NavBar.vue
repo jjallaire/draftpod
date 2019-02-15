@@ -57,6 +57,12 @@
           Forum
         </a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link icon-link" href="https://twitter.com/DraftpodMTG">
+          <TwitterIcon />
+        </a>
+      </li>
+      
     </ul>
   
   </nav>
@@ -64,8 +70,15 @@
 
 <script>
 
+import TwitterIcon from "vue-material-design-icons/Twitter.vue"
+
 export default {
   name: 'NavBar',
+
+
+  components: {
+    TwitterIcon
+  }
 }
 </script>
 
@@ -140,6 +153,11 @@ export default {
 .navbar .navbar-nav .nav-link {
   padding-left: 14px;
   padding-right: 14px;
+}
+
+.navbar .twitter-icon svg {
+  width: 18px;
+  height: 18px;
 }
 
 .navbar .navbar-text {
