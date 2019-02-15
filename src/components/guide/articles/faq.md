@@ -17,9 +17,9 @@ If you are entirely new to drafting, Reid Duke has a set of articles introducing
 
 After you've mastered the basics, one of the best resources for improving your skills is the [Limited Resources](http://lrcast.com/) podcast hosted by Marshall Sutcliffe and Luis Scott-Vargas. Another excellent podcast dedicated exclusively to limited play is [Lords of Limited](https://lordsoflimited.libsyn.com/). 
 
-The [Channel Fireball](https://www.channelfireball.com/articles/) and [Star City Games](http://www.starcitygames.com/articles/tags/Limited/2018-10-23/2019-01-23) websites also both feature a steady stream of articles on drafting (covering both recent sets as well as overall strategy).
+The [ChannelFireball](https://www.channelfireball.com/articles/) and [Star City Games](http://www.starcitygames.com/articles/tags/Limited/2018-10-23/2019-01-23) websites also both feature a steady stream of articles on drafting (covering both recent sets as well as overall strategy).
 
-You can also sit on the shoulder of the some of the very best Magic players in the world as they draft by watching streams and/or YouTube videos. You can find lots of streams on [Twitch](https://www.twitch.tv/magic/videos) as well as archives of previous drafts from [Ben Stark](https://www.youtube.com/results?search_query=Channel+BenS), [Reid Duke](https://www.youtube.com/results?search_query=Channel+Reid), [Luis Scott Vargas](https://www.youtube.com/results?search_query=Channel+LSV), and [Marshall Sutcliffe](https://www.youtube.com/results?search_query=Channel+Marshall) (among others) on the Channel Fireball YouTube channel.
+You can also sit on the shoulder of the some of the very best Magic players in the world as they draft by watching streams and/or YouTube videos. You can find lots of streams on [Twitch](https://www.twitch.tv/magic/videos) as well as archives of previous drafts from [Ben Stark](https://www.youtube.com/results?search_query=Channel+BenS), [Reid Duke](https://www.youtube.com/results?search_query=Channel+Reid), [Luis Scott Vargas](https://www.youtube.com/results?search_query=Channel+LSV), and [Marshall Sutcliffe](https://www.youtube.com/results?search_query=Channel+Marshall) (among others) on the ChannelFireball YouTube channel.
 
 #### Where can I find card ratings and suggested pick orders?
 
@@ -55,7 +55,7 @@ It's important to note that bots don't need to know how to build good decks. Rat
 
 When a set is first released, card ratings are derived from the community-based P1P1 pick order lists published by [Draftaholics Anonymous](https://draftaholicsanonymous.com/). Subsequently, we collect data on the picks made during Draftpod drafts, and modify the pick order list to reflect the current "meta" for the set.
 
-Pick orders then need to be translated into a rating scale for each card from 0 to 5. This is done by applying the distribution of ratings for recent sets provided by Luis Scott Vargas on [Channel Fireball](https://www.channelfireball.com/tag/lsvs-set-review/) to the pick order:
+Pick orders then need to be translated into a rating scale for each card from 0 to 5. This is done by applying the distribution of ratings for recent sets provided by Luis Scott Vargas on [ChannelFireball](https://www.channelfireball.com/tag/lsvs-set-review/) to the pick order:
 
 <p>
 <img src="/images/guide/ratings-distribution.png" width="100%" />
