@@ -1,19 +1,19 @@
 "id","name","rating"
 442889,"Karn, Scion of Urza",4.5
-442890,"Adamant Will",2
+442890,"Adamant Will",1.5
 442891,"Aven Sentry",3
 442892,"Baird, Steward of Argive",3.5
-442893,"Benalish Honor Guard",2
+442893,"Benalish Honor Guard",1.5
 442894,"Benalish Marshal",3.5
 442895,"Blessed Light",3.5
-442896,"Board the Weatherlight",0.5
-442897,"Call the Cavalry",2.5
+442896,"Board the Weatherlight",0
+442897,"Call the Cavalry",2
 442898,"Charge",1
-442899,"D'Avenant Trapper",2.5
+442899,"D'Avenant Trapper",2
 442900,"Danitha Capashen, Paragon",3.5
 442901,"Daring Archaeologist",3
 442902,"Dauntless Bodyguard",3
-442903,"Dub",2.5
+442903,"Dub",2
 442904,"Evra, Halcyon Witness",3
 442905,"Excavation Elephant",1
 442906,"Fall of the Thran",0.5
@@ -30,41 +30,41 @@
 442917,"Pegasus Courser",3.5
 442918,"Sanctum Spirit",1.5
 442919,"Seal Away",4
-442920,"Sergeant-at-Arms",2
-442921,"Serra Angel",3.5
+442920,"Sergeant-at-Arms",1.5
+442921,"Serra Angel",4
 442922,"Serra Disciple",2
 442923,"Shalai, Voice of Plenty",4.5
 442924,"Teshar, Ancestor's Apostle",3.5
-442925,"Tragic Poet",0.5
+442925,"Tragic Poet",0
 442926,"Triumph of Gerrard",3
-442927,"Urza's Ruinous Blast",2
+442927,"Urza's Ruinous Blast",1.5
 442928,"Academy Drake",3
 442929,"Academy Journeymage",3
-442930,"The Antiquities War",2.5
+442930,"The Antiquities War",2
 442931,"Arcane Flight",1.5
 442932,"Artificer's Assistant",1
 442933,"Befuddle",1
 442934,"Blink of an Eye",3
 442935,"Cloudreader Sphinx",3
-442936,"Cold-Water Snapper",2.5
+442936,"Cold-Water Snapper",2
 442937,"Curator's Ward",1
-442938,"Deep Freeze",3
+442938,"Deep Freeze",2.5
 442939,"Diligent Excavator",0.5
 442940,"Divination",3
-442941,"Homarid Explorer",1.5
+442941,"Homarid Explorer",1
 442942,"In Bolas's Clutches",4.5
 442943,"Karn's Temporal Sundering",2
 442944,"Merfolk Trickster",3
 442945,"The Mirari Conjecture",3
 442946,"Naban, Dean of Iteration",3
 442947,"Naru Meha, Master Wizard",3.5
-442948,"Opt",2
-442949,"Precognition Field",2
-442950,"Relic Runner",1.5
+442948,"Opt",1.5
+442949,"Precognition Field",1.5
+442950,"Relic Runner",1
 442951,"Rescue",0
 442952,"Sage of Lat-Nam",0
-442953,"Sentinel of the Pearl Trident",2
-442954,"Slinn Voda, the Rising Deep",1.5
+442953,"Sentinel of the Pearl Trident",1.5
+442954,"Slinn Voda, the Rising Deep",1
 442955,"Syncopate",2.5
 442956,"Tempest Djinn",3.5
 442957,"Tetsuko Umezawa, Fugitive",3
@@ -72,7 +72,7 @@
 442959,"Tolarian Scholar",1
 442960,"Unwind",1
 442961,"Vodalian Arcanist",1.5
-442962,"Weight of Memory",2
+442962,"Weight of Memory",1.5
 442963,"Wizard's Retort",2.5
 442964,"Zahid, Djinn of the Lamp",4
 442965,"Blessing of Belzenlok",0
@@ -80,8 +80,8 @@
 442967,"Cabal Paladin",1.5
 442968,"Caligo Skin-Witch",2
 442969,"Cast Down",4
-442970,"Chainer's Torment",2
-442971,"Dark Bargain",2
+442970,"Chainer's Torment",1.5
+442971,"Dark Bargain",1.5
 442972,"Deathbloom Thallid",3
 442973,"Demonic Vigor",1
 442974,"Demonlord Belzenlok",4
@@ -93,7 +93,7 @@
 442980,"Feral Abomination",1
 442981,"Final Parting",1
 442982,"Fungal Infection",3
-442983,"Josu Vess, Lich Knight",4
+442983,"Josu Vess, Lich Knight",4.5
 442984,"Kazarov, Sengir Pureblood",3.5
 442985,"Knight of Malice",3.5
 442986,"Lich's Mastery",1
@@ -102,43 +102,43 @@
 442989,"Rat Colony",0
 442990,"Rite of Belzenlok",3.5
 442991,"Settle the Score",3.5
-442992,"Soul Salvage",2.5
+442992,"Soul Salvage",2
 442993,"Stronghold Confessor",2.5
 442994,"Thallid Omnivore",2.5
 442995,"Thallid Soothsayer",3
 442996,"Torgaar, Famine Incarnate",3
-442997,"Urgoros, the Empty One",3
+442997,"Urgoros, the Empty One",3.5
 442998,"Vicious Offering",3.5
 442999,"Whisper, Blood Liturgist",1.5
-443000,"Windgrace Acolyte",2.5
-443001,"Yargle, Glutton of Urborg",2.5
+443000,"Windgrace Acolyte",2
+443001,"Yargle, Glutton of Urborg",2
 443002,"Yawgmoth's Vile Offering",2.5
 443003,"Bloodstone Goblin",2
-443004,"Champion of the Flame",2
-443005,"Fervent Strike",0.5
+443004,"Champion of the Flame",1.5
+443005,"Fervent Strike",0
 443006,"Fiery Intervention",3
 443007,"Fight with Fire",4
-443008,"Fire Elemental",0.5
-443009,"Firefist Adept",2.5
+443008,"Fire Elemental",0
+443009,"Firefist Adept",2
 443010,"The First Eruption",1
 443011,"The Flame of Keld",1.5
 443012,"Frenzied Rage",1.5
-443013,"Ghitu Chronicler",2.5
-443014,"Ghitu Journeymage",2
+443013,"Ghitu Chronicler",2
+443014,"Ghitu Journeymage",1.5
 443015,"Ghitu Lavarunner",1.5
-443016,"Goblin Barrage",2.5
+443016,"Goblin Barrage",2
 443017,"Goblin Chainwhirler",3.5
 443018,"Goblin Warchief",1.5
-443019,"Haphazard Bombardment",3
+443019,"Haphazard Bombardment",2.5
 443020,"Jaya Ballard",3
-443021,"Jaya's Immolating Inferno",3
+443021,"Jaya's Immolating Inferno",2.5
 443022,"Keldon Overseer",1.5
-443023,"Keldon Raider",2
+443023,"Keldon Raider",1.5
 443024,"Keldon Warcaller",0.5
 443025,"Orcish Vandal",0
-443026,"Radiating Lightning",1
-443027,"Rampaging Cyclops",1.5
-443028,"Run Amok",2
+443026,"Radiating Lightning",0.5
+443027,"Rampaging Cyclops",1
+443028,"Run Amok",1.5
 443029,"Seismic Shift",0
 443030,"Shivan Fire",4
 443031,"Siege-Gang Commander",4
@@ -153,28 +153,28 @@
 443040,"Wizard's Lightning",3.5
 443041,"Adventurous Impulse",1.5
 443042,"Ancient Animus",2
-443043,"Arbor Armament",1
+443043,"Arbor Armament",0.5
 443044,"Baloth Gorger",3.5
 443045,"Broken Bond",1
 443046,"Corrosive Ooze",1
 443047,"Elfhame Druid",3
-443048,"Fungal Plots",2.5
+443048,"Fungal Plots",2
 443049,"Gaea's Blessing",0
-443050,"Gaea's Protector",1.5
+443050,"Gaea's Protector",1
 443051,"Gift of Growth",2
 443052,"Grow from the Ashes",2.5
 443053,"Grunn, the Lonely King",3.5
 443054,"Kamahl's Druidic Vow",0
 443055,"Krosan Druid",1
 443056,"Llanowar Elves",3
-443057,"Llanowar Envoy",1.5
+443057,"Llanowar Envoy",1
 443058,"Llanowar Scout",2
 443059,"Mammoth Spider",3
-443060,"Marwyn, the Nurturer",2.5
-443061,"The Mending of Dominaria",2.5
-443062,"Multani, Yavimaya's Avatar",4
+443060,"Marwyn, the Nurturer",2
+443061,"The Mending of Dominaria",2
+443062,"Multani, Yavimaya's Avatar",4.5
 443063,"Nature's Spiral",1
-443064,"Pierce the Sky",1.5
+443064,"Pierce the Sky",1
 443065,"Primordial Wurm",1.5
 443066,"Saproling Migration",3
 443067,"Song of Freyalise",3
@@ -182,7 +182,7 @@
 443069,"Sporecrown Thallid",3
 443070,"Steel Leaf Champion",3.5
 443071,"Sylvan Awakening",3
-443072,"Territorial Allosaurus",3.5
+443072,"Territorial Allosaurus",4
 443073,"Thorn Elemental",3
 443074,"Untamed Kavu",3.5
 443075,"Verdant Force",3
@@ -197,13 +197,13 @@
 443084,"Hallar, the Firefletcher",3
 443085,"Jhoira, Weatherlight Captain",3.5
 443086,"Jodah, Archmage Eternal",1.5
-443087,"Muldrotha, the Gravetide",3.5
-443088,"Oath of Teferi",1
-443089,"Primevals' Glorious Rebirth",1
+443087,"Muldrotha, the Gravetide",4
+443088,"Oath of Teferi",0.5
+443089,"Primevals' Glorious Rebirth",0.5
 443090,"Raff Capashen, Ship's Mage",3
 443091,"Rona, Disciple of Gix",2.5
 443092,"Shanna, Sisay's Legacy",3.5
-443093,"Slimefoot, the Stowaway",3.5
+443093,"Slimefoot, the Stowaway",4
 443094,"Tatyova, Benthic Druid",4
 443095,"Teferi, Hero of Dominaria",4.5
 443096,"Tiana, Ship's Caretaker",3
@@ -213,17 +213,17 @@
 443100,"Bloodtallow Candle",1.5
 443101,"Damping Sphere",0
 443102,"Forebear's Blade",3.5
-443103,"Gilded Lotus",2
+443103,"Gilded Lotus",1.5
 443104,"Guardians of Koilos",1
 443105,"Helm of the Host",4
-443106,"Howling Golem",1.5
+443106,"Howling Golem",1
 443107,"Icy Manipulator",3.5
-443108,"Jhoira's Familiar",2
+443108,"Jhoira's Familiar",1.5
 443109,"Jousting Lance",3
-443110,"Juggernaut",2.5
+443110,"Juggernaut",2
 443111,"Mishra's Self-Replicator",3
 443112,"Mox Amber",1.5
-443113,"Navigator's Compass",1
+443113,"Navigator's Compass",0.5
 443114,"Pardic Wanderer",1.5
 443115,"Powerstone Shard",0
 443116,"Shield of the Realm",1
@@ -234,17 +234,17 @@
 443121,"Thran Temporal Gateway",1
 443122,"Traxos, Scourge of Kroog",3.5
 443123,"Urza's Tome",1.5
-443124,"Voltaic Servant",2
+443124,"Voltaic Servant",1.5
 443125,"Weatherlight",3.5
 443126,"Cabal Stronghold",0.5
 443127,"Clifftop Retreat",1.5
 443128,"Hinterland Harbor",1.5
-443129,"Isolated Chapel",1.5
-443130,"Memorial to Folly",2
+443129,"Isolated Chapel",1
+443130,"Memorial to Folly",1.5
 443131,"Memorial to Genius",1.5
 443132,"Memorial to Glory",1
 443133,"Memorial to Unity",1.5
 443134,"Memorial to War",0
 443135,"Sulfur Falls",1.5
 443136,"Woodland Cemetery",2
-443137,"Zhalfirin Void",0.5
+443137,"Zhalfirin Void",0
