@@ -1,0 +1,3267 @@
+[
+  {
+    "id": 423808,
+    "name": "Aegis Automaton",
+    "collector_number": 141,
+    "multiverse_ids": [
+      423808
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/5/e5f9fa2d-4bf4-4fcb-9b76-fd4a9ff5a58c.jpg?1543700553"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423668,
+    "name": "Aerial Modification",
+    "collector_number": 1,
+    "multiverse_ids": [
+      423668
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b89cab47-25fb-49ea-bb43-90a0089b6b20.jpg?1543698234"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423669,
+    "name": "Aeronaut Admiral",
+    "collector_number": 2,
+    "multiverse_ids": [
+      423669
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff15c06c-160d-4960-92d5-6f8e7b33f051.jpg?1543698254"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pilot",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423743,
+    "name": "Aether Chaser",
+    "collector_number": 76,
+    "multiverse_ids": [
+      423743
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/290cde84-d97a-4737-aff2-c443a4e43f7d.jpg?1543699518"],
+    "layout": "normal",
+    "type_line": "Creature — Human Artificer",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423671,
+    "name": "Aethergeode Miner",
+    "collector_number": 4,
+    "multiverse_ids": [
+      423671
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/80bb3abd-ebaf-4dc2-97eb-ed4a2b005177.jpg?1543698288"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Scout",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423769,
+    "name": "Aether Herder",
+    "collector_number": 102,
+    "multiverse_ids": [
+      423769
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e8744a31-451b-4349-8f62-e2392a72a154.jpg?1543699929"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Artificer Druid",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423670,
+    "name": "Aether Inspector",
+    "collector_number": 3,
+    "multiverse_ids": [
+      423670
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/5/f5dcbe97-d582-464e-98e7-dd06d8652606.jpg?1543698272"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Artificer",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423718,
+    "name": "Aether Poisoner",
+    "collector_number": 51,
+    "multiverse_ids": [
+      423718
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/9/c9b217f1-1621-40d1-8a98-24c1f7cba800.jpg?1543699097"],
+    "layout": "normal",
+    "type_line": "Creature — Human Artificer",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423809,
+    "name": "Aethersphere Harvester",
+    "collector_number": 142,
+    "multiverse_ids": [
+      423809
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/1/4160bb5f-4b49-4535-94f5-776d7abd1d1a.jpg?1543700570"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423770,
+    "name": "Aetherstream Leopard",
+    "collector_number": 103,
+    "multiverse_ids": [
+      423770
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/f/6f3a727a-5eca-44de-aa8f-0d2573db83eb.jpg?1543699952"],
+    "layout": "normal",
+    "type_line": "Creature — Cat",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423693,
+    "name": "Aether Swooper",
+    "collector_number": 26,
+    "multiverse_ids": [
+      423693
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c34dbe3-3a66-40b3-a5c2-c2d6acb47773.jpg?1543698700"],
+    "layout": "normal",
+    "type_line": "Creature — Vedalken Artificer",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423694,
+    "name": "Aethertide Whale",
+    "collector_number": 27,
+    "multiverse_ids": [
+      423694
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/8/38722c25-13a7-47af-a4cd-90722f289499.jpg?1543698716"],
+    "layout": "normal",
+    "type_line": "Creature — Whale",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423771,
+    "name": "Aetherwind Basker",
+    "collector_number": 104,
+    "multiverse_ids": [
+      423771
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/fa04d5fa-6ba2-4833-8ea0-1941a03bd3e9.jpg?1543699973"],
+    "layout": "normal",
+    "type_line": "Creature — Lizard",
+    "mana_cost": "{4}{G}{G}{G}",
+    "cmc": 7,
+    "colors": [
+      "G"
+    ],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423772,
+    "name": "Aid from the Cowl",
+    "collector_number": 105,
+    "multiverse_ids": [
+      423772
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/565cb7fc-cf90-4020-84fe-05ec7b18709d.jpg?1543699991"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423672,
+    "name": "Airdrop Aeronauts",
+    "collector_number": 5,
+    "multiverse_ids": [
+      423672
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/49827a57-cf10-4a44-a1fd-ac611da39dc9.jpg?1543698312"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Scout",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423794,
+    "name": "Ajani Unyielding",
+    "collector_number": 127,
+    "multiverse_ids": [
+      423794
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/3/23b82ee9-2ac6-4b81-8c64-dd4f47c2d8cb.jpg?1543700330"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Ajani",
+    "mana_cost": "{4}{G}{W}",
+    "cmc": 6,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423673,
+    "name": "Alley Evasion",
+    "collector_number": 6,
+    "multiverse_ids": [
+      423673
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bc10173d-25ff-4734-b8f2-84f94fe52b17.jpg?1543698333"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423719,
+    "name": "Alley Strangler",
+    "collector_number": 52,
+    "multiverse_ids": [
+      423719
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a131d558-5f6b-448b-a378-1882e2d02bd2.jpg?1543699113"],
+    "layout": "normal",
+    "type_line": "Creature — Aetherborn Rogue",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423674,
+    "name": "Audacious Infiltrator",
+    "collector_number": 7,
+    "multiverse_ids": [
+      423674
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/6/36a348bb-cdc5-4e2a-933f-21f91faab891.jpg?1543698353"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Rogue",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423810,
+    "name": "Augmenting Automaton",
+    "collector_number": 143,
+    "multiverse_ids": [
+      423810
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d017798-8278-4f9c-a691-912935c10c20.jpg?1543700585"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423695,
+    "name": "Baral, Chief of Compliance",
+    "collector_number": 28,
+    "multiverse_ids": [
+      423695
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/0/60e16d94-1166-4050-8554-686e153a7f80.jpg?1543698732"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Wizard",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423696,
+    "name": "Baral's Expertise",
+    "collector_number": 29,
+    "multiverse_ids": [
+      423696
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d273f5b7-b3a3-485a-acc8-34e10a504646.jpg?1543698749"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{U}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423811,
+    "name": "Barricade Breaker",
+    "collector_number": 144,
+    "multiverse_ids": [
+      423811
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7cc81a94-955d-4734-b056-9b9a86cae60b.jpg?1543700601"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Juggernaut",
+    "mana_cost": "{7}",
+    "cmc": 7,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423675,
+    "name": "Bastion Enforcer",
+    "collector_number": 8,
+    "multiverse_ids": [
+      423675
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/88b9c0f7-d49b-4d74-9038-44954054ce21.jpg?1543698370"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Soldier",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423697,
+    "name": "Bastion Inventor",
+    "collector_number": 30,
+    "multiverse_ids": [
+      423697
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/5/856f804d-0213-4b86-bc6a-6a0a1147c4f9.jpg?1543698765"],
+    "layout": "normal",
+    "type_line": "Creature — Vedalken Artificer",
+    "mana_cost": "{5}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423720,
+    "name": "Battle at the Bridge",
+    "collector_number": 53,
+    "multiverse_ids": [
+      423720
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/74d8b644-4cca-451e-a46c-5237c13bf373.jpg?1543699127"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{X}{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423676,
+    "name": "Call for Unity",
+    "collector_number": 9,
+    "multiverse_ids": [
+      423676
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/e/eeca4557-98aa-433b-a3ee-050e4a3e6d88.jpg?1543698391"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423677,
+    "name": "Caught in the Brights",
+    "collector_number": 10,
+    "multiverse_ids": [
+      423677
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/d/4d5bea27-d825-4691-8ae0-c4831574ec53.jpg?1543698408"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423744,
+    "name": "Chandra's Revolution",
+    "collector_number": 77,
+    "multiverse_ids": [
+      423744
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2fcee99c-72a0-4db1-b4c9-65c878284450.jpg?1543699535"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423812,
+    "name": "Cogwork Assembler",
+    "collector_number": 145,
+    "multiverse_ids": [
+      423812
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/d/6dddacdd-bbc4-4f9b-be1c-5f2c64be3cbc.jpg?1543700615"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Assembly-Worker",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423678,
+    "name": "Consulate Crackdown",
+    "collector_number": 11,
+    "multiverse_ids": [
+      423678
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/02fb7a26-fbf0-4b91-847b-cfc46e01a342.jpg?1543698423"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423813,
+    "name": "Consulate Dreadnought",
+    "collector_number": 146,
+    "multiverse_ids": [
+      423813
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/11eff338-1940-4684-94c7-ef90e56dea99.jpg?1543700631"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423814,
+    "name": "Consulate Turret",
+    "collector_number": 147,
+    "multiverse_ids": [
+      423814
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e0c55b5b-58fd-4340-b089-8e271633e8dd.jpg?1543700645"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423679,
+    "name": "Conviction",
+    "collector_number": 12,
+    "multiverse_ids": [
+      423679
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/f/4f805e97-c28b-4780-b204-74514c0c47d2.jpg?1543698445"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423680,
+    "name": "Countless Gears Renegade",
+    "collector_number": 13,
+    "multiverse_ids": [
+      423680
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/2/c2d6f334-0040-42b1-9c72-362e4dcaa65e.jpg?1543698466"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Artificer",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423815,
+    "name": "Crackdown Construct",
+    "collector_number": 148,
+    "multiverse_ids": [
+      423815
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.jpg?1543700660"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423721,
+    "name": "Cruel Finality",
+    "collector_number": 54,
+    "multiverse_ids": [
+      423721
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c22e911-cf40-4ed8-b075-186f2b1393db.jpg?1543699144"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423816,
+    "name": "Daredevil Dragster",
+    "collector_number": 149,
+    "multiverse_ids": [
+      423816
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/19bbbc98-0806-4226-8fd1-16b812334cee.jpg?1543700675"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423722,
+    "name": "Daring Demolition",
+    "collector_number": 55,
+    "multiverse_ids": [
+      423722
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/6/a6378898-50b7-47c9-8c25-dc660606be9f.jpg?1543699161"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423795,
+    "name": "Dark Intimations",
+    "collector_number": 128,
+    "multiverse_ids": [
+      423795
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd8f103c-a688-4f22-ae59-2bce1db9d44a.jpg?1543700346"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{U}{B}{R}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423681,
+    "name": "Dawnfeather Eagle",
+    "collector_number": 14,
+    "multiverse_ids": [
+      423681
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f7113ddc-cb3c-46da-a6c7-2567bd0affa9.jpg?1543698485"],
+    "layout": "normal",
+    "type_line": "Creature — Bird",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423682,
+    "name": "Deadeye Harpooner",
+    "collector_number": 15,
+    "multiverse_ids": [
+      423682
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a018decf-25e1-45fc-be7d-2523dcfb7a4c.jpg?1543698505"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Warrior",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423683,
+    "name": "Decommission",
+    "collector_number": 16,
+    "multiverse_ids": [
+      423683
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/c/1cca66e9-be21-4fc7-8951-cd99e9b213dc.jpg?1543698522"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423723,
+    "name": "Defiant Salvager",
+    "collector_number": 56,
+    "multiverse_ids": [
+      423723
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0afbfb2c-3f1a-4ef9-9f61-6ca51af853d8.jpg?1543699176"],
+    "layout": "normal",
+    "type_line": "Creature — Aetherborn Artificer",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423684,
+    "name": "Deft Dismissal",
+    "collector_number": 17,
+    "multiverse_ids": [
+      423684
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5cb26d5b-ffeb-4dac-ad61-f85e5e7b1675.jpg?1543698540"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423745,
+    "name": "Destructive Tampering",
+    "collector_number": 78,
+    "multiverse_ids": [
+      423745
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/00154b70-57d2-4c32-860f-1c36fc49b10c.jpg?1543699552"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423698,
+    "name": "Disallow",
+    "collector_number": 31,
+    "multiverse_ids": [
+      423698
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/5/25f05814-a5a5-460f-9d29-0ab03efecf4c.jpg?1543698780"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423699,
+    "name": "Dispersal Technician",
+    "collector_number": 32,
+    "multiverse_ids": [
+      423699
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/d/5d93a915-ffea-4f50-88ac-2b3253f7dfdf.jpg?1543698798"],
+    "layout": "normal",
+    "type_line": "Creature — Vedalken Artificer",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423773,
+    "name": "Druid of the Cowl",
+    "collector_number": 106,
+    "multiverse_ids": [
+      423773
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/6/a683f79b-0330-4fac-8279-6c0d888414b8.jpg?1543700006"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Druid",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423700,
+    "name": "Efficient Construction",
+    "collector_number": 33,
+    "multiverse_ids": [
+      423700
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/abfbe1d5-beb7-49b8-a504-f1cc47ee4731.jpg?1543698814"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423746,
+    "name": "Embraal Gear-Smasher",
+    "collector_number": 79,
+    "multiverse_ids": [
+      423746
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3ad5c175-581c-4fdd-b008-e7d10b0928c7.jpg?1543699570"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423747,
+    "name": "Enraged Giant",
+    "collector_number": 80,
+    "multiverse_ids": [
+      423747
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/0/40dc3b59-baae-4bf0-b5ce-fa9a915af066.jpg?1543699587"],
+    "layout": "normal",
+    "type_line": "Creature — Giant",
+    "mana_cost": "{5}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423685,
+    "name": "Exquisite Archangel",
+    "collector_number": 18,
+    "multiverse_ids": [
+      423685
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/0/d04018c9-510c-4610-9daa-677434628805.jpg?1543698558"],
+    "layout": "normal",
+    "type_line": "Creature — Angel",
+    "mana_cost": "{5}{W}{W}",
+    "cmc": 7,
+    "colors": [
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423724,
+    "name": "Fatal Push",
+    "collector_number": 57,
+    "multiverse_ids": [
+      423724
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b5e81649-9954-424c-89d1-f87d73b66047.jpg?1543699193"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423686,
+    "name": "Felidar Guardian",
+    "collector_number": 19,
+    "multiverse_ids": [
+      423686
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1543698578"],
+    "layout": "normal",
+    "type_line": "Creature — Cat Beast",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423725,
+    "name": "Fen Hauler",
+    "collector_number": 58,
+    "multiverse_ids": [
+      423725
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b5ef4616-e3c2-4448-83b1-f7d439705eaf.jpg?1543699211"],
+    "layout": "normal",
+    "type_line": "Creature — Insect",
+    "mana_cost": "{6}{B}",
+    "cmc": 7,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423817,
+    "name": "Filigree Crawler",
+    "collector_number": 150,
+    "multiverse_ids": [
+      423817
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8d8e817c-079e-4e7c-a8ca-54634f30bf36.jpg?1543700688"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Insect",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423818,
+    "name": "Foundry Assembler",
+    "collector_number": 151,
+    "multiverse_ids": [
+      423818
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e83a2862-a2d7-4d87-a4b8-def9f441f5fa.jpg?1543700704"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Assembly-Worker",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423726,
+    "name": "Foundry Hornet",
+    "collector_number": 59,
+    "multiverse_ids": [
+      423726
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6dc7865-16ed-4d12-bdb4-d40fbdd48a23.jpg?1543699234"],
+    "layout": "normal",
+    "type_line": "Creature — Insect",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423727,
+    "name": "Fourth Bridge Prowler",
+    "collector_number": 60,
+    "multiverse_ids": [
+      423727
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/3/73aaaa09-c985-42f8-b426-06fd3b8de66d.jpg?1543699254"],
+    "layout": "normal",
+    "type_line": "Creature — Human Rogue",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423748,
+    "name": "Freejam Regent",
+    "collector_number": 81,
+    "multiverse_ids": [
+      423748
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/6/d6b5147f-b422-47d3-98a0-dcc2d6f4e17a.jpg?1543699603"],
+    "layout": "normal",
+    "type_line": "Creature — Dragon",
+    "mana_cost": "{4}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423749,
+    "name": "Frontline Rebel",
+    "collector_number": 82,
+    "multiverse_ids": [
+      423749
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b742738a-2663-474d-b75a-28f1f67dc335.jpg?1543699619"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423687,
+    "name": "Ghirapur Osprey",
+    "collector_number": 20,
+    "multiverse_ids": [
+      423687
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/2186f382-2d68-4191-b490-a072f49eaabf.jpg?1543698597"],
+    "layout": "normal",
+    "type_line": "Creature — Bird",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423728,
+    "name": "Gifted Aetherborn",
+    "collector_number": 61,
+    "multiverse_ids": [
+      423728
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/abceb4fd-e3c5-400d-af7a-6dd17108a4b4.jpg?1543699270"],
+    "layout": "normal",
+    "type_line": "Creature — Aetherborn Vampire",
+    "mana_cost": "{B}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423729,
+    "name": "Glint-Sleeve Siphoner",
+    "collector_number": 62,
+    "multiverse_ids": [
+      423729
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/1/315976db-4cab-4393-8386-ce3b0ae3f490.jpg?1543699288"],
+    "layout": "normal",
+    "type_line": "Creature — Human Rogue",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423819,
+    "name": "Gonti's Aether Heart",
+    "collector_number": 152,
+    "multiverse_ids": [
+      423819
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9e4fc5ed-e90d-4965-985a-ed126a713506.jpg?1543700717"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "mana_cost": "{6}",
+    "cmc": 6,
+    "colors": [],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423730,
+    "name": "Gonti's Machinations",
+    "collector_number": 63,
+    "multiverse_ids": [
+      423730
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6c97f5a9-6e04-45c3-aa8d-dcf0fd81d5b9.jpg?1543699302"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423774,
+    "name": "Greenbelt Rampager",
+    "collector_number": 107,
+    "multiverse_ids": [
+      423774
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/3/f3f06124-bcc4-48c0-a7a6-a461c7485ecd.jpg?1543700022"],
+    "layout": "normal",
+    "type_line": "Creature — Elephant",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423775,
+    "name": "Greenwheel Liberator",
+    "collector_number": 108,
+    "multiverse_ids": [
+      423775
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/a/1ad9bf0f-4271-497f-8d67-3c7bf09342dc.jpg?1543700037"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Warrior",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423750,
+    "name": "Gremlin Infestation",
+    "collector_number": 83,
+    "multiverse_ids": [
+      423750
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b51438f5-c4d4-434a-b7ea-dee0b60303e4.jpg?1543699635"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423820,
+    "name": "Heart of Kiran",
+    "collector_number": 153,
+    "multiverse_ids": [
+      423820
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5e847c44-1849-4251-9075-88ed5c7792a6.jpg?1543700732"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact — Vehicle",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423731,
+    "name": "Herald of Anguish",
+    "collector_number": 64,
+    "multiverse_ids": [
+      423731
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/1/31a69ebe-4229-4067-8414-381b123fe63c.jpg?1543699317"],
+    "layout": "normal",
+    "type_line": "Creature — Demon",
+    "mana_cost": "{5}{B}{B}",
+    "cmc": 7,
+    "colors": [
+      "B"
+    ],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423776,
+    "name": "Heroic Intervention",
+    "collector_number": 109,
+    "multiverse_ids": [
+      423776
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8f5a620c-fde7-4b72-bf8a-efc4f14560c5.jpg?1543700053"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423777,
+    "name": "Hidden Herbalists",
+    "collector_number": 110,
+    "multiverse_ids": [
+      423777
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9ec8db01-415e-42a1-8eb2-57280d58b38e.jpg?1543700068"],
+    "layout": "normal",
+    "type_line": "Creature — Human Druid",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423796,
+    "name": "Hidden Stockpile",
+    "collector_number": 129,
+    "multiverse_ids": [
+      423796
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8d2176a5-66f8-4a21-bbe2-969c82ca36bd.jpg?1543700364"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423778,
+    "name": "Highspire Infusion",
+    "collector_number": 111,
+    "multiverse_ids": [
+      423778
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/8/08325c39-0eeb-4bd0-9adc-2892c1c6637e.jpg?1543700082"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423701,
+    "name": "Hinterland Drake",
+    "collector_number": 34,
+    "multiverse_ids": [
+      423701
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/1/418448d0-3e8d-4581-b598-696165775d23.jpg?1543698830"],
+    "layout": "normal",
+    "type_line": "Creature — Drake",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423821,
+    "name": "Hope of Ghirapur",
+    "collector_number": 154,
+    "multiverse_ids": [
+      423821
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/f/6f4bcadd-7eff-4294-94d5-52482a734d5b.jpg?1543700745"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact Creature — Thopter",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423751,
+    "name": "Hungry Flames",
+    "collector_number": 84,
+    "multiverse_ids": [
+      423751
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/c/4ca23676-f36f-4266-ba4f-5e9ebf3adb57.jpg?1543699650"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423702,
+    "name": "Ice Over",
+    "collector_number": 35,
+    "multiverse_ids": [
+      423702
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/0/c01d2835-060c-4ac3-b586-84811878a64d.jpg?1543698845"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423703,
+    "name": "Illusionist's Stratagem",
+    "collector_number": 36,
+    "multiverse_ids": [
+      423703
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/7/a7eede83-6f1b-4054-b01c-0da17b197bad.jpg?1543698863"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423822,
+    "name": "Implement of Combustion",
+    "collector_number": 155,
+    "multiverse_ids": [
+      423822
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/5/15b1c8da-604a-42f0-8658-82580700dd31.jpg?1543700759"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423823,
+    "name": "Implement of Examination",
+    "collector_number": 156,
+    "multiverse_ids": [
+      423823
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/7/a791aa71-00db-422d-a78a-53b121c24db5.jpg?1543700774"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423824,
+    "name": "Implement of Ferocity",
+    "collector_number": 157,
+    "multiverse_ids": [
+      423824
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bcdee084-0d1a-486a-8361-680d394a5e23.jpg?1543700790"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423825,
+    "name": "Implement of Improvement",
+    "collector_number": 158,
+    "multiverse_ids": [
+      423825
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2cb8eb0c-d7fa-4229-ae65-1890c77b2c7c.jpg?1543700804"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423826,
+    "name": "Implement of Malice",
+    "collector_number": 159,
+    "multiverse_ids": [
+      423826
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/e/2e45ca82-e387-4df0-890d-d53a7d0dadf7.jpg?1543700818"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423752,
+    "name": "Indomitable Creativity",
+    "collector_number": 85,
+    "multiverse_ids": [
+      423752
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/d/edd00e45-2ae1-4cd0-92a1-155c95f8dc72.jpg?1543699665"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{X}{R}{R}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423827,
+    "name": "Inspiring Statuary",
+    "collector_number": 160,
+    "multiverse_ids": [
+      423827
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/0/40e2564f-0066-41e0-a767-13ef33a17024.jpg?1543700833"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423753,
+    "name": "Invigorated Rampage",
+    "collector_number": 86,
+    "multiverse_ids": [
+      423753
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c1d1727-99d4-4aee-b6f5-8399ac1d0184.jpg?1543699680"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423732,
+    "name": "Ironclad Revolutionary",
+    "collector_number": 65,
+    "multiverse_ids": [
+      423732
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/3/43a5535b-b1d1-4648-aa72-4f64e9fcd95d.jpg?1543699333"],
+    "layout": "normal",
+    "type_line": "Creature — Aetherborn Artificer",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423828,
+    "name": "Irontread Crusher",
+    "collector_number": 161,
+    "multiverse_ids": [
+      423828
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/81873223-29c7-466b-b922-6717ec84afff.jpg?1543700850"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423755,
+    "name": "Kari Zev's Expertise",
+    "collector_number": 88,
+    "multiverse_ids": [
+      423755
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/ab5c7400-6307-4c51-88b8-9c0232110714.jpg?1543699709"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423754,
+    "name": "Kari Zev, Skyship Raider",
+    "collector_number": 87,
+    "multiverse_ids": [
+      423754
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/2/72495879-39ce-449d-ad2f-ef32ea46f3aa.jpg?1543699694"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Pirate",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423756,
+    "name": "Lathnu Sailback",
+    "collector_number": 89,
+    "multiverse_ids": [
+      423756
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/3/33998799-f31b-4522-93b2-0c34c570ebf7.jpg?1543699723"],
+    "layout": "normal",
+    "type_line": "Creature — Lizard",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423704,
+    "name": "Leave in the Dust",
+    "collector_number": 37,
+    "multiverse_ids": [
+      423704
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3c01bd77-beb0-4a26-858d-022311e550bf.jpg?1543698880"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423779,
+    "name": "Lifecraft Awakening",
+    "collector_number": 112,
+    "multiverse_ids": [
+      423779
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/3/63bc60c8-f0a3-4bbf-b570-7d98d0a3e2b0.jpg?1543700098"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{X}{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423780,
+    "name": "Lifecraft Cavalry",
+    "collector_number": 113,
+    "multiverse_ids": [
+      423780
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/2/b2a92a03-4e1d-4b79-ad75-a29db2ea5495.jpg?1543700114"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Warrior",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423829,
+    "name": "Lifecrafter's Bestiary",
+    "collector_number": 162,
+    "multiverse_ids": [
+      423829
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/7439a855-4041-4d14-8edf-6741a734e55d.jpg?1543700866"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423781,
+    "name": "Lifecrafter's Gift",
+    "collector_number": 114,
+    "multiverse_ids": [
+      423781
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/6759f13b-e755-495d-87df-a685455cdf33.jpg?1543700127"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423757,
+    "name": "Lightning Runner",
+    "collector_number": 90,
+    "multiverse_ids": [
+      423757
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/5/e5d9c7eb-dca4-4471-a91f-a5aad3a69c2f.jpg?1543699737"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423782,
+    "name": "Maulfist Revolutionary",
+    "collector_number": 115,
+    "multiverse_ids": [
+      423782
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a83dcdba-419b-41e1-8c9d-8bca6fe2752b.jpg?1543700141"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "mana_cost": "{1}{G}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423797,
+    "name": "Maverick Thopterist",
+    "collector_number": 130,
+    "multiverse_ids": [
+      423797
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/cad17d67-538e-4c60-a582-a394032a5112.jpg?1543700379"],
+    "layout": "normal",
+    "type_line": "Creature — Human Artificer",
+    "mana_cost": "{3}{U}{R}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423705,
+    "name": "Mechanized Production",
+    "collector_number": 38,
+    "multiverse_ids": [
+      423705
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/3/235dd8f1-215a-4b0a-9e94-0d0d5a3c730b.jpg?1543698895"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423830,
+    "name": "Merchant's Dockhand",
+    "collector_number": 163,
+    "multiverse_ids": [
+      423830
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/5/955b4bc9-1ded-4f23-b415-ab968c681eb7.jpg?1543700884"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423831,
+    "name": "Metallic Mimic",
+    "collector_number": 164,
+    "multiverse_ids": [
+      423831
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/a/1aa4eba9-9e91-4beb-9296-a18baa73a318.jpg?1543700900"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Shapeshifter",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423706,
+    "name": "Metallic Rebuke",
+    "collector_number": 39,
+    "multiverse_ids": [
+      423706
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f712ac26-dca4-459b-84c1-010597007f60.jpg?1543698910"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423733,
+    "name": "Midnight Entourage",
+    "collector_number": 66,
+    "multiverse_ids": [
+      423733
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/2838c6dd-d816-4363-a861-f2f8052d1430.jpg?1543699348"],
+    "layout": "normal",
+    "type_line": "Creature — Aetherborn Rogue",
+    "mana_cost": "{2}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423832,
+    "name": "Mobile Garrison",
+    "collector_number": 165,
+    "multiverse_ids": [
+      423832
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/da443378-f5cb-4240-9524-2c40ec17c933.jpg?1543700918"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423783,
+    "name": "Monstrous Onslaught",
+    "collector_number": 116,
+    "multiverse_ids": [
+      423783
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/a/2aebf95d-a231-402a-8888-9c50889a9556.jpg?1543700156"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423784,
+    "name": "Narnam Renegade",
+    "collector_number": 117,
+    "multiverse_ids": [
+      423784
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/041cc6b1-61c8-4c34-86fc-d647ce306f59.jpg?1543700170"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Warrior",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423785,
+    "name": "Natural Obsolescence",
+    "collector_number": 118,
+    "multiverse_ids": [
+      423785
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff693e03-4cc6-4903-8fc4-388d23c2f92f.jpg?1543700188"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423707,
+    "name": "Negate",
+    "collector_number": 40,
+    "multiverse_ids": [
+      423707
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/b/cb142515-0856-441d-84d4-9c9d450a86e9.jpg?1543698924"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423734,
+    "name": "Night Market Aeronaut",
+    "collector_number": 67,
+    "multiverse_ids": [
+      423734
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/2637f860-01dd-4559-97b3-71c2e7cdbca4.jpg?1543699363"],
+    "layout": "normal",
+    "type_line": "Creature — Aetherborn Warrior",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423833,
+    "name": "Night Market Guard",
+    "collector_number": 166,
+    "multiverse_ids": [
+      423833
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8ae03e5c-9655-425c-90ef-b70a0e66868d.jpg?1543700932"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423798,
+    "name": "Oath of Ajani",
+    "collector_number": 131,
+    "multiverse_ids": [
+      423798
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/6/968c7d5a-b037-4ff7-b6d2-df00adf5691b.jpg?1543700395"],
+    "layout": "normal",
+    "type_line": "Legendary Enchantment",
+    "mana_cost": "{G}{W}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423834,
+    "name": "Ornithopter",
+    "collector_number": 167,
+    "multiverse_ids": [
+      423834
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/ddb96645-44d2-426c-90cb-3186297a8728.jpg?1543700945"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Thopter",
+    "mana_cost": "{0}",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423799,
+    "name": "Outland Boar",
+    "collector_number": 132,
+    "multiverse_ids": [
+      423799
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/135912b3-978b-4a9b-8758-7b138b190232.jpg?1543700409"],
+    "layout": "normal",
+    "type_line": "Creature — Boar",
+    "mana_cost": "{2}{R}{G}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423835,
+    "name": "Pacification Array",
+    "collector_number": 168,
+    "multiverse_ids": [
+      423835
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8bed742a-a12a-4728-a771-07e3d1417419.jpg?1543700960"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423836,
+    "name": "Paradox Engine",
+    "collector_number": 169,
+    "multiverse_ids": [
+      423836
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fd8ccd81-9e11-47fa-8e16-064c52c24506.jpg?1543700975"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423837,
+    "name": "Peacewalker Colossus",
+    "collector_number": 170,
+    "multiverse_ids": [
+      423837
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/5/1599b545-6b8e-4350-980a-59349374400d.jpg?1543700993"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423786,
+    "name": "Peema Aether-Seer",
+    "collector_number": 119,
+    "multiverse_ids": [
+      423786
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fe1bc709-2157-4711-a027-c0ff00ff2728.jpg?1543700207"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Druid",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423735,
+    "name": "Perilous Predicament",
+    "collector_number": 68,
+    "multiverse_ids": [
+      423735
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f0edc708-0c76-4fcd-a175-d9c6f1ca3ac1.jpg?1543699379"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423758,
+    "name": "Pia's Revolution",
+    "collector_number": 91,
+    "multiverse_ids": [
+      423758
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/51da6ff6-4d81-488e-83ff-8758f6c7bb9f.jpg?1543699752"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423838,
+    "name": "Planar Bridge",
+    "collector_number": 171,
+    "multiverse_ids": [
+      423838
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/9/991397cf-5c7d-4e8a-8f46-8e2e0ed29eff.jpg?1543701008"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "mana_cost": "{6}",
+    "cmc": 6,
+    "colors": [],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423759,
+    "name": "Precise Strike",
+    "collector_number": 92,
+    "multiverse_ids": [
+      423759
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3cd2e7ab-b63e-48e8-a32a-6ff8673241d9.jpg?1543699769"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423787,
+    "name": "Prey Upon",
+    "collector_number": 120,
+    "multiverse_ids": [
+      423787
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/6/166f0a2d-d660-4ea2-8b2f-143dc1fc0a8e.jpg?1543700226"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423839,
+    "name": "Prizefighter Construct",
+    "collector_number": 172,
+    "multiverse_ids": [
+      423839
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8e389c92-b54b-46b3-a7ab-b8a5a2a7d380.jpg?1543701027"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423760,
+    "name": "Quicksmith Rebel",
+    "collector_number": 93,
+    "multiverse_ids": [
+      423760
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/d/2d5f9755-b137-439c-9b54-1ad71ec1f9ec.jpg?1543699783"],
+    "layout": "normal",
+    "type_line": "Creature — Human Artificer",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423708,
+    "name": "Quicksmith Spy",
+    "collector_number": 41,
+    "multiverse_ids": [
+      423708
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f922e87-1744-4966-9e3a-54917f7f3d9e.jpg?1543698939"],
+    "layout": "normal",
+    "type_line": "Creature — Human Artificer",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423761,
+    "name": "Ravenous Intruder",
+    "collector_number": 94,
+    "multiverse_ids": [
+      423761
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cd793778-f099-4b8e-af19-fc0ec4292824.jpg?1543699798"],
+    "layout": "normal",
+    "type_line": "Creature — Gremlin",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423762,
+    "name": "Reckless Racer",
+    "collector_number": 95,
+    "multiverse_ids": [
+      423762
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/21c0afd6-1242-42bf-a13f-9f218c9d9dfc.jpg?1543699812"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pilot",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423763,
+    "name": "Release the Gremlins",
+    "collector_number": 96,
+    "multiverse_ids": [
+      423763
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d4ba75be-2428-45aa-bf02-75c379a5dfa2.jpg?1543699827"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{X}{X}{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423840,
+    "name": "Renegade Map",
+    "collector_number": 173,
+    "multiverse_ids": [
+      423840
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/ac063445-d0e2-4015-96dc-97098433f30a.jpg?1543701041"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423800,
+    "name": "Renegade Rallier",
+    "collector_number": 133,
+    "multiverse_ids": [
+      423800
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/90bad312-80e3-45b0-9556-60ce06808a47.jpg?1543700422"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "mana_cost": "{1}{G}{W}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423736,
+    "name": "Renegade's Getaway",
+    "collector_number": 69,
+    "multiverse_ids": [
+      423736
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/49b0a5d5-99d7-492b-bd85-77c3cee12c8d.jpg?1543699396"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423801,
+    "name": "Renegade Wheelsmith",
+    "collector_number": 134,
+    "multiverse_ids": [
+      423801
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/9/6956a341-10fd-48af-b382-88c2b2934a3e.jpg?1543700434"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Pilot",
+    "mana_cost": "{1}{R}{W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423841,
+    "name": "Reservoir Walker",
+    "collector_number": 174,
+    "multiverse_ids": [
+      423841
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8afe3be3-b0bc-4617-b4de-f60d14f1b91d.jpg?1543701057"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423737,
+    "name": "Resourceful Return",
+    "collector_number": 70,
+    "multiverse_ids": [
+      423737
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/32f57d0b-ab6a-4074-885d-678659729b8a.jpg?1543699412"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423688,
+    "name": "Restoration Specialist",
+    "collector_number": 21,
+    "multiverse_ids": [
+      423688
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/3/63682db3-1a56-4d8e-a9b7-04465a577518.jpg?1543698615"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Artificer",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423709,
+    "name": "Reverse Engineer",
+    "collector_number": 42,
+    "multiverse_ids": [
+      423709
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/5/d56f8cca-6b8f-45ea-926f-161938716ee9.jpg?1543698955"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{U}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423788,
+    "name": "Ridgescale Tusker",
+    "collector_number": 121,
+    "multiverse_ids": [
+      423788
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84b689cc-35ef-4a23-bb1e-4d81b9fb8455.jpg?1543700241"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423789,
+    "name": "Rishkar, Peema Renegade",
+    "collector_number": 122,
+    "multiverse_ids": [
+      423789
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7cff0dc6-5455-4dea-940b-dff7fe88dc5d.jpg?1543700257"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elf Druid",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423790,
+    "name": "Rishkar's Expertise",
+    "collector_number": 123,
+    "multiverse_ids": [
+      423790
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/d/5d58ba68-05c1-4cd8-a93d-321cd1739ccb.jpg?1543700271"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423802,
+    "name": "Rogue Refiner",
+    "collector_number": 135,
+    "multiverse_ids": [
+      423802
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/1/618652b4-7ce9-4994-9d16-68d2cc8644ef.jpg?1543700447"],
+    "layout": "normal",
+    "type_line": "Creature — Human Rogue",
+    "mana_cost": "{1}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423710,
+    "name": "Salvage Scuttler",
+    "collector_number": 43,
+    "multiverse_ids": [
+      423710
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/8/480be626-cf37-410d-a9c7-e5464345085f.jpg?1543698971"],
+    "layout": "normal",
+    "type_line": "Creature — Crab",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423764,
+    "name": "Scrapper Champion",
+    "collector_number": 97,
+    "multiverse_ids": [
+      423764
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/117ef25c-e9cf-4801-a753-2c329c2a8bdb.jpg?1543699842"],
+    "layout": "normal",
+    "type_line": "Creature — Human Artificer",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423842,
+    "name": "Scrap Trawler",
+    "collector_number": 175,
+    "multiverse_ids": [
+      423842
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/68abc75f-596f-4169-96fc-ada941ef47ed.jpg?1543701084"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423791,
+    "name": "Scrounging Bandar",
+    "collector_number": 124,
+    "multiverse_ids": [
+      423791
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/761a11a7-175d-440d-b09d-918572c8e5d3.jpg?1543700286"],
+    "layout": "normal",
+    "type_line": "Creature — Cat Monkey",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423738,
+    "name": "Secret Salvage",
+    "collector_number": 71,
+    "multiverse_ids": [
+      423738
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/9/d9b9f3e2-b5e8-4234-aaf3-5f1938a20c78.jpg?1543699428"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423843,
+    "name": "Servo Schematic",
+    "collector_number": 176,
+    "multiverse_ids": [
+      423843
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/af2299e0-d31f-4ec4-9497-16e494ee21e6.jpg?1543701101"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423711,
+    "name": "Shielded Aether Thief",
+    "collector_number": 44,
+    "multiverse_ids": [
+      423711
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/3/e34be31b-eeb4-40e5-acf7-6cd0ba6d4bcf.jpg?1543698987"],
+    "layout": "normal",
+    "type_line": "Creature — Vedalken Rogue",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423712,
+    "name": "Shipwreck Moray",
+    "collector_number": 45,
+    "multiverse_ids": [
+      423712
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/284c6de3-4e09-40d9-afdb-89ff08e1844b.jpg?1543699002"],
+    "layout": "normal",
+    "type_line": "Creature — Fish",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423765,
+    "name": "Shock",
+    "collector_number": 98,
+    "multiverse_ids": [
+      423765
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/00365412-41db-427c-9109-8f69c17c326d.jpg?1543699858"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423766,
+    "name": "Siege Modification",
+    "collector_number": 99,
+    "multiverse_ids": [
+      423766
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e1a4e33f-53f0-4919-98a1-c832dcd32efb.jpg?1543699875"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423792,
+    "name": "Silkweaver Elite",
+    "collector_number": 125,
+    "multiverse_ids": [
+      423792
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/1/d10938c8-6fc4-495f-912a-1d3f12278f78.jpg?1543700300"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Archer",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423713,
+    "name": "Skyship Plunderer",
+    "collector_number": 46,
+    "multiverse_ids": [
+      423713
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1fedbc91-67e4-40d6-b307-7e6197f47c6e.jpg?1543699018"],
+    "layout": "normal",
+    "type_line": "Creature — Human Pirate",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423739,
+    "name": "Sly Requisitioner",
+    "collector_number": 72,
+    "multiverse_ids": [
+      423739
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/2/c2d05324-6d85-40da-a087-b5822bc8f42e.jpg?1543699445"],
+    "layout": "normal",
+    "type_line": "Creature — Human Artificer",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423689,
+    "name": "Solemn Recruit",
+    "collector_number": 22,
+    "multiverse_ids": [
+      423689
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/5990c2f1-94d7-4d2e-b1ad-6406c25b91aa.jpg?1543698632"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Warrior",
+    "mana_cost": "{1}{W}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423851,
+    "name": "Spire of Industry",
+    "collector_number": 184,
+    "multiverse_ids": [
+      423851
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/3/8331724d-6fab-454a-b06c-b06e499fa552.jpg?1543701225"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423803,
+    "name": "Spire Patrol",
+    "collector_number": 136,
+    "multiverse_ids": [
+      423803
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/d/1daaf494-70af-4a8d-836f-f6a9d6c1f080.jpg?1543700466"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "mana_cost": "{2}{W}{U}",
+    "cmc": 4,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423690,
+    "name": "Sram, Senior Edificer",
+    "collector_number": 23,
+    "multiverse_ids": [
+      423690
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1b323e2c-59dd-4d70-9a48-b10f807bb818.jpg?1543698649"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Dwarf Advisor",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423691,
+    "name": "Sram's Expertise",
+    "collector_number": 24,
+    "multiverse_ids": [
+      423691
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c6d47b0-4c19-4c19-9e21-54cd87a5e34d.jpg?1543698664"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{W}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423767,
+    "name": "Sweatworks Brawler",
+    "collector_number": 100,
+    "multiverse_ids": [
+      423767
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b477d12a-9ba5-4302-a3f0-af0afb5d87f4.jpg?1543699892"],
+    "layout": "normal",
+    "type_line": "Creature — Human Artificer",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423714,
+    "name": "Take into Custody",
+    "collector_number": 47,
+    "multiverse_ids": [
+      423714
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b412718a-7bc7-4b16-af60-1b955c820b0f.jpg?1543699035"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423805,
+    "name": "Tezzeret's Touch",
+    "collector_number": 138,
+    "multiverse_ids": [
+      423805
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3c2e917f-734e-4b8b-abc6-ea33c0fc722e.jpg?1543700503"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{1}{U}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423804,
+    "name": "Tezzeret the Schemer",
+    "collector_number": 137,
+    "multiverse_ids": [
+      423804
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/8/58265203-bc16-41d2-875c-2ff3b4870824.jpg?1543700485"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Tezzeret",
+    "mana_cost": "{2}{U}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": {}
+  },
+  {
+    "id": 423692,
+    "name": "Thopter Arrest",
+    "collector_number": 25,
+    "multiverse_ids": [
+      423692
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/4/a4e738cb-e4ea-41c2-99a1-55b6167eccb0.jpg?1543698682"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423844,
+    "name": "Treasure Keeper",
+    "collector_number": 177,
+    "multiverse_ids": [
+      423844
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9c5d73d2-60cc-4b64-8274-4ba1bb98b6fa.jpg?1543701116"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423715,
+    "name": "Trophy Mage",
+    "collector_number": 48,
+    "multiverse_ids": [
+      423715
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/19754fe4-2f61-42a3-afa2-3a6a8257b81b.jpg?1543699051"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423793,
+    "name": "Unbridled Growth",
+    "collector_number": 126,
+    "multiverse_ids": [
+      423793
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/393fc419-a6ce-447d-9994-744cf41f9a27.jpg?1543700316"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423845,
+    "name": "Universal Solvent",
+    "collector_number": 178,
+    "multiverse_ids": [
+      423845
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2f1b66b2-12b2-497b-a328-b43630c79e73.jpg?1543701132"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423846,
+    "name": "Untethered Express",
+    "collector_number": 179,
+    "multiverse_ids": [
+      423846
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/dba729d8-fd5e-4183-806a-0997f443a58f.jpg?1543701147"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423740,
+    "name": "Vengeful Rebel",
+    "collector_number": 73,
+    "multiverse_ids": [
+      423740
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6e34edfc-77fc-43b5-bad6-1c4c2a76c8c3.jpg?1543699463"],
+    "layout": "normal",
+    "type_line": "Creature — Aetherborn Warrior",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423847,
+    "name": "Verdant Automaton",
+    "collector_number": 180,
+    "multiverse_ids": [
+      423847
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/52c66c5a-0b1b-4936-9e07-2d169f16c1a6.jpg?1543701161"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423848,
+    "name": "Walking Ballista",
+    "collector_number": 181,
+    "multiverse_ids": [
+      423848
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/329a8738-3e17-403a-857a-0ba529ce8cd1.jpg?1543701177"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{X}{X}",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423849,
+    "name": "Watchful Automaton",
+    "collector_number": 182,
+    "multiverse_ids": [
+      423849
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/138b5fde-417d-4860-aca9-eae7f78b5768.jpg?1543701194"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423850,
+    "name": "Welder Automaton",
+    "collector_number": 183,
+    "multiverse_ids": [
+      423850
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/88b5bae4-be97-4c10-b222-e1e317a8ffbc.jpg?1543701210"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423806,
+    "name": "Weldfast Engineer",
+    "collector_number": 139,
+    "multiverse_ids": [
+      423806
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/51464df6-557f-47e5-838e-2a30145511f0.jpg?1543700518"],
+    "layout": "normal",
+    "type_line": "Creature — Human Artificer",
+    "mana_cost": "{1}{B}{R}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423716,
+    "name": "Whir of Invention",
+    "collector_number": 49,
+    "multiverse_ids": [
+      423716
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/0279fd3c-9252-4958-9d7a-5f33aa25907e.jpg?1543699066"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{X}{U}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423807,
+    "name": "Winding Constrictor",
+    "collector_number": 140,
+    "multiverse_ids": [
+      423807
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/0/107c8aa8-c8f8-4cbf-821b-bd2cb33354f0.jpg?1543700536"],
+    "layout": "normal",
+    "type_line": "Creature — Snake",
+    "mana_cost": "{B}{G}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423717,
+    "name": "Wind-Kin Raiders",
+    "collector_number": 50,
+    "multiverse_ids": [
+      423717
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/b/fbfaa040-61fd-4705-a7ee-c67b49f740e3.jpg?1543699081"],
+    "layout": "normal",
+    "type_line": "Creature — Human Artificer",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": {}
+  },
+  {
+    "id": 423768,
+    "name": "Wrangle",
+    "collector_number": 101,
+    "multiverse_ids": [
+      423768
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5ea93a49-5a7c-4d15-8548-a57c9460e0f0.jpg?1543699911"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": {}
+  },
+  {
+    "id": 423742,
+    "name": "Yahenni's Expertise",
+    "collector_number": 75,
+    "multiverse_ids": [
+      423742
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/2/f2f28735-122c-45ba-bde5-decfd9b11b32.jpg?1543699500"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  },
+  {
+    "id": 423741,
+    "name": "Yahenni, Undying Partisan",
+    "collector_number": 74,
+    "multiverse_ids": [
+      423741
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c37e2466-57c3-453f-aebe-340995f2eca7.jpg?1543699482"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Aetherborn Vampire",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": {}
+  }
+]
