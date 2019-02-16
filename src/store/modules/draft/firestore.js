@@ -166,7 +166,8 @@ export default {
         draftLog.packs.forEach(pack => {
           for (let i=0; i<pack.picks.length; i++) {
             let pick = pack.picks[i];
-            csv.push([pack.set.toLowerCase(), pick.pick, i+1, draftLog.time].join(','));
+            let date = Math.round(new Date(draftLog.time).getTime() / 1000);
+            csv.push([pack.set.toLowerCase(), pick.pick, i+1, date].join(','));
           }
         });
         let metadata = {
