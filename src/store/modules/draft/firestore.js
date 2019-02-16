@@ -1,6 +1,5 @@
 
 import * as log from '@/core/log'
-import * as draftlog from './draftlog'
 import * as serializer from './serializer'
 
 import { firestore, draft_storage } from '@/core/firebase'
@@ -9,6 +8,7 @@ import shortUuid from 'short-uuid'
 // track logged in status
 import firebase from 'firebase/app'
 import 'firebase/auth'
+import { pick_orders_storage } from '../../../core/firebase';
 
 let _signedIn = false;
 firebase.auth().onAuthStateChanged(function(user) {
@@ -133,23 +133,53 @@ export default {
   },
 
   // save a draft log
-  saveDraftLog(player_id, draft) {
+  saveDraftLog(draftLog) {
     return ensureSignedIn()
       .then(() => {
         // prepare file to upload
-        let logFileName =  shortUuid().new() + ".json";
-        let draftLog = draftlog.generate(player_id, draft);
         let metadata = {
-          name: logFileName,
+          name: shortUuid().new() + ".json",
           contentType: 'application/json',
         };
 
         // perform upload
         let storageRef = draft_storage.ref();
         let dayRef = storageRef.child(new Date(draftLog.time).toISOString().split("T")[0]);
-        let logFileRef = dayRef.child(logFileName);
+        let logFileRef = dayRef.child(metadata.name);
         return logFileRef.putString(
           JSON.stringify({ time: draftLog.time, packs: draftLog.packs }), 
+          'raw', 
+          metadata
+        );        
+      })
+      .then(snapshot => {
+        return snapshot.ref.getDownloadURL();
+      });
+  },
+
+  // save a draft pick order
+  saveDraftPickOrder(draftLog) {
+    return ensureSignedIn()
+      .then(() => {
+        // prepare file to upload
+        let csv = [['set', 'id', 'order', 'date']];
+        draftLog.packs.forEach(pack => {
+          for (let i=0; i<pack.picks.length; i++) {
+            let pick = pack.picks[i];
+            let date = Math.round(new Date(draftLog.time).getTime() / 1000);
+            csv.push([pack.set.toLowerCase(), pick.pick, i+1, date].join(','));
+          }
+        });
+        let metadata = {
+          name: shortUuid().new() + ".csv",
+          contentType: 'text/csv',
+        };
+
+        // perform upload
+        let storageRef = pick_orders_storage.ref();
+        let csvFileRef = storageRef.child(metadata.name);
+        return csvFileRef.putString(
+          csv.join('\n'), 
           'raw', 
           metadata
         );        

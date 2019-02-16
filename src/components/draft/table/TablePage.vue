@@ -169,11 +169,13 @@ export default {
     picks_complete(newValue, oldValue) {
       // save draft log when picks complete
       if (production && (newValue && !oldValue)) {
-        firestore.saveDraftLog(this.player.id, this.draft).then(() => {
-          // success
-        }).catch(error => {
-          log.logException(error, "onSaveDraftLog");
-        });
+        let draftLog = draftlog.generate(this.player.id, this.draft);
+        Promise.resolve()
+          .then(() => firestore.saveDraftLog(draftLog))
+          .then(() => firestore.saveDraftPickOrder(draftLog))
+          .catch(error => {
+            log.logException(error, "onSaveDraftLog");
+          });
       }
     }
   },
