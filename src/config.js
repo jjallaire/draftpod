@@ -15,6 +15,7 @@ export default {
     projectId: "draftpod-5da26",
     storageBucket: "draftpod-5da26.appspot.com",
     draftsBucket: "draftpod-drafts",
+    pickOrdersBucket: "draftpod-pick-orders",
     messagingSenderId: "979913671141",
   }
 

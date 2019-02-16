@@ -22,6 +22,9 @@ export const firestore = firebase.firestore();
 export const draft_storage = firebase.app()
   .storage("gs://" + config.firebase.draftsBucket);
 
+export const pick_orders_storage = firebase.app()
+  .storage("gs://" + config.firebase.pickOrdersBucket);
+
 
 
 
