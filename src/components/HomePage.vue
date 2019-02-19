@@ -75,6 +75,7 @@ export default {
 
 .home-content .jumbotron {
   padding-top: 2rem;
+  border: none;
 }
 
 .home-content .jumbotron .display-3 {
