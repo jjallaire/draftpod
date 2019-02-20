@@ -16,7 +16,7 @@
     
     <slot>
       <span class="navbar-text">
-        Draft simulator for Magic the Gathering
+        Draft simulator for MTG
       </span>
     </slot>
 

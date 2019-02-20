@@ -2,7 +2,7 @@
 
 <img src="https://github.com/jjallaire/draftpod/raw/master/public/images/screenshot.png" align="right" width="35%" />
 
-[Draftpod](https://draftpod-c0eac.firebaseapp.com/) provides a simulator that enables you to conduct Magic the Gathering
+[Draftpod](https://draftpod-c0eac.firebaseapp.com/) provides a simulator that enables you to conduct MTG
 [booster drafts](https://magic.wizards.com/en/game-info/gameplay/formats/booster-draft) 
 with 2 or 3 players, in which case simulated players (draft bots) take the other seats
 at the table. When the draft is complete, you use the resulting decklists to assemble 

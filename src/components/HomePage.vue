@@ -23,7 +23,7 @@ export default {
           <h1 class="display-3">
             Draftpod
           </h1>
-          <h5>Draft simulator for Magic the Gathering</h5>
+          <h3>Draft simulator for MTG</h3>
 
           <hr>
 
@@ -80,6 +80,7 @@ export default {
 
 .home-content .jumbotron .display-3 {
   font-weight: 300;
+  font-size: 4.7rem;
 }
 
 .home-content .lead {
