@@ -40,7 +40,7 @@ export default {
   data: function() {
     return {
       set_code: 'rna',
-      cardpool: CARDPOOL.CUBE + '4/2/1/1',
+      cardpool: CARDPOOL.CUBE + '6/3/1/1',
       pick_timer: false,
       pick_ratings: false,
       players: 'single',
@@ -330,7 +330,7 @@ export default {
           this.cardpool = set_prefs.cardpool;
         }
       } else {
-        this.cardpool = CARDPOOL.CUBE + '4/2/1/1';
+        this.cardpool = CARDPOOL.CUBE + '6/3/1/1';
       }
     },
 
