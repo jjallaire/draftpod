@@ -4,16 +4,16 @@ export function create() {
   return {
     // does the bot have a color preference?
     color_preference: {
-      color: sampleFrom([...new Array(25).fill(null), 'R', 'W', 'G', 'B', 'U']),
+      color: sampleFrom([...new Array(15).fill(null), 'R', 'W', 'G', 'B', 'U']),
       picks: sampleFrom([4, 5, 6])
     },
 
     color_behavior: {
       // at what pick do we start giving on-color cards a +0.5 bonus?
-      bias_threshold: sampleFrom([3, 5, 7, 9]),
+      bias_threshold: sampleFrom([3, 3, 5, 5]),
 
       // at what pick do we start not considering off-color cards at all?
-      lock_threshold: sampleFrom([8, 10, 12, 14, 16, 18, 20]),
+      lock_threshold: sampleFrom([6, 6, 8, 8, 10, 10, 15]),
     },
 
     // variance for distribution of ratings
