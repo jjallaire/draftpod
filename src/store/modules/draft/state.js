@@ -32,7 +32,7 @@ export default function() {
     connected: true,
 
     // are we currently waiting for a back-end transaction
-    waiting: false,
+    waiting: null,
 
     // table
     table: {

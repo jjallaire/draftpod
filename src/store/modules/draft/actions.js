@@ -17,7 +17,8 @@ export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 export const REMOVE_PLAYER = 'REMOVE_PLAYER'
 
-import { WRITE_TABLE, SET_CONNECTED, SET_WAITING, CONVERT_TO_SINGLE_PLAYER } from './mutations'
+import { WRITE_TABLE, SET_CONNECTED, SET_WAITING, CLEAR_WAITING,
+         CONVERT_TO_SINGLE_PLAYER } from './mutations'
 
 import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
@@ -30,7 +31,6 @@ import * as draftbot from './draftbot'
 import * as filters from './card-filters'
 import * as selectors from './selectors'
 import { PICKS, DECK } from './constants'
-import * as messagebox from '@/components/core/messagebox.js'
 
 export default {
 
@@ -212,6 +212,23 @@ function updateTable({ commit, state }, player_id, writer) {
     commit(WRITE_TABLE, { table });
   }
 
+  // helper function to show a connection error
+  function showConnectionError(error) {
+    
+    // notify user
+    firestore.showConnectionError(error);
+   
+    // set connected flag to false so we don't attempt pick timer picks
+    commit(SET_CONNECTED, { connected: false });
+
+    // log error if it's not one that occurs in the ordinary course of using firestore
+    if (!firestore.isConnectivityError(error) && 
+        !firestore.isAbortedError(error) &&
+        !firestore.isDraftNotFoundError(error)) {
+      log.logException(error, "onUpdateDraftTable");
+    }
+  }
+
   // local write for single player mode
   if (!state.options.multi_player) {
 
@@ -220,19 +237,24 @@ function updateTable({ commit, state }, player_id, writer) {
 
     return Promise.resolve();
 
+  } else if (state.waiting) {
+
+    // if we are already waiting then show a connection error (note that
+    // this should never happen b/c of the glass we throw over the UI 
+    // when waiting, this is here as a precaution so we never, ever get
+    // double-picks)
+    showConnectionError(new Error("Server took too long to respond"));
+
   } else {  
 
     // set state to waiting (provides glass with wait cursor)
-    commit(SET_WAITING, { waiting: true });
+    commit(SET_WAITING);
 
     // initialize transaction
     return firestore.updateDraftTable(state.id, writer)
-    
+
       .catch(function(error) {
       
-        // clear waiting flag
-        commit(SET_WAITING, { waiting: false });
-
         // if this is a DraftNotFound then the draft has been removed from the firestore,
         // in that case flip into single-player mode
         if (firestore.isDraftNotFoundError(error)) {
@@ -242,28 +264,12 @@ function updateTable({ commit, state }, player_id, writer) {
 
         } else {
 
-          // notify user
-          messagebox.alert(
-            "Connection Error",
-            "<p>An error occurred while communicating with the Draftpod server: " + error + "</p>" +
-            "<p>Please be sure that your internet connection is online, " +
-            "then click the button below to attempt to reconnect.</p>",
-            () => {
-              window.location.reload();
-            },
-            "Reconnect to Draft",
-          );
+          showConnectionError(error);
 
-          // set connected flag to false so we don't attempt pick timer picks
-          commit(SET_CONNECTED, { connected: false });
-
-          // log error if it's not one that occurs in the ordinary course of using firestore
-          if (!firestore.isConnectivityError(error) && 
-              !firestore.isAbortedError(error) &&
-              !firestore.isDraftNotFoundError(error)) {
-            log.logException(error, "onUpdateDraftTable");
-          }
         }
+      })
+      .finally(() => {
+         commit(CLEAR_WAITING);
       });
   } 
 

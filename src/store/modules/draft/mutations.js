@@ -3,6 +3,7 @@ export const CREATE_DRAFT = 'CREATE_DRAFT'
 export const WRITE_TABLE = 'WRITE_TABLE'
 export const SET_CONNECTED = 'SET_CONNECTED'
 export const SET_WAITING = 'SET_WAITING'
+export const CLEAR_WAITING = 'CLEAR_WAITING'
 export const SET_SHOW_BOT_COLORS = 'SET_SHOW_BOT_COLORS'
 export const CONVERT_TO_SINGLE_PLAYER = 'CONVERT_TO_SINGLE_PLAYER'
 
@@ -65,8 +66,12 @@ export default {
     state.connected = connected;
   },
 
-  [SET_WAITING](state, { waiting }) {
-    state.waiting = waiting;
+  [SET_WAITING](state) {
+    state.waiting = new Date().getTime();
+  },
+
+  [CLEAR_WAITING](state) {
+    state.waiting = null;
   },
 
   [CONVERT_TO_SINGLE_PLAYER](state, { player_id }) {
@@ -85,7 +90,7 @@ export default {
 
     // reset connected and waiting flags
     state.connected = true;
-    state.waiting = false;
+    state.waiting = null;
   }
 };
 

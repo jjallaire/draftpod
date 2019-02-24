@@ -17,7 +17,7 @@ import { RESUME_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE,
          UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
          DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
          REMOVE_PLAYER } from '@/store/modules/draft/actions';
-import { WRITE_TABLE, SET_WAITING, SET_SHOW_BOT_COLORS } from '@/store/modules/draft/mutations'
+import { WRITE_TABLE, SET_SHOW_BOT_COLORS } from '@/store/modules/draft/mutations'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
 
@@ -38,6 +38,8 @@ import MobileDetect from 'mobile-detect'
 import jquery from 'jquery'
 
 import TouchDragManager from '../core/TouchDragManager.js'
+
+import WaitTimer from './WaitTimer.js'
 
 import Vue from 'vue'
 import VueHotkey from 'v-hotkey'
@@ -61,6 +63,8 @@ export default {
     PlayersIcon, PlayersPopup, FullScreenIcon, FullScreenExitIcon, ExitToAppIcon,
     FirebaseError
   },
+
+  mixins: [WaitTimer],
 
   props: {
     draft_id: {
@@ -214,11 +218,11 @@ export default {
 
           // write locally. 
           this.writeTable({ table });
-
-          // clear waiting flag
-          this.setWaiting({ waiting: false });
-
+          
         });
+
+        // start wait timer
+        this.startWaitTimer(this.draft_id);
       }
     });
 
@@ -244,9 +248,6 @@ export default {
       removeDrafts: REMOVE_DRAFTS,
       writeTable(dispatch, payload) {
         return dispatch(this.namespace + '/' + WRITE_TABLE, payload);
-      },
-      setWaiting(dispatch, payload) {
-        return dispatch(this.namespace + '/' + SET_WAITING, payload);
       },
       setShowBotColors(dispatch, payload) {
         return dispatch(this.namespace + '/' + SET_SHOW_BOT_COLORS, payload);

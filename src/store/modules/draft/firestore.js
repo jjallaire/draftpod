@@ -10,6 +10,8 @@ import firebase from 'firebase/app'
 import 'firebase/auth'
 import { pick_orders_storage } from '../../../core/firebase';
 
+import * as messagebox from '@/components/core/messagebox.js'
+
 let _signedIn = false;
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
@@ -187,6 +189,20 @@ export default {
       .then(snapshot => {
         return snapshot.ref.getDownloadURL();
       });
+  },
+
+  showConnectionError(error) {
+     // notify user
+     messagebox.alert(
+      "Connection Error",
+      "<p>An error occurred while communicating with the Draftpod server: " + error + "</p>" +
+      "<p>Please be sure that your internet connection is online, " +
+      "then click the button below to attempt to reconnect.</p>",
+      () => {
+        window.location.reload();
+      },
+      "Reconnect to Draft",
+    );
   },
 
   isFirebaseError(error) {
