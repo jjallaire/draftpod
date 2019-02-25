@@ -92,10 +92,10 @@ export default {
             // disable auto-lands
             this.disableAutoLands({
               color_order: this.colors.map((count) => count.color)
-            });
-              
-            // apply the user's original input
-            applyInput();
+            }).then(() => {
+              // apply the user's original input
+              applyInput();
+            });          
           },
           () => {
             // revert to previous value
