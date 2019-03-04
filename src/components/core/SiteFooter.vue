@@ -12,10 +12,9 @@ export default {
 <template>
   <footer class="site-footer text-muted">
     <p class="small">
-      Draftpod is unofficial Fan Content permitted under the Wizards 
-      <a href="https://company.wizards.com/fancontentpolicy">Fan Content Policy</a>. 
-      The literal and graphical information  presented on this site about Magic: The Gathering, including card images, is copyright
-      &copy; Wizards of the Coast, LLC, a subsidiary of Hasbro, Inc. This website is not produced by, endorsed by, supported by, 
+      Magic: The Gathering is a Trademark of Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. 
+      The information presented on this site about Magic: The Gathering, both literal and graphical, 
+      is copyrighted by Wizards of the Coast. This website is not produced, endorsed, supported, 
       or affiliated with Wizards of the Coast.
     </p>
    
