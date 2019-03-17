@@ -11,7 +11,11 @@ export default {
 
     <p>
       If you have questions, encounter problems, or have ideas about how to improve Draftpod,  
-      please contact us using the form below.
+      please post to our <a href="https://forum.draftpod.org" target="_blank">community discussion forum</a>.
+    </p>
+
+    <p>
+      If you wish to contact us for any other reason, please use the form below.
     </p>
 
     <form 
