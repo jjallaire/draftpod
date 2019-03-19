@@ -21,7 +21,7 @@ export default {
     );
 
     if (Math.random() <= (5/12)) {
-      return cards.concat(selectCards(dualLand, 1));
+      return cards.concat(selectCards(m19DualLand, 1));
     } else {
       return cards.concat(selectCards(filters.basicLand, 1));
     }
@@ -29,7 +29,7 @@ export default {
 
 }
 
-function dualLand(card) {
+export function m19DualLand(card) {
   const DUAL_LANDS =  ['Cinder Barrens', 'Forsaken Sanctuary', 'Foul Orchard', 
                        'Highland Lake', 'Meandering River', 'Stone Quarry', 
                        'Submerged Boneyard', 'Timber Gorge', 'Tranquil Expanse', 
@@ -37,7 +37,7 @@ function dualLand(card) {
   return DUAL_LANDS.indexOf(card.name) >= 0;
 }
 
-const commonNotDualLand = filters.join(filters.common, card => !dualLand(card));
+const commonNotDualLand = filters.join(filters.common, card => !m19DualLand(card));
 
 
 

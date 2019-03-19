@@ -46,24 +46,31 @@ export default {
         :disabled="disabled" 
         class="form-control"
       >
-        <option value="rna">
-          Ravnica Allegiance
-        </option>
-        <option value="grn">
-          Guilds of Ravnica
-        </option>
-        <option value="m19">
-          Core Set 2019
-        </option>
-        <option value="dom">
-          Dominaria
-        </option>
-        <option value="rix">
-          Rivals of Ixalan
-        </option>
-        <option value="xln">
-          Ixalan
-        </option>
+        <optgroup label="Standard">
+          <option value="rna">
+            Ravnica Allegiance
+          </option>
+          <option value="grn">
+            Guilds of Ravnica
+          </option>
+          <option value="m19">
+            Core Set 2019
+          </option>
+          <option value="dom">
+            Dominaria
+          </option>
+          <option value="rix">
+            Rivals of Ixalan
+          </option>
+          <option value="xln">
+            Ixalan
+          </option>
+        </optgroup>
+        <optgroup label="Cubes">
+          <option value="cube_gnt">
+            Game Night Cube
+          </option>
+        </optgroup>
       </select>
     </div>
   </div>

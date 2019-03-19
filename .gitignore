@@ -26,6 +26,7 @@ selenium-server.log
 *.njsproj
 *.sln
 *.sw*
+.Rhistory
 
 # Local card image cache
 /public/images/cards/*

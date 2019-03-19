@@ -7,7 +7,11 @@ import rna from './set-rna'
 import xln from './set-xln'
 import rix from './set-rix'
 
+import cube_gnt from './cube-gnt'
+
 import axios from 'axios'
+ 
+import { CARDPOOL } from '../../../constants'
 
 const sets = {
   dom,
@@ -15,7 +19,8 @@ const sets = {
   grn,
   rna,
   xln,
-  rix
+  rix,
+  cube_gnt
 }
 
 const cards_cache = {
@@ -32,6 +37,14 @@ export function is_edition(set_code, edition) {
     return is_edition(edition);
   else
     return name(set_code) === edition;
+}
+
+export function default_cube(set_code) {
+  if (sets[set_code].default_cube) {
+    return sets[set_code].default_cube;
+  } else {
+    return CARDPOOL.CUBE + '6/3/1/1';
+  }
 }
 
 export function capabilities(set_code) {

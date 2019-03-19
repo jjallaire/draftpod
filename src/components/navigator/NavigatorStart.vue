@@ -11,6 +11,7 @@ import MultiplayerOptions from './multiplayer/MultiplayerOptions.vue'
 
 // eslint-disable-next-line 
 import { store } from '@/store'
+import * as set from '@/store/modules/draft/set'
 import firestore from '@/store/modules/draft/firestore'
 import { CARDPOOL } from '@/store/constants'
 import { SET_PLAYER_INFO, UPDATE_PREFERENCES, REMOVE_DRAFTS } from '@/store/mutations'
@@ -328,9 +329,11 @@ export default {
         if (hasInputVal(cardpool_options.cubes, set_prefs.cardpool) || 
             hasInputVal(cardpool_options.custom, set_prefs.cardpool)) {
           this.cardpool = set_prefs.cardpool;
+        } else {
+          this.cardpool = set.default_cube(this.set_code);
         }
       } else {
-        this.cardpool = CARDPOOL.CUBE + '6/3/1/1';
+        this.cardpool = set.default_cube(this.set_code);
       }
     },
 
