@@ -132,7 +132,7 @@ download_cards <- function(cards,
   })
   
   # if this is a cube then we need to fixup the collector numbers
-  if (startsWith(set, "cube-"))
+  if (startsWith(set, "cube_"))
     cards <- fix_collector_numbers(cards)
   
   # filter out collector number > threshold
@@ -147,7 +147,7 @@ download_cards <- function(cards,
                                  aer = 184,
                                  akh = 269,
                                  hou = 199,
-                                 `cube-gnt` = 1000)
+                                 `cube_gnt` = 1000)
   
   cards <- Filter(function(card) card$collector_number <= max_collector_number, cards)
   

@@ -616,9 +616,23 @@
     "rating": 1.5
   },
   {
+    "id": 446802,
+    "name": "Gravedigger",
+    "collector_number": 45,
+    "multiverse_ids": [446802],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/cm2/66.jpg?1534111222"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": ["B"],
+    "rarity": "common",
+    "rating": 3.5
+  },
+  {
     "id": 446114,
     "name": "Hand of Silumgar",
-    "collector_number": 45,
+    "collector_number": 46,
     "multiverse_ids": [446114],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/146.jpg?1529062394"],
     "layout": "normal",
@@ -632,7 +646,7 @@
   {
     "id": 447236,
     "name": "Hired Blade",
-    "collector_number": 46,
+    "collector_number": 47,
     "multiverse_ids": [447236],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/100.jpg?1531451944"],
     "layout": "normal",
@@ -646,7 +660,7 @@
   {
     "id": 456699,
     "name": "Last Gasp",
-    "collector_number": 47,
+    "collector_number": 48,
     "multiverse_ids": [456699],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1547516936"],
     "layout": "normal",
@@ -660,7 +674,7 @@
   {
     "id": 447241,
     "name": "Lich's Caress",
-    "collector_number": 48,
+    "collector_number": 49,
     "multiverse_ids": [447241],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/105.jpg?1531452022"],
     "layout": "normal",
@@ -674,7 +688,7 @@
   {
     "id": 447245,
     "name": "Mind Rot",
-    "collector_number": 49,
+    "collector_number": 50,
     "multiverse_ids": [447245],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/109.jpg?1531452070"],
     "layout": "normal",
@@ -688,7 +702,7 @@
   {
     "id": 446127,
     "name": "Shambling Ghoul",
-    "collector_number": 50,
+    "collector_number": 51,
     "multiverse_ids": [446127],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/159.jpg?1529062546"],
     "layout": "normal",
@@ -702,7 +716,7 @@
   {
     "id": 446813,
     "name": "Sign in Blood",
-    "collector_number": 51,
+    "collector_number": 52,
     "multiverse_ids": [446813],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/cm2/77.jpg?1534111380"],
     "layout": "normal",
@@ -716,7 +730,7 @@
   {
     "id": 447254,
     "name": "Skeleton Archer",
-    "collector_number": 52,
+    "collector_number": 53,
     "multiverse_ids": [447254],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/118.jpg?1531452173"],
     "layout": "normal",
@@ -730,7 +744,7 @@
   {
     "id": 447255,
     "name": "Skymarch Bloodletter",
-    "collector_number": 53,
+    "collector_number": 54,
     "multiverse_ids": [447255],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/119.jpg?1531452185"],
     "layout": "normal",
@@ -744,7 +758,7 @@
   {
     "id": 447259,
     "name": "Two-Headed Zombie",
-    "collector_number": 54,
+    "collector_number": 55,
     "multiverse_ids": [447259],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/123.jpg?1531452222"],
     "layout": "normal",
@@ -758,7 +772,7 @@
   {
     "id": 447260,
     "name": "Vampire Neonate",
-    "collector_number": 55,
+    "collector_number": 56,
     "multiverse_ids": [447260],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/124.jpg?1531452231"],
     "layout": "normal",
@@ -772,7 +786,7 @@
   {
     "id": 447263,
     "name": "Act of Treason",
-    "collector_number": 56,
+    "collector_number": 57,
     "multiverse_ids": [447263],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/127.jpg?1531452252"],
     "layout": "normal",
@@ -786,7 +800,7 @@
   {
     "id": 447267,
     "name": "Boggart Brute",
-    "collector_number": 57,
+    "collector_number": 58,
     "multiverse_ids": [447267],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/131.jpg?1531452291"],
     "layout": "normal",
@@ -800,7 +814,7 @@
   {
     "id": 446138,
     "name": "Borderland Marauder",
-    "collector_number": 58,
+    "collector_number": 59,
     "multiverse_ids": [446138],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/170.jpg?1529062677"],
     "layout": "normal",
@@ -812,9 +826,23 @@
     "rating": 3
   },
   {
+    "id": 457237,
+    "name": "Burn Bright",
+    "collector_number": 60,
+    "multiverse_ids": [457237],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b8574ffd-3e72-41de-90bf-69363189f047.jpg?1549414366"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": ["R"],
+    "rarity": "common",
+    "rating": 1
+  },
+  {
     "id": 447275,
     "name": "Electrify",
-    "collector_number": 59,
+    "collector_number": 61,
     "multiverse_ids": [447275],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/139.jpg?1531452394"],
     "layout": "normal",
@@ -826,23 +854,9 @@
     "rating": 3
   },
   {
-    "id": 447277,
-    "name": "Fire Elemental",
-    "collector_number": 60,
-    "multiverse_ids": [447277],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/141.jpg?1531452418"],
-    "layout": "normal",
-    "type_line": "Creature — Elemental",
-    "mana_cost": "{3}{R}{R}",
-    "cmc": 5,
-    "colors": ["R"],
-    "rarity": "common",
-    "rating": 1
-  },
-  {
     "id": 447278,
     "name": "Goblin Instigator",
-    "collector_number": 61,
+    "collector_number": 62,
     "multiverse_ids": [447278],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/142.jpg?1531452429"],
     "layout": "normal",
@@ -856,7 +870,7 @@
   {
     "id": 447279,
     "name": "Goblin Motivator",
-    "collector_number": 62,
+    "collector_number": 63,
     "multiverse_ids": [447279],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/143.jpg?1531452442"],
     "layout": "normal",
@@ -868,11 +882,11 @@
     "rating": 1
   },
   {
-    "id": 438698,
+    "id": 383262,
     "name": "Hammerhand",
-    "collector_number": 63,
-    "multiverse_ids": [438698],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ima/132.jpg?1530592230"],
+    "collector_number": 64,
+    "multiverse_ids": [383262],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/m15/147.jpg?1517813031"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "mana_cost": "{R}",
@@ -884,7 +898,7 @@
   {
     "id": 447283,
     "name": "Hostile Minotaur",
-    "collector_number": 64,
+    "collector_number": 65,
     "multiverse_ids": [447283],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/147.jpg?1531452491"],
     "layout": "normal",
@@ -898,7 +912,7 @@
   {
     "id": 443023,
     "name": "Keldon Raider",
-    "collector_number": 65,
+    "collector_number": 66,
     "multiverse_ids": [443023],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/dom/135.jpg?1524791340"],
     "layout": "normal",
@@ -912,7 +926,7 @@
   {
     "id": 447289,
     "name": "Onakke Ogre",
-    "collector_number": 66,
+    "collector_number": 67,
     "multiverse_ids": [447289],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/153.jpg?1531452562"],
     "layout": "normal",
@@ -926,7 +940,7 @@
   {
     "id": 446150,
     "name": "Pathmaker Initiate",
-    "collector_number": 67,
+    "collector_number": 68,
     "multiverse_ids": [446150],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/182.jpg?1529062812"],
     "layout": "normal",
@@ -940,7 +954,7 @@
   {
     "id": 446151,
     "name": "Reckless Reveler",
-    "collector_number": 68,
+    "collector_number": 69,
     "multiverse_ids": [446151],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/183.jpg?1529062823"],
     "layout": "normal",
@@ -952,9 +966,23 @@
     "rating": 2
   },
   {
+    "id": 457255,
+    "name": "Rubblebelt Recluse",
+    "collector_number": 70,
+    "multiverse_ids": [457255],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2faac11b-4ece-4537-aa55-c2d0afa41786.jpg?1549414462"],
+    "layout": "normal",
+    "type_line": "Creature — Ogre Berserker",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": ["R"],
+    "rarity": "common",
+    "rating": 2.5
+  },
+  {
     "id": 447292,
     "name": "Shock",
-    "collector_number": 69,
+    "collector_number": 71,
     "multiverse_ids": [447292],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/156.jpg?1531452592"],
     "layout": "normal",
@@ -968,7 +996,7 @@
   {
     "id": 447295,
     "name": "Sparktongue Dragon",
-    "collector_number": 70,
+    "collector_number": 72,
     "multiverse_ids": [447295],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/159.jpg?1531450639"],
     "layout": "normal",
@@ -982,7 +1010,7 @@
   {
     "id": 447297,
     "name": "Sure Strike",
-    "collector_number": 71,
+    "collector_number": 73,
     "multiverse_ids": [447297],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/161.jpg?1531450660"],
     "layout": "normal",
@@ -996,7 +1024,7 @@
   {
     "id": 447300,
     "name": "Tormenting Voice",
-    "collector_number": 72,
+    "collector_number": 74,
     "multiverse_ids": [447300],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/164.jpg?1531450681"],
     "layout": "normal",
@@ -1008,23 +1036,9 @@
     "rating": 1
   },
   {
-    "id": 447301,
-    "name": "Trumpet Blast",
-    "collector_number": 73,
-    "multiverse_ids": [447301],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/165.jpg?1531450688"],
-    "layout": "normal",
-    "type_line": "Instant",
-    "mana_cost": "{2}{R}",
-    "cmc": 3,
-    "colors": ["R"],
-    "rarity": "common",
-    "rating": 1
-  },
-  {
     "id": 446156,
     "name": "Wrap in Flames",
-    "collector_number": 74,
+    "collector_number": 75,
     "multiverse_ids": [446156],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/188.jpg?1529062885"],
     "layout": "normal",
@@ -1038,7 +1052,7 @@
   {
     "id": 443041,
     "name": "Adventurous Impulse",
-    "collector_number": 75,
+    "collector_number": 76,
     "multiverse_ids": [443041],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/dom/153.jpg?1525864687"],
     "layout": "normal",
@@ -1052,7 +1066,7 @@
   {
     "id": 447306,
     "name": "Bristling Boar",
-    "collector_number": 76,
+    "collector_number": 77,
     "multiverse_ids": [447306],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/170.jpg?1531450725"],
     "layout": "normal",
@@ -1066,7 +1080,7 @@
   {
     "id": 447308,
     "name": "Colossal Dreadmaw",
-    "collector_number": 77,
+    "collector_number": 78,
     "multiverse_ids": [447308],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/172.jpg?1531450740"],
     "layout": "normal",
@@ -1080,7 +1094,7 @@
   {
     "id": 447310,
     "name": "Daggerback Basilisk",
-    "collector_number": 78,
+    "collector_number": 79,
     "multiverse_ids": [447310],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/174.jpg?1531450757"],
     "layout": "normal",
@@ -1094,7 +1108,7 @@
   {
     "id": 451101,
     "name": "Farhaven Elf",
-    "collector_number": 79,
+    "collector_number": 80,
     "multiverse_ids": [451101],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/c18/146.jpg?1535503957"],
     "layout": "normal",
@@ -1108,7 +1122,7 @@
   {
     "id": 447072,
     "name": "Feiyi Snake",
-    "collector_number": 80,
+    "collector_number": 81,
     "multiverse_ids": [447072],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/gs1/24.jpg?1529811949"],
     "layout": "normal",
@@ -1122,7 +1136,7 @@
   {
     "id": 451102,
     "name": "Fertile Ground",
-    "collector_number": 81,
+    "collector_number": 82,
     "multiverse_ids": [451102],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/c18/147.jpg?1535503969"],
     "layout": "normal",
@@ -1136,7 +1150,7 @@
   {
     "id": 446168,
     "name": "Giant Growth",
-    "collector_number": 82,
+    "collector_number": 83,
     "multiverse_ids": [446168],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/200.jpg?1529063015"],
     "layout": "normal",
@@ -1150,7 +1164,7 @@
   {
     "id": 447319,
     "name": "Giant Spider",
-    "collector_number": 83,
+    "collector_number": 84,
     "multiverse_ids": [447319],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/183.jpg?1531450832"],
     "layout": "normal",
@@ -1164,7 +1178,7 @@
   {
     "id": 442751,
     "name": "Kujar Seedsculptor",
-    "collector_number": 84,
+    "collector_number": 85,
     "multiverse_ids": [442751],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/ddu/15.jpg?1523060717"],
     "layout": "normal",
@@ -1178,7 +1192,7 @@
   {
     "id": 456566,
     "name": "Llanowar Elves",
-    "collector_number": 85,
+    "collector_number": 86,
     "multiverse_ids": [456566],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8bbcfb77-daa1-4ce5-b5f9-48d0a8edbba9.jpg?1548379822"],
     "layout": "normal",
@@ -1192,7 +1206,7 @@
   {
     "id": 447327,
     "name": "Oakenform",
-    "collector_number": 86,
+    "collector_number": 87,
     "multiverse_ids": [447327],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/191.jpg?1531450904"],
     "layout": "normal",
@@ -1206,7 +1220,7 @@
   {
     "id": 447331,
     "name": "Rabid Bite",
-    "collector_number": 87,
+    "collector_number": 88,
     "multiverse_ids": [447331],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/195.jpg?1531450937"],
     "layout": "normal",
@@ -1220,7 +1234,7 @@
   {
     "id": 446178,
     "name": "Return to the Earth",
-    "collector_number": 88,
+    "collector_number": 89,
     "multiverse_ids": [446178],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/210.jpg?1529063153"],
     "layout": "normal",
@@ -1234,7 +1248,7 @@
   {
     "id": 447334,
     "name": "Rhox Oracle",
-    "collector_number": 89,
+    "collector_number": 90,
     "multiverse_ids": [447334],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/198.jpg?1531450962"],
     "layout": "normal",
@@ -1248,7 +1262,7 @@
   {
     "id": 447338,
     "name": "Talons of Wildwood",
-    "collector_number": 90,
+    "collector_number": 91,
     "multiverse_ids": [447338],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/202.jpg?1531450999"],
     "layout": "normal",
@@ -1262,7 +1276,7 @@
   {
     "id": 447340,
     "name": "Thornhide Wolves",
-    "collector_number": 91,
+    "collector_number": 92,
     "multiverse_ids": [447340],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/204.jpg?1531451028"],
     "layout": "normal",
@@ -1276,7 +1290,7 @@
   {
     "id": 446184,
     "name": "Wandering Wolf",
-    "collector_number": 92,
+    "collector_number": 93,
     "multiverse_ids": [446184],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/216.jpg?1529063223"],
     "layout": "normal",
@@ -1290,7 +1304,7 @@
   {
     "id": 443077,
     "name": "Yavimaya Sapherd",
-    "collector_number": 93,
+    "collector_number": 94,
     "multiverse_ids": [443077],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/dom/189.jpg?1524791894"],
     "layout": "normal",
@@ -1304,7 +1318,7 @@
   {
     "id": 447385,
     "name": "Cinder Barrens",
-    "collector_number": 94,
+    "collector_number": 95,
     "multiverse_ids": [447385],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/248.jpg?1531451472"],
     "layout": "normal",
@@ -1318,7 +1332,7 @@
   {
     "id": 456571,
     "name": "Eager Construct",
-    "collector_number": 95,
+    "collector_number": 96,
     "multiverse_ids": [456571],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/4/a4beab22-6824-4039-9266-8e6bcf1c91e5.jpg?1548379857"],
     "layout": "normal",
@@ -1332,7 +1346,7 @@
   {
     "id": 451200,
     "name": "Evolving Wilds",
-    "collector_number": 96,
+    "collector_number": 97,
     "multiverse_ids": [451200],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/c18/245.jpg?1535505351"],
     "layout": "normal",
@@ -1346,7 +1360,7 @@
   {
     "id": 447370,
     "name": "Explosive Apparatus",
-    "collector_number": 97,
+    "collector_number": 98,
     "multiverse_ids": [447370],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/233.jpg?1531451334"],
     "layout": "normal",
@@ -1360,7 +1374,7 @@
   {
     "id": 447387,
     "name": "Forsaken Sanctuary",
-    "collector_number": 98,
+    "collector_number": 99,
     "multiverse_ids": [447387],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/250.jpg?1531451489"],
     "layout": "normal",
@@ -1374,7 +1388,7 @@
   {
     "id": 447388,
     "name": "Foul Orchard",
-    "collector_number": 99,
+    "collector_number": 100,
     "multiverse_ids": [447388],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/251.jpg?1531451498"],
     "layout": "normal",
@@ -1388,7 +1402,7 @@
   {
     "id": 447389,
     "name": "Highland Lake",
-    "collector_number": 100,
+    "collector_number": 101,
     "multiverse_ids": [447389],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/252.jpg?1531451507"],
     "layout": "normal",
@@ -1402,7 +1416,7 @@
   {
     "id": 447376,
     "name": "Manalith",
-    "collector_number": 101,
+    "collector_number": 102,
     "multiverse_ids": [447376],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/239.jpg?1531451387"],
     "layout": "normal",
@@ -1416,7 +1430,7 @@
   {
     "id": 447377,
     "name": "Marauder's Axe",
-    "collector_number": 102,
+    "collector_number": 103,
     "multiverse_ids": [447377],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/240.jpg?1531451395"],
     "layout": "normal",
@@ -1430,7 +1444,7 @@
   {
     "id": 447382,
     "name": "Skyscanner",
-    "collector_number": 103,
+    "collector_number": 104,
     "multiverse_ids": [447382],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/245.jpg?1531451440"],
     "layout": "normal",
@@ -1444,7 +1458,7 @@
   {
     "id": 446215,
     "name": "Stone Golem",
-    "collector_number": 104,
+    "collector_number": 105,
     "multiverse_ids": [446215],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/247.jpg?1539609262"],
     "layout": "normal",
@@ -1458,7 +1472,7 @@
   {
     "id": 447393,
     "name": "Stone Quarry",
-    "collector_number": 105,
+    "collector_number": 106,
     "multiverse_ids": [447393],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/256.jpg?1531451545"],
     "layout": "normal",
@@ -1472,7 +1486,7 @@
   {
     "id": 447394,
     "name": "Submerged Boneyard",
-    "collector_number": 106,
+    "collector_number": 107,
     "multiverse_ids": [447394],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/257.jpg?1531451554"],
     "layout": "normal",
@@ -1486,7 +1500,7 @@
   {
     "id": 447395,
     "name": "Timber Gorge",
-    "collector_number": 107,
+    "collector_number": 108,
     "multiverse_ids": [447395],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/258.jpg?1531451562"],
     "layout": "normal",
@@ -1500,7 +1514,7 @@
   {
     "id": 447396,
     "name": "Tranquil Expanse",
-    "collector_number": 108,
+    "collector_number": 109,
     "multiverse_ids": [447396],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/259.jpg?1531451569"],
     "layout": "normal",
@@ -1514,7 +1528,7 @@
   {
     "id": 447397,
     "name": "Woodland Stream",
-    "collector_number": 109,
+    "collector_number": 110,
     "multiverse_ids": [447397],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/260.jpg?1531451577"],
     "layout": "normal",
@@ -1528,7 +1542,7 @@
   {
     "id": 447141,
     "name": "Ajani's Pridemate",
-    "collector_number": 110,
+    "collector_number": 111,
     "multiverse_ids": [447141],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/5.jpg?1547749885"],
     "layout": "normal",
@@ -1542,7 +1556,7 @@
   {
     "id": 447142,
     "name": "Ajani's Welcome",
-    "collector_number": 111,
+    "collector_number": 112,
     "multiverse_ids": [447142],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/6.jpg?1531450685"],
     "layout": "normal",
@@ -1556,7 +1570,7 @@
   {
     "id": 446754,
     "name": "Banishing Light",
-    "collector_number": 112,
+    "collector_number": 113,
     "multiverse_ids": [446754],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/cm2/18.jpg?1534110665"],
     "layout": "normal",
@@ -1570,7 +1584,7 @@
   {
     "id": 452766,
     "name": "Inspiring Unicorn",
-    "collector_number": 113,
+    "collector_number": 114,
     "multiverse_ids": [452766],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce8b745e-1e62-4c54-9e73-e2d0a40568a0.jpg?1538878369"],
     "layout": "normal",
@@ -1584,7 +1598,7 @@
   {
     "id": 447156,
     "name": "Knightly Valor",
-    "collector_number": 114,
+    "collector_number": 115,
     "multiverse_ids": [447156],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/20.jpg?1531450884"],
     "layout": "normal",
@@ -1598,7 +1612,7 @@
   {
     "id": 447158,
     "name": "Leonin Vanguard",
-    "collector_number": 115,
+    "collector_number": 116,
     "multiverse_ids": [447158],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/22.jpg?1531450913"],
     "layout": "normal",
@@ -1612,7 +1626,7 @@
   {
     "id": 446064,
     "name": "Long Road Home",
-    "collector_number": 116,
+    "collector_number": 117,
     "multiverse_ids": [446064],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/bbd/96.jpg?1529061820"],
     "layout": "normal",
@@ -1626,7 +1640,7 @@
   {
     "id": 447162,
     "name": "Make a Stand",
-    "collector_number": 117,
+    "collector_number": 118,
     "multiverse_ids": [447162],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/26.jpg?1531450961"],
     "layout": "normal",
@@ -1640,7 +1654,7 @@
   {
     "id": 447165,
     "name": "Militia Bugler",
-    "collector_number": 118,
+    "collector_number": 119,
     "multiverse_ids": [447165],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/29.jpg?1531450993"],
     "layout": "normal",
@@ -1654,7 +1668,7 @@
   {
     "id": 447166,
     "name": "Novice Knight",
-    "collector_number": 119,
+    "collector_number": 120,
     "multiverse_ids": [447166],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/30.jpg?1531451002"],
     "layout": "normal",
@@ -1668,7 +1682,7 @@
   {
     "id": 447173,
     "name": "Shield Mare",
-    "collector_number": 120,
+    "collector_number": 121,
     "multiverse_ids": [447173],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/37.jpg?1531451096"],
     "layout": "normal",
@@ -1682,7 +1696,7 @@
   {
     "id": 417608,
     "name": "Wispweaver Angel",
-    "collector_number": 121,
+    "collector_number": 122,
     "multiverse_ids": [417608],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/7/57300d02-faad-43b2-afa9-023d1c3a0901.jpg?1543698488"],
     "layout": "normal",
@@ -1696,7 +1710,7 @@
   {
     "id": 447183,
     "name": "Bone to Ash",
-    "collector_number": 122,
+    "collector_number": 123,
     "multiverse_ids": [447183],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/47.jpg?1531451212"],
     "layout": "normal",
@@ -1710,7 +1724,7 @@
   {
     "id": 447185,
     "name": "Departed Deckhand",
-    "collector_number": 123,
+    "collector_number": 124,
     "multiverse_ids": [447185],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/49.jpg?1531451236"],
     "layout": "normal",
@@ -1724,7 +1738,7 @@
   {
     "id": 447191,
     "name": "Exclusion Mage",
-    "collector_number": 124,
+    "collector_number": 125,
     "multiverse_ids": [447191],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/55.jpg?1531451308"],
     "layout": "normal",
@@ -1738,7 +1752,7 @@
   {
     "id": 446778,
     "name": "Fact or Fiction",
-    "collector_number": 125,
+    "collector_number": 126,
     "multiverse_ids": [446778],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/cm2/42.jpg?1534110948"],
     "layout": "normal",
@@ -1752,7 +1766,7 @@
   {
     "id": 447195,
     "name": "Horizon Scholar",
-    "collector_number": 126,
+    "collector_number": 127,
     "multiverse_ids": [447195],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/59.jpg?1531451350"],
     "layout": "normal",
@@ -1766,7 +1780,7 @@
   {
     "id": 447197,
     "name": "Mirror Image",
-    "collector_number": 127,
+    "collector_number": 128,
     "multiverse_ids": [447197],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/61.jpg?1531451360"],
     "layout": "normal",
@@ -1780,7 +1794,7 @@
   {
     "id": 447204,
     "name": "Psychic Corrosion",
-    "collector_number": 128,
+    "collector_number": 129,
     "multiverse_ids": [447204],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/68.jpg?1531451426"],
     "layout": "normal",
@@ -1794,7 +1808,7 @@
   {
     "id": 425874,
     "name": "Serum Visions",
-    "collector_number": 129,
+    "collector_number": 130,
     "multiverse_ids": [425874],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/mm3/49.jpg?1517813031"],
     "layout": "normal",
@@ -1808,7 +1822,7 @@
   {
     "id": 447210,
     "name": "Sleep",
-    "collector_number": 130,
+    "collector_number": 131,
     "multiverse_ids": [447210],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/74.jpg?1531451501"],
     "layout": "normal",
@@ -1822,7 +1836,7 @@
   {
     "id": 447213,
     "name": "Surge Mare",
-    "collector_number": 131,
+    "collector_number": 132,
     "multiverse_ids": [447213],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/77.jpg?1531451553"],
     "layout": "normal",
@@ -1836,7 +1850,7 @@
   {
     "id": 447214,
     "name": "Switcheroo",
-    "collector_number": 132,
+    "collector_number": 133,
     "multiverse_ids": [447214],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/78.jpg?1531451568"],
     "layout": "normal",
@@ -1850,7 +1864,7 @@
   {
     "id": 455907,
     "name": "Telling Time",
-    "collector_number": 133,
+    "collector_number": 134,
     "multiverse_ids": [455907],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1b921881-6967-477e-a419-6fd7462e768a.jpg?1541002699"],
     "layout": "normal",
@@ -1864,7 +1878,7 @@
   {
     "id": 456545,
     "name": "Whirler Rogue",
-    "collector_number": 134,
+    "collector_number": 135,
     "multiverse_ids": [456545],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/d/0db2339c-c792-42fd-805b-dc942e7fd91a.jpg?1548379684"],
     "layout": "normal",
@@ -1878,7 +1892,7 @@
   {
     "id": 447222,
     "name": "Blood Divination",
-    "collector_number": 135,
+    "collector_number": 136,
     "multiverse_ids": [447222],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/86.jpg?1531451705"],
     "layout": "normal",
@@ -1892,7 +1906,7 @@
   {
     "id": 447228,
     "name": "Diregraf Ghoul",
-    "collector_number": 136,
+    "collector_number": 137,
     "multiverse_ids": [447228],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/92.jpg?1531451851"],
     "layout": "normal",
@@ -1906,7 +1920,7 @@
   {
     "id": 447232,
     "name": "Fell Specter",
-    "collector_number": 137,
+    "collector_number": 138,
     "multiverse_ids": [447232],
     "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/96.jpg?1531451897"],
     "layout": "normal",
@@ -1916,20 +1930,6 @@
     "colors": ["B"],
     "rarity": "uncommon",
     "rating": 3
-  },
-  {
-    "id": 447234,
-    "name": "Gravedigger",
-    "collector_number": 138,
-    "multiverse_ids": [447234],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/98.jpg?1531451918"],
-    "layout": "normal",
-    "type_line": "Creature — Zombie",
-    "mana_cost": "{3}{B}",
-    "cmc": 4,
-    "colors": ["B"],
-    "rarity": "uncommon",
-    "rating": 3.5
   },
   {
     "id": 447246,
@@ -2016,11 +2016,11 @@
     "rating": 3
   },
   {
-    "id": 447253,
+    "id": 446809,
     "name": "Rise from the Grave",
     "collector_number": 145,
-    "multiverse_ids": [447253],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/117.jpg?1531452162"],
+    "multiverse_ids": [446809],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/cm2/73.jpg?1534111315"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{4}{B}",
@@ -2758,11 +2758,11 @@
     "rating": 3
   },
   {
-    "id": 438594,
+    "id": 425845,
     "name": "Restoration Angel",
     "collector_number": 198,
-    "multiverse_ids": [438594],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ima/28.jpg?1530591723"],
+    "multiverse_ids": [425845],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/mm3/20.jpg?1517813031"],
     "layout": "normal",
     "type_line": "Creature — Angel",
     "mana_cost": "{3}{W}",

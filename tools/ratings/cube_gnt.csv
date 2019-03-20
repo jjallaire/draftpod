@@ -36,9 +36,9 @@
 456545,Whirler Rogue,C18,2,4
 446754,Banishing Light,CM2,2,4
 446831,Earthquake,CM2,1,4
-447234,Gravedigger,CM2,3,3.5
+446802,Gravedigger,CM2,3,3.5
 456551,Languish,CM2,1,4
-447253,Rise from the Grave,CM2,2,2
+446809,Rise from the Grave,CM2,2,2
 446879,Scavenging Ooze,CM2,1,4
 446813,Sign in Blood,CM2,3,3
 446954,Solemn Simulacrum,CM2,1,4
@@ -73,7 +73,7 @@
 447395,Timber Gorge,GS1,2,3
 417608,Wispweaver Angel,KLD,2,3.5
 438655,Eternal Thirst,M15,3,1.5
-438698,Hammerhand,M15,3,1.5
+383262,Hammerhand,M15,3,1.5
 383394,Spectra Ward,M15,1,4
 447221,Abnormal Endurance,M19,3,1.5
 447263,Act of Treason,M19,3,1.5
@@ -124,7 +124,7 @@
 447191,Exclusion Mage,M19,2,3.5
 447370,Explosive Apparatus,M19,4,1.5
 447232,Fell Specter,M19,2,3
-447277,Fire Elemental,M19,3,1
+457255,Rubblebelt Recluse,RNA,3,2.5
 447387,Forsaken Sanctuary,M19,2,2
 447388,Foul Orchard,M19,2,2
 447372,Fountain of Renewal,M19,2,1.5
@@ -220,7 +220,7 @@
 447300,Tormenting Voice,M19,3,1
 447396,Tranquil Expanse,M19,2,2
 447384,Transmogrifying Wand,M19,1,3
-447301,Trumpet Blast,M19,3,1
+457237,Burn Bright,RNA,3,1
 447259,Two-Headed Zombie,M19,3,1.5
 447218,Uncomfortable Chill,M19,3,1.5
 447178,Valiant Knight,M19,1,3.5
@@ -232,7 +232,7 @@
 447219,Wall of Mist,M19,3,1
 447220,Windreader Sphinx,M19,1,3.5
 447397,Woodland Stream,M19,2,2
-438594,Restoration Angel,MM3,1,4
+425845,Restoration Angel,MM3,1,4
 407620,Goblin Dark-Dwellers,OGW,1,3.5
 407667,Reflector Mage,OGW,2,3.5
 423492,Mitotic Slime,PCA,1,3.5
