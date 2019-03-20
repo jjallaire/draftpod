@@ -21,25 +21,30 @@ export default {
     let drafts = Object.keys(state.drafts);
     return drafts
       .map((id) => {
-        let draft = state.drafts[id];
+        try {
+          let draft = state.drafts[id];
 
-        // don't return orphans
-        if (isOrphanedDraft(getters.player.id, draft))
+          // don't return orphans
+          if (isOrphanedDraft(getters.player.id, draft))
+            return null;
+
+          // alias player
+          let player = selectors.activePlayer(getters.player.id, draft.table);
+
+          return {
+            id: id,
+            start_time: draft.table.start_time,
+            set_code: draft.set.code,
+            set_name: draft.set.name,
+            current_pack: selectors.currentPack(getters.player.id, draft.set.code, draft.table),
+            current_pick: selectors.currentPick(getters.player.id, draft.set.code, draft.table),
+            picks_complete: selectors.picksComplete(getters.player.id, draft.set.code, draft.table),
+            deck_total_cards: selectors.deckTotalCards(player.deck),
+            card_colors: selectors.playerColors(getters.player.id, draft.table),
+          }
+        } catch(e) {
+          // if the draft is corrupt then exclude it
           return null;
-
-        // alias player
-        let player = selectors.activePlayer(getters.player.id, draft.table);
-
-        return {
-          id: id,
-          start_time: draft.table.start_time,
-          set_code: draft.set.code,
-          set_name: draft.set.name,
-          current_pack: selectors.currentPack(getters.player.id, draft.set.code, draft.table),
-          current_pick: selectors.currentPick(getters.player.id, draft.set.code, draft.table),
-          picks_complete: selectors.picksComplete(getters.player.id, draft.set.code, draft.table),
-          deck_total_cards: selectors.deckTotalCards(player.deck),
-          card_colors: selectors.playerColors(getters.player.id, draft.table),
         }
       })
       .filter((draft) => draft !== null)

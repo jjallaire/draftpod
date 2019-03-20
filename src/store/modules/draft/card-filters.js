@@ -26,15 +26,24 @@ export function common(card) {
 }
 
 export function creature(card) {
-  return card.type_line.includes("Creature");
+  if (card.type_line)
+    return card.type_line.includes("Creature");
+  else
+    return false;
 }
 
 export function land(card) {
-  return card.type_line.includes("Land");
+  if (card.type_line)
+    return card.type_line.includes("Land");
+  else
+    return false;
 }
 
 export function basicLand(card) {
-  return card.type_line.startsWith("Basic Land")
+  if (card.type_line)
+    return card.type_line.startsWith("Basic Land");
+  else
+    return false;
 }
 
 export function notOneOf(cards) {
