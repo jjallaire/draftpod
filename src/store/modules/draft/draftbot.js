@@ -183,7 +183,7 @@ function colorBonus(deck, deck_colors, card) {
 
   // is the card on-color (color factor from 0 to 1)
   let color_bonus_factor = 0.0;
-  let card_colors = card.colors;
+  let card_colors = card.colors || [];
   if (card_colors.length === 0) {
     // artifacts are always on-color but only get an 0.5 color factor
     // so that we don't over pick them
