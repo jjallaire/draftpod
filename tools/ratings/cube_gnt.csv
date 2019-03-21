@@ -1,15 +1,15 @@
 "id","name","printing","quantity","rating"
 426790,Dread Wanderer,AKH,1,3.5
 446138,Borderland Marauder,BBD,3,3
-456540,Claustrophobia,BBD,3,3.5
+446083,Claustrophobia,BBD,3,3.5
 446108,Daggerdrome Imp,BBD,3,1.5
 446059,Doomed Traveler,BBD,3,2.5
 456571,Eager Construct,BBD,4,1.5
-451102,Fertile Ground,BBD,3,1
+446166,Fertile Ground,BBD,3,1
 446086,Frost Lynx,BBD,3,3
 446168,Giant Growth,BBD,3,2.5
 446114,Hand of Silumgar,BBD,3,3
-456699,Last Gasp,BBD,3,3.5
+446115,Last Gasp,BBD,3,3.5
 446064,Long Road Home,BBD,2,1.5
 446092,Nimbus of the Isles,BBD,3,3
 446069,Pacifism,BBD,3,3.5
@@ -28,32 +28,32 @@
 438447,Harbinger of the Tides,C17,1,3.5
 433149,Nevinyrral's Disk,C17,1,3.5
 451156,Crystal Ball,C18,2,3.5
-451200,Evolving Wilds,C18,2,3
+446985,Evolving Wilds,C18,2,3
 451101,Farhaven Elf,C18,3,3
 451167,Myr Battlesphere,C18,1,3.5
 450658,Retrofitter Foundry,C18,1,4
-455907,Telling Time,C18,3,2
-456545,Whirler Rogue,C18,2,4
+451060,Telling Time,C18,3,2
+451066,Whirler Rogue,C18,2,4
 446754,Banishing Light,CM2,2,4
 446831,Earthquake,CM2,1,4
 446802,Gravedigger,CM2,3,3.5
-456551,Languish,CM2,1,4
+446803,Languish,CM2,1,4
 446809,Rise from the Grave,CM2,2,2
 446879,Scavenging Ooze,CM2,1,4
 446813,Sign in Blood,CM2,3,3
 446954,Solemn Simulacrum,CM2,1,4
-425874,Serum Visions,CN2,2,2.5
+416877,Serum Visions,CN2,2,2.5
 386368,Stave Off,DDN,3,3
 442751,Kujar Seedsculptor,DDU,3,3
 443041,Adventurous Impulse,DOM,3,1.5
 442931,Arcane Flight,DOM,3,1
 443048,Fungal Plots,DOM,2,3
 443023,Keldon Raider,DOM,3,1.5
-451220,Meandering River,DOM,2,2
+445852,Meandering River,DOM,2,2
 443031,Siege-Gang Commander,DOM,1,4
 443077,Yavimaya Sapherd,DOM,3,3.5
 394581,Glaring Aegis,DTK,3,2.5
-446778,Fact or Fiction,EMA,2,4
+413590,Fact or Fiction,EMA,2,4
 414359,Identity Thief,EMN,1,2.5
 456221,Guttersnipe,GK1,2,2
 456527,Always Watching,GNT,1,4.5
@@ -70,9 +70,9 @@
 452827,Midnight Reaper,GRN,1,4
 452796,Muse Drake,GRN,3,3.5
 447072,Feiyi Snake,GS1,3,2
-447395,Timber Gorge,GS1,2,3
+447086,Timber Gorge,GS1,2,3
 417608,Wispweaver Angel,KLD,2,3.5
-438655,Eternal Thirst,M15,3,1.5
+383234,Eternal Thirst,M15,3,1.5
 383262,Hammerhand,M15,3,1.5
 383394,Spectra Ward,M15,1,4
 447221,Abnormal Endurance,M19,3,1.5
@@ -237,7 +237,7 @@
 407667,Reflector Mage,OGW,2,3.5
 423492,Mitotic Slime,PCA,1,3.5
 409783,Thalia's Lieutenant,SOI,1,3.5
-447340,Thornhide Wolves,SOI,3,2
+409996,Thornhide Wolves,SOI,3,2
 456641,Archaeomancer,UMA,3,3
 456759,Eternal Witness,UMA,2,4
 456760,Fauna Shaman,UMA,1,3.5
