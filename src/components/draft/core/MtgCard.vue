@@ -32,7 +32,8 @@ export default {
   ],
   computed: {
     cardImageUris() {
-      return selectors.cardImageUris(this.card);
+      let imageUris = selectors.cardImageUris(this.card);
+      return imageUris || ["/images/card-back.png"];
     }
   },
 
