@@ -120,6 +120,7 @@ export default class TouchDragManager {
       // clear active drag if this is a horizontal swipe on the phone (scrolling)
       let scrollContainer = event.target.parentElement.parentElement;
       if (this.isPhone &&
+          scrollContainer && 
           scrollContainer.scrollWidth > scrollContainer.offsetWidth && 
           this.active_drag.drag_source === "DRAG_SOURCE_PACK" &&
           this.active_drag.cursorStart !== null &&
