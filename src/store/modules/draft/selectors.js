@@ -78,13 +78,14 @@ export function cardColors(cards, includeLands = false, percentFilter = null, ma
   };
   for (let i=0; i<cards.length; i++) {
     let card = cards[i];
+    let cardColors = card.colors || [];
     if (!includeLands && filters.land(card))
       continue;
-    if (card.colors.length === 0)
+    if (cardColors.length === 0)
       colors["C"].count++;
     else
-      for (let c=0; c<card.colors.length; c++)
-        colors[card.colors[c]].count++;
+      for (let c=0; c<cardColors.length; c++)
+        colors[cardColors[c]].count++;
   }
 
   // get array of colors
