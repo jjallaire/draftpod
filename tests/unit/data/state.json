@@ -1003,7 +1003,10 @@
         "pick_timer": false,
         "pick_ratings": false,
         "multi_player": false,
-        "show_bot_colors": false
+        "show_bot_colors": false,
+        "number_of_packs": 3,
+        "deck_size": 40,
+        "deck_list_format": "normal"
       },
       "packs": [
         "457243,457206,457164,457336,457180,457175,457347,457193,457211,457177,457158,457194,457261,457195,457387",
@@ -2920,7 +2923,10 @@
         "pick_timer": false,
         "pick_ratings": false,
         "multi_player": false,
-        "show_bot_colors": false
+        "show_bot_colors": false,
+        "number_of_packs": 3,
+        "deck_size": 40,
+        "deck_list_format": "normal"
       },
       "packs": [
         "457365,457260,457332,457270,457216,457197,457177,457231,457174,457172,457363,457150,457342,457378,457393",
@@ -11299,7 +11305,10 @@
         "pick_timer": false,
         "pick_ratings": false,
         "multi_player": false,
-        "show_bot_colors": false
+        "show_bot_colors": false,
+        "number_of_packs": 3,
+        "deck_size": 40,
+        "deck_list_format": "normal"
       },
       "packs": [
         "457199,457345,457293,457246,457174,457279,457178,457297,457156,457283,457195,457298,457228,457180,457399",
