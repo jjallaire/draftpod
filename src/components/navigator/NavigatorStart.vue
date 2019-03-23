@@ -274,10 +274,13 @@ export default {
 
     createDraft() {
 
-      // check for special multi-player arena mode
+      // check for special multi-player arena mode, if we are in it then
+      // override the card pool and provide extra arena-specific options
+      let cardpool = this.cardpool;
       let extra_options = {};
       let multi_player = this.players === 'multiple';
       if (multi_player && this.$route.query.arena) {
+        cardpool = CARDPOOL.CUBE + '4/4/1/1';
         extra_options = {
           number_of_packs: 5,
           deck_size: 60,
@@ -287,7 +290,7 @@ export default {
 
       return this.initDraft({ 
         set_code: this.set_code, 
-        cardpool: this.cardpool, 
+        cardpool: cardpool, 
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
