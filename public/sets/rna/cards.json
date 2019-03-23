@@ -198,7 +198,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 0.5
+    "rating": 0
   },
   {
     "id": 457265,
@@ -235,7 +235,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 457298,
@@ -273,7 +273,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 2.5
   },
   {
     "id": 457299,
@@ -310,7 +310,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 0.5
+    "rating": 0
   },
   {
     "id": 457300,
@@ -476,7 +476,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 3.5
+    "rating": 3
   },
   {
     "id": 457389,
@@ -807,7 +807,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 0.5
   },
   {
     "id": 457212,
@@ -1472,24 +1472,6 @@
     "rating": 3
   },
   {
-    "id": 459998,
-    "name": "Forest",
-    "collector_number": 264,
-    "multiverse_ids": [
-      459998
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/8/48764854-d268-462d-a016-27329c8f062d.jpg?1549415269"],
-    "layout": "normal",
-    "type_line": "Basic Land — Forest",
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "G"
-    ],
-    "rarity": "common",
-    "rating": 0
-  },
-  {
     "id": 457317,
     "name": "Frenzied Arynx",
     "collector_number": 173,
@@ -1685,7 +1667,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 457377,
@@ -1868,7 +1850,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2.5
   },
   {
     "id": 457378,
@@ -1887,7 +1869,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 2
   },
   {
     "id": 457323,
@@ -2204,24 +2186,6 @@
     "rating": 3
   },
   {
-    "id": 459995,
-    "name": "Island",
-    "collector_number": 261,
-    "multiverse_ids": [
-      459995
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/197f5bd0-5ab3-4bf4-b20e-1389c0e9527a.jpg?1549415256"],
-    "layout": "normal",
-    "type_line": "Basic Land — Island",
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "U"
-    ],
-    "rarity": "common",
-    "rating": 0
-  },
-  {
     "id": 457329,
     "name": "Judith, the Scourge Diva",
     "collector_number": 185,
@@ -2328,7 +2292,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 1
   },
   {
     "id": 457332,
@@ -2552,24 +2516,6 @@
     "rating": 4
   },
   {
-    "id": 459997,
-    "name": "Mountain",
-    "collector_number": 263,
-    "multiverse_ids": [
-      459997
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/54a773e3-93f0-4bf8-ab6a-8cee939d743a.jpg?1549415265"],
-    "layout": "normal",
-    "type_line": "Basic Land — Mountain",
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "R"
-    ],
-    "rarity": "common",
-    "rating": 0
-  },
-  {
     "id": 457337,
     "name": "Nikya of the Old Ways",
     "collector_number": 193,
@@ -2678,7 +2624,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 2.5
   },
   {
     "id": 457224,
@@ -2772,24 +2718,6 @@
     "rating": 3
   },
   {
-    "id": 459994,
-    "name": "Plains",
-    "collector_number": 260,
-    "multiverse_ids": [
-      459994
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/4/9433619d-5bd1-41e9-ab7a-364c98347b1d.jpg?1549415250"],
-    "layout": "normal",
-    "type_line": "Basic Land — Plains",
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "W"
-    ],
-    "rarity": "common",
-    "rating": 0
-  },
-  {
     "id": 457398,
     "name": "Plaza of Harmony",
     "collector_number": 254,
@@ -2848,7 +2776,7 @@
     "multiverse_ids": [
       457339
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84abfc59-10a7-4cb5-9cdd-81797116c810.jpg?1552759361"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84abfc59-10a7-4cb5-9cdd-81797116c810.jpg?1549505027"],
     "layout": "normal",
     "type_line": "Legendary Creature — Elf Ooze Wizard",
     "mana_cost": "{2}{G}{U}",
@@ -3006,7 +2934,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 457342,
@@ -3385,7 +3313,7 @@
     "multiverse_ids": [
       457282
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/3/d3104cad-e684-4bd7-b26b-5aa862f7a2b3.jpg?1552988866"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/3/d3104cad-e684-4bd7-b26b-5aa862f7a2b3.jpg?1549414612"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{G}",
@@ -3705,7 +3633,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2.5
   },
   {
     "id": 457384,
@@ -3724,7 +3652,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 2
   },
   {
     "id": 457258,
@@ -3982,7 +3910,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 457262,
@@ -4018,7 +3946,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 2.5
   },
   {
     "id": 457167,
@@ -4148,24 +4076,6 @@
     ],
     "rarity": "uncommon",
     "rating": 3.5
-  },
-  {
-    "id": 459996,
-    "name": "Swamp",
-    "collector_number": 262,
-    "multiverse_ids": [
-      459996
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/0/308809ad-c150-49b1-83e3-b78494156d7a.jpg?1549415260"],
-    "layout": "normal",
-    "type_line": "Basic Land — Swamp",
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "B"
-    ],
-    "rarity": "common",
-    "rating": 0
   },
   {
     "id": 457200,
@@ -4455,7 +4365,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 1
+    "rating": 0.5
   },
   {
     "id": 457292,

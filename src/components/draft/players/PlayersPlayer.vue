@@ -40,16 +40,13 @@ export default {
     ...mapGetters({
       activePlayer: 'player' 
     }),
+
     set: function() {
       return this.draft.set;
-    },
-    options: function() {
-      return selectors.draftOptions(this.draft.options);
     },
     table: function() {
       return this.draft.table;
     },
-
     is_host_player: function() {
       // get the index of the active player
       let player_index = this.draft.table.players.findIndex(
@@ -65,7 +62,7 @@ export default {
       return player_index === host_index;
     },
     bot_colors: function() {
-      if (this.options.show_bot_colors || this.picks_complete) {
+      if (this.draft.options.show_bot_colors || this.picks_complete) {
         if (this.picks_complete) {
           return selectors.orderColorPair(
             this.player.picks.colors.map(selectors.cardColorInfo)
@@ -92,7 +89,7 @@ export default {
         
         // determime if the player is done with all picks
         let player_id = this.player.id;
-        let playerPicksComplete = selectors.picksComplete(player_id, this.set.code, this.options, this.table);
+        let playerPicksComplete = selectors.picksComplete(player_id, this.set.code, this.table);
         if (playerPicksComplete)
           return "Done";
 

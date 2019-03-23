@@ -63,17 +63,17 @@ export default {
   },
 
   [SIMULATE_DRAFT]({ commit, state }, { player_id }) {
-    return updateTable({ commit, state }, player_id, (table, options) => {
+    return updateTable({ commit, state }, player_id, (table) => {
       while (!table.picks_complete) {
-        packToPick(state.set.code, player_id, options, table, null, null, null);
+        packToPick(state.set.code, player_id, table, null, null, null);
       }
     });
   },
 
   [PICK_TIMER_PICK]({ commit, state }, { player_id }) {
     if (state.connected) {
-      return updateTable({ commit, state }, player_id, (table, options) => {
-        packToPick(state.set.code, player_id, options, table, null, null, null)
+      return updateTable({ commit, state }, player_id, (table) => {
+        packToPick(state.set.code, player_id, table, null, null, null)
       });
     } else {
       return Promise.resolve();
@@ -81,8 +81,8 @@ export default {
   },
 
   [PACK_TO_PICK]({ commit, state }, { player_id, card, pile_number, insertBefore }) {
-    return updateTable({ commit, state }, player_id, (table, options) => {
-      packToPick(state.set.code, player_id, options, table, card, pile_number, insertBefore)
+    return updateTable({ commit, state }, player_id, (table) => {
+      packToPick(state.set.code, player_id, table, card, pile_number, insertBefore)
     });
   },
 
@@ -96,20 +96,20 @@ export default {
   },
 
   [DECK_TO_SIDEBOARD]({ commit, state }, { player_id, card }) {
-    return updateTable({ commit, state }, player_id, (table, options) => {
-      deckToUnplayed(player_id, options, table, card, DECK.SIDEBOARD);
+    return updateTable({ commit, state }, player_id, (table) => {
+      deckToUnplayed(player_id, table, card, DECK.SIDEBOARD);
     });
   },
 
   [DECK_TO_UNUSED]({ commit, state }, { player_id, card }) {
-    return updateTable({ commit, state }, player_id, (table, options) => {
-      deckToUnplayed(player_id, options, table, card, DECK.UNUSED);
+    return updateTable({ commit, state }, player_id, (table) => {
+      deckToUnplayed(player_id, table, card, DECK.UNUSED);
     });
   },
 
   [SIDEBOARD_TO_DECK]({ commit, state }, { player_id, card }) {
-    return updateTable({ commit, state }, player_id, (table, options) => {
-      unplayedToDeck(player_id, options, table, card, DECK.SIDEBOARD);
+    return updateTable({ commit, state }, player_id, (table) => {
+      unplayedToDeck(player_id, table, card, DECK.SIDEBOARD);
     });
   },
 
@@ -123,8 +123,8 @@ export default {
   },
 
   [UNUSED_TO_DECK]({ commit, state }, { player_id, card }) {
-    return updateTable({ commit, state }, player_id, (table, options) => {
-      unplayedToDeck(player_id, options, table, card, DECK.UNUSED);
+    return updateTable({ commit, state }, player_id, (table) => {
+      unplayedToDeck(player_id, table, card, DECK.UNUSED);
     });
   },
 
@@ -153,7 +153,7 @@ export default {
   },
 
   [REMOVE_PLAYER]({ commit, state }, { player_id, remove_player_id }) {
-    return updateTable({ commit, state }, player_id, (table, options) => {
+    return updateTable({ commit, state }, player_id, (table) => {
       
       // determine player index
       let player_index = selectors.playerIndex(player_id, table);
@@ -165,7 +165,7 @@ export default {
       player.bot = draftbot.create();
 
       // make any pending picks using ai
-      draftBotPickAndPass(player_index, state.set.code, options, table);
+      draftBotPickAndPass(player_index, state.set.code, table);
       
     });
   },
@@ -208,7 +208,7 @@ function updateTable({ commit, state }, player_id, writer) {
   // helper function to locally write changes
   function writeChangesLocal() {
     let table = JSON.parse(JSON.stringify(state.table));
-    writer(table, state.options);
+    writer(table);
     commit(WRITE_TABLE, { table });
   }
 
@@ -251,7 +251,7 @@ function updateTable({ commit, state }, player_id, writer) {
     commit(SET_WAITING);
 
     // initialize transaction
-    return firestore.updateDraftTable(state.id, table => writer(table, state.options))
+    return firestore.updateDraftTable(state.id, writer)
 
       .catch(function(error) {
       
@@ -275,7 +275,7 @@ function updateTable({ commit, state }, player_id, writer) {
 
 }
 
-function packToPick(set_code, player_id, options, table, card, pile_number, insertBefore) {
+function packToPick(set_code, player_id, table, card, pile_number, insertBefore) {
 
   // it's possible that a packToPick gesture occurs (e.g. from a pick timer or stale drop)
   // that can't be fulfilled because there is no current pack. in this case just ignore
@@ -295,16 +295,16 @@ function packToPick(set_code, player_id, options, table, card, pile_number, inse
     card = draftbot.pick(player.bot, picks, player.packs[0]);
 
   // make the pick 
-  makePick(player_index, set_code, options, table, pile_number, card, insertBefore);
+  makePick(player_index, set_code, table, pile_number, card, insertBefore);
 
   // ai pick and pass loop
-  draftBotPickAndPass(player_index, set_code, options, table);
+  draftBotPickAndPass(player_index, set_code, table);
 
   // check whether the pack is completed
   if (selectors.packCompleted(table)) {
 
     // if we still have packs to go then create the next pack
-    if (table.current_pack < options.number_of_packs) {
+    if (table.current_pack < 3) {
       nextPack(set_code, table);
     } else {
       // complete picks
@@ -376,7 +376,7 @@ function nextPack(set_code, table) {
   table.current_pack++;
 }
 
-function makePick(player_index, set_code, options, table, pile_number, card, insertBefore) {
+function makePick(player_index, set_code, table, pile_number, card, insertBefore) {
 
   // alias player
   let player = table.players[player_index];
@@ -408,11 +408,11 @@ function makePick(player_index, set_code, options, table, pile_number, card, ins
     passPack(player_index, set_code, table);
 
   // move picks to deck for non-ai players if we are done
-  if (player.id !== null && selectors.picksComplete(player.id, set_code, options, table))
-    movePicksToDeck(player, options);
+  if (player.id !== null && selectors.picksComplete(player.id, set_code, table))
+    movePicksToDeck(player);
 }
 
-function draftBotPickAndPass(player_index, set_code, options, table) {
+function draftBotPickAndPass(player_index, set_code, table) {
 
   // execute pick and pass for all bots
   let current_index = player_index;
@@ -427,7 +427,7 @@ function draftBotPickAndPass(player_index, set_code, options, table) {
         let pack = player.packs[0];
         let piles = player.picks.piles;
         let card = draftbot.pick(player.bot, _flatten(piles), pack);
-        makePick(current_index, set_code, options, table, null, card, null);
+        makePick(current_index, set_code, table, null, card, null);
       }
     }
 
@@ -466,7 +466,7 @@ function cardToDeckPile(player, c, deck) {
   return pileIndex;
 }
 
-function deckToUnplayed(player_id, options, table, card, targetPile) {
+function deckToUnplayed(player_id, table, card, targetPile) {
   // move the card
   let player = selectors.activePlayer(player_id, table);
   let deck = player.deck;
@@ -476,10 +476,10 @@ function deckToUnplayed(player_id, options, table, card, targetPile) {
   
   // apply auto-lands if necessary
   if (deck.lands.auto)
-    deck.lands.basic = computeAutoLands(deck, options.deck_size);
+    deck.lands.basic = computeAutoLands(deck);
 }
 
-function unplayedToDeck(player_id, options, table, card, sourcePile) {
+function unplayedToDeck(player_id, table, card, sourcePile) {
   // remove from sideboard/unused
   let player = selectors.activePlayer(player_id, table);
   let deck = player.deck;
@@ -495,10 +495,10 @@ function unplayedToDeck(player_id, options, table, card, sourcePile) {
 
   // apply auto-lands if necessary
   if (deck.lands.auto)
-    deck.lands.basic = computeAutoLands(deck, options.deck_size);
+    deck.lands.basic = computeAutoLands(deck);
 }
 
-function movePicksToDeck(player, options) {
+function movePicksToDeck(player) {
 
   // non-sideboard cards
   let picks = player.picks;
@@ -522,7 +522,7 @@ function movePicksToDeck(player, options) {
   orderUnplayedPiles(deck);
   
   // apply auto lands
-  deck.lands.basic = computeAutoLands(deck, options.deck_size);
+  deck.lands.basic = computeAutoLands(deck);
 }
 
 function completePicks(table) {
@@ -546,7 +546,7 @@ function completePicks(table) {
 }
 
 
-function computeAutoLands(deck, deck_size) {
+function computeAutoLands(deck) {
 
   // get the cards in the deck
   let cards = _flatten(deck.piles.slice(0, DECK.PILES));
@@ -564,16 +564,8 @@ function computeAutoLands(deck, deck_size) {
   // count again w/ the color_ranking
   card_colors = countColors(cards, color_ranking);
 
-  // establish total lands required
-  let total_land_cards = null;
-  if (deck_size === 40)
-    total_land_cards = 17;
-  else if (deck_size === 60)
-    total_land_cards = 24;
-  else
-    total_land_cards = Math.round(deck_size * 0.4);
-
-  // compute the target number of mana sources we need in our mana base  
+  // compute the target number of mana sources we need in our mana base
+  const total_land_cards = 17;
   let total_card_colors = selectors.sumValues(card_colors);
   let mana_targets = {};
   Object.keys(card_colors).map(color => {
