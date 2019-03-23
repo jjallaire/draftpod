@@ -19,7 +19,7 @@
 447154,"Knight of the Tusk",1
 447155,"Knight's Pledge",1.5
 447156,"Knightly Valor",3
-447157,"Lena, Selfless Champion",3.5
+447157,"Lena, Selfless Champion",4
 447158,"Leonin Vanguard",2.5
 447159,"Leonin Warleader",4.5
 447160,"Loxodon Line Breaker",1
@@ -64,7 +64,7 @@
 447199,"Mystic Archaeologist",3
 447200,"Omenspeaker",2.5
 447201,"Omniscience",0
-447202,"One with the Machine",1
+447202,"One with the Machine",1.5
 447203,"Patient Rebuilding",3.5
 447204,"Psychic Corrosion",1.5
 447205,"Sai, Master Thopterist",3
@@ -94,7 +94,7 @@
 447229,"Doomed Dissenter",2.5
 447230,"Duress",1.5
 447231,"Epicure of Blood",3
-447232,"Fell Specter",3
+447232,"Fell Specter",3.5
 447233,"Fraying Omnipotence",1
 447234,"Gravedigger",3
 447235,"Graveyard Marshal",3.5
@@ -106,7 +106,7 @@
 447241,"Lich's Caress",3.5
 447242,"Liliana, Untouched by Death",3
 447243,"Liliana's Contract",2
-447244,"Macabre Waltz",1.5
+447244,"Macabre Waltz",2
 447245,"Mind Rot",2
 447246,"Murder",4.5
 447247,"Nightmare's Thirst",1.5
@@ -119,10 +119,10 @@
 447254,"Skeleton Archer",3
 447255,"Skymarch Bloodletter",3
 447256,"Sovereign's Bite",1
-447257,"Stitcher's Supplier",0
+447257,"Stitcher's Supplier",0.5
 447258,"Strangling Spores",3
 447259,"Two-Headed Zombie",1.5
-447260,"Vampire Neonate",2
+447260,"Vampire Neonate",2.5
 447261,"Vampire Sovereign",3.5
 447262,"Walking Corpse",1
 447263,"Act of Treason",1.5
@@ -172,7 +172,7 @@
 447307,"Centaur Courser",1.5
 447308,"Colossal Dreadmaw",3
 447309,"Colossal Majesty",1.5
-447310,"Daggerback Basilisk",2.5
+447310,"Daggerback Basilisk",3
 447311,"Declare Dominance",3
 447312,"Druid of Horns",1.5
 447313,"Druid of the Cowl",3.5
@@ -246,16 +246,21 @@
 447382,"Skyscanner",2.5
 447383,"Suspicious Bookcase",1
 447384,"Transmogrifying Wand",3
-447385,"Cinder Barrens",2
+447385,"Cinder Barrens",1
 447386,"Detection Tower",0
-447387,"Forsaken Sanctuary",2
-447388,"Foul Orchard",2
-447389,"Highland Lake",2
-447390,"Meandering River",2
+447387,"Forsaken Sanctuary",0.5
+447388,"Foul Orchard",1
+447389,"Highland Lake",0
+447390,"Meandering River",1
 447391,"Reliquary Tower",0
 447392,"Rupture Spire",1.5
-447393,"Stone Quarry",2
-447394,"Submerged Boneyard",2
-447395,"Timber Gorge",2
-447396,"Tranquil Expanse",2
-447397,"Woodland Stream",2
+447393,"Stone Quarry",0.5
+447394,"Submerged Boneyard",1
+447395,"Timber Gorge",0
+447396,"Tranquil Expanse",0.5
+447397,"Woodland Stream",0
+447398,"Plains",0
+447402,"Island",0
+447406,"Swamp",0
+447410,"Mountain",0
+447414,"Forest",0

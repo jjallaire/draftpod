@@ -273,13 +273,26 @@ export default {
     },
 
     createDraft() {
+
+      // check for special multi-player arena mode
+      let extra_options = {};
+      let multi_player = this.players === 'multiple';
+      if (multi_player && this.$route.query.arena) {
+        extra_options = {
+          number_of_packs: 5,
+          deck_size: 60,
+          deck_list_format: 'arena'
+        }
+      }
+
       return this.initDraft({ 
         set_code: this.set_code, 
         cardpool: this.cardpool, 
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
-          multi_player: this.players === 'multiple'
+          multi_player: multi_player,
+          ...extra_options
         }
       });
     },

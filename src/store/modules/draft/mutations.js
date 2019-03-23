@@ -36,15 +36,22 @@ export default {
       ...options,
     };
 
-    initTable(state, (table) => {
+    initTable(state, (table, options) => {
 
       // set the player info to the first player
       table.players[0].id = player.id;
       table.players[0].name = player.name;
       table.players[0].bot = draftbot.createAutoPicker();
 
+      // compute number of packs
+      let packs = options.number_of_packs * 8;
+
+      // TODO: we could just cap the number of commons
+      // per pack in order to fit within the size of 
+      // the cardpool
+
       // initialize packs
-      table.all_packs = [...Array(24)].map(function() {
+      table.all_packs = [...Array(packs)].map(function() {
         return booster(set_code, cardpool);
       });
     });
@@ -98,7 +105,7 @@ export default {
 // will want to initialize firebase with these values)
 function initTable(state, writer) {
   let table = JSON.parse(JSON.stringify(state.table));
-  writer(table);
+  writer(table, state.options);
   writeTable(state, table);
 }
 

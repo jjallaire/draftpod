@@ -646,7 +646,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1
   },
   {
     "id": 447145,
@@ -673,7 +673,7 @@
     "multiverse_ids": [
       447308
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/172.jpg?1531450740"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/m19/172.jpg?1553080851"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
     "mana_cost": "{4}{G}{G}",
@@ -752,7 +752,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 447270,
@@ -1374,7 +1374,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 447371,
@@ -1463,7 +1463,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 0.5
   },
   {
     "id": 447388,
@@ -1482,7 +1482,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1
   },
   {
     "id": 447372,
@@ -1964,7 +1964,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 0
   },
   {
     "id": 447236,
@@ -2306,7 +2306,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 3.5
+    "rating": 4
   },
   {
     "id": 447158,
@@ -2486,7 +2486,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 447375,
@@ -2571,7 +2571,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1
   },
   {
     "id": 447163,
@@ -2951,7 +2951,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 447248,
@@ -3956,7 +3956,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 0
+    "rating": 0.5
   },
   {
     "id": 447393,
@@ -3975,7 +3975,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 0.5
   },
   {
     "id": 447258,
@@ -4012,7 +4012,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1
   },
   {
     "id": 447175,
@@ -4281,7 +4281,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 0
   },
   {
     "id": 447341,
@@ -4372,7 +4372,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 0.5
   },
   {
     "id": 447384,
@@ -4516,7 +4516,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 447261,
@@ -4751,6 +4751,6 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 0
   }
 ]
