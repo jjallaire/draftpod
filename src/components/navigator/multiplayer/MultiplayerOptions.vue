@@ -137,7 +137,7 @@ export default {
 
 
 <template>
-  <div>
+  <div class="multiplayer-options">
     <div class="form-group">
       <p v-if="arena_mode">
         You can play drafted decks on MTG Arena using 
@@ -190,6 +190,11 @@ export default {
 
 
 <style>
+
+.multiplayer-options p,
+.multiplayer-options .form-group {
+  margin-bottom: 0.5rem;
+}
 
 #multiplayer-draft-name {
   background-color: rgb(236,236,236);

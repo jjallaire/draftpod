@@ -455,7 +455,6 @@ export default {
           <MultiplayerPending />
         </div>
       </PlayersSelect>
-      <br>
       <div class="form-group row">
         <div class="col-sm-10">
           <button 
@@ -480,9 +479,13 @@ export default {
   margin-bottom: 15px;
 }
 
+#start-draft {
+  margin-top: 16px;
+}
+
 .card-body.navigator-inline-panel {
   margin-top: 8px;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 15px;
 }
 
