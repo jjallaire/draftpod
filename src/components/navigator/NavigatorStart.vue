@@ -439,6 +439,7 @@ export default {
       <PlayersSelect 
         ref="playersSelect" 
         v-model="players" 
+        :set_code="set_code"
         :disabled="is_editing_new_cardpool" 
         @input="onPlayersChanged"
       >

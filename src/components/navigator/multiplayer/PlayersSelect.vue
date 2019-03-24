@@ -3,12 +3,18 @@
 
 <script>
 
+import * as set from '@/store/modules/draft/set/'
+
 export default {
 
   name: 'PlayersSelect',
 
   props: {
     value: {
+      type: String,
+      required: true
+    },
+    set_code: {
       type: String,
       required: true
     },
@@ -26,7 +32,8 @@ export default {
 
   computed: {
     arena_mode_available: function() {
-      if (this.$route && this.$route.query.arena)
+      if (set.capabilities(this.set_code).arena_draft &&
+          this.$route && this.$route.query.arena)
         return true;
       else
         return false;
