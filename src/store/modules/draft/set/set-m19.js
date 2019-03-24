@@ -8,6 +8,10 @@ export default {
 
   name: "Core Set 2019",
 
+  capabilities: {
+    arena_draft: true
+  },
+
   pack_cards: 15,
 
   cube: cube.build,
