@@ -195,7 +195,7 @@ function completeCardpoolUpload(set_code, cards, deckbox, complete) {
     // 3-pack draft of this set (we don't bother checking
     // for a 5-pack draft b/c Arena/MTGO drafts will 
     // use a custom cardpoool limited to 4/4/1/1)
-    let set_cards_required = 24 * set.pack_cards(set_code);
+    let set_cards_required = 24 * set.pack_cards(set_code, 24);
 
     // if this leaves us with no cards then that's an error
     let valid = true;

@@ -124,11 +124,11 @@ export default {
     },
 
     current_pack: function() {
-      return selectors.currentPack(this.player.id, this.set.code, this.table);
+      return selectors.currentPack(this.player.id, this.set.code, this.options, this.table);
     },
 
     current_pick: function() {
-      return selectors.currentPick(this.player.id, this.set.code, this.table);
+      return selectors.currentPick(this.player.id, this.set.code, this.options, this.table);
     },
 
     picks_complete: function() {
