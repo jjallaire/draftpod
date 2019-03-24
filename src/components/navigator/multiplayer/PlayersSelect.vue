@@ -25,8 +25,14 @@ export default {
   },
 
   computed: {
+    arena_mode_available: function() {
+      if (this.$route.query.arena)
+        return true;
+      else
+        return false;
+    },
     is_multi_player: function() {
-      return this.inputVal === 'multiple';
+      return this.inputVal.startsWith('multiple');
     }
   },
 
@@ -61,7 +67,10 @@ export default {
           Single Player
         </option>
         <option value="multiple">
-          Multiple Players
+          Multiple Players<span v-if="arena_mode_available"> (Paper)</span>
+        </option>
+        <option v-if="arena_mode_available" value="multiple-arena">
+          Multiple Players (Arena)
         </option>
       </select>
       <div 

@@ -63,11 +63,11 @@ export default {
     ]),
     
     is_multi_player() {
-      return this.players === 'multiple';
+      return this.players.startsWith('multiple');
     },
 
-    arena_mode() {
-      return this.is_multi_player && this.$route.query.arena;
+    is_arena_mode() {
+      return this.players === 'multiple-arena';
     },
 
     is_editing_new_cardpool() {
@@ -150,6 +150,10 @@ export default {
       // if this is a request for a multi-player draft then create a new draft
       if (this.is_multi_player) {
         
+        // if this is arena mode then force the 4/4/1/1 cardpool
+        if (this.is_arena_mode)
+          this.cardpool = CARDPOOL.CUBE + '4/4/1/1';
+
         // create the draft 
         this.createDraft().then(draft_id => {
           this.multi_player.draft_id = draft_id;
@@ -279,11 +283,9 @@ export default {
     createDraft() {
 
       // check for special multi-player arena mode, if we are in it then
-      // override the card pool and provide extra arena-specific options
-      let cardpool = this.cardpool;
+      // provide extra arena-specific options
       let extra_options = {};
-      if (this.arena_mode) {
-        cardpool = CARDPOOL.CUBE + '4/4/1/1';
+      if (this.is_arena_mode) {
         extra_options = {
           number_of_packs: 5,
           deck_size: 60,
@@ -293,7 +295,7 @@ export default {
 
       return this.initDraft({ 
         set_code: this.set_code, 
-        cardpool: cardpool, 
+        cardpool: this.cardpool, 
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
@@ -444,7 +446,7 @@ export default {
           <MultiplayerOptions 
             v-model="multi_player" 
             :players="multi_players" 
-            :arena_mode="arena_mode"
+            :arena_mode="is_arena_mode"
             @input="onMultiplayerOptionsChanged"
           />
         </div>
