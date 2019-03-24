@@ -66,6 +66,10 @@ export default {
       return this.players === 'multiple';
     },
 
+    arena_mode() {
+      return this.is_multi_player && this.$route.query.arena;
+    },
+
     is_editing_new_cardpool() {
       return this.cardpool === 'new-cardpool';
     },
@@ -121,7 +125,7 @@ export default {
         if (valid) {
           // if this is a multiplayer draft then it's already created 
           // so we simply join it
-          if (this.players === 'multiple') {
+          if (this.is_multi_player) {
 
             this.beginDraft(this.multi_player.draft_id);
 
@@ -144,7 +148,7 @@ export default {
     onPlayersChanged() {
 
       // if this is a request for a multi-player draft then create a new draft
-      if (this.players === 'multiple') {
+      if (this.is_multi_player) {
         
         // create the draft 
         this.createDraft().then(draft_id => {
@@ -244,7 +248,7 @@ export default {
         }
 
         // validation for multi-user drafts
-        else if (this.players === 'multiple') {
+        else if (this.is_multi_player) {
 
           if (!this.multi_player.draft_id) {
             messagebox.alert("Unable to Start Draft", "Please wait for the draft be created before starting it.");
@@ -278,8 +282,7 @@ export default {
       // override the card pool and provide extra arena-specific options
       let cardpool = this.cardpool;
       let extra_options = {};
-      let multi_player = this.players === 'multiple';
-      if (multi_player && this.$route.query.arena) {
+      if (this.arena_mode) {
         cardpool = CARDPOOL.CUBE + '4/4/1/1';
         extra_options = {
           number_of_packs: 5,
@@ -294,7 +297,7 @@ export default {
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
-          multi_player: multi_player,
+          multi_player: this.is_multi_player,
           ...extra_options
         }
       });
@@ -441,6 +444,7 @@ export default {
           <MultiplayerOptions 
             v-model="multi_player" 
             :players="multi_players" 
+            :arena_mode="arena_mode"
             @input="onMultiplayerOptionsChanged"
           />
         </div>

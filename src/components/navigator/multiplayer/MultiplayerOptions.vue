@@ -23,6 +23,10 @@ export default {
     players: {
       type: Array,
       required: true
+    },
+    arena_mode: {
+      type: Boolean,
+      required: true
     }
   },
 
@@ -135,6 +139,10 @@ export default {
 <template>
   <div>
     <div class="form-group">
+      <p v-if="arena_mode">
+        Arena mode enabled.
+      </p>
+
       <label for="multiplayer-draft-name">
         Host player:
       </label>
