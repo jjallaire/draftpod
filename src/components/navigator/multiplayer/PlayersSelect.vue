@@ -26,7 +26,7 @@ export default {
 
   computed: {
     arena_mode_available: function() {
-      if (this.$route.query.arena)
+      if (this.$route && this.$route.query.arena)
         return true;
       else
         return false;
