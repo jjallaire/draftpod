@@ -25,10 +25,11 @@ export default {
   [UPDATE_PREFERENCES](state, prefs) {
     
     // global preferences
-    state.preferences.set_code = prefs.set_code;
-    state.preferences.pick_timer = prefs.pick_timer;
-    state.preferences.pick_ratings = prefs.pick_ratings;
-
+    state.preferences = {
+      ...state.preferences,
+      ...prefs
+    }
+    
     // set preferences
     if (!state.preferences.sets[prefs.set_code])
       Vue.set(state.preferences.sets, prefs.set_code, {});

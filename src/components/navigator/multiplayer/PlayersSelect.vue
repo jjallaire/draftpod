@@ -5,6 +5,8 @@
 
 import * as set from '@/store/modules/draft/set/'
 
+import { mapState } from 'vuex'
+
 export default {
 
   name: 'PlayersSelect',
@@ -31,9 +33,14 @@ export default {
   },
 
   computed: {
+
+    ...mapState([
+      'preferences'
+    ]),
+
     arena_mode_available: function() {
-      if (set.capabilities(this.set_code).arena_draft &&
-          this.$route && this.$route.query.arena)
+      if (set.capabilities(this.set_code).arena_draft && 
+          this.preferences.enable_arena_mode)
         return true;
       else
         return false;

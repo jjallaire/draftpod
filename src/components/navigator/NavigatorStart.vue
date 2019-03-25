@@ -91,6 +91,7 @@ export default {
     this.pick_ratings = this.preferences.pick_ratings;
     this.multi_player.player_name = this.player.name;
     this.applySetPreferences();
+    this.maybeInstallArenaMode();
   },
 
   beforeDestroy() {
@@ -358,10 +359,12 @@ export default {
       }
     },
 
-  }
+    maybeInstallArenaMode() {
+      if (this.$route && this.$route.query.arena === "8011DD5F-FBAB-49F3-AF69-E83F4852C4B8")
+        this.updatePreferences({ enable_arena_mode: true} )
+    }
 
-
-
+  },
 }
 
 </script>
