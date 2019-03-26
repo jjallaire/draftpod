@@ -13,7 +13,7 @@ import { REMOVE_DRAFTS } from '@/store/mutations'
 import * as messagebox from '@/components/core/messagebox.js'
 
 export default {
-  name: 'DraftNavigator',
+  name: 'NavigatorPage',
 
   components: {
     NavBar, NavigatorResume, NavigatorStart, NavigatorRecent, SiteFooter

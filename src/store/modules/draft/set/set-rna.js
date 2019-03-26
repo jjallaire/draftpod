@@ -8,6 +8,10 @@ export default {
 
   name: "Ravnica Allegiance",
 
+  capabilities: {
+    arena_draft: true
+  },
+
   card_id_filter: function(id) {
     // convert temporariy decked builder ids to mvid
     if (id >= 1235178 && id <= 1235436)

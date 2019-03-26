@@ -14,7 +14,11 @@ describe('DeckPanel.vue', () => {
   test('displays deck', () => {
     const wrapper = mount(DeckPanel, {
       propsData: { 
-        set_name: "Ravnica Allegiance",
+        set: {
+          code: "RNA",
+          name: "Ravnica Allegiance",
+          pack_cards: 15
+        },
         deck 
       },
       provide: providers

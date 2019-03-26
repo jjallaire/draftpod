@@ -48,9 +48,20 @@ export function default_cube(set_code) {
 }
 
 export function capabilities(set_code) {
-  return sets[set_code].capabilities || {
+  
+  let default_capabilities = {
+    arena_draft: false,
     custom_cardpool: true
-  };
+  }
+
+  if (sets[set_code].capabilities) {
+    return {
+      ...default_capabilities,
+      ...sets[set_code].capabilities
+    }
+  } else {
+    return default_capabilities;
+  }
 } 
 
 export function card_id_filter(set_code, id) {
@@ -75,6 +86,15 @@ export function cards(set_code) {
         return cards_cache[set_code];
       });
   }
+}
+
+// synchronous fetch of cards (should only be called from within the
+// table page where we are guaranteed to have the cards available)
+export function cards_cached(set_code) {
+  if (cards_cache[set_code])
+    return (cards_cache[set_code]);
+  else
+    throw new Error("Cached cards not available for set " + set_code);
 }
 
 export function cube(set_code, cardsInSet, multiples) {

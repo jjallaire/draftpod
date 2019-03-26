@@ -102,7 +102,7 @@ export default {
       return this.draft.set;
     },
     options: function() {
-      return this.draft.options;
+      return selectors.draftOptions(this.draft);
     },
     table: function() {
       return this.draft.table;
@@ -132,7 +132,7 @@ export default {
     },
 
     picks_complete: function() {
-      return selectors.picksComplete(this.player.id, this.set.code, this.table);
+      return selectors.picksComplete(this.player.id, this.set.code, this.options, this.table);
     },
 
     pick_ratings: function() {
@@ -480,7 +480,8 @@ export default {
         />
         <DeckPanel 
           v-else 
-          :set_name="set.name" 
+          :set="set" 
+          :options="options"
           :deck="active_player.deck"
         />
       </div>
