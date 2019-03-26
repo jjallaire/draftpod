@@ -6,9 +6,6 @@ import ContentPanel from '@/components/core//ContentPanel.vue'
 import RemoveDraft from './RemoveDraft.vue'
 
 import * as filters from '@/components/core/filters'
-import * as selectors from '@/store/modules/draft/selectors'
-
-import { mapGetters } from 'vuex'
 
 export default {
   name: 'NavigatorRecent',
@@ -28,19 +25,10 @@ export default {
     },
   },
 
-  computed: {
-    ...mapGetters([
-      'draft'
-    ])
-  },
-
   methods: {
-    onDraftNavigate(draft_id) {
-      this.$router.push({ path: "/draft/" +  draft_id });
+    onDraftNavigate(draft) {
+      this.$router.push({ path: "/draft/" +  draft.id });
     },
-    deckSize(draft_id) {
-      return selectors.draftOptions(this.draft(draft_id)).deck_size;
-    }
   },
 
 }
@@ -60,7 +48,7 @@ export default {
         v-for="draft in draft_history" 
         :key="draft.id" 
         class="row align-items-center"
-        @click="onDraftNavigate(draft.id)"
+        @click="onDraftNavigate(draft)"
       >
         <div class="col-md-4">
           <span class="set-name">
@@ -76,7 +64,7 @@ export default {
         </div>
         <div class="col-md-3 text-muted">
           <span v-if="draft.picks_complete">
-            Deck: {{ draft.deck_total_cards }} / {{ deckSize(draft.id) }}
+            Deck: {{ draft.deck_total_cards }} / 40
           </span>
           <span v-else>
             Pack {{ draft.current_pack }}, Pick {{ draft.current_pick }}

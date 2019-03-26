@@ -21,10 +21,7 @@ export default function() {
       pick_timer: false,
       pick_ratings: false,
       multi_player: false,
-      show_bot_colors: false,
-      number_of_packs: 3,
-      deck_size: 40,
-      deck_list_format: 'normal'
+      show_bot_colors: false
     },
 
     // packs for this draft

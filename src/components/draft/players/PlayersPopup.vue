@@ -1,7 +1,5 @@
 <script>
 
-import * as selectors from '@/store/modules/draft/selectors'
-
 import PlayersPlayer from './PlayersPlayer.vue'
 import PlayersArrow from './PlayersArrow.vue'
 
@@ -25,14 +23,14 @@ export default {
     current_pack: function() {
       return this.draft.table.current_pack;
     },
-    pass_left: function() {
-      return (this.current_pack % 2) > 0;
-    },
     picks_complete: function() {
       return this.draft.table.picks_complete;
     },
-    options: function() {
-      return selectors.draftOptions(this.draft);
+    multi_player: function() {
+      return this.draft.options.multi_player;
+    },
+    show_bot_colors: function() {
+      return this.draft.options.show_bot_colors;
     },
     players: function() {
       return this.draft.table.players;
@@ -80,25 +78,25 @@ export default {
         class="pack-number"
       >
         <PlayersArrow 
-          v-if="pass_left" 
+          v-if="current_pack !== 2" 
           corner="top-right"
         />
         <PlayersArrow 
-          v-if="pass_left" 
+          v-if="current_pack !== 2" 
           corner="bottom-left"
         />
         <PlayersArrow 
-          v-if="!pass_left" 
+          v-if="current_pack === 2" 
           corner="top-left"
         />
         <PlayersArrow 
-          v-if="!pass_left" 
+          v-if="current_pack === 2" 
           corner="bottom-right"
         />
         Pack {{ current_pack }}
       </div>
       <a 
-        v-if="!picks_complete && !options.show_bot_colors && !options.multi_player" 
+        v-if="!picks_complete && !show_bot_colors && !multi_player" 
         class="show-bot-colors"
         @click="onShowBotColors"
       >

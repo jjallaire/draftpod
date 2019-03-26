@@ -8,10 +8,6 @@ export default {
 
   name: "Guilds of Ravnica",
 
-  capabilities: {
-    arena_draft: true
-  },
-
   card_id_filter: function(id) {
     // we don't endup importing the (b) guildgates from scryfall
     if ([452994,452996,452999,453002,453006, // Mvid
