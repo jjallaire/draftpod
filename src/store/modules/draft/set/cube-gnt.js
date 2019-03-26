@@ -12,7 +12,7 @@ export default {
 
   name: "Game Night Cube",
 
-  pack_cards: 15,
+  pack_cards: () => 15,
 
   cube: cube.build,
 

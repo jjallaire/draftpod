@@ -27,7 +27,7 @@ export default {
     state.set = {
       code: set_code,
       name: set.name(set_code),
-      pack_cards: set.pack_cards(set_code)
+      pack_cards: set.pack_cards(set_code, options.number_of_packs)
     }
 
     // initialize options
@@ -46,13 +46,9 @@ export default {
       // compute number of packs
       let packs = options.number_of_packs * 8;
 
-      // TODO: we could just cap the number of commons
-      // per pack in order to fit within the size of 
-      // the cardpool
-
       // initialize packs
       table.all_packs = [...Array(packs)].map(function() {
-        return booster(set_code, cardpool);
+        return booster(set_code, options.number_of_packs, cardpool);
       });
     });
 
@@ -114,7 +110,7 @@ function writeTable(state, table) {
 }
 
 
-function booster(set_code, cardpool) {
+function booster(set_code, number_of_packs, cardpool) {
 
   // track cards already selected (to prevent duplicates)
   let selectedCardIds = [];
@@ -180,7 +176,7 @@ function booster(set_code, cardpool) {
   }
 
   // generate booster for set using selectCards function
-  return set.booster(set_code, selectCards);
+  return set.booster(set_code, selectCards, number_of_packs);
 }
 
 

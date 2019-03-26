@@ -8,11 +8,13 @@ export default {
 
   name: "Dominaria",
 
-  pack_cards: 15,
+  pack_cards: (numberOfPacks) => {
+    return (numberOfPacks === 5) ? 14 : 15;
+  },
 
   cube: cube.build,
 
-  booster(selectCards) {
+  booster(selectCards, numberOfPacks) {
 
     // allocate rares and uncommons
     let rares_and_uncommons = [].concat(
@@ -31,7 +33,7 @@ export default {
   
     return [].concat(
       rares_and_uncommons,
-      selectCards(booster.common, 11)
+      selectCards(booster.common, (numberOfPacks === 5) ? 10 : 11)
     );
   },
 }

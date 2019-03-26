@@ -188,24 +188,24 @@ export function picksComplete(player_id, set_code, options, table) {
     return true;
 
   let cards_picked = activeCards(player_id, table).length;
-  let total_cards = set.pack_cards(set_code) * options.number_of_packs;
+  let total_cards = set.pack_cards(set_code, options.number_of_packs) * options.number_of_packs;
   return cards_picked >= total_cards; 
 }
 
-export function currentPick(player_id, set_code, table) {
+export function currentPick(player_id, set_code, options, table) {
   if (!table.picks_complete) {
     let cards_picked = activeCards(player_id, table).length;
-    let current_pick = (cards_picked % set.pack_cards(set_code)) + 1;
+    let current_pick = (cards_picked % set.pack_cards(set_code, options.number_of_packs)) + 1;
     return current_pick;
   } else {
     return 0;
   }
 }
 
-export function currentPack(player_id, set_code, table) {
+export function currentPack(player_id, set_code, options, table) {
   if (!table.picks_complete) {
     let cards_picked = activeCards(player_id, table).length;
-    return Math.floor((cards_picked / set.pack_cards(set_code))) + 1;
+    return Math.floor((cards_picked / set.pack_cards(set_code, options.number_of_packs))) + 1;
   } else {
     return 0;
   }

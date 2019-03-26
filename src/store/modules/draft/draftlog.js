@@ -52,7 +52,7 @@ export function generate(player_id, draft) {
       players[i].pack = all_packs.shift();
 
     // cycle through the ~ 15 cards in the pack
-    let pack_cards = set.pack_cards(draft.set.code);
+    let pack_cards = set.pack_cards(draft.set.code, draft.options.number_of_packs);
     for (let i = 0; i<pack_cards; i++) {
 
       // have all the players make their next pick

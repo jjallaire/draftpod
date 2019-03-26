@@ -39,8 +39,8 @@ export default {
             start_time: draft.table.start_time,
             set_code: draft.set.code,
             set_name: draft.set.name,
-            current_pack: selectors.currentPack(getters.player.id, draft.set.code, draft.table),
-            current_pick: selectors.currentPick(getters.player.id, draft.set.code, draft.table),
+            current_pack: selectors.currentPack(getters.player.id, draft.set.code, options, draft.table),
+            current_pick: selectors.currentPick(getters.player.id, draft.set.code, options, draft.table),
             picks_complete: selectors.picksComplete(getters.player.id, draft.set.code, options, draft.table),
             deck_total_cards: selectors.deckTotalCards(player.deck),
             card_colors: selectors.playerColors(getters.player.id, draft.table),
@@ -95,6 +95,10 @@ export default {
         {
           value: CARDPOOL.CUBE + '6/3/1/1',
           caption: '6x Common, 3x Uncommon, 1x Rare, 1x Mythic'
+        },
+        {
+          value: CARDPOOL.CUBE + '4/4/1/1',
+          caption: '4x Common, 4x Uncommon, 1x Rare, 1x Mythic'
         },
         {
           value: CARDPOOL.CUBE + '4/2/1/1',

@@ -41,11 +41,11 @@ export default {
   },
 
   [START_DRAFT]({ commit, state }, player_info) {
-    return updateTable({ commit, state }, null, (table) => {
+    return updateTable({ commit, state }, null, (table, options) => {
       table.start_time = new Date().getTime();
       if (player_info)
         joinDraft(player_info, table);
-      nextPack(state.set.code, table);
+      nextPack(state.set.code, options, table);
     });
   },
 
@@ -53,9 +53,9 @@ export default {
 
     // for single-player drafts update the start_time and reset the pick_timer 
     if (!state.options.multi_player) {
-      return updateTable({ commit, state }, null, (table) => {
+      return updateTable({ commit, state }, null, (table, options) => {
         table.start_time = new Date().getTime();
-        resetPickTimer(player_id, state.set.code, table);
+        resetPickTimer(player_id, state.set.code, options, table);
       });
     } else {
       return Promise.resolve();
@@ -305,7 +305,7 @@ function packToPick(set_code, player_id, options, table, card, pile_number, inse
 
     // if we still have packs to go then create the next pack
     if (table.current_pack < options.number_of_packs) {
-      nextPack(set_code, table);
+      nextPack(set_code, options, table);
     } else {
       // complete picks
       completePicks(table);
@@ -315,7 +315,7 @@ function packToPick(set_code, player_id, options, table, card, pile_number, inse
 
 }
 
-function passPack(player_index, set_code, table) {
+function passPack(player_index, set_code, options, table) {
 
   // first remove the pack from our packs
   let player = table.players[player_index];
@@ -324,7 +324,7 @@ function passPack(player_index, set_code, table) {
   // if this reveals a pack beneath the one we were 
   // just considering set the pick end time
   if (player.packs.length > 0)
-    player.pick_end_time = nextPickEndTime(set_code, player);
+    player.pick_end_time = nextPickEndTime(set_code, options, player);
 
   // now pass to the next player
   let next_player_index = selectors.nextPlayerIndex(
@@ -338,18 +338,18 @@ function passPack(player_index, set_code, table) {
   // if the player previously had no packs in consideration
   // then set the pick_end_time
   if (next_player.packs.length === 1)
-    next_player.pick_end_time = nextPickEndTime(set_code, next_player);
+    next_player.pick_end_time = nextPickEndTime(set_code, options, next_player);
 
 }
 
-function resetPickTimer(player_id, set_code, table) {
+function resetPickTimer(player_id, set_code, options, table) {
   let player = selectors.activePlayer(player_id, table);
-  player.pick_end_time = nextPickEndTime(set_code, player);
+  player.pick_end_time = nextPickEndTime(set_code, options, player);
 }
 
-function nextPickEndTime(set_code, player) {
+function nextPickEndTime(set_code, options, player) {
   let seconds_per_pick = 5;
-  let pack_cards = set.pack_cards(set_code);
+  let pack_cards = set.pack_cards(set_code, options.number_of_packs);
   let max_pick_seconds = (seconds_per_pick * pack_cards);
   let cards_picked = _flatten(player.picks.piles).length;
   let current_pick = (cards_picked % pack_cards) + 1;
@@ -358,7 +358,7 @@ function nextPickEndTime(set_code, player) {
 }
 
 
-function nextPack(set_code, table) {
+function nextPack(set_code, options, table) {
 
   // grab next set of packs
   let packs = [];
@@ -369,7 +369,7 @@ function nextPack(set_code, table) {
   for (let i = 0; i < packs.length; i++) {
     let player = table.players[i];
     player.packs = [packs[i]];
-    player.pick_end_time = nextPickEndTime(set_code, player);
+    player.pick_end_time = nextPickEndTime(set_code, options, player);
   }
 
   // update current pack
@@ -405,7 +405,7 @@ function makePick(player_index, set_code, options, table, pile_number, card, ins
 
   // pass pack to next player if it's not empty
   if (pack.length > 0)
-    passPack(player_index, set_code, table);
+    passPack(player_index, set_code, options, table);
 
   // move picks to deck for non-ai players if we are done
   if (player.id !== null && selectors.picksComplete(player.id, set_code, options, table))

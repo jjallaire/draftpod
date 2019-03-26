@@ -62,7 +62,7 @@ export default {
 
         // fail if we didn't get enough cards per pack
         let draft = state.drafts[draft_id];
-        if (draft.table.all_packs.find(pack => pack.length !== set.pack_cards(set_code))) {
+        if (draft.table.all_packs.find(pack => pack.length !== set.pack_cards(set_code, options.number_of_packs))) {
           return Promise.reject(
             new Error("The cardpool did not have enough cards to make " + 
                       (draft.options.number_of_packs) * 8 + " booster packs.")

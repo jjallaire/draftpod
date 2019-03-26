@@ -8,7 +8,7 @@ export default {
 
   name: "Core Set 2019",
 
-  pack_cards: 15,
+  pack_cards: () => 15,
 
   cube: cube.build,
 

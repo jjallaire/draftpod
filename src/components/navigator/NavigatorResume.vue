@@ -42,10 +42,10 @@ export default {
       return selectors.activeCards(this.player.id, this.draft.table);
     },
     current_pack: function() {
-      return selectors.currentPack(this.player.id, this.draft.set.code, this.draft.table);
+      return selectors.currentPack(this.player.id, this.draft.set.code, this.options, this.draft.table);
     },
     current_pick: function() {
-      return selectors.currentPick(this.player.id, this.draft.set.code, this.draft.table);
+      return selectors.currentPick(this.player.id, this.draft.set.code, this.options, this.draft.table);
     },
     picks_complete: function() {
       return selectors.picksComplete(this.player.id, this.draft.set.code, this.options, this.draft.table);

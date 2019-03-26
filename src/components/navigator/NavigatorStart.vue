@@ -63,7 +63,11 @@ export default {
     ]),
     
     is_multi_player() {
-      return this.players === 'multiple';
+      return this.players.startsWith('multiple');
+    },
+
+    is_arena_mode() {
+      return this.players === 'multiple-arena';
     },
 
     is_editing_new_cardpool() {
@@ -87,6 +91,7 @@ export default {
     this.pick_ratings = this.preferences.pick_ratings;
     this.multi_player.player_name = this.player.name;
     this.applySetPreferences();
+    this.maybeInstallArenaMode();
   },
 
   beforeDestroy() {
@@ -121,7 +126,7 @@ export default {
         if (valid) {
           // if this is a multiplayer draft then it's already created 
           // so we simply join it
-          if (this.players === 'multiple') {
+          if (this.is_multi_player) {
 
             this.beginDraft(this.multi_player.draft_id);
 
@@ -144,8 +149,12 @@ export default {
     onPlayersChanged() {
 
       // if this is a request for a multi-player draft then create a new draft
-      if (this.players === 'multiple') {
+      if (this.is_multi_player) {
         
+        // if this is arena mode then force the 4/4/1/1 cardpool
+        if (this.is_arena_mode)
+          this.cardpool = CARDPOOL.CUBE + '4/4/1/1';
+
         // create the draft 
         this.createDraft().then(draft_id => {
           this.multi_player.draft_id = draft_id;
@@ -244,7 +253,7 @@ export default {
         }
 
         // validation for multi-user drafts
-        else if (this.players === 'multiple') {
+        else if (this.is_multi_player) {
 
           if (!this.multi_player.draft_id) {
             messagebox.alert("Unable to Start Draft", "Please wait for the draft be created before starting it.");
@@ -274,10 +283,10 @@ export default {
 
     createDraft() {
 
-      // check for special multi-player arena mode
+      // check for special multi-player arena mode, if we are in it then
+      // provide extra arena-specific options
       let extra_options = {};
-      let multi_player = this.players === 'multiple';
-      if (multi_player && this.$route.query.arena) {
+      if (this.is_arena_mode) {
         extra_options = {
           number_of_packs: 5,
           deck_size: 60,
@@ -291,7 +300,7 @@ export default {
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
-          multi_player: multi_player,
+          multi_player: this.is_multi_player,
           ...extra_options
         }
       });
@@ -350,10 +359,12 @@ export default {
       }
     },
 
-  }
+    maybeInstallArenaMode() {
+      if (this.$route && this.$route.query.arena === "8011DD5F-FBAB-49F3-AF69-E83F4852C4B8")
+        this.updatePreferences({ enable_arena_mode: true} )
+    }
 
-
-
+  },
 }
 
 </script>
@@ -431,6 +442,7 @@ export default {
       <PlayersSelect 
         ref="playersSelect" 
         v-model="players" 
+        :set_code="set_code"
         :disabled="is_editing_new_cardpool" 
         @input="onPlayersChanged"
       >
@@ -438,6 +450,7 @@ export default {
           <MultiplayerOptions 
             v-model="multi_player" 
             :players="multi_players" 
+            :arena_mode="is_arena_mode"
             @input="onMultiplayerOptionsChanged"
           />
         </div>
@@ -445,7 +458,6 @@ export default {
           <MultiplayerPending />
         </div>
       </PlayersSelect>
-      <br>
       <div class="form-group row">
         <div class="col-sm-10">
           <button 
@@ -470,9 +482,13 @@ export default {
   margin-bottom: 15px;
 }
 
+#start-draft {
+  margin-top: 16px;
+}
+
 .card-body.navigator-inline-panel {
   margin-top: 8px;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 15px;
 }
 

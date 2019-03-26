@@ -50,7 +50,7 @@ export function default_cube(set_code) {
 export function capabilities(set_code) {
   
   let default_capabilities = {
-    arena_draft: false,
+    arena_draft: true,
     custom_cardpool: true
   }
 
@@ -72,8 +72,8 @@ export function card_id_filter(set_code, id) {
     return id;
 }
 
-export function pack_cards(set_code) {
-  return sets[set_code].pack_cards;
+export function pack_cards(set_code, number_of_packs) {
+  return sets[set_code].pack_cards(number_of_packs);
 }
 
 export function cards(set_code) {
@@ -101,8 +101,8 @@ export function cube(set_code, cardsInSet, multiples) {
   return sets[set_code].cube(cardsInSet, multiples);
 }
 
-export function booster(set_code, cards) {
-  return sets[set_code].booster(cards);
+export function booster(set_code, cards, number_of_packs) {
+  return sets[set_code].booster(cards, number_of_packs);
 }
 
 

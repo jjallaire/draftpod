@@ -97,12 +97,12 @@ export default {
           return "Done";
 
         // determine if the player has finished the current pack
-        let playerPack = selectors.currentPack(player_id, this.set.code, this.table);
+        let playerPack = selectors.currentPack(player_id, this.set.code, this.options, this.table);
         if (playerPack > this.current_pack)
           return "Done";
       
         // display pick number
-        let playerPick = selectors.currentPick(player_id, this.set.code, this.table);
+        let playerPick = selectors.currentPick(player_id, this.set.code, this.options, this.table);
         return "Pick " + playerPick;
        
       } else {

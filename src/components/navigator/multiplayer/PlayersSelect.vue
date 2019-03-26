@@ -3,12 +3,20 @@
 
 <script>
 
+import * as set from '@/store/modules/draft/set/'
+
+import { mapState } from 'vuex'
+
 export default {
 
   name: 'PlayersSelect',
 
   props: {
     value: {
+      type: String,
+      required: true
+    },
+    set_code: {
       type: String,
       required: true
     },
@@ -25,8 +33,20 @@ export default {
   },
 
   computed: {
+
+    ...mapState([
+      'preferences'
+    ]),
+
+    arena_mode_available: function() {
+      if (set.capabilities(this.set_code).arena_draft && 
+          this.preferences.enable_arena_mode)
+        return true;
+      else
+        return false;
+    },
     is_multi_player: function() {
-      return this.inputVal === 'multiple';
+      return this.inputVal.startsWith('multiple');
     }
   },
 
@@ -61,7 +81,10 @@ export default {
           Single Player
         </option>
         <option value="multiple">
-          Multiple Players
+          Multiple Players<span v-if="arena_mode_available"> (Paper)</span>
+        </option>
+        <option v-if="arena_mode_available" value="multiple-arena">
+          Multiple Players (Arena)
         </option>
       </select>
       <div 
@@ -81,7 +104,11 @@ export default {
 }
 
 .players-multiple {
-  margin-top: 8px;
+  margin-top: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 </style>
