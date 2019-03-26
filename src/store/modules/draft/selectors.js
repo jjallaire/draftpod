@@ -16,6 +16,16 @@ export function cardImageUris(card) {
     return card.image_uris;
 }
 
+// get draft options (including defaults for new options introduced)
+export function draftOptions(draft) {
+  return {
+    number_of_packs: 3,
+    deck_size: 40,
+    deck_list_format: 'normal',
+    ...draft.options
+  };
+}
+
 // get card types
 export function cardTypes(cards) {
   return {
@@ -172,13 +182,13 @@ export function playerIndex(player_id, table) {
   return table.players.findIndex((player) => player.id === player_id);
 }
 
-export function picksComplete(player_id, set_code, table) {
+export function picksComplete(player_id, set_code, options, table) {
   
   if (table.picks_complete)
     return true;
 
   let cards_picked = activeCards(player_id, table).length;
-  let total_cards = set.pack_cards(set_code) * 3;
+  let total_cards = set.pack_cards(set_code) * options.number_of_packs;
   return cards_picked >= total_cards; 
 }
 
@@ -255,52 +265,72 @@ export function deckTotalCards(deck) {
 }
 
 
-export function deckList(deck) {
+export function deckList(set_code, format, deck) {
    
   let main_deck = _flatten(deck.piles.slice(0, DECK.SIDEBOARD));
-  let sideboard = deck.piles[DECK.SIDEBOARD];
+  let basic_lands = deckBasicLands(set_code, deck.lands);
+  let sideboard = deck.piles[DECK.SIDEBOARD].slice();
 
-  let basic_lands = [];
-  if (deck.lands.basic.W > 0)
-    basic_lands.push(deck.lands.basic.W + ' Plains');
-  if (deck.lands.basic.U > 0)
-    basic_lands.push(deck.lands.basic.U + ' Island');
-  if (deck.lands.basic.B > 0)
-    basic_lands.push(deck.lands.basic.B + ' Swamp');
-  if (deck.lands.basic.R > 0)
-    basic_lands.push(deck.lands.basic.R + ' Mountain');
-  if (deck.lands.basic.G > 0)
-    basic_lands.push(deck.lands.basic.G + ' Forest');
  
   // return deck list w/ main deck and sideboard
-  return asDeckList(main_deck) +
+  return asDeckList(set_code, format, main_deck) +
          '\n' +  
-         basic_lands.join('\n') +
+         asDeckList(set_code, format, basic_lands) +
          '\n\n' +
-         asDeckList(sideboard);
+         asDeckList(set_code, format, sideboard);
+}
+
+
+// get set-specific basic lands 
+function deckBasicLands(set_code, lands) {
+
+  // generate basic lands from this set
+  let cards = set.cards_cached(set_code);
+  const basicLands = (code, name) => {
+    return new Array(lands.basic[code])
+            .fill(cards.find(card => card.name === name))
+  }
+
+  // generate for all colors
+  let basic_lands = [
+    ...basicLands('W', 'Plains'),
+    ...basicLands('U', 'Island'),
+    ...basicLands('B', 'Swamp'),
+    ...basicLands('R', 'Mountain'),
+    ...basicLands('G', 'Forest')
+  ];
+
+  return basic_lands;
 }
 
 
 // function to produce a text deck list
-function asDeckList(cards) {
+function asDeckList(set_code, format, cards) {
     
   // order by collector_number
   let ordered_cards = cards
-    .slice()
     .sort((a,b) => a.collector_number - b.collector_number);
-  
-  // consolidate duplicates
-  let card_counts = {};
-  ordered_cards
-    .map((card) => {
-      if (!card_counts.hasOwnProperty(card.name))
-        card_counts[card.name] = 0;
-      card_counts[card.name]++;
-    }
-  );
 
-  return Object.keys(card_counts)
-    .map((name) => card_counts[name] + ' ' + name)
+  ordered_cards = ordered_cards
+    .reduce((ordered_cards, card) => {
+      if (!ordered_cards.hasOwnProperty(card.name)) {
+        ordered_cards[card.name] = {
+          count: 0,
+          collector_number: card.collector_number
+        };
+      }
+      ordered_cards[card.name].count++;
+      return ordered_cards;
+    }, {});
+
+  // return list
+  return Object.keys(ordered_cards)
+    .map((name) => {
+      let entry  = ordered_cards[name].count + ' ' + name;
+      if (format === 'arena')
+        entry = entry + ' (' + set_code.toUpperCase() + ') ' + ordered_cards[name].collector_number;
+      return entry;
+    })
     .join("\n");
 }
 
@@ -309,7 +339,7 @@ export function nextPlayerIndex(player_index, total_players, current_pack) {
 
   let next_player_index = 0;
 
-  if (current_pack === 2) {
+  if (current_pack % 2 === 0) {
 
     next_player_index = player_index + 1;
     if (next_player_index >= total_players)

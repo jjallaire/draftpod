@@ -219,7 +219,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 452873,
@@ -457,7 +457,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 3.5
+    "rating": 4
   },
   {
     "id": 452908,
@@ -808,7 +808,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 0
+    "rating": 1.5
   },
   {
     "id": 452757,
@@ -826,7 +826,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 0.5
+    "rating": 1.5
   },
   {
     "id": 452876,
@@ -844,7 +844,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 452914,
@@ -954,7 +954,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 4
+    "rating": 4.5
   },
   {
     "id": 452759,
@@ -972,7 +972,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 452785,
@@ -1027,7 +1027,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 2
   },
   {
     "id": 452786,
@@ -1064,7 +1064,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 1.5
   },
   {
     "id": 452916,
@@ -1431,7 +1431,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 0
+    "rating": 1.5
   },
   {
     "id": 452975,
@@ -1527,6 +1527,24 @@
     "rating": 3.5
   },
   {
+    "id": 455604,
+    "name": "Forest",
+    "collector_number": 264,
+    "multiverse_ids": [
+      455604
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d85892ae-dacd-4a55-a557-9db3c16017c7.jpg?1538881366"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
     "id": 452966,
     "name": "Fresh-Faced Recruit",
     "collector_number": 216,
@@ -1562,7 +1580,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 452985,
@@ -1612,7 +1630,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 452762,
@@ -1646,7 +1664,7 @@
     "cmc": 2,
     "colors": [],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 452923,
@@ -1665,7 +1683,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 452852,
@@ -1757,7 +1775,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 4
   },
   {
     "id": 452998,
@@ -1776,7 +1794,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 452987,
@@ -1795,7 +1813,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 452880,
@@ -1849,7 +1867,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 452821,
@@ -1901,7 +1919,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 452763,
@@ -1938,7 +1956,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 452882,
@@ -2176,7 +2194,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 452929,
@@ -2213,7 +2231,25 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
+  },
+  {
+    "id": 455601,
+    "name": "Island",
+    "collector_number": 261,
+    "multiverse_ids": [
+      455601
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/29bfbf3e-3a6c-40d4-8e1b-255f429de6cc.jpg?1538881329"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 0.5
   },
   {
     "id": 452930,
@@ -2251,7 +2287,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 1.5
   },
   {
     "id": 452988,
@@ -2270,7 +2306,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 452931,
@@ -2418,7 +2454,7 @@
       "U"
     ],
     "rarity": "mythic",
-    "rating": 4
+    "rating": 4.5
   },
   {
     "id": 452935,
@@ -2619,7 +2655,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 452938,
@@ -2656,7 +2692,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 452793,
@@ -2692,7 +2728,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 452826,
@@ -2823,6 +2859,24 @@
     "rating": 1.5
   },
   {
+    "id": 455603,
+    "name": "Mountain",
+    "collector_number": 263,
+    "multiverse_ids": [
+      455603
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7f918a49-a046-4115-80b8-13490ed5cd0a.jpg?1538881354"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 0
+  },
+  {
     "id": 452795,
     "name": "Murmuring Mystic",
     "collector_number": 45,
@@ -2874,7 +2928,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 452829,
@@ -2910,7 +2964,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 0.5
+    "rating": 1.5
   },
   {
     "id": 452941,
@@ -3003,7 +3057,7 @@
       "G"
     ],
     "rarity": "mythic",
-    "rating": 4.5
+    "rating": 5
   },
   {
     "id": 452944,
@@ -3022,7 +3076,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3.5
+    "rating": 4
   },
   {
     "id": 452799,
@@ -3077,7 +3131,7 @@
       "G"
     ],
     "rarity": "rare",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 452889,
@@ -3095,7 +3149,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 452772,
@@ -3149,7 +3203,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 0
+    "rating": 0.5
   },
   {
     "id": 452891,
@@ -3242,6 +3296,24 @@
     ],
     "rarity": "uncommon",
     "rating": 3.5
+  },
+  {
+    "id": 455600,
+    "name": "Plains",
+    "collector_number": 260,
+    "multiverse_ids": [
+      455600
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/9/b983acda-68b6-468b-b0c1-aad8b53db49c.jpg?1538881321"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 0.5
   },
   {
     "id": 452892,
@@ -3422,7 +3494,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 452863,
@@ -3606,7 +3678,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 1.5
   },
   {
     "id": 452835,
@@ -3824,7 +3896,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 452867,
@@ -3842,7 +3914,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 0
+    "rating": 1
   },
   {
     "id": 452950,
@@ -3861,7 +3933,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5
+    "rating": 2
   },
   {
     "id": 452776,
@@ -3897,7 +3969,25 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
+  },
+  {
+    "id": 455602,
+    "name": "Swamp",
+    "collector_number": 262,
+    "multiverse_ids": [
+      455602
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/d/bdd5a7f0-5ad3-44e8-a103-07739fd53630.jpg?1538881339"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 0
   },
   {
     "id": 452951,
@@ -3972,7 +4062,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 452954,
@@ -4139,7 +4229,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1
+    "rating": 1.5
   },
   {
     "id": 452958,
@@ -4214,7 +4304,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2
+    "rating": 2.5
   },
   {
     "id": 452961,
@@ -4251,7 +4341,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5
+    "rating": 3
   },
   {
     "id": 452962,
@@ -4379,7 +4469,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 0
+    "rating": 1.5
   },
   {
     "id": 452897,
@@ -4468,7 +4558,7 @@
     "cmc": 1,
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0
+    "rating": 0.5
   },
   {
     "id": 452899,
@@ -4523,7 +4613,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 3
+    "rating": 3.5
   },
   {
     "id": 452964,
