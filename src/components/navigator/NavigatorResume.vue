@@ -32,6 +32,9 @@ export default {
     draft: function() {
       return this.draft_info(this.draft_id);
     },
+    options: function() {
+      return selectors.draftOptions(this.draft);
+    },
     active_player: function() {
       return selectors.activePlayer(this.player.id, this.draft.table);
     },
@@ -45,7 +48,7 @@ export default {
       return selectors.currentPick(this.player.id, this.draft.set.code, this.draft.table);
     },
     picks_complete: function() {
-      return selectors.picksComplete(this.player.id, this.draft.set.code, this.draft.table);
+      return selectors.picksComplete(this.player.id, this.draft.set.code, this.options, this.draft.table);
     },
     card_preview_image: function() {
       return selectors.draftThumbnail(this.player.id, this.draft);
@@ -76,7 +79,7 @@ export default {
         <h4>{{ draft.set.name }}</h4>
         <p>
           <span v-if="picks_complete">
-            Deck: {{ deck_total_cards }} / 40
+            Deck: {{ deck_total_cards }} / {{ options.deck_size }}
           </span>
           <span v-else>
             Pack {{ current_pack }}, Pick {{ current_pick }}

@@ -11,15 +11,19 @@ import { DECK } from '@/store/modules/draft/constants'
 
 
 export default {
-  name: 'Deck',
+  name: 'DeckPanel',
 
   components: {
     UiPanel, MtgCardPile, DeckDownload, DeckView, DeckLands
   },
 
   props: {
-    set_name: {
-      type: String,
+    set: {
+      type: Object,
+      required: true
+    },
+    options: {
+      type: Object,
       required: true
     },
     deck: {
@@ -33,7 +37,10 @@ export default {
       return this.deck.piles;
     },
     deck_list: function() {
-      return selectors.deckList(this.deck);
+      return selectors.deckList(this.set.code, this.options.deck_list_format, this.deck);
+    },
+    normal_deck_list: function() {
+      return selectors.deckList(this.set.code, 'normal', this.deck);
     },
     deck_total_cards: function() {
       return selectors.deckTotalCards(this.deck);
@@ -70,7 +77,7 @@ export default {
 
 <template>
   <UiPanel 
-    :caption="'Deck: ' + deck_total_cards + ' / 40'" 
+    :caption="'Deck: ' + deck_total_cards + ' / ' + options.deck_size" 
     class="deck"
   >
     <template slot="header-left">
@@ -83,8 +90,8 @@ export default {
     <template slot="header-right">
       <DeckView :deck_list="deck_list" />
       <DeckDownload 
-        :set_name="set_name" 
-        :deck_list="deck_list"
+        :set="set" 
+        :deck_list="normal_deck_list"
       />
     </template>
     <div class="deck-piles deck-piles-top">

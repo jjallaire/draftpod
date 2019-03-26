@@ -191,7 +191,10 @@ function completeCardpoolUpload(set_code, cards, deckbox, complete) {
     cards = cards.filter((card) => cardsInSet.includes(card.id));
     let total_cards = selectors.countCardpoolCards(cards);
 
-    // establish how many cards we need for this set
+    // establish how many cards we need for a standard 
+    // 3-pack draft of this set (we don't bother checking
+    // for a 5-pack draft b/c Arena/MTGO drafts will 
+    // use a custom cardpoool limited to 4/4/1/1)
     let set_cards_required = 24 * set.pack_cards(set_code);
 
     // if this leaves us with no cards then that's an error

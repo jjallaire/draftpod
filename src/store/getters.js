@@ -28,6 +28,9 @@ export default {
           if (isOrphanedDraft(getters.player.id, draft))
             return null;
 
+          // get options
+          let options = selectors.draftOptions(draft);
+
           // alias player
           let player = selectors.activePlayer(getters.player.id, draft.table);
 
@@ -38,7 +41,7 @@ export default {
             set_name: draft.set.name,
             current_pack: selectors.currentPack(getters.player.id, draft.set.code, draft.table),
             current_pick: selectors.currentPick(getters.player.id, draft.set.code, draft.table),
-            picks_complete: selectors.picksComplete(getters.player.id, draft.set.code, draft.table),
+            picks_complete: selectors.picksComplete(getters.player.id, draft.set.code, options, draft.table),
             deck_total_cards: selectors.deckTotalCards(player.deck),
             card_colors: selectors.playerColors(getters.player.id, draft.table),
           }
@@ -56,7 +59,8 @@ export default {
     let history = getters.draft_history;
     if (history.length > 0) {
       let last_draft = history[0];
-      if (last_draft.deck_total_cards < 40)
+      let options = selectors.draftOptions(getters.draft(last_draft.id));
+      if (last_draft.deck_total_cards < options.deck_size)
         return last_draft;
       else
         return null;
