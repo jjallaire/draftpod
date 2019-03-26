@@ -15,8 +15,8 @@ export default {
   },
 
   props: {
-    set: {
-      type: Object,
+    set_name: {
+      type: String,
       required: true
     },
     deck_list: {
@@ -35,7 +35,7 @@ export default {
       // draft file/folder name
       let log = this.generateDraftLog();
       let dateString = new Date(log.time).toISOString();
-      let draftName =  this.set.name + " (" + dateString + ")";
+      let draftName =  this.set_name + " (" + dateString + ")";
 
       let README = `This archive contains a record of your draft:
 

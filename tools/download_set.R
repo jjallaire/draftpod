@@ -137,18 +137,14 @@ download_cards <- function(cards,
   
   # filter out collector number > threshold
   max_collector_number <- switch(set,
-                                 rna = 264,
-                                 grn = 264,
+                                 rna = 259,
+                                 grn = 259,
                                  m19 = 280,
                                  dom = 269,
                                  xln = 279,
                                  rix = 196,
-                                 
-                                 # NOTE: need to reconfirm that these have the
-                                 # right numbers for inclusion of basics
-                                 # (kld does, aer appears to have no basics!)
                                  kld = 264,
-                                 aer = 184, 
+                                 aer = 184,
                                  akh = 269,
                                  hou = 199,
                                  `cube_gnt` = 1000)

@@ -12,7 +12,7 @@
 457155,"Hero of Precinct One",3.5
 457156,"Impassioned Orator",1.5
 457157,"Justiciar's Portal",1
-457158,"Knight of Sorrows",1.5
+457158,"Knight of Sorrows",1
 457159,"Lumbering Battlement",3.5
 457160,"Ministrant of Obligation",3.5
 457161,"Prowling Caracal",1
@@ -32,7 +32,7 @@
 457175,"Arrester's Admonition",3
 457176,"Benthic Biomancer",3
 457177,"Chillbringer",3.5
-457178,"Clear the Mind",1
+457178,"Clear the Mind",0.5
 457179,"Code of Constraint",3
 457180,"Coral Commando",1
 457181,"Essence Capture",3
@@ -59,9 +59,9 @@
 457202,"Verity Circle",2.5
 457203,"Wall of Lost Thoughts",1
 457204,"Windstorm Drake",3
-457205,"Awaken the Erstwhile",0.5
-457206,"Bankrupt in Blood",0.5
-457207,"Blade Juggler",3.5
+457205,"Awaken the Erstwhile",0
+457206,"Bankrupt in Blood",0
+457207,"Blade Juggler",3
 457208,"Bladebrand",2.5
 457209,"Bloodmist Infiltrator",2
 457210,"Carrion Imp",2
@@ -84,7 +84,7 @@
 457227,"Priest of Forgotten Gods",3
 457228,"Rakdos Trumpeter",2
 457229,"Spawn of Mayhem",4.5
-457230,"Spire Mangler",3
+457230,"Spire Mangler",2.5
 457231,"Thirsting Shade",1
 457232,"Undercity Scavenger",2.5
 457233,"Undercity's Embrace",2
@@ -125,7 +125,7 @@
 457268,"End-Raze Forerunners",3.5
 457269,"Enraged Ceratok",3
 457270,"Gatebreaker Ram",3.5
-457271,"Gift of Strength",2
+457271,"Gift of Strength",1.5
 457272,"Growth-Chamber Guardian",3.5
 457273,"Gruul Beastmaster",3.5
 457274,"Guardian Project",3.5
@@ -145,7 +145,7 @@
 457288,"Sylvan Brushstrider",1.5
 457289,"Territorial Boar",2.5
 457290,"Titanic Brawl",3
-457291,"Tower Defense",1
+457291,"Tower Defense",0.5
 457292,"Trollbred Guardian",3.5
 457293,"Wilderness Reclamation",1.5
 457294,"Wrecking Beast",2
@@ -207,7 +207,7 @@
 457350,"Sharktocrab",4
 457351,"Simic Ascendancy",3
 457352,"Sphinx of New Prahv",3.5
-457353,"Sphinx's Insight",2.5
+457353,"Sphinx's Insight",2
 457354,"Sunder Shaman",3.5
 457355,"Syndicate Guildmage",3
 457356,"Teysa Karlov",3.5
@@ -229,32 +229,27 @@
 457372,"Revival // Revenge",3
 457373,"Thrash // Threat",4
 457374,"Warrant // Warden",3.5
-457375,"Azorius Locket",1
+457375,"Azorius Locket",2.5
 457376,"Gate Colossus",3.5
 457377,"Glass of the Guildpact",2
-457378,"Gruul Locket",1
+457378,"Gruul Locket",2
 457379,"Junktroller",1
-457380,"Orzhov Locket",1
-457381,"Rakdos Locket",1
+457380,"Orzhov Locket",2.5
+457381,"Rakdos Locket",1.5
 457382,"Scrabbling Claws",0
 457383,"Screaming Shield",1
-457384,"Simic Locket",1
+457384,"Simic Locket",2
 457385,"Sphinx of the Guildpact",3
 457386,"Tome of the Guildpact",2.5
-457387,"Azorius Guildgate",2
+457387,"Azorius Guildgate",2.5
 457389,"Blood Crypt",2.5
 457390,"Breeding Pool",2.5
 457391,"Gateway Plaza",2.5
 457392,"Godless Shrine",2.5
-457393,"Gruul Guildgate",1.5
+457393,"Gruul Guildgate",2.5
 457395,"Hallowed Fountain",2.5
 457396,"Orzhov Guildgate",2.5
 457398,"Plaza of Harmony",2
 457399,"Rakdos Guildgate",2
-457401,"Simic Guildgate",1.5
+457401,"Simic Guildgate",2.5
 457403,"Stomping Ground",3
-459994,"Plains",0
-459995,"Island",0
-459996,"Swamp",0
-459997,"Mountain",0
-459998,"Forest",0
