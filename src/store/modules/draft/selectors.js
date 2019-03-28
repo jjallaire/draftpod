@@ -268,16 +268,36 @@ export function deckTotalCards(deck) {
 export function deckList(set_code, format, deck) {
    
   let main_deck = _flatten(deck.piles.slice(0, DECK.SIDEBOARD));
-  let basic_lands = deckBasicLands(set_code, deck.lands);
-  let sideboard = deck.piles[DECK.SIDEBOARD].slice();
+  let main_deck_list = asDeckList(set_code, format, main_deck);
 
- 
+  let sideboard = deck.piles[DECK.SIDEBOARD].slice();
+  let sideboard_list = asDeckList(set_code, format, sideboard);
+
+  let basic_lands_list = null;
+  if (format === 'arena') {
+    let basic_lands = deckBasicLands(set_code, deck.lands);
+    basic_lands_list = asDeckList(set_code, format, basic_lands);
+  } else {
+    let basic_lands = [];
+    if (deck.lands.basic.W > 0)
+      basic_lands.push(deck.lands.basic.W + ' Plains');
+    if (deck.lands.basic.U > 0)
+      basic_lands.push(deck.lands.basic.U + ' Island');
+    if (deck.lands.basic.B > 0)
+      basic_lands.push(deck.lands.basic.B + ' Swamp');
+    if (deck.lands.basic.R > 0)
+      basic_lands.push(deck.lands.basic.R + ' Mountain');
+    if (deck.lands.basic.G > 0)
+      basic_lands.push(deck.lands.basic.G + ' Forest');
+    basic_lands_list = basic_lands.join('\n');
+  }
+  
   // return deck list w/ main deck and sideboard
-  return asDeckList(set_code, format, main_deck) +
+  return main_deck_list +
          '\n' +  
-         asDeckList(set_code, format, basic_lands) +
+         basic_lands_list +
          '\n\n' +
-         asDeckList(set_code, format, sideboard);
+         sideboard_list;
 }
 
 
