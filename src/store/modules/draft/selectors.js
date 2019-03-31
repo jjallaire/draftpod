@@ -283,13 +283,19 @@ export function deckTotalCards(deck) {
 }
 
 // TODO: write unit tests
+// TODO: choice in the window of what sort of decklist to use
 // TODO: notice in the window that the deck has been converted to 60
+// TODO: should we do something about variable projections when the deck changes?
+// TODO: should it just be that we detect adds/removes and apply them to the arena decklst?
+// TODO: should we auto-cap at 4x the incoming decklist / land list
 
 
 export function arenaDeckList(set_code, deck) {
 
-  // determine card types / proportions.
+  // clone the deck so we aren't mutating it directly
   deck = _cloneDeep(deck);
+
+  // determine card types / proportions.
   let total_cards = deckTotalCards(deck);
   let cards = deckCards(deck);
   let card_types = cardTypes(cards);
