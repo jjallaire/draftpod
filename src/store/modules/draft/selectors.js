@@ -284,9 +284,7 @@ export function deckTotalCards(deck) {
 
 // TODO: write unit tests
 // TODO: choice in the window of what sort of decklist to use
-// TODO: notice in the window that the deck has been converted to 60
-// TODO: should we do something about variable projections when the deck changes?
-// TODO: should it just be that we detect adds/removes and apply them to the arena decklst?
+//   - notice in the window that the deck has been converted to 60
 // TODO: should we auto-cap at 4x the incoming decklist / land list
 
 
