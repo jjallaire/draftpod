@@ -328,7 +328,7 @@ export function arenaDeckList(set_code, deck) {
   let creatures_pct = (card_types.creatures + eliminated.creatures) / total_cards;
   let other_pct = (card_types.other + eliminated.other) / total_cards;
   let total_land = deckLandCount(deck);
-  let lands_pct = (total_land + eliminated.land) / total_cards;
+  let lands_pct = (total_land + eliminated.lands) / total_cards;
  
   // determine cards required to reach the spell/land ratio.
   const kDeckSize = 60;
@@ -424,8 +424,13 @@ export function arenaDeckList(set_code, deck) {
   let non_basic_required = Math.max(non_basic_target - non_basic_lands, 0);
   addCards('lands', non_basic_required, DECK.LANDS);
   
-  // auto compute basics
-  deck.lands.basic = computeAutoLands(deck, kDeckSize, target_land);
+  // recompute auto lands for new deck
+  if (deck.lands.auto) {
+    deck.lands.basic = autoLands(deck, kDeckSize, target_land);
+  // manual basic lands mode: mirror that mana balance exactly
+  } else {
+    deck.lands.basic = computeBasicLands(deck.lands.basic, deck.piles[DECK.LANDS], target_land)
+  }
   
   // return deck list
   return deckList(set_code, 'arena', deck);
@@ -578,7 +583,7 @@ export function cardDeckPileIndex(card) {
   return pileIndex;
 }
 
-export function computeAutoLands(deck, deck_size, total_land_cards) {
+export function autoLands(deck, deck_size) {
 
   // get the cards in the deck
   let cards = _flatten(deck.piles.slice(0, DECK.PILES));
@@ -597,14 +602,18 @@ export function computeAutoLands(deck, deck_size, total_land_cards) {
   card_colors = countColors(cards, color_ranking);
 
   // establish total lands required
-  if (!total_land_cards) {
-    if (deck_size === 40)
-      total_land_cards = 17;
-    else if (deck_size === 60)
-      total_land_cards = 24;
-    else
-      total_land_cards = Math.round(deck_size * 0.4);
-  }
+  let total_land_cards = null;
+  if (deck_size === 40)
+    total_land_cards = 17;
+  else if (deck_size === 60)
+    total_land_cards = 24;
+  else
+    total_land_cards = Math.round(deck_size * 0.4);
+
+  return computeBasicLands(card_colors, deck.piles[DECK.LANDS], total_land_cards);
+}
+
+function computeBasicLands(card_colors, non_basic_lands, total_land_cards) {
 
   // compute the target number of mana sources we need in our mana base  
   let total_card_colors = sumValues(card_colors);
@@ -617,7 +626,7 @@ export function computeAutoLands(deck, deck_size, total_land_cards) {
   });
 
   // now count existing sources of mana (e.g. dual lands)
-  let lands = deck.piles[DECK.LANDS];
+  let lands = non_basic_lands;
   let mana_existing = countColors(lands);
 
   // adjust for existing mana sources 

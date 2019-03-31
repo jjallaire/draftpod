@@ -463,7 +463,7 @@ function deckToUnplayed(player_id, options, table, card, targetPile) {
   
   // apply auto-lands if necessary
   if (deck.lands.auto)
-    deck.lands.basic = selectors.computeAutoLands(deck, options.deck_size);
+    deck.lands.basic = selectors.autoLands(deck, options.deck_size);
 }
 
 function unplayedToDeck(player_id, options, table, card, sourcePile) {
@@ -482,7 +482,7 @@ function unplayedToDeck(player_id, options, table, card, sourcePile) {
 
   // apply auto-lands if necessary
   if (deck.lands.auto)
-    deck.lands.basic = selectors.computeAutoLands(deck, options.deck_size);
+    deck.lands.basic = selectors.autoLands(deck, options.deck_size);
 }
 
 function movePicksToDeck(player, options) {
@@ -509,7 +509,7 @@ function movePicksToDeck(player, options) {
   orderUnplayedPiles(deck);
   
   // apply auto lands
-  deck.lands.basic = selectors.computeAutoLands(deck, options.deck_size);
+  deck.lands.basic = selectors.autoLands(deck, options.deck_size);
 }
 
 function completePicks(table) {
