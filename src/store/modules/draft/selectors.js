@@ -285,22 +285,50 @@ export function deckTotalCards(deck) {
 // TODO: write unit tests
 // TODO: choice in the window of what sort of decklist to use
 //   - notice in the window that the deck has been converted to 60
-// TODO: should we auto-cap at 4x the incoming decklist / land list
-
 
 export function arenaDeckList(set_code, deck) {
 
   // clone the deck so we aren't mutating it directly
   deck = _cloneDeep(deck);
 
-  // determine card types / proportions.
+  // note total_cards
   let total_cards = deckTotalCards(deck);
+
+  // look for cards that have more than 4x and eliminate them
+  // (note total eliminated so it doesn't affect our proportions)
+  let cardCounts = {};
+  let eliminated = {
+    creatures: 0,
+    other: 0,
+    lands: 0
+  }
+  for (let p = 0; p<deck.piles.length; p++) {
+    let pile = deck.piles[p];
+    for (let i = (pile.length-1); i >= 0; i--) {
+      let card = pile[i];
+      if (!cardCounts.hasOwnProperty(card.name))
+        cardCounts[card.name] = 0;
+      if (cardCounts[card.name] >= 4) {
+        pile.splice(i, 1);
+        if (p < (DECK.PILES/2))
+          eliminated.creatures++;
+        else if (p < DECK.PILES)
+          eliminated.other++;
+        else if (p === DECK.LANDS)
+          eliminated.lands++;
+      }
+      else
+        cardCounts[card.name]++;
+    }
+  }
+
+  // determine card types / proportions.
   let cards = deckCards(deck);
   let card_types = cardTypes(cards);
-  let creatures_pct = card_types.creatures / total_cards;
-  let other_pct = card_types.other / total_cards;
+  let creatures_pct = (card_types.creatures + eliminated.creatures) / total_cards;
+  let other_pct = (card_types.other + eliminated.other) / total_cards;
   let total_land = deckLandCount(deck);
-  let lands_pct = total_land / total_cards;
+  let lands_pct = (total_land + eliminated.land) / total_cards;
  
   // determine cards required to reach the spell/land ratio.
   const kDeckSize = 60;
