@@ -22,7 +22,6 @@ import { WRITE_TABLE, SET_CONNECTED, SET_WAITING, CLEAR_WAITING,
 
 import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
-import _omit from 'lodash/omit'
 
 import * as log from '@/core/log'
 import * as set from './set/'
@@ -442,24 +441,12 @@ function draftBotPickAndPass(player_index, set_code, options, table) {
   } while(current_index !== player_index);
 }
 
-function cardToDeckPile(player, c, deck) {
+function cardToDeckPile(c, deck) {
 
   // add card to pile
   let card = JSON.parse(JSON.stringify(c));
   let deck_piles = deck.piles;
-  let pileIndex = null;
-
-  if (filters.land(card)) {
-    pileIndex = DECK.LANDS;
-  } else {
-    let offset = filters.creature(card) ? 0 : DECK.PILES / 2;
-    if (card.cmc <= 1)
-      pileIndex = offset;
-    else if (card.cmc >= 6)
-      pileIndex = offset + 5;
-    else
-      pileIndex = offset + card.cmc - 1;
-  }
+  let pileIndex = selectors.cardDeckPileIndex(card);
   deck_piles[pileIndex].push(card);
 
   // return the pile index
@@ -476,7 +463,7 @@ function deckToUnplayed(player_id, options, table, card, targetPile) {
   
   // apply auto-lands if necessary
   if (deck.lands.auto)
-    deck.lands.basic = computeAutoLands(deck, options.deck_size);
+    deck.lands.basic = selectors.computeAutoLands(deck, options.deck_size);
 }
 
 function unplayedToDeck(player_id, options, table, card, sourcePile) {
@@ -487,7 +474,7 @@ function unplayedToDeck(player_id, options, table, card, sourcePile) {
   source.splice(cardIndex(source, card), 1);
 
   // card to deck pile
-  let pileIndex = cardToDeckPile(player, card, deck);
+  let pileIndex = cardToDeckPile(card, deck);
   deck.piles[pileIndex] = orderDeckPile(deck.piles[pileIndex]);
 
   // sort unplayed
@@ -495,7 +482,7 @@ function unplayedToDeck(player_id, options, table, card, sourcePile) {
 
   // apply auto-lands if necessary
   if (deck.lands.auto)
-    deck.lands.basic = computeAutoLands(deck, options.deck_size);
+    deck.lands.basic = selectors.computeAutoLands(deck, options.deck_size);
 }
 
 function movePicksToDeck(player, options) {
@@ -504,7 +491,7 @@ function movePicksToDeck(player, options) {
   let picks = player.picks;
   let deck = player.deck;
   picks.piles.slice(0, PICKS.PILES).forEach(function(pile) {
-    pile.forEach((c) => cardToDeckPile(player, c, deck));
+    pile.forEach((c) => cardToDeckPile(c, deck));
   });
 
   // sideboard cards
@@ -522,7 +509,7 @@ function movePicksToDeck(player, options) {
   orderUnplayedPiles(deck);
   
   // apply auto lands
-  deck.lands.basic = computeAutoLands(deck, options.deck_size);
+  deck.lands.basic = selectors.computeAutoLands(deck, options.deck_size);
 }
 
 function completePicks(table) {
@@ -546,200 +533,15 @@ function completePicks(table) {
 }
 
 
-function computeAutoLands(deck, deck_size) {
 
-  // get the cards in the deck
-  let cards = _flatten(deck.piles.slice(0, DECK.PILES));
-
-  // if there are no cards then return no lands
-  if (cards.length === 0)
-    return { R: 0, W: 0, B: 0, U: 0, G: 0 };
-
-  // count the cards in each color
-  let card_colors = countColors(cards);
-
-  // use this to rank-order the most commonly appearing colors
-  let color_ranking = rankColors(card_colors);
-
-  // count again w/ the color_ranking
-  card_colors = countColors(cards, color_ranking);
-
-  // establish total lands required
-  let total_land_cards = null;
-  if (deck_size === 40)
-    total_land_cards = 17;
-  else if (deck_size === 60)
-    total_land_cards = 24;
-  else
-    total_land_cards = Math.round(deck_size * 0.4);
-
-  // compute the target number of mana sources we need in our mana base  
-  let total_card_colors = selectors.sumValues(card_colors);
-  let mana_targets = {};
-  Object.keys(card_colors).map(color => {
-    let target = (card_colors[color] / total_card_colors) * total_land_cards;
-    if (target > 0)
-      target = Math.max(target, 1);
-    mana_targets[color] = target;
-  });
-
-  // now count existing sources of mana (e.g. dual lands)
-  let lands = deck.piles[DECK.LANDS];
-  let mana_existing = countColors(lands);
-
-  // adjust for existing mana sources 
-  let mana_required = {};
-  Object.keys(mana_targets).map(
-    color => {
-      let target = mana_targets[color];
-      if (target > 0)
-        // ensure at least 1 mana required (prevent total_mana_required === 0)
-        mana_required[color] = Math.max(mana_targets[color] - mana_existing[color], 1);
-      else
-        mana_required[color] = 0;
-    }
-  )
-
-  // take total after adjustment (used to calculate new % values)
-  let total_mana_required = selectors.sumValues(mana_required);
-
-  // function to yield basic lands
-  let basic_lands_required = total_land_cards - lands.length;
-  function basicLands(rounder) {
-    let basic_lands = {};
-    Object.keys(mana_required).map(function (color) {
-      let lands = mana_required[color] / total_mana_required * basic_lands_required;
-      if (rounder)
-        lands = rounder(lands);
-      basic_lands[color] = lands;
-    });
-    return basic_lands;
-  }
-
-  // tweak until the rounded version has the right sum
-  let basic_lands = basicLands();
-  let basic_lands_rounded = basicLands(Math.round);
-  let basic_lands_rounded_sum = selectors.sumValues(basic_lands_rounded);
-  while (basic_lands_rounded_sum != basic_lands_required) {
-    let is_rounded_larger = basic_lands_rounded_sum > basic_lands_required;
-    let max_difference_color = null;
-    let max_difference_value = 0;
-    let colors = Object.keys(basic_lands);
-    for (let i = 0; i < colors.length; i++) {
-      let color = colors[i];
-      let difference = Math.abs(basic_lands_rounded[color] - basic_lands[color]);
-      if (max_difference_value < difference) {
-        if ((is_rounded_larger && basic_lands_rounded[color] > basic_lands[color]) ||
-          (!is_rounded_larger && basic_lands_rounded[color] < basic_lands[color])) {
-          max_difference_value = difference;
-          max_difference_color = color;
-        }
-      }
-    }
-    let modify_value = is_rounded_larger ? -1 : 1;
-    basic_lands_rounded[max_difference_color] += modify_value;
-    basic_lands_rounded_sum += modify_value;
-  }
-
-  // return basic lands
-  return basic_lands_rounded;
-}
-
-// count colors in sets of cards
-function countColors(cards, color_ranking) {
-  let all_colors = ['B', 'U', 'W', 'R', 'G'];
-  let color_regex = /[BUWRG/]+(?=\})/g;
-  function colorReducer(accumulator, card) {
-    if (card.mana_cost !== null && card.mana_cost !== "") {
-      let card_colors = card.mana_cost.match(color_regex) || [];
-      for (let i = 0; i < card_colors.length; i++) {
-        let card_color = card_colors[i];
-        // apply ranking if we have one and are dealing w/ multiple 
-        // color options to play the card
-        if (color_ranking) {
-          let colors = card_color.split('/');
-          if (colors.length === 2) {
-            // exclude split colors if we can pay for the other color in our top 2
-            if (color_ranking.indexOf(colors[0]) < 2 && color_ranking.indexOf(colors[1]) >= 2)
-              card_color = colors[0];
-            else if (color_ranking.indexOf(colors[1]) < 2 && color_ranking.indexOf(colors[0]) >= 2)
-              card_color = colors[1];
-          }
-        }
-        for (let c = 0; c < all_colors.length; c++) {
-          if (card_color.indexOf(all_colors[c]) !== -1)
-            accumulator[all_colors[c]]++;
-        }
-      }
-    } else {
-      for (let i = 0; i < card.colors.length; i++)
-        accumulator[card.colors[i]]++;
-    }
-    return accumulator;
-  }
-
-  return cards.reduce(colorReducer, { R: 0, W: 0, B: 0, U: 0, G: 0 });
-}
-
-function rankColors(card_colors) {
-  return Object.keys(card_colors)
-    .map((color) => { return { color: color, count: card_colors[color] } })
-    .sort((a, b) => b.count - a.count)
-    .map((x) => x.color);
-}
 
 function orderDeckPile(pile) {
   return _orderBy(pile, ["cmc", "name"], ["asc", "asc"]);
 }
 
 function orderUnplayedPiles(deck) {
-  deck.piles[DECK.SIDEBOARD] = orderUnplayedPile(deck, deck.piles[DECK.SIDEBOARD]);
-  deck.piles[DECK.UNUSED] = orderUnplayedPile(deck, deck.piles[DECK.UNUSED]);
-}
-
-function orderUnplayedPile(deck, pile) {
-  
-  // function to reduce colors to a single string
-  const asColor = colors => {
-    if (colors.length > 0)
-      return colors.join();
-    else
-      return "C"; // colorless 
-  };
-
-  // count incidence of different colors in deck
-  let colorCounts = selectors.deckCards(deck).reduce((counts, card) => {
-    // ignore lands
-    if (filters.land(card))
-      return counts;
-    // count colors
-    function incrementColor(color) {
-      if (!counts.hasOwnProperty(color))
-        counts[color] = 0;
-      counts[color] = counts[color] + 1;
-    }
-    card.colors.forEach(incrementColor);
-    incrementColor(asColor(card.colors));
-    return counts;
-  }, {});
-
-  // genereate sort fields
-  let cards = pile.map((card) => { 
-    return { 
-      ...card, 
-      creature: filters.creature(card) ? 1 : 0,
-      colorTag: asColor(card.colors),
-      colorOrder: colorCounts[asColor(card.colors)] || 0,
-    }
-  }); 
-
-  // return sorted array of cards (w/o sort fields)
-  return _orderBy(cards, 
-    ["colorOrder",  "colorTag", "creature", "cmc"], 
-    ["desc", "asc", "desc", "asc"]
-  ).map(card => {
-    return _omit(card, ["colorOrder",  "colorTag", "creature"]);
-  });
+  deck.piles[DECK.SIDEBOARD] = selectors.orderUnplayedPile(deck, DECK.SIDEBOARD);
+  deck.piles[DECK.UNUSED] = selectors.orderUnplayedPile(deck, DECK.UNUSED);
 }
 
 function pileToPile(player, card, pile_number, piles, insertBefore) {

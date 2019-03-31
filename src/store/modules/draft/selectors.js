@@ -1,4 +1,9 @@
 import _flatten from 'lodash/flatten'
+import _shuffle from 'lodash/shuffle'
+import _cloneDeep from 'lodash/cloneDeep'
+import _omit from 'lodash/omit'
+import _orderBy from 'lodash/orderBy'
+import _pullAt from 'lodash/pullAt'
 
 import * as filters from './card-filters'
 import * as draftbot from './draftbot'
@@ -26,14 +31,27 @@ export function draftOptions(draft) {
   };
 }
 
-// get card types
-export function cardTypes(cards) {
+// get cards by type
+export function cardsByType(cards) {
   return {
-    creatures: cards.filter(filters.creature).length,
-    other: cards.filter((card) => !filters.creature(card) && !filters.land(card)).length,
-    lands: cards.filter(filters.land).length
+    creatures: cards.filter(filters.creature),
+    other: cards.filter((card) => !filters.creature(card) && !filters.land(card)),
+    lands: cards.filter(filters.land)
   }
 }
+
+
+// get card types
+export function cardTypes(cards) {
+  let byType = cardsByType(cards);
+  return {
+    creatures: byType.creatures.length,
+    other: byType.other.length,
+    lands: byType.lands.length
+  }
+}
+
+
 
 export function cardColorInfo(code) {
   switch(code) {
@@ -257,13 +275,129 @@ export function deckCards(deck) {
 
 export function deckLandCount(deck) {
   let basic_lands = deck.lands.basic;
-  return deck.piles[DECK.PILES].length + sumValues(basic_lands);
+  return deck.piles[DECK.LANDS].length + sumValues(basic_lands);
 }
 
 export function deckTotalCards(deck) {
   return deckCards(deck).length + deckLandCount(deck);
 }
 
+// TODO: write unit tests
+// TODO: notice in the window that the deck has been converted to 60
+
+
+export function arenaDeckList(set_code, deck) {
+
+  // determine card types / proportions.
+  deck = _cloneDeep(deck);
+  let total_cards = deckTotalCards(deck);
+  let cards = deckCards(deck);
+  let card_types = cardTypes(cards);
+  let creatures_pct = card_types.creatures / total_cards;
+  let other_pct = card_types.other / total_cards;
+  let total_land = deckLandCount(deck);
+  let lands_pct = total_land / total_cards;
+ 
+  // determine cards required to reach the spell/land ratio.
+  const kDeckSize = 60;
+  let target_non_land = Math.ceil((creatures_pct + other_pct) * kDeckSize);
+  let target_land = Math.floor(lands_pct * kDeckSize);
+  let target_gap = kDeckSize - (target_non_land + target_land)
+  target_non_land = target_non_land + target_gap;
+
+  // if we are using the default 23/17 ratio then this will result
+  // in targets of 35/25. tweak this to 36/24
+  if (target_non_land === 35 && target_land === 25) {
+    target_non_land = 36;
+    target_land = 24;
+  }
+  let total_non_land = card_types.creatures + card_types.other;
+  let non_land_required = Math.max(target_non_land - total_non_land, 0);
+  let land_required = Math.max(target_land - total_land, 0);
+  let cards_required = non_land_required + land_required;
+  let creatures_required = Math.round(creatures_pct * cards_required);
+  let other_required = Math.round(other_pct * cards_required);
+
+  // ensure that we are covering all of the required non lands (the
+  // calculations above could have left us off by 1 due to rounding)
+  let non_land_gap = non_land_required - (creatures_required + other_required);
+  creatures_required = creatures_required + non_land_gap;
+
+  // remove rares then get cards by type 
+  const withoutRaresOrMythics = cards => {
+    return cards.filter(card => !filters.rare(card) && !filters.mythic(card));
+  }
+  let eligibleCards = withoutRaresOrMythics(cards);
+  eligibleCards = cardsByType(eligibleCards);
+
+  // randomly order cards
+  eligibleCards.creatures = _shuffle(eligibleCards.creatures);
+  eligibleCards.other = _shuffle(eligibleCards.other);
+  eligibleCards.lands = _shuffle(eligibleCards.lands);
+  
+  // add the cards (checking for no more than 4x)
+  function addCards(availableCards, cards_required, targetPile, entirePool = false) {
+
+    if (typeof availableCards === 'string')
+      availableCards = eligibleCards[availableCards];
+
+    let addedCards = 0;
+    for (let i = 0; i<availableCards.length; i++) {
+      let card = availableCards[i];
+      // check for 4x limit then add
+      let existingCards = cardsInDeck(card, deck, entirePool);
+      if (existingCards < 4) {
+        card = JSON.parse(JSON.stringify(card));
+        let pileIndex = targetPile || cardDeckPileIndex(card);
+        deck.piles[pileIndex].push(card);
+        addedCards++;
+        if (addedCards === cards_required)
+          break;
+      }   
+    }
+  }
+  addCards('creatures', creatures_required);
+  addCards('other', other_required);
+  
+  // remove any cards from the sideboard that already have 
+  // 4 in the main deck
+  let sideboardRemoveCards = [];
+  for (let i = 0; i<deck.piles[DECK.SIDEBOARD].length; i++) {
+    let card = deck.piles[DECK.SIDEBOARD][i];
+    if (cardsInDeck(card, deck) >= 4)
+      sideboardRemoveCards.push(i);
+  }
+  _pullAt(deck.piles[DECK.SIDEBOARD], sideboardRemoveCards);
+  
+  // ensure the sideboard is no more than 15 cards
+  if (deck.piles[DECK.SIDEBOARD].length > 15) {
+    // take the highest rated 15 cards in our deck's colors
+    let sideboard = orderUnplayedPile(deck, DECK.SIDEBOARD, true);
+    sideboard = _orderBy(sideboard, ["rating"], ["desc"]).slice(0, 15);
+    deck.piles[DECK.SIDEBOARD] = sideboard;
+  // fill the sideboard proportionally if it's less than 15
+  } else if (deck.piles[DECK.SIDEBOARD].length < 15) {
+    let sideboard = deck.piles[DECK.SIDEBOARD];
+    let addToCount = Math.min(15, sideboard.length * 0.5);
+    let eligibleSideboardCards = _shuffle(withoutRaresOrMythics(sideboard));
+    addCards(eligibleSideboardCards, addToCount, DECK.SIDEBOARD, true);
+  }
+  // re-order sideboard
+  deck.piles[DECK.SIDEBOARD] = orderUnplayedPile(deck, DECK.SIDEBOARD);
+  
+  // recalculate lands (keep proportion of special lands)
+  let non_basic_lands = deck.piles[DECK.LANDS].length;
+  let non_basic_pct = non_basic_lands / deckLandCount(deck);
+  let non_basic_target = Math.floor(target_land * non_basic_pct);
+  let non_basic_required = Math.max(non_basic_target - non_basic_lands, 0);
+  addCards('lands', non_basic_required, DECK.LANDS);
+  
+  // auto compute basics
+  deck.lands.basic = computeAutoLands(deck, kDeckSize, target_land);
+  
+  // return deck list
+  return deckList(set_code, 'arena', deck);
+}
 
 export function deckList(set_code, format, deck) {
    
@@ -300,6 +434,12 @@ export function deckList(set_code, format, deck) {
          sideboard_list;
 }
 
+
+function cardsInDeck(card, deck, entirePool = false) {
+  let end = entirePool ? DECK.UNUSED : DECK.SIDEBOARD;
+  let cards = _flatten(deck.piles.slice(0, end));
+  return cards.filter(c => c.name === card.name).length;
+}
 
 // get set-specific basic lands 
 function deckBasicLands(set_code, lands) {
@@ -383,4 +523,220 @@ export function sumValues(object) {
   return Object.keys(object)
     .map(val => object[val])
     .reduce((total, count) => total + count, 0);
+}
+
+
+export function cardDeckPileIndex(card) {
+
+  let pileIndex = null;
+
+  if (filters.land(card)) {
+    pileIndex = DECK.LANDS;
+  } else {
+    let offset = filters.creature(card) ? 0 : DECK.PILES / 2;
+    if (card.cmc <= 1)
+      pileIndex = offset;
+    else if (card.cmc >= 6)
+      pileIndex = offset + 5;
+    else
+      pileIndex = offset + card.cmc - 1;
+  }
+
+  // return the pile index
+  return pileIndex;
+}
+
+export function computeAutoLands(deck, deck_size, total_land_cards) {
+
+  // get the cards in the deck
+  let cards = _flatten(deck.piles.slice(0, DECK.PILES));
+
+  // if there are no cards then return no lands
+  if (cards.length === 0)
+    return { R: 0, W: 0, B: 0, U: 0, G: 0 };
+
+  // count the cards in each color
+  let card_colors = countColors(cards);
+
+  // use this to rank-order the most commonly appearing colors
+  let color_ranking = rankColors(card_colors);
+
+  // count again w/ the color_ranking
+  card_colors = countColors(cards, color_ranking);
+
+  // establish total lands required
+  if (!total_land_cards) {
+    if (deck_size === 40)
+      total_land_cards = 17;
+    else if (deck_size === 60)
+      total_land_cards = 24;
+    else
+      total_land_cards = Math.round(deck_size * 0.4);
+  }
+
+  // compute the target number of mana sources we need in our mana base  
+  let total_card_colors = sumValues(card_colors);
+  let mana_targets = {};
+  Object.keys(card_colors).map(color => {
+    let target = (card_colors[color] / total_card_colors) * total_land_cards;
+    if (target > 0)
+      target = Math.max(target, 1);
+    mana_targets[color] = target;
+  });
+
+  // now count existing sources of mana (e.g. dual lands)
+  let lands = deck.piles[DECK.LANDS];
+  let mana_existing = countColors(lands);
+
+  // adjust for existing mana sources 
+  let mana_required = {};
+  Object.keys(mana_targets).map(
+    color => {
+      let target = mana_targets[color];
+      if (target > 0)
+        // ensure at least 1 mana required (prevent total_mana_required === 0)
+        mana_required[color] = Math.max(mana_targets[color] - mana_existing[color], 1);
+      else
+        mana_required[color] = 0;
+    }
+  )
+
+  // take total after adjustment (used to calculate new % values)
+  let total_mana_required = sumValues(mana_required);
+
+  // function to yield basic lands
+  let basic_lands_required = total_land_cards - lands.length;
+  function basicLands(rounder) {
+    let basic_lands = {};
+    Object.keys(mana_required).map(function (color) {
+      let lands = mana_required[color] / total_mana_required * basic_lands_required;
+      if (rounder)
+        lands = rounder(lands);
+      basic_lands[color] = lands;
+    });
+    return basic_lands;
+  }
+
+  // tweak until the rounded version has the right sum
+  let basic_lands = basicLands();
+  let basic_lands_rounded = basicLands(Math.round);
+  let basic_lands_rounded_sum = sumValues(basic_lands_rounded);
+  while (basic_lands_rounded_sum != basic_lands_required) {
+    let is_rounded_larger = basic_lands_rounded_sum > basic_lands_required;
+    let max_difference_color = null;
+    let max_difference_value = 0;
+    let colors = Object.keys(basic_lands);
+    for (let i = 0; i < colors.length; i++) {
+      let color = colors[i];
+      let difference = Math.abs(basic_lands_rounded[color] - basic_lands[color]);
+      if (max_difference_value < difference) {
+        if ((is_rounded_larger && basic_lands_rounded[color] > basic_lands[color]) ||
+          (!is_rounded_larger && basic_lands_rounded[color] < basic_lands[color])) {
+          max_difference_value = difference;
+          max_difference_color = color;
+        }
+      }
+    }
+    let modify_value = is_rounded_larger ? -1 : 1;
+    basic_lands_rounded[max_difference_color] += modify_value;
+    basic_lands_rounded_sum += modify_value;
+  }
+
+  // return basic lands
+  return basic_lands_rounded;
+}
+
+export function orderUnplayedPile(deck, pile_index, deckColorsOnly = false) {
+  
+  // resolve pile
+  let pile = deck.piles[pile_index]
+
+  // function to reduce colors to a single string
+  const asColor = colors => {
+    if (colors.length > 0)
+      return colors.join();
+    else
+      return "C"; // colorless 
+  };
+
+  // count incidence of different colors in deck
+  let colorCounts = deckCards(deck).reduce((counts, card) => {
+    // ignore lands
+    if (filters.land(card))
+      return counts;
+    // count colors
+    function incrementColor(color) {
+      if (!counts.hasOwnProperty(color))
+        counts[color] = 0;
+      counts[color] = counts[color] + 1;
+    }
+    card.colors.forEach(incrementColor);
+    incrementColor(asColor(card.colors));
+    return counts;
+  }, {});
+
+  // genereate sort fields
+  let cards = pile.map((card) => { 
+    return { 
+      ...card, 
+      creature: filters.creature(card) ? 1 : 0,
+      colorTag: asColor(card.colors),
+      colorOrder: colorCounts[asColor(card.colors)] || 0,
+    }
+  }); 
+
+  // if it's deck colors only then filter out colorOrder === 0
+  if (deckColorsOnly)
+    cards = cards.filter(card => card.colorOrder > 0)
+
+  // return sorted array of cards (w/o sort fields)
+  return _orderBy(cards, 
+    ["colorOrder",  "colorTag", "creature", "cmc"], 
+    ["desc", "asc", "desc", "asc"]
+  ).map(card => {
+    return _omit(card, ["colorOrder",  "colorTag", "creature"]);
+  });
+}
+
+// count colors in sets of cards
+function countColors(cards, color_ranking) {
+  let all_colors = ['B', 'U', 'W', 'R', 'G'];
+  let color_regex = /[BUWRG/]+(?=\})/g;
+  function colorReducer(accumulator, card) {
+    if (card.mana_cost !== null && card.mana_cost !== "") {
+      let card_colors = card.mana_cost.match(color_regex) || [];
+      for (let i = 0; i < card_colors.length; i++) {
+        let card_color = card_colors[i];
+        // apply ranking if we have one and are dealing w/ multiple 
+        // color options to play the card
+        if (color_ranking) {
+          let colors = card_color.split('/');
+          if (colors.length === 2) {
+            // exclude split colors if we can pay for the other color in our top 2
+            if (color_ranking.indexOf(colors[0]) < 2 && color_ranking.indexOf(colors[1]) >= 2)
+              card_color = colors[0];
+            else if (color_ranking.indexOf(colors[1]) < 2 && color_ranking.indexOf(colors[0]) >= 2)
+              card_color = colors[1];
+          }
+        }
+        for (let c = 0; c < all_colors.length; c++) {
+          if (card_color.indexOf(all_colors[c]) !== -1)
+            accumulator[all_colors[c]]++;
+        }
+      }
+    } else {
+      for (let i = 0; i < card.colors.length; i++)
+        accumulator[card.colors[i]]++;
+    }
+    return accumulator;
+  }
+
+  return cards.reduce(colorReducer, { R: 0, W: 0, B: 0, U: 0, G: 0 });
+}
+
+function rankColors(card_colors) {
+  return Object.keys(card_colors)
+    .map((color) => { return { color: color, count: card_colors[color] } })
+    .sort((a, b) => b.count - a.count)
+    .map((x) => x.color);
 }

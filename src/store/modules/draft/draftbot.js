@@ -1,4 +1,6 @@
 
+import { normalRandom, sampleFrom } from '@/core/random'
+
 // create a new draft bot
 export function create() {
   return {
@@ -210,24 +212,3 @@ function colorBonus(deck, deck_colors, card) {
 
 }
 
-
-// function to yield a number from normal random distribution
-function normalRandom(mean, variance) {
-  let v1, v2, s;
-  do {
-    let u1 = Math.random();
-    let u2 = Math.random();
-    v1 = 2 * u1 - 1;
-    v2 = 2 * u2 - 1;
-    s = v1 * v1 + v2 * v2;
-  } while (s > 1);
-  let x = Math.sqrt(-2 * Math.log(s) / s) * v1;
-  x = mean + Math.sqrt(variance) * x;
-  return x;
-}
-
-function sampleFrom(arr) {
-  let index = Math.floor(Math.random() * arr.length);
-  index = Math.min(index, arr.length - 1);
-  return arr[index];
-}

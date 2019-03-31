@@ -39,6 +39,9 @@ export default {
     deck_list: function() {
       return selectors.deckList(this.set.code, this.options.deck_list_format, this.deck);
     },
+    arena_deck_list: function() {
+      return selectors.arenaDeckList(this.set.code, this.deck);
+    },
     normal_deck_list: function() {
       return selectors.deckList(this.set.code, 'normal', this.deck);
     },
@@ -88,7 +91,7 @@ export default {
       </div>
     </template>
     <template slot="header-right">
-      <DeckView :deck_list="deck_list" />
+      <DeckView :deck_list="arena_deck_list" />
       <DeckDownload 
         :set="set" 
         :deck_list="normal_deck_list"
