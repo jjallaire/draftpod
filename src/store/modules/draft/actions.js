@@ -136,11 +136,13 @@ export default {
     });
   },
 
-  [DISABLE_AUTO_LANDS]({ commit, state }, { player_id, color_order }) {
+  [DISABLE_AUTO_LANDS]({ commit, state }, { player_id, set_color, color_order }) {
     return updateTable({ commit, state }, player_id, (table) => {
       let deck = selectors.activePlayer(player_id, table).deck;
       deck.lands.auto = false;
       deck.lands.color_order = color_order;
+      if (set_color)
+        deck.lands.basic[set_color.color] = set_color.lands;
     });
   },
 
