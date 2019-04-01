@@ -2,18 +2,29 @@
 
 import ViewIcon from "vue-material-design-icons/ViewList.vue"
 
-import * as messagebox from '@/components/core/messagebox.js'
+import DeckViewDialog from './DeckViewDialog.vue'
+
 
 export default {
 
   name: 'DeckView',
 
   components: {
-    ViewIcon
+    ViewIcon, DeckViewDialog
   },
 
   props: {
-    deck_list: {
+    set_code: {
+      type: String,
+      required: true
+    },
+
+    deck: {
+      type: Object,
+      required: true
+    },
+
+    format: {
       type: String,
       required: true
     }
@@ -21,7 +32,7 @@ export default {
 
   methods: {
     onViewDeck(event) {
-      messagebox.alert("Decklist", "<textarea readonly class='deck-list'>" + this.deck_list + "</textarea>", null, "Close");
+      this.$refs.deckViewDialog.show(this.set_code, this.deck, this.format);
       event.target.blur();
     }
   },
@@ -37,6 +48,9 @@ export default {
     <ViewIcon /> View <span class="btn-extra-text">
       Decklist
     </span>
+
+    <DeckViewDialog ref="deckViewDialog" />
+
   </button>
 </template>
 
