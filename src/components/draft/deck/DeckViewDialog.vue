@@ -174,11 +174,10 @@ export default {
   padding-bottom: 0;
 }
 
-#decklistDialog .modal-header button {
+#decklistDialog button {
   color: inherit; 
+  min-width: 100px;
 }
-
-
 
 .decklist-content {
   width: 100%;
