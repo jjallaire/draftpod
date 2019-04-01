@@ -283,8 +283,14 @@ export function deckTotalCards(deck) {
 }
 
 // TODO: write unit tests
+// TODO: or perhaps for this mode just bring back Copy Decklist
+// (but you still neeed View Declist for paper mode)
 // TODO: choice in the window of what sort of decklist to use
 //   - notice in the window that the deck has been converted to 60
+// TODO: Rix enchantments to lands is broken
+// TODO: Gates higher
+// TODO: RIX split packs w/ IXN
+
 
 export function arenaDeckList(set_code, deck) {
 
