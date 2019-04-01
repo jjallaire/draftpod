@@ -8,6 +8,8 @@ import jquery from 'jquery'
 
 import * as log from '@/core/log'
 
+import * as utils from '@/components/core/utils'
+
 export default {
   name: 'MultiplayerOptions',
 
@@ -86,42 +88,9 @@ export default {
     },
 
     selectJoinUrl(select) {
-
       // get reference to the join url textarea
       let joinUrl = this.$refs["joinUrl"];
-      
-      // on iOS we need to do a special dance to make it selectable
-      let isiOSDevice = navigator.userAgent.match(/ipad|iphone/i);
-      if (isiOSDevice) {
-
-        let editable = joinUrl.contentEditable;
-
-        joinUrl.contentEditable = true;
-
-        var selection = window.getSelection();
-        selection.removeAllRanges();
-
-        if (select) {
-          let range = document.createRange();
-          range.selectNodeContents(joinUrl);
-          selection.addRange(range);
-          joinUrl.setSelectionRange(0, 999999);
-        } else {
-          joinUrl.setSelectionRange(0,0);
-        }
-
-        joinUrl.contentEditable = editable;
-
-      // in most environments we can just call select()
-      } else {
-        if (select)
-          joinUrl.select();
-        else
-          window.getSelection().removeAllRanges();
-      }
-
-      // blur
-      joinUrl.blur();
+      utils.textareaCopySelection(joinUrl, select);
     },
 
     onClipboardSuccess() {

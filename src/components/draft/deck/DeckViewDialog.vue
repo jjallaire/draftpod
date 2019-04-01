@@ -2,12 +2,21 @@
 
 <script>
 
+import ClipboardIcon from "vue-material-design-icons/ClipboardTextOutline.vue"
+
 import jquery from 'jquery'
 
 import * as selectors from '@/store/modules/draft/selectors'
 
+import * as log from '@/core/log'
+import * as utils from '@/components/core/utils'
+
 export default {
   name: 'DeckViewDialog',
+
+  components: {
+    ClipboardIcon
+  },
 
   data: function() {
     return {
@@ -40,11 +49,20 @@ export default {
   },
 
   mounted() {
+    // ensure we are a child of the body
     window.document.body.appendChild(this.$el);
+
+    // clear fields on hide
     jquery(this.$el).on('hidden.bs.modal', () => {
       this.deck = null;
       this.set_code = null;
       this.format = null;
+    });
+
+    // setup copy tooltip
+    jquery('#copy-deck-list-to-clipboard').tooltip({
+      title: 'Decklist copied!',
+      trigger: 'manual'
     });
   },
 
@@ -57,10 +75,44 @@ export default {
       this.deck = deck;
       let dialog = jquery(this.$refs.dialog);
       dialog.modal();
+    },
+
+    onCopyDecklist(event) {
+      
+      event.stopPropagation();
+      event.preventDefault();
+
+      // select the join url
+      this.selectDecklist(true);
+
+      try {
+
+        // perform the copy
+        document.execCommand('copy');
+
+        // remove selection
+        this.selectDecklist(false);
+    
+        // show success message
+        this.showCopyTooltip();
+
+      } catch(error) {
+        log.logException(error, "onCopyJoinURL");
+      }
+    },
+
+    selectDecklist(select) {
+      let activeDecklist = jquery("#decklistDialog .nav-tabs .active").attr('data-target');
+      let decklist = jquery(activeDecklist + " > textarea")[0];
+      utils.textareaCopySelection(decklist, select);
+    },
+
+    showCopyTooltip() {
+      let copyDecklist = jquery('#copy-deck-list-to-clipboard');
+      copyDecklist.tooltip('show');
+      setTimeout(() => copyDecklist.tooltip('hide'), 1500);
     }
-
-  }
-
+  },
 }
 
 </script>
@@ -72,15 +124,16 @@ export default {
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 id="decklistDialogTitle" class="modal-title">Decklist</h5>
+          <h5 id="decklistDialogTitle" class="modal-title">Decklist</h5> 
+          <button id="copy-deck-list-to-clipboard" class="btn btn-sm btn-primary" @click="onCopyDecklist"><ClipboardIcon /> Copy to Clipboard</button>
         </div>
         <div class="modal-body">
           <ul class="nav nav-tabs nav-fill">
             <li class="nav-item">
-              <a id="standard-deck-list-tab" data-toggle="tab" role="tab" class="nav-link active" href="#standard-deck-list" aria-controls="standard-deck-list">Standard Format</a>
+              <a id="standard-deck-list-tab" data-toggle="tab" role="tab" class="nav-link active" data-target="#standard-deck-list" aria-controls="standard-deck-list">Standard Format</a>
             </li>
             <li class="nav-item">
-              <a id="arena-deck-list-tab" class="nav-link" data-toggle="tab" role="tab" href="#arena-deck-list" aria-controls="arena-deck-list">MTGA Format</a>
+              <a id="arena-deck-list-tab" class="nav-link" data-toggle="tab" role="tab" data-target="#arena-deck-list" aria-controls="arena-deck-list">MTGA Format</a>
             </li>
           </ul>
           <div class="tab-content decklist-content">
@@ -89,7 +142,7 @@ export default {
             </div>
             <div id="arena-deck-list" class="tab-pane fade" role="tabpanel" aria-labelledby="arena-deck-list-tab">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" v-model="arena_convert" id="arena-convert-to-60">
+                <input id="arena-convert-to-60" v-model="arena_convert" class="form-check-input" type="checkbox">
                 <label class="form-check-label" for="arena-convert-to-60">
                   Convert to 60 card deck (required for Arena Direct Challenge)
                 </label>
@@ -101,6 +154,7 @@ export default {
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
         </div>
+       
       </div>
     </div>
   </div>
@@ -119,6 +173,12 @@ export default {
   padding-top: 0;
   padding-bottom: 0;
 }
+
+#decklistDialog .modal-header button {
+  color: inherit; 
+}
+
+
 
 .decklist-content {
   width: 100%;
