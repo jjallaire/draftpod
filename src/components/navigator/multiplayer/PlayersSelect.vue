@@ -3,8 +3,6 @@
 
 <script>
 
-import * as set from '@/store/modules/draft/set/'
-
 import { mapState } from 'vuex'
 
 export default {
@@ -39,11 +37,16 @@ export default {
     ]),
 
     arena_mode_available: function() {
+      return false;
+
+      // we now use decklist projection for arena rather than a specific mode
+      /*
       if (set.capabilities(this.set_code).arena_draft && 
           this.preferences.enable_arena_mode)
         return true;
       else
         return false;
+      */
     },
     is_multi_player: function() {
       return this.inputVal.startsWith('multiple');
