@@ -73,16 +73,15 @@ export default {
 
     handleLandInput: function(color, event) {
       
-      // code to apply input
-      const applyInput = () => {
-        let lands = parseInt(event.target.value);
-        if (!isNaN(lands))
-          this.setBasicLands({color, lands});
-      };
+      // parse lands
+      let lands = parseInt(event.target.value);
 
       // if we are in auto-lands then prompt
       if (this.deck.lands.auto) {
         
+        // set_color to pass to disableAutoLands
+        let set_color = !isNaN(lands) ? { color, lands } : null;
+
         messagebox.confirm(
           "Disable Auto Lands",
           "<p>Editing the number of lands will disable auto-lands " + 
@@ -91,11 +90,9 @@ export default {
           () => {
             // disable auto-lands
             this.disableAutoLands({
+              set_color,
               color_order: this.colors.map((count) => count.color)
-            }).then(() => {
-              // apply the user's original input
-              applyInput();
-            });          
+            });         
           },
           () => {
             // revert to previous value
@@ -103,10 +100,9 @@ export default {
           });
        
       } else {
-
         // we are already in manual mode so just apply the input
-        applyInput();
-
+        if (!isNaN(lands))
+          this.setBasicLands({color, lands});
       }
     },
 
