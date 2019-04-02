@@ -91,7 +91,7 @@ export default {
       this.set_code = set_code;
       this.format = format;
       this.deck = deck;
-      this.arena_60 = selectors.arenaDeckList(this.set_code, this.deck);
+      this.arena_60 = selectors.arena60CardDeckList(this.set_code, this.deck);
       let dialog = jquery(this.$refs.dialog);
       dialog.modal();
       this.$nextTick(() => {

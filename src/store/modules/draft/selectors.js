@@ -282,12 +282,7 @@ export function deckTotalCards(deck) {
   return deckCards(deck).length + deckLandCount(deck);
 }
 
-// TODO: write unit tests
-
-// TODO: unable to activate MTGA sometimes (second draft w/ different set)
-
-
-export function arenaDeckList(set_code, deck) {
+export function arena60CardDeckList(set_code, deck) {
 
   // clone the deck so we aren't mutating it directly
   deck = _cloneDeep(deck);
