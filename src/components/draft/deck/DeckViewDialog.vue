@@ -2,6 +2,7 @@
 
 <script>
 
+import HelpIcon from "vue-material-design-icons/HelpCircleOutline.vue"
 import ClipboardIcon from "vue-material-design-icons/ClipboardTextOutline.vue"
 
 import jquery from 'jquery'
@@ -16,7 +17,7 @@ export default {
   name: 'DeckViewDialog',
 
   components: {
-    ClipboardIcon
+    ClipboardIcon, HelpIcon
   },
 
   data: function() {
@@ -60,12 +61,22 @@ export default {
       this.deck = null;
       this.set_code = null;
       this.format = null;
+      this.arena_60 = null;
     });
 
     // setup copy tooltip
     jquery('#copy-deck-list-to-clipboard').tooltip({
       title: 'Decklist copied!',
       trigger: 'manual'
+    });
+
+    // setup arena 60 popover
+    jquery('#arena-convert-help-popover').popover({
+      trigger: 'hover',
+      content: 'MTG Arena decklists produced by Draftpod automatically expand your 40 card deck ' +
+               'to 60 cards. For example, if you have 23 non-lands in your deck, 13 ' + 
+               'of them (selected at random) will be duplicated so that you end up with 36 non-lands. ' + 
+               'Note that the ratio between creatures and non-creatures in your deck will be preserved.'
     });
   },
 
@@ -137,7 +148,7 @@ export default {
             <li v-show="arena_deck_list" class="nav-item">
               <a id="standard-deck-list-tab" data-toggle="tab" role="tab" class="nav-link active" data-target="#standard-deck-list" aria-controls="standard-deck-list">Standard Format</a>
             </li>
-            <li v-if="arena_deck_list" class="nav-item">
+            <li v-show="arena_deck_list" class="nav-item">
               <a id="arena-deck-list-tab" class="nav-link" data-toggle="tab" role="tab" data-target="#arena-deck-list" aria-controls="arena-deck-list">MTGA Format</a>
             </li>
           </ul>
@@ -145,12 +156,15 @@ export default {
             <div id="standard-deck-list" class="tab-pane show active" role="tabpanel" aria-labelledby="standard-deck-list-tab">
               <textarea id="standard-deck-list-cards" v-model="standard_deck_list" readonly />
             </div>
-            <div v-if="arena_deck_list" id="arena-deck-list" class="tab-pane fade" role="tabpanel" aria-labelledby="arena-deck-list-tab">
+            <div v-show="arena_deck_list" id="arena-deck-list" class="tab-pane fade" role="tabpanel" aria-labelledby="arena-deck-list-tab">
               <div class="form-check">
                 <input id="arena-convert-to-60" v-model="arena_convert" class="form-check-input" type="checkbox">
                 <label class="form-check-label" for="arena-convert-to-60">
                   Convert to 60 card deck (required for Arena Direct Challenge)
                 </label>
+                <button id="arena-convert-help-popover" class="icon-button" data-toggle="popover" data-placement="bottom">
+                  <HelpIcon id="arena-convert-help-icon" title="" />
+                </button>
               </div>
               <textarea id="arena-deck-list-cards" v-model="arena_deck_list" readonly />
             </div>
@@ -186,6 +200,26 @@ export default {
 #decklistDialog button {
   color: inherit; 
   min-width: 100px;
+}
+
+#decklistDialog .icon-button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: 0;
+  background: transparent;
+  min-width: initial;
+}
+
+#decklistDialog .popover {
+  width: 300px;
+}
+
+
+#arena-convert-help-icon svg {
+  width: 18px;
+  height: 18px;
 }
 
 .decklist-content {

@@ -2,9 +2,9 @@
 
 Multi-player mode enables you to conduct a simulated 8-person draft even when you have only have 2 or 3 actual players available. While there are other ways to draft with a small handful of players, they inevitably compromise on depth and quantity of available cards, so aren't nearly as rich in strategy (and fun!) as a full draft. Draftpod multi-player mode lets you draft with a friend or small group in a fashion that feels much more like a real 8-player draft.
 
-In multi-player mode you conduct the draft online (along with draft bots that fill in an 8 person table), and then use the resulting decklists to either assemble decks from paper magic cards that you already have, or play games using MTG Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ).
+In multi-player mode you conduct the draft online (along with draft bots that fill in an 8 person table), and then use the resulting deck lists to either assemble decks from a paper set cube, or play games online using MTG Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ).
 
-To play using paper cards, you will need to [assemble a cube](/guide/#cardpools) for the set you are drafting. To play games on MTG Arena, you will need to have a reasonably complete collection of cards (and/or available wildcards) for the set you are playing with.
+To play using paper cards, you will need to [create a cube](/guide/#cardpools) for the set you are drafting. To play games on MTG Arena, you will need to have a reasonably complete collection of cards (and/or available wildcards) for the set you are playing with.
 
 ### Drafting
 
@@ -39,7 +39,7 @@ After you make all of your picks, you'll end up in deck-building mode where you 
 
 If you are playing with paper cards, you can then pull these cards from your cardpool and begin playing. Note that the decklist is presented in collector number order (i.e. by color, ordered alphabetically within each color). If you sort/store your cardpool in this order it only takes a couple of minutes to pull out the cards.
 
-If you are playing using MTG Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ), you should choose the MTGA Format, copy your decklist to the clipboard, then import it into MTGA before playing:
+If you are playing using MTG Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ), you should select **MTGA Format**, copy your decklist to the clipboard, then import it into MTGA before playing:
 
 <p>
 <img src="/images/guide/multi-player-decklist-arena.png" width="100%" />
@@ -60,7 +60,7 @@ Once you've copied your MTG Arena decklist to the clipboard, you can import it i
 
 MTG Arena games should be initiated using the [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ) feature, which supports both best of 1 and best of 3 matches.
 
-Note that Direct Challenge requires 60 card decks, whereas in Draftpod you build 40 card decks. To bridge this gap, MTG Arena decklists produced by Draftpod automatically expand your 40 card deck to 60 cards. For example, if you have 23 non-land cards in your draft deck, 13 of these cards will be duplicated so that you have 36 non-land cards. While the individual cards to duplicate are selected at random, the overall balance in your deck between creatures and non-creatures (e.g. instants, sorceries, etc.) is preserved.
+Note that Direct Challenge requires 60 card decks, whereas in Draftpod you build 40 card decks. To bridge this gap, MTG Arena decklists produced by Draftpod automatically expand your 40 card deck to 60 cards. For example, if you have 23 non-lands in your deck, 13 of them (selected at random) will be duplicated so that you end up with 36 non-lands. Note that the ratio between creatures and non-creatures in your deck will be preserved.
 
 ### Playing in Person
 
