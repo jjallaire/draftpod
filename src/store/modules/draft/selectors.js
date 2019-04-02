@@ -361,12 +361,8 @@ export function arenaDeckList(set_code, deck) {
   let non_land_gap = non_land_required - (creatures_required + other_required);
   creatures_required = creatures_required + non_land_gap;
 
-  // remove rares then get cards by type 
-  const withoutRaresOrMythics = cards => {
-    return cards.filter(card => !filters.rare(card) && !filters.mythic(card));
-  }
-  let eligibleCards = withoutRaresOrMythics(cards);
-  eligibleCards = cardsByType(eligibleCards);
+  // get cards by type 
+  let eligibleCards = cardsByType(cards);
 
   // randomly order cards
   eligibleCards.creatures = _shuffle(eligibleCards.creatures);
