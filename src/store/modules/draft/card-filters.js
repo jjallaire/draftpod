@@ -34,7 +34,7 @@ export function creature(card) {
 
 export function land(card) {
   if (card.type_line)
-    return card.type_line.includes("Land");
+    return card.type_line.includes("Land") && !card.type_line.includes("//");
   else
     return false;
 }
