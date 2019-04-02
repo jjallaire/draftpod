@@ -25,10 +25,6 @@ export default {
     players: {
       type: Array,
       required: true
-    },
-    arena_mode: {
-      type: Boolean,
-      required: true
     }
   },
 
@@ -108,11 +104,6 @@ export default {
 <template>
   <div class="multiplayer-options">
     <div class="form-group">
-      <p v-if="arena_mode">
-        You can play drafted decks on MTG Arena using 
-        <a href="https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ" target="_blank">Direct Challenge</a> mode.
-        This requires 60 card decks, so you will draft 5 packs rather than 3. 
-      </p>
       <label for="multiplayer-draft-name">
         Host player:
       </label>

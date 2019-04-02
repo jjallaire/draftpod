@@ -50,7 +50,7 @@ export function default_cube(set_code) {
 export function capabilities(set_code) {
   
   let default_capabilities = {
-    arena_draft: true,
+    arena_decklists: true,
     custom_cardpool: true
   }
 

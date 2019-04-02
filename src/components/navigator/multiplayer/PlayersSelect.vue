@@ -36,18 +36,6 @@ export default {
       'preferences'
     ]),
 
-    arena_mode_available: function() {
-      return false;
-
-      // we now use decklist projection for arena rather than a specific mode
-      /*
-      if (set.capabilities(this.set_code).arena_draft && 
-          this.preferences.enable_arena_mode)
-        return true;
-      else
-        return false;
-      */
-    },
     is_multi_player: function() {
       return this.inputVal.startsWith('multiple');
     }
@@ -84,10 +72,7 @@ export default {
           Single Player
         </option>
         <option value="multiple">
-          Multiple Players<span v-if="arena_mode_available"> (Paper)</span>
-        </option>
-        <option v-if="arena_mode_available" value="multiple-arena">
-          Multiple Players (Arena)
+          Multiple Players
         </option>
       </select>
       <div 

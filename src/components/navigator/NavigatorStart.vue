@@ -66,10 +66,6 @@ export default {
       return this.players.startsWith('multiple');
     },
 
-    is_arena_mode() {
-      return this.players === 'multiple-arena';
-    },
-
     is_editing_new_cardpool() {
       return this.cardpool === 'new-cardpool';
     },
@@ -91,7 +87,6 @@ export default {
     this.pick_ratings = this.preferences.pick_ratings;
     this.multi_player.player_name = this.player.name;
     this.applySetPreferences();
-    this.maybeInstallArenaMode();
   },
 
   beforeDestroy() {
@@ -151,10 +146,6 @@ export default {
       // if this is a request for a multi-player draft then create a new draft
       if (this.is_multi_player) {
         
-        // if this is arena mode then force the 4/4/1/1 cardpool
-        if (this.is_arena_mode)
-          this.cardpool = CARDPOOL.CUBE + '4/4/1/1';
-
         // create the draft 
         this.createDraft().then(draft_id => {
           this.multi_player.draft_id = draft_id;
@@ -283,25 +274,13 @@ export default {
 
     createDraft() {
 
-      // check for special multi-player arena mode, if we are in it then
-      // provide extra arena-specific options
-      let extra_options = {};
-      if (this.is_arena_mode) {
-        extra_options = {
-          number_of_packs: 5,
-          deck_size: 60,
-          deck_list_format: 'arena'
-        }
-      }
-
       return this.initDraft({ 
         set_code: this.set_code, 
         cardpool: this.cardpool, 
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
-          multi_player: this.is_multi_player,
-          ...extra_options
+          multi_player: this.is_multi_player
         }
       });
     },
@@ -358,12 +337,6 @@ export default {
         this.cardpool = set.default_cube(this.set_code);
       }
     },
-
-    maybeInstallArenaMode() {
-      if (this.$route && this.$route.query.arena === "8011DD5F-FBAB-49F3-AF69-E83F4852C4B8")
-        this.updatePreferences({ enable_arena_mode: true} )
-    }
-
   },
 }
 
@@ -450,7 +423,6 @@ export default {
           <MultiplayerOptions 
             v-model="multi_player" 
             :players="multi_players" 
-            :arena_mode="is_arena_mode"
             @input="onMultiplayerOptionsChanged"
           />
         </div>

@@ -12,6 +12,10 @@ export default {
 
   name: "Game Night Cube",
 
+  capabilities: {
+    arena_decklists: false,
+  },
+
   pack_cards: () => 15,
 
   cube: cube.build,

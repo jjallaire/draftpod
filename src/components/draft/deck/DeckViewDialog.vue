@@ -10,6 +10,7 @@ import * as selectors from '@/store/modules/draft/selectors'
 
 import * as log from '@/core/log'
 import * as utils from '@/components/core/utils'
+import * as set from '@/store/modules/draft/set'
 
 export default {
   name: 'DeckViewDialog',
@@ -28,6 +29,7 @@ export default {
   },
 
   computed: {
+
     standard_deck_list: function() {
       if (this.deck) {
         return selectors.deckList(this.set_code, 'normal', this.deck);
@@ -37,7 +39,7 @@ export default {
     },
 
     arena_deck_list: function() {
-      if (this.deck) {
+      if (this.deck && set.capabilities(this.set_code).arena_decklists) {
         if (this.arena_convert)
           return selectors.arenaDeckList(this.set_code, this.deck);
         else
@@ -129,10 +131,10 @@ export default {
         </div>
         <div class="modal-body">
           <ul class="nav nav-tabs nav-fill">
-            <li class="nav-item">
+            <li v-show="arena_deck_list" class="nav-item">
               <a id="standard-deck-list-tab" data-toggle="tab" role="tab" class="nav-link active" data-target="#standard-deck-list" aria-controls="standard-deck-list">Standard Format</a>
             </li>
-            <li class="nav-item">
+            <li v-if="arena_deck_list" class="nav-item">
               <a id="arena-deck-list-tab" class="nav-link" data-toggle="tab" role="tab" data-target="#arena-deck-list" aria-controls="arena-deck-list">MTGA Format</a>
             </li>
           </ul>
@@ -140,7 +142,7 @@ export default {
             <div id="standard-deck-list" class="tab-pane show active" role="tabpanel" aria-labelledby="standard-deck-list-tab">
               <textarea id="standard-deck-list-cards" v-model="standard_deck_list" readonly />
             </div>
-            <div id="arena-deck-list" class="tab-pane fade" role="tabpanel" aria-labelledby="arena-deck-list-tab">
+            <div v-if="arena_deck_list" id="arena-deck-list" class="tab-pane fade" role="tabpanel" aria-labelledby="arena-deck-list-tab">
               <div class="form-check">
                 <input id="arena-convert-to-60" v-model="arena_convert" class="form-check-input" type="checkbox">
                 <label class="form-check-label" for="arena-convert-to-60">

@@ -49,8 +49,7 @@ export function initializeStore() {
       set_code: 'rna',
       pick_timer: false,
       pick_ratings: false,
-      sets: {},
-      enable_arena_mode: false
+      sets: {}
     },
     cardpools: {
       
