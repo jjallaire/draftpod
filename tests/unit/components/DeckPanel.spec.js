@@ -12,16 +12,16 @@ describe('DeckPanel.vue', () => {
 
     expect([1]).toHaveLength(1);
 
-    /*
-    // TEMPORARILY DISABLE this test b/c it couldn't fulfill the
-    // synchronous requirement for the deck_list (cards_cached throws)
-
     const wrapper = mount(DeckPanel, {
       propsData: { 
         set: {
           code: "RNA",
           name: "Ravnica Allegiance",
           pack_cards: 15
+        },
+        options: {
+          deck_size: 40,
+          deck_list_format: 'normal'
         },
         deck 
       },
@@ -34,11 +34,11 @@ describe('DeckPanel.vue', () => {
 
     // check for cards in land pile
     let landCards = deckPiles.at(7).findAll('.mtgcard');
-    expect(landCards).toHaveLength(5);
+    expect(landCards).toHaveLength(4);
 
     // do a snapshot test
     expect(wrapper.element).toMatchSnapshot();
-    */
+
   });
   
 });

@@ -9,6 +9,13 @@ jest.mock('../../../src/store/modules/draft/set', () => {
     cards: set_code => {
       let cards = require('../../../public/sets/' + set_code + '/cards.json');
       return Promise.resolve(cards);
+    },
+    cards_cached: set_code => {
+      let cards = require('../../../public/sets/' + set_code + '/cards.json');
+      return cards;
     }
   }
 });
+
+import 'jquery/dist/jquery'
+import 'bootstrap/dist/js/bootstrap.bundle'

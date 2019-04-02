@@ -1,0 +1,1127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeckPanel.vue displays deck 1`] = `
+<div
+  class="card deck"
+>
+  <div
+    class="card-header"
+  >
+    <div
+      class="float-left header-text text-light"
+    >
+      
+      Deck: 40 / 40
+    
+    </div>
+     
+    <div
+      class="float-left"
+    >
+      <div
+        class="card-type-counts"
+      >
+        
+      Creatures: 13  
+      Other: 10  
+      Lands: 17
+    
+      </div>
+    </div>
+     
+    <div
+      class="float-right"
+    >
+      <button
+        class="btn btn-sm btn-secondary text-light deck-view"
+      >
+        <span
+          aria-label="View List icon"
+          class="material-design-icon view-list-icon"
+          role="img"
+        >
+          <svg
+            class="material-design-icon__svg"
+            fill="currentColor"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M9,5V9H21V5M9,19H21V15H9M9,14H21V10H9M4,9H8V5H4M4,19H8V15H4M4,14H8V10H4V14Z"
+            >
+              <title>
+                View List icon
+              </title>
+            </path>
+          </svg>
+        </span>
+         View 
+        <span
+          class="btn-extra-text"
+        >
+          
+    Decklist
+  
+        </span>
+         
+      </button>
+       
+      <button
+        class="btn btn-sm btn-secondary text-light deck-download"
+      >
+        <span
+          aria-label="Arrow Down Bold Box icon"
+          class="material-design-icon arrow-down-bold-box-icon"
+          role="img"
+        >
+          <svg
+            class="material-design-icon__svg"
+            fill="currentColor"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M5,3H19C20.1,3 21,3.9 21,5V19C21,20.1 20.1,21 19,21H5C3.9,21 3,20.1 3,19V5C3,3.9 3.9,3 5,3M12,17L17,12H14V8H10V12H7L12,17Z"
+            >
+              <title>
+                Arrow Down Bold Box icon
+              </title>
+            </path>
+          </svg>
+        </span>
+         Download
+
+      </button>
+    </div>
+  </div>
+   
+  <div
+    class="card-body"
+  >
+      
+    <div
+      class="deck-piles deck-piles-top"
+    >
+      <div
+        class="pile"
+      >
+        <div
+          class="pile-caption"
+          style="text-align: center;"
+        >
+          
+    1
+          <!---->
+        </div>
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 16%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/8/c/8c604697-5c81-4329-9b16-f19bd90ba08c.jpg?1549415015"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 156%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+      <div
+        class="pile"
+      >
+        <div
+          class="pile-caption"
+          style="text-align: center;"
+        >
+          
+    2
+          <!---->
+        </div>
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 16%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/3/c/3c969aa0-b0e5-42cd-abba-0a3c7266142c.jpg?1549414403"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 32%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/2/1/21e1161f-bd2c-45a7-a86b-3b2e5210f148.jpg?1549414789"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 48%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/6/a/6a72b49e-be14-485b-a467-31cbac9aa1c5.jpg?1549414288"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 64%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/9/6/962d354f-f2ad-4b47-8666-0ed64543b676.jpg?1549414303"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 204%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+      <div
+        class="pile"
+      >
+        <div
+          class="pile-caption"
+          style="text-align: center;"
+        >
+          
+    3
+          <!---->
+        </div>
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 16%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/c/5/c5674753-17e4-4e35-a12c-13e1e077ec70.jpg?1549414371"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 32%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/a/4/a41335c2-3d11-4f95-8d9f-66b04398c10b.jpg?1549414836"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 172%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+      <div
+        class="pile"
+      >
+        <div
+          class="pile-caption"
+          style="text-align: center;"
+        >
+          
+    4
+          <!---->
+        </div>
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 16%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/4/d/4da3969c-1979-4eee-828a-4a7189121eba.jpg?1549414420"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 32%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/4/d/4da3969c-1979-4eee-828a-4a7189121eba.jpg?1549414420"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 48%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/b/f/bf8dad4d-bc4f-46fb-892c-dbf6481cdc46.jpg?1549414910"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 64%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/d/8/d819a944-0b3e-4e26-87da-2417081928e7.jpg?1549414915"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 80%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/7/c/7c0bfb47-c753-42fa-969b-7b10b87b0462.jpg?1549414350"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 220%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+      <div
+        class="pile"
+      >
+        <div
+          class="pile-caption"
+          style="text-align: center;"
+        >
+          
+    5
+          <!---->
+        </div>
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 16%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/2/f/2faac11b-4ece-4537-aa55-c2d0afa41786.jpg?1549414462"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 156%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+       
+      <div
+        class="pile"
+      >
+        <div
+          class="pile-caption"
+          style="text-align: center;"
+        >
+          
+    6+
+          <!---->
+        </div>
+          
+        <div
+          class="pile-controls"
+          style="margin-top: 6%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+       
+      <div
+        class="pile pile-separator"
+      />
+       
+      <div
+        class="pile"
+      >
+        <div
+          class="pile-caption"
+          style="text-align: center;"
+        >
+          
+    Lands (17)
+          <!---->
+        </div>
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 16%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1549415226"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 32%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1549415226"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 48%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1549415226"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 64%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1549415226"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 204%;"
+        >
+          <div
+            class="deck-lands"
+          >
+            <table
+              class="table table-sm deck-colors"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    align="center"
+                  >
+                    <img
+                      src="/images/mana-red.svg"
+                      title="Mountain"
+                      width="18"
+                    />
+                  </td>
+                   
+                  <td
+                    align="center"
+                  >
+                    <input
+                      min="0"
+                      type="number"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    align="center"
+                  >
+                    <img
+                      src="/images/mana-black.svg"
+                      title="Swamp"
+                      width="18"
+                    />
+                  </td>
+                   
+                  <td
+                    align="center"
+                  >
+                    <input
+                      min="0"
+                      type="number"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    align="center"
+                  >
+                    <img
+                      src="/images/mana-white.svg"
+                      title="Plains"
+                      width="18"
+                    />
+                  </td>
+                   
+                  <td
+                    align="center"
+                  >
+                    <input
+                      min="0"
+                      type="number"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    align="center"
+                  >
+                    <img
+                      src="/images/mana-blue.svg"
+                      title="Island"
+                      width="18"
+                    />
+                  </td>
+                   
+                  <td
+                    align="center"
+                  >
+                    <input
+                      min="0"
+                      type="number"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    align="center"
+                  >
+                    <img
+                      src="/images/mana-green.svg"
+                      title="Forest"
+                      width="18"
+                    />
+                  </td>
+                   
+                  <td
+                    align="center"
+                  >
+                    <input
+                      min="0"
+                      type="number"
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+       
+      <div
+        class="pile pile-separator"
+      />
+       
+      <div
+        class="pile deck-sideboard"
+      >
+        <div
+          class="pile-caption"
+          style="text-align: center;"
+        >
+          
+    Sideboard
+          <!---->
+        </div>
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 16%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/1/f/1f2328c4-7344-48bf-b515-977499bcfd1c.jpg?1549414355"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 32%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/5/0/50a27943-f08c-4cbd-affb-8e59411b3d4f.jpg?1549414446"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 48%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/1/6/16957271-12bb-4031-b476-f7678b753ae3.jpg?1549414409"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 64%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/4/4/440c53f0-7922-4e14-802d-d7a22f8fed85.jpg?1549414220"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 80%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/4/f/4fd60d9b-2282-4b32-9bff-efb2bcf87d22.jpg?1549415129"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 96%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/4/f/4fd60d9b-2282-4b32-9bff-efb2bcf87d22.jpg?1549415129"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 246%;"
+        >
+          <div>
+            <div
+              class="pile deck-unused"
+            >
+              <div
+                class="pile-caption"
+                style="text-align: center;"
+              >
+                
+    Unused
+                <!---->
+              </div>
+               
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 16%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/4/3/43df9f41-944e-4cf3-ac80-524eadac221d.jpg?1549414393"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 32%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/2/b/2b574b44-01e1-4197-99bd-57e54aebc5ff.jpg?1549414414"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 48%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1549415208"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 64%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1549415119"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 80%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1549415119"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 96%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/3/4/3433a2c2-d252-4cd8-97e8-389875b2cda0.jpg?1549415182"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 112%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/d/3/d3104cad-e684-4bd7-b26b-5aa862f7a2b3.jpg?1552988866"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 128%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/2/8/28ebab7d-d03d-4473-aa9b-485aebb66433.jpg?1549414584"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 144%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1549415192"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 160%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/c/c/cc2b7cfe-4696-4448-93d2-33be596e32d9.jpg?1549414805"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 176%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/d/8/d886fd9a-7800-41f1-b692-32a439b045da.jpg?1549415027"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+              <span
+                class="mtgcard mtgcard-draggable"
+                draggable="true"
+                style="margin-top: 192%;"
+              >
+                <img
+                  src="https://img.scryfall.com/cards/normal/front/1/1/11ee2c64-68f1-434b-8092-ae80d6575666.jpg?1549414096"
+                />
+                 
+                <div
+                  style="position: fixed; top: -1000px;"
+                />
+              </span>
+               
+              <div
+                class="pile-controls"
+                style="margin-top: 332%;"
+              />
+               
+              <div
+                class="pile-drag-insert"
+                style="margin-top: 0px; display: none;"
+              />
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+    </div>
+     
+    <div
+      class="deck-piles deck-piles-bottom"
+      style="margin-top: 26.85%;"
+    >
+      <div
+        class="pile"
+      >
+        <!---->
+          
+        <div
+          class="pile-controls"
+          style="margin-top: -10%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+      <div
+        class="pile"
+      >
+        <!---->
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 0%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/2/a/2a14834f-78ae-4ca5-9ce0-5b928ad3d76c.jpg?1549414472"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 140%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+      <div
+        class="pile"
+      >
+        <!---->
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 0%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/7/3/73f8710c-9c5e-4d11-b45f-0728c54bd631.jpg?1549416258"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 16%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/1/4/147bef05-4497-44d5-9dd6-fb5dc08e78f7.jpg?1549414425"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 32%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/b/6/b698c5e1-3816-4f35-8e39-65dc68f5c64f.jpg?1549414267"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 172%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+      <div
+        class="pile"
+      >
+        <!---->
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 0%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/3/d/3d44b342-f611-4836-a9d5-83b00a24318f.jpg?1549414278"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 16%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/9/c/9c1aee37-dcee-4e58-be9b-81ca57cedb53.jpg?1549414889"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 32%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/9/c/9c1aee37-dcee-4e58-be9b-81ca57cedb53.jpg?1549414889"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 172%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+      <div
+        class="pile"
+      >
+        <!---->
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 0%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1549415048"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 16%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/8/2/821c4ab5-eb75-445a-bbec-e50af54dba7a.jpg?1549414810"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 156%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+      <div
+        class="pile"
+      >
+        <!---->
+         
+        <span
+          class="mtgcard mtgcard-draggable"
+          draggable="true"
+          style="margin-top: 0%;"
+        >
+          <img
+            src="https://img.scryfall.com/cards/normal/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1551138454"
+          />
+           
+          <div
+            style="position: fixed; top: -1000px;"
+          />
+        </span>
+         
+        <div
+          class="pile-controls"
+          style="margin-top: 140%;"
+        />
+         
+        <div
+          class="pile-drag-insert"
+          style="margin-top: 0px; display: none;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
