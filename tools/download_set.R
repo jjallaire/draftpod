@@ -127,7 +127,8 @@ download_cards <- function(cards,
       cmc = cmc,
       colors = I(card$color_identity),
       rarity = card$rarity,
-      rating = rating
+      rating = rating,
+      set = card$set
     )
   })
   
