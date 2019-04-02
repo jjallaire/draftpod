@@ -34,7 +34,7 @@ describe('DeckPanel.vue', () => {
 
     // check for cards in land pile
     let landCards = deckPiles.at(7).findAll('.mtgcard');
-    expect(landCards).toHaveLength(4);
+    expect(landCards).toHaveLength(2);
 
     // do a snapshot test
     expect(wrapper.element).toMatchSnapshot();

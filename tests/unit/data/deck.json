@@ -1,98 +1,8 @@
 {
   "piles": [
     [
-      {
-        "id": 457360,
-        "name": "Footlight Fiend",
-        "collector_number": 216,
-        "multiverse_ids": [
-          457360
-        ],
-        "image_uris": [
-          "https://img.scryfall.com/cards/normal/front/8/c/8c604697-5c81-4329-9b16-f19bd90ba08c.jpg?1549415015"
-        ],
-        "layout": "normal",
-        "type_line": "Creature — Devil",
-        "mana_cost": "{B/R}",
-        "cmc": 1,
-        "colors": [
-          "B",
-          "R"
-        ],
-        "rarity": "common",
-        "rating": 2.5,
-        "set": "rna",
-        "key": "94vhJNsFrt6kDYH94pSk9V"
-      }
     ],
     [
-      {
-        "id": 457244,
-        "name": "Feral Maaka",
-        "collector_number": 100,
-        "multiverse_ids": [
-          457244
-        ],
-        "image_uris": [
-          "https://img.scryfall.com/cards/normal/front/3/c/3c969aa0-b0e5-42cd-abba-0a3c7266142c.jpg?1549414403"
-        ],
-        "layout": "normal",
-        "type_line": "Creature — Cat",
-        "mana_cost": "{1}{R}",
-        "cmc": 2,
-        "colors": [
-          "R"
-        ],
-        "rarity": "common",
-        "rating": 1,
-        "set": "rna",
-        "key": "dib9wHcBjbN8M4XY3ZUD6C"
-      },
-      {
-        "id": 457316,
-        "name": "Fireblade Artist",
-        "collector_number": 172,
-        "multiverse_ids": [
-          457316
-        ],
-        "image_uris": [
-          "https://img.scryfall.com/cards/normal/front/2/1/21e1161f-bd2c-45a7-a86b-3b2e5210f148.jpg?1549414789"
-        ],
-        "layout": "normal",
-        "type_line": "Creature — Human Shaman",
-        "mana_cost": "{B}{R}",
-        "cmc": 2,
-        "colors": [
-          "B",
-          "R"
-        ],
-        "rarity": "uncommon",
-        "rating": 3,
-        "set": "rna",
-        "key": "dUG3CriiUBuLZqkq6Qhqwh"
-      },
-      {
-        "id": 457223,
-        "name": "Orzhov Enforcer",
-        "collector_number": 79,
-        "multiverse_ids": [
-          457223
-        ],
-        "image_uris": [
-          "https://img.scryfall.com/cards/normal/front/6/a/6a72b49e-be14-485b-a467-31cbac9aa1c5.jpg?1549414288"
-        ],
-        "layout": "normal",
-        "type_line": "Creature — Human Rogue",
-        "mana_cost": "{1}{B}",
-        "cmc": 2,
-        "colors": [
-          "B"
-        ],
-        "rarity": "uncommon",
-        "rating": 3.5,
-        "set": "rna",
-        "key": "eE6mse4XbrqLqx3mJE1LZC"
-      },
       {
         "id": 457226,
         "name": "Plague Wight",
@@ -207,6 +117,50 @@
         "rating": 2,
         "set": "rna",
         "key": "3DSqgMyyZMP8xa5Y2SifWy"
+      },
+      {
+        "id": 457247,
+        "name": "Ghor-Clan Wrecker",
+        "collector_number": 103,
+        "multiverse_ids": [
+          457247
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/4/d/4da3969c-1979-4eee-828a-4a7189121eba.jpg?1549414420"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Human Warrior",
+        "mana_cost": "{3}{R}",
+        "cmc": 4,
+        "colors": [
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2,
+        "set": "rna",
+        "key": "jfeYhrz7rnsTsf7Uxiyjae"
+      },
+      {
+        "id": 457247,
+        "name": "Ghor-Clan Wrecker",
+        "collector_number": 103,
+        "multiverse_ids": [
+          457247
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/4/d/4da3969c-1979-4eee-828a-4a7189121eba.jpg?1549414420"
+        ],
+        "layout": "normal",
+        "type_line": "Creature — Human Warrior",
+        "mana_cost": "{3}{R}",
+        "cmc": 4,
+        "colors": [
+          "R"
+        ],
+        "rarity": "common",
+        "rating": 2,
+        "set": "rna",
+        "key": "3DSqgTyyZMP8xa5Y2SifWy"
       },
       {
         "id": 457340,
@@ -349,50 +303,6 @@
         "rating": 1.5,
         "set": "rna",
         "key": "r4biRsqriwkmxXrd1qdr5c"
-      },
-      {
-        "id": 457248,
-        "name": "Goblin Gathering",
-        "collector_number": 104,
-        "multiverse_ids": [
-          457248
-        ],
-        "image_uris": [
-          "https://img.scryfall.com/cards/normal/front/1/4/147bef05-4497-44d5-9dd6-fb5dc08e78f7.jpg?1549414425"
-        ],
-        "layout": "normal",
-        "type_line": "Sorcery",
-        "mana_cost": "{2}{R}",
-        "cmc": 3,
-        "colors": [
-          "R"
-        ],
-        "rarity": "common",
-        "rating": 1.5,
-        "set": "rna",
-        "key": "3MgkYmDmX1G5vwFQ5SZTHt"
-      },
-      {
-        "id": 457219,
-        "name": "Grotesque Demise",
-        "collector_number": 75,
-        "multiverse_ids": [
-          457219
-        ],
-        "image_uris": [
-          "https://img.scryfall.com/cards/normal/front/b/6/b698c5e1-3816-4f35-8e39-65dc68f5c64f.jpg?1549414267"
-        ],
-        "layout": "normal",
-        "type_line": "Instant",
-        "mana_cost": "{2}{B}",
-        "cmc": 3,
-        "colors": [
-          "B"
-        ],
-        "rarity": "common",
-        "rating": 3,
-        "set": "rna",
-        "key": "h88S61ATa9nLeogZkBj9rH"
       }
     ],
     [
@@ -440,6 +350,98 @@
         "rating": 2,
         "set": "rna",
         "key": "jCwR7XtRAkqoEjqkcJm1mz"
+      },
+      {
+        "id": 457335,
+        "name": "Macabre Mockery",
+        "collector_number": 191,
+        "multiverse_ids": [
+          457335
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/9/c/9c1aee37-dcee-4e58-be9b-81ca57cedb53.jpg?1549414889"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{2}{B}{R}",
+        "cmc": 4,
+        "colors": [
+          "B",
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 2,
+        "set": "rna",
+        "key": "jCwR7XtRAkqoEjqkcJm1mx"
+      },
+      {
+        "id": 457335,
+        "name": "Macabre Mockery",
+        "collector_number": 191,
+        "multiverse_ids": [
+          457335
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/9/c/9c1aee37-dcee-4e58-be9b-81ca57cedb53.jpg?1549414889"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{2}{B}{R}",
+        "cmc": 4,
+        "colors": [
+          "B",
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 2,
+        "set": "rna",
+        "key": "eE6mse4XbrqLqx3mJE1LZC"
+      },
+      {
+        "id": 457335,
+        "name": "Macabre Mockery",
+        "collector_number": 191,
+        "multiverse_ids": [
+          457335
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/9/c/9c1aee37-dcee-4e58-be9b-81ca57cedb53.jpg?1549414889"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{2}{B}{R}",
+        "cmc": 4,
+        "colors": [
+          "B",
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 2,
+        "set": "rna",
+        "key": "dib9wHcBjbN8M4XY3ZUD6C"
+      },
+      {
+        "id": 457335,
+        "name": "Macabre Mockery",
+        "collector_number": 191,
+        "multiverse_ids": [
+          457335
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/9/c/9c1aee37-dcee-4e58-be9b-81ca57cedb53.jpg?1549414889"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{2}{B}{R}",
+        "cmc": 4,
+        "colors": [
+          "B",
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 2,
+        "set": "rna",
+        "key": "94vhJNsFrt6kDYH94pSk9V"
       },
       {
         "id": 457335,
@@ -584,52 +586,6 @@
         "rating": 3,
         "set": "rna",
         "key": "rYRYGgnRRbaoEPao237XqE"
-      },
-      {
-        "id": 457399,
-        "name": "Rakdos Guildgate",
-        "collector_number": 255,
-        "multiverse_ids": [
-          457399
-        ],
-        "image_uris": [
-          "https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1549415226"
-        ],
-        "layout": "normal",
-        "type_line": "Land — Gate",
-        "mana_cost": "",
-        "cmc": 0,
-        "colors": [
-          "B",
-          "R"
-        ],
-        "rarity": "common",
-        "rating": 3,
-        "set": "rna",
-        "key": "goWp4Yf2MhjPZm6Ge8hTAW"
-      },
-      {
-        "id": 457399,
-        "name": "Rakdos Guildgate",
-        "collector_number": 255,
-        "multiverse_ids": [
-          457399
-        ],
-        "image_uris": [
-          "https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1549415226"
-        ],
-        "layout": "normal",
-        "type_line": "Land — Gate",
-        "mana_cost": "",
-        "cmc": 0,
-        "colors": [
-          "B",
-          "R"
-        ],
-        "rarity": "common",
-        "rating": 3,
-        "set": "rna",
-        "key": "dWGx4LtYVLMyXoGhUmMcnD"
       }
     ],
     [
@@ -766,6 +722,29 @@
         "rating": 1.5,
         "set": "rna",
         "key": "ewPXB3pur3hwVZHerJVvrU"
+      },
+      {
+        "id": 457335,
+        "name": "Macabre Mockery",
+        "collector_number": 191,
+        "multiverse_ids": [
+          457335
+        ],
+        "image_uris": [
+          "https://img.scryfall.com/cards/normal/front/9/c/9c1aee37-dcee-4e58-be9b-81ca57cedb53.jpg?1549414889"
+        ],
+        "layout": "normal",
+        "type_line": "Instant",
+        "mana_cost": "{2}{B}{R}",
+        "cmc": 4,
+        "colors": [
+          "B",
+          "R"
+        ],
+        "rarity": "uncommon",
+        "rating": 2,
+        "set": "rna",
+        "key": "jCwR7XtRBkqoEjqkcJm1mx"
       }
     ],
     [
@@ -1035,9 +1014,9 @@
   ],
   "lands": {
     "basic": {
-      "R": 7,
+      "R": 8,
       "W": 0,
-      "B": 6,
+      "B": 7,
       "U": 0,
       "G": 0
     },

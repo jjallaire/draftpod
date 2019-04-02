@@ -35,8 +35,7 @@ export function draftOptions(draft) {
 export function cardsByType(cards) {
   return {
     creatures: cards.filter(filters.creature),
-    other: cards.filter((card) => !filters.creature(card) && !filters.land(card)),
-    lands: cards.filter(filters.land)
+    other: cards.filter((card) => !filters.creature(card) && !filters.land(card))
   }
 }
 
@@ -46,8 +45,7 @@ export function cardTypes(cards) {
   let byType = cardsByType(cards);
   return {
     creatures: byType.creatures.length,
-    other: byType.other.length,
-    lands: byType.lands.length
+    other: byType.other.length
   }
 }
 
@@ -282,7 +280,7 @@ export function deckTotalCards(deck) {
   return deckCards(deck).length + deckLandCount(deck);
 }
 
-export function arena60CardDeckList(set_code, deck) {
+export function arena60CardDeck(set_code, deck) {
 
   // clone the deck so we aren't mutating it directly
   deck = _cloneDeep(deck);
@@ -357,8 +355,8 @@ export function arena60CardDeckList(set_code, deck) {
   // randomly order cards
   eligibleCards.creatures = _shuffle(eligibleCards.creatures);
   eligibleCards.other = _shuffle(eligibleCards.other);
-  eligibleCards.lands = _shuffle(eligibleCards.lands);
-  
+  eligibleCards.lands = _shuffle(deck.piles[DECK.LANDS]);
+
   // add the cards (checking for no more than 4x)
   function addCards(availableCards, cards_required, targetPile, entirePool = false) {
 
@@ -399,7 +397,6 @@ export function arena60CardDeckList(set_code, deck) {
     let sideboard = orderUnplayedPile(deck, DECK.SIDEBOARD, true);
     sideboard = _orderBy(sideboard, ["rating"], ["desc"]).slice(0, 15);
     deck.piles[DECK.SIDEBOARD] = sideboard;
-  // fill the sideboard proportionally if it's less than 15
   } 
   // re-order sideboard
   deck.piles[DECK.SIDEBOARD] = orderUnplayedPile(deck, DECK.SIDEBOARD);
@@ -407,8 +404,8 @@ export function arena60CardDeckList(set_code, deck) {
   // recalculate lands (keep proportion of special lands)
   let non_basic_lands = deck.piles[DECK.LANDS].length;
   let non_basic_pct = non_basic_lands / deckLandCount(deck);
-  let non_basic_target = Math.floor(target_land * non_basic_pct);
-  let non_basic_required = Math.max(non_basic_target - non_basic_lands, 0);
+  let non_basic_target = Math.round(target_land * non_basic_pct);
+  let non_basic_required = Math.round(Math.max(non_basic_target - non_basic_lands, 0));
   addCards('lands', non_basic_required, DECK.LANDS);
   
   // recompute auto lands for new deck
@@ -419,8 +416,13 @@ export function arena60CardDeckList(set_code, deck) {
     deck.lands.basic = computeBasicLands(deck.lands.basic, deck.piles[DECK.LANDS], target_land)
   }
   
-  // return deck list
-  return deckList(set_code, 'arena', deck);
+  // return deck 
+  return deck;
+}
+
+export function arena60CardDeckList(set_code, deck) {
+  let deck60 = arena60CardDeck(set_code, deck);
+  return deckList(set_code, 'arena', deck60);
 }
 
 export function deckList(set_code, format, deck) {
