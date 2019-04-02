@@ -24,7 +24,8 @@ export default {
       set_code: null,
       deck: null,
       format: null,
-      arena_convert: true
+      arena_convert: true,
+      arena_60: null
     }
   },
 
@@ -41,7 +42,7 @@ export default {
     arena_deck_list: function() {
       if (this.deck && set.capabilities(this.set_code).arena_decklists) {
         if (this.arena_convert)
-          return selectors.arenaDeckList(this.set_code, this.deck);
+          return this.arena_60;
         else
           return selectors.deckList(this.set_code, 'arena', this.deck);
       } else {
@@ -75,6 +76,7 @@ export default {
       this.set_code = set_code;
       this.format = format;
       this.deck = deck;
+      this.arena_60 = selectors.arenaDeckList(this.set_code, this.deck);
       let dialog = jquery(this.$refs.dialog);
       dialog.modal();
     },
