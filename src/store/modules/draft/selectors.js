@@ -284,8 +284,6 @@ export function deckTotalCards(deck) {
 
 // TODO: write unit tests
 
-
-// TODO: Rix enchantments to lands is broken
 // TODO: RIX split packs w/ IXN
 
 
