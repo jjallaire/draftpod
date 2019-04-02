@@ -284,7 +284,9 @@ export function deckTotalCards(deck) {
 
 // TODO: write unit tests
 
-// TODO: documentation on arena decklists
+// TODO: inline docs on arena decklists
+// TODO: tab not selected upon returing to dialog
+// TODO: restore rares
 
 // TODO: Rix enchantments to lands is broken
 // TODO: RIX split packs w/ IXN
