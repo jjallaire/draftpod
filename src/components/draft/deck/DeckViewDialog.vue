@@ -80,6 +80,10 @@ export default {
     });
   },
 
+  beforeDestroy() {
+    window.document.body.removeChild(this.$el);
+  },
+
 
   methods: {
 
@@ -90,7 +94,9 @@ export default {
       this.arena_60 = selectors.arenaDeckList(this.set_code, this.deck);
       let dialog = jquery(this.$refs.dialog);
       dialog.modal();
-      jquery("#standard-deck-list-tab").tab('show');
+      this.$nextTick(() => {
+        jquery("#standard-deck-list-tab").tab('show');
+      });
     },
 
     onCopyDecklist(event) {
