@@ -101,8 +101,8 @@ export function cube(set_code, cardsInSet, multiples) {
   return sets[set_code].cube(cardsInSet, multiples);
 }
 
-export function booster(set_code, cards, number_of_packs) {
-  return sets[set_code].booster(cards, number_of_packs);
+export function booster(set_code, cards, number_of_packs, pack_number) {
+  return sets[set_code].booster(cards, number_of_packs, pack_number);
 }
 
 

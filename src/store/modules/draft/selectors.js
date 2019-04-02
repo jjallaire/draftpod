@@ -284,7 +284,7 @@ export function deckTotalCards(deck) {
 
 // TODO: write unit tests
 
-// TODO: RIX split packs w/ IXN
+// TODO: unable to activate MTGA sometimes (second draft w/ different set)
 
 
 export function arenaDeckList(set_code, deck) {
@@ -497,14 +497,16 @@ function deckBasicLands(set_code, lands) {
 function asDeckList(set_code, format, cards) {
     
   // order by collector_number
-  let ordered_cards = cards
-    .sort((a,b) => a.collector_number - b.collector_number);
+  let ordered_cards = _orderBy(cards, 
+    ["set",  "collector_number"], 
+    ["asc", "asc",]);
 
   ordered_cards = ordered_cards
     .reduce((ordered_cards, card) => {
       if (!ordered_cards.hasOwnProperty(card.name)) {
         ordered_cards[card.name] = {
           count: 0,
+          set: card.set,
           collector_number: card.collector_number
         };
       }
@@ -515,9 +517,10 @@ function asDeckList(set_code, format, cards) {
   // return list
   return Object.keys(ordered_cards)
     .map((name) => {
-      let entry  = ordered_cards[name].count + ' ' + name;
+      let card = ordered_cards[name];
+      let entry  = card.count + ' ' + name;
       if (format === 'arena')
-        entry = entry + ' (' + set_code.toUpperCase() + ') ' + ordered_cards[name].collector_number;
+        entry = entry + ' (' + card.set.toUpperCase() + ') ' + card.collector_number;
       return entry;
     })
     .join("\n");

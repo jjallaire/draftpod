@@ -9,18 +9,20 @@ download_set <- function(set,
                          download_images = TRUE) {
   # get cards
   cards <- list()
-  next_page_url <- sprintf("https://api.scryfall.com/cards/search?q=set:%s", set)
-  while(TRUE) {
-    result <- jsonlite::fromJSON(next_page_url, simplifyVector = FALSE)
-    cards <- append(cards, result$data)
-    if (result$has_more)
-      next_page_url <- result$next_page
-    else
-      break
+  for (s in set) {
+    next_page_url <- sprintf("https://api.scryfall.com/cards/search?q=set:%s", s)
+    while(TRUE) {
+      result <- jsonlite::fromJSON(next_page_url, simplifyVector = FALSE)
+      cards <- append(cards, result$data)
+      if (result$has_more)
+        next_page_url <- result$next_page
+      else
+        break
+    }
   }
   
   # download cards
-  download_cards(cards, set, sets_dir, ratings_dir, download_images)
+  download_cards(cards, set[[1]], sets_dir, ratings_dir, download_images)
 }
   
 download_cards <- function(cards,
@@ -137,24 +139,25 @@ download_cards <- function(cards,
     cards <- fix_collector_numbers(cards)
   
   # filter out collector number > threshold
-  max_collector_number <- switch(set,
-                                 rna = 264,
-                                 grn = 264,
-                                 m19 = 280,
-                                 dom = 269,
-                                 xln = 279,
-                                 rix = 196,
-                                 
-                                 # NOTE: need to reconfirm that these have the
-                                 # right numbers for inclusion of basics
-                                 # (kld does, aer appears to have no basics!)
-                                 kld = 264,
-                                 aer = 184, 
-                                 akh = 269,
-                                 hou = 199,
-                                 `cube_gnt` = 1000)
+  max_collector_numbers <- list(
+    rna = 264,
+    grn = 264,
+    m19 = 280,
+    dom = 269,
+    xln = 279,
+    rix = 196,
+    
+    # NOTE: need to reconfirm that these have the
+    # right numbers for inclusion of basics
+    # (kld does, aer appears to have no basics!)
+    kld = 264,
+    aer = 184, 
+    akh = 269,
+    hou = 199,
+    `cube_gnt` = 1000
+  )
   
-  cards <- Filter(function(card) card$collector_number <= max_collector_number, cards)
+  cards <- Filter(function(card) card$collector_number <= max_collector_numbers[[card$set]], cards)
   
   
   # write as json

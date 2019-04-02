@@ -43,13 +43,14 @@ export default {
       table.players[0].name = player.name;
       table.players[0].bot = draftbot.createAutoPicker();
 
-      // compute number of packs
-      let packs = options.number_of_packs * 8;
-
-      // initialize packs
-      table.all_packs = [...Array(packs)].map(function() {
-        return booster(set_code, options.number_of_packs, cardpool);
-      });
+      // initialize packs and set them
+      let all_packs = [];
+      for (let p=1; p<=options.number_of_packs; p++) {
+        for (let b=0; b<8; b++) {
+          all_packs.push(booster(set_code, options.number_of_packs, p, cardpool))
+        }
+      }
+      table.all_packs = all_packs;
     });
 
     // save the packs we started with
@@ -110,12 +111,12 @@ function writeTable(state, table) {
 }
 
 
-function booster(set_code, number_of_packs, cardpool) {
+function booster(set_code, number_of_packs, pack_number, cardpool) {
 
   // track cards already selected (to prevent duplicates)
   let selectedCardIds = [];
 
-  function select(filter, number) {
+  function select(filter, number, set) {
 
     // generate range of indexes then shuffle it
     let indexes = _shuffle([...Array(cardpool.length).keys()]);
@@ -126,7 +127,7 @@ function booster(set_code, number_of_packs, cardpool) {
     for (let i = 0; i < indexes.length; i++) {
       let index = indexes[i];
       let card = cardpool[index];
-      if (filter(card)) {
+      if ((!set || card.set === set) && filter(card)) {
 
         // detect duplicate 
         if (selectedCardIds.indexOf(card.id) !== -1)
@@ -157,7 +158,7 @@ function booster(set_code, number_of_packs, cardpool) {
 
 
   // function to draw next n cards that pass a set of filters
-  function selectCards(filters, number) {
+  function selectCards(filters, number, set) {
 
     // normalize to single set of filters
     filters = [].concat(filters);
@@ -166,7 +167,7 @@ function booster(set_code, number_of_packs, cardpool) {
     let cards = [];
     for (let i = 0; i < filters.length; i++) {
       let filter = filters[i];
-      cards = cards.concat(select(filter, number - cards.length));
+      cards = cards.concat(select(filter, number - cards.length, set));
       if (cards.length >= number)
         break;
     }
@@ -176,7 +177,7 @@ function booster(set_code, number_of_packs, cardpool) {
   }
 
   // generate booster for set using selectCards function
-  return set.booster(set_code, selectCards, number_of_packs);
+  return set.booster(set_code, selectCards, number_of_packs, pack_number);
 }
 
 
