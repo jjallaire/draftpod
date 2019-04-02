@@ -412,12 +412,7 @@ export function arenaDeckList(set_code, deck) {
     sideboard = _orderBy(sideboard, ["rating"], ["desc"]).slice(0, 15);
     deck.piles[DECK.SIDEBOARD] = sideboard;
   // fill the sideboard proportionally if it's less than 15
-  } else if (deck.piles[DECK.SIDEBOARD].length < 15) {
-    let sideboard = deck.piles[DECK.SIDEBOARD];
-    let addToCount = Math.min(15, sideboard.length * 0.5);
-    let eligibleSideboardCards = _shuffle(withoutRaresOrMythics(sideboard));
-    addCards(eligibleSideboardCards, addToCount, DECK.SIDEBOARD, true);
-  }
+  } 
   // re-order sideboard
   deck.piles[DECK.SIDEBOARD] = orderUnplayedPile(deck, DECK.SIDEBOARD);
   
