@@ -284,7 +284,7 @@ export function deckTotalCards(deck) {
 
 // TODO: write unit tests
 
-// TODO: add standard and arena decklists to download?
+// TODO: documentation on arena decklists
 
 // TODO: Rix enchantments to lands is broken
 // TODO: RIX split packs w/ IXN
