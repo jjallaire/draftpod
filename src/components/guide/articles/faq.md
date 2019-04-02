@@ -3,9 +3,9 @@
 
 #### How can I practice drafting on my own?
 
-While Draftpod single-player mode enables you to practice draft decision making, there is no substitute for playing real matches to learn firsthand how the cards play and interact. If you don't have a friend or group to draft with, the best way to practice on your own is [Magic Arena](https://magic.wizards.com/en/mtgarena), which offers a fantastic solo-drafting experience (you draft against bots and then play games against real opponents online).
+While Draftpod single-player mode enables you to practice draft decision making, there is no substitute for playing real matches to learn firsthand how the cards play and interact. If you don't have a friend or group to draft with, the best way to practice on your own is [MTG Arena](https://magic.wizards.com/en/mtgarena), which offers a fantastic solo-drafting experience (you draft against bots and then play games against real opponents online).
 
-Magic Arena also offers a [ranking system](https://magic.wizards.com/en/articles/archive/december-state-beta-rank-10-breakdown-2018-12-12) that enables you to track your improvement as a drafter over time, as well increase the quality of your opponents as your skills progress.
+MTG Arena also offers a [ranking system](https://magic.wizards.com/en/articles/archive/december-state-beta-rank-10-breakdown-2018-12-12) that enables you to track your improvement as a drafter over time, as well increase the quality of your opponents as your skills progress.
 
 #### What are some good resources for learning how to draft?
 

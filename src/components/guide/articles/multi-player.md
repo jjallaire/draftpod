@@ -2,35 +2,67 @@
 
 Multi-player mode enables you to conduct a simulated 8-person draft even when you have only have 2 or 3 actual players available. While there are other ways to draft with a small handful of players, they inevitably compromise on depth and quantity of available cards, so aren't nearly as rich in strategy (and fun!) as a full draft. Draftpod multi-player mode lets you draft with a friend or small group in a fashion that feels much more like a real 8-player draft.
 
-In multi-player mode you conduct the draft online (along with draft bots that fill in an 8 person table), and then use the resulting decklists to assemble decks from paper magic cards that you already have. 
+In multi-player mode you conduct the draft online (along with draft bots that fill in an 8 person table), and then use the resulting decklists to either assemble decks from paper magic cards that you already have, or play games using MTG Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ).
 
-To use Draftpod for a multi-player draft you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. There are a number of techniques for assembling a cardpool which are covered in the [Draft Cardpools](/guide#cardpools/) article. You'll need to consult this article before hosting a multi-player draft, but for remainder of this article we'll assume that you already have a cardpool to draft from.
+To play using paper cards, you will need to [assemble a cube](/guide/#cardpools) for the set you are drafting. To play games on MTG Arena, you will need to have a reasonably complete collection of cards (and/or available wildcards) for the set you are playing with.
 
 ### Drafting
 
-To start a new multi-player draft, go to the [Draft](/draft/) page, select the set you want to draft from and the _cardpool_ are drafting from, then choose **Multiple Players**:
+To start a new multi-player draft, go to the [Draft](/draft/) page, select the set you want to draft and the _cardpool_ you are drafting from (this is so that the packs built for the draft accurately reflect the cards you have available to play with): 
+
+<p>
+<img src="/images/guide/multi-player-cardpool.png" width="100%" />
+</p>
+
+For playing with paper cards, see the [Draft Cardpools](/guide#cardpools/) article for additonal details on building a cardpool. If you are playing with MTG Arena, you'll typically want to specify 4x of commons and uncommons, and 1x of each rare and mythic.
+
+Then, choose the **Multiple Players** option:
 
 <p>
 <img src="/images/guide/multi-player.png" width="100%" />
 </p>
 
-Then, copy the provided URL and send it to the other players you'd like to have join. 
+Finally, copy the provided URL and send it to the other players you'd like to have join. 
 
 Players should use a desktop, laptop or tablet rather than a mobile phone (since phones don't generally have large enough screens to accommodate the Draftpod UI).
 
 When a player joins, their name will appear in the players list. Once all of the players have joined, click **Start Draft** to begin.
+
 
 ### Deck Building
 
 After you make all of your picks, you'll end up in deck-building mode where you can specify which cards will make your main deck and sideboard. Once you've completed deck-building, click the **View Decklist** button to see a list of the cards in your deck and sideboard:
 
 <p>
-<img src="/images/guide/view-decklist.png" width="100%" />
+<img src="/images/guide/multi-player-decklist.png" width="100%" />
 </p>
 
-You can then pull these cards from your physical cardpool and begin playing. Note that the decklist is presented in collector number order (i.e. by color, ordered alphabetically within each color). If you sort/store your cardpool in this order it only takes a couple of minutes to pull out the cards.
+If you are playing with paper cards, you can then pull these cards from your cardpool and begin playing. Note that the decklist is presented in collector number order (i.e. by color, ordered alphabetically within each color). If you sort/store your cardpool in this order it only takes a couple of minutes to pull out the cards.
 
-### Draft Cardpools
+If you are playing using MTG Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ), you should choose the MTGA Format, copy your decklist to the clipboard, then import it into MTGA before playing:
+
+<p>
+<img src="/images/guide/multi-player-decklist-arena.png" width="100%" />
+</p>
+
+
+### Playing on Arena
+
+To play games on MTG Arena, you will need to have a reasonably complete collection of cards (and/or available wildcards) for the set you are drafting from. If you play and draft frequently on Arena, it's likely that your collection is already complete enough to play with Draftpod.
+
+Once you've copied your MTG Arena decklist to the clipboard, you can import it into Arena. You can do this in the **Decks** area of Arena (the **Import** button is at the bottom-left of the screen and will automatically import whatever deck is on the clipboard):
+
+
+<p>
+<img src="/images/guide/arena-deck-import.png" width="100%" />
+</p>
+
+
+MTG Arena games should be initiated using the [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ) feature, which supports both best of 1 and best of 3 matches.
+
+Note that Direct Challenge requires 60 card decks, whereas in Draftpod you build 40 card decks. To bridge this gap, MTG Arena decklists produced by Draftpod automatically expand your 40 card deck to 60 cards. For example, if you have 23 non-land cards in your draft deck, 13 of these cards will be duplicated so that you have 36 non-land cards. While the individual cards to duplicate are selected at random, the overall balance in your deck between creatures and non-creatures (e.g. instants, sorceries, etc.) is preserved.
+
+### Playing in Person
 
 In order to draft online and then play with physical cards, Draftpod needs to know exactly which cards you have in your cardpool. There are a number of approaches to building cardpools, including:
 
