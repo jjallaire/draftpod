@@ -178,6 +178,10 @@ export default {
   padding-bottom: 0;
 }
 
+#decklistDialog .nav-link {
+  cursor: pointer;
+}
+
 #decklistDialog button {
   color: inherit; 
   min-width: 100px;
