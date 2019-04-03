@@ -6,6 +6,8 @@ import JSZip from 'jszip'
 import saveAs from 'file-saver';
 import * as draftlog from '@/store/modules/draft/draftlog'
 
+import * as selectors from '@/store/modules/draft/selectors'
+
 export default {
 
   name: 'DeckDownload',
@@ -19,8 +21,8 @@ export default {
       type: Object,
       required: true
     },
-    deck_list: {
-      type: String,
+    deck: {
+      type: Object,
       required: true
     }
   },
@@ -41,6 +43,7 @@ export default {
 
   - Draftlog.txt: Log of every pick made in the draft
   - Decklist.txt: Cards in main deck and sideboard
+  - Decklist-Arena.txt: 60 card version of deck for use on MTG Arena
          
 If you want to share your draft with others, these sites 
 enable you to publish your draft log and deck list:
@@ -49,11 +52,16 @@ enable you to publish your draft log and deck list:
   - http://draftsignals.com/
 `;
 
+      // generate deck lists
+      let deckList = selectors.deckList(this.set.code, 'normal', this.deck);
+      let arenaDeckList = selectors.arena60CardDeckList(this.set.code, this.deck);
+
       // generate mtgo log then download
       draftlog.asMtgoLog(log).then(mtgoLog => {
         let zip = new JSZip();
-        zip.file("Decklist.txt", this.deck_list);
         zip.file("Draftlog.txt", mtgoLog);
+        zip.file("Decklist.txt", deckList);
+        zip.file("Decklist-Arena.txt", arenaDeckList);
         zip.file("README.txt", README);
         return zip.generateAsync({type:"blob"});
       }).then(blob => {

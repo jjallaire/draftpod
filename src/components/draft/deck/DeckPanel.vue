@@ -36,12 +36,6 @@ export default {
     piles: function() {
       return this.deck.piles;
     },
-    deck_list: function() {
-      return selectors.deckList(this.set.code, this.options.deck_list_format, this.deck);
-    },
-    normal_deck_list: function() {
-      return selectors.deckList(this.set.code, 'normal', this.deck);
-    },
     deck_total_cards: function() {
       return selectors.deckTotalCards(this.deck);
     },
@@ -91,7 +85,7 @@ export default {
       <DeckView :set_code="set.code" :format="options.deck_list_format" :deck="deck" />
       <DeckDownload 
         :set="set" 
-        :deck_list="normal_deck_list"
+        :deck="deck"
       />
     </template>
     <div class="deck-piles deck-piles-top">
