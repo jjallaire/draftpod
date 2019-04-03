@@ -7,18 +7,20 @@ export default {
 
   name: "Rivals of Ixalan",
 
+  pack_set: pack_number => {
+    return (pack_number % 2) ? 'rix' : 'xln'
+  },
+
   pack_cards: () => 15,
 
   cube: cube.build,
 
-  booster(selectCards, numberOfPacks, packNumber) {
-
-    let set = (packNumber % 2) ? 'rix' : 'xln';
+  booster(selectCards) {
 
     let cards = [].concat(
-      selectCards(booster.packRareSlot, 1, set),
-      selectCards(booster.uncommon, 3, set),
-      selectCards(booster.common, 11, set)
+      selectCards(booster.packRareSlot, 1),
+      selectCards(booster.uncommon, 3),
+      selectCards(booster.common, 11)
     );
 
     return cards;

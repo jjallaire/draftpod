@@ -72,6 +72,14 @@ export function card_id_filter(set_code, id) {
     return id;
 }
 
+export function pack_set(set_code, pack_number) {
+  let pack_set = sets[set_code].pack_set;
+  if (pack_set)
+    return pack_set(pack_number);
+  else
+    return set_code;
+}
+
 export function pack_cards(set_code, number_of_packs) {
   return sets[set_code].pack_cards(number_of_packs);
 }

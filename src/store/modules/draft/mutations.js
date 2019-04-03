@@ -113,10 +113,13 @@ function writeTable(state, table) {
 
 function booster(set_code, number_of_packs, pack_number, cardpool) {
 
+  // determine the set code from the pack_number
+  let pack_set = set.pack_set(set_code, pack_number);
+
   // track cards already selected (to prevent duplicates)
   let selectedCardIds = [];
 
-  function select(filter, number, set) {
+  function select(filter, number) {
 
     // generate range of indexes then shuffle it
     let indexes = _shuffle([...Array(cardpool.length).keys()]);
@@ -127,7 +130,7 @@ function booster(set_code, number_of_packs, pack_number, cardpool) {
     for (let i = 0; i < indexes.length; i++) {
       let index = indexes[i];
       let card = cardpool[index];
-      if ((!set || card.set === set) && filter(card)) {
+      if ((card.set === pack_set) && filter(card)) {
 
         // detect duplicate 
         if (selectedCardIds.indexOf(card.id) !== -1)
@@ -158,7 +161,7 @@ function booster(set_code, number_of_packs, pack_number, cardpool) {
 
 
   // function to draw next n cards that pass a set of filters
-  function selectCards(filters, number, set) {
+  function selectCards(filters, number) {
 
     // normalize to single set of filters
     filters = [].concat(filters);
@@ -167,7 +170,7 @@ function booster(set_code, number_of_packs, pack_number, cardpool) {
     let cards = [];
     for (let i = 0; i < filters.length; i++) {
       let filter = filters[i];
-      cards = cards.concat(select(filter, number - cards.length, set));
+      cards = cards.concat(select(filter, number - cards.length));
       if (cards.length >= number)
         break;
     }
@@ -177,7 +180,7 @@ function booster(set_code, number_of_packs, pack_number, cardpool) {
   }
 
   // generate booster for set using selectCards function
-  return set.booster(set_code, selectCards, number_of_packs, pack_number);
+  return set.booster(set_code, selectCards, number_of_packs);
 }
 
 

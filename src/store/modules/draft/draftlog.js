@@ -22,12 +22,10 @@ export function generate(player_id, draft) {
       else 
         return "Bot" + botIdx++;
     }),
-    packs: [...Array(3)].map(function() {
-      return {
-        set: draft.set.code.toUpperCase(),
-        picks: []
-      };
-    })
+    packs: [1,2,3].map(i => ({
+      set: set.pack_set(draft.set.code, i).toUpperCase(),
+      picks: []
+    }))
   };
 
   // replay the draft using the saved packs and pick orders
