@@ -409,12 +409,16 @@ export function arena60CardDeck(set_code, deck) {
   addCards('lands', non_basic_required, DECK.LANDS);
   
   // recompute auto lands for new deck
+  deck.lands.basic = autoLands(deck, kDeckSize, target_land);
+
+  /*
   if (deck.lands.auto) {
     deck.lands.basic = autoLands(deck, kDeckSize, target_land);
   // manual basic lands mode: mirror that mana balance exactly
   } else {
     deck.lands.basic = computeBasicLands(deck.lands.basic, deck.piles[DECK.LANDS], target_land)
   }
+  */
   
   // return deck 
   return deck;
