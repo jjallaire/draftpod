@@ -409,16 +409,21 @@ export function arena60CardDeck(set_code, deck) {
   addCards('lands', non_basic_required, DECK.LANDS);
   
   // recompute auto lands for new deck
-  deck.lands.basic = autoLands(deck, kDeckSize, target_land);
-
-  /*
   if (deck.lands.auto) {
     deck.lands.basic = autoLands(deck, kDeckSize, target_land);
   // manual basic lands mode: mirror that mana balance exactly
   } else {
-    deck.lands.basic = computeBasicLands(deck.lands.basic, deck.piles[DECK.LANDS], target_land)
+    let basics = deck.lands.basic;
+    let nonBasics = countColors(deck.piles[DECK.LANDS]);
+    let colors = {
+      W: nonBasics.W + basics.W,
+      U: nonBasics.U + basics.U,
+      B: nonBasics.B + basics.B,
+      R: nonBasics.R + basics.R,
+      G: nonBasics.G + basics.G,
+    };
+    deck.lands.basic = computeBasicLands(colors, deck.piles[DECK.LANDS], target_land)
   }
-  */
   
   // return deck 
   return deck;
@@ -609,7 +614,7 @@ export function autoLands(deck, deck_size) {
   return computeBasicLands(card_colors, deck.piles[DECK.LANDS], total_land_cards);
 }
 
-function computeBasicLands(card_colors, non_basic_lands, total_land_cards) {
+export function computeBasicLands(card_colors, non_basic_lands, total_land_cards) {
 
   // compute the target number of mana sources we need in our mana base  
   let total_card_colors = sumValues(card_colors);
