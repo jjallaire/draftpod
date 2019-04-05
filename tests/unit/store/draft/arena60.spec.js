@@ -1,5 +1,6 @@
 
 import deck from '../../data/deck.json'
+import lands from '../../data/lands.json'
 
 import * as selectors from '@/store/modules/draft/selectors'
 
@@ -28,9 +29,18 @@ describe('Arena 60 Card Decks', () => {
     expect(decklist60).toEqual(expect.not.stringContaining('1 Macabre Mockery'))
   })
 
-  test('Basic lands are projected correctly onto 60 cards', () => {
+  test('Auto basic lands are projected correctly onto 60 cards', () => {
     expect(deck60.lands.basic.B).toBeGreaterThan(7);
     expect(deck60.lands.basic.R).toBeGreaterThan(8);
   })
+
+  test('Manual basic lands are projected correctly onto 60 cards', () => {
+    let computedLands = selectors.computeBasicLands({ W: 0, U: 0, B: 10, R: 8, G: 4} , lands.non_basic, 24);
+    expect(computedLands.B).toEqual(9);
+    expect(computedLands.G).toEqual(5);
+    expect(computedLands.R).toEqual(6);
+  });
+
+  
 
 });
