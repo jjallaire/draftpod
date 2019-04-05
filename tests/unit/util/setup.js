@@ -1,6 +1,16 @@
 
 
 
+window.matchMedia = jest.fn().mockImplementation(query => {
+  return {
+    matches: false,
+    media: query,
+    onchange: null,
+    addListener: jest.fn(),
+    removeListener: jest.fn(),
+  };
+});
+
 // mock the set module to read card json directly from disk
 // (otherwise the http call would have failed entirely)
 jest.mock('../../../src/store/modules/draft/set', () => {
