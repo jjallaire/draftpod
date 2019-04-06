@@ -40,6 +40,7 @@ export default {
   },
 }
 
+
 function plainswalker(card) {
   return card.type_line.startsWith("Legendary Planeswalker") ||
          card.type_line.startsWith("Planeswalker");
