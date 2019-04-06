@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="war">
+            War of the Spark
+          </option>
           <option value="rna">
             Ravnica Allegiance
           </option>

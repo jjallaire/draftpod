@@ -1,0 +1,2391 @@
+[
+  {
+    "id": 600113,
+    "name": "Ahn-Crop Invader",
+    "collector_number": 113,
+    "multiverse_ids": [
+      600113
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/d/2dea2466-5c7f-40ce-b749-100ae89d2c90.jpg?1554225022"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Minotaur Warrior",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600076,
+    "name": "Aid the Fallen",
+    "collector_number": 76,
+    "multiverse_ids": [
+      600076
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f8bc010-f1af-42a2-9009-2039cf3d8f0a.jpg?1554488187"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600004,
+    "name": "Ajani's Pridemate",
+    "collector_number": 4,
+    "multiverse_ids": [
+      600004
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/3/b3656310-093d-4724-a399-7f7010843b1f.jpg?1554224322"],
+    "layout": "normal",
+    "type_line": "Creature — Cat Soldier",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600184,
+    "name": "Ajani, the Greathearted",
+    "collector_number": 184,
+    "multiverse_ids": [
+      600184
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6cc78151-8cb0-4521-9674-fb0c67e24a17.jpg?1554225409"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Ajani",
+    "mana_cost": "{2}{G}{W}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600227,
+    "name": "Angrath, Captain of Chaos",
+    "collector_number": 227,
+    "multiverse_ids": [
+      600227
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aa3a4cb5-945e-4caf-8a18-1ef977879fe8.jpg?1554287122"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Angrath",
+    "mana_cost": "{2}{B/R}{B/R}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600185,
+    "name": "Angrath's Rampage",
+    "collector_number": 185,
+    "multiverse_ids": [
+      600185
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/5/f5a39379-7313-463a-9a02-e5157b9557f4.jpg?1554353874"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{B}{R}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600151,
+    "name": "Arlinn's Wolf",
+    "collector_number": 151,
+    "multiverse_ids": [
+      600151
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/747223a5-c669-4d0e-a062-265eb47710cd.jpg?1554225125"],
+    "layout": "normal",
+    "type_line": "Creature — Wolf",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600150,
+    "name": "Arlinn, Voice of the Pack",
+    "collector_number": 150,
+    "multiverse_ids": [
+      600150
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/5391d2f1-e8d3-4d39-98cf-367888e10534.jpg?1554225135"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Arlinn",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600041,
+    "name": "Augur of Bolas",
+    "collector_number": 41,
+    "multiverse_ids": [
+      600041
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/1/d19fbfe6-69bb-452a-be3c-b9c625e23193.jpg?1554290607"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Wizard",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600153,
+    "name": "Band Together",
+    "collector_number": 153,
+    "multiverse_ids": [
+      600153
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/d/4d1d8aa1-d742-477c-819a-0113912d5011.jpg?1554466364"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600077,
+    "name": "Banehound",
+    "collector_number": 77,
+    "multiverse_ids": [
+      600077
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/9/b9e03567-c95a-40b8-a75a-971076093f57.jpg?1554477017"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare Hound",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600114,
+    "name": "Blindblast",
+    "collector_number": 114,
+    "multiverse_ids": [
+      600114
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/d/1d49637b-2255-4f16-8f24-140145966bfa.jpg?1554476699"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600154,
+    "name": "Bloom Hulk",
+    "collector_number": 154,
+    "multiverse_ids": [
+      600154
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fd1c9129-254d-4d1d-9d95-112292bd6bcc.jpg?1554463694"],
+    "layout": "normal",
+    "type_line": "Creature — Plant Elemental",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600079,
+    "name": "Bolas's Citadel",
+    "collector_number": 79,
+    "multiverse_ids": [
+      600079
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d2124603-d20e-40eb-97f0-a66323397ac2.jpg?1554039757"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "mana_cost": "{3}{B}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600007,
+    "name": "Bulwark Giant",
+    "collector_number": 7,
+    "multiverse_ids": [
+      600007
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/11510817-edb3-40d4-bd27-6161fedadd11.jpg?1554403942"],
+    "layout": "normal",
+    "type_line": "Creature — Giant Soldier",
+    "mana_cost": "{5}{W}",
+    "cmc": 6,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600117,
+    "name": "Burning Prophet",
+    "collector_number": 117,
+    "multiverse_ids": [
+      600117
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01c5b095-13c9-4673-bf0c-553de455e521.jpg?1554225026"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600158,
+    "name": "Courage in Crisis",
+    "collector_number": 158,
+    "multiverse_ids": [
+      600158
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/67a22083-9ef9-4ff7-8502-3a77e69299df.jpg?1554466444"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600188,
+    "name": "Cruel Celebrant",
+    "collector_number": 188,
+    "multiverse_ids": [
+      600188
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/87ead6ac-b1c5-4852-8413-7fa43c6cfc57.jpg?1554225429"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600047,
+    "name": "Crush Dissent",
+    "collector_number": 47,
+    "multiverse_ids": [
+      600047
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/4/94c70f23-0ca9-425e-a53a-6c09921c0075.jpg?1554224442"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600122,
+    "name": "Cyclops Electromancer",
+    "collector_number": 122,
+    "multiverse_ids": [
+      600122
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/da0966a6-f378-4975-88ae-23b600d578bf.jpg?1554476756"],
+    "layout": "normal",
+    "type_line": "Creature — Cyclops Wizard",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600083,
+    "name": "Davriel, Rogue Shadowmage",
+    "collector_number": 83,
+    "multiverse_ids": [
+      600083
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5b1a44f0-1db8-406a-b7d9-f883f947f7bd.jpg?1554224696"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Davriel",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600084,
+    "name": "Davriel's Shadowfugue",
+    "collector_number": 84,
+    "multiverse_ids": [
+      600084
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/09c8fe63-37a7-478d-b9ba-33a0f6519cf1.jpg?1554224700"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600189,
+    "name": "Deathsprout",
+    "collector_number": 189,
+    "multiverse_ids": [
+      600189
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/d/6d615557-aea8-4057-9fbd-d62dd98edc13.jpg?1554403443"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{B}{B}{G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600009,
+    "name": "Defiant Strike",
+    "collector_number": 9,
+    "multiverse_ids": [
+      600009
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/c/dc183a40-7e15-40b1-9faa-b243401b3d10.jpg?1554466578"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600124,
+    "name": "Devouring Hellion",
+    "collector_number": 124,
+    "multiverse_ids": [
+      600124
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/88205574-bf2b-46e7-aac7-4b8ea217f94c.jpg?1554477064"],
+    "layout": "normal",
+    "type_line": "Creature — Hellion",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600193,
+    "name": "Dovin's Veto",
+    "collector_number": 193,
+    "multiverse_ids": [
+      600193
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/d/5d6b5054-2224-4f68-9d82-3ed17c5dacc4.jpg?1554290680"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{W}{U}",
+    "cmc": 2,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600125,
+    "name": "Dreadhorde Arcanist",
+    "collector_number": 125,
+    "multiverse_ids": [
+      600125
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fd97b3cf-924e-4f77-bb82-0bf19592389f.jpg?1554290763"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Wizard",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600194,
+    "name": "Dreadhorde Butcher",
+    "collector_number": 194,
+    "multiverse_ids": [
+      600194
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/5/457bc402-4c31-465c-95e1-694f686e257e.jpg?1554223469"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Warrior",
+    "mana_cost": "{B}{R}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600086,
+    "name": "Dreadhorde Invasion",
+    "collector_number": 86,
+    "multiverse_ids": [
+      600086
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/04c6e42d-991d-4e6b-a900-38480931f79e.jpg?1554224704"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600245,
+    "name": "Emergence Zone",
+    "collector_number": 245,
+    "multiverse_ids": [
+      600245
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/ab95f6e7-b806-47fe-a071-6c38b3176d94.jpg?1554225716"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600048,
+    "name": "Erratic Visionary",
+    "collector_number": 48,
+    "multiverse_ids": [
+      600048
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/03188bc3-0ef1-40cd-9c3c-4bb4d806fb92.jpg?1554224477"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600090,
+    "name": "Eternal Taskmaster",
+    "collector_number": 90,
+    "multiverse_ids": [
+      600090
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/7/7789188e-5caa-4500-b3e4-bb95f7657903.jpg?1554222951"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600050,
+    "name": "Fblthp, the Lost",
+    "collector_number": 50,
+    "multiverse_ids": [
+      600050
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/52558748-6893-4c72-a9e2-e87d31796b59.jpg?1554222856"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Homunculus",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600052,
+    "name": "Flux Channeler",
+    "collector_number": 52,
+    "multiverse_ids": [
+      600052
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/6/c6202e82-e159-482f-9224-292cb533171c.jpg?1554224434"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600264,
+    "name": "Forest",
+    "collector_number": 264,
+    "multiverse_ids": [
+      600264
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/0120879f-df13-4583-b260-0fc298518f16.jpg?1554039979"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600162,
+    "name": "Giant Growth",
+    "collector_number": 162,
+    "multiverse_ids": [
+      600162
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/6/06ec9e8b-4bd8-4caf-a559-6514b7ab4ca4.jpg?1554225121"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600015,
+    "name": "Gideon's Triumph",
+    "collector_number": 15,
+    "multiverse_ids": [
+      600015
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/6/d6610c6a-717f-406e-a49d-b6e548880946.jpg?1554224327"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600198,
+    "name": "Gleaming Overseer",
+    "collector_number": 198,
+    "multiverse_ids": [
+      600198
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b4604b4-df53-485c-a604-4d823b33d8ba.jpg?1554223770"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Wizard",
+    "mana_cost": "{1}{U}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600128,
+    "name": "Goblin Assailant",
+    "collector_number": 128,
+    "multiverse_ids": [
+      600128
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/4/e41acc81-7c22-4b59-97b8-54473623db6f.jpg?1554476601"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Warrior",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600129,
+    "name": "Goblin Assault Team",
+    "collector_number": 129,
+    "multiverse_ids": [
+      600129
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/880047fd-d258-40fb-bcd5-37cb26678dfe.jpg?1554479301"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Warrior",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600238,
+    "name": "God-Pharaoh's Statue",
+    "collector_number": 238,
+    "multiverse_ids": [
+      600238
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7dce06ba-c1e1-45ec-82a7-fc10b0fa8870.jpg?1554297019"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "mana_cost": "{6}",
+    "cmc": 6,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600017,
+    "name": "Grateful Apparition",
+    "collector_number": 17,
+    "multiverse_ids": [
+      600017
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7dcb1f9d-105d-48c6-bd66-d7e8839de9e1.jpg?1554427168"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600130,
+    "name": "Grim Initiate",
+    "collector_number": 130,
+    "multiverse_ids": [
+      600130
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/29b6ec9d-3861-48bf-a198-dc7efba5d89c.jpg?1554223800"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Warrior",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600131,
+    "name": "Heartfire",
+    "collector_number": 131,
+    "multiverse_ids": [
+      600131
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7db219ea-2ed1-4a86-955c-d61ecedbc019.jpg?1554476814"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600093,
+    "name": "Herald of the Dreadhorde",
+    "collector_number": 93,
+    "multiverse_ids": [
+      600093
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/7/d7ae9cb7-a3af-4224-89a5-a72f4d09dacf.jpg?1554224712"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Warrior",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600132,
+    "name": "Honor the God-Pharaoh",
+    "collector_number": 132,
+    "multiverse_ids": [
+      600132
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75844d13-74f5-4008-9bc6-2f6d04f378aa.jpg?1554225032"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600018,
+    "name": "Ignite the Beacon",
+    "collector_number": 18,
+    "multiverse_ids": [
+      600018
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4e11d6f9-0b80-4b19-ab96-23f80b66b409.jpg?1554251767"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600159,
+    "name": "\"I need a tree here, stat\"",
+    "collector_number": 159,
+    "multiverse_ids": [
+      600159
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b4042db8-6032-49a2-bc96-ad15f55db6c3.jpg?1554487706"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Druid",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600247,
+    "name": "Interplanar Beacon",
+    "collector_number": 247,
+    "multiverse_ids": [
+      600247
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/132d8e2a-e1dd-4867-8e8c-e48b9450b350.jpg?1554225805"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600201,
+    "name": "Invade the City",
+    "collector_number": 201,
+    "multiverse_ids": [
+      600201
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a587eb67-c2df-486c-9c48-dfeac540efe8.jpg?1554225434"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600134,
+    "name": "Invading Manticore",
+    "collector_number": 134,
+    "multiverse_ids": [
+      600134
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/674e408b-f052-451c-9bf9-ac6f98753a9d.jpg?1554290892"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Manticore",
+    "mana_cost": "{5}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600240,
+    "name": "Iron Bully",
+    "collector_number": 240,
+    "multiverse_ids": [
+      600240
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/ded2c66e-402c-4d5c-b987-402679aa914b.jpg?1554467057"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Golem",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600254,
+    "name": "Island",
+    "collector_number": 254,
+    "multiverse_ids": [
+      600254
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/0/40eb7b85-8c0f-4311-85f3-11bcb45ba0b6.jpg?1554039994"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600054,
+    "name": "Jace, Wielder of Mysteries",
+    "collector_number": 54,
+    "multiverse_ids": [
+      600054
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.jpg?1554224438"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Jace",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600164,
+    "name": "Jiang Yanggu, Wildcrafter",
+    "collector_number": 164,
+    "multiverse_ids": [
+      600164
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/0/10e0d47d-b13c-4d48-881f-8aaa347ef209.jpg?1554225147"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Yanggu",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600248,
+    "name": "Karn's Bastion",
+    "collector_number": 248,
+    "multiverse_ids": [
+      600248
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/9/b9d895af-7e8c-419f-bc5d-5596083fbfb6.jpg?1554227704"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600231,
+    "name": "Kaya, Bane of the Dead",
+    "collector_number": 231,
+    "multiverse_ids": [
+      600231
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9b575d3-f3f9-4ff4-8e5c-da7c2ec69882.jpg?1554225485"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Kaya",
+    "mana_cost": "{3}{W/B}{W/B}{W/B}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600094,
+    "name": "Kaya's Ghostform",
+    "collector_number": 94,
+    "multiverse_ids": [
+      600094
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/98f3be88-24e2-433f-9138-f0cb59d09a0f.jpg?1554224903"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600232,
+    "name": "Kiora, Behemoth Beckoner",
+    "collector_number": 232,
+    "multiverse_ids": [
+      600232
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/a/7a61b1a6-a75f-47b0-b215-de9708b6d773.jpg?1554225601"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Kiora",
+    "mana_cost": "{2}{G/U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600058,
+    "name": "Kiora's Dambreaker",
+    "collector_number": 58,
+    "multiverse_ids": [
+      600058
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/acd61fb0-a82b-4f46-8043-c6b89764720b.jpg?1554224478"],
+    "layout": "normal",
+    "type_line": "Creature — Leviathan",
+    "mana_cost": "{5}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600137,
+    "name": "Krenko, Tin Street Kingpin",
+    "collector_number": 137,
+    "multiverse_ids": [
+      600137
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37ed04d3-cfa1-4778-aea6-b4c2c29e6e0a.jpg?1554403268"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Goblin",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600095,
+    "name": "Lazotep Behemoth",
+    "collector_number": 95,
+    "multiverse_ids": [
+      600095
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b4be6f22-e9e8-462a-956b-e1c78bbadacc.jpg?1554291025"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Hippo",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600059,
+    "name": "Lazotep Plating",
+    "collector_number": 59,
+    "multiverse_ids": [
+      600059
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f03b5405-6016-405b-a504-a454731b9276.jpg?1554296992"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600096,
+    "name": "Lazotep Reaver",
+    "collector_number": 96,
+    "multiverse_ids": [
+      600096
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/594bbe43-a8aa-42aa-bc49-cb4f3bc05cad.jpg?1554290980"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Beast",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600202,
+    "name": "Leyline Prowler",
+    "collector_number": 202,
+    "multiverse_ids": [
+      600202
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c56b4e8f-d48e-4bb0-883d-29f978033f65.jpg?1554293071"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare Beast",
+    "mana_cost": "{1}{B}{G}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600097,
+    "name": "Liliana, Dreadhorde General",
+    "collector_number": 97,
+    "multiverse_ids": [
+      600097
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/7/d75ebba8-34ca-47a0-bf13-8318ad73b343.jpg?1554224908"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Liliana",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "war"
+  },
+  {
+    "id": 600098,
+    "name": "Liliana's Triumph",
+    "collector_number": 98,
+    "multiverse_ids": [
+      600098
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84803db8-fdb0-462b-92f6-33d591593d2d.jpg?1554117852"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600021,
+    "name": "Loxodon Sergeant",
+    "collector_number": 21,
+    "multiverse_ids": [
+      600021
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c57f873b-5fb2-4638-b66c-f6d1aec156ba.jpg?1554466995"],
+    "layout": "normal",
+    "type_line": "Creature — Elephant Soldier",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600022,
+    "name": "Makeshift Battalion",
+    "collector_number": 22,
+    "multiverse_ids": [
+      600022
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/82293d58-d3b4-4cf6-8a16-32ae3e509696.jpg?1554439972"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600099,
+    "name": "Massacre Girl",
+    "collector_number": 99,
+    "multiverse_ids": [
+      600099
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/e/be8ec9e1-2c8e-496d-9111-4d453b75b578.jpg?1554463425"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Assassin",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600204,
+    "name": "Mayhem Devil",
+    "collector_number": 204,
+    "multiverse_ids": [
+      600204
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/7/17416926-168b-49b3-9231-acbb8f8a1d13.jpg?1554464700"],
+    "layout": "normal",
+    "type_line": "Creature — Devil",
+    "mana_cost": "{1}{B}{R}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600205,
+    "name": "Merfolk Skydiver",
+    "collector_number": 205,
+    "multiverse_ids": [
+      600205
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2bf211eb-837b-4c02-b02e-8d9e62f1abb1.jpg?1554442587"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Mutant",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600138,
+    "name": "Mizzium Tank",
+    "collector_number": 138,
+    "multiverse_ids": [
+      600138
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/5643253b-0996-45a8-9488-5bcc9192f867.jpg?1554433010"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600249,
+    "name": "Mobilized District",
+    "collector_number": 249,
+    "multiverse_ids": [
+      600249
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/214792e9-a172-4547-b148-b9b368cb3432.jpg?1554463573"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600261,
+    "name": "Mountain",
+    "collector_number": 261,
+    "multiverse_ids": [
+      600261
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/e/1ef001a8-adb5-4125-aa1a-f5e3f8ca898b.jpg?1554039973"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600167,
+    "name": "Mowu, Loyal Companion",
+    "collector_number": 167,
+    "multiverse_ids": [
+      600167
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/4/f41a191c-c42e-42ec-89bd-cc1bc215ffbc.jpg?1554225203"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Hound",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600060,
+    "name": "Naga Eternal",
+    "collector_number": 60,
+    "multiverse_ids": [
+      600060
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f244233-f2e8-48f8-9106-e7cd186efd51.jpg?1554224522"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Naga",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600139,
+    "name": "Nahiri's Stoneblades",
+    "collector_number": 139,
+    "multiverse_ids": [
+      600139
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0a14331e-8da5-4455-ac69-e510684e989c.jpg?1554289736"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600233,
+    "name": "Nahiri, Storm of Stone",
+    "collector_number": 233,
+    "multiverse_ids": [
+      600233
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/8806605c-0cb7-4360-96e4-afb424ccad90.jpg?1554297056"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Nahiri",
+    "mana_cost": "{2}{R/W}{R/W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600140,
+    "name": "Neheb, Dreadhorde Champion",
+    "collector_number": 140,
+    "multiverse_ids": [
+      600140
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/0/60c90d5d-7b3b-48d2-85f6-d6a2a452c0e9.jpg?1554222748"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Zombie Minotaur Warrior",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600206,
+    "name": "Neoform",
+    "collector_number": 206,
+    "multiverse_ids": [
+      600206
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/2/92d8f67e-4f2f-4a1f-b190-7c3f39e477e4.jpg?1554467042"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600063,
+    "name": "No Escape",
+    "collector_number": 63,
+    "multiverse_ids": [
+      600063
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bc9888a1-6f35-4802-b8fb-902017736d4a.jpg?1554224514"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600101,
+    "name": "Ob Nixilis's Cruelty",
+    "collector_number": 101,
+    "multiverse_ids": [
+      600101
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/4/94db72a8-57f7-4f17-9f09-cae90ef50304.jpg?1554224933"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600100,
+    "name": "Ob Nixilis, the Hate-Twisted",
+    "collector_number": 100,
+    "multiverse_ids": [
+      600100
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/4/14916e2d-73af-4747-a927-d2d4cb3e32db.jpg?1554224915"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Nixilis",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600171,
+    "name": "Paradise Druid",
+    "collector_number": 171,
+    "multiverse_ids": [
+      600171
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6ed8d9e7-cdad-450d-8329-fa653d387a63.jpg?1554290554"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Druid",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600252,
+    "name": "Plains",
+    "collector_number": 252,
+    "multiverse_ids": [
+      600252
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/d/0d7ae52e-9ea7-4e9d-a9c9-c819cc768cd6.jpg?1554039974"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600173,
+    "name": "Pollenbright Druid",
+    "collector_number": 173,
+    "multiverse_ids": [
+      600173
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4b0f478c-54f8-4087-ad52-d089e2049dda.jpg?1554464174"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Druid",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600025,
+    "name": "Pouncing Lynx",
+    "collector_number": 25,
+    "multiverse_ids": [
+      600025
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/3/9383956f-90bc-40e4-ae5c-503e98e21832.jpg?1554402768"],
+    "layout": "normal",
+    "type_line": "Creature — Cat",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600174,
+    "name": "Primordial Wurm",
+    "collector_number": 174,
+    "multiverse_ids": [
+      600174
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/c/fc0e8298-adac-4922-8824-a1fafa089f72.jpg?1554402987"],
+    "layout": "normal",
+    "type_line": "Creature — Wurm",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600028,
+    "name": "Ravnica at War",
+    "collector_number": 28,
+    "multiverse_ids": [
+      600028
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e0f83824-43c6-4101-88fd-9109958b23e2.jpg?1554224335"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600064,
+    "name": "Relentless Advance",
+    "collector_number": 64,
+    "multiverse_ids": [
+      600064
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/2/4258e242-91c6-4b30-86ec-7759705aa97c.jpg?1554251721"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600065,
+    "name": "Rescuer Sphinx",
+    "collector_number": 65,
+    "multiverse_ids": [
+      600065
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/00ba9fa2-bfd2-4dc7-b96d-d22a8886a6ae.jpg?1554427079"],
+    "layout": "normal",
+    "type_line": "Creature — Sphinx",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600029,
+    "name": "Rising Populace",
+    "collector_number": 29,
+    "multiverse_ids": [
+      600029
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/d/edcacc28-aacf-4d40-b8cc-f8c028380340.jpg?1554224353"],
+    "layout": "normal",
+    "type_line": "Creature — Human",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600214,
+    "name": "Role Reversal",
+    "collector_number": 214,
+    "multiverse_ids": [
+      600214
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/59b47017-d982-4d4c-94fc-f265a5b7f36a.jpg?1554477005"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{U}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600142,
+    "name": "Samut's Sprint",
+    "collector_number": 142,
+    "multiverse_ids": [
+      600142
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/4/94bda699-2b5d-4f5b-bee5-792b99d2b64a.jpg?1554225069"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600235,
+    "name": "Samut, Tyrant Smasher",
+    "collector_number": 235,
+    "multiverse_ids": [
+      600235
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e0457e3f-56c1-401b-8e08-f04b95c55e2d.jpg?1554225697"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Samut",
+    "mana_cost": "{2}{R/G}{R/G}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600030,
+    "name": "Single Combat",
+    "collector_number": 30,
+    "multiverse_ids": [
+      600030
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce0e7c6a-e628-4327-a16f-2062c5a662df.jpg?1554408027"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600104,
+    "name": "Sorin's Thirst",
+    "collector_number": 104,
+    "multiverse_ids": [
+      600104
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50eecfc2-452d-461c-a37c-8aa10183e5a0.jpg?1554408015"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{B}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600217,
+    "name": "Sorin, Vengeful Bloodlord",
+    "collector_number": 217,
+    "multiverse_ids": [
+      600217
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/354fe9bd-4ec8-409c-8ce5-b29393f3d169.jpg?1554315474"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Sorin",
+    "mana_cost": "{2}{W}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600145,
+    "name": "Spellgorger Weird",
+    "collector_number": 145,
+    "multiverse_ids": [
+      600145
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/1/91551f85-4630-43a0-af72-8332d2ff0752.jpg?1554376277"],
+    "layout": "normal",
+    "type_line": "Creature — Weird",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600069,
+    "name": "Spellkeeper Weird",
+    "collector_number": 69,
+    "multiverse_ids": [
+      600069
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/74e42dad-5958-443f-a196-12b3f3e44213.jpg?1554374896"],
+    "layout": "normal",
+    "type_line": "Creature — Weird",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600070,
+    "name": "Stealth Mission",
+    "collector_number": 70,
+    "multiverse_ids": [
+      600070
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7ddfd4f5-7fe1-4a22-9a85-bd9b75b16380.jpg?1554439848"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600219,
+    "name": "Storrev, Devkarin Lich",
+    "collector_number": 219,
+    "multiverse_ids": [
+      600219
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/59c906bd-f443-4f4b-b40b-9218e71f1196.jpg?1554255648"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Zombie Elf Wizard",
+    "mana_cost": "{1}{B}{B}{G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600258,
+    "name": "Swamp",
+    "collector_number": 258,
+    "multiverse_ids": [
+      600258
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/04559991-3278-469f-b2be-07c3b27ad5a5.jpg?1554039959"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600072,
+    "name": "Teferi's Time Twist",
+    "collector_number": 72,
+    "multiverse_ids": [
+      600072
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/8/c878bdc0-d697-4a2f-bba5-758b27f4247a.jpg?1554158480"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600221,
+    "name": "Teferi, Time Raveler",
+    "collector_number": 221,
+    "multiverse_ids": [
+      600221
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5cb76266-ae50-4bbc-8f96-d98f309b02d3.jpg?1554225533"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Teferi",
+    "mana_cost": "{1}{W}{U}",
+    "cmc": 3,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600222,
+    "name": "Tenth District Legionnaire",
+    "collector_number": 222,
+    "multiverse_ids": [
+      600222
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/4/44f3090b-917b-4122-b522-27c30dca8e69.jpg?1554467019"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "mana_cost": "{R}{W}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600033,
+    "name": "Teyo's Lightshield",
+    "collector_number": 33,
+    "multiverse_ids": [
+      600033
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/dfffe235-98b1-43db-9461-1b2da5f0690e.jpg?1554224364"],
+    "layout": "normal",
+    "type_line": "Creature — Illusion",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600032,
+    "name": "Teyo, the Shieldmage",
+    "collector_number": 32,
+    "multiverse_ids": [
+      600032
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a974571c-d8d5-4860-9077-2023e5f32a24.jpg?1554224358"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Teyo",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600037,
+    "name": "The Wanderer",
+    "collector_number": 37,
+    "multiverse_ids": [
+      600037
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/0/d0f0e463-9eed-4348-af7c-fde5f0d8188c.jpg?1554224373"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600146,
+    "name": "Tibalt, Rakish Instigator",
+    "collector_number": 146,
+    "multiverse_ids": [
+      600146
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg?1554251673"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Tibalt",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600147,
+    "name": "Tibalt's Rager",
+    "collector_number": 147,
+    "multiverse_ids": [
+      600147
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/2985520d-dfce-414e-a4ac-61695be67406.jpg?1554225050"],
+    "layout": "normal",
+    "type_line": "Creature — Devil",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600223,
+    "name": "Time Wipe",
+    "collector_number": 223,
+    "multiverse_ids": [
+      600223
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/2/62c59475-6f15-48d2-b105-f49901f20d44.jpg?1554039742"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{W}{W}{U}",
+    "cmc": 5,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600224,
+    "name": "Tolsimir, Friend to Wolves",
+    "collector_number": 224,
+    "multiverse_ids": [
+      600224
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f7fce047-49f1-40ae-8410-6501cb0f8201.jpg?1554409416"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elf Scout",
+    "mana_cost": "{2}{G}{G}{W}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600034,
+    "name": "Tomik, Distinguished Advokist",
+    "collector_number": 34,
+    "multiverse_ids": [
+      600034
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/3/f346387c-2f13-472b-b5b1-968b490eb38f.jpg?1554463820"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Advisor",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600074,
+    "name": "Totally Lost",
+    "collector_number": 74,
+    "multiverse_ids": [
+      600074
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/adffef78-f776-42d3-ab40-3347c8e5c88b.jpg?1554236547"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600180,
+    "name": "Vivien, Champion of the Wilds",
+    "collector_number": 180,
+    "multiverse_ids": [
+      600180
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff3986d7-9b3d-4082-8d72-ce59c9fcd5d5.jpg?1554225210"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Vivien",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600181,
+    "name": "Vivien's Arkbow",
+    "collector_number": 181,
+    "multiverse_ids": [
+      600181
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/e/eecc846f-5b78-4d54-8d29-642ad7a852bc.jpg?1554225219"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600182,
+    "name": "Vivien's Grizzly",
+    "collector_number": 182,
+    "multiverse_ids": [
+      600182
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37f2571b-6756-462c-9e71-3121fa458160.jpg?1554225224"],
+    "layout": "normal",
+    "type_line": "Creature — Bear Spirit",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600112,
+    "name": "Vraska's Finisher",
+    "collector_number": 112,
+    "multiverse_ids": [
+      600112
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f89fa379-7fae-4fbf-8e31-0ef3645353c5.jpg?1554224927"],
+    "layout": "normal",
+    "type_line": "Creature — Gorgon Assassin",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600236,
+    "name": "Vraska, Swarm's Eminence",
+    "collector_number": 236,
+    "multiverse_ids": [
+      600236
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/59ee2974-07e9-4506-903c-457cb7327dd8.jpg?1554225559"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Vraska",
+    "mana_cost": "{2}{B/G}{B/G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600038,
+    "name": "Wanderer's Strike",
+    "collector_number": 38,
+    "multiverse_ids": [
+      600038
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/5/85e1d63e-9692-4988-bda2-7c2c9b42217b.jpg?1554224413"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600183,
+    "name": "Wardscale Crocodile",
+    "collector_number": 183,
+    "multiverse_ids": [
+      600183
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aa5341b9-06e4-4360-a75d-f405d468276e.jpg?1554403933"],
+    "layout": "normal",
+    "type_line": "Creature — Crocodile",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600039,
+    "name": "War Screecher",
+    "collector_number": 39,
+    "multiverse_ids": [
+      600039
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d2ff7868-eeb9-4292-a2f4-cac18f9ba270.jpg?1554402864"],
+    "layout": "normal",
+    "type_line": "Creature — Bird",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600226,
+    "name": "Widespread Brutality",
+    "collector_number": 226,
+    "multiverse_ids": [
+      600226
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/7/97715d22-f432-4f67-b4ea-47b8fe6edca5.jpg?1554225527"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{B}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  }
+]

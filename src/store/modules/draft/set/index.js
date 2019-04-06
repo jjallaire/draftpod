@@ -6,6 +6,7 @@ import grn from './set-grn'
 import rna from './set-rna'
 import xln from './set-xln'
 import rix from './set-rix'
+import war from './set-war'
 
 import cube_gnt from './cube-gnt'
 
@@ -20,6 +21,7 @@ const sets = {
   rna,
   xln,
   rix,
+  war,
   cube_gnt
 }
 
