@@ -44,7 +44,7 @@ export default {
       return this.draft.set;
     },
     options: function() {
-      return selectors.draftOptions(this.draft.options);
+      return selectors.draftOptions(this.draft);
     },
     table: function() {
       return this.draft.table;
