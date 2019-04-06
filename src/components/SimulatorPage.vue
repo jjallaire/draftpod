@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'rna',
+      set_code: 'war',
       number: 100,
       decks: []
     }

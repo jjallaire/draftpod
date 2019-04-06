@@ -46,7 +46,7 @@ export function initializeStore() {
       name: null
     },
     preferences: {
-      set_code: 'rna',
+      set_code: 'war',
       pick_timer: false,
       pick_ratings: false,
       sets: {}

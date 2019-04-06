@@ -40,7 +40,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'rna',
+      set_code: 'war',
       cardpool: CARDPOOL.CUBE + '6/3/1/1',
       pick_timer: false,
       pick_ratings: false,
