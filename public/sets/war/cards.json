@@ -269,6 +269,25 @@
     "set": "war"
   },
   {
+    "id": 600115,
+    "name": "Bolt Bend",
+    "collector_number": 115,
+    "multiverse_ids": [
+      600115
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39b35408-3728-4e1b-9f58-b0775df914d6.jpg?1554748664"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
     "id": 600007,
     "name": "Bulwark Giant",
     "collector_number": 7,
@@ -1104,6 +1123,25 @@
     "set": "war"
   },
   {
+    "id": 600027,
+    "name": "\"I Thought I'd Just Be Guarding Garrisons, You Know?\"",
+    "collector_number": 27,
+    "multiverse_ids": [
+      600027
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f043642d-35fe-4ea9-a1d3-78ddfdddeaf4.jpg?1554743755"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "war"
+  },
+  {
     "id": 600054,
     "name": "Jace, Wielder of Mysteries",
     "collector_number": 54,
@@ -1155,6 +1193,44 @@
     "cmc": 0,
     "colors": [],
     "rarity": "rare",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600056,
+    "name": "Kasmina, Enigmatic Mentor",
+    "collector_number": 56,
+    "multiverse_ids": [
+      600056
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/7/c77d9454-a78c-4063-ad66-46b2f5a030aa.jpg?1554743905"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Kasmina",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600057,
+    "name": "Kasmina's Transmutation",
+    "collector_number": 57,
+    "multiverse_ids": [
+      600057
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9771412-695a-4e89-b146-0e3a7336d319.jpg?1554744126"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
     "rating": 3.5,
     "set": "war"
   },
@@ -1715,6 +1791,25 @@
     "set": "war"
   },
   {
+    "id": 600024,
+    "name": "Parhelion II",
+    "collector_number": 24,
+    "multiverse_ids": [
+      600024
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/261ba80e-3aca-423e-a0b7-19c2d4b44dbf.jpg?1554744992"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact — Vehicle",
+    "mana_cost": "{6}{W}{W}",
+    "cmc": 8,
+    "colors": [
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
     "id": 600252,
     "name": "Plains",
     "collector_number": 252,
@@ -1788,6 +1883,46 @@
     ],
     "rarity": "common",
     "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600212,
+    "name": "Ral's Outburst",
+    "collector_number": 212,
+    "multiverse_ids": [
+      600212
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/b/6be3dd3e-50d2-4729-9caa-b2cd984f4c97.jpg?1554744373"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{U}{R}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600211,
+    "name": "Ral, Storm Conduit",
+    "collector_number": 211,
+    "multiverse_ids": [
+      600211
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/678ce3bf-152d-45ca-87ae-ad46c921328b.jpg?1554744439"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Ral",
+    "mana_cost": "{2}{U}{R}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 4,
     "set": "war"
   },
   {
@@ -1873,7 +2008,7 @@
     "multiverse_ids": [
       600213
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de14b4fd-fb4e-4986-9123-69ae68b5050a.jpg?1554727113"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de14b4fd-fb4e-4986-9123-69ae68b5050a.jpg?1554748683"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Mutant",
     "mana_cost": "{2}{G}{G}{U}",
