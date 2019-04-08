@@ -1964,6 +1964,26 @@
     "set": "war"
   },
   {
+    "id": 600216,
+    "name": "Solar Blaze",
+    "collector_number": 216,
+    "multiverse_ids": [
+      600216
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/eb72ba0f-ab3a-41e6-906d-a84039efa0af.jpg?1554729007"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{R}{W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
     "id": 600104,
     "name": "Sorin's Thirst",
     "collector_number": 104,
