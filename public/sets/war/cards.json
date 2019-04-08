@@ -708,6 +708,26 @@
     "set": "war"
   },
   {
+    "id": 600197,
+    "name": "Feather, the Redeemed",
+    "collector_number": 197,
+    "multiverse_ids": [
+      600197
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/4/e4a2d2c6-8eaa-4760-b620-921b807baa2e.jpg?1554734209"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Angel",
+    "mana_cost": "{R}{W}{W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
     "id": 600052,
     "name": "Flux Channeler",
     "collector_number": 52,
