@@ -63,7 +63,7 @@
     "multiverse_ids": [
       600184
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6cc78151-8cb0-4521-9674-fb0c67e24a17.jpg?1554225409"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6cc78151-8cb0-4521-9674-fb0c67e24a17.jpg?1554727096"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Ajani",
     "mana_cost": "{2}{G}{W}",
@@ -218,7 +218,7 @@
     "multiverse_ids": [
       600114
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/d/1d49637b-2255-4f16-8f24-140145966bfa.jpg?1554476699"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/d/1d49637b-2255-4f16-8f24-140145966bfa.jpg?1554726058"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{R}",
@@ -304,6 +304,25 @@
     ],
     "rarity": "common",
     "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600157,
+    "name": "Challenger Troll",
+    "collector_number": 157,
+    "multiverse_ids": [
+      600157
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/328d778a-ef16-437f-9a9d-204cf061919b.jpg?1554726012"],
+    "layout": "normal",
+    "type_line": "Creature — Troll",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
     "set": "war"
   },
   {
@@ -461,6 +480,25 @@
     "set": "war"
   },
   {
+    "id": 600123,
+    "name": "Demolish",
+    "collector_number": 123,
+    "multiverse_ids": [
+      600123
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/0/b00211dd-6dd7-40d9-80f3-f909f6d112db.jpg?1554725266"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "war"
+  },
+  {
     "id": 600124,
     "name": "Devouring Hellion",
     "collector_number": 124,
@@ -594,6 +632,25 @@
     "set": "war"
   },
   {
+    "id": 600049,
+    "name": "Eternal Skylord",
+    "collector_number": 49,
+    "multiverse_ids": [
+      600049
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/5/f5aacfc9-1d45-4250-9abc-698d8941699f.jpg?1554725076"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Wizard",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
+    "set": "war"
+  },
+  {
     "id": 600090,
     "name": "Eternal Taskmaster",
     "collector_number": 90,
@@ -610,6 +667,25 @@
     ],
     "rarity": "uncommon",
     "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600159,
+    "name": "Evolution Sage",
+    "collector_number": 159,
+    "multiverse_ids": [
+      600159
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b4042db8-6032-49a2-bc96-ad15f55db6c3.jpg?1554725982"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Druid",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
     "set": "war"
   },
   {
@@ -648,6 +724,25 @@
     ],
     "rarity": "uncommon",
     "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600161,
+    "name": "Forced Landing",
+    "collector_number": 161,
+    "multiverse_ids": [
+      600161
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5cb319a7-564c-4748-82cf-c26ab110c32c.jpg?1554725374"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -894,25 +989,6 @@
     ],
     "rarity": "rare",
     "rating": 2,
-    "set": "war"
-  },
-  {
-    "id": 600159,
-    "name": "\"I need a tree here, stat\"",
-    "collector_number": 159,
-    "multiverse_ids": [
-      600159
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b4042db8-6032-49a2-bc96-ad15f55db6c3.jpg?1554487706"],
-    "layout": "normal",
-    "type_line": "Creature — Elf Druid",
-    "mana_cost": "{2}{G}",
-    "cmc": 3,
-    "colors": [
-      "G"
-    ],
-    "rarity": "uncommon",
-    "rating": 4,
     "set": "war"
   },
   {
@@ -1378,7 +1454,7 @@
     "multiverse_ids": [
       600138
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/5643253b-0996-45a8-9488-5bcc9192f867.jpg?1554433010"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/5643253b-0996-45a8-9488-5bcc9192f867.jpg?1554726126"],
     "layout": "normal",
     "type_line": "Artifact — Vehicle",
     "mana_cost": "{1}{R}{R}",
@@ -1397,7 +1473,7 @@
     "multiverse_ids": [
       600249
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/214792e9-a172-4547-b148-b9b368cb3432.jpg?1554463573"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/214792e9-a172-4547-b148-b9b368cb3432.jpg?1554726082"],
     "layout": "normal",
     "type_line": "Land",
     "mana_cost": "",
@@ -1771,6 +1847,26 @@
     "set": "war"
   },
   {
+    "id": 600213,
+    "name": "Roalesk, Apex Hybrid",
+    "collector_number": 213,
+    "multiverse_ids": [
+      600213
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de14b4fd-fb4e-4986-9123-69ae68b5050a.jpg?1554727113"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Mutant",
+    "mana_cost": "{2}{G}{G}{U}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "war"
+  },
+  {
     "id": 600214,
     "name": "Role Reversal",
     "collector_number": 214,
@@ -1827,6 +1923,25 @@
     ],
     "rarity": "uncommon",
     "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600103,
+    "name": "Shriekdiver",
+    "collector_number": 103,
+    "multiverse_ids": [
+      600103
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0a1c3148-7a6f-4963-af0b-18d9a156bf22.jpg?1554725483"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Bird Warrior",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -1926,6 +2041,25 @@
     "set": "war"
   },
   {
+    "id": 600177,
+    "name": "Steady Aim",
+    "collector_number": 177,
+    "multiverse_ids": [
+      600177
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/a/4af6a1b5-a561-4d92-b429-de13b2ccaf81.jpg?1554725554"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
     "id": 600070,
     "name": "Stealth Mission",
     "collector_number": 70,
@@ -1962,6 +2096,25 @@
     ],
     "rarity": "rare",
     "rating": 4.5,
+    "set": "war"
+  },
+  {
+    "id": 600031,
+    "name": "Sunblade Angel",
+    "collector_number": 31,
+    "multiverse_ids": [
+      600031
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/2/9211c0e1-b314-495f-9c43-9a0e95c9efb9.jpg?1554724982"],
+    "layout": "normal",
+    "type_line": "Creature — Angel",
+    "mana_cost": "{5}{W}",
+    "cmc": 6,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
     "set": "war"
   },
   {
@@ -2216,6 +2369,25 @@
     "set": "war"
   },
   {
+    "id": 600148,
+    "name": "Turret Ogre",
+    "collector_number": 148,
+    "multiverse_ids": [
+      600148
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8b5f624f-c5eb-4150-b36e-6147b440ff56.jpg?1554725628"],
+    "layout": "normal",
+    "type_line": "Creature — Ogre Warrior",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "set": "war"
+  },
+  {
     "id": 600180,
     "name": "Vivien, Champion of the Wilds",
     "collector_number": 180,
@@ -2366,25 +2538,6 @@
     ],
     "rarity": "common",
     "rating": 2.5,
-    "set": "war"
-  },
-  {
-    "id": 600157,
-    "name": "\"Who left this skeleton here?\"",
-    "collector_number": 157,
-    "multiverse_ids": [
-      600157
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/328d778a-ef16-437f-9a9d-204cf061919b.jpg?1554588303"],
-    "layout": "normal",
-    "type_line": "Creature — Troll",
-    "mana_cost": "{4}{G}",
-    "cmc": 5,
-    "colors": [
-      "G"
-    ],
-    "rarity": "uncommon",
-    "rating": 4,
     "set": "war"
   },
   {
