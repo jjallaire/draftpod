@@ -345,6 +345,44 @@
     "set": "war"
   },
   {
+    "id": 600119,
+    "name": "Chandra, Fire Artisan",
+    "collector_number": 119,
+    "multiverse_ids": [
+      600119
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d21a7b23-8827-49f2-ade4-75a602d17743.jpg?1554813235"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Chandra",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600120,
+    "name": "Chandra's Pyrohelix",
+    "collector_number": 120,
+    "multiverse_ids": [
+      600120
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/c/1c482f51-9222-4e9e-a9fd-bb14a0afe156.jpg?1554813125"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "set": "war"
+  },
+  {
     "id": 600158,
     "name": "Courage in Crisis",
     "collector_number": 158,
@@ -534,6 +572,26 @@
     ],
     "rarity": "uncommon",
     "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600229,
+    "name": "Dovin, Hand of Control",
+    "collector_number": 229,
+    "multiverse_ids": [
+      600229
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/d/bd6ff745-919b-4688-9e9e-ab7835b3b891.jpg?1554813619"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Dovin",
+    "mana_cost": "{2}{W/U}",
+    "cmc": 3,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -1123,25 +1181,6 @@
     "set": "war"
   },
   {
-    "id": 600027,
-    "name": "\"I Thought I'd Just Be Guarding Garrisons, You Know?\"",
-    "collector_number": 27,
-    "multiverse_ids": [
-      600027
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f043642d-35fe-4ea9-a1d3-78ddfdddeaf4.jpg?1554743755"],
-    "layout": "normal",
-    "type_line": "Instant",
-    "mana_cost": "{1}{W}",
-    "cmc": 2,
-    "colors": [
-      "W"
-    ],
-    "rarity": "uncommon",
-    "rating": 0,
-    "set": "war"
-  },
-  {
     "id": 600054,
     "name": "Jace, Wielder of Mysteries",
     "collector_number": 54,
@@ -1157,6 +1196,44 @@
       "U"
     ],
     "rarity": "rare",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600136,
+    "name": "Jaya's Greeting",
+    "collector_number": 136,
+    "multiverse_ids": [
+      600136
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ec66f169-5cf9-4d7c-a5ab-c64fc4801358.jpg?1554816046"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600135,
+    "name": "Jaya, Venerated Firemage",
+    "collector_number": 135,
+    "multiverse_ids": [
+      600135
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/2/129dc8a8-9fbc-4300-b559-243395dc6ed5.jpg?1554816178"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Jaya",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
     "rating": 3.5,
     "set": "war"
   },
@@ -1197,13 +1274,30 @@
     "set": "war"
   },
   {
+    "id": 600001,
+    "name": "Karn, the Great Creator",
+    "collector_number": 1,
+    "multiverse_ids": [
+      600001
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/e/3ec0c0fb-1a4f-45f4-85b7-346a6d3ce2c5.jpg?1554832574"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Karn",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 1.5,
+    "set": "war"
+  },
+  {
     "id": 600056,
     "name": "Kasmina, Enigmatic Mentor",
     "collector_number": 56,
     "multiverse_ids": [
       600056
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/7/c77d9454-a78c-4063-ad66-46b2f5a030aa.jpg?1554743905"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/7/c77d9454-a78c-4063-ad66-46b2f5a030aa.jpg?1554814668"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Kasmina",
     "mana_cost": "{3}{U}",
@@ -1222,7 +1316,7 @@
     "multiverse_ids": [
       600057
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9771412-695a-4e89-b146-0e3a7336d319.jpg?1554744126"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9771412-695a-4e89-b146-0e3a7336d319.jpg?1554814664"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "mana_cost": "{1}{U}",
@@ -1329,6 +1423,25 @@
     ],
     "rarity": "rare",
     "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600020,
+    "name": "Law-Rune Enforcer",
+    "collector_number": 20,
+    "multiverse_ids": [
+      600020
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a3d39238-e21d-4345-84c8-648ef3a66703.jpg?1554813747"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -1662,7 +1775,7 @@
     "multiverse_ids": [
       600233
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/8806605c-0cb7-4360-96e4-afb424ccad90.jpg?1554297056"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/8806605c-0cb7-4360-96e4-afb424ccad90.jpg?1554780694"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Nahiri",
     "mana_cost": "{2}{R/W}{R/W}",
@@ -1797,7 +1910,7 @@
     "multiverse_ids": [
       600024
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/261ba80e-3aca-423e-a0b7-19c2d4b44dbf.jpg?1554744992"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/261ba80e-3aca-423e-a0b7-19c2d4b44dbf.jpg?1554762137"],
     "layout": "normal",
     "type_line": "Legendary Artifact — Vehicle",
     "mana_cost": "{6}{W}{W}",
@@ -1883,6 +1996,25 @@
     ],
     "rarity": "common",
     "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600027,
+    "name": "Rally of Wings",
+    "collector_number": 27,
+    "multiverse_ids": [
+      600027
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f043642d-35fe-4ea9-a1d3-78ddfdddeaf4.jpg?1554817325"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -2039,6 +2171,43 @@
     ],
     "rarity": "rare",
     "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600243,
+    "name": "Saheeli's Silverwing",
+    "collector_number": 243,
+    "multiverse_ids": [
+      600243
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/dba77c07-5d23-4a1a-90a0-b8293848d637.jpg?1554813432"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Drake",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "war"
+  },
+  {
+    "id": 600234,
+    "name": "Saheeli, Sublime Artificer",
+    "collector_number": 234,
+    "multiverse_ids": [
+      600234
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5a10b543-d5d4-42a8-9ee8-dada59a2ad7e.jpg?1554813351"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Saheeli",
+    "mana_cost": "{1}{U/R}{U/R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
     "set": "war"
   },
   {
@@ -2617,6 +2786,25 @@
     ],
     "rarity": "common",
     "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600111,
+    "name": "Vizier of the Scorpion",
+    "collector_number": 111,
+    "multiverse_ids": [
+      600111
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/2444c7dc-7aa1-4476-8660-19d26607306d.jpg?1554826375"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Wizard",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 1,
     "set": "war"
   },
   {
