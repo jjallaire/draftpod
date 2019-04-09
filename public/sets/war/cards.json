@@ -383,6 +383,25 @@
     "set": "war"
   },
   {
+    "id": 600121,
+    "name": "Chandra's Triumph",
+    "collector_number": 121,
+    "multiverse_ids": [
+      600121
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/0/70f43c17-7022-4052-86b8-90b74382b7bf.jpg?1554835174"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
     "id": 600158,
     "name": "Courage in Crisis",
     "collector_number": 158,
