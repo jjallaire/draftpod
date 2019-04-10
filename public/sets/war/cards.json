@@ -174,6 +174,25 @@
     "set": "war"
   },
   {
+    "id": 600152,
+    "name": "Awakening of Vitu-Ghazi",
+    "collector_number": 152,
+    "multiverse_ids": [
+      600152
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b42b2fb4-8016-462c-8764-2639adec931f.jpg?1554895503"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
     "id": 600153,
     "name": "Band Together",
     "collector_number": 153,
@@ -318,6 +337,25 @@
     "type_line": "Creature — Human Wizard",
     "mana_cost": "{1}{R}",
     "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600118,
+    "name": "Chainwhip Cyclops",
+    "collector_number": 118,
+    "multiverse_ids": [
+      600118
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d2f18df2-5910-4c5d-8b04-6fe5d04e8150.jpg?1554900115"],
+    "layout": "normal",
+    "type_line": "Creature — Cyclops Warrior",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
     "colors": [
       "R"
     ],
@@ -594,6 +632,46 @@
     "set": "war"
   },
   {
+    "id": 600191,
+    "name": "Domri, Anarch of Bolas",
+    "collector_number": 191,
+    "multiverse_ids": [
+      600191
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/1/c1af9881-e35b-4be2-8716-ea7c6664e22c.jpg?1554900707"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Domri",
+    "mana_cost": "{1}{R}{G}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600192,
+    "name": "Domri's Ambush",
+    "collector_number": 192,
+    "multiverse_ids": [
+      600192
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/0/b0dcae59-e9be-45a8-8ed8-5b47309bb716.jpg?1554895584"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{R}{G}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
+    "set": "war"
+  },
+  {
     "id": 600229,
     "name": "Dovin, Hand of Control",
     "collector_number": 229,
@@ -734,7 +812,7 @@
     "multiverse_ids": [
       600049
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/5/f5aacfc9-1d45-4250-9abc-698d8941699f.jpg?1554725076"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/5/f5aacfc9-1d45-4250-9abc-698d8941699f.jpg?1554868625"],
     "layout": "normal",
     "type_line": "Creature — Zombie Wizard",
     "mana_cost": "{4}{U}",
@@ -1108,6 +1186,25 @@
     "set": "war"
   },
   {
+    "id": 600133,
+    "name": "Ilharg, the Raze-Boar",
+    "collector_number": 133,
+    "multiverse_ids": [
+      600133
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/0/c0109b60-09aa-4a03-92e7-0c651d976d51.jpg?1554913554"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Boar God",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "war"
+  },
+  {
     "id": 600247,
     "name": "Interplanar Beacon",
     "collector_number": 247,
@@ -1445,6 +1542,25 @@
     "set": "war"
   },
   {
+    "id": 600166,
+    "name": "Kronch Wrangler",
+    "collector_number": 166,
+    "multiverse_ids": [
+      600166
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8f41d22a-ee37-4d69-a9ca-98c91315b9e6.jpg?1554900285"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
     "id": 600020,
     "name": "Law-Rune Enforcer",
     "collector_number": 20,
@@ -1579,6 +1695,26 @@
     "set": "war"
   },
   {
+    "id": 600203,
+    "name": "Living Twister",
+    "collector_number": 203,
+    "multiverse_ids": [
+      600203
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/8/c8d92676-a994-4031-834c-6cf7c43bd170.jpg?1554913250"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "mana_cost": "{R}{R}{G}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 2,
+    "set": "war"
+  },
+  {
     "id": 600021,
     "name": "Loxodon Sergeant",
     "collector_number": 21,
@@ -1614,6 +1750,25 @@
     ],
     "rarity": "common",
     "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600023,
+    "name": "Martyr for the Cause",
+    "collector_number": 23,
+    "multiverse_ids": [
+      600023
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/acfbc8ca-a574-461e-92ea-c6010daa8230.jpg?1554895657"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -1847,6 +2002,44 @@
     "set": "war"
   },
   {
+    "id": 600170,
+    "name": "Nissa's Triumph",
+    "collector_number": 170,
+    "multiverse_ids": [
+      600170
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/9/7946b256-ae79-4b99-8bf4-0d627baf9044.jpg?1554912806"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{G}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600169,
+    "name": "Nissa, Who Shakes the World",
+    "collector_number": 169,
+    "multiverse_ids": [
+      600169
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f857bbe4-5619-4733-a0c7-69700f2ef4f3.jpg?1554912916"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Nissa",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
     "id": 600063,
     "name": "No Escape",
     "collector_number": 63,
@@ -2018,6 +2211,25 @@
     "set": "war"
   },
   {
+    "id": 600141,
+    "name": "Raging Kronch",
+    "collector_number": 141,
+    "multiverse_ids": [
+      600141
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae38aa2d-6c0e-409a-bfc7-ed4281457670.jpg?1554900188"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
     "id": 600027,
     "name": "Rally of Wings",
     "collector_number": 27,
@@ -2159,7 +2371,7 @@
     "multiverse_ids": [
       600213
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de14b4fd-fb4e-4986-9123-69ae68b5050a.jpg?1554748683"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de14b4fd-fb4e-4986-9123-69ae68b5050a.jpg?1554870248"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Mutant",
     "mana_cost": "{2}{G}{G}{U}",
@@ -2616,6 +2828,25 @@
     "set": "war"
   },
   {
+    "id": 600179,
+    "name": "Thundering Ceratok",
+    "collector_number": 179,
+    "multiverse_ids": [
+      600179
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/9888d9a4-ad72-43f6-8031-1031877171a9.jpg?1554899996"],
+    "layout": "normal",
+    "type_line": "Creature — Rhino",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
     "id": 600146,
     "name": "Tibalt, Rakish Instigator",
     "collector_number": 146,
@@ -2710,6 +2941,25 @@
     ],
     "rarity": "rare",
     "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600035,
+    "name": "Topple the Statue",
+    "collector_number": 35,
+    "multiverse_ids": [
+      600035
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/2829fa40-92e4-4017-aacd-9d9feae04aa2.jpg?1554895744"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 1,
     "set": "war"
   },
   {
