@@ -180,7 +180,7 @@
     "multiverse_ids": [
       600152
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b42b2fb4-8016-462c-8764-2639adec931f.jpg?1554895503"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b42b2fb4-8016-462c-8764-2639adec931f.jpg?1554919348"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{3}{G}{G}",
@@ -770,6 +770,25 @@
     "set": "war"
   },
   {
+    "id": 600126,
+    "name": "Dreadhorde Twins",
+    "collector_number": 126,
+    "multiverse_ids": [
+      600126
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/82017bf6-352f-4e81-8fd5-c1b0daf05b01.jpg?1554929317"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Jackal Warrior",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
     "id": 600245,
     "name": "Emergence Zone",
     "collector_number": 245,
@@ -784,6 +803,26 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600196,
+    "name": "Enter the God-Eternals",
+    "collector_number": 196,
+    "multiverse_ids": [
+      600196
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f67e7070-2266-4c93-8c89-084e12ba7a4e.jpg?1554979609"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{U}{U}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -1052,6 +1091,25 @@
     ],
     "rarity": "common",
     "rating": 1.5,
+    "set": "war"
+  },
+  {
+    "id": 600092,
+    "name": "God-Eternal Bontu",
+    "collector_number": 92,
+    "multiverse_ids": [
+      600092
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/3714a135-e2b9-43a7-a2a2-fa5a2e0ac61a.jpg?1554980629"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Zombie God",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "mythic",
+    "rating": 4,
     "set": "war"
   },
   {
@@ -1701,7 +1759,7 @@
     "multiverse_ids": [
       600203
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/8/c8d92676-a994-4031-834c-6cf7c43bd170.jpg?1554913250"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/8/c8d92676-a994-4031-834c-6cf7c43bd170.jpg?1554919425"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
     "mana_cost": "{R}{R}{G}",
@@ -2008,7 +2066,7 @@
     "multiverse_ids": [
       600170
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/9/7946b256-ae79-4b99-8bf4-0d627baf9044.jpg?1554912806"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/9/7946b256-ae79-4b99-8bf4-0d627baf9044.jpg?1554919391"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{G}{G}",
@@ -2500,6 +2558,25 @@
     "set": "war"
   },
   {
+    "id": 600066,
+    "name": "Silent Submarine",
+    "collector_number": 66,
+    "multiverse_ids": [
+      600066
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae2f3dee-1768-4562-9333-a50b9ee7570f.jpg?1554951852"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "mana_cost": "{U}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "set": "war"
+  },
+  {
     "id": 600030,
     "name": "Single Combat",
     "collector_number": 30,
@@ -2575,6 +2652,25 @@
     ],
     "rarity": "rare",
     "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600068,
+    "name": "Spark Double",
+    "collector_number": 68,
+    "multiverse_ids": [
+      600068
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb8a103c-b776-4501-9441-a45b90391045.jpg?1554986030"],
+    "layout": "normal",
+    "type_line": "Creature — Illusion",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 2.5,
     "set": "war"
   },
   {
