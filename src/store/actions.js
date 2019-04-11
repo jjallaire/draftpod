@@ -8,7 +8,8 @@ import { CREATE_DRAFT } from './modules/draft/mutations';
 import * as set from './modules/draft/set/'
 import firestore from './modules/draft/firestore'
 import { useDraftModule } from '@/store'
-import { CARDPOOL } from '@/store/constants'
+
+import { generateCardpool } from '@/components/core/cardpool/generate.js'
 
 export const INIT_DRAFT = 'INIT_DRAFT'
 
@@ -20,39 +21,11 @@ export default {
     let draft_id = shortUuid().new();
     useDraftModule(draft_id, {}, targetStore);
 
-    // download set data
-    return set.cards(set_code)
-      .then(set_cards => {
-
-        // resolve the cardpool
-        if (cardpool.startsWith(CARDPOOL.CUSTOM)) {
-          
-          // lookup named cardpool
-          let custom = cardpool.replace(CARDPOOL.CUSTOM, '');
-          let cardpool_cards = state.cardpools[set_code][custom].cards;
-          cardpool = [];
-          cardpool_cards.forEach((cardpool_card) => {
-            let card = set_cards.find((set_card) => set_card.id === cardpool_card.id);
-            if (card)
-              cardpool.push(...new Array(cardpool_card.quantity).fill(card));
-          });
-
-        } else if (cardpool.startsWith(CARDPOOL.CUBE)) {
-          
-          // generated cube
-          let cube = cardpool.replace(CARDPOOL.CUBE, '');
-          let [ common, uncommon, mythic, rare ] = cube.split('/').map(Number);
-          cardpool = set.cube(set_code, set_cards, {
-            mythic: mythic,
-            rare: rare,
-            uncommon: uncommon,
-            common: common
-          });
-
-        }
-
-        // initialize
-        commit("drafts/" + draft_id + "/" + CREATE_DRAFT, {
+    // generate cardpool then initialize 
+    return generateCardpool(set_code, cardpool)
+      .then(cardpool => {
+         // initialize
+         commit("drafts/" + draft_id + "/" + CREATE_DRAFT, {
           id: draft_id,
           player: state.player,
           set_code,

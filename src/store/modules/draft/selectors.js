@@ -437,15 +437,15 @@ export function arena60CardDeckList(set_code, deck) {
 export function deckList(set_code, format, deck) {
    
   let main_deck = _flatten(deck.piles.slice(0, DECK.SIDEBOARD));
-  let main_deck_list = asDeckList(set_code, format, main_deck);
+  let main_deck_list = asDeckList(format, main_deck);
 
   let sideboard = deck.piles[DECK.SIDEBOARD].slice();
-  let sideboard_list = asDeckList(set_code, format, sideboard);
+  let sideboard_list = asDeckList(format, sideboard);
 
   let basic_lands_list = null;
   if (format === 'arena') {
     let basic_lands = deckBasicLands(set_code, deck.lands);
-    basic_lands_list = asDeckList(set_code, format, basic_lands);
+    basic_lands_list = asDeckList(format, basic_lands);
   } else {
     let basic_lands = [];
     if (deck.lands.basic.W > 0)
@@ -500,7 +500,7 @@ function deckBasicLands(set_code, lands) {
 
 
 // function to produce a text deck list
-function asDeckList(set_code, format, cards) {
+export function asDeckList(format, cards) {
     
   // order by collector_number
   let ordered_cards = _orderBy(cards, 
