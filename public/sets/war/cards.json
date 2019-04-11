@@ -2808,6 +2808,45 @@
     "set": "war"
   },
   {
+    "id": 600220,
+    "name": "Tamiyo, Collector of Tales",
+    "collector_number": 220,
+    "multiverse_ids": [
+      600220
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/76776b24-a2e1-4590-88e7-8a421baf2fc4.jpg?1554991900"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Tamiyo",
+    "mana_cost": "{2}{G}{U}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 1,
+    "set": "war"
+  },
+  {
+    "id": 600071,
+    "name": "Tamiyo's Epiphany",
+    "collector_number": 71,
+    "multiverse_ids": [
+      600071
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce338cf3-46dc-4c87-8df5-af27097c7dd4.jpg?1554991969"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "set": "war"
+  },
+  {
     "id": 600072,
     "name": "Teferi's Time Twist",
     "collector_number": 72,
