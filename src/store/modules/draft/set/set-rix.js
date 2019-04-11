@@ -8,7 +8,7 @@ export default {
   name: "Rivals of Ixalan",
 
   pack_set: pack_number => {
-    return (pack_number <= 2) ? 'rix' : 'xln'
+    return ((pack_number % 3) === 0) ? 'xln' : 'rix'
   },
 
   pack_cards: () => 15,

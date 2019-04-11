@@ -3,7 +3,7 @@
 import fs from 'fs'
 import path from 'path'
 
-import { handleCardpoolCsvUpload, handleCardpoolColl2Upload } from '@/components/navigator/cardpool/upload.js'
+import { handleCardpoolCsvUpload, handleCardpoolColl2Upload } from '@/components/core/cardpool/upload.js'
 
 describe('Cardpool Uploads', () => {
 

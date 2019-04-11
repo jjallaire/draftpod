@@ -10,6 +10,9 @@ import CardpoolSelect from '@/components/core/cardpool/CardpoolSelect'
 import { CARDPOOL } from '@/store/constants'
 
 import { generateCardpool } from '@/components/core/cardpool/generate.js'
+import { generateBooster } from '@/store/modules/draft/booster'
+
+import * as selectors from '@/store/modules/draft/selectors.js'
 
 import { mapGetters } from 'vuex'
 
@@ -42,13 +45,21 @@ export default {
 
     onGeneratePools() {
 
+      this.pools = [];
+
       generateCardpool(this.set_code, this.cardpool)
         .then(cardpool => {
 
+          for (let i=0; i<this.number_of_pools; i++) {
+            let pool = [];
+            for (let p=0; p<this.packs_per_pool; p++) {
+              let booster = generateBooster(this.set_code, cardpool, p)
+              booster.forEach(card => pool.push(card));
+            }
+            let poolList = selectors.asDeckList('normal', pool);
+            this.pools.push(poolList);
+          }
         });
-      
-
-
     }
   },
 
@@ -122,8 +133,8 @@ export default {
         </form>
       </ContentPanel>
 
-      <ContentPanel v-if="pools.length > 0" caption="Sealed Pools">
-        Pools
+      <ContentPanel v-for="(pool, index) in pools" :key="index" :caption="'Pool ' + (index+1)">
+        <pre class="pool-listing">{{ pool }}</pre>
       </ContentPanel>
     </div>
   </div>
@@ -135,4 +146,10 @@ export default {
   width: 50%;
 }
 
+.sealed-page .pool-listing {
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 8px;
+}
 </style>
