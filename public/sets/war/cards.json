@@ -960,6 +960,23 @@
     "set": "war"
   },
   {
+    "id": 600237,
+    "name": "Firemind Vessel",
+    "collector_number": 237,
+    "multiverse_ids": [
+      600237
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ec0ebb6b-d35a-47db-8071-7fef2a46c17b.jpg?1555065946"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "war"
+  },
+  {
     "id": 600052,
     "name": "Flux Channeler",
     "collector_number": 52,
@@ -1409,6 +1426,25 @@
     ],
     "rarity": "common",
     "rating": 0,
+    "set": "war"
+  },
+  {
+    "id": 600055,
+    "name": "Jace's Triumph",
+    "collector_number": 55,
+    "multiverse_ids": [
+      600055
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/4924f177-5ee2-4d3f-9603-4b9aef4dac09.jpg?1555065864"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -2152,6 +2188,29 @@
     ],
     "rarity": "rare",
     "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600208,
+    "name": "Niv-Mizzet Reborn",
+    "collector_number": 208,
+    "multiverse_ids": [
+      600208
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/56a2609d-b535-400b-81d9-72989a33c70f.jpg?1555066097"],
+    "layout": "normal",
+    "type_line": "Legendart Creature — Dragon Avatar",
+    "mana_cost": "{W}{U}{B}{R}{G}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 1,
     "set": "war"
   },
   {
