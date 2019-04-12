@@ -1113,6 +1113,25 @@
     "set": "war"
   },
   {
+    "id": 600163,
+    "name": "God-Eternal Rhonas",
+    "collector_number": 163,
+    "multiverse_ids": [
+      600163
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0eb444f0-69cc-47c8-8cd6-1f9edad5d903.jpg?1555008040"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Zombie God",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "war"
+  },
+  {
     "id": 600238,
     "name": "God-Pharaoh's Statue",
     "collector_number": 238,
