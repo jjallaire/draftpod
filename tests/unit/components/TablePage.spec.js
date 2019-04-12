@@ -1,6 +1,6 @@
 
 import { mount } from '@vue/test-utils'
-import TablePage from '../../../src/components/draft/table/TablePage.vue'
+import DraftTable from '../../../src/components/draft/table/DraftTable.vue'
 
 import { testStore } from '../util/test-store'
 
@@ -8,12 +8,12 @@ import { RouterLinkStub } from '@vue/test-utils'
 
 import flushPromises from 'flush-promises'
 
-describe('TablePage.vue', () => {
+describe('DraftTable.vue', () => {
 
   test('draft table displays', () => {
 
     // mount the page
-    const wrapper = mount(TablePage, {
+    const wrapper = mount(DraftTable, {
       sync: false,
       propsData: { draft_id: "2me2Q4mvbpQEJVeMKkuk3y" },
       mocks: {

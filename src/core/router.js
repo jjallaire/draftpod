@@ -3,11 +3,12 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import HomePage from '../components/HomePage.vue'
-import TablePage from '../components/draft/table/TablePage.vue'
+import DraftTable from '../components/draft/table/DraftTable.vue'
+import SealedTable from '../components/draft/table/SealedTable.vue'
 import JoinPage from '../components/JoinPage.vue'
 import NavigatorPage from '../components/navigator/NavigatorPage.vue'
 import SimulatorPage from '../components/SimulatorPage.vue'
-import SealedPoolPage from '../components/sealed/SealedPoolPage'
+import SealedPoolPage from '../components/SealedPoolPage.vue'
 import GuidePage from '../components/guide/GuidePage.vue'
 import NotFoundPage from '../components/NotFoundPage.vue'
 import DraftNotFoundPage from '../components/draft/DraftNotFoundPage.vue'
@@ -77,7 +78,7 @@ export default new VueRouter({
       }
     },
     { path: '/draft/:draft_id/not-found', component: DraftNotFoundPage, props: true },
-    { path: '/draft/:draft_id', component: TablePage, props: true, 
+    { path: '/draft/:draft_id', component: DraftTable, props: true, 
       beforeEnter: (to, from, next) => {
         
         // if the draft exists
@@ -87,6 +88,18 @@ export default new VueRouter({
           // bind draft module
           useDraftModule(draft_id, { preserveState: true });
 
+          // check if this is draft or sealed
+          let type = store.state.drafts[draft_id].type || 'draft';
+          let sealed = type === 'sealed';
+
+          // helper to advance to the appropriate next page
+          const nextPage = () => {
+            if (sealed)
+              next(`/sealed/${draft_id}`)
+            else
+              next();
+          };
+
           // sync from firestore if this is a multi-player draft
           if (store.state.drafts[draft_id].options.multi_player) {
 
@@ -94,19 +107,20 @@ export default new VueRouter({
             firestore.getDraft(draft_id).then(draft => {
               
               // sync draft to local store if it was found
-              if (draft) {
+              if (draft)
                 store.commit(SET_DRAFT, { draft_id, draft });
 
-              // if not found then it was likely removed from the server
-              // in that case, downgrade to a single-player draft
-              } else {
+              // convert any draft not found to single player, also
+              // convert type=sealed to single player (as no coordination
+              // is needed between players in sealed mode
+              if (!draft || sealed) {
                 store.commit("drafts/" + draft_id + "/" + CONVERT_TO_SINGLE_PLAYER, { 
                   player_id: store.state.player.id
                 });
               }
 
-              // advance to the page
-              next();
+              // advance to the appropriate page
+              nextPage();
               
             })
             .catch(error => {
@@ -126,7 +140,7 @@ export default new VueRouter({
            
           // single player draft, proceed without syncing
           } else {
-            next();
+            nextPage();
           }
 
         // draft doesn't exist so navigate to the draft not found page
@@ -135,6 +149,7 @@ export default new VueRouter({
         }
       } 
     },
+    { path: '/sealed/:draft_id', component: SealedTable, props: true },
     { path: '/guide/', component: GuidePage },
     { path: '/simulator/', component: SimulatorPage },
     { path: '/sealedpool/', component: SealedPoolPage },

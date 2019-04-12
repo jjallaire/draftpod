@@ -8,36 +8,23 @@ import PickTimer from '../pick/PickTimer.vue'
 import InfoBar from '../infobar/InfoBar.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 import PlayersPopup from '../players/PlayersPopup.vue'
+import TableCore from './TableCore.js'
+import ExitButton from './ExitButton.vue'
+import FullscreenButton from './FullscreenButton.vue'
 
-import { REMOVE_DRAFTS, SET_FIREBASE_ERROR } from '@/store/mutations'
-
-import { RESUME_DRAFT, PICK_TIMER_PICK, PACK_TO_PICK, PICK_TO_PILE, 
-         DECK_TO_SIDEBOARD, DECK_TO_UNUSED, 
-         SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED, 
-         UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
-         DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
-         REMOVE_PLAYER } from '@/store/modules/draft/actions';
+import { SET_FIREBASE_ERROR } from '@/store/mutations'
+import { PICK_TIMER_PICK } from '@/store/modules/draft/actions';
 import { WRITE_TABLE, SET_SHOW_BOT_COLORS } from '@/store/modules/draft/mutations'
 
-import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
+import { mapMutations, mapActions } from 'vuex';
 
 import PlayersIcon from "vue-material-design-icons/AccountMultiple.vue"
-import FullScreenIcon from "vue-material-design-icons/Fullscreen.vue"
-import FullScreenExitIcon from "vue-material-design-icons/FullscreenExit.vue"
-import ExitToAppIcon from "vue-material-design-icons/ExitToApp.vue"
 
 import * as log from '@/core/log'
-
-import fscreen from 'fscreen'
-import * as messagebox from '@/components/core/messagebox.js'
  
 import _flatten from 'lodash/flatten'
 
-import MobileDetect from 'mobile-detect'
-
 import jquery from 'jquery'
-
-import TouchDragManager from '../core/TouchDragManager.js'
 
 import WaitTimer from './WaitTimer.js'
 
@@ -47,8 +34,6 @@ Vue.use(VueHotkey);
 
 const production = process.env.NODE_ENV === 'production';
 
-// drafts namespace
-const NS_DRAFTS = "drafts";
 
 import * as selectors from '@/store/modules/draft/selectors'
 import * as draftbot from '@/store/modules/draft/draftbot'
@@ -60,28 +45,13 @@ export default {
 
   components: {
     NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar,
-    PlayersIcon, PlayersPopup, FullScreenIcon, FullScreenExitIcon, ExitToAppIcon,
-    FirebaseError
+    PlayersIcon, PlayersPopup, FirebaseError, ExitButton, FullscreenButton
   },
 
-  mixins: [WaitTimer],
-
-  props: {
-    draft_id: {
-      type: String,
-      required: true
-    },
-  },
+  mixins: [WaitTimer,TableCore],
 
   data: function() {
     return { 
-      fullscreen: false,
-      fullscreenEnabled: fscreen.fullscreenEnabled,
-      isMobile: false,
-      isPhone: false,
-      isTablet: false,
-      card_preview: null,
-      touchDragManager: new TouchDragManager(),
       firestoreUnsubscribe: null,
       pick_timeout_timer: null,
       firebase_error: null
@@ -89,24 +59,7 @@ export default {
   },
 
   computed: {
-    ...mapState({
-      draft: function(state) {
-        return state[NS_DRAFTS][this.draft_id];
-      },
-    }),
-    ...mapGetters([
-      'player'
-    ]),
-
-    set: function() {
-      return this.draft.set;
-    },
-    options: function() {
-      return selectors.draftOptions(this.draft);
-    },
-    table: function() {
-      return this.draft.table;
-    },
+    
     waiting: function() {
       return this.draft.waiting;
     },
@@ -149,10 +102,6 @@ export default {
       }
     },
 
-    namespace: function() {
-      return NS_DRAFTS + '/' + this.draft_id;
-    },
-
     keymap: function() {
       return {
         'shift+enter': () => {
@@ -186,17 +135,8 @@ export default {
 
   created() {
 
-    // detect mobile
-    let md = new MobileDetect(window.navigator.userAgent);
-    if (md.mobile())
-      this.isMobile = true;
-    if (md.tablet())
-      this.isTablet = true;
-    if (this.isMobile && !this.isTablet)
-      this.isPhone = true;
-
     // manage players popup on iOS (needed in order to make it dismiss)
-    if (md.os() === 'iOS')
+    if (this.isiOS)
       this.managePlayersPopupForiOS();
 
     // collect/handle firebase_error if there is one. if there is an error
@@ -226,15 +166,10 @@ export default {
       }
     });
 
-    // update fullscreen state on change
-    this.onFullscreenChange();
-    fscreen.addEventListener('fullscreenchange', this.onFullscreenChange);   
   },
 
   beforeDestroy() {
-   
-    fscreen.removeEventListener('fullscreenchange', this.onFullscreenChange);
-
+  
     if (this.firestoreUnsubscribe)
       this.firestoreUnsubscribe();
 
@@ -245,7 +180,6 @@ export default {
 
   methods: {
     ...mapMutations({
-      removeDrafts: REMOVE_DRAFTS,
       writeTable(dispatch, payload) {
         return dispatch(this.namespace + '/' + WRITE_TABLE, payload);
       },
@@ -254,95 +188,14 @@ export default {
       },
     }),
     ...mapActions({
-      resumeDraft(dispatch) {
-        return dispatch(this.namespace + '/' + RESUME_DRAFT, this.withPlayerId({}));
-      },
       pickTimerPick(dispatch) {
         return dispatch(this.namespace + '/' + PICK_TIMER_PICK, this.withPlayerId({}));
       },
-      packToPick(dispatch, payload) {
-        return dispatch(this.namespace + '/' + PACK_TO_PICK, this.withPlayerId(payload));
-      },
-      pickToPile(dispatch, payload) {
-        return dispatch(this.namespace + '/' + PICK_TO_PILE, this.withPlayerId(payload));
-      },
-      deckToSideboard(dispatch, payload) {
-        return dispatch(this.namespace + '/' + DECK_TO_SIDEBOARD, this.withPlayerId(payload));
-      },
-      deckToUnused(dispatch, payload) {
-        return dispatch(this.namespace + '/' + DECK_TO_UNUSED, this.withPlayerId(payload));
-      },
-      sideboardToDeck(dispatch, payload) {
-        return dispatch(this.namespace + '/' + SIDEBOARD_TO_DECK, this.withPlayerId(payload));
-      },
-      sideboardToUnused(dispatch, payload) {
-        return dispatch(this.namespace + '/' + SIDEBOARD_TO_UNUSED, this.withPlayerId(payload));
-      },
-      unusedToDeck(dispatch, payload) {
-        return dispatch(this.namespace + '/' + UNUSED_TO_DECK, this.withPlayerId(payload));
-      },
-      unusedToSideboard(dispatch, payload) {
-        return dispatch(this.namespace + '/' + UNUSED_TO_SIDEBOARD, this.withPlayerId(payload));
-      },
-      disableAutoLands(dispatch, payload) {
-        return dispatch(this.namespace + '/' + DISABLE_AUTO_LANDS, this.withPlayerId(payload));
-      },
-      setBasicLands(dispatch, payload) {
-        return dispatch(this.namespace + '/' + SET_BASIC_LANDS, this.withPlayerId(payload));
-      },
-      removePlayer(dispatch, payload) {
-        return dispatch(this.namespace + '/' + REMOVE_PLAYER, this.withPlayerId(payload));
-      },
     }),
-    withPlayerId: function(payload) {
-      return {
-        player_id: this.player.id,
-        ...payload
-      }
-    },
-    setCardPreview: function(card_preview) {
-      this.card_preview = card_preview;
-    },
+  
+   
     generateDraftLog() {
       return draftlog.generate(this.player.id, this.draft);
-    },
-    onExitDraft: function() {
-      if (this.options.multi_player) {
-         messagebox.confirm(
-          "Exit Draft",
-          "<p>You cannot rejoin the draft after you have exited.</p>" + 
-          "Do you want to exit this draft? ",
-          () => {
-            this.removePlayer({ remove_player_id: this.player.id });
-          });
-      } else {
-        messagebox.confirm(
-          "Exit Draft",
-          "<p>You can pick up where you left off in the draft later.</p>" + 
-          "Do you want to exit this draft? ",
-          () => {
-            this.$router.push({ path: "/draft/" });
-          });
-      }
-    },
-    onRemoveDraft: function() {
-      messagebox.confirm(
-        "Discard Draft",
-        "<p>You will no longer be able to access this draft after it is discarded.</p>" +
-        "Do you want to discard this draft? ",
-        () => {
-          this.removeDrafts([this.draft_id]);
-          this.$router.push({ path: "/draft/" });
-        })
-    },
-    onFullscreenChange: function() {
-      this.fullscreen = fscreen.fullscreenElement !== null;
-    },
-    onFullscreenToggle: function() {
-      if (!this.fullscreen)
-        fscreen.requestFullscreen(document.documentElement);
-      else
-        fscreen.exitFullscreen();
     },
 
     managePlayersPopupForiOS() {
@@ -357,25 +210,12 @@ export default {
   },
 
   provide: function() {
-      return {
-        pickTimerPick: this.pickTimerPick,
-        packToPick: this.packToPick,
-        pickToPile: this.pickToPile,
-        deckToSideboard: this.deckToSideboard,
-        deckToUnused: this.deckToUnused,
-        sideboardToDeck: this.sideboardToDeck,
-        sideboardToUnused: this.sideboardToUnused,
-        unusedToDeck: this.unusedToDeck,
-        unusedToSideboard: this.unusedToSideboard,
-        disableAutoLands: this.disableAutoLands,
-        setBasicLands: this.setBasicLands,
-        removePlayer: this.removePlayer,
-        setShowBotColors: this.setShowBotColors,
-        setCardPreview: this.setCardPreview,
-        touchDragManager: this.touchDragManager,
-        generateDraftLog: this.generateDraftLog
-      }
-    },
+    return {
+      pickTimerPick: this.pickTimerPick,
+      setShowBotColors: this.setShowBotColors,
+      generateDraftLog: this.generateDraftLog
+    }
+  },
 
 }
 </script>
@@ -429,31 +269,14 @@ export default {
           </div>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link icon-link">
-            <ExitToAppIcon 
-              title="Exit Draft" 
-              @click.native="onExitDraft"
-            />
-          </a>
-        </li>
-        <li 
+        <ExitButton @clicked="onExitDraft" />
+  
+        <FullscreenButton 
           v-if="fullscreenEnabled" 
-          class="nav-item"
-        >
-          <a class="nav-link icon-link">
-            <FullScreenExitIcon 
-              v-if="fullscreen" 
-              title="Exit fullscreen mode" 
-              @click.native="onFullscreenToggle"
-            />
-            <FullScreenIcon 
-              v-else 
-              title="Fullscreen mode" 
-              @click.native="onFullscreenToggle"
-            />
-          </a>
-        </li>
+          :fullscreen="fullscreen" 
+          @clicked="onFullscreenToggle"
+        />
+
       </ul>
     </NavBar>
 

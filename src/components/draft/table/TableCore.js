@@ -1,0 +1,210 @@
+
+
+const NS_DRAFTS = "drafts";
+
+import fscreen from 'fscreen'
+import MobileDetect from 'mobile-detect'
+
+import { mapState, mapGetters, mapActions, mapMutations } from 'vuex';
+
+import * as selectors from '@/store/modules/draft/selectors.js'
+
+import TouchDragManager from '../core/TouchDragManager.js'
+import * as messagebox from '@/components/core/messagebox.js'
+
+import { REMOVE_DRAFTS } from '@/store/mutations'
+
+import { 
+  RESUME_DRAFT, PACK_TO_PICK, PICK_TO_PILE, 
+  DECK_TO_SIDEBOARD, DECK_TO_UNUSED, 
+  SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED, 
+  UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
+  DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
+  REMOVE_PLAYER } from '@/store/modules/draft/actions';
+
+export default {
+
+  props: {
+    draft_id: {
+      type: String,
+      required: true
+    },
+  },
+
+  data() {
+    return {
+      fullscreen: false,
+      fullscreenEnabled: fscreen.fullscreenEnabled,
+      isMobile: false,
+      isPhone: false,
+      isTablet: false,
+      isiOS: false,
+      card_preview: null,
+      touchDragManager: new TouchDragManager(),
+    }
+  },
+
+  computed: {
+    ...mapState({
+      draft: function(state) {
+        return state[NS_DRAFTS][this.draft_id];
+      },
+    }),
+    ...mapGetters([
+      'player'
+    ]),
+
+    set: function() {
+      return this.draft.set;
+    },
+    options: function() {
+      return selectors.draftOptions(this.draft);
+    },
+    table: function() {
+      return this.draft.table;
+    },   
+
+    namespace: function() {
+      return NS_DRAFTS + '/' + this.draft_id;
+    },
+  },
+  
+  created() {
+
+    // detect mobile
+    let md = new MobileDetect(window.navigator.userAgent);
+    if (md.mobile())
+      this.isMobile = true;
+    if (md.tablet())
+      this.isTablet = true;
+    if (this.isMobile && !this.isTablet)
+      this.isPhone = true;
+    if (md.os() === 'iOS')
+      this.isiOS = true;
+
+
+    // update fullscreen state on change
+    this.onFullscreenChange();
+    fscreen.addEventListener('fullscreenchange', this.onFullscreenChange);   
+  },
+
+  beforeDestroy() {
+    fscreen.removeEventListener('fullscreenchange', this.onFullscreenChange);
+  },
+
+  methods: {
+
+    ...mapMutations({
+      removeDrafts: REMOVE_DRAFTS,
+    }),
+
+    ...mapActions({
+      packToPick(dispatch, payload) {
+        return dispatch(this.namespace + '/' + PACK_TO_PICK, this.withPlayerId(payload));
+      },
+      pickToPile(dispatch, payload) {
+        return dispatch(this.namespace + '/' + PICK_TO_PILE, this.withPlayerId(payload));
+      },
+      deckToSideboard(dispatch, payload) {
+        return dispatch(this.namespace + '/' + DECK_TO_SIDEBOARD, this.withPlayerId(payload));
+      },
+      deckToUnused(dispatch, payload) {
+        return dispatch(this.namespace + '/' + DECK_TO_UNUSED, this.withPlayerId(payload));
+      },
+      sideboardToDeck(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SIDEBOARD_TO_DECK, this.withPlayerId(payload));
+      },
+      sideboardToUnused(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SIDEBOARD_TO_UNUSED, this.withPlayerId(payload));
+      },
+      unusedToDeck(dispatch, payload) {
+        return dispatch(this.namespace + '/' + UNUSED_TO_DECK, this.withPlayerId(payload));
+      },
+      unusedToSideboard(dispatch, payload) {
+        return dispatch(this.namespace + '/' + UNUSED_TO_SIDEBOARD, this.withPlayerId(payload));
+      },
+      disableAutoLands(dispatch, payload) {
+        return dispatch(this.namespace + '/' + DISABLE_AUTO_LANDS, this.withPlayerId(payload));
+      },
+      setBasicLands(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SET_BASIC_LANDS, this.withPlayerId(payload));
+      },
+      removePlayer(dispatch, payload) {
+        return dispatch(this.namespace + '/' + REMOVE_PLAYER, this.withPlayerId(payload));
+      },
+      resumeDraft(dispatch) {
+        return dispatch(this.namespace + '/' + RESUME_DRAFT, this.withPlayerId({}));
+      },
+    }),
+
+    withPlayerId: function(payload) {
+      return {
+        player_id: this.player.id,
+        ...payload
+      }
+    },
+
+    setCardPreview: function(card_preview) {
+      this.card_preview = card_preview;
+    },
+
+    onFullscreenChange: function() {
+      this.fullscreen = fscreen.fullscreenElement !== null;
+    },
+    onFullscreenToggle: function() {
+      if (!this.fullscreen)
+        fscreen.requestFullscreen(document.documentElement);
+      else
+        fscreen.exitFullscreen();
+    },
+
+    onExitDraft: function() {
+      if (this.options.multi_player) {
+         messagebox.confirm(
+          "Exit Draft",
+          "<p>You cannot rejoin the draft after you have exited.</p>" + 
+          "Do you want to exit this draft? ",
+          () => {
+            this.removePlayer({ remove_player_id: this.player.id });
+          });
+      } else {
+        messagebox.confirm(
+          "Exit Draft",
+          "<p>You can pick up where you left off in the draft later.</p>" + 
+          "Do you want to exit this draft? ",
+          () => {
+            this.$router.push({ path: "/draft/" });
+          });
+      }
+    },
+    onRemoveDraft: function() {
+      messagebox.confirm(
+        "Discard Draft",
+        "<p>You will no longer be able to access this draft after it is discarded.</p>" +
+        "Do you want to discard this draft? ",
+        () => {
+          this.removeDrafts([this.draft_id]);
+          this.$router.push({ path: "/draft/" });
+        })
+    },
+  },
+
+  provide: function() {
+    return {
+      packToPick: this.packToPick,
+      pickToPile: this.pickToPile,
+      deckToSideboard: this.deckToSideboard,
+      deckToUnused: this.deckToUnused,
+      sideboardToDeck: this.sideboardToDeck,
+      sideboardToUnused: this.sideboardToUnused,
+      unusedToDeck: this.unusedToDeck,
+      unusedToSideboard: this.unusedToSideboard,
+      disableAutoLands: this.disableAutoLands,
+      setBasicLands: this.setBasicLands,
+      removePlayer: this.removePlayer,
+      setCardPreview: this.setCardPreview,
+      touchDragManager: this.touchDragManager,
+    }
+  },
+
+}
