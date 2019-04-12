@@ -941,6 +941,25 @@
     "set": "war"
   },
   {
+    "id": 600127,
+    "name": "Finale of Promise",
+    "collector_number": 127,
+    "multiverse_ids": [
+      600127
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/811b2dda-e1b7-4a46-83cc-5cdc17554836.jpg?1555042347"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{X}{R}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "rarity": "mythic",
+    "rating": 2,
+    "set": "war"
+  },
+  {
     "id": 600052,
     "name": "Flux Channeler",
     "collector_number": 52,
@@ -1110,6 +1129,25 @@
     ],
     "rarity": "mythic",
     "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600053,
+    "name": "God-Eternal Kefnet",
+    "collector_number": 53,
+    "multiverse_ids": [
+      600053
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5e14060f-9167-4e28-a053-77689e066e30.jpg?1555024407"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Zombie God",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5,
     "set": "war"
   },
   {
@@ -3056,6 +3094,25 @@
     ],
     "rarity": "rare",
     "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600108,
+    "name": "Toll of the Invasion",
+    "collector_number": 108,
+    "multiverse_ids": [
+      600108
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/4/4471c2a5-aa2c-47e2-8238-1eb366c8adc9.jpg?1555039608"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1.5,
     "set": "war"
   },
   {
