@@ -1511,7 +1511,7 @@
     "multiverse_ids": [
       600001
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/e/3ec0c0fb-1a4f-45f4-85b7-346a6d3ce2c5.jpg?1554832574"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/e/3ec0c0fb-1a4f-45f4-85b7-346a6d3ce2c5.jpg?1555058780"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Karn",
     "mana_cost": "{4}",
@@ -2266,6 +2266,26 @@
     ],
     "rarity": "common",
     "rating": 0,
+    "set": "war"
+  },
+  {
+    "id": 600210,
+    "name": "Pledge of Unity",
+    "collector_number": 210,
+    "multiverse_ids": [
+      600210
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/ca9b3518-7fcd-49e2-a4c4-e5daa8be6c21.jpg?1555057182"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{G}{W}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5,
     "set": "war"
   },
   {
