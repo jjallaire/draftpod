@@ -17,7 +17,7 @@ import * as selectors from '@/store/modules/draft/selectors.js'
 import { mapGetters } from 'vuex'
 
 export default {
-  name: 'SealedPage',
+  name: 'SealedPoolPage',
 
   components: { NavBar, ContentPanel, SetSelect, CardpoolSelect },
 
