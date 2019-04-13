@@ -49,7 +49,7 @@ export default {
 
 <template>
   <ContentPanel 
-    caption="Recent Drafts" 
+    caption="Recent" 
     class="recent-drafts user-select-none"
   >
     <transition-group 

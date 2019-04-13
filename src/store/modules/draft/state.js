@@ -9,8 +9,8 @@ export default function() {
     // id
     id: null,
 
-    // type (draft or sealed)
-    type: 'draft',
+    // format (draft or sealed)
+    format: 'draft',
 
     // set 
     set: {

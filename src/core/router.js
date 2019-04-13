@@ -89,8 +89,8 @@ export default new VueRouter({
           useDraftModule(draft_id, { preserveState: true });
 
           // check if this is draft or sealed
-          let type = store.state.drafts[draft_id].type || 'draft';
-          let sealed = type === 'sealed';
+          let format = selectors.draftFormat(store.state.drafts[draft_id]);
+          let sealed = format === 'sealed';
 
           // helper to advance to the appropriate next page
           const nextPage = () => {
