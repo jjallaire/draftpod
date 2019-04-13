@@ -307,6 +307,101 @@
     "set": "war"
   },
   {
+    "id": 600006,
+    "name": "Bond of Discipline",
+    "collector_number": 6,
+    "multiverse_ids": [
+      600006
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb7c78bb-9f2a-47a4-adc4-b497bb38f46f.jpg?1555101954"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600155,
+    "name": "Bond of Flourishing",
+    "collector_number": 155,
+    "multiverse_ids": [
+      600155
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/df901fdc-8672-44f5-ade5-7c4e0b5c5d81.jpg?1555102456"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600043,
+    "name": "Bond of Insight",
+    "collector_number": 43,
+    "multiverse_ids": [
+      600043
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/648629af-e911-49e1-b564-c98f339b84a1.jpg?1555102502"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600116,
+    "name": "Bond of Passion",
+    "collector_number": 116,
+    "multiverse_ids": [
+      600116
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae644e9d-9bc4-4ccd-aef4-3d0559948aa6.jpg?1555108644"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600080,
+    "name": "Bond of Revival",
+    "collector_number": 80,
+    "multiverse_ids": [
+      600080
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/6/c6482fb9-f874-4e33-aa74-7a0da4c9760c.jpg?1555102629"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "war"
+  },
+  {
     "id": 600007,
     "name": "Bulwark Giant",
     "collector_number": 7,
@@ -339,6 +434,25 @@
     "cmc": 2,
     "colors": [
       "R"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600156,
+    "name": "Centaur Nurturer",
+    "collector_number": 156,
+    "multiverse_ids": [
+      600156
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/f/bf020acb-e0c6-43b4-8324-0f2ec68b73d6.jpg?1555101824"],
+    "layout": "normal",
+    "type_line": "Creature — Centaur Druid",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
     ],
     "rarity": "common",
     "rating": 2.5,
@@ -437,6 +551,25 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600046,
+    "name": "Contentious Plan",
+    "collector_number": 46,
+    "multiverse_ids": [
+      600046
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8e30deb6-9e1f-4545-ae30-c30ba6c7b3a0.jpg?1555102558"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -947,7 +1080,7 @@
     "multiverse_ids": [
       600127
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/811b2dda-e1b7-4a46-83cc-5cdc17554836.jpg?1555042347"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/811b2dda-e1b7-4a46-83cc-5cdc17554836.jpg?1555084033"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{X}{R}{R}",
@@ -966,7 +1099,7 @@
     "multiverse_ids": [
       600237
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ec0ebb6b-d35a-47db-8071-7fef2a46c17b.jpg?1555065946"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ec0ebb6b-d35a-47db-8071-7fef2a46c17b.jpg?1555098557"],
     "layout": "normal",
     "type_line": "Artifact",
     "mana_cost": "{4}",
@@ -2197,9 +2330,9 @@
     "multiverse_ids": [
       600208
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/56a2609d-b535-400b-81d9-72989a33c70f.jpg?1555066097"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/56a2609d-b535-400b-81d9-72989a33c70f.jpg?1555083196"],
     "layout": "normal",
-    "type_line": "Legendart Creature — Dragon Avatar",
+    "type_line": "Legendary Creature — Dragon Avatar",
     "mana_cost": "{W}{U}{B}{R}{G}",
     "cmc": 5,
     "colors": [
@@ -2695,12 +2828,12 @@
   },
   {
     "id": 600066,
-    "name": "Silent Submarine",
+    "name": "Silent Submersible",
     "collector_number": 66,
     "multiverse_ids": [
       600066
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae2f3dee-1768-4562-9333-a50b9ee7570f.jpg?1554951852"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae2f3dee-1768-4562-9333-a50b9ee7570f.jpg?1555137159"],
     "layout": "normal",
     "type_line": "Artifact — Vehicle",
     "mana_cost": "{U}{U}",
