@@ -22,6 +22,10 @@ export default {
       type: Object,
       required: true
     },
+    format: {
+      type: String,
+      required: true
+    },
     options: {
       type: Object,
       required: true
@@ -84,6 +88,7 @@ export default {
     <template slot="header-right">
       <DeckView :set_code="set.code" :format="options.deck_list_format" :deck="deck" />
       <DeckDownload 
+        v-if="format === 'draft'"
         :set="set" 
         :deck="deck"
       />

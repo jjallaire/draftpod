@@ -149,7 +149,17 @@ export default new VueRouter({
         }
       } 
     },
-    { path: '/sealed/:draft_id', component: SealedTable, props: true },
+    { path: '/sealed/:draft_id', component: SealedTable, props: true,
+      beforeEnter: (to, from, next) => {
+        let draft_id = to.params.draft_id;
+        if (draft_id in store.state.drafts) {
+          useDraftModule(draft_id, { preserveState: true });
+          next();
+        } else {
+          draftNotFound(next, draft_id);
+        }
+      }
+    },
     { path: '/guide/', component: GuidePage },
     { path: '/simulator/', component: SimulatorPage },
     { path: '/sealedpool/', component: SealedPoolPage },

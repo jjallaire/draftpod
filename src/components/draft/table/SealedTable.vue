@@ -7,12 +7,14 @@ import NavBar from '@/components/core/NavBar.vue'
 import TableCore from '../table/TableCore.js'
 import ExitButton from './ExitButton.vue'
 import FullscreenButton from './FullscreenButton.vue'
+import InfoBar from '../infobar/InfoBar.vue'
+import DeckPanel from '../deck/DeckPanel.vue'
 
 
 export default {
   name: 'SealedTable',
 
-  components: { NavBar, ExitButton, FullscreenButton },
+  components: { NavBar, ExitButton, FullscreenButton, InfoBar, DeckPanel },
 
   mixins: [TableCore],
 
@@ -58,9 +60,25 @@ export default {
       </ul>
     </NavBar> 
 
-    <div class="sealed-page container">
-      {{ draft_id }}
+    <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
+      <div class="draft-cards user-select-none">
+        <DeckPanel 
+          :set="set" 
+          format="sealed"
+          :options="options"
+          :deck="active_player.deck"
+        />
+      </div>
+
+      <InfoBar 
+        v-if="!isMobile" 
+        :card_preview="card_preview" 
+        :cards="active_cards" 
+        class="user-select-none"
+      />
+   
     </div>
+
   </div>
 </template>
 

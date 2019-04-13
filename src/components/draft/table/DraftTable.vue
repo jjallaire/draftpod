@@ -64,16 +64,8 @@ export default {
       return this.draft.waiting;
     },
 
-    active_player: function() {
-      return selectors.activePlayer(this.player.id, this.table);
-    },
-
     active_pack: function() {
       return selectors.activePack(this.player.id, this.table);
-    },
-    
-    active_cards: function() {
-      return selectors.activeCards(this.player.id, this.table);
     },
 
     current_pack: function() {
@@ -304,6 +296,7 @@ export default {
         <DeckPanel 
           v-else 
           :set="set" 
+          format="draft"
           :options="options"
           :deck="active_player.deck"
         />
@@ -344,17 +337,6 @@ export default {
   margin: 0;
   padding: 0;
   cursor: wait;
-}
-
-.draft-page {
-  position: fixed;
-  top: 37px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: linear-gradient(#8a9196, #7A8288 80%, #70787d);
-  background-repeat: no-repeat;
-  background-color: transparent;
 }
 
 .infobar {

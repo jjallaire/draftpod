@@ -22,6 +22,8 @@ import {
   DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
   REMOVE_PLAYER } from '@/store/modules/draft/actions';
 
+import './TableCore.css'
+
 export default {
 
   props: {
@@ -63,6 +65,12 @@ export default {
     table: function() {
       return this.draft.table;
     },   
+    active_player: function() {
+      return selectors.activePlayer(this.player.id, this.table);
+    },
+    active_cards: function() {
+      return selectors.activeCards(this.player.id, this.table);
+    },
 
     namespace: function() {
       return NS_DRAFTS + '/' + this.draft_id;
