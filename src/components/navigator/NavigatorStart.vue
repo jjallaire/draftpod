@@ -288,6 +288,7 @@ export default {
       return this.initDraft({ 
         set_code: this.set_code, 
         cardpool: this.cardpool, 
+        format: this.format,
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,

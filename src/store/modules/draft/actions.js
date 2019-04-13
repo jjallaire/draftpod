@@ -44,7 +44,10 @@ export default {
       table.start_time = new Date().getTime();
       if (player_info)
         joinDraft(player_info, table);
-      nextPack(state.set.code, options, table);
+      if (selectors.draftFormat(state) === 'draft')
+        nextPack(state.set.code, options, table);
+      else
+        distributeSealedPools(table);
     });
   },
 
@@ -375,6 +378,37 @@ function nextPack(set_code, options, table) {
 
   // update current pack
   table.current_pack++;
+}
+
+function distributeSealedPools(table) {
+
+  // iterate over non-ai players
+  for (let i=0; i<table.players.length; i++) {
+    let player = table.players[i];
+    if (player.id !== null) {
+
+      // ensure we have enough packs left
+      if (table.all_packs.length >= 6) {
+        
+        // grab 6 packs
+        let packs = [];
+        for (let i = 0; i < 6; i++)
+          packs.push(table.all_packs.shift());
+
+        // add them all to the unused pile
+        player.deck.piles[DECK.UNUSED] = _flatten(packs);
+       
+      } else {
+        player.id = null;
+        player.name = null;
+        player.bot = draftbot.create();
+      }
+    }
+
+    // set picks complete
+    table.picks_complete = true;
+  }
+
 }
 
 function makePick(player_index, set_code, options, table, pile_number, card, insertBefore) {

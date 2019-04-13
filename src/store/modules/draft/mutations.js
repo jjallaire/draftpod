@@ -15,7 +15,7 @@ import Vue from 'vue';
 
 export default {
 
-  [CREATE_DRAFT](state, { id, player, set_code, cardpool, options }) {
+  [CREATE_DRAFT](state, { id, player, set_code, cardpool, format, options }) {
 
     // initialize id and event id
     state.id = id;
@@ -26,6 +26,9 @@ export default {
       name: set.name(set_code),
       pack_cards: set.pack_cards(set_code, options.number_of_packs)
     }
+
+    // initialize format
+    state.format = format;
 
     // initialize options
     state.options = {
@@ -42,11 +45,27 @@ export default {
 
       // initialize packs and set them
       let all_packs = [];
-      for (let p=1; p<=options.number_of_packs; p++) {
-        for (let b=0; b<8; b++) {
-          all_packs.push(generateBooster(set_code, cardpool, p, options.number_of_packs))
+
+      // for draft we generate ~ 24 packs (depending on number_of_packs option)
+      if (format === 'draft') {
+        for (let p=1; p<=options.number_of_packs; p++) {
+          for (let b=0; b<8; b++) {
+            all_packs.push(generateBooster(set_code, cardpool, p, options.number_of_packs))
+          }
+        }
+
+      // for sealed we generate as many boosters as we can
+      } else { // format === 'sealed'
+        let p = 1;
+        for(;;) {
+          let pack = generateBooster(set_code, cardpool, p++, options.number_of_packs);
+          if (pack.length !== set.pack_cards(set_code, options.number_of_packs))
+            break;
+          all_packs.push(pack);
         }
       }
+
+      // set packs
       table.all_packs = all_packs;
     });
 

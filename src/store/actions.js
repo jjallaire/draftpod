@@ -15,7 +15,7 @@ export const INIT_DRAFT = 'INIT_DRAFT'
 
 export default {
 
-  [INIT_DRAFT]( { commit, state }, { set_code, cardpool, options = {}, targetStore = null }  ) {
+  [INIT_DRAFT]( { commit, state }, { set_code, cardpool, format = 'draft', options = {}, targetStore = null }  ) {
 
     // create a new draft module
     let draft_id = shortUuid().new();
@@ -30,6 +30,7 @@ export default {
           player: state.player,
           set_code,
           cardpool,
+          format,
           options
         });
 
