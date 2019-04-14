@@ -9,3 +9,74 @@
   background-repeat: no-repeat;
   background-color: transparent;
 }
+
+
+.card-select-panel {
+  background: transparent;
+}
+
+.card-select-panel .card {
+  padding: 0;
+}
+
+.draft-page .card-select-panel .card-body {
+  padding: 0;
+  background-color: transparent;
+}
+
+.card-select-panel .mtgcard img {
+  width: 11.5%;
+  min-height: 16.05%;
+  margin-bottom: 3px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .card-select-panel .mtgcard img {
+    width: 10%;
+    min-height: 13.95%;
+  } 
+}
+
+
+.mobile .card-select-panel .mtgcard img {
+  width: 12.1%;
+}
+
+.mobile .draft-cards .card-select-panel{
+  padding-bottom: 34%;
+}
+
+.phone .card-select-panel .mtgcard img {
+  width: 17.5%;
+}
+
+.phone .draft-cards .card-select-panel {
+  height: 47%;
+  padding-bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  padding-right: 10px;
+}
+
+.phone .draft-cards .card-select-panel .card-select-container {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.draft-cards .card-select-panel {
+  flex: 0 1 auto;
+  margin: 5px;
+  margin-bottom: 0;
+  height: 0;
+  overflow: visible;
+  padding-bottom: 32.2%;
+}
+
+@media only screen and (max-width: 1000px) {
+.draft-cards .card-select-panel {
+  padding-bottom: 27.9%;
+}
+}
+
+

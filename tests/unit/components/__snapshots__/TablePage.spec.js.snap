@@ -718,7 +718,7 @@ exports[`DraftTable.vue draft table displays 1`] = `
       class="draft-cards user-select-none"
     >
       <div
-        class="card pack-panel"
+        class="card pack-panel card-select-panel"
         name="pack-hide"
       >
         <!---->
@@ -727,7 +727,7 @@ exports[`DraftTable.vue draft table displays 1`] = `
           class="card-body"
         >
           <div
-            class="pack-container"
+            class="card-select-container"
           >
             <span
               class="mtgcard mtgcard-draggable"

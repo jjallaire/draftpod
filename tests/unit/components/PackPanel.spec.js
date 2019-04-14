@@ -14,7 +14,7 @@ describe('PackPanel.vue', () => {
       propsData: { pack: cards },
       provide: providers
     });
-    const cardSpans = wrapper.findAll('.pack-container .mtgcard');
+    const cardSpans = wrapper.findAll('.card-select-container .mtgcard');
     expect(cardSpans).toHaveLength(cards.length);
 
     // do a snapshot test

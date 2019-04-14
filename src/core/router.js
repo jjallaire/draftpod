@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 
 import HomePage from '../components/HomePage.vue'
 import DraftTable from '../components/draft/table/DraftTable.vue'
-import SealedTable from '../components/draft/table/SealedTable.vue'
+import SealedTable from '../components/draft/sealed/SealedTable.vue'
 import JoinPage from '../components/JoinPage.vue'
 import NavigatorPage from '../components/navigator/NavigatorPage.vue'
 import SimulatorPage from '../components/SimulatorPage.vue'

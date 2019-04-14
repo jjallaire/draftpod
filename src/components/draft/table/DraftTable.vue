@@ -372,45 +372,6 @@ export default {
   right: 0;
 }
 
-.mobile .pack-panel .mtgcard img {
-  width: 12.1%;
-}
-
-.mobile .draft-cards .pack-panel {
-  padding-bottom: 34%;
-}
-
-.phone .pack-panel .mtgcard img {
-  width: 17.5%;
-}
-
-.phone .draft-cards .pack-panel {
-  height: 47%;
-  padding-bottom: 0;
-  overflow: hidden;
-  width: 100%;
-  padding-right: 10px;
-}
-
-.phone .draft-cards .pack-panel .pack-container {
-  overflow-x: scroll;
-  white-space: nowrap;
-}
-
-.draft-cards .pack-panel {
-  flex: 0 1 auto;
-  margin: 5px;
-  margin-bottom: 0;
-  height: 0;
-  overflow: visible;
-  padding-bottom: 32.2%;
-}
-
-@media only screen and (max-width: 1000px) {
-.draft-cards .pack-panel {
-  padding-bottom: 27.9%;
-}
-}
 
 .draft-cards .pick-panel {
   flex: 1 1 auto;

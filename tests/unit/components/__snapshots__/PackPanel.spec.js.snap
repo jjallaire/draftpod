@@ -2,7 +2,7 @@
 
 exports[`PackPanel.vue displays cards 1`] = `
 <div
-  class="card pack-panel"
+  class="card pack-panel card-select-panel"
 >
   <!---->
    
@@ -10,7 +10,7 @@ exports[`PackPanel.vue displays cards 1`] = `
     class="card-body"
   >
     <div
-      class="pack-container"
+      class="card-select-container"
     >
       <span
         class="mtgcard mtgcard-draggable"

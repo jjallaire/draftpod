@@ -5,16 +5,18 @@
 import NavBar from '@/components/core/NavBar.vue'
 
 import TableCore from '../table/TableCore.js'
-import ExitButton from './ExitButton.vue'
-import FullscreenButton from './FullscreenButton.vue'
+import ExitButton from '../table/ExitButton.vue'
+import FullscreenButton from '../table/FullscreenButton.vue'
 import InfoBar from '../infobar/InfoBar.vue'
+import SealedPoolPanel from '../sealed/SealedPoolPanel.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 
+import { DECK } from '../../../store/modules/draft/constants'
 
 export default {
   name: 'SealedTable',
 
-  components: { NavBar, ExitButton, FullscreenButton, InfoBar, DeckPanel },
+  components: { NavBar, ExitButton, FullscreenButton, InfoBar, SealedPoolPanel, DeckPanel },
 
   mixins: [TableCore],
 
@@ -26,6 +28,9 @@ export default {
 
   computed: {
     
+    pool: function() {
+      return this.active_player.deck.piles[DECK.UNUSED];
+    }
   },
 
   created() {
@@ -62,12 +67,17 @@ export default {
 
     <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
       <div class="draft-cards user-select-none">
+        <SealedPoolPanel
+          :pool="pool"
+        />
+
         <DeckPanel 
           :set="set" 
           format="sealed"
           :options="options"
           :deck="active_player.deck"
         />
+
       </div>
 
       <InfoBar 
