@@ -26,6 +26,10 @@ export default {
       type: String,
       required: true
     },
+    compact: {
+      type: Boolean,
+      default: false
+    },
     options: {
       type: Object,
       required: true
@@ -38,7 +42,7 @@ export default {
 
   computed: {
     piles: function() {
-      if (this.is_draft_format) {
+      if (!this.compact) {
         return this.deck.piles;
       } else {
         let display_piles = [];
@@ -90,7 +94,7 @@ export default {
 
   methods: {
     pile_caption(text) {
-      if (this.is_draft_format)
+      if (!this.compact)
         return text;
       else
         return '';
@@ -159,7 +163,7 @@ export default {
         caption="Sideboard" 
         drag_source="DRAG_SOURCE_SIDEBOARD"
       >
-        <div v-if="is_draft_format" slot="controls">
+        <div v-if="!compact" slot="controls">
           <MtgCardPile 
             :key="14" 
             :piles="piles" 

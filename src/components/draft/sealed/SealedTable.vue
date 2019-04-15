@@ -74,6 +74,7 @@ export default {
         <DeckPanel 
           :set="set" 
           format="sealed"
+          :compact="true"
           :options="options"
           :deck="active_player.deck"
         />
