@@ -8,11 +8,16 @@ import _orderBy from 'lodash/orderBy'
 import UiPanel from '@/components/core/UiPanel.vue'
 import MtgCard from '@/components/draft/core/MtgCard.vue';
 
+import LeftIcon from 'vue-material-design-icons/ChevronLeftCircle.vue'
+import RightIcon from 'vue-material-design-icons/ChevronRightCircle.vue'
+
+const kCardsPerPage = 16;
+
 export default {
   name: 'SealedPoolPanel',
 
   components: {
-    UiPanel, MtgCard, Drop
+    UiPanel, MtgCard, Drop, LeftIcon, RightIcon
   },
 
   props: {
@@ -22,19 +27,28 @@ export default {
     }
   },
 
+  data: function() {
+    return {
+      page_index: 0
+    }
+  },
+
   computed: {
 
-    page_index: function() {
-      return 0;
-    },
-    
     pool_sorted: function() {
       return _orderBy(this.pool, ["collector_number"], ["asc"]);
     },
 
     page_cards: function() {
-      let cards_per_page = 16;
-      return this.pool_sorted.slice(this.page_index * cards_per_page, cards_per_page);
+      let start = this.page_index * kCardsPerPage;
+      return this.pool_sorted.slice(start, start + kCardsPerPage);
+    },
+
+    page_caption: function() {
+      let total = this.pool_sorted.length;
+      let first = (this.page_index * kCardsPerPage) + 1;
+      let last = Math.min(first + kCardsPerPage - 1, total);
+      return `${first} to ${last} of ${total}`;
     },
 
     drag_source: () => "DRAG_SOURCE_UNUSED",
@@ -108,6 +122,17 @@ export default {
 
     handleDragleave() {},
 
+    onPreviousClick() {
+      if (this.page_index > 0)
+        this.page_index = this.page_index - 1;
+    },
+
+    onNextClick(){
+      let next_start = (this.page_index+1) * kCardsPerPage;
+      if (next_start < this.pool.length)
+        this.page_index = this.page_index + 1;
+    }
+
   },
 
 }
@@ -119,8 +144,15 @@ export default {
 <template>
 
   <UiPanel 
+    caption="Sealed Pool"
     class="sealed-pool-panel card-select-panel"
   >
+    <template slot="header-right">
+      <LeftIcon title="Previous (Left Arrow)" @click.native="onPreviousClick"  /> 
+      {{ page_caption }} 
+      <RightIcon  title="Next (Right Arrow)" @click.native="onNextClick" />
+    </template>
+
     <Drop 
       class="pool-container card-select-container" 
       @drop="handleDrop(...arguments)" 
@@ -144,8 +176,31 @@ export default {
 
 <style>
 
+.draft-page .sealed-pool-panel .card-body {
+  padding-top: 5px;
+}
 
+.draft-cards .sealed-pool-panel {
+  padding-bottom: 34.5%;
+}
 
+@media only screen and (max-width: 1000px) {
+.draft-cards .sealed-pool-panel {
+  padding-bottom: 31.8%;
+}
+}
+
+.sealed-pool-panel .material-design-icon {
+  cursor: pointer;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.sealed-pool-panel .material-design-icon svg {
+  width: 16px;
+  height: 16px;
+   margin-top: -2px;
+}
 
 
 

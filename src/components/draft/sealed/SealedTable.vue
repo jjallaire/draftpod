@@ -2,6 +2,10 @@
 <script>
 
 
+import Vue from 'vue'
+import VueHotkey from 'v-hotkey'
+Vue.use(VueHotkey);
+
 import NavBar from '@/components/core/NavBar.vue'
 
 import TableCore from '../table/TableCore.js'
@@ -30,6 +34,17 @@ export default {
     
     pool: function() {
       return this.active_player.deck.piles[DECK.UNUSED];
+    },
+
+    keymap: function() {
+      return {
+        'left': () => {
+          this.$refs.sealedPool.onPreviousClick();
+        },
+        'right': () => {
+          this.$refs.sealedPool.onNextClick();
+        },
+      };
     }
   },
 
@@ -66,8 +81,9 @@ export default {
     </NavBar> 
 
     <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
-      <div class="draft-cards user-select-none">
+      <div v-hotkey="keymap" class="draft-cards user-select-none">
         <SealedPoolPanel
+          ref="sealedPool"
           :pool="pool"
         />
 
