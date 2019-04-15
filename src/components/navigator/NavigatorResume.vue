@@ -71,7 +71,7 @@ export default {
 
 <template>
   <ContentPanel 
-    caption="Draft in Progress" 
+    caption="In Progress" 
     class="resume-draft user-select-none"
   >
     <div class="row">
@@ -94,7 +94,7 @@ export default {
           class="btn btn-warning resume-button" 
           @click="onResumeDraft"
         >
-          Resume Draft
+          Resume
         </button>
       </div>
       <div class="col-sm-4 col-lg-3">

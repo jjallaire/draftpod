@@ -42,6 +42,7 @@ export default {
     return {
       set_code: 'war',
       cardpool: CARDPOOL.CUBE + '6/3/1/1',
+      format: 'draft',
       pick_timer: false,
       pick_ratings: false,
       players: 'single',
@@ -61,6 +62,14 @@ export default {
       'player',
       'preferences'
     ]),
+
+    is_draft_format() {
+      return this.format === 'draft';
+    },
+
+    is_sealed_format() {
+      return this.format === 'sealed';
+    },
     
     is_multi_player() {
       return this.players.startsWith('multiple');
@@ -83,6 +92,7 @@ export default {
   created() {
     this.set_code = this.preferences.set_code;
     this.cardpool = this.cardpool;
+    this.format = this.preferences.format || 'draft';
     this.pick_timer = this.preferences.pick_timer;
     this.pick_ratings = this.preferences.pick_ratings;
     this.multi_player.player_name = this.player.name;
@@ -208,6 +218,7 @@ export default {
       this.updatePreferences({
         set_code: this.set_code,
         cardpool: this.cardpool,
+        format: this.format,
         pick_timer: this.pick_timer,
         pick_ratings: this.pick_ratings
       });
@@ -237,9 +248,9 @@ export default {
 
         // validate that we don't have an unresolved new-cardpool
         if (this.cardpool === 'new-cardpool') {
-          messagebox.alert("Unable to Start Draft",
+          messagebox.alert("Unable to Start",
                           "Please complete the details for the new cardpool and then click " +
-                          "the <strong>Use Cardpool</strong> button to confirm you want to use it for this draft.");
+                          "the <strong>Use Cardpool</strong> button to confirm you want to use it.");
           resolve(false);
         }
 
@@ -247,19 +258,19 @@ export default {
         else if (this.is_multi_player) {
 
           if (!this.multi_player.draft_id) {
-            messagebox.alert("Unable to Start Draft", "Please wait for the draft be created before starting it.");
+            messagebox.alert("Unable to Start", "Please wait for the game be created before starting it.");
             resolve(false);
           }
 
           else if (!this.multi_player.player_name) {
-            messagebox.alert("Unable to Start Draft", "Please enter the name you want to be identified by during the draft.");
+            messagebox.alert("Unable to Start", "Please enter the name you want to be identified by.");
             resolve(false);
           }
 
           else if (this.multi_players.length <= 1) {
             messagebox.confirm(
-              "Start Draft",
-              "<p>No other players have yet joined this draft so you will be the only player.<p>" +
+              "Startaft",
+              "<p>No other players have yet joined so you will be the only player.<p>" +
               "Are you sure you want to start drafting?",
               () => resolve(true), () => resolve(false));
           } else {
@@ -277,6 +288,7 @@ export default {
       return this.initDraft({ 
         set_code: this.set_code, 
         cardpool: this.cardpool, 
+        format: this.format,
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
@@ -345,7 +357,7 @@ export default {
 <template>
   <ContentPanel 
     ref="startNewDraft" 
-    caption="Start New Draft" 
+    caption="Start New" 
     class="user-select-none"
   >
     <form @submit.prevent>
@@ -363,6 +375,28 @@ export default {
         @newCardpoolComplete="onNewCardpoolComplete"
       />
       <div class="form-group row">
+        <label 
+          for="draft-format" 
+          class="col-sm-3 col-form-label"
+        >
+          Format:
+        </label>
+        <div id="draft-format" class="col-sm-8">
+          <div class="form-check form-check-inline">
+            <input id="draft-format-draft" v-model="format" class="form-check-input" type="radio" value="draft" checked>
+            <label class="form-check-label" for="draft-format-draft">
+              Booster Draft
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input id="draft-format-sealed" v-model="format" class="form-check-input" type="radio" value="sealed">
+            <label class="form-check-label" for="draft-format-sealed">
+              Sealed Deck
+            </label>
+          </div>
+        </div>
+      </div>
+      <div v-show="is_draft_format" class="form-group row">
         <label 
           for="draft-options" 
           class="col-sm-3 col-form-label"
@@ -439,7 +473,7 @@ export default {
             class="btn btn-success" 
             @click="onStartDraft"
           >
-            Start Draft
+            Start
           </button>
         </div>
       </div>
@@ -450,8 +484,22 @@ export default {
 
 <style>
 
+#draft-format .form-check-inline {
+  margin-right: 20px;
+  margin-top: 13px;
+}
+
+
 #draft-options {
   margin-bottom: 15px;
+}
+
+#draft-options .form-check:first-child {
+  margin-top: 0;
+}
+
+label[for="draft-options"] {
+  padding-top: 0;
 }
 
 #start-draft {

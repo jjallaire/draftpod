@@ -9,6 +9,9 @@ export default function() {
     // id
     id: null,
 
+    // format (draft or sealed)
+    format: 'draft',
+
     // set 
     set: {
       code: null,

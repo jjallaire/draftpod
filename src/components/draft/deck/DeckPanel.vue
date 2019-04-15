@@ -22,6 +22,14 @@ export default {
       type: Object,
       required: true
     },
+    format: {
+      type: String,
+      required: true
+    },
+    compact: {
+      type: Boolean,
+      default: false
+    },
     options: {
       type: Object,
       required: true
@@ -34,7 +42,18 @@ export default {
 
   computed: {
     piles: function() {
-      return this.deck.piles;
+      if (!this.compact) {
+        return this.deck.piles;
+      } else {
+        let display_piles = [];
+        for (let i=0; i<6;i++) {
+          display_piles[i] = this.deck.piles[i].concat(this.deck.piles[i+6]);
+          display_piles[i+6] = [];
+        }
+        display_piles[DECK.LANDS] = this.deck.piles[DECK.LANDS].slice();
+        display_piles[DECK.SIDEBOARD] = this.deck.piles[DECK.SIDEBOARD].slice();
+        return display_piles;
+      }
     },
     deck_total_cards: function() {
       return selectors.deckTotalCards(this.deck);
@@ -63,8 +82,24 @@ export default {
         return 140;
       else
         return 10;
-    }
+    },
+    is_draft_format() {
+      return this.format === 'draft';
+    },
+
+    is_sealed_format() {
+      return this.format === 'sealed';
+    },
   },
+
+  methods: {
+    pile_caption(text) {
+      if (!this.compact)
+        return text;
+      else
+        return '';
+    }
+  }
 }
 
 </script>
@@ -84,6 +119,7 @@ export default {
     <template slot="header-right">
       <DeckView :set_code="set.code" :format="options.deck_list_format" :deck="deck" />
       <DeckDownload 
+        v-if="is_draft_format"
         :set="set" 
         :deck="deck"
       />
@@ -92,7 +128,7 @@ export default {
       <MtgCardPile 
         v-for="number in 5" 
         :key="number-1" 
-        :caption="number + ''" 
+        :caption="pile_caption(number + '')" 
         :piles="piles" 
         :number="number-1" 
         drag_source="DRAG_SOURCE_DECK"
@@ -101,7 +137,7 @@ export default {
         :key="5" 
         :piles="piles" 
         :number="5" 
-        caption="6+" 
+        :caption="pile_caption('6+')" 
         drag_source="DRAG_SOURCE_DECK"
       />
       <div class="pile pile-separator" />
@@ -127,7 +163,7 @@ export default {
         caption="Sideboard" 
         drag_source="DRAG_SOURCE_SIDEBOARD"
       >
-        <div slot="controls">
+        <div v-if="!compact" slot="controls">
           <MtgCardPile 
             :key="14" 
             :piles="piles" 

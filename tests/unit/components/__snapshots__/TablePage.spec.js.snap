@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TablePage.vue draft table displays 1`] = `
+exports[`DraftTable.vue draft table displays 1`] = `
 <div>
   <nav
     class="navbar navbar-dark navbar-expand-sm user-select-none"
@@ -718,7 +718,7 @@ exports[`TablePage.vue draft table displays 1`] = `
       class="draft-cards user-select-none"
     >
       <div
-        class="card pack-panel"
+        class="card pack-panel card-select-panel"
         name="pack-hide"
       >
         <!---->
@@ -727,7 +727,7 @@ exports[`TablePage.vue draft table displays 1`] = `
           class="card-body"
         >
           <div
-            class="pack-container"
+            class="card-select-container"
           >
             <span
               class="mtgcard mtgcard-draggable"

@@ -65,12 +65,20 @@ export default {
       return this.draft.set.name;
     },
 
+    format: function() {
+      return selectors.draftFormat(this.draft);
+    },
+
     is_started: function() {
       return this.draft.table.start_time !== null;
     },
 
+    max_players: function() {
+      return this.format === 'draft' ? 8 : (this.draft.table.all_packs.length / 6);
+    },
+
     is_full: function() {
-      return !this.is_joined &&  (this.multi_players.length >= 8);
+      return !this.is_joined &&  (this.multi_players.length >= this.max_players);
     },
 
     is_available: function() {
@@ -144,8 +152,8 @@ export default {
       // ensure we have a name
       if (player_name.length === 0) {
         messagebox.alert(
-          "Unable to Join Draft",
-          "Please enter the name you want to be identified by during the draft.",
+          "Unable to Join",
+          "Please enter the name you want to be identified by.",
           () => { utils.focus(this.$refs.playerName); });
         return false;
       }
@@ -193,19 +201,19 @@ export default {
                 <span v-else>
                   You have been invited
                 </span>
-                to join a {{ set_name }} draft.
+                to join a {{ set_name }} game.
               </p>
 
               <div v-if="is_started">
                 <div class="alert alert-warning">
-                  This draft has already started, so it's no longer possible for you to 
+                  This game has already started, so it's no longer possible for you to 
                   join. If you want to join, ask the host to create a new
-                  draft and re-invite all of the players.
+                  game and re-invite all of the players.
                 </div>
               </div>
               <div v-else-if="is_full">
                 <div class="alert alert-warning">
-                  This draft already has 8 players so cannot be joined.
+                  This game already has {{ max_players }} players so cannot be joined.
                 </div>
               </div>
               <div 

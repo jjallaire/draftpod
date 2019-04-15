@@ -143,7 +143,7 @@ export default {
     </div>
 
     <p>
-      Click <strong>Start Draft</strong> once the other players have all joined and you are ready to begin the draft.
+      Click <strong>Start</strong> once the other players have all joined and you are ready to begin the draft.
     </p>
   </div>
 </template>

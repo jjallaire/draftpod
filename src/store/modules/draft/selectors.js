@@ -21,6 +21,10 @@ export function cardImageUris(card) {
     return card.image_uris;
 }
 
+export function draftFormat(draft) {
+  return draft.format || 'draft';
+}
+
 // get draft options (including defaults for new options introduced)
 export function draftOptions(draft) {
   return {

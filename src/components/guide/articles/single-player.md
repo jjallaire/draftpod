@@ -4,7 +4,7 @@ Single-player mode enables you to practice drafting in a simulated environment. 
 
 ### Getting Started
 
-To start a new single-player draft, go to the [Draft](/draft/) page, select the set you want to draft from, and click the **Start Draft** button (it's fine to accept the defaults for the other options):
+To start a new single-player draft, go to the [Draft](/draft/) page, select the set you want to draft from, and click the **Start** button (it's fine to accept the defaults for the other options):
 
 <p>
 <img src="/images/guide/start-draft.png" width="100%" />

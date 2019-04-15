@@ -17,7 +17,7 @@ import * as selectors from '@/store/modules/draft/selectors.js'
 import { mapGetters } from 'vuex'
 
 export default {
-  name: 'SealedPage',
+  name: 'SealedPoolPage',
 
   components: { NavBar, ContentPanel, SetSelect, CardpoolSelect },
 
@@ -73,7 +73,7 @@ export default {
   <div>
     <NavBar /> 
 
-    <div class="sealed-page container">
+    <div class="sealed-pool-page container">
       <ContentPanel caption="Sealed Pool">
         <form>
           <SetSelect v-model="set_code" />
@@ -142,11 +142,11 @@ export default {
 
 <style>
 
-.sealed-page .form-control[type="number"] {
+.sealed-pool-page .form-control[type="number"] {
   width: 50%;
 }
 
-.sealed-page .pool-listing {
+.sealed-pool-page .pool-listing {
   width: 100%;
   background: white;
   color: black;

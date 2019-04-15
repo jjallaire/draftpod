@@ -23,10 +23,10 @@ export default {
 </script>
 
 <template>
-  <UiPanel class="pack-panel">
+  <UiPanel class="pack-panel card-select-panel">
     <div 
       v-if="pack" 
-      class="pack-container"
+      class="card-select-container"
     >
       <MtgCard 
         v-for="card in pack" 
@@ -46,24 +46,6 @@ export default {
 
 <style>
 
-.pack-panel {
-  background: transparent;
-}
-
-.pack-panel .card {
-  padding: 0;
-}
-
-.draft-page .pack-panel .card-body {
-  padding: 0;
-  background-color: transparent;
-}
-
-.pack-panel .mtgcard img {
-  width: 11.5%;
-  min-height: 16.05%;
-  margin-bottom: 3px;
-}
 
 .pack-panel .waiting-for-pack {
   width: 100%;
@@ -82,12 +64,6 @@ export default {
   padding-bottom: 3px;
 }
 
-@media only screen and (max-width: 1000px) {
-.pack-panel .mtgcard img {
-  width: 10%;
-  min-height: 13.95%;
-} 
-}
 
 </style>
 

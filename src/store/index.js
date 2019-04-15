@@ -47,6 +47,7 @@ export function initializeStore() {
     },
     preferences: {
       set_code: 'war',
+      format: 'draft',
       pick_timer: false,
       pick_ratings: false,
       sets: {}

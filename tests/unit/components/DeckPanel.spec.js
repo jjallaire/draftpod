@@ -19,6 +19,7 @@ describe('DeckPanel.vue', () => {
           name: "Ravnica Allegiance",
           pack_cards: 15
         },
+        format: 'draft',
         options: {
           deck_size: 40,
           deck_list_format: 'normal'
