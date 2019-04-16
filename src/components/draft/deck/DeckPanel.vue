@@ -1,5 +1,8 @@
 <script>
 
+import MaximizeIcon from "vue-material-design-icons/Fullscreen.vue"
+import MinimizeIcon from "vue-material-design-icons/FullscreenExit.vue"
+
 import UiPanel from '@/components/core/UiPanel.vue'
 import MtgCardPile from '@/components/draft/core/MtgCardPile.vue'
 import DeckDownload from './DeckDownload.vue'
@@ -14,7 +17,7 @@ export default {
   name: 'DeckPanel',
 
   components: {
-    UiPanel, MtgCardPile, DeckDownload, DeckView, DeckLands
+    UiPanel, MtgCardPile, DeckDownload, DeckView, DeckLands, MaximizeIcon, MinimizeIcon
   },
 
   props: {
@@ -98,6 +101,11 @@ export default {
         return text;
       else
         return '';
+    },
+
+    onToggleCompact(event) {
+      this.$emit('togglecompact');
+      this.$refs.toggleCompactBtn.blur();
     }
   }
 }
@@ -123,6 +131,15 @@ export default {
         :set="set" 
         :deck="deck"
       />
+      <button 
+        v-if="is_sealed_format"
+        ref="toggleCompactBtn"
+        class="btn btn-sm btn-secondary btn-minmax text-light"
+        @click="onToggleCompact"
+      >
+        <MaximizeIcon v-if="compact" />
+        <MinimizeIcon v-if="!compact" />
+      </button>
     </template>
     <div class="deck-piles deck-piles-top">
       <MtgCardPile 
@@ -240,6 +257,17 @@ export default {
   height: 16px;
   margin-top: -2px;
 }
+
+.deck .card-header .btn-minmax {
+  padding: 0.1rem;
+  padding-bottom: 0;
+}
+
+.deck .card-header .btn-minmax svg {
+  width: 24px;
+  height: 24px;
+}
+
 
 .deck .card-header .btn-extra-text {
   display: none

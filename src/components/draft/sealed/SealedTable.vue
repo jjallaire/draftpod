@@ -108,13 +108,13 @@ export default {
       </span> 
      
       <ul class="navbar-nav">
-        <LeftIcon class="pager-left" title="Previous (Left Arrow)" @click.native="onPreviousClick" /> 
+        <LeftIcon class="pager pager-left" title="Previous (Left Arrow)" @click.native="onPreviousClick" /> 
       </ul>
       <span class="navbar-text pager-text">
         {{ page_caption }} 
       </span>
-       <ul class="navbar-nav">
-        <RightIcon class="pager-right" title="Next (Right Arrow)" @click.native="onNextClick" />
+      <ul class="navbar-nav">
+        <RightIcon class="pager pager-right" title="Next (Right Arrow)" @click.native="onNextClick" />
       </ul>
 
       <ul class="navbar-nav">
@@ -163,12 +163,18 @@ export default {
 }
 
 .sealed-navbar .navbar-text.pager-text {
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 0;
+  padding-right: 1px;
+  min-width: 145px;
+  text-align: center;
 }
 
 .sealed-navbar .pager-right {
   padding-right: 1rem;
+}
+
+.sealed-navbar .pager {
+  padding-top: 1px;
 }
 
 </style>
