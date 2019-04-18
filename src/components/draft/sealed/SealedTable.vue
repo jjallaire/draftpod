@@ -35,6 +35,7 @@ export default {
   data: function() {
     return {
       page_index: 0,
+      filter: null,
       compact_deck_panel: true,
     }
   },
@@ -47,8 +48,15 @@ export default {
       return this.active_player.deck.piles[DECK.UNUSED];
     },
 
+    pool_filtered: function() {
+      if (this.filter)
+        return this.pool.filter(this.filter);
+      else
+        return this.pool;
+    },
+
     pool_sorted: function() {
-      return _orderBy(this.pool, ["collector_number"], ["asc"]);
+      return _orderBy(this.pool_filtered, ["collector_number"], ["asc"]);
     },
 
     page_cards: function() {
@@ -91,6 +99,10 @@ export default {
       let next_start = (this.page_index+1) * kCardsPerPage;
       if (next_start < this.pool.length)
         this.page_index = this.page_index + 1;
+    },
+
+    onFilterChanged(value) {
+      this.filter = value;
     },
 
     onToggleCompactDeckPanel() {
@@ -141,7 +153,7 @@ export default {
               class="dropdown-menu filter-menu" 
               aria-labelledby="filterMenuLink"
             >
-              <SealedFilterPopup />
+              <SealedFilterPopup @changed="onFilterChanged" />
             </div>
           </div>
         </li>

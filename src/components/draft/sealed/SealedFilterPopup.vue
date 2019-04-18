@@ -1,5 +1,6 @@
 <script>
 
+import * as filters from '@/store/modules/draft/card-filters'
 
 export default {
   name: 'SealedFilterPopup',
@@ -20,6 +21,10 @@ export default {
 
   methods: {
    
+    updateFilter() {
+      this.$emit('changed', filters.creature)
+    }
+
   },
 
 
@@ -28,7 +33,9 @@ export default {
 </script>
 
 <template>
-  <div class="sealed-filter" />
+  <div class="sealed-filter">
+    <button @click="updateFilter" />
+  </div>
   
 </template>
 
