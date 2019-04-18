@@ -10,7 +10,7 @@ export default {
 
   name: "War of the Spark",
 
-  pack_cards: () => 14,
+  pack_cards: () => 15,
 
   cube: cube.build,
 
@@ -35,7 +35,7 @@ export default {
   
     return [].concat(
       rares_and_uncommons,
-      selectCards(booster.common, 10)
+      selectCards(booster.common, 11)
     );
   },
 }
