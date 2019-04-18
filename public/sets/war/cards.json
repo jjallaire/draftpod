@@ -232,6 +232,25 @@
     "set": "war"
   },
   {
+    "id": 600042,
+    "name": "Aven Eternal",
+    "collector_number": 42,
+    "multiverse_ids": [
+      600042
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fe479484-a827-4d3c-8e35-e905e4f6664a.jpg?1555612046"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Bird Warrior",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
     "id": 600152,
     "name": "Awakening of Vitu-Ghazi",
     "collector_number": 152,
@@ -573,6 +592,25 @@
     "set": "war"
   },
   {
+    "id": 600044,
+    "name": "Callous Dismissal",
+    "collector_number": 44,
+    "multiverse_ids": [
+      600044
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/6/66cef326-339c-49e5-9905-21a1603a46ae.jpg?1555612109"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 3,
+    "set": "war"
+  },
+  {
     "id": 600187,
     "name": "Casualties of War",
     "collector_number": 187,
@@ -751,7 +789,7 @@
     "multiverse_ids": [
       600082
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de7ec307-45e0-4853-85fe-9ce859b188c2.jpg?1555546046"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de7ec307-45e0-4853-85fe-9ce859b188c2.jpg?1555612069"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{4}{B}{B}",
@@ -962,7 +1000,7 @@
     "multiverse_ids": [
       600085
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/67aa7104-7acc-4827-b763-ac053c99baab.jpg?1555330550"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/67aa7104-7acc-4827-b763-ac053c99baab.jpg?1555612074"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{2}{B}",
@@ -1000,7 +1038,7 @@
     "multiverse_ids": [
       600190
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/32b17dfc-b916-4134-ba77-501cff435e7e.jpg?1555582043"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/32b17dfc-b916-4134-ba77-501cff435e7e.jpg?1555611871"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{W}{B}",
@@ -1039,7 +1077,7 @@
     "multiverse_ids": [
       600010
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/3/73cbb58a-1b00-4883-9b45-da7ded7317e3.jpg?1555572624"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/3/73cbb58a-1b00-4883-9b45-da7ded7317e3.jpg?1555612039"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{W}",
@@ -1234,7 +1272,7 @@
     "multiverse_ids": [
       600195
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d2e40b14-48a2-4b9e-b767-e914cab04b30.jpg?1555600675"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d2e40b14-48a2-4b9e-b767-e914cab04b30.jpg?1555611912"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "mana_cost": "{2}{W}{U}",
@@ -1649,7 +1687,7 @@
     "multiverse_ids": [
       600014
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/849c79ad-8bfc-4512-ab41-f213b6b285ab.jpg?1555546233"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/849c79ad-8bfc-4512-ab41-f213b6b285ab.jpg?1555612042"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{W}",
@@ -1876,11 +1914,11 @@
     "multiverse_ids": [
       600239
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/7/a7faf99e-f61f-46cb-a275-2e12c41f1e31.jpg?1555604753"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/7/a7faf99e-f61f-46cb-a275-2e12c41f1e31.jpg?1555612195"],
     "layout": "normal",
     "type_line": "Artifact",
-    "mana_cost": "2",
-    "cmc": 0,
+    "mana_cost": "{2}",
+    "cmc": 2,
     "colors": [],
     "rarity": "common",
     "rating": 1,
@@ -1912,7 +1950,7 @@
     "multiverse_ids": [
       600199
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/af569235-f5cb-4e3e-ba77-c1c429ed0a60.jpg?1555601512"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/af569235-f5cb-4e3e-ba77-c1c429ed0a60.jpg?1555611937"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{R}{W}",
@@ -2653,7 +2691,7 @@
     "multiverse_ids": [
       600241
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/7/17315a12-a7f8-45ba-ac3b-a62c789e75d0.jpg?1555604686"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/7/17315a12-a7f8-45ba-ac3b-a62c789e75d0.jpg?1555611969"],
     "layout": "normal",
     "type_line": "Artifact",
     "mana_cost": "{3}",
@@ -3077,7 +3115,7 @@
     "multiverse_ids": [
       600209
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/faba010d-5b1b-4562-91d6-ec55303c4dcd.jpg?1555506918"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/faba010d-5b1b-4562-91d6-ec55303c4dcd.jpg?1555612153"],
     "layout": "normal",
     "type_line": "Legendary Enchantment",
     "mana_cost": "{1}{W}{B}",
@@ -3250,7 +3288,7 @@
     "multiverse_ids": [
       600102
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fd68e918-5089-46c9-8836-b05a3da3c7a3.jpg?1555531003"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fd68e918-5089-46c9-8836-b05a3da3c7a3.jpg?1555612083"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{B}",
@@ -3305,7 +3343,7 @@
     "multiverse_ids": [
       600026
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d476e8e5-2377-464b-b2d5-a3cd66ee2e45.jpg?1555582212"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d476e8e5-2377-464b-b2d5-a3cd66ee2e45.jpg?1555611891"],
     "layout": "normal",
     "type_line": "Enchantment",
     "mana_cost": "{2}{W}",
@@ -3450,6 +3488,25 @@
     ],
     "rarity": "uncommon",
     "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600175,
+    "name": "Return to Nature",
+    "collector_number": 175,
+    "multiverse_ids": [
+      600175
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/8/085e3129-591b-46ec-ac8b-cff428927c01.jpg?1555612143"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 1,
     "set": "war"
   },
   {
@@ -3703,6 +3760,25 @@
     "set": "war"
   },
   {
+    "id": 600067,
+    "name": "Sky Theater Strix",
+    "collector_number": 67,
+    "multiverse_ids": [
+      600067
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/98902dd9-f21c-4419-8205-4b9d6592bf28.jpg?1555612654"],
+    "layout": "normal",
+    "type_line": "Creature — Bird",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
     "id": 600176,
     "name": "Snarespinner",
     "collector_number": 176,
@@ -3826,7 +3902,7 @@
     "multiverse_ids": [
       600105
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/0/2013a138-f8e2-4a67-91e8-759288d985a7.jpg?1555420424"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/0/2013a138-f8e2-4a67-91e8-759288d985a7.jpg?1555612090"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{B}",
@@ -3940,7 +4016,7 @@
     "multiverse_ids": [
       600178
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/04b3b12e-bef7-409e-86b3-9e90640e598c.jpg?1555506932"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/04b3b12e-bef7-409e-86b3-9e90640e598c.jpg?1555612149"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{4}{G}",
@@ -4153,7 +4229,7 @@
     "multiverse_ids": [
       600089
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a3b16625-7faf-4de6-abf7-d397988e32fb.jpg?1555330799"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a3b16625-7faf-4de6-abf7-d397988e32fb.jpg?1555612078"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{B}{B}",
@@ -4181,6 +4257,25 @@
       "W"
     ],
     "rarity": "uncommon",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600073,
+    "name": "Thunder Drake",
+    "collector_number": 73,
+    "multiverse_ids": [
+      600073
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f88a9bc4-1b15-4a91-9376-730d2f5b3336.jpg?1555612060"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Drake",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
     "rating": 3,
     "set": "war"
   },
@@ -4421,7 +4516,7 @@
     "multiverse_ids": [
       600225
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7e2708c-2824-4925-b529-d625deb77924.jpg?1555546140"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7e2708c-2824-4925-b529-d625deb77924.jpg?1555612131"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{U}{B}",
@@ -4475,7 +4570,7 @@
     "multiverse_ids": [
       600109
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9c260c5c-e796-4f81-9e15-0c5be75106b9.jpg?1555572628"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9c260c5c-e796-4f81-9e15-0c5be75106b9.jpg?1555612137"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{B}",
@@ -4619,6 +4714,25 @@
     ],
     "rarity": "uncommon",
     "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600075,
+    "name": "Wall of Runes",
+    "collector_number": 75,
+    "multiverse_ids": [
+      600075
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/6/96613089-3508-429a-9f90-23168d56bbe7.jpg?1555612064"],
+    "layout": "normal",
+    "type_line": "Creature — Wall",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2,
     "set": "war"
   },
   {
