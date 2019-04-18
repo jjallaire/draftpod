@@ -656,7 +656,7 @@
     "multiverse_ids": [
       600082
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de7ec307-45e0-4853-85fe-9ce859b188c2.jpg?1555518297"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de7ec307-45e0-4853-85fe-9ce859b188c2.jpg?1555546046"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{4}{B}{B}",
@@ -1431,6 +1431,25 @@
     ],
     "rarity": "mythic",
     "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600014,
+    "name": "Gideon's Sacrifice",
+    "collector_number": 14,
+    "multiverse_ids": [
+      600014
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/849c79ad-8bfc-4512-ab41-f213b6b285ab.jpg?1555546233"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -3941,6 +3960,26 @@
     ],
     "rarity": "common",
     "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600225,
+    "name": "Tyrant's Scorn",
+    "collector_number": 225,
+    "multiverse_ids": [
+      600225
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7e2708c-2824-4925-b529-d625deb77924.jpg?1555546140"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{U}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5,
     "set": "war"
   },
   {
