@@ -117,6 +117,25 @@
     "set": "war"
   },
   {
+    "id": 600149,
+    "name": "Arboreal Grazer",
+    "collector_number": 149,
+    "multiverse_ids": [
+      600149
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/4/c4a5f86f-44a8-4735-909a-770586d33a15.jpg?1555601354"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
     "id": 600151,
     "name": "Arlinn's Wolf",
     "collector_number": 151,
@@ -270,6 +289,25 @@
     "set": "war"
   },
   {
+    "id": 600005,
+    "name": "Battlefield Promotion",
+    "collector_number": 5,
+    "multiverse_ids": [
+      600005
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/89f8e970-b90c-4829-8970-0a3364027bbb.jpg?1555586905"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
     "id": 600186,
     "name": "Bioessence Hydra",
     "collector_number": 186,
@@ -304,6 +342,25 @@
     "colors": [],
     "rarity": "rare",
     "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600078,
+    "name": "Bleeding Edge",
+    "collector_number": 78,
+    "multiverse_ids": [
+      600078
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/ac82422c-8ac8-4fbb-b9b9-d0aa23dded61.jpg?1555601054"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{1}{B}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 0,
     "set": "war"
   },
   {
@@ -650,6 +707,44 @@
     "set": "war"
   },
   {
+    "id": 600081,
+    "name": "Charity Extractor",
+    "collector_number": 81,
+    "multiverse_ids": [
+      600081
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/3594f726-cdbb-4b7d-bcfe-17d5f8cd5228.jpg?1555578726"],
+    "layout": "normal",
+    "type_line": "Creature — Human Knight",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600008,
+    "name": "Charmed Stray",
+    "collector_number": 8,
+    "multiverse_ids": [
+      600008
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/357513b9-0505-4b67-9a29-36a705a175b1.jpg?1555586855"],
+    "layout": "normal",
+    "type_line": "Creature — Cat",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "war"
+  },
+  {
     "id": 600082,
     "name": "Command the Dreadhorde",
     "collector_number": 82,
@@ -899,6 +994,26 @@
     "set": "war"
   },
   {
+    "id": 600190,
+    "name": "Despark",
+    "collector_number": 190,
+    "multiverse_ids": [
+      600190
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/32b17dfc-b916-4134-ba77-501cff435e7e.jpg?1555582043"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
     "id": 600124,
     "name": "Devouring Hellion",
     "collector_number": 124,
@@ -915,6 +1030,25 @@
     ],
     "rarity": "uncommon",
     "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600010,
+    "name": "Divine Arrow",
+    "collector_number": 10,
+    "multiverse_ids": [
+      600010
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/3/73cbb58a-1b00-4883-9b45-da7ded7317e3.jpg?1555572624"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -1075,6 +1209,45 @@
     "set": "war"
   },
   {
+    "id": 600088,
+    "name": "Duskmantle Operative",
+    "collector_number": 88,
+    "multiverse_ids": [
+      600088
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/6/16eb5a6b-5e69-497c-a0c9-4165ad0f5d0b.jpg?1555580378"],
+    "layout": "normal",
+    "type_line": "Creature — Human Rogue",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600195,
+    "name": "Elite Guardmage",
+    "collector_number": 195,
+    "multiverse_ids": [
+      600195
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d2e40b14-48a2-4b9e-b767-e914cab04b30.jpg?1555600675"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "mana_cost": "{2}{W}{U}",
+    "cmc": 4,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
+    "set": "war"
+  },
+  {
     "id": 600245,
     "name": "Emergence Zone",
     "collector_number": 245,
@@ -1089,6 +1262,25 @@
     "colors": [],
     "rarity": "uncommon",
     "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600011,
+    "name": "Enforcer Griffin",
+    "collector_number": 11,
+    "multiverse_ids": [
+      600011
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/4/e4d6d488-01df-4d61-92ff-9881838b4018.jpg?1555586480"],
+    "layout": "normal",
+    "type_line": "Creature — Griffin",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3,
     "set": "war"
   },
   {
@@ -1568,6 +1760,25 @@
     "set": "war"
   },
   {
+    "id": 600016,
+    "name": "God-Eternal Oketra",
+    "collector_number": 16,
+    "multiverse_ids": [
+      600016
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/df70f155-2336-421c-8a9d-69772d2b51a8.jpg?1555572620"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Zombie God",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "war"
+  },
+  {
     "id": 600163,
     "name": "God-Eternal Rhonas",
     "collector_number": 163,
@@ -1661,6 +1872,26 @@
     "set": "war"
   },
   {
+    "id": 600199,
+    "name": "Heartwarming Redemption",
+    "collector_number": 199,
+    "multiverse_ids": [
+      600199
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/af569235-f5cb-4e3e-ba77-c1c429ed0a60.jpg?1555601512"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{2}{R}{W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 0.5,
+    "set": "war"
+  },
+  {
     "id": 600093,
     "name": "Herald of the Dreadhorde",
     "collector_number": 93,
@@ -1735,7 +1966,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -1847,6 +2078,25 @@
     "colors": [],
     "rarity": "common",
     "rating": 1.5,
+    "set": "war"
+  },
+  {
+    "id": 600019,
+    "name": "Ironclad Krovod",
+    "collector_number": 19,
+    "multiverse_ids": [
+      600019
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/afb16895-6542-405e-9793-154ffc439f23.jpg?1555586224"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -2114,6 +2364,25 @@
     "set": "war"
   },
   {
+    "id": 600165,
+    "name": "Kraul Stinger",
+    "collector_number": 165,
+    "multiverse_ids": [
+      600165
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/6/46b88fe9-2450-47ee-ac1e-bbbccbf5684f.jpg?1555586628"],
+    "layout": "normal",
+    "type_line": "Creature — Insect Assassin",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
     "id": 600137,
     "name": "Krenko, Tin Street Kingpin",
     "collector_number": 137,
@@ -2273,7 +2542,7 @@
     "multiverse_ids": [
       600098
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84803db8-fdb0-462b-92f6-33d591593d2d.jpg?1554117852"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84803db8-fdb0-462b-92f6-33d591593d2d.jpg?1555601748"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{B}",
@@ -2631,6 +2900,25 @@
     "set": "war"
   },
   {
+    "id": 600168,
+    "name": "New Horizons",
+    "collector_number": 168,
+    "multiverse_ids": [
+      600168
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/02c521da-677e-43b9-b5fe-c84dc64e66ec.jpg?1555601200"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
     "id": 600207,
     "name": "Nicol Bolas, Dragon-God",
     "collector_number": 207,
@@ -2943,6 +3231,25 @@
     "set": "war"
   },
   {
+    "id": 600026,
+    "name": "Prison Realm",
+    "collector_number": 26,
+    "multiverse_ids": [
+      600026
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d476e8e5-2377-464b-b2d5-a3cd66ee2e45.jpg?1555582212"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
+    "set": "war"
+  },
+  {
     "id": 600141,
     "name": "Raging Kronch",
     "collector_number": 141,
@@ -3137,6 +3444,26 @@
     "set": "war"
   },
   {
+    "id": 600215,
+    "name": "Rubblebelt Rioters",
+    "collector_number": 215,
+    "multiverse_ids": [
+      600215
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9bf8df62-eca1-4a45-84af-fd7c88245a42.jpg?1555577553"],
+    "layout": "normal",
+    "type_line": "Creature — Human Berserker",
+    "mana_cost": "{1}{R}{G}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
     "id": 600243,
     "name": "Saheeli's Silverwing",
     "collector_number": 243,
@@ -3305,6 +3632,25 @@
     ],
     "rarity": "rare",
     "rating": 1,
+    "set": "war"
+  },
+  {
+    "id": 600176,
+    "name": "Snarespinner",
+    "collector_number": 176,
+    "multiverse_ids": [
+      600176
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/8/48a0fcc5-57d3-43ab-9e3d-0e015792239a.jpg?1555586637"],
+    "layout": "normal",
+    "type_line": "Creature — Spider",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -3535,7 +3881,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": [3, 3],
     "set": "war"
   },
   {
@@ -3848,6 +4194,25 @@
     "set": "war"
   },
   {
+    "id": 600107,
+    "name": "Tithebearer Giant",
+    "collector_number": 107,
+    "multiverse_ids": [
+      600107
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3c305ccb-62f5-496a-a205-e818e34ead82.jpg?1555578889"],
+    "layout": "normal",
+    "type_line": "Creature — Giant Warrior",
+    "mana_cost": "{5}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
     "id": 600108,
     "name": "Toll of the Invasion",
     "collector_number": 108,
@@ -3944,6 +4309,25 @@
     "set": "war"
   },
   {
+    "id": 600036,
+    "name": "Trusted Pegasus",
+    "collector_number": 36,
+    "multiverse_ids": [
+      600036
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/89bbcaf5-80e9-43f2-b470-de6cbed6a95a.jpg?1555572617"],
+    "layout": "normal",
+    "type_line": "Creature — Pegasus",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
     "id": 600148,
     "name": "Turret Ogre",
     "collector_number": 148,
@@ -3996,7 +4380,7 @@
     "cmc": 0,
     "colors": [],
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -4014,6 +4398,44 @@
     "colors": [],
     "rarity": "rare",
     "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600109,
+    "name": "Unlikely Aid",
+    "collector_number": 109,
+    "multiverse_ids": [
+      600109
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9c260c5c-e796-4f81-9e15-0c5be75106b9.jpg?1555572628"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600110,
+    "name": "Vampire Opportunist",
+    "collector_number": 110,
+    "multiverse_ids": [
+      600110
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8cf21a4-616d-48a5-a104-180c24491761.jpg?1555578678"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 1,
     "set": "war"
   },
   {
