@@ -155,6 +155,45 @@
     "set": "war"
   },
   {
+    "id": 600228,
+    "name": "Ashiok, Dream Render",
+    "collector_number": 228,
+    "multiverse_ids": [
+      600228
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/2/f2df3258-c053-48a8-974f-d80899b2cd93.jpg?1555323640"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Ashiok",
+    "mana_cost": "{1}{U/B}{U/B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600040,
+    "name": "Ashiok's Skulker",
+    "collector_number": 40,
+    "multiverse_ids": [
+      600040
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7dd5b0a1-104d-4e0f-82de-65487fbf01ff.jpg?1555325756"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
     "id": 600041,
     "name": "Augur of Bolas",
     "collector_number": 41,
@@ -228,6 +267,43 @@
     ],
     "rarity": "common",
     "rating": 0.5,
+    "set": "war"
+  },
+  {
+    "id": 600186,
+    "name": "Bioessence Hydra",
+    "collector_number": 186,
+    "multiverse_ids": [
+      600186
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/b/fb01a161-49a1-407c-8410-6933bc8f7b6a.jpg?1555457444"],
+    "layout": "normal",
+    "type_line": "Creature — Hydra Mutant",
+    "mana_cost": "{3}{G}{U}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600244,
+    "name": "Blast Zone",
+    "collector_number": 244,
+    "multiverse_ids": [
+      600244
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/a/ea6bc7d5-e8f6-4103-920c-9f7ec5cd6c28.jpg?1555413406"],
+    "layout": "normal",
+    "type_line": "Land",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3,
     "set": "war"
   },
   {
@@ -313,7 +389,7 @@
     "multiverse_ids": [
       600006
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb7c78bb-9f2a-47a4-adc4-b497bb38f46f.jpg?1555101954"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb7c78bb-9f2a-47a4-adc4-b497bb38f46f.jpg?1555334698"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{4}{W}",
@@ -351,7 +427,7 @@
     "multiverse_ids": [
       600043
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/648629af-e911-49e1-b564-c98f339b84a1.jpg?1555102502"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/648629af-e911-49e1-b564-c98f339b84a1.jpg?1555265040"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{3}{U}",
@@ -370,7 +446,7 @@
     "multiverse_ids": [
       600116
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae644e9d-9bc4-4ccd-aef4-3d0559948aa6.jpg?1555108644"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae644e9d-9bc4-4ccd-aef4-3d0559948aa6.jpg?1555161783"],
     "layout": "normal",
     "type_line": "Sorcery",
     "mana_cost": "{4}{R}{R}",
@@ -437,6 +513,26 @@
     ],
     "rarity": "common",
     "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600187,
+    "name": "Casualties of War",
+    "collector_number": 187,
+    "multiverse_ids": [
+      600187
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/8/08fc5e50-c6f7-41ec-815a-5667eefded78.jpg?1555413927"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{B}{B}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "rarity": "rare",
+    "rating": 4,
     "set": "war"
   },
   {
@@ -551,6 +647,44 @@
     ],
     "rarity": "uncommon",
     "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600082,
+    "name": "Command the Dreadhorde",
+    "collector_number": 82,
+    "multiverse_ids": [
+      600082
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de7ec307-45e0-4853-85fe-9ce859b188c2.jpg?1555518297"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600045,
+    "name": "Commence the Endgame",
+    "collector_number": 45,
+    "multiverse_ids": [
+      600045
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/0/209d70a2-c8c1-4072-ab1f-57804b55a09a.jpg?1555410666"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -724,6 +858,25 @@
     ],
     "rarity": "common",
     "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600085,
+    "name": "Deliver Unto Evil",
+    "collector_number": 85,
+    "multiverse_ids": [
+      600085
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/67aa7104-7acc-4827-b763-ac053c99baab.jpg?1555330550"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -1074,6 +1227,63 @@
     "set": "war"
   },
   {
+    "id": 600160,
+    "name": "Finale of Devastation",
+    "collector_number": 160,
+    "multiverse_ids": [
+      600160
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/985453e7-997e-4d77-a338-cc0290791ebe.jpg?1555507564"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{X}{G}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600091,
+    "name": "Finale of Eternity",
+    "collector_number": 91,
+    "multiverse_ids": [
+      600091
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/5/85c60177-8b71-4e24-87e7-395d5e4f93ff.jpg?1555456688"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{X}{B}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "war"
+  },
+  {
+    "id": 600012,
+    "name": "Finale of Glory",
+    "collector_number": 12,
+    "multiverse_ids": [
+      600012
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/c/4ccacb84-2b8e-40b8-8d53-d1b97bb2971f.jpg?1555504433"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{X}{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "war"
+  },
+  {
     "id": 600127,
     "name": "Finale of Promise",
     "collector_number": 127,
@@ -1090,6 +1300,25 @@
     ],
     "rarity": "mythic",
     "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600051,
+    "name": "Finale of Revelation",
+    "collector_number": 51,
+    "multiverse_ids": [
+      600051
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/6/6630c34a-1a97-4e31-9d2c-1150b0aa903e.jpg?1555412499"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{X}{U}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": 4.5,
     "set": "war"
   },
   {
@@ -1183,6 +1412,25 @@
     ],
     "rarity": "common",
     "rating": 1.5,
+    "set": "war"
+  },
+  {
+    "id": 600013,
+    "name": "Gideon Blackblade",
+    "collector_number": 13,
+    "multiverse_ids": [
+      600013
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39d51c5e-26cb-4276-a676-fabfef866248.jpg?1555504609"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Gideon",
+    "mana_cost": "{1}{W}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "rarity": "mythic",
+    "rating": 4,
     "set": "war"
   },
   {
@@ -1429,6 +1677,46 @@
     ],
     "rarity": "common",
     "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600200,
+    "name": "Huatli's Raptor",
+    "collector_number": 200,
+    "multiverse_ids": [
+      600200
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/ba680ad0-6134-46e0-8fcb-532b2052eca7.jpg?1555421724"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "mana_cost": "{G}{W}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600230,
+    "name": "Huatli, the Sun's Heart",
+    "collector_number": 230,
+    "multiverse_ids": [
+      600230
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/7/d709742c-82a2-457e-9991-85e98d78029d.jpg?1555420392"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Huatli",
+    "mana_cost": "{2}{G/W}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -2247,6 +2535,44 @@
     "set": "war"
   },
   {
+    "id": 600061,
+    "name": "Narset, Parter of Veils",
+    "collector_number": 61,
+    "multiverse_ids": [
+      600061
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c39f9b4-02b9-4d44-b8d6-4fd02ebbb0c5.jpg?1555504082"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Narset",
+    "mana_cost": "{1}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600062,
+    "name": "Narset's Reversal",
+    "collector_number": 62,
+    "multiverse_ids": [
+      600062
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/3/63754036-d51e-47bb-925b-564d9dc922ff.jpg?1555504173"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{U}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "war"
+  },
+  {
     "id": 600140,
     "name": "Neheb, Dreadhorde Champion",
     "collector_number": 140,
@@ -2283,6 +2609,27 @@
     ],
     "rarity": "uncommon",
     "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600207,
+    "name": "Nicol Bolas, Dragon-God",
+    "collector_number": 207,
+    "multiverse_ids": [
+      600207
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/98b68dea-a7be-4f99-8a50-4c8cf0e0f7a9.jpg?1555330357"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Bolas",
+    "mana_cost": "{U}{B}{B}{B}{R}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "rarity": "mythic",
+    "rating": 5,
     "set": "war"
   },
   {
@@ -2366,13 +2713,33 @@
     "set": "war"
   },
   {
+    "id": 600209,
+    "name": "Oath of Kaya",
+    "collector_number": 209,
+    "multiverse_ids": [
+      600209
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/faba010d-5b1b-4562-91d6-ec55303c4dcd.jpg?1555506918"],
+    "layout": "normal",
+    "type_line": "Legendary Enchantment",
+    "mana_cost": "{1}{W}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
     "id": 600101,
     "name": "Ob Nixilis's Cruelty",
     "collector_number": 101,
     "multiverse_ids": [
       600101
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/4/94db72a8-57f7-4f17-9f09-cae90ef50304.jpg?1554224933"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/4/94db72a8-57f7-4f17-9f09-cae90ef50304.jpg?1555531217"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{2}{B}",
@@ -2467,7 +2834,7 @@
     "multiverse_ids": [
       600210
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/ca9b3518-7fcd-49e2-a4c4-e5daa8be6c21.jpg?1555057182"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/ca9b3518-7fcd-49e2-a4c4-e5daa8be6c21.jpg?1555347036"],
     "layout": "normal",
     "type_line": "Instant",
     "mana_cost": "{1}{G}{W}",
@@ -2516,6 +2883,25 @@
     ],
     "rarity": "common",
     "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600102,
+    "name": "Price of Betrayal",
+    "collector_number": 102,
+    "multiverse_ids": [
+      600102
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fd68e918-5089-46c9-8836-b05a3da3c7a3.jpg?1555531003"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "uncommon",
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -2738,7 +3124,7 @@
     "multiverse_ids": [
       600243
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/dba77c07-5d23-4a1a-90a0-b8293848d637.jpg?1554813432"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/dba77c07-5d23-4a1a-90a0-b8293848d637.jpg?1555506981"],
     "layout": "normal",
     "type_line": "Artifact Creature — Drake",
     "mana_cost": "{4}",
@@ -2805,6 +3191,44 @@
     ],
     "rarity": "uncommon",
     "rating": 3.5,
+    "set": "war"
+  },
+  {
+    "id": 600144,
+    "name": "Sarkhan's Catharsis",
+    "collector_number": 144,
+    "multiverse_ids": [
+      600144
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2f4b6f26-c66b-4048-9503-af0a886ef14f.jpg?1555507545"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600143,
+    "name": "Sarkhan the Masterless",
+    "collector_number": 143,
+    "multiverse_ids": [
+      600143
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2bb96971-5bf1-4ae3-98f4-7cd7a614bf97.jpg?1555504286"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Sarkhan",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "rarity": "rare",
+    "rating": 4,
     "set": "war"
   },
   {
@@ -2924,6 +3348,26 @@
     "set": "war"
   },
   {
+    "id": 600218,
+    "name": "Soul Diviner",
+    "collector_number": 218,
+    "multiverse_ids": [
+      600218
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7fb66ccd-a930-4757-832c-c4b0259741e2.jpg?1555362690"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Wizard",
+    "mana_cost": "{U}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "rarity": "rare",
+    "rating": 4,
+    "set": "war"
+  },
+  {
     "id": 600068,
     "name": "Spark Double",
     "collector_number": 68,
@@ -2940,6 +3384,44 @@
     ],
     "rarity": "rare",
     "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600105,
+    "name": "Spark Harvest",
+    "collector_number": 105,
+    "multiverse_ids": [
+      600105
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/0/2013a138-f8e2-4a67-91e8-759288d985a7.jpg?1555420424"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 4,
+    "set": "war"
+  },
+  {
+    "id": 600106,
+    "name": "Spark Reaper",
+    "collector_number": 106,
+    "multiverse_ids": [
+      600106
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/2/922537f0-4caf-481c-b431-826f0c44e5c5.jpg?1555334983"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "rarity": "common",
+    "rating": 2,
     "set": "war"
   },
   {
@@ -3015,6 +3497,25 @@
       "U"
     ],
     "rarity": "common",
+    "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600178,
+    "name": "Storm the Citadel",
+    "collector_number": 178,
+    "multiverse_ids": [
+      600178
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/04b3b12e-bef7-409e-86b3-9e90640e598c.jpg?1555506932"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "rarity": "uncommon",
     "rating": 3,
     "set": "war"
   },
@@ -3210,6 +3711,25 @@
     ],
     "rarity": "uncommon",
     "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600089,
+    "name": "The Elderspell",
+    "collector_number": 89,
+    "multiverse_ids": [
+      600089
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a3b16625-7faf-4de6-abf7-d397988e32fb.jpg?1555330799"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "mana_cost": "{B}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "rarity": "rare",
+    "rating": 3,
     "set": "war"
   },
   {
@@ -3421,6 +3941,40 @@
     ],
     "rarity": "common",
     "rating": 3,
+    "set": "war"
+  },
+  {
+    "id": 600003,
+    "name": "Ugin's Conjurant",
+    "collector_number": 3,
+    "multiverse_ids": [
+      600003
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/9/9957ecca-5ea0-446f-bfd3-46c2aaa42f08.jpg?1555530087"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit Monk",
+    "mana_cost": "{X}",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "war"
+  },
+  {
+    "id": 600002,
+    "name": "Ugin, the Ineffable",
+    "collector_number": 2,
+    "multiverse_ids": [
+      600002
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/b/7b003521-3da3-41bf-9765-36630653f902.jpg?1555530163"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Ugin",
+    "mana_cost": "{6}",
+    "cmc": 6,
+    "colors": [],
+    "rarity": "rare",
+    "rating": 3.5,
     "set": "war"
   },
   {
