@@ -1588,6 +1588,23 @@
     "set": "war"
   },
   {
+    "id": 600246,
+    "name": "Gateway Plaza",
+    "collector_number": 246,
+    "multiverse_ids": [
+      600246
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/81d69cf2-8643-4926-857e-febbd54d870f.jpg?1555604498"],
+    "layout": "normal",
+    "type_line": "Land — Gate",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 2,
+    "set": "war"
+  },
+  {
     "id": 600162,
     "name": "Giant Growth",
     "collector_number": 162,
@@ -1850,6 +1867,23 @@
     ],
     "rarity": "common",
     "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600239,
+    "name": "Guild Globe",
+    "collector_number": 239,
+    "multiverse_ids": [
+      600239
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/7/a7faf99e-f61f-46cb-a275-2e12c41f1e31.jpg?1555604753"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "2",
+    "cmc": 0,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1,
     "set": "war"
   },
   {
@@ -2613,6 +2647,23 @@
     "set": "war"
   },
   {
+    "id": 600241,
+    "name": "Mana Geode",
+    "collector_number": 241,
+    "multiverse_ids": [
+      600241
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/7/17315a12-a7f8-45ba-ac3b-a62c789e75d0.jpg?1555604686"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "rarity": "common",
+    "rating": 1,
+    "set": "war"
+  },
+  {
     "id": 600023,
     "name": "Martyr for the Cause",
     "collector_number": 23,
@@ -3228,6 +3279,23 @@
     ],
     "rarity": "common",
     "rating": 2,
+    "set": "war"
+  },
+  {
+    "id": 600242,
+    "name": "Prismite",
+    "collector_number": 242,
+    "multiverse_ids": [
+      600242
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/0/40475e96-0283-445f-97fb-1da008707399.jpg?1555604603"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Golem",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "rarity": "common",
+    "rating": 2.5,
     "set": "war"
   },
   {
