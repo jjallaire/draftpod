@@ -1,7 +1,7 @@
 <script>
 
-import MaximizeIcon from "vue-material-design-icons/Fullscreen.vue"
-import MinimizeIcon from "vue-material-design-icons/FullscreenExit.vue"
+import MaximizeIcon from "vue-material-design-icons/WindowMaximize.vue"
+import MinimizeIcon from "vue-material-design-icons/WindowMinimize.vue"
 
 import UiPanel from '@/components/core/UiPanel.vue'
 import MtgCardPile from '@/components/draft/core/MtgCardPile.vue'
@@ -103,7 +103,7 @@ export default {
         return '';
     },
 
-    onToggleCompact(event) {
+    onToggleCompact() {
       this.$emit('togglecompact');
       this.$refs.toggleCompactBtn.blur();
     }
@@ -134,11 +134,12 @@ export default {
       <button 
         v-if="is_sealed_format"
         ref="toggleCompactBtn"
+        :title="(compact ? 'Full' : 'Compact') + ' deck view' "
         class="btn btn-sm btn-secondary btn-minmax text-light"
         @click="onToggleCompact"
       >
         <MaximizeIcon v-if="compact" />
-        <MinimizeIcon v-if="!compact" />
+        <MinimizeIcon v-if="!compact" class="deck-panel-minimize" />
       </button>
     </template>
     <div class="deck-piles deck-piles-top">
@@ -180,7 +181,7 @@ export default {
         caption="Sideboard" 
         drag_source="DRAG_SOURCE_SIDEBOARD"
       >
-        <div v-if="!compact" slot="controls">
+        <div v-if="is_draft_format" slot="controls">
           <MtgCardPile 
             :key="14" 
             :piles="piles" 
@@ -318,6 +319,10 @@ export default {
 
 .deck .deck-piles-bottom .pile {
   pointer-events: all;
+}
+
+.deck-panel-minimize svg {
+  padding-top: 6px;
 }
 
 </style>

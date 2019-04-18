@@ -33,7 +33,8 @@ export default {
 
   data: function() {
     return {
-      page_index: 0
+      page_index: 0,
+      compact_deck_panel: true,
     }
   },
 
@@ -89,7 +90,11 @@ export default {
       let next_start = (this.page_index+1) * kCardsPerPage;
       if (next_start < this.pool.length)
         this.page_index = this.page_index + 1;
-    }
+    },
+
+    onToggleCompactDeckPanel() {
+      this.compact_deck_panel = !this.compact_deck_panel;
+    },
    
   },
 
@@ -130,16 +135,21 @@ export default {
 
     <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
       <div v-hotkey="keymap" class="draft-cards user-select-none">
-        <SealedPoolPanel
-          :cards="page_cards"
-        />
+        
+        <transition name="deck-panel-toggle">
+          <SealedPoolPanel
+            v-if="compact_deck_panel"
+            :cards="page_cards"
+          />
+        </transition>
 
         <DeckPanel 
           :set="set" 
           format="sealed"
-          :compact="true"
+          :compact="compact_deck_panel"
           :options="options"
           :deck="active_player.deck"
+          @togglecompact="onToggleCompactDeckPanel"
         />
 
       </div>
@@ -176,5 +186,25 @@ export default {
 .sealed-navbar .pager {
   padding-top: 1px;
 }
+
+.draft-cards .deck-panel-toggle-leave-active {
+  transition: padding-bottom 1s;
+  padding-bottom: 32.1%;
+}
+
+.draft-cards .deck-panel-toggle-leave-to {
+  padding-bottom: 0;
+}
+
+.draft-cards .deck-panel-toggle-enter-active {
+  transition: padding-bottom 1s;
+  padding-bottom: 0;
+}
+
+.draft-cards .deck-panel-toggle-enter-to {
+  padding-bottom: 32.1%;
+}
+
+
 
 </style>
