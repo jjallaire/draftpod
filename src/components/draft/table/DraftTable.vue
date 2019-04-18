@@ -9,7 +9,6 @@ import InfoBar from '../infobar/InfoBar.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 import PlayersPopup from '../players/PlayersPopup.vue'
 import TableCore from './TableCore.js'
-import ExitButton from './ExitButton.vue'
 import FullscreenButton from './FullscreenButton.vue'
 
 import { SET_FIREBASE_ERROR } from '@/store/mutations'
@@ -45,7 +44,7 @@ export default {
 
   components: {
     NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar,
-    PlayersIcon, PlayersPopup, FirebaseError, ExitButton, FullscreenButton
+    PlayersIcon, PlayersPopup, FirebaseError, FullscreenButton
   },
 
   mixins: [WaitTimer,TableCore],
@@ -261,8 +260,6 @@ export default {
           </div>
         </li>
 
-        <ExitButton @clicked="onExitDraft" />
-  
         <FullscreenButton 
           v-if="fullscreenEnabled" 
           :fullscreen="fullscreen" 

@@ -9,7 +9,6 @@ Vue.use(VueHotkey);
 import NavBar from '@/components/core/NavBar.vue'
 
 import TableCore from '../table/TableCore.js'
-import ExitButton from '../table/ExitButton.vue'
 import FullscreenButton from '../table/FullscreenButton.vue'
 import InfoBar from '../infobar/InfoBar.vue'
 import SealedPoolPanel from '../sealed/SealedPoolPanel.vue'
@@ -20,14 +19,16 @@ import { DECK } from '../../../store/modules/draft/constants'
 import _orderBy from 'lodash/orderBy'
 import LeftIcon from 'vue-material-design-icons/ChevronLeftBox.vue'
 import RightIcon from 'vue-material-design-icons/ChevronRightBox.vue'
+import FilterIcon from 'vue-material-design-icons/FilterVariant.vue'
+import SealedFilterPopup from './SealedFilterPopup.vue'
 
 const kCardsPerPage = 16;
 
 export default {
   name: 'SealedTable',
 
-  components: { NavBar, ExitButton, FullscreenButton, InfoBar, SealedPoolPanel, DeckPanel,
-                LeftIcon, RightIcon },
+  components: { NavBar, FullscreenButton, InfoBar, SealedPoolPanel, DeckPanel,
+                LeftIcon, RightIcon, FilterIcon, SealedFilterPopup },
 
   mixins: [TableCore],
 
@@ -123,8 +124,27 @@ export default {
       </ul>
 
       <ul class="navbar-nav">
-        <ExitButton @clicked="onExitDraft" />
-  
+        <li class="nav-item">
+          <div class="dropdown">
+            <a 
+              id="filterMenuLink" 
+              href="#" 
+              class="nav-link icon-link dropdown-toggle" 
+              title="Filter" 
+              data-toggle="dropdown" 
+              aria-haspopup="true" 
+              aria-expanded="false"
+            >
+              <FilterIcon /> Filter
+            </a>
+            <div 
+              class="dropdown-menu filter-menu" 
+              aria-labelledby="filterMenuLink"
+            >
+              <SealedFilterPopup />
+            </div>
+          </div>
+        </li>
         <FullscreenButton 
           v-if="fullscreenEnabled" 
           :fullscreen="fullscreen" 
@@ -175,7 +195,7 @@ export default {
 .sealed-navbar .navbar-text.pager-text {
   padding-left: 0;
   padding-right: 1px;
-  min-width: 145px;
+  min-width: 140px;
   text-align: center;
 }
 
@@ -185,6 +205,11 @@ export default {
 
 .sealed-navbar .pager {
   padding-top: 1px;
+}
+
+.sealed-navbar .filter-menu {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .draft-cards .deck-panel-toggle-leave-active {
