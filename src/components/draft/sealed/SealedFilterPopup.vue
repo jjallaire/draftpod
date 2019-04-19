@@ -169,14 +169,16 @@ export default {
       this.$emit('changed', this.sealed_filter)
     },
 
-    onResetFilter(event) {
+    onClearFilter(event) {
       Object.keys(this.filters).forEach(group => {
         this.filters[group].forEach(filter => {
           filter.value = true;
         });
         this.rules_text = '';
+        this.updateFilter();
       });
       event.target.blur();
+      this.dismissDropdown();
     },
 
     onRulesTextChanged(event) {
@@ -238,7 +240,7 @@ export default {
     </div>
     <div class="row">
       <div class="col-sm-4">
-        <button class="btn btn-sm btn-block btn-warning" @click="onResetFilter">Reset Filter</button>
+        <button class="btn btn-sm btn-block btn-warning" @click="onClearFilter">Clear Filter</button>
       </div>
       <div class="col-sm-4" />
       <div class="col-sm-4">

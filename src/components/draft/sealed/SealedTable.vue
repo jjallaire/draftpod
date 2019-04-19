@@ -61,7 +61,7 @@ export default {
 
     page_cards: function() {
       let start = this.page_index * kCardsPerPage;
-      return this.pool_sorted.slice(start, start + kCardsPerPage);
+      return this.pool_filtered.slice(start, start + kCardsPerPage);
     },
 
     page_caption: function() {
@@ -102,7 +102,7 @@ export default {
 
     onNextClick(){
       let next_start = (this.page_index+1) * kCardsPerPage;
-      if (next_start < this.pool.length)
+      if (next_start < this.pool_filtered.length)
         this.page_index = this.page_index + 1;
     },
 
