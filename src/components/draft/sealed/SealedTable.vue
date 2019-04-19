@@ -65,10 +65,15 @@ export default {
     },
 
     page_caption: function() {
-      let total = this.pool_sorted.length;
-      let first = (this.page_index * kCardsPerPage) + 1;
-      let last = Math.min(first + kCardsPerPage - 1, total);
-      return `${first} - ${last} of ${total} cards`;
+      let total = this.pool_filtered.length;
+      if (total > 0) {
+        let first = (this.page_index * kCardsPerPage) + 1;
+        let last = Math.min(first + kCardsPerPage - 1, total);
+        let filtered = (this.pool.length !== this.pool_filtered.length) ? ' (filtered)' : '';
+        return `${first}-${last} of ${total} cards${filtered}`;
+      } else {
+        return '(No matching cards)';
+      }
     },
 
 
@@ -125,16 +130,6 @@ export default {
       <span class="navbar-text">
         {{ set.name }} &mdash; Sealed
       </span> 
-     
-      <ul class="navbar-nav">
-        <LeftIcon class="pager pager-left" title="Previous (Left Arrow)" @click.native="onPreviousClick" /> 
-      </ul>
-      <span class="navbar-text pager-text">
-        {{ page_caption }} 
-      </span>
-      <ul class="navbar-nav">
-        <RightIcon class="pager pager-right" title="Next (Right Arrow)" @click.native="onNextClick" />
-      </ul>
 
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -153,11 +148,25 @@ export default {
             <div 
               class="dropdown-menu filter-menu" 
               aria-labelledby="filterMenuLink"
+              @click="(event) => event.stopPropagation()"
             >
               <SealedFilterPopup @changed="onFilterChanged" />
             </div>
           </div>
         </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <LeftIcon class="pager pager-left" title="Previous (Left Arrow)" @click.native="onPreviousClick" /> 
+      </ul>
+      <span class="navbar-text pager-text">
+        {{ page_caption }} 
+      </span>
+      <ul class="navbar-nav">
+        <RightIcon class="pager pager-right" title="Next (Right Arrow)" @click.native="onNextClick" />
+      </ul>
+
+      <ul class="navbar-nav">
         <FullscreenButton 
           v-if="fullscreenEnabled" 
           :fullscreen="fullscreen" 
@@ -208,11 +217,17 @@ export default {
 .sealed-navbar .navbar-text.pager-text {
   padding-left: 0;
   padding-right: 1px;
-  min-width: 140px;
+  min-width: 125px;
   text-align: center;
 }
 
+.sealed-navbar .pager-left {
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+
 .sealed-navbar .pager-right {
+  padding-left: 0.5rem;
   padding-right: 1rem;
 }
 

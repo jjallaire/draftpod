@@ -63,6 +63,45 @@ export function basicLand(card) {
     return false;
 }
 
+export function plains(card) {
+  return card.colors.includes('W');
+}
+
+export function island(card) {
+  return card.colors.includes('U');
+}
+
+export function swamp(card) {
+  return card.colors.includes('B');
+}
+
+export function mountain(card) {
+  return card.colors.includes('R');
+}
+
+export function forest(card) {
+  return card.colors.includes('G');
+}
+
+export function colorless(card) {
+  return card.colors.length === 0;
+}
+
+export function multicolor(card) {
+  return card.colors.length > 1;
+}
+
+export function cmc(cost) {
+  return function(card) {
+    if (typeof cost === 'number')
+      return card.cmc === cost;
+    else 
+      return cost(card.cmd);
+  }
+}
+
+
+
 export function notOneOf(cards) {
   let ids = cards.map((card) => card.id);
   return function(card) {

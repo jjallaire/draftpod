@@ -2,6 +2,8 @@
 
 import * as filters from '@/store/modules/draft/card-filters'
 
+import jquery from 'jquery'
+
 export default {
   name: 'SealedFilterPopup',
 
@@ -16,25 +18,47 @@ export default {
   data: function() {
     return {
       filters: {
-        Rarity: [
+         Color: [
           {
-            caption: "Common",
-            filter: filters.common,
+            icon: "/images/mana-white.svg",
+            caption: "Plains",
+            filter: filters.plains,
             value: true
           },
           {
-            caption: "Uncommon",
-            filter: filters.uncommon,
+            icon: "/images/mana-blue.svg",
+            caption: "Island",
+            filter: filters.island,
             value: true
           },
           {
-            caption: "Rare",
-            filter: filters.rare,
+            icon: "/images/mana-black.svg",
+            caption: "Swamp",
+            filter: filters.swamp,
             value: true
           },
           {
-            caption: "Mythic",
-            filter: filters.mythic,
+            icon: "/images/mana-red.svg",
+            caption: "Mountain",
+            filter: filters.mountain,
+            value: true
+          },
+          {
+            icon: "/images/mana-green.svg",
+            caption: "Forest",
+            filter: filters.forest,
+            value: true
+          },
+          {
+            icon: "/images/mana-colorless.svg",
+            caption: "Colorless",
+            filter: filters.colorless,
+            value: true
+          },
+          {
+            icon: "/images/mana-multicolor.svg",
+            caption: "Multicolor",
+            filter: filters.multicolor,
             value: true
           },
         ],
@@ -75,8 +99,28 @@ export default {
             value: true
           },
         ],
-        // Cost
-        // Color
+        Rarity: [
+          {
+            caption: "Common",
+            filter: filters.common,
+            value: true
+          },
+          {
+            caption: "Uncommon",
+            filter: filters.uncommon,
+            value: true
+          },
+          {
+            caption: "Rare",
+            filter: filters.rare,
+            value: true
+          },
+          {
+            caption: "Mythic",
+            filter: filters.mythic,
+            value: true
+          },
+        ],
       }
     }
   },
@@ -90,9 +134,10 @@ export default {
       let groupFilters = Object.keys(this.filters).map(group => {
         let filters = this.filters[group];
         return (card) => {
-          for (let i=0; i<filters.length; i++)
+          for (let i=0; i<filters.length; i++) {
             if (filters[i].value && filters[i].filter(card))
               return true;
+          }
           return false;
         }
       });
@@ -104,6 +149,7 @@ export default {
             return false;
         return true;
       };
+     
     }
   },
 
@@ -111,8 +157,20 @@ export default {
    
     updateFilter() {
       this.$emit('changed', this.sealed_filter)
-    }
+    },
 
+    onResetFilter(event) {
+      Object.keys(this.filters).forEach(group => {
+        this.filters[group].forEach(filter => {
+          filter.value = true;
+        });
+      });
+      event.target.blur();
+    },
+
+    dismissDropdown() {
+      jquery(this.$el).closest(".dropdown").dropdown("toggle");
+    }
   },
 
 
@@ -124,16 +182,34 @@ export default {
 
 <template>
   <div class="sealed-filter">
-    <div v-for="(group, caption) in filters" :key="caption" class="form-group">
-      <h5>{{ caption }}</h5>
-      <div v-for="filter in group" :key="filter.caption" class="form-check">
-        <input 
-          :id="filter + group + filter.caption" 
-          v-model="filter.value" 
-          class="form-check-input" 
-          type="checkbox" @change="updateFilter"
-        >
-        <label class="form-check-label" :for="filter + 'group' + filter.caption"> {{ filter.caption }}</label>
+    <div class="row">
+      <div v-for="(group, caption) in filters" :key="caption" class="col-sm-4 form-group">
+        <strong>{{ caption }}</strong>
+        <div v-for="filter in group" :key="filter.caption" class="form-check">
+          <input 
+            :id="filter + group + filter.caption" 
+            v-model="filter.value" 
+            class="form-check-input" 
+            type="checkbox" @change="updateFilter"
+          >
+          <label class="form-check-label" :for="filter + 'group' + filter.caption">
+            <img 
+              v-if="filter.icon"
+              :src="filter.icon" 
+              width="11"
+            >
+            {{ filter.caption }}
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <button class="btn btn-sm btn-block btn-warning" @click="onResetFilter">Reset Filter</button>
+      </div>
+      <div class="col-sm-4" />
+      <div class="col-sm-4">
+        <button class="btn btn-sm btn-block btn-success" @click="dismissDropdown">Apply</button>
       </div>
     </div>
   </div>
@@ -143,8 +219,9 @@ export default {
 <style>
 
 .sealed-filter {
-  width: 310px;
-  height: 290px;
+  padding: 15px;
+  width: 400px;
+  font-size: 0.8em !important;
 }
 
 </style>
