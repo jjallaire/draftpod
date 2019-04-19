@@ -26,10 +26,27 @@ export function common(card) {
 }
 
 export function creature(card) {
-  if (card.type_line)
-    return card.type_line.includes("Creature");
-  else
-    return false;
+  return typeLine("Creature")(card);
+}
+
+export function planeswalker(card) {
+  return typeLine("Planeswalker")(card);
+}
+
+export function instant(card) {
+  return typeLine("Instant")(card);
+}
+
+export function sorcery(card) {
+  return typeLine("Sorcery")(card);
+}
+
+export function enchantment(card) {
+  return typeLine("Enchantment")(card);
+}
+
+export function artifact(card) {
+  return typeLine("Artifact")(card);
 }
 
 export function land(card) {
@@ -62,6 +79,16 @@ export function multiverseID(id) {
 export function rarity(rarity) {
   return function(card) {
     return rarity.indexOf(card.rarity) >= 0 && !basicLand(card);
+  }
+}
+
+export function typeLine(type) {
+  return function(card) {
+    if (card.type_line) {
+      return card.type_line.includes(type);
+    } else {
+      return false;
+    }
   }
 }
 

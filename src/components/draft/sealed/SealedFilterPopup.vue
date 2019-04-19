@@ -15,41 +15,102 @@ export default {
 
   data: function() {
     return {
-      common: true,
-      uncommon: true,
-      rare: true,
-      mythic: true
+      filters: {
+        Rarity: [
+          {
+            caption: "Common",
+            filter: filters.common,
+            value: true
+          },
+          {
+            caption: "Uncommon",
+            filter: filters.uncommon,
+            value: true
+          },
+          {
+            caption: "Rare",
+            filter: filters.rare,
+            value: true
+          },
+          {
+            caption: "Mythic",
+            filter: filters.mythic,
+            value: true
+          },
+        ],
+        Type: [
+          {
+            caption: "Creature",
+            filter: filters.creature,
+            value: true
+          },
+          {
+            caption: "Planeswalker",
+            filter: filters.planeswalker,
+            value: true
+          },
+          {
+            caption: "Instant",
+            filter: filters.instant,
+            value: true
+          },
+          {
+            caption: "Sorcery",
+            filter: filters.sorcery,
+            value: true
+          },
+          {
+            caption: "Enchantment",
+            filter: filters.enchantment,
+            value: true
+          },
+          {
+            caption: "Artifact",
+            filter: filters.artifact,
+            value: true
+          },
+          {
+            caption: "Land",
+            filter: filters.land,
+            value: true
+          },
+        ],
+        // Cost
+        // Color
+      }
     }
   },
 
   computed: {
-    filter: function() {
-      let filter = [];
-      if (this.common)
-        filter.push(filters.common);
-      if (this.uncommon)
-        filter.push(filters.uncommon);
-       if (this.rare)
-        filter.push(filters.rare);
-       if (this.mythic)
-        filter.push(filters.mythic);
 
-      if (filter.length > 0)
+
+    sealed_filter: function() {
+      
+      // each group has a filter that applies an OR across the group
+      let groupFilters = Object.keys(this.filters).map(group => {
+        let filters = this.filters[group];
         return (card) => {
-          for (let i=0; i<filter.length; i++)
-            if (filter[i](card))
+          for (let i=0; i<filters.length; i++)
+            if (filters[i].value && filters[i].filter(card))
               return true;
           return false;
         }
-      else
-        return null;
+      });
+      
+      // group filters are then applied with AND
+      return (card) => {
+        for (let i=0; i<groupFilters.length; i++)
+          if (!groupFilters[i](card))
+            return false;
+        return true;
+      };
     }
   },
 
   methods: {
    
     updateFilter() {
-      this.$emit('changed', this.filter)
+      this.$emit('changed', this.sealed_filter)
     }
 
   },
@@ -59,25 +120,22 @@ export default {
 
 </script>
 
+
+
 <template>
   <div class="sealed-filter">
-    <div>
-      <input v-model="common" name="common" type="checkbox" @change="updateFilter">
-      <label for="common"> Common</label>
+    <div v-for="(group, caption) in filters" :key="caption" class="form-group">
+      <h5>{{ caption }}</h5>
+      <div v-for="filter in group" :key="filter.caption" class="form-check">
+        <input 
+          :id="filter + group + filter.caption" 
+          v-model="filter.value" 
+          class="form-check-input" 
+          type="checkbox" @change="updateFilter"
+        >
+        <label class="form-check-label" :for="filter + 'group' + filter.caption"> {{ filter.caption }}</label>
+      </div>
     </div>
-    <div>
-      <input v-model="uncommon" name="uncommon" type="checkbox" @change="updateFilter">
-      <label for="uncommon"> Uncommon</label>
-    </div>
-    <div>
-      <input v-model="rare" name="rare" type="checkbox" @change="updateFilter">
-      <label for="rare"> Rare</label>
-    </div>
-    <div>
-      <input v-model="mythic" name="mythic" type="checkbox" @change="updateFilter">
-      <label for="mythic"> Mythic</label>
-    </div>
-
   </div>
   
 </template>
