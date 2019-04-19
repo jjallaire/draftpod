@@ -97,7 +97,7 @@ export default {
     },
 
     can_download: function() {
-      return !set.is_custom_cube(this.set.code) && is_draft_format;
+      return !set.is_custom_cube(this.set.code) && this.is_draft_format;
     }
 
   },
