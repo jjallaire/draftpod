@@ -103,6 +103,7 @@ export default {
 
     onFilterChanged(value) {
       this.filter = value;
+      this.page_index = 0;
     },
 
     onToggleCompactDeckPanel() {
