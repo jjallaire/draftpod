@@ -9,6 +9,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b4c8ddc1-d95c-499f-b1d1-f608f8f07b02.jpg?1538879654"],
     "layout": "normal",
     "type_line": "Creature — Beast",
+    "oracle_text": "When Affectionate Indrik enters the battlefield, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)",
     "mana_cost": "{5}{G}",
     "cmc": 6,
     "colors": [
@@ -28,6 +29,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/f/6f4400bf-134b-4011-985d-eed4e5ba1de8.jpg?1538879663"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)\nHexproof (This creature can't be the target of spells or abilities your opponents control.)",
     "mana_cost": "{7}{G}{G}",
     "cmc": 9,
     "colors": [
@@ -47,6 +49,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/787de9ce-02c5-4a17-a88b-d38e83dbeb0b.jpg?1544123471"],
     "layout": "normal",
     "type_line": "Creature — Phoenix",
+    "oracle_text": "Flying, haste\nAt the beginning of combat on your turn, if you've cast three or more instant and sorcery spells this turn, return Arclight Phoenix from your graveyard to the battlefield.",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -66,6 +69,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/c/4c9e8f24-af62-4d13-bfed-a8b3294b64c3.jpg?1538879932"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Choose one or both —\n• Tap target creature.\n• Target creature gets -2/-4 until end of turn.",
     "mana_cost": "{2}{U}{B}",
     "cmc": 4,
     "colors": [
@@ -86,6 +90,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/906b6e99-128f-4c11-8daf-16099d35b0d4.jpg?1538879946"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Destroy target permanent an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle their library.",
     "mana_cost": "{B}{G}",
     "cmc": 2,
     "colors": [
@@ -106,6 +111,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/ad454e7a-06c9-4694-ae68-7b1431e00077.jpg?1539735442"],
     "layout": "split",
     "type_line": "Instant // Instant",
+    "oracle_text": {},
     "mana_cost": "{G/W}{G/W} // {4}{G}{W}",
     "cmc": 8,
     "colors": [
@@ -126,6 +132,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8e9f4d2-bba5-4061-8ae7-a68b912f2c11.jpg?1538879959"],
     "layout": "normal",
     "type_line": "Legendary Creature — Angel",
+    "oracle_text": "Flying\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nAt the beginning of combat on your turn, choose up to one target creature you control. Until end of turn, that creature gets +2/+0, gains trample if it's red, and gains vigilance if it's white.",
     "mana_cost": "{2}{R}{W}",
     "cmc": 4,
     "colors": [
@@ -146,6 +153,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/52a54ebc-008a-4180-a023-2e1d5318780c.jpg?1538879316"],
     "layout": "normal",
     "type_line": "Creature — Minotaur Soldier",
+    "oracle_text": "Haste\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
     "mana_cost": "{4}{R}",
     "cmc": 5,
     "colors": [
@@ -165,6 +173,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/28129aaf-aaff-47f4-8dd2-8c576c55052c.jpg?1538878938"],
     "layout": "normal",
     "type_line": "Creature — Skeleton Wall",
+    "oracle_text": "Defender\nWhen Barrier of Bones enters the battlefield, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -184,6 +193,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/210da4ad-d8c5-436b-b1a4-5233e8074a1b.jpg?1538878949"],
     "layout": "normal",
     "type_line": "Creature — Bat",
+    "oracle_text": "Flying",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -203,6 +213,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39c9e4b5-364b-4c0b-bb47-266563a6abf2.jpg?1538879970"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Beacon Bolt deals damage to target creature equal to the total number of instant and sorcery cards you own in exile and in your graveyard.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
     "mana_cost": "{1}{U}{R}",
     "cmc": 3,
     "colors": [
@@ -223,6 +234,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8f1801f2-ea6e-4196-858e-2afc456cf6a0.jpg?1538879984"],
     "layout": "normal",
     "type_line": "Creature — Vedalken Wizard",
+    "oracle_text": "Whenever you cast an instant or sorcery spell that targets only Beamsplitter Mage, if you control one or more other creatures that spell could target, choose one of those creatures. Copy that spell. The copy targets the chosen creature.",
     "mana_cost": "{U}{R}",
     "cmc": 2,
     "colors": [
@@ -243,6 +255,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9da6f595-41b2-4e52-b15a-6ad18e4232c7.jpg?1538879670"],
     "layout": "normal",
     "type_line": "Creature — Elf Druid",
+    "oracle_text": "Whenever you cast a creature spell, draw a card.",
     "mana_cost": "{2}{G}{G}",
     "cmc": 4,
     "colors": [
@@ -262,6 +275,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9b1c7f07-8d39-425b-8ae9-b3ab317cc0fe.jpg?1538878130"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -281,6 +295,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/000ac9e5-3c95-4e87-9424-109e2eea6b45.jpg?1538878958"],
     "layout": "normal",
     "type_line": "Creature — Vampire Assassin",
+    "oracle_text": "Lifelink\nWhen Blood Operative enters the battlefield, you may exile target card from a graveyard.\nWhenever you surveil, if Blood Operative is in your graveyard, you may pay 3 life. If you do, return Blood Operative to your hand.",
     "mana_cost": "{1}{B}{B}",
     "cmc": 3,
     "colors": [
@@ -300,6 +315,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01dfe640-5bd2-4d0b-8977-887b2ed4c2dd.jpg?1538879327"],
     "layout": "normal",
     "type_line": "Creature — Beast",
+    "oracle_text": "Trample\nWhenever Book Devourer deals combat damage to a player, you may discard all the cards in your hand. If you do, draw that many cards.",
     "mana_cost": "{5}{R}",
     "cmc": 6,
     "colors": [
@@ -319,6 +335,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/545f3a30-7984-4046-8a14-51bc9cbc3fe0.jpg?1538879998"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\n{2}{R}{W}: Boros Challenger gets +1/+1 until end of turn.",
     "mana_cost": "{R}{W}",
     "cmc": 2,
     "colors": [
@@ -339,6 +356,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c52ceefc-90d0-49d1-ae54-9a4eab819849.jpg?1538881116"],
     "layout": "normal",
     "type_line": "Land — Gate",
+    "oracle_text": "Boros Guildgate enters the battlefield tapped.\n{T}: Add {R} or {W}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -359,6 +377,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5e972d97-0df2-44e4-8ff2-cc8707316dc1.jpg?1538880965"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "{T}: Add {R} or {W}.\n{R/W}{R/W}{R/W}{R/W}, {T}, Sacrifice Boros Locket: Draw two cards.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [
@@ -379,6 +398,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6e938121-5917-4b67-9014-74fca106a471.jpg?1538878149"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "Vigilance\n{T}, Sacrifice Bounty Agent: Destroy target legendary permanent that's an artifact, creature, or enchantment.",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -398,6 +418,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/9/e9a950d8-e6e2-42d6-83d7-a60c15d2035d.jpg?1538879677"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature gets +3/+3 until end of turn.\nTarget creature gets +3/+3 until end of turn.\nTarget creature gets +3/+3 until end of turn.",
     "mana_cost": "{4}{G}{G}",
     "cmc": 6,
     "colors": [
@@ -417,6 +438,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/9/e9f7f218-fd2a-4233-8753-065ddc314f2d.jpg?1538878966"],
     "layout": "normal",
     "type_line": "Creature — Rat",
+    "oracle_text": "When Burglar Rat enters the battlefield, each opponent discards a card.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -436,6 +458,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/890a2fa9-1141-4a4c-85af-05723aba5e39.jpg?1539629348"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "You gain X life and draw X cards, where X is the number of creatures you control. Creatures you control get +1/+1 until end of turn.",
     "mana_cost": "{4}{G}{W}",
     "cmc": 6,
     "colors": [
@@ -456,6 +479,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/9/e920a75f-7dec-4815-a358-e174401da83b.jpg?1538878165"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets +3/+2 and has vigilance.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -475,6 +499,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5a799ac8-5798-4a26-81c1-763d6dcfcbe8.jpg?1538878584"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Flash\nEnchant creature\nWhen Capture Sphere enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -494,6 +519,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0e630e9b-7817-4255-9de1-795b2a788d80.jpg?1538880027"],
     "layout": "normal",
     "type_line": "Creature — Centaur Cleric",
+    "oracle_text": "When Centaur Peacemaker enters the battlefield, each player gains 4 life.",
     "mana_cost": "{1}{G}{W}",
     "cmc": 3,
     "colors": [
@@ -514,6 +540,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/5/15dfd5f2-5298-4cf4-80fe-43db9be24f57.jpg?1538880975"],
     "layout": "normal",
     "type_line": "Artifact Creature — Construct",
+    "oracle_text": "Chamber Sentry enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.\n{X}, {T}, Remove X +1/+1 counters from Chamber Sentry: It deals X damage to any target.\n{W}{U}{B}{R}{G}: Return Chamber Sentry from your graveyard to your hand.",
     "mana_cost": "{X}",
     "cmc": 0,
     "colors": [
@@ -537,6 +564,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/5/85edf6f9-b863-41e2-bb51-857ea2798090.jpg?1538880036"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Creatures you control gain indestructible. Take an extra turn after this one. At the beginning of that turn's end step, you lose the game.",
     "mana_cost": "{1}{R}{W}",
     "cmc": 3,
     "colors": [
@@ -557,6 +585,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/1/71fec229-e22c-4655-8640-02d0ec472be0.jpg?1538880045"],
     "layout": "normal",
     "type_line": "Creature — Troll",
+    "oracle_text": "Trample\nAt the beginning of your upkeep, exile a creature card from your graveyard. If you do, put a +1/+1 counter on Charnel Troll. Otherwise, sacrifice it.\n{B}{G}, Discard a creature card: Put a +1/+1 counter on Charnel Troll.",
     "mana_cost": "{1}{B}{G}",
     "cmc": 3,
     "colors": [
@@ -577,6 +606,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0e13a295-0d51-4b56-8c58-0896eb41c567.jpg?1547413218"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Draw two cards.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -596,6 +626,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/afebf1a5-eb9a-48c6-a26a-55b75408992b.jpg?1538878974"],
     "layout": "normal",
     "type_line": "Creature — Vampire",
+    "oracle_text": "Lifelink",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -615,6 +646,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/a/ea123356-3055-4e42-b816-ac3c4e9087d1.jpg?1538880985"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "Lands you control have \"{T}: Add one mana of any color.\"\n{T}: Add one mana of any color.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
@@ -632,6 +664,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5a970429-6369-4422-a343-00b30267f09d.jpg?1545325632"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Search your library for up to two basic land cards and/or Gate cards, put them onto the battlefield tapped, then shuffle your library.",
     "mana_cost": "{3}{G}",
     "cmc": 4,
     "colors": [
@@ -651,6 +684,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9b809f89-13c7-4236-86a5-60745defb271.jpg?1538878606"],
     "layout": "normal",
     "type_line": "Creature — Sphinx",
+    "oracle_text": "Flying\nWhen Citywatch Sphinx dies, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)",
     "mana_cost": "{5}{U}",
     "cmc": 6,
     "colors": [
@@ -670,6 +704,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a995200f-1e9d-4ff3-9e04-4a4309e0e09c.jpg?1544668035"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Destroy all creatures with toughness 4 or greater.",
     "mana_cost": "{1}{W}{W}",
     "cmc": 3,
     "colors": [
@@ -689,6 +724,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cdf305b7-d1f7-4770-9201-8f3fb6735cd9.jpg?1538878202"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Destroy target creature with toughness 4 or greater.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -708,6 +744,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/4/c4144e98-957e-43ac-b107-8ccf450748df.jpg?1538879338"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Command the Storm deals 5 damage to target creature.",
     "mana_cost": "{4}{R}",
     "cmc": 5,
     "colors": [
@@ -727,6 +764,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/6/b658a309-d14c-4e20-8c76-e7b3c5156bf2.jpg?1538880057"],
     "layout": "normal",
     "type_line": "Creature — Centaur Knight",
+    "oracle_text": "Vigilance\nWhen Conclave Cavalier dies, create two 2/2 green and white Elf Knight creature tokens with vigilance.",
     "mana_cost": "{G}{G}{W}{W}",
     "cmc": 4,
     "colors": [
@@ -747,6 +785,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/7/279e551d-3ac3-48d5-9822-1d05159c8905.jpg?1538880071"],
     "layout": "normal",
     "type_line": "Creature — Elf Cleric",
+    "oracle_text": "{G}, {T}: Creatures you control gain trample until end of turn.\n{5}{W}, {T}: Create a 2/2 green and white Elf Knight creature token with vigilance.",
     "mana_cost": "{G}{W}",
     "cmc": 2,
     "colors": [
@@ -767,6 +806,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9d9fda5d-df8f-45d6-b8f0-33f903c4bf83.jpg?1538878850"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nWhen Conclave Tribunal enters the battlefield, exile target nonland permanent an opponent controls until Conclave Tribunal leaves the battlefield.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -786,6 +826,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/890ac54c-6fd7-4e46-8ce4-8926c6975f60.jpg?1539735451"],
     "layout": "split",
     "type_line": "Sorcery // Sorcery",
+    "oracle_text": {},
     "mana_cost": "{2}{U/B}{U/B} // {3}{U}{B}",
     "cmc": 9,
     "colors": [
@@ -806,6 +847,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/9/69c5bafa-8cd8-4158-98e0-46dc74c027c0.jpg?1538879352"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Cosmotronic Wave deals 1 damage to each creature your opponents control. Creatures your opponents control can't block this turn.",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -825,6 +867,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f00fa3a7-e3e2-4b23-a126-a076e75b5dbd.jpg?1538880083"],
     "layout": "normal",
     "type_line": "Creature — Drake",
+    "oracle_text": "Flying\nCrackling Drake's power is equal to the total number of instant and sorcery cards you own in exile and in your graveyard.\nWhen Crackling Drake enters the battlefield, draw a card.",
     "mana_cost": "{U}{U}{R}{R}",
     "cmc": 4,
     "colors": [
@@ -845,6 +888,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/5/f5456173-7a08-4b5c-8450-7123375f4a86.jpg?1538878981"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Creeping Chill deals 3 damage to each opponent and you gain 3 life.\nWhen Creeping Chill is put into your graveyard from your library, you may exile it. If you do, Creeping Chill deals 3 damage to each opponent and you gain 3 life.",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -864,6 +908,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/13e162b3-2e5a-4235-a2a7-1c8e3e9f2c19.jpg?1538878225"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Choose one or both —\n• Exile target artifact.\n• Exile target enchantment.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -883,6 +928,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/0/c0c4f213-0ea4-44c0-8429-172a317b77f5.jpg?1538879693"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Destroy target creature with flying.\n• Destroy target enchantment.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -902,6 +948,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f0b610c5-61e5-43df-a87b-3eaaa915402b.jpg?1538880093"],
     "layout": "normal",
     "type_line": "Creature — Human Assassin",
+    "oracle_text": "As long as you've surveilled this turn, Darkblade Agent has deathtouch and \"Whenever this creature deals combat damage to a player, you draw a card.\"",
     "mana_cost": "{1}{U}{B}",
     "cmc": 3,
     "colors": [
@@ -922,6 +969,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/f/cf2a9e82-8670-4b7f-b5f0-8e10f8aeff1c.jpg?1538878242"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Whenever you gain life, you may pay {2}. If you do, draw a card.\n{3}{W}: Create a 1/1 white Soldier creature token with lifelink.",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -941,6 +989,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9d4639a-b634-469e-a848-35e3a3dfd47e.jpg?1538878616"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature gets -3/-0 until end of turn.\nSurveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -960,6 +1009,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/6/462fe190-5264-42d8-bd27-23c5aa0c641f.jpg?1538878998"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Destroy target creature.\nSurveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
     "mana_cost": "{3}{B}{B}",
     "cmc": 5,
     "colors": [
@@ -979,6 +1029,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a1a81554-50d4-4fe0-bf0d-5304f215d19e.jpg?1538878989"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets -2/-2.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -998,6 +1049,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/e/1e115a81-001d-4e17-98af-6a63f2b0967f.jpg?1538880104"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Choose one or both —\n• Deafening Clarion deals 3 damage to each creature.\n• Creatures you control gain lifelink until end of turn.",
     "mana_cost": "{1}{R}{W}",
     "cmc": 3,
     "colors": [
@@ -1018,6 +1070,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/9/69202217-ef36-4d6c-bbd0-ebbb2ade51f7.jpg?1538878254"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature can't block, and its activated abilities can't be activated.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -1037,6 +1090,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/21ac6b0a-b1a5-439d-b65e-5f04e1826c80.jpg?1538878627"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. You may shuffle up to four target cards from your graveyard into your library.",
     "mana_cost": "{2}{U}{U}",
     "cmc": 4,
     "colors": [
@@ -1056,6 +1110,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/490cd287-5f09-442f-9150-4a6ac2cf3e2e.jpg?1538879700"],
     "layout": "normal",
     "type_line": "Creature — Elf Warrior",
+    "oracle_text": "{4}{G}: Devkarin Dissident gets +2/+2 until end of turn.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -1075,6 +1130,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7129bdf-de02-4ed2-b5de-f774b8a7d302.jpg?1538881135"],
     "layout": "normal",
     "type_line": "Land — Gate",
+    "oracle_text": "Dimir Guildgate enters the battlefield tapped.\n{T}: Add {U} or {B}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -1095,6 +1151,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/0230afeb-5ce8-436e-9afc-73cdd7baf424.jpg?1538878637"],
     "layout": "normal",
     "type_line": "Creature — Human Rogue",
+    "oracle_text": "When Dimir Informant enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -1114,6 +1171,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/dfb6810b-9bc9-43c5-8cd9-817b12ee3110.jpg?1538880995"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "{T}: Add {U} or {B}.\n{U/B}{U/B}{U/B}{U/B}, {T}, Sacrifice Dimir Locket: Draw two cards.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [
@@ -1134,6 +1192,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c18c450-0bfb-4ba6-9212-b5833fce63a2.jpg?1538880117"],
     "layout": "normal",
     "type_line": "Creature — Insect",
+    "oracle_text": "Flying\nMenace (This creature can't be blocked except by two or more creatures.)\nWhenever you surveil, put a +1/+1 counter on Dimir Spybug.",
     "mana_cost": "{U}{B}",
     "cmc": 2,
     "colors": [
@@ -1154,6 +1213,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/6/166b0d75-824c-4c04-833b-7f7c69569a18.jpg?1538879363"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Direct Current deals 2 damage to any target.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
     "mana_cost": "{1}{R}{R}",
     "cmc": 3,
     "colors": [
@@ -1173,6 +1233,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/ace631d1-897a-417e-8628-0170713f03d3.jpg?1539735502"],
     "layout": "split",
     "type_line": "Sorcery // Instant",
+    "oracle_text": {},
     "mana_cost": "{1}{U/B} // {3}{U}{B}",
     "cmc": 7,
     "colors": [
@@ -1193,6 +1254,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/0193dfa3-8409-44be-b4be-6c3cad42d4a4.jpg?1538878647"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Counter target spell with converted mana cost 4 or greater.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -1212,6 +1274,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/9/69a79ff3-58ed-4cc2-9ebc-0edbb86cd6fb.jpg?1538880136"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "When Disinformation Campaign enters the battlefield, you draw a card and each opponent discards a card.\nWhenever you surveil, return Disinformation Campaign to its owner's hand.",
     "mana_cost": "{1}{U}{B}",
     "cmc": 3,
     "colors": [
@@ -1232,6 +1295,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/1/c150deec-3287-40ef-9b9c-c22bf5d70b02.jpg?1538879708"],
     "layout": "normal",
     "type_line": "Creature — Elf Scout",
+    "oracle_text": "When District Guide enters the battlefield, you may search your library for a basic land card or Gate card, reveal it, put it into your hand, then shuffle your library.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -1251,6 +1315,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/da3789d4-3621-44a1-bb72-8e3bbac8bf72.jpg?1538878266"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "If one or more creature tokens would be created under your control, that many 4/4 white Angel creature tokens with flying and vigilance are created instead.",
     "mana_cost": "{3}{W}{W}",
     "cmc": 5,
     "colors": [
@@ -1270,6 +1335,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0a11ee0d-ff8d-4648-8b4e-29440c135c30.jpg?1538879006"],
     "layout": "normal",
     "type_line": "Creature — Nightmare Demon",
+    "oracle_text": "Flying, trample\nPay 2 life: Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)",
     "mana_cost": "{3}{B}{B}",
     "cmc": 5,
     "colors": [
@@ -1289,6 +1355,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c554be7-6fd4-4642-aaa0-2781d9c388e4.jpg?1538879016"],
     "layout": "normal",
     "type_line": "Creature — Horror",
+    "oracle_text": "",
     "mana_cost": "{4}{B}",
     "cmc": 5,
     "colors": [
@@ -1308,6 +1375,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/f/9f3a4677-7683-4f63-af31-b76491ec9f9c.jpg?1538878661"],
     "layout": "normal",
     "type_line": "Creature — Nightmare Sphinx",
+    "oracle_text": "Flash\nFlying\nWhen Dream Eater enters the battlefield, surveil 4. When you do, you may return target nonland permanent an opponent controls to its owner's hand. (To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
     "mana_cost": "{4}{U}{U}",
     "cmc": 6,
     "colors": [
@@ -1327,6 +1395,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/f/bfc98428-7a0f-445f-9d48-eeb76c3e10d6.jpg?1538878671"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast a blue spell, target player puts the top two cards of their library into their graveyard.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -1346,6 +1415,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/0/7096c9a6-2e73-41f8-b20a-b29a9f0b760c.jpg?1539375214"],
     "layout": "normal",
     "type_line": "Creature — Wall",
+    "oracle_text": "Defender\nWhenever you cast an instant or sorcery spell, Electrostatic Field deals 1 damage to each opponent.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -1365,6 +1435,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1538880159"],
     "layout": "normal",
     "type_line": "Legendary Creature — Elf Cleric",
+    "oracle_text": "Whenever Emmara, Soul of the Accord becomes tapped, create a 1/1 white Soldier creature token with lifelink.",
     "mana_cost": "{G}{W}",
     "cmc": 2,
     "colors": [
@@ -1385,6 +1456,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/7/971d254e-da25-494b-a16d-3d7d6bb75c73.jpg?1538878685"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "You may look at an additional two cards each time you surveil.\nExile Enhanced Surveillance: Shuffle your graveyard into your library.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -1404,6 +1476,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c310df89-d894-40ab-ae34-7d0bfd19a1af.jpg?1538879385"],
     "layout": "normal",
     "type_line": "Creature — Cyclops Shaman",
+    "oracle_text": "Trample\nWhenever you cast an instant or sorcery spell, Erratic Cyclops gets +X/+0 until end of turn, where X is that spell's converted mana cost.",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -1423,6 +1496,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/351ee4ba-882d-48c1-837d-e9eccc5bc50d.jpg?1538880177"],
     "layout": "normal",
     "type_line": "Creature — Zombie Soldier",
+    "oracle_text": "Discard a creature card: Erstwhile Trooper gets +2/+2 and gains trample until end of turn. Activate this ability only once each turn.",
     "mana_cost": "{1}{B}{G}",
     "cmc": 3,
     "colors": [
@@ -1443,6 +1517,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/fa36b142-e67e-49da-9080-c5994e275266.jpg?1538880193"],
     "layout": "normal",
     "type_line": "Legendary Creature — Vampire Assassin",
+    "oracle_text": "Etrata, the Silencer can't be blocked.\nWhenever Etrata deals combat damage to a player, exile target creature that player controls and put a hit counter on that card. That player loses the game if they own three or more exiled cards with hit counters on them. Etrata's owner shuffles Etrata into their library.",
     "mana_cost": "{2}{U}{B}",
     "cmc": 4,
     "colors": [
@@ -1463,6 +1538,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e0644c92-4d67-475e-8c8e-0e2c493682fb.jpg?1539735496"],
     "layout": "split",
     "type_line": "Instant // Instant",
+    "oracle_text": {},
     "mana_cost": "{U/R}{U/R} // {X}{U}{U}{R}{R}",
     "cmc": 6,
     "colors": [
@@ -1483,6 +1559,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4b8f32e2-5dc8-4f1b-8a69-d3ae06378ed8.jpg?1538879399"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "You may look at the top card of your library any time.\nYou may play the top card of your library.\nYou can't play cards from your hand.\n{3}{R}: Destroy Experimental Frenzy.",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -1502,6 +1579,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/0/30e04f16-89d0-4e75-a3cd-4dd64414050c.jpg?1538879414"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
+    "oracle_text": "",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -1521,6 +1599,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/e/1e4e9e35-6cbc-4997-beff-d1a22d87545e.jpg?1539735491"],
     "layout": "split",
     "type_line": "Sorcery // Sorcery",
+    "oracle_text": {},
     "mana_cost": "{B/G}{B/G} // {4}{B}{G}",
     "cmc": 8,
     "colors": [
@@ -1541,6 +1620,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4bc926b2-1e54-4c62-8b6c-fce4ef013abc.jpg?1538880207"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast an instant or sorcery spell, put a charge counter on Firemind's Research.\n{1}{U}, Remove two charge counters from Firemind's Research: Draw a card.\n{1}{R}, Remove five charge counters from Firemind's Research: It deals 5 damage to any target.",
     "mana_cost": "{U}{R}",
     "cmc": 2,
     "colors": [
@@ -1561,6 +1641,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/3/b3a843ff-6bd0-42d5-9348-44b774d438b1.jpg?1538879429"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
+    "oracle_text": "Trample\nWhenever you cast an instant or sorcery spell, Fire Urchin gets +1/+0 until end of turn.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -1580,6 +1661,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/accfc430-114e-4ce0-93ea-e8900955a71e.jpg?1538878287"],
     "layout": "normal",
     "type_line": "Creature — Human Knight",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nFlying",
     "mana_cost": "{7}{W}",
     "cmc": 8,
     "colors": [
@@ -1599,6 +1681,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/feb4b39f-d309-49ba-b427-240b7fdc1099.jpg?1539735483"],
     "layout": "split",
     "type_line": "Sorcery // Sorcery",
+    "oracle_text": {},
     "mana_cost": "{G/W} // {4}{G}{W}",
     "cmc": 7,
     "colors": [
@@ -1619,6 +1702,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d85892ae-dacd-4a55-a557-9db3c16017c7.jpg?1538881366"],
     "layout": "normal",
     "type_line": "Basic Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -1638,6 +1722,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8b19518-7752-4673-a7d8-ae2e0070129c.jpg?1538880767"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "As long as it's your turn, Fresh-Faced Recruit has first strike.",
     "mana_cost": "{1}{R/W}",
     "cmc": 2,
     "colors": [
@@ -1658,6 +1743,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2bd957a1-a354-48e9-80ad-66e49aa845fc.jpg?1538880220"],
     "layout": "normal",
     "type_line": "Creature — Viashino Soldier",
+    "oracle_text": "Garrison Sergeant has double strike as long as you control a Gate.",
     "mana_cost": "{3}{R}{W}",
     "cmc": 5,
     "colors": [
@@ -1678,6 +1764,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4bbdd54e-5d7e-4e4b-8d59-4e3f46877d39.jpg?1538881007"],
     "layout": "normal",
     "type_line": "Artifact Creature — Gargoyle",
+    "oracle_text": "Flying\nGatekeeper Gargoyle enters the battlefield with a +1/+1 counter on it for each Gate you control.",
     "mana_cost": "{6}",
     "cmc": 6,
     "colors": [],
@@ -1695,6 +1782,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d3d5162-126d-4430-9884-8e79afa974c2.jpg?1538881157"],
     "layout": "normal",
     "type_line": "Land — Gate",
+    "oracle_text": "Gateway Plaza enters the battlefield tapped.\nWhen Gateway Plaza enters the battlefield, sacrifice it unless you pay {1}.\n{T}: Add one mana of any color.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
@@ -1712,6 +1800,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/3289db66-231f-4370-aca6-644d75bee293.jpg?1538879716"],
     "layout": "normal",
     "type_line": "Creature — Cat",
+    "oracle_text": "When Generous Stray enters the battlefield, draw a card.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -1731,6 +1820,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/9/f9f731df-eb40-44c8-a72d-f377c824584d.jpg?1538878303"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Put a +1/+1 counter on each of up to two target creatures.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -1750,6 +1840,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e19723ad-7bd2-49ee-a57a-ece99018f4e8.jpg?1538881020"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature gets +1/+0 for each Gate you control and has vigilance and menace. (A creature with menace can't be blocked except by two or more creatures.)\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -1767,6 +1858,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/8/08fe260a-d204-4e75-b3e5-0cd9b4ca7084.jpg?1538880232"],
     "layout": "normal",
     "type_line": "Creature — Elf Shaman",
+    "oracle_text": "When Glowspore Shaman enters the battlefield, put the top three cards of your library into your graveyard. You may put a land card from your graveyard on top of your library.",
     "mana_cost": "{B}{G}",
     "cmc": 2,
     "colors": [
@@ -1787,6 +1879,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/90b3b56c-5236-4319-b17e-5f71143a7906.jpg?1538879443"],
     "layout": "normal",
     "type_line": "Creature — Goblin Soldier",
+    "oracle_text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\n{1}{R}: Goblin Banneret gets +2/+0 until end of turn.",
     "mana_cost": "{R}",
     "cmc": 1,
     "colors": [
@@ -1806,6 +1899,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/86ecaedc-08f1-4de7-aae8-056df57940e0.jpg?1538879459"],
     "layout": "normal",
     "type_line": "Creature — Goblin Warrior",
+    "oracle_text": "{1}, Sacrifice Goblin Cratermaker: Choose one —\n• Goblin Cratermaker deals 2 damage to target creature.\n• Destroy target colorless nonland permanent.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -1825,6 +1919,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0ae987da-e4b5-4b82-843c-6aaa87262fc8.jpg?1538880243"],
     "layout": "normal",
     "type_line": "Creature — Goblin Wizard",
+    "oracle_text": "Instant and sorcery spells you cast cost {1} less to cast.",
     "mana_cost": "{U}{R}",
     "cmc": 2,
     "colors": [
@@ -1845,6 +1940,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/f/cf2bed0a-990a-499a-af0a-52b77557d7cb.jpg?1538879472"],
     "layout": "normal",
     "type_line": "Creature — Goblin Rogue",
+    "oracle_text": "Whenever Goblin Locksmith attacks, creatures with defender can't block this turn.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -1864,6 +1960,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e12bd0e5-db96-4340-9b04-6855fd0fd8b9.jpg?1538880254"],
     "layout": "normal",
     "type_line": "Creature — Elf Shaman",
+    "oracle_text": "When Golgari Findbroker enters the battlefield, return target permanent card from your graveyard to your hand.",
     "mana_cost": "{B}{B}{G}{G}",
     "cmc": 4,
     "colors": [
@@ -1884,6 +1981,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/86706d8e-de08-4778-94ba-ae75ed522472.jpg?1538881169"],
     "layout": "normal",
     "type_line": "Land — Gate",
+    "oracle_text": "Golgari Guildgate enters the battlefield tapped.\n{T}: Add {B} or {G}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -1904,6 +2002,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/c/1c2e7843-9a87-46cb-be06-6db58649db85.jpg?1538881032"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "{T}: Add {B} or {G}.\n{B/G}{B/G}{B/G}{B/G}, {T}, Sacrifice Golgari Locket: Draw two cards.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [
@@ -1924,6 +2023,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37284ba8-441c-4cf6-95c6-6a0f52e6d36d.jpg?1538879723"],
     "layout": "normal",
     "type_line": "Creature — Elf Warrior",
+    "oracle_text": "Haste\nUndergrowth — Golgari Raiders enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard.",
     "mana_cost": "{3}{G}",
     "cmc": 4,
     "colors": [
@@ -1943,6 +2043,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f74d8d76-8091-424d-ad11-e8a1faae584d.jpg?1538879732"],
     "layout": "normal",
     "type_line": "Creature — Plant",
+    "oracle_text": "Defender, reach\n{4}{G}: Grappling Sundew gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy this creature.)",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -1962,6 +2063,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/5/05fe0428-6e7d-49d4-9a29-80a3589f565a.jpg?1538879483"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Target creature you control deals damage equal to its power to target player.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -1981,6 +2083,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/3/73c0e4d9-bf0d-4e28-a647-9010701a915e.jpg?1543861390"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Choose a creature card with converted mana cost 1 in your graveyard, then do the same for creature cards with converted mana costs 2 and 3. Return those cards to the battlefield.",
     "mana_cost": "{3}{B}{B}",
     "cmc": 5,
     "colors": [
@@ -2000,6 +2103,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/b/cba12bda-d460-4206-8469-4357c967b9b8.jpg?1538881191"],
     "layout": "normal",
     "type_line": "Land",
+    "oracle_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color. If that mana is spent on a multicolored creature spell, that creature enters the battlefield with an additional +1/+1 counter on it.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
@@ -2017,6 +2121,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/9/d952259f-9e0a-49af-9dfb-3cad1a1bb3a8.jpg?1538878704"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "When Guild Summit enters the battlefield, you may tap any number of untapped Gates you control. Draw a card for each Gate tapped this way.\nWhenever a Gate enters the battlefield under your control, draw a card.",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -2036,6 +2141,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c561d89-b02d-4f1a-b49a-cdf2def3404d.jpg?1538878317"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "Whenever Haazda Marshal and at least two other creatures attack, create a 1/1 white Soldier creature token with lifelink.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -2055,6 +2161,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9efac789-587b-45c1-b16e-616e9486b59b.jpg?1538880264"],
     "layout": "normal",
     "type_line": "Creature — Giant Soldier",
+    "oracle_text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
     "mana_cost": "{2}{R}{W}",
     "cmc": 4,
     "colors": [
@@ -2075,6 +2182,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b841904-202c-4b42-869a-e345112ab1c8.jpg?1538879740"],
     "layout": "normal",
     "type_line": "Creature — Spider",
+    "oracle_text": "Reach\nUndergrowth — When you cast this spell, reveal the top X cards of your library, where X is the number of creature cards in your graveyard. You may put a green permanent card with converted mana cost X or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
     "mana_cost": "{5}{G}{G}",
     "cmc": 7,
     "colors": [
@@ -2094,6 +2202,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/3/3313bd5c-b657-47a3-822a-dd0d9165492a.jpg?1538878333"],
     "layout": "normal",
     "type_line": "Creature — Bird",
+    "oracle_text": "Flying, lifelink",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -2113,6 +2222,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/5/65e902e8-bbd5-40fe-a655-45d3d3bc9fde.jpg?1538879491"],
     "layout": "normal",
     "type_line": "Creature — Dragon",
+    "oracle_text": "Flying\nWhenever Hellkite Whelp attacks, it deals 1 damage to target creature defending player controls.",
     "mana_cost": "{4}{R}",
     "cmc": 5,
     "colors": [
@@ -2132,6 +2242,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/f/bf97e572-90d6-46fc-81c3-956a7ef88983.jpg?1538879039"],
     "layout": "normal",
     "type_line": "Creature — Human Assassin",
+    "oracle_text": "Deathtouch",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -2151,6 +2262,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fe349432-8726-49cf-ad07-6f8add8f78c8.jpg?1538879748"],
     "layout": "normal",
     "type_line": "Creature — Spider",
+    "oracle_text": "Reach (This creature can block creatures with flying.)",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -2170,6 +2282,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/5/45ee7bc8-d5cf-47b1-93c2-7e1d5f536c85.jpg?1538880274"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
+    "oracle_text": "{1}{U}, {T}: Target creature doesn't untap during its controller's next untap step.\n{2}{B}, {T}: Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
     "mana_cost": "{U}{B}",
     "cmc": 2,
     "colors": [
@@ -2190,6 +2303,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c31b8e5-2349-4119-9dc2-3e41c5364a78.jpg?1538878352"],
     "layout": "normal",
     "type_line": "Creature — Human",
+    "oracle_text": "When Hunted Witness dies, create a 1/1 white Soldier creature token with lifelink.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -2209,6 +2323,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/5/d5690329-feb8-49c0-8f59-ee13782e8d3b.jpg?1538880284"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Draw two cards. Then you may discard a nonland card. When you do, Hypothesizzle deals 4 damage to target creature.",
     "mana_cost": "{3}{U}{R}",
     "cmc": 5,
     "colors": [
@@ -2229,6 +2344,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/6/46651efd-0906-4350-a1b8-52e3f8aff45d.jpg?1538879500"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "This spell can't be countered.\nInescapable Blaze deals 6 damage to any target.",
     "mana_cost": "{4}{R}{R}",
     "cmc": 6,
     "colors": [
@@ -2248,6 +2364,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce8b745e-1e62-4c54-9e73-e2d0a40568a0.jpg?1538878369"],
     "layout": "normal",
     "type_line": "Creature — Unicorn",
+    "oracle_text": "Whenever Inspiring Unicorn attacks, creatures you control get +1/+1 until end of turn.",
     "mana_cost": "{2}{W}{W}",
     "cmc": 4,
     "colors": [
@@ -2267,6 +2384,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/a/4a82084e-b178-442b-8007-7b2a70f3fbba.jpg?1539735478"],
     "layout": "split",
     "type_line": "Instant // Instant",
+    "oracle_text": {},
     "mana_cost": "{R/W} // {2}{R}{W}",
     "cmc": 5,
     "colors": [
@@ -2287,6 +2405,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/49266f3c-4b43-4175-8bac-16789ba6f4b9.jpg?1538878385"],
     "layout": "normal",
     "type_line": "Creature — Beast",
+    "oracle_text": "Vigilance\nWhen Intrusive Packbeast enters the battlefield, tap up to two target creatures your opponents control.",
     "mana_cost": "{4}{W}",
     "cmc": 5,
     "colors": [
@@ -2306,6 +2425,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/5/054a4e4f-8baa-41cf-b24c-d068e8b9a070.jpg?1539735473"],
     "layout": "split",
     "type_line": "Instant // Instant",
+    "oracle_text": {},
     "mana_cost": "{U/R} // {4}{U}{R}",
     "cmc": 7,
     "colors": [
@@ -2326,6 +2446,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/1/f161f7d2-eaa1-4931-93f9-befa8b5df821.jpg?1538880296"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Counter target spell. Ionize deals 2 damage to that spell's controller.",
     "mana_cost": "{1}{U}{R}",
     "cmc": 3,
     "colors": [
@@ -2346,6 +2467,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/7/57f8b6b0-f858-41d5-9839-fd1247b9477f.jpg?1538879761"],
     "layout": "normal",
     "type_line": "Creature — Insect",
+    "oracle_text": "When Ironshell Beetle enters the battlefield, put a +1/+1 counter on target creature.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -2365,6 +2487,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/29bfbf3e-3a6c-40d4-8e1b-255f429de6cc.jpg?1538881329"],
     "layout": "normal",
     "type_line": "Basic Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -2384,6 +2507,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75955b0e-12d6-40ba-aab5-b7b7e2bde121.jpg?1538880310"],
     "layout": "normal",
     "type_line": "Legendary Creature — Elf Shaman",
+    "oracle_text": "Undergrowth — When Izoni, Thousand-Eyed enters the battlefield, create a 1/1 black and green Insect creature token for each creature card in your graveyard.\n{B}{G}, Sacrifice another creature: You gain 1 life and draw a card.",
     "mana_cost": "{2}{B}{B}{G}{G}",
     "cmc": 6,
     "colors": [
@@ -2404,6 +2528,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/0/2055a83a-99c8-4808-90b9-1c2fdcda79b4.jpg?1538881208"],
     "layout": "normal",
     "type_line": "Land — Gate",
+    "oracle_text": "Izzet Guildgate enters the battlefield tapped.\n{T}: Add {U} or {R}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -2424,6 +2549,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/4/348f3bec-ad16-4bc7-8da9-3956c9900f95.jpg?1538881046"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "{T}: Add {U} or {R}.\n{U/R}{U/R}{U/R}{U/R}, {T}, Sacrifice Izzet Locket: Draw two cards.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [
@@ -2444,6 +2570,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/1/91898d8a-589d-43db-8dc4-0ec6a3bd6d49.jpg?1538880324"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Untap all creatures you control. They gain hexproof and indestructible until end of turn. (They can't be the targets of spells or abilities your opponents control. Damage and effects that say \"destroy\" don't destroy them.)",
     "mana_cost": "{3}{G}{W}",
     "cmc": 5,
     "colors": [
@@ -2464,6 +2591,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/7/27619ce9-59df-4f0e-a5db-2d32a530e547.jpg?1538880340"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature deals damage to itself equal to its power.",
     "mana_cost": "{R}{W}",
     "cmc": 2,
     "colors": [
@@ -2484,6 +2612,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/0/3028075c-5fc5-4942-a984-1ffcf7a8933d.jpg?1538880355"],
     "layout": "normal",
     "type_line": "Creature — Dryad Knight",
+    "oracle_text": "When Knight of Autumn enters the battlefield, choose one —\n• Put two +1/+1 counters on Knight of Autumn.\n• Destroy target artifact or enchantment.\n• You gain 4 life.",
     "mana_cost": "{1}{G}{W}",
     "cmc": 3,
     "colors": [
@@ -2504,6 +2633,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b5ed4b08-8583-4ad4-b0ba-0463d367efc8.jpg?1538879776"],
     "layout": "normal",
     "type_line": "Creature — Insect Scout",
+    "oracle_text": "Undergrowth — When Kraul Foragers enters the battlefield, you gain 1 life for each creature card in your graveyard.",
     "mana_cost": "{4}{G}",
     "cmc": 5,
     "colors": [
@@ -2523,6 +2653,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6d3c086-9ce4-41c3-8402-2818f1b27192.jpg?1538879790"],
     "layout": "normal",
     "type_line": "Creature — Insect Warrior",
+    "oracle_text": "Reach\nUndergrowth — When Kraul Harpooner enters the battlefield, choose up to one target creature with flying you don't control. Kraul Harpooner gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard, then you may have Kraul Harpooner fight that creature.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -2542,6 +2673,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/490dc165-b10d-4384-8c13-d7969844b2bb.jpg?1538879053"],
     "layout": "normal",
     "type_line": "Creature — Insect Warrior",
+    "oracle_text": "Flying\n{2}{B}, Discard a creature card: Return Kraul Swarm from your graveyard to your hand.",
     "mana_cost": "{4}{B}",
     "cmc": 5,
     "colors": [
@@ -2561,6 +2693,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6135cf4-50c2-4e44-b9b0-96e1187a2200.jpg?1538879509"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Lava Coil deals 4 damage to target creature. If that creature would die this turn, exile it instead.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -2580,6 +2713,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/24c1e710-f61c-4dd6-b620-6d2e1ecab689.jpg?1538880369"],
     "layout": "normal",
     "type_line": "Legendary Creature — Shapeshifter",
+    "oracle_text": "When Lazav, the Multifarious enters the battlefield, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{X}: Lazav, the Multifarious becomes a copy of target creature card in your graveyard with converted mana cost X, except its name is Lazav, the Multifarious, it's legendary in addition to its other types, and it has this ability.",
     "mana_cost": "{U}{B}",
     "cmc": 2,
     "colors": [
@@ -2600,6 +2734,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/7439118d-4869-486e-8930-6e00db2634b2.jpg?1538880383"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
+    "oracle_text": "{3}{U}, {T}: Draw a card.\n{X}{R}, {T}: Copy target instant or sorcery spell you control with converted mana cost X. You may choose new targets for the copy.",
     "mana_cost": "{U}{R}",
     "cmc": 2,
     "colors": [
@@ -2620,6 +2755,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/e/2e415a03-f7f8-4fca-954a-ef21b4a2c60f.jpg?1538878718"],
     "layout": "normal",
     "type_line": "Creature — Frog",
+    "oracle_text": "Leapfrog has flying as long as you've cast an instant or sorcery spell this turn.",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -2639,6 +2775,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bc4f508b-a48d-4462-9d89-ee2ead3a0847.jpg?1539315070"],
     "layout": "normal",
     "type_line": "Creature — Elf Knight",
+    "oracle_text": "Whenever Ledev Champion attacks, you may tap any number of untapped creatures you control. Ledev Champion gets +1/+1 until end of turn for each creature tapped this way.\n{3}{G}{W}: Create a 1/1 white Soldier creature token with lifelink.",
     "mana_cost": "{1}{G}{W}",
     "cmc": 3,
     "colors": [
@@ -2659,6 +2796,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/b/cbeb4ae3-2a7a-44e1-923b-20c772fd1b8b.jpg?1538878401"],
     "layout": "normal",
     "type_line": "Creature — Human Knight",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -2678,6 +2816,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/0/b03423b2-faca-4b2e-8328-8b9b7fdb7ce3.jpg?1538880402"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
+    "oracle_text": "{5}{R}, {T}: Legion Guildmage deals 3 damage to each opponent.\n{2}{W}, {T}: Tap another target creature.",
     "mana_cost": "{R}{W}",
     "cmc": 2,
     "colors": [
@@ -2698,6 +2837,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5e84cb9c-9876-47a4-aea4-78574321bc36.jpg?1538879517"],
     "layout": "normal",
     "type_line": "Creature — Goblin Soldier",
+    "oracle_text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nAt the beginning of combat on your turn, create a 1/1 red Goblin creature token. That token gains haste until end of turn and attacks this combat if able.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -2717,6 +2857,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a2f1b831-ca55-4575-9dfa-c3163e3d789d.jpg?1538878414"],
     "layout": "normal",
     "type_line": "Creature — Angel",
+    "oracle_text": "Flying\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nWhen Light of the Legion dies, put a +1/+1 counter on each white creature you control.",
     "mana_cost": "{4}{W}{W}",
     "cmc": 6,
     "colors": [
@@ -2736,6 +2877,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/1/b1dc38b7-52f7-4394-b095-5442429ab291.jpg?1538879067"],
     "layout": "normal",
     "type_line": "Creature — Zombie Giant",
+    "oracle_text": "Undergrowth — When Lotleth Giant enters the battlefield, it deals 1 damage to target opponent for each creature card in your graveyard.",
     "mana_cost": "{6}{B}",
     "cmc": 7,
     "colors": [
@@ -2755,6 +2897,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/e/1ead2166-a7ca-49cb-bf93-2f59c37b4cb9.jpg?1538878425"],
     "layout": "normal",
     "type_line": "Creature — Elephant Cleric",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nWhen Loxodon Restorer enters the battlefield, you gain 4 life.",
     "mana_cost": "{4}{W}{W}",
     "cmc": 6,
     "colors": [
@@ -2774,6 +2917,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/d/5d471de4-a7b2-4e13-9492-3fa94f5867ac.jpg?1538878437"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature can't attack or block.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -2793,6 +2937,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/882f8dcf-b361-4dc9-8329-e7d1f807acd6.jpg?1538879525"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 and can't block.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -2812,6 +2957,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2cc2b646-0181-4f0a-a141-00ca56069a06.jpg?1538880412"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)\nCreate X 1/1 white Soldier creature tokens with lifelink.",
     "mana_cost": "{X}{G}{W}{W}",
     "cmc": 3,
     "colors": [
@@ -2832,6 +2978,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/26f7cf38-78cc-4139-9f2a-4dd0be7d9da8.jpg?1538879083"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Undergrowth — Search your library for a black card with converted mana cost less than or equal to the number of creature cards in your graveyard, reveal it, put it into your hand, then shuffle your library.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -2851,6 +2998,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/b/3b5a08a0-b002-4bfe-9cac-d2bf96175f8e.jpg?1538878732"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Target creature gets +1/+1 and gains flying until end of turn.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -2870,6 +3018,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/ebb7a2aa-f002-4f05-b9ec-8adee4c65e46.jpg?1538879533"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Target creature gets +1/+1 and gains haste until end of turn.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
     "mana_cost": "{R}",
     "cmc": 1,
     "colors": [
@@ -2889,6 +3038,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/675640ba-37e7-4231-8524-87e8b87ea46f.jpg?1538879098"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "All creatures get -1/-1 until end of turn.\nSurveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -2908,6 +3058,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5e122fe0-51c5-404d-a7b9-3d161a426c35.jpg?1538879112"],
     "layout": "normal",
     "type_line": "Creature — Zombie Knight",
+    "oracle_text": "Whenever a nontoken creature you control dies, Midnight Reaper deals 1 damage to you and you draw a card.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -2927,6 +3078,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/f/cf6d9ef7-0b16-4095-9c70-f6776e4cd3cb.jpg?1538879803"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature gets +1/+1 until end of turn for each creature you control.",
     "mana_cost": "{G}",
     "cmc": 1,
     "colors": [
@@ -2946,6 +3098,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/02bed34d-67d9-4ae9-b351-dc9a89daeabf.jpg?1538878748"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Surveil 2, then choose an instant or sorcery card in your graveyard. You may cast that card this turn. If that card would be put into your graveyard this turn, exile it instead. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
     "mana_cost": "{U}{U}",
     "cmc": 2,
     "colors": [
@@ -2965,6 +3118,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a5cf45aa-ed34-4add-a2ec-fc11f8c15ffa.jpg?1538880423"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Exile all cards from all opponents' graveyards. You may cast those cards this turn, and you may spend mana as though it were mana of any type to cast those spells. At the beginning of the next end step, if any of those cards remain exiled, return them to their owners' graveyards.\nExile Mnemonic Betrayal.",
     "mana_cost": "{1}{U}{B}",
     "cmc": 3,
     "colors": [
@@ -2985,6 +3139,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/ba88e031-b194-4621-9e97-2f33ee46f6d0.jpg?1538880434"],
     "layout": "normal",
     "type_line": "Creature — Fungus Zombie",
+    "oracle_text": "Undergrowth — This spell costs {1} less to cast for each creature card in your graveyard.\nWhen Molderhulk enters the battlefield, return target land card from your graveyard to the battlefield.",
     "mana_cost": "{7}{B}{G}",
     "cmc": 9,
     "colors": [
@@ -3005,6 +3160,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/82903e5f-c10f-4767-a2c0-6f8cc7280fa0.jpg?1538879126"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
+    "oracle_text": "Undergrowth — When Moodmark Painter enters the battlefield, target creature gains menace and gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard. (It can't blocked except by two or more creatures.)",
     "mana_cost": "{2}{B}{B}",
     "cmc": 4,
     "colors": [
@@ -3024,6 +3180,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7f918a49-a046-4115-80b8-13490ed5cd0a.jpg?1538881354"],
     "layout": "normal",
     "type_line": "Basic Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -3043,6 +3200,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5fc6adff-dcb3-456d-a8c2-0e77b784ff89.jpg?1538878762"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
+    "oracle_text": "Whenever you cast an instant or sorcery spell, create a 1/1 blue Bird Illusion creature token with flying.",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -3062,6 +3220,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c5df7a96-6548-41c0-85a6-e0c4566e0fe6.jpg?1538878771"],
     "layout": "normal",
     "type_line": "Creature — Drake",
+    "oracle_text": "Flying\nWhen Muse Drake enters the battlefield, draw a card.",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -3081,6 +3240,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a3e23275-2261-4d6d-88d8-124342334391.jpg?1538878778"],
     "layout": "normal",
     "type_line": "Creature — Illusion",
+    "oracle_text": "Flying\nWhen Narcomoeba is put into your graveyard from your library, you may put it onto the battlefield.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -3100,6 +3260,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/a/9ab636af-5b30-4138-8e68-81f567f10417.jpg?1538879137"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Undergrowth — Target creature gets -X/-X until end of turn, where X is the number of creature cards in your graveyard. If that creature would die this turn, exile it instead.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -3119,6 +3280,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/289d3746-9e54-4983-9daa-f1a7afbdedad.jpg?1538879149"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Target opponent reveals their hand. You choose a nonland card from that player's graveyard or hand and exile it.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -3138,6 +3300,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/193289c9-837d-4d18-9ef1-720e8e335e62.jpg?1538880445"],
     "layout": "normal",
     "type_line": "Creature — Vampire",
+    "oracle_text": "Flying, deathtouch\nHexproof (This creature can't be the target of spells or abilities your opponents control.)",
     "mana_cost": "{U}{U}{B}{B}",
     "cmc": 4,
     "colors": [
@@ -3158,6 +3321,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/534d1166-4e01-4ec8-b4d9-e76861ec51b9.jpg?1538878787"],
     "layout": "normal",
     "type_line": "Creature — Faerie Rogue",
+    "oracle_text": "Flying\nWhenever Nightveil Sprite attacks, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -3177,6 +3341,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/f/6f3d2dc5-7b9d-4af6-9f3b-4de90fbf63c9.jpg?1538880456"],
     "layout": "normal",
     "type_line": "Legendary Creature — Dragon Wizard",
+    "oracle_text": "This spell can't be countered.\nFlying\nWhenever you draw a card, Niv-Mizzet, Parun deals 1 damage to any target.\nWhenever a player casts an instant or sorcery spell, you draw a card.",
     "mana_cost": "{U}{U}{U}{R}{R}{R}",
     "cmc": 6,
     "colors": [
@@ -3197,6 +3362,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/4/f4db287e-34c1-459b-882d-3db58f13eade.jpg?1538880466"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Surveil 2, then draw two cards. Notion Rain deals 2 damage to you. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
     "mana_cost": "{1}{U}{B}",
     "cmc": 3,
     "colors": [
@@ -3217,6 +3383,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/24c30bb0-06ba-432b-a20c-6fa79b0dc68a.jpg?1538879816"],
     "layout": "normal",
     "type_line": "Creature — Beast",
+    "oracle_text": "Hexproof\nYou can't cast noncreature spells.\n{2}: Nullhide Ferox loses all abilities until end of turn. Any player may activate this ability.\nIf a spell or ability an opponent controls causes you to discard Nullhide Ferox, put it onto the battlefield instead of putting it into your graveyard.",
     "mana_cost": "{2}{G}{G}",
     "cmc": 4,
     "colors": [
@@ -3236,6 +3403,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/541ef933-64f8-4075-9bd3-97149ac84b2b.jpg?1538880478"],
     "layout": "normal",
     "type_line": "Creature — Elf Assassin",
+    "oracle_text": "Deathtouch\nAll creatures able to block Ochran Assassin do so.",
     "mana_cost": "{1}{B}{G}",
     "cmc": 3,
     "colors": [
@@ -3256,6 +3424,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e17664df-e8ba-464d-b338-3e671d2d7f0e.jpg?1538878795"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
+    "oracle_text": "{2}{U}, {T}: You may cast an instant or sorcery card from your hand without paying its mana cost.",
     "mana_cost": "{4}{U}",
     "cmc": 5,
     "colors": [
@@ -3275,6 +3444,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/e/be1c1353-b315-4a0e-80b5-0d9a2962e35f.jpg?1538879541"],
     "layout": "normal",
     "type_line": "Creature — Goblin Warrior",
+    "oracle_text": "Whenever Ornery Goblin blocks or becomes blocked by a creature, Ornery Goblin deals 1 damage to that creature.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -3294,6 +3464,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/eff1f52c-5c43-4260-aaa0-6920846a191c.jpg?1538881237"],
     "layout": "normal",
     "type_line": "Land — Swamp Forest",
+    "oracle_text": "({T}: Add {B} or {G}.)\nAs Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -3314,6 +3485,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f88c3aa-63e1-4617-bf1f-48f44988e7d6.jpg?1538879831"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nTarget creature gets +3/+3 until end of turn.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -3333,6 +3505,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/e/eef126f2-7e72-4338-8021-3ad95e4ab982.jpg?1538878449"],
     "layout": "normal",
     "type_line": "Creature — Human Knight",
+    "oracle_text": "Flying, vigilance\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -3352,6 +3525,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8ed28c3-8c66-4883-8774-67ac5ab9e81c.jpg?1538878804"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
+    "oracle_text": "{2}{U}: Target creature can't be blocked this turn.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -3371,6 +3545,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3cfcf84c-a30c-4c4f-9f8c-ee807661e499.jpg?1538879844"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nPrevent all combat damage that would be dealt this turn.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -3390,6 +3565,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/e/bee125cb-12b9-4f78-8e1d-6018d9c52275.jpg?1538879853"],
     "layout": "normal",
     "type_line": "Creature — Elf Warrior",
+    "oracle_text": "Whenever another creature you control enters the battlefield or dies, if that creature's power is greater than Pelt Collector's, put a +1/+1 counter on Pelt Collector.\nAs long as Pelt Collector has three or more +1/+1 counters on it, it has trample.",
     "mana_cost": "{G}",
     "cmc": 1,
     "colors": [
@@ -3409,6 +3585,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/646dedff-150c-4ed2-8f2e-3b2e6ba5521a.jpg?1538879161"],
     "layout": "normal",
     "type_line": "Creature — Imp",
+    "oracle_text": "Flying\n{1}{B}, {T}, Sacrifice Pilfering Imp: Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Activate this ability only any time you could cast a sorcery.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -3428,6 +3605,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/e/2ec7523a-a9c4-4b76-8f9e-b591a88e2e37.jpg?1538880779"],
     "layout": "normal",
     "type_line": "Creature — Cyclops",
+    "oracle_text": "Defender\nAs long as you've cast an instant or sorcery spell this turn, Piston-Fist Cyclops can attack as though it didn't have defender.",
     "mana_cost": "{1}{U/R}{U/R}",
     "cmc": 3,
     "colors": [
@@ -3448,6 +3626,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/1/c1a925a0-9d26-441b-8b4a-0614a0485fe6.jpg?1538880790"],
     "layout": "normal",
     "type_line": "Creature — Gorgon",
+    "oracle_text": "Deathtouch",
     "mana_cost": "{1}{B/G}{B/G}",
     "cmc": 3,
     "colors": [
@@ -3468,6 +3647,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/8682fb87-df14-4277-aaa0-0d53d766c406.jpg?1538879173"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
+    "oracle_text": "When Plaguecrafter enters the battlefield, each player sacrifices a creature or planeswalker. Each player who can't discards a card.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -3487,6 +3667,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/9/b983acda-68b6-468b-b0c1-aad8b53db49c.jpg?1538881321"],
     "layout": "normal",
     "type_line": "Basic Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -3506,6 +3687,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5b6dab62-b747-4d76-9fa8-4914582fc212.jpg?1538879861"],
     "layout": "normal",
     "type_line": "Creature — Plant Wall",
+    "oracle_text": "Defender\n{2}, {T}, Sacrifice a creature with defender: Draw a card.",
     "mana_cost": "{G}",
     "cmc": 1,
     "colors": [
@@ -3525,6 +3707,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/6/16979827-4011-454a-9886-18326cfa3e77.jpg?1538879869"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)",
     "mana_cost": "{G}",
     "cmc": 1,
     "colors": [
@@ -3544,6 +3727,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/1/61b52152-0f7c-4466-9e49-033477028f67.jpg?1538879186"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "This spell costs {2} less to cast if it targets a legendary creature.\nDestroy target creature.\nSurveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -3563,6 +3747,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f069646c-fae2-40bd-92bc-35459a84d847.jpg?1538878812"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Create a token that's a copy of target creature you control.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
     "mana_cost": "{1}{U}{U}",
     "cmc": 3,
     "colors": [
@@ -3582,6 +3767,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/9/c9570734-5e9b-46ff-b606-9759b5195756.jpg?1538878819"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Draw a card.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -3601,6 +3787,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c52066b3-84dc-4198-8090-3336e7df8b5d.jpg?1538880491"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Ral",
+    "oracle_text": "+1: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.\n-3: Ral, Izzet Viceroy deals damage to target creature equal to the total number of instant and sorcery cards you own in exile and in your graveyard.\n-8: You get an emblem with \"Whenever you cast an instant or sorcery spell, this emblem deals 4 damage to any target and you draw two cards.\"",
     "mana_cost": "{3}{U}{R}",
     "cmc": 5,
     "colors": [
@@ -3621,6 +3808,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b5fbe445-a788-4624-8ecf-8bc06c3ca8f8.jpg?1538881058"],
     "layout": "normal",
     "type_line": "Artifact Creature — Cleric",
+    "oracle_text": "Trample\nRampaging Monument enters the battlefield with three +1/+1 counters on it.\nWhenever you cast a multicolored spell, put a +1/+1 counter on Rampaging Monument.",
     "mana_cost": "{4}",
     "cmc": 4,
     "colors": [],
@@ -3638,6 +3826,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/2/92162888-35ea-4f4f-ab99-64dd3104e230.jpg?1539735460"],
     "layout": "split",
     "type_line": "Instant // Sorcery",
+    "oracle_text": {},
     "mana_cost": "{R/W}{R/W} // {3}{R}{W}",
     "cmc": 7,
     "colors": [
@@ -3658,6 +3847,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/db9ce92b-79cc-4e26-b511-30ae8ea6a2a1.jpg?1538880505"],
     "layout": "normal",
     "type_line": "Creature — Fungus Zombie",
+    "oracle_text": "Undergrowth — Rhizome Lurcher enters the battlefield with a number of +1/+1 counters on it equal to the number of creature cards in your graveyard.",
     "mana_cost": "{2}{B}{G}",
     "cmc": 4,
     "colors": [
@@ -3678,6 +3868,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/4/b4501520-acf4-438f-9e96-4a649875ffdd.jpg?1538878460"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Righteous Blow deals 2 damage to target attacking or blocking creature.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -3697,6 +3888,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4eda89d9-9bd1-4a55-ac02-f9a0625d8e5b.jpg?1538879548"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target opponent may have Risk Factor deal 4 damage to them. If that player doesn't, you draw three cards.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -3716,6 +3908,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/269af993-4894-4bf1-b55a-af4d736cb3cc.jpg?1538879195"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Destroy all creatures with converted mana cost 3 or less.",
     "mana_cost": "{2}{B}{B}",
     "cmc": 4,
     "colors": [
@@ -3735,6 +3928,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/4932c635-b729-4348-92de-2c1b207ea460.jpg?1538878473"],
     "layout": "normal",
     "type_line": "Creature — Bird",
+    "oracle_text": "Flying\nWhenever Roc Charger attacks, target attacking creature without flying gains flying until end of turn.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -3754,6 +3948,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/cee30585-f7b1-4ca4-8171-dc5a837f2b93.jpg?1538880521"],
     "layout": "normal",
     "type_line": "Creature — Centaur Soldier",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nVigilance",
     "mana_cost": "{3}{G}{W}",
     "cmc": 5,
     "colors": [
@@ -3774,6 +3969,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/196bf114-e135-43f3-83d5-cb08ca766881.jpg?1538879556"],
     "layout": "normal",
     "type_line": "Creature — Boar",
+    "oracle_text": "When Rubblebelt Boar enters the battlefield, target creature gets +2/+0 until end of turn.",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -3793,6 +3989,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d8c9c111-fbc7-44e1-94bd-1ca164370623.jpg?1538879565"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
+    "oracle_text": "Whenever you cast a red spell, if Runaway Steam-Kin has fewer than three +1/+1 counters on it, put a +1/+1 counter on Runaway Steam-Kin.\nRemove three +1/+1 counters from Runaway Steam-Kin: Add {R}{R}{R}.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -3812,6 +4009,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7b598d0-535d-477d-a33d-d6a10ff5439a.jpg?1538881252"],
     "layout": "normal",
     "type_line": "Land — Mountain Plains",
+    "oracle_text": "({T}: Add {R} or {W}.)\nAs Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -3832,6 +4030,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/a/2adfc0ac-08a9-487a-b01c-5de52fae0312.jpg?1538878829"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Return X target creatures of the creature type of your choice to their owner's hand.",
     "mana_cost": "{X}{U}",
     "cmc": 1,
     "colors": [
@@ -3851,6 +4050,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/d/6d5ee7a5-937a-4c2b-af8c-6e5734677c53.jpg?1538881269"],
     "layout": "normal",
     "type_line": "Land — Gate",
+    "oracle_text": "Selesnya Guildgate enters the battlefield tapped.\n{T}: Add {G} or {W}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -3871,6 +4071,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/a/ea0c04b9-c7fc-4204-9af2-5d1987bdd97e.jpg?1538881072"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "{T}: Add {G} or {W}.\n{G/W}{G/W}{G/W}{G/W}, {T}, Sacrifice Selesnya Locket: Draw two cards.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [
@@ -3891,6 +4092,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bce654d6-fcf1-40a8-8bdb-5c37e561f7dc.jpg?1538879207"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nYou gain life equal to the sacrificed creature's toughness. Destroy target creature an opponent controls.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -3910,6 +4112,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/d/2d1dfd96-8e17-4ba8-b786-a5cc0ae2ff2d.jpg?1538879877"],
     "layout": "normal",
     "type_line": "Creature — Wurm",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nTrample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
     "mana_cost": "{5}{G}{G}",
     "cmc": 7,
     "colors": [
@@ -3929,6 +4132,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3af00fdd-6869-4080-8a75-66c8fceeb7de.jpg?1538881087"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "{4}, {T}, Sacrifice Silent Dart: It deals 3 damage to target creature.",
     "mana_cost": "{1}",
     "cmc": 1,
     "colors": [],
@@ -3946,6 +4150,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6cbef36d-7170-424f-8fb1-8e7e112b7f0b.jpg?1538878838"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Counter target spell.\nSurveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
     "mana_cost": "{1}{U}{U}",
     "cmc": 3,
     "colors": [
@@ -3965,6 +4170,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3c27f2ce-702a-4ec2-a470-982171a9ec73.jpg?1538880539"],
     "layout": "normal",
     "type_line": "Creature — Human Knight",
+    "oracle_text": "Flying, haste",
     "mana_cost": "{1}{R}{W}",
     "cmc": 3,
     "colors": [
@@ -3985,6 +4191,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/0/b052b641-fce9-45c1-a15b-1e22f1a64e4d.jpg?1538878484"],
     "layout": "normal",
     "type_line": "Creature — Human Scout",
+    "oracle_text": "Whenever Skyline Scout attacks, you may pay {1}{W}. If you do, it gains flying until end of turn.",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -4004,6 +4211,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f851d74e-90ad-417f-8372-8437d2d68b0d.jpg?1538879581"],
     "layout": "normal",
     "type_line": "Creature — Minotaur Warrior",
+    "oracle_text": "Whenever you cast an instant or sorcery spell, target creature an opponent controls can't block this turn.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -4023,6 +4231,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/cc61a398-cf16-415b-b3cf-897217dc7cc9.jpg?1538880557"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Tap target creature. Sonic Assault deals 2 damage to that creature's controller.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
     "mana_cost": "{1}{U}{R}",
     "cmc": 3,
     "colors": [
@@ -4043,6 +4252,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/74d579fb-615a-43a6-a1c1-c535087abf2a.jpg?1538879223"],
     "layout": "normal",
     "type_line": "Creature — Insect",
+    "oracle_text": "When Spinal Centipede dies, put a +1/+1 counter on target creature you control.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -4062,6 +4272,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/6/668232ab-5e58-49f3-804a-c938252ff177.jpg?1538879885"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nChoose one —\n• Create a 2/2 green and white Elf Knight creature token with vigilance.\n• Destroy target artifact or enchantment.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -4081,6 +4292,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/4/44614c6d-5508-4077-b825-66d5d684086c.jpg?1539735465"],
     "layout": "split",
     "type_line": "Instant // Instant",
+    "oracle_text": {},
     "mana_cost": "{B/G} // {2}{B}{G}",
     "cmc": 5,
     "colors": [
@@ -4101,6 +4313,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b8ebe3cf-7143-453a-b0ef-2f5bdaac3185.jpg?1538881294"],
     "layout": "normal",
     "type_line": "Land — Island Mountain",
+    "oracle_text": "({T}: Add {U} or {R}.)\nAs Steam Vents enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4121,6 +4334,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/80b352d5-4a57-41bc-b4c4-8b81255a9db8.jpg?1538879595"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "As long as it's your turn, creatures you control get +1/+0 and have trample.",
     "mana_cost": "{4}{R}",
     "cmc": 5,
     "colors": [
@@ -4140,6 +4354,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c4e427e-c061-43c5-9e8e-34bf5b447ab1.jpg?1538880567"],
     "layout": "normal",
     "type_line": "Creature — Elf Druid",
+    "oracle_text": "When Sumala Woodshaper enters the battlefield, look at the top four cards of your library. You may reveal a creature or enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
     "mana_cost": "{2}{G}{W}",
     "cmc": 4,
     "colors": [
@@ -4160,6 +4375,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/4/a431f183-17eb-4a6c-a137-d106bdc8c997.jpg?1538878500"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "First strike\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -4179,6 +4395,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8d01f1ce-9931-4712-a907-72c2c6d5ee76.jpg?1538879610"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature gets +3/+0 and gains first strike until end of turn.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -4198,6 +4415,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/d/bdd5a7f0-5ad3-44e8-a103-07739fd53630.jpg?1538881339"],
     "layout": "normal",
     "type_line": "Basic Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4217,6 +4435,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/7599adc7-72b2-4079-ac0a-1a821f9de925.jpg?1538880578"],
     "layout": "normal",
     "type_line": "Creature — Elf Shaman",
+    "oracle_text": "{4}{B}, {T}: Creatures you control get +1/+0 and gain menace until end of turn. (They can't be blocked except by two or more creatures.)\n{1}{G}, {T}: You gain 2 life.",
     "mana_cost": "{B}{G}",
     "cmc": 2,
     "colors": [
@@ -4237,6 +4456,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/0/700b38c5-3fd2-4566-8d27-9a09d5ab02b2.jpg?1538880589"],
     "layout": "normal",
     "type_line": "Creature — Giant Soldier",
+    "oracle_text": "Vigilance\nWhenever Swathcutter Giant attacks, it deals 1 damage to each creature defending player controls.",
     "mana_cost": "{4}{R}{W}",
     "cmc": 6,
     "colors": [
@@ -4257,6 +4477,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/285c4d9e-0f22-49a8-b68c-150fd0d4b617.jpg?1538880600"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "Double strike, vigilance, trample",
     "mana_cost": "{R}{W}",
     "cmc": 2,
     "colors": [
@@ -4277,6 +4498,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2ccfa5c1-69f9-4351-aba3-883fe92c9b98.jpg?1538878516"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Create two 1/1 white Soldier creature tokens with lifelink.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -4296,6 +4518,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5e669a01-84d3-4fcc-8396-9e987bd89b4f.jpg?1538880611"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Soldier",
+    "oracle_text": "Haste\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nPrevent all noncombat damage that would be dealt to other creatures you control.\n{R}{W}: Tajic, Legion's Edge gains first strike until end of turn.",
     "mana_cost": "{1}{R}{W}",
     "cmc": 3,
     "colors": [
@@ -4316,6 +4539,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/2/b26f10d5-b826-45b0-abed-80d86e1335c9.jpg?1538878532"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature gets +2/+2 until end of turn. You gain 1 life for each attacking creature you control.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -4335,6 +4559,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2b9b0195-beda-403e-bc27-7ae3be9f318c.jpg?1538881306"],
     "layout": "normal",
     "type_line": "Land — Forest Plains",
+    "oracle_text": "({T}: Add {G} or {W}.)\nAs Temple Garden enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4355,6 +4580,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/829f959e-91cd-42ea-8644-ce828a304d01.jpg?1538878552"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "When Tenth District Guard enters the battlefield, target creature gets +0/+1 until end of turn.",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -4374,6 +4600,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/0/307543ca-8e17-433f-9758-4c77da6c0870.jpg?1539553976"],
     "layout": "normal",
     "type_line": "Creature — Specter",
+    "oracle_text": "Flying\nWhenever Thief of Sanity deals combat damage to a player, look at the top three cards of that player's library, exile one of them face down, then put the rest into their graveyard. You may look at and cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.",
     "mana_cost": "{1}{U}{B}",
     "cmc": 3,
     "colors": [
@@ -4394,6 +4621,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/6/36478e73-162a-412c-bf5b-9ca0d92f51e2.jpg?1538878847"],
     "layout": "normal",
     "type_line": "Creature — Spirit",
+    "oracle_text": "Defender\nWhenever you surveil, put a +1/+1 counter on Thoughtbound Phantasm.\nAs long as Thoughtbound Phantasm has three or more +1/+1 counters on it, it can attack as though it didn't have defender.",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -4413,6 +4641,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7ce226ad-cb1d-47f5-90fc-27704e181884.jpg?1538880631"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nSurveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
     "mana_cost": "{U}{B}",
     "cmc": 2,
     "colors": [
@@ -4433,6 +4662,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/7/270a0863-7d07-43f0-925d-a8ce0383a1cb.jpg?1538880639"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast an instant or sorcery spell, copy it for each other instant and sorcery spell you've cast before it this turn. You may choose new targets for the copies.",
     "mana_cost": "{4}{U}{R}",
     "cmc": 6,
     "colors": [
@@ -4453,6 +4683,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d4c9fc8c-e68f-4636-84b8-877f6ec04b09.jpg?1538879627"],
     "layout": "normal",
     "type_line": "Creature — Goblin",
+    "oracle_text": "Haste\nSacrifice Torch Courier: Another target creature gains haste until end of turn.",
     "mana_cost": "{R}",
     "cmc": 1,
     "colors": [
@@ -4472,6 +4703,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/fa1190a4-3d7e-4500-991f-e36ec3d1d9dc.jpg?1538880646"],
     "layout": "normal",
     "type_line": "Legendary Creature — Dryad",
+    "oracle_text": "Other creatures you control get +1/+1.\nWhen Trostani Discordant enters the battlefield, create two 1/1 white Soldier creature tokens with lifelink.\nAt the beginning of your end step, each player gains control of all creatures they own.",
     "mana_cost": "{3}{G}{W}",
     "cmc": 5,
     "colors": [
@@ -4492,6 +4724,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/0/6099a230-9298-4649-b257-243af40d0625.jpg?1538880656"],
     "layout": "normal",
     "type_line": "Creature — Human Knight",
+    "oracle_text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nWhenever Truefire Captain is dealt damage, it deals that much damage to target player.",
     "mana_cost": "{R}{R}{W}{W}",
     "cmc": 4,
     "colors": [
@@ -4512,6 +4745,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/5/2571d168-38d4-46d7-afae-ffbd12bd2313.jpg?1538879238"],
     "layout": "normal",
     "type_line": "Creature — Zombie Lizard",
+    "oracle_text": "{1}, Sacrifice another creature: Put a +1/+1 counter on Undercity Necrolisk. It gains menace until end of turn. Activate this ability only any time you could cast a sorcery. (It can't be blocked except by two or more creatures.)",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -4531,6 +4765,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/e/7e1e08bf-a5d6-48bb-9f7f-4711f9ec88d7.jpg?1538880670"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Creatures you control gain deathtouch until end of turn. Then target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)",
     "mana_cost": "{2}{B}{G}",
     "cmc": 4,
     "colors": [
@@ -4551,6 +4786,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/0782e090-209c-428f-966a-17f3ceab2903.jpg?1538880683"],
     "layout": "normal",
     "type_line": "Creature — Zombie Elf Shaman",
+    "oracle_text": "If you would draw a card, instead look at the top three cards of your library, then put one into your hand and the rest into your graveyard.\nPay 4 life: Underrealm Lich gains indestructible until end of turn. Tap it.",
     "mana_cost": "{3}{B}{G}",
     "cmc": 5,
     "colors": [
@@ -4571,6 +4807,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9c99b239-50d2-4393-80ec-94dbfaa6ae70.jpg?1538878860"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Return target creature to its owner's hand.\nSurveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -4590,6 +4827,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/5/95aecc12-3363-41f7-9b58-277c81859670.jpg?1538880698"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Choose a card name. Search target opponent's graveyard, hand, and library for up to four cards with that name and exile them. That player shuffles their library, then draws a card for each card exiled from their hand this way.",
     "mana_cost": "{1}{U}{B}",
     "cmc": 3,
     "colors": [
@@ -4610,6 +4848,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/5/45d7ab0e-db37-4051-86dd-3ab09c047a2b.jpg?1538879892"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant land\nWhen Urban Utopia enters the battlefield, draw a card.\nEnchanted land has \"{T}: Add one mana of any color.\"",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -4629,6 +4868,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5b5e0a12-2589-473b-90e4-1ee5acc055a2.jpg?1538878877"],
     "layout": "normal",
     "type_line": "Creature — Vedalken Wizard",
+    "oracle_text": "Whenever Vedalken Mesmerist attacks, target creature an opponent controls gets -2/-0 until end of turn.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -4648,6 +4888,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/35cb18ae-0229-40a1-8838-ffb678ab2ed9.jpg?1538879261"],
     "layout": "normal",
     "type_line": "Creature — Shade",
+    "oracle_text": "{1}{B}: Veiled Shade gets +1/+1 until end of turn.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -4667,6 +4908,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/3/93599fba-7c53-4621-85b5-6434be077bf6.jpg?1538878568"],
     "layout": "normal",
     "type_line": "Creature — Elephant Cleric",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of the creature's color.)\nWhen Venerated Loxodon enters the battlefield, put a +1/+1 counter on each creature that convoked it.",
     "mana_cost": "{4}{W}",
     "cmc": 5,
     "colors": [
@@ -4686,6 +4928,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/efddad21-553e-4947-80d2-833b42c45f77.jpg?1539629366"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "Vigilance",
     "mana_cost": "{1}{G/W}",
     "cmc": 2,
     "colors": [
@@ -4706,6 +4949,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/1/b1939952-608e-4786-beeb-a6ff0fa36624.jpg?1538879278"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Vicious Rumors deals 1 damage to each opponent. Each opponent discards a card, then puts the top card of their library into their graveyard. You gain 1 life.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -4725,6 +4969,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/6/b62625de-3a2f-43d6-8cf7-ea38f038f3b6.jpg?1538879900"],
     "layout": "normal",
     "type_line": "Creature — Wurm",
+    "oracle_text": "Undergrowth — When Vigorspore Wurm enters the battlefield, target creature gains vigilance and gets +X/+X until end of turn, where X is the number of creature cards in your graveyard.\nVigorspore Wurm can't be blocked by more than one creature.",
     "mana_cost": "{5}{G}",
     "cmc": 6,
     "colors": [
@@ -4744,6 +4989,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9e67fcfd-0e9e-4b88-8c65-2125fac10a3d.jpg?1538879908"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Return up to three target multicolored cards from your graveyard to your hand. Exile Vivid Revival.",
     "mana_cost": "{4}{G}",
     "cmc": 5,
     "colors": [
@@ -4763,6 +5009,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a36d3ea7-0f18-4865-b47b-755673db065e.jpg?1538880714"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Vraska",
+    "oracle_text": "+2: You may sacrifice another permanent. If you do, you gain 1 life and draw a card.\n-3: Destroy target nonland permanent with converted mana cost 3 or less.\n-9: You get an emblem with \"Whenever a creature you control deals combat damage to a player, that player loses the game.\"",
     "mana_cost": "{2}{B}{G}",
     "cmc": 4,
     "colors": [
@@ -4783,6 +5030,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/2/62a37646-8f7c-40fc-851d-e3fdd205b012.jpg?1538878894"],
     "layout": "normal",
     "type_line": "Creature — Wall",
+    "oracle_text": "Defender",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -4802,6 +5050,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/87f208bc-e4dc-4d3a-8906-dccde3cc251b.jpg?1538881102"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "{T}: Put the top card of your library into your graveyard.\n{2}, {T}, Exile Wand of Vertebrae: Shuffle up to five target cards from your graveyard into your library.",
     "mana_cost": "{1}",
     "cmc": 1,
     "colors": [],
@@ -4819,6 +5068,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/54f26697-0d4b-4af4-a644-3d0ae13f1d2e.jpg?1538879916"],
     "layout": "normal",
     "type_line": "Creature — Antelope",
+    "oracle_text": "Vigilance",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -4838,6 +5088,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/b/fb971f49-8898-444a-a17c-caeb1696c62a.jpg?1538878907"],
     "layout": "normal",
     "type_line": "Creature — Spirit",
+    "oracle_text": "Flying\nWhen Watcher in the Mist enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on the top of your library in any order.)",
     "mana_cost": "{3}{U}{U}",
     "cmc": 5,
     "colors": [
@@ -4857,6 +5108,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.jpg?1538881314"],
     "layout": "normal",
     "type_line": "Land — Island Swamp",
+    "oracle_text": "({T}: Add {U} or {B}.)\nAs Watery Grave enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4877,6 +5129,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37ee17a1-76ce-4ae8-9109-ba32457cbeec.jpg?1538880728"],
     "layout": "normal",
     "type_line": "Creature — Faerie Wizard",
+    "oracle_text": "Flying\nWhenever you cast an instant or sorcery spell, Wee Dragonauts gets +2/+0 until end of turn.",
     "mana_cost": "{1}{U}{R}",
     "cmc": 3,
     "colors": [
@@ -4897,6 +5150,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6d318e7-f49e-49f8-98b6-d62c34aa4af2.jpg?1538880813"],
     "layout": "normal",
     "type_line": "Creature — Human Rogue",
+    "oracle_text": "Flash\nWhen Whisper Agent enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
     "mana_cost": "{1}{U/B}{U/B}",
     "cmc": 3,
     "colors": [
@@ -4917,6 +5171,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/fa4ca97e-b402-4a73-9c70-79ec4565a39c.jpg?1538879293"],
     "layout": "normal",
     "type_line": "Creature — Vampire Rogue",
+    "oracle_text": "Whenever you surveil for the first time each turn, Whispering Snitch deals 1 damage to each opponent and you gain 1 life.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -4936,6 +5191,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/4/4464e11a-c5b9-40ea-8be0-dab29d14e289.jpg?1538879925"],
     "layout": "normal",
     "type_line": "Creature — Rhino",
+    "oracle_text": "",
     "mana_cost": "{3}{G}",
     "cmc": 4,
     "colors": [
@@ -4955,6 +5211,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/5/6580d6a2-ee21-4442-9842-18c65a172f49.jpg?1538878921"],
     "layout": "normal",
     "type_line": "Creature — Crab",
+    "oracle_text": "",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -4974,6 +5231,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/ebff5313-e325-47c3-814b-38fdb4c6c8d2.jpg?1538879641"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nWojek Bodyguard can't attack or block alone.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -4993,6 +5251,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b5186304-b0fb-44a6-ba61-0265b7f42da4.jpg?1538880757"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nWorldsoul Colossus enters the battlefield with X +1/+1 counters on it.",
     "mana_cost": "{X}{G}{W}",
     "cmc": 2,
     "colors": [

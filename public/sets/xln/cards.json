@@ -9,6 +9,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/1.jpg?1527427467"],
     "layout": "normal",
     "type_line": "Creature — Vampire Soldier",
+    "oracle_text": "As long as Adanto Vanguard is attacking, it gets +2/+0.\nPay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -28,6 +29,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/217.jpg?1527430800"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Pirate",
+    "oracle_text": "Other Pirates you control get +1/+1.\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.",
     "mana_cost": "{1}{U}{B}{R}",
     "cmc": 4,
     "colors": [
@@ -49,6 +51,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/45.jpg?1527428107"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
+    "oracle_text": "Flying (This creature can't be blocked except by creatures with flying or reach.)",
     "mana_cost": "{3}{U}{U}",
     "cmc": 5,
     "colors": [
@@ -68,6 +71,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/175.jpg?1527430126"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "",
     "mana_cost": "{6}{G}{G}",
     "cmc": 8,
     "colors": [
@@ -87,6 +91,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/132.jpg?1527429400"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "If a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.",
     "mana_cost": "{5}{R}{R}",
     "cmc": 7,
     "colors": [
@@ -106,6 +111,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/89.jpg?1527428773"],
     "layout": "normal",
     "type_line": "Creature — Vampire Cleric",
+    "oracle_text": "At the beginning of combat on your turn, you may have target Vampire get +2/+0 until end of turn.",
     "mana_cost": "{4}{B}",
     "cmc": 5,
     "colors": [
@@ -125,6 +131,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/46.jpg?1527428123"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "As Arcane Adaptation enters the battlefield, choose a creature type.\nCreatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -148,6 +155,7 @@
     ],
     "layout": "transform",
     "type_line": "Legendary Enchantment // Legendary Land",
+    "oracle_text": {},
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -167,6 +175,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/2.jpg?1527427483"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Players can't cast spells from graveyards or activate abilities of cards in graveyards.\nWhenever a creature dies, you gain 1 life.",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -186,6 +195,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/176.jpg?1527430142"],
     "layout": "normal",
     "type_line": "Creature — Human Archer",
+    "oracle_text": "Reach\nWhen Atzocan Archer enters the battlefield, you may have it fight another target creature. (Each deals damage equal to its power to the other.)",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -205,6 +215,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/3.jpg?1527427496"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "At the beginning of your upkeep, you may have two target players exchange life totals.",
     "mana_cost": "{4}{W}{W}",
     "cmc": 6,
     "colors": [
@@ -224,6 +235,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/218.jpg?1527430813"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Each creature you control assigns combat damage equal to its toughness rather than its power.",
     "mana_cost": "{5}{G}{W}",
     "cmc": 7,
     "colors": [
@@ -244,6 +256,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/4.jpg?1527427510"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Enrage — Whenever Bellowing Aegisaur is dealt damage, put a +1/+1 counter on each other creature you control.",
     "mana_cost": "{5}{W}",
     "cmc": 6,
     "colors": [
@@ -263,6 +276,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/5.jpg?1527427524"],
     "layout": "normal",
     "type_line": "Creature — Vampire Cleric",
+    "oracle_text": "Vigilance\nWhenever Bishop of Rebirth attacks, you may return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.",
     "mana_cost": "{3}{W}{W}",
     "cmc": 5,
     "colors": [
@@ -282,6 +296,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/91.jpg?1527428823"],
     "layout": "normal",
     "type_line": "Creature — Vampire Cleric",
+    "oracle_text": "When Bishop of the Bloodstained enters the battlefield, target opponent loses 1 life for each Vampire you control.",
     "mana_cost": "{3}{B}{B}",
     "cmc": 5,
     "colors": [
@@ -301,6 +316,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/6.jpg?1527427542"],
     "layout": "normal",
     "type_line": "Creature — Vampire Soldier",
+    "oracle_text": "Lifelink",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -320,6 +336,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/92.jpg?1527428835"],
     "layout": "normal",
     "type_line": "Creature — Bat Imp",
+    "oracle_text": "Flying\n{7}{B}, {T}, Sacrifice Blight Keeper: Target opponent loses 4 life and you gain 4 life.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -339,6 +356,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/177.jpg?1527430157"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Prevent all damage that would be dealt to creatures this turn. Creatures you control gain hexproof until end of turn. (They can't be the targets of spells or abilities your opponents control.)",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -358,6 +376,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/93.jpg?1535332848"],
     "layout": "normal",
     "type_line": "Creature — Vampire Knight",
+    "oracle_text": "Flash\nBloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -377,6 +396,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/178.jpg?1527430170"],
     "layout": "normal",
     "type_line": "Creature — Dryad",
+    "oracle_text": "{T}: Untap target land.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -396,6 +416,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/133.jpg?1527429416"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Bonded Horncrest can't attack or block alone.",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -415,6 +436,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/94.jpg?1527428866"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Exile up to five target creature cards from graveyards. An opponent separates those cards into two piles. Put all cards from the pile of your choice onto the battlefield under your control and the rest into their owners' graveyards.",
     "mana_cost": "{5}{B}{B}",
     "cmc": 7,
     "colors": [
@@ -434,6 +456,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/134.jpg?1527429430"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Haste\nWhen Brazen Buccaneers enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -453,6 +476,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/7.jpg?1527427558"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Destroy target attacking creature.\nDraw a card.",
     "mana_cost": "{4}{W}",
     "cmc": 5,
     "colors": [
@@ -472,6 +496,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/135.jpg?1527429445"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur Avatar",
+    "oracle_text": "When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent or planeswalker and 3 damage to up to one target creature.",
     "mana_cost": "{3}{R}{R}{R}",
     "cmc": 6,
     "colors": [
@@ -491,6 +516,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/219.jpg?1527430825"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Create three 1/1 white Vampire creature tokens with lifelink.",
     "mana_cost": "{2}{W}{B}",
     "cmc": 4,
     "colors": [
@@ -511,6 +537,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/47.jpg?1527428137"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Counter target spell.",
     "mana_cost": "{1}{U}{U}",
     "cmc": 3,
     "colors": [
@@ -530,6 +557,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/136.jpg?1527429461"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Pirate",
+    "oracle_text": "Haste\nWhenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -549,6 +577,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/137.jpg?1527429474"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "{3}{R}: Gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn. Activate this ability only any time you could cast a sorcery.",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -568,6 +597,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/179.jpg?1527430183"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "This spell can't be countered.\nTrample, hexproof",
     "mana_cost": "{4}{G}{G}",
     "cmc": 6,
     "colors": [
@@ -587,6 +617,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/138.jpg?1527429486"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Trample, haste",
     "mana_cost": "{4}{R}",
     "cmc": 5,
     "colors": [
@@ -606,6 +637,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/48.jpg?1527428151"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Draw two cards. Then discard a card unless you attacked with a creature this turn.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -625,6 +657,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/233.jpg?1527431027"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature has flying.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -642,6 +675,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/180.jpg?1527430202"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
     "mana_cost": "{4}{G}{G}",
     "cmc": 6,
     "colors": [
@@ -661,6 +695,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/181.jpg?1527430214"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Look at the top five cards of your library. You may reveal a Dinosaur or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
     "mana_cost": "{G}",
     "cmc": 1,
     "colors": [
@@ -684,6 +719,7 @@
     ],
     "layout": "transform",
     "type_line": "Artifact — Vehicle // Land",
+    "oracle_text": {},
     "mana_cost": "{4}",
     "cmc": 4,
     "colors": [],
@@ -701,6 +737,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/95.jpg?1527428880"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Destroy target creature. Create two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{3}{B}{B}",
     "cmc": 5,
     "colors": [
@@ -720,6 +757,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/96.jpg?1527428894"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -739,6 +777,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/182.jpg?1527430234"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature gets +3/+3 and gains trample until end of turn.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -758,6 +797,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/183.jpg?1527430248"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Destroy target creature with flying.\n• Destroy target enchantment.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -777,6 +817,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/49.jpg?1527428164"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "{2}{U}: Daring Saboteur can't be blocked this turn.\nWhenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -796,6 +837,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/97.jpg?1527428908"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Dark Nourishment deals 3 damage to any target. You gain 3 life.",
     "mana_cost": "{4}{B}",
     "cmc": 5,
     "colors": [
@@ -815,6 +857,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/220.jpg?1527430842"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Deadeye Plunderers gets +1/+1 for each artifact you control.\n{2}{U}{B}: Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{3}{U}{B}",
     "cmc": 5,
     "colors": [
@@ -835,6 +878,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/50.jpg?1527428179"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "When Deadeye Quartermaster enters the battlefield, you may search your library for an Equipment or Vehicle card, reveal it, put it into your hand, then shuffle your library.",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -854,6 +898,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/98.jpg?1527428923"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Raid — When Deadeye Tormentor enters the battlefield, if you attacked with a creature this turn, target opponent discards a card.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -873,6 +918,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/99.jpg?1527428937"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "{1}{B}, {T}: Exile two target cards from an opponent's graveyard. Deadeye Tracker explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -892,6 +938,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/184.jpg?1527430260"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard. If a creature card is exiled this way, you gain 2 life. If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -911,6 +958,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/100.jpg?1527428951"],
     "layout": "normal",
     "type_line": "Creature — Vampire Knight",
+    "oracle_text": "Flying\nTap three untapped Vampires you control: Return Deathless Ancient from your graveyard to your hand.",
     "mana_cost": "{4}{B}{B}",
     "cmc": 6,
     "colors": [
@@ -930,6 +978,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/185.jpg?1527430274"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Shaman",
+    "oracle_text": "Whenever you cast a noncreature spell, put a +1/+1 counter on Deeproot Champion.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -949,6 +998,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/186.jpg?1527430287"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Warrior",
+    "oracle_text": "Whenever Deeproot Warrior becomes blocked, it gets +1/+1 until end of turn.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -968,6 +1018,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/51.jpg?1527428192"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast a Merfolk spell, create a 1/1 blue Merfolk creature token with hexproof. (A creature with hexproof can't be the target of spells or abilities your opponents control.)",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -987,6 +1038,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/139.jpg?1527429501"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Destroy target artifact or land.",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -1006,6 +1058,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/8.jpg?1527427570"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Destroy target enchantment.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -1025,6 +1078,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/52.jpg?1527428208"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Return target creature to its owner's hand. Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -1044,6 +1098,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/101.jpg?1527428971"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Desperate Castaways can't attack unless you control an artifact.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -1063,6 +1118,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/140.jpg?1527429513"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Attacking creatures get +2/+0 until end of turn. Dinosaurs you control gain trample until end of turn.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -1082,6 +1138,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/221.jpg?1527430855"],
     "layout": "normal",
     "type_line": "Creature — Orc Pirate",
+    "oracle_text": "Whenever Dire Fleet Captain attacks, it gets +1/+1 until end of turn for each other attacking Pirate.",
     "mana_cost": "{B}{R}",
     "cmc": 2,
     "colors": [
@@ -1102,6 +1159,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/102.jpg?1527428984"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "When Dire Fleet Hoarder dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -1121,6 +1179,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/103.jpg?1527428998"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Menace\nWhen Dire Fleet Interloper enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -1140,6 +1199,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/104.jpg?1527429011"],
     "layout": "normal",
     "type_line": "Creature — Orc Pirate Wizard",
+    "oracle_text": "Menace, deathtouch\nWhen Dire Fleet Ravager enters the battlefield, each player loses a third of their life, rounded up.",
     "mana_cost": "{3}{B}{B}",
     "cmc": 5,
     "colors": [
@@ -1159,6 +1219,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/53.jpg?1527428220"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature you control gets +0/+3 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -1182,6 +1243,7 @@
     ],
     "layout": "transform",
     "type_line": "Artifact — Equipment // Land",
+    "oracle_text": {},
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -1199,6 +1261,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/252.jpg?1527431403"],
     "layout": "normal",
     "type_line": "Land",
+    "oracle_text": "Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -1219,6 +1282,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/54.jpg?1527428234"],
     "layout": "normal",
     "type_line": "Creature — Siren Pirate",
+    "oracle_text": "Flash\nFlying\nDreamcaller Siren can block only creatures with flying.\nWhen Dreamcaller Siren enters the battlefield, if you control another Pirate, tap up to two target nonland permanents.",
     "mana_cost": "{2}{U}{U}",
     "cmc": 4,
     "colors": [
@@ -1238,6 +1302,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/187.jpg?1527430307"],
     "layout": "normal",
     "type_line": "Creature — Human Druid",
+    "oracle_text": "Drover of the Mighty gets +2/+2 as long as you control a Dinosaur.\n{T}: Add one mana of any color.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -1257,6 +1322,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/253.jpg?1527431423"],
     "layout": "normal",
     "type_line": "Land",
+    "oracle_text": "Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -1277,6 +1343,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/141.jpg?1527429526"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Dual Shot deals 1 damage to each of up to two target creatures.",
     "mana_cost": "{R}",
     "cmc": 1,
     "colors": [
@@ -1296,6 +1363,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/105.jpg?1527429026"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -1315,6 +1383,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/9.jpg?1527427584"],
     "layout": "normal",
     "type_line": "Creature — Vampire Cleric",
+    "oracle_text": "Flying\n{W}, {T}: Target attacking Vampire gets +1/+1 until end of turn.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -1334,6 +1403,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/236.jpg?1527431120"],
     "layout": "normal",
     "type_line": "Artifact — Vehicle",
+    "oracle_text": "Vigilance\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",
     "mana_cost": "{5}",
     "cmc": 5,
     "colors": [],
@@ -1351,6 +1421,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/237.jpg?1527431132"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "Elaborate Firecannon doesn't untap during your untap step.\n{4}, {T}: Elaborate Firecannon deals 2 damage to any target.\nAt the beginning of your upkeep, you may discard a card. If you do, untap Elaborate Firecannon.",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -1368,6 +1439,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/188.jpg?1527430327"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Target creature gets +5/+5 until end of turn and must be blocked this turn if able.",
     "mana_cost": "{3}{G}",
     "cmc": 4,
     "colors": [
@@ -1387,6 +1459,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/10.jpg?1527427597"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
+    "oracle_text": "First strike\nWhen Emissary of Sunrise enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -1406,6 +1479,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/189.jpg?1527430348"],
     "layout": "normal",
     "type_line": "Creature — Human Scout",
+    "oracle_text": "Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{3}{G}",
     "cmc": 4,
     "colors": [
@@ -1425,6 +1499,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/11.jpg?1527427615"],
     "layout": "normal",
     "type_line": "Creature — Hound",
+    "oracle_text": "First strike\n{7}{W}, {T}, Sacrifice Encampment Keeper: Creatures you control get +2/+2 until end of turn.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -1444,6 +1519,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/55.jpg?1527428248"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Gain control of target creature with converted mana cost X.",
     "mana_cost": "{X}{U}{U}",
     "cmc": 2,
     "colors": [
@@ -1463,6 +1539,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/106.jpg?1527429041"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Menace\nWhenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -1482,6 +1559,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/107.jpg?1527429056"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "When Fathom Fleet Cutthroat enters the battlefield, destroy target creature an opponent controls that was dealt damage this turn.",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -1501,6 +1579,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/142.jpg?1527429540"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "{1}{R}: Fathom Fleet Firebrand gets +1/+0 until end of turn.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -1520,6 +1599,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/56.jpg?1527428261"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Creatures you control with flying get +1/+1.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -1539,6 +1619,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/238.jpg?1527431149"],
     "layout": "normal",
     "type_line": "Artifact — Vehicle",
+    "oracle_text": "Pirates you control get +1/+0.\nWhenever Fell Flagship deals combat damage to a player, that player discards a card.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
@@ -1556,6 +1637,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/254.jpg?1527431443"],
     "layout": "normal",
     "type_line": "Land",
+    "oracle_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles their library.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
@@ -1573,6 +1655,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/143.jpg?1527429554"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Fiery Cannonade deals 2 damage to each non-Pirate creature.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -1592,6 +1675,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/145.jpg?1527429579"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Firecannon Blast deals 3 damage to target creature.\nRaid — Firecannon Blast deals 6 damage to that creature instead if you attacked with a creature this turn.",
     "mana_cost": "{1}{R}{R}",
     "cmc": 3,
     "colors": [
@@ -1611,6 +1695,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/144.jpg?1527429568"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
+    "oracle_text": "Menace\n{7}{R}, {T}, Sacrifice Fire Shrine Keeper: It deals 3 damage to each of up to two target creatures.",
     "mana_cost": "{R}",
     "cmc": 1,
     "colors": [
@@ -1630,6 +1715,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/57.jpg?1527428279"],
     "layout": "normal",
     "type_line": "Creature — Fish",
+    "oracle_text": "Whenever Fleet Swallower attacks, target player puts the top half of their library, rounded up, into their graveyard.",
     "mana_cost": "{5}{U}{U}",
     "cmc": 7,
     "colors": [
@@ -1649,6 +1735,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/276.jpg?1527431779"],
     "layout": "normal",
     "type_line": "Basic Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -1668,6 +1755,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/146.jpg?1527429598"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -1687,6 +1775,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/239.jpg?1527431162"],
     "layout": "normal",
     "type_line": "Artifact Creature — Golem",
+    "oracle_text": "",
     "mana_cost": "{4}",
     "cmc": 4,
     "colors": [],
@@ -1704,6 +1793,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/222.jpg?1527430869"],
     "layout": "normal",
     "type_line": "Legendary Creature — Dinosaur Avatar",
+    "oracle_text": "Vigilance, trample, haste\nWhenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.",
     "mana_cost": "{5}{R}{G}{W}",
     "cmc": 8,
     "colors": [
@@ -1725,6 +1815,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/255.jpg?1527431458"],
     "layout": "normal",
     "type_line": "Land",
+    "oracle_text": "Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -1745,6 +1836,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/12.jpg?1527427628"],
     "layout": "normal",
     "type_line": "Creature — Vampire Soldier",
+    "oracle_text": "Pay 2 life: Glorifier of Dusk gains flying until end of turn.\nPay 2 life: Glorifier of Dusk gains vigilance until end of turn.",
     "mana_cost": "{3}{W}{W}",
     "cmc": 5,
     "colors": [
@@ -1764,6 +1856,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/13.jpg?1527427647"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Double strike\nWhenever Goring Ceratops attacks, other creatures you control gain double strike until end of turn.",
     "mana_cost": "{5}{W}{W}",
     "cmc": 7,
     "colors": [
@@ -1783,6 +1876,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/190.jpg?1527430368"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Reach",
     "mana_cost": "{2}{G}{G}",
     "cmc": 4,
     "colors": [
@@ -1802,6 +1896,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/108.jpg?1527429072"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Return a Pirate card from your graveyard to your hand, then do the same for Vampire, Dinosaur, and Merfolk.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -1825,6 +1920,7 @@
     ],
     "layout": "transform",
     "type_line": "Legendary Enchantment // Legendary Land",
+    "oracle_text": {},
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -1844,6 +1940,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/147.jpg?1527429611"],
     "layout": "normal",
     "type_line": "Creature — Orc Pirate",
+    "oracle_text": "Headstrong Brute can't block.\nHeadstrong Brute has menace as long as you control another Pirate.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -1863,6 +1960,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/58.jpg?1527428291"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Warrior",
+    "oracle_text": "",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -1882,6 +1980,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/109.jpg?1527429083"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Target opponent discards two cards.\nRaid — If you attacked with a creature this turn, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -1901,6 +2000,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/59.jpg?1527428304"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Warrior",
+    "oracle_text": "Creatures you control with +1/+1 counters on them can't be blocked.",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -1920,6 +2020,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/240.jpg?1527431174"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "When Hierophant's Chalice enters the battlefield, target opponent loses 1 life and you gain 1 life.\n{T}: Add {C}.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
@@ -1937,6 +2038,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/148.jpg?1527429626"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Gain control of target artifact or creature until end of turn. Untap it. It gains haste until end of turn.",
     "mana_cost": "{1}{R}{R}",
     "cmc": 3,
     "colors": [
@@ -1956,6 +2058,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/223.jpg?1527430883"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "When Hostage Taker enters the battlefield, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.",
     "mana_cost": "{2}{U}{B}",
     "cmc": 4,
     "colors": [
@@ -1976,6 +2079,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/224.jpg?1527430898"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Huatli",
+    "oracle_text": "+2: You gain life equal to the greatest power among creatures you control.\n0: Create a 3/3 green Dinosaur creature token with trample.\n−X: Huatli, Warrior Poet deals X damage divided as you choose among any number of target creatures. Creatures dealt damage this way can't block this turn.",
     "mana_cost": "{3}{R}{W}",
     "cmc": 5,
     "colors": [
@@ -1996,6 +2100,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/14.jpg?1527427662"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Flying\nWhen Imperial Aerosaur enters the battlefield, another target creature you control gets +1/+1 and gains flying until end of turn.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -2015,6 +2120,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/15.jpg?1527427677"],
     "layout": "normal",
     "type_line": "Creature — Human Knight",
+    "oracle_text": "Imperial Lancer has double strike as long as you control a Dinosaur.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -2034,6 +2140,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/16.jpg?1527427691"],
     "layout": "normal",
     "type_line": "Creature — Vampire Cleric",
+    "oracle_text": "When Inspiring Cleric enters the battlefield, you gain 4 life.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -2053,6 +2160,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/264.jpg?1527431586"],
     "layout": "normal",
     "type_line": "Basic Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -2072,6 +2180,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/17.jpg?1527427704"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "When Ixalan's Binding enters the battlefield, exile target nonland permanent an opponent controls until Ixalan's Binding leaves the battlefield.\nYour opponents can't cast spells with the same name as the exiled card.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -2091,6 +2200,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/192.jpg?1527430420"],
     "layout": "normal",
     "type_line": "Creature — Human Druid",
+    "oracle_text": "When Ixalli's Diviner enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -2110,6 +2220,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/193.jpg?1527430437"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
+    "oracle_text": "{7}{G}, {T}, Sacrifice Ixalli's Keeper: Target creature gets +5/+5 and gains trample until end of turn.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -2129,6 +2240,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/60.jpg?1527428317"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Jace",
+    "oracle_text": "+1: Whenever one or more creatures you control deal combat damage to a player this turn, draw a card, then discard a card.\n−2: Create a 2/2 blue Illusion creature token with \"When this creature becomes the target of a spell, sacrifice it.\"\n−5: Create two tokens that are copies of Jace, Cunning Castaway, except they're not legendary.",
     "mana_cost": "{1}{U}{U}",
     "cmc": 3,
     "colors": [
@@ -2148,6 +2260,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/194.jpg?1527430450"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Shaman",
+    "oracle_text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nWhen Jade Guardian enters the battlefield, put a +1/+1 counter on target Merfolk you control.",
     "mana_cost": "{3}{G}",
     "cmc": 4,
     "colors": [
@@ -2167,6 +2280,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/195.jpg?1527430470"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Warrior",
+    "oracle_text": "{3}{G}: Put a +1/+1 counter on Jungle Delver.",
     "mana_cost": "{G}",
     "cmc": 1,
     "colors": [
@@ -2186,6 +2300,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/18.jpg?1527427716"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
+    "oracle_text": "Dinosaur spells you cast cost {1} less to cast.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -2205,6 +2320,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/19.jpg?1527427732"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Flying\nCreatures your opponents control enter the battlefield tapped.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -2224,6 +2340,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/110.jpg?1527429096"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Flying\nWhen Kitesail Freebooter enters the battlefield, target opponent reveals their hand. You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -2243,6 +2360,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/61.jpg?1527428330"],
     "layout": "normal",
     "type_line": "Legendary Creature — Merfolk Wizard",
+    "oracle_text": "Spells your opponents cast that target a Merfolk you control cost {2} more to cast.\nAbilities your opponents activate that target a Merfolk you control cost {2} more to activate.",
     "mana_cost": "{1}{U}{U}",
     "cmc": 3,
     "colors": [
@@ -2262,6 +2380,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/196.jpg?1527430483"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Shaman",
+    "oracle_text": "Kumena's Speaker gets +1/+1 as long as you control another Merfolk or an Island.",
     "mana_cost": "{G}",
     "cmc": 1,
     "colors": [
@@ -2281,6 +2400,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/20.jpg?1527427750"],
     "layout": "normal",
     "type_line": "Creature — Vampire Soldier",
+    "oracle_text": "When Legion Conquistador enters the battlefield, you may search your library for any number of cards named Legion Conquistador, reveal them, put them into your hand, then shuffle your library.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -2300,6 +2420,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/21.jpg?1527427762"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Destroy target creature with power 4 or greater.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -2323,6 +2444,7 @@
     ],
     "layout": "transform",
     "type_line": "Legendary Enchantment // Legendary Land",
+    "oracle_text": {},
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -2342,6 +2464,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/150.jpg?1527429657"],
     "layout": "normal",
     "type_line": "Creature — Goblin Pirate",
+    "oracle_text": "{T}: Lightning-Rig Crew deals 1 damage to each opponent.\nWhenever you cast a Pirate spell, untap Lightning-Rig Crew.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -2361,6 +2484,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/149.jpg?1527429641"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Lightning Strike deals 3 damage to any target.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -2380,6 +2504,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/62.jpg?1527428342"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "This spell costs {1} less to cast if you control a Pirate.\nCounter target spell unless its controller pays {4}.",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -2399,6 +2524,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/23.jpg?1527427807"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -2418,6 +2544,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/111.jpg?1527429111"],
     "layout": "normal",
     "type_line": "Creature — Beast Horror",
+    "oracle_text": "Whenever a creature you control explores, target creature an opponent controls gets -2/-2 until end of turn.",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -2437,6 +2564,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/151.jpg?1527429674"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "{1}, Sacrifice an artifact or creature: Makeshift Munitions deals 1 damage to any target.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -2456,6 +2584,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/225.jpg?1527430910"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Raid — At the beginning of your end step, if you attacked with a creature this turn, you may draw a card. If you do, discard a card.",
     "mana_cost": "{2}{U}{R}",
     "cmc": 4,
     "colors": [
@@ -2476,6 +2605,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/112.jpg?1527429127"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Choose one —\n• Return target creature card from your graveyard to your hand.\n• Return two target Pirate cards from your graveyard to your hand.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -2495,6 +2625,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/113.jpg?1527429145"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 and has lifelink.",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -2514,6 +2645,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/24.jpg?1527427824"],
     "layout": "normal",
     "type_line": "Legendary Creature — Vampire Cleric",
+    "oracle_text": "Whenever one or more nontoken Vampires you control attack, create a 1/1 white Vampire creature token with lifelink.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -2533,6 +2665,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/197.jpg?1527430496"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Scout",
+    "oracle_text": "When Merfolk Branchwalker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -2552,6 +2685,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/272.jpg?1527431712"],
     "layout": "normal",
     "type_line": "Basic Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -2571,6 +2705,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/63.jpg?1527428355"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Raid — At the beginning of your end step, if you attacked with a creature this turn, target opponent puts the top four cards of their library into their graveyard.",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -2590,6 +2725,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/152.jpg?1527429690"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Haste",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -2609,6 +2745,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/198.jpg?1527430510"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant land\nWhen New Horizons enters the battlefield, put a +1/+1 counter on target creature you control.\nEnchanted land has \"{T}: Add two mana of any one color.\"",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -2628,6 +2765,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/199.jpg?1527430523"],
     "layout": "normal",
     "type_line": "Creature — Dryad",
+    "oracle_text": "When Old-Growth Dryads enters the battlefield, each opponent may search their library for a basic land card, put it onto the battlefield tapped, then shuffle their library.",
     "mana_cost": "{G}",
     "cmc": 1,
     "colors": [
@@ -2647,6 +2785,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/64.jpg?1527428370"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 and has flying.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -2666,6 +2805,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/65.jpg?1527428386"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\nDraw a card.",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -2685,6 +2825,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/153.jpg?1527429704"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
+    "oracle_text": "Dinosaur spells you cast cost {1} less to cast.\n{T}: Target Dinosaur gains haste until end of turn.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -2704,6 +2845,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/66.jpg?1527428399"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Target player draws seven cards.",
     "mana_cost": "{4}{U}{U}{U}",
     "cmc": 7,
     "colors": [
@@ -2723,6 +2865,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/25.jpg?1527427839"],
     "layout": "normal",
     "type_line": "Creature — Vampire Knight",
+    "oracle_text": "When Paladin of the Bloodstained enters the battlefield, create a 1/1 white Vampire creature token with lifelink.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -2742,6 +2885,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/67.jpg?1527428411"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Return target nonland permanent you don't control to its owner's hand. If its converted mana cost was 2 or less, scry 2.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -2761,6 +2905,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/241.jpg?1527431187"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "As Pillar of Origins enters the battlefield, choose a creature type.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -2778,6 +2923,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/26.jpg?1527427850"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nWhen Pious Interdiction enters the battlefield, you gain 2 life.\nEnchanted creature can't attack or block.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -2797,6 +2943,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/242.jpg?1527431203"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
+    "oracle_text": "When Pirate's Cutlass enters the battlefield, attach it to target Pirate you control.\nEquipped creature gets +2/+1.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
@@ -2814,6 +2961,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/68.jpg?1527428423"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Draw two cards. Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -2833,6 +2981,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/260.jpg?1527431524"],
     "layout": "normal",
     "type_line": "Basic Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -2852,6 +3001,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/200.jpg?1527430540"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -2871,6 +3021,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/27.jpg?1527427865"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
+    "oracle_text": "At the beginning of your upkeep, you may reveal a Dinosaur card from your hand. If you do, you gain 2 life.\n{3}{W}{W}, Sacrifice Priest of the Wakening Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle your library.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -2894,6 +3045,7 @@
     ],
     "layout": "transform",
     "type_line": "Artifact // Land",
+    "oracle_text": {},
     "mana_cost": "{4}",
     "cmc": 4,
     "colors": [],
@@ -2911,6 +3063,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/69.jpg?1527428437"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{4}{U}",
     "cmc": 5,
     "colors": [
@@ -2930,6 +3083,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/244.jpg?1527431252"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature gets +1/+0.\nWhenever equipped creature deals combat damage to a player, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
     "mana_cost": "{1}",
     "cmc": 1,
     "colors": [],
@@ -2947,6 +3101,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/28.jpg?1527427878"],
     "layout": "normal",
     "type_line": "Creature — Human Knight",
+    "oracle_text": "Pterodon Knight has flying as long as you control a Dinosaur.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -2966,6 +3121,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/114.jpg?1527429161"],
     "layout": "normal",
     "type_line": "Creature — Vampire Scout",
+    "oracle_text": "Lifelink\nWhen Queen's Agent enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{5}{B}",
     "cmc": 6,
     "colors": [
@@ -2985,6 +3141,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/115.jpg?1527429174"],
     "layout": "normal",
     "type_line": "Creature — Vampire Soldier",
+    "oracle_text": "",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -3004,6 +3161,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/29.jpg?1527427891"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Create two 1/1 white Vampire creature tokens with lifelink.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -3023,6 +3181,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/226.jpg?1527430923"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Trample\nWhen Raging Swordtooth enters the battlefield, it deals 1 damage to each other creature.",
     "mana_cost": "{3}{R}{G}",
     "cmc": 5,
     "colors": [
@@ -3043,6 +3202,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/116.jpg?1527429187"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Whenever an opponent discards a card, that player loses 2 life.\nRaid — At the beginning of your end step, if you attacked with a creature this turn, target opponent discards a card.",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -3062,6 +3222,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/30.jpg?1527427906"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Creatures you control get +1/+1 until end of turn. Untap them.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -3081,6 +3242,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/154.jpg?1527429722"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Menace\nPlayers can't gain life.\nWhenever another creature enters the battlefield, Rampaging Ferocidon deals 1 damage to that creature's controller.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -3100,6 +3262,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/201.jpg?1527430554"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Enrage — Whenever Ranging Raptors is dealt damage, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -3119,6 +3282,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/31.jpg?1527427917"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -3138,6 +3302,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/155.jpg?1527429735"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Enrage — Whenever Raptor Hatchling is dealt damage, create a 3/3 green Dinosaur creature token with trample.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -3157,6 +3322,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/202.jpg?1527430566"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Enrage — Whenever Ravenous Daggertooth is dealt damage, you gain 2 life.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -3176,6 +3342,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/227.jpg?1527430942"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Other Dinosaurs you control have haste.\nWhen Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature token with trample.",
     "mana_cost": "{3}{R}{G}",
     "cmc": 5,
     "colors": [
@@ -3196,6 +3363,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/156.jpg?1527429759"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Repeating Barrage deals 3 damage to any target.\nRaid — {3}{R}{R}: Return Repeating Barrage from your graveyard to your hand. Activate this ability only if you attacked with a creature this turn.",
     "mana_cost": "{1}{R}{R}",
     "cmc": 3,
     "colors": [
@@ -3215,6 +3383,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/117.jpg?1527429199"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Whenever a creature an opponent controls dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"\nAt the beginning of your upkeep, if you control ten or more Treasures, you win the game.",
     "mana_cost": "{4}{B}",
     "cmc": 5,
     "colors": [
@@ -3234,6 +3403,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/157.jpg?1527429775"],
     "layout": "normal",
     "type_line": "Creature — Goblin Pirate",
+    "oracle_text": "First strike\nRaid — Rigging Runner enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.",
     "mana_cost": "{R}",
     "cmc": 1,
     "colors": [
@@ -3253,6 +3423,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/158.jpg?1527429794"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Rile deals 1 damage to target creature you control. That creature gains trample until end of turn.\nDraw a card.",
     "mana_cost": "{R}",
     "cmc": 1,
     "colors": [
@@ -3272,6 +3443,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/203.jpg?1527430582"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Enrage — Whenever Ripjaw Raptor is dealt damage, draw a card.",
     "mana_cost": "{2}{G}{G}",
     "cmc": 4,
     "colors": [
@@ -3291,6 +3463,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/32.jpg?1527427928"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "You gain 4 life.\nDraw a card.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -3310,6 +3483,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/204.jpg?1527430598"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Put a +1/+1 counter on target creature and a +1/+1 counter on up to one target Merfolk.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -3329,6 +3503,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/70.jpg?1527428449"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Warrior",
+    "oracle_text": "River Sneak can't be blocked.\nWhenever another Merfolk enters the battlefield under your control, River Sneak gets +1/+1 until end of turn.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -3348,6 +3523,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/71.jpg?1527428461"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Return all nonland permanents target player controls to their owner's hand.",
     "mana_cost": "{4}{U}{U}",
     "cmc": 6,
     "colors": [
@@ -3367,6 +3543,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/256.jpg?1527431473"],
     "layout": "normal",
     "type_line": "Land",
+    "oracle_text": "Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\n{T}: Add {R} or {G}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -3387,6 +3564,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/159.jpg?1527429812"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Trample\nWhen Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random. If two cards that share a card type are discarded this way, put two +1/+1 counters on Rowdy Crew.",
     "mana_cost": "{2}{R}{R}",
     "cmc": 4,
     "colors": [
@@ -3406,6 +3584,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/118.jpg?1527429210"],
     "layout": "normal",
     "type_line": "Creature — Orc Pirate",
+    "oracle_text": "Raid — At the beginning of your end step, if you attacked with a creature this turn, reveal the top card of your library and put that card into your hand. You lose life equal to the card's converted mana cost.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -3425,6 +3604,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/160.jpg?1527429845"],
     "layout": "normal",
     "type_line": "Creature — Goblin Rogue",
+    "oracle_text": "{T}, Discard a card: Draw a card.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -3444,6 +3624,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/72.jpg?1527428476"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Put target artifact or creature on top of its owner's library.",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -3463,6 +3644,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/119.jpg?1527429223"],
     "layout": "normal",
     "type_line": "Creature — Orc Pirate",
+    "oracle_text": "{2}{B}, Sacrifice a creature: Create two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color.\"\nSacrifice three Treasures: Draw a card.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -3482,6 +3664,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/73.jpg?1527428488"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "When Sailor of Means enters the battlefield, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -3501,6 +3684,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/120.jpg?1527429240"],
     "layout": "normal",
     "type_line": "Creature — Vampire Knight",
+    "oracle_text": "Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.",
     "mana_cost": "{2}{B}{B}",
     "cmc": 4,
     "colors": [
@@ -3520,6 +3704,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/33.jpg?1527427944"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "You gain twice X life. Put Sanguine Sacrament on the bottom of its owner's library.",
     "mana_cost": "{X}{W}{W}",
     "cmc": 2,
     "colors": [
@@ -3539,6 +3724,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/205.jpg?1527430618"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "This spell costs {2} less to cast if it targets a Dinosaur you control.\nPut a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -3562,6 +3748,7 @@
     ],
     "layout": "transform",
     "type_line": "Legendary Enchantment // Legendary Land",
+    "oracle_text": {},
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -3581,6 +3768,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/121.jpg?1527429256"],
     "layout": "normal",
     "type_line": "Creature — Human Scout",
+    "oracle_text": "When Seekers' Squire enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -3600,6 +3788,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/245.jpg?1527431265"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "When Sentinel Totem enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}, Exile Sentinel Totem: Exile all cards from all graveyards.",
     "mana_cost": "{1}",
     "cmc": 1,
     "colors": [],
@@ -3617,6 +3806,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/34.jpg?1527427957"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle their library.",
     "mana_cost": "{2}{W}{W}",
     "cmc": 4,
     "colors": [
@@ -3636,6 +3826,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/246.jpg?1527431282"],
     "layout": "normal",
     "type_line": "Artifact — Vehicle",
+    "oracle_text": "Whenever a creature you control explores, put a +1/+1 counter on Shadowed Caravel.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -3653,6 +3844,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/75.jpg?1527428535"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Wizard",
+    "oracle_text": "Shaper Apprentice has flying as long as you control another Merfolk.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -3672,6 +3864,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/228.jpg?1527430959"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Shaman",
+    "oracle_text": "{3}{G}: Put a +1/+1 counter on target creature.\n{2}{U}, Remove a +1/+1 counter from a creature you control: Draw a card.",
     "mana_cost": "{1}{G}{U}",
     "cmc": 3,
     "colors": [
@@ -3692,6 +3885,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/206.jpg?1527430630"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may draw a card.",
     "mana_cost": "{G}",
     "cmc": 1,
     "colors": [
@@ -3711,6 +3905,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/35.jpg?1527427969"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature gains indestructible until end of turn. Scry 1. (Damage and effects that say \"destroy\" don't destroy the creature.)",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -3730,6 +3925,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/36.jpg?1527427982"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Flying",
     "mana_cost": "{4}{W}",
     "cmc": 5,
     "colors": [
@@ -3749,6 +3945,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/76.jpg?1527428549"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Raid — When Shipwreck Looter enters the battlefield, if you attacked with a creature this turn, you may draw a card. If you do, discard a card.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -3768,6 +3965,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/77.jpg?1527428561"],
     "layout": "normal",
     "type_line": "Creature — Trilobite",
+    "oracle_text": "{7}{U}, {T}, Sacrifice Shore Keeper: Draw three cards.",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -3787,6 +3985,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/78.jpg?1527428574"],
     "layout": "normal",
     "type_line": "Creature — Siren Pirate",
+    "oracle_text": "Flying\nWhen Siren Lookout enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -3806,6 +4005,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/80.jpg?1527428611"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Exile target creature you control, then return that card to the battlefield under its owner's control. If a Pirate was exiled this way, draw a card.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -3825,6 +4025,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/79.jpg?1527428588"],
     "layout": "normal",
     "type_line": "Creature — Siren Pirate Wizard",
+    "oracle_text": "Flying\n{U}, Sacrifice Siren Stormtamer: Counter target spell or ability that targets you or a creature you control.",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -3844,6 +4045,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/122.jpg?1527429269"],
     "layout": "normal",
     "type_line": "Creature — Insect",
+    "oracle_text": "{B}: Skittering Heartstopper gains deathtouch until end of turn.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -3863,6 +4065,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/123.jpg?1527429279"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Until end of turn, target creature you control gets +1/+1 and target creature an opponent controls gets -1/-1.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -3882,6 +4085,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/37.jpg?1527427999"],
     "layout": "normal",
     "type_line": "Creature — Vampire Soldier",
+    "oracle_text": "Flying",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -3901,6 +4105,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/124.jpg?1527429291"],
     "layout": "normal",
     "type_line": "Creature — Vampire Soldier",
+    "oracle_text": "Flying\nWhen Skymarch Bloodletter enters the battlefield, target opponent loses 1 life and you gain 1 life.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -3920,6 +4125,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/229.jpg?1527430973"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Flying, menace",
     "mana_cost": "{R}{W}",
     "cmc": 2,
     "colors": [
@@ -3940,6 +4146,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/38.jpg?1527428013"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Slash of Talons deals 2 damage to target attacking or blocking creature.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -3959,6 +4166,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/247.jpg?1527431294"],
     "layout": "normal",
     "type_line": "Artifact — Vehicle",
+    "oracle_text": "Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
@@ -3976,6 +4184,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/207.jpg?1527430647"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Destroy target artifact or enchantment.\nDraw a card.",
     "mana_cost": "{2}{G}{G}",
     "cmc": 4,
     "colors": [
@@ -3995,6 +4204,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/208.jpg?1527430662"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Flash\nEnrage — Whenever Snapping Sailback is dealt damage, put a +1/+1 counter on it. (It must survive the damage to get the counter.)",
     "mana_cost": "{4}{G}",
     "cmc": 5,
     "colors": [
@@ -4014,6 +4224,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/248.jpg?1527431310"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "As Sorcerous Spyglass enters the battlefield, look at an opponent's hand, then choose any card name.\nActivated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -4031,6 +4242,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/81.jpg?1527428633"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Counter target noncreature spell unless its controller pays {2}.",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -4050,6 +4262,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/82.jpg?1527428654"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Counter target spell. Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{3}{U}{U}",
     "cmc": 5,
     "colors": [
@@ -4069,6 +4282,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/209.jpg?1527430675"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Spike-Tailed Ceratops can block an additional creature each combat.",
     "mana_cost": "{4}{G}",
     "cmc": 5,
     "colors": [
@@ -4088,6 +4302,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/125.jpg?1527429304"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Destroy target land. Its controller loses 2 life.",
     "mana_cost": "{4}{B}",
     "cmc": 5,
     "colors": [
@@ -4107,6 +4322,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/161.jpg?1527429864"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Destroy target land. Star of Extinction deals 20 damage to each creature and each planeswalker.",
     "mana_cost": "{5}{R}{R}",
     "cmc": 7,
     "colors": [
@@ -4126,6 +4342,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/39.jpg?1527428026"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Vigilance\n{1}{W}, {T}: Steadfast Armasaur deals damage equal to its toughness to target creature blocking or blocked by it.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -4145,6 +4362,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/83.jpg?1527428678"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Flying\nRaid — Storm Fleet Aerialist enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -4164,6 +4382,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/162.jpg?1527429883"],
     "layout": "normal",
     "type_line": "Creature — Orc Pirate",
+    "oracle_text": "Raid — When Storm Fleet Arsonist enters the battlefield, if you attacked with a creature this turn, target opponent sacrifices a permanent.",
     "mana_cost": "{4}{R}",
     "cmc": 5,
     "colors": [
@@ -4183,6 +4402,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/163.jpg?1527429896"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate Wizard",
+    "oracle_text": "Raid — When Storm Fleet Pyromancer enters the battlefield, if you attacked with a creature this turn, Storm Fleet Pyromancer deals 2 damage to any target.",
     "mana_cost": "{4}{R}",
     "cmc": 5,
     "colors": [
@@ -4202,6 +4422,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/84.jpg?1527428695"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "Raid — When Storm Fleet Spy enters the battlefield, if you attacked with a creature this turn, draw a card.",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -4221,6 +4442,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/85.jpg?1527428717"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Wizard",
+    "oracle_text": "Storm Sculptor can't be blocked.\nWhen Storm Sculptor enters the battlefield, return a creature you control to its owner's hand.",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -4240,6 +4462,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/165.jpg?1527429924"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's converted mana cost. You may cast a card revealed this way with converted mana cost X or less without paying its mana cost. Put the rest on the bottom of your library in a random order.",
     "mana_cost": "{5}{R}",
     "cmc": 6,
     "colors": [
@@ -4259,6 +4482,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/164.jpg?1527429911"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Enrage — Whenever Sun-Crowned Hunters is dealt damage, it deals 3 damage to target opponent or planeswalker.",
     "mana_cost": "{4}{R}{R}",
     "cmc": 6,
     "colors": [
@@ -4278,6 +4502,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/257.jpg?1527431487"],
     "layout": "normal",
     "type_line": "Land",
+    "oracle_text": "Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.\n{T}: Add {G} or {W}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4298,6 +4523,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/40.jpg?1527428038"],
     "layout": "normal",
     "type_line": "Creature — Human Scout",
+    "oracle_text": "Vigilance\nWhen Sunrise Seeker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{4}{W}",
     "cmc": 5,
     "colors": [
@@ -4317,6 +4543,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/166.jpg?1527429942"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature gets +3/+0 and gains first strike until end of turn.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -4336,6 +4563,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/268.jpg?1527431644"],
     "layout": "normal",
     "type_line": "Basic Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4355,6 +4583,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/167.jpg?1527429958"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 and has haste.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -4374,6 +4603,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/126.jpg?1527429315"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays 3 life. Then exile the rest.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -4393,6 +4623,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/86.jpg?1527428733"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Wizard",
+    "oracle_text": "When Tempest Caller enters the battlefield, tap all creatures target opponent controls.",
     "mana_cost": "{2}{U}{U}",
     "cmc": 4,
     "colors": [
@@ -4412,6 +4643,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/41.jpg?1527428056"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Whenever Territorial Hammerskull attacks, tap target creature an opponent controls.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -4435,6 +4667,7 @@
     ],
     "layout": "transform",
     "type_line": "Artifact // Land",
+    "oracle_text": {},
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -4452,6 +4685,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/168.jpg?1527429975"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "As long as you control another Dinosaur, Thrash of Raptors gets +2/+0 and has trample.",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -4471,6 +4705,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/210.jpg?1527430693"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
+    "oracle_text": "Other Dinosaurs you control get +1/+1.\n{5}{G}: Create a 3/3 green Dinosaur creature token with trample.",
     "mana_cost": "{5}{G}{G}",
     "cmc": 7,
     "colors": [
@@ -4490,6 +4725,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/169.jpg?1527430004"],
     "layout": "normal",
     "type_line": "Creature — Human Knight",
+    "oracle_text": "Whenever Tilonalli's Knight attacks, if you control a Dinosaur, Tilonalli's Knight gets +1/+1 until end of turn.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -4509,6 +4745,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/170.jpg?1527430019"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
+    "oracle_text": "Haste\nWhenever Tilonalli's Skinshifter attacks, it becomes a copy of another target nonlegendary attacking creature until end of turn.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -4528,6 +4765,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/211.jpg?1527430710"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Scout",
+    "oracle_text": "When Tishana's Wayfinder enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -4547,6 +4785,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/230.jpg?1527430987"],
     "layout": "normal",
     "type_line": "Legendary Creature — Merfolk Shaman",
+    "oracle_text": "Tishana, Voice of Thunder's power and toughness are each equal to the number of cards in your hand.\nYou have no maximum hand size.\nWhen Tishana enters the battlefield, draw a card for each creature you control.",
     "mana_cost": "{5}{G}{U}",
     "cmc": 7,
     "colors": [
@@ -4567,6 +4806,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/42.jpg?1527428068"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
+    "oracle_text": "Creatures entering the battlefield don't cause abilities to trigger.",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -4590,6 +4830,7 @@
     ],
     "layout": "transform",
     "type_line": "Artifact // Land",
+    "oracle_text": {},
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -4607,6 +4848,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/171.jpg?1527430035"],
     "layout": "normal",
     "type_line": "Enchantment",
+    "oracle_text": "Each opponent must attack you or a planeswalker you control with at least one creature each combat if able.\nAt the beginning of your end step, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -4626,6 +4868,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/258.jpg?1527431498"],
     "layout": "normal",
     "type_line": "Land",
+    "oracle_text": "As Unclaimed Territory enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
@@ -4643,6 +4886,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/172.jpg?1527430055"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Unfriendly Fire deals 4 damage to any target.",
     "mana_cost": "{4}{R}",
     "cmc": 5,
     "colors": [
@@ -4662,6 +4906,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/259.jpg?1527431509"],
     "layout": "normal",
     "type_line": "Land",
+    "oracle_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
@@ -4679,6 +4924,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/43.jpg?1527428080"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Target creature gets +2/+2 until end of turn. If it's a Vampire, it gains first strike until end of turn.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -4702,6 +4948,7 @@
     ],
     "layout": "transform",
     "type_line": "Legendary Enchantment // Legendary Land",
+    "oracle_text": {},
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -4721,6 +4968,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/251.jpg?1527431384"],
     "layout": "normal",
     "type_line": "Artifact",
+    "oracle_text": "As Vanquisher's Banner enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card.",
     "mana_cost": "{5}",
     "cmc": 5,
     "colors": [],
@@ -4738,6 +4986,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/127.jpg?1527429331"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Destroy target creature with power 3 or less.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -4757,6 +5006,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/212.jpg?1527430729"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Until end of turn, target creature gains \"When this creature dies, return it to its owner's hand.\"\nDraw a card.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -4776,6 +5026,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/213.jpg?1527430742"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur Avatar",
+    "oracle_text": "Whenever Verdant Sun's Avatar or another creature enters the battlefield under your control, you gain life equal to that creature's toughness.",
     "mana_cost": "{5}{G}{G}",
     "cmc": 7,
     "colors": [
@@ -4795,6 +5046,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/128.jpg?1527429344"],
     "layout": "normal",
     "type_line": "Creature — Vampire Soldier",
+    "oracle_text": "Whenever Vicious Conquistador attacks, each opponent loses 1 life.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -4814,6 +5066,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/214.jpg?1527430754"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Shaman",
+    "oracle_text": "When Vineshaper Mystic enters the battlefield, put a +1/+1 counter on each of up to two target Merfolk you control.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -4833,6 +5086,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/231.jpg?1527431002"],
     "layout": "normal",
     "type_line": "Legendary Creature — Vampire Knight",
+    "oracle_text": "Vigilance, lifelink\n{T}, Pay 7 life: Destroy target nonland permanent. Activate this ability only during your turn.",
     "mana_cost": "{3}{W}{B}",
     "cmc": 5,
     "colors": [
@@ -4853,6 +5107,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/232.jpg?1527431015"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Vraska",
+    "oracle_text": "+2: Create a 2/2 black Pirate creature token with menace.\n−3: Destroy target artifact, creature, or enchantment. Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"\n−10: Target player's life total becomes 1.",
     "mana_cost": "{4}{B}{G}",
     "cmc": 6,
     "colors": [
@@ -4873,6 +5128,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/129.jpg?1527429358"],
     "layout": "normal",
     "type_line": "Instant",
+    "oracle_text": "Exile target creature or planeswalker. You gain 2 life.",
     "mana_cost": "{2}{B}{B}",
     "cmc": 4,
     "colors": [
@@ -4892,6 +5148,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/44.jpg?1527428093"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur Avatar",
+    "oracle_text": "When Wakening Sun's Avatar enters the battlefield, if you cast it from your hand, destroy all non-Dinosaur creatures.",
     "mana_cost": "{5}{W}{W}{W}",
     "cmc": 8,
     "colors": [
@@ -4911,6 +5168,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/215.jpg?1527430771"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Shaman",
+    "oracle_text": "{X}{G}{G}: Put X +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature with haste. It's still a land.",
     "mana_cost": "{2}{G}{G}",
     "cmc": 4,
     "colors": [
@@ -4930,6 +5188,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/130.jpg?1527429373"],
     "layout": "normal",
     "type_line": "Sorcery",
+    "oracle_text": "Destroy target non-Merfolk creature.",
     "mana_cost": "{B}{B}",
     "cmc": 2,
     "colors": [
@@ -4949,6 +5208,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/131.jpg?1527429386"],
     "layout": "normal",
     "type_line": "Creature — Human Pirate",
+    "oracle_text": "When Wanted Scoundrels dies, target opponent creates two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -4968,6 +5228,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/87.jpg?1527428746"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Wizard",
+    "oracle_text": "When Watertrap Weaver enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -4987,6 +5248,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/216.jpg?1527430784"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
+    "oracle_text": "Whenever a creature you control explores, put a +1/+1 counter on Wildgrowth Walker and you gain 3 life.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -5006,6 +5268,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/174.jpg?1527430113"],
     "layout": "normal",
     "type_line": "Creature — Goblin Pirate",
+    "oracle_text": "When Wily Goblin enters the battlefield, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
     "mana_cost": "{R}{R}",
     "cmc": 2,
     "colors": [
@@ -5025,6 +5288,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/en/xln/88.jpg?1527428759"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Wizard",
+    "oracle_text": "Flash\nFlying",
     "mana_cost": "{4}{U}",
     "cmc": 5,
     "colors": [

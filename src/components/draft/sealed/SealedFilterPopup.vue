@@ -121,7 +121,8 @@ export default {
             value: true
           },
         ],
-      }
+      },
+      rules_text: ''
     }
   },
 
@@ -131,7 +132,7 @@ export default {
     sealed_filter: function() {
       
       // each group has a filter that applies an OR across the group
-      let groupFilters = Object.keys(this.filters).map(group => {
+      let allFilters = Object.keys(this.filters).map(group => {
         let filters = this.filters[group];
         return (card) => {
           for (let i=0; i<filters.length; i++) {
@@ -141,11 +142,18 @@ export default {
           return false;
         }
       });
+
+      // add rules text filters
+      if (this.rules_text) {
+        allFilters.push(card => {
+          return card.oracle_text.toLowerCase().includes(this.rules_text);
+        });
+      }
       
       // group filters are then applied with AND
       return (card) => {
-        for (let i=0; i<groupFilters.length; i++)
-          if (!groupFilters[i](card))
+        for (let i=0; i<allFilters.length; i++)
+          if (!allFilters[i](card))
             return false;
         return true;
       };
@@ -164,8 +172,14 @@ export default {
         this.filters[group].forEach(filter => {
           filter.value = true;
         });
+        this.rules_text = '';
       });
       event.target.blur();
+    },
+
+    onRulesTextChanged(event) {
+      this.rules_text = event.target.value.trim().toLowerCase();
+      this.updateFilter();
     },
 
     dismissDropdown() {
@@ -204,6 +218,23 @@ export default {
       </div>
     </div>
     <div class="row">
+      <div class="form-group col-sm-12">
+        <label id="filterRulesTextLabel" for="filterRulesText"><strong>Rules text</strong></label>
+        <input 
+          id="filterRulesText" 
+          :value="rules_text" 
+          class="form-control" 
+          type="text" 
+          aria-describedby="rulesTextHelpBlock" 
+          @input="onRulesTextChanged"
+          @keyup.enter="dismissDropdown"
+        >
+        <small id="rulesTextHelpBlock" class="form-text text-muted">
+          Filter by rules text (e.g. flying, surveil, +1/+1, proliferate, etc.)
+        </small>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-sm-4">
         <button class="btn btn-sm btn-block btn-warning" @click="onResetFilter">Reset Filter</button>
       </div>
@@ -222,6 +253,15 @@ export default {
   padding: 15px;
   width: 400px;
   font-size: 0.8em !important;
+}
+
+#filterRulesText {
+  height: auto;
+  padding: 0.2rem;
+}
+
+#filterRulesTextLabel {
+  margin-bottom: 0.2rem;
 }
 
 </style>
