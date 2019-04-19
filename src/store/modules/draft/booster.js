@@ -27,7 +27,7 @@ export function generateBooster(set_code, cardpool, pack_number, number_of_packs
     for (let i = 0; i < indexes.length; i++) {
       let index = indexes[i];
       let card = cardpool[index];
-      if ((card.set === pack_set) && filter(card)) {
+      if ((set.is_custom_cube(set_code) || (card.set === pack_set)) && filter(card)) {
 
         // detect duplicate 
         if (selectedCardIds.indexOf(card.id) !== -1)

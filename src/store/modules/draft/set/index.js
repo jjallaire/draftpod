@@ -33,6 +33,10 @@ export function name(set_code) {
   return sets[set_code].name;
 }
 
+export function is_custom_cube(set_code) {
+  return sets[set_code].is_custom_cube || false;
+}
+
 export function is_edition(set_code, edition) {
   let is_edition = sets[set_code].is_edition;
   if (is_edition)

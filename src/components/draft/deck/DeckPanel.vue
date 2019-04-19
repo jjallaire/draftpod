@@ -9,6 +9,7 @@ import DeckDownload from './DeckDownload.vue'
 import DeckView from './DeckView.vue'
 import DeckLands from './DeckLands.vue'
 
+import * as set from '@/store/modules/draft/set/'
 import * as selectors from '@/store/modules/draft/selectors'
 import { DECK } from '@/store/modules/draft/constants'
 
@@ -86,6 +87,7 @@ export default {
       else
         return 10;
     },
+
     is_draft_format() {
       return this.format === 'draft';
     },
@@ -93,6 +95,11 @@ export default {
     is_sealed_format() {
       return this.format === 'sealed';
     },
+
+    can_download: function() {
+      return !set.is_custom_cube(this.set.code) && is_draft_format;
+    }
+
   },
 
   methods: {
@@ -127,7 +134,7 @@ export default {
     <template slot="header-right">
       <DeckView :set_code="set.code" :format="options.deck_list_format" :deck="deck" />
       <DeckDownload 
-        v-if="is_draft_format"
+        v-if="can_download"
         :set="set" 
         :deck="deck"
       />
