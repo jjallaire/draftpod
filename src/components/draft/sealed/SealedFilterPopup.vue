@@ -145,8 +145,10 @@ export default {
 
       // add rules text filters
       if (this.rules_text) {
-        allFilters.push(card => {
-          return card.oracle_text.toLowerCase().includes(this.rules_text);
+        this.rules_text.split(/[ ,]+/).forEach(term => {
+          allFilters.push(card => {
+            return card.oracle_text.toLowerCase().includes(term);
+          });
         });
       }
       
