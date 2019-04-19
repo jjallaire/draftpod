@@ -6,6 +6,7 @@ import DeckDownload from './DeckDownload.vue'
 import DeckView from './DeckView.vue'
 import DeckLands from './DeckLands.vue'
 
+import * as set from '@/store/modules/draft/set/'
 import * as selectors from '@/store/modules/draft/selectors'
 import { DECK } from '@/store/modules/draft/constants'
 
@@ -63,6 +64,9 @@ export default {
         return 140;
       else
         return 10;
+    },
+    can_download: function() {
+      return !set.is_custom_cube(this.set.code);
     }
   },
 }
@@ -84,6 +88,7 @@ export default {
     <template slot="header-right">
       <DeckView :set_code="set.code" :format="options.deck_list_format" :deck="deck" />
       <DeckDownload 
+        v-if="can_download"
         :set="set" 
         :deck="deck"
       />

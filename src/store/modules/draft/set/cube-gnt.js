@@ -22,6 +22,8 @@ export default {
 
   default_cube: CARDPOOL.CUBE + '3/2/1/1',
 
+  is_custom_cube: true,
+
   booster(selectCards) {
 
     let cards = [].concat(
