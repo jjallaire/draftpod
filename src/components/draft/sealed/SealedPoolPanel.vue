@@ -31,7 +31,8 @@ export default {
   inject: [
     'deckToUnused',
     'sideboardToUnused',
-    'touchDragManager'
+    'touchDragManager',
+    'cardInDeck',
   ],  
 
   mounted() {
@@ -122,7 +123,8 @@ export default {
         v-for="card in cards" 
         :key="card.key" 
         :card="card" 
-        :drag_source="drag_source"
+        :drag_source="cardInDeck(card) ? null : drag_source"
+        :checked="cardInDeck(card)"
       />
 
     </Drop>

@@ -18,6 +18,10 @@ export default {
     drag_source: {
       type: String,
       default: null
+    },
+    checked: {
+      type: Boolean,
+      default: false
     }
   },
   data: function() {
@@ -73,7 +77,6 @@ export default {
 
 <template>
   <Drag 
-    v-if="drag_source" 
     :transfer-data="{drag_source, card}" 
     tag="span" 
     class="mtgcard mtgcard-draggable"
@@ -81,20 +84,17 @@ export default {
   >
     <img 
       :src="cardImageUris[0]" 
+      :draggable="!!drag_source"
       @mouseover="onMouseOver" 
       @touchstart="onTouchStart" 
       @touchmove="onTouchMove"
       @touchend="onTouchEnd" 
       @contextmenu="onContextMenu"
     >
+    <div v-if="checked" class="mtgcard-check">
+      <img draggable="false" src="/images/checkmark.png">
+    </div>
   </Drag>
-  <span 
-    v-else 
-    class="mtgcard" 
-    draggable="false"
-  >
-    <img :src="cardImageUris[0]">
-  </span>
 </template>
 
 <style>
@@ -104,6 +104,22 @@ export default {
   cursor: -moz-grab;
   cursor: -webkit-grab;
   -webkit-touch-callout: none;
+}
+
+.mtgcard {
+  position: relative; 
+}
+
+.mtgcard .mtgcard-check {
+  position: absolute; 
+  top: 1px; 
+  left: 10px; 
+  right: 10px; 
+  text-align: center;
+}
+
+.mtgcard .mtgcard-check img {
+  width: 16px;
 }
 
 </style>

@@ -6,6 +6,8 @@ import Vue from 'vue'
 import VueHotkey from 'v-hotkey'
 Vue.use(VueHotkey);
 
+import _flatten from 'lodash/flatten'
+
 import NavBar from '@/components/core/NavBar.vue'
 
 import TableCore from '../table/TableCore.js'
@@ -45,7 +47,10 @@ export default {
   computed: {
     
     pool: function() {
-      return this.active_player.deck.piles[DECK.UNUSED];
+      if (this.isMobile)
+        return this.active_player.deck.piles[DECK.UNUSED];
+      else
+        return _flatten(this.active_player.deck.piles);
     },
 
     pool_filtered: function() {
@@ -86,6 +91,14 @@ export default {
           this.onNextClick();
         },
       };
+    }
+  },
+
+  provide: function() {
+    return {
+      cardInDeck: card => {
+        return this.active_player.deck.piles[DECK.UNUSED].find(c => c.key === card.key) === undefined;
+      }
     }
   },
 
