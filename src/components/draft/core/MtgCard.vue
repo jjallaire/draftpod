@@ -17,7 +17,7 @@ export default {
     },
     drag_source: {
       type: String,
-      default: null
+      required: true
     },
     checked: {
       type: Boolean,
