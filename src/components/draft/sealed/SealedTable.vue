@@ -50,7 +50,7 @@ export default {
       if (this.isMobile)
         return this.active_player.deck.piles[DECK.UNUSED];
       else
-        return _flatten(this.active_player.deck.piles);
+        return _orderBy(_flatten(this.active_player.deck.piles), ["key"], ["asc"]);
     },
 
     pool_filtered: function() {
