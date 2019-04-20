@@ -84,7 +84,6 @@ export default {
   >
     <img 
       :src="cardImageUris[0]" 
-      :draggable="!!drag_source"
       @mouseover="onMouseOver" 
       @touchstart="onTouchStart" 
       @touchmove="onTouchMove"
