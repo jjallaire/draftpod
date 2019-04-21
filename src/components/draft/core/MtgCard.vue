@@ -27,7 +27,9 @@ export default {
   data: function() {
     return {
       zoom_img: null,
-      cursor_offset: null
+      cursor_offset: null,
+      is_safari: navigator.userAgent.indexOf('Safari') !== -1 && 
+                 navigator.userAgent.indexOf('Chrome') === -1
     }
   },
   inject: [
@@ -92,6 +94,7 @@ export default {
   >
     <img 
       :src="cardImageUris[0]" 
+      :class="{ 'mtgcard-padright': checked && is_safari }"
       @mouseover="onMouseOver" 
       @touchstart="onTouchStart" 
       @touchmove="onTouchMove"
@@ -118,11 +121,15 @@ export default {
   -webkit-touch-callout: none;
 }
 
+.mtgcard-padright {
+  margin-right: 4px;
+}
+
 .mtgcard .mtgcard-check {
   position: absolute; 
   top: 1px; 
-  left: 10px; 
-  right: 10px; 
+  left: 0; 
+  right: 0; 
   text-align: center;
 }
 
