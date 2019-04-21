@@ -12,6 +12,10 @@ export default {
 
   pack_cards: () => 15,
 
+  capabilities: {
+    custom_cardpool: false
+  },
+
   cube: cube.build,
 
   default_cube: CARDPOOL.CUBE + '4/2/1/1',
