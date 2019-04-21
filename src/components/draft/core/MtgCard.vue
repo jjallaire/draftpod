@@ -15,14 +15,14 @@ export default {
       type: Object,
       required: true
     },
-    drag_source: {
-      type: String,
-      required: true
-    },
     checked: {
       type: Boolean,
       default: false
-    }
+    },
+    drag_source: {
+      type: String,
+      default: null
+    },
   },
   data: function() {
     return {
@@ -38,6 +38,12 @@ export default {
     cardImageUris() {
       let imageUris = selectors.cardImageUris(this.card);
       return imageUris || ["/images/card-back.png"];
+    },
+    draggable: function() {
+      if (this.drag_source)
+        return true;
+      else
+        return false;
     }
   },
 
@@ -61,7 +67,8 @@ export default {
     },
 
     onTouchMove(event) {
-      this.touchDragManager.onTouchMove(event);
+      if (this.draggable)
+        this.touchDragManager.onTouchMove(event);
     },
 
     onTouchEnd(event) {
@@ -77,9 +84,10 @@ export default {
 
 <template>
   <Drag 
+    :draggable="draggable"
     :transfer-data="{drag_source, card}" 
     tag="span" 
-    class="mtgcard mtgcard-draggable"
+    :class="{ mtgcard: true, 'mtgcard-draggable': draggable }"
     @dragstart="onDragStart"
   >
     <img 
@@ -97,16 +105,17 @@ export default {
 </template>
 
 <style>
+
+.mtgcard {
+  position: relative; 
+}
+
 .mtgcard-draggable  {
   cursor: move; /* fallback if grab cursor is unsupported */
   cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
   -webkit-touch-callout: none;
-}
-
-.mtgcard {
-  position: relative; 
 }
 
 .mtgcard .mtgcard-check {
@@ -120,6 +129,7 @@ export default {
 .mtgcard .mtgcard-check img {
   width: 16px;
 }
+
 
 </style>
 
