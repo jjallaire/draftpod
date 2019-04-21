@@ -23,18 +23,24 @@ export default {
       type: String,
       default: null
     },
+    click_move: {
+      type: Boolean,
+      default: false
+    }
   },
   data: function() {
     return {
       zoom_img: null,
       cursor_offset: null,
       is_safari: navigator.userAgent.indexOf('Safari') !== -1 && 
-                 navigator.userAgent.indexOf('Chrome') === -1
+                 navigator.userAgent.indexOf('Chrome') === -1,
+      was_checked: this.checked
     }
   },
   inject: [
     'setCardPreview',
     'touchDragManager',
+    'unusedToDeck',
     'deckToUnused'
   ],
   computed: {
@@ -49,7 +55,11 @@ export default {
         return false;
     }
   },
-
+  watch: {
+    checked: function() {
+      this.was_checked = this.was_checked || this.checked;
+    }
+  },
   methods: {
     onMouseOver() {
       this.setCardPreview(this.card);
@@ -80,7 +90,16 @@ export default {
 
     onContextMenu() {
       return false;
-    },    
+    },  
+    
+    onClick() {
+      if (this.click_move) {
+        if (this.checked)
+          this.deckToUnused({ card: this.card });
+        else
+          this.unusedToDeck({ card: this.card })
+      }
+    },
 
     onUncheckCard() {
       this.deckToUnused({ card: this.card });
@@ -99,11 +118,12 @@ export default {
   >
     <img 
       :src="cardImageUris[0]" 
-      :class="{ 'mtgcard-checked': checked, 'mtgcard-padright': checked && is_safari }"
+      :class="{ 'mtgcard-checked': checked, 'mtgcard-padright': was_checked && is_safari }"
       @mouseover="onMouseOver" 
       @touchstart="onTouchStart" 
       @touchmove="onTouchMove"
       @touchend="onTouchEnd" 
+      @click="onClick"
       @contextmenu="onContextMenu"
     >
     <div v-if="checked" class="mtgcard-check">

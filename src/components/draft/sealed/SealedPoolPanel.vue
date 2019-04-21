@@ -125,6 +125,7 @@ export default {
         :card="card" 
         :drag_source="cardInDeck(card) ? null : drag_source"
         :checked="cardInDeck(card)"
+        :click_move="true"
       />
 
     </Drop>
