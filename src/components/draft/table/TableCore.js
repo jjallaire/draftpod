@@ -43,7 +43,6 @@ export default {
       isiOS: false,
       card_preview: null,
       touchDragManager: new TouchDragManager(),
-      md: new MobileDetect(window.navigator.userAgent),
     }
   },
 
@@ -81,13 +80,14 @@ export default {
   created() {
 
     // detect mobile
-    if (this.md.mobile())
+    let md = new MobileDetect(window.navigator.userAgent);
+    if (md.mobile())
       this.isMobile = true;
-    if (this.md.tablet())
+    if (md.tablet())
       this.isTablet = true;
     if (this.isMobile && !this.isTablet)
       this.isPhone = true;
-    if (this.md.os() === 'iOS')
+    if (md.os() === 'iOS')
       this.isiOS = true;
 
 
@@ -212,7 +212,6 @@ export default {
       removePlayer: this.removePlayer,
       setCardPreview: this.setCardPreview,
       touchDragManager: this.touchDragManager,
-      mobileDetect: this.md,
     }
   },
 
