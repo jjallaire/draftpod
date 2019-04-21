@@ -34,7 +34,8 @@ export default {
   },
   inject: [
     'setCardPreview',
-    'touchDragManager'
+    'touchDragManager',
+    'deckToUnused'
   ],
   computed: {
     cardImageUris() {
@@ -80,6 +81,10 @@ export default {
     onContextMenu() {
       return false;
     },    
+
+    onUncheckCard() {
+      this.deckToUnused({ card: this.card });
+    },
   }
 }
 </script>
@@ -94,7 +99,7 @@ export default {
   >
     <img 
       :src="cardImageUris[0]" 
-      :class="{ 'mtgcard-padright': checked && is_safari }"
+      :class="{ 'mtgcard-checked': checked, 'mtgcard-padright': checked && is_safari }"
       @mouseover="onMouseOver" 
       @touchstart="onTouchStart" 
       @touchmove="onTouchMove"
@@ -102,7 +107,7 @@ export default {
       @contextmenu="onContextMenu"
     >
     <div v-if="checked" class="mtgcard-check">
-      <img draggable="false" src="/images/checkmark.png">
+      <img draggable="false" src="/images/checkmark.png" @click="onUncheckCard">
     </div>
   </Drag>
 </template>
@@ -121,6 +126,10 @@ export default {
   -webkit-touch-callout: none;
 }
 
+.mtgcard-checked {
+  opacity: 0.7;
+}
+
 .mtgcard-padright {
   margin-right: 4px;
 }
@@ -135,6 +144,7 @@ export default {
 
 .mtgcard .mtgcard-check img {
   width: 16px;
+  cursor: pointer;
 }
 
 
