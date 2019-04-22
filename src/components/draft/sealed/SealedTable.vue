@@ -16,8 +16,6 @@ import InfoBar from '../infobar/InfoBar.vue'
 import SealedPoolPanel from '../sealed/SealedPoolPanel.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 
-import { DECK } from '../../../store/modules/draft/constants'
-
 import _orderBy from 'lodash/orderBy'
 import LeftIcon from 'vue-material-design-icons/ChevronLeftBox.vue'
 import RightIcon from 'vue-material-design-icons/ChevronRightBox.vue'
@@ -88,14 +86,6 @@ export default {
           this.onNextClick();
         },
       };
-    }
-  },
-
-  provide: function() {
-    return {
-      cardInDeck: card => {
-        return this.active_player.deck.piles[DECK.UNUSED].find(c => c.key === card.key) === undefined;
-      }
     }
   },
 

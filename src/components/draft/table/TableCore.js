@@ -8,6 +8,7 @@ import MobileDetect from 'mobile-detect'
 import { mapState, mapGetters, mapActions, mapMutations } from 'vuex';
 
 import * as selectors from '@/store/modules/draft/selectors.js'
+import { DECK } from '@/store/modules/draft/constants.js'
 
 import TouchDragManager from '../core/TouchDragManager.js'
 import * as messagebox from '@/components/core/messagebox.js'
@@ -212,6 +213,9 @@ export default {
       removePlayer: this.removePlayer,
       setCardPreview: this.setCardPreview,
       touchDragManager: this.touchDragManager,
+      cardInDeck: card => {
+        return this.active_player.deck.piles[DECK.UNUSED].find(c => c.key === card.key) === undefined;  
+      },
     }
   },
 

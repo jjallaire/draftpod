@@ -14,6 +14,7 @@ export default {
   removePlayer() {},
   setShowBotColors() {},
   setCardPreview() {},
+  cardInDeck() {},
   touchDragManager: {
     registerDropTarget() {}
   },
