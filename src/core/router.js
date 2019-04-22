@@ -29,7 +29,7 @@ export default new VueRouter({
   
   routes: [
     { path: '/', component: HomePage },
-    { path: '/draft/', component: NavigatorPage },
+    { path: '/play/', component: NavigatorPage },
     { path: '/draft/:draft_id/join', component: JoinPage, props: true,
       beforeEnter: (to, from, next) => {
 

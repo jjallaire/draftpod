@@ -99,7 +99,7 @@ export default {
     >
       <div class="col-sm-12">
         <div class="text-center text-muted">
-          No previous drafts
+          (None available)
         </div>
       </div>
     </div>

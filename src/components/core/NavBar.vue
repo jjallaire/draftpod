@@ -7,7 +7,7 @@
     <span class="navbar-brand">
       <router-link 
         class="text-light" 
-        to="/draft/" 
+        to="/play/" 
         exact
       >
         Draftpod
@@ -16,7 +16,7 @@
     
     <slot>
       <span class="navbar-text">
-        Draft simulator for MTG
+        Draft and sealed simulator for MTG
       </span>
     </slot>
 
@@ -36,10 +36,10 @@
         tag="li" 
         class="nav-item" 
         active-class="active" 
-        to="/draft/"
+        to="/play/"
       >
         <a class="nav-link">
-          Draft
+          Play
         </a>
       </router-link>
       <router-link 

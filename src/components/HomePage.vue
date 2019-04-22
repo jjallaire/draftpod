@@ -23,13 +23,13 @@ export default {
           <h1 class="display-3">
             Draftpod
           </h1>
-          <h3>Draft simulator for MTG</h3>
+          <h3>Draft and sealed simulator for MTG</h3>
 
           <hr>
 
           <img 
             class="draftpod-screenshot" 
-            width="50%"
+            width="55%"
             align="left" 
             src="/images/screenshot.png"
           >
@@ -38,28 +38,34 @@ export default {
             <ul class="draftpod-features">
               <li>Practice evaluating cards, reading signals, and building decks in single-player mode.</li>
               <li>
-                Simulate a full 8-person draft even when you have only 2 or 3 players in 
+                Simulate an 8-person draft with only 2 or 3 players in 
                 multi-player mode.
+              </li>
+              <li>
+                Play draft and sealed decks from paper set cubes or using
+                <a href="https://magic.wizards.com/en/mtgarena" target="_blank">MTG Arena</a>
+                Direct Challenge.
               </li>
             </ul>
 
-            <router-link 
-              class="draftpod-learn-more btn btn-warning" 
-              role="button" 
-              to="/guide/"
-            >
-              Learn More
-            </router-link> 
-            <router-link 
-              class="draftpod-start-draft btn btn-success" 
-              role="button" 
-              to="/draft/"
-            >
-              Start a Draft
-            </router-link>
           </p>
 
-          <div style="clear: both; margin-bottom: 10px;" />
+          <div style="clear: both; margin-bottom: 30px;" />
+
+          <router-link 
+            class="draftpod-learn-more btn btn-warning" 
+            role="button" 
+            to="/guide/"
+          >
+            Learn More
+          </router-link> 
+          <router-link 
+            class="draftpod-start-draft btn btn-success" 
+            role="button" 
+            to="/play/"
+          >
+            Let's Play!
+          </router-link>
 
           <p class="lead" />
         </div>

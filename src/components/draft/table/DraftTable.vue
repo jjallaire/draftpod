@@ -108,7 +108,7 @@ export default {
   watch: {
     active_player: function (val) {
       if (val === undefined)
-        this.$router.push({ path: "/draft/"});
+        this.$router.push({ path: "/play/"});
     },
     picks_complete(newValue, oldValue) {
       // save draft log when picks complete

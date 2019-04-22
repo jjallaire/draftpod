@@ -181,7 +181,7 @@ export default {
           "<p>You can pick up where you left off in the draft later.</p>" + 
           "Do you want to exit this draft? ",
           () => {
-            this.$router.push({ path: "/draft/" });
+            this.$router.push({ path: "/play/" });
           });
       }
     },
@@ -192,7 +192,7 @@ export default {
         "Do you want to discard this draft? ",
         () => {
           this.removeDrafts([this.draft_id]);
-          this.$router.push({ path: "/draft/" });
+          this.$router.push({ path: "/play/" });
         })
     },
   },

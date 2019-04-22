@@ -365,7 +365,7 @@ export default {
 <template>
   <ContentPanel 
     ref="startNewDraft" 
-    caption="Start New" 
+    caption="Play" 
     class="user-select-none"
   >
     <form @submit.prevent>
