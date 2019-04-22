@@ -44,10 +44,11 @@ export default {
       table.start_time = new Date().getTime();
       if (player_info)
         joinDraft(player_info, table);
-      if (selectors.draftFormat(state) === 'draft')
+      if (selectors.draftFormat(state) === 'draft') {
         nextPack(state.set.code, options, table);
-      else
-        distributeSealedPools(table);
+      } else {
+        distributeSealedPools(table, options);
+      }
     });
   },
 
@@ -380,7 +381,7 @@ function nextPack(set_code, options, table) {
   table.current_pack++;
 }
 
-function distributeSealedPools(table) {
+function distributeSealedPools(table, options) {
 
   // iterate over non-ai players
   for (let i=0; i<table.players.length; i++) {
@@ -390,9 +391,9 @@ function distributeSealedPools(table) {
       // ensure we have enough packs left
       if (table.all_packs.length >= 6) {
         
-        // grab 6 packs
+        // grab packs
         let packs = [];
-        for (let i = 0; i < 6; i++)
+        for (let i = 0; i < options.sealed_number_of_packs; i++)
           packs.push(table.all_packs.shift());
 
         // add them all to the unused pile

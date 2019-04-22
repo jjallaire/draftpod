@@ -26,6 +26,7 @@ export default function() {
       multi_player: false,
       show_bot_colors: false,
       number_of_packs: 3,
+      sealed_number_of_packs: 6,
       deck_size: 40,
       deck_list_format: 'normal'
     },

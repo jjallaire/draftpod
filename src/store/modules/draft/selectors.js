@@ -29,6 +29,7 @@ export function draftFormat(draft) {
 export function draftOptions(draft) {
   return {
     number_of_packs: 3,
+    sealed_number_of_packs: 6,
     deck_size: 40,
     deck_list_format: 'normal',
     ...draft.options

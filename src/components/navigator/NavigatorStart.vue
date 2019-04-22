@@ -45,6 +45,7 @@ export default {
       format: 'draft',
       pick_timer: false,
       pick_ratings: false,
+      sealed_number_of_packs: 6,
       players: 'single',
       multi_player: {
         draft_id: null,
@@ -95,6 +96,7 @@ export default {
     this.format = this.preferences.format || 'draft';
     this.pick_timer = this.preferences.pick_timer;
     this.pick_ratings = this.preferences.pick_ratings;
+    this.sealed_number_of_packs = this.preferences.sealed_number_of_packs;
     this.multi_player.player_name = this.player.name;
     this.applySetPreferences();
   },
@@ -220,7 +222,8 @@ export default {
         cardpool: this.cardpool,
         format: this.format,
         pick_timer: this.pick_timer,
-        pick_ratings: this.pick_ratings
+        pick_ratings: this.pick_ratings,
+        sealed_number_of_packs: this.sealed_number_of_packs
       });
 
       // multiplayer info if we have it
@@ -252,10 +255,14 @@ export default {
                           "Please complete the details for the new cardpool and then click " +
                           "the <strong>Use Cardpool</strong> button to confirm you want to use it.");
           resolve(false);
-        }
+        } else if (!this.sealed_number_of_packs) {
 
+          messagebox.alert("Unable to Start",
+                           "Please enter the number of packs to include in each sealed pool.");
+          resolve(false);
+        
         // validation for multi-user drafts
-        else if (this.is_multi_player) {
+        } else if (this.is_multi_player) {
 
           if (!this.multi_player.draft_id) {
             messagebox.alert("Unable to Start", "Please wait for the game be created before starting it.");
@@ -292,7 +299,8 @@ export default {
         options: { 
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
-          multi_player: this.is_multi_player
+          multi_player: this.is_multi_player,
+          sealed_number_of_packs: this.sealed_number_of_packs
         }
       });
     },
@@ -396,7 +404,7 @@ export default {
           </div>
         </div>
       </div>
-      <div v-show="is_draft_format" class="form-group row">
+      <div class="form-group row">
         <label 
           for="draft-options" 
           class="col-sm-3 col-form-label"
@@ -407,7 +415,7 @@ export default {
           id="draft-options" 
           class="col-sm-8"
         >
-          <div class="form-check">
+          <div v-show="is_draft_format" class="form-check">
             <input 
               id="draft-timer" 
               v-model="pick_timer" 
@@ -425,7 +433,7 @@ export default {
               1 minute, 15 seconds for the first pick (5 seconds less for each pick thereafter).
             </small>
           </div>
-          <div class="form-check">
+          <div v-show="is_draft_format" class="form-check">
             <input 
               id="draft-analysis" 
               ref="provideCardRatings" 
@@ -443,6 +451,16 @@ export default {
             <small class="form-text text-muted">
               Optional display of ratings for the cards in the current pack.
             </small>
+          </div>
+          <div v-show="is_sealed_format">
+            <label for="sealed-number-of-packs">Number of packs:</label>
+            <input 
+              id="sealed-number-of-packs" 
+              v-model.number="sealed_number_of_packs" 
+              class="form-control" 
+              type="number" 
+              min="6"
+            >
           </div>
         </div>
       </div>
