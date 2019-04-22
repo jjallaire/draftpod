@@ -453,14 +453,31 @@ export default {
             </small>
           </div>
           <div v-show="is_sealed_format">
-            <label for="sealed-number-of-packs">Number of packs:</label>
-            <input 
+            <select 
               id="sealed-number-of-packs" 
               v-model.number="sealed_number_of_packs" 
               class="form-control" 
-              type="number" 
-              min="6"
+              :disabled="is_multi_player" 
             >
+              <option value="6">
+                6 Packs
+              </option>
+              <option value="8">
+                8 Packs
+              </option>
+              <option value="10">
+                10 Packs
+              </option>
+              <option value="12">
+                12 Packs
+              </option>
+              <option value="12">
+                18 Packs
+              </option>
+            </select>
+            <small class="form-text text-muted">
+              Number of packs to include in each player's sealed pool.
+            </small>
           </div>
         </div>
       </div>
