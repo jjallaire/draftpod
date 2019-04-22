@@ -1,10 +1,10 @@
-## Single-Player Drafts
+## Single-Player
 
 Single-player mode enables you to practice drafting in a simulated environment. Even though it doesn't afford you the opportunity to play games, you can still get valuable practice evaluating cards, reading signals, and building decks. It's also a great way to get to know a new set before drafting against real opponents.
 
 ### Getting Started
 
-To start a new single-player draft, go to the [Draft](/draft/) page, select the set you want to draft from, and click the **Start** button (it's fine to accept the defaults for the other options):
+To start a new single-player draft, go to the [Play](/play/) page, select the set you want to draft from, and click the **Start** button (it's fine to accept the defaults for the other options):
 
 <p>
 <img src="/images/guide/start-draft.png" width="100%" />

@@ -6,6 +6,7 @@ import SiteFooter from '../core/SiteFooter.vue'
 import WelcomeMd from './articles/welcome.md'
 import SinglePlayerMd from './articles/single-player.md'
 import MultiPlayerMd from './articles/multi-player.md'
+import SealedMd from './articles/sealed.md'
 import CardpoolsMd from './articles/cardpools.md'
 import FAQMd from './articles/faq.md'
 import PrivacyMd from './articles/privacy.md'
@@ -18,7 +19,7 @@ export default {
 
   components: {
     NavBar, SiteFooter, 
-    WelcomeMd, SinglePlayerMd, MultiPlayerMd, CardpoolsMd, FAQMd, PrivacyMd, Contact
+    WelcomeMd, SinglePlayerMd, MultiPlayerMd, SealedMd, CardpoolsMd, FAQMd, PrivacyMd, Contact
   },
 
   mounted() {
@@ -110,7 +111,7 @@ export default {
               aria-controls="single-player" 
               aria-selected="false"
             >
-              Single-Player Drafts
+              Single-Player
             </a>
             <a 
               id="multi-player-tab" 
@@ -121,7 +122,18 @@ export default {
               aria-controls="multi-player" 
               aria-selected="false"
             >
-              Multi-Player Drafts
+              Multi-Player
+            </a>
+            <a 
+              id="sealed-tab" 
+              class="nav-link" 
+              data-toggle="pill" 
+              href="#sealed" 
+              role="tab" 
+              aria-controls="sealed" 
+              aria-selected="false"
+            >
+              Sealed Deck
             </a>
             <a 
               id="cardpools-tab" 
@@ -132,7 +144,7 @@ export default {
               aria-controls="multi-player" 
               aria-selected="false"
             >
-              Draft Cardpools
+              Cardpools
             </a>
             <a 
               id="faq-tab" 
@@ -202,7 +214,15 @@ export default {
               <MultiPlayerMd />
             </div>
 
-          
+            <div 
+              id="sealed" 
+              class="tab-pane fade" 
+              role="tabpanel" 
+              aria-labelledby="sealed-tab"
+            >
+              <SealedMd />
+            </div>
+
             <div 
               id="cardpools" 
               class="tab-pane fade" 

@@ -337,7 +337,7 @@ export default {
               >
                 <p>
                   The cardpool file should either be a Decked Builder collection file (.coll2), or a CSV exported from Deckbox.org or 
-                  Decked Builder. See the article on <a href="/guide#cardpools/" target="_blank">Draft Cardpools</a>
+                  Decked Builder. See the article on <a href="/guide#cardpools/" target="_blank">Cardpools</a>
                   for additional details.
                 </p>
               </small>

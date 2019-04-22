@@ -1,4 +1,4 @@
-## Multi-Player Drafts
+## Multi-Player
 
 Multi-player mode enables you to conduct a simulated 8-person draft even when you have only have 2 or 3 actual players available. While there are other ways to draft with a small handful of players, they inevitably compromise on depth and quantity of available cards, so aren't nearly as rich in strategy (and fun!) as a full draft. Draftpod multi-player mode lets you draft with a friend or small group in a fashion that feels much more like a real 8-player draft.
 
@@ -8,13 +8,13 @@ To play using paper cards, you will need to [create a cube](/guide/#cardpools) f
 
 ### Drafting
 
-To start a new multi-player draft, go to the [Draft](/draft/) page, select the set you want to draft and the _cardpool_ you are drafting from (this is so that the packs built for the draft accurately reflect the cards you have available to play with): 
+To start a new multi-player draft, go to the [Play](/play/) page, select the set you want to draft and the _cardpool_ you are drafting from (this is so that the packs built for the draft accurately reflect the cards you have available to play with): 
 
 <p>
 <img src="/images/guide/multi-player-cardpool.png" width="100%" />
 </p>
 
-For playing with paper cards, see the [Draft Cardpools](/guide#cardpools/) article for additonal details on building a cardpool. If you are playing with MTG Arena, you'll typically want to specify 4x of commons and uncommons, and 1x of each rare and mythic.
+For playing with paper cards, see the [Cardpools](/guide#cardpools/) article for additonal details on building a cardpool. If you are playing with MTG Arena, you'll typically want to specify 4x of commons and uncommons, and 1x of each rare and mythic.
 
 Then, choose the **Multiple Players** option:
 
@@ -74,7 +74,7 @@ In order to draft online and then play with physical cards, Draftpod needs to kn
 
 You can use any set of Magic cards with Draftpod so long as they are from the same set and you have at least 384 of them (8 players x 3 boosters x 15 cards/booster).
 
-See the article on [Draft Cardpools](/guide#cardpools/) for more details on how to create a cardpool and register it for play on Draftpod.
+See the article on [Cardpools](/guide#cardpools/) for more details on how to create a cardpool and register it for play on Draftpod.
 
 ### Pick Timer
 

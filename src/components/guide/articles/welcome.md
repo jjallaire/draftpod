@@ -15,6 +15,10 @@ But what about playing at home on the kitchen table? What about getting together
 
 Draftpod provides a simulator that enables you to conduct drafts with 2 or 3 players, in which case simulated players (draft bots) take the other seats at the table. When the draft is complete, you use the resulting deck lists to either assemble decks from a paper set cube, or play games online using MTG Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ).
 
-Draftpod also includes a single-player mode that enables you to practice evaluating cards, reading signals, and building decks. Our hope is that Draftpod will provide a great way for 2, 3, or 4 players to draft without compromising on the depth of strategy and skill that makes drafting such a great gaming experience. We also hope it will be a valuable learning resource for players trying to improve their skills.
+Draftpod also includes a single-player mode that enables you to practice evaluating cards, reading signals, and building decks. 
 
-To get started with Draftpod, check out the articles on conducting [Single-Player Drafts](/guide/#single-player) and  [Multi-Player Drafts](/guide/#multi-player).
+Our hope is that Draftpod will provide a great way for 2, 3, or 4 players to draft without compromising on the depth of strategy and skill that makes drafting such a great gaming experience. We also hope it will be a valuable learning resource for players trying to improve their skills.
+
+If you want to use Draftpod for solo practice, check out the article on [Single-Player](/guide/#single-player) mode. If you want to use draftpod for simulated 8-player drafts, see the article on [Multi-Player](/guide/#multi-player) mode.
+
+Draftpod also supports sealed play (where each player builds a deck from a distinct set of 6 or more packs). Check out the article on [Sealed Deck](/guide/sealed/) format to learn more.

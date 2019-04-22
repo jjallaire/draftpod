@@ -1,9 +1,9 @@
 
-## Draft Cardpools
+## Cardpools
 
-For multi-player drafts where you play games in person, you'll need to specify exactly what paper _cardpool_ you are drafting from. This is so that the packs built for the draft accurately reflect the paper cards you have on hand. Once you've completed the draft, you will assemble decks for playing by pulling cards out of the cardpool. 
+For multi-player games where you play in person, you'll need to specify exactly what paper _cardpool_ you are drawing cards from. This is so that the simulated packs built by Draftpod accurately reflect the paper cards you have on hand. Once you've completed the draft or built your sealed deck, you will assemble decks for playing by pulling cards out of the cardpool. 
 
-This article covers selecting a set of cards to draft with, organizing them for play, and finally registering them with for use with Draftpod.
+This article covers selecting a set of cards to play with, organizing them, and finally registering them with for use with Draftpod.
 
 ### Selecting Cards 
 
