@@ -98,6 +98,10 @@ export default {
 
     can_download: function() {
       return !set.is_custom_cube(this.set.code) && this.is_draft_format;
+    },
+
+    click_move: function() {
+      return this.is_sealed_format;
     }
 
   },
@@ -157,6 +161,7 @@ export default {
         :piles="piles" 
         :number="number-1" 
         drag_source="DRAG_SOURCE_DECK"
+        :click_move="click_move"
       />
       <MtgCardPile 
         :key="5" 
@@ -164,6 +169,7 @@ export default {
         :number="5" 
         :caption="pile_caption('6+')" 
         drag_source="DRAG_SOURCE_DECK"
+        :click_move="click_move"
       />
       <div class="pile pile-separator" />
       <MtgCardPile 
@@ -172,6 +178,7 @@ export default {
         :piles="piles" 
         :number="12" 
         drag_source="DRAG_SOURCE_DECK"
+        :click_move="click_move"
       >
         <DeckLands 
           slot="controls" 
@@ -187,6 +194,7 @@ export default {
         class="deck-sideboard" 
         caption="Sideboard" 
         drag_source="DRAG_SOURCE_SIDEBOARD"
+        :click_move="click_move"
       >
         <div v-if="is_draft_format" slot="controls">
           <MtgCardPile 
@@ -210,6 +218,7 @@ export default {
         :piles="piles" 
         :number="number + 6 - 1" 
         drag_source="DRAG_SOURCE_DECK"
+        :click_move="click_move"
       />
     </div>
   </UiPanel>

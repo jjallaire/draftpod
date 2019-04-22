@@ -37,6 +37,10 @@ export default {
       type: String,
       default: "DRAG_SOURCE_PILE"
     },
+    click_move: {
+      type: Boolean,
+      default: false
+    },
     controls_offset: {
       type: Number,
       default: 0
@@ -284,6 +288,7 @@ export default {
       :card="card" 
       :drag_source="drag_source"
       :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}"
+      :click_move="click_move"
     />
     <div 
       :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 

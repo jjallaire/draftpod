@@ -41,7 +41,8 @@ export default {
     'setCardPreview',
     'touchDragManager',
     'unusedToDeck',
-    'deckToUnused'
+    'deckToUnused',
+    'cardInDeck'
   ],
   computed: {
     cardImageUris() {
@@ -94,7 +95,7 @@ export default {
     
     onClick() {
       if (this.click_move) {
-        if (this.checked)
+        if (this.cardInDeck(this.card))
           this.deckToUnused({ card: this.card });
         else
           this.unusedToDeck({ card: this.card })
