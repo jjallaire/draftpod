@@ -50,6 +50,7 @@ export function initializeStore() {
       format: 'draft',
       pick_timer: false,
       pick_ratings: false,
+      sealed_number_of_packs: 6,
       sets: {}
     },
     cardpools: {

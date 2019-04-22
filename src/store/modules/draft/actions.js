@@ -22,6 +22,7 @@ import { WRITE_TABLE, SET_CONNECTED, SET_WAITING, CLEAR_WAITING,
 
 import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
+import _sumBy from 'lodash/sumBy'
 
 import * as log from '@/core/log'
 import * as set from './set/'
@@ -383,17 +384,23 @@ function nextPack(set_code, options, table) {
 
 function distributeSealedPools(table, options) {
 
+  // determine number of non-ai players, use that to truncate the 
+  // sealed number of packs as necessary
+  let playerCount = _sumBy(table.players, player => Number(player.id !== null));
+  let maxPacksPerPlayer = table.all_packs.length / playerCount;
+  let packsPerPlayer = Math.min(options.sealed_number_of_packs, maxPacksPerPlayer);
+
   // iterate over non-ai players
   for (let i=0; i<table.players.length; i++) {
     let player = table.players[i];
     if (player.id !== null) {
 
       // ensure we have enough packs left
-      if (table.all_packs.length >= 6) {
+      if (table.all_packs.length >= packsPerPlayer) {
         
         // grab packs
         let packs = [];
-        for (let i = 0; i < options.sealed_number_of_packs; i++)
+        for (let i = 0; i < packsPerPlayer; i++)
           packs.push(table.all_packs.shift());
 
         // add them all to the unused pile
