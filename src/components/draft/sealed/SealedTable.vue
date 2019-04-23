@@ -8,6 +8,8 @@ Vue.use(VueHotkey);
 
 import _flatten from 'lodash/flatten'
 
+import jquery from 'jquery'
+
 import NavBar from '@/components/core/NavBar.vue'
 
 import TableCore from '../table/TableCore.js'
@@ -64,16 +66,19 @@ export default {
       return this.pool_sorted.slice(start, start + kCardsPerPage);
     },
 
+    is_filtered: function() {
+      return this.pool.length !== this.pool_filtered.length;
+    },
+
+    have_matching_cards() {
+      return this.pool_filtered.length > 0;
+    },
+
     page_caption: function() {
       let total = this.pool_filtered.length;
-      if (total > 0) {
-        let first = (this.page_index * kCardsPerPage) + 1;
-        let last = Math.min(first + kCardsPerPage - 1, total);
-        let filtered = (this.pool.length !== this.pool_filtered.length) ? ' (filtered)' : '';
-        return `${first}-${last} of ${total} cards${filtered}`;
-      } else {
-        return '(No matching cards)';
-      }
+      let first = (this.page_index * kCardsPerPage) + 1;
+      let last = Math.min(first + kCardsPerPage - 1, total);
+      return `${first}-${last} of ${total} Cards`;
     },
 
 
@@ -114,6 +119,12 @@ export default {
     onToggleCompactDeckPanel() {
       this.compact_deck_panel = !this.compact_deck_panel;
     },
+
+    onToggleFilterPopup(event) {
+      event.stopPropagation();
+      if (jquery('#filterMenuLink').next().is(":hidden"))
+        jquery('#filterMenuLink').dropdown('toggle');
+    }
    
   },
 
@@ -159,8 +170,13 @@ export default {
       <ul class="navbar-nav">
         <LeftIcon class="pager pager-left" title="Previous (Left Arrow)" @click.native="onPreviousClick" /> 
       </ul>
-      <span class="navbar-text pager-text">
-        {{ page_caption }} 
+      <span class="navbar-text pager-text" @click="onToggleFilterPopup">
+        <template v-if="have_matching_cards">
+          {{ page_caption }}<span v-if="is_filtered">&nbsp;<em>(Filtered)</em></span>
+        </template>
+        <template v-else>
+          (No matching cards)
+        </template>
       </span>
       <ul class="navbar-nav">
         <RightIcon class="pager pager-right" title="Next (Right Arrow)" @click.native="onNextClick" />
