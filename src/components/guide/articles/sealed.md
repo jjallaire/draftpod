@@ -1,6 +1,6 @@
 ## Sealed Deck
 
-[Sealed Deck](https://magic.wizards.com/en/game-info/gameplay/formats/sealed-deck) is another popular limited format. Sealed is the format used in MTG [Pre-Release](https://magic.wizards.com/en/event-types/prerelease) events, and is also used on Day 1 of [Grand Prix](https://magic.wizards.com/en/content/grand-prix-event-types-events) limited tournaments. Sealed was also used in the swiss rounds of [Pro Tour Qualifier](https://mtg.gamepedia.com/Pro_Tour_Qualifier) limited events.
+[Sealed Deck](https://magic.wizards.com/en/game-info/gameplay/formats/sealed-deck) is another popular limited format. Sealed is the format used in MTG [Pre-Release](https://magic.wizards.com/en/event-types/prerelease) events, and is also used on Day 1 of [Grand Prix](https://magic.wizards.com/en/content/grand-prix-event-types-events) limited tournaments. Sealed is also the format for swiss rounds of [Pro Tour Qualifier](https://mtg.gamepedia.com/Pro_Tour_Qualifier) limited events.
 
 Sealed typically provides 6 booster packs from which players build a 40-card deck. This provides a distinct challenge from booster draft, and often requires running 3 or more colors to maximize the number of strong playables in your deck. You can also play sealed with more than 6 packs (e.g. 10 or 12 packs), which enables you to build decks with a level of coherence and synergy comparable to the ones built in booster draft.
 

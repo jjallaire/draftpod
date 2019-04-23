@@ -21,4 +21,4 @@ Our hope is that Draftpod will provide a great way for 2, 3, or 4 players to dra
 
 If you want to use Draftpod for solo practice, check out the article on [Single-Player](/guide/#single-player) mode. If you want to use draftpod for simulated 8-player drafts, see the article on [Multi-Player](/guide/#multi-player) mode.
 
-Draftpod also supports sealed play (where each player builds a deck from a distinct set of 6 or more packs). Check out the article on [Sealed Deck](/guide/sealed/) format to learn more.
+Draftpod also supports sealed play (where each player builds a deck from a distinct set of 6 or more packs). Check out the article on [Sealed Deck](/guide#sealed/) format to learn more.
