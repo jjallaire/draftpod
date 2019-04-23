@@ -43,11 +43,27 @@ You'll often want to filter the cardpool so that e.g. only cards of certain colo
 
 ### Deck Building
 
+As illustrated above, as you select cards from your sealed pool for your deck, you will see them displayed in the bottom pane, arranged by converted mana cost. It is sometimes also useful to see a view of your deck with creature spells separated from non-creature spells. Click the button at the far right of the deck pane to see a full screen display of your deck:
 
-#### Compact vs. Full View
 
-#### View Decklist
+<p>
+<img src="/images/guide/sealed-fulldeck.png" width="100%" />
+</p>
 
+
+Once you've completed deck-building, click the **View Decklist** button to see a list of the cards in your deck and sideboard:
+
+<p>
+<img src="/images/guide/multi-player-decklist.png" width="100%" />
+</p>
+
+If you are playing with paper cards, you can then pull these cards from your cardpool and begin playing. Note that the decklist is presented in collector number order (i.e. by color, ordered alphabetically within each color). If you sort/store your cardpool in this order it only takes a couple of minutes to pull out the cards.
+
+If you are playing using MTG Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ), you should select **MTGA Format**, copy your decklist to the clipboard, then import it into MTGA before playing:
+
+<p>
+<img src="/images/guide/multi-player-decklist-arena.png" width="100%" />
+</p>
 
 
 
