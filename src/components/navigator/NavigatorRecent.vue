@@ -31,12 +31,15 @@ export default {
   computed: {
     ...mapGetters([
       'draft'
-    ])
+    ]),
+    format: function() {
+      return selectors.draftFormat(this.draft);
+    }
   },
 
   methods: {
     onDraftNavigate(draft_id) {
-      this.$router.push({ path: "/draft/" +  draft_id });
+      this.$router.push({ path: `/${this.format}/` +  draft_id });
     },
     deckSize(draft_id) {
       return selectors.draftOptions(this.draft(draft_id)).deck_size;

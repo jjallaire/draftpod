@@ -55,7 +55,7 @@ export default new VueRouter({
             else
               next();
           } else {
-            draftNotFound(next, draft_id);
+            gameNotFound(next, draft_id);
           }
         })
         .catch(error => {
@@ -77,89 +77,9 @@ export default new VueRouter({
         });
       }
     },
-    { path: '/draft/:draft_id/not-found', component: DraftNotFoundPage, props: true },
-    { path: '/draft/:draft_id', component: DraftTable, props: true, 
-      beforeEnter: (to, from, next) => {
-        
-        // if the draft exists
-        let draft_id = to.params.draft_id;
-        if (draft_id in store.state.drafts) {
-
-          // bind draft module
-          useDraftModule(draft_id, { preserveState: true });
-
-          // check if this is draft or sealed
-          let format = selectors.draftFormat(store.state.drafts[draft_id]);
-          let sealed = format === 'sealed';
-
-          // helper to advance to the appropriate next page
-          const nextPage = () => {
-            if (sealed)
-              next(`/sealed/${draft_id}`)
-            else
-              next();
-          };
-
-          // sync from firestore if this is a multi-player draft
-          if (store.state.drafts[draft_id].options.multi_player) {
-
-            progress.start(350);
-            firestore.getDraft(draft_id).then(draft => {
-              
-              // sync draft to local store if it was found
-              if (draft)
-                store.commit(SET_DRAFT, { draft_id, draft });
-
-              // convert any draft not found to single player, also
-              // convert type=sealed to single player (as no coordination
-              // is needed between players in sealed mode
-              if (!draft || sealed) {
-                store.commit("drafts/" + draft_id + "/" + CONVERT_TO_SINGLE_PLAYER, { 
-                  player_id: store.state.player.id
-                });
-              }
-
-              // advance to the appropriate page
-              nextPage();
-              
-            })
-            .catch(error => {
-              // log error
-              if (shouldLogError(error))
-                log.logException(error, "onGetDraftBeforeDraft");
-
-              // set the router error so the table page can display it
-              store.commit(SET_FIREBASE_ERROR, error);
-
-              // on to page
-              next();
-            })
-            .finally(() => {
-              progress.stop();
-            });
-           
-          // single player draft, proceed without syncing
-          } else {
-            nextPage();
-          }
-
-        // draft doesn't exist so navigate to the draft not found page
-        } else {
-          draftNotFound(next, draft_id);
-        }
-      } 
-    },
-    { path: '/sealed/:draft_id', component: SealedTable, props: true,
-      beforeEnter: (to, from, next) => {
-        let draft_id = to.params.draft_id;
-        if (draft_id in store.state.drafts) {
-          useDraftModule(draft_id, { preserveState: true });
-          next();
-        } else {
-          draftNotFound(next, draft_id);
-        }
-      }
-    },
+    { path: '/not-found/:draft_id', component: DraftNotFoundPage, props: true },
+    { path: '/draft/:draft_id', component: DraftTable, props: true, beforeEnter: beforeEnterGame('draft') },
+    { path: '/sealed/:draft_id', component: SealedTable, props: true, beforeEnter: beforeEnterGame('sealed') },
     { path: '/guide/', component: GuidePage },
     { path: '/simulator/', component: SimulatorPage },
     { path: '/sealedpool/', component: SealedPoolPage },
@@ -175,9 +95,70 @@ export default new VueRouter({
   },
 });
 
+function beforeEnterGame(format) {
 
-function draftNotFound(next, draft_id) {
-  next("/draft/" + draft_id + "/not-found"); 
+  return (to, from, next) => {
+    // if the draft exists
+    let draft_id = to.params.draft_id;
+    if (draft_id in store.state.drafts) {
+
+      // bind draft module
+      useDraftModule(draft_id, { preserveState: true });
+
+      // sync from firestore if this is a multi-player draft
+      if (store.state.drafts[draft_id].options.multi_player) {
+
+        progress.start(350);
+        firestore.getDraft(draft_id).then(draft => {
+          
+          // sync draft to local store if it was found
+          if (draft)
+            store.commit(SET_DRAFT, { draft_id, draft });
+
+          // convert any draft not found to single player, also
+          // convert format=sealed to single player (as no coordination
+          // is needed between players in sealed mode)
+          let sealed = format === 'sealed';
+          if (!draft || sealed) {
+            store.commit("drafts/" + draft_id + "/" + CONVERT_TO_SINGLE_PLAYER, { 
+              player_id: store.state.player.id
+            });
+          }
+
+          // advance to the appropriate page
+          next();
+          
+        })
+        .catch(error => {
+          // log error
+          if (shouldLogError(error))
+            log.logException(error, "onGetDraftBeforeDraft");
+
+          // set the router error so the table page can display it
+          store.commit(SET_FIREBASE_ERROR, error);
+
+          // on to page
+          next();
+        })
+        .finally(() => {
+          progress.stop();
+        });
+        
+      // single player, proceed without syncing
+      } else {
+        next();
+      }
+
+    // game doesn't exist so navigate to the not found page
+    } else {
+      gameNotFound(next, draft_id);
+    }
+  };
+}
+
+
+function gameNotFound(next, draft_id) {
+  next("/not-found/" + draft_id); 
 }
 
 function shouldLogError(error) {

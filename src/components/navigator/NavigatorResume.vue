@@ -61,7 +61,7 @@ export default {
  
   methods: {
     onResumeDraft: function() {
-      this.$router.push({ path: "/draft/" + this.draft_id });
+      this.$router.push({ path: `/${this.draft.format}/` + this.draft_id });
     }
   },
 

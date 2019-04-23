@@ -14,33 +14,26 @@ export default {
       type: String,
       required: true
     }
-  },
-
-  computed: {
-    draft_url: function() {
-      return window.location.protocol + "//" + window.location.host + 
-             "/draft/" + this.draft_id;
-    }
-  },
+  }
 }
 
 </script>
 
 <template>
-  <ErrorPage title="Draft Not Found">
-    <h5>The requested draft was not found.</h5>
+  <ErrorPage title="Game Not Found">
+    <h5>The requested game was not found.</h5>
     <br>
     <p>
-      The draft URL you requested (<a :href="draft_url">{{ draft_url }}</a>) may not refer to a valid draft.
+      The game ID you requested (<em>{{ draft_id }}</em>) may not be valid.
     </p>
 
     <p>
-      This error also may have occurred because the draft you are requesting belongs to another player (Draftpod URLs cannot be shared 
+      This error may have occurred because the game you are requesting belongs to another player (Draftpod URLs cannot be shared 
       between different players).
     </p>
     <p>
-      Another possibility is that draft is no longer available in your history (Draftpod only saves
-      your last 10 drafts).
+      Another possibility is that the game is no longer available in your history (Draftpod only saves
+      your last 10 games).
     </p>
   </ErrorPage>
 </template>

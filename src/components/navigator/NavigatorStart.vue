@@ -195,7 +195,7 @@ export default {
         this.multi_player.draft_id, 
         table => {
           if (selectors.isStarted(table))
-            this.$router.push({ path: "/draft/" + this.multi_player.draft_id });
+            this.$router.push({ path: `/${this.format}/` + this.multi_player.draft_id });
           else
             this.writeTable({ table });
         });
@@ -241,7 +241,7 @@ export default {
       // navivate to it for single-player mode (in multi-player mode
       // we wait for the commit to propagage all the way through)
       if (!this.is_multi_player) {
-        this.$router.push({ path: "/draft/" + draft_id });
+        this.$router.push({ path: `/${this.format}/` + draft_id });
       }
     },
 

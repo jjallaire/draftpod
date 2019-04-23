@@ -124,7 +124,7 @@ export default {
     if (this.is_available) {
       this.firestoreUnsubscribe = firestore.onDraftTableChanged(this.draft_id, table => {
         if (selectors.isStarted(table))
-          this.$router.push({ path: "/draft/" +  this.draft_id });
+          this.$router.push({ path: `/${this.format}/` +  this.draft_id });
         else
           this.writeTable({ table });
       });

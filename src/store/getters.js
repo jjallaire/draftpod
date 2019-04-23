@@ -36,6 +36,7 @@ export default {
 
           return {
             id: id,
+            format: selectors.draftFormat(draft),
             start_time: draft.table.start_time,
             set_code: draft.set.code,
             set_name: draft.set.name,
