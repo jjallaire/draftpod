@@ -22,23 +22,23 @@ export default {
 
   booster(selectCards) {
 
-     // allocate rares and uncommons
-     let rares_and_uncommons = [].concat(
-      selectCards(booster.packRareSlot, 1),
-      selectCards(booster.uncommon, 3)
-    );
+    // allocate rares
+    let rares = [].concat(selectCards(booster.packRareSlot, 1));
 
-    // if there is no planeswalker then fill in planeswalker slot
-    if (rares_and_uncommons.filter(plainswalker).length === 0) {
-      rares_and_uncommons.pop();
-      rares_and_uncommons.push(
-        selectCards([filters.join(planeswalkerUncommon, filters.notOneOf(rares_and_uncommons))]
-                     .concat(booster.uncommon), 1)[0]
-      );
+    // add uncommon plainswalker if we don't have a rare one
+    let uncommons = [];
+    if (rares.filter(plainswalker).length === 0) {
+      uncommons.push(selectCards(planeswalkerUncommon, 1)[0]);
     }
+
+    // fill in uncommons
+    uncommons = uncommons.concat(
+      selectCards([filters.join(filters.uncommon, notPlaneswalker)].concat(booster.uncommon), 3 - uncommons.length)
+    );  
   
     return [].concat(
-      rares_and_uncommons,
+      rares,
+      uncommons,
       selectCards(booster.common, 11)
     );
   },
@@ -50,8 +50,14 @@ function plainswalker(card) {
          card.type_line.startsWith("Planeswalker");
 }
 
+function notPlaneswalker(card) {
+  return !plainswalker(card);
+}
+
+
 function planeswalkerUncommon(card) {
   return (plainswalker(card) && filters.uncommon(card));
 }
+
 
 
