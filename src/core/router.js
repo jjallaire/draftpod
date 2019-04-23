@@ -30,7 +30,7 @@ export default new VueRouter({
   routes: [
     { path: '/', component: HomePage },
     { path: '/play/', component: NavigatorPage },
-    { path: '/draft/:draft_id/join', component: JoinPage, props: true,
+    { path: '/join/:draft_id', component: JoinPage, props: true,
       beforeEnter: (to, from, next) => {
 
         // alias ids

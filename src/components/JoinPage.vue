@@ -74,7 +74,19 @@ export default {
     },
 
     max_players: function() {
-      return this.format === 'draft' ? 8 : (this.draft.table.all_packs.length / 6);
+      return this.is_draft_format ? 8 : (this.draft.table.all_packs.length / 6);
+    },
+
+    is_draft_format: function() {
+      return this.format === 'draft';
+    },
+
+    is_sealed_format: function() {
+      return this.format === 'sealed';
+    },
+
+    event_name: function() {
+      return this.is_draft_format ? 'Draft' : 'Sealed';
     },
 
     is_full: function() {
@@ -192,7 +204,7 @@ export default {
             </div>
 
             <div v-else-if="draft_exists">
-              <h3>{{ set_name }} Draft</h3>
+              <h3>{{ set_name }} {{ event_name }}</h3>
   
               <p>
                 <span v-if="host_player">
@@ -201,7 +213,7 @@ export default {
                 <span v-else>
                   You have been invited
                 </span>
-                to join a {{ set_name }} game.
+                to join a game.
               </p>
 
               <div v-if="is_started">
@@ -238,7 +250,7 @@ export default {
                   class="btn btn-success col-sm-3" 
                   @click="onJoinDraft"
                 >
-                  Join Draft
+                  Join
                 </button>
               </div>
 
@@ -251,7 +263,7 @@ export default {
                   :circle-size="12"
                   color="#aaa"
                 /> 
-                <div>Waiting for draft to start...</div> 
+                <div>Waiting for game to start...</div> 
               </div>
   
               <MultiplayerPlayers :players="multi_players" />
@@ -262,7 +274,7 @@ export default {
               class="no-draft-found"
             >
               <div class="alert alert-warning">
-                The draft you were invited to could not be found.
+                The game you were invited to could not be found.
               </div>
             </div>
           </div>

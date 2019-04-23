@@ -36,8 +36,8 @@ export default {
 
   computed: {
     join_url: function() {
-      return window.location.origin + "/draft/" + 
-             this.inputVal.draft_id + "/join";
+      return window.location.origin + "/join/" + 
+             this.inputVal.draft_id;
     },
 
   },
