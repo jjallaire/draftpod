@@ -6,6 +6,7 @@ import LocalForage from 'localforage'
 import MobileDetect from 'mobile-detect'
 
 import _merge from 'lodash/merge'
+import _omitBy from 'lodash/omitBy'
 
 import getters from './getters'
 import mutations from './mutations'
@@ -100,7 +101,12 @@ export function initializeStore() {
       let drafts = {};
       let unserializers = [];
       if (savedState.drafts) {
-        unserializers = Object.keys(savedState.drafts).map(draft_id => {
+
+        // purge orphaned drafts
+        savedState.drafts = _omitBy(savedState.drafts, draft => draft.table.start_time === null);
+      
+        // unserialize    
+        unserializers = Object.keys(savedState.drafts).map(draft_id => {  
           let draft = savedState.drafts[draft_id];
           return serializer.unserializeDraftTable(draft, false).then(table => {
               drafts[draft.id] = {
