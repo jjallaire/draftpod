@@ -10,11 +10,15 @@ export default {
 
   pack_cards: () => 15,
 
-  capabilities: {
-    custom_cardpool: false
-  },
-
   cube: cube.build,
+
+  card_id_filter: function(id) {
+    // convert temporariy decked builder ids to mvid
+    if (id >= 1235671 && id <= 1235934)
+      id = 460928 + (id - 1235671);
+   
+    return id;
+  },
 
   booster(selectCards) {
 
