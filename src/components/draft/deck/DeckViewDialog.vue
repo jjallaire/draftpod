@@ -73,7 +73,7 @@ export default {
     // setup arena 60 popover
     jquery('#arena-convert-help-popover').popover({
       trigger: 'hover',
-      content: 'MTG Arena decklists produced by Draftpod automatically expand your 40 card deck ' +
+      content: 'MTG Arena decklists automatically expand your 40 card deck ' +
                'to 60 cards. For example, if you have 23 non-lands in your deck, 13 ' + 
                'of them (selected at random) will be duplicated so that you end up with 36 non-lands. ' + 
                'Note that the ratio between creatures and non-creatures in your deck will be preserved.'

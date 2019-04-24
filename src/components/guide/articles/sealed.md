@@ -4,7 +4,7 @@
 
 Sealed typically provides 6 booster packs from which players build a 40-card deck. This provides a distinct challenge from booster draft, and often requires running 3 or more colors to maximize the number of strong playables in your deck. You can also play sealed with more than 6 packs (e.g. 10 or 12 packs), which enables you to build decks with a level of coherence and synergy comparable to the ones built in booster draft.
 
-Draftpod sealed deck mode also supports multiple players, which is a great way to get replay value out of a booster box (keep creating virtual sealed pools from the cards opened in the booster box) or to use MTG Arena Direct Challenge with a fresh deck building challenge every time you play.
+Sealed deck mode also supports multiple players, which is a great way to get replay value out of a booster box (keep creating virtual sealed pools from the cards opened in the booster box) or to use MTG Arena Direct Challenge with a fresh deck building challenge every time you play.
 
 ### Getting Started
 

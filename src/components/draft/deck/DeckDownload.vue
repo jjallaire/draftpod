@@ -65,7 +65,7 @@ enable you to publish your draft log and deck list:
         zip.file("README.txt", README);
         return zip.generateAsync({type:"blob"});
       }).then(blob => {
-        saveAs(blob, "Draftpod - " + draftName + ".zip");
+        saveAs(blob, draftName + ".zip");
       });
 
       event.target.blur();

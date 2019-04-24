@@ -28,12 +28,11 @@ export default {
     </p>
 
     <p>
-      This error may have occurred because the game you are requesting belongs to another player (Draftpod URLs cannot be shared 
+      This error may have occurred because the game you are requesting belongs to another player (game URLs cannot be shared 
       between different players).
     </p>
     <p>
-      Another possibility is that the game is no longer available in your history (Draftpod only saves
-      your last 10 games).
+      Another possibility is that the game is no longer available in your history (only your last 10 games are saved).
     </p>
   </ErrorPage>
 </template>

@@ -25,7 +25,7 @@ export default {
 <template>
   <div class="firebase-error">
     <h2>Connection Error</h2>
-    <h5>An error occurred while attempting to connect to the Draftpod server:</h5> 
+    <h5>An error occurred while attempting to connect to the server:</h5> 
     <div class="alert alert-primary">
       <p>{{ error.name }} ({{ error.code }})</p>
       <p>{{ error.message }}</p>

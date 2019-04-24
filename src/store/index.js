@@ -30,9 +30,9 @@ let driver = md.os() === "iOS" ?
 // Initialize LocalForage
 LocalForage.config({
   driver      : driver,
-  name        : 'Draftpod',
+  name        : 'mtglimited.io',
   version     : 1.0,
-  storeName   : 'draftpod'
+  storeName   : 'mtglimited'
 });
 
 

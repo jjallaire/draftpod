@@ -10,7 +10,7 @@
         to="/play/" 
         exact
       >
-        Draftpod
+        mtglimited.io
       </router-link>
     </span>
     

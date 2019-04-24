@@ -19,7 +19,7 @@ export default {
     </p>
    
     <p class="small">
-      &copy; 2019 Draftpod. All rights reserved.
+      &copy; 2019 mtglimited.io. All rights reserved.
       <span class="footer-links">
         <a href="/guide#welcome/">About</a>
         <a href="/guide#faq/">FAQ</a>

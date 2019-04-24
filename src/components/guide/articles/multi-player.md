@@ -1,6 +1,6 @@
 ## Multi-Player
 
-Multi-player mode enables you to conduct a simulated 8-person draft even when you have only have 2 or 3 actual players available. While there are other ways to draft with a small handful of players, they inevitably compromise on depth and quantity of available cards, so aren't nearly as rich in strategy (and fun!) as a full draft. Draftpod multi-player mode lets you draft with a friend or small group in a fashion that feels much more like a real 8-player draft.
+Multi-player mode enables you to conduct a simulated 8-person draft even when you have only have 2 or 3 actual players available. While there are other ways to draft with a small handful of players, they inevitably compromise on depth and quantity of available cards, so aren't nearly as rich in strategy (and fun!) as a full draft. Multi-player mode lets you draft with a friend or small group in a fashion that feels much more like a real 8-player draft.
 
 In multi-player mode you conduct the draft online (along with draft bots that fill in an 8 person table), and then use the resulting deck lists to either assemble decks from a paper set cube, or play games online using MTG Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ).
 
@@ -24,7 +24,7 @@ Then, choose the **Multiple Players** option:
 
 Finally, copy the provided URL and send it to the other players you'd like to have join. 
 
-Players should use a desktop, laptop or tablet rather than a mobile phone (since phones don't generally have large enough screens to accommodate the Draftpod UI).
+Players should use a desktop, laptop or tablet rather than a mobile phone (since phones don't generally have large enough screens to accommodate the UI).
 
 When a player joins, their name will appear in the players list. Once all of the players have joined, click **Start** to begin.
 
@@ -48,7 +48,7 @@ If you are playing using MTG Arena [Direct Challenge](https://mtgarena-support.w
 
 ### Playing on Arena
 
-To play games on MTG Arena, you will need to have a reasonably complete collection of cards (and/or available wildcards) for the set you are drafting from. If you play and draft frequently on Arena, it's likely that your collection is already complete enough to play with Draftpod.
+To play games on MTG Arena, you will need to have a reasonably complete collection of cards (and/or available wildcards) for the set you are drafting from. If you play and draft frequently on Arena, it's likely that your collection is already complete enough.
 
 Once you've copied your MTG Arena decklist to the clipboard, you can import it into Arena. You can do this in the **Decks** area of Arena (the **Import** button is at the bottom-left of the screen and will automatically import whatever deck is on the clipboard):
 
@@ -60,11 +60,11 @@ Once you've copied your MTG Arena decklist to the clipboard, you can import it i
 
 MTG Arena games should be initiated using the [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ) feature, which supports both best of 1 and best of 3 matches.
 
-Note that Direct Challenge requires 60 card decks, whereas in Draftpod you build 40 card decks. To bridge this gap, MTG Arena decklists produced by Draftpod automatically expand your 40 card deck to 60 cards. For example, if you have 23 non-lands in your deck, 13 of them (selected at random) will be duplicated so that you end up with 36 non-lands. Note that the ratio between creatures and non-creatures in your deck will be preserved.
+Note that Direct Challenge requires 60 card decks, whereas limited decks are 40 cards. To bridge this gap, MTG Arena decklists automatically expand your 40 card draft or sealed deck to 60 cards. For example, if you have 23 non-lands in your deck, 13 of them (selected at random) will be duplicated so that you end up with 36 non-lands. Note that the ratio between creatures and non-creatures in your deck will be preserved.
 
 ### Playing in Person
 
-In order to draft online and then play with physical cards, Draftpod needs to know exactly which cards you have in your cardpool. There are a number of approaches to building cardpools, including:
+In order to draft online and then play with physical cards, you need to specify exactly which cards you have in your cardpool. There are a number of approaches to building cardpools, including:
 
 1. Including every card in the set (for example, 3 of each common, 2 of each uncommon, and 1 of each rare and mythic rare). This provides for great variety but it can be challenging to collect a complete set!
 
@@ -72,19 +72,19 @@ In order to draft online and then play with physical cards, Draftpod needs to kn
 
 3. Creating a card pool from a smaller inventory of cards (e.g. a single booster box). This results in less variety but still enough so to preserve the fun and challenge of booster draft.
 
-You can use any set of Magic cards with Draftpod so long as they are from the same set and you have at least 384 of them (8 players x 3 boosters x 15 cards/booster).
+You can use any set of Magic cards so long as they are from the same set and you have at least 384 of them (8 players x 3 boosters x 15 cards/booster).
 
-See the article on [Cardpools](/guide#cardpools/) for more details on how to create a cardpool and register it for play on Draftpod.
+See the article on [Cardpools](/guide#cardpools/) for more details on how to create a cardpool and register it for play.
 
 ### Pick Timer
 
-In a multi-player draft it's sometimes desirable to apply a time limit for each pick to ensure that players aren't waiting an inordinate amount of time for packs. You can enable a pick timer in Draftpod when creating a new draft:
+In a multi-player draft it's sometimes desirable to apply a time limit for each pick to ensure that players aren't waiting an inordinate amount of time for packs. You can enable a pick timer when creating a new draft:
 
 <p>
 <img src="/images/guide/pick-timer.png" width="100%" />
 </p>
 
-The time limit will be 1 minute, 15 seconds for the first pick in each pack, and then 5 seconds less for each pick thereafter. If the pick timer expires then the Draftpod bot logic will be used to automatically make a pick.
+The time limit will be 1 minute, 15 seconds for the first pick in each pack, and then 5 seconds less for each pick thereafter. If the pick timer expires then the default draft bot logic will be used to automatically make a pick.
 
 ### Players at the Table
 

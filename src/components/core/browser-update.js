@@ -9,7 +9,7 @@ Vue.use(VueBrowserUpdate, {
     required: { e:-2, f:-5, o:-3, s:11, c:-5 },
     reminder: 0,
     noclose: true,
-    text: "Your browser, {brow_name}, is too old to run Draftpod. &nbsp; &nbsp; <a{up_but}>Update Browser</a> <a{ignore_but}>Ignore</a>"
+    text: "Your browser, {brow_name}, is too old to view this website. &nbsp; &nbsp; <a{up_but}>Update Browser</a> <a{ignore_but}>Ignore</a>"
   },
 });
 
