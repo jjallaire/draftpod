@@ -85,7 +85,7 @@ export default {
 }
 
 .home-content .jumbotron .display-3 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 4.7rem;
 }
 
