@@ -32,17 +32,18 @@ export default {
     ...mapGetters([
       'draft'
     ]),
-    format: function() {
-      return selectors.draftFormat(this.draft);
-    }
   },
 
   methods: {
     onDraftNavigate(draft_id) {
-      this.$router.push({ path: `/${this.format}/` +  draft_id });
+      let format = this.draft(draft_id).format;
+      this.$router.push({ path: `/${format}/` +  draft_id });
     },
     deckSize(draft_id) {
       return selectors.draftOptions(this.draft(draft_id)).deck_size;
+    },
+    formatCaption(format) {
+      return format === 'draft' ? 'Draft' : 'Sealed';
     }
   },
 
@@ -65,7 +66,7 @@ export default {
         class="row align-items-center"
         @click="onDraftNavigate(draft.id)"
       >
-        <div class="col-md-4">
+        <div class="col-md-3">
           <span class="set-name">
             {{ draft.set_name }}
           </span>
@@ -77,7 +78,12 @@ export default {
             :color="color"
           />
         </div>
-        <div class="col-md-3 text-muted">
+        <div class="col-md-2 text-muted">
+          <span>
+            {{ formatCaption(draft.format) }}
+          </span>
+        </div>
+        <div class="col-md-2 text-muted">
           <span v-if="draft.picks_complete">
             Deck: {{ draft.deck_total_cards }} / {{ deckSize(draft.id) }}
           </span>
