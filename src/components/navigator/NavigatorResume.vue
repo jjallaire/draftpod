@@ -35,6 +35,12 @@ export default {
     options: function() {
       return selectors.draftOptions(this.draft);
     },
+    format: function() {
+      return selectors.draftFormat(this.draft);
+    },
+    format_caption: function() {
+      return this.format === 'draft' ? 'Booster Draft' : 'Sealed Deck'
+    },
     active_player: function() {
       return selectors.activePlayer(this.player.id, this.draft.table);
     },
@@ -77,6 +83,7 @@ export default {
     <div class="row">
       <div class="col-sm-4 col-lg-3">
         <h4>{{ draft.set.name }}</h4>
+        {{ format_caption }}
         <p>
           <span v-if="picks_complete">
             Deck: {{ deck_total_cards }} / {{ options.deck_size }}
@@ -121,7 +128,7 @@ export default {
 <style>
 
 .resume-draft .resume-button {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .resume-draft .mana-curve {
