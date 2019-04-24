@@ -162,7 +162,7 @@ export default {
 
 .mtgcard .mtgcard-check {
   position: absolute; 
-  top: 1px; 
+  top: -10px; 
   left: 0; 
   right: 0; 
   text-align: center;
