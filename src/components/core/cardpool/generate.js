@@ -16,7 +16,7 @@ export function generateCardpool(set_code, cardpool) {
         
         // lookup named cardpool
         let custom = cardpool.replace(CARDPOOL.CUSTOM, '');
-        let cardpool_cards = store.getters.cardpools[set_code][custom].cards;
+        let cardpool_cards = store.getters.cardpool(set_code,custom).cards;
         cardpool = [];
         cardpool_cards.forEach((cardpool_card) => {
           let card = set_cards.find((set_card) => set_card.id === cardpool_card.id);
