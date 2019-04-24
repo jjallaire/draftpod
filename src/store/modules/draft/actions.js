@@ -426,15 +426,14 @@ function makePick(player_index, set_code, options, table, pile_number, card, ins
   let piles = player.picks.piles;
   let pack = player.packs[0];
 
-  // if the pile_number is null then choose the least populated pile
-  // of the first 6 pile
+  // if the pile_number is null then arrange by cmc
   if (pile_number === null) {
-    pile_number = piles.slice(0, 6).reduce((shortestPileIndex, pile, index) => {
-      if (pile.length < piles[shortestPileIndex].length)
-        return index;
-      else
-        return shortestPileIndex;
-    }, 0);
+    if (card.cmc <= 1)
+      pile_number = 0;
+    else if (card.cmc >= 7)
+      pile_number = 6;
+    else
+      pile_number = card.cmc - 1;
   }
 
   // remove from pack

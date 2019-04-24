@@ -33,6 +33,7 @@ export default {
         :key="card.key" 
         :card="card" 
         :drag_source="drag_source"
+        :click_move="true"
       />
     </div>
     <div 

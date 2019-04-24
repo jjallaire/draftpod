@@ -42,7 +42,8 @@ export default {
     'touchDragManager',
     'unusedToDeck',
     'deckToUnused',
-    'cardInDeck'
+    'cardInDeck',
+    'packToPick'
   ],
   computed: {
     cardImageUris() {
@@ -95,10 +96,14 @@ export default {
     
     onClick() {
       if (this.click_move) {
-        if (this.cardInDeck(this.card))
-          this.deckToUnused({ card: this.card });
-        else
-          this.unusedToDeck({ card: this.card })
+        if (this.drag_source === "DRAG_SOURCE_PACK") {
+          this.packToPick({ card: this.card, pile_number: null, insertBefore: null });
+        } else {
+          if (this.cardInDeck(this.card))
+            this.deckToUnused({ card: this.card });
+          else
+            this.unusedToDeck({ card: this.card })
+        }
       }
     },
 
