@@ -391,13 +391,13 @@ export default {
         </label>
         <div id="draft-format" class="col-sm-8">
           <div class="form-check form-check-inline">
-            <input id="draft-format-draft" v-model="format" class="form-check-input" type="radio" value="draft" checked>
+            <input id="draft-format-draft" v-model="format" class="form-check-input" type="radio" value="draft" :disabled="is_multi_player">
             <label class="form-check-label" for="draft-format-draft">
               Booster Draft
             </label>
           </div>
           <div class="form-check form-check-inline">
-            <input id="draft-format-sealed" v-model="format" class="form-check-input" type="radio" value="sealed">
+            <input id="draft-format-sealed" v-model="format" class="form-check-input" type="radio" value="sealed" :disabled="is_multi_player">
             <label class="form-check-label" for="draft-format-sealed">
               Sealed Deck
             </label>
