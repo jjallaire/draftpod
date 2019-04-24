@@ -23,13 +23,13 @@ export default {
 
     // add uncommon plainswalker if we don't have a rare one
     let uncommons = [];
-    if (rares.filter(plainswalker).length === 0) {
+    if (rares.filter(planeswalker).length === 0) {
       uncommons.push(selectCards(planeswalkerUncommon, 1)[0]);
     }
 
     // fill in uncommons
     uncommons = uncommons.concat(
-      selectCards([filters.join(filters.uncommon, notPlaneswalker)].concat(booster.uncommon), 3 - uncommons.length)
+      selectCards([uncommonNotPlainswalker].concat(booster.uncommon), 3 - uncommons.length)
     );  
   
     return [].concat(
@@ -41,19 +41,22 @@ export default {
 }
 
 
-function plainswalker(card) {
+function planeswalker(card) {
   return card.type_line.startsWith("Legendary Planeswalker") ||
          card.type_line.startsWith("Planeswalker");
 }
 
 function notPlaneswalker(card) {
-  return !plainswalker(card);
+  return !planeswalker(card);
 }
 
 
 function planeswalkerUncommon(card) {
-  return (plainswalker(card) && filters.uncommon(card));
+  return planeswalker(card) && filters.uncommon(card);
 }
 
+function uncommonNotPlainswalker(card) {
+  return filters.uncommon(card) && notPlaneswalker(card);
+}
 
 
