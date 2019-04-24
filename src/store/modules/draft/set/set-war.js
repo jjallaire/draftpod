@@ -4,8 +4,6 @@ import * as cube from './cube'
 import * as booster from './booster'
 import * as filters from '../card-filters'
 
-import { CARDPOOL } from '../../../constants'
-
 export default {
 
   name: "War of the Spark",
@@ -17,8 +15,6 @@ export default {
   },
 
   cube: cube.build,
-
-  default_cube: CARDPOOL.CUBE + '4/2/1/1',
 
   booster(selectCards) {
 

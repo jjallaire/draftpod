@@ -29,7 +29,7 @@ let driver = md.os() === "iOS" ?
 // Initialize LocalForage
 LocalForage.config({
   driver      : driver,
-  name        : 'DraftpodWarOfTheSpark',
+  name        : 'Draftpod',
   version     : 1.0,
   storeName   : 'draftpod'
 });

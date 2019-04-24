@@ -96,7 +96,7 @@ export default {
     this.format = this.preferences.format || 'draft';
     this.pick_timer = this.preferences.pick_timer;
     this.pick_ratings = this.preferences.pick_ratings;
-    this.sealed_number_of_packs = this.preferences.sealed_number_of_packs;
+    this.sealed_number_of_packs = this.preferences.sealed_number_of_packs || 6;
     this.multi_player.player_name = this.player.name;
     this.applySetPreferences();
   },
