@@ -1,5 +1,11 @@
 
-export default {
+module.exports = {
+
+  site: {
+    title: 'mtglimited.net',
+    url: 'https://mtglimited.net/',
+    twitter: 'https://twitter.com/DraftpodMTG'
+  },
 
   ga: {
     id: "UA-134148899-1"

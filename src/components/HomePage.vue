@@ -3,11 +3,19 @@
 import NavBar from './core/NavBar.vue'
 import SiteFooter from './core/SiteFooter.vue'
 
+import config from '@/config'
+
 export default {
   name: 'HomePage',
 
   components: {
     NavBar, SiteFooter
+  },
+
+  data: function() {
+    return {
+      site: config.site
+    }
   }
 }
 
@@ -21,7 +29,7 @@ export default {
       <div class="home-content">
         <div class="jumbotron ">
           <h1 class="display-3">
-            mtglimited.net
+            {{ site.title }}
           </h1>
           <h3>Draft and sealed simulator for MTG</h3>
 

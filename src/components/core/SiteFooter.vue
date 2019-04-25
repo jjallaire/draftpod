@@ -2,9 +2,17 @@
 
 <script>
 
+import config from '@/config'
 
 export default {
   name: 'SiteFooter',
+
+  data: function() {
+    return {
+      site: config.site
+    }
+  }
+  
 }
 
 </script>
@@ -19,13 +27,13 @@ export default {
     </p>
    
     <p class="small">
-      &copy; 2019 mtglimited.net. All rights reserved.
+      &copy; 2019 {{ site.title }}. All rights reserved.
       <span class="footer-links">
         <a href="/guide#welcome/">About</a>
         <a href="/guide#faq/">FAQ</a>
         <a href="/guide#privacy/">Privacy</a>
         <a href="/guide#contact/">Contact</a>
-        <a href="https://twitter.com/DraftpodMTG">Twitter</a>
+        <a :href="site.twitter">Twitter</a>
       </span>
     </p>
   </footer>

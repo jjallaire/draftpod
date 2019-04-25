@@ -1,4 +1,7 @@
 
+
+const config = require('./src/config');
+
 module.exports = {
 
   pages: {
@@ -9,6 +12,10 @@ module.exports = {
       template: 'public/index.html',
       // output as dist/index.html
       filename: 'index.html',
+      // variables
+      var_title: config.title,
+      var_url: config.url
+
     },
   },
 
@@ -23,7 +30,10 @@ module.exports = {
         .use('vue-markdown-loader')
         .loader('vue-markdown-loader/lib/markdown-compiler')
         .options({
-          raw: true
+          raw: true,
+          preprocess: function(markdownIt, source) {
+            return source;
+          },
         });
 
     config    

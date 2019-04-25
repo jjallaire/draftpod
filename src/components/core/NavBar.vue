@@ -10,7 +10,7 @@
         to="/" 
         exact
       >
-        mtglimited.net
+        {{ site.title }}
       </router-link>
     </span>
     
@@ -53,7 +53,7 @@
         </a>
       </router-link>
       <li class="nav-item">
-        <a class="nav-link icon-link" href="https://twitter.com/DraftpodMTG">
+        <a class="nav-link icon-link" :href="site.twitter">
           <TwitterIcon />
         </a>
       </li>
@@ -67,12 +67,20 @@
 
 import TwitterIcon from "vue-material-design-icons/Twitter.vue"
 
+import config from '@/config'
+
 export default {
   name: 'NavBar',
 
 
   components: {
     TwitterIcon
+  },
+
+  data: function() {
+    return {
+      site: config.site
+    }
   }
 }
 </script>

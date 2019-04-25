@@ -12,6 +12,8 @@ import getters from './getters'
 import mutations from './mutations'
 import actions from './actions'
 
+import config from '@/config'
+
 import draftModule from './modules/draft'
 
 import * as serializer from './modules/draft/serializer'
@@ -30,9 +32,9 @@ let driver = md.os() === "iOS" ?
 // Initialize LocalForage
 LocalForage.config({
   driver      : driver,
-  name        : 'mtglimited.net',
+  name        : config.site.title,
   version     : 1.0,
-  storeName   : 'mtglimited'
+  storeName   : config.site.title.toLowerCase()
 });
 
 
