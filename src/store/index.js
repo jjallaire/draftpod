@@ -30,7 +30,7 @@ let driver = md.os() === "iOS" ?
 // Initialize LocalForage
 LocalForage.config({
   driver      : driver,
-  name        : 'mtglimited.io',
+  name        : 'mtglimited.net',
   version     : 1.0,
   storeName   : 'mtglimited'
 });

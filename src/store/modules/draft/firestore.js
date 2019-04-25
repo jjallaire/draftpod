@@ -195,7 +195,7 @@ export default {
      // notify user
      messagebox.alert(
       "Connection Error",
-      "<p>An error occurred while communicating with the Draftpod server: " + error + "</p>" +
+      "<p>An error occurred while communicating with the server: " + error + "</p>" +
       "<p>Please be sure that your internet connection is online, " +
       "then click the button below to attempt to reconnect.</p>",
       () => {

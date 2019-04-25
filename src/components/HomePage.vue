@@ -21,7 +21,7 @@ export default {
       <div class="home-content">
         <div class="jumbotron ">
           <h1 class="display-3">
-            mtglimited.io
+            mtglimited.net
           </h1>
           <h3>Draft and sealed simulator for MTG</h3>
 

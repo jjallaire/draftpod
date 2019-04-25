@@ -10,7 +10,7 @@
         to="/play/" 
         exact
       >
-        mtglimited.io
+        mtglimited.net
       </router-link>
     </span>
     

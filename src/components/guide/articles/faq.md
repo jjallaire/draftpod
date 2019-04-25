@@ -31,13 +31,13 @@ When preparing to draft a specific set, you might want to study the card evaluat
 
 - [Magic Community Set Reviews](https://www.mtgcommunityreview.com/) provides an aggregation of full set ratings done by community members.
 
-#### mtglimited.io is a free service. Will it always be free?
+#### mtglimited.net is a free service. Will it always be free?
 
-Yes, mtglimited.io is free and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. 
+Yes, mtglimited.net is free and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. 
 
-mtglimited.io was created by a group of software engineers that love to play Magic and even more so love to draft. After trying various forms of 2 and 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, we wanted to find a better way. We built mtglimited.io as a way of solving the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138) for ourselves, and hope that the rest of the Magic community also finds it useful. 
+mtglimited.net was created by a group of software engineers that love to play Magic and even more so love to draft. After trying various forms of 2 and 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, we wanted to find a better way. We built mtglimited.net as a way of solving the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138) for ourselves, and hope that the rest of the Magic community also finds it useful. 
 
-#### How do mtglimited.io bots decide which cards to pick?
+#### How do mtglimited.net bots decide which cards to pick?
 
 The key to making virtual drafts feel as close as possible to real drafts are the draft bots. Creating bots that provide a realistic experience is quite challenging and always a work in progress. The core approach to draft bots is as follows:
 
