@@ -93,7 +93,9 @@ export default {
   created() {
     this.set_code = this.preferences.set_code;
     this.cardpool = this.cardpool;
-    this.format = this.$route.query.format || this.preferences.format || 'draft';
+    this.format = this.preferences.format || 'draft';
+    if (this.$route && this.$route.query.format)
+      this.format = this.$route.query.format;
     this.pick_timer = this.preferences.pick_timer;
     this.pick_ratings = this.preferences.pick_ratings;
     this.sealed_number_of_packs = this.preferences.sealed_number_of_packs || 6;
