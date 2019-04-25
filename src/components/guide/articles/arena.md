@@ -13,17 +13,37 @@ To start a new draft for play on Arena, select the 4/4/1/1 cardpool for the set 
 <img src="/images/guide/arena-cardpool.png" width="100%" />
 </p>
 
-Then, proceed with the draft or sealed pool build as normal. 
+Then, choose the **Multiple Players** option:
+
+<p>
+<img src="/images/guide/multi-player.png" width="100%" />
+</p>
+
+Finally, copy the provided URL and send it to the other players you'd like to have join. 
+
+Players should use a desktop, laptop or tablet rather than a mobile phone (since phones don't generally have large enough screens to accommodate the UI).
+
+When a player joins, their name will appear in the players list. Once all of the players have joined, click **Start** to begin.
+
 
 ### Deck Building
 
-After you make all of your picks, you'll end up in deck-building mode where you specify which cards will make your main deck and sideboard. Once you've completed deck-building, click the **View Decklist** button to see a list of the cards in your deck and sideboard. You'll want to select the **MTGA Format** tab so you can copy the decklist in the format required by MTGA:
+After you make all of your picks, you'll end up in deck-building mode where you specify which cards will make your main deck and sideboard:
+
+<p>
+<img src="/images/guide/deck-builder.png" width="100%" />
+</p>
+
+
+Once you've completed deck-building, click the **View Decklist** button to see a list of the cards in your deck and sideboard. You'll want to select the **MTGA Format** tab to view the listformat required by MTGA:
 
 <p>
 <img src="/images/guide/multi-player-decklist-arena.png" width="100%" />
 </p>
 
-Note that Direct Challenge requires 60 card decks, whereas limited decks are 40 cards. To bridge this gap, MTG Arena decklists automatically expand your 40 card draft or sealed deck to 60 cards. For example, if you have 23 non-lands in your deck, 13 of them (selected at random) will be duplicated so that you end up with 36 non-lands. Note that the ratio between creatures and non-creatures in your deck will be preserved.
+Use the **Copy to Clipboard** button to copy the MTG Arena decklist to the clipboard.
+
+Note that Direct Challenge requires 60 card decks, whereas limited decks are typically 40 cards. To bridge this gap, MTG Arena decklists automatically expand your 40 card draft or sealed deck to 60 cards. For example, if you have 23 non-lands in your deck, 13 of them (selected at random) will be duplicated so that you end up with 36 non-lands. Note that the ratio between creatures and non-creatures in your deck will be preserved.
 
 ### Playing
 

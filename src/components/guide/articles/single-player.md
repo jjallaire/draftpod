@@ -54,10 +54,11 @@ If you want to review and analyze your draft after it's complete, you can downlo
 <img src="/images/guide/download-deck.png" width="100%" />
 </p>
 
-The download includes 2 files:
+The download includes 3 files:
 
 - **Draftlog.txt** &mdash; A log of every pick made in the draft
 - **Decklist.txt** &mdash; List of main deck and sideboard cards
+- **Decklist-Arena.txt** &mdash; 60 card version of deck for use on MTG Arena
          
 
 These files can in turn be uploaded to these websites, both of which allow you to view a pick-by-pick replay of your draft:

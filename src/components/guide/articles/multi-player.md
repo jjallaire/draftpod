@@ -31,7 +31,15 @@ When a player joins, their name will appear in the players list. Once all of the
 
 ### Deck Building
 
-After you make all of your picks, you'll end up in deck-building mode where you can specify which cards will make your main deck and sideboard. Once you've completed deck-building, click the **View Decklist** button to see a list of the cards in your deck and sideboard:
+After you make all of your picks, you'll end up in deck-building mode where you can specify which cards will make your main deck and sideboard:
+
+After you make all of your picks, you'll end up in deck-building mode where you specify which cards will make your main deck and sideboard:
+
+<p>
+<img src="/images/guide/deck-builder.png" width="100%" />
+</p>
+
+Once you've completed deck-building, click the **View Decklist** button to see a list of the cards in your deck and sideboard:
 
 <p>
 <img src="/images/guide/multi-player-decklist.png" width="100%" />
