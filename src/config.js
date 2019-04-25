@@ -2,8 +2,8 @@
 module.exports = {
 
   site: {
-    title: 'mtglimited.net',
-    url: 'https://mtglimited.net/',
+    title: 'Draftpod',
+    url: 'https://draftpod.org/',
     twitter: 'https://twitter.com/DraftpodMTG'
   },
 
