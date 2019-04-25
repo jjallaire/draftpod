@@ -30,41 +30,48 @@ export default {
       <div class="jumbotron">
         
         <div class="container">
-          <img 
-            class="draftpod-screenshot" 
-            width="45%"
-            align="right" 
-            src="/images/screenshot.png"
-          >
-          <h1 class="display-3">{{ site.title }}</h1>
-          <h3>Multi-player draft and sealed simulator for MTG</h3>
           
-          <router-link 
-            class="draftpod-play-btn btn btn-success" 
-            role="button" 
-            to="/play/?format=draft"
-          >
-            Play Draft
-          </router-link>
+          <div class="row">
+            <div class="col-sm-6">
+              <h1 class="display-3">{{ site.title }}</h1>
+              <h3>Multi-player draft and sealed simulator for MTG</h3>
+              
+              <router-link 
+                class="draftpod-play-btn btn btn-success" 
+                role="button" 
+                to="/play/?format=draft"
+              >
+                Play Draft
+              </router-link>
 
-          <router-link 
-            class="draftpod-play-btn btn btn-warning" 
-            role="button" 
-            to="/play/?format=sealed"
-          >
-            Play Sealed
-          </router-link> 
+              <router-link 
+                class="draftpod-play-btn btn btn-warning" 
+                role="button" 
+                to="/play/?format=sealed"
+              >
+                Play Sealed
+              </router-link> 
+            </div>
+            <div class="col-sm-6">
+              <img 
+                class="draftpod-screenshot" 
+                width="100%"
+                src="/images/screenshot.png"
+              >
+            </div>
+          </div>
 
-          <div style="clear: both;" />
+          <div class="row">
 
-          <hr>
+            <hr>
 
-          <p class="lead">
-            Limited is a great way to play Magic&mdash;everyone starts with the same resources and you get a fresh deck building challenge every time. 
-            So why not play limited all the time? With {{ site.title }}, now you can.
-          </p>
-          
+            <p class="lead">
+              Limited is a great way to play Magic&mdash;everyone starts with the same resources and you get a fresh deck building challenge every time. 
+              So why not play limited all the time? With {{ site.title }}, now you can.
+            </p>
+          </div>
         </div>
+          
       </div>
 
       
@@ -136,7 +143,7 @@ export default {
 
 .home-content .jumbotron .display-3 {
   font-weight: 400;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .home-content .jumbotron h3 {
