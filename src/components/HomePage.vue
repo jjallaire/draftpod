@@ -25,60 +25,98 @@ export default {
   <div>
     <NavBar />
     
-    <div class="container">
-      <div class="home-content">
-        <div class="jumbotron ">
-          <h1 class="display-3">
-            {{ site.title }}
-          </h1>
-          <h3>Draft and sealed simulator for MTG</h3>
+    <main class="home-content" role="main">
+
+      <div class="jumbotron">
+        
+        <div class="container">
+          <img 
+            class="draftpod-screenshot" 
+            width="45%"
+            align="right" 
+            src="/images/screenshot.png"
+          >
+          <h1 class="display-3">{{ site.title }}</h1>
+          <h3>Multi-player draft and sealed simulator for MTG</h3>
+          
+          <router-link 
+            class="draftpod-play-btn btn btn-success" 
+            role="button" 
+            to="/play/?format=draft"
+          >
+            Play Draft
+          </router-link>
+
+          <router-link 
+            class="draftpod-play-btn btn btn-warning" 
+            role="button" 
+            to="/play/?format=sealed"
+          >
+            Play Sealed
+          </router-link> 
+
+          <div style="clear: both;" />
 
           <hr>
 
-          <img 
-            class="draftpod-screenshot" 
-            width="55%"
-            align="left" 
-            src="/images/screenshot.png"
-          >
-
           <p class="lead">
-            <ul class="draftpod-features">
-              <li>Practice evaluating cards, reading signals, and building decks in single-player mode.</li>
-              <li>
-                Simulate an 8-person draft with only 2 or 3 players in 
-                multi-player mode.
-              </li>
-              <li>
-                Play draft and sealed decks from paper set cubes or using
-                <a href="https://magic.wizards.com/en/mtgarena" target="_blank">MTG Arena</a>
-                Direct Challenge.
-              </li>
-            </ul>
-
+            Limited is a great way to play Magic&mdash;everyone starts with the same resources and you get a fresh deck building challenge every time. 
+            So why not play limited all the time? With {{ site.title }}, now you can.
           </p>
-
-          <div style="clear: both; margin-bottom: 30px;" />
-
-          <router-link 
-            class="draftpod-learn-more btn btn-warning" 
-            role="button" 
-            to="/guide/"
-          >
-            Learn More
-          </router-link> 
-          <router-link 
-            class="draftpod-start-draft btn btn-success" 
-            role="button" 
-            to="/play/"
-          >
-            Let's Play!
-          </router-link>
-
-          <p class="lead" />
+          
         </div>
       </div>
 
+      
+      <div class="container draftpod-features">
+    
+        <div class="row">
+          <div class="col-md-4">
+            <h2>MTG Arena</h2>
+            <p>
+              Draft with a friend on {{ site.title }}, then play the
+              match using Arena 
+              <a href="https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ" target="_blank">Direct Challenge</a>. 
+              Once you have a fairly complete collection of cards for a set, this is a great new way to play with 
+              your friends on Arena.
+            </p>
+            <router-link 
+              class="draftpod-learn-more btn btn-secondary" 
+              role="button" 
+              to="/guide#arena/"
+            >
+              Learn More &raquo;
+            </router-link> 
+          </div>
+          <div class="col-md-4">
+            <h2>Paper Magic</h2>
+            <p>Get more replay value out of your paper collection by using it to play draft and sealed
+              with only or 2 or 3 players. Your set cube is digitially shuffled into a brand new set of packs every time you play. </p>
+            <router-link 
+              class="draftpod-learn-more btn btn-secondary" 
+              role="button" 
+              to="/guide#multi-player/"
+            >
+              Learn More &raquo;
+            </router-link> 
+          </div>
+          <div class="col-md-4">
+            <h2>Solo Mode</h2>
+            <p>Don't have anyone to play with right now but still want to brush up on your limited skills?
+              Use the single-player simulator to practice evaluating cards, reading signals, and building decks.</p>
+            <router-link 
+              class="draftpod-learn-more btn btn-secondary" 
+              role="button" 
+              to="/guide#single-player/"
+            >
+              Learn More &raquo;
+            </router-link> 
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="container">
       <SiteFooter />
     </div>
   </div>
@@ -86,15 +124,23 @@ export default {
 
 <style>
 
+.home-content .draftpod-features a {
+  color: #d9d9d9;
+}
 
 .home-content .jumbotron {
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2.3rem;
   border: none;
 }
 
 .home-content .jumbotron .display-3 {
   font-weight: 400;
-  font-size: 4.7rem;
+  font-size: 6rem;
+}
+
+.home-content .jumbotron h3 {
+  font-size: 1.2rem;
 }
 
 .home-content .lead {
@@ -105,18 +151,24 @@ export default {
   margin-right: 45px;
 }
 
+.home-content .draftpod-features {
+  margin-top: 50px;
+}
+
 .home-content .draftpod-features li {
   margin-bottom: 15px;
 }
 
-.home-content .btn {
+.home-content .draftpod-play-btn {
+  min-width: 130px;
   margin-top: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin-right: 30px;
 }
+
 
 .home-content .draftpod-learn-more {
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 

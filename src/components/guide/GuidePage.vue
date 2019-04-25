@@ -6,6 +6,7 @@ import SiteFooter from '../core/SiteFooter.vue'
 import WelcomeMd from './articles/welcome.md'
 import SinglePlayerMd from './articles/single-player.md'
 import MultiPlayerMd from './articles/multi-player.md'
+import ArenaMd from './articles/arena.md'
 import SealedMd from './articles/sealed.md'
 import CardpoolsMd from './articles/cardpools.md'
 import FAQMd from './articles/faq.md'
@@ -19,7 +20,7 @@ export default {
 
   components: {
     NavBar, SiteFooter, 
-    WelcomeMd, SinglePlayerMd, MultiPlayerMd, SealedMd, CardpoolsMd, FAQMd, PrivacyMd, Contact
+    WelcomeMd, SinglePlayerMd, MultiPlayerMd, ArenaMd, SealedMd, CardpoolsMd, FAQMd, PrivacyMd, Contact
   },
 
   mounted() {
@@ -125,6 +126,17 @@ export default {
               Multi-Player
             </a>
             <a 
+              id="arena-tab" 
+              class="nav-link" 
+              data-toggle="pill" 
+              href="#arena" 
+              role="tab" 
+              aria-controls="arena" 
+              aria-selected="false"
+            >
+              MTG Arena
+            </a>
+            <a 
               id="sealed-tab" 
               class="nav-link" 
               data-toggle="pill" 
@@ -212,6 +224,15 @@ export default {
               aria-labelledby="multi-player-tab"
             >
               <MultiPlayerMd />
+            </div>
+
+            <div 
+              id="arena" 
+              class="tab-pane fade" 
+              role="tabpanel" 
+              aria-labelledby="arena-tab"
+            >
+              <ArenaMd />
             </div>
 
             <div 
