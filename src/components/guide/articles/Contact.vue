@@ -10,7 +10,7 @@ export default {
     <h2>Contact Us</h2>
 
     <p>
-      If you have questions, encounter problems, or have ideas about how to improve mtglimited.net,  
+      If you have questions, encounter problems, or have ideas about we can improve the site,  
       please contact us using the form below.
     </p>
 
