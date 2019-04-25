@@ -268,8 +268,12 @@ export function allPlayerNames(table) {
 
 export function activeCards(player_id, table) {
   let player = activePlayer(player_id, table);
-  let piles = table.picks_complete ? player.deck.piles : player.picks.piles;
-  return _flatten(piles.slice(0, DECK.PILES));
+  if (player) {
+    let piles = table.picks_complete ? player.deck.piles : player.picks.piles;
+    return _flatten(piles.slice(0, DECK.PILES));
+  } else {
+    return [];
+  }
 }
 
 export function deckCards(deck) {

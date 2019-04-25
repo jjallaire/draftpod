@@ -162,7 +162,7 @@ export default {
 
 #multiplayer-draft-players {
   border-radius: 0.25rem;
-  height: 120px;
+  height: 150px;
   background-color: rgb(236,236,236);
   padding: 5px;
 }

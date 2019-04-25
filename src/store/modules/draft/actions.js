@@ -211,6 +211,11 @@ function cardIndex(cards, card) {
 // update the table, writing through to firebase
 function updateTable({ commit, state }, player_id, writer) {
     
+  const kServerTookTooLongError = "Server took too long to respond";
+  function isServerTookTooLongError(error) {
+    return error.message === kServerTookTooLongError;
+  }
+
   // helper function to locally write changes
   function writeChangesLocal() {
     let table = JSON.parse(JSON.stringify(state.table));
@@ -228,7 +233,8 @@ function updateTable({ commit, state }, player_id, writer) {
     commit(SET_CONNECTED, { connected: false });
 
     // log error if it's not one that occurs in the ordinary course of using firestore
-    if (!firestore.isConnectivityError(error) && 
+    if (!isServerTookTooLongError(error) &&
+        !firestore.isConnectivityError(error) && 
         !firestore.isAbortedError(error) &&
         !firestore.isDraftNotFoundError(error)) {
       log.logException(error, "onUpdateDraftTable");
@@ -249,7 +255,7 @@ function updateTable({ commit, state }, player_id, writer) {
     // this should never happen b/c of the glass we throw over the UI 
     // when waiting, this is here as a precaution so we never, ever get
     // double-picks)
-    showConnectionError(new Error("Server took too long to respond"));
+    showConnectionError(new Error(kServerTookTooLongError));
 
   } else {  
 
