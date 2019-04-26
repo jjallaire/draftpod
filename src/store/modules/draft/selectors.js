@@ -633,6 +633,11 @@ export function computeBasicLands(card_colors, non_basic_lands, total_land_cards
 
   // compute the target number of mana sources we need in our mana base  
   let total_card_colors = sumValues(card_colors);
+  
+  // if there are no colors yet then return no mana
+  if (total_card_colors === 0)
+    return card_colors;
+
   let mana_targets = {};
   Object.keys(card_colors).map(color => {
     let target = (card_colors[color] / total_card_colors) * total_land_cards;
