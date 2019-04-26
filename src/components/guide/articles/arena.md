@@ -2,7 +2,8 @@
 
 [MTG Arena](https://magic.wizards.com/en/mtgarena) offers a fantastic solo-drafting experience along with a system that allows you to play matches on-demand (you'll rarely wait more than a minute for a pairing). This is a terrific way to draft anytime and build your Arena collection.
 
-At the same time, one of the game's most significant draws is it's social dimension. Playing Magic is a wonderful way to spend time with friends and family. Draftpod enables you to play draft and sealed with your friends on MTG Arena. After drafting or building your sealed deck on Draftpod, you can use Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ) mode to play the match.
+At the same time, one of the game's most significant draws is it's social dimension. Playing Magic is a wonderful way to spend time with friends and family. Now you can play draft and sealed
+with your friends on Arena. After drafting or building your sealed deck, you can use Arena [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ) mode to play the match.
 
 To play games on MTG Arena, you will need to have a reasonably complete collection of cards (and/or available wildcards) for the set you are using. If you play and draft frequently on Arena, it's likely that your collection is already complete enough.
 
