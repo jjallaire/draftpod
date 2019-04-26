@@ -1,6 +1,6 @@
 
 
-const config = require('./src/config');
+const site = require('./src/site');
 
 module.exports = {
 
@@ -13,9 +13,8 @@ module.exports = {
       // output as dist/index.html
       filename: 'index.html',
       // variables
-      var_title: config.site.title,
-      var_url: config.site.url
-
+      var_title: site.title,
+      var_url: site.url
     },
   },
 

@@ -1,11 +1,11 @@
 
-module.exports = {
 
-  site: {
-    title: 'Draftpod',
-    url: 'https://draftpod.org/',
-    twitter: 'https://twitter.com/DraftpodMTG'
-  },
+
+const site = require('./site.js')
+
+export default {
+
+  site: site,
 
   ga: {
     id: "UA-134148899-1"
