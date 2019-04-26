@@ -280,7 +280,7 @@ export default {
             messagebox.confirm(
               "Startaft",
               "<p>No other players have yet joined so you will be the only player.<p>" +
-              "Are you sure you want to start drafting?",
+              "Are you sure you want to start?",
               () => resolve(true), () => resolve(false));
           } else {
             resolve(true);
