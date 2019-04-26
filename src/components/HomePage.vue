@@ -82,8 +82,8 @@ export default {
             <h2>MTG Arena</h2>
             <p>
               Want to play draft and sealed
-              with your friends on Arena? If your set collection is relatively complete, you can draft on {{ site.title }} then play matches using Arena 
-              <a href="https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ" target="_blank">Direct Challenge</a> mode. 
+              with your friends on Arena? If your set collection is relatively complete, you can draft or build sealed decks on {{ site.title }}, then play using 
+              <a href="https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ" target="_blank">Arena Direct Challenge</a>. 
             </p>
             <router-link 
               class="draftpod-learn-more btn btn-secondary" 
@@ -140,8 +140,8 @@ export default {
 }
 
 .home-content .jumbotron .display-3 {
-  font-weight: 400;
-  font-size: 5rem;
+  font-weight: 500;
+  font-size: 4rem;
 }
 
 .home-content .jumbotron h3 {
@@ -168,7 +168,7 @@ export default {
 
 .home-content .draftpod-play-btn {
   min-width: 130px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 30px;
 }
 

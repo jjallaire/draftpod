@@ -1,11 +1,13 @@
 
 
 
-const site = require('./site.js')
-
 export default {
 
-  site: site,
+  site: {
+    title: process.env.VUE_APP_SITE_TITLE || 'Draftpod',
+    url: process.env.VUE_APP_SITE_URL || 'https://draftpod.org/',
+    twitter: process.env.VUE_APP_SITE_TWITTER || 'https://twitter.com/DraftpodMTG'
+  },
 
   ga: {
     id: "UA-134148899-1"
