@@ -81,11 +81,9 @@ export default {
           <div class="col-md-4">
             <h2>MTG Arena</h2>
             <p>
-              Draft with a friend on {{ site.title }}, then play the
-              match using Arena 
-              <a href="https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ" target="_blank">Direct Challenge</a>. 
-              Once you have a fairly complete collection of cards for a set, this is a great new way to play with 
-              your friends on Arena.
+              Want to play draft and sealed
+              with your friends on Arena? If your set collection is relatively complete, you can draft on {{ site.title }} then play matches using Arena 
+              <a href="https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ" target="_blank">Direct Challenge</a> mode. 
             </p>
             <router-link 
               class="draftpod-learn-more btn btn-secondary" 
@@ -152,6 +150,8 @@ export default {
 
 .home-content .lead {
   font-weight: 400;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .home-content .draftpod-screenshot {
