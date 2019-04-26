@@ -30,12 +30,6 @@ describe('DraftTable.vue', () => {
       // see whether the page renders at all)
       const deckPiles = wrapper.findAll('.pick-list .pile');
       expect(deckPiles).toHaveLength(9);
-
-
-      // do a snapshot test
-      if (!process.env.VUE_APP_SITE_TITLE)
-        expect(wrapper.element).toMatchSnapshot();
-
     });
 
     
