@@ -13,8 +13,8 @@ module.exports = {
       // output as dist/index.html
       filename: 'index.html',
       // variables
-      var_title: config.title,
-      var_url: config.url
+      var_title: config.site.title,
+      var_url: config.site.url
 
     },
   },
