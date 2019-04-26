@@ -26,17 +26,17 @@
     "multiverse_ids": [
       461003
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f8bc010-f1af-42a2-9009-2039cf3d8f0a.jpg?1555740603"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f8bc010-f1af-42a2-9009-2039cf3d8f0a.jpg?1556216673"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Choose one or both—\n• Return target creature card from your graveyard to your hand.\n• Return target planeswalker card from your graveyard to your hand.",
+    "oracle_text": "Choose one or both —\n• Return target creature card from your graveyard to your hand.\n• Return target planeswalker card from your graveyard to your hand.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -69,7 +69,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6cc78151-8cb0-4521-9674-fb0c67e24a17.jpg?1555741186"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Ajani",
-    "oracle_text": "Creatures you control have vigilance.\n+1: You gain 3 life.\n-2: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.",
+    "oracle_text": "Creatures you control have vigilance.\n+1: You gain 3 life.\n−2: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.",
     "mana_cost": "{2}{G}{W}",
     "cmc": 4,
     "colors": [
@@ -90,7 +90,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aa3a4cb5-945e-4caf-8a18-1ef977879fe8.jpg?1555741418"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Angrath",
-    "oracle_text": "Creatures you control have menace.\n-2: Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
+    "oracle_text": "Creatures you control have menace.\n−2: Amass 2. (Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
     "mana_cost": "{2}{B/R}{B/R}",
     "cmc": 4,
     "colors": [
@@ -172,7 +172,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/5391d2f1-e8d3-4d39-98cf-367888e10534.jpg?1555741006"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Arlinn",
-    "oracle_text": "Each creature you control that's a Wolf or Werewolf enters the battlefield with an additional +1/+1 counter on it.\n-2: Create a 2/2 green Wolf creature token.",
+    "oracle_text": "Each creature you control that's a Wolf or a Werewolf enters the battlefield with an additional +1/+1 counter on it.\n−2: Create a 2/2 green Wolf creature token.",
     "mana_cost": "{4}{G}{G}",
     "cmc": 6,
     "colors": [
@@ -192,7 +192,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/2/f2df3258-c053-48a8-974f-d80899b2cd93.jpg?1555741423"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Ashiok",
-    "oracle_text": "Spells and abilities your opponents control can't cause their controller to search their library.\n-1: Target player puts the top four cards of their library into their graveyard. Then exile each opponent's graveyard.",
+    "oracle_text": "Spells and abilities your opponents control can't cause their controller to search their library.\n−1: Target player puts the top four cards of their library into their graveyard. Then exile each opponent's graveyard.",
     "mana_cost": "{1}{U/B}{U/B}",
     "cmc": 3,
     "colors": [
@@ -200,7 +200,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -260,7 +260,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -300,7 +300,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -399,7 +399,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -419,7 +419,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "war"
   },
   {
@@ -512,14 +512,14 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/df901fdc-8672-44f5-ade5-7c4e0b5c5d81.jpg?1555741033"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Look at the top three card of your library. You may reveal a permanent card from among them and put it into your hand. Put the rest on the bottom of your library in any order. You gain 3 life.",
+    "oracle_text": "Look at the top three cards of your library. You may reveal a permanent card from among them and put it into your hand. Put the rest on the bottom of your library in any order. You gain 3 life.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -539,7 +539,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -632,7 +632,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/6/66cef326-339c-49e5-9905-21a1603a46ae.jpg?1555740445"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Return target nonland permanent to its owner's hand.\nAmass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie army creature token first.)",
+    "oracle_text": "Return target nonland permanent to its owner's hand.\nAmass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -680,7 +680,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -700,7 +700,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -733,14 +733,14 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d21a7b23-8827-49f2-ade4-75a602d17743.jpg?1555740835"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Chandra",
-    "oracle_text": "Whenever one or more loyalty counters are removed from Chandra, Fire Artisan, she deals that much damage to target opponent or planeswalker.\n+1: Exile the top card of your library. You may play it this turn.\n-7: Exile the top seven cards of your library. You may play them this turn.",
+    "oracle_text": "Whenever one or more loyalty counters are removed from Chandra, Fire Artisan, she deals that much damage to target opponent or planeswalker.\n+1: Exile the top card of your library. You may play it this turn.\n−7: Exile the top seven cards of your library. You may play them this turn.",
     "mana_cost": "{2}{R}{R}",
     "cmc": 4,
     "colors": [
       "R"
     ],
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "war"
   },
   {
@@ -760,7 +760,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -813,14 +813,14 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/357513b9-0505-4b67-9a29-36a705a175b1.jpg?1555740259"],
     "layout": "normal",
     "type_line": "Creature — Cat",
-    "oracle_text": "Lifelink\nWhenever Charmed Stray enters the battlefield, put a +1/+1 counter on each other creature you control named Charmed Stray.",
+    "oracle_text": "Lifelink\nWhen Charmed Stray enters the battlefield, put a +1/+1 counter on each other creature you control named Charmed Stray.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
       "W"
     ],
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "war"
   },
   {
@@ -880,7 +880,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -900,7 +900,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -941,7 +941,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "war"
   },
   {
@@ -961,7 +961,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -974,7 +974,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5b1a44f0-1db8-406a-b7d9-f883f947f7bd.jpg?1555740642"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Davriel",
-    "oracle_text": "At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, Davriel, Rogue Shadowmage deals 2 damage to them.\n-1: Target player discards a card.",
+    "oracle_text": "At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, Davriel, Rogue Shadowmage deals 2 damage to them.\n−1: Target player discards a card.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -1062,7 +1062,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -1103,7 +1103,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -1123,7 +1123,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -1156,7 +1156,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/1/c1af9881-e35b-4be2-8716-ea7c6664e22c.jpg?1555741224"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Domri",
-    "oracle_text": "Creatures you control get +1/+0.\n+1: Add {R} or {G}. Creature spells you cast this turn can't be countered.\n-2: Target creature you control fights target creature you don't control.",
+    "oracle_text": "Creatures you control get +1/+0.\n+1: Add {R} or {G}. Creature spells you cast this turn can't be countered.\n−2: Target creature you control fights target creature you don't control.",
     "mana_cost": "{1}{R}{G}",
     "cmc": 3,
     "colors": [
@@ -1198,7 +1198,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/d/bd6ff745-919b-4688-9e9e-ab7835b3b891.jpg?1555741427"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Dovin",
-    "oracle_text": "Artifact, instant, and sorcery spells your opponents cast cost {1} more to cast.\n-1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.",
+    "oracle_text": "Artifact, instant, and sorcery spells your opponents cast cost {1} more to cast.\n−1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.",
     "mana_cost": "{2}{W/U}",
     "cmc": 3,
     "colors": [
@@ -1206,7 +1206,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -1227,7 +1227,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "war"
   },
   {
@@ -1358,7 +1358,7 @@
     "multiverse_ids": [
       461122
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d2e40b14-48a2-4b9e-b767-e914cab04b30.jpg?1555741245"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d2e40b14-48a2-4b9e-b767-e914cab04b30.jpg?1556216976"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "oracle_text": "Flying\nWhen Elite Guardmage enters the battlefield, you gain 3 life and draw a card.",
@@ -1407,7 +1407,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -1448,7 +1448,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -1508,7 +1508,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -1549,7 +1549,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -1622,7 +1622,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/811b2dda-e1b7-4a46-83cc-5cdc17554836.jpg?1555740881"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "You may cast up to one target instant card and/or sorcery card from your graveyard each with converted mana cost X or less without paying their mana costs. If a card cast this way would be put into your graveyard this turn, exile it instead. If X is 10 or more, copy each of those spells twice. You may choose new targets for the copies.",
+    "oracle_text": "You may cast up to one target instant card and/or up to one target sorcery card from your graveyard each with converted mana cost X or less without paying their mana costs. If a card cast this way would be put into your graveyard this turn, exile it instead. If X is 10 or more, copy each of those spells twice. You may choose new targets for the copies.",
     "mana_cost": "{X}{R}{R}",
     "cmc": 2,
     "colors": [
@@ -1687,7 +1687,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -1707,7 +1707,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "war"
   },
   {
@@ -1778,7 +1778,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39d51c5e-26cb-4276-a676-fabfef866248.jpg?1555740284"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Gideon",
-    "oracle_text": "As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.\nPrevent all damage that would be dealt to Gideon Blackblade during your turn.\n+1: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.\n-6: Exile target nonland permanent.",
+    "oracle_text": "As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.\nPrevent all damage that would be dealt to Gideon Blackblade during your turn.\n+1: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.\n−6: Exile target nonland permanent.",
     "mana_cost": "{1}{W}{W}",
     "cmc": 3,
     "colors": [
@@ -1835,7 +1835,7 @@
     "multiverse_ids": [
       461125
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b4604b4-df53-485c-a604-4d823b33d8ba.jpg?1555741262"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b4604b4-df53-485c-a604-4d823b33d8ba.jpg?1556216954"],
     "layout": "normal",
     "type_line": "Creature — Zombie Wizard",
     "oracle_text": "When Gleaming Overseer enters the battlefield, amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)\nZombie tokens you control have hexproof and menace.",
@@ -1886,7 +1886,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "war"
   },
   {
@@ -1984,7 +1984,7 @@
     "cmc": 6,
     "colors": [],
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "war"
   },
   {
@@ -2024,7 +2024,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -2062,7 +2062,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -2157,7 +2157,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/7/d709742c-82a2-457e-9991-85e98d78029d.jpg?1555741432"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Huatli",
-    "oracle_text": "Each creature you control assigns combat damage equal to its toughness rather than its power.\n-3: You gain life equal to the greatest toughness among creatures you control.",
+    "oracle_text": "Each creature you control assigns combat damage equal to its toughness rather than its power.\n−3: You gain life equal to the greatest toughness among creatures you control.",
     "mana_cost": "{2}{G/W}",
     "cmc": 3,
     "colors": [
@@ -2264,7 +2264,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -2342,7 +2342,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -2355,7 +2355,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.jpg?1555740494"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Jace",
-    "oracle_text": "If you would draw a card while your library has no cards in it, you win the game instead.\n+1: Target player puts the top two cards of their library into their graveyard. Draw a card.\n-8: Draw seven cards. Then if your library has no cards in it, you win the game.",
+    "oracle_text": "If you would draw a card while your library has no cards in it, you win the game instead.\n+1: Target player puts the top two cards of their library into their graveyard. Draw a card.\n−8: Draw seven cards. Then if your library has no cards in it, you win the game.",
     "mana_cost": "{1}{U}{U}{U}",
     "cmc": 4,
     "colors": [
@@ -2395,14 +2395,14 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/2/129dc8a8-9fbc-4300-b559-243395dc6ed5.jpg?1555740925"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Jaya",
-    "oracle_text": "If another red source you control would deal damage to a permanent or player, it deals that much damage plus 1 to that permanent or player instead.\n-2: Jaya, Venerated Firemage deals 2 damage to any target.",
+    "oracle_text": "If another red source you control would deal damage to a permanent or player, it deals that much damage plus 1 to that permanent or player instead.\n−2: Jaya, Venerated Firemage deals 2 damage to any target.",
     "mana_cost": "{4}{R}",
     "cmc": 5,
     "colors": [
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -2415,14 +2415,14 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/0/10e0d47d-b13c-4d48-881f-8aaa347ef209.jpg?1555741083"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Yanggu",
-    "oracle_text": "Each creature you control with a +1/+1 counter on it has \"{T}: Add one mana of any color.\"\n-1: Put a +1/+1 counter on target creature.",
+    "oracle_text": "Each creature you control with a +1/+1 counter on it has \"{T}: Add one mana of any color.\"\n−1: Put a +1/+1 counter on target creature.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -2453,12 +2453,12 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/e/3ec0c0fb-1a4f-45f4-85b7-346a6d3ce2c5.jpg?1555740224"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Karn",
-    "oracle_text": "Activated abilities of artifacts your opponents control can't be activated.\n+1: Until your next turn, up to one target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost.\n-2: You may choose an artifact card you own from outside the game or in exile, reveal that card, and put it into your hand.",
+    "oracle_text": "Activated abilities of artifacts your opponents control can't be activated.\n+1: Until your next turn, up to one target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost.\n−2: You may choose an artifact card you own from outside the game or in exile, reveal that card, and put it into your hand.",
     "mana_cost": "{4}",
     "cmc": 4,
     "colors": [],
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -2471,7 +2471,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/7/c77d9454-a78c-4063-ad66-46b2f5a030aa.jpg?1555740504"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Kasmina",
-    "oracle_text": "Spells your opponents cast that target a creature or planeswalker you control cost {2} more to cast.\n-2: Create a 2/2 blue Wizard creature token. Draw a card, then discard a card.",
+    "oracle_text": "Spells your opponents cast that target a creature or planeswalker you control cost {2} more to cast.\n−2: Create a 2/2 blue Wizard creature token. Draw a card, then discard a card.",
     "mana_cost": "{3}{U}",
     "cmc": 4,
     "colors": [
@@ -2498,7 +2498,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -2511,7 +2511,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9b575d3-f3f9-4ff4-8e5c-da7c2ec69882.jpg?1555741437"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Kaya",
-    "oracle_text": "Your opponents and permanents your opponents control with hexproof can be the target of spells and abilities you control as though they didn't have hexproof.\n-3: Exile target creature.",
+    "oracle_text": "Your opponents and permanents your opponents control with hexproof can be the targets of spells and abilities you control as though they didn't have hexproof.\n−3: Exile target creature.",
     "mana_cost": "{3}{W/B}{W/B}{W/B}",
     "cmc": 6,
     "colors": [
@@ -2552,7 +2552,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/a/7a61b1a6-a75f-47b0-b215-de9708b6d773.jpg?1555741443"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Kiora",
-    "oracle_text": "Whenever a creature with power 4 or greater enters the battlefield under your control, draw a card.\n-1: Untap target permanent.",
+    "oracle_text": "Whenever a creature with power 4 or greater enters the battlefield under your control, draw a card.\n−1: Untap target permanent.",
     "mana_cost": "{2}{G/U}",
     "cmc": 3,
     "colors": [
@@ -2573,14 +2573,14 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/acd61fb0-a82b-4f46-8043-c6b89764720b.jpg?1555740514"],
     "layout": "normal",
     "type_line": "Creature — Leviathan",
-    "oracle_text": "When Kiora's Dambreaker enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each a counter of each kind already there.)",
+    "oracle_text": "When Kiora's Dambreaker enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
     "mana_cost": "{5}{U}",
     "cmc": 6,
     "colors": [
       "U"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -2600,7 +2600,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -2620,7 +2620,7 @@
       "R"
     ],
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "war"
   },
   {
@@ -2640,7 +2640,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -2680,7 +2680,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "war"
   },
   {
@@ -2700,7 +2700,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -2741,7 +2741,7 @@
       "G"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -2754,7 +2754,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/7/d75ebba8-34ca-47a0-bf13-8318ad73b343.jpg?1555740717"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Liliana",
-    "oracle_text": "Whenever a creature you control dies, draw a card.\n+1: Create a 2/2 black Zombie creature token.\n-4: Each player sacrifices two creatures.\n-9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest.",
+    "oracle_text": "Whenever a creature you control dies, draw a card.\n+1: Create a 2/2 black Zombie creature token.\n−4: Each player sacrifices two creatures.\n−9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest.",
     "mana_cost": "{4}{B}{B}",
     "cmc": 6,
     "colors": [
@@ -2781,7 +2781,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -2822,7 +2822,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "war"
   },
   {
@@ -2842,7 +2842,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -2860,7 +2860,7 @@
     "cmc": 3,
     "colors": [],
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -2900,7 +2900,7 @@
       "B"
     ],
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "war"
   },
   {
@@ -2921,7 +2921,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -2942,7 +2942,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -2980,7 +2980,7 @@
     "cmc": 0,
     "colors": [],
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -3060,7 +3060,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "war"
   },
   {
@@ -3073,7 +3073,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/8806605c-0cb7-4360-96e4-afb424ccad90.jpg?1555741448"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Nahiri",
-    "oracle_text": "As long as it's your turn, creatures you control have first strike and equip abilities you activate cost {1} less to activate.\n-X: Nahiri, Storm of Stone deals X damage to target tapped creature.",
+    "oracle_text": "As long as it's your turn, creatures you control have first strike and equip abilities you activate cost {1} less to activate.\n−X: Nahiri, Storm of Stone deals X damage to target tapped creature.",
     "mana_cost": "{2}{R/W}{R/W}",
     "cmc": 4,
     "colors": [
@@ -3081,7 +3081,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -3094,14 +3094,14 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c39f9b4-02b9-4d44-b8d6-4fd02ebbb0c5.jpg?1555740529"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Narset",
-    "oracle_text": "Each opponent can't draw more than one card each turn.\n-2: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+    "oracle_text": "Each opponent can't draw more than one card each turn.\n−2: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
     "mana_cost": "{1}{U}{U}",
     "cmc": 3,
     "colors": [
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -3121,7 +3121,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -3182,7 +3182,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -3195,7 +3195,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/98b68dea-a7be-4f99-8a50-4c8cf0e0f7a9.jpg?1555741310"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Bolas",
-    "oracle_text": "Nicol Bolas, Dragon-God has all loyalty abilities of all other planeswalkers on the battlefield.\n+1: You draw a card. Each opponent exiles a card from their hand or a permanent they control.\n-3: Destroy target creature or planeswalker.\n-8: Each opponent who doesn't control a legendary creature or planeswalker loses the game.",
+    "oracle_text": "Nicol Bolas, Dragon-God has all loyalty abilities of all other planeswalkers on the battlefield.\n+1: You draw a card. Each opponent exiles a card from their hand or a permanent they control.\n−3: Destroy target creature or planeswalker.\n−8: Each opponent who doesn't control a legendary creature or planeswalker loses the game.",
     "mana_cost": "{U}{B}{B}{B}{R}",
     "cmc": 5,
     "colors": [
@@ -3237,7 +3237,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f857bbe4-5619-4733-a0c7-69700f2ef4f3.jpg?1555741110"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Nissa",
-    "oracle_text": "Whenever you tap a Forest for mana, add an additional {G}.\n+1: Put three +1/+1 counters on up to one target noncreature land you control. Untap it. It becomes a 0/0 Elemental creature with vigilance and haste that's still a land.\n-8: You get an emblem with \"Lands you control have indestructible.\" Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle your library.",
+    "oracle_text": "Whenever you tap a Forest for mana, add an additional {G}.\n+1: Put three +1/+1 counters on up to one target noncreature land you control. Untap it. It becomes a 0/0 Elemental creature with vigilance and haste that's still a land.\n−8: You get an emblem with \"Lands you control have indestructible.\" Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle your library.",
     "mana_cost": "{3}{G}{G}",
     "cmc": 5,
     "colors": [
@@ -3288,7 +3288,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -3342,7 +3342,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/4/14916e2d-73af-4747-a927-d2d4cb3e32db.jpg?1555740733"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Nixilis",
-    "oracle_text": "Whenever an opponent draws a card, Ob Nixilis, the Hate-Twisted deals 1 damage to that player.\n-2: Destroy target creature. Its controller draws two cards.",
+    "oracle_text": "Whenever an opponent draws a card, Ob Nixilis, the Hate-Twisted deals 1 damage to that player.\n−2: Destroy target creature. Its controller draws two cards.",
     "mana_cost": "{3}{B}{B}",
     "cmc": 5,
     "colors": [
@@ -3362,7 +3362,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6ed8d9e7-cdad-450d-8329-fa653d387a63.jpg?1555741120"],
     "layout": "normal",
     "type_line": "Creature — Elf Druid",
-    "oracle_text": "Paradise Druid has hexproof as long as it's untapped.\n{T}: Add one mana of any color.",
+    "oracle_text": "Paradise Druid has hexproof as long as it's untapped.(It can't be the target of spells or abilities your opponents control.)\n{T}: Add one mana of any color.",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -3470,7 +3470,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -3510,7 +3510,7 @@
       "B"
     ],
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "war"
   },
   {
@@ -3608,7 +3608,7 @@
       "W"
     ],
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 0.5,
     "set": "war"
   },
   {
@@ -3642,7 +3642,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/678ce3bf-152d-45ca-87ae-ad46c921328b.jpg?1555741331"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Ral",
-    "oracle_text": "Whenever you cast or copy an instant or sorcery spell, Ral, Storm Conduit deals 1 damage to target opponent or planeswalker.\n+2: Scry 1.\n-2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.",
+    "oracle_text": "Whenever you cast or copy an instant or sorcery spell, Ral, Storm Conduit deals 1 damage to target opponent or planeswalker.\n+2: Scry 1.\n−2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.",
     "mana_cost": "{2}{U}{R}",
     "cmc": 4,
     "colors": [
@@ -3690,7 +3690,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -3750,7 +3750,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -3792,7 +3792,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -3813,7 +3813,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -3844,7 +3844,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5a10b543-d5d4-42a8-9ee8-dada59a2ad7e.jpg?1555741453"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Saheeli",
-    "oracle_text": "Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token.\n-2: Target artifact you control becomes a copy of another target artifact or creature you control until end of turn, except it's an artifact in addition to its other types.",
+    "oracle_text": "Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token.\n−2: Target artifact you control becomes a copy of another target artifact or creature you control until end of turn, except it's an artifact in addition to its other types.",
     "mana_cost": "{1}{U/R}{U/R}",
     "cmc": 3,
     "colors": [
@@ -3872,7 +3872,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -3885,7 +3885,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e0457e3f-56c1-401b-8e08-f04b95c55e2d.jpg?1555741458"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Samut",
-    "oracle_text": "Creatures you control have haste.\n-1: Target creature gets +2/+1 and gains haste until end of turn. Scry 1.",
+    "oracle_text": "Creatures you control have haste.\n−1: Target creature gets +2/+1 and gains haste until end of turn. Scry 1.",
     "mana_cost": "{2}{R/G}{R/G}",
     "cmc": 4,
     "colors": [
@@ -3926,7 +3926,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2bb96971-5bf1-4ae3-98f4-7cd7a614bf97.jpg?1555740969"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Sarkhan",
-    "oracle_text": "Whenever a creature attacks you or a planeswalker you control, each Dragon you control deals 1 damage to that creature.\n+1: Until end of turn, each planeswalker you control becomes a 4/4 red Dragon creature and gains flying.\n-3: Create a 4/4 red Dragon creature token with flying.",
+    "oracle_text": "Whenever a creature attacks you or a planeswalker you control, each Dragon you control deals 1 damage to that creature.\n+1: Until end of turn, each planeswalker you control becomes a 4/4 red Dragon creature and gains flying.\n−3: Create a 4/4 red Dragon creature token with flying.",
     "mana_cost": "{3}{R}{R}",
     "cmc": 5,
     "colors": [
@@ -3973,7 +3973,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -4013,7 +4013,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1,
     "set": "war"
   },
   {
@@ -4087,7 +4087,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/354fe9bd-4ec8-409c-8ce5-b29393f3d169.jpg?1555741364"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Sorin",
-    "oracle_text": "As long as it's your turn, creatures and planeswalkers you control have lifelink.\n+2: Sorin, Vengeful Bloodlord deals 1 damage to target player or planeswalker.\n-X: Return target creature card with converted mana cost X from your graveyard to the battlefield. That creature is a Vampire in addition to its other types.",
+    "oracle_text": "As long as it's your turn, creatures and planeswalkers you control have lifelink.\n+2: Sorin, Vengeful Bloodlord deals 1 damage to target player or planeswalker.\n−X: Return target creature card with converted mana cost X from your graveyard to the battlefield. That creature is a Vampire in addition to its other types.",
     "mana_cost": "{2}{W}{B}",
     "cmc": 4,
     "colors": [
@@ -4095,7 +4095,7 @@
       "W"
     ],
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -4156,7 +4156,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -4297,7 +4297,7 @@
       "G"
     ],
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -4350,7 +4350,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/76776b24-a2e1-4590-88e7-8a421baf2fc4.jpg?1555741380"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Tamiyo",
-    "oracle_text": "Spells and abilities your opponents control can't cause you to discard cards or sacrifice permanents.\n+1: Choose a nonland card name, then reveal the top four cards of your library. Put all cards with the chosen name from among them into your hand and the rest into your graveyard.\n-3: Return target card from your graveyard to your hand.",
+    "oracle_text": "Spells and abilities your opponents control can't cause you to discard cards or sacrifice permanents.\n+1: Choose a nonland card name, then reveal the top four cards of your library. Put all cards with the chosen name from among them into your hand and the rest into your graveyard.\n−3: Return target card from your graveyard to your hand.",
     "mana_cost": "{2}{G}{U}",
     "cmc": 4,
     "colors": [
@@ -4358,7 +4358,7 @@
       "U"
     ],
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -4398,7 +4398,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -4411,7 +4411,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5cb76266-ae50-4bbc-8f96-d98f309b02d3.jpg?1555741385"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Teferi",
-    "oracle_text": "Each opponent can cast spells only any time they could cast a sorcery.\n+1: Until your next turn, you may cast sorcery spells as though they had flash.\n-3: Return up to one target artifact, creature, or enchantment to its owner's hand. Draw a card.",
+    "oracle_text": "Each opponent can cast spells only any time they could cast a sorcery.\n+1: Until your next turn, you may cast sorcery spells as though they had flash.\n−3: Return up to one target artifact, creature, or enchantment to its owner's hand. Draw a card.",
     "mana_cost": "{1}{W}{U}",
     "cmc": 3,
     "colors": [
@@ -4460,7 +4460,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -4473,7 +4473,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a974571c-d8d5-4860-9077-2023e5f32a24.jpg?1555740383"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Teyo",
-    "oracle_text": "You have hexproof. (You can't be the target of spells or abilities your opponents control.)\n-2: Create a 0/3 white Wall creature token with defender.",
+    "oracle_text": "You have hexproof. (You can't be the target of spells or abilities your opponents control.)\n−2: Create a 0/3 white Wall creature token with defender.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -4513,7 +4513,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/0/d0f0e463-9eed-4348-af7c-fde5f0d8188c.jpg?1555740410"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker",
-    "oracle_text": "Prevent all noncombat damage that would be dealt to you and other permanents you control.\n-2: Exile target creature with power 4 or greater.",
+    "oracle_text": "Prevent all noncombat damage that would be dealt to you and other permanents you control.\n−2: Exile target creature with power 4 or greater.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -4560,7 +4560,7 @@
       "G"
     ],
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "war"
   },
   {
@@ -4573,7 +4573,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7f9a24dc-8bc3-4528-8780-57fb108fdfbf.jpg?1555740985"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Tibalt",
-    "oracle_text": "Your opponents can't gain life.\n-2: Create a 1/1 red Devil creature token with \"Whenever this creature dies, it deals 1 damage to any target.\"",
+    "oracle_text": "Your opponents can't gain life.\n−2: Create a 1/1 red Devil creature token with \"When this creature dies, it deals 1 damage to any target.\"",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -4641,7 +4641,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "war"
   },
   {
@@ -4674,7 +4674,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f7fce047-49f1-40ae-8410-6501cb0f8201.jpg?1555741401"],
     "layout": "normal",
     "type_line": "Legendary Creature — Elf Scout",
-    "oracle_text": "When Tolsimir, Friend to Wolves enters the battlefield, create Voja, Friend to Elves, a legendary 3/3 green and white Wolf creature token.\nWhenever a Wolf enters the battlefield under your control, you gain 3 life and that creature fights up to one target creature an opponent controls.",
+    "oracle_text": "When Tolsimir, Friend to Wolves enters the battlefield, create Voja, Friend to Elves, a legendary 3/3 green and white Wolf creature token.\nWhenever a Wolf enters the battlefield under your control, you gain 3 life and that creature fights up to one target creature you don't control.",
     "mana_cost": "{2}{G}{G}{W}",
     "cmc": 5,
     "colors": [
@@ -4722,7 +4722,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "war"
   },
   {
@@ -4762,7 +4762,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -4782,7 +4782,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -4803,7 +4803,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "war"
   },
   {
@@ -4821,7 +4821,7 @@
     "cmc": 0,
     "colors": [],
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "war"
   },
   {
@@ -4834,7 +4834,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/b/7b003521-3da3-41bf-9765-36630653f902.jpg?1555740229"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Ugin",
-    "oracle_text": "Colorless spells you cast cost {2} less to cast.\n+1: Exile the top card of your library face down and look at it. Create a 2/2 colorless Spirit creature token. When that token leaves the battlefield, put the exiled card into your hand.\n-3: Destroy target permanent that's one or more colors.",
+    "oracle_text": "Colorless spells you cast cost {2} less to cast.\n+1: Exile the top card of your library face down and look at it. Create a 2/2 colorless Spirit creature token. When that token leaves the battlefield, put the exiled card into your hand.\n−3: Destroy target permanent that's one or more colors.",
     "mana_cost": "{6}",
     "cmc": 6,
     "colors": [],
@@ -4859,7 +4859,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "war"
   },
   {
@@ -4892,7 +4892,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff3986d7-9b3d-4082-8d72-ce59c9fcd5d5.jpg?1555741164"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Vivien",
-    "oracle_text": "You may cast creature spells as though they had flash.\n+1: Until your next turn, up to one target creature gains vigilance and reach.\n-2: Look at the top three cards of your library. Exile one face down and put the rest on the bottom of your library in any order. For as long as it remains exiled, you may look at that card and you may cast it if it's a creature card.",
+    "oracle_text": "You may cast creature spells as though they had flash.\n+1: Until your next turn, up to one target creature gains vigilance and reach.\n−2: Look at the top three cards of your library. Exile one face down and put the rest on the bottom of your library in any order. For as long as it remains exiled, you may look at that card and you may cast it if it's a creature card.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -4919,7 +4919,7 @@
       "G"
     ],
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "war"
   },
   {
@@ -4992,7 +4992,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/59ee2974-07e9-4506-903c-457cb7327dd8.jpg?1555741463"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Vraska",
-    "oracle_text": "Whenever a creature you control with deathtouch deals damage to a player or planeswalker, put a +1/+1 counter on that creature.\n-2: Create a 1/1 black Assassin creature token with deathtouch and \"Whenever this creature deals damage to a planeswalker, destroy that planeswalker.\"",
+    "oracle_text": "Whenever a creature you control with deathtouch deals damage to a player or planeswalker, put a +1/+1 counter on that creature.\n−2: Create a 1/1 black Assassin creature token with deathtouch and \"Whenever this creature deals damage to a planeswalker, destroy that planeswalker.\"",
     "mana_cost": "{2}{B/G}{B/G}",
     "cmc": 4,
     "colors": [
