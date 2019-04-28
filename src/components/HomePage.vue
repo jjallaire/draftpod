@@ -135,7 +135,7 @@ export default {
 
 .home-content .jumbotron {
   padding-top: 1rem;
-  padding-bottom: 2.3rem;
+  padding-bottom: 2.0rem;
   border: none;
 }
 
@@ -159,7 +159,7 @@ export default {
 }
 
 .home-content .draftpod-features {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .home-content .draftpod-features li {
