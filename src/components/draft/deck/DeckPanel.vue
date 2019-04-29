@@ -46,17 +46,27 @@ export default {
 
   computed: {
     piles: function() {
-      if (!this.compact) {
+
+      // for draft and sealed compact mode we just return the piles (since in this mode
+      // the piles correctly reflect how they should be displayed
+      if (this.is_draft_format || this.is_sealed_compact) {
+        
         return this.deck.piles;
+      
+      // for sealed full mode we arrange by cmc
       } else {
-        let display_piles = [];
-        for (let i=0; i<6;i++) {
-          display_piles[i] = this.deck.piles[i].concat(this.deck.piles[i+6]);
-          display_piles[i+6] = [];
-        }
+
+        let display_piles = [...Array(DECK.PILES+3)].map(() => Array());
+        selectors.deckCards(this.deck).forEach(c => {
+          let card = JSON.parse(JSON.stringify(c));
+          let pileIndex = selectors.cardDeckPileIndex(card);
+          display_piles[pileIndex].push(card);
+        });
         display_piles[DECK.LANDS] = this.deck.piles[DECK.LANDS].slice();
         display_piles[DECK.SIDEBOARD] = this.deck.piles[DECK.SIDEBOARD].slice();
+        display_piles[DECK.UNUSED] = this.deck.piles[DECK.UNUSED].slice();
         return display_piles;
+
       }
     },
     deck_total_cards: function() {
@@ -96,14 +106,13 @@ export default {
       return this.format === 'sealed';
     },
 
+    is_sealed_compact() {
+      return this.is_sealed_format && this.compact;
+    },
+
     can_download: function() {
       return !set.is_custom_cube(this.set.code) && this.is_draft_format;
     },
-
-    click_move: function() {
-      return this.is_sealed_format;
-    }
-
   },
 
   methods: {
@@ -161,7 +170,8 @@ export default {
         :piles="piles" 
         :number="number-1" 
         drag_source="DRAG_SOURCE_DECK"
-        :click_move="click_move"
+        :format="format"
+        :compact="compact"
       />
       <MtgCardPile 
         :key="5" 
@@ -169,7 +179,8 @@ export default {
         :number="5" 
         :caption="pile_caption('6+')" 
         drag_source="DRAG_SOURCE_DECK"
-        :click_move="click_move"
+        :format="format"
+        :compact="compact"
       />
       <div class="pile pile-separator" />
       <MtgCardPile 
@@ -178,7 +189,8 @@ export default {
         :piles="piles" 
         :number="12" 
         drag_source="DRAG_SOURCE_DECK"
-        :click_move="click_move"
+        :format="format"
+        :compact="compact"
       >
         <DeckLands 
           slot="controls" 
@@ -194,7 +206,8 @@ export default {
         class="deck-sideboard" 
         caption="Sideboard" 
         drag_source="DRAG_SOURCE_SIDEBOARD"
-        :click_move="click_move"
+        :format="format"
+        :compact="compact"
       >
         <div v-if="is_draft_format" slot="controls">
           <MtgCardPile 
@@ -204,6 +217,8 @@ export default {
             class="deck-unused" 
             caption="Unused" 
             drag_source="DRAG_SOURCE_UNUSED"
+            :format="format"
+            :compact="compact"
           />
         </div>
       </MtgCardPile>
@@ -218,7 +233,8 @@ export default {
         :piles="piles" 
         :number="number + 6 - 1" 
         drag_source="DRAG_SOURCE_DECK"
-        :click_move="click_move"
+        :format="format"
+        :compact="compact"
       />
     </div>
   </UiPanel>

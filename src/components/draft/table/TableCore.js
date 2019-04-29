@@ -17,7 +17,7 @@ import { REMOVE_DRAFTS } from '@/store/mutations'
 
 import { 
   RESUME_DRAFT, PACK_TO_PICK, PICK_TO_PILE, 
-  DECK_TO_SIDEBOARD, DECK_TO_UNUSED, 
+  DECK_TO_SIDEBOARD, DECK_TO_UNUSED, DECK_TO_DECK,
   SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED, 
   UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
   DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
@@ -120,6 +120,9 @@ export default {
       deckToUnused(dispatch, payload) {
         return dispatch(this.namespace + '/' + DECK_TO_UNUSED, this.withPlayerId(payload));
       },
+      deckToDeck(dispatch, payload) {
+        return dispatch(this.namespace + '/' + DECK_TO_DECK, this.withPlayerId(payload));
+      },
       sideboardToDeck(dispatch, payload) {
         return dispatch(this.namespace + '/' + SIDEBOARD_TO_DECK, this.withPlayerId(payload));
       },
@@ -204,6 +207,7 @@ export default {
       pickToPile: this.pickToPile,
       deckToSideboard: this.deckToSideboard,
       deckToUnused: this.deckToUnused,
+      deckToDeck: this.deckToDeck,
       sideboardToDeck: this.sideboardToDeck,
       sideboardToUnused: this.sideboardToUnused,
       unusedToDeck: this.unusedToDeck,

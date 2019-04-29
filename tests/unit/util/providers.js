@@ -5,6 +5,7 @@ export default {
   pickToPile() {},
   deckToSideboard() {},
   deckToUnused() {},
+  deckToDeck() {},
   sideboardToDeck() {},
   sideboardToUnused() {}, 
   unusedToDeck() {},

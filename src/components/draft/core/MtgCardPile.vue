@@ -5,6 +5,9 @@ import MtgCard from './MtgCard.vue'
 
 import _flatten from 'lodash/flatten'
 
+import { DECK } from '@/store/modules/draft/constants'
+import * as filters from '@/store/modules/draft/card-filters'
+
 export default {
 
   name: 'MtgCardPile',
@@ -35,9 +38,13 @@ export default {
     },
     drag_source: {
       type: String,
-      default: "DRAG_SOURCE_PILE"
+      required: true
     },
-    click_move: {
+    format: {
+      type: String,
+      required: true
+    },
+    compact: {
       type: Boolean,
       default: false
     },
@@ -52,6 +59,7 @@ export default {
     'pickToPile',
     'deckToSideboard',
     'deckToUnused',
+    'deckToDeck',
     'sideboardToDeck',
     'sideboardToUnused',
     'unusedToDeck',
@@ -74,6 +82,15 @@ export default {
     pick_number: function() {
       return _flatten(this.piles).length + 1;
     },
+    is_draft: function() {
+      return this.format === 'draft';
+    },
+    is_sealed: function() {
+      return this.format === 'sealed';
+    },
+    is_sealed_compact: function() {
+      return this.is_sealed && this.compact;
+    }
   },
 
   mounted() {
@@ -108,10 +125,33 @@ export default {
         return false;
       }
 
-      // no insert feedback for deck building since we do automatic ordering
-      if (this.drag_source === "DRAG_SOURCE_DECK" ||
-          this.drag_source === "DRAG_SOURCE_SIDEBOARD" ||
-          this.drag_source === "DRAG_SOURCE_UNUSED") {
+      // reject moving lands within the deck for sealed compact mode
+      if (filters.land(data.card) && 
+          this.is_sealed_compact && 
+          data.drag_source === "DRAG_SOURCE_DECK" &&
+          this.drag_source === "DRAG_SOURCE_DECK") {
+        if (event.dataTransfer)
+          event.dataTransfer.dropEffect = 'none';
+        return false;
+      }
+
+      // no insert feedback for full mode deck building
+      if (!this.is_sealed_compact &&
+          (this.drag_source === "DRAG_SOURCE_DECK" ||
+           this.drag_source === "DRAG_SOURCE_SIDEBOARD" ||
+           this.drag_source === "DRAG_SOURCE_UNUSED")) {
+        return true;
+      }
+
+      // no insert feedback for sideboard in compact mode
+      // deck building (we auto-arrange it)
+      if (this.is_sealed_compact && (this.number == DECK.SIDEBOARD)) {
+        return true;
+      }
+
+      // no insert feedback for lands into deck in compact mode
+      // (they go into the lands pile)
+      if (this.is_sealed_compact && filters.land(data.card) && this.drag_source === "DRAG_SOURCE_DECK") {
         return true;
       }
 
@@ -155,61 +195,55 @@ export default {
 
       // check for insert location
       let insertLoc = this.cardInsertLocation(data, event);
-      
+
+      // prepare an object for intra-deck moves (will include pile_number 
+      // and insertLoc for non-lands in sealed compact mode, otherwise won't)
+      let isLand = filters.land(data.card);
+      let isFromPack = data.drag_source === "DRAG_SOURCE_PACK";
+      let isDraftPile = this.drag_source === "DRAG_SOURCE_PILE";
+      let hasInsertData = isFromPack || isDraftPile || (this.is_sealed_compact && !isLand);
+      let moveParams = {
+        card: data.card,
+        pile_number: hasInsertData ? this.number : null,
+        insertBefore: hasInsertData ? insertLoc.insertBefore : null
+      };
+
       // event: pack to pick
       if (data.drag_source === "DRAG_SOURCE_PACK") {
-        this.packToPick({
-          card: data.card, 
-          pile_number: this.number, 
-          insertBefore: insertLoc.insertBefore
-        });
+        this.packToPick(moveParams);
       }
 
       // event: move pick to another pile
       else if (data.drag_source === "DRAG_SOURCE_PILE") {
-        this.pickToPile({
-          card: data.card,
-          pile_number: this.number,
-          insertBefore: insertLoc.insertBefore
-        });
+        this.pickToPile(moveParams);
       }
 
       // event: deck to sideboard/unused
       else if (data.drag_source === "DRAG_SOURCE_DECK") {
         if (this.drag_source === "DRAG_SOURCE_SIDEBOARD") {
-          this.deckToSideboard({
-            card: data.card,
-          });
+          this.deckToSideboard(moveParams);
         } else if (this.drag_source === "DRAG_SOURCE_UNUSED") {
-          this.deckToUnused({
-            card: data.card,
-          });
+          this.deckToUnused(moveParams);
+        } else if (this.drag_source === "DRAG_SOURCE_DECK") {
+          this.deckToDeck(moveParams);
         }
       } 
 
       // events: sideboard
       else if (data.drag_source === "DRAG_SOURCE_SIDEBOARD") {
         if (this.drag_source === "DRAG_SOURCE_DECK") {
-          this.sideboardToDeck({
-            card: data.card
-          });
+          this.sideboardToDeck(moveParams);
         } else if (this.drag_source === "DRAG_SOURCE_UNUSED") {
-          this.sideboardToUnused({
-            card: data.card,
-          });
+          this.sideboardToUnused(moveParams);
         }
       }
 
       // events: unused
       else if (data.drag_source === "DRAG_SOURCE_UNUSED") {
         if (this.drag_source === "DRAG_SOURCE_DECK") {
-          this.unusedToDeck({
-            card: data.card
-          });
+          this.unusedToDeck(moveParams);
         } else if (this.drag_source === "DRAG_SOURCE_SIDEBOARD") {
-          this.unusedToSideboard({
-            card: data.card,
-          });
+          this.unusedToSideboard(moveParams);
         }
       }
 
@@ -223,7 +257,10 @@ export default {
     },
 
     isInvalidTransfer: function(drag_source) {
-      return ["DRAG_SOURCE_DECK", "DRAG_SOURCE_SIDEBOARD", "DRAG_SOURCE_UNUSED"].indexOf(drag_source) !== -1 &&
+      let noIntraDragSources = ["DRAG_SOURCE_SIDEBOARD", "DRAG_SOURCE_UNUSED"];
+      if (!this.is_sealed_compact)
+        noIntraDragSources.push("DRAG_SOURCE_DECK");
+      return noIntraDragSources.indexOf(drag_source) !== -1 &&
              drag_source === this.drag_source
     },
 
@@ -288,7 +325,7 @@ export default {
       :card="card" 
       :drag_source="drag_source"
       :style="{marginTop: ((index+(caption ? 1 : 0))*16) + '%'}"
-      :click_move="click_move"
+      :click_move="is_sealed_compact"
     />
     <div 
       :style="{marginTop: ((pile.length-1+(caption ? 1 : 0))*16) 

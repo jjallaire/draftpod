@@ -9,6 +9,7 @@ export const NEXT_PACK = 'NEXT_PACK'
 export const PICK_TO_PILE = 'PICK_TO_PILE'
 export const DECK_TO_SIDEBOARD = 'DECK_TO_SIDEBOARD'
 export const DECK_TO_UNUSED = 'DECK_TO_UNUSED'
+export const DECK_TO_DECK = 'DECK_TO_DECK'
 export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
 export const SIDEBOARD_TO_UNUSED = 'SIDEBOARD_TO_UNUSED'
 export const UNUSED_TO_DECK = 'UNUSED_TO_DECK'
@@ -111,9 +112,17 @@ export default {
     });
   },
 
-  [SIDEBOARD_TO_DECK]({ commit, state }, { player_id, card }) {
+  [SIDEBOARD_TO_DECK]({ commit, state }, { player_id, card, pile_number, insertBefore }) {
     return updateTable({ commit, state }, player_id, (table, options) => {
-      unplayedToDeck(player_id, options, table, card, DECK.SIDEBOARD);
+      unplayedToDeck(player_id, options, table, card, DECK.SIDEBOARD, pile_number, insertBefore);
+    });
+  },
+
+  [DECK_TO_DECK]({ commit, state }, { player_id, card, pile_number, insertBefore }) {
+    return updateTable({ commit, state }, player_id, (table) => {
+      let player = selectors.activePlayer(player_id, table);
+      let deck = player.deck;
+      pileToPile(player, card, pile_number, deck.piles, insertBefore)
     });
   },
 
@@ -126,9 +135,9 @@ export default {
     });
   },
 
-  [UNUSED_TO_DECK]({ commit, state }, { player_id, card }) {
+  [UNUSED_TO_DECK]({ commit, state }, { player_id, card, pile_number, insertBefore }) {
     return updateTable({ commit, state }, player_id, (table, options) => {
-      unplayedToDeck(player_id, options, table, card, DECK.UNUSED);
+      unplayedToDeck(player_id, options, table, card, DECK.UNUSED, pile_number, insertBefore);
     });
   },
 
@@ -515,16 +524,20 @@ function deckToUnplayed(player_id, options, table, card, targetPile) {
     deck.lands.basic = selectors.autoLands(deck, options.deck_size);
 }
 
-function unplayedToDeck(player_id, options, table, card, sourcePile) {
+function unplayedToDeck(player_id, options, table, card, sourcePile, destPile, insertBefore) {
   // remove from sideboard/unused
   let player = selectors.activePlayer(player_id, table);
   let deck = player.deck;
   let source = deck.piles[sourcePile];
   source.splice(cardIndex(source, card), 1);
 
-  // card to deck pile
-  let pileIndex = cardToDeckPile(card, deck);
-  deck.piles[pileIndex] = orderDeckPile(deck.piles[pileIndex]);
+  // if the card has an explicit destination use it (unless it's a land)
+  if (destPile !== null && destPile !== undefined && !filters.land(card)) {
+    addCardToPile(player, deck.piles[destPile], card, insertBefore);
+  } else {   
+    let pileIndex = cardToDeckPile(card, deck);
+    deck.piles[pileIndex] = orderDeckPile(deck.piles[pileIndex]);
+  }
 
   // sort unplayed
   orderUnplayedPiles(deck);

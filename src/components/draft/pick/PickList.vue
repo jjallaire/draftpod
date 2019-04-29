@@ -26,6 +26,8 @@ export default {
       :key="number-1" 
       :piles="piles" 
       :number="number-1"
+      format="draft"
+      drag_source="DRAG_SOURCE_PILE"
     />
     <div class="pile pile-separator" />
     <MtgCardPile 
@@ -33,6 +35,8 @@ export default {
       :piles="piles" 
       :number="7" 
       caption="Sideboard"
+      format="draft"
+      drag_source="DRAG_SOURCE_PILE"
     />
   </div>
 </template>
