@@ -174,9 +174,9 @@ export default {
         this.filters[group].forEach(filter => {
           filter.value = true;
         });
-        this.rules_text = '';
-        this.updateFilter();
       });
+      this.rules_text = '';
+      this.updateFilter();
       event.target.blur();
     },
 
