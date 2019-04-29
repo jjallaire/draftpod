@@ -24,6 +24,8 @@ import RightIcon from 'vue-material-design-icons/ChevronRightBox.vue'
 import FilterIcon from 'vue-material-design-icons/FilterVariant.vue'
 import SealedFilterPopup from './SealedFilterPopup.vue'
 
+import { DECK } from '@/store/modules/draft/constants'
+
 const kCardsPerPage = 16;
 
 export default {
@@ -47,7 +49,10 @@ export default {
   computed: {
     
     pool: function() {
-      return _orderBy(_flatten(this.active_player.deck.piles), ["key"], ["asc"]);
+      let displayCards = this.filter ? 
+        _flatten(this.active_player.deck.piles) : 
+        this.active_player.deck.piles[DECK.UNUSED];
+      return _orderBy(displayCards, ["key"], ["asc"]);
     },
 
     pool_filtered: function() {
