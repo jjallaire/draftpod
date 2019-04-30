@@ -1,9 +1,11 @@
 <template>
   <nav class="navbar navbar-dark navbar-expand-sm user-select-none">
-    <img 
-      class="navbar-logo" 
-      src="/images/logo.svg"
-    >
+    <router-link to="/" exact>
+      <img 
+        class="navbar-logo" 
+        src="/images/logo.svg"
+      >
+    </router-link>
     <span class="navbar-brand">
       <router-link 
         class="text-light" 

@@ -45,6 +45,10 @@ export default {
 
     // perform purge
     this.removeDrafts(purge_draft_ids);
+
+    // turn off resume if a format is in the uri
+    if (this.$route && this.$route.query.format)
+      this.show_resume = false;
   },
 
   provide: function() {
