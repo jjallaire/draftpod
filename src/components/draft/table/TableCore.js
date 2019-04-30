@@ -19,8 +19,8 @@ import {
   RESUME_DRAFT, PACK_TO_PICK, PICK_TO_PILE, 
   DECK_TO_SIDEBOARD, DECK_TO_UNUSED, DECK_TO_DECK,
   SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED, 
-  UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD,
-  DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
+  UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD, ARRANGE_DECK_BY_COST,
+  SET_DECK_OPTIONS, DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
   REMOVE_PLAYER } from '@/store/modules/draft/actions';
 
 import './TableCore.css'
@@ -135,6 +135,12 @@ export default {
       unusedToSideboard(dispatch, payload) {
         return dispatch(this.namespace + '/' + UNUSED_TO_SIDEBOARD, this.withPlayerId(payload));
       },
+      setDeckOptions(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SET_DECK_OPTIONS, this.withPlayerId(payload));
+      },
+      arrangeDeckByCost(dispatch, payload) {
+        return dispatch(this.namespace + '/' + ARRANGE_DECK_BY_COST, this.withPlayerId(payload));
+      },
       disableAutoLands(dispatch, payload) {
         return dispatch(this.namespace + '/' + DISABLE_AUTO_LANDS, this.withPlayerId(payload));
       },
@@ -213,6 +219,8 @@ export default {
       unusedToDeck: this.unusedToDeck,
       unusedToSideboard: this.unusedToSideboard,
       disableAutoLands: this.disableAutoLands,
+      setDeckOptions: this.setDeckOptions,
+      arrangeDeckByCost: this.arrangeDeckByCost,
       setBasicLands: this.setBasicLands,
       removePlayer: this.removePlayer,
       setCardPreview: this.setCardPreview,

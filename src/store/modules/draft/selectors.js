@@ -276,6 +276,14 @@ export function activeCards(player_id, table) {
   }
 }
 
+export function deckOptions(deck) {
+  let options = deck.options || {};
+  return {
+    compact_arrange_by_cost: false,
+    ...options
+  };
+}
+
 export function deckCards(deck) {
   return _flatten(deck.piles.slice(0, DECK.PILES));
 } 
@@ -573,14 +581,14 @@ export function sumValues(object) {
 }
 
 
-export function cardDeckPileIndex(card) {
+export function cardDeckPileIndex(card, compact = false) {
 
   let pileIndex = null;
 
   if (filters.land(card)) {
     pileIndex = DECK.LANDS;
   } else {
-    let offset = filters.creature(card) ? 0 : DECK.PILES / 2;
+    let offset = (compact || filters.creature(card)) ? 0 : DECK.PILES / 2;
     if (card.cmc <= 1)
       pileIndex = offset;
     else if (card.cmc >= 6)

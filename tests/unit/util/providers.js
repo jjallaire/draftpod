@@ -10,6 +10,8 @@ export default {
   sideboardToUnused() {}, 
   unusedToDeck() {},
   unusedToSideboard() {},
+  setDeckOptions() {},
+  arrangeDeckByCost() {},
   disableAutoLands() {},
   setBasicLands() {},
   removePlayer() {},

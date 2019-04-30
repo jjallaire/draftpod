@@ -48,6 +48,10 @@ export default {
       type: Boolean,
       default: false
     },
+    arrange_by_cost: {
+      type: Boolean,
+      default: false
+    },
     controls_offset: {
       type: Number,
       default: 0
@@ -125,8 +129,9 @@ export default {
         return false;
       }
 
-      // reject moving lands within the deck for sealed compact mode
-      if (filters.land(data.card) && 
+      // reject moves within the deck for sealed compact mode
+      // (reject all for arrange_by_cost or otherwise reject lands)
+      if ((this.arrange_by_cost || filters.land(data.card)) && 
           this.is_sealed_compact && 
           data.drag_source === "DRAG_SOURCE_DECK" &&
           this.drag_source === "DRAG_SOURCE_DECK") {
@@ -201,12 +206,13 @@ export default {
       let isLand = filters.land(data.card);
       let isFromPack = data.drag_source === "DRAG_SOURCE_PACK";
       let isDraftPile = this.drag_source === "DRAG_SOURCE_PILE";
-      let hasInsertData = isFromPack || isDraftPile || (this.is_sealed_compact && !isLand);
-      let moveParams = {
+      let hasInsertData = !this.arrange_by_cost && 
+                          (isFromPack || isDraftPile || (this.is_sealed_compact && !isLand));
+      let moveParams = { 
         card: data.card,
         pile_number: hasInsertData ? this.number : null,
         insertBefore: hasInsertData ? insertLoc.insertBefore : null
-      };
+      }; 
 
       // event: pack to pick
       if (data.drag_source === "DRAG_SOURCE_PACK") {

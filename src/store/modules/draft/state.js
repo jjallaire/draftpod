@@ -78,6 +78,9 @@ function playerPicks() {
 function playerDeck() {
   return {
     // piles for cards + 1 pile each for lands/sideboard/unused
+    options: {
+      compact_arrange_by_cost: false
+    },
     piles: [...Array(DECK.PILES+3)].map(() => Array()),
     lands: {
       basic: {

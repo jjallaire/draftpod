@@ -14,6 +14,8 @@ export const SIDEBOARD_TO_DECK = 'SIDEBOARD_TO_DECK'
 export const SIDEBOARD_TO_UNUSED = 'SIDEBOARD_TO_UNUSED'
 export const UNUSED_TO_DECK = 'UNUSED_TO_DECK'
 export const UNUSED_TO_SIDEBOARD = 'UNUSED_TO_SIDEBOARD'
+export const SET_DECK_OPTIONS = 'SET_DECK_OPTIONS'
+export const ARRANGE_DECK_BY_COST = 'ARRANGE_DECK_BY_COST'
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 export const REMOVE_PLAYER = 'REMOVE_PLAYER'
@@ -24,6 +26,7 @@ import { WRITE_TABLE, SET_CONNECTED, SET_WAITING, CLEAR_WAITING,
 import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
 import _sumBy from 'lodash/sumBy'
+import _omit from 'lodash/omit'
 
 import * as log from '@/core/log'
 import * as set from './set/'
@@ -147,6 +150,49 @@ export default {
       let deck = player.deck;
       pileToPile(player, card, DECK.SIDEBOARD, deck.piles, null);
       orderUnplayedPiles(deck);
+    });
+  },
+
+  [SET_DECK_OPTIONS]( { commit, state }, { player_id, options } ) {
+    return updateTable({ commit, state }, player_id, (table) => {
+      let deck = selectors.activePlayer(player_id, table).deck;
+      deck.options = {
+        ...deck.options,
+        ...options
+      }
+    });
+  },
+
+  [ARRANGE_DECK_BY_COST]( { commit, state }, { player_id, compact }) {
+    return updateTable({ commit, state }, player_id, (table) => {
+      
+      // alias deck
+      let deck = selectors.activePlayer(player_id, table).deck;
+
+      // get all the card in the deck
+      let cards = selectors.deckCards(deck);
+
+      // clean out all of the piles
+      for (let i=0; i<DECK.PILES; i++) {
+        deck.piles[i] = [];
+      }
+
+      // place cards in their correct pile
+      cards.forEach(card => cardToDeckPile(card, deck));
+
+      // order all of the piles
+      for (let i=0; i<DECK.PILES; i++)
+        orderDeckPile(deck.piles[i]);
+      
+      // compact into top piles if requested
+      if (compact) {
+        let compactPiles = DECK.PILES/2;
+        for (let p=0; p<compactPiles; p++) {
+          deck.piles[p] = deck.piles[p].concat(deck.piles[p+compactPiles]);
+          deck.piles[p+compactPiles] = [];
+        }
+      }
+
     });
   },
 
@@ -499,12 +545,12 @@ function draftBotPickAndPass(player_index, set_code, options, table) {
   } while(current_index !== player_index);
 }
 
-function cardToDeckPile(c, deck) {
+function cardToDeckPile(c, deck, compact = false) {
 
   // add card to pile
   let card = JSON.parse(JSON.stringify(c));
   let deck_piles = deck.piles;
-  let pileIndex = selectors.cardDeckPileIndex(card);
+  let pileIndex = selectors.cardDeckPileIndex(card, compact);
   deck_piles[pileIndex].push(card);
 
   // return the pile index
@@ -528,6 +574,7 @@ function unplayedToDeck(player_id, options, table, card, sourcePile, destPile, i
   // remove from sideboard/unused
   let player = selectors.activePlayer(player_id, table);
   let deck = player.deck;
+  let deckOptions = selectors.deckOptions(deck);
   let source = deck.piles[sourcePile];
   source.splice(cardIndex(source, card), 1);
 
@@ -535,7 +582,7 @@ function unplayedToDeck(player_id, options, table, card, sourcePile, destPile, i
   if (destPile !== null && destPile !== undefined && !filters.land(card)) {
     addCardToPile(player, deck.piles[destPile], card, insertBefore);
   } else {   
-    let pileIndex = cardToDeckPile(card, deck);
+    let pileIndex = cardToDeckPile(card, deck, deckOptions.compact_arrange_by_cost);
     deck.piles[pileIndex] = orderDeckPile(deck.piles[pileIndex]);
   }
 
@@ -595,10 +642,14 @@ function completePicks(table) {
 }
 
 
-
-
 function orderDeckPile(pile) {
-  return _orderBy(pile, ["cmc", "name"], ["asc", "asc"]);
+  let cards = pile.map(card => ({ ...card, creature: filters.creature(card) ? 1 : 0 }));
+  return _orderBy(cards, 
+    ["creature", "cmc", "name"], 
+    ["desc", "asc", "asc"], 
+  ).map(card => {
+    return _omit(card, ["creature"]);
+  });
 }
 
 function orderUnplayedPiles(deck) {

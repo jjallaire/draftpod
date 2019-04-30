@@ -19,7 +19,7 @@ exports[`DeckPanel.vue displays deck 1`] = `
       class="float-left"
     >
       <div
-        class="card-type-counts"
+        class="card-type-counts deck-controls"
       >
         
       Creatures: 11  
@@ -27,6 +27,8 @@ exports[`DeckPanel.vue displays deck 1`] = `
       Lands: 17
     
       </div>
+       
+      <!---->
     </div>
      
     <div

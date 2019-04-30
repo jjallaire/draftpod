@@ -113,6 +113,17 @@ export default {
     can_download: function() {
       return !set.is_custom_cube(this.set.code) && this.is_draft_format;
     },
+
+    arrange_by_cost: {
+      get: function() {
+        return selectors.deckOptions(this.deck).compact_arrange_by_cost;
+      },
+      set: function(value) {
+        this.setDeckOptions( { options: { compact_arrange_by_cost: value } });
+        if (value) 
+          this.arrangeDeckByCost({ compact: this.compact });
+      }
+    }
   },
 
   methods: {
@@ -127,7 +138,12 @@ export default {
       this.$emit('togglecompact');
       this.$refs.toggleCompactBtn.blur();
     }
-  }
+  },
+
+  inject: [
+    'setDeckOptions',
+    'arrangeDeckByCost'
+  ]
 }
 
 </script>
@@ -138,10 +154,14 @@ export default {
     class="deck"
   >
     <template slot="header-left">
-      <div class="card-type-counts">
+      <div class="card-type-counts deck-controls">
         Creatures: {{ deck_card_types.creatures }} &nbsp;
         Other: {{ deck_card_types.other }} &nbsp;
         Lands: {{ deck_land_count }}
+      </div>
+      <div v-if="compact" class="form-check form-check-inline deck-controls">
+        <input id="arrangeByCostCheckbox" v-model="arrange_by_cost" class="form-check-input" type="checkbox">
+        <label class="form-check-label" for="arrangeByCostCheckbox">Arrange by cost</label>
       </div>
     </template>
     <template slot="header-right">
@@ -172,6 +192,7 @@ export default {
         drag_source="DRAG_SOURCE_DECK"
         :format="format"
         :compact="compact"
+        :arrange_by_cost="arrange_by_cost"
       />
       <MtgCardPile 
         :key="5" 
@@ -181,6 +202,7 @@ export default {
         drag_source="DRAG_SOURCE_DECK"
         :format="format"
         :compact="compact"
+        :arrange_by_cost="arrange_by_cost"
       />
       <div class="pile pile-separator" />
       <MtgCardPile 
@@ -191,6 +213,7 @@ export default {
         drag_source="DRAG_SOURCE_DECK"
         :format="format"
         :compact="compact"
+        :arrange_by_cost="arrange_by_cost"
       >
         <DeckLands 
           slot="controls" 
@@ -208,6 +231,7 @@ export default {
         drag_source="DRAG_SOURCE_SIDEBOARD"
         :format="format"
         :compact="compact"
+        :arrange_by_cost="arrange_by_cost"
       >
         <div v-if="is_draft_format" slot="controls">
           <MtgCardPile 
@@ -219,11 +243,13 @@ export default {
             drag_source="DRAG_SOURCE_UNUSED"
             :format="format"
             :compact="compact"
+            :arrange_by_cost="arrange_by_cost"
           />
         </div>
       </MtgCardPile>
     </div>
     <div 
+      v-if="!compact"
       :style="piles_bottom_style" 
       class="deck-piles deck-piles-bottom"
     >
@@ -235,6 +261,7 @@ export default {
         drag_source="DRAG_SOURCE_DECK"
         :format="format"
         :compact="compact"
+        :arrange_by_cost="arrange_by_cost"
       />
     </div>
   </UiPanel>
@@ -265,11 +292,18 @@ export default {
   padding-top: 2px;
 }
 
+.deck .card-header .deck-controls {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.7);
+}
+
 .deck .card-header .card-type-counts {
   padding-top: 3px;
   margin-left: 14px;
-  font-size: 0.8rem;
-  color: rgba(255,255,255,0.7);
+}
+
+.deck .card-header .form-check {
+  margin-left: 14px;
 }
 
 .deck .card-header .btn-sm {
