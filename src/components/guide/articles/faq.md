@@ -19,6 +19,12 @@ After you've mastered the basics, one of the best resources for improving your s
 
 The [ChannelFireball](https://www.channelfireball.com/articles/) and [Star City Games](http://www.starcitygames.com/articles/tags/Limited/2018-10-23/2019-01-23) websites also both feature a steady stream of articles on drafting (covering both recent sets as well as overall strategy).
 
+You'll hear quite a bit about the importance of reading signals in draft. Here are some articles that explore how to do this:
+
+* [Signals in Booster Draft](https://magic.wizards.com/en/articles/archive/level-one/signals-booster-draft-2015-01-19)
+* [Drafting the Hard Way](https://www.channelfireball.com/articles/stark-reality-drafting-the-hard-way/)
+* [Limited Tips on Signals](http://www.starcitygames.com/magic/standard/35641_Limited-Tips-On-Signals.html)
+
 You can also sit on the shoulder of the some of the very best Magic players in the world as they draft by watching streams and/or YouTube videos. You can find lots of streams on [Twitch](https://www.twitch.tv/magic/videos) as well as archives of previous drafts from [Ben Stark](https://www.youtube.com/results?search_query=Channel+BenS), [Reid Duke](https://www.youtube.com/results?search_query=Channel+Reid), [Luis Scott-Vargas](https://www.youtube.com/results?search_query=Channel+LSV), and [Marshall Sutcliffe](https://www.youtube.com/results?search_query=Channel+Marshall) (among others) on the ChannelFireball YouTube channel.
 
 #### Where can I find card ratings and suggested pick orders?
