@@ -6,8 +6,6 @@ import Vue from 'vue'
 import VueHotkey from 'v-hotkey'
 Vue.use(VueHotkey);
 
-import _flatten from 'lodash/flatten'
-
 import jquery from 'jquery'
 
 import NavBar from '@/components/core/NavBar.vue'
@@ -49,9 +47,7 @@ export default {
   computed: {
     
     pool: function() {
-      let displayCards = this.filter ? 
-        _flatten(this.active_player.deck.piles) : 
-        this.active_player.deck.piles[DECK.UNUSED];
+      let displayCards = this.active_player.deck.piles[DECK.UNUSED];
       return _orderBy(displayCards, ["key"], ["asc"]);
     },
 
