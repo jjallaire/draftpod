@@ -226,7 +226,7 @@ export default {
   <div v-else>
     <NavBar> 
       <span class="navbar-text">
-        {{ set.name }} 
+        Draft
         <span v-if="!picks_complete">
           &mdash;
           Pack {{ current_pack }}, Pick {{ current_pick }}

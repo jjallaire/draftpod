@@ -83,7 +83,7 @@ export default {
       let total = this.pool_filtered.length;
       let first = (this.page_index * kCardsPerPage) + 1;
       let last = Math.min(first + kCardsPerPage - 1, total);
-      return `${first}-${last} of ${total} Cards`;
+      return `${first}-${last} of ${total}`;
     },
 
 
@@ -144,7 +144,7 @@ export default {
 
      
       <span class="navbar-text">
-        {{ set.name }} &mdash; Sealed
+        Sealed
       </span> 
 
       <ul class="navbar-nav">
@@ -177,7 +177,7 @@ export default {
       </ul>
       <span class="navbar-text pager-text" @click="onToggleFilterPopup">
         <template v-if="have_matching_cards">
-          {{ page_caption }}<span v-if="is_filtered">&nbsp;<em>(Filtered)</em></span>
+          {{ page_caption }}<span v-if="is_filtered">&nbsp;<em>(filtered)</em></span>
         </template>
         <template v-else>
           (No matching cards)
@@ -238,18 +238,18 @@ export default {
 .sealed-navbar .navbar-text.pager-text {
   padding-left: 0;
   padding-right: 1px;
-  min-width: 125px;
+  min-width: 85px;
   text-align: center;
 }
 
 .sealed-navbar .pager-left {
-  padding-left: 1rem;
+  padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 
 .sealed-navbar .pager-right {
   padding-left: 0.5rem;
-  padding-right: 1rem;
+  padding-right: 0.5rem;
 }
 
 .sealed-navbar .pager {

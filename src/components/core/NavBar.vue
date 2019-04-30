@@ -160,6 +160,11 @@ export default {
   padding-right: 14px;
 }
 
+.navbar .navbar-nav .icon-link {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 .navbar .twitter-icon svg {
   width: 18px;
   height: 18px;
