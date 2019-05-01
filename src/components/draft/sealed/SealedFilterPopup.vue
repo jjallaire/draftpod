@@ -6,6 +6,10 @@ import * as utils from '@/components/core/utils'
 
 import jquery from 'jquery'
 
+import { mapState, mapMutations } from 'vuex'
+
+import { UPDATE_PREFERENCES } from '@/store/mutations'
+
 export default {
   name: 'SealedFilterPopup',
 
@@ -130,6 +134,9 @@ export default {
 
   computed: {
 
+    ...mapState([
+      'preferences'
+    ]),
 
     sealed_filter: function() {
       
@@ -170,6 +177,17 @@ export default {
 
     dropdown: function() {
       return jquery(this.$el).closest('.dropdown');
+    },
+
+    show_selected: {
+      get: function() {
+        return this.preferences.sealed_show_selected;
+      },
+      set: function(value) {
+        this.updatePreferences({
+          sealed_show_selected: value
+        })
+      }
     }
   },
 
@@ -180,7 +198,11 @@ export default {
   },
 
   methods: {
-   
+
+    ...mapMutations({
+      updatePreferences: UPDATE_PREFERENCES
+    }),
+
     updateFilter() {
       this.$emit('changed', this.sealed_filter)
     },
@@ -214,7 +236,9 @@ export default {
     },
 
     focusRulesText() {
-      utils.focus(this.$refs.rulesText);
+      let rulesText = this.$refs.rulesText;
+      if (rulesText)
+        utils.focus(rulesText);
     },
 
     dismissDropdown() {
@@ -270,6 +294,17 @@ export default {
         </div>
       </div>
     </div>
+    <div class="row option-row">
+      <div class="form-group col-sm-10">
+        <div class="form-check">
+          <input id="showSelectedCheckbox" v-model="show_selected" class="form-check-input" type="checkbox">
+          <label class="form-check-label" for="showSelectedCheckbox">Include deck cards in sealed pool view</label>
+          <small class="form-text checkbox-text text-muted">
+            See which of the cards in your pool are already in your deck
+            (deck cards are displayed with a check mark).  </small>
+        </div>
+      </div>
+    </div>
     <div class="row button-row">
       <div class="col-sm-4">
         <button class="btn btn-sm btn-block btn-warning" @click="onResetFilter">Reset Filter</button>
@@ -291,8 +326,20 @@ export default {
   font-size: 0.8em !important;
 }
 
+.sealed-filter .form-group {
+  margin-bottom: 0.7rem;
+}
+
+.sealed-filter .option-row {
+  margin-top: 7px;
+}
+
 .sealed-filter .button-row {
   margin-top: 10px;
+}
+
+.sealed-filter .checkbox-text {
+  margin-top: 0px;
 }
 
 #filterRulesText {

@@ -24,6 +24,8 @@ import RightIcon from 'vue-material-design-icons/ChevronRightBox.vue'
 import FilterIcon from 'vue-material-design-icons/FilterVariant.vue'
 import SealedFilterPopup from './SealedFilterPopup.vue'
 
+import { mapState } from 'vuex'
+
 import { DECK } from '@/store/modules/draft/constants'
 
 const kCardsPerPage = 16;
@@ -48,8 +50,12 @@ export default {
 
   computed: {
 
+    ...mapState([
+      'preferences'
+    ]),
+
     pool: function() {
-      let displayCards = this.filter ? 
+      let displayCards = this.preferences.sealed_show_selected ? 
         _flatten(this.active_player.deck.piles) :
         this.active_player.deck.piles[DECK.UNUSED];
       return _orderBy(displayCards, ["key"], ["asc"]);
