@@ -54,7 +54,7 @@ export function initializeStore() {
       pick_timer: false,
       pick_ratings: false,
       sealed_number_of_packs: 6,
-      sealed_show_selected: true,
+      sealed_show_selected: false,
       sets: {}
     },
     cardpools: {
