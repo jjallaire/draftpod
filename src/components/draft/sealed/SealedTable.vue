@@ -94,6 +94,12 @@ export default {
         'right': () => {
           this.onNextClick();
         },
+        'ctrl+f': () => {
+          this.onToggleFilterPopup();
+        },
+        'meta+f': () => {
+          this.onToggleFilterPopup();
+        },
       };
     }
   },
@@ -125,7 +131,8 @@ export default {
     },
 
     onToggleFilterPopup(event) {
-      event.stopPropagation();
+      if (event)
+        event.stopPropagation();
       if (jquery('#filterMenuLink').next().is(":hidden"))
         jquery('#filterMenuLink').dropdown('toggle');
     }
@@ -153,7 +160,7 @@ export default {
               id="filterMenuLink" 
               href="#" 
               class="nav-link icon-link dropdown-toggle" 
-              title="Filter" 
+              title="Filter (Ctrl+F)" 
               data-toggle="dropdown" 
               aria-haspopup="true" 
               aria-expanded="false"
