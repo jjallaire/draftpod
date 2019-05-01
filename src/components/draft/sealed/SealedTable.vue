@@ -79,7 +79,7 @@ export default {
       let total = this.pool_filtered.length;
       let first = (this.page_index * kCardsPerPage) + 1;
       let last = Math.min(first + kCardsPerPage - 1, total);
-      return `${first}-${last} of ${total}`;
+      return `${first}-${last} of ${total} cards`;
     },
 
 
@@ -234,18 +234,18 @@ export default {
 .sealed-navbar .navbar-text.pager-text {
   padding-left: 0;
   padding-right: 1px;
-  min-width: 85px;
+  min-width: 130px;
   text-align: center;
 }
 
 .sealed-navbar .pager-left {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.7rem;
+  padding-right: 0.4rem;
 }
 
 .sealed-navbar .pager-right {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.4rem;
+  padding-right: 0.7rem;
 }
 
 .sealed-navbar .pager {
