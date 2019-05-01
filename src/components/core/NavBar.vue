@@ -9,7 +9,7 @@
     <span class="navbar-brand">
       <router-link 
         class="text-light" 
-        to="/play/" 
+        to="/" 
         exact
       >
         {{ site.title }}
