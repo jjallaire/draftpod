@@ -133,34 +133,38 @@ export default {
 
     sealed_filter: function() {
       
-      // each group has a filter that applies an OR across the group
-      let allFilters = Object.keys(this.filters).map(group => {
-        let filters = this.filters[group];
-        return (card) => {
-          for (let i=0; i<filters.length; i++) {
-            if (filters[i].value && filters[i].filter(card))
-              return true;
-          }
-          return false;
-        }
-      });
-
-      // add rules text filters
-      if (this.rules_text) {
-        this.rules_text.split(/[ ,]+/).forEach(term => {
-          allFilters.push(card => {
-            return card.oracle_text.toLowerCase().includes(term);
-          });
-        });
-      }
-      
-      // group filters are then applied with AND
-      return (card) => {
-        for (let i=0; i<allFilters.length; i++)
-          if (!allFilters[i](card))
+      if (this.haveFilter()) {
+        // each group has a filter that applies an OR across the group
+        let allFilters = Object.keys(this.filters).map(group => {
+          let filters = this.filters[group];
+          return (card) => {
+            for (let i=0; i<filters.length; i++) {
+              if (filters[i].value && filters[i].filter(card))
+                return true;
+            }
             return false;
-        return true;
-      };
+          }
+        });
+
+        // add rules text filters
+        if (this.rules_text) {
+          this.rules_text.split(/[ ,]+/).forEach(term => {
+            allFilters.push(card => {
+              return card.oracle_text.toLowerCase().includes(term);
+            });
+          });
+        }
+        
+        // group filters are then applied with AND
+        return (card) => {
+          for (let i=0; i<allFilters.length; i++)
+            if (!allFilters[i](card))
+              return false;
+          return true;
+        };
+      } else {
+        return null;
+      }
      
     },
 
@@ -191,6 +195,17 @@ export default {
       this.updateFilter();
       event.target.blur();
       this.focusRulesText();
+    },
+
+    haveFilter() {
+      let haveFilter = this.rules_text !== '';
+      Object.keys(this.filters).forEach(group => {
+        this.filters[group].forEach(filter => {
+          if (!filter.value)
+            haveFilter = true;
+        });
+      });
+      return haveFilter;
     },
 
     onRulesTextChanged(event) {

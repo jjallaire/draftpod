@@ -47,10 +47,11 @@ export default {
 
 
   computed: {
-    
+
     pool: function() {
-      //let displayCards = this.active_player.deck.piles[DECK.UNUSED];
-      let displayCards = _flatten(this.active_player.deck.piles);
+      let displayCards = this.filter ? 
+        _flatten(this.active_player.deck.piles) :
+        this.active_player.deck.piles[DECK.UNUSED];
       return _orderBy(displayCards, ["key"], ["asc"]);
     },
 
