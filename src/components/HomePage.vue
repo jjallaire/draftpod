@@ -169,7 +169,7 @@ export default {
 .home-content .draftpod-play-btn {
   min-width: 130px;
   margin-top: 30px;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 
