@@ -177,6 +177,7 @@ export default {
       });
       this.rules_text = '';
       this.updateFilter();
+      this.dismissDropdown();
       event.target.blur();
     },
 
@@ -239,7 +240,7 @@ export default {
     </div>
     <div class="row">
       <div class="col-sm-4">
-        <button class="btn btn-sm btn-block btn-warning" @click="onResetFilter">Reset Filter</button>
+        <button class="btn btn-sm btn-block btn-warning" @click="onResetFilter">Clear Filter</button>
       </div>
       <div class="col-sm-4" />
       <div class="col-sm-4">
