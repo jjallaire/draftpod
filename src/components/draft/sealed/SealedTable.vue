@@ -8,6 +8,8 @@ Vue.use(VueHotkey);
 
 import jquery from 'jquery'
 
+import _flatten from 'lodash/flatten'
+
 import NavBar from '@/components/core/NavBar.vue'
 
 import TableCore from '../table/TableCore.js'
@@ -47,7 +49,8 @@ export default {
   computed: {
     
     pool: function() {
-      let displayCards = this.active_player.deck.piles[DECK.UNUSED];
+      //let displayCards = this.active_player.deck.piles[DECK.UNUSED];
+      let displayCards = _flatten(this.active_player.deck.piles);
       return _orderBy(displayCards, ["key"], ["asc"]);
     },
 

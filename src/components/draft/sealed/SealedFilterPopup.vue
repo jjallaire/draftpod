@@ -2,6 +2,8 @@
 
 import * as filters from '@/store/modules/draft/card-filters'
 
+import * as utils from '@/components/core/utils'
+
 import jquery from 'jquery'
 
 export default {
@@ -160,7 +162,17 @@ export default {
         return true;
       };
      
+    },
+
+    dropdown: function() {
+      return jquery(this.$el).closest('.dropdown');
     }
+  },
+
+  mounted() {
+    this.dropdown.on('show.bs.dropdown', () => {
+      this.focusRulesText();
+    });
   },
 
   methods: {
@@ -177,8 +189,8 @@ export default {
       });
       this.rules_text = '';
       this.updateFilter();
-      this.dismissDropdown();
       event.target.blur();
+      this.focusRulesText();
     },
 
     onRulesTextChanged(event) {
@@ -186,8 +198,12 @@ export default {
       this.updateFilter();
     },
 
+    focusRulesText() {
+      utils.focus(this.$refs.rulesText);
+    },
+
     dismissDropdown() {
-      jquery(this.$el).closest(".dropdown").dropdown("toggle");
+      this.dropdown.dropdown("toggle");
     }
   },
 
@@ -200,6 +216,24 @@ export default {
 
 <template>
   <div class="sealed-filter">
+    <div class="row">
+      <div class="form-group col-sm-12">
+        <label id="filterRulesTextLabel" for="filterRulesText"><strong>Rules text</strong></label>
+        <input 
+          id="filterRulesText" 
+          ref="rulesText"
+          :value="rules_text" 
+          class="form-control" 
+          type="text" 
+          aria-describedby="rulesTextHelpBlock" 
+          @input="onRulesTextChanged"
+          @keyup.enter="dismissDropdown"
+        >
+        <small id="rulesTextHelpBlock" class="form-text text-muted">
+          Filter by rules text (e.g. flying, surveil, +1/+1, proliferate, etc.)
+        </small>
+      </div>
+    </div>
     <div class="row">
       <div v-for="(group, caption) in filters" :key="caption" class="col-sm-4 form-group">
         <strong>{{ caption }}</strong>
@@ -221,26 +255,9 @@ export default {
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="form-group col-sm-12">
-        <label id="filterRulesTextLabel" for="filterRulesText"><strong>Rules text</strong></label>
-        <input 
-          id="filterRulesText" 
-          :value="rules_text" 
-          class="form-control" 
-          type="text" 
-          aria-describedby="rulesTextHelpBlock" 
-          @input="onRulesTextChanged"
-          @keyup.enter="dismissDropdown"
-        >
-        <small id="rulesTextHelpBlock" class="form-text text-muted">
-          Filter by rules text (e.g. flying, surveil, +1/+1, proliferate, etc.)
-        </small>
-      </div>
-    </div>
-    <div class="row">
+    <div class="row button-row">
       <div class="col-sm-4">
-        <button class="btn btn-sm btn-block btn-warning" @click="onResetFilter">Clear Filter</button>
+        <button class="btn btn-sm btn-block btn-warning" @click="onResetFilter">Reset Filter</button>
       </div>
       <div class="col-sm-4" />
       <div class="col-sm-4">
@@ -257,6 +274,10 @@ export default {
   padding: 15px;
   width: 400px;
   font-size: 0.8em !important;
+}
+
+.sealed-filter .button-row {
+  margin-top: 10px;
 }
 
 #filterRulesText {
