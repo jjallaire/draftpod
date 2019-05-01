@@ -82,11 +82,11 @@ export default {
             <h2>MTG Arena</h2>
             <p>
               Want to play draft and sealed
-              with your friends on Arena? If your set collection is relatively complete, you can draft or build sealed decks on {{ site.title }}, then play using 
+              with your friends on Arena? If your set collection is relatively complete, you can draft or build sealed decks on {{ site.title }}, then play them using 
               <a href="https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ" target="_blank">Arena Direct Challenge</a>. 
             </p>
             <router-link 
-              class="draftpod-learn-more btn btn-secondary" 
+              class="draftpod-learn-more btn btn-primary" 
               role="button" 
               to="/guide#arena/"
             >
@@ -98,7 +98,7 @@ export default {
             <p>Get more replay value out of your paper collection by using it to play draft and sealed
               with only or 2 or 3 players. Your set cube is digitially shuffled into a brand new set of packs every time you play. </p>
             <router-link 
-              class="draftpod-learn-more btn btn-secondary" 
+              class="draftpod-learn-more btn btn-primary" 
               role="button" 
               to="/guide#multi-player/"
             >
@@ -110,7 +110,7 @@ export default {
             <p>Don't have anyone to play with right now but still want to brush up on your limited skills?
               Use the single-player simulator to practice evaluating cards, reading signals, and building decks.</p>
             <router-link 
-              class="draftpod-learn-more btn btn-secondary" 
+              class="draftpod-learn-more btn btn-primary" 
               role="button" 
               to="/guide#single-player/"
             >
@@ -178,6 +178,9 @@ export default {
   margin-bottom: 20px;
 }
 
+.home-content .draftpod-learn-more {
+  opacity: 0.9;
+}
 
 
 .home-content .draftpod-start-draft svg {
