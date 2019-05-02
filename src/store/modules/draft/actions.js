@@ -491,8 +491,8 @@ function makePick(player_index, set_code, options, table, pile_number, card, ins
   if (pile_number === null) {
     if (card.cmc <= 1)
       pile_number = 0;
-    else if (card.cmc >= 6)
-      pile_number = 5;
+    else if (card.cmc >= 7)
+      pile_number = 6;
     else
       pile_number = card.cmc - 1;
   }

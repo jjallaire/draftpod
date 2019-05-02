@@ -107,8 +107,8 @@ export default {
             if (this.drag_source === "DRAG_SOURCE_UNUSED") {
               if (this.card.cmc <= 1)
                 moveParams.pile_number = 0;
-              else if (this.card.cmc >= 7)
-                moveParams.pile_number = 6;
+              else if (this.card.cmc >= 6)
+                moveParams.pile_number = 5;
               else
                 moveParams.pile_number = this.card.cmc - 1;
             }
