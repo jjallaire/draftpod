@@ -249,11 +249,15 @@ export function activePlayer(player_id, table) {
 
 export function activePack(player_id, table) {
   let player = activePlayer(player_id, table);
-  let packs = player.packs;
-  if (packs.length > 0 && packs[0].length > 0)
-    return packs[0];
-  else
+  if (player) {
+    let packs = player.packs;
+    if (packs.length > 0 && packs[0].length > 0)
+      return packs[0];
+    else
+      return null;
+  } else {
     return null;
+  }
 }
 
 export function hostPlayerName(table) {
