@@ -49,7 +49,7 @@ export function default_cube(set_code) {
   if (sets[set_code].default_cube) {
     return sets[set_code].default_cube;
   } else {
-    return CARDPOOL.CUBE + '6/3/1/1';
+    return CARDPOOL.CUBE + '4/4/1/1';
   }
 }
 
