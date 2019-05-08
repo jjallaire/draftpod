@@ -28,7 +28,7 @@ export function generateCardpool(set_code, cardpool) {
         
         // generated cube
         let cube = cardpool.replace(CARDPOOL.CUBE, '');
-        let [ common, uncommon, mythic, rare ] = cube.split('/').map(Number);
+        let [ common, uncommon, rare, mythic ] = cube.split('/').map(Number);
         cardpool = set.cube(set_code, set_cards, {
           mythic: mythic,
           rare: rare,
