@@ -3,22 +3,22 @@
 460929,"Ugin, the Ineffable",5
 460930,"Ugin's Conjurant",3
 460931,"Ajani's Pridemate",2
-460932,"Battlefield Promotion",1.5
-460933,"Bond of Discipline",1
+460932,"Battlefield Promotion",2
+460933,"Bond of Discipline",1.5
 460934,"Bulwark Giant",1
 460935,"Charmed Stray",1
 460936,"Defiant Strike",1
 460937,"Divine Arrow",3
 460938,"Enforcer Griffin",2
 460939,"Finale of Glory",4
-460940,"Gideon Blackblade",4.5
+460940,"Gideon Blackblade",5
 460941,"Gideon's Sacrifice",0.5
-460942,"Gideon's Triumph",2.5
+460942,"Gideon's Triumph",3
 460943,"God-Eternal Oketra",5
 460944,"Grateful Apparition",3.5
-460945,"Ignite the Beacon",1.5
-460946,"Ironclad Krovod",1
-460947,"Law-Rune Enforcer",3.5
+460945,"Ignite the Beacon",1
+460946,"Ironclad Krovod",0.5
+460947,"Law-Rune Enforcer",3
 460948,"Loxodon Sergeant",1
 460949,"Makeshift Battalion",2
 460950,"Martyr for the Cause",2
@@ -26,22 +26,22 @@
 460952,"Pouncing Lynx",1.5
 460953,"Prison Realm",3.5
 460954,"Rally of Wings",1
-460955,"Ravnica at War",1.5
-460956,"Rising Populace",2
+460955,"Ravnica at War",1
+460956,"Rising Populace",1.5
 460957,"Single Combat",1.5
 460958,"Sunblade Angel",2.5
-460959,"Teyo, the Shieldmage",2
-460960,"Teyo's Lightshield",1.5
+460959,"Teyo, the Shieldmage",1.5
+460960,"Teyo's Lightshield",2
 460961,"Tomik, Distinguished Advokist",2.5
 460962,"Topple the Statue",1
 460963,"Trusted Pegasus",3.5
 460964,"The Wanderer",3.5
 460965,"Wanderer's Strike",3
-460966,"War Screecher",2
+460966,"War Screecher",1.5
 460967,"Ashiok's Skulker",1.5
 460968,"Augur of Bolas",2.5
 460969,"Aven Eternal",3.5
-460970,"Bond of Insight",2.5
+460970,"Bond of Insight",2
 460971,"Callous Dismissal",3
 460972,"Commence the Endgame",3.5
 460973,"Contentious Plan",2.5
@@ -50,15 +50,15 @@
 460976,"Eternal Skylord",3.5
 460977,"Fblthp, the Lost",2.5
 460978,"Finale of Revelation",3.5
-460979,"Flux Channeler",3
+460979,"Flux Channeler",3.5
 460980,"God-Eternal Kefnet",5
 460981,"Jace, Wielder of Mysteries",3.5
 460982,"Jace's Triumph",2.5
 460983,"Kasmina, Enigmatic Mentor",4
 460984,"Kasmina's Transmutation",2
 460985,"Kiora's Dambreaker",2.5
-460986,"Lazotep Plating",2
-460987,"Naga Eternal",0.5
+460986,"Lazotep Plating",1.5
+460987,"Naga Eternal",0
 460988,"Narset, Parter of Veils",3
 460989,"Narset's Reversal",1.5
 460990,"No Escape",2
@@ -70,7 +70,7 @@
 460996,"Spellkeeper Weird",2.5
 460997,"Stealth Mission",1.5
 460998,"Tamiyo's Epiphany",3
-460999,"Teferi's Time Twist",1.5
+460999,"Teferi's Time Twist",2
 461000,"Thunder Drake",3
 461001,"Totally Lost",1.5
 461002,"Wall of Runes",1
@@ -86,22 +86,22 @@
 461012,"Deliver Unto Evil",1.5
 461013,"Dreadhorde Invasion",4
 461014,"Dreadmalkin",2.5
-461015,"Duskmantle Operative",1.5
+461015,"Duskmantle Operative",1
 461016,"The Elderspell",2.5
-461017,"Eternal Taskmaster",3
+461017,"Eternal Taskmaster",3.5
 461018,"Finale of Eternity",4
 461019,"God-Eternal Bontu",4.5
 461020,"Herald of the Dreadhorde",3
 461021,"Kaya's Ghostform",1
-461022,"Lazotep Behemoth",1
+461022,"Lazotep Behemoth",1.5
 461023,"Lazotep Reaver",3
 461024,"Liliana, Dreadhorde General",5
 461025,"Liliana's Triumph",2
 461026,"Massacre Girl",4.5
-461027,"Ob Nixilis, the Hate-Twisted",3
+461027,"Ob Nixilis, the Hate-Twisted",2.5
 461028,"Ob Nixilis's Cruelty",4
 461029,"Price of Betrayal",1.5
-461030,"Shriekdiver",2
+461030,"Shriekdiver",1.5
 461031,"Sorin's Thirst",1.5
 461032,"Spark Harvest",3.5
 461033,"Spark Reaper",2.5
@@ -118,16 +118,16 @@
 461044,"Burning Prophet",3
 461045,"Chainwhip Cyclops",1.5
 461046,"Chandra, Fire Artisan",4.5
-461047,"Chandra's Pyrohelix",3
+461047,"Chandra's Pyrohelix",2.5
 461048,"Chandra's Triumph",3.5
 461049,"Cyclops Electromancer",2.5
 461050,"Demolish",0
-461051,"Devouring Hellion",1.5
+461051,"Devouring Hellion",2
 461052,"Dreadhorde Arcanist",3
-461053,"Dreadhorde Twins",2.5
+461053,"Dreadhorde Twins",3
 461054,"Finale of Promise",3
-461055,"Goblin Assailant",0
-461056,"Goblin Assault Team",1
+461055,"Goblin Assailant",0.5
+461056,"Goblin Assault Team",1.5
 461057,"Grim Initiate",1.5
 461058,"Heartfire",2.5
 461059,"Honor the God-Pharaoh",2.5
@@ -137,10 +137,10 @@
 461063,"Jaya's Greeting",3.5
 461064,"Krenko, Tin Street Kingpin",4
 461065,"Mizzium Tank",2.5
-461066,"Nahiri's Stoneblades",0.5
+461066,"Nahiri's Stoneblades",1
 461067,"Neheb, Dreadhorde Champion",4
-461068,"Raging Kronch",2.5
-461069,"Samut's Sprint",1.5
+461068,"Raging Kronch",3
+461069,"Samut's Sprint",1
 461070,"Sarkhan the Masterless",5
 461071,"Sarkhan's Catharsis",1.5
 461072,"Spellgorger Weird",3
@@ -155,7 +155,7 @@
 461081,"Bloom Hulk",3
 461082,"Bond of Flourishing",2.5
 461083,"Centaur Nurturer",3
-461084,"Challenger Troll",3.5
+461084,"Challenger Troll",3
 461085,"Courage in Crisis",2
 461086,"Evolution Sage",3.5
 461087,"Finale of Devastation",3
@@ -163,11 +163,11 @@
 461089,"Giant Growth",2
 461090,"God-Eternal Rhonas",4.5
 461091,"Jiang Yanggu, Wildcrafter",3.5
-461092,"Kraul Stinger",1.5
+461092,"Kraul Stinger",2
 461093,"Kronch Wrangler",2.5
 461094,"Mowu, Loyal Companion",3.5
-461095,"New Horizons",2.5
-461096,"Nissa, Who Shakes the World",5
+461095,"New Horizons",3
+461096,"Nissa, Who Shakes the World",4.5
 461097,"Nissa's Triumph",1
 461098,"Paradise Druid",3.5
 461099,"Planewide Celebration",3.5
@@ -179,8 +179,8 @@
 461105,"Storm the Citadel",1
 461106,"Thundering Ceratok",2
 461107,"Vivien, Champion of the Wilds",4
-461108,"Vivien's Arkbow",3.5
-461109,"Vivien's Grizzly",1.5
+461108,"Vivien's Arkbow",3
+461109,"Vivien's Grizzly",2
 461110,"Wardscale Crocodile",1.5
 461111,"Ajani, the Greathearted",4.5
 461112,"Angrath's Rampage",3
@@ -191,18 +191,18 @@
 461117,"Despark",3.5
 461118,"Domri, Anarch of Bolas",4
 461119,"Domri's Ambush",3.5
-461120,"Dovin's Veto",2
+461120,"Dovin's Veto",1.5
 461121,"Dreadhorde Butcher",3.5
 461122,"Elite Guardmage",3.5
 461123,"Enter the God-Eternals",4.5
 461124,"Feather, the Redeemed",4
 461125,"Gleaming Overseer",3
-461126,"Heartwarming Redemption",1
+461126,"Heartwarming Redemption",1.5
 461127,"Huatli's Raptor",3
 461128,"Invade the City",1.5
 461129,"Leyline Prowler",3
-461130,"Living Twister",3
-461131,"Mayhem Devil",2.5
+461130,"Living Twister",3.5
+461131,"Mayhem Devil",3
 461132,"Merfolk Skydiver",3.5
 461133,"Neoform",1
 461134,"Nicol Bolas, Dragon-God",4
@@ -213,8 +213,8 @@
 461139,"Ral's Outburst",3.5
 461140,"Roalesk, Apex Hybrid",4.5
 461141,"Role Reversal",3
-461142,"Rubblebelt Rioters",2
-461143,"Solar Blaze",3
+461142,"Rubblebelt Rioters",2.5
+461143,"Solar Blaze",2.5
 461144,"Sorin, Vengeful Bloodlord",4
 461145,"Soul Diviner",3.5
 461146,"Storrev, Devkarin Lich",4
@@ -227,7 +227,7 @@
 461153,"Widespread Brutality",3.5
 461154,"Angrath, Captain of Chaos",3.5
 461155,"Ashiok, Dream Render",3
-461156,"Dovin, Hand of Control",3
+461156,"Dovin, Hand of Control",2.5
 461157,"Huatli, the Sun's Heart",1.5
 461158,"Kaya, Bane of the Dead",4
 461159,"Kiora, Behemoth Beckoner",3
@@ -247,7 +247,7 @@
 461173,"Gateway Plaza",2
 461174,"Interplanar Beacon",1
 461175,"Karn's Bastion",3
-461176,"Mobilized District",3
+461176,"Mobilized District",2.5
 461177,"Plains",0
 461180,"Island",0
 461183,"Swamp",0
