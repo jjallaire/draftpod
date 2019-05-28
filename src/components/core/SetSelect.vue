@@ -69,6 +69,20 @@ export default {
             Ixalan
           </option>
         </optgroup>
+        <optgroup label="More">
+          <option value="hou">
+            Hour of Devastation
+          </option>
+          <option value="akh">
+            Amonkhet
+          </option>
+          <option value="aer">
+            Aether Revolt
+          </option>
+          <option value="kld">
+            Kaladesh
+          </option>
+        </optgroup>
         <optgroup label="Cubes">
           <option value="cube_gnt">
             Game Night Cube

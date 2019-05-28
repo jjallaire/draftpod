@@ -1,5 +1,11 @@
 
 
+
+
+import kld from './set-kld'
+import aer from './set-aer'
+import akh from './set-akh'
+import hou from './set-hou'
 import dom from './set-dom'
 import m19 from './set-m19'
 import grn from './set-grn'
@@ -8,6 +14,7 @@ import xln from './set-xln'
 import rix from './set-rix'
 import war from './set-war'
 
+
 import cube_gnt from './cube-gnt'
 
 import axios from 'axios'
@@ -15,6 +22,10 @@ import axios from 'axios'
 import { CARDPOOL } from '../../../constants'
 
 const sets = {
+  akh,
+  aer,
+  kld,
+  hou,
   dom,
   m19,
   grn,
