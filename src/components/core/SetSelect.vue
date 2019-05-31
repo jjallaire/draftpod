@@ -83,6 +83,9 @@ export default {
             Kaladesh
           </option>
         </optgroup>
+        <optgroup label="Draft Innovation">
+
+        </optgroup>
         <optgroup label="Cubes">
           <option value="cube_gnt">
             Game Night Cube
