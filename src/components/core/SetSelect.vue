@@ -84,7 +84,9 @@ export default {
           </option>
         </optgroup>
         <optgroup label="Draft Innovation">
-
+          <option value="mh1">
+            Modern Horizons
+          </option>
         </optgroup>
         <optgroup label="Cubes">
           <option value="cube_gnt">
