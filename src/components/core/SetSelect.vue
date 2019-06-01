@@ -83,7 +83,7 @@ export default {
             Kaladesh
           </option>
         </optgroup>
-        <optgroup label="Draft Innovation">
+        <optgroup label="Modern">
           <option value="mh1">
             Modern Horizons
           </option>
