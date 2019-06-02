@@ -46,6 +46,14 @@ export default {
         :disabled="disabled" 
         class="form-control"
       >
+        <optgroup label="Recent">
+          <option value="war">
+            War of the Spark
+          </option>
+          <option value="mh1">
+            Modern Horizons
+          </option>
+        </optgroup>
         <optgroup label="Standard">
           <option value="war">
             War of the Spark
