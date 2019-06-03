@@ -33,6 +33,7 @@ export default {
         <a href="/guide#faq/">FAQ</a>
         <a href="/guide#privacy/">Privacy</a>
         <a href="/guide#contact/">Contact</a>
+        <a href="https://forum.draftpod.org/">Forum</a>
         <a :href="site.twitter">Twitter</a>
       </span>
     </p>
