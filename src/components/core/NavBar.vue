@@ -55,9 +55,6 @@
         </a>
       </router-link>
       <li class="nav-item">
-        <a class="nav-link" href="https://forum.draftpod.org/">Forum</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link icon-link" :href="site.twitter">
           <TwitterIcon />
         </a>
