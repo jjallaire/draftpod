@@ -79,7 +79,8 @@ download_cards <- function(cards,
     if (length(multiverse_ids) == 0) {
       baseline <- switch(set,
         rna = 500000,
-        war = 460927
+        war = 460927,
+        mh1 = 463949,
       )
       multiverse_ids <- list(baseline + collector_number)
     }
@@ -149,6 +150,7 @@ download_cards <- function(cards,
     xln = 279,
     rix = 196,
     war = 264,
+    mh1 = 254,
     
     # NOTE: need to reconfirm that these have the
     # right numbers for inclusion of basics
