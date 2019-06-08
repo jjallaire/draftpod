@@ -157,7 +157,10 @@ export default {
         if (this.rules_text) {
           this.rules_text.split(/[ ,]+/).forEach(term => {
             allFilters.push(card => {
-              return card.oracle_text.toLowerCase().includes(term);
+              let card_text = [card.oracle_text,card.type_line,card.name]
+                                .join(' ')
+                                .toLowerCase();
+              return card_text.includes(term);
             });
           });
         }
@@ -257,7 +260,7 @@ export default {
   <div class="sealed-filter">
     <div class="row">
       <div class="form-group col-sm-12">
-        <label id="filterRulesTextLabel" for="filterRulesText"><strong>Rules text</strong></label>
+        <label id="filterRulesTextLabel" for="filterRulesText"><strong>Card Text:</strong></label>
         <input 
           id="filterRulesText" 
           ref="rulesText"
@@ -269,13 +272,13 @@ export default {
           @keyup.enter="dismissDropdown"
         >
         <small id="rulesTextHelpBlock" class="form-text text-muted">
-          Filter by rules text (e.g. flying, surveil, +1/+1, proliferate, etc.)
+          Filter by name/type/rules (e.g. flying, surveil, snow, +1/+1, proliferate, etc.)
         </small>
       </div>
     </div>
     <div class="row">
       <div v-for="(group, caption) in filters" :key="caption" class="col-sm-4 form-group">
-        <strong>{{ caption }}</strong>
+        <strong>{{ caption }}:</strong>
         <div v-for="filter in group" :key="filter.caption" class="form-check">
           <input 
             :id="filter + group + filter.caption" 
@@ -307,11 +310,11 @@ export default {
     </div>
     <div class="row button-row">
       <div class="col-sm-4">
-        <button class="btn btn-sm btn-block btn-warning" @click="onResetFilter">Reset Filter</button>
+        <button class="btn btn-sm btn-block btn-primary" @click="onResetFilter">Reset Filter</button>
       </div>
       <div class="col-sm-4" />
       <div class="col-sm-4">
-        <button class="btn btn-sm btn-block btn-success" @click="dismissDropdown">Apply</button>
+        <button class="btn btn-sm btn-block btn-secondary" @click="dismissDropdown">Close</button>
       </div>
     </div>
   </div>
