@@ -170,13 +170,6 @@ export function deckColors(deck, numColors = 2) {
 
 function colorBonus(deck, deck_colors, card) {
 
-  // determine what percent of a card's colors must match for it to be 
-  // considered 'on-color' and get a scaled color bonus. During pack 1
-  // this will be 50% to account for more exploratory drafting. During
-  // packs 2-3 this will be 66% (so that bots will still draft
-  // 3-color cards)
-  const color_bonus_factor_threshold = deck.length <= 14 ? 0.50 : 0.66;
-
   // color bonus escalates gradually over first 15 picks
   const color_bonus_levels = [0.0, 0.5, 0.5, 0.5, 1.0, 
                               1.0, 1.0, 1.0, 1.5, 1.5,
@@ -197,11 +190,6 @@ function colorBonus(deck, deck_colors, card) {
     );
     // compute color factor (% of our colors that match the card colors)
     color_bonus_factor = (matching_colors.length / card_colors.length);
-
-    // eliminate the color factor entirely if it doesn't achieve
-    // a threshold ratio (>= 0.5 in pack 1, >= 0.66 in packs 2-3)
-    if (color_bonus_factor < color_bonus_factor_threshold)
-      color_bonus_factor = 0.0;
   }
   
   // calculate and return final color bonus
