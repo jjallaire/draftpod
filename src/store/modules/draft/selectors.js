@@ -773,7 +773,7 @@ export function orderUnplayedPile(deck, pile_index, deckColorsOnly = false) {
 }
 
 // count colors in sets of cards
-function countColors(cards, color_ranking) {
+export function countColors(cards, color_ranking) {
   let all_colors = ['B', 'U', 'W', 'R', 'G'];
   let color_regex = /[BUWRG/]+(?=\})/g;
   function colorReducer(accumulator, card) {
