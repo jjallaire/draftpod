@@ -623,10 +623,10 @@ export function autoLands(deck, deck_size) {
   // count again w/ the color_ranking
   card_colors = countColors(cards, color_ranking);
 
-  // bump all counts by 5 to bias splashes and secondary colors up
+  // bump all counts by 8 to bias splashes and secondary colors up
   Object.keys(card_colors).forEach(color => {
     if (card_colors[color] > 0)
-      card_colors[color] += 5;
+      card_colors[color] += 8;
   });
 
   // establish total lands required
