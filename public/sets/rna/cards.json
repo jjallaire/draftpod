@@ -260,7 +260,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 3.5,
     "set": "rna"
   },
   {
@@ -302,7 +302,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "rna"
   },
   {
@@ -527,7 +527,7 @@
       "B"
     ],
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "rna"
   },
   {
@@ -1769,7 +1769,7 @@
       "R"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "rna"
   },
   {
@@ -1807,7 +1807,7 @@
       "U"
     ],
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "rna"
   },
   {
@@ -2071,7 +2071,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 3.5,
     "set": "rna"
   },
   {
@@ -2092,7 +2092,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 2,
     "set": "rna"
   },
   {
@@ -2470,7 +2470,7 @@
     "multiverse_ids": [
       457329
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0a742125-730d-4082-bfd8-5feb7733def4.jpg?1549414857"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0a742125-730d-4082-bfd8-5feb7733def4.jpg?1559959171"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Shaman",
     "oracle_text": "Other creatures you control get +1/+0.\nWhenever a nontoken creature you control dies, Judith, the Scourge Diva deals 1 damage to any target.",
@@ -2612,7 +2612,7 @@
     "multiverse_ids": [
       457333
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/4/c497d496-1232-4614-93b0-9864fa93c29f.jpg?1549414878"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/4/c497d496-1232-4614-93b0-9864fa93c29f.jpg?1559959175"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Soldier",
     "oracle_text": "Each opponent can't cast noncreature spells with converted mana cost greater than the number of lands that player controls.\nWhenever an opponent casts a spell, if no mana was spent to cast it, counter that spell.",
@@ -2856,7 +2856,7 @@
     "multiverse_ids": [
       457337
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1549414900"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/d/0dcdad71-323e-41e0-a1b3-9fd5b753e71c.jpg?1559959175"],
     "layout": "normal",
     "type_line": "Legendary Creature — Centaur Druid",
     "oracle_text": "You can't cast noncreature spells.\nWhenever you tap a land for mana, add one mana of any type that land produced.",
@@ -2948,7 +2948,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 3.5,
     "set": "rna"
   },
   {
@@ -2969,7 +2969,7 @@
       "W"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "rna"
   },
   {
@@ -3158,7 +3158,7 @@
     "multiverse_ids": [
       457339
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84abfc59-10a7-4cb5-9cdd-81797116c810.jpg?1552759361"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84abfc59-10a7-4cb5-9cdd-81797116c810.jpg?1559959177"],
     "layout": "normal",
     "type_line": "Legendary Creature — Elf Ooze Wizard",
     "oracle_text": "{T}, Sacrifice another creature: Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.",
@@ -3312,7 +3312,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 3,
     "set": "rna"
   },
   {
@@ -3333,7 +3333,7 @@
       "R"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "rna"
   },
   {
@@ -3364,7 +3364,7 @@
     "multiverse_ids": [
       457343
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4e3c30c7-c52e-41a0-b7c2-21d39c05160b.jpg?1549414926"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4e3c30c7-c52e-41a0-b7c2-21d39c05160b.jpg?1559959186"],
     "layout": "normal",
     "type_line": "Legendary Creature — Demon",
     "oracle_text": "Flying, trample\nWhen Rakdos, the Showstopper enters the battlefield, flip a coin for each creature that isn't a Demon, Devil, or Imp. Destroy each creature whose coin comes up tails.",
@@ -4108,7 +4108,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 3.5,
     "set": "rna"
   },
   {
@@ -4129,7 +4129,7 @@
       "U"
     ],
     "rarity": "common",
-    "rating": 1,
+    "rating": 2,
     "set": "rna"
   },
   {
@@ -4749,7 +4749,7 @@
     "multiverse_ids": [
       457356
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bcfaa19e-995e-447d-a0a2-46e5d117d5ec.jpg?1549414994"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bcfaa19e-995e-447d-a0a2-46e5d117d5ec.jpg?1559959191"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Advisor",
     "oracle_text": "If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\nCreature tokens you control have vigilance and lifelink.",
@@ -5233,7 +5233,7 @@
     "multiverse_ids": [
       457358
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd199a48-5ac8-4ab9-a33c-bbce6f7c9d1b.jpg?1549415004"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd199a48-5ac8-4ab9-a33c-bbce6f7c9d1b.jpg?1559959197"],
     "layout": "normal",
     "type_line": "Legendary Creature — Merfolk Wizard",
     "oracle_text": "When Zegana, Utopian Speaker enters the battlefield, if you control another creature with a +1/+1 counter on it, draw a card.\n{4}{G}{U}: Adapt 4. (If this creature has no +1/+1 counters on it, put four +1/+1 counters on it.)\nEach creature you control with a +1/+1 counter on it has trample.",
