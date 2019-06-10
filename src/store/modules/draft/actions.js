@@ -361,6 +361,10 @@ function packToPick(set_code, player_id, options, table, card, pile_number, inse
   if (!card)  
     card = draftbot.pick(player.bot, picks, player.packs[0]);
 
+  // it's possible that a user could attempt to pick the same card twice, prohibit this
+  if (picks.find(pick => pick.key === card.key) !== undefined)
+    return;
+
   // make the pick 
   makePick(player_index, set_code, options, table, pile_number, card, insertBefore);
 
