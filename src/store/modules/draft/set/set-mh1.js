@@ -25,8 +25,7 @@ export default {
   },
 
   capabilities: {
-    arena_decklists: false,
-    custom_cardpool: false
+    arena_decklists: false
   },
 
   booster(selectCards) {
