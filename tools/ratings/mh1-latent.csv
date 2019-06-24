@@ -5,7 +5,7 @@ id,name,latent_color
 463953,Battle Screech,
 463954,Dismantling Blow,
 463955,Enduring Sliver,
-463956,Ephemerate,
+463956,Ephemerate,U
 463957,Face of Divinity,
 463958,First Sliver's Chosen,
 463959,Force of Virtue,
@@ -17,10 +17,10 @@ id,name,latent_color
 463965,King of the Pride,
 463966,Knight of Old Benalia,
 463967,Lancer Sliver,
-463968,Martyr's Soul,
+463968,Martyr's Soul,G
 463969,On Thin Ice,
 463970,Ranger-Captain of Eos,
-463971,Recruit the Worthy,
+463971,Recruit the Worthy,G
 463972,Reprobation,
 463973,Rhox Veteran,
 463974,Segovian Angel,
@@ -43,18 +43,18 @@ id,name,latent_color
 463991,Blizzard Strix,
 463992,Chillerpillar,
 463993,Choking Tethers,
-463994,Cunning Evasion,
+463994,Cunning Evasion,B
 463995,Echo of Eons,
-463996,Everdream,
+463996,Everdream,R
 463997,Exclude,
 463998,Eyekite,R
 463999,Fact or Fiction,
 464000,Faerie Seer,
 464001,Force of Negation,
 464002,Future Sight,
-464003,Iceberg Cancrix,
+464003,Iceberg Cancrix,G
 464004,Man-o'-War,
-464005,Marit Lage's Slumber,
+464005,Marit Lage's Slumber,G
 464006,Mirrodin Besieged,
 464007,Mist-Syndicate Naga,
 464008,Moonblade Shinobi,
@@ -67,7 +67,7 @@ id,name,latent_color
 464015,Rebuild,
 464016,Scour All Possibilities,
 464017,Scuttling Sliver,
-464018,Smoke Shroud,
+464018,Smoke Shroud,B
 464019,Spell Snuff,
 464020,Stream of Thought,
 464021,String of Disappearances,
@@ -76,11 +76,11 @@ id,name,latent_color
 464024,"Urza, Lord High Artificer",
 464025,Watcher for Tomorrow,
 464026,Windcaller Aven,
-464027,Winter's Rest,
-464028,Azra Smokeshaper,
-464029,Cabal Therapist,
-464030,Carrion Feeder,
-464031,Changeling Outcast,
+464027,Winter's Rest,G
+464028,Azra Smokeshaper,U
+464029,Cabal Therapist,R
+464030,Carrion Feeder,R
+464031,Changeling Outcast,U
 464032,Cordial Vampire,
 464033,Crypt Rats,
 464034,Dead of Winter,
@@ -92,51 +92,51 @@ id,name,latent_color
 464040,First-Sphere Gargantua,
 464041,Force of Despair,
 464042,Gluttonous Slug,
-464043,Graveshifter,
+464043,Graveshifter,G
 464044,Headless Specter,
 464045,Mind Rake,
 464046,Mob,
 464047,Nether Spirit,
-464048,Ninja of the New Moon,
+464048,Ninja of the New Moon,U
 464049,Plague Engineer,
-464050,Putrid Goblin,
+464050,Putrid Goblin,R
 464051,Rank Officer,
-464052,Ransack the Lab,
-464053,Return from Extinction,
+464052,Ransack the Lab,G
+464053,Return from Extinction,G
 464054,Sadistic Obsession,
 464055,Shatter Assumptions,
-464056,Silumgar Scavenger,
-464057,Sling-Gang Lieutenant,
+464056,Silumgar Scavenger,R
+464057,Sling-Gang Lieutenant,R
 464058,Smiting Helix,
-464059,Throatseeker,
+464059,Throatseeker,U
 464060,Umezawa's Charm,
-464061,Undead Augur,
-464062,Unearth,
+464061,Undead Augur,W
+464062,Unearth,G
 464063,Venomous Changeling,
-464064,Warteye Witch,
+464064,Warteye Witch,R
 464065,"Yawgmoth, Thran Physician",
-464066,Alpine Guide,
-464067,Aria of Flame,
-464068,Bladeback Sliver,
-464069,Bogardan Dragonheart,
-464070,Cleaving Sliver,
+464066,Alpine Guide,G
+464067,Aria of Flame,U
+464068,Bladeback Sliver,W
+464069,Bogardan Dragonheart,B
+464070,Cleaving Sliver,W
 464071,Firebolt,
-464072,Fists of Flame,
+464072,Fists of Flame,U
 464073,Force of Rage,
-464074,Geomancer's Gambit,
-464075,Goatnap,
-464076,Goblin Champion,
-464077,Goblin Engineer,
-464078,Goblin Matron,
-464079,Goblin Oriflamme,
-464080,Goblin War Party,
-464081,Hollowhead Sliver,
-464082,Igneous Elemental,
-464083,Lava Dart,
+464074,Geomancer's Gambit,G
+464075,Goatnap,B
+464076,Goblin Champion,B
+464077,Goblin Engineer,B
+464078,Goblin Matron,B
+464079,Goblin Oriflamme,B
+464080,Goblin War Party,B
+464081,Hollowhead Sliver,W
+464082,Igneous Elemental,G
+464083,Lava Dart,G
 464084,Magmatic Sinkhole,
 464085,Orcish Hellraiser,
-464086,Ore-Scale Guardian,
-464087,Pashalik Mons,
+464086,Ore-Scale Guardian,G
+464087,Pashalik Mons,B
 464088,Pillage,
 464089,Planebound Accomplice,
 464090,Pyrophobia,
@@ -145,9 +145,9 @@ id,name,latent_color
 464093,Reckless Charge,
 464094,Seasoned Pyromancer,
 464095,Shenanigans,
-464096,Spinehorn Minotaur,
-464097,Spiteful Sliver,
-464098,Tectonic Reformation,
+464096,Spinehorn Minotaur,U
+464097,Spiteful Sliver,W
+464098,Tectonic Reformation,G
 464099,Throes of Chaos,
 464100,Urza's Rage,
 464101,Vengeful Devil,
@@ -155,26 +155,26 @@ id,name,latent_color
 464103,Volatile Claws,
 464104,"Ayula, Queen Among Bears",
 464105,Ayula's Influence,
-464106,Bellowing Elk,
+464106,Bellowing Elk,W
 464107,Collector Ouphe,
-464108,Conifer Wurm,
+464108,Conifer Wurm,U
 464109,Crashing Footfalls,
 464110,Deep Forest Hermit,
 464111,Elvish Fury,
-464112,Excavating Anurid,
+464112,Excavating Anurid,R
 464113,Force of Vigor,
-464114,Frostwalla,
+464114,Frostwalla,U
 464115,Genesis,
-464116,Glacial Revelation,
+464116,Glacial Revelation,U
 464117,Hexdrinker,
 464118,Krosan Tusker,
 464119,Llanowar Tribe,
 464120,Mother Bear,
-464121,Murasa Behemoth,
-464122,Nantuko Cultivator,
-464123,Nimble Mongoose,
-464124,Regrowth,
-464125,Rime Tender,
+464121,Murasa Behemoth,R
+464122,Nantuko Cultivator,R
+464123,Nimble Mongoose,B
+464124,Regrowth,B
+464125,Rime Tender,U
 464126,Saddled Rimestag,
 464127,Savage Swipe,
 464128,Scale Up,
@@ -184,7 +184,7 @@ id,name,latent_color
 464132,Tempered Sliver,
 464133,Thornado,
 464134,Treefolk Umbra,
-464135,Treetop Ambusher,
+464135,Treetop Ambusher,W
 464136,Trumpeting Herd,
 464137,Twin-Silk Spider,
 464138,Unbound Flourishing,
