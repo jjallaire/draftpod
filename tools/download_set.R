@@ -40,12 +40,20 @@ download_cards <- function(cards,
     })
   }
   
-  # read ratings
-  if (!is.null(ratings_dir))
+  # read ratings and latent colors
+  if (!is.null(ratings_dir)) {
     ratings <- read.csv(file.path(ratings_dir, paste0(set, ".csv")))
-  else
+    latent_csv <- file.path(ratings_dir, paste0(set, "-latent.csv"))
+    if (file.exists(latent_csv))
+      latent_colors <- readr::read_csv(latent_csv)
+    else
+      latent_colors <- NULL
+  } else {
     ratings <- NULL
-  
+    latent_colors <- NULL
+  }
+ 
+
   # narrow to the fields we care about
   cards <- lapply(cards, function(card) {
     
@@ -97,6 +105,18 @@ download_cards <- function(cards,
       rating <- NULL
     }
     
+    # get latent color
+    if (!is.null(latent_colors)) {
+      latent_colors_for_id <- subset(latent_colors, id == multiverse_ids[[1]])
+      if (nrow(latent_colors_for_id) > 0) {
+        latent_color <- latent_colors_for_id$latent_color
+      } else {
+        latent_color <- ""
+      }
+    } else {
+      latent_color <- ""
+    }
+    
     # see if we need to extract the cmc from the oracle_text
     # for Unstable
     cmc <- card$cmc
@@ -131,6 +151,7 @@ download_cards <- function(cards,
       mana_cost = mana_cost,
       cmc = cmc,
       colors = I(card$color_identity),
+      latent_color = latent_color,
       rarity = card$rarity,
       rating = rating,
       set = card$set
