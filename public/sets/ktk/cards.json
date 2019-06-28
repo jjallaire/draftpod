@@ -1,0 +1,5446 @@
+[
+  {
+    "id": 386463,
+    "name": "Abomination of Gudul",
+    "collector_number": 159,
+    "multiverse_ids": [
+      386463
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/159.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Horror",
+    "oracle_text": "Flying\nWhenever Abomination of Gudul deals combat damage to a player, you may draw a card. If you do, discard a card.\nMorph {2}{B}{G}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{3}{B}{G}{U}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386464,
+    "name": "Abzan Ascendancy",
+    "collector_number": 160,
+    "multiverse_ids": [
+      386464
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/160.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "When Abzan Ascendancy enters the battlefield, put a +1/+1 counter on each creature you control.\nWhenever a nontoken creature you control dies, create a 1/1 white Spirit creature token with flying.",
+    "mana_cost": "{W}{B}{G}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386465,
+    "name": "Abzan Banner",
+    "collector_number": 215,
+    "multiverse_ids": [
+      386465
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/215.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {W}, {B}, or {G}.\n{W}{B}{G}, {T}, Sacrifice Abzan Banner: Draw a card.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386466,
+    "name": "Abzan Battle Priest",
+    "collector_number": 1,
+    "multiverse_ids": [
+      386466
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/1.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "oracle_text": "Outlast {W} ({W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has lifelink.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386467,
+    "name": "Abzan Charm",
+    "collector_number": 161,
+    "multiverse_ids": [
+      386467
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/161.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Exile target creature with power 3 or greater.\n• You draw two cards and you lose 2 life.\n• Distribute two +1/+1 counters among one or two target creatures.",
+    "mana_cost": "{W}{B}{G}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386468,
+    "name": "Abzan Falconer",
+    "collector_number": 2,
+    "multiverse_ids": [
+      386468
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/2.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "Outlast {W} ({W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has flying.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386469,
+    "name": "Abzan Guide",
+    "collector_number": 162,
+    "multiverse_ids": [
+      386469
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/162.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nMorph {2}{W}{B}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{3}{W}{B}{G}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386470,
+    "name": "Act of Treason",
+    "collector_number": 95,
+    "multiverse_ids": [
+      386470
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/95.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386471,
+    "name": "Ainok Bond-Kin",
+    "collector_number": 3,
+    "multiverse_ids": [
+      386471
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/3.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Hound Soldier",
+    "oracle_text": "Outlast {1}{W} ({1}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has first strike.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386472,
+    "name": "Ainok Tracker",
+    "collector_number": 96,
+    "multiverse_ids": [
+      386472
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/96.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Hound Scout",
+    "oracle_text": "First strike\nMorph {4}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{5}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386473,
+    "name": "Alabaster Kirin",
+    "collector_number": 4,
+    "multiverse_ids": [
+      386473
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/4.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Kirin",
+    "oracle_text": "Flying, vigilance",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386474,
+    "name": "Alpine Grizzly",
+    "collector_number": 127,
+    "multiverse_ids": [
+      386474
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/127.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Bear",
+    "oracle_text": "",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386475,
+    "name": "Altar of the Brood",
+    "collector_number": 216,
+    "multiverse_ids": [
+      386475
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/216.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "Whenever another permanent enters the battlefield under your control, each opponent puts the top card of their library into their graveyard.",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386476,
+    "name": "Anafenza, the Foremost",
+    "collector_number": 163,
+    "multiverse_ids": [
+      386476
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/163.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Soldier",
+    "oracle_text": "Whenever Anafenza, the Foremost attacks, put a +1/+1 counter on another target tapped creature you control.\nIf a nontoken creature an opponent owns would die or a creature card not on the battlefield would be put into an opponent's graveyard, exile that card instead.",
+    "mana_cost": "{W}{B}{G}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386477,
+    "name": "Ankle Shanker",
+    "collector_number": 164,
+    "multiverse_ids": [
+      386477
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/164.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Berserker",
+    "oracle_text": "Haste\nWhenever Ankle Shanker attacks, creatures you control gain first strike and deathtouch until end of turn.",
+    "mana_cost": "{2}{R}{W}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386479,
+    "name": "Archers' Parapet",
+    "collector_number": 128,
+    "multiverse_ids": [
+      386479
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/128.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Wall",
+    "oracle_text": "Defender\n{1}{B}, {T}: Each opponent loses 1 life.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386478,
+    "name": "Arc Lightning",
+    "collector_number": 97,
+    "multiverse_ids": [
+      386478
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/97.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Arc Lightning deals 3 damage divided as you choose among one, two, or three targets.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386480,
+    "name": "Armament Corps",
+    "collector_number": 165,
+    "multiverse_ids": [
+      386480
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/165.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "When Armament Corps enters the battlefield, distribute two +1/+1 counters among one or two target creatures you control.",
+    "mana_cost": "{2}{W}{B}{G}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386481,
+    "name": "Arrow Storm",
+    "collector_number": 98,
+    "multiverse_ids": [
+      386481
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/98.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Arrow Storm deals 4 damage to any target.\nRaid — If you attacked with a creature this turn, instead Arrow Storm deals 5 damage to that permanent or player and the damage can't be prevented.",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386482,
+    "name": "Ashcloud Phoenix",
+    "collector_number": 99,
+    "multiverse_ids": [
+      386482
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/99.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Phoenix",
+    "oracle_text": "Flying\nWhen Ashcloud Phoenix dies, return it to the battlefield face down under your control.\nMorph {4}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Ashcloud Phoenix is turned face up, it deals 2 damage to each player.",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386483,
+    "name": "Avalanche Tusker",
+    "collector_number": 166,
+    "multiverse_ids": [
+      386483
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/166.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Elephant Warrior",
+    "oracle_text": "Whenever Avalanche Tusker attacks, target creature defending player controls blocks it this combat if able.",
+    "mana_cost": "{2}{G}{U}{R}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386484,
+    "name": "Awaken the Bear",
+    "collector_number": 129,
+    "multiverse_ids": [
+      386484
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/129.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +3/+3 and gains trample until end of turn.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386485,
+    "name": "Barrage of Boulders",
+    "collector_number": 100,
+    "multiverse_ids": [
+      386485
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/100.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Barrage of Boulders deals 1 damage to each creature you don't control.\nFerocious — If you control a creature with power 4 or greater, creatures can't block this turn.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386486,
+    "name": "Bear's Companion",
+    "collector_number": 167,
+    "multiverse_ids": [
+      386486
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/167.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "When Bear's Companion enters the battlefield, create a 4/4 green Bear creature token.",
+    "mana_cost": "{2}{G}{U}{R}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386487,
+    "name": "Become Immense",
+    "collector_number": 130,
+    "multiverse_ids": [
+      386487
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/130.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nTarget creature gets +6/+6 until end of turn.",
+    "mana_cost": "{5}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386488,
+    "name": "Bellowing Saddlebrute",
+    "collector_number": 64,
+    "multiverse_ids": [
+      386488
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/64.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Warrior",
+    "oracle_text": "Raid — When Bellowing Saddlebrute enters the battlefield, you lose 4 life unless you attacked with a creature this turn.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386489,
+    "name": "Bitter Revelation",
+    "collector_number": 65,
+    "multiverse_ids": [
+      386489
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/65.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard. You lose 2 life.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386490,
+    "name": "Blinding Spray",
+    "collector_number": 32,
+    "multiverse_ids": [
+      386490
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/32.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Creatures your opponents control get -4/-0 until end of turn.\nDraw a card.",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386491,
+    "name": "Bloodfell Caves",
+    "collector_number": 229,
+    "multiverse_ids": [
+      386491
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/229.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Bloodfell Caves enters the battlefield tapped.\nWhen Bloodfell Caves enters the battlefield, you gain 1 life.\n{T}: Add {B} or {R}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386492,
+    "name": "Bloodfire Expert",
+    "collector_number": 101,
+    "multiverse_ids": [
+      386492
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/101.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Efreet Monk",
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386493,
+    "name": "Bloodfire Mentor",
+    "collector_number": 102,
+    "multiverse_ids": [
+      386493
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/102.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Efreet Shaman",
+    "oracle_text": "{2}{U}, {T}: Draw a card, then discard a card.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386494,
+    "name": "Bloodsoaked Champion",
+    "collector_number": 66,
+    "multiverse_ids": [
+      386494
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/66.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Bloodsoaked Champion can't block.\nRaid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate this ability only if you attacked with a creature this turn.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386495,
+    "name": "Bloodstained Mire",
+    "collector_number": 230,
+    "multiverse_ids": [
+      386495
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/230.jpg?1535416228"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice Bloodstained Mire: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle your library.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386496,
+    "name": "Blossoming Sands",
+    "collector_number": 231,
+    "multiverse_ids": [
+      386496
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/231.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Blossoming Sands enters the battlefield tapped.\nWhen Blossoming Sands enters the battlefield, you gain 1 life.\n{T}: Add {G} or {W}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386497,
+    "name": "Brave the Sands",
+    "collector_number": 5,
+    "multiverse_ids": [
+      386497
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/5.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Creatures you control have vigilance.\nEach creature you control can block an additional creature each combat.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386498,
+    "name": "Briber's Purse",
+    "collector_number": 217,
+    "multiverse_ids": [
+      386498
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/217.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "Briber's Purse enters the battlefield with X gem counters on it.\n{1}, {T}, Remove a gem counter from Briber's Purse: Target creature can't attack or block this turn.",
+    "mana_cost": "{X}",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386499,
+    "name": "Bring Low",
+    "collector_number": 103,
+    "multiverse_ids": [
+      386499
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/103.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Bring Low deals 3 damage to target creature. If that creature has a +1/+1 counter on it, Bring Low deals 5 damage to it instead.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386500,
+    "name": "Burn Away",
+    "collector_number": 104,
+    "multiverse_ids": [
+      386500
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/104.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Burn Away deals 6 damage to target creature. When that creature dies this turn, exile all cards from its controller's graveyard.",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386501,
+    "name": "Butcher of the Horde",
+    "collector_number": 168,
+    "multiverse_ids": [
+      386501
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/168.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Demon",
+    "oracle_text": "Flying\nSacrifice another creature: Butcher of the Horde gains your choice of vigilance, lifelink, or haste until end of turn.",
+    "mana_cost": "{1}{R}{W}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386502,
+    "name": "Cancel",
+    "collector_number": 33,
+    "multiverse_ids": [
+      386502
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/33.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell.",
+    "mana_cost": "{1}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386503,
+    "name": "Canyon Lurkers",
+    "collector_number": 105,
+    "multiverse_ids": [
+      386503
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/105.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Rogue",
+    "oracle_text": "Morph {3}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386504,
+    "name": "Chief of the Edge",
+    "collector_number": 169,
+    "multiverse_ids": [
+      386504
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/169.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Other Warrior creatures you control get +1/+0.",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386505,
+    "name": "Chief of the Scale",
+    "collector_number": 170,
+    "multiverse_ids": [
+      386505
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/170.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Other Warrior creatures you control get +0/+1.",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386506,
+    "name": "Clever Impersonator",
+    "collector_number": 34,
+    "multiverse_ids": [
+      386506
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/34.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Shapeshifter",
+    "oracle_text": "You may have Clever Impersonator enter the battlefield as a copy of any nonland permanent on the battlefield.",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386507,
+    "name": "Crackling Doom",
+    "collector_number": 171,
+    "multiverse_ids": [
+      386507
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/171.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures that player controls.",
+    "mana_cost": "{R}{W}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386508,
+    "name": "Cranial Archive",
+    "collector_number": 218,
+    "multiverse_ids": [
+      386508
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/218.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{2}, Exile Cranial Archive: Target player shuffles their graveyard into their library. Draw a card.",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386509,
+    "name": "Crater's Claws",
+    "collector_number": 106,
+    "multiverse_ids": [
+      386509
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/106.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Crater's Claws deals X damage to any target.\nFerocious — Crater's Claws deals X plus 2 damage to that permanent or player instead if you control a creature with power 4 or greater.",
+    "mana_cost": "{X}{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386510,
+    "name": "Crippling Chill",
+    "collector_number": 35,
+    "multiverse_ids": [
+      386510
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/35.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Tap target creature. It doesn't untap during its controller's next untap step.\nDraw a card.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386511,
+    "name": "Dazzling Ramparts",
+    "collector_number": 6,
+    "multiverse_ids": [
+      386511
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/6.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Wall",
+    "oracle_text": "Defender\n{1}{W}, {T}: Tap target creature.",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386512,
+    "name": "Dead Drop",
+    "collector_number": 67,
+    "multiverse_ids": [
+      386512
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/67.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nTarget player sacrifices two creatures.",
+    "mana_cost": "{9}{B}",
+    "cmc": 10,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386513,
+    "name": "Death Frenzy",
+    "collector_number": 172,
+    "multiverse_ids": [
+      386513
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/172.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "All creatures get -2/-2 until end of turn. Whenever a creature dies this turn, you gain 1 life.",
+    "mana_cost": "{3}{B}{G}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386514,
+    "name": "Debilitating Injury",
+    "collector_number": 68,
+    "multiverse_ids": [
+      386514
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/68.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets -2/-2.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386515,
+    "name": "Defiant Strike",
+    "collector_number": 7,
+    "multiverse_ids": [
+      386515
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/7.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +1/+0 until end of turn.\nDraw a card.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386516,
+    "name": "Deflecting Palm",
+    "collector_number": 173,
+    "multiverse_ids": [
+      386516
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/173.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "The next time a source of your choice would deal damage to you this turn, prevent that damage. If damage is prevented this way, Deflecting Palm deals that much damage to that source's controller.",
+    "mana_cost": "{R}{W}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386517,
+    "name": "Despise",
+    "collector_number": 69,
+    "multiverse_ids": [
+      386517
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/69.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target opponent reveals their hand. You choose a creature or planeswalker card from it. That player discards that card.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386518,
+    "name": "Dig Through Time",
+    "collector_number": 36,
+    "multiverse_ids": [
+      386518
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/36.jpg?1532086359"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nLook at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.",
+    "mana_cost": "{6}{U}{U}",
+    "cmc": 8,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386519,
+    "name": "Disdainful Stroke",
+    "collector_number": 37,
+    "multiverse_ids": [
+      386519
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/37.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell with converted mana cost 4 or greater.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386520,
+    "name": "Dismal Backwater",
+    "collector_number": 232,
+    "multiverse_ids": [
+      386520
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/232.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Dismal Backwater enters the battlefield tapped.\nWhen Dismal Backwater enters the battlefield, you gain 1 life.\n{T}: Add {U} or {B}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386521,
+    "name": "Disowned Ancestor",
+    "collector_number": 70,
+    "multiverse_ids": [
+      386521
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/70.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit Warrior",
+    "oracle_text": "Outlast {1}{B} ({1}{B}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386522,
+    "name": "Dragon Grip",
+    "collector_number": 107,
+    "multiverse_ids": [
+      386522
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/107.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Ferocious — If you control a creature with power 4 or greater, you may cast Dragon Grip as though it had flash. (You may cast it any time you could cast an instant.)\nEnchant creature\nEnchanted creature gets +2/+0 and has first strike.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386525,
+    "name": "Dragonscale Boon",
+    "collector_number": 131,
+    "multiverse_ids": [
+      386525
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/131.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Put two +1/+1 counters on target creature and untap it.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386524,
+    "name": "Dragon's Eye Savants",
+    "collector_number": 38,
+    "multiverse_ids": [
+      386524
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/38.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Morph—Reveal a blue card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Dragon's Eye Savants is turned face up, look at target opponent's hand.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386526,
+    "name": "Dragon-Style Twins",
+    "collector_number": 108,
+    "multiverse_ids": [
+      386526
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/108.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Monk",
+    "oracle_text": "Double strike\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386523,
+    "name": "Dragon Throne of Tarkir",
+    "collector_number": 219,
+    "multiverse_ids": [
+      386523
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/219.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact — Equipment",
+    "oracle_text": "Equipped creature has defender and \"{2}, {T}: Other creatures you control gain trample and get +X/+X until end of turn, where X is this creature's power.\"\nEquip {3}",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386527,
+    "name": "Duneblast",
+    "collector_number": 174,
+    "multiverse_ids": [
+      386527
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/174.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Choose up to one creature. Destroy the rest.",
+    "mana_cost": "{4}{W}{B}{G}",
+    "cmc": 7,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386528,
+    "name": "Dutiful Return",
+    "collector_number": 71,
+    "multiverse_ids": [
+      386528
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/71.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Return up to two target creature cards from your graveyard to your hand.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386529,
+    "name": "Efreet Weaponmaster",
+    "collector_number": 175,
+    "multiverse_ids": [
+      386529
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/175.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Efreet Monk",
+    "oracle_text": "First strike\nWhen Efreet Weaponmaster enters the battlefield or is turned face up, another target creature you control gets +3/+0 until end of turn.\nMorph {2}{U}{R}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{3}{U}{R}{W}",
+    "cmc": 6,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386530,
+    "name": "Embodiment of Spring",
+    "collector_number": 39,
+    "multiverse_ids": [
+      386530
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/39.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "{1}{G}, {T}, Sacrifice Embodiment of Spring: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386531,
+    "name": "Empty the Pits",
+    "collector_number": 72,
+    "multiverse_ids": [
+      386531
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/72.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nCreate X tapped 2/2 black Zombie creature tokens.",
+    "mana_cost": "{X}{X}{B}{B}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386532,
+    "name": "End Hostilities",
+    "collector_number": 8,
+    "multiverse_ids": [
+      386532
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/8.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Destroy all creatures and all permanents attached to creatures.",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386533,
+    "name": "Erase",
+    "collector_number": 9,
+    "multiverse_ids": [
+      386533
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/9.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Exile target enchantment.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386534,
+    "name": "Feat of Resistance",
+    "collector_number": 10,
+    "multiverse_ids": [
+      386534
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/10.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Put a +1/+1 counter on target creature you control. It gains protection from the color of your choice until end of turn.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386535,
+    "name": "Feed the Clan",
+    "collector_number": 132,
+    "multiverse_ids": [
+      386535
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/132.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "You gain 5 life.\nFerocious — You gain 10 life instead if you control a creature with power 4 or greater.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386536,
+    "name": "Firehoof Cavalry",
+    "collector_number": 11,
+    "multiverse_ids": [
+      386536
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/11.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Berserker",
+    "oracle_text": "{3}{R}: Firehoof Cavalry gets +2/+0 and gains trample until end of turn.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386537,
+    "name": "Flooded Strand",
+    "collector_number": 233,
+    "multiverse_ids": [
+      386537
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/233.jpg?1535416226"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle your library.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386538,
+    "name": "Flying Crane Technique",
+    "collector_number": 176,
+    "multiverse_ids": [
+      386538
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/176.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Untap all creatures you control. They gain flying and double strike until end of turn.",
+    "mana_cost": "{3}{U}{R}{W}",
+    "cmc": 6,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386539,
+    "name": "Force Away",
+    "collector_number": 40,
+    "multiverse_ids": [
+      386539
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/40.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Return target creature to its owner's hand.\nFerocious — If you control a creature with power 4 or greater, you may draw a card. If you do, discard a card.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386542,
+    "name": "Forest",
+    "collector_number": 266,
+    "multiverse_ids": [
+      386542
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/266.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ktk"
+  },
+  {
+    "id": 386544,
+    "name": "Frontier Bivouac",
+    "collector_number": 234,
+    "multiverse_ids": [
+      386544
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/234.jpg?1528559662"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Frontier Bivouac enters the battlefield tapped.\n{T}: Add {G}, {U}, or {R}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386545,
+    "name": "Ghostfire Blade",
+    "collector_number": 220,
+    "multiverse_ids": [
+      386545
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/220.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature gets +2/+2.\nEquip {3}\nGhostfire Blade's equip ability costs {2} less to activate if it targets a colorless creature.",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386546,
+    "name": "Glacial Stalker",
+    "collector_number": 41,
+    "multiverse_ids": [
+      386546
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/41.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Morph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{5}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386547,
+    "name": "Goblinslide",
+    "collector_number": 109,
+    "multiverse_ids": [
+      386547
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/109.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast a noncreature spell, you may pay {1}. If you do, create a 1/1 red Goblin creature token with haste.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386548,
+    "name": "Grim Haruspex",
+    "collector_number": 73,
+    "multiverse_ids": [
+      386548
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/73.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Morph {B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever another nontoken creature you control dies, draw a card.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386549,
+    "name": "Gurmag Swiftwing",
+    "collector_number": 74,
+    "multiverse_ids": [
+      386549
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/74.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Bat",
+    "oracle_text": "Flying, first strike, haste",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386550,
+    "name": "Hardened Scales",
+    "collector_number": 133,
+    "multiverse_ids": [
+      386550
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/133.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386551,
+    "name": "Heart-Piercer Bow",
+    "collector_number": 221,
+    "multiverse_ids": [
+      386551
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/221.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Whenever equipped creature attacks, Heart-Piercer Bow deals 1 damage to target creature defending player controls.\nEquip {1}",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386552,
+    "name": "Heir of the Wilds",
+    "collector_number": 134,
+    "multiverse_ids": [
+      386552
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/134.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Deathtouch\nFerocious — Whenever Heir of the Wilds attacks, if you control a creature with power 4 or greater, Heir of the Wilds gets +1/+1 until end of turn.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386553,
+    "name": "Herald of Anafenza",
+    "collector_number": 12,
+    "multiverse_ids": [
+      386553
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/12.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "Outlast {2}{W} ({2}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nWhenever you activate Herald of Anafenza's outlast ability, create a 1/1 white Warrior creature token.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386555,
+    "name": "Highland Game",
+    "collector_number": 135,
+    "multiverse_ids": [
+      386555
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/135.jpg?1528741208"],
+    "layout": "normal",
+    "type_line": "Creature — Elk",
+    "oracle_text": "When Highland Game dies, you gain 2 life.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386554,
+    "name": "High Sentinels of Arashin",
+    "collector_number": 13,
+    "multiverse_ids": [
+      386554
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/13.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Soldier",
+    "oracle_text": "Flying\nHigh Sentinels of Arashin gets +1/+1 for each other creature you control with a +1/+1 counter on it.\n{3}{W}: Put a +1/+1 counter on target creature.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386556,
+    "name": "Highspire Mantis",
+    "collector_number": 177,
+    "multiverse_ids": [
+      386556
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/177.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Insect",
+    "oracle_text": "Flying, trample",
+    "mana_cost": "{2}{R}{W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386557,
+    "name": "Hooded Hydra",
+    "collector_number": 136,
+    "multiverse_ids": [
+      386557
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/136.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Snake Hydra",
+    "oracle_text": "Hooded Hydra enters the battlefield with X +1/+1 counters on it.\nWhen Hooded Hydra dies, create a 1/1 green Snake creature token for each +1/+1 counter on it.\nMorph {3}{G}{G}\nAs Hooded Hydra is turned face up, put five +1/+1 counters on it.",
+    "mana_cost": "{X}{G}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386558,
+    "name": "Hooting Mandrills",
+    "collector_number": 137,
+    "multiverse_ids": [
+      386558
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/137.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Ape",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nTrample",
+    "mana_cost": "{5}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386559,
+    "name": "Horde Ambusher",
+    "collector_number": 110,
+    "multiverse_ids": [
+      386559
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/110.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Berserker",
+    "oracle_text": "Whenever Horde Ambusher blocks, it deals 1 damage to you.\nMorph—Reveal a red card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Horde Ambusher is turned face up, target creature can't block this turn.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386560,
+    "name": "Hordeling Outburst",
+    "collector_number": 111,
+    "multiverse_ids": [
+      386560
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/111.jpg?1519997050"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create three 1/1 red Goblin creature tokens.",
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386561,
+    "name": "Howl of the Horde",
+    "collector_number": 112,
+    "multiverse_ids": [
+      386561
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/112.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\nRaid — If you attacked with a creature this turn, when you cast your next instant or sorcery spell this turn, copy that spell an additional time. You may choose new targets for the copy.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386562,
+    "name": "Icefeather Aven",
+    "collector_number": 178,
+    "multiverse_ids": [
+      386562
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/178.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Shaman",
+    "oracle_text": "Flying\nMorph {1}{G}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Icefeather Aven is turned face up, you may return another target creature to its owner's hand.",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386563,
+    "name": "Icy Blast",
+    "collector_number": 42,
+    "multiverse_ids": [
+      386563
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/42.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Tap X target creatures.\nFerocious — If you control a creature with power 4 or greater, those creatures don't untap during their controllers' next untap steps.",
+    "mana_cost": "{X}{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386564,
+    "name": "Incremental Growth",
+    "collector_number": 138,
+    "multiverse_ids": [
+      386564
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/138.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Put a +1/+1 counter on target creature, two +1/+1 counters on another target creature, and three +1/+1 counters on a third target creature.",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386565,
+    "name": "Island",
+    "collector_number": 254,
+    "multiverse_ids": [
+      386565
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/254.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ktk"
+  },
+  {
+    "id": 386569,
+    "name": "Ivorytusk Fortress",
+    "collector_number": 179,
+    "multiverse_ids": [
+      386569
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/179.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Elephant",
+    "oracle_text": "Untap each creature you control with a +1/+1 counter on it during each other player's untap step.",
+    "mana_cost": "{2}{W}{B}{G}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386570,
+    "name": "Jeering Instigator",
+    "collector_number": 113,
+    "multiverse_ids": [
+      386570
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/113.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Rogue",
+    "oracle_text": "Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Jeering Instigator is turned face up, if it's your turn, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386571,
+    "name": "Jeskai Ascendancy",
+    "collector_number": 180,
+    "multiverse_ids": [
+      386571
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/180.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn. Untap those creatures.\nWhenever you cast a noncreature spell, you may draw a card. If you do, discard a card.",
+    "mana_cost": "{U}{R}{W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386572,
+    "name": "Jeskai Banner",
+    "collector_number": 222,
+    "multiverse_ids": [
+      386572
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/222.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {U}, {R}, or {W}.\n{U}{R}{W}, {T}, Sacrifice Jeskai Banner: Draw a card.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386573,
+    "name": "Jeskai Charm",
+    "collector_number": 181,
+    "multiverse_ids": [
+      386573
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/181.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Put target creature on top of its owner's library.\n• Jeskai Charm deals 4 damage to target opponent or planeswalker.\n• Creatures you control get +1/+1 and gain lifelink until end of turn.",
+    "mana_cost": "{U}{R}{W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386574,
+    "name": "Jeskai Elder",
+    "collector_number": 43,
+    "multiverse_ids": [
+      386574
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/43.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Monk",
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever Jeskai Elder deals combat damage to a player, you may draw a card. If you do, discard a card.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386575,
+    "name": "Jeskai Student",
+    "collector_number": 14,
+    "multiverse_ids": [
+      386575
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/14.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Monk",
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386576,
+    "name": "Jeskai Windscout",
+    "collector_number": 44,
+    "multiverse_ids": [
+      386576
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/44.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Scout",
+    "oracle_text": "Flying\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386577,
+    "name": "Jungle Hollow",
+    "collector_number": 235,
+    "multiverse_ids": [
+      386577
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/235.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Jungle Hollow enters the battlefield tapped.\nWhen Jungle Hollow enters the battlefield, you gain 1 life.\n{T}: Add {B} or {G}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386578,
+    "name": "Kheru Bloodsucker",
+    "collector_number": 75,
+    "multiverse_ids": [
+      386578
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/75.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire",
+    "oracle_text": "Whenever a creature you control with toughness 4 or greater dies, each opponent loses 2 life and you gain 2 life.\n{2}{B}, Sacrifice another creature: Put a +1/+1 counter on Kheru Bloodsucker.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386579,
+    "name": "Kheru Dreadmaw",
+    "collector_number": 76,
+    "multiverse_ids": [
+      386579
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/76.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Crocodile",
+    "oracle_text": "Defender\n{1}{G}, Sacrifice another creature: You gain life equal to the sacrificed creature's toughness.",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386580,
+    "name": "Kheru Lich Lord",
+    "collector_number": 182,
+    "multiverse_ids": [
+      386580
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/182.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Wizard",
+    "oracle_text": "At the beginning of your upkeep, you may pay {2}{B}. If you do, return a creature card at random from your graveyard to the battlefield. It gains flying, trample, and haste. Exile that card at the beginning of your next end step. If it would leave the battlefield, exile it instead of putting it anywhere else.",
+    "mana_cost": "{3}{B}{G}{U}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386581,
+    "name": "Kheru Spellsnatcher",
+    "collector_number": 45,
+    "multiverse_ids": [
+      386581
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/45.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Naga Wizard",
+    "oracle_text": "Morph {4}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Kheru Spellsnatcher is turned face up, counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. You may cast that card without paying its mana cost for as long as it remains exiled.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386582,
+    "name": "Kill Shot",
+    "collector_number": 15,
+    "multiverse_ids": [
+      386582
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/15.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target attacking creature.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386583,
+    "name": "Kin-Tree Invocation",
+    "collector_number": 183,
+    "multiverse_ids": [
+      386583
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/183.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create an X/X black and green Spirit Warrior creature token, where X is the greatest toughness among creatures you control.",
+    "mana_cost": "{B}{G}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386584,
+    "name": "Kin-Tree Warden",
+    "collector_number": 139,
+    "multiverse_ids": [
+      386584
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/139.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "{2}: Regenerate Kin-Tree Warden.\nMorph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386585,
+    "name": "Krumar Bond-Kin",
+    "collector_number": 77,
+    "multiverse_ids": [
+      386585
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/77.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Warrior",
+    "oracle_text": "Morph {4}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386586,
+    "name": "Leaping Master",
+    "collector_number": 114,
+    "multiverse_ids": [
+      386586
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/114.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Monk",
+    "oracle_text": "{2}{W}: Leaping Master gains flying until end of turn.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386587,
+    "name": "Lens of Clarity",
+    "collector_number": 223,
+    "multiverse_ids": [
+      386587
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/223.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "You may look at the top card of your library and at face-down creatures you don't control any time.",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ktk"
+  },
+  {
+    "id": 386588,
+    "name": "Longshot Squad",
+    "collector_number": 140,
+    "multiverse_ids": [
+      386588
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/140.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Hound Archer",
+    "oracle_text": "Outlast {1}{G} ({1}{G}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has reach. (A creature with reach can block creatures with flying.)",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386589,
+    "name": "Mantis Rider",
+    "collector_number": 184,
+    "multiverse_ids": [
+      386589
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/184.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Monk",
+    "oracle_text": "Flying, vigilance, haste",
+    "mana_cost": "{U}{R}{W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386590,
+    "name": "Mardu Ascendancy",
+    "collector_number": 185,
+    "multiverse_ids": [
+      386590
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/185.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever a nontoken creature you control attacks, create a 1/1 red Goblin creature token that's tapped and attacking.\nSacrifice Mardu Ascendancy: Creatures you control get +0/+3 until end of turn.",
+    "mana_cost": "{R}{W}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386591,
+    "name": "Mardu Banner",
+    "collector_number": 224,
+    "multiverse_ids": [
+      386591
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/224.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {R}, {W}, or {B}.\n{R}{W}{B}, {T}, Sacrifice Mardu Banner: Draw a card.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386592,
+    "name": "Mardu Blazebringer",
+    "collector_number": 115,
+    "multiverse_ids": [
+      386592
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/115.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Ogre Warrior",
+    "oracle_text": "When Mardu Blazebringer attacks or blocks, sacrifice it at end of combat.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386593,
+    "name": "Mardu Charm",
+    "collector_number": 186,
+    "multiverse_ids": [
+      386593
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/186.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Mardu Charm deals 4 damage to target creature.\n• Create two 1/1 white Warrior creature tokens. They gain first strike until end of turn.\n• Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
+    "mana_cost": "{R}{W}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386594,
+    "name": "Mardu Hateblade",
+    "collector_number": 16,
+    "multiverse_ids": [
+      386594
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/16.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "{B}: Mardu Hateblade gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386595,
+    "name": "Mardu Heart-Piercer",
+    "collector_number": 116,
+    "multiverse_ids": [
+      386595
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/116.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Archer",
+    "oracle_text": "Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to any target.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386596,
+    "name": "Mardu Hordechief",
+    "collector_number": 17,
+    "multiverse_ids": [
+      386596
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/17.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Raid — When Mardu Hordechief enters the battlefield, if you attacked with a creature this turn, create a 1/1 white Warrior creature token.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386597,
+    "name": "Mardu Roughrider",
+    "collector_number": 187,
+    "multiverse_ids": [
+      386597
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/187.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Warrior",
+    "oracle_text": "Whenever Mardu Roughrider attacks, target creature can't block this turn.",
+    "mana_cost": "{2}{R}{W}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386598,
+    "name": "Mardu Skullhunter",
+    "collector_number": 78,
+    "multiverse_ids": [
+      386598
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/78.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Mardu Skullhunter enters the battlefield tapped.\nRaid — When Mardu Skullhunter enters the battlefield, if you attacked with a creature this turn, target opponent discards a card.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386599,
+    "name": "Mardu Warshrieker",
+    "collector_number": 117,
+    "multiverse_ids": [
+      386599
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/117.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Shaman",
+    "oracle_text": "Raid — When Mardu Warshrieker enters the battlefield, if you attacked with a creature this turn, add {R}{W}{B}.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386600,
+    "name": "Master of Pearls",
+    "collector_number": 18,
+    "multiverse_ids": [
+      386600
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/18.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Monk",
+    "oracle_text": "Morph {3}{W}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Master of Pearls is turned face up, creatures you control get +2/+2 until end of turn.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386601,
+    "name": "Master the Way",
+    "collector_number": 188,
+    "multiverse_ids": [
+      386601
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/188.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Draw a card. Master the Way deals damage to any target equal to the number of cards in your hand.",
+    "mana_cost": "{3}{U}{R}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386602,
+    "name": "Meandering Towershell",
+    "collector_number": 141,
+    "multiverse_ids": [
+      386602
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/141.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Turtle",
+    "oracle_text": "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nWhenever Meandering Towershell attacks, exile it. Return it to the battlefield under your control tapped and attacking at the beginning of the declare attackers step on your next turn.",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386603,
+    "name": "Mer-Ek Nightblade",
+    "collector_number": 79,
+    "multiverse_ids": [
+      386603
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/79.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Assassin",
+    "oracle_text": "Outlast {B} ({B}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has deathtouch.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386604,
+    "name": "Mindswipe",
+    "collector_number": 189,
+    "multiverse_ids": [
+      386604
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/189.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell unless its controller pays {X}. Mindswipe deals X damage to that spell's controller.",
+    "mana_cost": "{X}{U}{R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386605,
+    "name": "Mistfire Weaver",
+    "collector_number": 46,
+    "multiverse_ids": [
+      386605
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/46.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Djinn Wizard",
+    "oracle_text": "Flying\nMorph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Mistfire Weaver is turned face up, target creature you control gains hexproof until end of turn.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386606,
+    "name": "Molting Snakeskin",
+    "collector_number": 80,
+    "multiverse_ids": [
+      386606
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/80.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets +2/+0 and has \"{2}{B}: Regenerate this creature.\"",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386607,
+    "name": "Monastery Flock",
+    "collector_number": 47,
+    "multiverse_ids": [
+      386607
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/47.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Bird",
+    "oracle_text": "Defender, flying\nMorph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386608,
+    "name": "Monastery Swiftspear",
+    "collector_number": 118,
+    "multiverse_ids": [
+      386608
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/118.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Monk",
+    "oracle_text": "Haste\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386612,
+    "name": "Mountain",
+    "collector_number": 262,
+    "multiverse_ids": [
+      386612
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/262.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ktk"
+  },
+  {
+    "id": 386613,
+    "name": "Murderous Cut",
+    "collector_number": 81,
+    "multiverse_ids": [
+      386613
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/81.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nDestroy target creature.",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386614,
+    "name": "Mystic Monastery",
+    "collector_number": 236,
+    "multiverse_ids": [
+      386614
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/236.jpg?1528559681"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Mystic Monastery enters the battlefield tapped.\n{T}: Add {U}, {R}, or {W}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386615,
+    "name": "Mystic of the Hidden Way",
+    "collector_number": 48,
+    "multiverse_ids": [
+      386615
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/48.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Monk",
+    "oracle_text": "Mystic of the Hidden Way can't be blocked.\nMorph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386616,
+    "name": "Narset, Enlightened Master",
+    "collector_number": 190,
+    "multiverse_ids": [
+      386616
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/190.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Monk",
+    "oracle_text": "First strike, hexproof\nWhenever Narset, Enlightened Master attacks, exile the top four cards of your library. Until end of turn, you may cast noncreature cards exiled with Narset this turn without paying their mana costs.",
+    "mana_cost": "{3}{U}{R}{W}",
+    "cmc": 6,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386617,
+    "name": "Naturalize",
+    "collector_number": 142,
+    "multiverse_ids": [
+      386617
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/142.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target artifact or enchantment.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386618,
+    "name": "Necropolis Fiend",
+    "collector_number": 82,
+    "multiverse_ids": [
+      386618
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/82.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Demon",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nFlying\n{X}, {T}, Exile X cards from your graveyard: Target creature gets -X/-X until end of turn.",
+    "mana_cost": "{7}{B}{B}",
+    "cmc": 9,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386619,
+    "name": "Nomad Outpost",
+    "collector_number": 237,
+    "multiverse_ids": [
+      386619
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/237.jpg?1528559678"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Nomad Outpost enters the battlefield tapped.\n{T}: Add {R}, {W}, or {B}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386620,
+    "name": "Opulent Palace",
+    "collector_number": 238,
+    "multiverse_ids": [
+      386620
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/238.jpg?1528559674"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Opulent Palace enters the battlefield tapped.\n{T}: Add {B}, {G}, or {U}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386621,
+    "name": "Pearl Lake Ancient",
+    "collector_number": 49,
+    "multiverse_ids": [
+      386621
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/49.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Leviathan",
+    "oracle_text": "Flash\nThis spell can't be countered.\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nReturn three lands you control to their owner's hand: Return Pearl Lake Ancient to its owner's hand.",
+    "mana_cost": "{5}{U}{U}",
+    "cmc": 7,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386622,
+    "name": "Pine Walker",
+    "collector_number": 143,
+    "multiverse_ids": [
+      386622
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/143.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Morph {4}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever Pine Walker or another creature you control is turned face up, untap that creature.",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386624,
+    "name": "Plains",
+    "collector_number": 250,
+    "multiverse_ids": [
+      386624
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/250.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ktk"
+  },
+  {
+    "id": 386627,
+    "name": "Polluted Delta",
+    "collector_number": 239,
+    "multiverse_ids": [
+      386627
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/239.jpg?1535416225"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle your library.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386628,
+    "name": "Ponyback Brigade",
+    "collector_number": 191,
+    "multiverse_ids": [
+      386628
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/191.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Warrior",
+    "oracle_text": "When Ponyback Brigade enters the battlefield or is turned face up, create three 1/1 red Goblin creature tokens.\nMorph {2}{R}{W}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{3}{R}{W}{B}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386629,
+    "name": "Quiet Contemplation",
+    "collector_number": 50,
+    "multiverse_ids": [
+      386629
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/50.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast a noncreature spell, you may pay {1}. If you do, tap target creature an opponent controls and it doesn't untap during its controller's next untap step.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386630,
+    "name": "Raiders' Spoils",
+    "collector_number": 83,
+    "multiverse_ids": [
+      386630
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/83.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Creatures you control get +1/+0.\nWhenever a Warrior you control deals combat damage to a player, you may pay 1 life. If you do, draw a card.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386631,
+    "name": "Rakshasa Deathdealer",
+    "collector_number": 192,
+    "multiverse_ids": [
+      386631
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/192.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Cat Demon",
+    "oracle_text": "{B}{G}: Rakshasa Deathdealer gets +2/+2 until end of turn.\n{B}{G}: Regenerate Rakshasa Deathdealer.",
+    "mana_cost": "{B}{G}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386633,
+    "name": "Rakshasa's Secret",
+    "collector_number": 84,
+    "multiverse_ids": [
+      386633
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/84.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target opponent discards two cards. Put the top two cards of your library into your graveyard.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386632,
+    "name": "Rakshasa Vizier",
+    "collector_number": 193,
+    "multiverse_ids": [
+      386632
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/193.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Cat Demon",
+    "oracle_text": "Whenever one or more cards are put into exile from your graveyard, put that many +1/+1 counters on Rakshasa Vizier.",
+    "mana_cost": "{2}{B}{G}{U}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386634,
+    "name": "Rattleclaw Mystic",
+    "collector_number": 144,
+    "multiverse_ids": [
+      386634
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/144.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Shaman",
+    "oracle_text": "{T}: Add {G}, {U}, or {R}.\nMorph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Rattleclaw Mystic is turned face up, add {G}{U}{R}.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386635,
+    "name": "Retribution of the Ancients",
+    "collector_number": 85,
+    "multiverse_ids": [
+      386635
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/85.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "{B}, Remove X +1/+1 counters from among creatures you control: Target creature gets -X/-X until end of turn.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386636,
+    "name": "Ride Down",
+    "collector_number": 194,
+    "multiverse_ids": [
+      386636
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/194.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target blocking creature. Creatures that were blocked by that creature this combat gain trample until end of turn.",
+    "mana_cost": "{R}{W}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386637,
+    "name": "Rite of the Serpent",
+    "collector_number": 86,
+    "multiverse_ids": [
+      386637
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/86.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Destroy target creature. If that creature had a +1/+1 counter on it, create a 1/1 green Snake creature token.",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386638,
+    "name": "Riverwheel Aerialists",
+    "collector_number": 51,
+    "multiverse_ids": [
+      386638
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/51.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Djinn Monk",
+    "oracle_text": "Flying\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+    "mana_cost": "{5}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386639,
+    "name": "Roar of Challenge",
+    "collector_number": 145,
+    "multiverse_ids": [
+      386639
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/145.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "All creatures able to block target creature this turn do so.\nFerocious — That creature gains indestructible until end of turn if you control a creature with power 4 or greater.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386640,
+    "name": "Rotting Mastodon",
+    "collector_number": 87,
+    "multiverse_ids": [
+      386640
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/87.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Elephant",
+    "oracle_text": "",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386641,
+    "name": "Rugged Highlands",
+    "collector_number": 240,
+    "multiverse_ids": [
+      386641
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/240.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Rugged Highlands enters the battlefield tapped.\nWhen Rugged Highlands enters the battlefield, you gain 1 life.\n{T}: Add {R} or {G}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386642,
+    "name": "Rush of Battle",
+    "collector_number": 19,
+    "multiverse_ids": [
+      386642
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/19.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Creatures you control get +2/+1 until end of turn. Warrior creatures you control gain lifelink until end of turn. (Damage dealt by those Warriors also causes their controller to gain that much life.)",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386643,
+    "name": "Ruthless Ripper",
+    "collector_number": 88,
+    "multiverse_ids": [
+      386643
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/88.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Assassin",
+    "oracle_text": "Deathtouch\nMorph—Reveal a black card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Ruthless Ripper is turned face up, target player loses 2 life.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386645,
+    "name": "Sage-Eye Harrier",
+    "collector_number": 20,
+    "multiverse_ids": [
+      386645
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/20.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Warrior",
+    "oracle_text": "Flying\nMorph {3}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386644,
+    "name": "Sage of the Inward Eye",
+    "collector_number": 195,
+    "multiverse_ids": [
+      386644
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/195.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Djinn Wizard",
+    "oracle_text": "Flying\nWhenever you cast a noncreature spell, creatures you control gain lifelink until end of turn.",
+    "mana_cost": "{2}{U}{R}{W}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386646,
+    "name": "Sagu Archer",
+    "collector_number": 146,
+    "multiverse_ids": [
+      386646
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/146.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Naga Archer",
+    "oracle_text": "Reach (This creature can block creatures with flying.)\nMorph {4}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386647,
+    "name": "Sagu Mauler",
+    "collector_number": 196,
+    "multiverse_ids": [
+      386647
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/196.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "Trample, hexproof\nMorph {3}{G}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{4}{G}{U}",
+    "cmc": 6,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386648,
+    "name": "Salt Road Patrol",
+    "collector_number": 21,
+    "multiverse_ids": [
+      386648
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/21.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Scout",
+    "oracle_text": "Outlast {1}{W} ({1}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386649,
+    "name": "Sandsteppe Citadel",
+    "collector_number": 241,
+    "multiverse_ids": [
+      386649
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/241.jpg?1528559671"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Sandsteppe Citadel enters the battlefield tapped.\n{T}: Add {W}, {B}, or {G}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386650,
+    "name": "Sarkhan, the Dragonspeaker",
+    "collector_number": 119,
+    "multiverse_ids": [
+      386650
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/119.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Sarkhan",
+    "oracle_text": "+1: Until end of turn, Sarkhan, the Dragonspeaker becomes a legendary 4/4 red Dragon creature with flying, indestructible, and haste. (He doesn't lose loyalty while he's not a planeswalker.)\n−3: Sarkhan, the Dragonspeaker deals 4 damage to target creature.\n−6: You get an emblem with \"At the beginning of your draw step, draw two additional cards\" and \"At the beginning of your end step, discard your hand.\"",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386651,
+    "name": "Savage Knuckleblade",
+    "collector_number": 197,
+    "multiverse_ids": [
+      386651
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/197.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Ogre Warrior",
+    "oracle_text": "{2}{G}: Savage Knuckleblade gets +2/+2 until end of turn. Activate this ability only once each turn.\n{2}{U}: Return Savage Knuckleblade to its owner's hand.\n{R}: Savage Knuckleblade gains haste until end of turn.",
+    "mana_cost": "{G}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386652,
+    "name": "Savage Punch",
+    "collector_number": 147,
+    "multiverse_ids": [
+      386652
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/147.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target creature you control fights target creature you don't control.\nFerocious — The creature you control gets +2/+2 until end of turn before it fights if you control a creature with power 4 or greater.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386653,
+    "name": "Scaldkin",
+    "collector_number": 52,
+    "multiverse_ids": [
+      386653
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/52.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Flying\n{2}{R}, Sacrifice Scaldkin: It deals 2 damage to any target.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386654,
+    "name": "Scion of Glaciers",
+    "collector_number": 53,
+    "multiverse_ids": [
+      386654
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/53.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "{U}: Scion of Glaciers gets +1/-1 until end of turn.",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386655,
+    "name": "Scoured Barrens",
+    "collector_number": 242,
+    "multiverse_ids": [
+      386655
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/242.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Scoured Barrens enters the battlefield tapped.\nWhen Scoured Barrens enters the battlefield, you gain 1 life.\n{T}: Add {W} or {B}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386656,
+    "name": "Scout the Borders",
+    "collector_number": 148,
+    "multiverse_ids": [
+      386656
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/148.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Reveal the top five cards of your library. You may put a creature or land card from among them into your hand. Put the rest into your graveyard.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386657,
+    "name": "Secret Plans",
+    "collector_number": 198,
+    "multiverse_ids": [
+      386657
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/198.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Face-down creatures you control get +0/+1.\nWhenever a permanent you control is turned face up, draw a card.",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386660,
+    "name": "Seeker of the Way",
+    "collector_number": 22,
+    "multiverse_ids": [
+      386660
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/22.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever you cast a noncreature spell, Seeker of the Way gains lifelink until end of turn.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386659,
+    "name": "Seek the Horizon",
+    "collector_number": 150,
+    "multiverse_ids": [
+      386659
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/150.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for up to three basic land cards, reveal them, and put them into your hand. Then shuffle your library.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386658,
+    "name": "See the Unwritten",
+    "collector_number": 149,
+    "multiverse_ids": [
+      386658
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/149.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Reveal the top eight cards of your library. You may put a creature card from among them onto the battlefield. Put the rest into your graveyard.\nFerocious — If you control a creature with power 4 or greater, you may put two creature cards onto the battlefield instead of one.",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386661,
+    "name": "Set Adrift",
+    "collector_number": 54,
+    "multiverse_ids": [
+      386661
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/54.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nPut target nonland permanent on top of its owner's library.",
+    "mana_cost": "{5}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386662,
+    "name": "Shambling Attendants",
+    "collector_number": 89,
+    "multiverse_ids": [
+      386662
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/89.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+    "mana_cost": "{7}{B}",
+    "cmc": 8,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386663,
+    "name": "Shatter",
+    "collector_number": 120,
+    "multiverse_ids": [
+      386663
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/120.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target artifact.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386664,
+    "name": "Sidisi, Brood Tyrant",
+    "collector_number": 199,
+    "multiverse_ids": [
+      386664
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/199.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Naga Shaman",
+    "oracle_text": "Whenever Sidisi, Brood Tyrant enters the battlefield or attacks, put the top three cards of your library into your graveyard.\nWhenever one or more creature cards are put into your graveyard from your library, create a 2/2 black Zombie creature token.",
+    "mana_cost": "{1}{B}{G}{U}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386665,
+    "name": "Sidisi's Pet",
+    "collector_number": 90,
+    "multiverse_ids": [
+      386665
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/90.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Ape",
+    "oracle_text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nMorph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386667,
+    "name": "Siegecraft",
+    "collector_number": 23,
+    "multiverse_ids": [
+      386667
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/23.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets +2/+4.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386666,
+    "name": "Siege Rhino",
+    "collector_number": 200,
+    "multiverse_ids": [
+      386666
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/200.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Rhino",
+    "oracle_text": "Trample\nWhen Siege Rhino enters the battlefield, each opponent loses 3 life and you gain 3 life.",
+    "mana_cost": "{1}{W}{B}{G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386668,
+    "name": "Singing Bell Strike",
+    "collector_number": 55,
+    "multiverse_ids": [
+      386668
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/55.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nWhen Singing Bell Strike enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\nEnchanted creature has \"{6}: Untap this creature.\"",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386669,
+    "name": "Smite the Monstrous",
+    "collector_number": 24,
+    "multiverse_ids": [
+      386669
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/24.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target creature with power 4 or greater.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386670,
+    "name": "Smoke Teller",
+    "collector_number": 151,
+    "multiverse_ids": [
+      386670
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/151.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Shaman",
+    "oracle_text": "{1}{U}: Look at target face-down creature.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386671,
+    "name": "Snowhorn Rider",
+    "collector_number": 201,
+    "multiverse_ids": [
+      386671
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/201.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Trample\nMorph {2}{G}{U}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{3}{G}{U}{R}",
+    "cmc": 6,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386672,
+    "name": "Sorin, Solemn Visitor",
+    "collector_number": 202,
+    "multiverse_ids": [
+      386672
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/202.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Sorin",
+    "oracle_text": "+1: Until your next turn, creatures you control get +1/+0 and gain lifelink.\n−2: Create a 2/2 black Vampire creature token with flying.\n−6: You get an emblem with \"At the beginning of each opponent's upkeep, that player sacrifices a creature.\"",
+    "mana_cost": "{2}{W}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386673,
+    "name": "Stubborn Denial",
+    "collector_number": 56,
+    "multiverse_ids": [
+      386673
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/56.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target noncreature spell unless its controller pays {1}.\nFerocious — If you control a creature with power 4 or greater, counter that spell instead.",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386674,
+    "name": "Sultai Ascendancy",
+    "collector_number": 203,
+    "multiverse_ids": [
+      386674
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/203.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "At the beginning of your upkeep, look at the top two cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.",
+    "mana_cost": "{B}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386675,
+    "name": "Sultai Banner",
+    "collector_number": 225,
+    "multiverse_ids": [
+      386675
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/225.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {B}, {G}, or {U}.\n{B}{G}{U}, {T}, Sacrifice Sultai Banner: Draw a card.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386676,
+    "name": "Sultai Charm",
+    "collector_number": 204,
+    "multiverse_ids": [
+      386676
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/204.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Destroy target monocolored creature.\n• Destroy target artifact or enchantment.\n• Draw two cards, then discard a card.",
+    "mana_cost": "{B}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386677,
+    "name": "Sultai Flayer",
+    "collector_number": 152,
+    "multiverse_ids": [
+      386677
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/152.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Naga Shaman",
+    "oracle_text": "Whenever a creature you control with toughness 4 or greater dies, you gain 4 life.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386678,
+    "name": "Sultai Scavenger",
+    "collector_number": 91,
+    "multiverse_ids": [
+      386678
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/91.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Warrior",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nFlying",
+    "mana_cost": "{5}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386679,
+    "name": "Sultai Soothsayer",
+    "collector_number": 205,
+    "multiverse_ids": [
+      386679
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/205.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Naga Shaman",
+    "oracle_text": "When Sultai Soothsayer enters the battlefield, look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.",
+    "mana_cost": "{2}{B}{G}{U}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386680,
+    "name": "Summit Prowler",
+    "collector_number": 121,
+    "multiverse_ids": [
+      386680
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/121.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Yeti",
+    "oracle_text": "",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386681,
+    "name": "Surrak Dragonclaw",
+    "collector_number": 206,
+    "multiverse_ids": [
+      386681
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/206.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Warrior",
+    "oracle_text": "Flash\nThis spell can't be countered.\nCreature spells you control can't be countered.\nOther creatures you control have trample.",
+    "mana_cost": "{2}{G}{U}{R}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386682,
+    "name": "Suspension Field",
+    "collector_number": 25,
+    "multiverse_ids": [
+      386682
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/25.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "When Suspension Field enters the battlefield, you may exile target creature with toughness 3 or greater until Suspension Field leaves the battlefield. (That creature returns under its owner's control.)",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386685,
+    "name": "Swamp",
+    "collector_number": 258,
+    "multiverse_ids": [
+      386685
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/258.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ktk"
+  },
+  {
+    "id": 386687,
+    "name": "Swarm of Bloodflies",
+    "collector_number": 92,
+    "multiverse_ids": [
+      386687
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/92.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Insect",
+    "oracle_text": "Flying\nSwarm of Bloodflies enters the battlefield with two +1/+1 counters on it.\nWhenever another creature dies, put a +1/+1 counter on Swarm of Bloodflies.",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386688,
+    "name": "Swift Kick",
+    "collector_number": 122,
+    "multiverse_ids": [
+      386688
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/122.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature you control gets +1/+0 until end of turn. It fights target creature you don't control.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386689,
+    "name": "Swiftwater Cliffs",
+    "collector_number": 243,
+    "multiverse_ids": [
+      386689
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/243.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Swiftwater Cliffs enters the battlefield tapped.\nWhen Swiftwater Cliffs enters the battlefield, you gain 1 life.\n{T}: Add {U} or {R}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386690,
+    "name": "Taigam's Scheming",
+    "collector_number": 57,
+    "multiverse_ids": [
+      386690
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/57.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Look at the top five cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386691,
+    "name": "Take Up Arms",
+    "collector_number": 26,
+    "multiverse_ids": [
+      386691
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/26.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Create three 1/1 white Warrior creature tokens.",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386692,
+    "name": "Temur Ascendancy",
+    "collector_number": 207,
+    "multiverse_ids": [
+      386692
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/207.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Creatures you control have haste.\nWhenever a creature with power 4 or greater enters the battlefield under your control, you may draw a card.",
+    "mana_cost": "{G}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386693,
+    "name": "Temur Banner",
+    "collector_number": 226,
+    "multiverse_ids": [
+      386693
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/226.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {G}, {U}, or {R}.\n{G}{U}{R}, {T}, Sacrifice Temur Banner: Draw a card.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386694,
+    "name": "Temur Charger",
+    "collector_number": 153,
+    "multiverse_ids": [
+      386694
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/153.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Horse",
+    "oracle_text": "Morph—Reveal a green card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Temur Charger is turned face up, target creature gains trample until end of turn.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386695,
+    "name": "Temur Charm",
+    "collector_number": 208,
+    "multiverse_ids": [
+      386695
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/208.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Target creature you control gets +1/+1 until end of turn. It fights target creature you don't control.\n• Counter target spell unless its controller pays {3}.\n• Creatures with power 3 or less can't block this turn.",
+    "mana_cost": "{G}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386696,
+    "name": "Thornwood Falls",
+    "collector_number": 244,
+    "multiverse_ids": [
+      386696
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/244.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Thornwood Falls enters the battlefield tapped.\nWhen Thornwood Falls enters the battlefield, you gain 1 life.\n{T}: Add {G} or {U}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386697,
+    "name": "Thousand Winds",
+    "collector_number": 58,
+    "multiverse_ids": [
+      386697
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/58.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Flying\nMorph {5}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Thousand Winds is turned face up, return all other tapped creatures to their owners' hands.",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ktk"
+  },
+  {
+    "id": 386698,
+    "name": "Throttle",
+    "collector_number": 93,
+    "multiverse_ids": [
+      386698
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/93.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets -4/-4 until end of turn.",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386699,
+    "name": "Timely Hordemate",
+    "collector_number": 27,
+    "multiverse_ids": [
+      386699
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/27.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Raid — When Timely Hordemate enters the battlefield, if you attacked with a creature this turn, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386700,
+    "name": "Tomb of the Spirit Dragon",
+    "collector_number": 245,
+    "multiverse_ids": [
+      386700
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/245.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}: Add {C}.\n{2}, {T}: You gain 1 life for each colorless creature you control.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386701,
+    "name": "Tormenting Voice",
+    "collector_number": 123,
+    "multiverse_ids": [
+      386701
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/123.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386702,
+    "name": "Trail of Mystery",
+    "collector_number": 154,
+    "multiverse_ids": [
+      386702
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/154.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever a face-down creature enters the battlefield under your control, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nWhenever a permanent you control is turned face up, if it's a creature, it gets +2/+2 until end of turn.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386703,
+    "name": "Tranquil Cove",
+    "collector_number": 246,
+    "multiverse_ids": [
+      386703
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/246.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Tranquil Cove enters the battlefield tapped.\nWhen Tranquil Cove enters the battlefield, you gain 1 life.\n{T}: Add {W} or {U}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386704,
+    "name": "Trap Essence",
+    "collector_number": 209,
+    "multiverse_ids": [
+      386704
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/209.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target creature spell. Put two +1/+1 counters on up to one target creature.",
+    "mana_cost": "{G}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386705,
+    "name": "Treasure Cruise",
+    "collector_number": 59,
+    "multiverse_ids": [
+      386705
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/59.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nDraw three cards.",
+    "mana_cost": "{7}{U}",
+    "cmc": 8,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 4.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386706,
+    "name": "Trumpet Blast",
+    "collector_number": 124,
+    "multiverse_ids": [
+      386706
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/124.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Attacking creatures get +2/+0 until end of turn.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ktk"
+  },
+  {
+    "id": 386707,
+    "name": "Tusked Colossodon",
+    "collector_number": 155,
+    "multiverse_ids": [
+      386707
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/155.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386708,
+    "name": "Tuskguard Captain",
+    "collector_number": 156,
+    "multiverse_ids": [
+      386708
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/156.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Outlast {G} ({G}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has trample.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386709,
+    "name": "Ugin's Nexus",
+    "collector_number": 227,
+    "multiverse_ids": [
+      386709
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/227.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "oracle_text": "If a player would begin an extra turn, that player skips that turn instead.\nIf Ugin's Nexus would be put into a graveyard from the battlefield, instead exile it and take an extra turn after this one.",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 0,
+    "set": "ktk"
+  },
+  {
+    "id": 386710,
+    "name": "Unyielding Krumar",
+    "collector_number": 94,
+    "multiverse_ids": [
+      386710
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/94.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Warrior",
+    "oracle_text": "{1}{W}: Unyielding Krumar gains first strike until end of turn.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386711,
+    "name": "Utter End",
+    "collector_number": 210,
+    "multiverse_ids": [
+      386711
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/210.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Exile target nonland permanent.",
+    "mana_cost": "{2}{W}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386712,
+    "name": "Valley Dasher",
+    "collector_number": 125,
+    "multiverse_ids": [
+      386712
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/125.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Berserker",
+    "oracle_text": "Haste\nValley Dasher attacks each combat if able.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386713,
+    "name": "Venerable Lammasu",
+    "collector_number": 28,
+    "multiverse_ids": [
+      386713
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/28.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Lammasu",
+    "oracle_text": "Flying",
+    "mana_cost": "{6}{W}",
+    "cmc": 7,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386714,
+    "name": "Villainous Wealth",
+    "collector_number": 211,
+    "multiverse_ids": [
+      386714
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/211.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target opponent exiles the top X cards of their library. You may cast any number of nonland cards with converted mana cost X or less from among them without paying their mana costs.",
+    "mana_cost": "{X}{B}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386715,
+    "name": "War Behemoth",
+    "collector_number": 29,
+    "multiverse_ids": [
+      386715
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/29.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "Morph {4}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{5}{W}",
+    "cmc": 6,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386716,
+    "name": "Warden of the Eye",
+    "collector_number": 212,
+    "multiverse_ids": [
+      386716
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/212.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Djinn Wizard",
+    "oracle_text": "When Warden of the Eye enters the battlefield, return target noncreature, nonland card from your graveyard to your hand.",
+    "mana_cost": "{2}{U}{R}{W}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386717,
+    "name": "War-Name Aspirant",
+    "collector_number": 126,
+    "multiverse_ids": [
+      386717
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/126.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Raid — War-Name Aspirant enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.\nWar-Name Aspirant can't be blocked by creatures with power 1 or less.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386718,
+    "name": "Watcher of the Roost",
+    "collector_number": 30,
+    "multiverse_ids": [
+      386718
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/30.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Soldier",
+    "oracle_text": "Flying\nMorph—Reveal a white card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Watcher of the Roost is turned face up, you gain 2 life.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386719,
+    "name": "Waterwhirl",
+    "collector_number": 60,
+    "multiverse_ids": [
+      386719
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/60.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Return up to two target creatures to their owners' hands.",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386720,
+    "name": "Weave Fate",
+    "collector_number": 61,
+    "multiverse_ids": [
+      386720
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/61.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Draw two cards.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386721,
+    "name": "Wetland Sambar",
+    "collector_number": 62,
+    "multiverse_ids": [
+      386721
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/62.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Elk",
+    "oracle_text": "",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ktk"
+  },
+  {
+    "id": 386722,
+    "name": "Whirlwind Adept",
+    "collector_number": 63,
+    "multiverse_ids": [
+      386722
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/63.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Djinn Monk",
+    "oracle_text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386723,
+    "name": "Wind-Scarred Crag",
+    "collector_number": 247,
+    "multiverse_ids": [
+      386723
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/247.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Wind-Scarred Crag enters the battlefield tapped.\nWhen Wind-Scarred Crag enters the battlefield, you gain 1 life.\n{T}: Add {R} or {W}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386724,
+    "name": "Windstorm",
+    "collector_number": 157,
+    "multiverse_ids": [
+      386724
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/157.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Windstorm deals X damage to each creature with flying.",
+    "mana_cost": "{X}{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386725,
+    "name": "Windswept Heath",
+    "collector_number": 248,
+    "multiverse_ids": [
+      386725
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/248.jpg?1535416224"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle your library.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386726,
+    "name": "Wingmate Roc",
+    "collector_number": 31,
+    "multiverse_ids": [
+      386726
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/31.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Bird",
+    "oracle_text": "Flying\nRaid — When Wingmate Roc enters the battlefield, if you attacked with a creature this turn, create a 3/4 white Bird creature token with flying.\nWhenever Wingmate Roc attacks, you gain 1 life for each attacking creature.",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386727,
+    "name": "Winterflame",
+    "collector_number": 213,
+    "multiverse_ids": [
+      386727
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/213.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one or both —\n• Tap target creature.\n• Winterflame deals 2 damage to target creature.",
+    "mana_cost": "{1}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ktk"
+  },
+  {
+    "id": 386728,
+    "name": "Witness of the Ages",
+    "collector_number": 228,
+    "multiverse_ids": [
+      386728
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/228.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Golem",
+    "oracle_text": "Morph {5} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{6}",
+    "cmc": 6,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386729,
+    "name": "Wooded Foothills",
+    "collector_number": 249,
+    "multiverse_ids": [
+      386729
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/249.jpg?1546109282"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle your library.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386730,
+    "name": "Woolly Loxodon",
+    "collector_number": 158,
+    "multiverse_ids": [
+      386730
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/158.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Creature — Elephant Warrior",
+    "oracle_text": "Morph {5}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+    "mana_cost": "{5}{G}{G}",
+    "cmc": 7,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ktk"
+  },
+  {
+    "id": 386731,
+    "name": "Zurgo Helmsmasher",
+    "collector_number": 214,
+    "multiverse_ids": [
+      386731
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/214.jpg?1517813031"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Orc Warrior",
+    "oracle_text": "Haste\nZurgo Helmsmasher attacks each combat if able.\nZurgo Helmsmasher has indestructible as long as it's your turn.\nWhenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+1 counter on Zurgo Helmsmasher.",
+    "mana_cost": "{2}{R}{W}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "ktk"
+  }
+]

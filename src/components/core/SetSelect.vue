@@ -90,6 +90,9 @@ export default {
           <option value="kld">
             Kaladesh
           </option>
+          <option value="ktk">
+            Khans of Tarkir
+          </option>
         </optgroup>
         <optgroup label="Modern">
           <option value="mh1">
