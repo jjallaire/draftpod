@@ -94,7 +94,7 @@ export default {
             Khans of Tarkir
           </option>
         </optgroup>
-        <optgroup label="Modern">
+        <optgroup label="Draft Innovation">
           <option value="mh1">
             Modern Horizons
           </option>
