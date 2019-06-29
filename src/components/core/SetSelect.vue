@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Recent">
+          <option value="m20">
+            Core Set 2020
+          </option>
           <option value="war">
             War of the Spark
           </option>
@@ -55,6 +58,9 @@ export default {
           </option>
         </optgroup>
         <optgroup label="Standard">
+          <option value="m20">
+            Core Set 2020
+          </option>
           <option value="war">
             War of the Spark
           </option>
