@@ -172,10 +172,7 @@ download_cards <- function(cards,
     rix = 196,
     war = 264,
     mh1 = 254,
-    
-    # NOTE: need to reconfirm that these have the
-    # right numbers for inclusion of basics
-    # (kld does, aer appears to have no basics!)
+    ust = 216,
     kld = 264,
     aer = 184, 
     akh = 269,

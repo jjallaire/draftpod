@@ -98,6 +98,9 @@ export default {
           <option value="mh1">
             Modern Horizons
           </option>
+          <option value="ust">
+            Unstable
+          </option>
         </optgroup>
         <optgroup label="Cubes">
           <option value="cube_gnt">

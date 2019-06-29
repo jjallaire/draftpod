@@ -10,6 +10,7 @@ import dom from './set-dom'
 import m19 from './set-m19'
 import grn from './set-grn'
 import rna from './set-rna'
+import ust from './set-ust'
 import xln from './set-xln'
 import rix from './set-rix'
 import war from './set-war'
@@ -32,6 +33,7 @@ const sets = {
   m19,
   grn,
   rna,
+  ust,
   xln,
   rix,
   war,

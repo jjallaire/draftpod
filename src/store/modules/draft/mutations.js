@@ -50,7 +50,8 @@ export default {
       if (format === 'draft') {
         for (let p=1; p<=options.number_of_packs; p++) {
           for (let b=0; b<8; b++) {
-            all_packs.push(generateBooster(set_code, cardpool, p, options.number_of_packs))
+            let pack = generateBooster(set_code, cardpool, p, options.number_of_packs);
+            all_packs.push(pack);
           }
         }
 

@@ -1,0 +1,5087 @@
+[
+  {
+    "id": 439556,
+    "name": "Accessories to Murder",
+    "collector_number": 167,
+    "multiverse_ids": [
+      439556
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/167.jpg?1522208496"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Accessories to Murder, target creature gets +X/+0 until end of turn, where X is the number of creatures you control.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439390,
+    "name": "Adorable Kitten",
+    "collector_number": 1,
+    "multiverse_ids": [
+      439390
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/1.jpg?1522205313"],
+    "layout": "host",
+    "type_line": "Host Creature — Cat",
+    "oracle_text": "When this creature enters the battlefield, roll a six-sided die. You gain life equal to the result.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439391,
+    "name": "Aerial Toastmaster",
+    "collector_number": 2,
+    "multiverse_ids": [
+      439391
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/2.jpg?1522205326"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Rigger",
+    "oracle_text": "Flying\n{3}{W}, Sacrifice another artifact: Aerial Toastmaster assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439392,
+    "name": "Amateur Auteur",
+    "collector_number": 3,
+    "multiverse_ids": [
+      439392
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/3a.jpg?1522205340"],
+    "layout": "normal",
+    "type_line": "Creature — Human",
+    "oracle_text": "Sacrifice Amateur Auteur: Destroy target enchantment.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "ust"
+  },
+  {
+    "id": 439528,
+    "name": "Angelic Rocket",
+    "collector_number": 139,
+    "multiverse_ids": [
+      439528
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/139.jpg?1522207988"],
+    "layout": "host",
+    "type_line": "Artifact Host Creature — Angel",
+    "oracle_text": "Flying\nWhen this creature enters the battlefield, you may destroy target nonland permanent.",
+    "mana_cost": "{8}",
+    "cmc": 8,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439415,
+    "name": "Animate Library",
+    "collector_number": 26,
+    "multiverse_ids": [
+      439415
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/26.jpg?1522205862"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant your library\nEnchanted library is an artifact creature on the battlefield with power and toughness each equal to the number of cards in it. It's still a library.\nIf enchanted library would leave the battlefield, exile Animate Library instead.",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439557,
+    "name": "Applied Aeronautics",
+    "collector_number": 168,
+    "multiverse_ids": [
+      439557
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/168.jpg?1522208515"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Applied Aeronautics, until end of turn, target creature gets +1/+0, gains flying, and becomes an artifact in addition to its other types.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439558,
+    "name": "Arms Depot",
+    "collector_number": 169,
+    "multiverse_ids": [
+      439558
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/169.jpg?1522208527"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Arms Depot, put two +1/+1 counters on target creature.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439491,
+    "name": "As Luck Would Have It",
+    "collector_number": 102,
+    "multiverse_ids": [
+      439491
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/102.jpg?1522207381"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Hexproof\nWhenever you roll a die, put a number of luck counters on As Luck Would Have It equal to the result. Then if there are 100 or more luck counters on As Luck Would Have It, you win the game. (Count both rolls if you reroll a die.)",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439559,
+    "name": "Auto-Key",
+    "collector_number": 170,
+    "multiverse_ids": [
+      439559
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/170.jpg?1522208539"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Auto-Key, until end of turn, target creature becomes an artifact in addition to its other types and gains \"{T}: You gain 3 life.\"",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439516,
+    "name": "Baron Von Count",
+    "collector_number": 127,
+    "multiverse_ids": [
+      439516
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/127.jpg?1522207829"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Villain",
+    "oracle_text": "Baron Von Count enters the battlefield with a doom counter on \"5.\"\nWhenever you cast a spell with the indicated numeral in its mana cost, text box, power, or toughness, move the doom counter one numeral to the left.\nWhen the doom counter moves from \"1,\" destroy target player and put that doom counter on \"5.\"",
+    "mana_cost": "{1}{B}{R}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439492,
+    "name": "Beast in Show",
+    "collector_number": 103,
+    "multiverse_ids": [
+      439492
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/103a.jpg?1522207393"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "Trample",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "ust"
+  },
+  {
+    "id": 439560,
+    "name": "Bee-Bee Gun",
+    "collector_number": 171,
+    "multiverse_ids": [
+      439560
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/171.jpg?1522208557"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Bee-Bee Gun, until end of turn, target creature gains \"{2}: This creature fights another target creature.\"",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439517,
+    "name": "Better Than One",
+    "collector_number": 128,
+    "multiverse_ids": [
+      439517
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/128.jpg?1522207841"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "A person outside the game becomes your teammate. (Choose any number of cards in your hand, on top of your library, or on the battlefield under your control. Those cards become your teammate's hand, library, and permanents, respectively.)",
+    "mana_cost": "{G}{W}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439440,
+    "name": "Big Boa Constrictor",
+    "collector_number": 51,
+    "multiverse_ids": [
+      439440
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/51.jpg?1522206381"],
+    "layout": "host",
+    "type_line": "Host Creature — Snake",
+    "oracle_text": "When this creature enters the battlefield, roll a six-sided die. Target opponent loses life equal to the result.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439416,
+    "name": "Blurry Beeble",
+    "collector_number": 27,
+    "multiverse_ids": [
+      439416
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/27.jpg?1522205874"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Beeble",
+    "oracle_text": "Blurry (This creature can be blocked only if defending player was wearing glasses as it was cast.)\nWhenever Blurry Beeble deals combat damage to a player, you may draw a card. If you do, discard a card.",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439561,
+    "name": "Boomflinger",
+    "collector_number": 172,
+    "multiverse_ids": [
+      439561
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/172.jpg?1522208570"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Boomflinger, roll two six-sided dice. Boomflinger deals damage to target player or planeswalker equal to the difference between those results.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439529,
+    "name": "Border Guardian",
+    "collector_number": 140,
+    "multiverse_ids": [
+      439529
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/140.jpg?1522208001"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Knight",
+    "oracle_text": "Whenever you cast a silver-bordered spell, put a +1/+1 counter on Border Guardian.\nWhenever you cast a black-bordered spell, Border Guardian can't be blocked this turn.\nWhenever you cast a white-bordered spell, Border Guardian gains double strike until end of turn.",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439466,
+    "name": "Box of Free-Range Goblins",
+    "collector_number": 77,
+    "multiverse_ids": [
+      439466
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/77.jpg?1522206912"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Roll a six-sided die. Create a number of 1/1 red Goblin creature tokens equal to the result.",
+    "mana_cost": "{4}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "ust"
+  },
+  {
+    "id": 439467,
+    "name": "Bumbling Pangolin",
+    "collector_number": 78,
+    "multiverse_ids": [
+      439467
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/78.jpg?1529426547"],
+    "layout": "host",
+    "type_line": "Host Creature — Pangolin Beast",
+    "oracle_text": "When this creature enters the battlefield, you may destroy target artifact.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439562,
+    "name": "Buzz Buggy",
+    "collector_number": 173,
+    "multiverse_ids": [
+      439562
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/173.jpg?1522208582"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Buzz Buggy, target creature gets +2/+0 and gains trample until end of turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439530,
+    "name": "Buzzing Whack-a-Doodle",
+    "collector_number": 141,
+    "multiverse_ids": [
+      439530
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/141.jpg?1522208014"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "As Buzzing Whack-a-Doodle enters the battlefield, you and an opponent each secretly choose Whack or Doodle. Then those choices are revealed. If the choices match, Buzzing Whack-a-Doodle has that ability. Otherwise, it has Buzz.\n• Whack — {T}: Target player loses 2 life.\n• Doodle — {T}: You gain 3 life.\n• Buzz — {2}, {T}: Draw a card.",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439393,
+    "name": "By Gnome Means",
+    "collector_number": 4,
+    "multiverse_ids": [
+      439393
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/4.jpg?1522205408"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "{1}{W}, Remove a counter from a permanent you control: Create a 1/1 colorless Gnome artifact creature token.\n{1}{W}, Sacrifice an artifact: Choose any kind of counter a printed card refers to, then put one of that counter on target permanent.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439441,
+    "name": "capital offense",
+    "collector_number": 52,
+    "multiverse_ids": [
+      439441
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/52.jpg?1522206397"],
+    "layout": "normal",
+    "type_line": "instant",
+    "oracle_text": "target creature gets -x/-x until end of turn, where x is the number of times a capital letter appears in its rules text. (ignore reminder text and flavor text.)",
+    "mana_cost": "{2}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439417,
+    "name": "Chipper Chopper",
+    "collector_number": 28,
+    "multiverse_ids": [
+      439417
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/28.jpg?1522205890"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Rigger",
+    "oracle_text": "Flying\nWhen Chipper Chopper enters the battlefield, you may sacrifice another artifact. If you do, put two +1/+1 counters on Chipper Chopper and it assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439493,
+    "name": "Chittering Doom",
+    "collector_number": 104,
+    "multiverse_ids": [
+      439493
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/104.jpg?1522207449"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you roll a 4 or higher on a die, create a 1/1 green Squirrel creature token.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439394,
+    "name": "Chivalrous Chevalier",
+    "collector_number": 5,
+    "multiverse_ids": [
+      439394
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/5.jpg?1522205420"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "oracle_text": "Flying\nWhen Chivalrous Chevalier enters the battlefield, return a creature you control to its owner's hand unless you compliment an opponent.",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439494,
+    "name": "Clever Combo",
+    "collector_number": 105,
+    "multiverse_ids": [
+      439494
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/105.jpg?1559710752"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for a host card or a card with augment, reveal it, put it into your hand, then shuffle your library.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439418,
+    "name": "Clocknapper",
+    "collector_number": 29,
+    "multiverse_ids": [
+      439418
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/29.jpg?1522205903"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy",
+    "oracle_text": "When Clocknapper enters the battlefield, choose beginning phase, precombat main phase, combat phase, postcombat main phase, or ending phase. Steal that phase from target player during their next turn. (That phase occurs as though it's your turn instead.)",
+    "mana_cost": "{3}{U}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4.5,
+    "set": "ust"
+  },
+  {
+    "id": 439531,
+    "name": "Clock of DOOOOOOOOOOOOM!",
+    "collector_number": 142,
+    "multiverse_ids": [
+      439531
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/142.jpg?1526142828"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{4}, {T}: Move the CRANK! counter to your Contraption deck's next sprocket and crank any number of that sprocket's Contraptions.",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439532,
+    "name": "Cogmentor",
+    "collector_number": 143,
+    "multiverse_ids": [
+      439532
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/143.jpg?1522208037"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Gnome Rigger",
+    "oracle_text": "Flying\n{4}: Reassemble target Contraption you control. (Move it onto another one of your sprockets.)",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439468,
+    "name": "Common Iguana",
+    "collector_number": 79,
+    "multiverse_ids": [
+      439468
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/79.jpg?1522206938"],
+    "layout": "host",
+    "type_line": "Host Creature — Lizard",
+    "oracle_text": "When this creature enters the battlefield, you may discard a card. If you do, draw a card.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439533,
+    "name": "Contraption Cannon",
+    "collector_number": 144,
+    "multiverse_ids": [
+      439533
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/144.jpg?1522208048"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{2}, Sacrifice Contraption Cannon: It deals damage to any target equal to the number of Contraptions you control.",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439419,
+    "name": "Crafty Octopus",
+    "collector_number": 30,
+    "multiverse_ids": [
+      439419
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/30.jpg?1522205921"],
+    "layout": "host",
+    "type_line": "Host Creature — Octopus Rigger",
+    "oracle_text": "When this creature enters the battlefield, this creature assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439518,
+    "name": "Cramped Bunker",
+    "collector_number": 129,
+    "multiverse_ids": [
+      439518
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/129.jpg?1522207854"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "At the beginning of each opponent's upkeep, that player moves a permanent they control to touch Cramped Bunker and no other permanents. If the player can't, destroy each permanent they control that isn't touching Cramped Bunker, then sacrifice it.",
+    "mana_cost": "{4}{R}{G}",
+    "cmc": 6,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439420,
+    "name": "Crow Storm",
+    "collector_number": 31,
+    "multiverse_ids": [
+      439420
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/31.jpg?1522205936"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create a 1/2 blue Bird creature token with flying named Storm Crow.\nStorm (When you cast this spell, copy it for each spell cast before it this turn.)",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439534,
+    "name": "Curious Killbot",
+    "collector_number": 145,
+    "multiverse_ids": [
+      439534
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/145a.jpg?1522208061"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Killbot",
+    "oracle_text": "",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "ust"
+  },
+  {
+    "id": 439563,
+    "name": "Deadly Poison Sampler",
+    "collector_number": 174,
+    "multiverse_ids": [
+      439563
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/174.jpg?1522208595"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Deadly Poison Sampler, until end of turn, target creature gains \"Whenever this creature deals combat damage to a player, destroy target creature that player controls.\"",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439421,
+    "name": "Defective Detective",
+    "collector_number": 32,
+    "multiverse_ids": [
+      439421
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/32.jpg?1522205951"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy",
+    "oracle_text": "Defective Detective can't be blocked.\nWhen Defective Detective enters the battlefield, a person outside the game looks at target opponent's hand and chooses a card from it. That player reveals that card.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439655,
+    "name": "Delighted Killbot",
+    "collector_number": 145,
+    "multiverse_ids": [
+      439655
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/145b.jpg?1522208072"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Killbot",
+    "oracle_text": "",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439656,
+    "name": "Despondent Killbot",
+    "collector_number": 145,
+    "multiverse_ids": [
+      439656
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/145c.jpg?1522208084"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Killbot",
+    "oracle_text": "",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439564,
+    "name": "Dictation Quillograph",
+    "collector_number": 175,
+    "multiverse_ids": [
+      439564
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/175.jpg?1522208607"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Dictation Quillograph, until end of turn, target creature gains \"Whenever this creature deals combat damage to a player, you may draw a card. If you do, discard a card.\"",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "ust"
+  },
+  {
+    "id": 439442,
+    "name": "Dirty Rat",
+    "collector_number": 53,
+    "multiverse_ids": [
+      439442
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/53.jpg?1522206414"],
+    "layout": "host",
+    "type_line": "Host Creature — Rat",
+    "oracle_text": "When this creature enters the battlefield, target opponent discards a card.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439565,
+    "name": "Dispatch Dispensary",
+    "collector_number": 176,
+    "multiverse_ids": [
+      439565
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/176.jpg?1522208619"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Dispatch Dispensary, create a 2/2 black Rogue creature token with menace.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439566,
+    "name": "Division Table",
+    "collector_number": 177,
+    "multiverse_ids": [
+      439566
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/177.jpg?1522208631"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Division Table, target player loses 2 life.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439567,
+    "name": "Dogsnail Engine",
+    "collector_number": 178,
+    "multiverse_ids": [
+      439567
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/178.jpg?1522208645"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Dogsnail Engine, target player gains life equal to the greatest power among creatures you control.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439395,
+    "name": "Do-It-Yourself Seraph",
+    "collector_number": 6,
+    "multiverse_ids": [
+      439395
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/6.jpg?1522205434"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Angel",
+    "oracle_text": "Flying\nWhenever Do-It-Yourself Seraph attacks, you may search your library for an artifact card, exile it, then shuffle your library.\nDo-It-Yourself Seraph has the text box of each card exiled with Do-It-Yourself Seraph in addition to its own.",
+    "mana_cost": "{4}{W}{W}",
+    "cmc": 6,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439519,
+    "name": "Dr. Julius Jumblemorph",
+    "collector_number": 130,
+    "multiverse_ids": [
+      439519
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/130.jpg?1559710961"],
+    "layout": "normal",
+    "type_line": "Legendary Creature",
+    "oracle_text": "Dr. Julius Jumblemorph is every creature type (even if this card isn't on the battlefield).\nWhenever a host enters the battlefield under your control, you may search your library and/or graveyard for a card with augment and combine it with that host. If you search your library this way, shuffle it.",
+    "mana_cost": "{2}{G}{W}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "ust"
+  },
+  {
+    "id": 439495,
+    "name": "Druid of the Sacred Beaker",
+    "collector_number": 106,
+    "multiverse_ids": [
+      439495
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/106.jpg?1522207476"],
+    "layout": "normal",
+    "type_line": "Creature — Deer Bird Ape Druid",
+    "oracle_text": "{T}: Add {G} for each Crossbreed Labs watermark among permanents you control.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439568,
+    "name": "Dual Doomsuits",
+    "collector_number": 179,
+    "multiverse_ids": [
+      439568
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/179.jpg?1522208658"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Dual Doomsuits, each time a source you control would deal damage this turn, it deals double that damage instead.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439569,
+    "name": "Duplication Device",
+    "collector_number": 180,
+    "multiverse_ids": [
+      439569
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/180.jpg?1522208669"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Duplication Device, until end of turn, target creature becomes a copy of any creature on the battlefield, except it's an artifact in addition to its other types.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439496,
+    "name": "Eager Beaver",
+    "collector_number": 107,
+    "multiverse_ids": [
+      439496
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/107.jpg?1522207488"],
+    "layout": "host",
+    "type_line": "Host Creature — Beaver",
+    "oracle_text": "When this creature enters the battlefield, you may untap target permanent.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439497,
+    "name": "Earl of Squirrel",
+    "collector_number": 108,
+    "multiverse_ids": [
+      439497
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/108.jpg?1522207502"],
+    "layout": "normal",
+    "type_line": "Creature — Squirrel Advisor",
+    "oracle_text": "Squirrellink (Damage dealt by this creature also causes you to create that many 1/1 green Squirrel creature tokens.)\nCreature tokens you control are Squirrels in addition to their other creature types.\nOther Squirrels you control get +1/+1.",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4.5,
+    "set": "ust"
+  },
+  {
+    "id": 439657,
+    "name": "Enraged Killbot",
+    "collector_number": 145,
+    "multiverse_ids": [
+      439657
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/145d.jpg?1522208096"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Killbot",
+    "oracle_text": "",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439535,
+    "name": "Entirely Normal Armchair",
+    "collector_number": 146,
+    "multiverse_ids": [
+      439535
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/146.jpg?1522208109"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "During your turn, if Entirely Normal Armchair is in your hand, you may hide it on the battlefield.\n{0}: Return Entirely Normal Armchair to its owner's hand. Only any opponent may activate this ability and only if they see Entirely Normal Armchair.\n{2}, Sacrifice Entirely Normal Armchair: Destroy target attacking creature.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439641,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439641
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/147c.jpg?1522208152"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{1}: Flip a coin. If you win the flip, add {C}{C}. Activate this ability only any time you could cast an instant.\n{3}, {T}: Target player discards a card. Activate this ability only during your turn.\n{X}: Everythingamajig becomes an X/X Construct artifact creature until end of turn.",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439644,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439644
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/147f.jpg?1522208190"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{1}, {T}: Scry 2.\n{1}, {T}, Pay 1 life: Create a 0/1 white Goat creature token.\n{7}, {T}, Sacrifice Everythingamajig: Choose target player. At the beginning of the next end step, exchange life totals with that player, exchange control of all permanents you and that player control, and exchange cards in your hands, cards in your libraries, and cards in your graveyards.",
+    "mana_cost": "{8}",
+    "cmc": 8,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439640,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439640
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/147b.jpg?1522208136"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{2}, {T}: Draw a card. Activate this ability only if you have no cards in hand.\n{8}, {T}: You gain 10 life.\n{4}, {T}, Sacrifice Everythingamajig: You may put a silver-bordered permanent card from your hand onto the battlefield.",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439536,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439536
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/147a.jpg?1522208122"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{2}, {T}: Move a counter from one permanent onto another. If the second permanent refers to any kind of counter, the moved counter becomes one of those counters. Otherwise, it becomes a +1/+1 counter.\n{3}, {T}: Put a +1/+1 counter on target creature.\n{4}, {T}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439643,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439643
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/147e.jpg?1522208176"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "Sacrifice a land: You gain 2 life.\nSacrifice a creature: Add {C}{C}.\n{2}, Discard a card: Search your library for a card that shares a complete word in its name with the name of the discarded card, reveal it, put it into your hand, then shuffle your library.",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439642,
+    "name": "Everythingamajig",
+    "collector_number": 147,
+    "multiverse_ids": [
+      439642
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/147d.jpg?1522208163"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add one mana of any color.\n{1}, {T}: Say the flavor text on a card in your hand. Target opponent guesses that card's name. You may reveal that card. If you do and your opponent guessed wrong, draw a card.\n{8}, {T}: Everythingamajig deals 12 damage to target creature.",
+    "mana_cost": "{6}",
+    "cmc": 6,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439443,
+    "name": "Extremely Slow Zombie",
+    "collector_number": 54,
+    "multiverse_ids": [
+      439443
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/54a.jpg?1522206428"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie",
+    "oracle_text": "Last strike (This creature deals combat damage after creatures without last strike.)",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439570,
+    "name": "Faerie Aerie",
+    "collector_number": 181,
+    "multiverse_ids": [
+      439570
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/181.jpg?1522208681"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Faerie Aerie, create two 1/1 blue Faerie Spy creature tokens with flying, haste, and \"Whenever this creature deals combat damage to a player, draw a card.\" Exile them at the beginning of the next end step.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439470,
+    "name": "Feisty Stegosaurus",
+    "collector_number": 81,
+    "multiverse_ids": [
+      439470
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/81.jpg?1522206967"],
+    "layout": "host",
+    "type_line": "Host Creature — Dinosaur",
+    "oracle_text": "When this creature enters the battlefield, roll a six-sided die. This creature deals damage equal to the result to target creature an opponent controls.",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439444,
+    "name": "Finders, Keepers",
+    "collector_number": 55,
+    "multiverse_ids": [
+      439444
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/55.jpg?1522206495"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Destroy target creature, then assemble a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{5}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439498,
+    "name": "First Pick",
+    "collector_number": 109,
+    "multiverse_ids": [
+      439498
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/109.jpg?1522207516"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target artifact or enchantment. Assemble a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439422,
+    "name": "Five-Finger Discount",
+    "collector_number": 33,
+    "multiverse_ids": [
+      439422
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/33.jpg?1522205967"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Put target nonland permanent into your hand. You may spend mana as though it were mana of any color the next time you cast that card.",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439605,
+    "name": "Forest",
+    "collector_number": 216,
+    "multiverse_ids": [
+      439605
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f8772631-d4a1-440d-ac89-ac6659bdc073.jpg?1545331507"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": [1, 0],
+    "set": "ust"
+  },
+  {
+    "id": 439631,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439631
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/82c.jpg?1522207006"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)\nWhen Garbage Elemental enters the battlefield, roll two six-sided dice. Create a number of 1/1 red Goblin creature tokens equal to the difference between those results.",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439632,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439632
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/82d.jpg?1522207023"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)\nWhen Garbage Elemental enters the battlefield, roll a six-sided die. Garbage Elemental deals damage equal to the result to target opponent or planeswalker.",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439471,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439471
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/82a.jpg?1522206979"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Frenzy 2 (Whenever this creature attacks and isn't blocked, it gets +2/+0 until end of turn.)\nGarbage Elemental can't be blocked by wordy creatures. (A creature is wordy if it has four or more lines of rules text.)",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439634,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439634
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/82f.jpg?1522207050"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Last strike (This creature deals combat damage after creatures without last strike.)\nBattalion — Whenever Garbage Elemental and at least two other creatures attack, target creature can't block this turn.",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439633,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439633
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/82e.jpg?1522207038"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)\nEach creature you control with any kind of counter on it has art menace. (They can't be blocked except by creatures with two or more visible figures in their art.)",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439630,
+    "name": "Garbage Elemental",
+    "collector_number": 82,
+    "multiverse_ids": [
+      439630
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/82b.jpg?1559183862"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Rigger",
+    "oracle_text": "When Garbage Elemental enters the battlefield, it assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)\nUndying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439571,
+    "name": "Genetic Recombinator",
+    "collector_number": 182,
+    "multiverse_ids": [
+      439571
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/182.jpg?1522208694"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Genetic Recombinator, up to two target creatures each get +2/+2 until end of turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439572,
+    "name": "Gift Horse",
+    "collector_number": 183,
+    "multiverse_ids": [
+      439572
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/183.jpg?1522208706"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Gift Horse, roll two six-sided dice. Create a number of 1/1 red Goblin creature tokens equal to the difference between those results.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439396,
+    "name": "Gimme Five",
+    "collector_number": 7,
+    "multiverse_ids": [
+      439396
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/7.jpg?1522205448"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "You gain 1 life for each person who high-fives you in the next thirty seconds. Each player in a silver-bordered game who high-fives you gains 1 life. (Offer high fives. Don't hit people.)",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0.5,
+    "set": "ust"
+  },
+  {
+    "id": 439573,
+    "name": "Gnomeball Machine",
+    "collector_number": 184,
+    "multiverse_ids": [
+      439573
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/184.jpg?1522208717"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Gnomeball Machine, create two 1/1 colorless Gnome artifact creature tokens.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439537,
+    "name": "Gnome-Made Engine",
+    "collector_number": 148,
+    "multiverse_ids": [
+      439537
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/148.jpg?1522208203"],
+    "layout": "host",
+    "type_line": "Artifact Host Creature — Construct",
+    "oracle_text": "When this creature enters the battlefield, create a 1/1 colorless Gnome artifact creature token.",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439472,
+    "name": "Goblin Haberdasher",
+    "collector_number": 83,
+    "multiverse_ids": [
+      439472
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/83.jpg?1522207064"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Hatificer",
+    "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\nOther creatures you control wearing hats in their art have menace.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439574,
+    "name": "Goblin Slingshot",
+    "collector_number": 185,
+    "multiverse_ids": [
+      439574
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/185.jpg?1522208729"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Goblin Slingshot, creatures you control get +2/+0 and gain trample until end of turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439397,
+    "name": "GO TO JAIL",
+    "collector_number": 8,
+    "multiverse_ids": [
+      439397
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/8.jpg?1522205463"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "When GO TO JAIL enters the battlefield, exile target creature an opponent controls until GO TO JAIL leaves the battlefield.\nAt the beginning of the upkeep of the exiled card's owner, that player rolls two six-sided dice. If they roll doubles, sacrifice GO TO JAIL.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439423,
+    "name": "Graveyard Busybody",
+    "collector_number": 34,
+    "multiverse_ids": [
+      439423
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/34.jpg?1522205982"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy",
+    "oracle_text": "All graveyards are also your graveyards.\nGraveyard Busybody's power and toughness are each equal to the number of cards with flavor text in your graveyards.",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439499,
+    "name": "Ground Pounder",
+    "collector_number": 110,
+    "multiverse_ids": [
+      439499
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/110.jpg?1522207530"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Warrior",
+    "oracle_text": "{3}{G}: Roll a six-sided die. Ground Pounder gets +X/+X until end of turn, where X is the result.\nWhenever you roll a 5 or higher on a die, Ground Pounder gains trample until end of turn.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439521,
+    "name": "Grusilda, Monster Masher",
+    "collector_number": 132,
+    "multiverse_ids": [
+      439521
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/132.jpg?1531008792"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Zombie Villain",
+    "oracle_text": "Combined, enchanted, and equipped creatures you control have menace.\n{3}{B}{R}, {T}: Put two target creature cards from graveyards onto the battlefield combined into one creature under your control. (Its power is equal to their total power, its toughness is equal to their total toughness, and it has their names, mana costs, types, text boxes, etc.)",
+    "mana_cost": "{3}{B}{R}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439575,
+    "name": "Guest List",
+    "collector_number": 186,
+    "multiverse_ids": [
+      439575
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/186.jpg?1522208741"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Guest List, target creature gets -X/-X until end of turn, where X is the number of creature cards in its controller's graveyard.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439398,
+    "name": "Half-Kitten, Half-",
+    "collector_number": 9,
+    "multiverse_ids": [
+      439398
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/9.jpg?1522205476"],
+    "layout": "augment",
+    "type_line": "Creature — Cat",
+    "oracle_text": "Whenever you're dealt damage,\nAugment {2}{W} ({2}{W}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439473,
+    "name": "Half-Orc, Half-",
+    "collector_number": 84,
+    "multiverse_ids": [
+      439473
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/84.jpg?1522207079"],
+    "layout": "augment",
+    "type_line": "Creature — Orc Warrior",
+    "oracle_text": "Trample\nAt the beginning of each end step, if an opponent was dealt damage this turn,\nAugment {1}{R}{R} ({1}{R}{R}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439424,
+    "name": "Half-Shark, Half-",
+    "collector_number": 35,
+    "multiverse_ids": [
+      439424
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/35.jpg?1522205997"],
+    "layout": "augment",
+    "type_line": "Creature — Fish",
+    "oracle_text": "At the beginning of your upkeep,\nAugment {5}{U} ({5}{U}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{5}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439500,
+    "name": "Half-Squirrel, Half-",
+    "collector_number": 111,
+    "multiverse_ids": [
+      439500
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/111.jpg?1522207545"],
+    "layout": "augment",
+    "type_line": "Creature — Squirrel",
+    "oracle_text": "Whenever a nontoken creature enters the battlefield,\nAugment {G} ({G}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439476,
+    "name": "Hammerfest Boomtacular",
+    "collector_number": 87,
+    "multiverse_ids": [
+      439476
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/87.jpg?1522207123"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast a spell with a Goblin Explosioneers watermark, Hammerfest Boomtacular deals 2 damage to any target.",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439474,
+    "name": "Hammer Helper",
+    "collector_number": 85,
+    "multiverse_ids": [
+      439474
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/85.jpg?1522207092"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Gain control of target creature until end of turn. Untap that creature and roll a six-sided die. Until end of turn, it gains haste and gets +X/+0, where X is the result.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439475,
+    "name": "Hammer Jammer",
+    "collector_number": 86,
+    "multiverse_ids": [
+      439475
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/86.jpg?1522207106"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Warrior",
+    "oracle_text": "As Hammer Jammer enters the battlefield, roll a six-sided die. Hammer Jammer enters the battlefield with a number of +1/+1 counters on it equal to the result.\nWhenever you roll a die, remove all +1/+1 counters from Hammer Jammer, then put a number of +1/+1 counters on it equal to the result.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439538,
+    "name": "Handy Dandy Clone Machine",
+    "collector_number": 149,
+    "multiverse_ids": [
+      439538
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/149.jpg?1522208218"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{2}, {T}: Create a 2/2 colorless Homunculus creature token. It must be represented by a unique hand and two fingers at all times, or it ceases to exist.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439445,
+    "name": "Hangman",
+    "collector_number": 56,
+    "multiverse_ids": [
+      439445
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/56.jpg?1522206509"],
+    "layout": "normal",
+    "type_line": "Creature — Human Villain",
+    "oracle_text": "As Hangman enters the battlefield, secretly note a word with six to eight letters.\n{1}: Target player who doesn't control Hangman guesses the noted word or an unguessed letter in that word. If they guess wrong, put a +1/+1 counter on Hangman. Any player may activate this ability.\nWhen a player guesses the noted word or all of its letters, sacrifice Hangman.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439576,
+    "name": "Hard Hat Area",
+    "collector_number": 187,
+    "multiverse_ids": [
+      439576
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/187.jpg?1522208755"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Hard Hat Area, roll two six-sided dice. Hard Hat Area assembles a number of Contraptions equal to the difference between those results. (To assemble a Contraption, put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439446,
+    "name": "Hazmat Suit (Used)",
+    "collector_number": 57,
+    "multiverse_ids": [
+      439446
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/57.jpg?1522206524"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets +2/+1 and has menace.\nWhenever a player's skin or fingernail touches enchanted creature, that player loses 2 life.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439577,
+    "name": "Head Banger",
+    "collector_number": 188,
+    "multiverse_ids": [
+      439577
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/188.jpg?1522208768"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Head Banger, target creature must be blocked this turn if able.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439447,
+    "name": "Hoisted Hireling",
+    "collector_number": 58,
+    "multiverse_ids": [
+      439447
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/58.jpg?1522206541"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie",
+    "oracle_text": "Hoisted Hireling has flying as long as it's being held above the battlefield.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439522,
+    "name": "Hot Fix",
+    "collector_number": 133,
+    "multiverse_ids": [
+      439522
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/133.jpg?1522207911"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "You have ten seconds to look at and rearrange the cards in your library. At the end of those ten seconds, if you're touching one or more of those cards, shuffle your library.",
+    "mana_cost": "{4}{W}{U}",
+    "cmc": 6,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439399,
+    "name": "Humming-",
+    "collector_number": 10,
+    "multiverse_ids": [
+      439399
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/10.jpg?1522205489"],
+    "layout": "augment",
+    "type_line": "Creature — Bird",
+    "oracle_text": "Flying\nWhenever you attack with two or more creatures,\nAugment {3}{W} ({3}{W}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439501,
+    "name": "Hydradoodle",
+    "collector_number": 112,
+    "multiverse_ids": [
+      439501
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/112.jpg?1522207558"],
+    "layout": "normal",
+    "type_line": "Creature — Hydra Hound",
+    "oracle_text": "As Hydradoodle enters the battlefield, roll X six-sided dice. Hydradoodle enters the battlefield with a number of +1/+1 counters on it equal to the total of those results.\nReach, trample",
+    "mana_cost": "{X}{X}{G}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439578,
+    "name": "Hypnotic Swirly Disc",
+    "collector_number": 189,
+    "multiverse_ids": [
+      439578
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/189.jpg?1522208784"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Hypnotic Swirly Disc, target player puts the top X cards of their library into their graveyard, where X is the number of creatures you control.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439425,
+    "name": "Incite Insight",
+    "collector_number": 36,
+    "multiverse_ids": [
+      439425
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/36.jpg?1522206009"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Assemble X Contraptions. (To assemble a Contraption, put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{X}{U}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439635,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439635
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/113b.jpg?1522207587"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "As Ineffable Blessing enters the battlefield, choose an artist.\nWhenever a creature with art by the chosen artist enters the battlefield under your control, draw a card.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439639,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439639
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/113f.jpg?1522207637"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "As Ineffable Blessing enters the battlefield, choose a number.\nWhenever a creature with exactly the chosen number of words in its name enters the battlefield under your control, draw a card. (Hyphenated words are one word.)",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439637,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439637
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/113d.jpg?1522207613"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "As Ineffable Blessing enters the battlefield, choose a rarity.\nWhenever a creature with the chosen rarity enters the battlefield under your control, draw a card.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439502,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439502
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/113a.jpg?1522207574"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "As Ineffable Blessing enters the battlefield, choose Flavorful or Bland.\n• Flavorful — Whenever a creature with flavor text enters the battlefield under your control, draw a card.\n• Bland — Whenever a creature without flavor text enters the battlefield under your control, draw a card.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439638,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439638
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/113e.jpg?1522207625"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "As Ineffable Blessing enters the battlefield, choose odd or even.\nWhenever a creature with a collector number of the chosen value enters the battlefield under your control, draw a card.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439636,
+    "name": "Ineffable Blessing",
+    "collector_number": 113,
+    "multiverse_ids": [
+      439636
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/113c.jpg?1526594978"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "As Ineffable Blessing enters the battlefield, choose white-bordered or silver-bordered.\nWhenever a creature with the chosen border enters the battlefield under your control, draw a card.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439477,
+    "name": "Infinity Elemental",
+    "collector_number": 88,
+    "multiverse_ids": [
+      439477
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/88.jpg?1522207136"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "(This creature has INFINITE POWER.)",
+    "mana_cost": "{4}{R}{R}{R}",
+    "cmc": 7,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439579,
+    "name": "Inflation Station",
+    "collector_number": 190,
+    "multiverse_ids": [
+      439579
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/190.jpg?1522208797"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Inflation Station, target creature gets +3/+3 until end of turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439448,
+    "name": "Inhumaniac",
+    "collector_number": 59,
+    "multiverse_ids": [
+      439448
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/59.jpg?1522206554"],
+    "layout": "normal",
+    "type_line": "Creature — Brainiac",
+    "oracle_text": "At the beginning of your upkeep, roll a six-sided die. On a 3 or 4, put a +1/+1 counter on Inhumaniac. On a 5 or higher, put two +1/+1 counters on it. On a 1, remove all +1/+1 counters from Inhumaniac.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439580,
+    "name": "Insufferable Syphon",
+    "collector_number": 191,
+    "multiverse_ids": [
+      439580
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/191.jpg?1522208810"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Insufferable Syphon, target player discards a card.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439602,
+    "name": "Island",
+    "collector_number": 213,
+    "multiverse_ids": [
+      439602
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/213.jpg?1534901014"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": [1, 0],
+    "set": "ust"
+  },
+  {
+    "id": 439478,
+    "name": "It That Gets Left Hanging",
+    "collector_number": 89,
+    "multiverse_ids": [
+      439478
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/89.jpg?1522207153"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Horror",
+    "oracle_text": "When It That Gets Left Hanging enters the battlefield, ask a person outside the game to high-five you. If they won't, It That Gets Left Hanging gains haste until end of turn.",
+    "mana_cost": "{5}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439400,
+    "name": "Jackknight",
+    "collector_number": 11,
+    "multiverse_ids": [
+      439400
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/11.jpg?1522205509"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "oracle_text": "Whenever another artifact enters the battlefield under your control, put a +1/+1 counter on Jackknight. If that artifact is a Contraption, Jackknight gains lifelink until end of turn.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439581,
+    "name": "Jamming Device",
+    "collector_number": 192,
+    "multiverse_ids": [
+      439581
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/192.jpg?1522208821"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Jamming Device, creatures target player controls get -1/-1 until end of turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439503,
+    "name": "Joyride Rigger",
+    "collector_number": 114,
+    "multiverse_ids": [
+      439503
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/114.jpg?1522207655"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Rigger",
+    "oracle_text": "When Joyride Rigger enters the battlefield, it assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439479,
+    "name": "Just Desserts",
+    "collector_number": 90,
+    "multiverse_ids": [
+      439479
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/90.jpg?1522207168"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Just Desserts deals π damage to target creature. (π is the ratio of a circle's circumference to its diameter. (It's a smidgen more than 3.))",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439426,
+    "name": "Kindly Cognician",
+    "collector_number": 37,
+    "multiverse_ids": [
+      439426
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/37.jpg?1522206026"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Artificer",
+    "oracle_text": "Spells you cast that refer to artifacts or Contraptions in their rules text cost {1} less to cast.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439539,
+    "name": "Kindslaver",
+    "collector_number": 150,
+    "multiverse_ids": [
+      439539
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/150.jpg?1522208231"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "oracle_text": "{5}, {T}, Sacrifice Kindslaver: A person outside the game controls target player during that player's next turn. Neither player may advise that person until the end of that turn.",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439401,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439401
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/12a.jpg?1522205523"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "oracle_text": "First strike, protection from black borders (Nothing with a black border can block, target, deal damage to, or attach to this creature.)",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439625,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439625
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/12b.jpg?1522205552"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "oracle_text": "First strike, protection from even collector numbers (Nothing with an even collector number can block, target, deal damage to, or attach to this creature.)",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439626,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439626
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/12c.jpg?1522205574"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "oracle_text": "First strike, protection from loose lips (Nothing with an open mouth in its artwork can block, target, deal damage to, or attach to this creature.)",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439627,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439627
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/12d.jpg?1522205595"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "oracle_text": "First strike, protection from odd collector numbers (Nothing with an odd collector number can block, target, deal damage to, or attach to this creature.)",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439628,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439628
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/12e.jpg?1522205608"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "oracle_text": "First strike, protection from two-word names (Nothing with exactly two words in its name can block, target, deal damage to, or attach to this creature. Hyphenated words are one word.)",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439629,
+    "name": "Knight of the Kitchen Sink",
+    "collector_number": 12,
+    "multiverse_ids": [
+      439629
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/12f.jpg?1522205626"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "oracle_text": "First strike, protection from watermarks (Nothing with a watermark can block, target, deal damage to, or attach to this creature.)",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439402,
+    "name": "Knight of the Widget",
+    "collector_number": 13,
+    "multiverse_ids": [
+      439402
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/13.jpg?1522205640"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "oracle_text": "Vigilance\nKnight of the Widget's power and toughness are each equal to the number of Order of the Widget watermarks among permanents you control.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439540,
+    "name": "Krark's Other Thumb",
+    "collector_number": 151,
+    "multiverse_ids": [
+      439540
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/151.jpg?1522208245"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "oracle_text": "If you would roll a die, instead roll two of those dice and ignore one of those results.",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439541,
+    "name": "Labro Bot",
+    "collector_number": 152,
+    "multiverse_ids": [
+      439541
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/152.jpg?1522208257"],
+    "layout": "host",
+    "type_line": "Artifact Host Creature — Hound",
+    "oracle_text": "When this creature enters the battlefield, return target host card or card with augment from your graveyard to your hand.",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439582,
+    "name": "Lackey Recycler",
+    "collector_number": 193,
+    "multiverse_ids": [
+      439582
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/193.jpg?1522208834"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Lackey Recycler, put target creature card from your graveyard on top of your library.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439542,
+    "name": "Lobe Lobber",
+    "collector_number": 153,
+    "multiverse_ids": [
+      439542
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/153.jpg?1522208269"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature has \"{T}: This creature deals 1 damage to target player or planeswalker. Roll a six-sided die. On a 5 or higher, untap it.\"\nEquip {2}",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439543,
+    "name": "Mad Science Fair Project",
+    "collector_number": 154,
+    "multiverse_ids": [
+      439543
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/154.jpg?1522208282"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Roll a six-sided die. On a 3 or lower,\ntarget player adds {C}. Otherwise, that player adds one mana of any color they choose.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439427,
+    "name": "Magic Word",
+    "collector_number": 38,
+    "multiverse_ids": [
+      439427
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/38.jpg?1522206042"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nAs Magic Word enters the battlefield, choose a word.\nWhisper the chosen word: Tap enchanted creature.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439583,
+    "name": "Mandatory Friendship Shackles",
+    "collector_number": 194,
+    "multiverse_ids": [
+      439583
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/194.jpg?1522208845"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Mandatory Friendship Shackles, target creature gets -1/-1 until end of turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "ust"
+  },
+  {
+    "id": 439527,
+    "name": "Mary O'Kill",
+    "collector_number": 138,
+    "multiverse_ids": [
+      439527
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/138.jpg?1522207977"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Villain",
+    "oracle_text": "{1}{B/R}: Switch a Killbot or Mary O'Kill in your hand with one on the battlefield. (If a creature is tapped, the switched creature is tapped. The same is true for untapped, attacking, blocking, enchanted, equipped, and targeted. Any counters on a creature are on the switched creature instead.)",
+    "mana_cost": "{5}{B/R}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439449,
+    "name": "Masterful Ninja",
+    "collector_number": 60,
+    "multiverse_ids": [
+      439449
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/60.jpg?1522206570"],
+    "layout": "normal",
+    "type_line": "Creature — Troll Ninja",
+    "oracle_text": "Haste\nReveal Masterful Ninja from your hand: Masterful Ninja is on the battlefield and in your hand until end of turn.\n{1}{B}: Masterful Ninja gets +1/+1 until end of turn.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439428,
+    "name": "Mer Man",
+    "collector_number": 39,
+    "multiverse_ids": [
+      439428
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/39.jpg?1522206063"],
+    "layout": "host",
+    "type_line": "Host Creature — Human Fish",
+    "oracle_text": "When this creature enters the battlefield, you may draw a card.",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439403,
+    "name": "Midlife Upgrade",
+    "collector_number": 14,
+    "multiverse_ids": [
+      439403
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/14.jpg?1522205654"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "As an additional cost to cast this spell, sacrifice X Contraptions.\nAssemble X plus one Contraptions. (To assemble a Contraption, put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439544,
+    "name": "Modular Monstrosity",
+    "collector_number": 155,
+    "multiverse_ids": [
+      439544
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/155.jpg?1522208295"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "oracle_text": "Whenever an opponent casts a spell, you have five seconds to choose a keyword you haven't chosen for a card named Modular Monstrosity today that's been printed on a creature card. If you do, Modular Monstrosity gains that ability. Otherwise, Modular Monstrosity loses all keyword abilities.",
+    "mana_cost": "{7}",
+    "cmc": 7,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439504,
+    "name": "Monkey-",
+    "collector_number": 115,
+    "multiverse_ids": [
+      439504
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/115.jpg?1522207668"],
+    "layout": "augment",
+    "type_line": "Creature — Monkey",
+    "oracle_text": "Whenever a nontoken creature you control dies,\nAugment {2}{G} ({2}{G}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439429,
+    "name": "More or Less",
+    "collector_number": 40,
+    "multiverse_ids": [
+      439429
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/40.jpg?1522206081"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Add or subtract 1 or one from a number or number word on target spell or permanent until end of turn.",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439505,
+    "name": "Mother Kangaroo",
+    "collector_number": 116,
+    "multiverse_ids": [
+      439505
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/116.jpg?1522207680"],
+    "layout": "host",
+    "type_line": "Host Creature — Kangaroo",
+    "oracle_text": "When this creature enters the battlefield, roll a six-sided die. Put a number of +1/+1 counters on this creature equal to the result.",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439604,
+    "name": "Mountain",
+    "collector_number": 215,
+    "multiverse_ids": [
+      439604
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/215.jpg?1534900931"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": [1, 0],
+    "set": "ust"
+  },
+  {
+    "id": 439506,
+    "name": "Multi-Headed",
+    "collector_number": 117,
+    "multiverse_ids": [
+      439506
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/117.jpg?1522207694"],
+    "layout": "augment",
+    "type_line": "Creature — Hydra",
+    "oracle_text": "At the beginning of each end step, if you rolled a die this turn,\nAugment {4}{G} ({4}{G}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439584,
+    "name": "Neural Network",
+    "collector_number": 195,
+    "multiverse_ids": [
+      439584
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/195.jpg?1522208858"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Neural Network, gain control of target creature an opponent controls with power less than or equal to the number of creature cards in its controller's graveyard until end of turn. Untap that creature. It gains haste until end of turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439450,
+    "name": "Ninja",
+    "collector_number": 61,
+    "multiverse_ids": [
+      439450
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/61.jpg?1522206585"],
+    "layout": "augment",
+    "type_line": "Creature — Ninja",
+    "oracle_text": "You may activate Ninja's augment ability any time you could cast an instant.\nWhenever this creature deals combat damage to a player,\nAugment {2}{B} ({2}{B}, Reveal this card from your hand: Combine it with target host. Augment only as—oh, nevermind.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439430,
+    "name": "Novellamental",
+    "collector_number": 41,
+    "multiverse_ids": [
+      439430
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/41a.jpg?1522206097"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Flying\nNovellamental can block only creatures with flying.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439431,
+    "name": "Numbing Jellyfish",
+    "collector_number": 42,
+    "multiverse_ids": [
+      439431
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/42.jpg?1522206153"],
+    "layout": "host",
+    "type_line": "Host Creature — Jellyfish",
+    "oracle_text": "When this creature enters the battlefield, roll a six-sided die. Target player puts the top X cards of their library into their graveyard, where X is the result.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439585,
+    "name": "Oaken Power Suit",
+    "collector_number": 196,
+    "multiverse_ids": [
+      439585
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/196.jpg?1522208870"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Oaken Power Suit, target creature gets +X/+X until end of turn, where X is the greatest power among creatures you control.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439404,
+    "name": "Oddly Uneven",
+    "collector_number": 15,
+    "multiverse_ids": [
+      439404
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/15.jpg?1522205670"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Choose one —\n• Destroy each creature with an odd number of words in its name. (Hyphenated words are one word.)\n• Destroy each creature with an even number of words in its name.",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439523,
+    "name": "Ol' Buzzbark",
+    "collector_number": 134,
+    "multiverse_ids": [
+      439523
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/134.jpg?1522207922"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Goblin Warrior",
+    "oracle_text": "When Ol' Buzzbark enters the battlefield, roll X six-sided dice onto the battlefield from a height of at least X inches. For each die, put a number of +1/+1 counters equal to the result on each creature you control that die is touching. For each die, Ol' Buzzbark deals damage equal to the result to each creature an opponent controls that die is touching.",
+    "mana_cost": "{X}{R}{G}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "ust"
+  },
+  {
+    "id": 439451,
+    "name": "Old-Fashioned Vampire",
+    "collector_number": 62,
+    "multiverse_ids": [
+      439451
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/62.jpg?1522206599"],
+    "layout": "normal",
+    "type_line": "Creature — Vampyre",
+    "oracle_text": "Flying\nOld-Fashioned Vampire gets +2/+2 and has deathtouch as long as it's dark outdoors.",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439405,
+    "name": "Old Guard",
+    "collector_number": 16,
+    "multiverse_ids": [
+      439405
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/16.jpg?1522205684"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Soldier",
+    "oracle_text": "{W}, {T}: Tap target creature without reminder text. (Reminder text is still any italicized text in parentheses that explains rules you already know.)",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439586,
+    "name": "Optical Optimizer",
+    "collector_number": 197,
+    "multiverse_ids": [
+      439586
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/197.jpg?1522208881"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Optical Optimizer, until end of turn, target creature becomes an artifact in addition to its other types and gains \"{T}: Draw a card.\"",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439406,
+    "name": "Ordinary Pony",
+    "collector_number": 17,
+    "multiverse_ids": [
+      439406
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/17.jpg?1522205708"],
+    "layout": "host",
+    "type_line": "Host Creature — Horse",
+    "oracle_text": "When this creature enters the battlefield, you may exile target non-Horse creature you control that wasn't put onto the battlefield with this ability this turn, then return it to the battlefield under its owner's control.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439452,
+    "name": "Over My Dead Bodies",
+    "collector_number": 63,
+    "multiverse_ids": [
+      439452
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/63.jpg?1522206615"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Creature cards in graveyards can attack and block as though they were on the battlefield, can block or be blocked only by creature cards in graveyards, are Zombies in addition to their other types, and have undeathtouch. (If they would deal damage to a creature card, exile that creature card instead.)\nCreature cards in your graveyard have haste.",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439453,
+    "name": "Overt Operative",
+    "collector_number": 64,
+    "multiverse_ids": [
+      439453
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/64.jpg?1522206630"],
+    "layout": "normal",
+    "type_line": "Creature — Human Ninja Rigger",
+    "oracle_text": "Menace\nWhenever Overt Operative deals combat damage to a player, it assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439480,
+    "name": "Painiac",
+    "collector_number": 91,
+    "multiverse_ids": [
+      439480
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/91.jpg?1522207186"],
+    "layout": "normal",
+    "type_line": "Creature — Brainiac",
+    "oracle_text": "At the beginning of your upkeep, roll a six-sided die. Painiac gets +X/+0 until end of turn, where X is the result.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439481,
+    "name": "Party Crasher",
+    "collector_number": 92,
+    "multiverse_ids": [
+      439481
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/92.jpg?1522207201"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Berserker",
+    "oracle_text": "Haste\nYou can attack with Party Crasher once each combat during each opponent's turn.",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439587,
+    "name": "Pet Project",
+    "collector_number": 198,
+    "multiverse_ids": [
+      439587
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/198.jpg?1522208894"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Pet Project, put target creature card from an opponent's graveyard onto the battlefield under your control.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439524,
+    "name": "Phoebe, Head of S.N.E.A.K.",
+    "collector_number": 135,
+    "multiverse_ids": [
+      439524
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/135.jpg?1522207938"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Spy",
+    "oracle_text": "Phoebe, Head of S.N.E.A.K. can't be blocked by creatures with flavor text.\n{2}{U}{B}: Phoebe permanently steals target creature's text box. (That creature loses all rules text, flavor text, and watermarks. This creature gains them.)",
+    "mana_cost": "{1}{U}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "ust"
+  },
+  {
+    "id": 439601,
+    "name": "Plains",
+    "collector_number": 212,
+    "multiverse_ids": [
+      439601
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/212.jpg?1534901049"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": [1, 0],
+    "set": "ust"
+  },
+  {
+    "id": 439545,
+    "name": "Proper Laboratory Attire",
+    "collector_number": 156,
+    "multiverse_ids": [
+      439545
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/156.jpg?1522208307"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature gets +2/+1 and has protection from die rolls. (Nothing that lets a player roll a die can block, target, deal damage to, or attach to equipped creature.)\nEquip {2}",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439588,
+    "name": "Quick-Stick Lick Trick",
+    "collector_number": 199,
+    "multiverse_ids": [
+      439588
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/199.jpg?1522208912"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Quick-Stick Lick Trick, target creature gets +1/+1 and gains lifelink until end of turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439589,
+    "name": "Rapid Prototyper",
+    "collector_number": 200,
+    "multiverse_ids": [
+      439589
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/200.jpg?1522208924"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Rapid Prototyper, create an X/X colorless Construct artifact creature token, where X is the number of artifacts you control.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439507,
+    "name": "Really Epic Punch",
+    "collector_number": 118,
+    "multiverse_ids": [
+      439507
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/118.jpg?1522207707"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target creature you control gets +2/+2 if it's a host or has augment. Then it fights target creature you don't control.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439590,
+    "name": "Record Store",
+    "collector_number": 201,
+    "multiverse_ids": [
+      439590
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/201.jpg?1522208935"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Record Store, look at the top X cards of your library, where X is the number of artifacts you control. Put one of those cards into your hand and the rest on the bottom of your library in a random order.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439591,
+    "name": "Refibrillator",
+    "collector_number": 202,
+    "multiverse_ids": [
+      439591
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/202.jpg?1522208949"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Refibrillator, return target creature card from your graveyard to your hand.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439407,
+    "name": "Rhino-",
+    "collector_number": 18,
+    "multiverse_ids": [
+      439407
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/18.jpg?1522205721"],
+    "layout": "augment",
+    "type_line": "Creature — Rhino",
+    "oracle_text": "Whenever this creature blocks,\nAugment {3}{W} ({3}{W}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439408,
+    "name": "Riveting Rigger",
+    "collector_number": 19,
+    "multiverse_ids": [
+      439408
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/19.jpg?1522205738"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Rigger",
+    "oracle_text": "When Riveting Rigger enters the battlefield, you may sacrifice another artifact. If you do, put two +1/+1 counters on Riveting Rigger and it assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439546,
+    "name": "Robo-",
+    "collector_number": 157,
+    "multiverse_ids": [
+      439546
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/157.jpg?1522208319"],
+    "layout": "augment",
+    "type_line": "Artifact Creature — Construct",
+    "oracle_text": "At the beginning of each end step, if an artifact entered the battlefield under your control this turn,\nAugment {2} ({2}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439409,
+    "name": "Rules Lawyer",
+    "collector_number": 20,
+    "multiverse_ids": [
+      439409
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/20.jpg?1522205762"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Advisor",
+    "oracle_text": "State-based actions don't apply to you or other permanents you control. (You don't lose the game due to having 0 or less life or drawing from an empty library. Your creatures aren't destroyed due to damage or deathtouch and aren't put into a graveyard due to having 0 or less toughness. Your planeswalkers aren't put into a graveyard if they have 0 loyalty. You don't put a legendary permanent into a graveyard if you control two with the same name. Counters aren't removed from your permanents due to game rules. Permanents you control attached or combined illegally remain on the battlefield. For complete rules and regulations, see rule 704.)",
+    "mana_cost": "{3}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439454,
+    "name": "\"Rumors of My Death . . .\"",
+    "collector_number": 65,
+    "multiverse_ids": [
+      439454
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/65.jpg?1522206647"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "{3}{B}, Exile a permanent you control with a League of Dastardly Doom watermark: Return a permanent card with a League of Dastardly Doom watermark from your graveyard to the battlefield.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439410,
+    "name": "Sacrifice Play",
+    "collector_number": 21,
+    "multiverse_ids": [
+      439410
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/21.jpg?1522205778"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "A person outside the game chooses an attacking or blocking creature target opponent controls. That player sacrifices that creature.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439592,
+    "name": "Sap Sucker",
+    "collector_number": 203,
+    "multiverse_ids": [
+      439592
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/203.jpg?1522208965"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Sap Sucker, add {G}. Until end of turn, you don't lose this mana as steps and phases end.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439606,
+    "name": "Secret Base",
+    "collector_number": 165,
+    "multiverse_ids": [
+      439606
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/165a.jpg?1522208421"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a spell that shares a watermark with Secret Base.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439508,
+    "name": "Selfie Preservation",
+    "collector_number": 119,
+    "multiverse_ids": [
+      439508
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/119.jpg?1522207719"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for a basic land card and reveal it. If there's a tree in its art, put it onto the battlefield tapped. Otherwise, put it into your hand. Then shuffle your library.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439509,
+    "name": "Serpentine",
+    "collector_number": 120,
+    "multiverse_ids": [
+      439509
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/120.jpg?1522207735"],
+    "layout": "augment",
+    "type_line": "Creature — Wurm",
+    "oracle_text": "Whenever a land enters the battlefield under your control,\nAugment {2}{G} ({2}{G}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439411,
+    "name": "Shaggy Camel",
+    "collector_number": 22,
+    "multiverse_ids": [
+      439411
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/22.jpg?1522205795"],
+    "layout": "host",
+    "type_line": "Host Creature — Camel",
+    "oracle_text": "When this creature enters the battlefield, creatures you control get +1/+1 until end of turn.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439510,
+    "name": "Shellephant",
+    "collector_number": 121,
+    "multiverse_ids": [
+      439510
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/121.jpg?1522207746"],
+    "layout": "normal",
+    "type_line": "Creature — Turtle and/or Elephant",
+    "oracle_text": "{0}: Choose one. You may activate this ability while Shellephant is in any zone.\n• Shellephant has base power and toughness 1/4.\n• Shellephant has base power and toughness 3/3.",
+    "mana_cost": "{1}{G}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439412,
+    "name": "Side Quest",
+    "collector_number": 23,
+    "multiverse_ids": [
+      439412
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/23.jpg?1522205809"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target player in a silver-bordered game you can see from your seat gains control of target creature you control until your next turn. At the beginning of your next upkeep, put two +1/+1 counters on that creature. (A creature is on the battlefield of only the game its controller is playing.)",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439455,
+    "name": "Skull Saucer",
+    "collector_number": 66,
+    "multiverse_ids": [
+      439455
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/66.jpg?1522206664"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Head",
+    "oracle_text": "Flying\nWhen Skull Saucer enters the battlefield, destroy target creature and put your head on the table. Sacrifice Skull Saucer when your head stops touching the table.",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439511,
+    "name": "Slaying Mantis",
+    "collector_number": 122,
+    "multiverse_ids": [
+      439511
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/122.jpg?1522207760"],
+    "layout": "normal",
+    "type_line": "Creature — Insect Wrestler",
+    "oracle_text": "Just a second (As long as this spell is on the stack, players can't move cards on the battlefield.)\nSlaying Mantis enters the battlefield by being thrown from a distance of at least three feet.\nWhen Slaying Mantis enters the battlefield, it fights each creature an opponent controls that it touched as it entered.",
+    "mana_cost": "{5}{G}{G}",
+    "cmc": 7,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439654,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439654
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/67f.jpg?1522206762"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy",
+    "oracle_text": "Whenever Sly Spy deals combat damage to a player, roll a six-sided die. That player loses life equal to the result.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439651,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439651
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/67c.jpg?1522206713"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy",
+    "oracle_text": "Whenever Sly Spy deals combat damage to a player, that player loses a finger until Sly Spy leaves the battlefield. (The finger is chosen by its owner and can't roll dice or touch cards.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439456,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439456
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/67a.jpg?1522206684"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy",
+    "oracle_text": "Whenever Sly Spy deals combat damage to a player, that player reveals their hand. You choose a card from it with the longest name. That player discards that card.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439653,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439653
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/67e.jpg?1522206744"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy",
+    "oracle_text": "Whenever Sly Spy deals combat damage to a player, that player reveals the top card of their library. Put that card into your hand and you lose life equal to its converted mana cost.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439650,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439650
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/67b.jpg?1522206699"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy",
+    "oracle_text": "Whenever Sly Spy deals combat damage to a player, you may destroy target creature facing left in its art. (Creatures without faces don't face anywhere.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439652,
+    "name": "Sly Spy",
+    "collector_number": 67,
+    "multiverse_ids": [
+      439652
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/67d.jpg?1522206730"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy",
+    "oracle_text": "Whenever Sly Spy deals combat damage to a player, you may destroy target creature facing right in its art. (Creatures without faces don't face anywhere.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439432,
+    "name": "S.N.E.A.K. Dispatcher",
+    "collector_number": 43,
+    "multiverse_ids": [
+      439432
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/43.jpg?1522206167"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy",
+    "oracle_text": "{2}{U}, {T}: Look at the top card of target player's library. If it has an Agents of S.N.E.A.K. watermark, you may reveal it and put it into your hand. Otherwise, put it on the top or bottom of its owner's library.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439457,
+    "name": "Snickering Squirrel",
+    "collector_number": 68,
+    "multiverse_ids": [
+      439457
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/68.jpg?1522206775"],
+    "layout": "normal",
+    "type_line": "Creature — Squirrel Advisor",
+    "oracle_text": "You may tap Snickering Squirrel to increase the result of a die any player rolled by 1.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439433,
+    "name": "Socketed Sprocketer",
+    "collector_number": 44,
+    "multiverse_ids": [
+      439433
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/44.jpg?1522206183"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Cyborg Knight",
+    "oracle_text": "{T}: Uninstall all results from Socketed Sprocketer, then roll a six-sided die. Install the result on Socketed Sprocketer. (Put the die on this card.)\nYou may uninstall a result from Socketed Sprocketer to use it for a die you rolled.\nUninstall a 6 from Socketed Sprocketer: Draw a card.",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439434,
+    "name": "Spell Suck",
+    "collector_number": 45,
+    "multiverse_ids": [
+      439434
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/45.jpg?1522206197"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell, then assemble a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439458,
+    "name": "Spike, Tournament Grinder",
+    "collector_number": 69,
+    "multiverse_ids": [
+      439458
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/69.jpg?1530703204"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Gamer",
+    "oracle_text": "({B/P} can be paid with either {B} or 2 life.)\n{B/P}{B/P}{B/P}{B/P}: Choose a card you own from outside the game that has been banned or restricted in a Constructed format, reveal that card, and put it into your hand.",
+    "mana_cost": "{2}{B/P}{B/P}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439547,
+    "name": "Split Screen",
+    "collector_number": 158,
+    "multiverse_ids": [
+      439547
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/158.jpg?1522208331"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "When Split Screen enters the battlefield, shuffle your library and deal it into four libraries. If anything refers to your library, choose one of your libraries for it.\nPlay with your libraries' top cards revealed.\nWhen Split Screen leaves the battlefield, shuffle your libraries together.",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439435,
+    "name": "Spy Eye",
+    "collector_number": 46,
+    "multiverse_ids": [
+      439435
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/46.jpg?1522206209"],
+    "layout": "normal",
+    "type_line": "Creature — Eye Spy",
+    "oracle_text": "Flying\nWhenever Spy Eye deals combat damage to a player, you may draw a card from that player's library.",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439512,
+    "name": "Squirrel Dealer",
+    "collector_number": 123,
+    "multiverse_ids": [
+      439512
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/123.jpg?1522207772"],
+    "layout": "normal",
+    "type_line": "Creature — Raccoon Lizard Bird",
+    "oracle_text": "When Squirrel Dealer enters the battlefield, ask a person outside the game \"Do you like Squirrels?\" If they do, create a 1/1 green Squirrel creature token.",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439459,
+    "name": "Squirrel-Powered Scheme",
+    "collector_number": 70,
+    "multiverse_ids": [
+      439459
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/70.jpg?1522206806"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Increase the result of each die you roll by 2.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439548,
+    "name": "Staff of the Letter Magus",
+    "collector_number": 159,
+    "multiverse_ids": [
+      439548
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/159.jpg?1522208344"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "As Staff of the Letter Magus enters the battlefield, choose a consonant other than N, R, S, or T.\nWhenever a player casts a spell, you gain 1 life for each time the chosen letter appears in that spell's name.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0.5,
+    "set": "ust"
+  },
+  {
+    "id": 439549,
+    "name": "Stamp of Approval",
+    "collector_number": 160,
+    "multiverse_ids": [
+      439549
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/160.jpg?1522208356"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "As Stamp of Approval enters the battlefield, choose a watermark.\nCreatures you control with the chosen watermark get +1/+1.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439460,
+    "name": "Steady-Handed Mook",
+    "collector_number": 71,
+    "multiverse_ids": [
+      439460
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/71.jpg?1522206821"],
+    "layout": "normal",
+    "type_line": "Creature — Human Rigger",
+    "oracle_text": "Deathtouch\nWhen Steady-Handed Mook enters the battlefield, it assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439482,
+    "name": "Steamflogger Boss",
+    "collector_number": 93,
+    "multiverse_ids": [
+      439482
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/93.jpg?1522207218"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Rigger",
+    "oracle_text": "Other Riggers you control get +1/+0 and have haste.\nIf a Rigger you control would assemble a Contraption, it assembles two Contraptions instead.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439483,
+    "name": "Steamflogger of the Month",
+    "collector_number": 94,
+    "multiverse_ids": [
+      439483
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/94.jpg?1522207233"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Rigger",
+    "oracle_text": "When Steamflogger of the Month enters the battlefield, it assembles a Contraption for each Contraption you control. (To assemble a Contraption, put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439513,
+    "name": "Steamflogger Service Rep",
+    "collector_number": 124,
+    "multiverse_ids": [
+      439513
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/124.jpg?1522207787"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Rigger",
+    "oracle_text": "Whenever another Goblin enters the battlefield under your control, you may pay {1}. If you do, Steamflogger Service Rep assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439484,
+    "name": "Steamflogger Temp",
+    "collector_number": 95,
+    "multiverse_ids": [
+      439484
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/95.jpg?1522207248"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Rigger",
+    "oracle_text": "{6}, {T}: Steamflogger Temp assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439485,
+    "name": "Steamfloggery",
+    "collector_number": 96,
+    "multiverse_ids": [
+      439485
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/96.jpg?1522207261"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Roll a six-sided die. Assemble a number of Contraptions equal to the result. (To assemble a Contraption, put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{4}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439550,
+    "name": "Steam-Powered",
+    "collector_number": 161,
+    "multiverse_ids": [
+      439550
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/161.jpg?1522208368"],
+    "layout": "augment",
+    "type_line": "Artifact Creature — Construct",
+    "oracle_text": "{5}:\nAugment {4} ({4}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439551,
+    "name": "Steel Squirrel",
+    "collector_number": 162,
+    "multiverse_ids": [
+      439551
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/162.jpg?1522208380"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Squirrel",
+    "oracle_text": "Whenever you roll a 5 or higher on a die, Steel Squirrel gets +X/+X until end of turn, where X is the result.\n{6}: Roll a six-sided die.",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439461,
+    "name": "Stinging Scorpion",
+    "collector_number": 72,
+    "multiverse_ids": [
+      439461
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/72.jpg?1522206834"],
+    "layout": "host",
+    "type_line": "Host Creature — Scorpion",
+    "oracle_text": "When this creature enters the battlefield, target creature an opponent controls gets -1/-1 until end of turn.",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439462,
+    "name": "Subcontract",
+    "collector_number": 73,
+    "multiverse_ids": [
+      439462
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/73.jpg?1522206853"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "A person outside the game looks at target opponent's hand and chooses a nonland card from it. That player discards that card.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439413,
+    "name": "Success!",
+    "collector_number": 24,
+    "multiverse_ids": [
+      439413
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/24.jpg?1522205832"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +2/+2 until end of turn. If it's a host or has augment, it gains lifelink until end of turn.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439463,
+    "name": "Summon the Pack",
+    "collector_number": 74,
+    "multiverse_ids": [
+      439463
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/74.jpg?1522206868"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Open a sealed Magic booster pack, reveal the cards, and put all creature cards revealed this way onto the battlefield under your control. They're Zombies in addition to their other types. (Remove those cards from your deck before beginning a new game.)",
+    "mana_cost": "{7}{B}",
+    "cmc": 8,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439593,
+    "name": "Sundering Fork",
+    "collector_number": 204,
+    "multiverse_ids": [
+      439593
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/204.jpg?1522208977"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Sundering Fork, destroy target artifact.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439486,
+    "name": "Super-Duper Death Ray",
+    "collector_number": 97,
+    "multiverse_ids": [
+      439486
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/97.jpg?1522207275"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Trample (This spell can deal excess damage to its target's controller.)\nSuper-Duper Death Ray deals 4 damage to target creature.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439436,
+    "name": "Suspicious Nanny",
+    "collector_number": 47,
+    "multiverse_ids": [
+      439436
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/47.jpg?1522206225"],
+    "layout": "normal",
+    "type_line": "Creature — Human Spy Rigger",
+    "oracle_text": "Whenever Suspicious Nanny deals combat damage to a player, it reassembles target Contraption that player controls. (Gain control of it and move it onto one of your sprockets.)",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439603,
+    "name": "Swamp",
+    "collector_number": 214,
+    "multiverse_ids": [
+      439603
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/214.jpg?1534900970"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": [0.5, 0],
+    "set": "ust"
+  },
+  {
+    "id": 439552,
+    "name": "Sword of Dungeons & Dragons",
+    "collector_number": 163,
+    "multiverse_ids": [
+      439552
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/163.jpg?1522208392"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature gets +2/+2 and has protection from Rogues and from Clerics.\nWhenever equipped creature deals combat damage to a player, create a 4/4 gold Dragon creature token with flying and roll a d20 (a twenty-sided die). If you roll a 20, repeat this process.\nEquip {2}",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "ust"
+  },
+  {
+    "id": 439594,
+    "name": "Targeting Rocket",
+    "collector_number": 205,
+    "multiverse_ids": [
+      439594
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/205.jpg?1522208992"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Targeting Rocket, target creature blocks this turn if able.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439487,
+    "name": "Target Minotaur",
+    "collector_number": 98,
+    "multiverse_ids": [
+      439487
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/98a.jpg?1522207287"],
+    "layout": "normal",
+    "type_line": "Creature — Minotaur Warrior",
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439414,
+    "name": "Teacher's Pet",
+    "collector_number": 25,
+    "multiverse_ids": [
+      439414
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/25.jpg?1522205848"],
+    "layout": "normal",
+    "type_line": "Creature — Cat Bird Scientist",
+    "oracle_text": "{2}{W}, Sacrifice Teacher's Pet: Search your library for a card with augment, combine it with target host you control, then shuffle your library.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439465,
+    "name": "The Big Idea",
+    "collector_number": 76,
+    "multiverse_ids": [
+      439465
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/76.jpg?1522206898"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Brainiac Villain",
+    "oracle_text": "{2}{B/R}{B/R}, {T}: Roll a six-sided die. Create a number of 1/1 red Brainiac creature tokens equal to the result.\nTap three untapped Brainiacs you control: The next time you would roll a six-sided die, instead roll two six-sided dice and use the total of those results.",
+    "mana_cost": "{4}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439469,
+    "name": "The Countdown Is at One",
+    "collector_number": 80,
+    "multiverse_ids": [
+      439469
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/80.jpg?1522206952"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Players play a Magic subgame, starting at 1 life and using their libraries as their decks. For the rest of the main game, if a source would deal damage to a player who didn't win the subgame, it deals double that damage to that player instead.",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439520,
+    "name": "The Grand Calcutron",
+    "collector_number": 131,
+    "multiverse_ids": [
+      439520
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/131.jpg?1522207881"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "oracle_text": "When The Grand Calcutron enters the battlefield, each player's hand becomes a program (an ordered row of revealed cards).\nPlayers can only play the first card of their program.\nIf a card would be put into a player's hand from anywhere, that player reveals it and places it anywhere within their program instead.\nAt the beginning of each player's end step, if that player's program has fewer than five cards, they draw cards equal to the difference.",
+    "mana_cost": "{W}{U}",
+    "cmc": 2,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439488,
+    "name": "Three-Headed Goblin",
+    "collector_number": 99,
+    "multiverse_ids": [
+      439488
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/99.jpg?1522207342"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Mutant",
+    "oracle_text": "Triple strike (This creature deals first-strike, regular, and last-strike combat damage.)",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439595,
+    "name": "Thud-for-Duds",
+    "collector_number": 206,
+    "multiverse_ids": [
+      439595
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/206.jpg?1522209004"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Thud-for-Duds, roll two six-sided dice. Thud-for-Duds deals damage to target creature equal to the difference between those results.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439437,
+    "name": "Time Out",
+    "collector_number": 48,
+    "multiverse_ids": [
+      439437
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/48.jpg?1522206242"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Roll a six-sided die. Put target nonland permanent into its owner's library just beneath the top X cards of that library, where X is the result.",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439596,
+    "name": "Top-Secret Tunnel",
+    "collector_number": 207,
+    "multiverse_ids": [
+      439596
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/207.jpg?1522209016"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Top-Secret Tunnel, target creature can't be blocked this turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439597,
+    "name": "Tread Mill",
+    "collector_number": 208,
+    "multiverse_ids": [
+      439597
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/208.jpg?1522209033"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Tread Mill, until end of turn, target creature gets +1/+2, gains vigilance, and becomes an artifact in addition to its other types.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439598,
+    "name": "Turbo-Thwacking Auto-Hammer",
+    "collector_number": 209,
+    "multiverse_ids": [
+      439598
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/209.jpg?1522209046"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Turbo-Thwacking Auto-Hammer, target creature gains double strike until end of turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439599,
+    "name": "Twiddlestick Charger",
+    "collector_number": 210,
+    "multiverse_ids": [
+      439599
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/210.jpg?1522209060"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Twiddlestick Charger, tap or untap target creature.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439525,
+    "name": "Urza, Academy Headmaster",
+    "collector_number": 136,
+    "multiverse_ids": [
+      439525
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/136.jpg?1522207950"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Urza",
+    "oracle_text": "+1: Head to AskUrza.com and click +1.\n-1: Head to AskUrza.com and click -1.\n-6: Head to AskUrza.com and click -6.",
+    "mana_cost": "{W}{U}{B}{R}{G}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439648,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439648
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/49e.jpg?1522206333"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose two —\n• Counter target black-bordered spell.\n• Return target creature to its owner's hand.\n• Untap each permanent you control with a watermark.\n• Roll two six-sided dice. Target player puts the top X cards of their library into their graveyard, where X is the total of those results.",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439646,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439646
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/49c.jpg?1522206297"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose two —\n• Draw a card from an opponent's library.\n• Copy target instant or sorcery spell. You may choose new targets for the copy.\n• Until end of turn, target creature loses all abilities and becomes a blue Frog with base power and toughness 1/1.\n• Create a 1/1 colorless Gnome artifact creature token.",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439647,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439647
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/49d.jpg?1522206318"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose two —\n• Return target permanent to its controller's hand.\n• Draw two cards, then discard a card.\n• Change the target of target spell with a single target.\n• Turn over target nontoken creature.",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439649,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439649
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/49f.jpg?1522206350"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose two —\n• Scry 3.\n• Create a 2/2 black Rogue creature token with menace.\n• Add or subtract 1 or one from a number or number word on target spell or permanent until end of turn.\n• Return all artifacts target player controls to their owner's hand.",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439645,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439645
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/49a.jpg?1530716392"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose two —\n• Switch target creature's power and toughness until end of turn.\n• Target creature can't be blocked this turn.\n• Draw a card. If that card's art is by Wayne England, you may reveal it and draw another card.\n• Assemble a Contraption.",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439438,
+    "name": "Very Cryptic Command",
+    "collector_number": 49,
+    "multiverse_ids": [
+      439438
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/49b.jpg?1522206277"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose two —\n• Untap two target permanents.\n• Tap each permanent target player controls with exactly one word in its name.\n• Discard all the cards in your hand, then draw that many cards.\n• Return target instant or sorcery card from your graveyard to your hand.",
+    "mana_cost": "{1}{U}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
+    "set": "ust"
+  },
+  {
+    "id": 439553,
+    "name": "Voracious Vacuum",
+    "collector_number": 164,
+    "multiverse_ids": [
+      439553
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/164.jpg?1522208405"],
+    "layout": "host",
+    "type_line": "Artifact Host Creature — Construct",
+    "oracle_text": "When this creature enters the battlefield, put a +1/+1 counter on target creature.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "ust"
+  },
+  {
+    "id": 439439,
+    "name": "Wall of Fortune",
+    "collector_number": 50,
+    "multiverse_ids": [
+      439439
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/50.jpg?1522206369"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Wall",
+    "oracle_text": "Defender\nYou may tap an untapped Wall you control to have any player reroll a die that player rolled.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "ust"
+  },
+  {
+    "id": 439555,
+    "name": "Watermarket",
+    "collector_number": 166,
+    "multiverse_ids": [
+      439555
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/166.jpg?1530716303"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}: Add {C}{C}. Spend this mana only to cast spells with watermarks.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "ust"
+  },
+  {
+    "id": 439600,
+    "name": "Widget Contraption",
+    "collector_number": 211,
+    "multiverse_ids": [
+      439600
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/211.jpg?1522209073"],
+    "layout": "normal",
+    "type_line": "Artifact — Contraption",
+    "oracle_text": "Whenever you crank Widget Contraption, it assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439514,
+    "name": "Wild Crocodile",
+    "collector_number": 125,
+    "multiverse_ids": [
+      439514
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/125.jpg?1522207800"],
+    "layout": "host",
+    "type_line": "Host Creature — Crocodile",
+    "oracle_text": "When this creature enters the battlefield, search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "ust"
+  },
+  {
+    "id": 439515,
+    "name": "Willing Test Subject",
+    "collector_number": 126,
+    "multiverse_ids": [
+      439515
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/126.jpg?1522207817"],
+    "layout": "normal",
+    "type_line": "Creature — Spider Monkey Scientist",
+    "oracle_text": "Reach\nWhenever you roll a 4 or higher on a die, put a +1/+1 counter on Willing Test Subject.\n{6}: Roll a six-sided die.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439489,
+    "name": "Work a Double",
+    "collector_number": 100,
+    "multiverse_ids": [
+      439489
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/100.jpg?1522207354"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Assemble two Contraptions. (Put the top card of your Contraption deck face up onto one of your sprockets. Then repeat this process.)",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "ust"
+  },
+  {
+    "id": 439490,
+    "name": "Wrench-Rigger",
+    "collector_number": 101,
+    "multiverse_ids": [
+      439490
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/101.jpg?1522207367"],
+    "layout": "normal",
+    "type_line": "Creature — Goblin Rigger",
+    "oracle_text": "When Wrench-Rigger enters the battlefield, it assembles a Contraption. (Put the top card of your Contraption deck face up onto one of your sprockets.)",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "ust"
+  },
+  {
+    "id": 439526,
+    "name": "X",
+    "collector_number": 137,
+    "multiverse_ids": [
+      439526
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/137.jpg?1522207964"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Spy",
+    "oracle_text": "As long as X is in X's owner's opponent's hand, X's owner may cast X and activate X's abilities. That opponent can't cast X and plays with their hand revealed.\n{U}{B}, {T}: Put X into target opponent's hand.\n{3}{U}{B}: You may play a card in the same hand as X without paying its mana cost.",
+    "mana_cost": "{U}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "ust"
+  },
+  {
+    "id": 439464,
+    "name": "Zombified",
+    "collector_number": 75,
+    "multiverse_ids": [
+      439464
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/en/ust/75.jpg?1522206885"],
+    "layout": "augment",
+    "type_line": "Creature — Zombie",
+    "oracle_text": "{4}{B}: Combine Zombified from your graveyard with target host.\n{2}{B}, Exile a creature card from your graveyard:\nAugment {4}{B} ({4}{B}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "ust"
+  }
+]
