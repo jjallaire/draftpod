@@ -192,9 +192,9 @@ function colorBonus(deck, deck_colors, card) {
     color_bonus_factor = (matching_colors.length / card_colors.length);
 
     // if there is a latent color that we don't match then cut 
-    // the color bonus factor in half
+    // the color bonus factor by 1/3
     if (card.latent_color && !deck_colors.includes(card.latent_color)) {
-      color_bonus_factor = color_bonus_factor / 2;
+      color_bonus_factor = color_bonus_factor * 0.67;
     }
   }
   
