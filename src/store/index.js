@@ -49,7 +49,7 @@ export function initializeStore() {
       name: null
     },
     preferences: {
-      set_code: 'war',
+      set_code: 'm20',
       format: 'draft',
       pick_timer: false,
       pick_ratings: false,

@@ -14,6 +14,7 @@ import ust from './set-ust'
 import xln from './set-xln'
 import rix from './set-rix'
 import war from './set-war'
+import m20 from './set-m20'
 import mh1 from './set-mh1'
 import ktk from './set-ktk'
 
@@ -37,6 +38,7 @@ const sets = {
   xln,
   rix,
   war,
+  m20,
   mh1,
   ktk,
   cube_gnt

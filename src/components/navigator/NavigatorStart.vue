@@ -40,7 +40,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'war',
+      set_code: 'm20',
       cardpool: CARDPOOL.CUBE + '6/3/1/1',
       format: 'draft',
       pick_timer: false,
