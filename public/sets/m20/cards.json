@@ -1,15 +1,15 @@
 [
   {
-    "id": 600124,
+    "id": 466878,
     "name": "Act of Treason",
     "collector_number": 124,
     "multiverse_ids": [
-      600124
+      466878
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/0/20234668-53ce-4cc8-892f-30ee3ecfc34c.jpg?1561481476"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+    "oracle_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -17,15 +17,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600001,
+    "id": 466755,
     "name": "Aerial Assault",
     "collector_number": 1,
     "multiverse_ids": [
-      600001
+      466755
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/64d9c182-cbb3-4791-90dd-0e533ddeebda.jpg?1561080376"],
     "layout": "normal",
@@ -42,11 +42,11 @@
     "set": "m20"
   },
   {
-    "id": 600042,
+    "id": 466796,
     "name": "Aether Gust",
     "collector_number": 42,
     "multiverse_ids": [
-      600042
+      466796
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/783da808-6698-4e55-9fac-430a6effe2b1.jpg?1560792487"],
     "layout": "normal",
@@ -59,15 +59,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600043,
+    "id": 466797,
     "name": "Agent of Treachery",
     "collector_number": 43,
     "multiverse_ids": [
-      600043
+      466797
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/cc6686e6-4535-49be-b0b3-e76464656cd2.jpg?1561048572"],
     "layout": "normal",
@@ -84,11 +84,11 @@
     "set": "m20"
   },
   {
-    "id": 600083,
+    "id": 466837,
     "name": "Agonizing Syphon",
     "collector_number": 83,
     "multiverse_ids": [
-      600083
+      466837
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/d/0d8efd95-1c2f-4dd1-b70b-3cfb10ff3a28.jpg?1561481155"],
     "layout": "normal",
@@ -101,20 +101,20 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600044,
+    "id": 466798,
     "name": "Air Elemental",
     "collector_number": 44,
     "multiverse_ids": [
-      600044
+      466798
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a27efec0-40c4-48bc-a21a-3af28a6529b5.jpg?1561479091"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
-    "oracle_text": "Flying (This creature can't be blocked except by creatures with flying or reach.)",
+    "oracle_text": "Flying",
     "mana_cost": "{3}{U}{U}",
     "cmc": 5,
     "colors": [
@@ -126,11 +126,11 @@
     "set": "m20"
   },
   {
-    "id": 600002,
+    "id": 466756,
     "name": "Ajani, Strength of the Pride",
     "collector_number": 2,
     "multiverse_ids": [
-      600002
+      466756
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/9/79883468-a37c-4894-8d05-6a4d150b7d59.jpg?1561610533"],
     "layout": "normal",
@@ -147,11 +147,11 @@
     "set": "m20"
   },
   {
-    "id": 600003,
+    "id": 466757,
     "name": "Ancestral Blade",
     "collector_number": 3,
     "multiverse_ids": [
-      600003
+      466757
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2ba18114-af6c-48cd-82c9-eb6541d566bf.jpg?1561493948"],
     "layout": "normal",
@@ -164,15 +164,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600005,
+    "id": 466759,
     "name": "Angelic Gift",
     "collector_number": 5,
     "multiverse_ids": [
-      600005
+      466759
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/35100197-7914-450e-9205-57cb4fc345d6.jpg?1561472524"],
     "layout": "normal",
@@ -185,15 +185,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600004,
+    "id": 466758,
     "name": "Angel of Vitality",
     "collector_number": 4,
     "multiverse_ids": [
-      600004
+      466758
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/2/e2f39777-b80a-4618-9310-a9e5b91bb2a2.jpg?1560752511"],
     "layout": "normal",
@@ -210,11 +210,11 @@
     "set": "m20"
   },
   {
-    "id": 600045,
+    "id": 466799,
     "name": "Anticipate",
     "collector_number": 45,
     "multiverse_ids": [
-      600045
+      466799
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/0/2080556a-6c76-4819-9eb2-c4dd4c9dbd67.jpg?1561479147"],
     "layout": "normal",
@@ -227,20 +227,20 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600221,
+    "id": 466975,
     "name": "Anvilwrought Raptor",
     "collector_number": 221,
     "multiverse_ids": [
-      600221
+      466975
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aa6d7bbe-0418-4a58-a97b-13b50eb0b642.jpg?1561488024"],
     "layout": "normal",
     "type_line": "Artifact Creature — Bird",
-    "oracle_text": "Flying, first strike",
+    "oracle_text": "Flying\nFirst strike (This creature deals combat damage before creatures without first strike.)",
     "mana_cost": "{4}",
     "cmc": 4,
     "colors": [],
@@ -250,11 +250,11 @@
     "set": "m20"
   },
   {
-    "id": 600006,
+    "id": 466760,
     "name": "Apostle of Purifying Light",
     "collector_number": 6,
     "multiverse_ids": [
-      600006
+      466760
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/2/62f69602-b5fd-46d6-8dae-d77df35e378c.jpg?1561450972"],
     "layout": "normal",
@@ -267,15 +267,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600046,
+    "id": 466800,
     "name": "Atemsis, All-Seeing",
     "collector_number": 46,
     "multiverse_ids": [
-      600046
+      466800
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b8f527d1-25c0-49b9-83d5-1278ca72d009.jpg?1560861638"],
     "layout": "normal",
@@ -292,11 +292,11 @@
     "set": "m20"
   },
   {
-    "id": 600084,
+    "id": 466838,
     "name": "Audacious Thief",
     "collector_number": 84,
     "multiverse_ids": [
-      600084
+      466838
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e1ff5e66-4718-43c3-8a58-1a0a8e788f83.jpg?1561406206"],
     "layout": "normal",
@@ -309,17 +309,17 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600222,
+    "id": 466976,
     "name": "Bag of Holding",
     "collector_number": 222,
     "multiverse_ids": [
-      600222
+      466976
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/49283832-54f2-4619-b4a9-750493c93292.jpg?1561485698"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/49283832-54f2-4619-b4a9-750493c93292.jpg?1561981794"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "Whenever you discard a card, exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{4}, {T}, Sacrifice Bag of Holding: Return all cards exiled with Bag of Holding to their owner's hand.",
@@ -328,15 +328,15 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600165,
+    "id": 466919,
     "name": "Barkhide Troll",
     "collector_number": 165,
     "multiverse_ids": [
-      600165
+      466919
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/c/0cfd2e76-ad64-42ff-a6a2-c4cf1bec5932.jpg?1560862665"],
     "layout": "normal",
@@ -353,11 +353,11 @@
     "set": "m20"
   },
   {
-    "id": 600085,
+    "id": 466839,
     "name": "Barony Vampire",
     "collector_number": 85,
     "multiverse_ids": [
-      600085
+      466839
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/0/b0130d04-05f2-44f5-bd6c-8b11f798b69e.jpg?1561482285"],
     "layout": "normal",
@@ -374,11 +374,11 @@
     "set": "m20"
   },
   {
-    "id": 600007,
+    "id": 466761,
     "name": "Battalion Foot Soldier",
     "collector_number": 7,
     "multiverse_ids": [
-      600007
+      466761
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/d/1db6393a-88b0-4973-9832-1482f69917ff.jpg?1561427522"],
     "layout": "normal",
@@ -391,15 +391,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600047,
+    "id": 466801,
     "name": "Befuddle",
     "collector_number": 47,
     "multiverse_ids": [
-      600047
+      466801
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/4/1414939c-7f15-4eb3-abeb-6e75c52d2b52.jpg?1561479242"],
     "layout": "normal",
@@ -416,11 +416,11 @@
     "set": "m20"
   },
   {
-    "id": 600008,
+    "id": 466762,
     "name": "Bishop of Wings",
     "collector_number": 8,
     "multiverse_ids": [
-      600008
+      466762
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/ca42da05-330d-4050-a580-dc00f6faff24.jpg?1560950244"],
     "layout": "normal",
@@ -433,20 +433,20 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600086,
+    "id": 466840,
     "name": "Bladebrand",
     "collector_number": 86,
     "multiverse_ids": [
-      600086
+      466840
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/af78f76e-30cd-4939-9577-5a4bd1f93e63.jpg?1561482587"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Target creature gains deathtouch until end of turn.\nDraw a card.",
+    "oracle_text": "Target creature gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)\nDraw a card.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -454,15 +454,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600087,
+    "id": 466841,
     "name": "Blightbeetle",
     "collector_number": 87,
     "multiverse_ids": [
-      600087
+      466841
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/d/bd43d44b-de27-4139-9cb8-b1f4c04fb87e.jpg?1560941313"],
     "layout": "normal",
@@ -479,16 +479,16 @@
     "set": "m20"
   },
   {
-    "id": 600088,
+    "id": 466842,
     "name": "Blood Burglar",
     "collector_number": 88,
     "multiverse_ids": [
-      600088
+      466842
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01efd5af-ed6d-4132-8f33-37f6a9fa55d0.jpg?1561080200"],
     "layout": "normal",
     "type_line": "Creature — Vampire Rogue",
-    "oracle_text": "As long as it's your turn, Blood Burglar has lifelink. (Damage dealt by this creature also causes you to gain that much life.)",
+    "oracle_text": "As long as it's your turn, Blood Burglar has lifelink.(Damage dealt by this creature also causes you to gain that much life.)",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -500,11 +500,11 @@
     "set": "m20"
   },
   {
-    "id": 600242,
+    "id": 466996,
     "name": "Bloodfell Caves",
     "collector_number": 242,
     "multiverse_ids": [
-      600242
+      466996
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9b7ec5a3-3c40-4090-b9e3-11fb5b06fb8f.jpg?1561121906"],
     "layout": "normal",
@@ -518,15 +518,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600089,
+    "id": 466843,
     "name": "Blood for Bones",
     "collector_number": 89,
     "multiverse_ids": [
-      600089
+      466843
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/7892b516-0dce-491f-8b42-031d64397e26.jpg?1561160001"],
     "layout": "normal",
@@ -543,16 +543,16 @@
     "set": "m20"
   },
   {
-    "id": 600090,
+    "id": 466844,
     "name": "Bloodsoaked Altar",
     "collector_number": 90,
     "multiverse_ids": [
-      600090
+      466844
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/9/b9169431-a5b1-42ea-bcf4-6c750d2a2dbb.jpg?1561235400"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/9/b9169431-a5b1-42ea-bcf4-6c750d2a2dbb.jpg?1561986657"],
     "layout": "normal",
     "type_line": "Artifact",
-    "oracle_text": "{T}, Pay 2 life, Discard a card, Sacrifice a creature: Create a 5/5 black Demon creature token with flying. Activate this ability only any time you could play a sorcery.",
+    "oracle_text": "{T}, Pay 2 life, Discard a card, Sacrifice a creature: Create a 5/5 black Demon creature token with flying. Activate this ability only any time you could cast a sorcery.",
     "mana_cost": "{4}{B}{B}",
     "cmc": 6,
     "colors": [
@@ -560,15 +560,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600091,
+    "id": 466845,
     "name": "Bloodthirsty Aerialist",
     "collector_number": 91,
     "multiverse_ids": [
-      600091
+      466845
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/29156f28-38d8-4f65-b416-089f3fd97109.jpg?1560986809"],
     "layout": "normal",
@@ -585,11 +585,11 @@
     "set": "m20"
   },
   {
-    "id": 600243,
+    "id": 466997,
     "name": "Blossoming Sands",
     "collector_number": 243,
     "multiverse_ids": [
-      600243
+      466997
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/1/31514c67-4c55-4f28-9872-08e4d9bc6505.jpg?1561121951"],
     "layout": "normal",
@@ -603,15 +603,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600093,
+    "id": 466847,
     "name": "Boneclad Necromancer",
     "collector_number": 93,
     "multiverse_ids": [
-      600093
+      466847
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/ab9ed2b9-5fb9-4633-8c9a-0594ae7c49c7.jpg?1561080293"],
     "layout": "normal",
@@ -628,11 +628,11 @@
     "set": "m20"
   },
   {
-    "id": 600092,
+    "id": 466846,
     "name": "Bone Splinters",
     "collector_number": 92,
     "multiverse_ids": [
-      600092
+      466846
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/e/7e75a7e9-902a-4733-8cd4-767247174a4c.jpg?1560877859"],
     "layout": "normal",
@@ -645,15 +645,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600048,
+    "id": 466802,
     "name": "Bone to Ash",
     "collector_number": 48,
     "multiverse_ids": [
-      600048
+      466802
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/df5dd873-af44-45eb-9b82-a3622cc58b35.jpg?1561488586"],
     "layout": "normal",
@@ -670,11 +670,11 @@
     "set": "m20"
   },
   {
-    "id": 600049,
+    "id": 466803,
     "name": "Boreal Elemental",
     "collector_number": 49,
     "multiverse_ids": [
-      600049
+      466803
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/7/47996512-d547-491f-b481-a9c83dff04db.jpg?1561479537"],
     "layout": "normal",
@@ -691,11 +691,11 @@
     "set": "m20"
   },
   {
-    "id": 600166,
+    "id": 466920,
     "name": "Brightwood Tracker",
     "collector_number": 166,
     "multiverse_ids": [
-      600166
+      466920
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e1fb9767-29bf-4a69-b37c-0925d41f6b46.jpg?1561479159"],
     "layout": "normal",
@@ -708,15 +708,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600050,
+    "id": 466804,
     "name": "Brineborn Cutthroat",
     "collector_number": 50,
     "multiverse_ids": [
-      600050
+      466804
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/8/0857765f-afd7-418a-a93b-c0bd1b1f037e.jpg?1561374748"],
     "layout": "normal",
@@ -733,11 +733,11 @@
     "set": "m20"
   },
   {
-    "id": 600009,
+    "id": 466763,
     "name": "Brought Back",
     "collector_number": 9,
     "multiverse_ids": [
-      600009
+      466763
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/aecdc315-95e5-450c-bedc-998eea46cf8c.jpg?1561401973"],
     "layout": "normal",
@@ -750,15 +750,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600051,
+    "id": 466805,
     "name": "Captivating Gyre",
     "collector_number": 51,
     "multiverse_ids": [
-      600051
+      466805
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a2bd5c34-fa7e-4fa8-a5b1-c3aa928cc834.jpg?1560877637"],
     "layout": "normal",
@@ -771,15 +771,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600010,
+    "id": 466764,
     "name": "Cavalier of Dawn",
     "collector_number": 10,
     "multiverse_ids": [
-      600010
+      466764
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f7b1919e-c0c1-4ac7-9061-a337b6fe7273.jpg?1561044999"],
     "layout": "normal",
@@ -796,11 +796,11 @@
     "set": "m20"
   },
   {
-    "id": 600125,
+    "id": 466879,
     "name": "Cavalier of Flame",
     "collector_number": 125,
     "multiverse_ids": [
-      600125
+      466879
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/c/0c18c541-758b-4237-9961-9637e996e8a5.jpg?1560770185"],
     "layout": "normal",
@@ -817,11 +817,11 @@
     "set": "m20"
   },
   {
-    "id": 600052,
+    "id": 466806,
     "name": "Cavalier of Gales",
     "collector_number": 52,
     "multiverse_ids": [
-      600052
+      466806
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a5356b11-e505-4838-aecb-327689eeead1.jpg?1561406879"],
     "layout": "normal",
@@ -834,15 +834,15 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "m20"
   },
   {
-    "id": 600094,
+    "id": 466848,
     "name": "Cavalier of Night",
     "collector_number": 94,
     "multiverse_ids": [
-      600094
+      466848
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f03109b9-54a8-4d68-97c2-e42c7d5c2d41.jpg?1561040327"],
     "layout": "normal",
@@ -855,15 +855,15 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "m20"
   },
   {
-    "id": 600167,
+    "id": 466921,
     "name": "Cavalier of Thorns",
     "collector_number": 167,
     "multiverse_ids": [
-      600167
+      466921
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/4/e4662a9c-3cbd-41f7-8c15-d048a3826a42.jpg?1561484698"],
     "layout": "normal",
@@ -880,11 +880,11 @@
     "set": "m20"
   },
   {
-    "id": 600168,
+    "id": 466922,
     "name": "Centaur Courser",
     "collector_number": 168,
     "multiverse_ids": [
-      600168
+      466922
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e8b67ee8-3189-4426-8b1a-b540267768fd.jpg?1561479329"],
     "layout": "normal",
@@ -901,11 +901,11 @@
     "set": "m20"
   },
   {
-    "id": 600053,
+    "id": 466807,
     "name": "Cerulean Drake",
     "collector_number": 53,
     "multiverse_ids": [
-      600053
+      466807
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/1/b11f9e7d-3f56-4e28-9908-157735f6dfa9.jpg?1561043073"],
     "layout": "normal",
@@ -918,15 +918,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600126,
+    "id": 466880,
     "name": "Chandra, Acolyte of Flame",
     "collector_number": 126,
     "multiverse_ids": [
-      600126
+      466880
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2cabfcfe-012e-4cab-bba2-24052eac0946.jpg?1560940194"],
     "layout": "normal",
@@ -939,15 +939,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600127,
+    "id": 466881,
     "name": "Chandra, Awakened Inferno",
     "collector_number": 127,
     "multiverse_ids": [
-      600127
+      466881
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/49d2a680-4f3b-4bfa-b77b-d2dfaced9f23.jpg?1560940198"],
     "layout": "normal",
@@ -960,15 +960,15 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 5,
     "set": "m20"
   },
   {
-    "id": 600128,
+    "id": 466882,
     "name": "Chandra, Novice Pyromancer",
     "collector_number": 128,
     "multiverse_ids": [
-      600128
+      466882
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/6/d678cf4c-60e3-40a1-a9cc-b0bd157bcf36.jpg?1560940203"],
     "layout": "normal",
@@ -985,13 +985,13 @@
     "set": "m20"
   },
   {
-    "id": 600129,
+    "id": 466883,
     "name": "Chandra's Embercat",
     "collector_number": 129,
     "multiverse_ids": [
-      600129
+      466883
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/0/30f9c266-f32e-4483-9709-f83675331688.jpg?1560854390"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/0/30f9c266-f32e-4483-9709-f83675331688.jpg?1562120013"],
     "layout": "normal",
     "type_line": "Creature — Elemental Cat",
     "oracle_text": "{T}: Add {R}. Spend this mana only to cast an Elemental spell or a Chandra planeswalker spell.",
@@ -1002,15 +1002,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600130,
+    "id": 466884,
     "name": "Chandra's Outrage",
     "collector_number": 130,
     "multiverse_ids": [
-      600130
+      466884
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/d/edbfe793-6644-43ed-bbe1-e122c01c5e53.jpg?1561481531"],
     "layout": "normal",
@@ -1023,15 +1023,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 4,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600131,
+    "id": 466885,
     "name": "Chandra's Regulator",
     "collector_number": 131,
     "multiverse_ids": [
-      600131
+      466885
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8f1b1d5c-f71e-4c68-8baf-c134e42ed6f2.jpg?1560770176"],
     "layout": "normal",
@@ -1048,11 +1048,11 @@
     "set": "m20"
   },
   {
-    "id": 600132,
+    "id": 466886,
     "name": "Chandra's Spitfire",
     "collector_number": 132,
     "multiverse_ids": [
-      600132
+      466886
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8a857da7-5438-465b-821a-bd5bfd780c69.jpg?1560813596"],
     "layout": "normal",
@@ -1065,15 +1065,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600054,
+    "id": 466808,
     "name": "Cloudkin Seer",
     "collector_number": 54,
     "multiverse_ids": [
-      600054
+      466808
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/2/e2111753-a930-403f-9d94-a86dfcb069da.jpg?1561121218"],
     "layout": "normal",
@@ -1090,11 +1090,11 @@
     "set": "m20"
   },
   {
-    "id": 600223,
+    "id": 466977,
     "name": "Colossus Hammer",
     "collector_number": 223,
     "multiverse_ids": [
-      600223
+      466977
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg?1561365032"],
     "layout": "normal",
@@ -1105,15 +1105,15 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 0.5,
     "set": "m20"
   },
   {
-    "id": 600055,
+    "id": 466809,
     "name": "Convolute",
     "collector_number": 55,
     "multiverse_ids": [
-      600055
+      466809
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b8a68347-c0ef-46ff-9705-6d82d004d32c.jpg?1560857978"],
     "layout": "normal",
@@ -1126,15 +1126,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600206,
+    "id": 466960,
     "name": "Corpse Knight",
     "collector_number": 206,
     "multiverse_ids": [
-      600206
+      466960
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8b45117b-8369-48fc-8e5d-8986e662d123.jpg?1560938409"],
     "layout": "normal",
@@ -1152,11 +1152,11 @@
     "set": "m20"
   },
   {
-    "id": 600207,
+    "id": 466961,
     "name": "Creeping Trailblazer",
     "collector_number": 207,
     "multiverse_ids": [
-      600207
+      466961
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f0b96e41-caae-4e22-82f9-df5a054ea3b7.jpg?1560759229"],
     "layout": "normal",
@@ -1174,11 +1174,11 @@
     "set": "m20"
   },
   {
-    "id": 600244,
+    "id": 466998,
     "name": "Cryptic Caves",
     "collector_number": 244,
     "multiverse_ids": [
-      600244
+      466998
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fde9e9cb-68ab-4856-8ad6-30f66666dd93.jpg?1560766547"],
     "layout": "normal",
@@ -1193,11 +1193,11 @@
     "set": "m20"
   },
   {
-    "id": 600133,
+    "id": 466887,
     "name": "Daggersail Aeronaut",
     "collector_number": 133,
     "multiverse_ids": [
-      600133
+      466887
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5a46b090-8b03-4498-840e-cf130510892c.jpg?1561482506"],
     "layout": "normal",
@@ -1210,15 +1210,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600011,
+    "id": 466765,
     "name": "Dawning Angel",
     "collector_number": 11,
     "multiverse_ids": [
-      600011
+      466765
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/f/4f3d90ef-6f70-4897-85c1-4e1beeb33363.jpg?1561472940"],
     "layout": "normal",
@@ -1235,13 +1235,13 @@
     "set": "m20"
   },
   {
-    "id": 600012,
+    "id": 466766,
     "name": "Daybreak Chaplain",
     "collector_number": 12,
     "multiverse_ids": [
-      600012
+      466766
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/c/0ce89a0b-d0e4-4c71-b131-0d3b0b76bc3b.jpg?1561472995"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/c/0ce89a0b-d0e4-4c71-b131-0d3b0b76bc3b.jpg?1562123969"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "oracle_text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
@@ -1256,11 +1256,11 @@
     "set": "m20"
   },
   {
-    "id": 600134,
+    "id": 466888,
     "name": "Destructive Digger",
     "collector_number": 134,
     "multiverse_ids": [
-      600134
+      466888
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/9/d981b310-5e75-4f30-baf6-37f069f00aa3.jpg?1560950198"],
     "layout": "normal",
@@ -1273,15 +1273,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600013,
+    "id": 466767,
     "name": "Devout Decree",
     "collector_number": 13,
     "multiverse_ids": [
-      600013
+      466767
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/d/2dcde8fe-d4a4-4c6e-926e-c4a1b45045e4.jpg?1560861641"],
     "layout": "normal",
@@ -1294,15 +1294,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600224,
+    "id": 466978,
     "name": "Diamond Knight",
     "collector_number": 224,
     "multiverse_ids": [
-      600224
+      466978
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/e/eeab4819-dd26-4f5c-8538-50f2caca292d.jpg?1561117223"],
     "layout": "normal",
@@ -1317,11 +1317,11 @@
     "set": "m20"
   },
   {
-    "id": 600014,
+    "id": 466768,
     "name": "Disenchant",
     "collector_number": 14,
     "multiverse_ids": [
-      600014
+      466768
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1b6a2b01-da95-46fa-8673-30ffdfdee0a5.jpg?1560794469"],
     "layout": "normal",
@@ -1338,11 +1338,11 @@
     "set": "m20"
   },
   {
-    "id": 600095,
+    "id": 466849,
     "name": "Disfigure",
     "collector_number": 95,
     "multiverse_ids": [
-      600095
+      466849
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/8/18069340-a698-4f75-82cc-cc94fcf82184.jpg?1560887346"],
     "layout": "normal",
@@ -1359,11 +1359,11 @@
     "set": "m20"
   },
   {
-    "id": 600245,
+    "id": 466999,
     "name": "Dismal Backwater",
     "collector_number": 245,
     "multiverse_ids": [
-      600245
+      466999
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a5ff247f-82d1-4b79-9ac0-1471a1f0f58b.jpg?1561121878"],
     "layout": "normal",
@@ -1381,11 +1381,11 @@
     "set": "m20"
   },
   {
-    "id": 600225,
+    "id": 466979,
     "name": "Diviner's Lockbox",
     "collector_number": 225,
     "multiverse_ids": [
-      600225
+      466979
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/da55c6a1-1f26-4254-ac62-fdbe94278de5.jpg?1561117185"],
     "layout": "normal",
@@ -1396,15 +1396,15 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 0.5,
     "set": "m20"
   },
   {
-    "id": 600135,
+    "id": 466889,
     "name": "Dragon Mage",
     "collector_number": 135,
     "multiverse_ids": [
-      600135
+      466889
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/5195abc4-cfa7-45dd-aa96-2e56f818a17b.jpg?1560792580"],
     "layout": "normal",
@@ -1421,11 +1421,11 @@
     "set": "m20"
   },
   {
-    "id": 600136,
+    "id": 466890,
     "name": "Drakuseth, Maw of Flames",
     "collector_number": 136,
     "multiverse_ids": [
-      600136
+      466890
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/0/d09af78f-efde-4107-8406-cb12fd11c686.jpg?1561450948"],
     "layout": "normal",
@@ -1438,15 +1438,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "m20"
   },
   {
-    "id": 600056,
+    "id": 466810,
     "name": "Drawn from Dreams",
     "collector_number": 56,
     "multiverse_ids": [
-      600056
+      466810
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/5677cd48-de9f-4827-94d7-8a2301945742.jpg?1561002226"],
     "layout": "normal",
@@ -1463,11 +1463,11 @@
     "set": "m20"
   },
   {
-    "id": 600096,
+    "id": 466850,
     "name": "Dread Presence",
     "collector_number": 96,
     "multiverse_ids": [
-      600096
+      466850
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/0430db1a-5cad-4444-ba93-57fb32e65606.jpg?1560784570"],
     "layout": "normal",
@@ -1484,11 +1484,11 @@
     "set": "m20"
   },
   {
-    "id": 600057,
+    "id": 466811,
     "name": "Dungeon Geists",
     "collector_number": 57,
     "multiverse_ids": [
-      600057
+      466811
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/3/d3c81fda-c23d-437c-85f0-62d7b492ea32.jpg?1560876661"],
     "layout": "normal",
@@ -1501,15 +1501,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "m20"
   },
   {
-    "id": 600097,
+    "id": 466851,
     "name": "Duress",
     "collector_number": 97,
     "multiverse_ids": [
-      600097
+      466851
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb41ff5c-9617-4033-a4fa-99323640b9c3.jpg?1561482489"],
     "layout": "normal",
@@ -1522,15 +1522,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "m20"
   },
   {
-    "id": 600169,
+    "id": 466923,
     "name": "Elvish Reclaimer",
     "collector_number": 169,
     "multiverse_ids": [
-      600169
+      466923
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39c431d7-d94b-46c4-bb89-f3db56214ab4.jpg?1561117007"],
     "layout": "normal",
@@ -1547,11 +1547,11 @@
     "set": "m20"
   },
   {
-    "id": 600137,
+    "id": 466891,
     "name": "Ember Hauler",
     "collector_number": 137,
     "multiverse_ids": [
-      600137
+      466891
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/5/159d476e-2f20-4f9b-adfd-9c541dc3e199.jpg?1560833948"],
     "layout": "normal",
@@ -1564,15 +1564,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600098,
+    "id": 466852,
     "name": "Embodiment of Agonies",
     "collector_number": 98,
     "multiverse_ids": [
-      600098
+      466852
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/7/77972745-8689-4733-9a9d-39ae9d6273a2.jpg?1561333667"],
     "layout": "normal",
@@ -1585,15 +1585,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600208,
+    "id": 466962,
     "name": "Empyrean Eagle",
     "collector_number": 208,
     "multiverse_ids": [
-      600208
+      466962
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/ac555709-c7cc-4c64-8a6f-8fe2bc149fcd.jpg?1560791584"],
     "layout": "normal",
@@ -1611,11 +1611,11 @@
     "set": "m20"
   },
   {
-    "id": 600099,
+    "id": 466853,
     "name": "Epicure of Blood",
     "collector_number": 99,
     "multiverse_ids": [
-      600099
+      466853
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4b060bc4-2d0c-46f4-b2b4-21583c2428f2.jpg?1561482533"],
     "layout": "normal",
@@ -1632,11 +1632,11 @@
     "set": "m20"
   },
   {
-    "id": 600015,
+    "id": 466769,
     "name": "Eternal Isolation",
     "collector_number": 15,
     "multiverse_ids": [
-      600015
+      466769
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/021963bf-87fc-432f-b9a1-4f627885a7a9.jpg?1561404354"],
     "layout": "normal",
@@ -1653,11 +1653,11 @@
     "set": "m20"
   },
   {
-    "id": 600246,
+    "id": 467000,
     "name": "Evolving Wilds",
     "collector_number": 246,
     "multiverse_ids": [
-      600246
+      467000
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/ad0fa2fb-6770-4a81-b830-4acfa957655a.jpg?1561122092"],
     "layout": "normal",
@@ -1668,20 +1668,20 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600058,
+    "id": 466812,
     "name": "Faerie Miscreant",
     "collector_number": 58,
     "multiverse_ids": [
-      600058
+      466812
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/28aa0337-94bd-4274-b2ee-6f43747c77b3.jpg?1561428348"],
     "layout": "normal",
     "type_line": "Creature — Faerie Rogue",
-    "oracle_text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Faerie Miscreant enters the battlefield, if you control another creature named Faerie Miscreant, draw a card.",
+    "oracle_text": "Flying\nWhen Faerie Miscreant enters the battlefield, if you control another creature named Faerie Miscreant, draw a card.",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -1689,15 +1689,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600100,
+    "id": 466854,
     "name": "Fathom Fleet Cutthroat",
     "collector_number": 100,
     "multiverse_ids": [
-      600100
+      466854
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/5/65a7004c-1952-41df-b645-b34bcbc3e401.jpg?1561482659"],
     "layout": "normal",
@@ -1710,15 +1710,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600016,
+    "id": 466770,
     "name": "Fencing Ace",
     "collector_number": 16,
     "multiverse_ids": [
-      600016
+      466770
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/53f54b57-9516-424a-86a3-54843efadb0c.jpg?1561473100"],
     "layout": "normal",
@@ -1731,20 +1731,20 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600101,
+    "id": 466855,
     "name": "Feral Abomination",
     "collector_number": 101,
     "multiverse_ids": [
-      600101
+      466855
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/2/b2890cb5-7899-42f4-9686-a8b5ac796c23.jpg?1561483201"],
     "layout": "normal",
     "type_line": "Creature — Thrull",
-    "oracle_text": "Deathtouch",
+    "oracle_text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
     "mana_cost": "{5}{B}",
     "cmc": 6,
     "colors": [
@@ -1756,11 +1756,11 @@
     "set": "m20"
   },
   {
-    "id": 600170,
+    "id": 466924,
     "name": "Feral Invocation",
     "collector_number": 170,
     "multiverse_ids": [
-      600170
+      466924
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/2/c2d08b7a-4ed9-4e4c-a52e-9bf2a16420a9.jpg?1561479424"],
     "layout": "normal",
@@ -1773,15 +1773,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600171,
+    "id": 466925,
     "name": "Ferocious Pup",
     "collector_number": 171,
     "multiverse_ids": [
-      600171
+      466925
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/3/2354cb24-5c70-4aaa-8636-46866f0950c1.jpg?1561026473"],
     "layout": "normal",
@@ -1794,15 +1794,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600247,
+    "id": 467001,
     "name": "Field of the Dead",
     "collector_number": 247,
     "multiverse_ids": [
-      600247
+      467001
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/7/470ca3f4-29aa-4c4c-8ff2-8cdd70c69943.jpg?1560862237"],
     "layout": "normal",
@@ -1817,11 +1817,11 @@
     "set": "m20"
   },
   {
-    "id": 600138,
+    "id": 466892,
     "name": "Fire Elemental",
     "collector_number": 138,
     "multiverse_ids": [
-      600138
+      466892
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/d/4df16df8-3270-4a09-8167-5b6a2068edb9.jpg?1561481635"],
     "layout": "normal",
@@ -1834,15 +1834,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600139,
+    "id": 466893,
     "name": "Flame Sweep",
     "collector_number": 139,
     "multiverse_ids": [
-      600139
+      466893
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/7/4702a838-8577-49b6-8b7a-f9b6d2929481.jpg?1560938463"],
     "layout": "normal",
@@ -1855,15 +1855,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600059,
+    "id": 466813,
     "name": "Flood of Tears",
     "collector_number": 59,
     "multiverse_ids": [
-      600059
+      466813
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c3621820-4ab5-42bf-8a02-d5c066db4653.jpg?1561045196"],
     "layout": "normal",
@@ -1880,11 +1880,11 @@
     "set": "m20"
   },
   {
-    "id": 600277,
+    "id": 467031,
     "name": "Forest",
     "collector_number": 277,
     "multiverse_ids": [
-      600277
+      467031
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/2/42352899-f2f2-4dea-863b-8d685e63b454.jpg?1561484634"],
     "layout": "normal",
@@ -1901,11 +1901,11 @@
     "set": "m20"
   },
   {
-    "id": 600060,
+    "id": 466814,
     "name": "Fortress Crab",
     "collector_number": 60,
     "multiverse_ids": [
-      600060
+      466814
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/324681da-a28e-47ec-9810-5678de53e494.jpg?1561479787"],
     "layout": "normal",
@@ -1922,11 +1922,11 @@
     "set": "m20"
   },
   {
-    "id": 600061,
+    "id": 466815,
     "name": "Frilled Sea Serpent",
     "collector_number": 61,
     "multiverse_ids": [
-      600061
+      466815
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b59698a5-be76-4ce2-a337-9052821f239f.jpg?1561479814"],
     "layout": "normal",
@@ -1939,15 +1939,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600062,
+    "id": 466816,
     "name": "Frost Lynx",
     "collector_number": 62,
     "multiverse_ids": [
-      600062
+      466816
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/64e1a5af-442f-4fcf-be99-6f62176be36c.jpg?1561080337"],
     "layout": "normal",
@@ -1964,11 +1964,11 @@
     "set": "m20"
   },
   {
-    "id": 600140,
+    "id": 466894,
     "name": "Fry",
     "collector_number": 140,
     "multiverse_ids": [
-      600140
+      466894
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/070d7766-a662-443c-93c5-811dbdac2480.jpg?1560954720"],
     "layout": "normal",
@@ -1981,15 +1981,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600172,
+    "id": 466926,
     "name": "Gargos, Vicious Watcher",
     "collector_number": 172,
     "multiverse_ids": [
-      600172
+      466926
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4e446e90-6e31-43ed-bcb1-a01422b503c0.jpg?1561406225"],
     "layout": "normal",
@@ -2006,11 +2006,11 @@
     "set": "m20"
   },
   {
-    "id": 600017,
+    "id": 466771,
     "name": "Gauntlets of Light",
     "collector_number": 17,
     "multiverse_ids": [
-      600017
+      466771
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/da0d5436-b881-45ac-b8ec-248d88714021.jpg?1561473246"],
     "layout": "normal",
@@ -2027,11 +2027,11 @@
     "set": "m20"
   },
   {
-    "id": 600173,
+    "id": 466927,
     "name": "Gift of Paradise",
     "collector_number": 173,
     "multiverse_ids": [
-      600173
+      466927
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/6/d6b4e2b7-2687-4ad1-99e4-0f8411b5f50d.jpg?1561479462"],
     "layout": "normal",
@@ -2044,15 +2044,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600018,
+    "id": 466772,
     "name": "Glaring Aegis",
     "collector_number": 18,
     "multiverse_ids": [
-      600018
+      466772
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/daa83dc2-4ec0-4e4f-8bfd-4f6d6df06a2d.jpg?1561473352"],
     "layout": "normal",
@@ -2069,11 +2069,11 @@
     "set": "m20"
   },
   {
-    "id": 600141,
+    "id": 466895,
     "name": "Glint-Horn Buccaneer",
     "collector_number": 141,
     "multiverse_ids": [
-      600141
+      466895
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/df2df9cb-14f5-470f-b438-20f4ae8d0d59.jpg?1561460506"],
     "layout": "normal",
@@ -2086,15 +2086,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600142,
+    "id": 466896,
     "name": "Goblin Bird-Grabber",
     "collector_number": 142,
     "multiverse_ids": [
-      600142
+      466896
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/54fbbf39-cd52-474a-908e-b7a78cb5eb5b.jpg?1560950170"],
     "layout": "normal",
@@ -2107,20 +2107,20 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600143,
+    "id": 466897,
     "name": "Goblin Ringleader",
     "collector_number": 143,
     "multiverse_ids": [
-      600143
+      466897
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/9/6911af4e-4abd-4cf9-8a86-ae5d680c6f12.jpg?1561000563"],
     "layout": "normal",
     "type_line": "Creature — Goblin",
-    "oracle_text": "Haste\nWhen Goblin Ringleader enters the battlefield, reveal the top four cards of your library. Put all Goblin cards revealed this way into your hand and the rest on the bottom of your library in any order.",
+    "oracle_text": "Haste (This creature can attack and {T} as soon as it comes under your control.)\nWhen Goblin Ringleader enters the battlefield, reveal the top four cards of your library. Put all Goblin cards revealed this way into your hand and the rest on the bottom of your library in any order.",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -2128,15 +2128,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600144,
+    "id": 466898,
     "name": "Goblin Smuggler",
     "collector_number": 144,
     "multiverse_ids": [
-      600144
+      466898
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/5/95dc1a65-271c-455a-ae0c-f652444a53ac.jpg?1561080515"],
     "layout": "normal",
@@ -2149,20 +2149,20 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600019,
+    "id": 466773,
     "name": "Gods Willing",
     "collector_number": 19,
     "multiverse_ids": [
-      600019
+      466773
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/90883bac-bcd8-4fa9-a17c-c2402fb0714e.jpg?1561450980"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Target creature you control gains protection from the color of your choice until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+    "oracle_text": "Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)\nScry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -2174,11 +2174,11 @@
     "set": "m20"
   },
   {
-    "id": 600226,
+    "id": 466980,
     "name": "Golos, Tireless Pilgrim",
     "collector_number": 226,
     "multiverse_ids": [
-      600226
+      466980
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1fa48620-4c3d-4f75-be1f-c12c4aa59f51.jpg?1560861011"],
     "layout": "normal",
@@ -2195,15 +2195,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600102,
+    "id": 466856,
     "name": "Gorging Vulture",
     "collector_number": 102,
     "multiverse_ids": [
-      600102
+      466856
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37cbe5f2-5b6b-41de-9586-c7cc83464cf2.jpg?1561485714"],
     "layout": "normal",
@@ -2220,11 +2220,11 @@
     "set": "m20"
   },
   {
-    "id": 600227,
+    "id": 466981,
     "name": "Grafdigger's Cage",
     "collector_number": 227,
     "multiverse_ids": [
-      600227
+      466981
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0a135e09-b534-4836-9a10-3a9a4a9f8c53.jpg?1561485317"],
     "layout": "normal",
@@ -2235,15 +2235,15 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0.5,
+    "rating": 0,
     "set": "m20"
   },
   {
-    "id": 600103,
+    "id": 466857,
     "name": "Gravedigger",
     "collector_number": 103,
     "multiverse_ids": [
-      600103
+      466857
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0fb714a0-e61b-4ccf-8de6-3a6bf87c8315.jpg?1561482744"],
     "layout": "normal",
@@ -2256,15 +2256,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600174,
+    "id": 466928,
     "name": "Greenwood Sentinel",
     "collector_number": 174,
     "multiverse_ids": [
-      600174
+      466928
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/9/e9a1a70d-c146-453e-84c4-71cae4e0afaa.jpg?1561479566"],
     "layout": "normal",
@@ -2281,11 +2281,11 @@
     "set": "m20"
   },
   {
-    "id": 600020,
+    "id": 466774,
     "name": "Griffin Protector",
     "collector_number": 20,
     "multiverse_ids": [
-      600020
+      466774
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c32c4f2-4fa5-4874-8413-eac822121a0b.jpg?1561473448"],
     "layout": "normal",
@@ -2302,11 +2302,11 @@
     "set": "m20"
   },
   {
-    "id": 600021,
+    "id": 466775,
     "name": "Griffin Sentinel",
     "collector_number": 21,
     "multiverse_ids": [
-      600021
+      466775
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/b/cb13aaa4-d40a-4fb2-9fd6-62bf76db6a13.jpg?1561473501"],
     "layout": "normal",
@@ -2319,15 +2319,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600175,
+    "id": 466929,
     "name": "Growth Cycle",
     "collector_number": 175,
     "multiverse_ids": [
-      600175
+      466929
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/e/1e619121-f2e8-4da5-8652-a2b5dae2e55c.jpg?1560857851"],
     "layout": "normal",
@@ -2340,15 +2340,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600104,
+    "id": 466858,
     "name": "Gruesome Scourger",
     "collector_number": 104,
     "multiverse_ids": [
-      600104
+      466858
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0ffbb50e-76ca-4bfd-b6d1-95ab8cf3bbf8.jpg?1561482846"],
     "layout": "normal",
@@ -2365,11 +2365,11 @@
     "set": "m20"
   },
   {
-    "id": 600022,
+    "id": 466776,
     "name": "Hanged Executioner",
     "collector_number": 22,
     "multiverse_ids": [
-      600022
+      466776
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e0d6cea1-83d1-4045-b4da-40560af86df9.jpg?1560876283"],
     "layout": "normal",
@@ -2382,17 +2382,17 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "m20"
   },
   {
-    "id": 600063,
+    "id": 466817,
     "name": "Hard Cover",
     "collector_number": 63,
     "multiverse_ids": [
-      600063
+      466817
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e16c9f3a-534b-42d4-9765-8d1cb15375aa.jpg?1561117020"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e16c9f3a-534b-42d4-9765-8d1cb15375aa.jpg?1562123992"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +0/+2 and has \"{T}: Draw a card, then discard a card.\"",
@@ -2403,15 +2403,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600176,
+    "id": 466930,
     "name": "Healer of the Glade",
     "collector_number": 176,
     "multiverse_ids": [
-      600176
+      466930
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/b/cbe262f2-e35b-4c85-938d-3e9e9c764c1b.jpg?1561479639"],
     "layout": "normal",
@@ -2424,20 +2424,20 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600228,
+    "id": 466982,
     "name": "Heart-Piercer Bow",
     "collector_number": 228,
     "multiverse_ids": [
-      600228
+      466982
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/2/e262f723-0e0b-44a4-bfc6-f48f17a805d9.jpg?1561026055"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
-    "oracle_text": "Whenever equipped creature attacks, Heart-Piercer Bow deals 1 damage to target creature defending player controls.\nEquip {1}",
+    "oracle_text": "Whenever equipped creature attacks, Heart-Piercer Bow deals 1 damage to target creature defending player controls.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -2447,11 +2447,11 @@
     "set": "m20"
   },
   {
-    "id": 600023,
+    "id": 466777,
     "name": "Herald of the Sun",
     "collector_number": 23,
     "multiverse_ids": [
-      600023
+      466777
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9c62f724-7fb4-4498-b5c1-cf65d86d8e95.jpg?1561048765"],
     "layout": "normal",
@@ -2468,11 +2468,11 @@
     "set": "m20"
   },
   {
-    "id": 600177,
+    "id": 466931,
     "name": "Howling Giant",
     "collector_number": 177,
     "multiverse_ids": [
-      600177
+      466931
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/eb8434fd-5ee5-4be9-a28d-9e04b1b94327.jpg?1561479712"],
     "layout": "normal",
@@ -2489,11 +2489,11 @@
     "set": "m20"
   },
   {
-    "id": 600229,
+    "id": 466983,
     "name": "Icon of Ancestry",
     "collector_number": 229,
     "multiverse_ids": [
-      600229
+      466983
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9b78e53c-1aec-4c49-bf58-165dd7b59d64.jpg?1561117096"],
     "layout": "normal",
@@ -2508,11 +2508,11 @@
     "set": "m20"
   },
   {
-    "id": 600145,
+    "id": 466899,
     "name": "Infuriate",
     "collector_number": 145,
     "multiverse_ids": [
-      600145
+      466899
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/a/7ac778f6-8997-47ee-a676-3eb9f8d1592f.jpg?1560792316"],
     "layout": "normal",
@@ -2525,15 +2525,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600024,
+    "id": 466778,
     "name": "Inspired Charge",
     "collector_number": 24,
     "multiverse_ids": [
-      600024
+      466778
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/3/43479f67-57b2-4a99-8928-10fc9dde33b9.jpg?1561473639"],
     "layout": "normal",
@@ -2546,15 +2546,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600025,
+    "id": 466779,
     "name": "Inspiring Captain",
     "collector_number": 25,
     "multiverse_ids": [
-      600025
+      466779
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/98d14836-0ab4-4df3-a996-76b0dda23ff6.jpg?1561475341"],
     "layout": "normal",
@@ -2567,15 +2567,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600209,
+    "id": 466963,
     "name": "Ironroot Warlord",
     "collector_number": 209,
     "multiverse_ids": [
-      600209
+      466963
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/d/edec85ce-7daa-48c2-b25d-b22941e01e73.jpg?1560795203"],
     "layout": "normal",
@@ -2593,11 +2593,11 @@
     "set": "m20"
   },
   {
-    "id": 600265,
+    "id": 467019,
     "name": "Island",
     "collector_number": 265,
     "multiverse_ids": [
-      600265
+      467019
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fe7f4393-38f9-43b5-873b-58246183b874.jpg?1561484397"],
     "layout": "normal",
@@ -2614,11 +2614,11 @@
     "set": "m20"
   },
   {
-    "id": 600248,
+    "id": 467002,
     "name": "Jungle Hollow",
     "collector_number": 248,
     "multiverse_ids": [
-      600248
+      467002
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9b6b7a1d-943b-43f8-a70b-1a3a205476cf.jpg?1561121918"],
     "layout": "normal",
@@ -2632,15 +2632,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "m20"
   },
   {
-    "id": 600210,
+    "id": 466964,
     "name": "Kaalia, Zenith Seeker",
     "collector_number": 210,
     "multiverse_ids": [
-      600210
+      466964
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1f400655-f495-4b21-ab9e-57fe4d845d45.jpg?1560936068"],
     "layout": "normal",
@@ -2659,11 +2659,11 @@
     "set": "m20"
   },
   {
-    "id": 600146,
+    "id": 466900,
     "name": "Keldon Raider",
     "collector_number": 146,
     "multiverse_ids": [
-      600146
+      466900
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/884c47fa-7060-48da-995c-e4037640a208.jpg?1561481692"],
     "layout": "normal",
@@ -2676,15 +2676,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600211,
+    "id": 466965,
     "name": "Kethis, the Hidden Hand",
     "collector_number": 211,
     "multiverse_ids": [
-      600211
+      466965
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fe28de73-76f3-4a9e-a020-dbe5921b9be5.jpg?1561196062"],
     "layout": "normal",
@@ -2703,11 +2703,11 @@
     "set": "m20"
   },
   {
-    "id": 600105,
+    "id": 466859,
     "name": "Knight of the Ebon Legion",
     "collector_number": 105,
     "multiverse_ids": [
-      600105
+      466859
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/29425426-7bf2-4872-aa35-c12c22801edd.jpg?1561044941"],
     "layout": "normal",
@@ -2724,11 +2724,11 @@
     "set": "m20"
   },
   {
-    "id": 600212,
+    "id": 466966,
     "name": "Kykar, Wind's Fury",
     "collector_number": 212,
     "multiverse_ids": [
-      600212
+      466966
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/594cb7dc-ea88-4909-ab40-1d40fecc9817.jpg?1560792133"],
     "layout": "normal",
@@ -2743,15 +2743,15 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600147,
+    "id": 466901,
     "name": "Lavakin Brawler",
     "collector_number": 147,
     "multiverse_ids": [
-      600147
+      466901
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/e/3eeea9e5-3041-4439-bc52-fd00ec83c7a1.jpg?1561080595"],
     "layout": "normal",
@@ -2764,15 +2764,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600178,
+    "id": 466932,
     "name": "Leafkin Druid",
     "collector_number": 178,
     "multiverse_ids": [
-      600178
+      466932
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/8968a942-72f6-42ad-ae9d-418a1dff0ab3.jpg?1561080679"],
     "layout": "normal",
@@ -2789,11 +2789,11 @@
     "set": "m20"
   },
   {
-    "id": 600106,
+    "id": 466860,
     "name": "Legion's End",
     "collector_number": 106,
     "multiverse_ids": [
-      600106
+      466860
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/49a1cd92-9d75-4e22-a934-a26d84967015.jpg?1560878114"],
     "layout": "normal",
@@ -2806,15 +2806,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600179,
+    "id": 466933,
     "name": "Leyline of Abundance",
     "collector_number": 179,
     "multiverse_ids": [
-      600179
+      466933
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/6/c68e8342-78d2-4826-a287-64c371b97d19.jpg?1561045152"],
     "layout": "normal",
@@ -2831,16 +2831,16 @@
     "set": "m20"
   },
   {
-    "id": 600064,
+    "id": 466818,
     "name": "Leyline of Anticipation",
     "collector_number": 64,
     "multiverse_ids": [
-      600064
+      466818
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/29b70152-1d7b-45c4-8c85-011d2338e0a8.jpg?1560880684"],
     "layout": "normal",
     "type_line": "Enchantment",
-    "oracle_text": "If Leyline of Anticipation is in your opening hand, you may begin the game with it on the battlefield.\nYou may cast spells as though they had flash. (You may cast them any time you could cast an instant.)",
+    "oracle_text": "If Leyline of Anticipation is in your opening hand, you may begin the game with it on the battlefield.\nYou may cast spells as though they had flash.",
     "mana_cost": "{2}{U}{U}",
     "cmc": 4,
     "colors": [
@@ -2852,11 +2852,11 @@
     "set": "m20"
   },
   {
-    "id": 600148,
+    "id": 466902,
     "name": "Leyline of Combustion",
     "collector_number": 148,
     "multiverse_ids": [
-      600148
+      466902
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3a93c8e2-fb27-43af-83a7-2bd4d40e0eff.jpg?1560942903"],
     "layout": "normal",
@@ -2873,11 +2873,11 @@
     "set": "m20"
   },
   {
-    "id": 600026,
+    "id": 466780,
     "name": "Leyline of Sanctity",
     "collector_number": 26,
     "multiverse_ids": [
-      600026
+      466780
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/e/be8b1acf-dd87-42ca-ad19-c27d21066030.jpg?1560792245"],
     "layout": "normal",
@@ -2894,11 +2894,11 @@
     "set": "m20"
   },
   {
-    "id": 600107,
+    "id": 466861,
     "name": "Leyline of the Void",
     "collector_number": 107,
     "multiverse_ids": [
-      600107
+      466861
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/04d5d429-e0c6-42cc-a477-da7dabb1c295.jpg?1560809867"],
     "layout": "normal",
@@ -2915,11 +2915,11 @@
     "set": "m20"
   },
   {
-    "id": 600213,
+    "id": 466967,
     "name": "Lightning Stormkin",
     "collector_number": 213,
     "multiverse_ids": [
-      600213
+      466967
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/3/43c6db4e-cc37-4473-b0f5-48d8a0b82f33.jpg?1561480817"],
     "layout": "normal",
@@ -2937,11 +2937,11 @@
     "set": "m20"
   },
   {
-    "id": 600180,
+    "id": 466934,
     "name": "Loaming Shaman",
     "collector_number": 180,
     "multiverse_ids": [
-      600180
+      466934
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/2/e2638252-f329-4d83-a705-6e369462d83a.jpg?1560950283"],
     "layout": "normal",
@@ -2958,30 +2958,30 @@
     "set": "m20"
   },
   {
-    "id": 600249,
+    "id": 467003,
     "name": "Lotus Field",
     "collector_number": 249,
     "multiverse_ids": [
-      600249
+      467003
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0e013033-3995-4ba8-b0c3-0614c79aaaab.jpg?1561050584"],
     "layout": "normal",
     "type_line": "Land",
-    "oracle_text": "Hexproof\nLotus Field enters the battlefield tapped.\nWhen Lotus Field enters the battlefield, sacrifice two lands.\n{T}: Add three mana of any color.",
+    "oracle_text": "Hexproof\nLotus Field enters the battlefield tapped.\nWhen Lotus Field enters the battlefield, sacrifice two lands.\n{T}: Add three mana of any one color.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600027,
+    "id": 466781,
     "name": "Loxodon Lifechanter",
     "collector_number": 27,
     "multiverse_ids": [
-      600027
+      466781
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/19610e6d-61bf-4c79-bfb2-e855eb944d11.jpg?1560887655"],
     "layout": "normal",
@@ -2998,11 +2998,11 @@
     "set": "m20"
   },
   {
-    "id": 600028,
+    "id": 466782,
     "name": "Loyal Pegasus",
     "collector_number": 28,
     "multiverse_ids": [
-      600028
+      466782
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7cae7971-953b-454a-84dd-ae2974946da9.jpg?1560857774"],
     "layout": "normal",
@@ -3015,20 +3015,20 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600181,
+    "id": 466935,
     "name": "Mammoth Spider",
     "collector_number": 181,
     "multiverse_ids": [
-      600181
+      466935
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/e/1ee9bca2-1195-4bd0-aa5c-16b3726a8ff2.jpg?1561479807"],
     "layout": "normal",
     "type_line": "Creature — Spider",
-    "oracle_text": "Reach",
+    "oracle_text": "Reach (This creature can block creatures with flying.)",
     "mana_cost": "{4}{G}",
     "cmc": 5,
     "colors": [
@@ -3040,11 +3040,11 @@
     "set": "m20"
   },
   {
-    "id": 600149,
+    "id": 466903,
     "name": "Maniacal Rage",
     "collector_number": 149,
     "multiverse_ids": [
-      600149
+      466903
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/29a51b9b-881f-4f02-b49e-68fcca234161.jpg?1561481753"],
     "layout": "normal",
@@ -3057,15 +3057,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600230,
+    "id": 466984,
     "name": "Manifold Key",
     "collector_number": 230,
     "multiverse_ids": [
-      600230
+      466984
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/1/715e637a-dfd8-45a0-b1ea-53e4abd29307.jpg?1561042610"],
     "layout": "normal",
@@ -3076,15 +3076,15 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600231,
+    "id": 466985,
     "name": "Marauder's Axe",
     "collector_number": 231,
     "multiverse_ids": [
-      600231
+      466985
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/3/73ac5204-69ef-491d-9ca8-f522b99f1412.jpg?1561485338"],
     "layout": "normal",
@@ -3099,11 +3099,11 @@
     "set": "m20"
   },
   {
-    "id": 600150,
+    "id": 466904,
     "name": "Marauding Raptor",
     "collector_number": 150,
     "multiverse_ids": [
-      600150
+      466904
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/64e4d2ee-e5e5-48e6-a7b8-9045dc8b10a7.jpg?1560954197"],
     "layout": "normal",
@@ -3120,11 +3120,11 @@
     "set": "m20"
   },
   {
-    "id": 600151,
+    "id": 466905,
     "name": "Mask of Immolation",
     "collector_number": 151,
     "multiverse_ids": [
-      600151
+      466905
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/e/be2f4165-f87f-454b-b955-e4477c864e95.jpg?1561116943"],
     "layout": "normal",
@@ -3141,11 +3141,11 @@
     "set": "m20"
   },
   {
-    "id": 600065,
+    "id": 466819,
     "name": "Masterful Replication",
     "collector_number": 65,
     "multiverse_ids": [
-      600065
+      466819
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/3/63832647-bb4d-4380-8acb-cf11e8727672.jpg?1561045077"],
     "layout": "normal",
@@ -3158,20 +3158,20 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600029,
+    "id": 466783,
     "name": "Master Splicer",
     "collector_number": 29,
     "multiverse_ids": [
-      600029
+      466783
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0e463146-40a7-4274-a5a6-adf71df05c4f.jpg?1561477837"],
     "layout": "normal",
     "type_line": "Creature — Human Artificer",
-    "oracle_text": "When Master Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.\nGolem creatures you control get +1/+1.",
+    "oracle_text": "When Master Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.\nGolems you control get +1/+1.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -3183,11 +3183,11 @@
     "set": "m20"
   },
   {
-    "id": 600232,
+    "id": 466986,
     "name": "Meteor Golem",
     "collector_number": 232,
     "multiverse_ids": [
-      600232
+      466986
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b748341f-557c-4b6a-a36c-c08c9cc05b90.jpg?1561485357"],
     "layout": "normal",
@@ -3198,15 +3198,15 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600066,
+    "id": 466820,
     "name": "Metropolis Sprite",
     "collector_number": 66,
     "multiverse_ids": [
-      600066
+      466820
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/c/fce74849-2e08-4d08-b387-4693f1b9f653.jpg?1561479869"],
     "layout": "normal",
@@ -3223,11 +3223,11 @@
     "set": "m20"
   },
   {
-    "id": 600182,
+    "id": 466936,
     "name": "Might of the Masses",
     "collector_number": 182,
     "multiverse_ids": [
-      600182
+      466936
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f7776d0a-e068-4cac-8848-060a2ce15b95.jpg?1561479846"],
     "layout": "normal",
@@ -3244,11 +3244,11 @@
     "set": "m20"
   },
   {
-    "id": 600108,
+    "id": 466862,
     "name": "Mind Rot",
     "collector_number": 108,
     "multiverse_ids": [
-      600108
+      466862
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/9/b9de3feb-5f92-43eb-b5cf-00d2b511fe68.jpg?1561482973"],
     "layout": "normal",
@@ -3265,11 +3265,11 @@
     "set": "m20"
   },
   {
-    "id": 600067,
+    "id": 466821,
     "name": "Moat Piranhas",
     "collector_number": 67,
     "multiverse_ids": [
-      600067
+      466821
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/543b3f69-19be-494b-928f-e16b92560e35.jpg?1561128981"],
     "layout": "normal",
@@ -3282,15 +3282,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600214,
+    "id": 466968,
     "name": "Moldervine Reclamation",
     "collector_number": 214,
     "multiverse_ids": [
-      600214
+      466968
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/1/618d21fe-8e3d-4887-b2e4-b92194ba1902.jpg?1560954478"],
     "layout": "normal",
@@ -3308,11 +3308,11 @@
     "set": "m20"
   },
   {
-    "id": 600030,
+    "id": 466784,
     "name": "Moment of Heroism",
     "collector_number": 30,
     "multiverse_ids": [
-      600030
+      466784
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/b/7bbc462b-3736-4441-96ee-8dc5615b4529.jpg?1561477910"],
     "layout": "normal",
@@ -3325,20 +3325,20 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600031,
+    "id": 466785,
     "name": "Moorland Inquisitor",
     "collector_number": 31,
     "multiverse_ids": [
-      600031
+      466785
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9d7b1446-7c9f-4b62-9877-e3d1060948aa.jpg?1561477965"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
-    "oracle_text": "{2}{W}: Moorland Inquisitor gains first strike until end of turn.",
+    "oracle_text": "{2}{W}: Moorland Inquisitor gains first strike until end of turn. (It deals combat damage before creatures without first strike.)",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -3350,11 +3350,11 @@
     "set": "m20"
   },
   {
-    "id": 600273,
+    "id": 467027,
     "name": "Mountain",
     "collector_number": 273,
     "multiverse_ids": [
-      600273
+      467027
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/399f7531-e137-463b-bec3-e86756b6ed71.jpg?1561484589"],
     "layout": "normal",
@@ -3371,11 +3371,11 @@
     "set": "m20"
   },
   {
-    "id": 600109,
+    "id": 466863,
     "name": "Murder",
     "collector_number": 109,
     "multiverse_ids": [
-      600109
+      466863
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/a/6a2b22bc-e81b-4f27-a52b-9f3edad25439.jpg?1561121321"],
     "layout": "normal",
@@ -3388,20 +3388,20 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 4.5,
+    "rating": 4,
     "set": "m20"
   },
   {
-    "id": 600068,
+    "id": 466822,
     "name": "Mu Yanling, Sky Dancer",
     "collector_number": 68,
     "multiverse_ids": [
-      600068
+      466822
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/0240f9eb-e1b2-4b41-94b0-b00ad2850825.jpg?1561044872"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Yanling",
-    "oracle_text": "+2: Until your next turn, up to one target creature gets -2/-0 and loses flying.\n−3: Create a 4/4 blue Elemental Bird creature token with flying.\n−8: You get an emblem with \"Islands you control have '{T}: Draw a card'.\"",
+    "oracle_text": "+2: Until your next turn, up to one target creature gets -2/-0 and loses flying.\n−3: Create a 4/4 blue Elemental Bird creature token with flying.\n−8: You get an emblem with \"Islands you control have '{T}: Draw a card.'\"",
     "mana_cost": "{1}{U}{U}",
     "cmc": 3,
     "colors": [
@@ -3413,11 +3413,11 @@
     "set": "m20"
   },
   {
-    "id": 600233,
+    "id": 466987,
     "name": "Mystic Forge",
     "collector_number": 233,
     "multiverse_ids": [
-      600233
+      466987
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/2/924a24e7-91b8-4ceb-a136-7a765d98c994.jpg?1561374583"],
     "layout": "normal",
@@ -3432,11 +3432,11 @@
     "set": "m20"
   },
   {
-    "id": 600183,
+    "id": 466937,
     "name": "Natural End",
     "collector_number": 183,
     "multiverse_ids": [
-      600183
+      466937
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84dcd314-f4d2-461e-a66e-7b1d8f141879.jpg?1561479895"],
     "layout": "normal",
@@ -3453,11 +3453,11 @@
     "set": "m20"
   },
   {
-    "id": 600069,
+    "id": 466823,
     "name": "Negate",
     "collector_number": 69,
     "multiverse_ids": [
-      600069
+      466823
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/3/33b83158-78b4-425e-8379-be3ef038295c.jpg?1560887263"],
     "layout": "normal",
@@ -3470,15 +3470,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600184,
+    "id": 466938,
     "name": "Netcaster Spider",
     "collector_number": 184,
     "multiverse_ids": [
-      600184
+      466938
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/07c95074-32c8-426e-b615-8ad5427c6c1c.jpg?1561479927"],
     "layout": "normal",
@@ -3495,11 +3495,11 @@
     "set": "m20"
   },
   {
-    "id": 600185,
+    "id": 466939,
     "name": "Nightpack Ambusher",
     "collector_number": 185,
     "multiverse_ids": [
-      600185
+      466939
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c9b1f70-9861-4c66-a52f-c40002679e75.jpg?1561041691"],
     "layout": "normal",
@@ -3516,11 +3516,11 @@
     "set": "m20"
   },
   {
-    "id": 600110,
+    "id": 466864,
     "name": "Noxious Grasp",
     "collector_number": 110,
     "multiverse_ids": [
-      600110
+      466864
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8e5758cc-1f84-455d-a983-8ec471727eaf.jpg?1561149945"],
     "layout": "normal",
@@ -3533,15 +3533,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600070,
+    "id": 466824,
     "name": "Octoprophet",
     "collector_number": 70,
     "multiverse_ids": [
-      600070
+      466824
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/13becea1-e745-4c96-bfc2-6a277fb60ee1.jpg?1560794401"],
     "layout": "normal",
@@ -3558,11 +3558,11 @@
     "set": "m20"
   },
   {
-    "id": 600215,
+    "id": 466969,
     "name": "Ogre Siegebreaker",
     "collector_number": 215,
     "multiverse_ids": [
-      600215
+      466969
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0aba1c64-c552-4aeb-b669-da885c8c75b2.jpg?1561214818"],
     "layout": "normal",
@@ -3580,11 +3580,11 @@
     "set": "m20"
   },
   {
-    "id": 600216,
+    "id": 466970,
     "name": "Omnath, Locus of the Roil",
     "collector_number": 216,
     "multiverse_ids": [
-      600216
+      466970
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/b/cb53a29d-2de2-4874-a6f3-0fecbfa14cf2.jpg?1561025659"],
     "layout": "normal",
@@ -3603,16 +3603,16 @@
     "set": "m20"
   },
   {
-    "id": 600186,
+    "id": 466940,
     "name": "Overcome",
     "collector_number": 186,
     "multiverse_ids": [
-      600186
+      466940
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/1/718352b9-1a68-44a1-947b-34f525f21223.jpg?1561479971"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Creatures you control get +2/+2 and gain trample until end of turn.",
+    "oracle_text": "Creatures you control get +2/+2 and gain trample until end of turn. (They can deal excess combat damage to the player or planeswalker they're attacking.)",
     "mana_cost": "{3}{G}{G}",
     "cmc": 5,
     "colors": [
@@ -3620,15 +3620,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600187,
+    "id": 466941,
     "name": "Overgrowth Elemental",
     "collector_number": 187,
     "multiverse_ids": [
-      600187
+      466941
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c9a13eb-2daf-43e0-b175-c6ec5b9e191e.jpg?1560857933"],
     "layout": "normal",
@@ -3645,11 +3645,11 @@
     "set": "m20"
   },
   {
-    "id": 600032,
+    "id": 466786,
     "name": "Pacifism",
     "collector_number": 32,
     "multiverse_ids": [
-      600032
+      466786
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/1/31279d7c-5246-40b2-a8c7-0be4a5f24a29.jpg?1560877850"],
     "layout": "normal",
@@ -3662,15 +3662,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 4,
     "set": "m20"
   },
   {
-    "id": 600152,
+    "id": 466906,
     "name": "Pack Mastiff",
     "collector_number": 152,
     "multiverse_ids": [
-      600152
+      466906
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39934090-36a6-4183-9176-97ea932d2685.jpg?1561428502"],
     "layout": "normal",
@@ -3687,16 +3687,16 @@
     "set": "m20"
   },
   {
-    "id": 600234,
+    "id": 466988,
     "name": "Pattern Matcher",
     "collector_number": 234,
     "multiverse_ids": [
-      600234
+      466988
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/ad608eb3-d387-4414-b194-703f38863896.jpg?1561485741"],
     "layout": "normal",
     "type_line": "Artifact Creature — Golem",
-    "oracle_text": "When Pattern Matcher enters the battlefield, you may search your library for a creature card with the same name as another creature you control, reveal it, put it into your hand, then shuffle your library.",
+    "oracle_text": "When Pattern Matcher enters the battlefield, you may search your library for a card with the same name as another creature you control, reveal it, put it into your hand, then shuffle your library.",
     "mana_cost": "{4}",
     "cmc": 4,
     "colors": [],
@@ -3706,11 +3706,11 @@
     "set": "m20"
   },
   {
-    "id": 600261,
+    "id": 467015,
     "name": "Plains",
     "collector_number": 261,
     "multiverse_ids": [
-      600261
+      467015
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/3/73fb4a34-c11e-45e9-a986-43c0a0ae5424.jpg?1561484308"],
     "layout": "normal",
@@ -3727,11 +3727,11 @@
     "set": "m20"
   },
   {
-    "id": 600033,
+    "id": 466787,
     "name": "Planar Cleansing",
     "collector_number": 33,
     "multiverse_ids": [
-      600033
+      466787
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5eddac86-947e-48c1-9f02-4634a7918c98.jpg?1560972665"],
     "layout": "normal",
@@ -3744,15 +3744,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600188,
+    "id": 466942,
     "name": "Plummet",
     "collector_number": 188,
     "multiverse_ids": [
-      600188
+      466942
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/a/4a1a0c7b-ce1c-4284-9362-04b21861f69d.jpg?1561482491"],
     "layout": "normal",
@@ -3769,11 +3769,11 @@
     "set": "m20"
   },
   {
-    "id": 600071,
+    "id": 466825,
     "name": "Portal of Sanctuary",
     "collector_number": 71,
     "multiverse_ids": [
-      600071
+      466825
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37c66692-2880-4ea2-abaf-8926c6950826.jpg?1560939183"],
     "layout": "normal",
@@ -3790,11 +3790,11 @@
     "set": "m20"
   },
   {
-    "id": 600235,
+    "id": 466989,
     "name": "Prismite",
     "collector_number": 235,
     "multiverse_ids": [
-      600235
+      466989
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c9fdb01-ba52-4510-897e-0d69558fdaee.jpg?1561485679"],
     "layout": "normal",
@@ -3809,11 +3809,11 @@
     "set": "m20"
   },
   {
-    "id": 600189,
+    "id": 466943,
     "name": "Pulse of Murasa",
     "collector_number": 189,
     "multiverse_ids": [
-      600189
+      466943
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/9/99851c1b-8878-4c1e-906b-f6b70e53d714.jpg?1561117381"],
     "layout": "normal",
@@ -3826,15 +3826,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600190,
+    "id": 466944,
     "name": "Rabid Bite",
     "collector_number": 190,
     "multiverse_ids": [
-      600190
+      466944
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f0d8ff93-6f62-4695-85ad-d70a0b928e92.jpg?1561480348"],
     "layout": "normal",
@@ -3847,15 +3847,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600034,
+    "id": 466788,
     "name": "Raise the Alarm",
     "collector_number": 34,
     "multiverse_ids": [
-      600034
+      466788
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/764a7a53-314e-4b1f-aa33-0f312d06df71.jpg?1561000830"],
     "layout": "normal",
@@ -3868,15 +3868,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600153,
+    "id": 466907,
     "name": "Rapacious Dragon",
     "collector_number": 153,
     "multiverse_ids": [
-      600153
+      466907
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c9bf6d8-ebf6-40ff-858a-3483d19bb584.jpg?1561491274"],
     "layout": "normal",
@@ -3893,11 +3893,11 @@
     "set": "m20"
   },
   {
-    "id": 600154,
+    "id": 466908,
     "name": "Reckless Air Strike",
     "collector_number": 154,
     "multiverse_ids": [
-      600154
+      466908
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/68391b41-4a17-4450-a8ac-0ce8406fe8c1.jpg?1561481834"],
     "layout": "normal",
@@ -3914,11 +3914,11 @@
     "set": "m20"
   },
   {
-    "id": 600155,
+    "id": 466909,
     "name": "Reduce to Ashes",
     "collector_number": 155,
     "multiverse_ids": [
-      600155
+      466909
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fe580883-cdb1-4783-9feb-1e3bea83d209.jpg?1561481825"],
     "layout": "normal",
@@ -3935,11 +3935,11 @@
     "set": "m20"
   },
   {
-    "id": 600072,
+    "id": 466826,
     "name": "Renowned Weaponsmith",
     "collector_number": 72,
     "multiverse_ids": [
-      600072
+      466826
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ec947bb8-8cb0-4e1e-8873-fe9bb9761e01.jpg?1561026096"],
     "layout": "normal",
@@ -3956,11 +3956,11 @@
     "set": "m20"
   },
   {
-    "id": 600156,
+    "id": 466910,
     "name": "Repeated Reverberation",
     "collector_number": 156,
     "multiverse_ids": [
-      600156
+      466910
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/e/1e94c783-e474-4cbc-a38a-27ad8dd15a7b.jpg?1560926893"],
     "layout": "normal",
@@ -3973,15 +3973,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600236,
+    "id": 466990,
     "name": "Retributive Wand",
     "collector_number": 236,
     "multiverse_ids": [
-      600236
+      466990
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/5/5521cb92-03b0-44ab-a141-40dc0eb5a79f.jpg?1561485372"],
     "layout": "normal",
@@ -3996,13 +3996,13 @@
     "set": "m20"
   },
   {
-    "id": 600157,
+    "id": 466911,
     "name": "Ripscale Predator",
     "collector_number": 157,
     "multiverse_ids": [
-      600157
+      466911
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/9/c9141d96-ad3a-4e30-b356-44e136e1f62f.jpg?1561481898"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/9/c9141d96-ad3a-4e30-b356-44e136e1f62f.jpg?1562124072"],
     "layout": "normal",
     "type_line": "Creature — Dinosaur",
     "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)",
@@ -4013,15 +4013,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600217,
+    "id": 466971,
     "name": "Risen Reef",
     "collector_number": 217,
     "multiverse_ids": [
-      600217
+      466971
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/82389aaa-9f32-4169-a71c-1aea5af9e935.jpg?1560794261"],
     "layout": "normal",
@@ -4039,11 +4039,11 @@
     "set": "m20"
   },
   {
-    "id": 600111,
+    "id": 466865,
     "name": "Rotting Regisaur",
     "collector_number": 111,
     "multiverse_ids": [
-      600111
+      466865
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d88c61cb-dbf9-46c3-8795-8896ba1208d5.jpg?1561045122"],
     "layout": "normal",
@@ -4056,15 +4056,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "m20"
   },
   {
-    "id": 600250,
+    "id": 467004,
     "name": "Rugged Highlands",
     "collector_number": 250,
     "multiverse_ids": [
-      600250
+      467004
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f05dd57c-91ca-4c79-b6da-1e504d806f28.jpg?1561121932"],
     "layout": "normal",
@@ -4082,11 +4082,11 @@
     "set": "m20"
   },
   {
-    "id": 600035,
+    "id": 466789,
     "name": "Rule of Law",
     "collector_number": 35,
     "multiverse_ids": [
-      600035
+      466789
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a1f4e79b-b103-4380-afa0-61a2b1773c9e.jpg?1560840478"],
     "layout": "normal",
@@ -4103,11 +4103,11 @@
     "set": "m20"
   },
   {
-    "id": 600073,
+    "id": 466827,
     "name": "Sage's Row Denizen",
     "collector_number": 73,
     "multiverse_ids": [
-      600073
+      466827
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/6/06ad3e3e-176b-48f0-af2f-fa4fc4759775.jpg?1561479934"],
     "layout": "normal",
@@ -4124,11 +4124,11 @@
     "set": "m20"
   },
   {
-    "id": 600237,
+    "id": 466991,
     "name": "Salvager of Ruin",
     "collector_number": 237,
     "multiverse_ids": [
-      600237
+      466991
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8dd2ebbe-71c6-405b-bad0-5680f0ff575c.jpg?1561485946"],
     "layout": "normal",
@@ -4143,11 +4143,11 @@
     "set": "m20"
   },
   {
-    "id": 600112,
+    "id": 466866,
     "name": "Sanitarium Skeleton",
     "collector_number": 112,
     "multiverse_ids": [
-      600112
+      466866
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/ef6efdaf-bf1a-4776-8e4b-2970aa2ccd5a.jpg?1561483005"],
     "layout": "normal",
@@ -4160,15 +4160,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600158,
+    "id": 466912,
     "name": "Scampering Scorcher",
     "collector_number": 158,
     "multiverse_ids": [
-      600158
+      466912
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/c/dccbe031-1547-4fa5-ba9a-caa1b1f5eb5d.jpg?1561450868"],
     "layout": "normal",
@@ -4181,15 +4181,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600113,
+    "id": 466867,
     "name": "Scheming Symmetry",
     "collector_number": 113,
     "multiverse_ids": [
-      600113
+      466867
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01acc50b-856d-442d-9880-1a892b40643b.jpg?1560854397"],
     "layout": "normal",
@@ -4202,15 +4202,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0,
+    "rating": 0.5,
     "set": "m20"
   },
   {
-    "id": 600074,
+    "id": 466828,
     "name": "Scholar of the Ages",
     "collector_number": 74,
     "multiverse_ids": [
-      600074
+      466828
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/80137c9a-ea56-4dc7-a503-43fe192c8fce.jpg?1560926258"],
     "layout": "normal",
@@ -4223,15 +4223,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600159,
+    "id": 466913,
     "name": "Scorch Spitter",
     "collector_number": 159,
     "multiverse_ids": [
-      600159
+      466913
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb701a84-24bd-41ed-9f06-25c8338902a5.jpg?1561482549"],
     "layout": "normal",
@@ -4248,11 +4248,11 @@
     "set": "m20"
   },
   {
-    "id": 600251,
+    "id": 467005,
     "name": "Scoured Barrens",
     "collector_number": 251,
     "multiverse_ids": [
-      600251
+      467005
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/b/3b9edd33-a64e-4526-a89f-edd31ac4b175.jpg?1561121860"],
     "layout": "normal",
@@ -4270,11 +4270,11 @@
     "set": "m20"
   },
   {
-    "id": 600238,
+    "id": 466992,
     "name": "Scuttlemutt",
     "collector_number": 238,
     "multiverse_ids": [
-      600238
+      466992
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39f2d2e8-a9ed-42cc-9a8a-fc697a7251e5.jpg?1561048741"],
     "layout": "normal",
@@ -4289,11 +4289,11 @@
     "set": "m20"
   },
   {
-    "id": 600191,
+    "id": 466945,
     "name": "Season of Growth",
     "collector_number": 191,
     "multiverse_ids": [
-      600191
+      466945
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/5/65b9a718-01b9-46b2-85eb-55f6206ee5e4.jpg?1560938564"],
     "layout": "normal",
@@ -4310,11 +4310,11 @@
     "set": "m20"
   },
   {
-    "id": 600192,
+    "id": 466946,
     "name": "Sedge Scorpion",
     "collector_number": 192,
     "multiverse_ids": [
-      600192
+      466946
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/9864f811-db2e-4d6d-ad59-a491a790bdd4.jpg?1561480413"],
     "layout": "normal",
@@ -4327,15 +4327,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600036,
+    "id": 466790,
     "name": "Sephara, Sky's Blade",
     "collector_number": 36,
     "multiverse_ids": [
-      600036
+      466790
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bc95881b-8fbf-4d82-b631-5e4404ccc28a.jpg?1561122718"],
     "layout": "normal",
@@ -4348,15 +4348,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "m20"
   },
   {
-    "id": 600193,
+    "id": 466947,
     "name": "Shared Summons",
     "collector_number": 193,
     "multiverse_ids": [
-      600193
+      466947
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/e/1e1e49b6-ed0f-42f5-af22-6f4aa23ce4ef.jpg?1561404508"],
     "layout": "normal",
@@ -4369,15 +4369,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600194,
+    "id": 466948,
     "name": "Shifting Ceratops",
     "collector_number": 194,
     "multiverse_ids": [
-      600194
+      466948
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8e318600-21af-4003-bcfa-be926cd24c5c.jpg?1561043244"],
     "layout": "normal",
@@ -4394,11 +4394,11 @@
     "set": "m20"
   },
   {
-    "id": 600160,
+    "id": 466914,
     "name": "Shock",
     "collector_number": 160,
     "multiverse_ids": [
-      600160
+      466914
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3c866bdb-ff94-4f3f-8429-e72c2cbb94ef.jpg?1561482005"],
     "layout": "normal",
@@ -4411,15 +4411,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600195,
+    "id": 466949,
     "name": "Silverback Shaman",
     "collector_number": 195,
     "multiverse_ids": [
-      600195
+      466949
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4e97e62e-4a77-4512-b5fa-400e01517e23.jpg?1560799830"],
     "layout": "normal",
@@ -4436,11 +4436,11 @@
     "set": "m20"
   },
   {
-    "id": 600218,
+    "id": 466972,
     "name": "Skyknight Vanguard",
     "collector_number": 218,
     "multiverse_ids": [
-      600218
+      466972
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/549634d8-1c33-401b-841d-a79ef4374dd1.jpg?1561485839"],
     "layout": "normal",
@@ -4458,11 +4458,11 @@
     "set": "m20"
   },
   {
-    "id": 600075,
+    "id": 466829,
     "name": "Sleep Paralysis",
     "collector_number": 75,
     "multiverse_ids": [
-      600075
+      466829
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2babef35-27ab-45aa-88cd-f21dccae5125.jpg?1561479998"],
     "layout": "normal",
@@ -4475,15 +4475,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600114,
+    "id": 466868,
     "name": "Sorcerer of the Fang",
     "collector_number": 114,
     "multiverse_ids": [
-      600114
+      466868
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2fe9e325-fbe4-4f43-8d68-8525c4d5ce8b.jpg?1561483297"],
     "layout": "normal",
@@ -4500,11 +4500,11 @@
     "set": "m20"
   },
   {
-    "id": 600115,
+    "id": 466869,
     "name": "Sorin, Imperious Bloodlord",
     "collector_number": 115,
     "multiverse_ids": [
-      600115
+      466869
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/f/9f764be3-dd3f-44b1-a4a6-807d1387590b.jpg?1561045106"],
     "layout": "normal",
@@ -4521,11 +4521,11 @@
     "set": "m20"
   },
   {
-    "id": 600037,
+    "id": 466791,
     "name": "Soulmender",
     "collector_number": 37,
     "multiverse_ids": [
-      600037
+      466791
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/1/31b83ffd-bd08-48c6-98a3-811abc203f60.jpg?1561478031"],
     "layout": "normal",
@@ -4542,11 +4542,11 @@
     "set": "m20"
   },
   {
-    "id": 600116,
+    "id": 466870,
     "name": "Soul Salvage",
     "collector_number": 116,
     "multiverse_ids": [
-      600116
+      466870
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/d/5d9250f8-9085-4664-ada7-a2ef44deeac8.jpg?1561483180"],
     "layout": "normal",
@@ -4559,15 +4559,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600076,
+    "id": 466830,
     "name": "Spectral Sailor",
     "collector_number": 76,
     "multiverse_ids": [
-      600076
+      466830
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/67483891-36d1-46f2-8b4f-b8b7bd54bdcc.jpg?1561081060"],
     "layout": "normal",
@@ -4580,15 +4580,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600038,
+    "id": 466792,
     "name": "Squad Captain",
     "collector_number": 38,
     "multiverse_ids": [
-      600038
+      466792
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/d/bd7d6112-ffb2-41d8-98ed-1a7b22841dfd.jpg?1561080795"],
     "layout": "normal",
@@ -4601,15 +4601,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600039,
+    "id": 466793,
     "name": "Starfield Mystic",
     "collector_number": 39,
     "multiverse_ids": [
-      600039
+      466793
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/80382963-a9d7-4c2d-8671-8dd3fdd4dbdc.jpg?1560840439"],
     "layout": "normal",
@@ -4626,11 +4626,11 @@
     "set": "m20"
   },
   {
-    "id": 600040,
+    "id": 466794,
     "name": "Steadfast Sentry",
     "collector_number": 40,
     "multiverse_ids": [
-      600040
+      466794
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8d92614e-05da-4b5c-a98b-addf8ab2de7b.jpg?1561478167"],
     "layout": "normal",
@@ -4647,11 +4647,11 @@
     "set": "m20"
   },
   {
-    "id": 600239,
+    "id": 466993,
     "name": "Steel Overseer",
     "collector_number": 239,
     "multiverse_ids": [
-      600239
+      466993
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6ed61426-e652-4b48-b936-8be9b6b57731.jpg?1561117260"],
     "layout": "normal",
@@ -4666,11 +4666,11 @@
     "set": "m20"
   },
   {
-    "id": 600240,
+    "id": 466994,
     "name": "Stone Golem",
     "collector_number": 240,
     "multiverse_ids": [
-      600240
+      466994
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1b4de70a-729b-4566-b6f3-c76f551405a5.jpg?1561485932"],
     "layout": "normal",
@@ -4681,15 +4681,15 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600269,
+    "id": 467023,
     "name": "Swamp",
     "collector_number": 269,
     "multiverse_ids": [
-      600269
+      467023
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/8/184a196e-8604-49d2-a66a-6f7c0eafd5de.jpg?1561484545"],
     "layout": "normal",
@@ -4706,11 +4706,11 @@
     "set": "m20"
   },
   {
-    "id": 600252,
+    "id": 467006,
     "name": "Swiftwater Cliffs",
     "collector_number": 252,
     "multiverse_ids": [
-      600252
+      467006
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/804db4ef-712f-4a39-a00f-51e99b05274c.jpg?1561121894"],
     "layout": "normal",
@@ -4728,11 +4728,11 @@
     "set": "m20"
   },
   {
-    "id": 600077,
+    "id": 466831,
     "name": "Tale's End",
     "collector_number": 77,
     "multiverse_ids": [
-      600077
+      466831
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/4/1421115b-9a98-4ab2-bcb2-7d8899ce12db.jpg?1561403941"],
     "layout": "normal",
@@ -4745,15 +4745,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m20"
   },
   {
-    "id": 600161,
+    "id": 466915,
     "name": "Tectonic Rift",
     "collector_number": 161,
     "multiverse_ids": [
-      600161
+      466915
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/abf90bd1-fa00-4af6-aa76-bd6fca7b0ac4.jpg?1561482035"],
     "layout": "normal",
@@ -4770,16 +4770,16 @@
     "set": "m20"
   },
   {
-    "id": 600253,
+    "id": 467007,
     "name": "Temple of Epiphany",
     "collector_number": 253,
     "multiverse_ids": [
-      600253
+      467007
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/00f8ec3c-d2cb-477c-a7e8-ff497df646d6.jpg?1560954664"],
     "layout": "normal",
     "type_line": "Land",
-    "oracle_text": "Temple of Epiphany enters the battlefield tapped.\nWhen Temple of Epiphany enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {U} or {R}.",
+    "oracle_text": "Temple of Epiphany enters the battlefield tapped.\nWhen Temple of Epiphany enters the battlefield, scry 1.\n{T}: Add {U} or {R}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4792,16 +4792,16 @@
     "set": "m20"
   },
   {
-    "id": 600254,
+    "id": 467008,
     "name": "Temple of Malady",
     "collector_number": 254,
     "multiverse_ids": [
-      600254
+      467008
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6e327d94-5540-49f0-b1a2-a3fb614c9651.jpg?1560954747"],
     "layout": "normal",
     "type_line": "Land",
-    "oracle_text": "Temple of Malady enters the battlefield tapped.\nWhen Temple of Malady enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {B} or {G}.",
+    "oracle_text": "Temple of Malady enters the battlefield tapped.\nWhen Temple of Malady enters the battlefield, scry 1.\n{T}: Add {B} or {G}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4810,20 +4810,20 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600255,
+    "id": 467009,
     "name": "Temple of Mystery",
     "collector_number": 255,
     "multiverse_ids": [
-      600255
+      467009
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/c/0c284acd-4407-42ad-9f4c-359041223609.jpg?1560954807"],
     "layout": "normal",
     "type_line": "Land",
-    "oracle_text": "Temple of Mystery enters the battlefield tapped.\nWhen Temple of Mystery enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {G} or {U}.",
+    "oracle_text": "Temple of Mystery enters the battlefield tapped.\nWhen Temple of Mystery enters the battlefield, scry 1.\n{T}: Add {G} or {U}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4836,16 +4836,16 @@
     "set": "m20"
   },
   {
-    "id": 600256,
+    "id": 467010,
     "name": "Temple of Silence",
     "collector_number": 256,
     "multiverse_ids": [
-      600256
+      467010
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/64cbb241-7268-42ac-a3ae-d326c9b6247f.jpg?1560954863"],
     "layout": "normal",
     "type_line": "Land",
-    "oracle_text": "Temple of Silence enters the battlefield tapped.\nWhen Temple of Silence enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {W} or {B}.",
+    "oracle_text": "Temple of Silence enters the battlefield tapped.\nWhen Temple of Silence enters the battlefield, scry 1.\n{T}: Add {W} or {B}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4854,20 +4854,20 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600257,
+    "id": 467011,
     "name": "Temple of Triumph",
     "collector_number": 257,
     "multiverse_ids": [
-      600257
+      467011
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a874dfe1-eb4d-4817-877f-8a4cd75107e1.jpg?1560954987"],
     "layout": "normal",
     "type_line": "Land",
-    "oracle_text": "Temple of Triumph enters the battlefield tapped.\nWhen Temple of Triumph enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {R} or {W}.",
+    "oracle_text": "Temple of Triumph enters the battlefield tapped.\nWhen Temple of Triumph enters the battlefield, scry 1.\n{T}: Add {R} or {W}.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4876,15 +4876,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600196,
+    "id": 466950,
     "name": "Thicket Crasher",
     "collector_number": 196,
     "multiverse_ids": [
-      600196
+      466950
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/534eb449-3f1c-46ec-a965-0f5812e2c93e.jpg?1561080910"],
     "layout": "normal",
@@ -4901,11 +4901,11 @@
     "set": "m20"
   },
   {
-    "id": 600258,
+    "id": 467012,
     "name": "Thornwood Falls",
     "collector_number": 258,
     "multiverse_ids": [
-      600258
+      467012
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/ef1b12d2-2f4f-4cfd-9728-edf8232c99e7.jpg?1561121964"],
     "layout": "normal",
@@ -4923,11 +4923,11 @@
     "set": "m20"
   },
   {
-    "id": 600117,
+    "id": 466871,
     "name": "Thought Distortion",
     "collector_number": 117,
     "multiverse_ids": [
-      600117
+      466871
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/4/f4a9d636-6720-4d7e-8b81-12c20bce6495.jpg?1560791977"],
     "layout": "normal",
@@ -4944,11 +4944,11 @@
     "set": "m20"
   },
   {
-    "id": 600197,
+    "id": 466951,
     "name": "Thrashing Brontodon",
     "collector_number": 197,
     "multiverse_ids": [
-      600197
+      466951
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7367813-8be3-44a2-9a75-5f4e48cf34b1.jpg?1560938507"],
     "layout": "normal",
@@ -4965,11 +4965,11 @@
     "set": "m20"
   },
   {
-    "id": 600162,
+    "id": 466916,
     "name": "Thunderkin Awakener",
     "collector_number": 162,
     "multiverse_ids": [
-      600162
+      466916
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/289b649b-c93a-44ad-bdd6-866f8b2f1bc2.jpg?1561482051"],
     "layout": "normal",
@@ -4986,11 +4986,11 @@
     "set": "m20"
   },
   {
-    "id": 600219,
+    "id": 466973,
     "name": "Tomebound Lich",
     "collector_number": 219,
     "multiverse_ids": [
-      600219
+      466973
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f305027-dfd2-4b17-a6af-6b0576389623.jpg?1561122292"],
     "layout": "normal",
@@ -5008,11 +5008,11 @@
     "set": "m20"
   },
   {
-    "id": 600259,
+    "id": 467013,
     "name": "Tranquil Cove",
     "collector_number": 259,
     "multiverse_ids": [
-      600259
+      467013
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75fa37aa-ef2e-49ff-9496-86b0e69128a7.jpg?1561129237"],
     "layout": "normal",
@@ -5026,15 +5026,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600163,
+    "id": 466917,
     "name": "Uncaged Fury",
     "collector_number": 163,
     "multiverse_ids": [
-      600163
+      466917
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/8/3/837557f2-6151-489c-a997-00862173cd15.jpg?1560950036"],
     "layout": "normal",
@@ -5047,15 +5047,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600164,
+    "id": 466918,
     "name": "Unchained Berserker",
     "collector_number": 164,
     "multiverse_ids": [
-      600164
+      466918
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/db5879c5-4b0a-42fa-a44f-580e0221a32b.jpg?1560878108"],
     "layout": "normal",
@@ -5072,11 +5072,11 @@
     "set": "m20"
   },
   {
-    "id": 600118,
+    "id": 466872,
     "name": "Undead Servant",
     "collector_number": 118,
     "multiverse_ids": [
-      600118
+      466872
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/f/bfbc0f7c-546f-4525-bb58-c99ab9b017d5.jpg?1561428451"],
     "layout": "normal",
@@ -5089,15 +5089,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600119,
+    "id": 466873,
     "name": "Unholy Indenture",
     "collector_number": 119,
     "multiverse_ids": [
-      600119
+      466873
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/3/1/31e22edb-a815-413d-b62d-f32f8932b6e6.jpg?1561483297"],
     "layout": "normal",
@@ -5114,11 +5114,11 @@
     "set": "m20"
   },
   {
-    "id": 600078,
+    "id": 466832,
     "name": "Unsummon",
     "collector_number": 78,
     "multiverse_ids": [
-      600078
+      466832
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/a/7a960516-3864-4a7a-8117-d25dec0dd665.jpg?1560791255"],
     "layout": "normal",
@@ -5131,15 +5131,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600120,
+    "id": 466874,
     "name": "Vampire of the Dire Moon",
     "collector_number": 120,
     "multiverse_ids": [
-      600120
+      466874
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/3/b3c185b9-5d97-4a5a-af0b-8b9c44dcd235.jpg?1560988687"],
     "layout": "normal",
@@ -5156,11 +5156,11 @@
     "set": "m20"
   },
   {
-    "id": 600198,
+    "id": 466952,
     "name": "Veil of Summer",
     "collector_number": 198,
     "multiverse_ids": [
-      600198
+      466952
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aa686c34-1c11-469f-93c2-f9891aea521f.jpg?1560813972"],
     "layout": "normal",
@@ -5177,11 +5177,11 @@
     "set": "m20"
   },
   {
-    "id": 600121,
+    "id": 466875,
     "name": "Vengeful Warchief",
     "collector_number": 121,
     "multiverse_ids": [
-      600121
+      466875
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d405e1bc-bf58-4cce-8abe-57fb40ef0996.jpg?1561483799"],
     "layout": "normal",
@@ -5194,15 +5194,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "m20"
   },
   {
-    "id": 600241,
+    "id": 466995,
     "name": "Vial of Dragonfire",
     "collector_number": 241,
     "multiverse_ids": [
-      600241
+      466995
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/7/57db6ba8-f6c1-41be-8bee-93e573d052d7.jpg?1561026053"],
     "layout": "normal",
@@ -5213,15 +5213,15 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600122,
+    "id": 466876,
     "name": "Vilis, Broker of Blood",
     "collector_number": 122,
     "multiverse_ids": [
-      600122
+      466876
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ecdf2bd9-87b9-470a-ad2e-0ebf98560f87.jpg?1561117116"],
     "layout": "normal",
@@ -5234,15 +5234,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600199,
+    "id": 466953,
     "name": "Vivien, Arkbow Ranger",
     "collector_number": 199,
     "multiverse_ids": [
-      600199
+      466953
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/592c5e27-c538-425e-b41f-1d6708428853.jpg?1561297034"],
     "layout": "normal",
@@ -5259,11 +5259,11 @@
     "set": "m20"
   },
   {
-    "id": 600200,
+    "id": 466954,
     "name": "Voracious Hydra",
     "collector_number": 200,
     "multiverse_ids": [
-      600200
+      466954
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/74bbe44f-864a-446c-bfc9-5f5188e663b8.jpg?1560950092"],
     "layout": "normal",
@@ -5276,15 +5276,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 4,
     "set": "m20"
   },
   {
-    "id": 600201,
+    "id": 466955,
     "name": "Vorstclaw",
     "collector_number": 201,
     "multiverse_ids": [
-      600201
+      466955
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/9/79719ed0-468d-4946-8dfc-fb7e2b2e305e.jpg?1561451031"],
     "layout": "normal",
@@ -5297,15 +5297,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m20"
   },
   {
-    "id": 600202,
+    "id": 466956,
     "name": "Wakeroot Elemental",
     "collector_number": 202,
     "multiverse_ids": [
-      600202
+      466956
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/02c9396d-28f2-40b7-908e-51db51da57a7.jpg?1560887807"],
     "layout": "normal",
@@ -5318,15 +5318,15 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m20"
   },
   {
-    "id": 600079,
+    "id": 466833,
     "name": "Warden of Evos Isle",
     "collector_number": 79,
     "multiverse_ids": [
-      600079
+      466833
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/ba0ec2d2-c004-4f6b-ba1c-29d81ad77fd1.jpg?1561480051"],
     "layout": "normal",
@@ -5343,11 +5343,11 @@
     "set": "m20"
   },
   {
-    "id": 600260,
+    "id": 467014,
     "name": "Wind-Scarred Crag",
     "collector_number": 260,
     "multiverse_ids": [
-      600260
+      467014
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/1/91c0b1ba-fd3d-4f1c-9e8e-22280eeeff7d.jpg?1561121942"],
     "layout": "normal",
@@ -5365,11 +5365,11 @@
     "set": "m20"
   },
   {
-    "id": 600080,
+    "id": 466834,
     "name": "Winged Words",
     "collector_number": 80,
     "multiverse_ids": [
-      600080
+      466834
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff765065-b160-49b6-99ac-cd695bd0d903.jpg?1561080976"],
     "layout": "normal",
@@ -5382,15 +5382,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m20"
   },
   {
-    "id": 600203,
+    "id": 466957,
     "name": "Wolfkin Bond",
     "collector_number": 203,
     "multiverse_ids": [
-      600203
+      466957
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c419a2b-4389-49bc-91f1-a613ffcbfa0b.jpg?1561042133"],
     "layout": "normal",
@@ -5403,20 +5403,20 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "m20"
   },
   {
-    "id": 600204,
+    "id": 466958,
     "name": "Wolfrider's Saddle",
     "collector_number": 204,
     "multiverse_ids": [
-      600204
+      466958
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/ba18cc9a-411d-45c6-bcc3-9e02ef5e2d92.jpg?1560938537"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/ba18cc9a-411d-45c6-bcc3-9e02ef5e2d92.jpg?1561939473"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
-    "oracle_text": "When Wolfrider's Saddle enters the battlefield, create a 2/2 green Wolf creature token, then attach Wolfrider's Saddle to it.\nEquipped creature gets +1/+1 and can't be blocked by more than one creature.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery)",
+    "oracle_text": "When Wolfrider's Saddle enters the battlefield, create a 2/2 green Wolf creature token, then attach Wolfrider's Saddle to it.\nEquipped creature gets +1/+1 and can't be blocked by more than one creature.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
     "mana_cost": "{3}{G}",
     "cmc": 4,
     "colors": [
@@ -5428,11 +5428,11 @@
     "set": "m20"
   },
   {
-    "id": 600205,
+    "id": 466959,
     "name": "Woodland Champion",
     "collector_number": 205,
     "multiverse_ids": [
-      600205
+      466959
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/2/5/250f5303-428a-478c-9bd5-2410f7fcc4dd.jpg?1561001777"],
     "layout": "normal",
@@ -5449,11 +5449,11 @@
     "set": "m20"
   },
   {
-    "id": 600123,
+    "id": 466877,
     "name": "Yarok's Fenlurker",
     "collector_number": 123,
     "multiverse_ids": [
-      600123
+      466877
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/6/16b122f8-fcd9-4b2a-92f6-f0ed7307ff58.jpg?1560790622"],
     "layout": "normal",
@@ -5470,11 +5470,11 @@
     "set": "m20"
   },
   {
-    "id": 600081,
+    "id": 466835,
     "name": "Yarok's Wavecrasher",
     "collector_number": 81,
     "multiverse_ids": [
-      600081
+      466835
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/c/8/c86a8974-df86-43ee-b07f-fd2837c08a6a.jpg?1561384109"],
     "layout": "normal",
@@ -5491,11 +5491,11 @@
     "set": "m20"
   },
   {
-    "id": 600220,
+    "id": 466974,
     "name": "Yarok, the Desecrated",
     "collector_number": 220,
     "multiverse_ids": [
-      600220
+      466974
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a1001d43-e11b-4e5e-acd4-4a50ef89977f.jpg?1561481132"],
     "layout": "normal",
@@ -5514,11 +5514,11 @@
     "set": "m20"
   },
   {
-    "id": 600041,
+    "id": 466795,
     "name": "Yoked Ox",
     "collector_number": 41,
     "multiverse_ids": [
-      600041
+      466795
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/7/a73f186b-c897-4a98-bc25-8e4aa348d8c9.jpg?1561478837"],
     "layout": "normal",
@@ -5531,15 +5531,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "m20"
   },
   {
-    "id": 600082,
+    "id": 466836,
     "name": "Zephyr Charge",
     "collector_number": 82,
     "multiverse_ids": [
-      600082
+      466836
     ],
     "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/da749962-25f2-4ddc-9e55-bf74d216284e.jpg?1561481047"],
     "layout": "normal",
@@ -5552,7 +5552,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 1,
     "set": "m20"
   }
 ]

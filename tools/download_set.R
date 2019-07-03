@@ -88,8 +88,7 @@ download_cards <- function(cards,
       baseline <- switch(set,
         rna = 500000,
         war = 460927,
-        mh1 = 463949,
-        m20 = 600000,
+        mh1 = 463949
       )
       multiverse_ids <- list(baseline + collector_number)
     }
