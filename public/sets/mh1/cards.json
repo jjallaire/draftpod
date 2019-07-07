@@ -327,7 +327,7 @@
     ],
     "latent_color": "W",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -346,7 +346,7 @@
     "colors": [],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -409,7 +409,7 @@
     ],
     "latent_color": "B",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -491,7 +491,7 @@
     ],
     "latent_color": "U",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -619,7 +619,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mh1"
   },
   {
@@ -745,7 +745,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mh1"
   },
   {
@@ -936,7 +936,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "mh1"
   },
   {
@@ -1147,7 +1147,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -1188,7 +1188,7 @@
     "colors": [],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -1315,7 +1315,7 @@
     ],
     "latent_color": "U",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "mh1"
   },
   {
@@ -1378,7 +1378,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -1460,7 +1460,7 @@
     "colors": [],
     "latent_color": null,
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -1479,7 +1479,7 @@
     "colors": [],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -1647,7 +1647,7 @@
     ],
     "latent_color": "U",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -1858,7 +1858,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 0.5,
+    "rating": 1,
     "set": "mh1"
   },
   {
@@ -2135,7 +2135,7 @@
     ],
     "latent_color": null,
     "rarity": "mythic",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mh1"
   },
   {
@@ -2219,7 +2219,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -2262,7 +2262,7 @@
     ],
     "latent_color": "G",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -2345,7 +2345,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -2770,7 +2770,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -2896,7 +2896,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mh1"
   },
   {
@@ -2917,7 +2917,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -3125,7 +3125,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -3167,7 +3167,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -3443,7 +3443,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -3630,7 +3630,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -3693,7 +3693,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -3735,7 +3735,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -3778,7 +3778,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -4016,7 +4016,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 4,
     "set": "mh1"
   },
   {
@@ -4142,7 +4142,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "mh1"
   },
   {
@@ -4329,7 +4329,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -4351,7 +4351,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -4505,7 +4505,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -4695,7 +4695,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "mh1"
   },
   {
@@ -4716,7 +4716,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -4884,7 +4884,7 @@
     ],
     "latent_color": null,
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 3.5,
     "set": "mh1"
   },
   {
@@ -5031,7 +5031,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "mh1"
   },
   {
@@ -5094,7 +5094,7 @@
     ],
     "latent_color": "R",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -5221,7 +5221,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -5242,7 +5242,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 4,
     "set": "mh1"
   },
   {

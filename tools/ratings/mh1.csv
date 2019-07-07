@@ -16,7 +16,7 @@
 463964,"Irregular Cohort",3.5
 463965,"King of the Pride",2
 463966,"Knight of Old Benalia",1.5
-463967,"Lancer Sliver",3
+463967,"Lancer Sliver",2.5
 463968,"Martyr's Soul",2
 463969,"On Thin Ice",3.5
 463970,"Ranger-Captain of Eos",3.5
@@ -25,17 +25,17 @@
 463973,"Rhox Veteran",3.5
 463974,"Segovian Angel",1
 463975,"Serra the Benevolent",4.5
-463976,"Settle Beyond Reality",3.5
-463977,"Shelter",1.5
+463976,"Settle Beyond Reality",3
+463977,"Shelter",2
 463978,"Sisay, Weatherlight Captain",0.5
 463979,"Soul-Strike Technique",0.5
 463980,"Splicer's Skill",3
 463981,"Stirring Address",1.5
-463982,"Trustworthy Scout",1
+463982,"Trustworthy Scout",0.5
 463983,"Valiant Changeling",3
 463984,"Vesperlark",2.5
 463985,"Wall of One Thousand Cuts",1
-463986,"Winds of Abandon",4.5
+463986,"Winds of Abandon",4
 463987,"Wing Shards",3
 463988,"Zhalfirin Decoy",1.5
 463989,"Archmage's Charm",2
@@ -49,7 +49,7 @@
 463997,"Exclude",3
 463998,"Eyekite",2.5
 463999,"Fact or Fiction",3.5
-464000,"Faerie Seer",2.5
+464000,"Faerie Seer",2
 464001,"Force of Negation",2.5
 464002,"Future Sight",3.5
 464003,"Iceberg Cancrix",1.5
@@ -59,11 +59,11 @@
 464007,"Mist-Syndicate Naga",4
 464008,"Moonblade Shinobi",3
 464009,"Oneirophage",3.5
-464010,"Phantasmal Form",1.5
-464011,"Phantom Ninja",2.5
+464010,"Phantasmal Form",1
+464011,"Phantom Ninja",3
 464012,"Pondering Mage",3
 464013,"Prohibit",1
-464014,"Rain of Revelation",2.5
+464014,"Rain of Revelation",3
 464015,"Rebuild",0
 464016,"Scour All Possibilities",2.5
 464017,"Scuttling Sliver",1.5
@@ -73,21 +73,21 @@
 464021,"String of Disappearances",2.5
 464022,"Tribute Mage",1
 464023,"Twisted Reflection",3
-464024,"Urza, Lord High Artificer",4
+464024,"Urza, Lord High Artificer",3.5
 464025,"Watcher for Tomorrow",3.5
 464026,"Windcaller Aven",3
 464027,"Winter's Rest",3
 464028,"Azra Smokeshaper",2
 464029,"Cabal Therapist",1
 464030,"Carrion Feeder",2
-464031,"Changeling Outcast",2.5
+464031,"Changeling Outcast",3
 464032,"Cordial Vampire",3
 464033,"Crypt Rats",3.5
-464034,"Dead of Winter",3
+464034,"Dead of Winter",3.5
 464035,"Defile",4
 464036,"Diabolic Edict",1.5
 464037,"Dregscape Sliver",2
-464038,"Endling",4
+464038,"Endling",4.5
 464039,"Feaster of Fools",3.5
 464040,"First-Sphere Gargantua",1.5
 464041,"Force of Despair",3.5
@@ -100,7 +100,7 @@
 464048,"Ninja of the New Moon",1.5
 464049,"Plague Engineer",3.5
 464050,"Putrid Goblin",3
-464051,"Rank Officer",1.5
+464051,"Rank Officer",2
 464052,"Ransack the Lab",1.5
 464053,"Return from Extinction",2
 464054,"Sadistic Obsession",1
@@ -113,16 +113,16 @@
 464061,"Undead Augur",3
 464062,"Unearth",2
 464063,"Venomous Changeling",3
-464064,"Warteye Witch",1.5
+464064,"Warteye Witch",2
 464065,"Yawgmoth, Thran Physician",4.5
 464066,"Alpine Guide",3
 464067,"Aria of Flame",0
 464068,"Bladeback Sliver",2
-464069,"Bogardan Dragonheart",3
+464069,"Bogardan Dragonheart",2.5
 464070,"Cleaving Sliver",2
 464071,"Firebolt",4
-464072,"Fists of Flame",1
-464073,"Force of Rage",1
+464072,"Fists of Flame",0.5
+464073,"Force of Rage",1.5
 464074,"Geomancer's Gambit",0
 464075,"Goatnap",1
 464076,"Goblin Champion",1
@@ -132,7 +132,7 @@
 464080,"Goblin War Party",3
 464081,"Hollowhead Sliver",2.5
 464082,"Igneous Elemental",3
-464083,"Lava Dart",2
+464083,"Lava Dart",2.5
 464084,"Magmatic Sinkhole",3.5
 464085,"Orcish Hellraiser",2.5
 464086,"Ore-Scale Guardian",3
@@ -152,11 +152,11 @@
 464100,"Urza's Rage",3.5
 464101,"Vengeful Devil",1.5
 464102,"Viashino Sandsprinter",1
-464103,"Volatile Claws",0
+464103,"Volatile Claws",0.5
 464104,"Ayula, Queen Among Bears",4.5
 464105,"Ayula's Influence",3
-464106,"Bellowing Elk",2
-464107,"Collector Ouphe",1.5
+464106,"Bellowing Elk",1.5
+464107,"Collector Ouphe",1
 464108,"Conifer Wurm",3
 464109,"Crashing Footfalls",4
 464110,"Deep Forest Hermit",4.5
@@ -165,7 +165,7 @@
 464113,"Force of Vigor",0
 464114,"Frostwalla",2.5
 464115,"Genesis",4.5
-464116,"Glacial Revelation",1.5
+464116,"Glacial Revelation",2
 464117,"Hexdrinker",5
 464118,"Krosan Tusker",3.5
 464119,"Llanowar Tribe",1.5
@@ -178,20 +178,20 @@
 464126,"Saddled Rimestag",3.5
 464127,"Savage Swipe",3
 464128,"Scale Up",3
-464129,"Spore Frog",0.5
+464129,"Spore Frog",1
 464130,"Springbloom Druid",3.5
 464131,"Squirrel Nest",3.5
 464132,"Tempered Sliver",3
-464133,"Thornado",1
+464133,"Thornado",1.5
 464134,"Treefolk Umbra",1
 464135,"Treetop Ambusher",1.5
 464136,"Trumpeting Herd",3.5
-464137,"Twin-Silk Spider",3
+464137,"Twin-Silk Spider",2.5
 464138,"Unbound Flourishing",1
 464139,"Wall of Blossoms",3
 464140,"Weather the Storm",0
 464141,"Webweaver Changeling",3
-464142,"Winding Way",1.5
+464142,"Winding Way",2
 464143,"Abominable Treefolk",3.5
 464144,"Cloudshredder Sliver",3.5
 464145,"Collected Conjuring",0.5
@@ -204,32 +204,32 @@
 464152,"Ice-Fang Coatl",3.5
 464153,"Ingenious Infiltrator",3.5
 464154,"Kaya's Guile",3
-464155,"Kess, Dissident Mage",3
+464155,"Kess, Dissident Mage",3.5
 464156,"Lavabelly Sliver",3
 464157,"Lightning Skelemental",3
 464158,"Munitions Expert",3
 464159,"Nature's Chant",0
 464160,"Reap the Past",3
 464161,"Rotwidow Pack",3.5
-464162,"Ruination Rioter",2
-464163,"Soulherder",3.5
+464162,"Ruination Rioter",2.5
+464163,"Soulherder",4
 464164,"Thundering Djinn",3.5
 464165,"Unsettled Mariner",3
 464166,"Wrenn and Six",4
 464167,"Altar of Dementia",1.5
 464168,"Amorphous Axe",1
 464169,"Arcum's Astrolabe",2
-464170,"Birthing Boughs",2.5
-464171,"Farmstead Gleaner",2
-464172,"Fountain of Ichor",2
+464170,"Birthing Boughs",2
+464171,"Farmstead Gleaner",1.5
+464172,"Fountain of Ichor",1.5
 464173,"Icehide Golem",1
 464174,"Lesser Masticore",3
 464175,"Mox Tantalite",1
 464176,"Scrapyard Recombiner",1
 464177,"Sword of Sinew and Steel",4
 464178,"Sword of Truth and Justice",4
-464179,"Talisman of Conviction",2.5
-464180,"Talisman of Creativity",2
+464179,"Talisman of Conviction",3
+464180,"Talisman of Creativity",1.5
 464181,"Talisman of Curiosity",2
 464182,"Talisman of Hierarchy",1.5
 464183,"Talisman of Resilience",2
@@ -238,13 +238,13 @@
 464186,"Cave of Temptation",1
 464187,"Fiery Islet",3
 464188,"Forgotten Cave",2
-464189,"Frostwalk Bastion",2
-464190,"Hall of Heliod's Generosity",0.5
-464191,"Lonely Sandbar",2.5
-464192,"Nurturing Peatland",3.5
+464189,"Frostwalk Bastion",1.5
+464190,"Hall of Heliod's Generosity",1
+464191,"Lonely Sandbar",3
+464192,"Nurturing Peatland",3
 464193,"Prismatic Vista",3
-464194,"Secluded Steppe",3
-464195,"Silent Clearing",3
+464194,"Secluded Steppe",2.5
+464195,"Silent Clearing",2.5
 464196,"Sunbaked Canyon",3
 464197,"Tranquil Thicket",2.5
 464198,"Waterlogged Grove",3
