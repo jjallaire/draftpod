@@ -6,13 +6,14 @@
     "multiverse_ids": [
       430847
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/158.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/1/c191fb87-f111-4ac2-a52a-3af103a9314e.jpg?1562813458"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "You may cast nonland cards with cycling from your graveyard.\nIf a card with cycling would be put into your graveyard from anywhere and it wasn't cycled, exile it instead.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1,
     "set": "hou"
@@ -24,7 +25,7 @@
     "multiverse_ids": [
       430772
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/83.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84319dfb-eaf7-4b98-8c4f-30f5e779591b.jpg?1562805721"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Abrade deals 3 damage to target creature.\n• Destroy target artifact.",
@@ -33,6 +34,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 4,
     "set": "hou"
@@ -44,7 +46,7 @@
     "multiverse_ids": [
       430745
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/56.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/9/691b79ef-87da-4b52-8311-2f6f46c6368d.jpg?1562802157"],
     "layout": "normal",
     "type_line": "Creature — Zombie",
     "oracle_text": "{1}{B}: Target attacking Zombie gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)",
@@ -53,6 +55,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "hou"
@@ -64,7 +67,7 @@
     "multiverse_ids": [
       430690
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/1.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/e/bebc06f6-305d-4a5a-9be7-fbc6d8cd9c72.jpg?1562812962"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Untap target creature. It gets +2/+2 until end of turn and can block an additional creature this turn.",
@@ -73,6 +76,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -84,7 +88,7 @@
     "multiverse_ids": [
       430691
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/2.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/865e267d-450c-4eeb-b61d-bd0ec5d8534a.jpg?1562805775"],
     "layout": "normal",
     "type_line": "Creature — Cat",
     "oracle_text": "Double strike\nEternalize {3}{W}{W} ({3}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Cat with no mana cost. Eternalize only as a sorcery.)",
@@ -93,6 +97,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -104,7 +109,7 @@
     "multiverse_ids": [
       430718
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/29.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b744c138-9b9e-47f6-9d56-feb6a78ce377.jpg?1562812010"],
     "layout": "normal",
     "type_line": "Creature — Drake",
     "oracle_text": "Flying\nWhenever Aerial Guide attacks, another target attacking creature gains flying until end of turn.",
@@ -113,6 +118,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -124,7 +130,7 @@
     "multiverse_ids": [
       430799
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/110.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/f/cfc06303-cb35-4feb-b23d-7ac0a2fa7ce3.jpg?1562815158"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature you control gets +1/+0 until end of turn. It deals damage equal to its power to target creature an opponent controls.",
@@ -133,6 +139,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "hou"
@@ -144,7 +151,7 @@
     "multiverse_ids": [
       430746
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/57.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1b04934f-87d1-4768-b7b5-5f7249a09771.jpg?1562791269"],
     "layout": "normal",
     "type_line": "Creature — Zombie Crocodile Demon",
     "oracle_text": "Afflict 3 (Whenever this creature becomes blocked, defending player loses 3 life.)\nWhenever an opponent casts a spell, put a -1/-1 counter on Ammit Eternal.\nWhenever Ammit Eternal deals combat damage to a player, remove all -1/-1 counters from it.",
@@ -153,6 +160,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "hou"
@@ -164,7 +172,7 @@
     "multiverse_ids": [
       430692
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/3.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/90dad070-e41d-419b-ae27-ace82b9ab2c5.jpg?1562806932"],
     "layout": "normal",
     "type_line": "Creature — Angel",
     "oracle_text": "Flying, vigilance\n{2}{W}, {T}: Exile another target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.\n{2}{W}, {T}, Exert Angel of Condemnation: Exile another target creature until Angel of Condemnation leaves the battlefield. (An exerted creature won't untap during your next untap step.)",
@@ -173,6 +181,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "hou"
@@ -184,7 +193,7 @@
     "multiverse_ids": [
       430693
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/4.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/ad202785-a91f-4dc8-bcc0-eb1bd49f162e.jpg?1562810517"],
     "layout": "normal",
     "type_line": "Creature — Angel",
     "oracle_text": "Flying\nCycling {2} ({2}, Discard this card: Draw a card.)",
@@ -193,6 +202,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "hou"
@@ -204,7 +214,7 @@
     "multiverse_ids": [
       430747
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/58.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39dfbf99-55e8-468b-bcd9-9179cad7cab6.jpg?1562795456"],
     "layout": "normal",
     "type_line": "Creature — Demon",
     "oracle_text": "Flying\nApocalypse Demon's power and toughness are each equal to the number of cards in your graveyard.\nAt the beginning of your upkeep, tap Apocalypse Demon unless you sacrifice another creature.",
@@ -213,6 +223,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "hou"
@@ -224,7 +235,7 @@
     "multiverse_ids": [
       430841
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/152a.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c25b8ef-6331-49df-9457-b8b4e44da2c9.jpg?1562793920"],
     "layout": "split",
     "type_line": "Sorcery // Sorcery",
     "oracle_text": {},
@@ -234,6 +245,7 @@
       "G",
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -245,7 +257,7 @@
     "multiverse_ids": [
       430694
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/5.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/02c1310c-1b54-42dd-bf24-889770fa2ded.jpg?1562787311"],
     "layout": "normal",
     "type_line": "Creature — Bird Cleric",
     "oracle_text": "Flying\nWhen Aven of Enduring Hope enters the battlefield, you gain 3 life.",
@@ -254,6 +266,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "hou"
@@ -265,7 +278,7 @@
     "multiverse_ids": [
       430719
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/30.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f0c2d70a-d646-44eb-9f65-ddf6e329ab43.jpg?1562819676"],
     "layout": "normal",
     "type_line": "Creature — Bird Warrior",
     "oracle_text": "Flash\nFlying",
@@ -274,6 +287,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "hou"
@@ -285,7 +299,7 @@
     "multiverse_ids": [
       430748
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/59.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/005a19e2-c334-4b87-bc8b-55f62fc9abd9.jpg?1562787211"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "When Banewhip Punisher enters the battlefield, you may put a -1/-1 counter on target creature.\n{B}, Sacrifice Banewhip Punisher: Destroy target creature that has a -1/-1 counter on it.",
@@ -294,6 +308,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "hou"
@@ -305,7 +320,7 @@
     "multiverse_ids": [
       430800
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/111.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/9/e92c0cf0-df4a-4e50-8396-53713f925b53.jpg?1562818700"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.\nCycling {2} ({2}, Discard this card: Draw a card.)",
@@ -314,6 +329,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -325,7 +341,7 @@
     "multiverse_ids": [
       430801
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/112.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8ecfcf99-be2b-4e5f-adef-1977ee5c6a0f.jpg?1562806856"],
     "layout": "normal",
     "type_line": "Creature — Jackal Archer",
     "oracle_text": "Vigilance, reach",
@@ -334,6 +350,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "hou"
@@ -345,7 +362,7 @@
     "multiverse_ids": [
       430827
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/138.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/7/474d0a04-b640-4d1d-b538-2d946c1ff913.jpg?1562797637"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
     "oracle_text": "Flying\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen Bloodwater Entity enters the battlefield, you may put target instant or sorcery card from your graveyard on top of your library.",
@@ -355,6 +372,7 @@
       "R",
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "hou"
@@ -366,7 +384,7 @@
     "multiverse_ids": [
       430773
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/84.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b53f5b9b-d24b-4e9a-bc90-7ed198cd1132.jpg?1562811539"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Put a -1/-1 counter on target creature. Blur of Blades deals 2 damage to that creature's controller.",
@@ -375,6 +393,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -386,7 +405,7 @@
     "multiverse_ids": [
       430749
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/60.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1b4d0102-c0d6-4d50-941a-dd1c3575a3a8.jpg?1562791273"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Destroy all creatures. Lands you control don't untap during your next untap step.",
@@ -395,6 +414,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2,
     "set": "hou"
@@ -406,7 +426,7 @@
     "multiverse_ids": [
       430774
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/85.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/52f191fb-eaf6-432f-a668-37ad48ffabaf.jpg?1562799434"],
     "layout": "normal",
     "type_line": "Creature — Minotaur Wizard",
     "oracle_text": "First strike\n{1}{R}, Discard a card: Burning-Fist Minotaur gets +2/+0 until end of turn.",
@@ -415,6 +435,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "hou"
@@ -426,7 +447,7 @@
     "multiverse_ids": [
       430750
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/61.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/7/57b9e3a3-8d01-4273-9658-9ffcbc2d2297.jpg?1562799721"],
     "layout": "normal",
     "type_line": "Creature — Zombie Bird",
     "oracle_text": "Flying",
@@ -435,6 +456,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "hou"
@@ -446,7 +468,7 @@
     "multiverse_ids": [
       430720
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/31.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/7/d765221d-9718-47eb-aa49-9c0719337139.jpg?1562816531"],
     "layout": "normal",
     "type_line": "Creature — Naga Wizard",
     "oracle_text": "When Champion of Wits enters the battlefield, you may draw cards equal to its power. If you do, discard two cards.\nEternalize {5}{U}{U} ({5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Naga Wizard with no mana cost. Eternalize only as a sorcery.)",
@@ -455,6 +477,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -466,7 +489,7 @@
     "multiverse_ids": [
       430775
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/86.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/3/f38c6613-b1f7-4b38-b956-7860d041e593.jpg?1562820094"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Chandra's Defeat deals 5 damage to target red creature or red planeswalker. If that permanent is a Chandra planeswalker, you may discard a card. If you do, draw a card.",
@@ -475,6 +498,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0.5,
     "set": "hou"
@@ -486,7 +510,7 @@
     "multiverse_ids": [
       430776
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/87.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/8094908b-1d3a-42df-bc27-8456fbb98e65.jpg?1562805282"],
     "layout": "normal",
     "type_line": "Creature — Hellion",
     "oracle_text": "When Chaos Maw enters the battlefield, it deals 3 damage to each other creature.",
@@ -495,6 +519,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "hou"
@@ -506,7 +531,7 @@
     "multiverse_ids": [
       430839
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/150a.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/5/15b0f214-8668-4921-88ba-7ccf38c9f770.jpg?1562790415"],
     "layout": "split",
     "type_line": "Sorcery // Sorcery",
     "oracle_text": {},
@@ -516,6 +541,7 @@
       "B",
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "hou"
@@ -527,7 +553,7 @@
     "multiverse_ids": [
       430838
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/149a.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/c/1c1ead90-10d8-4217-80e4-6f40320c5569.jpg?1562791309"],
     "layout": "split",
     "type_line": "Instant // Sorcery",
     "oracle_text": {},
@@ -537,6 +563,7 @@
       "B",
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -548,7 +575,7 @@
     "multiverse_ids": [
       430721
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/32.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de1c0ef3-b32c-403a-93cb-29cf05795711.jpg?1562817497"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target spell unless its controller pays {1} for each card in your graveyard.\nCycling {2} ({2}, Discard this card: Draw a card.)",
@@ -557,6 +584,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "hou"
@@ -568,7 +596,7 @@
     "multiverse_ids": [
       430777
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/88.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4bdaba76-b98d-4699-9a5f-e59285b09552.jpg?1562798464"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Creatures you control gain trample until end of turn. (A creature with trample can deal excess combat damage to the player or planeswalker it's attacking.)\nDraw a card.",
@@ -577,6 +605,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -588,7 +617,7 @@
     "multiverse_ids": [
       430695
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/6.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/3/732fa4c9-11da-4bdb-96af-aa37c74be25f.jpg?1562803341"],
     "layout": "normal",
     "type_line": "Creature — Horse",
     "oracle_text": "Other Horses you control have indestructible.\nAt the beginning of each end step, if you gained life this turn, create a 5/5 white Horse creature token.",
@@ -597,6 +626,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 3,
     "set": "hou"
@@ -608,13 +638,14 @@
     "multiverse_ids": [
       430848
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/159.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/78f6d7c2-ee4f-4cd0-a9a2-d8469ff89291.jpg?1562804264"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{1}, {T}: Exile target card from a graveyard.\n{1}, Exile Crook of Condemnation: Exile all cards from all graveyards.",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0,
     "set": "hou"
@@ -626,7 +657,7 @@
     "multiverse_ids": [
       430858
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/169.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/cab5b199-e79d-4ca9-970c-cfd9df8fd1e4.jpg?1562814658"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "When Crypt of the Eternals enters the battlefield, you gain 1 life.\n{T}: Add {C}.\n{1}, {T}: Add {U}, {B}, or {R}.",
@@ -637,6 +668,7 @@
       "R",
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "hou"
@@ -648,7 +680,7 @@
     "multiverse_ids": [
       430722
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/33.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2f9093e7-c129-4efa-9f25-a2366f92e15a.jpg?1562794420"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Whenever you cycle or discard a card, Cunning Survivor gets +1/+0 until end of turn and can't be blocked this turn.",
@@ -657,6 +689,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -668,13 +701,14 @@
     "multiverse_ids": [
       430849
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/160.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/abe9d9d7-bc4e-4367-b27c-e8d6e430467e.jpg?1562810453"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "Equipped creature gets +2/+0 and has afflict 1. (Whenever it becomes blocked, defending player loses 1 life.)\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -686,7 +720,7 @@
     "multiverse_ids": [
       430696
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/7.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01e6320c-6f8b-4582-ad11-9b868bff08a1.jpg?1562787286"],
     "layout": "normal",
     "type_line": "Creature — Bird Warrior",
     "oracle_text": "Flying\nWhenever Dauntless Aven attacks, untap target creature you control.",
@@ -695,6 +729,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -706,7 +741,7 @@
     "multiverse_ids": [
       430778
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/89.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/67e3983d-b1ed-46a9-9ab0-96c4d0d77050.jpg?1562802117"],
     "layout": "normal",
     "type_line": "Creature — Jackal Warrior",
     "oracle_text": "",
@@ -715,6 +750,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0.5,
     "set": "hou"
@@ -726,7 +762,7 @@
     "multiverse_ids": [
       430859
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/170.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/5/f547d664-25ce-4a24-b3ae-7bf3cbdf4703.jpg?1562820130"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "Desert of the Fervent enters the battlefield tapped.\n{T}: Add {R}.\nCycling {1}{R} ({1}{R}, Discard this card: Draw a card.)",
@@ -735,6 +771,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "hou"
@@ -746,7 +783,7 @@
     "multiverse_ids": [
       430860
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/171.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/04a19aea-209d-4354-8c59-d08244185eb8.jpg?1562787757"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "Desert of the Glorified enters the battlefield tapped.\n{T}: Add {B}.\nCycling {1}{B} ({1}{B}, Discard this card: Draw a card.)",
@@ -755,6 +792,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -766,7 +804,7 @@
     "multiverse_ids": [
       430861
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/172.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d42aa0c-0408-4b0d-bec5-9861dbcf9ee1.jpg?1562804804"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "Desert of the Indomitable enters the battlefield tapped.\n{T}: Add {G}.\nCycling {1}{G} ({1}{G}, Discard this card: Draw a card.)",
@@ -775,6 +813,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "hou"
@@ -786,7 +825,7 @@
     "multiverse_ids": [
       430862
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/173.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/1/91b92d87-776c-490f-9ff1-234e47145df8.jpg?1562806981"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "Desert of the Mindful enters the battlefield tapped.\n{T}: Add {U}.\nCycling {1}{U} ({1}{U}, Discard this card: Draw a card.)",
@@ -795,6 +834,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "hou"
@@ -806,7 +846,7 @@
     "multiverse_ids": [
       430863
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/174.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/2/e2d9308c-8af4-4587-b740-aea874d5ccae.jpg?1562818150"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "Desert of the True enters the battlefield tapped.\n{T}: Add {W}.\nCycling {1}{W} ({1}{W}, Discard this card: Draw a card.)",
@@ -815,6 +855,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "hou"
@@ -826,7 +867,7 @@
     "multiverse_ids": [
       430697
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/8.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/8082298e-05c4-48b3-9367-713f59aafdc6.jpg?1562805272"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nWhen Desert's Hold enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you gain 3 life.\nEnchanted creature can't attack or block, and its activated abilities can't be activated.",
@@ -835,6 +876,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -846,7 +888,7 @@
     "multiverse_ids": [
       430802
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/113.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/7/977698ab-3b64-41f2-a214-ac95e04c9956.jpg?1562807840"],
     "layout": "normal",
     "type_line": "Creature — Naga Wizard",
     "oracle_text": "{4}{G}: Target creature gets +2/+2 until end of turn.",
@@ -855,6 +897,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -866,7 +909,7 @@
     "multiverse_ids": [
       430698
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/9.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/ad806d67-4c98-438b-859f-b1358281e09d.jpg?1562810537"],
     "layout": "normal",
     "type_line": "Creature — Zombie Jackal",
     "oracle_text": "When Disposal Mummy enters the battlefield, exile target card from an opponent's graveyard.",
@@ -875,6 +918,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0.5,
     "set": "hou"
@@ -886,7 +930,7 @@
     "multiverse_ids": [
       430700
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/11.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/03f005de-7971-4f22-ad1f-5d0667f68113.jpg?1562787706"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Tap up to two target creatures.\nCycling {W} ({W}, Discard this card: Draw a card.)",
@@ -895,6 +939,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "hou"
@@ -906,7 +951,7 @@
     "multiverse_ids": [
       430699
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/10.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/2/2234df89-0835-4a17-b5d8-2334ee8f692d.jpg?1562792235"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Warrior",
     "oracle_text": "Vigilance\nWhen Djeru, With Eyes Open enters the battlefield, you may search your library for a planeswalker card, reveal it, put it into your hand, then shuffle your library.\nIf a source would deal damage to a planeswalker you control, prevent 1 of that damage.",
@@ -915,6 +960,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "hou"
@@ -926,7 +972,7 @@
     "multiverse_ids": [
       430751
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/62.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/7/17db6ef5-1aa9-4b8c-b0b7-d6668a2347a1.jpg?1562790796"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Choose one —\n• Target opponent exiles a creature they control.\n• Target opponent reveals their hand. You choose a nonland card from it. Exile that card.",
@@ -935,6 +981,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "hou"
@@ -946,7 +993,7 @@
     "multiverse_ids": [
       430752
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/63.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c4fcde3-03c9-43e6-a34b-29f6ce44e7c4.jpg?1562800279"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "oracle_text": "Menace\nWhenever Dreamstealer deals combat damage to a player, that player discards that many cards.\nEternalize {4}{B}{B} ({4}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.)",
@@ -955,6 +1002,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -966,7 +1014,7 @@
     "multiverse_ids": [
       430846
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/157a.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/7/7713ba59-dd4c-4b49-93a7-292728df86b8.jpg?1562803886"],
     "layout": "split",
     "type_line": "Sorcery // Sorcery",
     "oracle_text": {},
@@ -976,6 +1024,7 @@
       "B",
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "hou"
@@ -987,7 +1036,7 @@
     "multiverse_ids": [
       430803
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/114.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01818188-e18e-4dc0-b7ef-34cedef64f7e.jpg?1562787266"],
     "layout": "normal",
     "type_line": "Creature — Naga Cleric",
     "oracle_text": "{1}, Tap an untapped Desert you control: You gain 1 life.",
@@ -996,6 +1045,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "hou"
@@ -1007,13 +1057,14 @@
     "multiverse_ids": [
       430864
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/175.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/326c7483-2c45-4804-85c4-d40ecdba4fc7.jpg?1562794879"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "{T}: Add {C}.\nWhen Dunes of the Dead is put into a graveyard from the battlefield, create a 2/2 black Zombie creature token.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "hou"
@@ -1025,7 +1076,7 @@
     "multiverse_ids": [
       430701
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/12.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/7684db4c-6eff-4da1-a410-48d707fb5bf1.jpg?1562803856"],
     "layout": "normal",
     "type_line": "Creature — Zombie",
     "oracle_text": "",
@@ -1034,6 +1085,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "hou"
@@ -1045,7 +1097,7 @@
     "multiverse_ids": [
       430779
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/90.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/d/0d60eabe-b281-4eba-9c26-287364ed2067.jpg?1562789387"],
     "layout": "normal",
     "type_line": "Creature — Jackal Warrior",
     "oracle_text": "Haste\nWhen Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra's power can't block this turn.\nEternalize {4}{R}{R} ({4}{R}{R}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)",
@@ -1054,6 +1106,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -1065,13 +1118,14 @@
     "multiverse_ids": [
       430865
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/176.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9ebd3e0a-30cc-4bc1-b9fa-6d65db9a6f5b.jpg?1562808778"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "{T}: Add {C}.\n{2}, {T}: Exile target creature you control.\n{4}, {T}, Sacrifice Endless Sands: Return each creature card exiled with Endless Sands to the battlefield under its owner's control.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2,
     "set": "hou"
@@ -1083,7 +1137,7 @@
     "multiverse_ids": [
       430723
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/34.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/0389daf7-0818-488f-8e6a-94818a6c94a6.jpg?1562787671"],
     "layout": "normal",
     "type_line": "Creature — Zombie Cleric",
     "oracle_text": "Afflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)\nWhenever Eternal of Harsh Truths attacks and isn't blocked, draw a card.",
@@ -1092,6 +1146,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 4,
     "set": "hou"
@@ -1103,7 +1158,7 @@
     "multiverse_ids": [
       430837
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/148a.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/9/d998db65-8785-4ee9-940e-fa9ab62e180f.jpg?1562816967"],
     "layout": "split",
     "type_line": "Instant // Sorcery",
     "oracle_text": {},
@@ -1113,6 +1168,7 @@
       "U",
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "hou"
@@ -1124,7 +1180,7 @@
     "multiverse_ids": [
       430804
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/115.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/ba0431ad-185a-4917-b994-e58dd9850f5e.jpg?1562812416"],
     "layout": "normal",
     "type_line": "Creature — Cat",
     "oracle_text": "When Feral Prowler dies, draw a card.",
@@ -1133,6 +1189,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "hou"
@@ -1144,7 +1201,7 @@
     "multiverse_ids": [
       430780
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/91.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/3/e3c78708-254c-446f-b6eb-8839faf08790.jpg?1562818175"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "oracle_text": "{T}: Fervent Paincaster deals 1 damage to target player or planeswalker.\n{T}, Exert Fervent Paincaster: It deals 1 damage to target creature. (An exerted creature won't untap during your next untap step.)",
@@ -1153,6 +1210,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "hou"
@@ -1164,7 +1222,7 @@
     "multiverse_ids": [
       430781
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/92.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/d/6ddc6b73-298b-4afa-990a-63706e77dd9f.jpg?1562803040"],
     "layout": "normal",
     "type_line": "Creature — Human Archer",
     "oracle_text": "Whenever you cast a noncreature spell, Firebrand Archer deals 1 damage to each opponent.",
@@ -1173,6 +1231,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -1184,7 +1243,7 @@
     "multiverse_ids": [
       430887
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/198.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c5cbd941-53ab-4b02-b96c-a9af7767e606.jpg?1562814080"],
     "layout": "normal",
     "type_line": "Basic Land — Forest",
     "oracle_text": "({T}: Add {G}.)",
@@ -1193,6 +1252,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "hou"
@@ -1204,7 +1264,7 @@
     "multiverse_ids": [
       430724
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/35.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/9/79e5c1ab-eebd-41ca-a1ca-29b00370f6e8.jpg?1562804295"],
     "layout": "normal",
     "type_line": "Enchantment — Aura Curse",
     "oracle_text": "Enchant player\nAt the beginning of each end step, enchanted player puts the top X cards of their library into their graveyard, where X is the number of cards put into that graveyard from anywhere this turn.",
@@ -1213,6 +1273,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2,
     "set": "hou"
@@ -1224,7 +1285,7 @@
     "multiverse_ids": [
       430805
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/116.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/07b1be52-5e54-4840-bb53-0b2512785e0b.jpg?1562788221"],
     "layout": "normal",
     "type_line": "Creature — Lizard",
     "oracle_text": "{1}{G}: Frilled Sandwalla gets +2/+2 until end of turn. Activate this ability only once each turn.",
@@ -1233,6 +1294,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "hou"
@@ -1244,7 +1306,7 @@
     "multiverse_ids": [
       430782
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/93.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c869cc4-eed9-4b24-b60f-2d7f85b885dc.jpg?1562806662"],
     "layout": "normal",
     "type_line": "Creature — Zombie Minotaur Warrior",
     "oracle_text": "Afflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)\n{1}{R}: Frontline Devastator gets +1/+0 until end of turn.",
@@ -1253,6 +1315,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "hou"
@@ -1264,7 +1327,7 @@
     "multiverse_ids": [
       430702
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/13.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/7/4722eb81-1aa1-4863-8dfb-d9d6035bd6c6.jpg?1562797622"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Exile target white creature that's attacking or blocking. If it was a Gideon planeswalker, you gain 5 life.",
@@ -1273,6 +1336,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0,
     "set": "hou"
@@ -1284,7 +1348,7 @@
     "multiverse_ids": [
       430806
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/117.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/b/3b779620-6bac-445e-a6fe-6d770c0a9c70.jpg?1562795860"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +3/+3 and gains reach until end of turn.",
@@ -1293,6 +1357,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -1304,7 +1369,7 @@
     "multiverse_ids": [
       430783
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/94.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f68c8fbd-9223-447d-a85c-fa6222c75277.jpg?1562820187"],
     "layout": "normal",
     "type_line": "Creature — Beast",
     "oracle_text": "Whenever Gilded Cerodon attacks, if you control a Desert or there is a Desert card in your graveyard, target creature can't block this turn.",
@@ -1313,6 +1378,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "hou"
@@ -1324,7 +1390,7 @@
     "multiverse_ids": [
       430703
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/14.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9cb8a25b-2ad0-4ffe-b41a-6b3f8b48c1e9.jpg?1562808372"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "oracle_text": "Whenever you cast a blue, black, or red spell, you gain 1 life.",
@@ -1333,6 +1399,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "hou"
@@ -1344,13 +1411,14 @@
     "multiverse_ids": [
       430850
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/161.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/2/b2e85a9e-4c37-4721-b7ea-de3413ec39df.jpg?1562811437"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "At the beginning of combat on your turn, you may exile a creature card from your graveyard. If you do, create a token that's a copy of that card, except it's a 4/4 black Zombie. It gains haste until end of turn.",
     "mana_cost": "{7}",
     "cmc": 7,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "hou"
@@ -1362,7 +1430,7 @@
     "multiverse_ids": [
       430784
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/95.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/0/607bdb54-a956-4a9c-89cf-af6f1163b856.jpg?1562801108"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
     "oracle_text": "Menace\nCycling {2} ({2}, Discard this card: Draw a card.)",
@@ -1371,6 +1439,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "hou"
@@ -1382,13 +1451,14 @@
     "multiverse_ids": [
       430851
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/162.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/89880f30-aa38-4231-8d16-25c644bde6bf.jpg?1562806209"],
     "layout": "normal",
     "type_line": "Artifact Creature — Horror",
     "oracle_text": "Whenever Graven Abomination attacks, exile target card from defending player's graveyard.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -1400,7 +1470,7 @@
     "multiverse_ids": [
       430844
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/155a.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/0383401f-d453-4e8f-82d2-5c016acc2591.jpg?1562787667"],
     "layout": "split",
     "type_line": "Sorcery // Sorcery",
     "oracle_text": {},
@@ -1410,6 +1480,7 @@
       "B",
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "hou"
@@ -1421,7 +1492,7 @@
     "multiverse_ids": [
       430753
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/64.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/035ee44d-63ef-45b7-b36b-38ac341a2ca7.jpg?1562787663"],
     "layout": "normal",
     "type_line": "Creature — Minotaur Warrior",
     "oracle_text": "Whenever you cycle or discard a card, Grisly Survivor gets +2/+0 until end of turn.",
@@ -1430,6 +1501,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -1441,7 +1513,7 @@
     "multiverse_ids": [
       430807
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/118.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bcdc68c9-f5f3-4c5b-80df-85508cf15f84.jpg?1562812890"],
     "layout": "normal",
     "type_line": "Creature — Naga Warrior",
     "oracle_text": "",
@@ -1450,6 +1522,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -1461,7 +1534,7 @@
     "multiverse_ids": [
       430866
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/177.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/b/3bba75d2-3f1b-4828-be11-2da695f7bde7.jpg?1562795864"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add {G}.\n{1}{G}{G}, {T}, Sacrifice a Desert: Target creature gets +3/+3 until end of turn. Activate this ability only any time you could cast a sorcery.",
@@ -1470,6 +1543,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "hou"
@@ -1481,7 +1555,7 @@
     "multiverse_ids": [
       430785
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/96.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7f578576-19ca-4e67-94da-2c0767d9a2bb.jpg?1562805233"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Shuffle your library, then exile the top four cards. You may cast any number of nonland cards with converted mana cost 5 or less from among them without paying their mana costs. Lands you control don't untap during your next untap step.",
@@ -1490,6 +1564,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "hou"
@@ -1501,13 +1576,14 @@
     "multiverse_ids": [
       430852
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/163.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/3/43fe9c6d-4fa2-4f9a-9025-1bf12fe7ed9f.jpg?1562797493"],
     "layout": "normal",
     "type_line": "Artifact Creature — Golem",
     "oracle_text": "This spell costs {2} less to cast for each card you've cycled or discarded this turn.\nCycling {2} ({2}, Discard this card: Draw a card.)",
     "mana_cost": "{5}",
     "cmc": 5,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1,
     "set": "hou"
@@ -1519,7 +1595,7 @@
     "multiverse_ids": [
       430808
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/119.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/f/9ffb676d-54b7-4d30-9c84-ff9b48030705.jpg?1562808877"],
     "layout": "normal",
     "type_line": "Creature — Human Druid",
     "oracle_text": "{1}, {T}: Untap target land.\n{1}, {T}, Exert Hope Tender: Untap two target lands. (An exerted creature won't untap during your next untap step.)",
@@ -1528,6 +1604,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -1539,13 +1616,14 @@
     "multiverse_ids": [
       430867
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/178.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/5/250c35cb-77e7-4600-a915-ccf327fe3385.jpg?1562792363"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "{T}: Add {C}.\n{2}, Exile a land card from your graveyard: Hostile Desert becomes a 3/4 Elemental creature until end of turn. It's still a land.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1,
     "set": "hou"
@@ -1557,7 +1635,7 @@
     "multiverse_ids": [
       430786
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/97.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d420cc12-cfd7-4007-a0c2-b16c8f63a754.jpg?1562816057"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "All creatures lose indestructible until end of turn. Hour of Devastation deals 5 damage to each creature and each non-Bolas planeswalker.",
@@ -1566,6 +1644,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -1577,7 +1656,7 @@
     "multiverse_ids": [
       430725
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/36.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01040ed3-4f64-4e47-8f80-3d3a339004f7.jpg?1562787241"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Exile X target creature cards from your graveyard. For each card exiled this way, create a token that's a copy of that card, except it's a 4/4 black Zombie.",
@@ -1586,6 +1665,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "hou"
@@ -1597,7 +1677,7 @@
     "multiverse_ids": [
       430754
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/65.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/3/f35e66cb-af50-411a-b6f2-16fb7072eff5.jpg?1562820090"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Exile target creature. If that creature was a God, its controller reveals their hand and exiles all cards from it with the same name as that creature.",
@@ -1606,6 +1686,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -1617,7 +1698,7 @@
     "multiverse_ids": [
       430809
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/120.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c5ee374f-31dc-4b2c-beba-431d5b1126d0.jpg?1562814095"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Search your library for up to two land cards, put them onto the battlefield tapped, then shuffle your library. Then if you control three or more Deserts, create two 2/2 black Zombie creature tokens.",
@@ -1626,6 +1707,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2.5,
     "set": "hou"
@@ -1637,7 +1719,7 @@
     "multiverse_ids": [
       430704
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/15.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/89a89652-95ef-45b4-80c3-02241483f3c0.jpg?1562806223"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "This spell costs {3} less to cast if there are ten or more nonland permanents on the battlefield.\nDestroy all nonland permanents.",
@@ -1646,6 +1728,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "hou"
@@ -1657,7 +1740,7 @@
     "multiverse_ids": [
       430868
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/179.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b88728b-9b18-40c6-b634-f87f8da83665.jpg?1562788706"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add {B}.\n{2}{B}{B}, {T}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery.",
@@ -1666,6 +1749,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "hou"
@@ -1677,7 +1761,7 @@
     "multiverse_ids": [
       430726
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/37.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50c3a6a5-9a50-4a38-9f5f-b8caa320909d.jpg?1562799019"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Creatures target opponent controls attack this turn if able. During that player's next untap step, creatures they control don't untap.\nCycling {2} ({2}, Discard this card: Draw a card.)",
@@ -1686,6 +1770,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "hou"
@@ -1697,7 +1782,7 @@
     "multiverse_ids": [
       430787
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/98.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a51f8207-485e-4a4e-aa62-8e0e69645a0e.jpg?1562809390"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Imminent Doom enters the battlefield with a doom counter on it.\nWhenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to any target. Then put a doom counter on Imminent Doom.",
@@ -1706,6 +1791,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "hou"
@@ -1717,7 +1803,7 @@
     "multiverse_ids": [
       430788
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/99.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/c/0c6a43fe-369d-4943-a825-570eb3cceba4.jpg?1562788752"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Inferno Jet deals 6 damage to target opponent or planeswalker.\nCycling {2} ({2}, Discard this card: Draw a card.)",
@@ -1726,6 +1812,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "hou"
@@ -1737,7 +1824,7 @@
     "multiverse_ids": [
       430869
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/180.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/0/203011ef-3737-4fd1-bd23-0e531b5a7c32.jpg?1562791814"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add {U}.\n{1}{U}, {T}, Sacrifice a Desert: Target player puts the top four cards of their library into their graveyard.",
@@ -1746,6 +1833,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0.5,
     "set": "hou"
@@ -1757,7 +1845,7 @@
     "multiverse_ids": [
       430881
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/192.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0a4717cd-f9a7-4386-9091-d25218e23d79.jpg?1562788639"],
     "layout": "normal",
     "type_line": "Basic Land — Island",
     "oracle_text": "({T}: Add {U}.)",
@@ -1766,6 +1854,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "hou"
@@ -1777,7 +1866,7 @@
     "multiverse_ids": [
       430727
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/38.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/6/c6b103c1-9b25-4bfe-9081-570977e9fdad.jpg?1562814148"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target blue spell. If it was a Jace planeswalker spell, scry 2.",
@@ -1786,6 +1875,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "hou"
@@ -1797,7 +1887,7 @@
     "multiverse_ids": [
       430728
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/39.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/d/4d7e5103-ee7d-40d7-bcd4-c5d1a48e9821.jpg?1562798541"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Gain control of target artifact, creature, or enchantment. Lands you control don't untap during your next untap step.",
@@ -1806,6 +1896,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1,
     "set": "hou"
@@ -1817,7 +1908,7 @@
     "multiverse_ids": [
       430755
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/66.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/abbdc277-4a76-44a9-aeda-edabab1f579e.jpg?1562810349"],
     "layout": "normal",
     "type_line": "Creature — Zombie Jackal Warrior",
     "oracle_text": "Afflict 1 (Whenever this creature becomes blocked, defending player loses 1 life.)",
@@ -1826,6 +1917,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -1837,7 +1929,7 @@
     "multiverse_ids": [
       430789
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/100.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/5/e5d4caac-95e8-47bb-90c4-3bf877afdc57.jpg?1562818226"],
     "layout": "normal",
     "type_line": "Creature — Jackal Warrior",
     "oracle_text": "Menace\nYou may exert Khenra Scrapper as it attacks. When you do, it gets +2/+0 until end of turn. (An exerted creature won't untap during your next untap step.)",
@@ -1846,6 +1938,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -1857,7 +1950,7 @@
     "multiverse_ids": [
       430790
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/101.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/f/cffb2c38-76b0-4d5f-a4d1-e2494f4be192.jpg?1562815498"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +1/+0 and gains first strike until end of turn.",
@@ -1866,6 +1959,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "hou"
@@ -1877,7 +1971,7 @@
     "multiverse_ids": [
       430842
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/153a.jpg?1525704240"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/9/f928e8e8-aa20-402c-85bd-59106e9b9cc7.jpg?1562820622"],
     "layout": "split",
     "type_line": "Instant // Sorcery",
     "oracle_text": {},
@@ -1887,6 +1981,7 @@
       "R",
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "hou"
@@ -1898,7 +1993,7 @@
     "multiverse_ids": [
       430756
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/67.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/a/eaded6bf-2db7-4b1d-93cc-4b7b571cd2de.jpg?1562819094"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "As an additional cost to cast this spell, put a -1/-1 counter on a creature you control.\nDestroy target creature.",
@@ -1907,6 +2002,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -1918,7 +2014,7 @@
     "multiverse_ids": [
       430810
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/121.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f39c264-a9a5-46f3-bd67-01d93d69e457.jpg?1562800739"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "You gain 4 life. If a creature died this turn, you gain 8 life instead.",
@@ -1927,6 +2023,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "hou"
@@ -1938,7 +2035,7 @@
     "multiverse_ids": [
       430757
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/68.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f72b028-b9df-40c7-822f-4acc6bdcc719.jpg?1562789479"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Destroy target black creature or black planeswalker. If that permanent was a Liliana planeswalker, her controller loses 3 life.",
@@ -1947,6 +2044,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0.5,
     "set": "hou"
@@ -1958,7 +2056,7 @@
     "multiverse_ids": [
       430758
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/69.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/f/9f06be97-71c8-46c8-a1c2-5da3af25e6de.jpg?1562808809"],
     "layout": "normal",
     "type_line": "Creature — Zombie Beast",
     "oracle_text": "Cycling {B} ({B}, Discard this card: Draw a card.)",
@@ -1967,6 +2065,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -1978,7 +2077,7 @@
     "multiverse_ids": [
       430791
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/102.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/76f87128-2d12-467b-895d-943f318b7c38.jpg?1562803882"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
     "oracle_text": "At the beginning of your upkeep, put a -1/-1 counter on Magmaroth.\nWhenever you cast a noncreature spell, remove a -1/-1 counter from Magmaroth.",
@@ -1987,6 +2086,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0.5,
     "set": "hou"
@@ -1998,7 +2098,7 @@
     "multiverse_ids": [
       430811
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/122.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/78d47cc7-2849-432e-9bcd-6b97023f1969.jpg?1562804255"],
     "layout": "normal",
     "type_line": "Creature — Chimera",
     "oracle_text": "Majestic Myriarch's power and toughness are each equal to twice the number of creatures you control.\nAt the beginning of each combat, Majestic Myriarch gains flying until end of turn if you control a creature with flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.",
@@ -2007,6 +2107,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 3,
     "set": "hou"
@@ -2018,13 +2119,14 @@
     "multiverse_ids": [
       430853
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/164.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d4b420ed-75b8-4779-aaa2-e245e84202d1.jpg?1562816093"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{T}: Add one mana of any color.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "hou"
@@ -2036,7 +2138,7 @@
     "multiverse_ids": [
       430792
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/103.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/0/b03a9686-d30b-4048-8b0a-23fd2f0aed4b.jpg?1562811013"],
     "layout": "normal",
     "type_line": "Creature — Zombie Manticore",
     "oracle_text": "Afflict 3 (Whenever this creature becomes blocked, defending player loses 3 life.)\nManticore Eternal attacks each combat if able.",
@@ -2045,6 +2147,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 4,
     "set": "hou"
@@ -2056,7 +2159,7 @@
     "multiverse_ids": [
       430759
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/70.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/ddfb7f50-14b1-4c7d-b4c8-f50bc14f4fb7.jpg?1562817493"],
     "layout": "normal",
     "type_line": "Creature — Zombie Minotaur",
     "oracle_text": "Marauding Boneslasher can't block unless you control another Zombie.",
@@ -2065,6 +2168,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "hou"
@@ -2076,7 +2180,7 @@
     "multiverse_ids": [
       430760
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/71.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/11a6becd-15be-4f2d-8fda-35b1b289b28f.jpg?1562789909"],
     "layout": "normal",
     "type_line": "Creature — Zombie Cleric",
     "oracle_text": "Afflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)\n{2}{B}, Discard a card: Merciless Eternal gets +2/+2 until end of turn.",
@@ -2085,6 +2189,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "hou"
@@ -2096,13 +2201,14 @@
     "multiverse_ids": [
       430854
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/165.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/29148d7e-b398-4e19-a29e-d9a660ad5016.jpg?1562793459"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{2}: Mirage Mirror becomes a copy of target artifact, creature, enchantment, or land until end of turn.",
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -2114,7 +2220,7 @@
     "multiverse_ids": [
       430761
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/72.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/ef494f81-638a-4e5d-b987-0dde7f2a135c.jpg?1562819610"],
     "layout": "normal",
     "type_line": "Creature — Zombie Wall",
     "oracle_text": "Defender\nCycling {2} ({2}, Discard this card: Draw a card.)",
@@ -2123,6 +2229,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "hou"
@@ -2134,7 +2241,7 @@
     "multiverse_ids": [
       430885
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/196.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/2/b2e439e2-2c7c-42fd-a47b-f615641f7392.jpg?1562811433"],
     "layout": "normal",
     "type_line": "Basic Land — Mountain",
     "oracle_text": "({T}: Add {R}.)",
@@ -2143,6 +2250,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "hou"
@@ -2154,7 +2262,7 @@
     "multiverse_ids": [
       430705
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/16.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e8b1a3e5-cf77-439d-8e0d-cf6571f6891c.jpg?1562818686"],
     "layout": "normal",
     "type_line": "Creature — Zombie",
     "oracle_text": "Whenever another Zombie enters the battlefield under your control, Mummy Paramount gets +1/+1 until end of turn.",
@@ -2163,6 +2271,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -2174,7 +2283,7 @@
     "multiverse_ids": [
       430793
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/104.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/54231832-d492-4812-b658-4ab9a30fefe2.jpg?1562799464"],
     "layout": "normal",
     "type_line": "Legendary Creature — Zombie Minotaur Warrior",
     "oracle_text": "Afflict 3 (Whenever this creature becomes blocked, defending player loses 3 life.)\nAt the beginning of your postcombat main phase, add {R} for each 1 life your opponents have lost this turn.",
@@ -2183,6 +2292,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4,
     "set": "hou"
@@ -2194,7 +2304,7 @@
     "multiverse_ids": [
       430829
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/140.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/985e92f4-3904-41df-91f7-42eedbe3ccd2.jpg?1562807870"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Bolas",
     "oracle_text": "+2: Target opponent exiles cards from the top of their library until they exile a nonland card. Until end of turn, you may cast that card without paying its mana cost.\n+1: Each opponent exiles two cards from their hand.\n−4: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent, creature an opponent controls, or planeswalker an opponent controls.\n−12: Exile each nonland permanent your opponents control.",
@@ -2205,6 +2315,7 @@
       "R",
       "U"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4,
     "set": "hou"
@@ -2216,7 +2327,7 @@
     "multiverse_ids": [
       430729
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/40.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/26012b65-7e0a-427e-945e-de24738517fb.jpg?1562792975"],
     "layout": "normal",
     "type_line": "Creature — Bird Wizard",
     "oracle_text": "Flash\nFlying\nCycling {2}{U} ({2}{U}, Discard this card: Draw a card.)\nWhen you cycle Nimble Obstructionist, counter target activated or triggered ability you don't control.",
@@ -2225,6 +2336,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -2236,7 +2348,7 @@
     "multiverse_ids": [
       430812
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/123.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/86326456-d188-4083-9141-a639b821b291.jpg?1562805767"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Destroy target Forest, green enchantment, or green planeswalker. If that permanent was a Nissa planeswalker, draw a card.",
@@ -2245,6 +2357,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0.5,
     "set": "hou"
@@ -2256,7 +2369,7 @@
     "multiverse_ids": [
       430813
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/124.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a30bb49b-956e-44bc-8a32-46d4c9c13245.jpg?1562809301"],
     "layout": "normal",
     "type_line": "Creature — Naga Druid",
     "oracle_text": "{T}: Add one mana of any color.\n{T}, Exert Oasis Ritualist: Add two mana of any one color. (An exerted creature won't untap during your next untap step.)",
@@ -2265,6 +2378,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -2276,7 +2390,7 @@
     "multiverse_ids": [
       430830
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/141.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae054604-0d77-45d0-b17b-55a83fb18e39.jpg?1562810572"],
     "layout": "normal",
     "type_line": "Creature — Spider",
     "oracle_text": "Reach\nWhenever Obelisk Spider deals combat damage to a creature, put a -1/-1 counter on that creature.\nWhenever you put one or more -1/-1 counters on a creature, each opponent loses 1 life and you gain 1 life.",
@@ -2286,6 +2400,7 @@
       "B",
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "hou"
@@ -2297,7 +2412,7 @@
     "multiverse_ids": [
       430706
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/17.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/6/06a644b4-a2f7-4219-935b-237936b07948.jpg?1562788163"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "You may exert Oketra's Avenger as it attacks. When you do, prevent all combat damage that would be dealt to it this turn. (An exerted creature won't untap during your next untap step.)",
@@ -2306,6 +2421,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "hou"
@@ -2317,7 +2433,7 @@
     "multiverse_ids": [
       430707
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/18.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/4/c4d3bf26-6003-4699-a26e-b3b5bcd3e8dc.jpg?1562813953"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Your life total becomes equal to your starting life total. Lands you control don't untap during your next untap step.",
@@ -2326,6 +2442,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "hou"
@@ -2337,7 +2454,7 @@
     "multiverse_ids": [
       430730
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/41.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/3/2361bd3b-9ae0-4198-9296-6d278feff042.jpg?1562792294"],
     "layout": "normal",
     "type_line": "Creature — Sphinx",
     "oracle_text": "Flying\nWhenever you cycle or discard a card, target creature an opponent controls gets -2/-0 until end of turn.",
@@ -2346,6 +2463,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "hou"
@@ -2357,7 +2475,7 @@
     "multiverse_ids": [
       430794
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/105.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/4/448f9fb5-ffb5-4325-9f81-ce8782e5f9e9.jpg?1562797508"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Open Fire deals 3 damage to any target.",
@@ -2366,6 +2484,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -2377,15 +2496,16 @@
     "multiverse_ids": [
       430814
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/125.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/1/d1dc2427-685a-4739-8b92-e60f134d4adb.jpg?1562815627"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Creatures you control get +2/+2 and gain trample until end of turn.",
+    "oracle_text": "Creatures you control get +2/+2 and gain trample until end of turn. (They can deal excess combat damage to the player or planeswalker they're attacking.)",
     "mana_cost": "{3}{G}{G}",
     "cmc": 5,
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -2397,7 +2517,7 @@
     "multiverse_ids": [
       430708
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/19.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/867b32d2-e396-411d-ac02-1af4106dd3d2.jpg?1562805786"],
     "layout": "normal",
     "type_line": "Enchantment — Aura Curse",
     "oracle_text": "Enchant player\nCreatures enchanted player controls lose all abilities and have base power and toughness 1/1.\nEnchanted player can't activate abilities that aren't mana abilities or loyalty abilities.",
@@ -2406,6 +2526,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 3,
     "set": "hou"
@@ -2417,7 +2538,7 @@
     "multiverse_ids": [
       430879
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/190.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce617aad-2c72-4b47-a9ae-51792459cffd.jpg?1562815127"],
     "layout": "normal",
     "type_line": "Basic Land — Plains",
     "oracle_text": "({T}: Add {W}.)",
@@ -2426,6 +2547,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "hou"
@@ -2437,7 +2559,7 @@
     "multiverse_ids": [
       430815
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/126.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd3d32b7-672f-4ceb-a1c9-17daefd2cb0c.jpg?1562817474"],
     "layout": "normal",
     "type_line": "Creature — Cat",
     "oracle_text": "Pride Sovereign gets +1/+1 for each other Cat you control.\n{W}, {T}, Exert Pride Sovereign: Create two 1/1 white Cat creature tokens with lifelink. (An exerted creature won't untap during your next untap step.)",
@@ -2447,6 +2569,7 @@
       "G",
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -2458,7 +2581,7 @@
     "multiverse_ids": [
       430731
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/42.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d83fd08a-c87b-4e29-bd1d-31dea3732156.jpg?1562816581"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Eternalize {4}{U}{U} ({4}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Warrior with no mana cost. Eternalize only as a sorcery.)",
@@ -2467,6 +2590,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -2478,7 +2602,7 @@
     "multiverse_ids": [
       430795
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/106.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/7/d7d88da5-d9a3-49b3-a091-458b058c9114.jpg?1562816551"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Puncturing Blow deals 5 damage to target creature. If that creature would die this turn, exile it instead.",
@@ -2487,6 +2611,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "hou"
@@ -2498,7 +2623,7 @@
     "multiverse_ids": [
       430816
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/127.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/9/69e11478-bfc7-4bcc-b65c-dc2d4449e99f.jpg?1562802187"],
     "layout": "normal",
     "type_line": "Creature — Insect",
     "oracle_text": "When Quarry Beetle enters the battlefield, you may return target land card from your graveyard to the battlefield.",
@@ -2507,6 +2632,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "hou"
@@ -2518,7 +2644,7 @@
     "multiverse_ids": [
       430817
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/128.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/c/4c97229f-2fc8-439a-a18b-efa09b366b70.jpg?1562798495"],
     "layout": "normal",
     "type_line": "Creature — Hippo",
     "oracle_text": "Trample\nCycling {2} ({2}, Discard this card: Draw a card.)",
@@ -2527,6 +2653,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -2538,7 +2665,7 @@
     "multiverse_ids": [
       430818
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/129.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/90a54d18-8403-441d-a115-ee462fabdabb.jpg?1562806928"],
     "layout": "normal",
     "type_line": "Creature — Naga Cleric",
     "oracle_text": "You may play land cards from your graveyard.",
@@ -2547,6 +2674,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "hou"
@@ -2558,7 +2686,7 @@
     "multiverse_ids": [
       430819
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/130.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/5/953f3722-2126-4eb3-a3d8-cff4b0703a9c.jpg?1562807415"],
     "layout": "normal",
     "type_line": "Creature — Snake Hydra",
     "oracle_text": "Vigilance, reach, trample\nRamunap Hydra gets +1/+1 as long as you control a Desert.\nRamunap Hydra gets +1/+1 as long as there is a Desert card in your graveyard.",
@@ -2567,6 +2695,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -2578,7 +2707,7 @@
     "multiverse_ids": [
       430870
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/181.jpg?1525952805"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/af11d41a-0d29-45e9-9d27-a41282b9e292.jpg?1562810961"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add {R}.\n{2}{R}{R}, {T}, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.",
@@ -2587,6 +2716,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "hou"
@@ -2598,7 +2728,7 @@
     "multiverse_ids": [
       430763
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/74.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd36987a-48c3-477b-b859-0268e84b7e7b.jpg?1562817470"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Search your library for a card and put that card into your hand. Then shuffle your library.\nCycling {B} ({B}, Discard this card: Draw a card.)",
@@ -2607,6 +2737,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "hou"
@@ -2618,7 +2749,7 @@
     "multiverse_ids": [
       430762
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/73.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e14adff9-33cc-467e-b782-068854c5e7b7.jpg?1562817745"],
     "layout": "normal",
     "type_line": "Legendary Creature — Demon",
     "oracle_text": "Flying, trample\nPay 2 life, Sacrifice another creature: Search your library for a card and put that card into your hand. Then shuffle your library.",
@@ -2627,6 +2758,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 3.5,
     "set": "hou"
@@ -2638,7 +2770,7 @@
     "multiverse_ids": [
       430843
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/154a.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/c/1ca644e3-4fb3-4d38-b714-e3d7459bd8b9.jpg?1562791344"],
     "layout": "split",
     "type_line": "Sorcery // Sorcery",
     "oracle_text": {},
@@ -2648,6 +2780,7 @@
       "G",
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "hou"
@@ -2659,7 +2792,7 @@
     "multiverse_ids": [
       430845
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/156a.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/5/054b07d8-99ae-430b-8e54-f9601fa572e7.jpg?1562787788"],
     "layout": "split",
     "type_line": "Instant // Instant",
     "oracle_text": {},
@@ -2669,6 +2802,7 @@
       "R",
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "hou"
@@ -2680,7 +2814,7 @@
     "multiverse_ids": [
       430820
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/131.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/033a69fb-2af9-426c-b1d6-3e5b18c78c9a.jpg?1562787658"],
     "layout": "normal",
     "type_line": "Creature — Jackal Wizard",
     "oracle_text": "When Resilient Khenra enters the battlefield, you may have target creature get +X/+X until end of turn, where X is Resilient Khenra's power.\nEternalize {4}{G}{G} ({4}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Wizard with no mana cost. Eternalize only as a sorcery.)",
@@ -2689,6 +2823,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -2700,7 +2835,7 @@
     "multiverse_ids": [
       430831
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/142.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/1/713f469e-58c3-4db4-aa7a-77126bda13f2.jpg?1562803253"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "You may exert Resolute Survivors as it attacks. (It won't untap during your next untap step.)\nWhenever you exert a creature, Resolute Survivors deals 1 damage to each opponent and you gain 1 life.",
@@ -2710,6 +2845,7 @@
       "R",
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -2721,7 +2857,7 @@
     "multiverse_ids": [
       430821
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/132.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/9/e991d1eb-70ab-4e2c-862d-fb8bfcefc542.jpg?1562818709"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Create a 5/4 green Snake creature token. Lands you control don't untap during your next untap step.",
@@ -2730,6 +2866,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2,
     "set": "hou"
@@ -2741,7 +2878,7 @@
     "multiverse_ids": [
       430822
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/133.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/9/99d4f791-9084-4644-a1f5-85adbf6dc790.jpg?1562807942"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "You may exert Rhonas's Stalwart as it attacks. When you do, it gets +1/+1 until end of turn and can't be blocked by creatures with power 2 or less this turn. (An exerted creature won't untap during your next untap step.)",
@@ -2750,6 +2887,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "hou"
@@ -2761,7 +2899,7 @@
     "multiverse_ids": [
       430732
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/43.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8e54dc4a-3fd6-4895-8497-3a19e4e9a3d8.jpg?1562806752"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Whenever you cast a noncreature spell, you may have Riddleform become a 3/3 Sphinx creature with flying in addition to its other types until end of turn.\n{2}{U}: Scry 1.",
@@ -2770,6 +2908,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -2781,7 +2920,7 @@
     "multiverse_ids": [
       430832
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/143.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/8/585ec4c2-aae2-403e-af32-3324122c472a.jpg?1562799772"],
     "layout": "normal",
     "type_line": "Creature — Bird",
     "oracle_text": "Flying\n{3}{G}{U}: You gain 2 life and draw a card.",
@@ -2791,6 +2930,7 @@
       "G",
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "hou"
@@ -2802,7 +2942,7 @@
     "multiverse_ids": [
       430764
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/75.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/1/91652fe0-2064-4996-b484-a1f88e0023f7.jpg?1562806953"],
     "layout": "normal",
     "type_line": "Creature — Rat",
     "oracle_text": "Deathtouch\nWhen Ruin Rat dies, exile target card from an opponent's graveyard.",
@@ -2811,6 +2951,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "hou"
@@ -2822,7 +2963,7 @@
     "multiverse_ids": [
       430833
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/144.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/09f06f55-7918-46c4-80ff-0bf39e091a4a.jpg?1562788629"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Samut",
     "oracle_text": "+1: Up to one target creature gains double strike until end of turn.\n−2: Samut, the Tested deals 2 damage divided as you choose among one or two targets.\n−7: Search your library for up to two creature and/or planeswalker cards, put them onto the battlefield, then shuffle your library.",
@@ -2832,6 +2973,7 @@
       "G",
       "R"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "hou"
@@ -2843,7 +2985,7 @@
     "multiverse_ids": [
       430709
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/20.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f3c501c-4e23-4e56-ad99-1803c8a877ca.jpg?1562789474"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Sandblast deals 5 damage to target attacking or blocking creature.",
@@ -2852,6 +2994,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "hou"
@@ -2863,7 +3006,7 @@
     "multiverse_ids": [
       430796
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/107.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd7153be-ad6c-47ff-8f45-bc8df17973cb.jpg?1562817478"],
     "layout": "normal",
     "type_line": "Creature — Beast",
     "oracle_text": "When Sand Strangler enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you may have Sand Strangler deal 3 damage to target creature.",
@@ -2872,6 +3015,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "hou"
@@ -2883,7 +3027,7 @@
     "multiverse_ids": [
       430710
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/21.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/a/9ac7b2d8-7702-4b8c-84ed-1d785dea5cc5.jpg?1562808293"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Flash\nEnchant creature you control\nWhen Saving Grace enters the battlefield, all damage that would be dealt this turn to you and permanents you control is dealt to enchanted creature instead.\nEnchanted creature gets +0/+3.",
@@ -2892,6 +3036,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "hou"
@@ -2903,13 +3048,14 @@
     "multiverse_ids": [
       430871
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/182.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6cd91eeb-7abf-4538-91dc-47c736dfc237.jpg?1562802684"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice a Desert: Exile all cards from all graveyards.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1,
     "set": "hou"
@@ -2921,7 +3067,7 @@
     "multiverse_ids": [
       430765
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/76.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/d/3d66f3c4-5a11-4e28-a4ae-673b3b36d3ec.jpg?1562795965"],
     "layout": "normal",
     "type_line": "Creature — Horror",
     "oracle_text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
@@ -2930,6 +3076,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "hou"
@@ -2941,7 +3088,7 @@
     "multiverse_ids": [
       430733
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/44.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/e/7e897f14-8775-4bc3-a3b2-b149f79ec702.jpg?1562805173"],
     "layout": "normal",
     "type_line": "Creature — Naga Cleric",
     "oracle_text": "{U}, {T}, Discard a card: Target player puts the top three cards of their library into their graveyard.",
@@ -2950,6 +3097,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -2961,7 +3109,7 @@
     "multiverse_ids": [
       430872
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/183.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/0/6077f4e9-5717-4048-b798-4f8d535a4170.jpg?1562801103"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add {W}.\n{2}{W}{W}, {T}, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery.",
@@ -2970,6 +3118,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "hou"
@@ -2981,7 +3130,7 @@
     "multiverse_ids": [
       430823
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/134.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c3786d75-1a8a-4917-aa98-6836df1b9145.jpg?1562813893"],
     "layout": "normal",
     "type_line": "Creature — Naga Warrior",
     "oracle_text": "As long as you control a Desert or there is a Desert card in your graveyard, Sidewinder Naga gets +1/+0 and has trample.",
@@ -2990,6 +3139,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -3001,7 +3151,7 @@
     "multiverse_ids": [
       430824
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/135.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/d/5dbaf7e3-e2fc-4399-aa83-c13df43008a0.jpg?1562800677"],
     "layout": "normal",
     "type_line": "Creature — Wurm",
     "oracle_text": "Trample\nWhen Sifter Wurm enters the battlefield, scry 3, then reveal the top card of your library. You gain life equal to that card's converted mana cost.",
@@ -3010,6 +3160,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -3021,7 +3172,7 @@
     "multiverse_ids": [
       430734
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/45.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/d/ed2b97d1-3e69-4305-b1df-947ff64c5043.jpg?1562819172"],
     "layout": "normal",
     "type_line": "Creature — Naga Warrior",
     "oracle_text": "{U}: Sinuous Striker gets +1/-1 until end of turn.\nEternalize—{3}{U}{U}, Discard a card. ({3}{U}{U}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Naga Warrior with no mana cost. Eternalize only as a sorcery.)",
@@ -3030,6 +3181,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "hou"
@@ -3041,7 +3193,7 @@
     "multiverse_ids": [
       430711
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/22.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0a71fb62-acbd-49f5-842f-0fc9fa48afea.jpg?1562788659"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Players can't get counters.\nCounters can't be put on artifacts, creatures, enchantments, or lands.",
@@ -3050,6 +3202,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "hou"
@@ -3061,7 +3214,7 @@
     "multiverse_ids": [
       430712
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/23.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8adb8dbf-c83c-4169-b822-8e32aa36cffa.jpg?1562806249"],
     "layout": "normal",
     "type_line": "Creature — Camel",
     "oracle_text": "Solitary Camel has lifelink as long as you control a Desert or there is a Desert card in your graveyard. (Damage dealt by this creature also causes you to gain that much life.)",
@@ -3070,6 +3223,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "hou"
@@ -3081,7 +3235,7 @@
     "multiverse_ids": [
       430735
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/46.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/6/a6bb7d1a-d606-46a8-a592-648c5d2e7382.jpg?1562809773"],
     "layout": "normal",
     "type_line": "Creature — Zombie Naga Wizard",
     "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nAfflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)",
@@ -3090,6 +3244,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -3101,7 +3256,7 @@
     "multiverse_ids": [
       430713
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/24.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/0/707a30d2-0fca-4b39-91fb-9b03152705ba.jpg?1562803154"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "oracle_text": "Vigilance\nEternalize {4}{W}{W} ({4}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Cleric with no mana cost. Eternalize only as a sorcery.)",
@@ -3110,6 +3265,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "hou"
@@ -3121,7 +3277,7 @@
     "multiverse_ids": [
       430714
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/25.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/d/eda3cd3b-d4c5-4537-8c81-5ccf269f810e.jpg?1562819202"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "{T}, Exert Steward of Solidarity: Create a 1/1 white Warrior creature token with vigilance. (An exerted creature won't untap during your next untap step.)",
@@ -3130,6 +3286,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "hou"
@@ -3141,7 +3298,7 @@
     "multiverse_ids": [
       430736
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/47.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/5/95756b98-59c2-494d-9894-7406185ad144.jpg?1562807419"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
@@ -3150,6 +3307,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "hou"
@@ -3161,7 +3319,7 @@
     "multiverse_ids": [
       430737
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/48.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bbeef9ef-487c-400b-bcee-1c0e8ec94b6a.jpg?1562812506"],
     "layout": "normal",
     "type_line": "Creature — Serpent",
     "oracle_text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nCycling {U} ({U}, Discard this card: Draw a card.)",
@@ -3170,6 +3328,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "hou"
@@ -3181,7 +3340,7 @@
     "multiverse_ids": [
       430840
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/151a.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/76f21f0b-aaa5-4677-8398-cef98c6fac2a.jpg?1562803878"],
     "layout": "split",
     "type_line": "Instant // Sorcery",
     "oracle_text": {},
@@ -3191,6 +3350,7 @@
       "G",
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "hou"
@@ -3202,7 +3362,7 @@
     "multiverse_ids": [
       430715
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/26.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f0bb41cc-6edb-4a31-92cb-b17850b49432.jpg?1562819672"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "oracle_text": "When Sunscourge Champion enters the battlefield, you gain life equal to its power.\nEternalize—{2}{W}{W}, Discard a card. ({2}{W}{W}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.)",
@@ -3211,6 +3371,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "hou"
@@ -3222,13 +3383,14 @@
     "multiverse_ids": [
       430855
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/166.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/377a4e80-0f28-42a2-9972-47ab66baee63.jpg?1562795373"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "Sunset Pyramid enters the battlefield with three brick counters on it.\n{2}, {T}, Remove a brick counter from Sunset Pyramid: Draw a card.\n{2}, {T}: Scry 1.",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "hou"
@@ -3240,7 +3402,7 @@
     "multiverse_ids": [
       430738
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/49.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/6/b677e7cb-7b5d-4993-8f13-881493c498ce.jpg?1562811958"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Counter target spell unless its controller pays {3}.\n• Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
@@ -3249,6 +3411,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 4,
     "set": "hou"
@@ -3260,13 +3423,14 @@
     "multiverse_ids": [
       430873
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/184.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/7/c7b0404e-0f42-456b-91ce-f960195c4951.jpg?1562814201"],
     "layout": "normal",
     "type_line": "Land — Desert",
     "oracle_text": "{T}: Add {C}.\n{T}, Tap an untapped creature you control: Add one mana of any color.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "hou"
@@ -3278,7 +3442,7 @@
     "multiverse_ids": [
       430883
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/194.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/4/447f8dbc-2f09-4995-81e2-2dc1654031fd.jpg?1562797504"],
     "layout": "normal",
     "type_line": "Basic Land — Swamp",
     "oracle_text": "({T}: Add {B}.)",
@@ -3287,6 +3451,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "hou"
@@ -3298,7 +3463,7 @@
     "multiverse_ids": [
       430739
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/50.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/2/c2bec26d-20ba-4f31-a153-2c93a4f474e5.jpg?1562813845"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Whenever you cast an instant or sorcery spell, you may copy that spell. You may choose new targets for the copy.",
@@ -3307,6 +3472,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1,
     "set": "hou"
@@ -3318,7 +3484,7 @@
     "multiverse_ids": [
       430825
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/136.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/e/3eec0010-52ab-4bf2-b589-e7fd97c290fe.jpg?1562796614"],
     "layout": "normal",
     "type_line": "Creature — Crocodile",
     "oracle_text": "As long as a creature has a -1/-1 counter on it, Tenacious Hunter has vigilance and deathtouch.",
@@ -3327,6 +3493,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "hou"
@@ -3338,7 +3505,7 @@
     "multiverse_ids": [
       430828
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/139.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4e0c1d0a-2651-4961-8b70-ff78093732ce.jpg?1562798588"],
     "layout": "normal",
     "type_line": "Legendary Creature — God",
     "oracle_text": "Flying\nWhenever you draw a card, create a 1/1 blue and red Insect creature token with flying and haste.\n{2}{U}{R}: Draw a card, then discard a card.\nWhen The Locust God dies, return it to its owner's hand at the beginning of the next end step.",
@@ -3348,6 +3515,7 @@
       "R",
       "U"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "hou"
@@ -3359,7 +3527,7 @@
     "multiverse_ids": [
       430834
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/145.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/2/621cfd79-be4e-41e3-95ce-62b0eeff5baf.jpg?1562801181"],
     "layout": "normal",
     "type_line": "Legendary Creature — God",
     "oracle_text": "At the beginning of your upkeep, each opponent loses X life and you scry X, where X is the number of Zombies you control.\n{2}{U}{B}: Exile target creature card from a graveyard. Create a token that's a copy of it, except it's a 4/4 black Zombie.\nWhen The Scarab God dies, return it to its owner's hand at the beginning of the next end step.",
@@ -3369,6 +3537,7 @@
       "B",
       "U"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "hou"
@@ -3380,7 +3549,7 @@
     "multiverse_ids": [
       430835
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/146.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/def0d0ac-6422-486e-b42b-e1813dd0a23e.jpg?1562817532"],
     "layout": "normal",
     "type_line": "Legendary Creature — God",
     "oracle_text": "Whenever a creature with a -1/-1 counter on it dies, draw a card.\n{1}{B}{R}: Put a -1/-1 counter on another target creature.\nWhen The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.",
@@ -3390,6 +3559,7 @@
       "B",
       "R"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "hou"
@@ -3401,7 +3571,7 @@
     "multiverse_ids": [
       430797
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/108.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01ab2615-5a02-4b59-b8bd-577b91a1a0e3.jpg?1562787276"],
     "layout": "normal",
     "type_line": "Creature — Lizard",
     "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nThorned Moloch has first strike as long as it's attacking.",
@@ -3410,6 +3580,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "hou"
@@ -3421,7 +3592,7 @@
     "multiverse_ids": [
       430766
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/77.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f69d77d1-5980-436c-bf48-790939b069aa.jpg?1562820191"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Repeat the following process X times. Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.",
@@ -3430,6 +3601,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "hou"
@@ -3441,7 +3613,7 @@
     "multiverse_ids": [
       430767
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/78.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01651f67-cc25-4240-9698-58b7d906a160.jpg?1562787262"],
     "layout": "normal",
     "type_line": "Enchantment — Aura Curse",
     "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep, that player loses 3 life unless they sacrifice a nonland permanent or discard a card.",
@@ -3450,6 +3622,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "hou"
@@ -3461,7 +3634,7 @@
     "multiverse_ids": [
       430768
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/79.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2f66410b-67a3-4f6a-b3ae-dcad9858a5da.jpg?1562794405"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Put three -1/-1 counters on target creature. Its controller loses 3 life unless they sacrifice another nonland permanent or discards a card.",
@@ -3470,6 +3643,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "hou"
@@ -3481,7 +3655,7 @@
     "multiverse_ids": [
       430740
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/51.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a0f0353c-f1e0-49db-9edc-eea9090de872.jpg?1562808896"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Draw two cards. Then discard a card unless you return a land you control to its owner's hand.",
@@ -3490,6 +3664,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "hou"
@@ -3501,13 +3676,14 @@
     "multiverse_ids": [
       430856
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/167.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/195464f1-f01c-4211-950d-963c5bad786f.jpg?1562790851"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
     "mana_cost": "{1}",
     "cmc": 1,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "hou"
@@ -3519,7 +3695,7 @@
     "multiverse_ids": [
       430826
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/137.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bc4aa918-53b9-4177-a859-f5a8eff09fe5.jpg?1562812515"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Search your library for up to X creature cards with different names that each have converted mana cost X, reveal them, put them into your hand, then shuffle your library.",
@@ -3528,6 +3704,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 2,
     "set": "hou"
@@ -3539,7 +3716,7 @@
     "multiverse_ids": [
       430716
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/27.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/52db5673-ecd3-4e58-8dc9-b42c76f80186.jpg?1562799424"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Target creature gets +3/+3 and gains flying until end of turn.\nWhenever a Zombie enters the battlefield under your control, you may pay {W}. If you do, return Unconventional Tactics from your graveyard to your hand.",
@@ -3548,6 +3725,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -3559,7 +3737,7 @@
     "multiverse_ids": [
       430741
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/52.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fdd1a8b2-f4ba-45af-9586-98a98834b8bc.jpg?1562821253"],
     "layout": "normal",
     "type_line": "Legendary Creature — Sphinx",
     "oracle_text": "Flying\nSphinx spells you cast cost {2} less to cast.\nWhenever Unesh, Criosphinx Sovereign or another Sphinx enters the battlefield under your control, reveal the top four cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
@@ -3568,6 +3746,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "hou"
@@ -3579,7 +3758,7 @@
     "multiverse_ids": [
       430742
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/53.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/4/a418b2aa-dbc2-409b-9f19-e16a0ad8cbac.jpg?1562809336"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nWhen Unquenchable Thirst enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
@@ -3588,6 +3767,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "hou"
@@ -3599,7 +3779,7 @@
     "multiverse_ids": [
       430836
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/147.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fe3802f3-feb3-4dcd-a5ba-f493baf3d447.jpg?1562821263"],
     "layout": "normal",
     "type_line": "Creature — Zombie",
     "oracle_text": "{1}{W}: Target attacking Zombie gains lifelink until end of turn.\n{1}{B}: Target attacking Zombie gains deathtouch until end of turn.",
@@ -3609,6 +3789,7 @@
       "B",
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "hou"
@@ -3620,7 +3801,7 @@
     "multiverse_ids": [
       430743
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/54.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5a4a5bd6-d7e0-4e35-bb7d-b9a41fcf67bc.jpg?1562800196"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Return target creature to its owner's hand.",
@@ -3629,6 +3810,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -3640,7 +3822,7 @@
     "multiverse_ids": [
       430769
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/80.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/1/7160bc31-bdfa-4654-9d69-95ee2a5fe870.jpg?1562803268"],
     "layout": "normal",
     "type_line": "Creature — Horror",
     "oracle_text": "Vile Manifestation gets +1/+0 for each card with cycling in your graveyard.\nCycling {2} ({2}, Discard this card: Draw a card.)",
@@ -3649,6 +3831,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "hou"
@@ -3660,7 +3843,7 @@
     "multiverse_ids": [
       430744
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/55.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/68ef426c-b396-4767-b360-435f67207022.jpg?1562802148"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "oracle_text": "When Vizier of the Anointed enters the battlefield, you may search your library for a creature card with eternalize or embalm, put that card into your graveyard, then shuffle your library.\nWhenever you activate an eternalize or embalm ability, draw a card.",
@@ -3669,6 +3852,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "hou"
@@ -3680,7 +3864,7 @@
     "multiverse_ids": [
       430717
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/28.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/1/c1800882-e886-48d5-ac85-0a8e5841dc9a.jpg?1562813442"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "oracle_text": "You may exert Vizier of the True as it attacks. (It won't untap during your next untap step.)\nWhenever you exert a creature, tap target creature an opponent controls.",
@@ -3689,6 +3873,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "hou"
@@ -3700,13 +3885,14 @@
     "multiverse_ids": [
       430857
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/168.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/3/d3f8f211-79f9-4d34-8e23-c0835703cd91.jpg?1562816047"],
     "layout": "normal",
     "type_line": "Artifact Creature — Wall",
     "oracle_text": "Defender\n{T}: Wall of Forgotten Pharaohs deals 1 damage to target player or planeswalker. Activate this ability only if you control a Desert or there is a Desert card in your graveyard.",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "hou"
@@ -3718,7 +3904,7 @@
     "multiverse_ids": [
       430798
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/109.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fd845479-619a-4262-b445-d93975c183b4.jpg?1562821140"],
     "layout": "normal",
     "type_line": "Creature — Zombie Jackal Cleric",
     "oracle_text": "Afflict 4 (Whenever this creature becomes blocked, defending player loses 4 life.)\nWhenever Wildfire Eternal attacks and isn't blocked, you may cast an instant or sorcery card from your hand without paying its mana cost.",
@@ -3727,6 +3913,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "hou"
@@ -3738,7 +3925,7 @@
     "multiverse_ids": [
       430770
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/81.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/6/d6695fa8-881c-407c-91d9-3ac770372d35.jpg?1562816474"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature you control gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)\nCycling {2} ({2}, Discard this card: Draw a card.)",
@@ -3747,6 +3934,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "hou"
@@ -3758,7 +3946,7 @@
     "multiverse_ids": [
       430771
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/hou/82.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cdd729df-8a02-4d5e-8432-bc0d006b0d3d.jpg?1562815080"],
     "layout": "normal",
     "type_line": "Creature — Zombie Camel",
     "oracle_text": "When Wretched Camel dies, if you control a Desert or there is a Desert card in your graveyard, target player discards a card.",
@@ -3767,6 +3955,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "hou"
@@ -3788,6 +3977,7 @@
       "G",
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -3808,6 +3998,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -3828,6 +4019,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0.5,
     "set": "akh"
@@ -3848,6 +4040,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "akh"
@@ -3868,6 +4061,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -3888,6 +4082,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "akh"
@@ -3908,6 +4103,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -3928,6 +4124,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "akh"
@@ -3948,6 +4145,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "akh"
@@ -3968,6 +4166,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 1.5,
     "set": "akh"
@@ -3988,6 +4187,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -4008,6 +4208,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2,
     "set": "akh"
@@ -4029,6 +4230,7 @@
       "U",
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -4049,6 +4251,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -4069,6 +4272,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -4089,6 +4293,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -4109,6 +4314,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "akh"
@@ -4129,6 +4335,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -4149,6 +4356,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -4169,6 +4377,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -4189,6 +4398,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -4209,6 +4419,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -4229,6 +4440,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -4247,6 +4459,7 @@
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "akh"
@@ -4267,6 +4480,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 3.5,
     "set": "akh"
@@ -4288,6 +4502,7 @@
       "G",
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "akh"
@@ -4308,6 +4523,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -4328,6 +4544,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0,
     "set": "akh"
@@ -4348,6 +4565,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -4369,6 +4587,7 @@
       "B",
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1,
     "set": "akh"
@@ -4389,6 +4608,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "akh"
@@ -4409,6 +4629,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -4429,6 +4650,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -4449,6 +4671,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 4,
     "set": "akh"
@@ -4469,6 +4692,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "akh"
@@ -4487,6 +4711,7 @@
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1,
     "set": "akh"
@@ -4507,6 +4732,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 4,
     "set": "akh"
@@ -4527,6 +4753,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "akh"
@@ -4547,6 +4774,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "akh"
@@ -4567,6 +4795,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -4587,6 +4816,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -4607,6 +4837,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 3.5,
     "set": "akh"
@@ -4627,6 +4858,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "akh"
@@ -4647,6 +4879,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0.5,
     "set": "akh"
@@ -4667,6 +4900,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "akh"
@@ -4687,6 +4921,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "akh"
@@ -4705,6 +4940,7 @@
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -4725,6 +4961,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -4745,6 +4982,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 3.5,
     "set": "akh"
@@ -4765,6 +5003,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "akh"
@@ -4785,6 +5024,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "akh"
@@ -4805,6 +5045,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -4826,6 +5067,7 @@
       "B",
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "akh"
@@ -4847,6 +5089,7 @@
       "B",
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 4,
     "set": "akh"
@@ -4867,6 +5110,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -4887,6 +5131,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -4907,6 +5152,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -4927,6 +5173,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -4948,6 +5195,7 @@
       "B",
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "akh"
@@ -4968,6 +5216,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -4988,6 +5237,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 0,
     "set": "akh"
@@ -5008,6 +5258,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -5028,6 +5279,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -5048,6 +5300,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -5068,6 +5321,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -5088,6 +5342,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "akh"
@@ -5108,6 +5363,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -5128,6 +5384,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -5146,6 +5403,7 @@
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -5166,6 +5424,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "akh"
@@ -5184,6 +5443,7 @@
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0.5,
     "set": "akh"
@@ -5204,6 +5464,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -5225,6 +5486,7 @@
       "R",
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -5245,6 +5507,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "akh"
@@ -5263,6 +5526,7 @@
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -5283,6 +5547,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -5304,6 +5569,7 @@
       "U",
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1,
     "set": "akh"
@@ -5324,6 +5590,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "akh"
@@ -5344,6 +5611,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -5364,6 +5632,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -5385,6 +5654,7 @@
       "B",
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "akh"
@@ -5405,6 +5675,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -5425,6 +5696,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "akh"
@@ -5445,6 +5717,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -5465,6 +5738,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -5476,7 +5750,7 @@
     "multiverse_ids": [
       426969
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/akh/267.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/8/18f4e594-01e5-40ae-903c-f55aad740de0.jpg?1561775704"],
     "layout": "normal",
     "type_line": "Basic Land — Forest",
     "oracle_text": "({T}: Add {G}.)",
@@ -5485,6 +5759,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "akh"
@@ -5505,6 +5780,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -5525,6 +5801,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "akh"
@@ -5543,6 +5820,7 @@
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0,
     "set": "akh"
@@ -5563,6 +5841,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -5583,6 +5862,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "akh"
@@ -5603,6 +5883,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "akh"
@@ -5623,6 +5904,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -5643,6 +5925,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 0.5,
     "set": "akh"
@@ -5663,6 +5946,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -5683,6 +5967,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4.5,
     "set": "akh"
@@ -5703,6 +5988,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "akh"
@@ -5721,6 +6007,7 @@
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0.5,
     "set": "akh"
@@ -5741,6 +6028,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -5761,6 +6049,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "akh"
@@ -5781,6 +6070,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "akh"
@@ -5801,6 +6091,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "akh"
@@ -5821,6 +6112,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "akh"
@@ -5842,6 +6134,7 @@
       "B",
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -5862,6 +6155,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "akh"
@@ -5882,6 +6176,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2,
     "set": "akh"
@@ -5902,6 +6197,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0.5,
     "set": "akh"
@@ -5922,6 +6218,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 0.5,
     "set": "akh"
@@ -5940,6 +6237,7 @@
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "akh"
@@ -5960,6 +6258,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4,
     "set": "akh"
@@ -5980,6 +6279,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -6001,6 +6301,7 @@
       "G",
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "akh"
@@ -6021,6 +6322,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -6041,6 +6343,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -6059,6 +6362,7 @@
     "mana_cost": "{1}",
     "cmc": 1,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -6080,6 +6384,7 @@
       "R",
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -6100,6 +6405,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "akh"
@@ -6120,6 +6426,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -6140,6 +6447,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -6160,6 +6468,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -6180,6 +6489,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "akh"
@@ -6200,6 +6510,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -6220,6 +6531,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -6240,6 +6552,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -6260,6 +6573,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -6281,6 +6595,7 @@
       "U",
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2,
     "set": "akh"
@@ -6292,7 +6607,7 @@
     "multiverse_ids": [
       426960
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/akh/258.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c559fc49-54f3-426f-b2d2-525790a249a5.jpg?1561803471"],
     "layout": "normal",
     "type_line": "Basic Land — Island",
     "oracle_text": "({T}: Add {U}.)",
@@ -6301,6 +6616,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "akh"
@@ -6319,6 +6635,7 @@
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "akh"
@@ -6339,6 +6656,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 3.5,
     "set": "akh"
@@ -6360,6 +6678,7 @@
       "G",
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -6380,6 +6699,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -6400,6 +6720,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "akh"
@@ -6420,6 +6741,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -6440,6 +6762,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "akh"
@@ -6460,6 +6783,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -6480,6 +6804,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "akh"
@@ -6500,6 +6825,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -6518,6 +6844,7 @@
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "akh"
@@ -6538,6 +6865,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3.5,
     "set": "akh"
@@ -6558,6 +6886,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "akh"
@@ -6578,6 +6907,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -6599,6 +6929,7 @@
       "B",
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "akh"
@@ -6619,6 +6950,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -6639,6 +6971,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -6659,6 +6992,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -6670,7 +7004,7 @@
     "multiverse_ids": [
       426966
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/akh/264.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37827425-f304-43eb-979b-1ec5b923a2b5.jpg?1561780613"],
     "layout": "normal",
     "type_line": "Basic Land — Mountain",
     "oracle_text": "({T}: Add {R}.)",
@@ -6679,6 +7013,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "akh"
@@ -6699,6 +7034,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -6719,6 +7055,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -6739,6 +7076,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -6759,6 +7097,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "akh"
@@ -6780,6 +7119,7 @@
       "B",
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -6800,6 +7140,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "akh"
@@ -6820,6 +7161,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "akh"
@@ -6840,6 +7182,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "akh"
@@ -6860,6 +7203,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -6881,6 +7225,7 @@
       "G",
       "U"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "akh"
@@ -6901,6 +7246,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -6921,6 +7267,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -6939,6 +7286,7 @@
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -6959,6 +7307,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "akh"
@@ -6980,6 +7329,7 @@
       "R",
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "akh"
@@ -7000,6 +7350,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "akh"
@@ -7018,6 +7369,7 @@
     "mana_cost": "{4}",
     "cmc": 4,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2.5,
     "set": "akh"
@@ -7038,6 +7390,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -7058,6 +7411,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -7076,6 +7430,7 @@
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -7096,6 +7451,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -7116,6 +7472,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -7136,6 +7493,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -7147,7 +7505,7 @@
     "multiverse_ids": [
       426957
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/akh/255.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/0422da01-0252-4f3b-b2e5-9f5b2c0b94ae.jpg?1561772557"],
     "layout": "normal",
     "type_line": "Basic Land — Plains",
     "oracle_text": "({T}: Add {W}.)",
@@ -7156,6 +7514,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "akh"
@@ -7176,6 +7535,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "akh"
@@ -7197,6 +7557,7 @@
       "G",
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -7217,6 +7578,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0.5,
     "set": "akh"
@@ -7237,6 +7599,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -7257,6 +7620,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "akh"
@@ -7277,6 +7641,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -7295,6 +7660,7 @@
     "mana_cost": "{1}",
     "cmc": 1,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2.5,
     "set": "akh"
@@ -7315,6 +7681,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "akh"
@@ -7336,6 +7703,7 @@
       "B",
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2.5,
     "set": "akh"
@@ -7357,6 +7725,7 @@
       "R",
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "akh"
@@ -7377,6 +7746,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "akh"
@@ -7397,6 +7767,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 0.5,
     "set": "akh"
@@ -7417,6 +7788,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -7435,6 +7807,7 @@
     "mana_cost": "{3}",
     "cmc": 3,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -7455,6 +7828,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 5,
     "set": "akh"
@@ -7475,6 +7849,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -7495,6 +7870,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -7515,6 +7891,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -7535,6 +7912,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "akh"
@@ -7557,6 +7935,7 @@
       "R",
       "W"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4,
     "set": "akh"
@@ -7577,6 +7956,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -7597,6 +7977,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 4,
     "set": "akh"
@@ -7617,6 +7998,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0.5,
     "set": "akh"
@@ -7638,6 +8020,7 @@
       "G",
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1.5,
     "set": "akh"
@@ -7658,6 +8041,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -7678,6 +8062,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -7698,6 +8083,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "akh"
@@ -7718,6 +8104,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 1,
     "set": "akh"
@@ -7739,6 +8126,7 @@
       "B",
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "akh"
@@ -7759,6 +8147,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "akh"
@@ -7779,6 +8168,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -7800,6 +8190,7 @@
       "G",
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2,
     "set": "akh"
@@ -7820,6 +8211,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -7840,6 +8232,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "akh"
@@ -7860,6 +8253,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -7880,6 +8274,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3,
     "set": "akh"
@@ -7900,6 +8295,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -7920,6 +8316,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -7940,6 +8337,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -7960,6 +8358,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -7981,6 +8380,7 @@
       "G",
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "akh"
@@ -8002,6 +8402,7 @@
       "B",
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -8022,6 +8423,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -8042,6 +8444,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -8060,6 +8463,7 @@
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "akh"
@@ -8080,6 +8484,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -8100,6 +8505,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -8111,7 +8517,7 @@
     "multiverse_ids": [
       426963
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/akh/261.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/2/62dbed02-6871-4830-8308-9f2f48e6730d.jpg?1561787433"],
     "layout": "normal",
     "type_line": "Basic Land — Swamp",
     "oracle_text": "({T}: Add {B}.)",
@@ -8120,6 +8526,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "akh"
@@ -8140,6 +8547,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -8160,6 +8568,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -8180,6 +8589,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -8200,6 +8610,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -8221,6 +8632,7 @@
       "U",
       "W"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
     "set": "akh"
@@ -8241,6 +8653,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -8261,6 +8674,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -8279,6 +8693,7 @@
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 2.5,
     "set": "akh"
@@ -8299,6 +8714,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "akh"
@@ -8319,6 +8735,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -8339,6 +8756,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -8359,6 +8777,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -8379,6 +8798,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -8399,6 +8819,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -8419,6 +8840,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -8439,6 +8861,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -8459,6 +8882,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -8479,6 +8903,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "akh"
@@ -8499,6 +8924,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1,
     "set": "akh"
@@ -8519,6 +8945,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 3,
     "set": "akh"
@@ -8539,6 +8966,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 0,
     "set": "akh"
@@ -8559,6 +8987,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -8579,6 +9008,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "rare",
     "rating": 4,
     "set": "akh"
@@ -8599,6 +9029,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "akh"
@@ -8619,6 +9050,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "mythic",
     "rating": 4.5,
     "set": "akh"
@@ -8639,6 +9071,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2.5,
     "set": "akh"
@@ -8659,6 +9092,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2,
     "set": "akh"
@@ -8679,6 +9113,7 @@
     "colors": [
       "R"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 2,
     "set": "akh"
@@ -8699,6 +9134,7 @@
     "colors": [
       "B"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "akh"
@@ -8717,6 +9153,7 @@
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1,
     "set": "akh"
@@ -8737,6 +9174,7 @@
     "colors": [
       "G"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -8758,6 +9196,7 @@
       "B",
       "W"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3.5,
     "set": "akh"
@@ -8779,6 +9218,7 @@
       "G",
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 3,
     "set": "akh"
@@ -8799,6 +9239,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
     "set": "akh"
@@ -8819,6 +9260,7 @@
     "colors": [
       "W"
     ],
+    "latent_color": "",
     "rarity": "common",
     "rating": 2.5,
     "set": "akh"
@@ -8839,6 +9281,7 @@
     "colors": [
       "U"
     ],
+    "latent_color": "",
     "rarity": "uncommon",
     "rating": 1.5,
     "set": "akh"
