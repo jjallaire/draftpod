@@ -6,7 +6,7 @@
     "multiverse_ids": [
       386463
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/159.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7df9759e-1072-4a6a-be57-f73b15bf3847.jpg?1562789157"],
     "layout": "normal",
     "type_line": "Creature — Horror",
     "oracle_text": "Flying\nWhenever Abomination of Gudul deals combat damage to a player, you may draw a card. If you do, discard a card.\nMorph {2}{B}{G}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -29,7 +29,7 @@
     "multiverse_ids": [
       386464
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/160.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/a/9af53a53-d30a-4289-a043-953cd81ee241.jpg?1562790940"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "When Abzan Ascendancy enters the battlefield, put a +1/+1 counter on each creature you control.\nWhenever a nontoken creature you control dies, create a 1/1 white Spirit creature token with flying.",
@@ -52,7 +52,7 @@
     "multiverse_ids": [
       386465
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/215.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/7855528a-ede9-49a9-8749-795a004fd927.jpg?1562788826"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{T}: Add {W}, {B}, or {G}.\n{W}{B}{G}, {T}, Sacrifice Abzan Banner: Draw a card.",
@@ -75,7 +75,7 @@
     "multiverse_ids": [
       386466
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/1.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8f5427b1-f1c2-4bb3-8736-701667ac2256.jpg?1562790236"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "oracle_text": "Outlast {W} ({W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has lifelink.",
@@ -96,7 +96,7 @@
     "multiverse_ids": [
       386467
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/161.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8f7b7598-35b0-4bb5-8347-8c868500f846.jpg?1562790259"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Exile target creature with power 3 or greater.\n• You draw two cards and you lose 2 life.\n• Distribute two +1/+1 counters among one or two target creatures.",
@@ -119,7 +119,7 @@
     "multiverse_ids": [
       386468
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/2.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/21ee4f3c-dc94-4156-b0ed-60fe6310451a.jpg?1562783594"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
     "oracle_text": "Outlast {W} ({W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has flying.",
@@ -140,7 +140,7 @@
     "multiverse_ids": [
       386469
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/162.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1b7f7158-4a31-4a1c-bf3b-574c0b09276a.jpg?1562783275"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nMorph {2}{W}{B}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -163,10 +163,10 @@
     "multiverse_ids": [
       386470
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/95.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/2/e20d6dfd-5f7b-4c71-89e6-8f996d85801d.jpg?1562794896"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+    "oracle_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -184,7 +184,7 @@
     "multiverse_ids": [
       386471
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/3.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/2/22d2a844-17fc-4628-9591-684555e98f7b.jpg?1562783624"],
     "layout": "normal",
     "type_line": "Creature — Hound Soldier",
     "oracle_text": "Outlast {1}{W} ({1}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has first strike.",
@@ -205,7 +205,7 @@
     "multiverse_ids": [
       386472
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/96.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0ff9400d-4842-471f-bf7e-3b21df352e0a.jpg?1562782629"],
     "layout": "normal",
     "type_line": "Creature — Hound Scout",
     "oracle_text": "First strike\nMorph {4}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -226,7 +226,7 @@
     "multiverse_ids": [
       386473
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/4.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/ad1ce529-06ed-4e85-9988-8c8b58401ed5.jpg?1562791877"],
     "layout": "normal",
     "type_line": "Creature — Kirin",
     "oracle_text": "Flying, vigilance",
@@ -247,7 +247,7 @@
     "multiverse_ids": [
       386474
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/127.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/8/38bbf983-df71-4403-86f3-2e86aa8765b8.jpg?1562784926"],
     "layout": "normal",
     "type_line": "Creature — Bear",
     "oracle_text": "",
@@ -268,7 +268,7 @@
     "multiverse_ids": [
       386475
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/216.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8d59d264-87ee-4305-bffb-110549331a82.jpg?1562790137"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "Whenever another permanent enters the battlefield under your control, each opponent puts the top card of their library into their graveyard.",
@@ -287,7 +287,7 @@
     "multiverse_ids": [
       386476
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/163.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/8/c8b432a7-53da-4480-b571-e6feb1364a3a.jpg?1562793427"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Soldier",
     "oracle_text": "Whenever Anafenza, the Foremost attacks, put a +1/+1 counter on another target tapped creature you control.\nIf a nontoken creature an opponent owns would die or a creature card not on the battlefield would be put into an opponent's graveyard, exile that card instead.",
@@ -310,7 +310,7 @@
     "multiverse_ids": [
       386477
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/164.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6c5bb5d2-181a-44ea-9b56-87f8d96bf634.jpg?1562788164"],
     "layout": "normal",
     "type_line": "Creature — Goblin Berserker",
     "oracle_text": "Haste\nWhenever Ankle Shanker attacks, creatures you control gain first strike and deathtouch until end of turn.",
@@ -333,7 +333,7 @@
     "multiverse_ids": [
       386479
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/128.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/64ac0667-8ecc-4034-89bb-dce0af531014.jpg?1562787707"],
     "layout": "normal",
     "type_line": "Creature — Wall",
     "oracle_text": "Defender\n{1}{B}, {T}: Each opponent loses 1 life.",
@@ -355,7 +355,7 @@
     "multiverse_ids": [
       386478
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/97.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/35c7c392-6782-40c8-bb24-6aad24f14660.jpg?1562784760"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Arc Lightning deals 3 damage divided as you choose among one, two, or three targets.",
@@ -376,7 +376,7 @@
     "multiverse_ids": [
       386480
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/165.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a5c69876-809d-4af3-9fd6-3bac41541dad.jpg?1562791520"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
     "oracle_text": "When Armament Corps enters the battlefield, distribute two +1/+1 counters among one or two target creatures you control.",
@@ -399,7 +399,7 @@
     "multiverse_ids": [
       386481
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/98.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c57534fb-2591-4003-aeec-6452faa4a759.jpg?1562793262"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Arrow Storm deals 4 damage to any target.\nRaid — If you attacked with a creature this turn, instead Arrow Storm deals 5 damage to that permanent or player and the damage can't be prevented.",
@@ -420,7 +420,7 @@
     "multiverse_ids": [
       386482
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/99.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/a/4a53752c-5689-4939-9a8b-bf59d88d7c6b.jpg?1562786146"],
     "layout": "normal",
     "type_line": "Creature — Phoenix",
     "oracle_text": "Flying\nWhen Ashcloud Phoenix dies, return it to the battlefield face down under your control.\nMorph {4}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Ashcloud Phoenix is turned face up, it deals 2 damage to each player.",
@@ -441,7 +441,7 @@
     "multiverse_ids": [
       386483
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/166.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/0/408e3f12-53d5-45f4-8ccc-6c00f8a9c6fe.jpg?1562785458"],
     "layout": "normal",
     "type_line": "Creature — Elephant Warrior",
     "oracle_text": "Whenever Avalanche Tusker attacks, target creature defending player controls blocks it this combat if able.",
@@ -464,7 +464,7 @@
     "multiverse_ids": [
       386484
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/129.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/803a6ac7-9327-4c2f-b023-93f5f65f83b8.jpg?1562789301"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +3/+3 and gains trample until end of turn.",
@@ -485,7 +485,7 @@
     "multiverse_ids": [
       386485
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/100.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/e/2eb1a9f7-32ba-48fd-a7f7-788b0ec052c6.jpg?1562784418"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Barrage of Boulders deals 1 damage to each creature you don't control.\nFerocious — If you control a creature with power 4 or greater, creatures can't block this turn.",
@@ -506,7 +506,7 @@
     "multiverse_ids": [
       386486
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/167.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/6/d6912c5b-6aff-4506-96ca-acb5ce660322.jpg?1562794223"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "When Bear's Companion enters the battlefield, create a 4/4 green Bear creature token.",
@@ -529,7 +529,7 @@
     "multiverse_ids": [
       386487
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/130.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5e17b65e-56c3-4e12-a774-780514dfd8ba.jpg?1562787250"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nTarget creature gets +6/+6 until end of turn.",
@@ -550,7 +550,7 @@
     "multiverse_ids": [
       386488
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/64.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a1939b5d-e24f-4e4b-b4c5-8bdb232d8926.jpg?1562791292"],
     "layout": "normal",
     "type_line": "Creature — Orc Warrior",
     "oracle_text": "Raid — When Bellowing Saddlebrute enters the battlefield, you lose 4 life unless you attacked with a creature this turn.",
@@ -571,7 +571,7 @@
     "multiverse_ids": [
       386489
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/65.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/4/e42f5aa9-2a47-47c3-ab87-dc25735b0e54.jpg?1562795020"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard. You lose 2 life.",
@@ -592,7 +592,7 @@
     "multiverse_ids": [
       386490
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/32.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9b588355-c349-458d-aeb7-0e2780caa3f9.jpg?1562790980"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Creatures your opponents control get -4/-0 until end of turn.\nDraw a card.",
@@ -613,7 +613,7 @@
     "multiverse_ids": [
       386491
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/229.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/5/15a7b30a-c59f-4a87-9e8a-b29daea27422.jpg?1562782962"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Bloodfell Caves enters the battlefield tapped.\nWhen Bloodfell Caves enters the battlefield, you gain 1 life.\n{T}: Add {B} or {R}.",
@@ -635,7 +635,7 @@
     "multiverse_ids": [
       386492
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/101.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/0742564e-f7a7-4107-b9ed-63703ca4702c.jpg?1562782152"],
     "layout": "normal",
     "type_line": "Creature — Efreet Monk",
     "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
@@ -656,7 +656,7 @@
     "multiverse_ids": [
       386493
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/102.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/8/4836fb70-a8f3-44ed-bae4-890ef7d07f88.jpg?1562786023"],
     "layout": "normal",
     "type_line": "Creature — Efreet Shaman",
     "oracle_text": "{2}{U}, {T}: Draw a card, then discard a card.",
@@ -678,7 +678,7 @@
     "multiverse_ids": [
       386494
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/66.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/4/34bc9bb0-5ec1-400f-89e7-b450980a3391.jpg?1562784700"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Bloodsoaked Champion can't block.\nRaid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate this ability only if you attacked with a creature this turn.",
@@ -699,7 +699,7 @@
     "multiverse_ids": [
       386495
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/230.jpg?1535416228"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7f430794-0d86-4f6a-97e0-4bbb6716d613.jpg?1562789219"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "{T}, Pay 1 life, Sacrifice Bloodstained Mire: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle your library.",
@@ -718,7 +718,7 @@
     "multiverse_ids": [
       386496
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/231.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a32a1c0b-f6ea-475a-aa01-3618ea7d8647.jpg?1562791365"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Blossoming Sands enters the battlefield tapped.\nWhen Blossoming Sands enters the battlefield, you gain 1 life.\n{T}: Add {G} or {W}.",
@@ -740,7 +740,7 @@
     "multiverse_ids": [
       386497
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/5.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/ef9c2b8a-148c-4393-b691-e333ad11c44e.jpg?1562795758"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Creatures you control have vigilance.\nEach creature you control can block an additional creature each combat.",
@@ -761,7 +761,7 @@
     "multiverse_ids": [
       386498
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/217.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7f9951f1-ca51-44a2-8480-602df466f0ab.jpg?1562789249"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "Briber's Purse enters the battlefield with X gem counters on it.\n{1}, {T}, Remove a gem counter from Briber's Purse: Target creature can't attack or block this turn.",
@@ -780,7 +780,7 @@
     "multiverse_ids": [
       386499
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/103.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9ba5e7bf-2ad8-4061-937a-ef1e9b63da3d.jpg?1562790998"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Bring Low deals 3 damage to target creature. If that creature has a +1/+1 counter on it, Bring Low deals 5 damage to it instead.",
@@ -801,7 +801,7 @@
     "multiverse_ids": [
       386500
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/104.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/4/f4b24e40-c0f0-4472-973e-d3b0e88fc93e.jpg?1562795996"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Burn Away deals 6 damage to target creature. When that creature dies this turn, exile all cards from its controller's graveyard.",
@@ -822,7 +822,7 @@
     "multiverse_ids": [
       386501
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/168.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/c/4c76027b-9c8d-4181-9311-270fed0212e3.jpg?1562786278"],
     "layout": "normal",
     "type_line": "Creature — Demon",
     "oracle_text": "Flying\nSacrifice another creature: Butcher of the Horde gains your choice of vigilance, lifelink, or haste until end of turn.",
@@ -845,7 +845,7 @@
     "multiverse_ids": [
       386502
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/33.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/f/9f540dcb-8d0b-4d33-8c0d-893fa5db54eb.jpg?1562791164"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target spell.",
@@ -866,7 +866,7 @@
     "multiverse_ids": [
       386503
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/105.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/ef6c56d1-6eca-43be-9834-0478bea67b48.jpg?1562795756"],
     "layout": "normal",
     "type_line": "Creature — Human Rogue",
     "oracle_text": "Morph {3}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -887,7 +887,7 @@
     "multiverse_ids": [
       386504
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/169.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/28822a9a-97fa-4784-ad97-072fcfc7b9ed.jpg?1562784003"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Other Warrior creatures you control get +1/+0.",
@@ -909,7 +909,7 @@
     "multiverse_ids": [
       386505
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/170.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a227b8cc-cbe5-4955-ad1b-a354704a82e8.jpg?1562791315"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Other Warrior creatures you control get +0/+1.",
@@ -931,7 +931,7 @@
     "multiverse_ids": [
       386506
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/34.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cd8fffd3-81ad-47e3-a27b-d8059f2b506f.jpg?1562793709"],
     "layout": "normal",
     "type_line": "Creature — Shapeshifter",
     "oracle_text": "You may have Clever Impersonator enter the battlefield as a copy of any nonland permanent on the battlefield.",
@@ -952,7 +952,7 @@
     "multiverse_ids": [
       386507
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/171.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f83c7d53-2599-42a9-ae96-a2699c5164cb.jpg?1562796251"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures that player controls.",
@@ -975,7 +975,7 @@
     "multiverse_ids": [
       386508
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/218.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/2/1284b15f-2a70-48d6-89d3-e787af3f07eb.jpg?1562782804"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{2}, Exile Cranial Archive: Target player shuffles their graveyard into their library. Draw a card.",
@@ -994,7 +994,7 @@
     "multiverse_ids": [
       386509
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/106.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/5/95dde66b-b4a1-4a1e-8c9e-0bec4790b1e5.jpg?1562790652"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Crater's Claws deals X damage to any target.\nFerocious — Crater's Claws deals X plus 2 damage to that permanent or player instead if you control a creature with power 4 or greater.",
@@ -1015,7 +1015,7 @@
     "multiverse_ids": [
       386510
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/35.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/acf53a79-7573-43c2-bd3a-93abea58ba80.jpg?1562791864"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Tap target creature. It doesn't untap during its controller's next untap step.\nDraw a card.",
@@ -1036,7 +1036,7 @@
     "multiverse_ids": [
       386511
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/6.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce43a2df-4305-4ab1-ae45-96cca597650e.jpg?1562793747"],
     "layout": "normal",
     "type_line": "Creature — Wall",
     "oracle_text": "Defender\n{1}{W}, {T}: Tap target creature.",
@@ -1057,7 +1057,7 @@
     "multiverse_ids": [
       386512
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/67.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff25a19a-8f98-47ef-847c-ba526c82b290.jpg?1562796664"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nTarget player sacrifices two creatures.",
@@ -1078,7 +1078,7 @@
     "multiverse_ids": [
       386513
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/172.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/2/92096311-a3fa-41fc-b7a9-71ac2310f7fe.jpg?1562790443"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "All creatures get -2/-2 until end of turn. Whenever a creature dies this turn, you gain 1 life.",
@@ -1100,7 +1100,7 @@
     "multiverse_ids": [
       386514
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/68.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/09b2b263-34db-4961-bf41-1eaaba3701da.jpg?1562782284"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets -2/-2.",
@@ -1121,7 +1121,7 @@
     "multiverse_ids": [
       386515
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/7.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39ec83fa-5cb4-4633-8827-36d874a2d2e7.jpg?1562785005"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +1/+0 until end of turn.\nDraw a card.",
@@ -1142,7 +1142,7 @@
     "multiverse_ids": [
       386516
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/173.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/32374918-1bcb-4516-96af-f27da752517e.jpg?1562784565"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "The next time a source of your choice would deal damage to you this turn, prevent that damage. If damage is prevented this way, Deflecting Palm deals that much damage to that source's controller.",
@@ -1164,7 +1164,7 @@
     "multiverse_ids": [
       386517
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/69.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/64216ce3-945e-42d8-9127-cf11c687da67.jpg?1564775472"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Target opponent reveals their hand. You choose a creature or planeswalker card from it. That player discards that card.",
@@ -1185,7 +1185,7 @@
     "multiverse_ids": [
       386518
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/36.jpg?1532086359"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c18c2d8-995c-4736-bdef-464abcd1d31a.jpg?1562787144"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nLook at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.",
@@ -1206,7 +1206,7 @@
     "multiverse_ids": [
       386519
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/37.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/8/180425c9-1898-48d4-9932-ddfb1a28e6b0.jpg?1562783110"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target spell with converted mana cost 4 or greater.",
@@ -1227,7 +1227,7 @@
     "multiverse_ids": [
       386520
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/232.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/3/63742780-47ee-4a66-993a-69e06c14967d.jpg?1562787616"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Dismal Backwater enters the battlefield tapped.\nWhen Dismal Backwater enters the battlefield, you gain 1 life.\n{T}: Add {U} or {B}.",
@@ -1249,7 +1249,7 @@
     "multiverse_ids": [
       386521
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/70.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/d/2d8bd496-632d-4d6d-a529-f35cf3222de7.jpg?1562784359"],
     "layout": "normal",
     "type_line": "Creature — Spirit Warrior",
     "oracle_text": "Outlast {1}{B} ({1}{B}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)",
@@ -1270,7 +1270,7 @@
     "multiverse_ids": [
       386522
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/107.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/0269d5bd-d8aa-465b-bfe9-6703937f933c.jpg?1562781842"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Ferocious — If you control a creature with power 4 or greater, you may cast Dragon Grip as though it had flash. (You may cast it any time you could cast an instant.)\nEnchant creature\nEnchanted creature gets +2/+0 and has first strike.",
@@ -1291,7 +1291,7 @@
     "multiverse_ids": [
       386525
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/131.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5aadb382-f912-4ccb-98bc-1abdef733126.jpg?1562787056"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Put two +1/+1 counters on target creature and untap it.",
@@ -1312,7 +1312,7 @@
     "multiverse_ids": [
       386524
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/38.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/f/9ff29b2c-2156-45fd-a2dd-655b8d208197.jpg?1562791201"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "oracle_text": "Morph—Reveal a blue card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Dragon's Eye Savants is turned face up, look at target opponent's hand.",
@@ -1333,7 +1333,7 @@
     "multiverse_ids": [
       386526
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/108.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/646edf58-4bc5-4d87-af68-b8b006ccb806.jpg?1562787685"],
     "layout": "normal",
     "type_line": "Creature — Human Monk",
     "oracle_text": "Double strike\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
@@ -1354,7 +1354,7 @@
     "multiverse_ids": [
       386523
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/219.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/5/d508e6a6-034c-424d-993e-7354ce212f13.jpg?1562794087"],
     "layout": "normal",
     "type_line": "Legendary Artifact — Equipment",
     "oracle_text": "Equipped creature has defender and \"{2}, {T}: Other creatures you control gain trample and get +X/+X until end of turn, where X is this creature's power.\"\nEquip {3}",
@@ -1373,7 +1373,7 @@
     "multiverse_ids": [
       386527
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/174.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/0/d076ea5f-630a-4670-9b15-29fd2cececd2.jpg?1562793871"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Choose up to one creature. Destroy the rest.",
@@ -1396,7 +1396,7 @@
     "multiverse_ids": [
       386528
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/71.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/5/d5f83b3a-ce34-4179-8745-059181dd79b8.jpg?1562794193"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Return up to two target creature cards from your graveyard to your hand.",
@@ -1417,7 +1417,7 @@
     "multiverse_ids": [
       386529
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/175.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/8986cb2e-76e0-41f3-8810-3d11c39a527a.jpg?1562789935"],
     "layout": "normal",
     "type_line": "Creature — Efreet Monk",
     "oracle_text": "First strike\nWhen Efreet Weaponmaster enters the battlefield or is turned face up, another target creature you control gets +3/+0 until end of turn.\nMorph {2}{U}{R}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -1440,7 +1440,7 @@
     "multiverse_ids": [
       386530
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/39.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/88e07226-f180-4972-b7f8-90c743d45fb8.jpg?1562789879"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
     "oracle_text": "{1}{G}, {T}, Sacrifice Embodiment of Spring: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
@@ -1462,7 +1462,7 @@
     "multiverse_ids": [
       386531
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/72.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/9/e94b1ac7-dd7b-46a1-a74e-aa0563bab3cd.jpg?1562795355"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nCreate X tapped 2/2 black Zombie creature tokens.",
@@ -1483,7 +1483,7 @@
     "multiverse_ids": [
       386532
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/8.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/80a53ed7-a7b7-40d8-9239-cf6f205dbc59.jpg?1562789330"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Destroy all creatures and all permanents attached to creatures.",
@@ -1504,7 +1504,7 @@
     "multiverse_ids": [
       386533
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/9.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/1/d1dd0e10-2ad7-467f-8d4b-c70b95bf2e9c.jpg?1562793960"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Exile target enchantment.",
@@ -1525,7 +1525,7 @@
     "multiverse_ids": [
       386534
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/10.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/6/b6173466-30db-4b95-a556-dd69e03b731e.jpg?1562792351"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Put a +1/+1 counter on target creature you control. It gains protection from the color of your choice until end of turn.",
@@ -1546,7 +1546,7 @@
     "multiverse_ids": [
       386535
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/132.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/52f7c53d-0b53-400f-aa67-967547f3e394.jpg?1562786646"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "You gain 5 life.\nFerocious — You gain 10 life instead if you control a creature with power 4 or greater.",
@@ -1567,7 +1567,7 @@
     "multiverse_ids": [
       386536
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/11.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/d/edb2b284-f79c-41eb-a25f-4710d4a5228f.jpg?1562795647"],
     "layout": "normal",
     "type_line": "Creature — Human Berserker",
     "oracle_text": "{3}{R}: Firehoof Cavalry gets +2/+0 and gains trample until end of turn.",
@@ -1589,7 +1589,7 @@
     "multiverse_ids": [
       386537
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/233.jpg?1535416226"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c2996d9-3287-4480-8c04-7a378e37e3cf.jpg?1562790055"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle your library.",
@@ -1608,7 +1608,7 @@
     "multiverse_ids": [
       386538
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/176.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/1/f1ba7efe-ae5a-4d11-b535-1c2e5e6f5982.jpg?1562795844"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Untap all creatures you control. They gain flying and double strike until end of turn.",
@@ -1631,7 +1631,7 @@
     "multiverse_ids": [
       386539
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/40.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dda70b3e-4b70-404e-a579-41dd126be084.jpg?1562794644"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Return target creature to its owner's hand.\nFerocious — If you control a creature with power 4 or greater, you may draw a card. If you do, discard a card.",
@@ -1652,7 +1652,7 @@
     "multiverse_ids": [
       386542
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/266.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/e/3e5342f9-3f91-48e4-bfd1-49fbf9ca89cf.jpg?1562785275"],
     "layout": "normal",
     "type_line": "Basic Land — Forest",
     "oracle_text": "({T}: Add {G}.)",
@@ -1673,7 +1673,7 @@
     "multiverse_ids": [
       386544
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/234.jpg?1528559662"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/4/e4335951-e73e-45cb-b2a5-6e9d14ba87ee.jpg?1562795027"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Frontier Bivouac enters the battlefield tapped.\n{T}: Add {G}, {U}, or {R}.",
@@ -1696,7 +1696,7 @@
     "multiverse_ids": [
       386545
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/220.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/1/711145d8-5178-4fdc-8494-4ab680f55b1a.jpg?1562788410"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "Equipped creature gets +2/+2.\nEquip {3}\nGhostfire Blade's equip ability costs {2} less to activate if it targets a colorless creature.",
@@ -1715,7 +1715,7 @@
     "multiverse_ids": [
       386546
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/41.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/8821c7b9-702b-416f-b006-941ad57f9e11.jpg?1562789833"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
     "oracle_text": "Morph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -1736,7 +1736,7 @@
     "multiverse_ids": [
       386547
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/109.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9d80e96-3956-4408-84fb-5f94a364eb41.jpg?1562791695"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Whenever you cast a noncreature spell, you may pay {1}. If you do, create a 1/1 red Goblin creature token with haste.",
@@ -1757,7 +1757,7 @@
     "multiverse_ids": [
       386548
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/73.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/f/cf1fe2bf-1640-4781-87b4-09a1f7d35831.jpg?1562793791"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "oracle_text": "Morph {B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever another nontoken creature you control dies, draw a card.",
@@ -1778,7 +1778,7 @@
     "multiverse_ids": [
       386549
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/74.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/7/a7492918-b3c6-468f-9484-d73f0a27b37b.jpg?1562791583"],
     "layout": "normal",
     "type_line": "Creature — Bat",
     "oracle_text": "Flying, first strike, haste",
@@ -1799,7 +1799,7 @@
     "multiverse_ids": [
       386550
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/133.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7dcdf1db-bfaf-4160-8003-1fa2e56b00dc.jpg?1562789138"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.",
@@ -1820,10 +1820,10 @@
     "multiverse_ids": [
       386551
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/221.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/8/48168005-65cc-43dc-9d45-17ea5dd4848f.jpg?1562786011"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
-    "oracle_text": "Whenever equipped creature attacks, Heart-Piercer Bow deals 1 damage to target creature defending player controls.\nEquip {1}",
+    "oracle_text": "Whenever equipped creature attacks, Heart-Piercer Bow deals 1 damage to target creature defending player controls.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
@@ -1839,7 +1839,7 @@
     "multiverse_ids": [
       386552
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/134.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/0995e041-fe90-4459-8c70-fd9851ecf830.jpg?1562782282"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Deathtouch\nFerocious — Whenever Heir of the Wilds attacks, if you control a creature with power 4 or greater, Heir of the Wilds gets +1/+1 until end of turn.",
@@ -1860,7 +1860,7 @@
     "multiverse_ids": [
       386553
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/12.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e8bf6ed4-48f3-419f-bafd-d1ee4d798482.jpg?1562795324"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
     "oracle_text": "Outlast {2}{W} ({2}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nWhenever you activate Herald of Anafenza's outlast ability, create a 1/1 white Warrior creature token.",
@@ -1881,7 +1881,7 @@
     "multiverse_ids": [
       386555
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/135.jpg?1528741208"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7fbb10a9-486a-4b9a-b3f5-c17f661af2b2.jpg?1562789268"],
     "layout": "normal",
     "type_line": "Creature — Elk",
     "oracle_text": "When Highland Game dies, you gain 2 life.",
@@ -1902,7 +1902,7 @@
     "multiverse_ids": [
       386554
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/13.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/db5f4bab-f918-4b42-b82c-cfcf5ff0c58a.jpg?1562794547"],
     "layout": "normal",
     "type_line": "Creature — Bird Soldier",
     "oracle_text": "Flying\nHigh Sentinels of Arashin gets +1/+1 for each other creature you control with a +1/+1 counter on it.\n{3}{W}: Put a +1/+1 counter on target creature.",
@@ -1923,7 +1923,7 @@
     "multiverse_ids": [
       386556
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/177.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/0/60d3708b-dd40-4515-bf8f-36cbc5de6b67.jpg?1562787429"],
     "layout": "normal",
     "type_line": "Creature — Insect",
     "oracle_text": "Flying, trample",
@@ -1945,7 +1945,7 @@
     "multiverse_ids": [
       386557
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/136.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9d7e651f-4187-44c5-99bf-34042d6dd9a2.jpg?1562791088"],
     "layout": "normal",
     "type_line": "Creature — Snake Hydra",
     "oracle_text": "Hooded Hydra enters the battlefield with X +1/+1 counters on it.\nWhen Hooded Hydra dies, create a 1/1 green Snake creature token for each +1/+1 counter on it.\nMorph {3}{G}{G}\nAs Hooded Hydra is turned face up, put five +1/+1 counters on it.",
@@ -1966,7 +1966,7 @@
     "multiverse_ids": [
       386558
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/137.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/090d678c-f0e4-4757-8900-93dfe67aefe9.jpg?1562782269"],
     "layout": "normal",
     "type_line": "Creature — Ape",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nTrample",
@@ -1987,7 +1987,7 @@
     "multiverse_ids": [
       386559
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/110.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/53926b92-adf0-4bb2-873f-103d9a1bdda8.jpg?1562786709"],
     "layout": "normal",
     "type_line": "Creature — Human Berserker",
     "oracle_text": "Whenever Horde Ambusher blocks, it deals 1 damage to you.\nMorph—Reveal a red card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Horde Ambusher is turned face up, target creature can't block this turn.",
@@ -2008,7 +2008,7 @@
     "multiverse_ids": [
       386560
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/111.jpg?1519997050"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a5c1bf52-2737-423a-b340-07448afcaea6.jpg?1562791519"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Create three 1/1 red Goblin creature tokens.",
@@ -2029,7 +2029,7 @@
     "multiverse_ids": [
       386561
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/112.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/d/5db4baf3-f0dc-4b27-8323-a76764332590.jpg?1562787225"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\nRaid — If you attacked with a creature this turn, when you cast your next instant or sorcery spell this turn, copy that spell an additional time. You may choose new targets for the copy.",
@@ -2050,7 +2050,7 @@
     "multiverse_ids": [
       386562
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/178.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ecdee089-8e89-4c99-9390-e8f4c189cffb.jpg?1562795587"],
     "layout": "normal",
     "type_line": "Creature — Bird Shaman",
     "oracle_text": "Flying\nMorph {1}{G}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Icefeather Aven is turned face up, you may return another target creature to its owner's hand.",
@@ -2072,7 +2072,7 @@
     "multiverse_ids": [
       386563
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/42.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1562792016"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Tap X target creatures.\nFerocious — If you control a creature with power 4 or greater, those creatures don't untap during their controllers' next untap steps.",
@@ -2093,7 +2093,7 @@
     "multiverse_ids": [
       386564
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/138.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bcc7d833-f71b-4ec4-aad1-07b7583bad64.jpg?1562792751"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Put a +1/+1 counter on target creature, two +1/+1 counters on another target creature, and three +1/+1 counters on a third target creature.",
@@ -2114,7 +2114,7 @@
     "multiverse_ids": [
       386565
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/254.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9c010ca5-b609-4ae9-8c23-adf5723a9daa.jpg?1562790999"],
     "layout": "normal",
     "type_line": "Basic Land — Island",
     "oracle_text": "({T}: Add {U}.)",
@@ -2135,7 +2135,7 @@
     "multiverse_ids": [
       386569
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/179.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75a8df73-0141-4c07-87d8-b1f34a4b374b.jpg?1562788730"],
     "layout": "normal",
     "type_line": "Creature — Elephant",
     "oracle_text": "Untap each creature you control with a +1/+1 counter on it during each other player's untap step.",
@@ -2158,7 +2158,7 @@
     "multiverse_ids": [
       386570
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/113.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/2/72777ccf-1cd8-45e8-8dfb-0a42550b5607.jpg?1562788522"],
     "layout": "normal",
     "type_line": "Creature — Goblin Rogue",
     "oracle_text": "Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Jeering Instigator is turned face up, if it's your turn, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.",
@@ -2179,7 +2179,7 @@
     "multiverse_ids": [
       386571
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/180.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/ca9c2522-5606-4bbd-863d-f0ab0a612b4e.jpg?1562793510"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn. Untap those creatures.\nWhenever you cast a noncreature spell, you may draw a card. If you do, discard a card.",
@@ -2202,7 +2202,7 @@
     "multiverse_ids": [
       386572
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/222.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/684dc050-a66b-4364-9880-56f383db6c0a.jpg?1562787889"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{T}: Add {U}, {R}, or {W}.\n{U}{R}{W}, {T}, Sacrifice Jeskai Banner: Draw a card.",
@@ -2225,7 +2225,7 @@
     "multiverse_ids": [
       386573
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/181.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/ca268705-ef04-4bf1-8a5d-866bb3e5bb61.jpg?1562793488"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Put target creature on top of its owner's library.\n• Jeskai Charm deals 4 damage to target opponent or planeswalker.\n• Creatures you control get +1/+1 and gain lifelink until end of turn.",
@@ -2248,7 +2248,7 @@
     "multiverse_ids": [
       386574
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/43.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/f/bff9907c-4090-4dcc-aaf5-bc2a8dacce8b.jpg?1562792976"],
     "layout": "normal",
     "type_line": "Creature — Human Monk",
     "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever Jeskai Elder deals combat damage to a player, you may draw a card. If you do, discard a card.",
@@ -2269,7 +2269,7 @@
     "multiverse_ids": [
       386575
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/14.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/9007c528-0107-40fd-a97e-e5576f297eb2.jpg?1562790315"],
     "layout": "normal",
     "type_line": "Creature — Human Monk",
     "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
@@ -2290,7 +2290,7 @@
     "multiverse_ids": [
       386576
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/44.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/6/66356e38-38e1-4b09-80c2-be26007ff99c.jpg?1562787785"],
     "layout": "normal",
     "type_line": "Creature — Bird Scout",
     "oracle_text": "Flying\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
@@ -2311,7 +2311,7 @@
     "multiverse_ids": [
       386577
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/235.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fea27aa7-7fcf-4198-b03a-5034a03ba81f.jpg?1562796625"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Jungle Hollow enters the battlefield tapped.\nWhen Jungle Hollow enters the battlefield, you gain 1 life.\n{T}: Add {B} or {G}.",
@@ -2333,7 +2333,7 @@
     "multiverse_ids": [
       386578
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/75.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/baf15cd4-13be-48e7-b3f5-a5106eb02c45.jpg?1562792642"],
     "layout": "normal",
     "type_line": "Creature — Vampire",
     "oracle_text": "Whenever a creature you control with toughness 4 or greater dies, each opponent loses 2 life and you gain 2 life.\n{2}{B}, Sacrifice another creature: Put a +1/+1 counter on Kheru Bloodsucker.",
@@ -2354,7 +2354,7 @@
     "multiverse_ids": [
       386579
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/76.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e8b10468-18b8-4321-a791-0cbd18ea9c4d.jpg?1562795323"],
     "layout": "normal",
     "type_line": "Creature — Zombie Crocodile",
     "oracle_text": "Defender\n{1}{G}, Sacrifice another creature: You gain life equal to the sacrificed creature's toughness.",
@@ -2376,7 +2376,7 @@
     "multiverse_ids": [
       386580
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/182.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/7/e7fbca8d-34a3-4df1-986a-36fca142a758.jpg?1562795282"],
     "layout": "normal",
     "type_line": "Creature — Zombie Wizard",
     "oracle_text": "At the beginning of your upkeep, you may pay {2}{B}. If you do, return a creature card at random from your graveyard to the battlefield. It gains flying, trample, and haste. Exile that card at the beginning of your next end step. If it would leave the battlefield, exile it instead of putting it anywhere else.",
@@ -2399,7 +2399,7 @@
     "multiverse_ids": [
       386581
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/45.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0e15117f-f05e-4c5d-9ef5-98f21f4d7529.jpg?1562782522"],
     "layout": "normal",
     "type_line": "Creature — Naga Wizard",
     "oracle_text": "Morph {4}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Kheru Spellsnatcher is turned face up, counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. You may cast that card without paying its mana cost for as long as it remains exiled.",
@@ -2420,7 +2420,7 @@
     "multiverse_ids": [
       386582
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/15.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/3/f30d4136-78a3-4760-83af-d365cc97d118.jpg?1562795914"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target attacking creature.",
@@ -2441,7 +2441,7 @@
     "multiverse_ids": [
       386583
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/183.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/2/926b49a1-f220-41ab-8c67-8354a91a15e8.jpg?1562790454"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Create an X/X black and green Spirit Warrior creature token, where X is the greatest toughness among creatures you control.",
@@ -2463,7 +2463,7 @@
     "multiverse_ids": [
       386584
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/139.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/dfddafbc-590b-4610-894a-b91335a60528.jpg?1562794779"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "{2}: Regenerate Kin-Tree Warden.\nMorph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -2484,7 +2484,7 @@
     "multiverse_ids": [
       386585
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/77.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/7/57f38391-ffb7-4420-9a38-f791627b12b3.jpg?1562786941"],
     "layout": "normal",
     "type_line": "Creature — Orc Warrior",
     "oracle_text": "Morph {4}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -2505,7 +2505,7 @@
     "multiverse_ids": [
       386586
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/114.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f786a1d-4703-4bac-abba-632506d2726c.jpg?1562782598"],
     "layout": "normal",
     "type_line": "Creature — Human Monk",
     "oracle_text": "{2}{W}: Leaping Master gains flying until end of turn.",
@@ -2527,7 +2527,7 @@
     "multiverse_ids": [
       386587
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/223.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3c82e2b8-f0f6-44da-83ee-8a671344ac62.jpg?1562785174"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "You may look at the top card of your library and at face-down creatures you don't control any time.",
@@ -2546,7 +2546,7 @@
     "multiverse_ids": [
       386588
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/140.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd9edd62-dc18-4887-a020-4464e31b79c2.jpg?1562794643"],
     "layout": "normal",
     "type_line": "Creature — Hound Archer",
     "oracle_text": "Outlast {1}{G} ({1}{G}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has reach. (A creature with reach can block creatures with flying.)",
@@ -2567,7 +2567,7 @@
     "multiverse_ids": [
       386589
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/184.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/82d5ce46-7118-4ede-ba1d-c387e7ce16e7.jpg?1562789458"],
     "layout": "normal",
     "type_line": "Creature — Human Monk",
     "oracle_text": "Flying, vigilance, haste",
@@ -2590,7 +2590,7 @@
     "multiverse_ids": [
       386590
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/185.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/02bc2415-b1d1-467a-9578-3948dda166cf.jpg?1562781854"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Whenever a nontoken creature you control attacks, create a 1/1 red Goblin creature token that's tapped and attacking.\nSacrifice Mardu Ascendancy: Creatures you control get +0/+3 until end of turn.",
@@ -2613,7 +2613,7 @@
     "multiverse_ids": [
       386591
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/224.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fe10c56d-a8e1-495d-a03a-0b920b44182f.jpg?1562796606"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{T}: Add {R}, {W}, or {B}.\n{R}{W}{B}, {T}, Sacrifice Mardu Banner: Draw a card.",
@@ -2636,7 +2636,7 @@
     "multiverse_ids": [
       386592
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/115.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/b/cbf7a797-f32a-4ed2-b835-a356120f5817.jpg?1562793597"],
     "layout": "normal",
     "type_line": "Creature — Ogre Warrior",
     "oracle_text": "When Mardu Blazebringer attacks or blocks, sacrifice it at end of combat.",
@@ -2657,7 +2657,7 @@
     "multiverse_ids": [
       386593
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/186.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c35fb7a3-7c7f-4470-b1ad-5b8709a608e6.jpg?1562793176"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Mardu Charm deals 4 damage to target creature.\n• Create two 1/1 white Warrior creature tokens. They gain first strike until end of turn.\n• Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
@@ -2680,7 +2680,7 @@
     "multiverse_ids": [
       386594
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/16.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/1/f1d1cdfa-834c-4028-8036-c4bfb7da071b.jpg?1562795845"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "{B}: Mardu Hateblade gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
@@ -2702,7 +2702,7 @@
     "multiverse_ids": [
       386595
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/116.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/1/d17b6eee-da22-48aa-ba8a-cbd1a3389bcb.jpg?1562793937"],
     "layout": "normal",
     "type_line": "Creature — Human Archer",
     "oracle_text": "Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to any target.",
@@ -2723,7 +2723,7 @@
     "multiverse_ids": [
       386596
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/17.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/3/23426221-30a8-4be2-9c70-f0eb022edad7.jpg?1562783652"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Raid — When Mardu Hordechief enters the battlefield, if you attacked with a creature this turn, create a 1/1 white Warrior creature token.",
@@ -2744,7 +2744,7 @@
     "multiverse_ids": [
       386597
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/187.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/6/d6341345-55a6-43f3-915a-c03afea92ec3.jpg?1562794206"],
     "layout": "normal",
     "type_line": "Creature — Orc Warrior",
     "oracle_text": "Whenever Mardu Roughrider attacks, target creature can't block this turn.",
@@ -2767,7 +2767,7 @@
     "multiverse_ids": [
       386598
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/78.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd3ca5e7-96f3-4326-9315-34bb396a054c.jpg?1562794625"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Mardu Skullhunter enters the battlefield tapped.\nRaid — When Mardu Skullhunter enters the battlefield, if you attacked with a creature this turn, target opponent discards a card.",
@@ -2788,7 +2788,7 @@
     "multiverse_ids": [
       386599
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/117.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/1381ae25-0d44-4d06-beae-48e4bbb4bb45.jpg?1562782862"],
     "layout": "normal",
     "type_line": "Creature — Orc Shaman",
     "oracle_text": "Raid — When Mardu Warshrieker enters the battlefield, if you attacked with a creature this turn, add {R}{W}{B}.",
@@ -2811,7 +2811,7 @@
     "multiverse_ids": [
       386600
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/18.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e8455229-6fec-4843-b888-e701c09620af.jpg?1562795295"],
     "layout": "normal",
     "type_line": "Creature — Human Monk",
     "oracle_text": "Morph {3}{W}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Master of Pearls is turned face up, creatures you control get +2/+2 until end of turn.",
@@ -2832,7 +2832,7 @@
     "multiverse_ids": [
       386601
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/188.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/0/704743a8-27d6-4db9-8fe1-f65f5f3a955f.jpg?1562788383"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Draw a card. Master the Way deals damage to any target equal to the number of cards in your hand.",
@@ -2854,7 +2854,7 @@
     "multiverse_ids": [
       386602
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/141.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a945b43d-39bc-4ce4-be03-0109e1a681b1.jpg?1562791660"],
     "layout": "normal",
     "type_line": "Creature — Turtle",
     "oracle_text": "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nWhenever Meandering Towershell attacks, exile it. Return it to the battlefield under your control tapped and attacking at the beginning of the declare attackers step on your next turn.",
@@ -2875,7 +2875,7 @@
     "multiverse_ids": [
       386603
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/79.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fe8589b2-9527-46ba-bf9e-0dec7d84d5d2.jpg?1562796624"],
     "layout": "normal",
     "type_line": "Creature — Orc Assassin",
     "oracle_text": "Outlast {B} ({B}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has deathtouch.",
@@ -2896,7 +2896,7 @@
     "multiverse_ids": [
       386604
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/189.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/5/557e8303-a021-4257-b41a-7d25f04618c8.jpg?1562786781"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target spell unless its controller pays {X}. Mindswipe deals X damage to that spell's controller.",
@@ -2918,7 +2918,7 @@
     "multiverse_ids": [
       386605
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/46.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/8003a31f-7662-4e9e-8165-1ceea04fdf20.jpg?1562789282"],
     "layout": "normal",
     "type_line": "Creature — Djinn Wizard",
     "oracle_text": "Flying\nMorph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Mistfire Weaver is turned face up, target creature you control gains hexproof until end of turn.",
@@ -2939,7 +2939,7 @@
     "multiverse_ids": [
       386606
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/80.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b781cbcf-dbba-41c1-be02-2396b824a217.jpg?1562792454"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +2/+0 and has \"{2}{B}: Regenerate this creature.\"",
@@ -2960,7 +2960,7 @@
     "multiverse_ids": [
       386607
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/47.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/5/e53c0e50-4b0b-43d8-80c0-2c216722c87a.jpg?1562795087"],
     "layout": "normal",
     "type_line": "Creature — Bird",
     "oracle_text": "Defender, flying\nMorph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -2981,7 +2981,7 @@
     "multiverse_ids": [
       386608
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/118.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b81c6c8b-a9cf-4866-89ba-7f8ad077b836.jpg?1562792493"],
     "layout": "normal",
     "type_line": "Creature — Human Monk",
     "oracle_text": "Haste\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
@@ -3002,7 +3002,7 @@
     "multiverse_ids": [
       386612
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/262.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/802b1bb0-6c73-481a-ac3e-7d4e1682b4c2.jpg?1562789294"],
     "layout": "normal",
     "type_line": "Basic Land — Mountain",
     "oracle_text": "({T}: Add {R}.)",
@@ -3023,7 +3023,7 @@
     "multiverse_ids": [
       386613
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/81.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/2/b2dadff2-883f-4134-a881-be145cdcbd84.jpg?1562792142"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nDestroy target creature.",
@@ -3044,7 +3044,7 @@
     "multiverse_ids": [
       386614
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/236.jpg?1528559681"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/bae51d77-e06b-4e5a-9543-a17dd0b2a333.jpg?1562792634"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Mystic Monastery enters the battlefield tapped.\n{T}: Add {U}, {R}, or {W}.",
@@ -3067,7 +3067,7 @@
     "multiverse_ids": [
       386615
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/48.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/b/7b5de843-e05d-43b5-a5d0-a737484fbd71.jpg?1562789034"],
     "layout": "normal",
     "type_line": "Creature — Human Monk",
     "oracle_text": "Mystic of the Hidden Way can't be blocked.\nMorph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -3088,7 +3088,7 @@
     "multiverse_ids": [
       386616
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/190.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/2/f210adb7-b389-4672-a3eb-0ced9bfe190c.jpg?1562795852"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Monk",
     "oracle_text": "First strike, hexproof\nWhenever Narset, Enlightened Master attacks, exile the top four cards of your library. Until end of turn, you may cast noncreature cards exiled with Narset this turn without paying their mana costs.",
@@ -3111,7 +3111,7 @@
     "multiverse_ids": [
       386617
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/142.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/1/b129b44e-a1ce-41f2-a0cf-b6c879c7cbbd.jpg?1562792044"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target artifact or enchantment.",
@@ -3132,7 +3132,7 @@
     "multiverse_ids": [
       386618
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/82.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/093426d2-29e0-49e4-b02a-a70cce3b25d5.jpg?1562782281"],
     "layout": "normal",
     "type_line": "Creature — Demon",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nFlying\n{X}, {T}, Exile X cards from your graveyard: Target creature gets -X/-X until end of turn.",
@@ -3153,7 +3153,7 @@
     "multiverse_ids": [
       386619
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/237.jpg?1528559678"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/b/fb6ae4a5-227d-465b-9e99-bae158b7d410.jpg?1562796466"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Nomad Outpost enters the battlefield tapped.\n{T}: Add {R}, {W}, or {B}.",
@@ -3176,7 +3176,7 @@
     "multiverse_ids": [
       386620
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/238.jpg?1528559674"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/1/21326575-80b9-4a4e-a93c-6880ec6575d5.jpg?1562783524"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Opulent Palace enters the battlefield tapped.\n{T}: Add {B}, {G}, or {U}.",
@@ -3199,7 +3199,7 @@
     "multiverse_ids": [
       386621
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/49.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/b/fbee4d2f-6b41-4717-a1c6-831034452bec.jpg?1562796500"],
     "layout": "normal",
     "type_line": "Creature — Leviathan",
     "oracle_text": "Flash\nThis spell can't be countered.\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nReturn three lands you control to their owner's hand: Return Pearl Lake Ancient to its owner's hand.",
@@ -3220,7 +3220,7 @@
     "multiverse_ids": [
       386622
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/143.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/3/93a49d9c-8fe7-494b-9a26-cf4bde71e420.jpg?1562790508"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
     "oracle_text": "Morph {4}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever Pine Walker or another creature you control is turned face up, untap that creature.",
@@ -3241,7 +3241,7 @@
     "multiverse_ids": [
       386624
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/250.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/5/2576dc74-1847-44b8-aef9-9d74f333b9cc.jpg?1562783786"],
     "layout": "normal",
     "type_line": "Basic Land — Plains",
     "oracle_text": "({T}: Add {W}.)",
@@ -3262,7 +3262,7 @@
     "multiverse_ids": [
       386627
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/239.jpg?1535416225"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff2f5f58-9a95-4ca6-93a0-813738f0072f.jpg?1562796666"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle your library.",
@@ -3281,7 +3281,7 @@
     "multiverse_ids": [
       386628
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/191.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/192d77ef-e8b5-44e2-842b-2c1f342c1e69.jpg?1562783191"],
     "layout": "normal",
     "type_line": "Creature — Goblin Warrior",
     "oracle_text": "When Ponyback Brigade enters the battlefield or is turned face up, create three 1/1 red Goblin creature tokens.\nMorph {2}{R}{W}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -3304,7 +3304,7 @@
     "multiverse_ids": [
       386629
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/50.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/d/5dc7c9d5-904e-4ab6-9773-5c4f1c6d34c4.jpg?1562787233"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Whenever you cast a noncreature spell, you may pay {1}. If you do, tap target creature an opponent controls and it doesn't untap during its controller's next untap step.",
@@ -3325,7 +3325,7 @@
     "multiverse_ids": [
       386630
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/83.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cd3e423e-cb62-43e1-9d0c-e702f823c8e1.jpg?1562793691"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Creatures you control get +1/+0.\nWhenever a Warrior you control deals combat damage to a player, you may pay 1 life. If you do, draw a card.",
@@ -3346,7 +3346,7 @@
     "multiverse_ids": [
       386631
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/192.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/ab4e0b33-dad1-4443-a7c7-a7bab067d04a.jpg?1562791782"],
     "layout": "normal",
     "type_line": "Creature — Cat Demon",
     "oracle_text": "{B}{G}: Rakshasa Deathdealer gets +2/+2 until end of turn.\n{B}{G}: Regenerate Rakshasa Deathdealer.",
@@ -3368,7 +3368,7 @@
     "multiverse_ids": [
       386633
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/84.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae62a43e-36ce-471e-93f1-21fe674858b5.jpg?1562791960"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Target opponent discards two cards. Put the top two cards of your library into your graveyard.",
@@ -3389,7 +3389,7 @@
     "multiverse_ids": [
       386632
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/193.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/b/cb39e674-919d-4db6-9ac1-cfa1cca02207.jpg?1562793567"],
     "layout": "normal",
     "type_line": "Creature — Cat Demon",
     "oracle_text": "Whenever one or more cards are put into exile from your graveyard, put that many +1/+1 counters on Rakshasa Vizier.",
@@ -3412,7 +3412,7 @@
     "multiverse_ids": [
       386634
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/144.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/f/4fb6c2e0-eeaa-4d60-aab7-2b8c739a9278.jpg?1562786444"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "oracle_text": "{T}: Add {G}, {U}, or {R}.\nMorph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Rattleclaw Mystic is turned face up, add {G}{U}{R}.",
@@ -3435,7 +3435,7 @@
     "multiverse_ids": [
       386635
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/85.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/d/0d3ee29d-b374-471d-80c3-bcad7a4226e6.jpg?1562782474"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "{B}, Remove X +1/+1 counters from among creatures you control: Target creature gets -X/-X until end of turn.",
@@ -3456,7 +3456,7 @@
     "multiverse_ids": [
       386636
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/194.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/b/3bc9a434-9617-4a20-88f0-355b20f2c538.jpg?1562785134"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target blocking creature. Creatures that were blocked by that creature this combat gain trample until end of turn.",
@@ -3478,7 +3478,7 @@
     "multiverse_ids": [
       386637
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/86.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/005b9fec-66de-4079-88e0-c7de7e22d18e.jpg?1562781741"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Destroy target creature. If that creature had a +1/+1 counter on it, create a 1/1 green Snake creature token.",
@@ -3499,7 +3499,7 @@
     "multiverse_ids": [
       386638
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/51.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/2/c210b102-8a94-4b5e-858a-777fa8ad18b9.jpg?1562793060"],
     "layout": "normal",
     "type_line": "Creature — Djinn Monk",
     "oracle_text": "Flying\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
@@ -3520,7 +3520,7 @@
     "multiverse_ids": [
       386639
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/145.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/3/83456f8f-8a1a-403c-816b-25e454ba1edf.jpg?1562789481"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "All creatures able to block target creature this turn do so.\nFerocious — That creature gains indestructible until end of turn if you control a creature with power 4 or greater.",
@@ -3541,7 +3541,7 @@
     "multiverse_ids": [
       386640
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/87.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/5/1564a20a-0e57-4ced-9eda-7acff74274e7.jpg?1562782961"],
     "layout": "normal",
     "type_line": "Creature — Zombie Elephant",
     "oracle_text": "",
@@ -3562,7 +3562,7 @@
     "multiverse_ids": [
       386641
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/240.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/501ce6cb-0324-4cca-bc79-903cefe1ac1f.jpg?1562786462"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Rugged Highlands enters the battlefield tapped.\nWhen Rugged Highlands enters the battlefield, you gain 1 life.\n{T}: Add {R} or {G}.",
@@ -3584,7 +3584,7 @@
     "multiverse_ids": [
       386642
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/19.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/d/0d47d8aa-59c8-4e2c-bb48-328ae924dbb3.jpg?1562782475"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Creatures you control get +2/+1 until end of turn. Warrior creatures you control gain lifelink until end of turn. (Damage dealt by those Warriors also causes their controller to gain that much life.)",
@@ -3605,7 +3605,7 @@
     "multiverse_ids": [
       386643
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/88.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/9/c9c67b11-a82e-4a25-88a4-5771ab5c4f00.jpg?1562793470"],
     "layout": "normal",
     "type_line": "Creature — Human Assassin",
     "oracle_text": "Deathtouch\nMorph—Reveal a black card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Ruthless Ripper is turned face up, target player loses 2 life.",
@@ -3626,7 +3626,7 @@
     "multiverse_ids": [
       386645
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/20.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3cc7b4c3-647e-48da-86f8-f55e3e990ac1.jpg?1562785176"],
     "layout": "normal",
     "type_line": "Creature — Bird Warrior",
     "oracle_text": "Flying\nMorph {3}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -3647,7 +3647,7 @@
     "multiverse_ids": [
       386644
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/195.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/9/297c336b-3f70-4518-b1f1-7b773774895d.jpg?1562784071"],
     "layout": "normal",
     "type_line": "Creature — Djinn Wizard",
     "oracle_text": "Flying\nWhenever you cast a noncreature spell, creatures you control gain lifelink until end of turn.",
@@ -3670,7 +3670,7 @@
     "multiverse_ids": [
       386646
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/146.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3a26baca-467e-4d94-873e-f266bebd5fd8.jpg?1562785028"],
     "layout": "normal",
     "type_line": "Creature — Naga Archer",
     "oracle_text": "Reach (This creature can block creatures with flying.)\nMorph {4}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -3691,7 +3691,7 @@
     "multiverse_ids": [
       386647
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/196.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/c/4c64af58-963d-497b-ab95-104839d96b94.jpg?1562786271"],
     "layout": "normal",
     "type_line": "Creature — Beast",
     "oracle_text": "Trample, hexproof\nMorph {3}{G}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -3713,7 +3713,7 @@
     "multiverse_ids": [
       386648
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/21.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c5ee84d-e5b9-4103-8ba7-ccd79a272c0f.jpg?1562784258"],
     "layout": "normal",
     "type_line": "Creature — Human Scout",
     "oracle_text": "Outlast {1}{W} ({1}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)",
@@ -3734,7 +3734,7 @@
     "multiverse_ids": [
       386649
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/241.jpg?1528559671"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/d/2dd40d90-c939-458a-9a98-27d10da6ff2f.jpg?1562784373"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Sandsteppe Citadel enters the battlefield tapped.\n{T}: Add {W}, {B}, or {G}.",
@@ -3757,7 +3757,7 @@
     "multiverse_ids": [
       386650
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/119.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c58064fd-4d8b-4f54-812f-0bb1d7e2ddc2.jpg?1562793263"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Sarkhan",
     "oracle_text": "+1: Until end of turn, Sarkhan, the Dragonspeaker becomes a legendary 4/4 red Dragon creature with flying, indestructible, and haste. (He doesn't lose loyalty while he's not a planeswalker.)\n−3: Sarkhan, the Dragonspeaker deals 4 damage to target creature.\n−6: You get an emblem with \"At the beginning of your draw step, draw two additional cards\" and \"At the beginning of your end step, discard your hand.\"",
@@ -3778,7 +3778,7 @@
     "multiverse_ids": [
       386651
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/197.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/c/4c9dddd3-7c8d-4669-8298-58149b142b8a.jpg?1562786291"],
     "layout": "normal",
     "type_line": "Creature — Ogre Warrior",
     "oracle_text": "{2}{G}: Savage Knuckleblade gets +2/+2 until end of turn. Activate this ability only once each turn.\n{2}{U}: Return Savage Knuckleblade to its owner's hand.\n{R}: Savage Knuckleblade gains haste until end of turn.",
@@ -3801,7 +3801,7 @@
     "multiverse_ids": [
       386652
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/147.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6c6b50dc-244a-4df5-a9a9-5a2b8f30d40c.jpg?1562788166"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Target creature you control fights target creature you don't control.\nFerocious — The creature you control gets +2/+2 until end of turn before it fights if you control a creature with power 4 or greater.",
@@ -3822,7 +3822,7 @@
     "multiverse_ids": [
       386653
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/52.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/8110eb0a-63dc-43df-b55a-9241f45b1cc6.jpg?1562789336"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
     "oracle_text": "Flying\n{2}{R}, Sacrifice Scaldkin: It deals 2 damage to any target.",
@@ -3844,7 +3844,7 @@
     "multiverse_ids": [
       386654
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/53.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/e/5e370939-831b-4c42-8291-8ffb0b6c1af7.jpg?1562787263"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
     "oracle_text": "{U}: Scion of Glaciers gets +1/-1 until end of turn.",
@@ -3865,7 +3865,7 @@
     "multiverse_ids": [
       386655
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/242.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/8/0824a960-dd89-45c5-90f0-3ec9eb47d9ce.jpg?1562782193"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Scoured Barrens enters the battlefield tapped.\nWhen Scoured Barrens enters the battlefield, you gain 1 life.\n{T}: Add {W} or {B}.",
@@ -3887,7 +3887,7 @@
     "multiverse_ids": [
       386656
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/148.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/eb15c6c7-8fe6-496c-9977-3e7942b920c4.jpg?1562795470"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Reveal the top five cards of your library. You may put a creature or land card from among them into your hand. Put the rest into your graveyard.",
@@ -3908,7 +3908,7 @@
     "multiverse_ids": [
       386657
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/198.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01589046-a969-400f-b4ac-90cbbb814504.jpg?1562781791"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Face-down creatures you control get +0/+1.\nWhenever a permanent you control is turned face up, draw a card.",
@@ -3930,7 +3930,7 @@
     "multiverse_ids": [
       386660
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/22.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3c17e350-44f7-4413-ad24-7c5d6616effd.jpg?1562785152"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever you cast a noncreature spell, Seeker of the Way gains lifelink until end of turn.",
@@ -3951,7 +3951,7 @@
     "multiverse_ids": [
       386659
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/150.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/5/d5269292-11be-4647-9074-7ce8115bf36f.jpg?1562794101"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Search your library for up to three basic land cards, reveal them, and put them into your hand. Then shuffle your library.",
@@ -3972,7 +3972,7 @@
     "multiverse_ids": [
       386658
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/149.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/6/3689a7f1-9713-412e-a030-9cba463c170e.jpg?1562784794"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Reveal the top eight cards of your library. You may put a creature card from among them onto the battlefield. Put the rest into your graveyard.\nFerocious — If you control a creature with power 4 or greater, you may put two creature cards onto the battlefield instead of one.",
@@ -3993,7 +3993,7 @@
     "multiverse_ids": [
       386661
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/54.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cdad122d-a872-449f-9a7c-0f054b711d11.jpg?1562793718"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nPut target nonland permanent on top of its owner's library.",
@@ -4014,7 +4014,7 @@
     "multiverse_ids": [
       386662
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/89.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/5/459ca25c-775f-4110-8d70-59720692ab27.jpg?1562785839"],
     "layout": "normal",
     "type_line": "Creature — Zombie",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
@@ -4035,7 +4035,7 @@
     "multiverse_ids": [
       386663
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/120.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c4ecaa0-a85f-4771-a829-1ab440b29165.jpg?1562784251"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target artifact.",
@@ -4056,7 +4056,7 @@
     "multiverse_ids": [
       386664
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/199.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ffa2b070-952e-4242-83bb-3e73135ceeeb.jpg?1562796690"],
     "layout": "normal",
     "type_line": "Legendary Creature — Naga Shaman",
     "oracle_text": "Whenever Sidisi, Brood Tyrant enters the battlefield or attacks, put the top three cards of your library into your graveyard.\nWhenever one or more creature cards are put into your graveyard from your library, create a 2/2 black Zombie creature token.",
@@ -4079,7 +4079,7 @@
     "multiverse_ids": [
       386665
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/90.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/6/e6e02a99-da37-4cea-9182-39ccb1e35ee9.jpg?1562795181"],
     "layout": "normal",
     "type_line": "Creature — Zombie Ape",
     "oracle_text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nMorph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -4100,7 +4100,7 @@
     "multiverse_ids": [
       386667
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/23.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/b/fbd17ef9-9f1b-4937-a60a-d7175f04eef2.jpg?1562796498"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +2/+4.",
@@ -4121,7 +4121,7 @@
     "multiverse_ids": [
       386666
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/200.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/9011126a-20bd-4c86-a63b-1691f79ac247.jpg?1562790317"],
     "layout": "normal",
     "type_line": "Creature — Rhino",
     "oracle_text": "Trample\nWhen Siege Rhino enters the battlefield, each opponent loses 3 life and you gain 3 life.",
@@ -4144,7 +4144,7 @@
     "multiverse_ids": [
       386668
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/55.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/670f24e1-dec9-42e6-b762-c447366ed16c.jpg?1562787818"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nWhen Singing Bell Strike enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\nEnchanted creature has \"{6}: Untap this creature.\"",
@@ -4165,7 +4165,7 @@
     "multiverse_ids": [
       386669
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/24.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/4/1405bb2e-2204-43ab-82a3-5d0c8537325a.jpg?1562782881"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target creature with power 4 or greater.",
@@ -4186,7 +4186,7 @@
     "multiverse_ids": [
       386670
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/151.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/1916a2d9-4747-4118-b1b2-7a5ce492e3fc.jpg?1562783190"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "oracle_text": "{1}{U}: Look at target face-down creature.",
@@ -4208,7 +4208,7 @@
     "multiverse_ids": [
       386671
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/201.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/5/f5d9aa9b-1ed4-46db-89d1-6c9593c29f55.jpg?1562796087"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Trample\nMorph {2}{G}{U}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -4231,7 +4231,7 @@
     "multiverse_ids": [
       386672
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/202.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/da1a9643-34d6-4b4b-b896-2d4626eca40a.jpg?1562794474"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Sorin",
     "oracle_text": "+1: Until your next turn, creatures you control get +1/+0 and gain lifelink.\n−2: Create a 2/2 black Vampire creature token with flying.\n−6: You get an emblem with \"At the beginning of each opponent's upkeep, that player sacrifices a creature.\"",
@@ -4253,7 +4253,7 @@
     "multiverse_ids": [
       386673
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/56.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/f/6f8626c4-306f-4e9d-8840-2bb73fe87e87.jpg?1562788344"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target noncreature spell unless its controller pays {1}.\nFerocious — If you control a creature with power 4 or greater, counter that spell instead.",
@@ -4274,7 +4274,7 @@
     "multiverse_ids": [
       386674
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/203.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/3/3314d77a-039f-43e4-a457-6ceba20c0ffe.jpg?1562784612"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "At the beginning of your upkeep, look at the top two cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.",
@@ -4297,7 +4297,7 @@
     "multiverse_ids": [
       386675
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/225.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/6/1695cf35-8f7c-4674-bfd3-43520b13d084.jpg?1562783039"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{T}: Add {B}, {G}, or {U}.\n{B}{G}{U}, {T}, Sacrifice Sultai Banner: Draw a card.",
@@ -4320,7 +4320,7 @@
     "multiverse_ids": [
       386676
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/204.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/9/993c9028-9b1b-4903-81b2-3cf4f37b7229.jpg?1562790829"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Destroy target monocolored creature.\n• Destroy target artifact or enchantment.\n• Draw two cards, then discard a card.",
@@ -4343,7 +4343,7 @@
     "multiverse_ids": [
       386677
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/152.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7f3b2ef3-551d-4782-8dce-a923c0e2965e.jpg?1562789217"],
     "layout": "normal",
     "type_line": "Creature — Naga Shaman",
     "oracle_text": "Whenever a creature you control with toughness 4 or greater dies, you gain 4 life.",
@@ -4364,7 +4364,7 @@
     "multiverse_ids": [
       386678
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/91.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2cb8e423-f7e7-4ac3-acc2-2a3722e409e7.jpg?1562784280"],
     "layout": "normal",
     "type_line": "Creature — Bird Warrior",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nFlying",
@@ -4385,7 +4385,7 @@
     "multiverse_ids": [
       386679
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/205.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae0de2c9-957e-41ee-8899-b93e6f1091dc.jpg?1562791937"],
     "layout": "normal",
     "type_line": "Creature — Naga Shaman",
     "oracle_text": "When Sultai Soothsayer enters the battlefield, look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.",
@@ -4408,7 +4408,7 @@
     "multiverse_ids": [
       386680
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/121.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f7f998fb-4518-4a0c-8b1e-55393b6ff9c4.jpg?1562796210"],
     "layout": "normal",
     "type_line": "Creature — Yeti",
     "oracle_text": "",
@@ -4429,7 +4429,7 @@
     "multiverse_ids": [
       386681
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/206.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/03032d89-caca-43ff-b2ea-028e376c829c.jpg?1562781878"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Warrior",
     "oracle_text": "Flash\nThis spell can't be countered.\nCreature spells you control can't be countered.\nOther creatures you control have trample.",
@@ -4452,7 +4452,7 @@
     "multiverse_ids": [
       386682
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/25.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/ba5c9628-1801-43d9-8bb4-4cca168510b2.jpg?1562792611"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "When Suspension Field enters the battlefield, you may exile target creature with toughness 3 or greater until Suspension Field leaves the battlefield. (That creature returns under its owner's control.)",
@@ -4473,7 +4473,7 @@
     "multiverse_ids": [
       386685
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/258.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/09d7e861-8dda-4073-bfd6-4ade3bca5cff.jpg?1562782285"],
     "layout": "normal",
     "type_line": "Basic Land — Swamp",
     "oracle_text": "({T}: Add {B}.)",
@@ -4494,7 +4494,7 @@
     "multiverse_ids": [
       386687
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/92.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/b/cbd36319-e05d-4a9e-a6d4-48fba9111648.jpg?1562793596"],
     "layout": "normal",
     "type_line": "Creature — Insect",
     "oracle_text": "Flying\nSwarm of Bloodflies enters the battlefield with two +1/+1 counters on it.\nWhenever another creature dies, put a +1/+1 counter on Swarm of Bloodflies.",
@@ -4515,7 +4515,7 @@
     "multiverse_ids": [
       386688
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/122.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/d/2dc3120c-7e04-4c4a-af16-da264593a1d1.jpg?1562784372"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature you control gets +1/+0 until end of turn. It fights target creature you don't control.",
@@ -4536,7 +4536,7 @@
     "multiverse_ids": [
       386689
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/243.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/7/e782d005-a563-4738-978a-73a3465de78f.jpg?1562795257"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Swiftwater Cliffs enters the battlefield tapped.\nWhen Swiftwater Cliffs enters the battlefield, you gain 1 life.\n{T}: Add {U} or {R}.",
@@ -4558,7 +4558,7 @@
     "multiverse_ids": [
       386690
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/57.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/87f4b533-7113-4b36-9c7a-e4cf798c88a9.jpg?1562789814"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Look at the top five cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.",
@@ -4579,7 +4579,7 @@
     "multiverse_ids": [
       386691
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/26.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/c/fc783f49-f58a-4783-87b4-4dbc7e896f2e.jpg?1562796534"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Create three 1/1 white Warrior creature tokens.",
@@ -4600,7 +4600,7 @@
     "multiverse_ids": [
       386692
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/207.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/11746bf1-d813-4ade-8ce4-9935cebef856.jpg?1562782711"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Creatures you control have haste.\nWhenever a creature with power 4 or greater enters the battlefield under your control, you may draw a card.",
@@ -4623,7 +4623,7 @@
     "multiverse_ids": [
       386693
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/226.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/9/9990bdff-c27a-447f-b530-d8b7614fe9a0.jpg?1562790835"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{T}: Add {G}, {U}, or {R}.\n{G}{U}{R}, {T}, Sacrifice Temur Banner: Draw a card.",
@@ -4646,7 +4646,7 @@
     "multiverse_ids": [
       386694
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/153.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f77258fc-8683-4656-84a3-4df4ea2a8435.jpg?1562796176"],
     "layout": "normal",
     "type_line": "Creature — Horse",
     "oracle_text": "Morph—Reveal a green card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Temur Charger is turned face up, target creature gains trample until end of turn.",
@@ -4667,7 +4667,7 @@
     "multiverse_ids": [
       386695
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/208.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/2/e2ee3e36-a849-42b0-b84b-027a08427c35.jpg?1562794960"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Target creature you control gets +1/+1 until end of turn. It fights target creature you don't control.\n• Counter target spell unless its controller pays {3}.\n• Creatures with power 3 or less can't block this turn.",
@@ -4690,7 +4690,7 @@
     "multiverse_ids": [
       386696
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/244.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9e57abd9-e864-4047-a3c8-618952071858.jpg?1562791123"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Thornwood Falls enters the battlefield tapped.\nWhen Thornwood Falls enters the battlefield, you gain 1 life.\n{T}: Add {G} or {U}.",
@@ -4712,7 +4712,7 @@
     "multiverse_ids": [
       386697
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/58.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/249b453c-0d5b-4af9-aaec-ebd2f19c5d23.jpg?1562783727"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
     "oracle_text": "Flying\nMorph {5}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Thousand Winds is turned face up, return all other tapped creatures to their owners' hands.",
@@ -4733,7 +4733,7 @@
     "multiverse_ids": [
       386698
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/93.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/6/b6b71c00-3f38-47dc-90bc-6464d346c098.jpg?1562792396"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets -4/-4 until end of turn.",
@@ -4754,7 +4754,7 @@
     "multiverse_ids": [
       386699
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/27.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/c/dcb3c08e-b591-421a-898a-533021cbabd2.jpg?1562794596"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Raid — When Timely Hordemate enters the battlefield, if you attacked with a creature this turn, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.",
@@ -4775,7 +4775,7 @@
     "multiverse_ids": [
       386700
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/245.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/eb6be7ab-8fad-4606-b623-f2188219d60b.jpg?1562795503"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "{T}: Add {C}.\n{2}, {T}: You gain 1 life for each colorless creature you control.",
@@ -4794,7 +4794,7 @@
     "multiverse_ids": [
       386701
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/123.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/5/25af9ac1-a03b-4be7-b726-fb66427b1caa.jpg?1562783820"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards.",
@@ -4815,7 +4815,7 @@
     "multiverse_ids": [
       386702
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/154.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/1/6149685f-cb05-4c1f-95a4-3810505d1a95.jpg?1562787478"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Whenever a face-down creature enters the battlefield under your control, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nWhenever a permanent you control is turned face up, if it's a creature, it gets +2/+2 until end of turn.",
@@ -4836,7 +4836,7 @@
     "multiverse_ids": [
       386703
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/246.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f840bd2-c4f5-4ac4-918c-91b4feeb8783.jpg?1562782605"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Tranquil Cove enters the battlefield tapped.\nWhen Tranquil Cove enters the battlefield, you gain 1 life.\n{T}: Add {W} or {U}.",
@@ -4858,7 +4858,7 @@
     "multiverse_ids": [
       386704
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/209.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2bb37bd9-10a0-48d5-87f0-23a03b5c1072.jpg?1562784208"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target creature spell. Put two +1/+1 counters on up to one target creature.",
@@ -4881,7 +4881,7 @@
     "multiverse_ids": [
       386705
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/59.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/a/7a59d4b1-6cf4-44ec-8a96-1bb7094fea21.jpg?1562788963"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nDraw three cards.",
@@ -4902,7 +4902,7 @@
     "multiverse_ids": [
       386706
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/124.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/eb6deef5-876f-4c81-8af5-6e91e0c4656a.jpg?1562795504"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Attacking creatures get +2/+0 until end of turn.",
@@ -4923,7 +4923,7 @@
     "multiverse_ids": [
       386707
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/155.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/d/2d511407-0c1e-4342-a578-ca557c6886fd.jpg?1562784330"],
     "layout": "normal",
     "type_line": "Creature — Beast",
     "oracle_text": "",
@@ -4944,7 +4944,7 @@
     "multiverse_ids": [
       386708
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/156.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/3/b341cc65-d316-41bb-95b8-294afa019a71.jpg?1562792160"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Outlast {G} ({G}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach creature you control with a +1/+1 counter on it has trample.",
@@ -4965,7 +4965,7 @@
     "multiverse_ids": [
       386709
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/227.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/4/94002868-a48a-4ea8-bfce-17257078f5db.jpg?1562790526"],
     "layout": "normal",
     "type_line": "Legendary Artifact",
     "oracle_text": "If a player would begin an extra turn, that player skips that turn instead.\nIf Ugin's Nexus would be put into a graveyard from the battlefield, instead exile it and take an extra turn after this one.",
@@ -4984,7 +4984,7 @@
     "multiverse_ids": [
       386710
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/94.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a232d196-490d-4712-b2a2-466751b28d11.jpg?1562791316"],
     "layout": "normal",
     "type_line": "Creature — Orc Warrior",
     "oracle_text": "{1}{W}: Unyielding Krumar gains first strike until end of turn.",
@@ -5006,7 +5006,7 @@
     "multiverse_ids": [
       386711
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/210.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/39643107-8873-42f6-9b4d-b546a0a976ba.jpg?1562784988"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Exile target nonland permanent.",
@@ -5028,7 +5028,7 @@
     "multiverse_ids": [
       386712
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/125.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/5/8543adbd-0dd1-47d3-ac41-2ec72d6a5d35.jpg?1562789625"],
     "layout": "normal",
     "type_line": "Creature — Human Berserker",
     "oracle_text": "Haste\nValley Dasher attacks each combat if able.",
@@ -5049,7 +5049,7 @@
     "multiverse_ids": [
       386713
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/28.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/2/229919ef-e39f-4bdc-bcc5-46224a3eb7b4.jpg?1562783617"],
     "layout": "normal",
     "type_line": "Creature — Lammasu",
     "oracle_text": "Flying",
@@ -5070,7 +5070,7 @@
     "multiverse_ids": [
       386714
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/211.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/6/0610e69b-8b7c-40e4-bb10-28ee4411f861.jpg?1562782076"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Target opponent exiles the top X cards of their library. You may cast any number of nonland cards with converted mana cost X or less from among them without paying their mana costs.",
@@ -5093,7 +5093,7 @@
     "multiverse_ids": [
       386715
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/29.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/5/652109b9-d607-42b6-945d-0c0dd5bba89c.jpg?1562787724"],
     "layout": "normal",
     "type_line": "Creature — Beast",
     "oracle_text": "Morph {4}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -5114,7 +5114,7 @@
     "multiverse_ids": [
       386716
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/212.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/04135bf7-2bcf-4a92-80f0-6d5eefca551b.jpg?1562781945"],
     "layout": "normal",
     "type_line": "Creature — Djinn Wizard",
     "oracle_text": "When Warden of the Eye enters the battlefield, return target noncreature, nonland card from your graveyard to your hand.",
@@ -5137,7 +5137,7 @@
     "multiverse_ids": [
       386717
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/126.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e8d1714b-ff65-4c5c-ad21-b469f2c72286.jpg?1562795326"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Raid — War-Name Aspirant enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.\nWar-Name Aspirant can't be blocked by creatures with power 1 or less.",
@@ -5158,7 +5158,7 @@
     "multiverse_ids": [
       386718
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/30.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8684039-e4d9-4e48-9a41-7ccf4a795507.jpg?1562791631"],
     "layout": "normal",
     "type_line": "Creature — Bird Soldier",
     "oracle_text": "Flying\nMorph—Reveal a white card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Watcher of the Roost is turned face up, you gain 2 life.",
@@ -5179,7 +5179,7 @@
     "multiverse_ids": [
       386719
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/60.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9dd58503-d269-4756-a71c-a6a2bfb1658d.jpg?1562791100"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Return up to two target creatures to their owners' hands.",
@@ -5200,7 +5200,7 @@
     "multiverse_ids": [
       386720
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/61.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/4/a4a1f9c1-25a3-465f-b3d8-98f0867c9bb6.jpg?1562791439"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Draw two cards.",
@@ -5221,7 +5221,7 @@
     "multiverse_ids": [
       386721
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/62.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f71a86e0-d15a-4fba-94f6-bfbaade8d837.jpg?1562796153"],
     "layout": "normal",
     "type_line": "Creature — Elk",
     "oracle_text": "",
@@ -5242,7 +5242,7 @@
     "multiverse_ids": [
       386722
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/63.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/51c9bd9c-900a-48a1-9cfe-2f8d031af6b8.jpg?1562786541"],
     "layout": "normal",
     "type_line": "Creature — Djinn Monk",
     "oracle_text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
@@ -5263,7 +5263,7 @@
     "multiverse_ids": [
       386723
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/247.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/b/3b296781-78ac-411f-88fc-2d924ad22986.jpg?1562785094"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Wind-Scarred Crag enters the battlefield tapped.\nWhen Wind-Scarred Crag enters the battlefield, you gain 1 life.\n{T}: Add {R} or {W}.",
@@ -5285,7 +5285,7 @@
     "multiverse_ids": [
       386724
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/157.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/5/154dc31c-ac9d-4b78-b92b-e7bacc532915.jpg?1562782948"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Windstorm deals X damage to each creature with flying.",
@@ -5306,7 +5306,7 @@
     "multiverse_ids": [
       386725
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/248.jpg?1535416224"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/7/e7b28650-cddc-4878-b1d1-b5a764f4df49.jpg?1562795269"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle your library.",
@@ -5325,7 +5325,7 @@
     "multiverse_ids": [
       386726
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/31.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/5/25f0f6a2-b392-45e6-97c4-4f00016144d3.jpg?1562783827"],
     "layout": "normal",
     "type_line": "Creature — Bird",
     "oracle_text": "Flying\nRaid — When Wingmate Roc enters the battlefield, if you attacked with a creature this turn, create a 3/4 white Bird creature token with flying.\nWhenever Wingmate Roc attacks, you gain 1 life for each attacking creature.",
@@ -5346,7 +5346,7 @@
     "multiverse_ids": [
       386727
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/213.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b8924ab9-fa55-4348-b67d-b2b9e48a357a.jpg?1562792511"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one or both —\n• Tap target creature.\n• Winterflame deals 2 damage to target creature.",
@@ -5368,7 +5368,7 @@
     "multiverse_ids": [
       386728
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/228.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/6/763ac4c4-af2d-4b71-9fb3-244c96f93860.jpg?1562788742"],
     "layout": "normal",
     "type_line": "Artifact Creature — Golem",
     "oracle_text": "Morph {5} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -5387,7 +5387,7 @@
     "multiverse_ids": [
       386729
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/249.jpg?1546109282"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8503cca-7e7d-44c4-8587-81376b396398.jpg?1562791629"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "{T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle your library.",
@@ -5406,7 +5406,7 @@
     "multiverse_ids": [
       386730
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/158.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a890c55a-8746-4233-b75a-19cc760c1e8e.jpg?1562791638"],
     "layout": "normal",
     "type_line": "Creature — Elephant Warrior",
     "oracle_text": "Morph {5}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -5427,7 +5427,7 @@
     "multiverse_ids": [
       386731
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/en/ktk/214.jpg?1517813031"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/13f4bafe-0d21-47ba-8f16-0274107d618c.jpg?1562782879"],
     "layout": "normal",
     "type_line": "Legendary Creature — Orc Warrior",
     "oracle_text": "Haste\nZurgo Helmsmasher attacks each combat if able.\nZurgo Helmsmasher has indestructible as long as it's your turn.\nWhenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+1 counter on Zurgo Helmsmasher.",
