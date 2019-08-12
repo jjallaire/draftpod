@@ -179,6 +179,7 @@ download_cards <- function(cards,
     akh = 269,
     hou = 199,
     ktk = 269,
+    isd = 249,
     `cube_gnt` = 1000
   )
   
