@@ -17,6 +17,7 @@ import war from './set-war'
 import m20 from './set-m20'
 import mh1 from './set-mh1'
 import ktk from './set-ktk'
+import isd from './set-isd'
 
 
 import cube_gnt from './cube-gnt'
@@ -41,6 +42,7 @@ const sets = {
   m20,
   mh1,
   ktk,
+  isd,
   cube_gnt
 }
 

@@ -7,7 +7,7 @@ export default {
 
   name: "Innistrad",
 
-  pack_cards: 14,
+  pack_cards: () => 14,
 
   cube: cube.build,
 

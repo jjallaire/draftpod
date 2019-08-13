@@ -99,6 +99,9 @@ export default {
           <option value="ktk">
             Khans of Tarkir
           </option>
+          <option value="isd">
+            Innistrad
+          </option>
         </optgroup>
         <optgroup label="Draft Innovation">
           <option value="mh1">
