@@ -11,6 +11,10 @@ export default {
 
   cube: cube.build,
 
+  capabilities: {
+    arena_decklists: false
+  },
+
   booster(selectCards) {
 
     let cards = [].concat(
