@@ -9,6 +9,10 @@ Vue.use(VueHotkey);
 import jquery from 'jquery'
 
 import _flatten from 'lodash/flatten'
+import _orderBy from 'lodash/orderBy'
+import _omit from 'lodash/omit'
+
+import * as filters from '@/store/modules/draft/card-filters'
 
 import NavBar from '@/components/core/NavBar.vue'
 
@@ -18,7 +22,6 @@ import InfoBar from '../infobar/InfoBar.vue'
 import SealedPoolPanel from '../sealed/SealedPoolPanel.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 
-import _orderBy from 'lodash/orderBy'
 import LeftIcon from 'vue-material-design-icons/ChevronLeftBox.vue'
 import RightIcon from 'vue-material-design-icons/ChevronRightBox.vue'
 import FilterIcon from 'vue-material-design-icons/FilterVariant.vue'
@@ -69,7 +72,44 @@ export default {
     },
 
     pool_sorted: function() {
-      return _orderBy(this.pool_filtered, ["collector_number"], ["asc"]);
+
+      // genereate color order field (need to do this 
+      // becauase we may be merging cards from multiple 
+      // sets so collector number won't order by color)
+      let cards = this.pool_filtered.map(card => { 
+        let colorOrder = 9;
+        if (filters.artifact(card)) {
+          colorOrder = 7
+        } else if (filters.land(card)) {
+          colorOrder = 8;
+        } else if (filters.colorless(card)) {
+          colorOrder = 0;
+        } else if (filters.multicolor(card)) {
+          colorOrder = 6;
+        } else if (filters.plains(card)) {
+          colorOrder = 1;
+        } else if (filters.island(card)) {
+          colorOrder = 2;
+        } else if (filters.swamp(card)) {
+          colorOrder = 3;
+        } else if (filters.mountain(card)) {
+          colorOrder = 4;
+        } else if (filters.forest(card)) {
+          colorOrder = 5;
+        }
+        return { 
+          ...card, 
+          colorOrder,
+        }
+      }); 
+
+      // return sorted array of cards (w/o sort fields)
+      return _orderBy(cards, 
+        ["colorOrder",  "name",], 
+        ["asc", "asc",]
+      ).map(card => {
+        return _omit(card, ["colorOrder"]);
+      });
     },
 
     page_cards: function() {
