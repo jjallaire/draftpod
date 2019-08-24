@@ -59,7 +59,13 @@ export default {
 
 </script>
 
+<!---
 
+First add click still doesn't work (untify select box)
+Alignment of UI controls
+Tests failing
+
+--->
 
 
 <template>
