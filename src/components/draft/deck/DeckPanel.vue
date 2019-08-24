@@ -167,7 +167,7 @@ export default {
         <input id="arrangeByCostCheckbox" v-model="arrange_by_cost" class="form-check-input" type="checkbox">
         <label class="form-check-label" for="arrangeByCostCheckbox">Arrange by cost</label>
       </div>
-      <DeckSaveList v-if="saved_decks" :saved_decks="saved_decks" />
+      <DeckSaveList v-if="saved_decks && saved_decks.active" :saved_decks="saved_decks" />
     </template>
     <template slot="header-right">
       <DeckView :set_code="set.code" :format="options.deck_list_format" :deck="deck" />

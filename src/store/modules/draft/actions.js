@@ -21,7 +21,6 @@ export const ARRANGE_DECK_BY_COST = 'ARRANGE_DECK_BY_COST'
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 export const REMOVE_PLAYER = 'REMOVE_PLAYER'
-export const SAVE_DECK = 'SAVE_DECK'
 export const ADD_DECK = 'ADD_DECK'
 export const ACTIVATE_DECK = 'ACTIVATE_DECK'
 
@@ -235,16 +234,6 @@ export default {
       draftBotPickAndPass(player_index, state.set.code, options, table);
       
     });
-  },
-
-
-  [SAVE_DECK]( {commit, state}, { player_id, name }) {
-    return updateTable( {commit, state }, player_id, (table) => {
-      const player = selectors.activePlayer(player_id, table);
-      const deck = selectors.activePlayer(player_id, table).deck;
-      player.saved_decks.decks[name] = deck;
-      player.saved_decks.active = name;
-    })
   },
 
   [ADD_DECK]( { commit, state }, { player_id, name }) {
@@ -529,6 +518,10 @@ function distributeSealedPools(table, options) {
 
         // add them all to the unused pile
         player.deck.piles[DECK.UNUSED] = _flatten(packs);
+
+        // create build 1
+        player.saved_decks.decks['Build 1'] = _cloneDeep(player.deck);
+        player.saved_decks.active = 'Build 1';
        
       } else {
         player.id = null;

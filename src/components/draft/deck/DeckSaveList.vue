@@ -33,20 +33,12 @@ export default {
   },
 
   inject: [
-    'saveDeck',
     'addDeck',
     'activateDeck'
   ],
 
   methods: {
-    onSaveClicked() {
-      this.saveDeck({ name: 'Build 1' })
-        .then(() => {
-          this.onNewBuildClicked();
-        })
-    },
-
-    onNewBuildClicked() {
+    onAddBuildClicked() {
       let name = 'Build ' + (this.deck_names.length + 1);
       this.addDeck({ name })
         .then(() => {
@@ -59,31 +51,14 @@ export default {
 
 </script>
 
-<!---
-
-First add click still doesn't work (untify select box)
-
---->
-
-
 <template>
   <span class="deck-save-list">
-    <template v-if="!saved_decks.active">
-      <select class="card-header-select">
-        <option>Build 1</option>
-      </select>
-      <button class="btn btn-sm btn-secondary btn-savelist text-light" @click="onSaveClicked">
-        <PlusIcon title="Add build" />
-      </button>
-    </template>
-    <template v-else>
-      <select v-model="active_deck" class="card-header-select">
-        <option v-for="name in deck_names" :key="name" :value="name">{{ name }}</option>
-      </select>
-      <button class="btn btn-sm btn-secondary btn-savelist text-light" @click="onNewBuildClicked">
-        <PlusIcon title="Add Build" />
-      </button>
-    </template>
+    <select v-model="active_deck" class="card-header-select">
+      <option v-for="name in deck_names" :key="name" :value="name">{{ name }}</option>
+    </select>
+    <button class="btn btn-sm btn-secondary btn-savelist text-light" @click="onAddBuildClicked">
+      <PlusIcon title="Add Build" />
+    </button> 
   </span>
 </template>
 

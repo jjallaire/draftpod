@@ -15,7 +15,6 @@ export default {
   disableAutoLands() {},
   setBasicLands() {},
   removePlayer() {},
-  saveDeck() {},
   addDeck() {},
   activateDeck() {},
   setShowBotColors() {},
