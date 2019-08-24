@@ -38,12 +38,13 @@ export default {
   ],
 
   methods: {
-    onAddBuildClicked() {
+    onAddBuildClicked(event) {
       let name = 'Build ' + (this.deck_names.length + 1);
       this.addDeck({ name })
         .then(() => {
           this.activateDeck({ name })
         })
+      event.target.blur();
     },
   }
 
@@ -75,7 +76,7 @@ export default {
   background-repeat: no-repeat;
   -webkit-appearance: menulist-button;
   height: 23px;
-  min-width: 75px;
+  min-width: 70px;
 }
 
 
