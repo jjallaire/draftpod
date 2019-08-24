@@ -24,9 +24,12 @@ export default {
       return selectors.savedDeckNames(this.saved_decks);
     },
 
-    active_deck() {
-      return this.saved_decks.active;
+     active_deck: {
+      get: function() { return this.saved_decks.active },
+      set: function(value) { this.activateDeck({ name: value }) }
     }
+
+   
   },
 
   inject: [
@@ -50,10 +53,6 @@ export default {
           this.activateDeck({ name })
         })
     },
-
-    onDeckChanged(event) {
-      this.activateDeck( { name: event.target.value });
-    },
   }
 
 }
@@ -74,7 +73,7 @@ export default {
       </button>
     </template>
     <template v-else>
-      <select class="card-header-select" :value="active_deck" @change="onDeckChanged">
+      <select v-model="active_deck" class="card-header-select">
         <option v-for="name in deck_names" :key="name" :value="name">{{ name }}</option>
       </select>
       <button class="btn btn-sm btn-secondary btn-savelist text-light" @click="onNewBuildClicked">
