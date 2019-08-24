@@ -56,6 +56,10 @@ export default function() {
           pick_end_time: null,
           picks: playerPicks(),
           deck: playerDeck(),
+          saved_decks: {
+            active: null,
+            decks: {}
+          },
         }
       }),
     },
@@ -75,7 +79,7 @@ function playerPicks() {
   }
 }
 
-function playerDeck() {
+export function playerDeck() {
   return {
     // piles for cards + 1 pile each for lands/sideboard/unused
     options: {

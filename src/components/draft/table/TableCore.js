@@ -21,7 +21,7 @@ import {
   SIDEBOARD_TO_DECK, SIDEBOARD_TO_UNUSED, 
   UNUSED_TO_DECK, UNUSED_TO_SIDEBOARD, ARRANGE_DECK_BY_COST,
   SET_DECK_OPTIONS, DISABLE_AUTO_LANDS, SET_BASIC_LANDS,
-  REMOVE_PLAYER } from '@/store/modules/draft/actions';
+  REMOVE_PLAYER, SAVE_DECK, ADD_DECK, ACTIVATE_DECK } from '@/store/modules/draft/actions';
 
 import './TableCore.css'
 
@@ -150,6 +150,15 @@ export default {
       removePlayer(dispatch, payload) {
         return dispatch(this.namespace + '/' + REMOVE_PLAYER, this.withPlayerId(payload));
       },
+      saveDeck(dispatch, payload) {
+        return dispatch(this.namespace + '/' + SAVE_DECK, this.withPlayerId(payload));
+      },
+      addDeck(dispatch, payload) {
+        return dispatch(this.namespace + '/' + ADD_DECK, this.withPlayerId(payload));
+      },
+      activateDeck(dispatch, payload) {
+        return dispatch(this.namespace + '/' + ACTIVATE_DECK, this.withPlayerId(payload));
+      },
       resumeDraft(dispatch) {
         return dispatch(this.namespace + '/' + RESUME_DRAFT, this.withPlayerId({}));
       },
@@ -223,6 +232,9 @@ export default {
       arrangeDeckByCost: this.arrangeDeckByCost,
       setBasicLands: this.setBasicLands,
       removePlayer: this.removePlayer,
+      saveDeck: this.saveDeck,
+      addDeck: this.addDeck,
+      activateDeck: this.activateDeck,
       setCardPreview: this.setCardPreview,
       touchDragManager: this.touchDragManager,
       cardInDeck: card => {

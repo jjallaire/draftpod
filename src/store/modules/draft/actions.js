@@ -1,4 +1,6 @@
 
+
+
 export const JOIN_DRAFT = 'JOIN_DRAFT'
 export const START_DRAFT = 'START_DRAFT'
 export const RESUME_DRAFT = 'RESUME_DRAFT'
@@ -19,6 +21,9 @@ export const ARRANGE_DECK_BY_COST = 'ARRANGE_DECK_BY_COST'
 export const DISABLE_AUTO_LANDS = 'DISABLE_AUTO_LANDS'
 export const SET_BASIC_LANDS = 'SET_BASIC_LANDS'
 export const REMOVE_PLAYER = 'REMOVE_PLAYER'
+export const SAVE_DECK = 'SAVE_DECK'
+export const ADD_DECK = 'ADD_DECK'
+export const ACTIVATE_DECK = 'ACTIVATE_DECK'
 
 import { WRITE_TABLE, SET_CONNECTED, SET_WAITING, CLEAR_WAITING,
          CONVERT_TO_SINGLE_PLAYER } from './mutations'
@@ -27,6 +32,7 @@ import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
 import _sumBy from 'lodash/sumBy'
 import _omit from 'lodash/omit'
+import _cloneDeep from 'lodash/cloneDeep'
 
 import * as log from '@/core/log'
 import * as set from './set/'
@@ -230,6 +236,59 @@ export default {
       
     });
   },
+
+
+  [SAVE_DECK]( {commit, state}, { player_id, name }) {
+    return updateTable( {commit, state }, player_id, (table) => {
+      const player = selectors.activePlayer(player_id, table);
+      const deck = selectors.activePlayer(player_id, table).deck;
+      player.saved_decks.decks[name] = deck;
+      player.saved_decks.active = name;
+    })
+  },
+
+  [ADD_DECK]( { commit, state }, { player_id, name }) {
+    return updateTable( {commit, state }, player_id, (table, options) => {
+      const player = selectors.activePlayer(player_id, table);
+      
+      // get a deep copy of the current deck, then move the cards to unused
+      const deck = _cloneDeep(selectors.activePlayer(player_id, table).deck);
+      const cards = _flatten(deck.piles.slice(0, DECK.UNUSED));
+      cards.forEach(card => {
+        pileToPile(player, card, DECK.UNUSED, deck.piles, null);
+      })
+      orderUnplayedPiles(deck);
+      if (deck.lands.auto)
+        deck.lands.basic = selectors.autoLands(deck, options.deck_size);
+
+      // save the new deck
+      player.saved_decks.decks[name] = deck;
+    })
+  },
+
+  [ACTIVATE_DECK]( { commit, state }, { player_id, name }) {
+    
+    return updateTable( {commit, state }, player_id, (table) => {
+      // alias player
+      const player = selectors.activePlayer(player_id, table);
+
+      // ignore if we are already active
+      if (player.saved_decks.active !== name) {
+        
+        // save any currently active deck
+        if (player.saved_decks.active) {
+          player.saved_decks.decks[player.saved_decks.active] = player.deck;
+        }
+
+        // swap in the specified deck
+        player.deck = player.saved_decks.decks[name];
+        player.saved_decks.active = name;
+      }
+
+    })
+  }
+
+
 };
 
 function joinDraft(player_info, table) {

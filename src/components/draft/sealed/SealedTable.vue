@@ -265,6 +265,7 @@ export default {
           :compact="compact_deck_panel"
           :options="options"
           :deck="active_player.deck"
+          :saved_decks="active_player.saved_decks"
           @togglecompact="onToggleCompactDeckPanel"
         />
 

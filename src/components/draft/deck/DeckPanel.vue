@@ -8,17 +8,17 @@ import MtgCardPile from '@/components/draft/core/MtgCardPile.vue'
 import DeckDownload from './DeckDownload.vue'
 import DeckView from './DeckView.vue'
 import DeckLands from './DeckLands.vue'
+import DeckSaveList from './DeckSaveList.vue'
 
 import * as set from '@/store/modules/draft/set/'
 import * as selectors from '@/store/modules/draft/selectors'
 import { DECK } from '@/store/modules/draft/constants'
 
-
 export default {
   name: 'DeckPanel',
 
   components: {
-    UiPanel, MtgCardPile, DeckDownload, DeckView, DeckLands, MaximizeIcon, MinimizeIcon
+    UiPanel, MtgCardPile, DeckDownload, DeckView, DeckSaveList, DeckLands, MaximizeIcon, MinimizeIcon
   },
 
   props: {
@@ -41,6 +41,10 @@ export default {
     deck: {
       type: Object,
       required: true
+    },
+    saved_decks: {
+      type: Object,
+      default: null
     }
   },
 
@@ -163,6 +167,7 @@ export default {
         <input id="arrangeByCostCheckbox" v-model="arrange_by_cost" class="form-check-input" type="checkbox">
         <label class="form-check-label" for="arrangeByCostCheckbox">Arrange by cost</label>
       </div>
+      <DeckSaveList v-if="saved_decks" :saved_decks="saved_decks" />
     </template>
     <template slot="header-right">
       <DeckView :set_code="set.code" :format="options.deck_list_format" :deck="deck" />
@@ -175,7 +180,7 @@ export default {
         v-if="is_sealed_format"
         ref="toggleCompactBtn"
         :title="(compact ? 'Full' : 'Compact') + ' deck view' "
-        class="btn btn-sm btn-secondary btn-minmax text-light"
+        class="btn btn-sm btn-secondary btn-solo text-light"
         @click="onToggleCompact"
       >
         <MaximizeIcon v-if="compact" />
@@ -325,12 +330,12 @@ export default {
   margin-top: -2px;
 }
 
-.deck .card-header .btn-minmax {
+.deck .card-header .btn-solo {
   padding: 0.1rem;
   padding-bottom: 0;
 }
 
-.deck .card-header .btn-minmax svg {
+.deck .card-header .btn-solo svg {
   width: 24px;
   height: 24px;
 }

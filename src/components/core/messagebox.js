@@ -62,3 +62,22 @@ export function confirm(title, message, confirmed, cancelled) {
   });
 }
 
+export function prompt(title, callback) {
+
+  bootbox.prompt({
+
+    title: title,
+    
+    className: "draftpod-bootbox-dialog",
+
+    closeButton: false,
+
+    size: 'large',
+  
+    callback
+  });
+}
+
+
+
+

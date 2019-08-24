@@ -260,6 +260,12 @@ export function activePack(player_id, table) {
   }
 }
 
+export function savedDeckNames(saved_decks) {
+  let names = Object.keys(saved_decks.decks);
+  names.sort();
+  return names;
+}
+
 export function hostPlayerName(table) {
   return table.players[0].name;
 }
@@ -518,7 +524,6 @@ function deckBasicLands(set_code, lands) {
 
   return basic_lands;
 }
-
 
 // function to produce a text deck list
 export function asDeckList(format, cards) {
