@@ -79,7 +79,7 @@ export default {
 }
 
 
-.deck .card-header .btn-savelist {
+.deck .card-header .btn-sm.btn-savelist {
   padding: 0.1rem;
   padding-bottom: 0;
   height: 23px;
@@ -90,8 +90,8 @@ export default {
 .deck .card-header .btn-sm.btn-savelist svg {
   width: 20px !important;
   height: 20px !important;
-  margin-top: -6px;
-  margin-left: -6px;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 </style>
