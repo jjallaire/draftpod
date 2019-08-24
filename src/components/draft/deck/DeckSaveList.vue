@@ -109,8 +109,9 @@ Tests failing
 .deck .card-header .btn-savelist {
   padding: 0.1rem;
   padding-bottom: 0;
-  height: 22px;
+  height: 23px;
   width: 24px;
+  margin-top: -2px;
 }
 
 .deck .card-header .btn-sm.btn-savelist svg {
