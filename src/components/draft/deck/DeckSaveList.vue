@@ -1,18 +1,6 @@
 <script>
 
-
-/*
-
-[ (Untitled) ] [Save]
-
-[ BW Fliers  ] [Add]
-
-*/
-
 import PlusIcon from "vue-material-design-icons/Plus.vue"
-import SaveIcon from "vue-material-design-icons/ContentSave.vue"
-
-import { prompt } from '@/components/core/messagebox.js'
 
 import * as selectors from '@/store/modules/draft/selectors'
 
@@ -21,7 +9,7 @@ export default {
   name: 'DeckSaveList',
 
   components: {
-    SaveIcon, PlusIcon
+    PlusIcon
   },
 
   props: {
@@ -49,17 +37,18 @@ export default {
 
   methods: {
     onSaveClicked() {
-      prompt("Build Name", (name) => {
-        if (name)
-          this.saveDeck({ name: name })
-      })
+      this.saveDeck({ name: 'Build 1' })
+        .then(() => {
+          this.onNewBuildClicked();
+        })
     },
 
-    onNewDeckClicked() {
-      prompt("Build Name", (name) => {
-        if (name)
-          this.addDeck({ name }).then(this.activateDeck({ name }))
-      })
+    onNewBuildClicked() {
+      let name = 'Build ' + (this.deck_names.length + 1);
+      this.addDeck({ name })
+        .then(() => {
+          this.activateDeck({ name })
+        })
     },
 
     onDeckChanged(event) {
@@ -71,22 +60,25 @@ export default {
 
 </script>
 
+
+
+
 <template>
   <span class="deck-save-list">
     <template v-if="!saved_decks.active">
       <select class="card-header-select">
-        <option>(Untitled)</option>
+        <option>Build 1</option>
       </select>
       <button class="btn btn-sm btn-secondary btn-savelist text-light" @click="onSaveClicked">
-        <SaveIcon title="Save build" />
+        <PlusIcon title="Add build" />
       </button>
     </template>
     <template v-else>
-      <select class="card-header-select" :value="active_deck" @input="onDeckChanged">
+      <select class="card-header-select" :value="active_deck" @change="onDeckChanged">
         <option v-for="name in deck_names" :key="name" :value="name">{{ name }}</option>
       </select>
-      <button class="btn btn-sm btn-secondary btn-savelist text-light" @click="onNewDeckClicked">
-        <PlusIcon title="Create new build" />
+      <button class="btn btn-sm btn-secondary btn-savelist text-light" @click="onNewBuildClicked">
+        <PlusIcon title="Add Build" />
       </button>
     </template>
   </span>
@@ -105,7 +97,7 @@ export default {
   background-repeat: no-repeat;
   -webkit-appearance: menulist-button;
   height: 23px;
-  min-width: 85px;
+  min-width: 75px;
 }
 
 
