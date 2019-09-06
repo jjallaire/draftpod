@@ -39,7 +39,7 @@
     ],
     "latent_color": "G",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -138,7 +138,7 @@
     "colors": [],
     "latent_color": null,
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -264,7 +264,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -346,7 +346,7 @@
     "colors": [],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -430,7 +430,7 @@
     ],
     "latent_color": "R",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -619,7 +619,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mh1"
   },
   {
@@ -640,7 +640,7 @@
     ],
     "latent_color": "U",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mh1"
   },
   {
@@ -851,7 +851,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -872,7 +872,7 @@
     ],
     "latent_color": null,
     "rarity": "mythic",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -978,7 +978,7 @@
     ],
     "latent_color": "U",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mh1"
   },
   {
@@ -1000,7 +1000,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -1021,7 +1021,7 @@
     ],
     "latent_color": "R",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -1084,7 +1084,7 @@
     ],
     "latent_color": "R",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -1105,7 +1105,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 0,
     "set": "mh1"
   },
   {
@@ -1420,7 +1420,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -1441,7 +1441,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -1460,7 +1460,7 @@
     "colors": [],
     "latent_color": null,
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mh1"
   },
   {
@@ -1479,7 +1479,7 @@
     "colors": [],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -1500,7 +1500,7 @@
     ],
     "latent_color": "U",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -1542,7 +1542,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -1563,7 +1563,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 4,
     "set": "mh1"
   },
   {
@@ -1626,7 +1626,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "mh1"
   },
   {
@@ -1710,7 +1710,7 @@
     ],
     "latent_color": "B",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -1910,7 +1910,7 @@
     "multiverse_ids": [
       464151
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/0049e68d-0caf-474f-9523-dad343f1250a.jpg?1562202334"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/0049e68d-0caf-474f-9523-dad343f1250a.jpg?1566819600"],
     "layout": "normal",
     "type_line": "Legendary Creature — Avatar",
     "oracle_text": "You can't spend mana to cast this spell.\nConvoke, delve (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color. Each card you exile from your graveyard pays for {1}.)\nYou may cast Hogaak, Arisen Necropolis from your graveyard.\nTrample",
@@ -2047,7 +2047,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -2090,7 +2090,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -2156,7 +2156,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -2262,7 +2262,7 @@
     ],
     "latent_color": "G",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -2324,7 +2324,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -2408,7 +2408,7 @@
     ],
     "latent_color": "G",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -2471,7 +2471,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -2642,7 +2642,7 @@
     ],
     "latent_color": "R",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -2706,7 +2706,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -3020,7 +3020,7 @@
     "colors": [],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -3083,7 +3083,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mh1"
   },
   {
@@ -3231,7 +3231,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
@@ -3294,7 +3294,7 @@
     ],
     "latent_color": "G",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -3357,7 +3357,7 @@
     ],
     "latent_color": "G",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -3443,7 +3443,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -3464,7 +3464,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mh1"
   },
   {
@@ -3485,7 +3485,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mh1"
   },
   {
@@ -3548,7 +3548,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -3778,7 +3778,7 @@
     ],
     "latent_color": null,
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -3889,7 +3889,7 @@
     ],
     "latent_color": "B",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -4037,7 +4037,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "mh1"
   },
   {
@@ -4247,7 +4247,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -4329,7 +4329,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -4351,7 +4351,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mh1"
   },
   {
@@ -4395,7 +4395,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mh1"
   },
   {
@@ -4438,7 +4438,7 @@
     ],
     "latent_color": "G",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -4459,7 +4459,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -4484,7 +4484,7 @@
     ],
     "latent_color": null,
     "rarity": "mythic",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -4547,7 +4547,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mh1"
   },
   {
@@ -4873,7 +4873,7 @@
     "multiverse_ids": [
       464024
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9e7fb3c0-5159-4d1f-8490-ce4c9a60f567.jpg?1562201540"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9e7fb3c0-5159-4d1f-8490-ce4c9a60f567.jpg?1567181307"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Artificer",
     "oracle_text": "When Urza, Lord High Artificer enters the battlefield, create a 0/0 colorless Construct artifact creature token with \"This creature gets +1/+1 for each artifact you control.\"\nTap an untapped artifact you control: Add {U}.\n{5}: Shuffle your library, then exile the top card. Until end of turn, you may play that card without paying its mana cost.",
@@ -4968,7 +4968,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mh1"
   },
   {
@@ -4989,7 +4989,7 @@
     ],
     "latent_color": null,
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mh1"
   },
   {
@@ -5221,7 +5221,7 @@
     ],
     "latent_color": null,
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mh1"
   },
   {
