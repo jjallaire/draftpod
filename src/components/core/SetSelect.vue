@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Recent">
+          <option value="eld">
+            Throne of Eldraine
+          </option>
           <option value="m20">
             Core Set 2020
           </option>
@@ -58,6 +61,9 @@ export default {
           </option>
         </optgroup>
         <optgroup label="Standard">
+          <option value="eld">
+            Throne of Eldraine
+          </option>
           <option value="m20">
             Core Set 2020
           </option>
@@ -70,6 +76,8 @@ export default {
           <option value="grn">
             Guilds of Ravnica
           </option>
+        </optgroup>
+        <optgroup label="Historic">
           <option value="m19">
             Core Set 2019
           </option>

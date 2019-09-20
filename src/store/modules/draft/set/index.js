@@ -18,6 +18,7 @@ import m20 from './set-m20'
 import mh1 from './set-mh1'
 import ktk from './set-ktk'
 import isd from './set-isd'
+import eld from './set-eld'
 
 
 import cube_gnt from './cube-gnt'
@@ -43,6 +44,7 @@ const sets = {
   mh1,
   ktk,
   isd,
+  eld,
   cube_gnt
 }
 
