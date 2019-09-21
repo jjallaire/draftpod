@@ -8,7 +8,7 @@ export default {
 
   name: "Throne of Eldraine",
 
-  pack_cards: () => 15,
+  pack_cards: () => 14,
 
   cube: cube.build,
 
@@ -17,7 +17,7 @@ export default {
     let cards = [].concat(
       selectCards(booster.packRareSlot, 1),
       selectCards(booster.uncommon, 3),
-      selectCards(booster.common, 11)
+      selectCards(booster.common, 10)
     );
 
     return cards;
