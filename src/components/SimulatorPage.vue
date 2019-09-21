@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'm20',
+      set_code: 'eld',
       number: 100,
       decks: []
     }
