@@ -1,11 +1,11 @@
 "id","name","rating"
 700001,"Acclaimed Contender",3.5
-700002,"All That Glitters",0.5
+700002,"All That Glitters",1
 700003,"Archon of Absolution",3.5
-700004,"Ardenvale Paladin",1.5
+700004,"Ardenvale Paladin",2
 700005,"Ardenvale Tactician // Dizzying Swoop",3
 700006,"Bartered Cow",1
-700007,"Beloved Princess",0.5
+700007,"Beloved Princess",0
 700008,"Charming Prince",3.5
 700009,"The Circle of Loyalty",4
 700010,"Deafening Silence",0
@@ -18,12 +18,12 @@
 700017,"Harmonious Archon",5
 700018,"Hushbringer",2
 700019,"Knight of the Keep",1
-700020,"Linden, the Steadfast Queen",2.5
-700021,"Lonesome Unicorn // Rider in Need",2.5
-700022,"Mysterious Pathlighter",3.5
-700023,"Outflank",2
+700020,"Linden, the Steadfast Queen",3
+700021,"Lonesome Unicorn // Rider in Need",2
+700022,"Mysterious Pathlighter",3
+700023,"Outflank",1.5
 700024,"Prized Griffin",2
-700025,"Rally for the Throne",2
+700025,"Rally for the Throne",1.5
 700026,"Realm-Cloaked Giant // Cast Off",4.5
 700027,"Righteousness",0.5
 700028,"Shepherd of the Flock // Usher to Safety",3
@@ -39,132 +39,132 @@
 700038,"Animating Faerie // Bring to Life",3
 700039,"Brazen Borrower // Petty Theft",4
 700040,"Charmed Sleep",3
-700041,"Corridor Monitor",1.5
+700041,"Corridor Monitor",1
 700042,"Didn't Say Please",1
 700043,"Emry, Lurker of the Loch",3
-700044,"Fae of Wishes // Granted",2.5
+700044,"Fae of Wishes // Granted",3
 700045,"Faerie Vandal",3
-700046,"Folio of Fancies",1
-700047,"Frogify",3
-700048,"Gadwick, the Wizened",4
+700046,"Folio of Fancies",1.5
+700047,"Frogify",2.5
+700048,"Gadwick, the Wizened",3.5
 700049,"Hypnotic Sprite // Mesmeric Glare",3.5
 700050,"Into the Story",3
-700051,"The Magic Mirror",1.5
+700051,"The Magic Mirror",2.5
 700052,"Mantle of Tides",1
 700053,"Merfolk Secretkeeper // Venture Deeper",1
 700054,"Midnight Clock",2.5
-700055,"Mirrormade",1
-700056,"Mistford River Turtle",2
+700055,"Mirrormade",1.5
+700056,"Mistford River Turtle",1
 700057,"Moonlit Scavengers",2
 700058,"Mystical Dispute",1
-700059,"Opt",1.5
+700059,"Opt",2
 700060,"Overwhelmed Apprentice",1.5
 700061,"Queen of Ice // Rage of Winter",3
 700062,"Run Away Together",2
-700063,"Sage of the Falls",2
+700063,"Sage of the Falls",2.5
 700064,"So Tiny",2.5
 700065,"Steelgaze Griffin",1.5
-700066,"Stolen by the Fae",4
+700066,"Stolen by the Fae",3.5
 700067,"Syr Elenora, the Discerning",3.5
-700068,"Tome Raider",2.5
+700068,"Tome Raider",3
 700069,"Turn into a Pumpkin",3
 700070,"Unexplained Vision",2.5
 700071,"Vantress Gargoyle",3.5
 700072,"Vantress Paladin",2
-700073,"Wishful Merfolk",1
-700074,"Witching Well",2
-700075,"Ayara, First of Locthwain",3.5
+700073,"Wishful Merfolk",1.5
+700074,"Witching Well",2.5
+700075,"Ayara, First of Locthwain",3
 700076,"Bake into a Pie",3.5
-700077,"Barrow Witches",2
+700077,"Barrow Witches",2.5
 700078,"Belle of the Brawl",3
 700079,"Blacklance Paragon",3.5
 700080,"Bog Naughty",3.5
-700081,"Cauldron Familiar",1.5
+700081,"Cauldron Familiar",1
 700082,"The Cauldron of Eternity",3
 700083,"Cauldron's Gift",1.5
 700084,"Clackbridge Troll",4.5
 700085,"Epic Downfall",3.5
 700086,"Eye Collector",1
-700087,"Festive Funeral",2
+700087,"Festive Funeral",2.5
 700088,"Foreboding Fruit",3
 700089,"Forever Young",1.5
 700090,"Foulmire Knight // Profane Insight",3
 700091,"Giant's Skewer",1.5
 700092,"Lash of Thorns",1
-700093,"Locthwain Paladin",2
-700094,"Lost Legion",2.5
-700095,"Malevolent Noble",3
-700096,"Memory Theft",0.5
+700093,"Locthwain Paladin",1.5
+700094,"Lost Legion",3
+700095,"Malevolent Noble",2
+700096,"Memory Theft",1
 700097,"Murderous Rider // Swift End",4.5
 700098,"Oathsworn Knight",3.5
 700099,"Order of Midnight // Alter Fate",3.5
 700100,"Piper of the Swarm",4
-700101,"Rankle, Master of Pranks",4
+700101,"Rankle, Master of Pranks",3.5
 700102,"Reaper of Night // Harvest Fear",1.5
 700103,"Reave Soul",3.5
 700104,"Revenge of Ravens",1.5
-700105,"Smitten Swordmaster // Curry Favor",3
+700105,"Smitten Swordmaster // Curry Favor",2.5
 700106,"Specter's Shriek",0
 700107,"Syr Konrad, the Grim",3.5
-700108,"Tempting Witch",2
-700109,"Wicked Guardian",2.5
+700108,"Tempting Witch",1.5
+700109,"Wicked Guardian",2
 700110,"Wishclaw Talisman",1.5
 700111,"Witch's Vengeance",3.5
 700112,"Barge In",1
 700113,"Bloodhaze Wolverine",1.5
-700114,"Blow Your House Down",0
+700114,"Blow Your House Down",0.5
 700115,"Bonecrusher Giant // Stomp",4
 700116,"Brimstone Trebuchet",2
-700117,"Burning-Yard Trainer",3
-700118,"Claim the Firstborn",1
-700119,"Crystal Slipper",1.5
-700120,"Embercleave",3.5
+700117,"Burning-Yard Trainer",2
+700118,"Claim the Firstborn",0.5
+700119,"Crystal Slipper",1
+700120,"Embercleave",4
 700121,"Embereth Paladin",1.5
-700122,"Embereth Shieldbreaker // Battle Display",2
+700122,"Embereth Shieldbreaker // Battle Display",2.5
 700123,"Ferocity of the Wilds",1
-700124,"Fervent Champion",3
-700125,"Fires of Invention",1.5
-700126,"Fling",1
-700127,"Irencrag Feat",0.5
+700124,"Fervent Champion",2.5
+700125,"Fires of Invention",1
+700126,"Fling",0.5
+700127,"Irencrag Feat",0
 700128,"Irencrag Pyromancer",3.5
-700129,"Joust",3
-700130,"Mad Ratter",3
-700131,"Merchant of the Vale // Haggle",2.5
+700129,"Joust",2.5
+700130,"Mad Ratter",2.5
+700131,"Merchant of the Vale // Haggle",3
 700132,"Ogre Errant",2
 700133,"Opportunistic Dragon",4.5
-700134,"Raging Redcap",2
-700135,"Redcap Melee",2.5
-700136,"Redcap Raiders",1.5
+700134,"Raging Redcap",1.5
+700135,"Redcap Melee",2
+700136,"Redcap Raiders",2
 700137,"Rimrock Knight // Boulder Rush",1.5
 700138,"Robber of the Rich",3.5
 700139,"Scorching Dragonfire",3.5
-700140,"Searing Barrage",3.5
-700141,"Seven Dwarves",2.5
+700140,"Searing Barrage",3
+700141,"Seven Dwarves",2
 700142,"Skullknocker Ogre",1.5
 700143,"Slaying Fire",3.5
-700144,"Sundering Stroke",3
+700144,"Sundering Stroke",3.5
 700145,"Syr Carah, the Bold",3.5
 700146,"Thrill of Possibility",1.5
 700147,"Torbran, Thane of Red Fell",3.5
 700148,"Weaselback Redcap",1
-700149,"Beanstalk Giant // Fertile Footsteps",3
+700149,"Beanstalk Giant // Fertile Footsteps",3.5
 700150,"Curious Pair // Treats to Share",1.5
 700151,"Edgewall Innkeeper",3
-700152,"Feasting Troll King",3.5
-700153,"Fell the Pheasant",0
+700152,"Feasting Troll King",4
+700153,"Fell the Pheasant",1
 700154,"Fierce Witchstalker",3
-700155,"Flaxen Intruder // Welcome Home",1
-700156,"Garenbrig Carver // Shield's Might",2
+700155,"Flaxen Intruder // Welcome Home",1.5
+700156,"Garenbrig Carver // Shield's Might",1.5
 700157,"Garenbrig Paladin",2
 700158,"Garenbrig Squire",1.5
-700159,"Giant Opportunity",3
+700159,"Giant Opportunity",2
 700160,"Gilded Goose",3.5
 700161,"The Great Henge",4
-700162,"Insatiable Appetite",1
+700162,"Insatiable Appetite",0.5
 700163,"Keeper of Fables",3.5
-700164,"Kenrith's Transformation",2.5
+700164,"Kenrith's Transformation",3
 700165,"Lovestruck Beast // Heart's Desire",3.5
-700166,"Maraleaf Rider",2
+700166,"Maraleaf Rider",1.5
 700167,"Oakhame Adversary",3
 700168,"Once and Future",2.5
 700169,"Once Upon a Time",3
@@ -173,31 +173,31 @@
 700172,"Return of the Wildspeaker",3.5
 700173,"Return to Nature",0.5
 700174,"Rosethorn Acolyte // Seasonal Ritual",3
-700175,"Rosethorn Halberd",1.5
+700175,"Rosethorn Halberd",1
 700176,"Sporecap Spider",1
 700177,"Syr Faren, the Hengehammer",3
-700178,"Tall as a Beanstalk",0.5
+700178,"Tall as a Beanstalk",1
 700179,"Trail of Crumbs",3
-700180,"Tuinvale Treefolk // Oaken Boon",2.5
+700180,"Tuinvale Treefolk // Oaken Boon",2
 700181,"Wicked Wolf",4
 700182,"Wildborn Preserver",4
 700183,"Wildwood Tracker",1
-700184,"Wolf's Quarry",0.5
+700184,"Wolf's Quarry",1
 700185,"Yorvo, Lord of Garenbrig",3.5
-700186,"Dance of the Manse",1.5
-700187,"Doom Foretold",2.5
+700186,"Dance of the Manse",2
+700187,"Doom Foretold",2
 700188,"Drown in the Loch",3
 700189,"Escape to the Wilds",3
-700190,"Faeburrow Elder",3
+700190,"Faeburrow Elder",3.5
 700191,"Garruk, Cursed Huntsman",4.5
 700192,"Grumgully, the Generous",3.5
 700193,"Improbable Alliance",3
-700194,"Inspiring Veteran",3.5
+700194,"Inspiring Veteran",3
 700195,"Lochmere Serpent",4
 700196,"Maraleaf Pixie",3
-700197,"Oko, Thief of Crowns",4
-700198,"Outlaws' Merriment",3.5
-700199,"The Royal Scions",4.5
+700197,"Oko, Thief of Crowns",4.5
+700198,"Outlaws' Merriment",4
+700199,"The Royal Scions",4
 700200,"Savvy Hunter",3.5
 700201,"Shinechaser",2.5
 700202,"Steelclaw Lance",2.5
@@ -205,7 +205,7 @@
 700204,"Wandermare",3
 700205,"Wintermoor Commander",3
 700206,"Arcanist's Owl",3
-700207,"Covetous Urge",2.5
+700207,"Covetous Urge",3
 700208,"Deathless Knight",3
 700209,"Elite Headhunter",3
 700210,"Fireborn Knight",3
@@ -217,18 +217,18 @@
 700216,"Clockwork Servant",3
 700217,"Crashing Drawbridge",1
 700218,"Enchanted Carriage",2.5
-700219,"Gingerbrute",0.5
-700220,"Golden Egg",2
+700219,"Gingerbrute",1
+700220,"Golden Egg",2.5
 700221,"Henge Walker",1.5
 700222,"Heraldic Banner",2
-700223,"Inquisitive Puppet",1
+700223,"Inquisitive Puppet",0.5
 700224,"Jousting Dummy",1
-700225,"Locthwain Gargoyle",1
-700226,"Lucky Clover",1.5
+700225,"Locthwain Gargoyle",0.5
+700226,"Lucky Clover",2.5
 700227,"Prophet of the Peak",1.5
-700228,"Roving Keep",1
+700228,"Roving Keep",0.5
 700229,"Scalding Cauldron",2.5
-700230,"Shambling Suit",1
+700230,"Shambling Suit",1.5
 700231,"Signpost Scarecrow",1
 700232,"Sorcerer's Broom",1.5
 700233,"Sorcerous Spyglass",0
@@ -237,17 +237,17 @@
 700236,"Weapon Rack",1
 700237,"Witch's Oven",1
 700238,"Castle Ardenvale",3.5
-700239,"Castle Embereth",2.5
-700240,"Castle Garenbrig",2
-700241,"Castle Locthwain",3
+700239,"Castle Embereth",3
+700240,"Castle Garenbrig",2.5
+700241,"Castle Locthwain",3.5
 700242,"Castle Vantress",3
 700243,"Dwarven Mine",1.5
 700244,"Fabled Passage",3
-700245,"Gingerbread Cabin",1
+700245,"Gingerbread Cabin",1.5
 700246,"Idyllic Grange",1.5
-700247,"Mystic Sanctuary",1.5
+700247,"Mystic Sanctuary",2
 700248,"Tournament Grounds",1.5
-700249,"Witch's Cottage",1.5
+700249,"Witch's Cottage",2
 700250,"Plains",0
 700254,"Island",0
 700258,"Swamp",0
