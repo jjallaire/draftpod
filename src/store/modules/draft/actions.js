@@ -247,8 +247,8 @@ export default {
         pileToPile(player, card, DECK.UNUSED, deck.piles, null);
       })
       orderUnplayedPiles(deck);
-      if (deck.lands.auto)
-        deck.lands.basic = selectors.autoLands(deck, options.deck_size);
+      deck.lands.auto = true;
+      deck.lands.basic = selectors.autoLands(deck, options.deck_size);
 
       // save the new deck
       player.saved_decks.decks[name] = deck;
