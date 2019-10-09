@@ -546,11 +546,19 @@ export function asDeckList(format, cards) {
       return ordered_cards;
     }, {});
 
+  function formatName(name) {
+    if (format === 'arena') {
+      return name.split('//')[0].trim();
+    } else {
+      return name;
+    }
+  } 
+
   // return list
   return Object.keys(ordered_cards)
     .map((name) => {
       let card = ordered_cards[name];
-      let entry  = card.count + ' ' + name;
+      let entry  = card.count + ' ' + formatName(name);
       if (format === 'arena')
         entry = entry + ' (' + card.set.toUpperCase() + ') ' + card.collector_number;
       return entry;
