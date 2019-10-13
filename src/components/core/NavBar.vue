@@ -68,7 +68,7 @@
       </li>
       
     </ul>
-  
+    
   </nav>
 </template>
 

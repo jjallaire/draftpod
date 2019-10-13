@@ -37,11 +37,6 @@ When preparing to draft a specific set, you might want to study the card evaluat
 
 - [Magic Community Set Reviews](https://www.mtgcommunityreview.com/) provides an aggregation of full set ratings done by community members.
 
-#### This website is provided as a free service. Will it always be free?
-
-Yes, the site is free and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. In addition, the source code for the site is available under an open-source license at <https://github.com/jjallaire/draftpod>.
-
-The site was created by a group of software engineers that love to play Magic and even more so love to draft. After trying various forms of 2 and 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, we wanted to find a better way. We built this as a way of solving the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138) for ourselves, and hope that the rest of the Magic community also finds it useful. 
 
 #### How do draft bots decide which cards to pick?
 
@@ -65,6 +60,7 @@ When a set is first released, card ratings are derived from the community-based 
 
 Pick orders are translated into a rating scale for each card from 0 to 5, which makes it possible for bots to apply color bonuses to picks (e.g. +1.0 or +2.0 for on-color cards). Ratings are allocated across the pick order according to the distribution of ratings found in the [LSV set reviews](https://www.channelfireball.com/tag/lsvs-set-review/) published on ChannelFireball.com. 
 
+
 #### Where are my previous drafts stored?
 
 Your last several drafts are saved within your web browser's local storage. You can review and return to these recent drafts so long as you are using the same browser (if you switch to another browser you won't see the drafts created within the first browser).
@@ -86,7 +82,19 @@ These files can in turn be uploaded to these websites, both of which allow you t
   - <https://magic.flooey.org/draft/upload>
   - <http://draftsignals.com/>
 
+#### This is a free service. Will it always be free?
 
+Yes, the site is free and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. The source code for the site is available under the MIT license at <https://github.com/jjallaire/draftpod>.
+
+The site was created by a group of software engineers that love to play Magic and even more so love to draft. After trying various forms of 2 and 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, we wanted to find a better way. We built this as a way of solving the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138) for ourselves, and hope that the rest of the Magic community also finds it useful. 
+
+#### Is there a way I can contribute to development?
+
+Draftpod is open-source software (development takes place on GitHub at <https://github.com/jjallaire/draftpod>). 
+
+If you have ideas for imporving Draftpod, you can [post an issue](https://github.com/jjallaire/draftpod/issues) on the Draftpod repository.
+
+If you want to submit a feature or bugfix we welcome your contributions! Before getting to work you should be sure to review the [contribution guidelines](https://github.com/jjallaire/draftpod/blob/master/CONTRIBUTING.md). Then, when your change is ready, [send us a pull request](https://github.com/jjallaire/draftpod/pulls).
 
 
 
