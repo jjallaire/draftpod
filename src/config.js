@@ -19,7 +19,7 @@ export default {
   },
 
   firebase: {
-    apiKey: "AIzaSyABxin54k8yFGsJa5YRofmvLOntb7shpAk",
+    apiKey: process.env.VUE_APP_FIREBASE_API_KEY || "AIzaSyABxin54k8yFGsJa5YRofmvLOntb7shpAk",
     authDomain: "draftpod-5da26.firebaseapp.com",
     projectId: "draftpod-5da26",
     storageBucket: "draftpod-5da26.appspot.com",
