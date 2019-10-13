@@ -19,9 +19,11 @@ export default {
       selectCards(booster.uncommon, 3),
       selectCards(commonNotDualLand, 10)
     );
-
+    
     if (Math.random() <= (5/12)) {
-      return cards.concat(selectCards(m20DualLand, 1));
+      // fallback to basic if there aren't enough dual lands
+      const dualLand = [m20DualLand, filters.basicLand];
+      return cards.concat(selectCards(dualLand, 1));
     } else {
       return cards.concat(selectCards(filters.basicLand, 1));
     }
