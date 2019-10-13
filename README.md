@@ -29,7 +29,6 @@ Here's how to setup a local Draftpod development configuration:
 3) Switch to the repository directory, then install required JavaScript dependencies:
 
     ```bash
-    cd ~/projects/draftpod
     npm install
     ```
 
