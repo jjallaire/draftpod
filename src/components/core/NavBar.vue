@@ -54,9 +54,16 @@
           Guide
         </a>
       </router-link>
+    
       <li class="nav-item">
         <a class="nav-link icon-link" :href="site.twitter">
           <TwitterIcon />
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link icon-link" :href="site.github">
+          <img class="navbar-github-image" src="/images/github.png">
         </a>
       </li>
       
@@ -194,6 +201,15 @@ export default {
 .navbar .navbar-text .simple-svg-wrapper svg {
   height: 16px;
   width: auto;
+}
+
+.navbar .navbar-github-image {
+  height: 15px;
+  line-height: inherit;
+  margin-top: 11px;
+  margin-bottom: 7px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 </style>

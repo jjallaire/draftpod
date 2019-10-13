@@ -11,7 +11,7 @@ export default {
 
     <p>
       If you have questions, encounter problems, or have ideas about we can improve the site,  
-      please contact us using the form below.
+      please contact us using the form below or <a href="https://github.com/jjallaire/draftpod/issues">post on issue</a> on the site's GitHub repository.
     </p>
 
     <form 

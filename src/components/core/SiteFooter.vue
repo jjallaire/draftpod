@@ -34,6 +34,7 @@ export default {
         <a href="/guide#privacy/">Privacy</a>
         <a href="/guide#contact/">Contact</a>
         <a :href="site.twitter">Twitter</a>
+        <a :href="site.github">GitHub</a>
       </span>
     </p>
   </footer>

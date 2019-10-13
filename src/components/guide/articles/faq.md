@@ -39,7 +39,7 @@ When preparing to draft a specific set, you might want to study the card evaluat
 
 #### This website is provided as a free service. Will it always be free?
 
-Yes, the site is free and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. 
+Yes, the site is free and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. In addition, the source code for the site is available under an open-source license at <https://github.com/jjallaire/draftpod>.
 
 The site was created by a group of software engineers that love to play Magic and even more so love to draft. After trying various forms of 2 and 3 player draft (Winston Draft, etc.) and feeling like they were nowhere even close to "real" drafts, we wanted to find a better way. We built this as a way of solving the problem of [drafting in small numbers](http://theendgamesblog.com/?p=5138) for ourselves, and hope that the rest of the Magic community also finds it useful. 
 
