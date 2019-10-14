@@ -37,6 +37,8 @@ export default {
     
   },
 
+  cardpool_basics: [459994,459995,459996,459997,459998],
+
   booster(selectCards) {
     let cards = [].concat(
       selectCards(booster.packRareSlot, 1),

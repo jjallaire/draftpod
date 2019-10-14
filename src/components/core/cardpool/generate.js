@@ -17,6 +17,17 @@ export function generateCardpool(set_code, cardpool) {
         // lookup named cardpool
         let custom = cardpool.replace(CARDPOOL.CUSTOM, '');
         let cardpool_cards = store.getters.cardpool(set_code,custom).cards;
+        
+        // add basics if the set requires them for boosters (e.g. M19, M20)
+        // (users don't typically explicitly add basics for custom pools)
+        cardpool_cards = cardpool_cards.concat(
+          set.cardpool_basics(set_code).map(id => ({
+            id,
+            quantity: 10
+          }))
+        );
+        
+        // add cards from pool
         cardpool = [];
         cardpool_cards.forEach((cardpool_card) => {
           let card = set_cards.find((set_card) => set_card.id === cardpool_card.id);

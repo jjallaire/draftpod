@@ -76,6 +76,10 @@ export function default_cube(set_code) {
   }
 }
 
+export function cardpool_basics(set_code) {
+  return sets[set_code].cardpool_basics || [];
+}
+
 export function capabilities(set_code) {
   
   let default_capabilities = {

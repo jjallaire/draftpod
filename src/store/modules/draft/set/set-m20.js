@@ -12,6 +12,8 @@ export default {
 
   cube: cube.build,
 
+  cardpool_basics: [467015,467019,467023,467027,467031],
+
   booster(selectCards) {
 
     let cards = [].concat(
