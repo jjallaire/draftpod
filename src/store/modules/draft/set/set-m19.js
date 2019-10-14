@@ -21,7 +21,9 @@ export default {
     );
 
     if (Math.random() <= (5/12)) {
-      return cards.concat(selectCards(m19DualLand, 1));
+      // fallback to basic if there aren't enough dual lands
+      const dualLand = [m19DualLand, filters.basicLand];
+      return cards.concat(selectCards(dualLand, 1));
     } else {
       return cards.concat(selectCards(filters.basicLand, 1));
     }
