@@ -24,7 +24,7 @@ jest.mock('../../../src/store/modules/draft/set', () => {
       let cards = require('../../../public/sets/' + set_code + '/cards.json');
       return cards;
     },
-    is_custom_cube: set_code => false
+    is_custom_cube: () => false
   }
 });
 
