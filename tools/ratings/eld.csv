@@ -2,21 +2,21 @@
 472963,"Acclaimed Contender",3.5
 472964,"All That Glitters",1
 472965,"Archon of Absolution",3.5
-472966,"Ardenvale Paladin",1
+472966,"Ardenvale Paladin",1.5
 472967,"Ardenvale Tactician // Dizzying Swoop",3
 472968,"Bartered Cow",1
-472969,"Beloved Princess",0
+472969,"Beloved Princess",0.5
 472970,"Charming Prince",3
 472971,"The Circle of Loyalty",4
 472972,"Deafening Silence",0
 472973,"Faerie Guidemother // Gift of the Fae",2
 472974,"Flutterfox",2.5
-472975,"Fortifying Provisions",0.5
-472976,"Giant Killer // Chop Down",3.5
+472975,"Fortifying Provisions",1
+472976,"Giant Killer // Chop Down",4
 472977,"Glass Casket",3.5
 472978,"Happily Ever After",0
 472979,"Harmonious Archon",4.5
-472980,"Hushbringer",2
+472980,"Hushbringer",1.5
 472981,"Knight of the Keep",0.5
 472982,"Linden, the Steadfast Queen",3
 472983,"Lonesome Unicorn // Rider in Need",2
@@ -29,26 +29,26 @@
 472990,"Shepherd of the Flock // Usher to Safety",3
 472991,"Shining Armor",1
 472992,"Silverflame Ritual",1.5
-472993,"Silverflame Squire // On Alert",1.5
-472994,"Syr Alin, the Lion's Claw",3.5
+472993,"Silverflame Squire // On Alert",2
+472994,"Syr Alin, the Lion's Claw",3
 472995,"Trapped in the Tower",3
 472996,"True Love's Kiss",1
-472997,"Venerable Knight",2
+472997,"Venerable Knight",2.5
 472998,"Worthy Knight",3.5
 472999,"Youthful Knight",2
-473000,"Animating Faerie // Bring to Life",3
-473001,"Brazen Borrower // Petty Theft",4
+473000,"Animating Faerie // Bring to Life",3.5
+473001,"Brazen Borrower // Petty Theft",3.5
 473002,"Charmed Sleep",3.5
 473003,"Corridor Monitor",1
-473004,"Didn't Say Please",2
+473004,"Didn't Say Please",2.5
 473005,"Emry, Lurker of the Loch",3
 473006,"Fae of Wishes // Granted",3
 473007,"Faerie Vandal",3
 473008,"Folio of Fancies",3
-473009,"Frogify",3
+473009,"Frogify",2.5
 473010,"Gadwick, the Wizened",4
 473011,"Hypnotic Sprite // Mesmeric Glare",3
-473012,"Into the Story",3
+473012,"Into the Story",2.5
 473013,"The Magic Mirror",1
 473014,"Mantle of Tides",1
 473015,"Merfolk Secretkeeper // Venture Deeper",2
@@ -60,9 +60,9 @@
 473021,"Opt",1.5
 473022,"Overwhelmed Apprentice",2
 473023,"Queen of Ice // Rage of Winter",3
-473024,"Run Away Together",2.5
+473024,"Run Away Together",2
 473025,"Sage of the Falls",2.5
-473026,"So Tiny",2.5
+473026,"So Tiny",2
 473027,"Steelgaze Griffin",1.5
 473028,"Stolen by the Fae",3.5
 473029,"Syr Elenora, the Discerning",3
@@ -70,11 +70,11 @@
 473031,"Turn into a Pumpkin",3
 473032,"Unexplained Vision",2.5
 473033,"Vantress Gargoyle",3.5
-473034,"Vantress Paladin",2
+473034,"Vantress Paladin",2.5
 473035,"Wishful Merfolk",1
 473036,"Witching Well",2.5
 473037,"Ayara, First of Locthwain",3.5
-473038,"Bake into a Pie",3.5
+473038,"Bake into a Pie",4
 473039,"Barrow Witches",2
 473040,"Belle of the Brawl",3
 473041,"Blacklance Paragon",3.5
@@ -90,15 +90,15 @@
 473051,"Forever Young",2.5
 473052,"Foulmire Knight // Profane Insight",3
 473053,"Giant's Skewer",1.5
-473054,"Lash of Thorns",1
-473055,"Locthwain Paladin",2
+473054,"Lash of Thorns",0.5
+473055,"Locthwain Paladin",2.5
 473056,"Lost Legion",2
 473057,"Malevolent Noble",2
 473058,"Memory Theft",1
 473059,"Murderous Rider // Swift End",4.5
 473060,"Oathsworn Knight",3.5
 473061,"Order of Midnight // Alter Fate",3.5
-473062,"Piper of the Swarm",4
+473062,"Piper of the Swarm",3.5
 473063,"Rankle, Master of Pranks",4.5
 473064,"Reaper of Night // Harvest Fear",2
 473065,"Reave Soul",3.5
@@ -106,16 +106,16 @@
 473067,"Smitten Swordmaster // Curry Favor",3
 473068,"Specter's Shriek",0
 473069,"Syr Konrad, the Grim",3.5
-473070,"Tempting Witch",2.5
+473070,"Tempting Witch",2
 473071,"Wicked Guardian",1.5
-473072,"Wishclaw Talisman",1
+473072,"Wishclaw Talisman",1.5
 473073,"Witch's Vengeance",3.5
 473074,"Barge In",1
 473075,"Bloodhaze Wolverine",2
-473076,"Blow Your House Down",0.5
+473076,"Blow Your House Down",0
 473077,"Bonecrusher Giant // Stomp",4
 473078,"Brimstone Trebuchet",2
-473079,"Burning-Yard Trainer",2
+473079,"Burning-Yard Trainer",1.5
 473080,"Claim the Firstborn",1
 473081,"Crystal Slipper",0.5
 473082,"Embercleave",4
@@ -123,7 +123,7 @@
 473084,"Embereth Shieldbreaker // Battle Display",2
 473085,"Ferocity of the Wilds",1
 473086,"Fervent Champion",2.5
-473087,"Fires of Invention",1
+473087,"Fires of Invention",1.5
 473088,"Fling",1
 473089,"Irencrag Feat",0
 473090,"Irencrag Pyromancer",3.5
@@ -137,7 +137,7 @@
 473098,"Redcap Raiders",1.5
 473099,"Rimrock Knight // Boulder Rush",2
 473100,"Robber of the Rich",3.5
-473101,"Scorching Dragonfire",3.5
+473101,"Scorching Dragonfire",3
 473102,"Searing Barrage",3
 473103,"Seven Dwarves",1
 473104,"Skullknocker Ogre",1.5
@@ -146,7 +146,7 @@
 473107,"Syr Carah, the Bold",3.5
 473108,"Thrill of Possibility",2
 473109,"Torbran, Thane of Red Fell",3.5
-473110,"Weaselback Redcap",1.5
+473110,"Weaselback Redcap",1
 473111,"Beanstalk Giant // Fertile Footsteps",3.5
 473112,"Curious Pair // Treats to Share",1.5
 473113,"Edgewall Innkeeper",3
@@ -157,7 +157,7 @@
 473118,"Garenbrig Carver // Shield's Might",1.5
 473119,"Garenbrig Paladin",3
 473120,"Garenbrig Squire",1.5
-473121,"Giant Opportunity",2.5
+473121,"Giant Opportunity",2
 473122,"Gilded Goose",3.5
 473123,"The Great Henge",4
 473124,"Insatiable Appetite",1
@@ -165,7 +165,7 @@
 473126,"Kenrith's Transformation",2.5
 473127,"Lovestruck Beast // Heart's Desire",3.5
 473128,"Maraleaf Rider",1.5
-473129,"Oakhame Adversary",3
+473129,"Oakhame Adversary",3.5
 473130,"Once and Future",2
 473131,"Once Upon a Time",3.5
 473132,"Outmuscle",3
@@ -178,14 +178,14 @@
 473139,"Syr Faren, the Hengehammer",3
 473140,"Tall as a Beanstalk",0.5
 473141,"Trail of Crumbs",3
-473142,"Tuinvale Treefolk // Oaken Boon",2
+473142,"Tuinvale Treefolk // Oaken Boon",2.5
 473143,"Wicked Wolf",4
 473144,"Wildborn Preserver",4
-473145,"Wildwood Tracker",1.5
+473145,"Wildwood Tracker",1
 473146,"Wolf's Quarry",0
 473147,"Yorvo, Lord of Garenbrig",3.5
 473148,"Dance of the Manse",1.5
-473149,"Doom Foretold",2.5
+473149,"Doom Foretold",2
 473150,"Drown in the Loch",3
 473151,"Escape to the Wilds",3
 473152,"Faeburrow Elder",3
@@ -200,14 +200,14 @@
 473161,"The Royal Scions",4
 473162,"Savvy Hunter",3.5
 473163,"Shinechaser",3
-473164,"Steelclaw Lance",2.5
+473164,"Steelclaw Lance",3
 473165,"Stormfist Crusader",3
-473166,"Wandermare",3
+473166,"Wandermare",2.5
 473167,"Wintermoor Commander",3
 473168,"Arcanist's Owl",3
 473169,"Covetous Urge",3
 473170,"Deathless Knight",3
-473171,"Elite Headhunter",2.5
+473171,"Elite Headhunter",3
 473172,"Fireborn Knight",3
 473173,"Loch Dragon",3.5
 473174,"Oakhame Ranger // Bring Back",3
@@ -228,7 +228,7 @@
 473189,"Prophet of the Peak",1.5
 473190,"Roving Keep",0.5
 473191,"Scalding Cauldron",2.5
-473192,"Shambling Suit",1.5
+473192,"Shambling Suit",1
 473193,"Signpost Scarecrow",1
 473194,"Sorcerer's Broom",1.5
 473195,"Sorcerous Spyglass",0.5
@@ -238,11 +238,11 @@
 473199,"Witch's Oven",2
 473200,"Castle Ardenvale",3
 473201,"Castle Embereth",1.5
-473202,"Castle Garenbrig",1.5
+473202,"Castle Garenbrig",2
 473203,"Castle Locthwain",3
 473204,"Castle Vantress",3
 473205,"Dwarven Mine",1
-473206,"Fabled Passage",2.5
+473206,"Fabled Passage",3
 473207,"Gingerbread Cabin",1
 473208,"Idyllic Grange",1
 473209,"Mystic Sanctuary",1.5

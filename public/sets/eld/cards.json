@@ -59,7 +59,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -123,7 +123,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -186,7 +186,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 4,
     "set": "eld"
   },
   {
@@ -312,28 +312,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
-    "set": "eld"
-  },
-  {
-    "id": 473041,
-    "name": "Blacklance Paragon",
-    "collector_number": 79,
-    "multiverse_ids": [
-      473041
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fe0a63bb-dd94-429f-aa9b-21f3d1c53ae5.jpg?1568659754"],
-    "layout": "normal",
-    "type_line": "Creature — Human Knight",
-    "oracle_text": "Flash\nWhen Blacklance Paragon enters the battlefield, target Knight gains deathtouch and lifelink until end of turn.",
-    "mana_cost": "{1}{B}",
-    "cmc": 2,
-    "colors": [
-      "B"
-    ],
-    "latent_color": "",
-    "rarity": "rare",
-    "rating": 3.5,
+    "rating": 0.5,
     "set": "eld"
   },
   {
@@ -375,7 +354,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "eld"
   },
   {
@@ -438,7 +417,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -480,7 +459,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -543,7 +522,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -920,7 +899,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -942,7 +921,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -1028,7 +1007,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -1214,7 +1193,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -1468,7 +1447,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -1636,7 +1615,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -1678,7 +1657,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -1805,7 +1784,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "eld"
   },
   {
@@ -1826,7 +1805,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -2071,7 +2050,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -2218,7 +2197,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -2405,7 +2384,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "eld"
   },
   {
@@ -2510,7 +2489,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -2971,7 +2950,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -3770,7 +3749,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -3853,7 +3832,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -3914,7 +3893,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -4039,7 +4018,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -4161,7 +4140,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -4244,7 +4223,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -4390,7 +4369,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -4516,7 +4495,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -4814,7 +4793,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -4898,7 +4877,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -4919,7 +4898,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -4941,7 +4920,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -4981,7 +4960,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -5065,7 +5044,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -5108,7 +5087,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "eld"
   },
   {
