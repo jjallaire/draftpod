@@ -6,6 +6,7 @@ import MinimizeIcon from "vue-material-design-icons/WindowMinimize.vue"
 import UiPanel from '@/components/core/UiPanel.vue'
 import MtgCardPile from '@/components/draft/core/MtgCardPile.vue'
 import DeckDownload from './DeckDownload.vue'
+import DeckShare from './DeckShare.vue'
 import DeckView from './DeckView.vue'
 import DeckLands from './DeckLands.vue'
 import DeckSaveList from './DeckSaveList.vue'
@@ -18,7 +19,7 @@ export default {
   name: 'DeckPanel',
 
   components: {
-    UiPanel, MtgCardPile, DeckDownload, DeckView, DeckSaveList, DeckLands, MaximizeIcon, MinimizeIcon
+    UiPanel, MtgCardPile, DeckDownload, DeckShare, DeckView, DeckSaveList, DeckLands, MaximizeIcon, MinimizeIcon
   },
 
   props: {
@@ -176,6 +177,11 @@ export default {
         :set="set" 
         :deck="deck"
       />
+      <DeckShare 
+        v-if="can_download"
+        :set="set" 
+        :deck="deck"
+      />
       <button 
         v-if="is_sealed_format"
         ref="toggleCompactBtn"
@@ -279,8 +285,8 @@ export default {
 }
 
 .mobile .deck .deck-copy,
-.mobile .deck .deck-download
- {
+.mobile .deck .deck-download,
+.mobile .deck .deck-share {
   display: none;
 }
 
