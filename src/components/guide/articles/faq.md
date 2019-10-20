@@ -82,6 +82,17 @@ These files can in turn be uploaded to these websites, both of which allow you t
   - <https://magic.flooey.org/draft/upload>
   - <http://draftsignals.com/>
 
+#### How can I share a draft? 
+
+If you want to get feedback on or otherwise discuss a draft with another player, you can use the **Share** button within the deck builder:
+
+<p>
+<img src="/images/guide/share-draft.png" width="100%" />
+</p>
+
+
+Your draft will be published to <https://magic.flooey.org>, and a browser will be opened to the page with the draft (you can then share this link with others).
+
 #### This is a free service. Will it always be free?
 
 Yes, the site is free and will always remain so. We won't ever show adds, sell or share personal information, or charge a subscription fee of any kind. The source code for the site is available under the MIT license at <https://github.com/jjallaire/draftpod>.
