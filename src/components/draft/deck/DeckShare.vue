@@ -8,7 +8,6 @@ import * as selectors from '@/store/modules/draft/selectors'
 import axios from 'axios'
 
 import { logException } from '@/core/log'
-import progress from '@/core/progress'
 
 export default {
 
@@ -63,7 +62,6 @@ export default {
           }
          
           // post 
-          progress.start();
           axios({
             method: 'POST',
             url: 'https://magicprotools.com/api/draft/add',
@@ -84,9 +82,6 @@ export default {
           })
           .catch(error => {
             logException(error, "onShareDeck");
-          })
-          .finally(() => {
-            progress.stop();
           })
         });
     }
