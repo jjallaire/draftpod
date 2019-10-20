@@ -75,8 +75,12 @@ export default {
             }
           })
           .then(response => {
-            let draftURL = response.data.url;
-            window.open(draftURL, "_blank");
+            if (response.data.error) {
+              logException(new Error(response.data.error), "onShareDeckPOST")
+            } else {
+              let draftURL = response.data.url;
+              window.open(draftURL, "_blank");
+            }
           })
           .catch(error => {
             logException(error, "onShareDeck");
