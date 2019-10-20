@@ -36,6 +36,9 @@ export default {
   methods: {
     onShareDeck(event) {
 
+        // don't retain focus
+        event.target.blur();
+
         // draft log
         let log = this.generateDraftLog();
         
@@ -45,17 +48,26 @@ export default {
         // generate mtgo log then download
         draftlog.asMtgoLog(log).then(mtgoLog => {
 
+          // create form data
           let draftForm = new FormData();
           draftForm.append("draft", mtgoLog);
           draftForm.append("deck", deckList);
           draftForm.append("apiKey", "fXHmRumUkwF0Hq0wVDvsWX");
           draftForm.append("platform", "draftpod");
+
+          // application/x-www-form-urlencoded
+          let data = '';
+          const encode = str => encodeURIComponent(str).replace(/%20/g,'+'); 
+          for (let field of draftForm.entries()) {
+            data += (data ? '&' : '') + encode(field[0]) + '=' + encode(field[1]);
+          }
          
+          // post 
           progress.start();
           axios({
             method: 'POST',
             url: 'https://magicprotools.com/api/draft/add',
-            data: urlencodeFormData(draftForm),
+            data: data,
             config: {
               headers: { 
                 'Content-Type': 'application/x-www-form-urlencoded',
@@ -73,21 +85,8 @@ export default {
             progress.stop();
           })
         });
-
-        event.target.blur();
     }
   }
-}
-
-function urlencodeFormData(fd){
-    var s = '';
-    function encode(s){ return encodeURIComponent(s).replace(/%20/g,'+'); }
-    for(var pair of fd.entries()){
-        if(typeof pair[1]=='string'){
-            s += (s?'&':'') + encode(pair[0])+'='+encode(pair[1]);
-        }
-    }
-    return s;
 }
 
 </script>
