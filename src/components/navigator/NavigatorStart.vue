@@ -24,6 +24,10 @@ import { INIT_DRAFT } from '@/store/actions'
 // drafts namespace
 const NS_DRAFTS = "drafts";
 
+// number of packs
+const PACKS_THREE = "three";
+const PACKS_FIVE = "five";
+
 import * as messagebox from '@/components/core/messagebox.js'
 
 import _debounce from 'lodash/debounce'
@@ -46,7 +50,7 @@ export default {
       set_code: 'eld',
       cardpool: CARDPOOL.CUBE + '6/3/1/1',
       format: 'draft',
-      number_of_packs: 3,
+      number_of_packs: PACKS_THREE,
       pick_timer: false,
       pick_ratings: false,
       sealed_number_of_packs: 6,
@@ -102,7 +106,7 @@ export default {
       this.format = this.$route.query.format;
     this.pick_timer = this.preferences.pick_timer;
     this.pick_ratings = this.preferences.pick_ratings;
-    this.number_of_packs = this.preferences.number_of_packs || 3;
+    this.number_of_packs = this.preferences.number_of_packs === PACKS_FIVE ? PACKS_FIVE : PACKS_THREE;
     this.sealed_number_of_packs = this.preferences.sealed_number_of_packs || 6;
     this.multi_player.player_name = this.player.name;
     this.applySetPreferences();
@@ -314,8 +318,8 @@ export default {
         cardpool: this.cardpool, 
         format: this.format,
         options: { 
-          number_of_packs: this.number_of_packs,
-          deck_size: this.number_of_packs === 3 ? 40 : 60,
+          number_of_packs: this.number_of_packs === PACKS_FIVE ? 5 : 3,
+          deck_size: this.number_of_packs === PACKS_FIVE ? 60 : 40,
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
           multi_player: this.is_multi_player,
@@ -436,14 +440,14 @@ export default {
         >
           <div v-show="is_draft_format" id="draft-packs">
             <div class="form-check-inline">
-              <input id="draft-packs-three" v-model="number_of_packs" class="form-check-input" type="radio" value="3" :disabled="is_multi_player">
+              <input id="draft-packs-three" v-model="number_of_packs" class="form-check-input" type="radio" value="three" :disabled="is_multi_player">
               <label class="form-check-label" for="draft-packs-three">
                 3 Packs (40 Card Deck)
               </label>
             </div>
             
             <div class="form-check-inline">
-              <input id="draft-packs-five" v-model="number_of_packs" class="form-check-input" type="radio" value="5" :disabled="is_multi_player">
+              <input id="draft-packs-five" v-model="number_of_packs" class="form-check-input" type="radio" value="five" :disabled="is_multi_player">
               <label class="form-check-label" for="draft-packs-five">
                 5 Packs (60 Card Deck)
               </label>
