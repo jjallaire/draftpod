@@ -46,20 +46,6 @@ export default {
         :disabled="disabled" 
         class="form-control"
       >
-        <optgroup label="Recent">
-          <option value="eld">
-            Throne of Eldraine
-          </option>
-          <option value="m20">
-            Core Set 2020
-          </option>
-          <option value="war">
-            War of the Spark
-          </option>
-          <option value="mh1">
-            Modern Horizons
-          </option>
-        </optgroup>
         <optgroup label="Standard">
           <option value="eld">
             Throne of Eldraine
@@ -77,7 +63,7 @@ export default {
             Guilds of Ravnica
           </option>
         </optgroup>
-        <optgroup label="Historic">
+        <optgroup label="Pioneer">
           <option value="m19">
             Core Set 2019
           </option>
@@ -90,8 +76,6 @@ export default {
           <option value="xln">
             Ixalan
           </option>
-        </optgroup>
-        <optgroup label="More">
           <option value="hou">
             Hour of Devastation
           </option>
@@ -107,11 +91,11 @@ export default {
           <option value="ktk">
             Khans of Tarkir
           </option>
+        </optgroup>
+        <optgroup label="More">
           <option value="isd">
             Innistrad
           </option>
-        </optgroup>
-        <optgroup label="Draft Innovation">
           <option value="mh1">
             Modern Horizons
           </option>
