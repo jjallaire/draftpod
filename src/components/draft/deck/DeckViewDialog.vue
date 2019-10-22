@@ -217,16 +217,6 @@ export default {
   min-width: 100px;
 }
 
-#decklistDialog .icon-button {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  outline: none;
-  border: 0;
-  background: transparent;
-  min-width: initial;
-}
-
 #decklistDialog .popover {
   width: 300px;
 }

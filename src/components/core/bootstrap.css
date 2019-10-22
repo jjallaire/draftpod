@@ -17,3 +17,14 @@ h1, h2, h3, h4, h5, h6 {
 .modal-dialog {
   color: #aaa;
 }
+
+.icon-button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: 0;
+  background: transparent;
+  min-width: initial;
+}
+

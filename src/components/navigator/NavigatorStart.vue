@@ -1,5 +1,7 @@
 <script>
 
+import HelpIcon from "vue-material-design-icons/HelpCircleOutline.vue"
+
 import * as log from '@/core/log'
 import * as utils from '@/components/core/utils'
 import ContentPanel from '@/components/core/ContentPanel.vue'
@@ -25,6 +27,7 @@ const NS_DRAFTS = "drafts";
 import * as messagebox from '@/components/core/messagebox.js'
 
 import _debounce from 'lodash/debounce'
+import jquery from 'jquery'
 
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 
@@ -34,7 +37,7 @@ export default {
   name: 'NavigatorStart',
 
   components: {
-    ContentPanel, SetSelect, CardpoolSelect, 
+    ContentPanel, SetSelect, CardpoolSelect, HelpIcon,
     PlayersSelect, MultiplayerPending, MultiplayerOptions
   },
 
@@ -103,6 +106,15 @@ export default {
     this.sealed_number_of_packs = this.preferences.sealed_number_of_packs || 6;
     this.multi_player.player_name = this.player.name;
     this.applySetPreferences();
+  },
+
+  mounted() {
+    jquery('#packs-help-popover').popover({
+      trigger: 'hover',
+      content: 'Use 5 packs to draft 60 card decks that are compatible with Arena Direct ' +
+               'Challlenge. Alternatively, you can draft a 40 card deck and a 60 card ' + 
+               'version (with extras of random cards) will be provided for use on Arena. '
+    });
   },
 
   beforeDestroy() {
@@ -437,11 +449,11 @@ export default {
               </label>
             </div>
 
-            <small id="packs-help-text" class="form-text text-muted">
-              Use 5 packs to draft 60 card decks that are compatible with Arena Direct Challlenge.
-              Alternatively, you can draft a 40 card deck and a 60 card version (with extras
-              of random cards) will be provided for use on Arena. 
-            </small>
+            <div class="form-check-inline">
+              <button id="packs-help-popover" class="icon-button" data-toggle="popover" data-placement="bottom">
+                <HelpIcon id="packs-help-icon" title="" />
+              </button>
+            </div>
             
           </div>
           <div v-show="is_draft_format" class="form-check">
@@ -569,10 +581,6 @@ export default {
   margin-top: 0;
 }
 
-#packs-help-text {
-  margin-left: 20px;
-}
-
 label[for="draft-options"] {
   padding-top: 0;
 }
@@ -585,6 +593,18 @@ label[for="draft-options"] {
   margin-top: 8px;
   padding-top: 10px;
   padding-bottom: 15px;
+}
+
+#packs-help-popover {
+  min-width: 20px;
+  padding-left: 0 !important;
+
+}
+
+#packs-help-icon svg {
+  width: 22px;
+  height: 22px;
+  color: #aaa;
 }
 
 
