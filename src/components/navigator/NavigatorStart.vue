@@ -43,6 +43,7 @@ export default {
       set_code: 'eld',
       cardpool: CARDPOOL.CUBE + '6/3/1/1',
       format: 'draft',
+      number_of_packs: 3,
       pick_timer: false,
       pick_ratings: false,
       sealed_number_of_packs: 6,
@@ -98,6 +99,7 @@ export default {
       this.format = this.$route.query.format;
     this.pick_timer = this.preferences.pick_timer;
     this.pick_ratings = this.preferences.pick_ratings;
+    this.number_of_packs = this.preferences.number_of_packs || 3;
     this.sealed_number_of_packs = this.preferences.sealed_number_of_packs || 6;
     this.multi_player.player_name = this.player.name;
     this.applySetPreferences();
@@ -225,6 +227,7 @@ export default {
         format: this.format,
         pick_timer: this.pick_timer,
         pick_ratings: this.pick_ratings,
+        number_of_packs: this.number_of_packs,
         sealed_number_of_packs: this.sealed_number_of_packs
       });
 
@@ -299,6 +302,8 @@ export default {
         cardpool: this.cardpool, 
         format: this.format,
         options: { 
+          number_of_packs: this.number_of_packs,
+          deck_size: this.number_of_packs === 3 ? 40 : 60,
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
           multi_player: this.is_multi_player,
@@ -417,6 +422,28 @@ export default {
           id="draft-options" 
           class="col-sm-8"
         >
+          <div v-show="is_draft_format" id="draft-packs">
+            <div class="form-check-inline">
+              <input id="draft-packs-three" v-model="number_of_packs" class="form-check-input" type="radio" value="3" :disabled="is_multi_player">
+              <label class="form-check-label" for="draft-packs-three">
+                3 Packs (40 Card Deck)
+              </label>
+            </div>
+            
+            <div class="form-check-inline">
+              <input id="draft-packs-five" v-model="number_of_packs" class="form-check-input" type="radio" value="5" :disabled="is_multi_player">
+              <label class="form-check-label" for="draft-packs-five">
+                5 Packs (60 Card Deck)
+              </label>
+            </div>
+
+            <small id="packs-help-text" class="form-text text-muted">
+              Use 5 packs to draft 60 card decks that are compatible with Arena Direct Challlenge.
+              Alternatively, you can draft a 40 card deck and a 60 card version (with extras
+              of random cards) will be provided for use on Arena. 
+            </small>
+            
+          </div>
           <div v-show="is_draft_format" class="form-check">
             <input 
               id="draft-timer" 
@@ -526,6 +553,13 @@ export default {
   margin-top: 13px;
 }
 
+#draft-packs {
+  margin-bottom: 16px;
+}
+
+#draft-packs .form-check-inline {
+  margin-right: 20px;
+}
 
 #draft-options {
   margin-bottom: 15px;
@@ -533,6 +567,10 @@ export default {
 
 #draft-options .form-check:first-child {
   margin-top: 0;
+}
+
+#packs-help-text {
+  margin-left: 20px;
 }
 
 label[for="draft-options"] {

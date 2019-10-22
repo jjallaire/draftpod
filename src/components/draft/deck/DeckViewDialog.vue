@@ -25,6 +25,7 @@ export default {
       set_code: null,
       deck: null,
       format: null,
+      deck_size: 40,
       arena_convert: true,
       arena_60: null
     }
@@ -38,6 +39,10 @@ export default {
       } else {
         return null;
       }
+    },
+
+    arena_option: function() {
+      return this.deck_size < 60;
     },
 
     arena_deck_list: function() {
@@ -61,6 +66,8 @@ export default {
       this.deck = null;
       this.set_code = null;
       this.format = null;
+      this.deck_size = 40;
+      this.arena_convert = true;
       this.arena_60 = null;
     });
 
@@ -87,10 +94,11 @@ export default {
 
   methods: {
 
-    show(set_code, deck, format) {
+    show(set_code, deck, format, deck_size) {
       this.set_code = set_code;
       this.format = format;
       this.deck = deck;
+      this.deck_size = deck_size;
       if (set.capabilities(this.set_code).arena_decklists)
         this.arena_60 = selectors.arena60CardDeckList(this.set_code, this.deck);
       let dialog = jquery(this.$refs.dialog);
@@ -164,7 +172,7 @@ export default {
               <textarea id="standard-deck-list-cards" v-model="standard_deck_list" readonly />
             </div>
             <div v-show="arena_deck_list" id="arena-deck-list" class="tab-pane fade" role="tabpanel" aria-labelledby="arena-deck-list-tab">
-              <div class="form-check">
+              <div v-show="arena_option" class="form-check">
                 <input id="arena-convert-to-60" v-model="arena_convert" class="form-check-input" type="checkbox">
                 <label class="form-check-label" for="arena-convert-to-60">
                   Convert to 60 card deck (required for Arena Direct Challenge)
@@ -173,7 +181,7 @@ export default {
                   <HelpIcon id="arena-convert-help-icon" title="" />
                 </button>
               </div>
-              <textarea id="arena-deck-list-cards" v-model="arena_deck_list" readonly />
+              <textarea id="arena-deck-list-cards" v-model="arena_deck_list" :style="{ top: arena_option ? '40px' : '0'}" readonly />
             </div>
           </div>
         </div>
@@ -247,7 +255,7 @@ export default {
 
 #arena-deck-list-cards {
   position: absolute;
-  top: 40px;
+  top: 0;
   bottom: 0;
 }
 

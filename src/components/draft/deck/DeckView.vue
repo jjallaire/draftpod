@@ -19,6 +19,11 @@ export default {
       required: true
     },
 
+    deck_size: {
+      type: Number,
+      required: true
+    },
+
     deck: {
       type: Object,
       required: true
@@ -32,7 +37,7 @@ export default {
 
   methods: {
     onViewDeck(event) {
-      this.$refs.deckViewDialog.show(this.set_code, this.deck, this.format);
+      this.$refs.deckViewDialog.show(this.set_code, this.deck, this.format, this.deck_size);
       event.target.blur();
     }
   },
