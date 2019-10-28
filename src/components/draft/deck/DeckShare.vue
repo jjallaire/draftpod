@@ -60,12 +60,14 @@ export default {
           for (let field of draftForm.entries()) {
             data += (data ? '&' : '') + encode(field[0]) + '=' + encode(field[1]);
           }
-         
+          
           // post 
-          axios({
+          const requestor = axios.create({ withCredentials: true });
+          requestor({
             method: 'POST',
             url: 'https://magicprotools.com/api/draft/add',
             data: data,
+            withCredentials: true,
             config: {
               headers: { 
                 'Content-Type': 'application/x-www-form-urlencoded',
