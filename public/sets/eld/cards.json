@@ -17,7 +17,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -38,7 +38,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -123,7 +123,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -165,7 +165,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -228,7 +228,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -312,7 +312,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0,
     "set": "eld"
   },
   {
@@ -396,7 +396,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -511,7 +511,7 @@
     "multiverse_ids": [
       473201
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8bb8512e-6913-4be6-8828-24cfcbec042e.jpg?1571721968"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8bb8512e-6913-4be6-8828-24cfcbec042e.jpg?1572208705"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Castle Embereth enters the battlefield tapped unless you control a Mountain.\n{T}: Add {R}.\n{1}{R}{R}, {T}: Creatures you control get +1/+0 until end of turn.",
@@ -522,7 +522,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -543,7 +543,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -553,7 +553,7 @@
     "multiverse_ids": [
       473203
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/195383c1-4723-40b0-ba53-298dfd8e30d0.jpg?1571721977"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/195383c1-4723-40b0-ba53-298dfd8e30d0.jpg?1571936401"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Castle Locthwain enters the battlefield tapped unless you control a Swamp.\n{T}: Add {B}.\n{1}{B}{B}, {T}: Draw a card, then you lose life equal to the number of cards in your hand.",
@@ -606,7 +606,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -669,7 +669,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -783,7 +783,7 @@
     "multiverse_ids": [
       473179
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7d7108f-635c-423b-988a-bc8fc4c6edef.jpg?1571721871"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7d7108f-635c-423b-988a-bc8fc4c6edef.jpg?1572208668"],
     "layout": "normal",
     "type_line": "Artifact Creature — Wall",
     "oracle_text": "Defender\n{T}: Creatures you control gain haste until end of turn.",
@@ -813,7 +813,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "eld"
   },
   {
@@ -834,7 +834,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -899,7 +899,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -920,7 +920,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -995,7 +995,7 @@
     "multiverse_ids": [
       473113
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c5d0560-f9e6-4c70-8cce-cae61e4e74bc.jpg?1571721569"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c5d0560-f9e6-4c70-8cce-cae61e4e74bc.jpg?1572208927"],
     "layout": "normal",
     "type_line": "Creature — Human Peasant",
     "oracle_text": "Whenever you cast a creature spell that has an Adventure, draw a card. (It doesn't need to have gone on the adventure first.)",
@@ -1049,7 +1049,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "eld"
   },
   {
@@ -1299,7 +1299,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -1362,7 +1362,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -1383,7 +1383,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -1404,7 +1404,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -1510,7 +1510,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "eld"
   },
   {
@@ -1552,7 +1552,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -1573,7 +1573,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -1615,7 +1615,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -1636,7 +1636,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "eld"
   },
   {
@@ -1657,7 +1657,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -1678,7 +1678,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -1741,7 +1741,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -1762,7 +1762,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -1784,7 +1784,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "eld"
   },
   {
@@ -1826,7 +1826,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -1908,7 +1908,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -1939,7 +1939,7 @@
     "multiverse_ids": [
       473182
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/525142c3-f17c-4e02-a02d-fa385215aa12.jpg?1571721884"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/525142c3-f17c-4e02-a02d-fa385215aa12.jpg?1572208669"],
     "layout": "normal",
     "type_line": "Artifact — Food",
     "oracle_text": "When Golden Egg enters the battlefield, draw a card.\n{1}, {T}, Sacrifice Golden Egg: Add one mana of any color.\n{2}, {T}, Sacrifice Golden Egg: You gain 3 life.",
@@ -1991,7 +1991,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0,
+    "rating": 0.5,
     "set": "eld"
   },
   {
@@ -2031,7 +2031,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -2050,7 +2050,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -2113,7 +2113,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "eld"
   },
   {
@@ -2154,7 +2154,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -2321,7 +2321,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -2363,7 +2363,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -2384,7 +2384,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -2426,7 +2426,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -2573,7 +2573,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -2592,7 +2592,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -2761,7 +2761,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -2803,7 +2803,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -2824,7 +2824,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -2929,7 +2929,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -2971,7 +2971,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -2993,7 +2993,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -3045,7 +3045,7 @@
     "multiverse_ids": [
       473159
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/4/3462a3d0-5552-49fa-9eb7-100960c55891.jpg?1571721785"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/4/3462a3d0-5552-49fa-9eb7-100960c55891.jpg?1572208593"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Oko",
     "oracle_text": "+2: Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")\n+1: Target artifact or creature loses all abilities and becomes a green Elk creature with base power and toughness 3/3.\n−5: Exchange control of target artifact or creature you control and target creature an opponent controls with power 3 or less.",
@@ -3141,7 +3141,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -3183,7 +3183,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -3205,7 +3205,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 4,
     "set": "eld"
   },
   {
@@ -3247,7 +3247,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -3371,7 +3371,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 5,
     "set": "eld"
   },
   {
@@ -3413,7 +3413,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -3561,7 +3561,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -3604,7 +3604,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -3646,7 +3646,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -3667,7 +3667,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 0.5,
     "set": "eld"
   },
   {
@@ -3812,7 +3812,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -3895,7 +3895,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -3956,7 +3956,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -4091,7 +4091,7 @@
     "multiverse_ids": [
       473105
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/3/83b5b110-c430-4ffe-9fc1-8e6987f52d1e.jpg?1571721536"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/3/83b5b110-c430-4ffe-9fc1-8e6987f52d1e.jpg?1572208838"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Slaying Fire deals 3 damage to any target.\nAdamant — If at least three red mana was spent to cast this spell, it deals 4 damage instead.",
@@ -4123,7 +4123,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -4161,7 +4161,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -4182,7 +4182,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -4203,7 +4203,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 0.5,
     "set": "eld"
   },
   {
@@ -4265,7 +4265,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "eld"
   },
   {
@@ -4286,7 +4286,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -4369,7 +4369,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "eld"
   },
   {
@@ -4516,7 +4516,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "eld"
   },
   {
@@ -4600,7 +4600,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "eld"
   },
   {
@@ -4631,7 +4631,7 @@
     "multiverse_ids": [
       473161
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/a/6a7111f3-01a6-4311-bc08-036a1fba60f5.jpg?1571721793"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/a/6a7111f3-01a6-4311-bc08-036a1fba60f5.jpg?1572208635"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Will Rowan",
     "oracle_text": "+1: Draw a card, then discard a card.\n+1: Target creature gets +2/+0 and gains first strike and trample until end of turn.\n−8: Draw four cards. When you do, The Royal Scions deals damage to any target equal to the number of cards in your hand.",
@@ -4707,7 +4707,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -4793,7 +4793,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "eld"
   },
   {
@@ -5171,7 +5171,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "eld"
   },
   {
@@ -5211,7 +5211,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "eld"
   },
   {
@@ -5253,7 +5253,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "eld"
   },
   {
@@ -5284,7 +5284,7 @@
     "multiverse_ids": [
       473147
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae2998a1-1713-467e-a08e-0efd8720aa5b.jpg?1571721733"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae2998a1-1713-467e-a08e-0efd8720aa5b.jpg?1571832508"],
     "layout": "normal",
     "type_line": "Legendary Creature — Giant Noble",
     "oracle_text": "Yorvo, Lord of Garenbrig enters the battlefield with four +1/+1 counters on it.\nWhenever another green creature enters the battlefield under your control, put a +1/+1 counter on Yorvo. Then if that creature's power is greater than Yorvo's power, put another +1/+1 counter on Yorvo.",
