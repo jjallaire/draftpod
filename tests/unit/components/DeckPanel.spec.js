@@ -4,6 +4,8 @@ import DeckPanel from '../../../src/components/draft/deck/DeckPanel.vue'
 
 import deck from '../data/deck.json'
 
+import { testStore } from '../util/test-store'
+
 import providers from '../util/providers'
 
 describe('DeckPanel.vue', () => {
@@ -13,6 +15,7 @@ describe('DeckPanel.vue', () => {
     expect([1]).toHaveLength(1);
 
     const wrapper = mount(DeckPanel, {
+      sync: false,
       propsData: { 
         set: {
           code: "RNA",
@@ -25,6 +28,9 @@ describe('DeckPanel.vue', () => {
           deck_list_format: 'normal'
         },
         deck 
+      },
+      mocks: {
+        $store: testStore()
       },
       provide: providers
     });
