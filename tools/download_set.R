@@ -192,11 +192,11 @@ download_cards <- function(cards,
     isd = 249,
     eld = 269,
     `cube_gnt` = 1000,
-    `cube_vintage` = 1000
+    `cube_vintage_2019` = 1000
   )
   
   # uses many sets we don't cover here
-  if (set != "cube_vintage")
+  if (set != "cube_vintage_2019")
     cards <- Filter(function(card) card$collector_number <= max_collector_numbers[[card$set]], cards)
   
   
