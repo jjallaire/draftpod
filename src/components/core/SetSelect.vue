@@ -104,6 +104,9 @@ export default {
           </option>
         </optgroup>
         <optgroup label="Cubes">
+          <option value="cube_vintage">
+            Vintage
+          </option>
           <option value="cube_gnt">
             Game Night Cube
           </option>

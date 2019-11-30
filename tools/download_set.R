@@ -61,7 +61,12 @@ download_cards <- function(cards,
     if (!is.null(card$image_uris)) {
       image_uris <- card$image_uris$normal
     } else if (!is.null(card$card_faces)) {
-      image_uris <- lapply(card$card_faces, function(face) face$image_uris$normal)
+      if (is.data.frame(card$card_faces) && is.data.frame(card$card_faces$image_uris)) {
+        image_uris <- card$card_faces$image_uris$normal
+      } else {
+        image_uris <- lapply(card$card_faces, function(face) face$image_uris$normal)
+      }
+      
     } else {
       str(card)
       stop("Unable to find image_uri for card")
@@ -71,7 +76,11 @@ download_cards <- function(cards,
     if (!is.null(card$mana_cost)) {
       mana_cost <- card$mana_cost
     } else if (!is.null(card$card_faces)) {
-      mana_cost <- card$card_faces[[1]]$mana_cost
+      if (is.data.frame(card$card_faces)) {
+        mana_cost <- card$card_faces[1,]$mana_cost
+      } else {
+        mana_cost <- card$card_faces[[1]]$mana_cost
+      }
     } else {
       str(card)
       stop("Unable to find mana_cost for card")
@@ -182,10 +191,13 @@ download_cards <- function(cards,
     ktk = 269,
     isd = 249,
     eld = 269,
-    `cube_gnt` = 1000
+    `cube_gnt` = 1000,
+    `cube_vintage` = 1000
   )
   
-  cards <- Filter(function(card) card$collector_number <= max_collector_numbers[[card$set]], cards)
+  # uses many sets we don't cover here
+  if (set != "cube_vintage")
+    cards <- Filter(function(card) card$collector_number <= max_collector_numbers[[card$set]], cards)
   
   
   # write as json
@@ -241,10 +253,14 @@ fix_collector_numbers <- function(cube) {
     # determine color bin
     color_bin <- NULL
     colors <- card_colors(card$mana_cost)
+    is_land <- grepl("Land", card$type_line, fixed = TRUE) && 
+               !grepl("//", card$type_line, fixed = TRUE)
+    if (is_land)
+      color_bin <- 8
     if (length(colors) == 0)
-      color_bin <- 6
-    else if (length(colors) > 1)
       color_bin <- 7
+    else if (length(colors) > 1)
+      color_bin <- 6
     else if (colors == 'W')
       color_bin <- 1
     else if (colors == 'U')
@@ -264,11 +280,13 @@ fix_collector_numbers <- function(cube) {
   })
   
   # now sort by rarity, color, name
-  cube_order <- order(sapply(cube, function(card) card$rarity_bin), 
-                      sapply(cube, function(card) card$color_bin),
-                      sapply(cube, function(card) card$name),
-                      decreasing = c(FALSE, FALSE, FALSE),
-                      method = "radix")
+  cube_order <- order(
+    # sapply(cube, function(card) card$rarity_bin), 
+    sapply(cube, function(card) card$color_bin),
+    sapply(cube, function(card) card$name),
+    decreasing = c(FALSE, FALSE, FALSE),
+    method = "radix"
+  )
   
   # re-order the cube
   cube <- cube[cube_order]

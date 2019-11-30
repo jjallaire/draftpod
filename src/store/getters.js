@@ -117,6 +117,10 @@ export default {
           value: CARDPOOL.CUBE + '4/4/0/0',
           caption: '4x Common, 4x Uncommon, 0x Rare, 0x Mythic'
         },
+        {
+          value: CARDPOOL.CUBE + '1/1/1/1',
+          caption: '1x Common, 1x Uncommon, 1x Rare, 1x Mythic'
+        },
       ],
       custom: getters.cardpools(set_code).map(cardpool => {
         return {
