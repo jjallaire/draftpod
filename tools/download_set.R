@@ -252,12 +252,12 @@ fix_collector_numbers <- function(cube) {
     
     # determine color bin
     color_bin <- NULL
-    colors <- card_colors(card$mana_cost)
+    colors <- card$colors
     is_land <- grepl("Land", card$type_line, fixed = TRUE) && 
                !grepl("//", card$type_line, fixed = TRUE)
     if (is_land)
       color_bin <- 8
-    if (length(colors) == 0)
+    else if (length(colors) == 0)
       color_bin <- 7
     else if (length(colors) > 1)
       color_bin <- 6
@@ -284,7 +284,7 @@ fix_collector_numbers <- function(cube) {
     # sapply(cube, function(card) card$rarity_bin), 
     sapply(cube, function(card) card$color_bin),
     sapply(cube, function(card) card$name),
-    decreasing = c(FALSE, FALSE, FALSE),
+    decreasing = c(FALSE, FALSE),
     method = "radix"
   )
   

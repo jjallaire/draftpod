@@ -3,6 +3,7 @@
 import * as cube from './cube'
 import { CARDPOOL } from '../../../constants'
 
+import _orderBy from 'lodash/orderBy'
 
 
 export default {
@@ -22,7 +23,8 @@ export default {
   is_custom_cube: true,
 
   booster(selectCards) {
-    return selectCards(() => true, 15);
+    const cards = selectCards(() => true, 15);
+    return _orderBy(cards, ["collector_number"], ["asc"]); 
   },
 
 }
