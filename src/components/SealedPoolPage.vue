@@ -56,7 +56,7 @@ export default {
               let booster = generateBooster(this.set_code, cardpool, p)
               booster.forEach(card => pool.push(card));
             }
-            let poolList = selectors.asDeckList('normal', pool);
+            let poolList = selectors.asDeckList(this.set_code, 'normal', pool);
             this.pools.push(poolList);
           }
         });

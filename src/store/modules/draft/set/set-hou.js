@@ -7,6 +7,8 @@ export default {
 
   name: "Hour of Devastation",
 
+  expansion_set: true,
+
   pack_set: pack_number => {
     return ((pack_number % 3) === 0) ? 'akh' : 'hou'
   },

@@ -107,6 +107,14 @@ export function card_id_filter(set_code, id) {
     return id;
 }
 
+export function expansion_set(set_code) {
+  if (sets[set_code].expansion_set) {
+    return sets[set_code].expansion_set;
+  } else {
+    return false;
+  }
+}
+
 export function pack_set(set_code, pack_number) {
   let pack_set = sets[set_code].pack_set;
   if (pack_set)

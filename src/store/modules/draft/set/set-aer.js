@@ -7,6 +7,8 @@ export default {
 
   name: "Aether Revolt",
 
+  expansion_set: true,
+
   pack_set: pack_number => {
     return ((pack_number % 3) === 0) ? 'kld' : 'aer'
   },
