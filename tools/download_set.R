@@ -252,7 +252,9 @@ fix_collector_numbers <- function(cube) {
     
     # determine color bin
     color_bin <- NULL
-    colors <- card$colors
+    colors <- card_colors(card$mana_cost)
+    if (length(colors) == 0) 
+      colors <- card$colors
     is_land <- grepl("Land", card$type_line, fixed = TRUE) && 
                !grepl("//", card$type_line, fixed = TRUE)
     if (is_land)
