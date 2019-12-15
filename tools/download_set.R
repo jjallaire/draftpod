@@ -250,13 +250,19 @@ fix_collector_numbers <- function(cube) {
       stop("Unexpected rarity: ", card$rarity)
     card$rarity_bin <- rarity_bin
     
+    is_land <- grepl("Land", card$type_line, fixed = TRUE) && 
+               !grepl("//", card$type_line, fixed = TRUE)
+    
+    is_artifact <-grepl("Artifact", card$type_line, fixed = TRUE)
+    
     # determine color bin
     color_bin <- NULL
     colors <- card_colors(card$mana_cost)
-    if (length(colors) == 0) 
+    if ((length(colors) == 0) && !is_artifact) { # ensure that e.g. Mox aren't
+                                                 # treated as if they have color
       colors <- card$colors
-    is_land <- grepl("Land", card$type_line, fixed = TRUE) && 
-               !grepl("//", card$type_line, fixed = TRUE)
+    }
+    
     if (is_land)
       color_bin <- 8
     else if (length(colors) == 0)
