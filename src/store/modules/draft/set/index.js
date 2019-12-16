@@ -23,6 +23,7 @@ import eld from './set-eld'
 
 import cube_gnt from './cube-gnt'
 import cube_vintage_2019 from './cube-vintage-2019'
+import cube_vintage_2020 from './cube-vintage-2020'
 
 import axios from 'axios'
  
@@ -47,7 +48,8 @@ const sets = {
   isd,
   eld,
   cube_gnt,
-  cube_vintage_2019
+  cube_vintage_2019,
+  cube_vintage_2020
 }
 
 const cards_cache = {

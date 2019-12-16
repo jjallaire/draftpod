@@ -8,7 +8,7 @@ import _orderBy from 'lodash/orderBy'
 
 export default {
 
-  name: "Vintage Cube (May 2019)",
+  name: "Vintage Cube (Dec 2019)",
 
   capabilities: {
     arena_decklists: false,

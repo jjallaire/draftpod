@@ -104,8 +104,11 @@ export default {
           </option>
         </optgroup>
         <optgroup label="Cubes">
+          <option value="cube_vintage_2020">
+            Vintage Cube (Dec 2019)
+          </option>
           <option value="cube_vintage_2019">
-            Vintage (2019)
+            Vintage Cube (May 2019)
           </option>
           <option value="cube_gnt">
             Game Night Cube
