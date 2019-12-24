@@ -83,7 +83,16 @@ export function handleCardpoolCsvUpload(set_code, file, complete) {
 
       // functions for reading card fields
       const readId = (card) => card['Mvid'] || card['Card Number'] || card['id'] ;
-      const readQuantity = (card) => card['Total Qty'] || card ['Count'] || card['quantity'];
+      const readQuantity = (card) => {
+        let quantity = card['Total Qty'];
+        if (quantity === undefined) {
+          quantity = card['Count'];
+          if (quantity === undefined) {
+            quantity = card['quantity'];
+          }
+        }
+        return quantity;
+      }
 
       // validate that we have data
       if (!cards || (cards.length === 0)) {
@@ -98,7 +107,7 @@ export function handleCardpoolCsvUpload(set_code, file, complete) {
           "The uploaded CSV does not have an id field. Please ensure that " +
           "this field is included."
         );
-      } else if (!readQuantity(cards[0])) {
+      } else if (readQuantity(cards[0]) === undefined) {
         valid = false;
         status.error.push(
           "The uploaded CSV does not have a quantity field. Please ensure that " +
