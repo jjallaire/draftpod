@@ -14,10 +14,63 @@ import * as selectors from '@/store/selectors'
 
 export function handleCardpoolUpload(set_code, file, complete) {
   let extension = file.name.split('.').pop();
-  if (extension === "coll2")
+  if (extension.toLowerCase() === "coll2")
     return handleCardpoolColl2Upload(set_code, file, complete);
-  else
+    else if (extension.toLowerCase() === 'csv')
     return handleCardpoolCsvUpload(set_code, file, complete);
+  else 
+    return handleCardpoolDecklistUpload(set_code, file, complete);
+}
+
+export function handleCardpoolDecklistUpload(set_code, file, complete) {
+
+  // if the file is a string then convert it to a Blob
+  if (typeof file === 'string' || file instanceof String)
+    file = new Blob([file], { type: 'text/plain' });
+
+  let reader = new FileReader();
+  reader.onload = function() {
+    
+    // track status
+    let status = uploadStatusEmpty();
+    
+    // read the text & break into lines
+    const text = this.result;
+    const lines = text.split(/\r?\n/);
+
+    // empty file is an error
+    if (lines.length === 0) {
+      status.error.push("Uploaded file was empty");
+      complete(null, status);
+      return;
+    }
+
+    // see if the first line has decklist format
+    const decklistRegEx = /^(\d+)x?\s+(.*)$/;
+    if (!decklistRegEx.test(lines[0])) {
+      status.error.push("Uploaded file was not a valid card collection CSV or decklist");
+      complete(null, status);
+      return;
+    }
+
+    // parse decklist
+    let cards = _compact(lines.map(line => { 
+      const match = line.match(decklistRegEx);
+      if (match) {
+        return {
+          id: match[2],
+          quantity: parseInt(match[1])
+        }
+      } else {
+        return null;
+      }
+    }));
+
+    // complete the upload
+    completeCardpoolUpload(set_code, cards, false, complete);
+
+  }
+  reader.readAsText(file);
 }
 
 export function handleCardpoolColl2Upload(set_code, file, complete) {

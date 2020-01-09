@@ -327,7 +327,7 @@ export default {
                 type="file" 
                 class="form-control cardpool-upload" 
                 aria-describedby="custom-cardpool-upload-help" 
-                accept="text/csv,.coll2" 
+                accept="text/csv,text/plain,.coll2" 
                 @change="onUploadCardpool"
               >
               <CardpoolUploadStatus :status="new_cardpool.upload_status" />

@@ -44,19 +44,7 @@ Once you've done this, you are ready to enter the cards into a cardpool database
 
 Once you have a cardpool, you need register it so that it can build packs that correspond to the cards you have on hand. To do this you create a database of cards in the pool. We recommend using either <a href="https://www.deckedbuilder.com/">Decked Builder</a> or <a href="https://deckbox.org">Deckbox</a> for this, as both have excellent data entry features that make entering cards a snap (it takes about 20 minutes to enter an entire cardpool). 
 
-Note that while we recommend Decked Builder or Deckbox, you can use any program you like for creating the database so long as it can export a CSV file with _id_ (Multiverse ID) and _quantity_ fields.
-
-#### Decked Builder
-
-To use Decked Builder, start by creating a new collection. Then, use the filtering UI in the top-left of the Decked Builder window to select your set, and order it by color. For example, here's Decked Builder setup to enter cards for a _Guilds of Ravnica_ cardpool:
-
-<p>
-<img src="/images/guide/decked-builder.png" width="100%" />
-</p>
-
-In this illustration we've already begun entering the quantities of cards within our cardpool (note the numbers overlaid on the cards in the middle pane). To enter the quantity of card, just select it (via mouse or arrow key) and press the number of you have. Since the display of cards in Decked Builder matches the way we've sorted our cardpool, it's very quick and easy to enter all of the cards.
-
-Once you are done entering, be sure to save the collection to disk. You are now ready to use the cardpool!
+Note that while we recommend Decked Builder or Deckbox, you can use any program you like for creating the database so long as it can export a file containing the cards in your pool. Export formats supported include Decked Builder collection files (.coll2), CSV files, as well as standard MTG decklist files (e.g. a line like "4x Arrester's Admonition" for each card).
 
 #### Deckbox
 
@@ -70,6 +58,18 @@ Then, use the **Export** option available on the **Tools** menu to export a CSV:
 </p>
 
 When presented with the Deckbox CSV export options, you can accept the defaults. The downloaded CSV is now ready to use as a cardpool!
+
+#### Decked Builder
+
+To use Decked Builder, start by creating a new collection. Then, use the filtering UI in the top-left of the Decked Builder window to select your set, and order it by color. For example, here's Decked Builder setup to enter cards for a _Guilds of Ravnica_ cardpool:
+
+<p>
+<img src="/images/guide/decked-builder.png" width="100%" />
+</p>
+
+In this illustration we've already begun entering the quantities of cards within our cardpool (note the numbers overlaid on the cards in the middle pane). To enter the quantity of card, just select it (via mouse or arrow key) and press the number of you have. Since the display of cards in Decked Builder matches the way we've sorted our cardpool, it's very quick and easy to enter all of the cards.
+
+Once you are done entering, be sure to save the collection to disk. You are now ready to use the cardpool!
 
 ### Uploading a Cardpool
 
@@ -85,15 +85,15 @@ Select the **New Custom Cardpool** option, then you'll be presented with the opp
 <img src="/images/guide/upload-cardpool.png" width="100%" />
 </p>
 
-Upload the collection file or CSV for your cardpool, assign the cardpool a name, then click the **Use Cardpool** button. You are now ready to use your cardpool.
+Upload the collection file, CSV, or decklist file for your cardpool, assign the cardpool a name, then click the **Use Cardpool** button. You are now ready to use your cardpool.
 
-Note that the cardpool automatically bed saved for use in future drafts. Whenever you select the cardpool for play, you'll also be given the opportunity to update it's contents (in the case that you've added or removed cards from the pool):
+Note that the cardpool is automatically saved for use in future drafts. Whenever you select the cardpool for play, you'll also be given the opportunity to update it's contents (in the case that you've added or removed cards from the pool):
 
 <p>
 <img src="/images/guide/update-cardpool.png" width="100%" />
 </p>
 
-As mentioned above, you aren't required to use Decked Builder or Deckbox when creating your cardpool database. Any CSV file that has _id_ (Multiverse ID) and _quantity_ fields (one record per card in your cardpool) can be imported as a cardpool.
+As mentioned above, you aren't required to use Decked Builder or Deckbox when creating your cardpool database. Just about any CSV file exported by a collection manager or a standard MTG decklist file can be imported as a cardpool. If you find that the CSV you are importing doesn't work, please [submit an issue](https://github.com/jjallaire/draftpod/issues/new) and we'll try to make it work ASAP.
 
 ### Storing Cardpools
 
