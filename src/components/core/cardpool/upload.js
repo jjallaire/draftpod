@@ -82,7 +82,7 @@ export function handleCardpoolCsvUpload(set_code, file, complete) {
       let cards = results.data;
 
       // functions for reading card fields
-      const readId = (card) => card['Mvid'] || card['Card Number'] || card['id'] ;
+      const readId = (card) => card['Mvid'] || card['Card Number'] || card['id'] || card['Name'] ;
       const readQuantity = (card) => {
         let quantity = card['Total Qty'];
         if (quantity === undefined) {
@@ -143,7 +143,10 @@ export function handleCardpoolCsvUpload(set_code, file, complete) {
 
       // extract the fields
       cards = cards.map((card) => {
-        let id = set.card_id_filter(set_code, readId(card));
+        let id = readId(card);
+        if (typeof id === 'number') {
+          id = set.card_id_filter(set_code, readId(card));
+        }
         let quantity = readQuantity(card);
         return {
           id: id,
@@ -186,6 +189,24 @@ function completeCardpoolUpload(set_code, cards, deckbox, complete) {
       // from plainswalker decks)
       cards = _compact(cards.map(card => { 
         let cardInfo = cardsByCollectorNumber[card.id];
+        if (cardInfo) {
+          return { ...card, id: cardInfo.id } 
+        } else {
+          return null;
+        }
+      }));
+    }
+
+    // if id is a name then we need to convert it to Mvid
+    if (typeof cards[0]['id'] === 'string') {
+      // build a hash table by name
+      let cardsByName = {};
+      set_cards.forEach(card => {
+        cardsByName[card.name] = card;
+      });
+      // convert to Mvid (filter out cards we don't have)
+      cards = _compact(cards.map(card => { 
+        let cardInfo = cardsByName[card.id];
         if (cardInfo) {
           return { ...card, id: cardInfo.id } 
         } else {
