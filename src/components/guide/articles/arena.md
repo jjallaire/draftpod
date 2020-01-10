@@ -46,7 +46,11 @@ Once you've completed deck-building, click the **View Decklist** button to see a
 
 Use the **Copy to Clipboard** button to copy the MTG Arena decklist to the clipboard.
 
-Note that Direct Challenge requires 60 card decks, whereas limited decks are typically 40 cards. To bridge this gap, MTG Arena decklists automatically expand your 40 card draft or sealed deck to 60 cards. For example, if you have 23 non-lands in your deck, 13 of them (selected at random) will be duplicated so that you end up with 36 non-lands. Note that the ratio between creatures and non-creatures in your deck will be preserved.
+Note that Direct Challenge requires 60 card decks, whereas limited decks are typically 40 cards. To bridge this gap, you can do one of two things:
+
+1) Draft with 3 packs and build a 40 card deck, then use the *MTGA Format* option to automatically generate a 60 card version of your deck. For example, if you have 23 non-lands in your deck, 13 of them (selected at random) will be duplicated so that you end up with 36 non-lands. Note that the ratio between creatures and non-creatures in your deck will be preserved.
+
+2) Draft with 5 packs (rather than 3) and build a 60 card deck. An option to do this is provided when you start a new draft. 
 
 ### Playing
 
