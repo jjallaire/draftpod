@@ -19,6 +19,7 @@ import mh1 from './set-mh1'
 import ktk from './set-ktk'
 import isd from './set-isd'
 import eld from './set-eld'
+import thb from './set-thb'
 
 
 import cube_gnt from './cube-gnt'
@@ -47,6 +48,7 @@ const sets = {
   ktk,
   isd,
   eld,
+  thb,
   cube_gnt,
   cube_vintage_2019,
   cube_vintage_2020

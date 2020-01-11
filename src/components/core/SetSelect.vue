@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="thb">
+            Theros Beyond Death
+          </option>
           <option value="eld">
             Throne of Eldraine
           </option>
