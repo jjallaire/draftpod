@@ -319,7 +319,7 @@ export default {
         format: this.format,
         options: { 
           number_of_packs: this.number_of_packs === PACKS_FIVE ? 5 : 3,
-          deck_size: this.number_of_packs === PACKS_FIVE ? 60 : 40,
+          deck_size: (this.is_draft_format && this.number_of_packs === PACKS_FIVE) ? 60 : 40,
           pick_timer: this.pick_timer, 
           pick_ratings: this.pick_ratings,
           multi_player: this.is_multi_player,
