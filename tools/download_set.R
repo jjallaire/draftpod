@@ -99,7 +99,7 @@ download_cards <- function(cards,
         war = 460927,
         mh1 = 463949,
         eld = 700000,
-        thb = 800000,
+        thb = 476251,
       )
       multiverse_ids <- list(baseline + collector_number)
     }
