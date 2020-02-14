@@ -6,7 +6,7 @@
     "multiverse_ids": [
       476457
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a14afed6-ca42-442d-ba86-621179e6957c.jpg?1581480955"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a14afed6-ca42-442d-ba86-621179e6957c.jpg?1578744761"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "oracle_text": "When Acolyte of Affliction enters the battlefield, put the top two cards of your library into your graveyard, then you may return a permanent card from your graveyard to your hand.",
@@ -18,7 +18,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -28,7 +28,7 @@
     "multiverse_ids": [
       476334
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/09270c65-546e-4737-a6b7-402cbb87917a.jpg?1581479676"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/09270c65-546e-4737-a6b7-402cbb87917a.jpg?1578664161"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Target opponent reveals their hand. You choose a nonland card from it or a card from their graveyard. Exile that card. You lose 1 life.",
@@ -39,7 +39,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -49,7 +49,7 @@
     "multiverse_ids": [
       476293
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/26f9ebbe-3791-4d19-88d2-d5de95faff48.jpg?1581479280"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/6/26f9ebbe-3791-4d19-88d2-d5de95faff48.jpg?1578670463"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human",
     "oracle_text": "Alirios, Enraptured enters the battlefield tapped.\nAlirios doesn't untap during your untap step if you control a Reflection.\nWhen Alirios enters the battlefield, create a 3/2 blue Reflection creature token.",
@@ -70,7 +70,7 @@
     "multiverse_ids": [
       476458
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f77e09c3-917c-4bbb-bb94-60f4e9417832.jpg?1581480965"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f77e09c3-917c-4bbb-bb94-60f4e9417832.jpg?1577446707"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Reveal the top six cards of your library. An opponent exiles a nonland card from among them, then you put the rest into your hand. That opponent may cast the exiled card without paying its mana cost.",
@@ -92,7 +92,7 @@
     "multiverse_ids": [
       476252
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/6/36c8c075-9597-412e-9fc4-9d73b4405d12.jpg?1581478926"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/6/36c8c075-9597-412e-9fc4-9d73b4405d12.jpg?1578673668"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Nymph",
     "oracle_text": "Lifelink\n{1}, Sacrifice Alseid of Life's Bounty: Target creature or enchantment you control gains protection from the color of your choice until end of turn.",
@@ -113,7 +113,7 @@
     "multiverse_ids": [
       476482
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e1f2a587-443d-4626-a6f6-9a26838a42b1.jpg?1581481176"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e1f2a587-443d-4626-a6f6-9a26838a42b1.jpg?1578374645"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "Your devotion to each color and each combination of colors is increased by one.\n{T}: Add one mana of any color. If you control a God, a Demigod, or a legendary enchantment, you gain 1 life.",
@@ -132,7 +132,7 @@
     "multiverse_ids": [
       476376
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a07285b4-77c5-4a38-8810-20d7e49593ec.jpg?1581480059"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a07285b4-77c5-4a38-8810-20d7e49593ec.jpg?1578421720"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — Demigod",
     "oracle_text": "Anax's power is equal to your devotion to red. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)\nWhenever Anax or another nontoken creature you control dies, create a 1/1 red Satyr creature token with \"This creature can't block.\" If the creature had power 4 or greater, create two of those tokens instead.",
@@ -153,7 +153,7 @@
     "multiverse_ids": [
       476335
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5b359607-d699-4ba9-a438-48f0dd8f1bf5.jpg?1581479686"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5b359607-d699-4ba9-a438-48f0dd8f1bf5.jpg?1577967191"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — Harpy",
     "oracle_text": "Flying\nAt the beginning of your end step, you may exile an enchantment card from your graveyard. If you do, create a 2/2 black Zombie creature token.",
@@ -164,7 +164,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -174,7 +174,7 @@
     "multiverse_ids": [
       476416
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c38833a-96c5-48b5-8dd8-23f10e798537.jpg?1581480541"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c38833a-96c5-48b5-8dd8-23f10e798537.jpg?1578103712"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — Spider",
     "oracle_text": "Reach\nWhenever an opponent casts an instant or sorcery spell, create a 1/2 green Spider creature token with reach.",
@@ -185,7 +185,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "thb"
   },
   {
@@ -195,7 +195,7 @@
     "multiverse_ids": [
       476253
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/0/d0dd1e40-a514-42df-8cc1-364998c7700c.jpg?1581478933"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/0/d0dd1e40-a514-42df-8cc1-364998c7700c.jpg?1578046144"],
     "layout": "normal",
     "type_line": "Creature — Archon",
     "oracle_text": "Flying\nWhen Archon of Falling Stars dies, you may return target enchantment card from your graveyard to the battlefield.",
@@ -206,7 +206,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -216,7 +216,7 @@
     "multiverse_ids": [
       476254
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/3/235e5999-e8e5-4093-adff-9d47aec70d10.jpg?1581478942"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/3/235e5999-e8e5-4093-adff-9d47aec70d10.jpg?1578680378"],
     "layout": "normal",
     "type_line": "Creature — Archon",
     "oracle_text": "Flying, lifelink\nPegasus creatures you control have lifelink.\nConstellation — Whenever an enchantment enters the battlefield under your control, create a 2/2 white Pegasus creature token with flying.",
@@ -237,7 +237,7 @@
     "multiverse_ids": [
       476377
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e096049d-9f02-4abb-bb5a-97b14fd17099.jpg?1581480067"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e096049d-9f02-4abb-bb5a-97b14fd17099.jpg?1578259319"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "oracle_text": "Whenever you cast your first spell during each opponent's turn, put a +1/+1 counter on Arena Trickster.",
@@ -248,7 +248,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -258,7 +258,7 @@
     "multiverse_ids": [
       476459
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/112eb5ce-4fe5-45b3-b810-79fef74b07f9.jpg?1581480976"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/112eb5ce-4fe5-45b3-b810-79fef74b07f9.jpg?1576063735"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Ashiok",
     "oracle_text": "+1: Create a 2/3 blue and black Nightmare creature token with \"Whenever this creature attacks or blocks, each opponent exiles the top two cards of their library.\"\n−3: Return target nonland permanent to its owner's hand, then that player exiles a card from their hand.\n−7: You may cast up to three face-up cards your opponents own from exile without paying their mana costs.",
@@ -270,7 +270,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 5,
     "set": "thb"
   },
   {
@@ -280,7 +280,7 @@
     "multiverse_ids": [
       476294
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/5/d568c679-8421-4184-a73c-b18c4164fea5.jpg?1581479289"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/5/d568c679-8421-4184-a73c-b18c4164fea5.jpg?1577965431"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Flash\nWhen Ashiok's Erasure enters the battlefield, exile target spell.\nYour opponents can't cast spells with the same name as the exiled card.\nWhen Ashiok's Erasure leaves the battlefield, return the exiled card to its owner's hand.",
@@ -301,7 +301,7 @@
     "multiverse_ids": [
       476336
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/7/27157f01-8aed-4485-9f0f-9e7486492e6e.jpg?1581479695"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/7/27157f01-8aed-4485-9f0f-9e7486492e6e.jpg?1578664301"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature you control\nWhen Aspect of Lamprey enters the battlefield, target opponent discards two cards.\nEnchanted creature has lifelink.",
@@ -312,7 +312,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -322,7 +322,7 @@
     "multiverse_ids": [
       476378
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f67d0091-1925-44a5-89f3-21c2afd5665c.jpg?1581480076"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f67d0091-1925-44a5-89f3-21c2afd5665c.jpg?1578665715"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Flash\nEnchant creature\nWhen Aspect of Manticore enters the battlefield, enchanted creature gains first strike until end of turn.\nEnchanted creature gets +2/+0.",
@@ -343,7 +343,7 @@
     "multiverse_ids": [
       476460
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/db6c91ec-df14-460f-967c-f182562fe7d8.jpg?1581480984"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/db6c91ec-df14-460f-967c-f182562fe7d8.jpg?1577830818"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Advisor",
     "oracle_text": "Menace\nWhen Atris, Oracle of Half-Truths enters the battlefield, target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.",
@@ -365,7 +365,7 @@
     "multiverse_ids": [
       476255
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a1ddd113-140f-49c9-b45c-cf1b0d1dffd8.jpg?1581478950"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a1ddd113-140f-49c9-b45c-cf1b0d1dffd8.jpg?1577965251"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (That permanent returns under its owner's control.)",
@@ -386,7 +386,7 @@
     "multiverse_ids": [
       476337
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/7865c079-1d91-48d4-852d-d104b6e0c157.jpg?1581479705"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/7865c079-1d91-48d4-852d-d104b6e0c157.jpg?1578679954"],
     "layout": "normal",
     "type_line": "Creature — Beast",
     "oracle_text": "When Blight-Breath Catoblepas enters the battlefield, target creature an opponent controls gets -X/-X until end of turn, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
@@ -407,7 +407,7 @@
     "multiverse_ids": [
       476379
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8d4f3fa3-ba1f-48dc-a56b-738936f1bf86.jpg?1581480083"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8d4f3fa3-ba1f-48dc-a56b-738936f1bf86.jpg?1578103828"],
     "layout": "normal",
     "type_line": "Creature — Satyr Berserker",
     "oracle_text": "Whenever you sacrifice a permanent, put a +1/+1 counter on Blood Aspirant.\n{1}{R}, {T}, Sacrifice a creature or enchantment: Blood Aspirant deals 1 damage to target creature. That creature can't block this turn.",
@@ -428,7 +428,7 @@
     "multiverse_ids": [
       476295
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/6811a9dc-e521-4c9e-accb-1efb8346c1db.jpg?1581479299"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/6811a9dc-e521-4c9e-accb-1efb8346c1db.jpg?1577721292"],
     "layout": "normal",
     "type_line": "Creature — Giant",
     "oracle_text": "This spell costs {1} less to cast for each enchantment you control.",
@@ -449,7 +449,7 @@
     "multiverse_ids": [
       476461
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8fdafadb-fa04-4282-b576-b85e79c242c9.jpg?1581480993"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8fdafadb-fa04-4282-b576-b85e79c242c9.jpg?1578530343"],
     "layout": "normal",
     "type_line": "Creature — Cat",
     "oracle_text": "{G}{W}: Bronzehide Lion gains indestructible until end of turn.\nWhen Bronzehide Lion dies, return it to the battlefield. It's an Aura enchantment with enchant creature you control and \"{G}{W}: Enchanted creature gains indestructible until end of turn,\" and it loses all other abilities.",
@@ -471,7 +471,7 @@
     "multiverse_ids": [
       476483
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b33162d-8d8f-4312-b31e-04ce86e3b914.jpg?1581481182"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b33162d-8d8f-4312-b31e-04ce86e3b914.jpg?1578667708"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "Equipped creature gets +2/+0.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -480,7 +480,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -490,7 +490,7 @@
     "multiverse_ids": [
       476462
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/86458929-ea21-4de8-84d8-a07398ed3bc0.jpg?1581481000"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/86458929-ea21-4de8-84d8-a07398ed3bc0.jpg?1578422218"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Calix",
     "oracle_text": "+1: Look at the top four cards of your library. You may reveal an enchantment card from among them and put that card into your hand. Put the rest on the bottom of your library in a random order.\n−3: Exile target creature or enchantment you don't control until target enchantment you control leaves the battlefield.\n−7: Return all enchantment cards from your graveyard to the battlefield.",
@@ -512,7 +512,7 @@
     "multiverse_ids": [
       476296
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c5d433f2-0a3b-4f45-83a3-ed600a6d10b1.jpg?1581479308"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c5d433f2-0a3b-4f45-83a3-ed600a6d10b1.jpg?1578994896"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — Demigod",
     "oracle_text": "Callaphe's power is equal to your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)\nCreatures and enchantments you control have \"Spells your opponents cast that target this permanent cost {1} more to cast\".",
@@ -533,7 +533,7 @@
     "multiverse_ids": [
       476257
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/13893599-0b87-4fc0-863d-f3e0ae51cc31.jpg?1581478965"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/13893599-0b87-4fc0-863d-f3e0ae51cc31.jpg?1578669288"],
     "layout": "normal",
     "type_line": "Creature — Unicorn",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, tap target creature an opponent controls.",
@@ -544,7 +544,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -554,7 +554,7 @@
     "multiverse_ids": [
       476380
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/bac6bdd4-b25b-41f6-835d-7d1570cdb951.jpg?1581480091"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/bac6bdd4-b25b-41f6-835d-7d1570cdb951.jpg?1578665724"],
     "layout": "normal",
     "type_line": "Creature — Satyr Shaman",
     "oracle_text": "When Careless Celebrant dies, it deals 2 damage to target creature or planeswalker an opponent controls.",
@@ -575,7 +575,7 @@
     "multiverse_ids": [
       476297
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/fa0e1a22-8f27-4c5b-a65c-c35abd2ff05b.jpg?1581479320"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/fa0e1a22-8f27-4c5b-a65c-c35abd2ff05b.jpg?1578663504"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets -4/-0 until end of turn. Scry 2.",
@@ -586,7 +586,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -596,7 +596,7 @@
     "multiverse_ids": [
       476418
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/874afaad-546a-4cb2-ad01-2b4a4862b219.jpg?1581480570"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/874afaad-546a-4cb2-ad01-2b4a4862b219.jpg?1577965282"],
     "layout": "normal",
     "type_line": "Creature — Spider",
     "oracle_text": "Reach\nWhen Chainweb Aracnir enters the battlefield, it deals damage equal to its power to target creature with flying an opponent controls.\nEscape—{3}{G}{G}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nChainweb Aracnir escapes with three +1/+1 counters on it.",
@@ -617,7 +617,7 @@
     "multiverse_ids": [
       476338
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/52c2de5f-e486-4cfe-9fb6-be0078ce5f93.jpg?1581479717"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/52c2de5f-e486-4cfe-9fb6-be0078ce5f93.jpg?1577965894"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Exile target card from a graveyard. If it was a creature card, you gain 3 life. Otherwise, you draw a card.\nEscape—{3}{B}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -638,7 +638,7 @@
     "multiverse_ids": [
       476258
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/24e2f681-918e-4f1f-afb1-0f9587c0d7bf.jpg?1581479893"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/24e2f681-918e-4f1f-afb1-0f9587c0d7bf.jpg?1577965328"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 and has first strike and \"Whenever this creature deals combat damage to a player, create a 1/1 white Human Soldier creature token.\"",
@@ -659,7 +659,7 @@
     "multiverse_ids": [
       476463
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851.jpg?1581481011"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851.jpg?1578526114"],
     "layout": "normal",
     "type_line": "Legendary Creature — Merfolk Artificer",
     "oracle_text": "{T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.\nEquipped creatures you control have flying and haste.",
@@ -671,7 +671,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -681,7 +681,7 @@
     "multiverse_ids": [
       476259
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f7e152ae-43ec-4b9d-a43f-786c2f6c7366.jpg?1581478985"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/7/f7e152ae-43ec-4b9d-a43f-786c2f6c7366.jpg?1578673700"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Human Cleric",
     "oracle_text": "Whenever a creature dies, if an Aura you control was attached to it, return target creature card with converted mana cost 2 or less from your graveyard to your hand.",
@@ -702,7 +702,7 @@
     "multiverse_ids": [
       476260
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0fd2adb3-a6f4-448e-af2a-15ca92b1de63.jpg?1581478995"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0fd2adb3-a6f4-448e-af2a-15ca92b1de63.jpg?1576245393"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — Demigod",
     "oracle_text": "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters the battlefield or dies, you gain 1 life.",
@@ -723,7 +723,7 @@
     "multiverse_ids": [
       476261
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/9/f9c1de31-73d4-4c32-9f99-e15df48638e9.jpg?1581479004"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/9/f9c1de31-73d4-4c32-9f99-e15df48638e9.jpg?1578670423"],
     "layout": "normal",
     "type_line": "Creature — Chimera",
     "oracle_text": "This spell costs {X} less to cast, where X is your devotion to white. (Each {W} in the mana costs of permanents you control counts towards your devotion to white.)\nFlying",
@@ -744,7 +744,7 @@
     "multiverse_ids": [
       476298
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/2/1200f68a-a8ea-4777-b6b0-de48b2203fd1.jpg?1581479329"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/2/1200f68a-a8ea-4777-b6b0-de48b2203fd1.jpg?1578670545"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target creature or enchantment spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
@@ -765,7 +765,7 @@
     "multiverse_ids": [
       476419
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/ba264166-948b-47d4-b302-64476acc1a55.jpg?1581480578"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/ba264166-948b-47d4-b302-64476acc1a55.jpg?1578571412"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Human",
     "oracle_text": "Creature and enchantment spells you control can't be countered.\n{3}{G}: Target land you control becomes an X/X Elemental creature with trample and haste until end of turn, where X is the number of enchantments you control. It's still a land.",
@@ -776,7 +776,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -786,7 +786,7 @@
     "multiverse_ids": [
       476464
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/514a6206-c2e5-4a0f-8a20-7efd6628dd0a.jpg?1581481019"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/514a6206-c2e5-4a0f-8a20-7efd6628dd0a.jpg?1577824548"],
     "layout": "normal",
     "type_line": "Creature — Nightmare",
     "oracle_text": "Whenever one or more cards are put into your graveyard from your library, Devourer of Memory gets +1/+1 until end of turn and can't be blocked this turn.\n{1}{U}{B}: Put the top card of your library into your graveyard.",
@@ -808,7 +808,7 @@
     "multiverse_ids": [
       476339
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8cce294-f6ee-4b18-8b65-7d01d0317b00.jpg?1581479725"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8cce294-f6ee-4b18-8b65-7d01d0317b00.jpg?1578525542"],
     "layout": "normal",
     "type_line": "Creature — Zombie Satyr",
     "oracle_text": "When Discordant Piper dies, create a 0/1 white Goat creature token.",
@@ -819,7 +819,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -829,7 +829,7 @@
     "multiverse_ids": [
       476340
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/1/91852444-9361-4588-a44f-fb90ba1b30e5.jpg?1581479732"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/1/91852444-9361-4588-a44f-fb90ba1b30e5.jpg?1578664372"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "This spell costs {X} less to cast, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)\nDestroy target creature.",
@@ -850,7 +850,7 @@
     "multiverse_ids": [
       476262
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/2/e20c2369-db77-465e-9f0e-bb009225345a.jpg?1581479013"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/2/e20c2369-db77-465e-9f0e-bb009225345a.jpg?1578670431"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature can't attack or block.\n{2}{W}: Exile enchanted creature.",
@@ -871,7 +871,7 @@
     "multiverse_ids": [
       476381
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6b04ec8-68c9-468c-b137-707db994af68.jpg?1581480098"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6b04ec8-68c9-468c-b137-707db994af68.jpg?1578673702"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Minotaur Shaman",
     "oracle_text": "At the beginning of your end step, you may pay {2}{R} and sacrifice a nonland permanent. If you do, reveal cards from the top of your library until you reveal a nonland permanent card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.",
@@ -892,7 +892,7 @@
     "multiverse_ids": [
       476382
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/e/ee10eaa0-dbe0-45ee-9a7d-395ec5d27e08.jpg?1581480105"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/e/ee10eaa0-dbe0-45ee-9a7d-395ec5d27e08.jpg?1578673704"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Manticore",
     "oracle_text": "Whenever you cast your first spell during each opponent's turn, Dreamstalker Manticore deals 1 damage to any target.",
@@ -913,7 +913,7 @@
     "multiverse_ids": [
       476465
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d3e97d8-92c7-43c4-bdaf-7b0a6ce7cb5f.jpg?1581481029"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d3e97d8-92c7-43c4-bdaf-7b0a6ce7cb5f.jpg?1578531970"],
     "layout": "normal",
     "type_line": "Creature — Sphinx",
     "oracle_text": "Flying, lifelink\nWhenever you draw a card, Dream Trawler gets +1/+0 until end of turn.\nWhenever Dream Trawler attacks, draw a card.\nDiscard a card: Dream Trawler gains hexproof until end of turn. Tap it.",
@@ -935,7 +935,7 @@
     "multiverse_ids": [
       476420
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/d/6d964876-194b-49f1-8e74-cfe9269f2c62.jpg?1581480592"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/d/6d964876-194b-49f1-8e74-cfe9269f2c62.jpg?1578673706"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Nymph",
     "oracle_text": "You may play an additional land on each of your turns.\nLands you control are every basic land type in addition to their other types.",
@@ -946,7 +946,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -956,7 +956,7 @@
     "multiverse_ids": [
       476341
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a0fae55a-6edd-42ea-b909-ccc39a64a0ed.jpg?1581479739"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a0fae55a-6edd-42ea-b909-ccc39a64a0ed.jpg?1578344441"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Exile target creature or planeswalker. Look at the top card of your library. You may put that card into your graveyard.",
@@ -977,7 +977,7 @@
     "multiverse_ids": [
       476263
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2f48f802-df9d-45b2-afea-98699bcdf0d6.jpg?1581479022"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2f48f802-df9d-45b2-afea-98699bcdf0d6.jpg?1578673708"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Spirit",
     "oracle_text": "First strike\nLoyalty abilities of planeswalkers your opponents control cost {1} more to activate.",
@@ -988,7 +988,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -998,7 +998,7 @@
     "multiverse_ids": [
       476299
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d2897635-b387-485d-932f-5655244a381f.jpg?1581479342"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/2/d2897635-b387-485d-932f-5655244a381f.jpg?1576244969"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Spirit",
     "oracle_text": "{6}{U}, Sacrifice Eidolon of Philosophy: Draw three cards.",
@@ -1019,7 +1019,7 @@
     "multiverse_ids": [
       476300
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/821cd2dd-aa03-4c55-b9e4-98e0284889d3.jpg?1581479351"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/821cd2dd-aa03-4c55-b9e4-98e0284889d3.jpg?1578670581"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "oracle_text": "When Elite Instructor enters the battlefield, draw a card, then discard a card.",
@@ -1030,7 +1030,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -1040,7 +1040,7 @@
     "multiverse_ids": [
       476264
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/a/ea20208b-1939-4c69-8cfd-c0a42f9dc427.jpg?1581479033"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/a/ea20208b-1939-4c69-8cfd-c0a42f9dc427.jpg?1580031106"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "I - Exile target permanent an opponent controls with converted mana cost 3 or greater.\nII - Noncreature spells your opponents cast cost {2} more to cast until your next turn.\nIII - Return target creature or planeswalker card from your graveyard to the battlefield. Put a +1/+1 counter or a loyalty counter on it.",
@@ -1061,7 +1061,7 @@
     "multiverse_ids": [
       476342
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37ccd974-d2bc-4fcf-94a7-0a868a04cb98.jpg?1581479746"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37ccd974-d2bc-4fcf-94a7-0a868a04cb98.jpg?1578535598"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "I - Destroy target creature an opponent controls with power 2 or less.\nII - Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.\nIII - Exile target opponent's graveyard.",
@@ -1082,7 +1082,7 @@
     "multiverse_ids": [
       476265
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/81aec42f-abb7-42f9-96f5-f1ee2f94db52.jpg?1581479955"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/81aec42f-abb7-42f9-96f5-f1ee2f94db52.jpg?1576063945"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Elspeth",
     "oracle_text": "−1: Up to two target creatures you control each get +2/+1 until end of turn.\n−2: Create two 1/1 white Human Soldier creature tokens.\n−3: You gain 5 life.\nEscape—{4}{W}{W}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -1103,7 +1103,7 @@
     "multiverse_ids": [
       476343
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/28bf15e0-f61b-43b9-9113-39bd341a0163.jpg?1581479754"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/28bf15e0-f61b-43b9-9113-39bd341a0163.jpg?1578673739"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Demon",
     "oracle_text": "Flying\nEnemy of Enlightenment gets -1/-1 for each card in your opponents' hands.\nAt the beginning of your upkeep, each player discards a card.",
@@ -1114,7 +1114,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -1124,7 +1124,7 @@
     "multiverse_ids": [
       476466
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd116c0b-0404-42ba-978f-7044b1a03d90.jpg?1581481041"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd116c0b-0404-42ba-978f-7044b1a03d90.jpg?1578425654"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "At the beginning of your end step, you may sacrifice another enchantment. If you do, search your library for a creature card with converted mana cost equal to 1 plus the sacrificed enchantment's converted mana cost, put that card onto the battlefield, then shuffle your library.",
@@ -1136,7 +1136,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -1146,7 +1146,7 @@
     "multiverse_ids": [
       476484
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/6/064abee6-7394-4b75-946f-4ad9840034ac.jpg?1581481188"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/6/064abee6-7394-4b75-946f-4ad9840034ac.jpg?1578670408"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "You may choose not to untap Entrancing Lyre during your untap step.\n{X}, {T}: Tap target creature with power X or less. It doesn't untap during its controller's untap step for as long as Entrancing Lyre remains tapped.",
@@ -1165,7 +1165,7 @@
     "multiverse_ids": [
       476344
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/3/e340df19-b89a-403f-9736-4bd30b65de74.jpg?1581479761"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/3/e340df19-b89a-403f-9736-4bd30b65de74.jpg?1577720774"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — God",
     "oracle_text": "Indestructible\nAs long as your devotion to black is less than five, Erebos isn't a creature.\nWhenever another creature you control dies, you may pay 2 life. If you do, draw a card.\n{1}{B}, Sacrifice another creature: Target creature gets -2/-1 until end of turn.",
@@ -1176,7 +1176,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "thb"
   },
   {
@@ -1186,7 +1186,7 @@
     "multiverse_ids": [
       476345
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/88e35c80-6cfe-49fc-8138-562233ccf987.jpg?1581479768"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/88e35c80-6cfe-49fc-8138-562233ccf987.jpg?1578081848"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Target creature gets -X/-X until end of turn. You gain X life.\n• Exile up to twice X target cards from graveyards.",
@@ -1197,7 +1197,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -1207,7 +1207,7 @@
     "multiverse_ids": [
       476383
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/90c2a3da-2458-4921-8574-9eb9d5925ae8.jpg?1581480116"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/0/90c2a3da-2458-4921-8574-9eb9d5925ae8.jpg?1577777624"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +1/+0 and has haste.\nEscape—{1}{R}, Exile two other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -1218,7 +1218,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -1228,7 +1228,7 @@
     "multiverse_ids": [
       476467
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/2/c2159949-3d21-448d-bc34-a3dbaf219476.jpg?1581481050"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/2/c2159949-3d21-448d-bc34-a3dbaf219476.jpg?1578678663"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Wizard",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on target creature. That creature gains flying until end of turn.",
@@ -1250,7 +1250,7 @@
     "multiverse_ids": [
       476384
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/56455067-92c0-45b5-ac2e-525c35b41215.jpg?1581480134"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/56455067-92c0-45b5-ac2e-525c35b41215.jpg?1578345559"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Fateful End deals 3 damage to any target. Scry 1.",
@@ -1261,7 +1261,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -1271,7 +1271,7 @@
     "multiverse_ids": [
       476266
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f09e7aff-d873-4420-b0d5-1c63d686dd73.jpg?1581479060"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f09e7aff-d873-4420-b0d5-1c63d686dd73.jpg?1578678673"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, Favored of Iroas gains double strike until end of turn.",
@@ -1282,7 +1282,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -1292,7 +1292,7 @@
     "multiverse_ids": [
       476493
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/e/3e84e179-9d59-4d08-8a36-51ad2fc32ae3.jpg?1581481243"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/e/3e84e179-9d59-4d08-8a36-51ad2fc32ae3.jpg?1577722219"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles their library.",
@@ -1311,7 +1311,7 @@
     "multiverse_ids": [
       476346
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8e5b8580-9198-4735-83c1-289400c1d814.jpg?1581479774"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8e5b8580-9198-4735-83c1-289400c1d814.jpg?1577971037"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Exile target creature.",
@@ -1332,7 +1332,7 @@
     "multiverse_ids": [
       476385
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f0c95dee-a480-4878-a967-9e46be9ee372.jpg?1581480144"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f0c95dee-a480-4878-a967-9e46be9ee372.jpg?1578666010"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "As an additional cost to cast this spell, sacrifice a creature or enchantment.\nFinal Flare deals 5 damage to target creature.",
@@ -1353,7 +1353,7 @@
     "multiverse_ids": [
       476267
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/59e19bac-176c-4e37-bfc8-27c00de7c37f.jpg?1581479067"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/59e19bac-176c-4e37-bfc8-27c00de7c37f.jpg?1578661330"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Exile target creature or enchantment, then return it to the battlefield under its owner's control.",
@@ -1374,7 +1374,7 @@
     "multiverse_ids": [
       476386
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1f70bcef-7ab6-4547-aca4-dd3ba68fd26b.jpg?1581480152"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1f70bcef-7ab6-4547-aca4-dd3ba68fd26b.jpg?1578666160"],
     "layout": "normal",
     "type_line": "Creature — Cyclops",
     "oracle_text": "Reach\nWhenever two or more creatures your opponents control attack, Flummoxed Cyclops can't block this combat.",
@@ -1389,13 +1389,34 @@
     "set": "thb"
   },
   {
+    "id": 476505,
+    "name": "Forest",
+    "collector_number": 254,
+    "multiverse_ids": [
+      476505
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/32af9f41-89e2-4e7a-9fec-fffe79cae077.jpg?1576937833"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "thb"
+  },
+  {
     "id": 476347,
     "name": "Fruit of Tizerus",
     "collector_number": 96,
     "multiverse_ids": [
       476347
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/6/66e577a0-e5d7-4e6a-919c-d85c2ae819ce.jpg?1581479782"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/6/66e577a0-e5d7-4e6a-919c-d85c2ae819ce.jpg?1578665044"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Target player loses 2 life.\nEscape—{3}{B}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -1416,7 +1437,7 @@
     "multiverse_ids": [
       476348
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/0/30aa6796-0cb6-426b-9e3f-4d7e4959a6a4.jpg?1581479790"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/0/30aa6796-0cb6-426b-9e3f-4d7e4959a6a4.jpg?1578997112"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "You draw two cards, lose 2 life, and put the top two cards of your library into your graveyard.",
@@ -1427,7 +1448,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -1437,7 +1458,7 @@
     "multiverse_ids": [
       476387
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/5/2531fb76-038b-49ab-b4d6-31b291faa7ca.jpg?1581480160"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/5/2531fb76-038b-49ab-b4d6-31b291faa7ca.jpg?1578430489"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "At the beginning of your end step, if you control a creature with power 4 or greater, exile the top card of your library. You may play that card until you exile another card with Furious Rise.",
@@ -1448,7 +1469,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -1458,7 +1479,7 @@
     "multiverse_ids": [
       476468
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/0744f08e-a588-4efe-ad56-5e9ed91dda40.jpg?1581481059"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/0744f08e-a588-4efe-ad56-5e9ed91dda40.jpg?1577967619"],
     "layout": "normal",
     "type_line": "Legendary Creature — Satyr",
     "oracle_text": "Haste\nOther Satyrs you control get +1/+1 and have haste.\nWhenever you attack with three or more creatures, you may discard a card at random. If you do, draw two cards.",
@@ -1480,7 +1501,7 @@
     "multiverse_ids": [
       476422
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75f5e144-4dd6-441f-b3e2-433aa82bdf7b.jpg?1581480614"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75f5e144-4dd6-441f-b3e2-433aa82bdf7b.jpg?1578670942"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +3/+3 and gains reach until end of turn.",
@@ -1491,7 +1512,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -1501,7 +1522,7 @@
     "multiverse_ids": [
       476301
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/1/c1e9c025-1cdb-4da8-8d28-14ad5efb512d.jpg?1581479361"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/1/c1e9c025-1cdb-4da8-8d28-14ad5efb512d.jpg?1577965473"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Draw a card.\nEscape—{2}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -1512,7 +1533,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -1522,7 +1543,7 @@
     "multiverse_ids": [
       476268
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8a70e1be-f04a-43c1-8fca-205a24e3db38.jpg?1581479077"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/a/8a70e1be-f04a-43c1-8fca-205a24e3db38.jpg?1578661627"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Human Cleric",
     "oracle_text": "Whenever another creature you control attacks, it gets +0/+1 until end of turn.",
@@ -1533,7 +1554,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -1543,7 +1564,7 @@
     "multiverse_ids": [
       476349
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/0/408a2073-d068-44bc-b596-5a3a3a446ee1.jpg?1581479797"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/0/408a2073-d068-44bc-b596-5a3a3a446ee1.jpg?1578792175"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Snake Lamia",
     "oracle_text": "Lifelink\nWhen Gravebreaker Lamia enters the battlefield, search your library for a card, put it into your graveyard, then shuffle your library.\nSpells you cast from your graveyard cost {1} less to cast.",
@@ -1564,7 +1585,7 @@
     "multiverse_ids": [
       476350
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c1a7dd8-8034-4f59-a351-33666b26ff5a.jpg?1581479807"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c1a7dd8-8034-4f59-a351-33666b26ff5a.jpg?1577275893"],
     "layout": "normal",
     "type_line": "Creature — Zombie",
     "oracle_text": "When Gray Merchant of Asphodel enters the battlefield, each opponent loses X life, where X is your devotion to black. You gain life equal to the life lost this way. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
@@ -1585,7 +1606,7 @@
     "multiverse_ids": [
       476351
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7e92c82-840f-4c75-b617-7b58a07be5b4.jpg?1581479817"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7e92c82-840f-4c75-b617-7b58a07be5b4.jpg?1578670610"],
     "layout": "normal",
     "type_line": "Creature — Zombie",
     "oracle_text": "When Grim Physician dies, target creature an opponent controls gets -1/-1 until end of turn.",
@@ -1606,7 +1627,7 @@
     "multiverse_ids": [
       476469
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/f/6fe5cbef-0f4e-4d05-9a94-4739e09d7a9c.jpg?1581481070"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/f/6fe5cbef-0f4e-4d05-9a94-4739e09d7a9c.jpg?1578066650"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Warrior",
     "oracle_text": "Haktos the Unscarred attacks each combat if able.\nAs Haktos enters the battlefield, choose 2, 3, or 4 at random.\nHaktos has protection from each converted mana cost other than the chosen number.",
@@ -1628,7 +1649,7 @@
     "multiverse_ids": [
       476352
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/812d0f15-f738-4644-9d29-2589d7e66915.jpg?1581479828"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/812d0f15-f738-4644-9d29-2589d7e66915.jpg?1578673744"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Spirit",
     "oracle_text": "Lifelink\nWhenever an enchanted creature dies, draw a card for each Aura you controlled that was attached to it.",
@@ -1649,7 +1670,7 @@
     "multiverse_ids": [
       476270
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8f1c16dd-38e9-4974-b570-8678c114a549.jpg?1581479093"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8f1c16dd-38e9-4974-b570-8678c114a549.jpg?1578612841"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Destroy X target artifacts and/or enchantments.\n• Target player gains twice X life.",
@@ -1670,7 +1691,7 @@
     "multiverse_ids": [
       476271
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/cafce2f5-f4f4-465b-96dc-bcdd29d4e4bb.jpg?1581479102"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/cafce2f5-f4f4-465b-96dc-bcdd29d4e4bb.jpg?1578530423"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "oracle_text": "When Heliod's Pilgrim enters the battlefield, you may search your library for an Aura card, reveal it, put it into your hand, then shuffle your library.",
@@ -1691,7 +1712,7 @@
     "multiverse_ids": [
       476272
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/b/3b8e6878-06aa-4505-b3a5-172083b7d258.jpg?1581479112"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/b/3b8e6878-06aa-4505-b3a5-172083b7d258.jpg?1579246219"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nHeliod's Punishment enters the battlefield with four task counters on it.\nEnchanted creature can't attack or block. It loses all abilities and has \"{T}: Remove a task counter from Heliod's Punishment. Then if it has no task counters on it, destroy Heliod's Punishment.\"",
@@ -1712,7 +1733,7 @@
     "multiverse_ids": [
       476269
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.jpg?1581479085"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.jpg?1577967194"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — God",
     "oracle_text": "Indestructible\nAs long as your devotion to white is less than five, Heliod isn't a creature.\nWhenever you gain life, put a +1/+1 counter on target creature or enchantment you control.\n{1}{W}: Another target creature gains lifelink until end of turn.",
@@ -1733,7 +1754,7 @@
     "multiverse_ids": [
       476389
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/dfdfb481-3446-42f4-a1c3-a88b69f2189a.jpg?1581480183"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/dfdfb481-3446-42f4-a1c3-a88b69f2189a.jpg?1578670092"],
     "layout": "normal",
     "type_line": "Creature — Satyr Soldier",
     "oracle_text": "When Heroes of the Revel enters the battlefield, create a 1/1 red Satyr creature token with \"This creature can't block.\"\nWhenever you cast a spell that targets Heroes of the Revel, creatures you control get +1/+0 until end of turn.",
@@ -1744,7 +1765,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -1754,7 +1775,7 @@
     "multiverse_ids": [
       476388
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cdb7c7a6-4e9b-4300-a776-b7e7916950c8.jpg?1581480168"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cdb7c7a6-4e9b-4300-a776-b7e7916950c8.jpg?1578666068"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
     "oracle_text": "Whenever you cast a spell that targets Hero of the Games, creatures you control get +1/+0 until end of turn.",
@@ -1775,7 +1796,7 @@
     "multiverse_ids": [
       476470
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/9854e673-1816-4a76-b9db-bb399ac7489f.jpg?1581481079"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/9854e673-1816-4a76-b9db-bb399ac7489f.jpg?1578673746"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Human Soldier",
     "oracle_text": "When Hero of the Nyxborn enters the battlefield, create a 1/1 white Human Soldier creature token.\nWhenever you cast a spell that targets Hero of the Nyxborn, creatures you control get +1/+0 until end of turn.",
@@ -1797,7 +1818,7 @@
     "multiverse_ids": [
       476273
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/81b56863-a52a-4559-a662-f6d9145d5804.jpg?1581479124"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/81b56863-a52a-4559-a662-f6d9145d5804.jpg?1578459102"],
     "layout": "normal",
     "type_line": "Creature — Cat Soldier",
     "oracle_text": "Whenever you cast a spell that targets Hero of the Pride, creatures you control get +1/+0 until end of turn.",
@@ -1818,7 +1839,7 @@
     "multiverse_ids": [
       476274
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7da95097-dbe7-416a-8571-6ab6d88a531a.jpg?1581479132"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7da95097-dbe7-416a-8571-6ab6d88a531a.jpg?1576244201"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
     "oracle_text": "Flying\nWhenever you cast a spell that targets Hero of the Winds, creatures you control get +1/+0 until end of turn.",
@@ -1829,7 +1850,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -1839,7 +1860,7 @@
     "multiverse_ids": [
       476423
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/5112ee2a-a6f3-4280-a915-000a97a9cdef.jpg?1581480627"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/5112ee2a-a6f3-4280-a915-000a97a9cdef.jpg?1578526037"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nWhen Hydra's Growth enters the battlefield, put a +1/+1 counter on enchanted creature.\nAt the beginning of your upkeep, double the number of +1/+1 counters on enchanted creature.",
@@ -1860,7 +1881,7 @@
     "multiverse_ids": [
       476424
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb7f2638-d757-4df6-90b0-b616534dd3a0.jpg?1581480637"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/b/bb7f2638-d757-4df6-90b0-b616534dd3a0.jpg?1578666568"],
     "layout": "normal",
     "type_line": "Creature — Human Scout",
     "oracle_text": "When Hyrax Tower Scout enters the battlefield, untap target creature.",
@@ -1871,7 +1892,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -1881,7 +1902,7 @@
     "multiverse_ids": [
       476302
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/4/e4763b6c-6471-41bd-b3e4-785564bcf06f.jpg?1581479371"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/4/e4763b6c-6471-41bd-b3e4-785564bcf06f.jpg?1578345698"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature loses all abilities and is a blue Fish with base power and toughness 0/1.",
@@ -1902,10 +1923,10 @@
     "multiverse_ids": [
       476275
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f06edd53-f3ac-44b0-a087-5670ba8f0fa5.jpg?1581479966"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/0/f06edd53-f3ac-44b0-a087-5670ba8f0fa5.jpg?1577825034"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Search your library for an enchantment card, reveal it, put it into your hand, then shuffle your library.",
+    "oracle_text": "Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.",
     "mana_cost": "{2}{W}",
     "cmc": 3,
     "colors": [
@@ -1913,7 +1934,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -1923,7 +1944,7 @@
     "multiverse_ids": [
       476425
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7cdf8ab8-f221-4f7b-9af9-3849cad1f596.jpg?1581480645"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7cdf8ab8-f221-4f7b-9af9-3849cad1f596.jpg?1578670961"],
     "layout": "normal",
     "type_line": "Creature — Plant",
     "oracle_text": "{T}: Add one mana of any color. If you control a creature with power 4 or greater, add two mana of any one color instead.",
@@ -1944,7 +1965,7 @@
     "multiverse_ids": [
       476390
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/5681db91-5dab-41e6-96f2-275ec9495e5b.jpg?1581480201"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/6/5681db91-5dab-41e6-96f2-275ec9495e5b.jpg?1578670929"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +3/+3 and attacks each combat if able.\nWhen enchanted creature dies, Impending Doom deals 3 damage to that creature's controller.",
@@ -1955,7 +1976,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -1965,7 +1986,7 @@
     "multiverse_ids": [
       476391
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/eb6b9b5c-35ff-47ac-9b04-71257314b686.jpg?1581480217"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/eb6b9b5c-35ff-47ac-9b04-71257314b686.jpg?1578666343"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "oracle_text": "{1}{R}: Incendiary Oracle gets +1/+0 until end of turn.\nIf a creature dealt damage by Incendiary Oracle this turn would die, exile it instead.",
@@ -1976,7 +1997,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -1986,7 +2007,7 @@
     "multiverse_ids": [
       476276
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/7/47772a34-c72f-44e8-b272-4ef2d2af5c82.jpg?1581479150"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/7/47772a34-c72f-44e8-b272-4ef2d2af5c82.jpg?1576245362"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Flash\nEnchant creature\nEnchanted creature gets +1/+2.",
@@ -2007,7 +2028,7 @@
     "multiverse_ids": [
       476353
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/6/a6522f01-ae7a-467e-9a05-530a5ccd304d.jpg?1581479841"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/6/a6522f01-ae7a-467e-9a05-530a5ccd304d.jpg?1576281108"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature has \"At the beginning of your upkeep, sacrifice a creature.\"",
@@ -2028,7 +2049,7 @@
     "multiverse_ids": [
       476392
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/5/85a74392-4056-428c-a807-b062957e838e.jpg?1581480233"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/5/85a74392-4056-428c-a807-b062957e838e.jpg?1578666409"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +3/+2 until end of turn.",
@@ -2049,7 +2070,7 @@
     "multiverse_ids": [
       476426
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/2/b23c8b5a-2e18-4dd8-b236-5b1fd356f867.jpg?1581480652"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/2/b23c8b5a-2e18-4dd8-b236-5b1fd356f867.jpg?1577965649"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Prevent all combat damage that would be dealt this turn except by enchanted creatures and enchantment creatures. Scry 2.",
@@ -2070,7 +2091,7 @@
     "multiverse_ids": [
       476393
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/ab6e99a5-b105-489e-aff6-7d2ca50d8ba9.jpg?1581480260"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/ab6e99a5-b105-489e-aff6-7d2ca50d8ba9.jpg?1578666487"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature you control\nWhen Iroas's Blessing enters the battlefield, it deals 4 damage to target creature or planeswalker an opponent controls.\nEnchanted creature gets +1/+1.",
@@ -2081,7 +2102,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -2091,7 +2112,7 @@
     "multiverse_ids": [
       476394
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/5/55405dca-3555-45ff-be1c-e276fe1a0c2e.jpg?1581480287"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/5/55405dca-3555-45ff-be1c-e276fe1a0c2e.jpg?1578666546"],
     "layout": "normal",
     "type_line": "Creature — Satyr",
     "oracle_text": "When Irreverent Revelers enters the battlefield, choose one —\n• Destroy target artifact.\n• Irreverent Revelers gains haste until end of turn.",
@@ -2106,13 +2127,34 @@
     "set": "thb"
   },
   {
+    "id": 476502,
+    "name": "Island",
+    "collector_number": 251,
+    "multiverse_ids": [
+      476502
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/acf7b664-3e75-4018-81f6-2a14ab59f258.jpg?1576937872"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "thb"
+  },
+  {
     "id": 476277,
     "name": "Karametra's Blessing",
     "collector_number": 26,
     "multiverse_ids": [
       476277
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/88c8e4dc-5378-48d6-85b2-f5ea9ec7cf36.jpg?1581479156"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/88c8e4dc-5378-48d6-85b2-f5ea9ec7cf36.jpg?1578670450"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +2/+2 until end of turn. If it's an enchanted creature or enchantment creature, it also gains hexproof and indestructible until end of turn. (It can't be the target of spells or abilities your opponents control. Damage and effects that say \"destroy\" don't destroy it.)",
@@ -2123,7 +2165,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -2133,7 +2175,7 @@
     "multiverse_ids": [
       476303
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2b604451-4f6c-4cfa-8d3a-01f18d01d88f.jpg?1581479381"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2b604451-4f6c-4cfa-8d3a-01f18d01d88f.jpg?1578422028"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create an 8/8 blue Kraken creature token with hexproof.\nII — Tap all nonland permanents target opponent controls. They don't untap during their controller's next untap step.\nIII — Gain control of target permanent an opponent controls. Untap it.",
@@ -2154,7 +2196,7 @@
     "multiverse_ids": [
       476471
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5b3c393c-3596-4bd9-a553-e0b03c2eb950.jpg?1581481087"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5b3c393c-3596-4bd9-a553-e0b03c2eb950.jpg?1577197925"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — God",
     "oracle_text": "Indestructible\nAs long as your devotion to red and green is less than seven, Klothys isn't a creature.\nAt the beginning of your precombat main phase, exile target card from a graveyard. If it was a land card, add {R} or {G}. Otherwise, you gain 2 life and Klothys deals 2 damage to each opponent.",
@@ -2176,7 +2218,7 @@
     "multiverse_ids": [
       476427
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/1/b1b6b7a7-0ac8-470a-949b-4779ded95359.jpg?1581480664"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/1/b1b6b7a7-0ac8-470a-949b-4779ded95359.jpg?1576245397"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Creatures you control get +X/+X until end of turn, where X is your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)",
@@ -2197,7 +2239,7 @@
     "multiverse_ids": [
       476472
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/cee0459b-9aac-4d2f-abe4-4d5fedde7eb8.jpg?1581481096"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/cee0459b-9aac-4d2f-abe4-4d5fedde7eb8.jpg?1578623735"],
     "layout": "normal",
     "type_line": "Legendary Creature — Elder Giant",
     "oracle_text": "When Kroxa enters the battlefield, sacrifice it unless it escaped.\nWhenever Kroxa enters the battlefield or attacks, each opponent discards a card, then each opponent who didn't discard a nonland card this way loses 3 life.\nEscape—{B}{B}{R}{R}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -2209,7 +2251,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -2219,7 +2261,7 @@
     "multiverse_ids": [
       476473
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/dbc0d2c3-8060-4155-b10e-d641648a4e6b.jpg?1581481106"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/b/dbc0d2c3-8060-4155-b10e-d641648a4e6b.jpg?1577967386"],
     "layout": "normal",
     "type_line": "Legendary Creature — Hound",
     "oracle_text": "Vigilance, menace, lifelink\nCreature cards in graveyards can't enter the battlefield.\nPlayers can't cast spells from graveyards.",
@@ -2241,7 +2283,7 @@
     "multiverse_ids": [
       476494
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff0dd221-2660-43f6-8e28-8000e3fe72a4.jpg?1581481248"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff0dd221-2660-43f6-8e28-8000e3fe72a4.jpg?1578669550"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "{T}: Add {C}.\n{4}, {T}: Remove target attacking or blocking creature from combat.",
@@ -2260,7 +2302,7 @@
     "multiverse_ids": [
       476278
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c3a87498-2c2c-411a-aa71-d594b2c6cb26.jpg?1581479163"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c3a87498-2c2c-411a-aa71-d594b2c6cb26.jpg?1578571545"],
     "layout": "normal",
     "type_line": "Creature — Centaur Advisor",
     "oracle_text": "When Lagonna-Band Storyteller enters the battlefield, you may put target enchantment card from your graveyard on top of your library. If you do, you gain life equal to its converted mana cost.",
@@ -2271,7 +2313,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -2281,7 +2323,7 @@
     "multiverse_ids": [
       476354
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e8c9ada9-ea25-4a96-a4be-e4cf8f7a014f.jpg?1581479856"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/8/e8c9ada9-ea25-4a96-a4be-e4cf8f7a014f.jpg?1578673749"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Nymph",
     "oracle_text": "{1}, Sacrifice a creature: Each opponent loses 1 life and you gain 1 life.",
@@ -2302,7 +2344,7 @@
     "multiverse_ids": [
       476279
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e1be3729-7970-45df-8c26-4fe09e56629d.jpg?1581479169"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/1/e1be3729-7970-45df-8c26-4fe09e56629d.jpg?1576243525"],
     "layout": "normal",
     "type_line": "Creature — Cat Warrior",
     "oracle_text": "When Leonin of the Lost Pride dies, exile target card from an opponent's graveyard.",
@@ -2313,7 +2355,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -2323,10 +2365,10 @@
     "multiverse_ids": [
       476428
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3afe6283-3642-4883-ac6e-83ae3280af9c.jpg?1581480674"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3afe6283-3642-4883-ac6e-83ae3280af9c.jpg?1578626453"],
     "layout": "normal",
     "type_line": "Creature — Chimera",
-    "oracle_text": "Escape—{4}{G}, exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nLoathsome Chimera escapes with a +1/+1 counter on it.",
+    "oracle_text": "Escape-{4}{G}, exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nLoathsome Chimera escapes with a +1/+1 counter on it.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -2344,7 +2386,7 @@
     "multiverse_ids": [
       476429
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/3/83a786fa-4b86-40f7-ac58-1a05fb38fcdb.jpg?1581480687"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/3/83a786fa-4b86-40f7-ac58-1a05fb38fcdb.jpg?1578319647"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +4/+4.\nWhen Mantle of the Wolf is put into a graveyard from the battlefield, create two 2/2 green Wolf creature tokens.",
@@ -2365,7 +2407,7 @@
     "multiverse_ids": [
       476304
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/d/3d2bd7b4-28de-4d9e-86c5-a46bd608cb02.jpg?1581479392"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/d/3d2bd7b4-28de-4d9e-86c5-a46bd608cb02.jpg?1578664136"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI — Scry 2.\nII — Choose a card name.\nIII — When you cast a spell with the chosen card name for the first time this turn, draw two cards.\nIV — Look at the top card of each player's library.",
@@ -2376,7 +2418,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -2386,7 +2428,7 @@
     "multiverse_ids": [
       476305
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aadc1809-d6bb-455c-b6ce-dd11521808b6.jpg?1581479403"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aadc1809-d6bb-455c-b6ce-dd11521808b6.jpg?1576245420"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target spell. Scry 2.",
@@ -2407,7 +2449,7 @@
     "multiverse_ids": [
       476355
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce763778-0a35-41d2-9286-fdf2302554f5.jpg?1581479868"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce763778-0a35-41d2-9286-fdf2302554f5.jpg?1578670658"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Flash\nEnchant creature\nWhen enchanted creature dies, return that card to the battlefield under your control.",
@@ -2418,7 +2460,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -2428,7 +2470,7 @@
     "multiverse_ids": [
       476357
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0ae0c536-612d-4916-a8da-5aaaf14218b1.jpg?1581479882"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0ae0c536-612d-4916-a8da-5aaaf14218b1.jpg?1576245128"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets -3/-3.",
@@ -2449,7 +2491,7 @@
     "multiverse_ids": [
       476356
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/f/3f8427d3-4d9e-48c9-838b-239fd1357d95.jpg?1581479874"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/f/3f8427d3-4d9e-48c9-838b-239fd1357d95.jpg?1577825457"],
     "layout": "normal",
     "type_line": "Creature — Zombie Merfolk",
     "oracle_text": "Deathtouch\nWhen Mire Triton enters the battlefield, put the top two cards of your library into your graveyard and you gain 2 life.",
@@ -2470,7 +2512,7 @@
     "multiverse_ids": [
       476485
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/7/e7624e84-93ce-4983-8624-ebc934cab67f.jpg?1581481194"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/7/e7624e84-93ce-4983-8624-ebc934cab67f.jpg?1578757310"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "Equipped creature gets +0/+2 and has hexproof and \"Whenever a creature with deathtouch blocks or becomes blocked by this creature, destroy that creature.\"\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -2489,7 +2531,7 @@
     "multiverse_ids": [
       476474
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f8a3df0e-4ee8-458b-adf5-56aca20493e9.jpg?1581481116"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f8a3df0e-4ee8-458b-adf5-56aca20493e9.jpg?1578673751"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Chimera",
     "oracle_text": "Flying\nWhenever you cast your first spell during each opponent's turn, Mischievous Chimera deals 1 damage to each opponent. Scry 1.",
@@ -2511,7 +2553,7 @@
     "multiverse_ids": [
       476358
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de6bf7fb-11ca-4878-8072-cebaa763a549.jpg?1581479890"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/de6bf7fb-11ca-4878-8072-cebaa763a549.jpg?1578665031"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +2/-1.\nEscape—{2}{B}, Exile two other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -2532,7 +2574,7 @@
     "multiverse_ids": [
       476430
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/4/a4d35ec4-0e0d-4611-8ad9-39d2c8a2ad6e.jpg?1581480700"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/4/a4d35ec4-0e0d-4611-8ad9-39d2c8a2ad6e.jpg?1578666860"],
     "layout": "normal",
     "type_line": "Creature — Snake",
     "oracle_text": "Deathtouch",
@@ -2543,7 +2585,28 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
+    "set": "thb"
+  },
+  {
+    "id": 476504,
+    "name": "Mountain",
+    "collector_number": 253,
+    "multiverse_ids": [
+      476504
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/53fb7b99-9e47-46a6-9c8a-88e28b5197f1.jpg?1576937840"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -2553,7 +2616,7 @@
     "multiverse_ids": [
       476431
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/6797195a-508f-45b1-964d-da842dc46ca8.jpg?1581480711"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/6797195a-508f-45b1-964d-da842dc46ca8.jpg?1578626489"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Put target enchantment on the bottom of its owner's library.",
@@ -2564,7 +2627,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -2574,7 +2637,7 @@
     "multiverse_ids": [
       476306
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/7817e039-e509-4b6f-b5a3-deb3769bbdc8.jpg?1581479411"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/7817e039-e509-4b6f-b5a3-deb3769bbdc8.jpg?1577777694"],
     "layout": "normal",
     "type_line": "Creature — Kraken",
     "oracle_text": "Whenever you draw a card, you may pay {1}. If you do, put a +1/+1 counter on Nadir Kraken and create a 1/1 blue Tentacle creature token.",
@@ -2595,7 +2658,7 @@
     "multiverse_ids": [
       476307
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/c/dc6ae489-658b-4c12-b204-f7b58ce84375.jpg?1581479418"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/c/dc6ae489-658b-4c12-b204-f7b58ce84375.jpg?1578673753"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Nymph",
     "oracle_text": "As long as it's not your turn, spells you cast cost {1} less to cast.",
@@ -2606,7 +2669,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -2616,7 +2679,7 @@
     "multiverse_ids": [
       476432
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aaf91fc2-7317-47e4-9e6c-d7d74cdf0153.jpg?1581480722"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aaf91fc2-7317-47e4-9e6c-d7d74cdf0153.jpg?1577923373"],
     "layout": "normal",
     "type_line": "Creature — Boar",
     "oracle_text": "All creatures able to block Nessian Boar do so.\nWhenever Nessian Boar becomes blocked by a creature, that creature's controller draws a card.",
@@ -2637,7 +2700,7 @@
     "multiverse_ids": [
       476433
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/8200fcda-e30c-460f-9964-47e657b7c758.jpg?1581480733"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/8200fcda-e30c-460f-9964-47e657b7c758.jpg?1578667266"],
     "layout": "normal",
     "type_line": "Creature — Insect",
     "oracle_text": "At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle.",
@@ -2658,7 +2721,7 @@
     "multiverse_ids": [
       476434
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50d50576-c3ee-479a-8533-6c147f5cb1c4.jpg?1581480745"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50d50576-c3ee-479a-8533-6c147f5cb1c4.jpg?1578907592"],
     "layout": "normal",
     "type_line": "Creature — Satyr Scout",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, look at the top three cards of your library. You may reveal a land card from among them and put that card into your hand. Put the rest on the bottom of your library in a random order.",
@@ -2679,10 +2742,10 @@
     "multiverse_ids": [
       476435
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/68cb4e56-bcad-43a3-8600-a3594047205a.jpg?1581480753"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/68cb4e56-bcad-43a3-8600-a3594047205a.jpg?1578667229"],
     "layout": "normal",
     "type_line": "Creature — Satyr Archer",
-    "oracle_text": "Reach\nConstellation — Whenever an enchantment enters the battlefield under your control, you gain 2 life.",
+    "oracle_text": "Reach\nConstellation — Whenever an enchantment enters the battlefield under you control, you gain 2 life.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -2700,7 +2763,7 @@
     "multiverse_ids": [
       476359
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/a/4a46eec7-bb79-441c-959f-eea599e5c341.jpg?1581479899"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/a/4a46eec7-bb79-441c-959f-eea599e5c341.jpg?1578626309"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Demon",
     "oracle_text": "Flying\nWhenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that creature, except it's 1/1 and it's a Nightmare in addition to its other types.",
@@ -2721,7 +2784,7 @@
     "multiverse_ids": [
       476436
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/d/bdf894d4-1a06-4952-a481-22786ab87a73.jpg?1581480764"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/d/bdf894d4-1a06-4952-a481-22786ab87a73.jpg?1577965842"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — God",
     "oracle_text": "Indestructible\nAs long as your devotion to green is less than five, Nylea isn't a creature.\nCreature spells you cast cost {1} less to cast.\n{2}{G}: Reveal the top card of your library. If it's a creature card, put it into your hand. Otherwise, you may put it into your graveyard.",
@@ -2742,7 +2805,7 @@
     "multiverse_ids": [
       476437
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2cf2b6be-80a8-4464-a909-8cc658196a14.jpg?1581480774"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2cf2b6be-80a8-4464-a909-8cc658196a14.jpg?1578997043"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Beast",
     "oracle_text": "Trample\nOther creatures you control have trample.",
@@ -2753,7 +2816,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -2763,7 +2826,7 @@
     "multiverse_ids": [
       476438
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/a/2a4fe89a-0d2b-493f-883e-a1e0b0918340.jpg?1581480783"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/a/2a4fe89a-0d2b-493f-883e-a1e0b0918340.jpg?1578676281"],
     "layout": "normal",
     "type_line": "Creature — Centaur Shaman",
     "oracle_text": "When Nylea's Huntmaster enters the battlefield, target creature you control gets +X/+0 until end of turn, where X is your devotion to green. (Each {G} in the mana costs of permanents you control counts towards your devotion to green.)",
@@ -2774,7 +2837,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -2784,7 +2847,7 @@
     "multiverse_ids": [
       476439
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/daa2f963-9d16-4224-b24e-b6a79f2b9d75.jpg?1581480794"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/a/daa2f963-9d16-4224-b24e-b6a79f2b9d75.jpg?1577964173"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Choose one —\n• Search your library for up to X land cards, reveal them, put them into your hand, then shuffle your library.\n• Nylea's Intervention deals twice X damage to each creature with flying.",
@@ -2805,7 +2868,7 @@
     "multiverse_ids": [
       476441
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a391da36-0b40-46ea-b771-50d2b920207e.jpg?1581480808"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a391da36-0b40-46ea-b771-50d2b920207e.jpg?1578626981"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Elemental",
     "oracle_text": "Trample\nIf you tap a permanent for mana, it produces three times as much of that mana instead.",
@@ -2816,7 +2879,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -2826,7 +2889,7 @@
     "multiverse_ids": [
       476395
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/5/05bc4236-566f-401b-b9d7-f58126fa228b.jpg?1581480309"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/5/05bc4236-566f-401b-b9d7-f58126fa228b.jpg?1578673761"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Cyclops",
     "oracle_text": "",
@@ -2837,7 +2900,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -2847,7 +2910,7 @@
     "multiverse_ids": [
       476442
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8b4f003c-1e99-4e53-ad6d-81ff3c592b2c.jpg?1581480817"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8b4f003c-1e99-4e53-ad6d-81ff3c592b2c.jpg?1577197934"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Giant",
     "oracle_text": "",
@@ -2868,7 +2931,7 @@
     "multiverse_ids": [
       476280
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0fd32240-c003-4e18-adf1-e2e992c702b1.jpg?1581479176"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0fd32240-c003-4e18-adf1-e2e992c702b1.jpg?1577197938"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Centaur Scout",
     "oracle_text": "",
@@ -2889,7 +2952,7 @@
     "multiverse_ids": [
       476360
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fd2a923a-1f9c-4a29-9c6b-344ae4d5ae8f.jpg?1581479907"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/d/fd2a923a-1f9c-4a29-9c6b-344ae4d5ae8f.jpg?1578673763"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Minotaur",
     "oracle_text": "",
@@ -2900,7 +2963,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -2910,7 +2973,7 @@
     "multiverse_ids": [
       476308
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/a/9ad0c7d7-0e44-496f-a2fc-fafc604cb1f1.jpg?1581479427"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/a/9ad0c7d7-0e44-496f-a2fc-fafc604cb1f1.jpg?1578664385"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Merfolk Soldier",
     "oracle_text": "",
@@ -2921,7 +2984,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -2931,7 +2994,7 @@
     "multiverse_ids": [
       476440
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/866dcef0-8d3e-4126-963a-05598d8a9e79.jpg?1581480801"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/866dcef0-8d3e-4126-963a-05598d8a9e79.jpg?1578014528"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Centaur Shaman",
     "oracle_text": "At the beginning of combat on your turn, target enchanted creature or enchantment creature you control gets +1/+1 and gains trample until end of turn.",
@@ -2952,7 +3015,7 @@
     "multiverse_ids": [
       476486
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5bd6353f-d119-40e6-895c-030a11a7a2fe.jpg?1581481199"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5bd6353f-d119-40e6-895c-030a11a7a2fe.jpg?1577966667"],
     "layout": "normal",
     "type_line": "Legendary Artifact",
     "oracle_text": "Nyx Lotus enters the battlefield tapped.\n{T}: Choose a color. Add an amount of mana of that color equal to your devotion to that color. (Your devotion to a color is the number of mana symbols of that color in the mana costs of permanents you control.)",
@@ -2971,7 +3034,7 @@
     "multiverse_ids": [
       476361
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/8023fc44-fb8e-420d-a68c-b45912c4e5bd.jpg?1581479918"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/8023fc44-fb8e-420d-a68c-b45912c4e5bd.jpg?1578626338"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Flash\nWhen Omen of the Dead enters the battlefield, return target creature card from your graveyard to your hand.\n{2}{B}, Sacrifice Omen of the Dead: Scry 2.",
@@ -2992,7 +3055,7 @@
     "multiverse_ids": [
       476396
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/0/70388773-709b-4cd8-a8b7-56093fd77a1d.jpg?1581480322"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/0/70388773-709b-4cd8-a8b7-56093fd77a1d.jpg?1578059236"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Flash\nWhen Omen of the Forge enters the battlefield, it deals 2 damage to any target.\n{2}{R}, Sacrifice Omen of the Forge: Scry 2.",
@@ -3013,7 +3076,7 @@
     "multiverse_ids": [
       476443
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d4ebdea-78d4-4034-921b-735bdb11a716.jpg?1581480831"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d4ebdea-78d4-4034-921b-735bdb11a716.jpg?1578667717"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Flash\nWhen Omen of the Hunt enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.\n{2}{G}, Sacrifice Omen of the Hunt: Scry 2.",
@@ -3024,7 +3087,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -3034,7 +3097,7 @@
     "multiverse_ids": [
       476309
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a5f30ecd-d009-4d44-aef4-c926ed55a521.jpg?1581479435"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a5f30ecd-d009-4d44-aef4-c926ed55a521.jpg?1578103754"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Flash\nWhen Omen of the Sea enters the battlefield, scry 2, then draw a card.\n{2}{U}, Sacrifice Omen of the Sea: Scry 2.",
@@ -3055,7 +3118,7 @@
     "multiverse_ids": [
       476281
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/86586fe3-1a6e-4648-b3ff-b0d9340e66ff.jpg?1581479183"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/86586fe3-1a6e-4648-b3ff-b0d9340e66ff.jpg?1578062553"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Flash\nWhen Omen of the Sun enters the battlefield, create two 1/1 white Human Soldier creature tokens and you gain 2 life.\n{2}{W}, Sacrifice Omen of the Sun: Scry 2.",
@@ -3066,7 +3129,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3076,7 +3139,7 @@
     "multiverse_ids": [
       476310
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/98b7070d-4b09-4390-aa21-1bc0aa2b629c.jpg?1581479442"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/98b7070d-4b09-4390-aa21-1bc0aa2b629c.jpg?1577965500"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature or enchantment\nEnchanted permanent is an enchantment and loses all other card types. (It still has its abilities, but it's no longer a creature.)",
@@ -3097,7 +3160,7 @@
     "multiverse_ids": [
       476397
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f9bb73a-5b4e-4c9b-b0a6-8e531dc27394.jpg?1581480333"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f9bb73a-5b4e-4c9b-b0a6-8e531dc27394.jpg?1578673766"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Nymph",
     "oracle_text": "{2}{R}, Discard a card: Draw a card.",
@@ -3118,7 +3181,7 @@
     "multiverse_ids": [
       476398
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75caefa7-94d5-472e-a540-daad3ee69899.jpg?1581480343"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75caefa7-94d5-472e-a540-daad3ee69899.jpg?1577967545"],
     "layout": "normal",
     "type_line": "Creature — Ox",
     "oracle_text": "When Ox of Agonas enters the battlefield, discard your hand, then draw three cards.\nEscape—{R}{R}, Exile eight other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nOx of Agonas escapes with a +1/+1 counter on it.",
@@ -3129,7 +3192,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 4,
     "set": "thb"
   },
   {
@@ -3139,7 +3202,7 @@
     "multiverse_ids": [
       476282
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f114a10-0b00-4f3a-bd73-d4c791fbf4d5.jpg?1581479191"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f114a10-0b00-4f3a-bd73-d4c791fbf4d5.jpg?1578670079"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature you control gets +2/+1 until end of turn. Each other creature you control gets +1/+1 until end of turn.",
@@ -3150,7 +3213,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -3160,7 +3223,7 @@
     "multiverse_ids": [
       476362
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/0307bb5c-0a46-4f6b-b6d5-58cf31987bb5.jpg?1581479925"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/0307bb5c-0a46-4f6b-b6d5-58cf31987bb5.jpg?1578665111"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Target opponent sacrifices a creature.\n• Target opponent sacrifices an enchantment.",
@@ -3171,7 +3234,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3181,7 +3244,7 @@
     "multiverse_ids": [
       476363
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a2c8244b-7d86-4dff-9419-3945beb2a7b7.jpg?1581479932"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a2c8244b-7d86-4dff-9419-3945beb2a7b7.jpg?1577964539"],
     "layout": "normal",
     "type_line": "Creature — Gorgon",
     "oracle_text": "Escape—{5}{B}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nPharika's Spawn escapes with two +1/+1 counters on it. When it enters the battlefield this way, each opponent sacrifices a non-Gorgon creature.",
@@ -3202,7 +3265,7 @@
     "multiverse_ids": [
       476444
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/0/10ac20a9-6b10-4165-ad81-a47587b64d1e.jpg?1581480839"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/0/10ac20a9-6b10-4165-ad81-a47587b64d1e.jpg?1578667859"],
     "layout": "normal",
     "type_line": "Creature — Centaur Warrior",
     "oracle_text": "When Pheres-Band Brawler enters the battlefield, it fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)",
@@ -3223,10 +3286,10 @@
     "multiverse_ids": [
       476399
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/0/7010ce26-16de-44cb-ba7e-3d904175b429.jpg?1581480352"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/0/7010ce26-16de-44cb-ba7e-3d904175b429.jpg?1578348820"],
     "layout": "normal",
     "type_line": "Creature — Phoenix",
-    "oracle_text": "Flying, haste\n{2}{R}: Phoenix of Ash gets +2/+0 until end of turn.\nEscape—{2}{R}{R}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nPhoenix of Ash escapes with a +1/+1 counter on it.",
+    "oracle_text": "Flying, haste\n{2}{R}: Phoenix of Ash gets +2/+0 until end of turn.\nEscape — {2}{R}{R}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nPhoenix of Ash escapes with a +1/+1 counter on it.",
     "mana_cost": "{1}{R}{R}",
     "cmc": 3,
     "colors": [
@@ -3244,7 +3307,7 @@
     "multiverse_ids": [
       476283
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/0/10b1a2b5-5be2-43a2-bc35-95df6eb0984f.jpg?1581479198"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/0/10b1a2b5-5be2-43a2-bc35-95df6eb0984f.jpg?1578084555"],
     "layout": "normal",
     "type_line": "Creature — Human Scout",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, target creature gets +1/+1 until end of turn.",
@@ -3259,13 +3322,34 @@
     "set": "thb"
   },
   {
+    "id": 476501,
+    "name": "Plains",
+    "collector_number": 250,
+    "multiverse_ids": [
+      476501
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9891b7b-fc52-470c-9f74-292ae665f378.jpg?1576937884"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "thb"
+  },
+  {
     "id": 476445,
     "name": "Plummet",
     "collector_number": 194,
     "multiverse_ids": [
       476445
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8b2f186-4e04-49cb-a206-257cfb7e9361.jpg?1581480847"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8b2f186-4e04-49cb-a206-257cfb7e9361.jpg?1578667933"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target creature with flying.",
@@ -3276,7 +3360,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -3286,7 +3370,7 @@
     "multiverse_ids": [
       476475
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/87858278-632c-4d82-b3a3-adfc6f2f4fc6.jpg?1581481126"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/87858278-632c-4d82-b3a3-adfc6f2f4fc6.jpg?1577965268"],
     "layout": "normal",
     "type_line": "Legendary Creature — Zombie Hydra",
     "oracle_text": "Polukranos enters the battlefield with six +1/+1 counters on it. It escapes with twelve +1/+1 counters on it instead.\nIf damage would be dealt to Polukranos while it has a +1/+1 counter on it, prevent that damage and remove that many +1/+1 counters from it.\n{1}{B}{G}: Polukranos fights another target creature.\nEscape—{4}{B}{G}, Exile six other cards from your graveyard.",
@@ -3308,7 +3392,7 @@
     "multiverse_ids": [
       476400
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/9/b9c2b855-5079-418e-bfb4-9fc575ebe4f7.jpg?1581480361"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/9/b9c2b855-5079-418e-bfb4-9fc575ebe4f7.jpg?1578667022"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
@@ -3319,7 +3403,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -3329,7 +3413,7 @@
     "multiverse_ids": [
       476311
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/749bfd81-c61b-4901-8efb-72611fd08244.jpg?1581479452"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/749bfd81-c61b-4901-8efb-72611fd08244.jpg?1578664542"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, you may have Protean Thaumaturge become a copy of another target creature, except it has this ability.",
@@ -3340,7 +3424,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -3350,7 +3434,7 @@
     "multiverse_ids": [
       476401
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/af3af5c4-0960-44a2-976e-abdf7803c436.jpg?1581480369"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/af3af5c4-0960-44a2-976e-abdf7803c436.jpg?1577967505"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — God",
     "oracle_text": "Indestructible\nAs long as your devotion to red is less than five, Purphoros isn't a creature.\nOther creatures you control have haste.\n{2}{R}: You may put a red creature card or an artifact creature card from your hand onto the battlefield. Sacrifice it at the beginning of the next end step.",
@@ -3371,7 +3455,7 @@
     "multiverse_ids": [
       476402
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ecc911ee-0e12-4b10-add7-9a9d63c29443.jpg?1581480381"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ecc911ee-0e12-4b10-add7-9a9d63c29443.jpg?1578187015"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Choose one —\n• Create an X/1 red Elemental creature token with trample and haste. Sacrifice it at the beginning of the next end step.\n• Purphoros's Intervention deals twice X damage to target creature or planeswalker.",
@@ -3392,7 +3476,7 @@
     "multiverse_ids": [
       476364
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1f76d7c4-a5d6-4144-b5f3-e43b96b695b7.jpg?1581479940"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1f76d7c4-a5d6-4144-b5f3-e43b96b695b7.jpg?1578756157"],
     "layout": "normal",
     "type_line": "Creature — Minotaur Berserker",
     "oracle_text": "When Rage-Scarred Berserker enters the battlefield, target creature you control gets +1/+0 and gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
@@ -3403,7 +3487,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -3413,7 +3497,7 @@
     "multiverse_ids": [
       476446
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/752b9560-b1d6-441c-8bc8-bf6988112d25.jpg?1581480858"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/752b9560-b1d6-441c-8bc8-bf6988112d25.jpg?1578623660"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Reveal the top four cards of your library. You may put a creature card and/or land card from among them into your hand. Put the rest into your graveyard.",
@@ -3424,7 +3508,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -3434,7 +3518,7 @@
     "multiverse_ids": [
       476447
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2b27e6b2-13ad-42b2-a121-70935913723d.jpg?1581480865"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2b27e6b2-13ad-42b2-a121-70935913723d.jpg?1578344884"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — Demigod",
     "oracle_text": "Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts towards your devotion to green.)\nEach other creature you control enters the battlefield with an additional +1/+1 counter on it.",
@@ -3455,7 +3539,7 @@
     "multiverse_ids": [
       476448
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/4/a4515a76-53f0-40a2-8b88-70b73447d1e6.jpg?1581480874"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/4/a4515a76-53f0-40a2-8b88-70b73447d1e6.jpg?1578610842"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Destroy target artifact.\n• Destroy target enchantment.\n• Exile target card from a graveyard.",
@@ -3466,7 +3550,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3476,7 +3560,7 @@
     "multiverse_ids": [
       476284
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/54153b9c-483e-4e5c-a1ab-b1c8a7a657d4.jpg?1581479206"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/54153b9c-483e-4e5c-a1ab-b1c8a7a657d4.jpg?1577922688"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
     "oracle_text": "When Reverent Hoplite enters the battlefield, create a number of 1/1 white Human Soldier creature tokens equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)",
@@ -3487,7 +3571,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3497,7 +3581,7 @@
     "multiverse_ids": [
       476285
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9dbb9f86-f487-44b1-815f-30d87868b531.jpg?1581479215"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9dbb9f86-f487-44b1-815f-30d87868b531.jpg?1576245331"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Exile target artifact or enchantment.",
@@ -3508,7 +3592,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -3518,7 +3602,7 @@
     "multiverse_ids": [
       476312
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/cc4ba296-950c-4e39-ab5e-06be07e4a190.jpg?1581479464"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/cc4ba296-950c-4e39-ab5e-06be07e4a190.jpg?1578664689"],
     "layout": "normal",
     "type_line": "Creature — Turtle",
     "oracle_text": "Flash\nDefender",
@@ -3539,7 +3623,7 @@
     "multiverse_ids": [
       476476
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/f/cf6c11c8-64a1-46a4-979c-56a6d5b873d3.jpg?1581481132"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/f/cf6c11c8-64a1-46a4-979c-56a6d5b873d3.jpg?1578103839"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Choose one or both —\n• Return target creature card from your graveyard to the battlefield.\n• Return target Aura card from your graveyard to the battlefield.",
@@ -3561,7 +3645,7 @@
     "multiverse_ids": [
       476286
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/f/4f93f3c9-b317-40c1-87f5-0038c09b646d.jpg?1581479223"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/f/4f93f3c9-b317-40c1-87f5-0038c09b646d.jpg?1578662302"],
     "layout": "normal",
     "type_line": "Creature — Giant",
     "oracle_text": "When Rumbling Sentry enters the battlefield, scry 1.",
@@ -3572,7 +3656,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -3582,7 +3666,7 @@
     "multiverse_ids": [
       476313
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/1/4138fd65-e0c3-42a1-9c0d-4d5f20228b55.jpg?1581479476"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/1/4138fd65-e0c3-42a1-9c0d-4d5f20228b55.jpg?1578670622"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, target player puts the top two cards of their library into their graveyard.",
@@ -3593,7 +3677,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -3603,7 +3687,7 @@
     "multiverse_ids": [
       476403
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/646d8201-be68-42fa-bcfd-42d81a2ad195.jpg?1581480393"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/646d8201-be68-42fa-bcfd-42d81a2ad195.jpg?1578670970"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Create a 1/1 red Satyr creature token with \"This creature can't block.\"\nEscape—{2}{R}, Exile two other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -3624,7 +3708,7 @@
     "multiverse_ids": [
       476365
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/0/b0e237c5-45b4-49df-adb9-62b9f3b62986.jpg?1581479949"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/0/b0e237c5-45b4-49df-adb9-62b9f3b62986.jpg?1578348726"],
     "layout": "normal",
     "type_line": "Creature — Harpy",
     "oracle_text": "Flying\nWhen Scavenging Harpy enters the battlefield, exile target card from an opponent's graveyard.",
@@ -3635,7 +3719,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -3645,7 +3729,7 @@
     "multiverse_ids": [
       476314
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/5/9504dc26-f5d8-4b9d-9eb1-51a12b893beb.jpg?1581479487"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/5/9504dc26-f5d8-4b9d-9eb1-51a12b893beb.jpg?1578425873"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Return up to three target creatures and/or enchantments to their owners' hands.",
@@ -3666,7 +3750,7 @@
     "multiverse_ids": [
       476287
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/32adc118-b81e-48c2-b7ef-b62e8c3308d6.jpg?1581479235"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/32adc118-b81e-48c2-b7ef-b62e8c3308d6.jpg?1578662543"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +1/+1 and has vigilance.\nEscape—{W}, Exile two other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -3687,7 +3771,7 @@
     "multiverse_ids": [
       476449
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f8ce9858-747e-441c-95a8-6af44aa2098d.jpg?1581480884"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/8/f8ce9858-747e-441c-95a8-6af44aa2098d.jpg?1576245288"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on Setessan Champion and draw a card.",
@@ -3698,7 +3782,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -3708,7 +3792,7 @@
     "multiverse_ids": [
       476450
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/8/384495c2-238b-4f8d-89c2-e05b64f9dde0.jpg?1581480892"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/8/384495c2-238b-4f8d-89c2-e05b64f9dde0.jpg?1577965714"],
     "layout": "normal",
     "type_line": "Creature — Human Druid",
     "oracle_text": "When Setessan Petitioner enters the battlefield, you gain life equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)",
@@ -3729,7 +3813,7 @@
     "multiverse_ids": [
       476451
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/6/46739993-6afe-428d-bf63-b57649e38a65.jpg?1581480900"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/6/46739993-6afe-428d-bf63-b57649e38a65.jpg?1578671033"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, Setessan Skirmisher gets +1/+1 until end of turn.",
@@ -3750,7 +3834,7 @@
     "multiverse_ids": [
       476452
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b8322d31-6194-4fda-99a3-b6426c57488a.jpg?1581480908"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b8322d31-6194-4fda-99a3-b6426c57488a.jpg?1578668278"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature you control\nWhen Setessan Training enters the battlefield, draw a card.\nEnchanted creature gets +1/+0 and has trample.",
@@ -3761,7 +3845,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3771,7 +3855,7 @@
     "multiverse_ids": [
       476487
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1581481207"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1578668046"],
     "layout": "normal",
     "type_line": "Legendary Artifact — Equipment",
     "oracle_text": "Equipped creature gets +1/+1 and has trample and lifelink.\n{1}: Permanents your opponents control lose hexproof and indestructible until end of turn.\nEquip {2}",
@@ -3780,7 +3864,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "thb"
   },
   {
@@ -3790,7 +3874,7 @@
     "multiverse_ids": [
       476288
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b706977b-db8e-4810-882d-ed3745404489.jpg?1581479244"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b706977b-db8e-4810-882d-ed3745404489.jpg?1578603726"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Each player who controls a creature with power 4 or greater draws a card. Then destroy all creatures.",
@@ -3811,7 +3895,7 @@
     "multiverse_ids": [
       476315
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/3/f3b54bea-f2c5-4000-9cbd-04c03a1d2ea2.jpg?1581479499"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/3/f3b54bea-f2c5-4000-9cbd-04c03a1d2ea2.jpg?1578064320"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Chimera",
     "oracle_text": "Flying\nAt the beginning of your upkeep, return up to one other target enchantment you control to its owner's hand.",
@@ -3832,7 +3916,7 @@
     "multiverse_ids": [
       476316
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ec538182-efba-48d0-91ad-457461b44748.jpg?1581479511"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ec538182-efba-48d0-91ad-457461b44748.jpg?1578997361"],
     "layout": "normal",
     "type_line": "Creature — Kraken",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, you may draw a card. If you do, discard a card.",
@@ -3853,7 +3937,7 @@
     "multiverse_ids": [
       476477
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2b1d890f-7ef8-47b9-9ec8-f3884a1d09db.jpg?1581481138"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2b1d890f-7ef8-47b9-9ec8-f3884a1d09db.jpg?1578223358"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Soldier",
     "oracle_text": "When Siona, Captain of the Pyleas enters the battlefield, look at the top seven cards of your library. You may reveal an Aura card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nWhenever an Aura you control becomes attached to a creature you control, create a 1/1 white Human Soldier creature token.",
@@ -3875,7 +3959,7 @@
     "multiverse_ids": [
       476453
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/076ec900-345d-4720-96b6-441bce01618a.jpg?1581480915"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/076ec900-345d-4720-96b6-441bce01618a.jpg?1578670984"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Satyr Druid",
     "oracle_text": "Whenever a land card is put into your graveyard from anywhere, you gain 1 life.\n{2}{G}: Put the top card of your library into your graveyard.",
@@ -3896,10 +3980,10 @@
     "multiverse_ids": [
       476404
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f470a7b-63ef-4efa-855e-f8a3ce1ab534.jpg?1581480402"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f470a7b-63ef-4efa-855e-f8a3ce1ab534.jpg?1578525841"],
     "layout": "normal",
     "type_line": "Creature — Minotaur Warrior",
-    "oracle_text": "{1}: Skophos Maze-Warden gets +1/-1 until end of turn.\nWhenever another creature becomes the target of an ability of a land you control named Labyrinth of Skophos, you may have Skophos Maze-Warden fight that creature. (Each deals damage equal to its power to the other.)",
+    "oracle_text": "{1}: Skophos Maze-Warden gets +1/-1 until the end of turn.\nWhenever another creature becomes the target of an ability of a land you control named Labyrinth of Skophos, you may have Skophos Maze-Warden fight that creature. (Each deals damage equal to its power to the other.)",
     "mana_cost": "{3}{R}",
     "cmc": 4,
     "colors": [
@@ -3917,10 +4001,10 @@
     "multiverse_ids": [
       476405
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/59c39c70-8360-4c7c-b5fa-61c42828609a.jpg?1581480410"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/59c39c70-8360-4c7c-b5fa-61c42828609a.jpg?1578666838"],
     "layout": "normal",
     "type_line": "Creature — Minotaur Warrior",
-    "oracle_text": "{R}, Sacrifice another creature or an enchantment: Skophos Warleader gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)",
+    "oracle_text": "{R}, Sacrifice another creature or enchantment: Skophos Warleader gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)",
     "mana_cost": "{4}{R}",
     "cmc": 5,
     "colors": [
@@ -3938,10 +4022,10 @@
     "multiverse_ids": [
       476478
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a2b441c0-261e-4094-b694-5e11ea3c14ab.jpg?1581481146"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a2b441c0-261e-4094-b694-5e11ea3c14ab.jpg?1578667469"],
     "layout": "normal",
     "type_line": "Creature — Minotaur Shaman",
-    "oracle_text": "Whenever you sacrifice a permanent, Slaughter-Priest of Mogis gets +2/+0 until end of turn.\n{2}, Sacrifice another creature or an enchantment: Slaughter-Priest of Mogis gains first strike until end of turn.",
+    "oracle_text": "Whenever you sacrifice a permanent, Slaughter-Priest of Mogis gets +2/+0 until end of turn.\n{2}, Sacrifice a creature or enchantment: Slaughter-Priest of Mogis gains first strike until end of turn.",
     "mana_cost": "{B}{R}",
     "cmc": 2,
     "colors": [
@@ -3960,7 +4044,7 @@
     "multiverse_ids": [
       476317
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/0/4007572b-a6c8-4a56-b1a7-ff099189c9c0.jpg?1581479523"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/0/4007572b-a6c8-4a56-b1a7-ff099189c9c0.jpg?1578670636"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Tap target creature. It doesn't untap during its controller's next untap step.\nEscape—{2}{U}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -3981,7 +4065,7 @@
     "multiverse_ids": [
       476488
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c850b94-75c9-4457-8b5e-1193352d6fcb.jpg?1581481214"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/c/7c850b94-75c9-4457-8b5e-1193352d6fcb.jpg?1578345834"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "When Soul-Guide Lantern enters the battlefield, exile target card from a graveyard.\n{T}, Sacrifice Soul-Guide Lantern: Exile each opponent's graveyard.\n{1}, {T}, Sacrifice Soul-Guide Lantern: Draw a card.",
@@ -3990,7 +4074,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -4000,7 +4084,7 @@
     "multiverse_ids": [
       476366
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/5/55e2f383-d2a0-4424-bf7a-79e82d6f691f.jpg?1581479959"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/5/55e2f383-d2a0-4424-bf7a-79e82d6f691f.jpg?1578673769"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Minotaur Shaman",
     "oracle_text": "{2}{B}, Sacrifice a creature: Draw a card.",
@@ -4011,7 +4095,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -4021,7 +4105,7 @@
     "multiverse_ids": [
       476479
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/2/125b8be1-76b9-434e-a505-5099d950767c.jpg?1581481153"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/2/125b8be1-76b9-434e-a505-5099d950767c.jpg?1576246862"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +1/+1 and has lifelink and \"Whenever this creature deals combat damage to a player, draw a card.\"",
@@ -4043,7 +4127,7 @@
     "multiverse_ids": [
       476406
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c32c6192-2f8d-4656-af8b-c488e27a75e1.jpg?1581480421"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c32c6192-2f8d-4656-af8b-c488e27a75e1.jpg?1578667290"],
     "layout": "normal",
     "type_line": "Creature — Satyr",
     "oracle_text": "Trample\nAt the beginning of each combat, if you control a creature with power 4 or greater, Stampede Rider gets +1/+1 until end of turn.",
@@ -4064,7 +4148,7 @@
     "multiverse_ids": [
       476318
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/68c53625-6928-494a-af87-7eee2f6643a5.jpg?1581479536"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/68c53625-6928-494a-af87-7eee2f6643a5.jpg?1578665235"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Flash\nEnchant creature you control\nWhen Starlit Mantle enters the battlefield, enchanted creature gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)\nEnchanted creature gets +1/+1.",
@@ -4075,7 +4159,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -4085,7 +4169,7 @@
     "multiverse_ids": [
       476319
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0aec4d0f-ba1e-45f8-9764-9bcc3fa50e51.jpg?1581479548"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/a/0aec4d0f-ba1e-45f8-9764-9bcc3fa50e51.jpg?1578670686"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Return target creature or enchantment an opponent controls to its owner's hand.",
@@ -4106,7 +4190,7 @@
     "multiverse_ids": [
       476320
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/0162a0b8-a2d1-4664-a445-331aee6d5175.jpg?1581479556"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/0162a0b8-a2d1-4664-a445-331aee6d5175.jpg?1578009682"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Fish",
     "oracle_text": "Whenever you cast your first spell during each opponent's turn, you may tap or untap target nonland permanent.",
@@ -4127,7 +4211,7 @@
     "multiverse_ids": [
       476407
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e0594aa2-1c53-4271-a0d0-9002c07f3697.jpg?1581480429"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e0594aa2-1c53-4271-a0d0-9002c07f3697.jpg?1577732947"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "oracle_text": "Haste\nWhen Storm Herald enters the battlefield, return any number of Aura cards from your graveyard to the battlefield attached to creatures you control. Exile those Auras at the beginning of your next end step. If those Auras would leave the battlefield, exile them instead of putting them anywhere else.",
@@ -4148,7 +4232,7 @@
     "multiverse_ids": [
       476408
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4bc9ecd2-7664-471b-90f2-2d0dd1acec80.jpg?1581480444"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4bc9ecd2-7664-471b-90f2-2d0dd1acec80.jpg?1577973244"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Storm's Wrath deals 4 damage to each creature and each planeswalker.",
@@ -4169,7 +4253,7 @@
     "multiverse_ids": [
       476289
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/52e28f5a-55ee-4fcc-bc16-e59944592fcd.jpg?1581479252"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/2/52e28f5a-55ee-4fcc-bc16-e59944592fcd.jpg?1578662730"],
     "layout": "normal",
     "type_line": "Creature — Pegasus",
     "oracle_text": "Flying\n{1}{W}: Sunmane Pegasus gains vigilance and lifelink until end of turn.",
@@ -4180,7 +4264,28 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
+    "set": "thb"
+  },
+  {
+    "id": 476503,
+    "name": "Swamp",
+    "collector_number": 252,
+    "multiverse_ids": [
+      476503
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/02cb5cfd-018e-4c5e-bef1-166262aa5f1d.jpg?1576937846"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -4190,7 +4295,7 @@
     "multiverse_ids": [
       476321
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/51ac77d4-f918-4bbc-b023-8117a8c401ee.jpg?1581479564"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/51ac77d4-f918-4bbc-b023-8117a8c401ee.jpg?1577965537"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Target player puts the top four cards of their library into their graveyard.\nEscape—{3}{U}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
@@ -4211,7 +4316,7 @@
     "multiverse_ids": [
       476290
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8edd707-5ba3-4978-9a0b-efd0cda367c1.jpg?1581479259"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/8/a8edd707-5ba3-4978-9a0b-efd0cda367c1.jpg?1578374812"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Soldier",
     "oracle_text": "Vigilance\nWhenever Taranika, Akroan Veteran attacks, untap another target creature you control. Until end of turn, that creature has base power and toughness 4/4 and gains indestructible.",
@@ -4232,7 +4337,7 @@
     "multiverse_ids": [
       476409
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/f/6f226550-fc9f-4964-ac62-74f84d0ac3f3.jpg?1581480462"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/f/6f226550-fc9f-4964-ac62-74f84d0ac3f3.jpg?1577963089"],
     "layout": "normal",
     "type_line": "Creature — Elemental Giant",
     "oracle_text": "Whenever Tectonic Giant attacks or becomes the target of a spell an opponent controls, choose one —\n• Tectonic Giant deals 3 damage to each opponent.\n• Exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card.",
@@ -4253,7 +4358,7 @@
     "multiverse_ids": [
       476495
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d5f8481-47f7-4531-9dad-686cdfb5d2ad.jpg?1581481254"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d5f8481-47f7-4531-9dad-686cdfb5d2ad.jpg?1577716651"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Temple of Abandon enters the battlefield tapped.\nWhen Temple of Abandon enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {R} or {G}.",
@@ -4265,7 +4370,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -4275,7 +4380,7 @@
     "multiverse_ids": [
       476496
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/3/e3d4fd29-dab5-481f-94c9-eeb70f3c29dd.jpg?1581481259"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/3/e3d4fd29-dab5-481f-94c9-eeb70f3c29dd.jpg?1577716635"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Temple of Deceit enters the battlefield tapped.\nWhen Temple of Deceit enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {U} or {B}.",
@@ -4297,7 +4402,7 @@
     "multiverse_ids": [
       476497
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/adad8390-66d8-4022-a059-c68e44e718fe.jpg?1581481265"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/adad8390-66d8-4022-a059-c68e44e718fe.jpg?1577716826"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Temple of Enlightenment enters the battlefield tapped.\nWhen Temple of Enlightenment enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {W} or {U}.",
@@ -4309,7 +4414,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -4319,7 +4424,7 @@
     "multiverse_ids": [
       476498
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/4/9490a495-9f17-45a8-b10c-7de4fcbd2778.jpg?1581481271"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/4/9490a495-9f17-45a8-b10c-7de4fcbd2778.jpg?1577717049"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Temple of Malice enters the battlefield tapped.\nWhen Temple of Malice enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {B} or {R}.",
@@ -4341,7 +4446,7 @@
     "multiverse_ids": [
       476499
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6e6256ea-ccb5-4595-8278-44266f922e31.jpg?1581481279"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6e6256ea-ccb5-4595-8278-44266f922e31.jpg?1577717339"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Temple of Plenty enters the battlefield tapped.\nWhen Temple of Plenty enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\n{T}: Add {G} or {W}.",
@@ -4363,7 +4468,7 @@
     "multiverse_ids": [
       476367
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/c/fc4a61aa-75d2-46bc-b13f-b863f5f49d32.jpg?1581479972"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/c/fc4a61aa-75d2-46bc-b13f-b863f5f49d32.jpg?1578665507"],
     "layout": "normal",
     "type_line": "Creature — Human Rogue",
     "oracle_text": "Temple Thief can't be blocked by enchanted creatures or enchantment creatures.",
@@ -4374,7 +4479,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -4384,7 +4489,7 @@
     "multiverse_ids": [
       476322
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/8/c83ed3e0-82d0-4410-a6ca-b0f923eadf83.jpg?1581479572"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/8/c83ed3e0-82d0-4410-a6ca-b0f923eadf83.jpg?1578042148"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — God",
     "oracle_text": "Indestructible\nAs long as your devotion to blue is less than five, Thassa isn't a creature.\nAt the beginning of your end step, exile up to one other target creature you control, then return that card to the battlefield under your control.\n{3}{U}: Tap another target creature.",
@@ -4405,7 +4510,7 @@
     "multiverse_ids": [
       476323
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c1241d0-20d4-4eab-970d-74e476f023b4.jpg?1581479579"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c1241d0-20d4-4eab-970d-74e476f023b4.jpg?1578571153"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one-\n• Look at the top X cards of your library. Put up to two of them into your hand and the rest on the bottom of your library in a random order.\n• Counter target spell unless its controller pays twice {X}.",
@@ -4426,7 +4531,7 @@
     "multiverse_ids": [
       476324
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/2/726e8b29-13e9-4138-b6a9-d2a0d8188d1c.jpg?1581479588"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/2/726e8b29-13e9-4138-b6a9-d2a0d8188d1c.jpg?1578533240"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Wizard",
     "oracle_text": "When Thassa's Oracle enters the battlefield, look at the top X cards of your library, where X is your devotion to blue. Put up to one of them on top of your library and the rest on the bottom of your library in a random order. If X is greater than or equal to the number of cards in your library, you win the game. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
@@ -4447,7 +4552,7 @@
     "multiverse_ids": [
       476489
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/b/7b497153-69a8-480e-b02f-88afec9d5053.jpg?1581481219"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/b/7b497153-69a8-480e-b02f-88afec9d5053.jpg?1578668136"],
     "layout": "normal",
     "type_line": "Artifact Creature — Bird",
     "oracle_text": "Flying\nWhen Thaumaturge's Familiar enters the battlefield, scry 1.",
@@ -4456,7 +4561,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -4466,7 +4571,7 @@
     "multiverse_ids": [
       476375
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/28ea046b-1bbc-4430-a859-321602c9e928.jpg?1581480052"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/28ea046b-1bbc-4430-a859-321602c9e928.jpg?1576398070"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Gain control of target creature for as long as The Akroan War remains on the battlefield.\nII — Until your next turn, creatures your opponents control attack each combat if able.\nIII — Each tapped creature deals damage to itself equal to its power.",
@@ -4487,7 +4592,7 @@
     "multiverse_ids": [
       476417
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/6/46fb94ad-f9be-48b4-b65a-4e736e5ffdbb.jpg?1581480556"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/6/46fb94ad-f9be-48b4-b65a-4e736e5ffdbb.jpg?1578046365"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Each player puts the top three cards of their library into their graveyard.\nII — Exile up to two target cards from graveyards. For each creature card exiled this way, you gain 1 life.\nIII — Return target creature or land card from your graveyard to your hand.",
@@ -4508,7 +4613,7 @@
     "multiverse_ids": [
       476256
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d824f8bd-58f8-4796-80b5-5cd3033d35e8.jpg?1581478957"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d824f8bd-58f8-4796-80b5-5cd3033d35e8.jpg?1578108312"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle your library.\nII — Create a 0/4 colorless Wall artifact creature token with defender.\nIII — You gain 2 life.",
@@ -4529,7 +4634,7 @@
     "multiverse_ids": [
       476421
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4b05ada5-8e5f-4158-bd28-e6c24e4a2299.jpg?1581480603"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4b05ada5-8e5f-4158-bd28-e6c24e4a2299.jpg?1578348899"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI — Create a 1/1 white Human Soldier token.\nII — Put three +1/+1 counters on target creature you control.\nIII — If you control a creature with power 4 or greater, draw two cards.\nIV — Create a Gold token.",
@@ -4550,7 +4655,7 @@
     "multiverse_ids": [
       476411
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/49b5b348-1415-4062-a2a7-017694424c05.jpg?1581480489"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/49b5b348-1415-4062-a2a7-017694424c05.jpg?1578041932"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI, II, III — Until end of turn, target creature gains trample and gets +X/+0, where X is the number of lore counters on The Triumph of Anax.\nIV — Target creature you control fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)",
@@ -4571,7 +4676,7 @@
     "multiverse_ids": [
       476325
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/2422973d-36ee-4b8c-9a47-fcd160aa9f63.jpg?1581479595"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/2422973d-36ee-4b8c-9a47-fcd160aa9f63.jpg?1577706938"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Draw three cards. Then discard two cards unless you discard an enchantment card.",
@@ -4592,7 +4697,7 @@
     "multiverse_ids": [
       476326
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/242cdffb-5037-4d49-b194-4b60274a8758.jpg?1581479602"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/242cdffb-5037-4d49-b194-4b60274a8758.jpg?1578670707"],
     "layout": "normal",
     "type_line": "Creature — Siren",
     "oracle_text": "Flash\nFlying\nWhen Threnody Singer enters the battlefield, target creature an opponent controls gets -X/-0 until end of turn, where X is your devotion to blue. (Each {U} in the mana costs of permanents you control counts towards your devotion to blue.)",
@@ -4613,7 +4718,7 @@
     "multiverse_ids": [
       476410
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/e/2e807edb-838d-44fe-a37e-fb864d59beaa.jpg?1581480475"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/e/2e807edb-838d-44fe-a37e-fb864d59beaa.jpg?1578667081"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards.",
@@ -4624,7 +4729,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -4634,7 +4739,7 @@
     "multiverse_ids": [
       476327
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/2/4238b089-c6d8-4e4b-b6a1-a0f89e3b4968.jpg?1581479609"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/2/4238b089-c6d8-4e4b-b6a1-a0f89e3b4968.jpg?1578340833"],
     "layout": "normal",
     "type_line": "Legendary Creature — Elemental Giant",
     "oracle_text": "Flash\nFlying\nSpells you cast with converted mana cost 5 or greater cost {1} less to cast and can't be countered.",
@@ -4645,7 +4750,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "thb"
   },
   {
@@ -4655,7 +4760,7 @@
     "multiverse_ids": [
       476490
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cd2fa92d-5521-421c-b3f8-7c14bbef3080.jpg?1581481225"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cd2fa92d-5521-421c-b3f8-7c14bbef3080.jpg?1578668210"],
     "layout": "normal",
     "type_line": "Artifact — Vehicle",
     "oracle_text": "First strike, trample, haste\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",
@@ -4664,7 +4769,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -4674,7 +4779,7 @@
     "multiverse_ids": [
       476328
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c2b4ffc-b1e1-4b16-9a51-1a12f8256a27.jpg?1581479618"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c2b4ffc-b1e1-4b16-9a51-1a12f8256a27.jpg?1577825191"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Wizard",
     "oracle_text": "Whenever Towering-Wave Mystic deals damage, target player puts that many cards from the top of their library into their graveyard.",
@@ -4685,7 +4790,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -4695,7 +4800,7 @@
     "multiverse_ids": [
       476291
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9241289-28d2-4827-970e-81bdecbb5c16.jpg?1581479265"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9241289-28d2-4827-970e-81bdecbb5c16.jpg?1578662969"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Griffin",
     "oracle_text": "Flying\nAura spells you cast cost {1} less to cast.",
@@ -4706,7 +4811,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -4716,7 +4821,7 @@
     "multiverse_ids": [
       476491
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/590926db-279c-494a-b92d-680b8abf9699.jpg?1581481232"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/590926db-279c-494a-b92d-680b8abf9699.jpg?1579018335"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
@@ -4735,7 +4840,7 @@
     "multiverse_ids": [
       476368
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/35b3ad6b-9966-489f-a4c9-2639a634fd62.jpg?1581479982"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/35b3ad6b-9966-489f-a4c9-2639a634fd62.jpg?1578353493"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "When Treacherous Blessing enters the battlefield, draw three cards.\nWhenever you cast a spell, you lose 1 life.\nWhen Treacherous Blessing becomes the target of a spell or ability, sacrifice it.",
@@ -4756,7 +4861,7 @@
     "multiverse_ids": [
       476329
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b8cb11d7-feae-4511-9a03-bda23119b6a5.jpg?1581479630"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/8/b8cb11d7-feae-4511-9a03-bda23119b6a5.jpg?1578665727"],
     "layout": "normal",
     "type_line": "Creature — Merfolk Wizard",
     "oracle_text": "Constellation — Whenever an enchantment enters the battlefield under your control, Triton Waverider gains flying until end of turn.",
@@ -4767,7 +4872,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -4777,7 +4882,7 @@
     "multiverse_ids": [
       476292
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75d6eb18-a49d-4fa5-a333-78aafbc4abcb.jpg?1581479273"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75d6eb18-a49d-4fa5-a333-78aafbc4abcb.jpg?1578669933"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target creature with power 4 or greater. You gain 3 life.",
@@ -4788,7 +4893,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -4798,7 +4903,7 @@
     "multiverse_ids": [
       476369
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/68c0d087-540a-4249-9265-f13cc8e776ea.jpg?1581479994"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/68c0d087-540a-4249-9265-f13cc8e776ea.jpg?1578046379"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Put the top three cards of your library into your graveyard. Then you may exile a creature or enchantment card from your graveyard. If you do, create a 2/2 black Zombie creature token.\nIII — You gain X life and scry X, where X is the number of Zombies you control.",
@@ -4809,7 +4914,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -4819,7 +4924,7 @@
     "multiverse_ids": [
       476370
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/4/14b28eae-e8ed-4b99-b6ec-86d0716ec473.jpg?1581480007"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/4/14b28eae-e8ed-4b99-b6ec-86d0716ec473.jpg?1578084812"],
     "layout": "normal",
     "type_line": "Legendary Enchantment Creature — Demigod",
     "oracle_text": "Tymaret's toughness is equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)\n{1}{B}: Exile up to two target cards from graveyards. You gain 1 life for each creature card exiled this way.",
@@ -4840,7 +4945,7 @@
     "multiverse_ids": [
       476412
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1581480500"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1578667092"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Each nonland card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)\nAt the beginning of the end step, sacrifice Underworld Breach.",
@@ -4851,7 +4956,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -4861,7 +4966,7 @@
     "multiverse_ids": [
       476371
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/2/f2dd847f-0db2-4f6a-bdfb-5c88ce7802f9.jpg?1581480014"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/2/f2dd847f-0db2-4f6a-bdfb-5c88ce7802f9.jpg?1578665466"],
     "layout": "normal",
     "type_line": "Creature — Nightmare Horse",
     "oracle_text": "Underworld Charger can't block.\nEscape—{4}{B}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nUnderworld Charger escapes with two +1/+1 counters on it.",
@@ -4872,7 +4977,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -4882,7 +4987,7 @@
     "multiverse_ids": [
       476372
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/03919c86-1c4a-43b0-a2db-54ca6ae1ac57.jpg?1581480025"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/03919c86-1c4a-43b0-a2db-54ca6ae1ac57.jpg?1578665542"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Whenever an opponent draws a card, Underworld Dreams deals 1 damage to that player.",
@@ -4893,7 +4998,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -4903,7 +5008,7 @@
     "multiverse_ids": [
       476413
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0fe616c4-dcb0-4284-ba10-6fbf7cecd217.jpg?1581480512"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0fe616c4-dcb0-4284-ba10-6fbf7cecd217.jpg?1578667152"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Underworld Fires deals 1 damage to each creature and each planeswalker. If a permanent dealt damage this way would die this turn, exile it instead.",
@@ -4914,7 +5019,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -4924,7 +5029,7 @@
     "multiverse_ids": [
       476414
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a04eef82-fd53-41f4-9c7e-28b9ac039032.jpg?1581480522"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a04eef82-fd53-41f4-9c7e-28b9ac039032.jpg?1576245384"],
     "layout": "normal",
     "type_line": "Creature — Elemental Hound",
     "oracle_text": "Underworld Rage-Hound attacks each combat if able.\nEscape—{3}{R}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nUnderworld Rage-Hound escapes with a +1/+1 counter on it.",
@@ -4935,7 +5040,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -4945,7 +5050,7 @@
     "multiverse_ids": [
       476500
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/492181e4-5825-45d4-b8a1-37f29c32a845.jpg?1581481287"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/9/492181e4-5825-45d4-b8a1-37f29c32a845.jpg?1578603551"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.",
@@ -4964,10 +5069,10 @@
     "multiverse_ids": [
       476480
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a0b6a71e-56cb-4d25-8f2b-7a4f1b60900d.jpg?1581481163"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a0b6a71e-56cb-4d25-8f2b-7a4f1b60900d.jpg?1578667483"],
     "layout": "normal",
     "type_line": "Legendary Creature — Elder Giant",
-    "oracle_text": "When Uro enters the battlefield, sacrifice it unless it escaped.\nWhenever Uro enters the battlefield or attacks, you gain 3 life and draw a card, then you may put a land card from your hand onto the battlefield.\nEscape—{G}{G}{U}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+    "oracle_text": "When Uro enters the battlefield, sacrifice it unless it escaped.\nWhenever Uro enters the battlefield or attacks, you gain 3 life and draw a card, then you may put a land card from your hand onto the battlefield.\nEscape-{G}{G}{U}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
     "mana_cost": "{1}{G}{U}",
     "cmc": 3,
     "colors": [
@@ -4986,7 +5091,7 @@
     "multiverse_ids": [
       476373
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9dc2b661-2f42-419d-837f-bbf097c1153c.jpg?1581480034"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9dc2b661-2f42-419d-837f-bbf097c1153c.jpg?1578670742"],
     "layout": "normal",
     "type_line": "Creature — Gorgon Cleric",
     "oracle_text": "Deathtouch\nWhen Venomous Hierophant enters the battlefield, put the top three cards of your library into your graveyard.",
@@ -5007,7 +5112,7 @@
     "multiverse_ids": [
       476330
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/869fee23-df75-448d-9fca-6ba6713d459f.jpg?1581479638"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/869fee23-df75-448d-9fca-6ba6713d459f.jpg?1579277713"],
     "layout": "normal",
     "type_line": "Creature — Bird",
     "oracle_text": "Flash\nFlying",
@@ -5018,7 +5123,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -5028,7 +5133,7 @@
     "multiverse_ids": [
       476454
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/efa2bccb-0e01-4629-b9a8-5c0ea26239b3.jpg?1581480923"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/f/efa2bccb-0e01-4629-b9a8-5c0ea26239b3.jpg?1578671009"],
     "layout": "normal",
     "type_line": "Creature — Snake Beast",
     "oracle_text": "Escape—{5}{G}{G}, Exile four other cards from your graveyard. (You may cast this spell from your graveyard for its escape cost.)\nVoracious Typhon escapes with three +1/+1 counters on it.",
@@ -5049,7 +5154,7 @@
     "multiverse_ids": [
       476455
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/11d64cab-2ed1-46d9-8034-0c2ba3f2e1ed.jpg?1581480932"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/11d64cab-2ed1-46d9-8034-0c2ba3f2e1ed.jpg?1579302943"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature you control\nWhen Warbriar Blessing enters the battlefield, enchanted creature fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)\nEnchanted creature gets +0/+2.",
@@ -5070,7 +5175,7 @@
     "multiverse_ids": [
       476481
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff48d55e-aa8b-4061-9c77-fd7e696fd7ba.jpg?1581481170"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff48d55e-aa8b-4061-9c77-fd7e696fd7ba.jpg?1577965769"],
     "layout": "normal",
     "type_line": "Creature — Minotaur Warrior",
     "oracle_text": "Trample\nWarden of the Chained can't attack unless you control another creature with power 4 or greater.",
@@ -5082,7 +5187,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -5092,7 +5197,7 @@
     "multiverse_ids": [
       476331
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/9/d900dff5-1196-443f-b9b0-b8e75c67c868.jpg?1581479648"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/9/d900dff5-1196-443f-b9b0-b8e75c67c868.jpg?1577967207"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Horse Fish",
     "oracle_text": "Whenever you cast your first spell during each opponent's turn, draw a card.",
@@ -5113,7 +5218,7 @@
     "multiverse_ids": [
       476332
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9e127856-bedd-40a9-9e8e-d1f9fbefe07d.jpg?1581479658"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9e127856-bedd-40a9-9e8e-d1f9fbefe07d.jpg?1578326880"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "For each spell and ability your opponents control, counter it unless its controller pays {4}.",
@@ -5134,7 +5239,7 @@
     "multiverse_ids": [
       476492
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/3/e3ef8f96-3e3c-4b1b-8180-3b38c7deaaff.jpg?1581481238"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/3/e3ef8f96-3e3c-4b1b-8180-3b38c7deaaff.jpg?1578668312"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "Equipped creature has flying.\nSacrifice Wings of Hubris: Equipped creature can't be blocked this turn. Sacrifice it at the beginning of the next end step.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -5143,7 +5248,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -5153,7 +5258,7 @@
     "multiverse_ids": [
       476333
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/64cd9d60-826c-4b35-9684-dccb0880399e.jpg?1581479667"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/64cd9d60-826c-4b35-9684-dccb0880399e.jpg?1578670720"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Sphinx",
     "oracle_text": "Flying\n{3}{U}: Scry 1.",
@@ -5174,7 +5279,7 @@
     "multiverse_ids": [
       476374
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/4/3457b558-b35b-49fd-b499-b1ec755f86ce.jpg?1581480044"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/4/3457b558-b35b-49fd-b499-b1ec755f86ce.jpg?1577731596"],
     "layout": "normal",
     "type_line": "Creature — Horror",
     "oracle_text": "When Woe Strider enters the battlefield, create a 0/1 white Goat creature token.\nSacrifice another creature: Scry 1.\nEscape—{3}{B}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nWoe Strider escapes with two +1/+1 counters on it.",
@@ -5185,7 +5290,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "thb"
   },
   {
@@ -5195,7 +5300,7 @@
     "multiverse_ids": [
       476456
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/2/72b886c3-234c-49ce-9a11-456c1e8f092f.jpg?1581480945"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/2/72b886c3-234c-49ce-9a11-456c1e8f092f.jpg?1578611067"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant land\nWhenever enchanted land is tapped for mana, its controller adds an additional {G}.\n{4}{G}, Sacrifice Wolfwillow Haven: Create a 2/2 green Wolf creature token. Activate this ability only during your turn.",
@@ -5216,7 +5321,7 @@
     "multiverse_ids": [
       476415
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b5f7ff4f-3fd6-4084-aaf7-9f290ecc0181.jpg?1581480532"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b5f7ff4f-3fd6-4084-aaf7-9f290ecc0181.jpg?1578667189"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Wrap in Flames deals 1 damage to each of up to three target creatures. Those creatures can't block this turn.",
