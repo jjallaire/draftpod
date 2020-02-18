@@ -34,6 +34,7 @@ export default {
         :card="card" 
         :drag_source="drag_source"
         :click_move="false"
+        :double_click_move="true"
       />
     </div>
     <div 

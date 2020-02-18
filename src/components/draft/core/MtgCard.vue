@@ -26,6 +26,10 @@ export default {
     click_move: {
       type: Boolean,
       default: false
+    },
+    double_click_move: {
+      type: Boolean,
+      default: false
     }
   },
   data: function() {
@@ -95,32 +99,42 @@ export default {
     },  
     
     onClick() {
-      if (this.click_move) {
-        if (this.drag_source === "DRAG_SOURCE_PACK") {
-          this.packToPick({ card: this.card, pile_number: null, insertBefore: null });
-        } else {
-          if (this.cardInDeck(this.card))
-            this.deckToUnused({ card: this.card });
-          else {
-            let moveParams = { card: this.card, insertBefore: null };
-            // if this is sealed mode then use only top-row
-            if (this.drag_source === "DRAG_SOURCE_UNUSED") {
-              if (this.card.cmc <= 1)
-                moveParams.pile_number = 0;
-              else if (this.card.cmc >= 6)
-                moveParams.pile_number = 5;
-              else
-                moveParams.pile_number = this.card.cmc - 1;
-            }
-            this.unusedToDeck(moveParams);
-          }
-        }
+      if (this.click_move && !this.double_click_move) {
+        this.moveCard();
+      }
+    },
+
+    onDoubleClick() {
+      if (this.double_click_move) {
+        this.moveCard();
       }
     },
 
     onUncheckCard() {
       this.deckToUnused({ card: this.card });
     },
+
+    moveCard() {
+      if (this.drag_source === "DRAG_SOURCE_PACK") {
+        this.packToPick({ card: this.card, pile_number: null, insertBefore: null });
+      } else {
+        if (this.cardInDeck(this.card))
+          this.deckToUnused({ card: this.card });
+        else {
+          let moveParams = { card: this.card, insertBefore: null };
+          // if this is sealed mode then use only top-row
+          if (this.drag_source === "DRAG_SOURCE_UNUSED") {
+            if (this.card.cmc <= 1)
+              moveParams.pile_number = 0;
+            else if (this.card.cmc >= 6)
+              moveParams.pile_number = 5;
+            else
+              moveParams.pile_number = this.card.cmc - 1;
+          }
+          this.unusedToDeck(moveParams);
+        }
+      }
+    }
   }
 }
 </script>
@@ -141,6 +155,7 @@ export default {
       @touchmove="onTouchMove"
       @touchend="onTouchEnd" 
       @click="onClick"
+      @dblclick="onDoubleClick"
       @contextmenu="onContextMenu"
     >
     <div v-if="checked" class="mtgcard-check">
