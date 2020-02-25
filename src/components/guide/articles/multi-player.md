@@ -68,12 +68,6 @@ Once you've copied your MTG Arena decklist to the clipboard, you can import it i
 
 MTG Arena games should be initiated using the [Direct Challenge](https://mtgarena-support.wizards.com/hc/en-us/articles/360001447063-Direct-Challenge-FAQ) feature, which supports both best of 1 and best of 3 matches.
 
-Note that Direct Challenge requires 60 card decks, whereas limited decks are typically 40 cards. To bridge this gap, you can do one of two things:
-
-1) Draft with 3 packs and build a 40 card deck, then use the *MTGA Format* option to automatically generate a 60 card version of your deck. For example, if you have 23 non-lands in your deck, 13 of them (selected at random) will be duplicated so that you end up with 36 non-lands. Note that the ratio between creatures and non-creatures in your deck will be preserved.
-
-2) Draft with 5 packs (rather than 3) and build a 60 card deck. An option to do this is provided when you start a new draft. 
-
 ### Playing in Person
 
 In order to draft online and then play with physical cards, you need to specify exactly which cards you have in your cardpool. There are a number of approaches to building cardpools, including:

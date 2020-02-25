@@ -38,19 +38,13 @@ After you make all of your picks, you'll end up in deck-building mode where you 
 </p>
 
 
-Once you've completed deck-building, click the **View Decklist** button to see a list of the cards in your deck and sideboard. You'll want to select the **MTGA Format** tab to view the listformat required by MTGA:
+Once you've completed deck-building, click the **View Decklist** button to see a list of the cards in your deck and sideboard. You'll want to select the **MTGA Format** tab to view the list format required by MTGA:
 
 <p>
 <img src="/images/guide/multi-player-decklist-arena.png" width="100%" />
 </p>
 
 Use the **Copy to Clipboard** button to copy the MTG Arena decklist to the clipboard.
-
-Note that Direct Challenge requires 60 card decks, whereas limited decks are typically 40 cards. To bridge this gap, you can do one of two things:
-
-1) Draft with 3 packs and build a 40 card deck, then use the *MTGA Format* option to automatically generate a 60 card version of your deck. For example, if you have 23 non-lands in your deck, 13 of them (selected at random) will be duplicated so that you end up with 36 non-lands. Note that the ratio between creatures and non-creatures in your deck will be preserved.
-
-2) Draft with 5 packs (rather than 3) and build a 60 card deck. An option to do this is provided when you start a new draft. 
 
 ### Playing
 
@@ -68,7 +62,8 @@ MTG Arena games should be initiated using the [Direct Challenge](https://mtgaren
 <img src="/images/guide/arena-challenge.png" width="100%" />
 </p>
 
-Direct Challenge supports both Best of 1 and Best of 3 matches (you can set this using the **Challenge Options** menu at the top of the pane).
+Direct Challenge supports both Best of 1 and Best of 3 matches. Also, be sure to select the 40-card deck option when setting up the match. You can set both of these options using the **Challenge Options** menu at the top of the pane.
+
 
 
 

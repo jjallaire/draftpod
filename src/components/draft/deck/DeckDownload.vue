@@ -42,8 +42,8 @@ export default {
       let README = `This archive contains a record of your draft:
 
   - Draftlog.txt: Log of every pick made in the draft
-  - Decklist.txt: Cards in main deck and sideboard
-  - Decklist-Arena.txt: 60 card version of deck for use on MTG Arena
+  - Decklist.txt: Cards in main deck and sideboard (standard format)
+  - Decklist-Arena.txt: Cards in main deck and sideboard (MTG Arena format)
          
 If you want to share your draft with others, these sites 
 enable you to publish your draft log and deck list:
@@ -54,7 +54,7 @@ enable you to publish your draft log and deck list:
 
       // generate deck lists
       let deckList = selectors.deckList(this.set.code, 'normal', this.deck);
-      let arenaDeckList = selectors.arena60CardDeckList(this.set.code, this.deck);
+      let arenaDeckList = selectors.deckList(this.set.code, 'arena', this.deck);
 
       // generate mtgo log then download
       draftlog.asMtgoLog(log).then(mtgoLog => {

@@ -26,7 +26,7 @@ export default {
       deck: null,
       format: null,
       deck_size: 40,
-      arena_convert: true,
+      arena_convert: false,
       arena_60: null
     }
   },
@@ -42,7 +42,7 @@ export default {
     },
 
     arena_option: function() {
-      return this.deck_size < 60;
+      return false;
     },
 
     arena_deck_list: function() {
@@ -67,7 +67,7 @@ export default {
       this.set_code = null;
       this.format = null;
       this.deck_size = 40;
-      this.arena_convert = true;
+      this.arena_convert = false;
       this.arena_60 = null;
     });
 

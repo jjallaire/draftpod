@@ -75,7 +75,7 @@ The download includes 3 files:
 
 - **Draftlog.txt** &mdash; A log of every pick made in the draft
 - **Decklist.txt** &mdash; List of main deck and sideboard cards
-- **Decklist-Arena.txt** &mdash; 60 card version of deck for use on MTG Arena
+- **Decklist-Arena.txt** &mdash; Version of deck for use on MTG Arena
          
 These files can in turn be uploaded to these websites, both of which allow you to view a pick-by-pick replay of your draft:
 

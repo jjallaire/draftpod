@@ -106,7 +106,7 @@ export default {
       this.format = this.$route.query.format;
     this.pick_timer = this.preferences.pick_timer;
     this.pick_ratings = this.preferences.pick_ratings;
-    this.number_of_packs = this.preferences.number_of_packs === PACKS_FIVE ? PACKS_FIVE : PACKS_THREE;
+    this.number_of_packs = PACKS_THREE;
     this.sealed_number_of_packs = this.preferences.sealed_number_of_packs || 6;
     this.multi_player.player_name = this.player.name;
     this.applySetPreferences();
@@ -438,7 +438,7 @@ export default {
           id="draft-options" 
           class="col-sm-8"
         >
-          <div v-show="is_draft_format" id="draft-packs">
+          <div v-show="false" id="draft-packs">
             <div class="form-check-inline">
               <input id="draft-packs-three" v-model="number_of_packs" class="form-check-input" type="radio" value="three" :disabled="is_multi_player">
               <label class="form-check-label" for="draft-packs-three">
