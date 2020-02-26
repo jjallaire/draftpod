@@ -466,7 +466,7 @@ export function deckList(set_code, format, deck) {
   let main_deck = _flatten(deck.piles.slice(0, DECK.SIDEBOARD));
   let main_deck_list = asDeckList(set_code, format, main_deck);
 
-  let sideboard = deck.piles[DECK.SIDEBOARD].slice();
+  let sideboard = deck.piles[DECK.SIDEBOARD].slice(0,15);
   let sideboard_list = asDeckList(set_code, format, sideboard);
 
   let basic_lands_list = null;
