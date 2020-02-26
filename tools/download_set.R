@@ -192,7 +192,7 @@ download_cards <- function(cards,
     ktk = 269,
     isd = 249,
     eld = 269,
-    thb = 254,
+    thb = 287,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000

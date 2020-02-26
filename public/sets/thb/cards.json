@@ -60,7 +60,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -82,7 +82,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -248,7 +248,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -270,7 +270,29 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 5,
+    "set": "thb"
+  },
+  {
+    "id": 479171,
+    "name": "Ashiok, Sculptor of Fears",
+    "collector_number": 274,
+    "multiverse_ids": [
+      479171
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/6/36a5fc37-e7bd-41a9-88ac-74a3f14fea8b.jpg?1581481496"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Ashiok",
+    "oracle_text": "+2: Draw a card. Each player puts the top two cards of their library into their graveyard.\n−5: Put target creature card from a graveyard onto the battlefield under your control.\n−11: Gain control of all creatures target opponent controls.",
+    "mana_cost": "{4}{U}{B}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -291,7 +313,29 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
+    "set": "thb"
+  },
+  {
+    "id": 479174,
+    "name": "Ashiok's Forerunner",
+    "collector_number": 277,
+    "multiverse_ids": [
+      479174
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/781bfbae-acd9-4583-88d2-d31978eef565.jpg?1581481476"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Flash\nWhen Ashiok's Forerunner enters the battlefield, you may search your library and/or graveyard for a card named Ashiok, Sculptor of Fears, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+    "mana_cost": "{3}{U}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -334,6 +378,28 @@
     "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
+    "set": "thb"
+  },
+  {
+    "id": 479156,
+    "name": "Athreos, Shroud-Veiled",
+    "collector_number": 269,
+    "multiverse_ids": [
+      479156
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/871c19fc-7d99-4022-9e13-d679a9e3547e.jpg?1581901443"],
+    "layout": "normal",
+    "type_line": "Legendary Enchantment Creature — God",
+    "oracle_text": "Indestructible\nAs long as your devotion to white and black is less than seven, Athreos isn't a creature.\nAt the beginning of your end step, put a coin counter on another target creature.\nWhenever a creature with a coin counter on it dies or is put into exile, return that card to the battlefield under your control.",
+    "mana_cost": "{4}{W}{B}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -439,7 +505,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -586,7 +652,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -628,7 +694,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -692,7 +758,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -755,7 +821,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -882,7 +948,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -971,6 +1037,27 @@
     "set": "thb"
   },
   {
+    "id": 479168,
+    "name": "Eidolon of Inspiration",
+    "collector_number": 271,
+    "multiverse_ids": [
+      479168
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/53343a0c-d97c-4d6f-b696-5343a962e3dd.jpg?1581481431"],
+    "layout": "normal",
+    "type_line": "Enchantment Creature — Spirit",
+    "oracle_text": "At the beginning of combat on your turn, target creature you control gets +2/+0 until end of turn.",
+    "mana_cost": "{1}{W}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "thb"
+  },
+  {
     "id": 476263,
     "name": "Eidolon of Obstruction",
     "collector_number": 12,
@@ -1030,7 +1117,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -1052,6 +1139,27 @@
     "latent_color": "",
     "rarity": "rare",
     "rating": 4,
+    "set": "thb"
+  },
+  {
+    "id": 479169,
+    "name": "Elspeth's Devotee",
+    "collector_number": 272,
+    "multiverse_ids": [
+      479169
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/f/0f82064c-b335-454c-9be6-9fbcb21aa8e5.jpg?1581481438"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "When Elspeth's Devotee enters the battlefield, you may search your library and/or graveyard for a card named Elspeth, Undaunted Hero, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+    "mana_cost": "{2}{W}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -1097,6 +1205,27 @@
     "set": "thb"
   },
   {
+    "id": 479167,
+    "name": "Elspeth, Undaunted Hero",
+    "collector_number": 270,
+    "multiverse_ids": [
+      479167
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/f/bf9867e5-9d69-400c-a84f-3b085a4fd510.jpg?1581481499"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Elspeth",
+    "oracle_text": "+2: Put a +1/+1 counter on each of up to two target creatures.\n−2: Search your library and/or graveyard for a card named Sunlit Hoplite and put it onto the battlefield. If you search your library this way, shuffle it.\n−8: Until end of turn, creatures you control gain flying and get +X/+X, where X is your devotion to white.",
+    "mana_cost": "{2}{W}{W}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 0,
+    "set": "thb"
+  },
+  {
     "id": 476343,
     "name": "Enemy of Enlightenment",
     "collector_number": 92,
@@ -1114,7 +1243,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -1155,7 +1284,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -1218,7 +1347,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -1364,7 +1493,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -1386,6 +1515,27 @@
     "latent_color": "",
     "rarity": "common",
     "rating": 1.5,
+    "set": "thb"
+  },
+  {
+    "id": 479183,
+    "name": "Forest",
+    "collector_number": 286,
+    "multiverse_ids": [
+      479183
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/4/c4be31c4-9cb3-4a07-865b-5621127df660.jpg?1581482262"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -1491,7 +1641,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -1808,7 +1958,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -2106,6 +2256,27 @@
     "set": "thb"
   },
   {
+    "id": 479177,
+    "name": "Island",
+    "collector_number": 280,
+    "multiverse_ids": [
+      479177
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/2/92daaa39-cd2f-4c03-8f41-92d99d0a3366.jpg?1581481496"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "thb"
+  },
+  {
     "id": 476277,
     "name": "Karametra's Blessing",
     "collector_number": 26,
@@ -2397,7 +2568,28 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
+    "set": "thb"
+  },
+  {
+    "id": 479173,
+    "name": "Mindwrack Harpy",
+    "collector_number": 276,
+    "multiverse_ids": [
+      479173
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6c5ce79a-fcbd-46ab-8911-480f967ca57f.jpg?1581481468"],
+    "layout": "normal",
+    "type_line": "Enchantment Creature — Harpy",
+    "oracle_text": "Flying\nAt the beginning of combat on your turn, each player puts the top three cards of their library into their graveyard.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -2439,7 +2631,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 4,
     "set": "thb"
   },
   {
@@ -2522,7 +2714,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -2544,6 +2736,27 @@
     "latent_color": "",
     "rarity": "common",
     "rating": 2,
+    "set": "thb"
+  },
+  {
+    "id": 479181,
+    "name": "Mountain",
+    "collector_number": 284,
+    "multiverse_ids": [
+      479181
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/c/dc3f4154-9347-4ceb-8744-9f1ace90d33f.jpg?1581482260"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -2837,7 +3050,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -2961,7 +3174,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -2982,7 +3195,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3024,7 +3237,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -3256,6 +3469,27 @@
     "latent_color": "",
     "rarity": "common",
     "rating": 1,
+    "set": "thb"
+  },
+  {
+    "id": 479175,
+    "name": "Plains",
+    "collector_number": 278,
+    "multiverse_ids": [
+      479175
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/0/40aca5ca-a37b-4919-aef6-2510b4779161.jpg?1581481482"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -3572,7 +3806,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -3593,7 +3827,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -3614,7 +3848,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -3635,7 +3869,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -3761,7 +3995,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3886,7 +4120,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -3907,7 +4141,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -3950,7 +4184,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -3971,7 +4205,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -4163,6 +4397,27 @@
     "set": "thb"
   },
   {
+    "id": 479170,
+    "name": "Sunlit Hoplite",
+    "collector_number": 273,
+    "multiverse_ids": [
+      479170
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2f89cf0f-f682-44f8-879c-ed1e22f849b0.jpg?1581481445"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "As long as it's your turn, Sunlit Hoplite has first strike.\nSunlit Hoplite gets +1/+0 as long as you control an Elspeth planeswalker.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "thb"
+  },
+  {
     "id": 476289,
     "name": "Sunmane Pegasus",
     "collector_number": 38,
@@ -4184,6 +4439,27 @@
     "set": "thb"
   },
   {
+    "id": 479179,
+    "name": "Swamp",
+    "collector_number": 282,
+    "multiverse_ids": [
+      479179
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/6/66bb5192-58bc-4efe-a145-2e804fd3483d.jpg?1581481510"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "thb"
+  },
+  {
     "id": 476321,
     "name": "Sweet Oblivion",
     "collector_number": 70,
@@ -4202,6 +4478,27 @@
     "latent_color": "",
     "rarity": "uncommon",
     "rating": 0.5,
+    "set": "thb"
+  },
+  {
+    "id": 479172,
+    "name": "Swimmer in Nightmares",
+    "collector_number": 275,
+    "multiverse_ids": [
+      479172
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/b/ebc6b5ee-e764-444e-8b27-26e00f4b2074.jpg?1581481462"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare Merfolk",
+    "oracle_text": "Swimmer in Nightmares gets +3/+0 as long as there are ten or more cards in a single graveyard.\nSwimmer in Nightmares can't be blocked as long as you control an Ashiok planeswalker.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -4456,7 +4753,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -4767,7 +5064,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -4872,7 +5169,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -4893,7 +5190,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -4914,7 +5211,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -4976,7 +5273,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "thb"
   },
   {
@@ -5143,7 +5440,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -5206,7 +5503,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -5227,112 +5524,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
-    "set": "thb"
-  },
-  {
-    "id": 476505,
-    "name": "Forest",
-    "collector_number": 254,
-    "multiverse_ids": [
-      476505
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/32af9f41-89e2-4e7a-9fec-fffe79cae077.jpg?1576937833"],
-    "layout": "normal",
-    "type_line": "Basic Land — Forest",
-    "oracle_text": "({T}: Add {G}.)",
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "G"
-    ],
-    "latent_color": "",
-    "rarity": "common",
-    "rating": 0,
-    "set": "thb"
-  },
-  {
-    "id": 476502,
-    "name": "Island",
-    "collector_number": 251,
-    "multiverse_ids": [
-      476502
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/acf7b664-3e75-4018-81f6-2a14ab59f258.jpg?1576937872"],
-    "layout": "normal",
-    "type_line": "Basic Land — Island",
-    "oracle_text": "({T}: Add {U}.)",
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "U"
-    ],
-    "latent_color": "",
-    "rarity": "common",
-    "rating": 0,
-    "set": "thb"
-  },
-  {
-    "id": 476504,
-    "name": "Mountain",
-    "collector_number": 253,
-    "multiverse_ids": [
-      476504
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/53fb7b99-9e47-46a6-9c8a-88e28b5197f1.jpg?1576937840"],
-    "layout": "normal",
-    "type_line": "Basic Land — Mountain",
-    "oracle_text": "({T}: Add {R}.)", 
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "R"
-    ],
-    "latent_color": "",
-    "rarity": "common",
-    "rating": 0,
-    "set": "thb"
-  },
-  {
-    "id": 476501,
-    "name": "Plains",
-    "collector_number": 250,
-    "multiverse_ids": [
-      476501
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/9/a9891b7b-fc52-470c-9f74-292ae665f378.jpg?1576937884"],
-    "layout": "normal",
-    "type_line": "Basic Land — Plains",
-    "oracle_text": "({T}: Add {W}.)",
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "W"
-    ],
-    "latent_color": "",
-    "rarity": "common",
-    "rating": 0,
-    "set": "thb"
-  },
-  {
-    "id": 476503,
-    "name": "Swamp",
-    "collector_number": 252,
-    "multiverse_ids": [
-      476503
-    ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/02cb5cfd-018e-4c5e-bef1-166262aa5f1d.jpg?1576937846"],
-    "layout": "normal",
-    "type_line": "Basic Land — Swamp",
-    "oracle_text": "({T}: Add {B}.)",
-    "mana_cost": "",
-    "cmc": 0,
-    "colors": [
-      "B"
-    ],
-    "latent_color": "",
-    "rarity": "common",
-    "rating": 0,
+    "rating": 1,
     "set": "thb"
   }
 ]
