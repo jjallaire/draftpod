@@ -9,8 +9,7 @@ To play games on MTG Arena, you will need to have a reasonably complete collecti
 
 ### Getting Started
 
-To get started with a draft or sealed deck for play on Arena, select a set to play with and then specify the **4/4/1/1** cardpool for the set (this will ensure that you can draft no more than the 4 copies of each common and uncommon in the set):
-
+To get started with a draft or sealed deck for play on Arena, select a set to play with and then specify the **6/3/1/1** cardpool for the set (specifying a larger number of commons and uncommons makes for better variety, and Arena 40-card decks permit more than 4 copies of a card):
 
 <p>
 <img src="/images/guide/arena-cardpool.png" width="100%" />
