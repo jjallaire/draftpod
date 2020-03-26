@@ -39,7 +39,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -185,7 +185,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -291,7 +291,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -312,7 +312,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -376,7 +376,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 4,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -628,7 +628,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -692,7 +692,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -798,7 +798,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -882,7 +882,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -935,7 +935,7 @@
     "multiverse_ids": [
       476420
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/d/6d964876-194b-49f1-8e74-cfe9269f2c62.jpg?1581480592"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/d/6d964876-194b-49f1-8e74-cfe9269f2c62.jpg?1584114361"],
     "layout": "normal",
     "type_line": "Enchantment Creature — Nymph",
     "oracle_text": "You may play an additional land on each of your turns.\nLands you control are every basic land type in addition to their other types.",
@@ -967,7 +967,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "thb"
   },
   {
@@ -988,7 +988,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -1009,7 +1009,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -1030,7 +1030,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -1040,10 +1040,10 @@
     "multiverse_ids": [
       476264
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/a/ea20208b-1939-4c69-8cfd-c0a42f9dc427.jpg?1581479033"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/a/ea20208b-1939-4c69-8cfd-c0a42f9dc427.jpg?1583938237"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
-    "oracle_text": "I - Exile target permanent an opponent controls with converted mana cost 3 or greater.\nII - Noncreature spells your opponents cast cost {2} more to cast until your next turn.\nIII - Return target creature or planeswalker card from your graveyard to the battlefield. Put a +1/+1 counter or a loyalty counter on it.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Exile target permanent an opponent controls with converted mana cost 3 or greater.\nII - Noncreature spells your opponents cast cost {2} more to cast until your next turn.\nIII - Return target creature or planeswalker card from your graveyard to the battlefield. Put a +1/+1 counter or a loyalty counter on it.",
     "mana_cost": "{3}{W}{W}",
     "cmc": 5,
     "colors": [
@@ -1061,10 +1061,10 @@
     "multiverse_ids": [
       476342
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37ccd974-d2bc-4fcf-94a7-0a868a04cb98.jpg?1581479746"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37ccd974-d2bc-4fcf-94a7-0a868a04cb98.jpg?1583742391"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
-    "oracle_text": "I - Destroy target creature an opponent controls with power 2 or less.\nII - Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.\nIII - Exile target opponent's graveyard.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Destroy target creature an opponent controls with power 2 or less.\nII - Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.\nIII - Exile target opponent's graveyard.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -1093,7 +1093,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "thb"
   },
   {
@@ -1136,7 +1136,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -1197,7 +1197,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "thb"
   },
   {
@@ -1282,7 +1282,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -1343,7 +1343,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -1364,7 +1364,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -1385,7 +1385,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -1596,7 +1596,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -1681,7 +1681,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -1829,7 +1829,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -1913,7 +1913,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -2102,7 +2102,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -2166,7 +2166,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "thb"
   },
   {
@@ -2187,7 +2187,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -2271,7 +2271,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -2292,7 +2292,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -2334,7 +2334,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -2376,7 +2376,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -2418,7 +2418,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -2479,7 +2479,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -2564,7 +2564,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -2606,7 +2606,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -2690,7 +2690,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -2774,7 +2774,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -2858,7 +2858,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -2879,7 +2879,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -2942,7 +2942,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -2982,7 +2982,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3024,7 +3024,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -3066,7 +3066,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -3087,7 +3087,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3150,7 +3150,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -3192,7 +3192,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -3424,7 +3424,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -3508,7 +3508,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -3529,7 +3529,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -3593,7 +3593,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -3635,7 +3635,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -3656,7 +3656,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -3719,7 +3719,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -3761,7 +3761,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3780,7 +3780,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -3843,7 +3843,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -3886,7 +3886,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -3950,7 +3950,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -3971,7 +3971,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -4054,7 +4054,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -4075,7 +4075,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -4287,7 +4287,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -4309,7 +4309,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -4331,7 +4331,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -4353,7 +4353,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -4374,7 +4374,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -4405,10 +4405,10 @@
     "multiverse_ids": [
       476323
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c1241d0-20d4-4eab-970d-74e476f023b4.jpg?1581479579"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c1241d0-20d4-4eab-970d-74e476f023b4.jpg?1584279765"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Choose one-\n• Look at the top X cards of your library. Put up to two of them into your hand and the rest on the bottom of your library in a random order.\n• Counter target spell unless its controller pays twice {X}.",
+    "oracle_text": "Choose one —\n• Look at the top X cards of your library. Put up to two of them into your hand and the rest on the bottom of your library in a random order.\n• Counter target spell unless its controller pays twice {X}.",
     "mana_cost": "{X}{U}{U}",
     "cmc": 2,
     "colors": [
@@ -4416,7 +4416,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -4498,7 +4498,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -4519,7 +4519,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -4561,7 +4561,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -4725,7 +4725,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -4746,7 +4746,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -4767,7 +4767,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "thb"
   },
   {
@@ -4788,7 +4788,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -4840,7 +4840,7 @@
     "multiverse_ids": [
       476412
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1581480500"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1583750118"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Each nonland card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)\nAt the beginning of the end step, sacrifice Underworld Breach.",
@@ -4872,7 +4872,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "thb"
   },
   {
@@ -4893,7 +4893,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 0.5,
     "set": "thb"
   },
   {
@@ -4914,7 +4914,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 0,
     "set": "thb"
   },
   {
@@ -5018,7 +5018,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -5039,7 +5039,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "thb"
   },
   {
@@ -5082,7 +5082,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "thb"
   },
   {
@@ -5103,7 +5103,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "thb"
   },
   {
@@ -5124,7 +5124,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "thb"
   },
   {
@@ -5206,7 +5206,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "thb"
   },
   {
