@@ -20,7 +20,7 @@ import ktk from './set-ktk'
 import isd from './set-isd'
 import eld from './set-eld'
 import thb from './set-thb'
-
+import iko from './set-iko'
 
 import cube_gnt from './cube-gnt'
 import cube_vintage_2019 from './cube-vintage-2019'
@@ -49,6 +49,7 @@ const sets = {
   isd,
   eld,
   thb,
+  iko,
   cube_gnt,
   cube_vintage_2019,
   cube_vintage_2020

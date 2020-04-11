@@ -49,7 +49,7 @@ export function initializeStore() {
       name: null
     },
     preferences: {
-      set_code: 'thb',
+      set_code: 'iko',
       format: 'draft',
       pick_timer: false,
       pick_ratings: false,

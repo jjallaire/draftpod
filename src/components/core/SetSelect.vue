@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="iko">
+            Ikoria
+          </option>
           <option value="thb">
             Theros Beyond Death
           </option>

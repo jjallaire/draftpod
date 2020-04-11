@@ -1,0 +1,5601 @@
+[
+  {
+    "id": 800001,
+    "name": "Adaptive Shimmerer",
+    "collector_number": 1,
+    "multiverse_ids": [
+      800001
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d8a2e243-e446-46c6-8a37-e26620951c41.jpg?1586545316"],
+    "layout": "normal",
+    "type_line": "Creature — Insect",
+    "oracle_text": "Flash\nAdaptive Shimmerer enters the battlefield with three +1/+1 counters on it.",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800142,
+    "name": "Adventurous Impulse",
+    "collector_number": 142,
+    "multiverse_ids": [
+      800142
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/0/30811fb2-5767-4106-9a8d-6091f61969c6.jpg?1586515950"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Look at the top three cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800039,
+    "name": "Aegis Turtle",
+    "collector_number": 39,
+    "multiverse_ids": [
+      800039
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/4/e433e7f0-7417-4dfe-a7a4-3f222b0a835f.jpg?1586514932"],
+    "layout": "normal",
+    "type_line": "Creature — Turtle",
+    "oracle_text": "",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "iko"
+  },
+  {
+    "id": 800218,
+    "name": "Alert Heedbonder",
+    "collector_number": 218,
+    "multiverse_ids": [
+      800218
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/5/15a2ccae-c322-4e99-a094-a68fc5d52ea3.jpg?1586297207"],
+    "layout": "normal",
+    "type_line": "Creature — Human Scout",
+    "oracle_text": "Vigilance\nAt the beginning of your end step, you gain 1 life for each creature you control with vigilance.",
+    "mana_cost": "{1}{G/W}{G/W}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800143,
+    "name": "Almighty Brushwagg",
+    "collector_number": 143,
+    "multiverse_ids": [
+      800143
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/1/71f2b7ac-8742-468d-b6a3-87881cb522ff.jpg?1586363155"],
+    "layout": "normal",
+    "type_line": "Creature — Brushwagg",
+    "oracle_text": "Trample\n{3}{G}: Almighty Brushwagg gets +3/+3 until end of turn.",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800040,
+    "name": "Anticipate",
+    "collector_number": 40,
+    "multiverse_ids": [
+      800040
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/6/46b6dfb2-ffe4-44fb-bfd9-df11bc3193df.jpg?1586514971"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800041,
+    "name": "Archipelagore",
+    "collector_number": 41,
+    "multiverse_ids": [
+      800041
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/2/f24b1030-64d5-4c94-a04c-1d9520bfddab.jpg?1585918192"],
+    "layout": "normal",
+    "type_line": "Creature — Leviathan",
+    "oracle_text": "Mutate {5}{U} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, tap up to X target creatures, where X is the number of times this creature has mutated. Those creatures don't untap during their controller's next untap step.",
+    "mana_cost": "{5}{U}{U}",
+    "cmc": 7,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800144,
+    "name": "Auspicious Starrix",
+    "collector_number": 144,
+    "multiverse_ids": [
+      800144
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/3/a39ae1e4-d4dd-4691-af5a-5fa25ace4ebe.jpg?1586185146"],
+    "layout": "normal",
+    "type_line": "Creature — Elk Beast",
+    "oracle_text": "Mutate {5}{G} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, exile cards from the top of your library until you exile X permanent cards, where X is the number of times this creature has mutated. Put those permanent cards onto the battlefield.",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800042,
+    "name": "Avian Oddity",
+    "collector_number": 42,
+    "multiverse_ids": [
+      800042
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/3/f325873b-97de-4701-910f-ec5cdb66de33.jpg?1586516264"],
+    "layout": "normal",
+    "type_line": "Creature — Bird",
+    "oracle_text": "Flying\nCycling {2}{U} ({2}{U}, Discard this card: Draw a card.)\nWhen you cycle Avian Oddity, put a flying counter on target creature you control.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800177,
+    "name": "Back for More",
+    "collector_number": 177,
+    "multiverse_ids": [
+      800177
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/f/3fc7210c-da23-4cec-9195-4de75587f40f.jpg?1585929044"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Return target creature card from your graveyard to the battlefield. When you do, it fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)",
+    "mana_cost": "{4}{B}{G}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800145,
+    "name": "Barrier Breach",
+    "collector_number": 145,
+    "multiverse_ids": [
+      800145
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/822f8403-77a7-4e75-88af-60d604632f5d.jpg?1586185068"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Exile up to three target enchantments.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800073,
+    "name": "Bastion of Remembrance",
+    "collector_number": 73,
+    "multiverse_ids": [
+      800073
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/d/2dd354dd-939e-4b1a-8ed6-fe89a7fd64bf.jpg?1586039942"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "When Bastion of Remembrance enters the battlefield, create a 1/1 white Human Soldier creature token.\nWhenever a creature you control dies, each opponent loses 1 life and you gain 1 life.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800004,
+    "name": "Blade Banish",
+    "collector_number": 4,
+    "multiverse_ids": [
+      800004
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/35a30091-7f68-4a67-b47e-f44318fc93b2.jpg?1586514147"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Exile target creature with power 4 or greater.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800107,
+    "name": "Blazing Volley",
+    "collector_number": 107,
+    "multiverse_ids": [
+      800107
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3adc0288-acdf-4a99-9bfb-919cae1aeb69.jpg?1586517115"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Blazing Volley deals 1 damage to each creature your opponents control.",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800108,
+    "name": "Blisterspit Gremlin",
+    "collector_number": 108,
+    "multiverse_ids": [
+      800108
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/e/4ec65b97-d5c0-4609-8a60-3c4daa3e59c1.jpg?1586517168"],
+    "layout": "normal",
+    "type_line": "Creature — Gremlin",
+    "oracle_text": "{1}, {T}: Blisterspit Gremlin deals 1 damage to each opponent.\nWhenever you cast a noncreature spell, untap Blisterspit Gremlin.",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800074,
+    "name": "Blitz Leech",
+    "collector_number": 74,
+    "multiverse_ids": [
+      800074
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7d9b5bde-a851-480b-b45e-d384fd1c11bb.jpg?1586521218"],
+    "layout": "normal",
+    "type_line": "Creature — Leech",
+    "oracle_text": "Flash\nWhen Blitz Leech enters the battlefield, target creature an opponent controls gets -2/-2 until end of turn. Remove all counters from that creature.",
+    "mana_cost": "{5}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800109,
+    "name": "Blitz of the Thunder-Raptor",
+    "collector_number": 109,
+    "multiverse_ids": [
+      800109
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a0174556-9f9b-4756-84ca-d14a5a60720c.jpg?1586469983"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Blitz of the Thunder-Raptor deals damage to target creature or planeswalker equal to the number of instant and sorcery cards in your graveyard. If that creature or planeswalker would die this turn, exile it instead.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800075,
+    "name": "Blood Curdle",
+    "collector_number": 75,
+    "multiverse_ids": [
+      800075
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/1/4184c851-1419-476c-ba9c-9f0cb1137114.jpg?1585927236"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target creature. Put a menace counter on a creature you control. (It can't be blocked except by two or more creatures.)",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800243,
+    "name": "Bloodfell Caves",
+    "collector_number": 243,
+    "multiverse_ids": [
+      800243
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/c/0c8269e6-b30c-4fdc-82a7-d503c133afa6.jpg?1586517246"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Bloodfell Caves enters the battlefield tapped.\nWhen Bloodfell Caves enters the battlefield, you gain 1 life.\n{T}: Add {B} or {R}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800244,
+    "name": "Blossoming Sands",
+    "collector_number": 244,
+    "multiverse_ids": [
+      800244
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/2/828044d6-0f53-4caf-a581-d71919df4175.jpg?1586517316"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Blossoming Sands enters the battlefield tapped.\nWhen Blossoming Sands enters the battlefield, you gain 1 life.\n{T}: Add {G} or {W}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800245,
+    "name": "Bonder's Enclave",
+    "collector_number": 245,
+    "multiverse_ids": [
+      800245
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/f/4fe9388d-b1ee-4f35-9fbd-5f504528b398.jpg?1586517600"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}: Add {C}.\n{3}, {T}: Draw a card. Activate this ability only if you control a creature with power 4 or greater.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800178,
+    "name": "Boneyard Lurker",
+    "collector_number": 178,
+    "multiverse_ids": [
+      800178
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37e4df5b-ec53-4f8a-8c26-272b3177c0a6.jpg?1586218368"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare Beast",
+    "oracle_text": "Mutate {2}{B/G}{B/G} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, return target permanent card from your graveyard to your hand.",
+    "mana_cost": "{2}{B}{G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800043,
+    "name": "Boon of the Wish-Giver",
+    "collector_number": 43,
+    "multiverse_ids": [
+      800043
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0e790851-f0f7-4f1a-80e6-94be649499b6.jpg?1585924354"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Draw four cards.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800076,
+    "name": "Boot Nipper",
+    "collector_number": 76,
+    "multiverse_ids": [
+      800076
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/f/cff5a5b8-f823-4429-acd8-c4f34a676cb4.jpg?1586515954"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "Boot Nipper enters the battlefield with your choice of a deathtouch counter or a lifelink counter on it.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800146,
+    "name": "Bristling Boar",
+    "collector_number": 146,
+    "multiverse_ids": [
+      800146
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c3c3243c-e9af-4b7d-8296-f7714436e571.jpg?1586185135"],
+    "layout": "normal",
+    "type_line": "Creature — Boar",
+    "oracle_text": "Bristling Boar can't be blocked by more than one creature.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800179,
+    "name": "Brokkos, Apex of Forever",
+    "collector_number": 179,
+    "multiverse_ids": [
+      800179
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/9/c9f07625-fbd8-4581-8568-eb3cfb2a4c1e.jpg?1585838945"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Nightmare Beast Elemental",
+    "oracle_text": "Mutate {2}{U/B}{G}{G} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nTrample\nYou may cast Brokkos, Apex of Forever from your graveyard using its mutate ability.",
+    "mana_cost": "{2}{B}{G}{U}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "iko"
+  },
+  {
+    "id": 800077,
+    "name": "Bushmeat Poacher",
+    "collector_number": 77,
+    "multiverse_ids": [
+      800077
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/cc01faf4-fabb-40c9-a1d6-359280535f91.jpg?1586521118"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "{1}, {T}: Sacrifice another creature: You gain life equal to that creature's toughness. Draw a card.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800078,
+    "name": "Call of the Death-Dweller",
+    "collector_number": 78,
+    "multiverse_ids": [
+      800078
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/37e34017-0aeb-4a93-9edf-596bf3597a0e.jpg?1585927192"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Return up to two target creature cards with total converted mana cost 3 or less from your graveyard to the battlefield. Put a deathtouch counter on either of them. Then put a menace counter on either of them.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800044,
+    "name": "Capture Sphere",
+    "collector_number": 44,
+    "multiverse_ids": [
+      800044
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3c1d2d9d-6eee-4334-bbbe-87e026fa6fc0.jpg?1586183122"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Flash\nEnchant creature\nWhen Capture Sphere enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800110,
+    "name": "Cathartic Reunion",
+    "collector_number": 110,
+    "multiverse_ids": [
+      800110
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/3/43d93cfd-06d1-4c6a-87f6-9b6eaa2a995f.jpg?1586183095"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "As an additional cost to cast this spell, discard two cards.\nDraw three cards.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800079,
+    "name": "Cavern Whisperer",
+    "collector_number": 79,
+    "multiverse_ids": [
+      800079
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/4/64ae7651-4a5c-41f3-b528-41b9b0f2e5d8.jpg?1585924365"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare",
+    "oracle_text": "Mutate {3}{B} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nMenace (This creature can't be blocked except by two or more creatures.)\nWhenever this creature mutates, each opponent discards a card.",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800180,
+    "name": "Channeled Force",
+    "collector_number": 180,
+    "multiverse_ids": [
+      800180
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/8918d24e-8ae8-4028-9f06-ba6fafcc717e.jpg?1585922771"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "As an additional cost to cast this spell, discard X cards.\nTarget player draws X cards. Channeled Force deals X damage to up to one target creature or planeswalker.",
+    "mana_cost": "{2}{U}{R}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800147,
+    "name": "Charge of the Forever-Beast",
+    "collector_number": 147,
+    "multiverse_ids": [
+      800147
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4bf147a6-2282-4120-9cbd-d0309fc9b02b.jpg?1586185013"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "As an additional cost to cast this spell, reveal a creature card from your hand.\nCharge of the Forever-Beast deals damage to target creature or planeswalker equal to the revealed card's power.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800005,
+    "name": "Checkpoint Officer",
+    "collector_number": 5,
+    "multiverse_ids": [
+      800005
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/a/4a0e12f5-7b15-4a8c-b045-35bcbf1fbb90.jpg?1586456597"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "{1}{W}, {T}: Tap target creature.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800181,
+    "name": "Chevill, Bane of Monsters",
+    "collector_number": 181,
+    "multiverse_ids": [
+      800181
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/fecbf0a3-ebe1-43b6-a720-462ba19002eb.jpg?1586517441"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Rogue",
+    "oracle_text": "Deathtouch\nAt the beginning of your upkeep, if your opponents control no permanents with bounty counters on them, put a bounty counter on target creature or planeswalker an opponent controls.\nWhenever a permanent an opponent controls with a bounty counter on it dies, you gain 3 life and draw a card.",
+    "mana_cost": "{B}{G}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800080,
+    "name": "Chittering Harvester",
+    "collector_number": 80,
+    "multiverse_ids": [
+      800080
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/5/d51a0700-d4d3-4b7e-bdb5-6cd913c948d9.jpg?1585924175"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare",
+    "oracle_text": "Mutate {4}{B} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, each opponent sacrifices a creature.",
+    "mana_cost": "{5}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800111,
+    "name": "Clash of Titans",
+    "collector_number": 111,
+    "multiverse_ids": [
+      800111
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/ca10e2b8-a317-4c98-a866-43bf274e82cb.jpg?1586218044"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature fights another target creature. (Each creature deals damage equal to its power to the other.)",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800112,
+    "name": "Cloudpiercer",
+    "collector_number": 112,
+    "multiverse_ids": [
+      800112
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/e/3ec5f005-d8fb-48b8-8ac5-74445cc83273.jpg?1585946426"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "oracle_text": "Mutate {3}{R} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nReach\nWhenever this creature mutates, you may discard a card. If you do, draw a card.",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800148,
+    "name": "Colossification",
+    "collector_number": 148,
+    "multiverse_ids": [
+      800148
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/b/7b6e6f2a-5015-44c6-aa8d-85188494d1a6.jpg?1585927210"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nWhen Colossification enters the battlefield, tap enchanted creature.\nEnchanted creature gets +20/+20.",
+    "mana_cost": "{5}{G}{G}",
+    "cmc": 7,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800045,
+    "name": "Convolute",
+    "collector_number": 45,
+    "multiverse_ids": [
+      800045
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/f/3fd8e607-8179-4ae8-ba7f-f5f22649dc18.jpg?1586515110"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell unless its controller pays {4}.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800006,
+    "name": "Coordinated Charge",
+    "collector_number": 6,
+    "multiverse_ids": [
+      800006
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/2/129c404b-2c1e-4f0b-bb4e-7e8e627a69a8.jpg?1586514247"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Creatures you control get +2/+1 until end of turn.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800081,
+    "name": "Corpse Churn",
+    "collector_number": 81,
+    "multiverse_ids": [
+      800081
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a1c0c764-791d-4181-8f7a-147554d97d97.jpg?1586516237"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Put the top three cards of your library into your graveyard, then you may return a creature card from your graveyard to your hand.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "iko"
+  },
+  {
+    "id": 800046,
+    "name": "Crystacean",
+    "collector_number": 46,
+    "multiverse_ids": [
+      800046
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/2/32afec8a-dbae-446e-919a-3efb556f5cb1.jpg?1586515152"],
+    "layout": "normal",
+    "type_line": "Creature — Crab",
+    "oracle_text": "Flash",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800234,
+    "name": "Crystalline Giant",
+    "collector_number": 234,
+    "multiverse_ids": [
+      800234
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/1146c418-2176-466e-8a06-f2ef6bf2b1a9.jpg?1585946379"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Giant",
+    "oracle_text": "At the beginning of combat on your turn, choose a kind of counter at random that Crystalline Giant doesn't have on it from among flying, first strike, deathtouch, hexproof, lifelink, menace, reach, trample, vigilance, or +1/+1. Put a counter of that kind on Crystalline Giant.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800007,
+    "name": "Cubwarden",
+    "collector_number": 7,
+    "multiverse_ids": [
+      800007
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/cc322744-5d8f-448d-b868-381bb86b68f9.jpg?1586191546"],
+    "layout": "normal",
+    "type_line": "Creature — Cat",
+    "oracle_text": "Mutate {2}{W}{W} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nLifelink\nWhenever this creature mutates, create two 1/1 white Cat creature tokens with lifelink.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800219,
+    "name": "Cunning Nightbonder",
+    "collector_number": 219,
+    "multiverse_ids": [
+      800219
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/d/adb202e7-f9a4-4785-840d-18aa6aa663b4.jpg?1586306627"],
+    "layout": "normal",
+    "type_line": "Creature — Human Rogue",
+    "oracle_text": "Flash\nSpells you cast with flash cost {1} less to cast and can't be countered.",
+    "mana_cost": "{U/B}{U/B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800082,
+    "name": "Dark Bargain",
+    "collector_number": 82,
+    "multiverse_ids": [
+      800082
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6ef6f861-90ef-4e1d-9f17-1dd306e7d0af.jpg?1586516216"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Look at the top three cards of your library. Put two of them into your hand and the other into your graveyard. Dark Bargain deals 2 damage to you.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800008,
+    "name": "Daysquad Marshal",
+    "collector_number": 8,
+    "multiverse_ids": [
+      800008
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/7/17d566bd-f272-49d1-bffb-588f2a42046a.jpg?1586514317"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "When Daysquad Marshal enters the battlefield, create a 1/1 white Human Soldier creature token.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800083,
+    "name": "Dead Weight",
+    "collector_number": 83,
+    "multiverse_ids": [
+      800083
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/c/ecf18476-f67b-46e6-905c-e6808981c58a.jpg?1586521201"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets -2/-2.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800182,
+    "name": "Death's Oasis",
+    "collector_number": 182,
+    "multiverse_ids": [
+      800182
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/112e2cca-bae7-4296-9514-e6058f4b38a5.jpg?1586250213"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever a nontoken creature you control dies, put the top two cards of your library into your graveyard. Then return a creature card with lesser converted mana cost than the creature that died from your graveyard to your hand.\n{1}, Sacrifice Death's Oasis: You gain life equal to the greatest converted mana cost among creatures you control.",
+    "mana_cost": "{W}{B}{G}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800183,
+    "name": "Dire Tactics",
+    "collector_number": 183,
+    "multiverse_ids": [
+      800183
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/0/e0e3974e-3753-4f25-8930-6d96b40332ce.jpg?1585926800"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Exile target creature. If you don't control a Human, you lose life equal to that creature's toughness.",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800084,
+    "name": "Dirge Bat",
+    "collector_number": 84,
+    "multiverse_ids": [
+      800084
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/59677c76-8148-4b6f-95b0-0e3ccf137a3f.jpg?1585927438"],
+    "layout": "normal",
+    "type_line": "Creature — Bat",
+    "oracle_text": "Mutate {4}{B}{B} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nFlash\nFlying\nWhenever this creature mutates, destroy target creature or planeswalker an opponent controls.",
+    "mana_cost": "{2}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4.5,
+    "set": "iko"
+  },
+  {
+    "id": 800246,
+    "name": "Dismal Backwater",
+    "collector_number": 246,
+    "multiverse_ids": [
+      800246
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9de0981e-54fc-4919-96a4-a9608a5452fc.jpg?1586517370"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Dismal Backwater enters the battlefield tapped.\nWhen Dismal Backwater enters the battlefield, you gain 1 life.\n{T}: Add {U} or {B}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800009,
+    "name": "Divine Arrow",
+    "collector_number": 9,
+    "multiverse_ids": [
+      800009
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/b/5b29acc2-5749-4e8a-924d-3c82406e6393.jpg?1586514383"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Divine Arrow deals 4 damage to target attacking or blocking creature.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800010,
+    "name": "Drannith Healer",
+    "collector_number": 10,
+    "multiverse_ids": [
+      800010
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/f/ff5a821c-eaec-4f69-97c7-8299cdebc2f4.jpg?1586606899"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "oracle_text": "Whenever you cycle another card, you gain 1 life.\nCycling {1} ({1}, Discard a card: Draw a card.)",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800011,
+    "name": "Drannith Magistrate",
+    "collector_number": 11,
+    "multiverse_ids": [
+      800011
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/8/98b0a4a8-9319-451b-9b79-b0bca7a41e91.jpg?1585922879"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Your opponents can't cast spells from anywhere other than their hands.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800113,
+    "name": "Drannith Stinger",
+    "collector_number": 113,
+    "multiverse_ids": [
+      800113
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/1/612ee4be-e7a2-423c-a37c-7c6ca97f630e.jpg?1585834476"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Whenever you cycle another card, Drannith Stinger deals 1 damage to each opponent.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800047,
+    "name": "Dreamtail Heron",
+    "collector_number": 47,
+    "multiverse_ids": [
+      800047
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/a/ca777d40-736a-4cd6-85c4-5afd52f2fadd.jpg?1585924264"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Bird",
+    "oracle_text": "Mutate {3}{U} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nFlying\nWhenever this creature mutates, draw a card.",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800085,
+    "name": "Durable Coilbug",
+    "collector_number": 85,
+    "multiverse_ids": [
+      800085
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a0cbdfb6-c029-440f-bc07-c95e03c20110.jpg?1586516373"],
+    "layout": "normal",
+    "type_line": "Creature — Insect",
+    "oracle_text": "{4}{B}: Return Durable Coilbug from your graveyard to your hand.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800086,
+    "name": "Duskfang Mentor",
+    "collector_number": 86,
+    "multiverse_ids": [
+      800086
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/c/fc38fe5d-6c35-4fff-8f1b-726a0685c6f8.jpg?1586456819"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "oracle_text": "When Duskfang Mentor enters the battlefield, put a lifelink counter on target non-Human creature you control.\n{1}{B}, {T}: Put a +1/+1 counter on each creature you control with lifelink.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800087,
+    "name": "Easy Prey",
+    "collector_number": 87,
+    "multiverse_ids": [
+      800087
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/1/312fb6e4-1eb1-4fbb-b7a4-125829a6e96a.jpg?1586451145"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target creature with converted mana cost 2 or less.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800184,
+    "name": "Eerie Ultimatum",
+    "collector_number": 184,
+    "multiverse_ids": [
+      800184
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3a9fb2db-228f-4d48-acdf-6330baf356c7.jpg?1586340906"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Return any number of permanent cards with different names from your graveyard to the battlefield",
+    "mana_cost": "{W}{W}{B}{B}{B}{G}{G}",
+    "cmc": 7,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800185,
+    "name": "Emergent Ultimatum",
+    "collector_number": 185,
+    "multiverse_ids": [
+      800185
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3a6a52ab-6d38-4429-9969-90064e615152.jpg?1586346490"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for up to three different monocolored cards with different names and exile them. An opponent chooses one of those cards. Shuffle that card into your library. You may cast the other cards without paying their mana costs. Exile Emergent Ultimatum.",
+    "mana_cost": "{B}{B}{G}{G}{G}{U}{U}",
+    "cmc": 7,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800048,
+    "name": "Escape Protocol",
+    "collector_number": 48,
+    "multiverse_ids": [
+      800048
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/d/2d3eeddd-c86d-4f35-ba57-3caa9565fcb0.jpg?1586217544"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you cycle a card, you may pay {1}. When you do, exile target creature or artifact you control, then return it to the battlefield under its owner's control.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800049,
+    "name": "Essence Scatter",
+    "collector_number": 49,
+    "multiverse_ids": [
+      800049
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f79c8a0-291e-4e13-b765-4cf8c726cf30.jpg?1586217571"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target creature spell.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800149,
+    "name": "Essence Symbiote",
+    "collector_number": 149,
+    "multiverse_ids": [
+      800149
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8d09ddf0-91f0-4e76-809f-c39ca7418ed5.jpg?1586457024"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "Whenever a creature you control mutates, put a +1/+1 counter on that creature and you gain 2 life.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800114,
+    "name": "Everquill Phoenix",
+    "collector_number": 114,
+    "multiverse_ids": [
+      800114
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/9/3953157f-2deb-4ab7-b4b3-592ebb7c7a9c.jpg?1585989459"],
+    "layout": "normal",
+    "type_line": "Creature — Phoenix",
+    "oracle_text": "Mutate {3}{R} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nFlying\nWhenever this creature mutates, create a red artifact token named Feather with \"{1}, Sacrifice Feather: Return target Phoenix card from your graveyard to the battlefield tapped.\"",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800247,
+    "name": "Evolving Wilds",
+    "collector_number": 247,
+    "multiverse_ids": [
+      800247
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8e3d6745-8904-4905-a98f-d43f18b51d6d.jpg?1586517354"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800150,
+    "name": "Excavation Mole",
+    "collector_number": 150,
+    "multiverse_ids": [
+      800150
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3a1712dc-8f4c-407f-83ea-3a1c59c437d1.jpg?1586516022"],
+    "layout": "normal",
+    "type_line": "Creature — Mole",
+    "oracle_text": "Trample\nWhen Excavation Mole enters the battlefield, put the top three cards of your library into your graveyard.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800088,
+    "name": "Extinction Event",
+    "collector_number": 88,
+    "multiverse_ids": [
+      800088
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/8725a869-462b-4381-880a-b4bcc63a655b.jpg?1586264552"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Choose odd or even. Exile each creature with a converted mana cost of the chosen value. (Zero is even.)",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800151,
+    "name": "Exuberant Wolfbear",
+    "collector_number": 151,
+    "multiverse_ids": [
+      800151
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8c8ff0da-fbe3-4c95-bc39-c975c55b6aea.jpg?1586186663"],
+    "layout": "normal",
+    "type_line": "Creature — Wolf Bear",
+    "oracle_text": "Whenever Exuberant Wolfbear attacks, you may change the base power and toughness of target Human you control to Exuberant Wolfbear's power and toughness until end of turn.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800050,
+    "name": "Facet Reader",
+    "collector_number": 50,
+    "multiverse_ids": [
+      800050
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/1/b1199596-ae77-4192-ae70-3e2ebd009b64.jpg?1586521247"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "{1}, {T}: Draw a card, then discard a card.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800002,
+    "name": "Farfinder",
+    "collector_number": 2,
+    "multiverse_ids": [
+      800002
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/53f63f40-46f1-4b9e-b447-ff9274f2b926.jpg?1586426131"],
+    "layout": "normal",
+    "type_line": "Creature — Fox",
+    "oracle_text": "Vigilance\nWhen Farfinder enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800115,
+    "name": "Ferocious Tigorilla",
+    "collector_number": 115,
+    "multiverse_ids": [
+      800115
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/5976e8d8-5122-4423-b3eb-61170390ad7a.jpg?1586517237"],
+    "layout": "normal",
+    "type_line": "Creature — Cat Ape",
+    "oracle_text": "Ferocious Tigorilla enters the battlefield with your choice of a trample counter or a menace counter on it. (A creature with menace can't be blocked except by two or more creatures.)",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800152,
+    "name": "Fertilid",
+    "collector_number": 152,
+    "multiverse_ids": [
+      800152
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9c6b39b9-0615-4899-8de2-b579d5b12f1c.jpg?1586185164"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Fertilid enters the battlefield with two +1/+1 counters on it.\n{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles their library.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800220,
+    "name": "Fiend Artisan",
+    "collector_number": 220,
+    "multiverse_ids": [
+      800220
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6cd9d800-6d31-42e2-87d2-772db0ff95ed.jpg?1585924224"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare",
+    "oracle_text": "Fiend Artisan gets +1/+1 for each creature card in your graveyard.\n{X}{B/G}, {T}, Sacrifice another creature: Search your library for a creature card with converted mana cost X or less, put it onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.",
+    "mana_cost": "{B/G}{B/G}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800012,
+    "name": "Fight as One",
+    "collector_number": 12,
+    "multiverse_ids": [
+      800012
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c.jpg?1586269051"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one or both—\n• Target Human creature you control gets +1/+1 and gains indestructible until end of turn.\n• Target non-Human creature you control gets +1/+1 and gains indestructible until end of turn.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800116,
+    "name": "Fire Prophecy",
+    "collector_number": 116,
+    "multiverse_ids": [
+      800116
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/c/4c2029e5-cf7d-461f-b7b9-bf96399d8f49.jpg?1586377110"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Fire Prophecy deals 3 damage to target creature. You may put a card from your hand on the bottom of your library. If you do, draw a card.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800117,
+    "name": "Flame Spill",
+    "collector_number": 117,
+    "multiverse_ids": [
+      800117
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/3/b3090004-d7dd-47bc-92e5-977be4fd9ae5.jpg?1586373328"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Flame Spill deals 4 damage to target creature. Excess damage is dealt to that creature's controller instead.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800013,
+    "name": "Flourishing Fox",
+    "collector_number": 13,
+    "multiverse_ids": [
+      800013
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/78b81339-746d-4f71-9943-01c0f6a5683a.jpg?1586183479"],
+    "layout": "normal",
+    "type_line": "Creature — Fox",
+    "oracle_text": "Whenever you cycle another card, put a +1/+1 counter on Flourishing Fox.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800153,
+    "name": "Flycatcher Giraffid",
+    "collector_number": 153,
+    "multiverse_ids": [
+      800153
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/9/1988e220-d746-46e4-a534-164203e63c14.jpg?1586516092"],
+    "layout": "normal",
+    "type_line": "Creature — Antelope Lizard",
+    "oracle_text": "Flycatcher Giraffid enters the battlefield with your choice of a vigilance counter or a reach counter on it.",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800118,
+    "name": "Footfall Crater",
+    "collector_number": 118,
+    "multiverse_ids": [
+      800118
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/1/f1b75aac-54e3-4181-bac5-5a142757ec05.jpg?1585961038"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant land\nEnchanted land has \"{T}: Target creature gains trample and haste until end of turn.\"\nCycling {1} ({1}, Discard this card: Draw a card.)",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800119,
+    "name": "Forbidden Friendship",
+    "collector_number": 119,
+    "multiverse_ids": [
+      800119
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/6/e634baa3-2cdd-412a-9407-c347fe46f9b8.jpg?1586192517"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create a 1/1 red Dinosaur creature token with haste and a 1/1 white Human Soldier creature token.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800272,
+    "name": "Forest",
+    "collector_number": 272,
+    "multiverse_ids": [
+      800272
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/c/9c348494-f60c-4bd1-9077-bff24f2e634b.jpg?1586518815"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800120,
+    "name": "Frenzied Raptor",
+    "collector_number": 120,
+    "multiverse_ids": [
+      800120
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5fb22ac0-3863-4165-8c93-f2ec1775474f.jpg?1586517307"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "oracle_text": "",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800121,
+    "name": "Frillscare Mentor",
+    "collector_number": 121,
+    "multiverse_ids": [
+      800121
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/4/24c7d034-6403-41e2-9e44-4d58ef54cf10.jpg?1586548781"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "When Frillscare Mentor enters the battlefield, put a menace counter on target non-Human creature you control. (It can't be blocked except by two or more creatures)\n{2}{R}, {T}: Put a +1/+1 counter on each creature you control with menace.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800186,
+    "name": "Frondland Felidar",
+    "collector_number": 186,
+    "multiverse_ids": [
+      800186
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/b/ab220695-e1a9-45ec-a1b1-5a82c9c90a03.jpg?1586183302"],
+    "layout": "normal",
+    "type_line": "Creature — Cat Beast",
+    "oracle_text": "Vigilance\nCreatures you control with vigilance have \"{1}, {T}: Tap target creature.\"",
+    "mana_cost": "{2}{G}{W}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800051,
+    "name": "Frost Lynx",
+    "collector_number": 51,
+    "multiverse_ids": [
+      800051
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/f/dfcaeccc-fc8c-4a9e-80d5-b48da71d7ff1.jpg?1586515238"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Cat",
+    "oracle_text": "When Frost Lynx enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800052,
+    "name": "Frostveil Ambush",
+    "collector_number": 52,
+    "multiverse_ids": [
+      800052
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/e/deef1197-e40a-4c9d-919a-213f1bdf3e3e.jpg?1586515297"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+    "mana_cost": "{3}{U}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800154,
+    "name": "Fully Grown",
+    "collector_number": 154,
+    "multiverse_ids": [
+      800154
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b683d3f-025c-4b8d-89d7-3513488649d5.jpg?1585831007"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +3/+3 until end of turn. Put a trample counter on it.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800014,
+    "name": "Garrison Cat",
+    "collector_number": 14,
+    "multiverse_ids": [
+      800014
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/7/e7ff8345-227c-43b4-bed5-af3a34c0a990.jpg?1586272433"],
+    "layout": "normal",
+    "type_line": "Creature — Cat",
+    "oracle_text": "When Garrison Cat dies, create a 1/1 white Human Soldier creature token.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "iko"
+  },
+  {
+    "id": 800155,
+    "name": "Gemrazer",
+    "collector_number": 155,
+    "multiverse_ids": [
+      800155
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/0095245c-a30e-4e2a-88c9-632c678e9f03.jpg?1585989483"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "Mutate {1}{G}{G} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nReach, trample\nWhenever this creature mutates, destroy target artifact or enchantment an opponent controls.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800187,
+    "name": "General Kudro of Drannith",
+    "collector_number": 187,
+    "multiverse_ids": [
+      800187
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/c/2c3227ae-0c72-478a-a6dd-661aaf718038.jpg?1585929059"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Soldier",
+    "oracle_text": "Other Humans you control get +1/+1.\nWhenever General Kudro of Drannith or another Human enters the battlefield under your control, exile target card from an opponent's graveyard.\n{2}, Sacrifice two Humans: Destroy target creature with power 4 or greater.",
+    "mana_cost": "{1}{W}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800188,
+    "name": "General's Enforcer",
+    "collector_number": 188,
+    "multiverse_ids": [
+      800188
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6a45d0e-582a-4ec1-b83b-71b6a0ff6249.jpg?1585918102"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "Legendary Humans you control have indestructible.\n{2}{W}{B}: Exile target card from a graveyard. If it was a creature card, create a 1/1 white Human Soldier creature token.",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800189,
+    "name": "Genesis Ultimatum",
+    "collector_number": 189,
+    "multiverse_ids": [
+      800189
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/5/556dfe7a-43e8-4801-ad79-89ab2148eca6.jpg?1586517905"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Look at the top five cards of your library. Put any number of permanent cards from among them onto the battlefield and the rest into your hand. Exile Genesis Ultimatum.",
+    "mana_cost": "{G}{G}{U}{U}{U}{R}{R}",
+    "cmc": 7,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800053,
+    "name": "Glimmerbell",
+    "collector_number": 53,
+    "multiverse_ids": [
+      800053
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/4/54f71f8a-546a-465e-a254-09a3ae873ef4.jpg?1586515371"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Jellyfish",
+    "oracle_text": "Flying\n{1}{U}: Untap Glimmerbell.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800089,
+    "name": "Gloom Pangolin",
+    "collector_number": 89,
+    "multiverse_ids": [
+      800089
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/f/3f135dd7-2a4f-4c83-9a90-76bcab3cc33d.jpg?1585830275"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare Pangolin",
+    "oracle_text": "",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800156,
+    "name": "Glowstone Recluse",
+    "collector_number": 156,
+    "multiverse_ids": [
+      800156
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/6/06a9698d-400c-4c31-82cd-28d0897fe28c.jpg?1585919247"],
+    "layout": "normal",
+    "type_line": "Creature — Spider",
+    "oracle_text": "Mutate {3}{G} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nReach\nWhenever this creature mutates, put two +1/+1 counters on it.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800122,
+    "name": "Go for Blood",
+    "collector_number": 122,
+    "multiverse_ids": [
+      800122
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/7/67315df9-99a1-45ba-8ade-ddc476368a86.jpg?1586159884"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)\nCycling {1} ({1}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800157,
+    "name": "Greater Sandwurm",
+    "collector_number": 157,
+    "multiverse_ids": [
+      800157
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/9/d90c5650-7eb2-480a-856e-a04406096830.jpg?1586516230"],
+    "layout": "normal",
+    "type_line": "Creature — Wurm",
+    "oracle_text": "Greater Sandwurm can't be blocked by creatures with power 2 or less.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{5}{G}{G}",
+    "cmc": 7,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800090,
+    "name": "Grimdancer",
+    "collector_number": 90,
+    "multiverse_ids": [
+      800090
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/1/819257c8-9806-48bd-ba49-e117ca31de54.jpg?1585834329"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare",
+    "oracle_text": "Grimdancer enters the battlefield with your choice of two different counters on it from among menace, deathtouch, and lifelink.",
+    "mana_cost": "{1}{B}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800054,
+    "name": "Gust of Wind",
+    "collector_number": 54,
+    "multiverse_ids": [
+      800054
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/faabea92-d8cf-4591-b528-3e597d56b31f.jpg?1586515412"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "This spell costs {2} less to cast if you control a creature with flying.\nReturn target nonland permanent you don't control to its owner's hand.\nDraw a card.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800221,
+    "name": "Gyruda, Doom of Depths",
+    "collector_number": 221,
+    "multiverse_ids": [
+      800221
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/7/97eb1804-6fd8-4917-af36-87fdfce39d3a.jpg?1586611036"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Demon Kraken",
+    "oracle_text": "Companion — Your starting deck contains only cards with even converted mana costs. (If this card is your chosen companion, you may cast it once from outside the game.)\nWhen Gyruda, Doom of Depths enters the battlefield, each player puts the top four cards of the library into their graveyard. Put a creature card with an even converted mana cost from among those cards onto the battlefield under your control.",
+    "mana_cost": "{4}{U/B}{U/B}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800055,
+    "name": "Hampering Snare",
+    "collector_number": 55,
+    "multiverse_ids": [
+      800055
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f7b331a-bd21-429b-a49f-88da9a31c98e.jpg?1586515470"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Creatures your opponents control get -2/-0 until end of turn.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800091,
+    "name": "Heartless Act",
+    "collector_number": 91,
+    "multiverse_ids": [
+      800091
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/4/e4e6794a-feeb-4fc8-a2ee-38c75c18aaae.jpg?1586521105"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Destroy target creature with no counters on it.\n• Remove up to three counters from target creature.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800123,
+    "name": "Heightened Reflexes",
+    "collector_number": 123,
+    "multiverse_ids": [
+      800123
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/f/4f7cc8e7-3002-4ee0-869f-931438d8362d.jpg?1586517389"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +1/+0 until end of turn. Put a first strike counter on it.",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800015,
+    "name": "Helica Glider",
+    "collector_number": 15,
+    "multiverse_ids": [
+      800015
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8fc88fe0-2424-49a7-9abf-4773a547d010.jpg?1586288142"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare Squirrel",
+    "oracle_text": "Helica Glider enters the battlefield with your choice of a flying counter or a first strike counter on it.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800158,
+    "name": "Honey Mammoth",
+    "collector_number": 158,
+    "multiverse_ids": [
+      800158
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/4/84b9bee2-b973-4de7-b72d-7f36f8e8153c.jpg?1586516321"],
+    "layout": "normal",
+    "type_line": "Creature — Elephant",
+    "oracle_text": "When Honey Mammoth enters the battlefield, you gain 4 life.",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800159,
+    "name": "Hornbash Mentor",
+    "collector_number": 159,
+    "multiverse_ids": [
+      800159
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d47d2596-a321-44c0-a9f6-87bf80abc1c4.jpg?1586273890"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "When Hornbash Mentor enters the battlefield, put a trample counter on target non-Human creature you control.\n{2}{G}, {T}: Put a +1/+1 counter on each creature you control with trample.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800160,
+    "name": "Humble Naturalist",
+    "collector_number": 160,
+    "multiverse_ids": [
+      800160
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/f/8f56705d-eb64-4cef-b716-edbeac60bf79.jpg?1586516401"],
+    "layout": "normal",
+    "type_line": "Creature — Human Druid",
+    "oracle_text": "{T}: Add one mana of any color. Spend this mana only to cast a creature spell.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800092,
+    "name": "Hunted Nightmare",
+    "collector_number": 92,
+    "multiverse_ids": [
+      800092
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f2dddce-583e-4af3-b144-a60dd268e84f.jpg?1586516446"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare",
+    "oracle_text": "Menace\nWhen Hunted Nightmare enters the battlefield, target opponent puts a deathtouch counter on a creature they control.",
+    "mana_cost": "{1}{B}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800016,
+    "name": "Huntmaster Liger",
+    "collector_number": 16,
+    "multiverse_ids": [
+      800016
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/5/058d6a7d-12b0-4d82-a5bd-91fa44bbc5e1.jpg?1585830264"],
+    "layout": "normal",
+    "type_line": "Creature — Cat",
+    "oracle_text": "Mutate {2}{W} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, other creatures you control get +X/+X until end of turn, where X is the number of times this creature has mutated.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800190,
+    "name": "Illuna, Apex of Wishes",
+    "collector_number": 190,
+    "multiverse_ids": [
+      800190
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/f/9fc99c81-d112-4811-9bba-77a14d904692.jpg?1585830265"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Beast Elemental Dinosaur",
+    "oracle_text": "Mutate {3}{R/G}{U}{U} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nFlying, trample\nWhenever this creature mutates, exile cards from the top of your library until you exile a nonland permanent card. Put that card onto the battlefield or into your hand.",
+    "mana_cost": "{2}{G}{U}{R}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "iko"
+  },
+  {
+    "id": 800017,
+    "name": "Imposing Vantasaur",
+    "collector_number": 17,
+    "multiverse_ids": [
+      800017
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/6/b6fa5feb-f5e9-4079-acc9-84e458044769.jpg?1586531560"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "oracle_text": "Vigilance\nCycling {1} ({1}, Discard this card: Draw a card.)",
+    "mana_cost": "{5}{W}",
+    "cmc": 6,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800235,
+    "name": "Indatha Crystal",
+    "collector_number": 235,
+    "multiverse_ids": [
+      800235
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/d/bdace59f-f025-4717-8eb4-3d1e13b31d2b.jpg?1585948958"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {W}, {B}, or {G}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800248,
+    "name": "Indatha Triome",
+    "collector_number": 248,
+    "multiverse_ids": [
+      800248
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2b74bb81-fb9a-40e5-a941-e517430b52f5.jpg?1586470074"],
+    "layout": "normal",
+    "type_line": "Land — Plains Forest Swamp",
+    "oracle_text": "({T}: Add {W}, {B}, or {G}.)\nIndatha Triome enters the battlefield tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800093,
+    "name": "Insatiable Hemophage",
+    "collector_number": 93,
+    "multiverse_ids": [
+      800093
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/0/70419590-2e0d-4232-b596-a5359b284647.jpg?1586103336"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare",
+    "oracle_text": "Mutate {2}{B} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nDeathtouch\nWhenever this creature mutates, each opponent loses X life and you gain X life, where X is the number of times this creature has mutated.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800191,
+    "name": "Inspired Ultimatum",
+    "collector_number": 191,
+    "multiverse_ids": [
+      800191
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/d/dd64f064-8f05-41ef-b95b-1b723137f846.jpg?1586524450"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target player gains 5 life. Inspired Ultimatum deals 5 damage to any target. You draw five cards.",
+    "mana_cost": "{U}{U}{R}{R}{R}{W}{W}",
+    "cmc": 7,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800263,
+    "name": "Island",
+    "collector_number": 263,
+    "multiverse_ids": [
+      800263
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/b/4b2ad5b3-7257-4521-8916-6b1cbfb89e27.jpg?1586518244"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800161,
+    "name": "Ivy Elemental",
+    "collector_number": 161,
+    "multiverse_ids": [
+      800161
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/e/8e8aea71-02aa-4799-86fb-efd2a36efc22.jpg?1586516489"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "Ivy Elemental enters the battlefield with X +1/+1 counters on it.",
+    "mana_cost": "{X}{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800222,
+    "name": "Jegantha, the Wellspring",
+    "collector_number": 222,
+    "multiverse_ids": [
+      800222
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/d/1d52e527-3835-4350-8c01-0f2d5d623b9c.jpg?1586500745"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elemental Elk",
+    "oracle_text": "Companion — No card in your starting deck has more than one of the same mana symbol in its mana cost. (If this card is your chosen companion, you may cast it once from outside the game.)\n{T}: Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs.",
+    "mana_cost": "{4}{R/G}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800223,
+    "name": "Jubilant Skybonder",
+    "collector_number": 223,
+    "multiverse_ids": [
+      800223
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/f/7f8f2d69-fba9-40e5-8ef7-75e14ef4070a.jpg?1586457162"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Flying\nCreatures you control with flying have \"Spells your opponents cast that target this creature cost {2} more to cast.\"",
+    "mana_cost": "{1}{W/U}{W/U}",
+    "cmc": 3,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800249,
+    "name": "Jungle Hollow",
+    "collector_number": 249,
+    "multiverse_ids": [
+      800249
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/1/01926862-bf2d-4a2b-af94-1ea5e4dd7444.jpg?1586517394"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Jungle Hollow enters the battlefield tapped.\nWhen Jungle Hollow enters the battlefield, you gain 1 life.\n{T}: Add {B} or {G}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800224,
+    "name": "Kaheera, the Orphanguard",
+    "collector_number": 224,
+    "multiverse_ids": [
+      800224
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d4ebed0b-8060-4a7b-a060-5cfcd2172b16.jpg?1586433878"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Cat Beast",
+    "oracle_text": "Companion — Each creature card in your starting deck is a Cat, Elemental, Nightmare, Dinosaur, or Beast card. (If this card is your chosen companion, you may cast it once from outside the game.)\nVigilance\nEach other creature you control that's a Cat, Elemental, Nightmare, Dinosaur, or Beast gets +1/+1 and has vigilance.",
+    "mana_cost": "{1}{G/W}{G/W}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800018,
+    "name": "Keensight Mentor",
+    "collector_number": 18,
+    "multiverse_ids": [
+      800018
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/0/a0583065-9a6c-4ea4-b6dd-2edfbaed1181.jpg?1586550834"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "oracle_text": "When Keensight Mentor enters the battlefield, put a vigilance counter on target non-Human creature you control.\n{1}{W}, {T}: Put a +1/+1 counter on each creature you control with vigilance.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800056,
+    "name": "Keep Safe",
+    "collector_number": 56,
+    "multiverse_ids": [
+      800056
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/e/febfa682-76ae-4979-a40c-c1eae1121f3c.jpg?1586306431"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell that targets a permanent you control.\nDraw a card.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800236,
+    "name": "Ketria Crystal",
+    "collector_number": 236,
+    "multiverse_ids": [
+      800236
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/d/7df435cb-3aeb-490a-8fca-91f3b6936965.jpg?1585948962"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {G}, {U}, or {R}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800250,
+    "name": "Ketria Triome",
+    "collector_number": 250,
+    "multiverse_ids": [
+      800250
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a249b1f4-2b22-4b67-a207-e0c4ae95d2e1.jpg?1586470069"],
+    "layout": "normal",
+    "type_line": "Land — Forest Island Mountain",
+    "oracle_text": "({T}: Add {G}, {U}, or {R}.)\nKetria Triome enters the battlefield tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800192,
+    "name": "Kinnan, Bonder Prodigy",
+    "collector_number": 192,
+    "multiverse_ids": [
+      800192
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/3/63cda4a0-0dff-4edb-ae67-a2b7e2971350.jpg?1586439211"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Druid",
+    "oracle_text": "Whenever you tap a nonland permanent for mana, add one mana of any type that permanent produced.\n{5}{G}{U}: Look at the top five cards of your library. You may put a non-Human creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800162,
+    "name": "Kogla, the Titan Ape",
+    "collector_number": 162,
+    "multiverse_ids": [
+      800162
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/c/3c35ca79-eb72-427a-a8ed-404b2214389a.jpg?1586218198"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Ape",
+    "oracle_text": "When Kogla, the Titan Ape enters the battlefield, it fights up to one target creature you don't control.\nWhenever Kogla attacks, destroy target artifact or enchantment defending player control.\n{1}{G}: Return target Human you control to its owner's hand. Kogla gains indestructible until end of turn.",
+    "mana_cost": "{3}{G}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800193,
+    "name": "Labyrinth Raptor",
+    "collector_number": 193,
+    "multiverse_ids": [
+      800193
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/6/c608543d-cb60-44c3-a437-e4a18c311420.jpg?1585870921"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare Dinosaur",
+    "oracle_text": "Menace\nWhenever a creature you control with menace becomes blocked, defending player sacrifices a creature blocking it.\n{B}{R}: Creatures you control with menace get +1/+0 until end of turn.",
+    "mana_cost": "{B}{R}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800019,
+    "name": "Lavabrink Venturer",
+    "collector_number": 19,
+    "multiverse_ids": [
+      800019
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/8/38c0d9d6-c9c7-4169-8106-400445643a1a.jpg?1586306219"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "As Lavabrink Venturer enters the battlefield, choose odd or even. (Zero is even.)\nLavabrink Venturer has protection from each converted mana cost of the chosen value.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800124,
+    "name": "Lava Serpent",
+    "collector_number": 124,
+    "multiverse_ids": [
+      800124
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/0/00ebd57f-7f7c-41b0-aa56-511c1816bc14.jpg?1586517533"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Serpent",
+    "oracle_text": "Haste\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{5}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800163,
+    "name": "Lead the Stampede",
+    "collector_number": 163,
+    "multiverse_ids": [
+      800163
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/e/9e76b676-c7a3-4de6-a78d-3059a0df83f2.jpg?1586446513"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800020,
+    "name": "Light of Hope",
+    "collector_number": 20,
+    "multiverse_ids": [
+      800020
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bcb00599-e082-49b0-88f3-ef91b75595e4.jpg?1586514524"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• You gain 4 life.\n• Destroy target enchantment.\n• Put a +1/+1 counter on target creature.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800194,
+    "name": "Lore Drakkis",
+    "collector_number": 194,
+    "multiverse_ids": [
+      800194
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/3/83e035ca-eccd-4b63-817c-f2c676b9c98d.jpg?1586182437"],
+    "layout": "normal",
+    "type_line": "Creature — Lizard Beast",
+    "oracle_text": "Mutate {U/R}{U/R} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, return target instant or sorcery card from your graveyard to your hand.",
+    "mana_cost": "{1}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800125,
+    "name": "Lukka, Coppercoat Outcast",
+    "collector_number": 125,
+    "multiverse_ids": [
+      800125
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/7/5798fdf0-d178-43d9-b821-8f3f654654b4.jpg?1585830275"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Lukka",
+    "oracle_text": "+1: Exile the top three cards of your library. Creature cards exiled this way gain \"You may cast this card from exile as long as you control a Lukka planeswalker.\"\n−2: Exile target creature you control, then reveal cards from the top of your library until you reveal a creature card with higher converted mana cost. Put that card onto the battlefield and the rest on the bottom of your library in a random order.\n−7: Each creature you control deals damage equal to its power to each opponent.",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800094,
+    "name": "Lurking Deadeye",
+    "collector_number": 94,
+    "multiverse_ids": [
+      800094
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/3/43925a8d-dd02-4907-929e-c015d678bb49.jpg?1586516495"],
+    "layout": "normal",
+    "type_line": "Creature — Human Assassin",
+    "oracle_text": "Flash\nWhen Lurking Deadeye enters the battlefield, destroy target creature that was dealt damage this turn.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800226,
+    "name": "Lurrus of the Dream-Den",
+    "collector_number": 226,
+    "multiverse_ids": [
+      800226
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5ad36fb2-c44e-4085-ba0d-54277841ad3a.jpg?1586361266"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Cat Nightmare",
+    "oracle_text": "Companion — Each permanent card in your starting deck has converted mana cost 2 or less. (If this card is your chosen companion, you may cast it once from outside the game.)\nLifelink\nDuring each of your turns, you may cast one permanent spell with converted mana cost 2 or less from your graveyard.",
+    "mana_cost": "{1}{W/B}{W/B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800227,
+    "name": "Lutri, the Spellchaser",
+    "collector_number": 227,
+    "multiverse_ids": [
+      800227
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/b/fb1189c9-7842-466e-8238-1e02677d8494.jpg?1586362188"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elemental Otter",
+    "oracle_text": "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may cast it once from outside the game.)\nFlash\nWhen Lutri, the Spellchaser enters the battlefield, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy.",
+    "mana_cost": "{1}{U/R}{U/R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800022,
+    "name": "Majestic Auricorn",
+    "collector_number": 22,
+    "multiverse_ids": [
+      800022
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8df320c9-449a-457e-8688-f611aceb3352.jpg?1586271346"],
+    "layout": "normal",
+    "type_line": "Creature — Unicorn",
+    "oracle_text": "Mutate {3}{W} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nVigilance\nWhenever this creature mutates, you gain 4 life.",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800023,
+    "name": "Maned Serval",
+    "collector_number": 23,
+    "multiverse_ids": [
+      800023
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5ac51e35-e2c5-4457-981c-e59894584288.jpg?1586514703"],
+    "layout": "normal",
+    "type_line": "Creature — Cat",
+    "oracle_text": "Vigilance",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "iko"
+  },
+  {
+    "id": 800095,
+    "name": "Memory Leak",
+    "collector_number": 95,
+    "multiverse_ids": [
+      800095
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/b/3b45a493-a1c2-430e-a45c-abc1ba554877.jpg?1586516570"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target opponent reveals their hand. You choose a nonland card from that player's graveyard or hand and exile it.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800164,
+    "name": "Migration Path",
+    "collector_number": 164,
+    "multiverse_ids": [
+      800164
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/3/d345ca63-16a3-4988-93f5-d0e00e8d6ab0.jpg?1586185270"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800165,
+    "name": "Migratory Greathorn",
+    "collector_number": 165,
+    "multiverse_ids": [
+      800165
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/a/6a2a287b-b83f-444f-84f7-e388beb616c2.jpg?1586185302"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "Mutate {2}{G} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800126,
+    "name": "Momentum Rumbler",
+    "collector_number": 126,
+    "multiverse_ids": [
+      800126
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/5/3587f450-c1ba-4074-84bb-47978a2b6116.jpg?1586469911"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "oracle_text": "Whenever Momenmtum Rumbler attacks, if it doesn't have first strike, put a first strike counter on it.\nWhenever Momenmtum Rumbler attacks, if it has first strike, it gains double strike until end of turn.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800166,
+    "name": "Monstrous Step",
+    "collector_number": 166,
+    "multiverse_ids": [
+      800166
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/893f300b-a823-4156-90f2-0636e9f499b0.jpg?1586521339"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target creature gets +7/+7 until end of turn. Up to one other target creature blocks it this turn if able.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800167,
+    "name": "Mosscoat Goriak",
+    "collector_number": 167,
+    "multiverse_ids": [
+      800167
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/2/c23139d4-0db5-4683-8d49-f4600fbe29e2.jpg?1586218226"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "Vigilance",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "iko"
+  },
+  {
+    "id": 800269,
+    "name": "Mountain",
+    "collector_number": 269,
+    "multiverse_ids": [
+      800269
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae3d2fcd-11e0-4071-8c53-cb3315b7360a.jpg?1586520253"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800096,
+    "name": "Mutual Destruction",
+    "collector_number": 96,
+    "multiverse_ids": [
+      800096
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/5/85ac0b25-80bf-4871-a6f6-5cf4d5b9496e.jpg?1586516623"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "This spell has flash as long as you control a permanent with flash.\nAs an additional cost to cast this spell, sacrifice a creature.\nDestroy target creature.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800003,
+    "name": "Mysterious Egg",
+    "collector_number": 3,
+    "multiverse_ids": [
+      800003
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/d/cdfac3c3-7f38-49d6-bd88-dc0f5001116f.jpg?1585928467"],
+    "layout": "normal",
+    "type_line": "Creature — Egg",
+    "oracle_text": "Whenever this creature mutates, put a +1/+1 counter on it.",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800057,
+    "name": "Mystic Subdual",
+    "collector_number": 57,
+    "multiverse_ids": [
+      800057
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/2/627c2111-b7d7-40bc-aa30-57d72338b32d.jpg?1586515617"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Flash\nEnchant creature\nEnchanted creature gets -2/-0 and loses all abilities. (Mutating onto the creature won't give it new abilities. It can gain abilities in other ways.)",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800168,
+    "name": "Mythos of Brokkos",
+    "collector_number": 168,
+    "multiverse_ids": [
+      800168
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/fa4fc5b1-6666-4c60-898f-f927212c7923.jpg?1586249533"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "If {U}{B} was spent to cast Mythos of Brokkos, search your library for a card, put that card into your graveyard, then shuffle your library.\nReturn up to two permanent cards from your graveyard to your hand.",
+    "mana_cost": "{2}{G}{G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800058,
+    "name": "Mythos of Illuna",
+    "collector_number": 58,
+    "multiverse_ids": [
+      800058
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/1/f1b07082-c5a5-4283-a2f5-5b1e0120d752.jpg?1586555174"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create a token that's a copy of target permanent. If {R}{G} was spent to cast this spell, instead create a token that's a copy of that permanent, except the token has \"When this permanent enters the battlefield, if it's a creature, it fights up to one target creature you don't control.\"",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800097,
+    "name": "Mythos of Nethroi",
+    "collector_number": 97,
+    "multiverse_ids": [
+      800097
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/a/6abc24e1-e721-471a-9efd-547f320675b0.jpg?1586111259"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target nonland permanent if it's a creature or if {G}{W} was spent to cast this spell.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4.5,
+    "set": "iko"
+  },
+  {
+    "id": 800024,
+    "name": "Mythos of Snapdax",
+    "collector_number": 24,
+    "multiverse_ids": [
+      800024
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/7/2712a1a3-dd28-44c8-a661-5bcf68d3acaa.jpg?1585927329"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest. If {B}{R} was spent to cast this spell, you choose the permanents for each player instead.",
+    "mana_cost": "{2}{W}{W}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800127,
+    "name": "Mythos of Vadrok",
+    "collector_number": 127,
+    "multiverse_ids": [
+      800127
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/b/2bbe99a7-3b58-4f23-bf86-e1e35b0bec2e.jpg?1586274051"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Mythos of Vadrok deals 5 damage divided as you choose among any number of target creatures and/or planeswalkers. If {W}{U} was spent to cast this spell, until your next turn, those permanents can't attack or block and their activated abilities can't be activated.",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800195,
+    "name": "Narset of the Ancient Way",
+    "collector_number": 195,
+    "multiverse_ids": [
+      800195
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/a/fa7b28d8-b835-44a0-978d-cadfd392fff5.jpg?1586348457"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Narset",
+    "oracle_text": "+1: You gain 2 life. Add {U}, {R}, or {W}. Spend this mana only to cast a noncreature spell.\n−2: Draw a card, then you may discard a card. When you discard a nonland card this way, Narset of the Ancient Way deals damage equal to that card's converted mana cost to target creature or planeswalker.\n−6: You get an emblem with \"Whenever you cast a noncreature spell, this emblem deals 2 damage to any target.\"",
+    "mana_cost": "{1}{U}{R}{W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800196,
+    "name": "Necropanther",
+    "collector_number": 196,
+    "multiverse_ids": [
+      800196
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/e/2e1ed055-8988-4625-9d57-8ce8a4e04aea.jpg?1586366348"],
+    "layout": "normal",
+    "type_line": "Creature — Cat Nightmare",
+    "oracle_text": "Mutate {2}{W/B}{W/B} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.",
+    "mana_cost": "{1}{W}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800197,
+    "name": "Nethroi, Apex of Death",
+    "collector_number": 197,
+    "multiverse_ids": [
+      800197
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/c/8ca6eb5a-8bc9-4091-bcfb-b207f0afd188.jpg?1586043521"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Cat Nightmare Beast",
+    "oracle_text": "Mutate {4}{G/W}{B}{B} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nDeathtouch, lifelink\nWhenever this creature mutates, return any number of target creature cards with total power 10 or less from your graveyard to the battlefield.",
+    "mana_cost": "{2}{W}{B}{G}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "iko"
+  },
+  {
+    "id": 800059,
+    "name": "Neutralize",
+    "collector_number": 59,
+    "multiverse_ids": [
+      800059
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/4/0430da3c-9460-4b62-ae28-2e7e6f4d06a4.jpg?1585920468"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800098,
+    "name": "Nightsquad Commando",
+    "collector_number": 98,
+    "multiverse_ids": [
+      800098
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/80306d10-0da7-4ee7-b975-ef6c9b535a2a.jpg?1586516688"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "When Nightsquad Commando enters the battlefield, if you attacked this turn, create a 1/1 white Human Soldier creature token.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800228,
+    "name": "Obosh, the Preypiercer",
+    "collector_number": 228,
+    "multiverse_ids": [
+      800228
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/5/451507de-9c42-43ee-b9ba-1f69e9aa29d2.jpg?1586611088"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Hellion Horror",
+    "oracle_text": "Companion — Your starting deck contains only cards with odd converted mana costs and land cards. (If this card is your chosen companion, you may cast it once from outside the game.)\nIf a source you control with an odd converted mana cost would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.",
+    "mana_cost": "{3}{B/R}{B/R}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800198,
+    "name": "Offspring's Revenge",
+    "collector_number": 198,
+    "multiverse_ids": [
+      800198
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/78619ffb-f514-4f9f-9d77-3ab49e045f7c.jpg?1586457085"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "At the beginning of combat on your turn, exile target red, white, or black creature card from your graveyard. Create a token that's a copy of that card, except it's 1/1. It gains haste until your next turn.",
+    "mana_cost": "{2}{R}{W}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800060,
+    "name": "Of One Mind",
+    "collector_number": 60,
+    "multiverse_ids": [
+      800060
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/9/c95fb136-f21d-4f3a-82b7-bcf490b7e90c.jpg?1586456851"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "This spell costs {2} less to cast if you control a Human creature and a non-Human creature.\nDraw two cards.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800061,
+    "name": "Ominous Seas",
+    "collector_number": 61,
+    "multiverse_ids": [
+      800061
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce8965f2-756a-4461-a643-db024a11c2de.jpg?1586217626"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you draw a card, put a foreshadow counter on Ominous Seas.\nRemove eight foreshadow counters from Ominous Seas: Create an 8/8 blue Kraken creature token.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800025,
+    "name": "Pacifism",
+    "collector_number": 25,
+    "multiverse_ids": [
+      800025
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/4/7/47adc9fc-d620-4cb7-a03c-8d9578992249.jpg?1585829944"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature can't attack or block.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800199,
+    "name": "Parcelbeast",
+    "collector_number": 199,
+    "multiverse_ids": [
+      800199
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/1/610bb98c-d66a-44cc-92e2-a80d700b59e4.jpg?1586266302"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Beast",
+    "oracle_text": "Mutate {G}{U} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\n{1}, {T}: Look at the top card of your library. If it's a land card, you may put it onto the battlefield. If you don't put the card onto the battlefield, put it into your hand.",
+    "mana_cost": "{2}{G}{U}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800026,
+    "name": "Patagia Tiger",
+    "collector_number": 26,
+    "multiverse_ids": [
+      800026
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/e/be398100-89e2-432b-8017-74fb7e4dbc26.jpg?1586220948"],
+    "layout": "normal",
+    "type_line": "Creature — Cat",
+    "oracle_text": "Flying\nWhen Patagia Tiger enters the battlefield, target Human you control gets +2/+2 until end of turn.",
+    "mana_cost": "{4}{W}",
+    "cmc": 5,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800027,
+    "name": "Perimeter Sergeant",
+    "collector_number": 27,
+    "multiverse_ids": [
+      800027
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/a/2a174587-d964-48b3-8f69-fa576c1b8bba.jpg?1586514826"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "Whenever Perimeter Sergeant attacks, other Humans you control get +1/+0 until end of turn.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800062,
+    "name": "Phase Dolphin",
+    "collector_number": 62,
+    "multiverse_ids": [
+      800062
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/8/88fb4042-e9c1-4b0f-b1f6-4180b0d79663.jpg?1585920738"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Whale",
+    "oracle_text": "Whenever Phase Dolphin attacks, another target attacking creature can't be blocked this turn.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800260,
+    "name": "Plains",
+    "collector_number": 260,
+    "multiverse_ids": [
+      800260
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/6/16ebbce9-fd10-4c14-b52d-cf82c0c1a58c.jpg?1586518089"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800169,
+    "name": "Plummet",
+    "collector_number": 169,
+    "multiverse_ids": [
+      800169
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/8/d884b2f2-946e-4d5d-b8cf-ef035726a188.jpg?1586521369"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target creature with flying.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800063,
+    "name": "Pollywog Symbiote",
+    "collector_number": 63,
+    "multiverse_ids": [
+      800063
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/7/77adf375-e7d7-4ebd-8c86-ad7e822a5483.jpg?1585835649"],
+    "layout": "normal",
+    "type_line": "Creature — Frog",
+    "oracle_text": "Each creature spell you cast costs {1} less to cast if it has mutate.\nWhenever you cast a creature spell, if it has mutate, draw a card, then discard a card.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800128,
+    "name": "Porcuparrot",
+    "collector_number": 128,
+    "multiverse_ids": [
+      800128
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/5/856892c8-ba47-46d0-aec2-0416b55b9e88.jpg?1586469923"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Beast",
+    "oracle_text": "Mutate {2}{R} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\n{T}: This creature deals X damage to any target, where X is the number of times this creature has mutated.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800064,
+    "name": "Pouncing Shoreshark",
+    "collector_number": 64,
+    "multiverse_ids": [
+      800064
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/8/c859b339-b55b-41fe-948c-27502e3b3ea8.jpg?1586043487"],
+    "layout": "normal",
+    "type_line": "Creature — Shark Beast",
+    "oracle_text": "Mutate {3}{U} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nFlash\nWhenever this creature mutates, you may return target creature an opponent controls to its owner's hand.",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800129,
+    "name": "Prickly Marmoset",
+    "collector_number": 129,
+    "multiverse_ids": [
+      800129
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/bad8512f-31b9-48ba-bb10-1497303dcfba.jpg?1586517597"],
+    "layout": "normal",
+    "type_line": "Creature — Monkey",
+    "oracle_text": "First strike\nWhenever you cycle a card, Prickly Marmoset gets +2/+0 until end of turn.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800200,
+    "name": "Primal Empathy",
+    "collector_number": 200,
+    "multiverse_ids": [
+      800200
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/3/034e0afb-7787-4cb8-8bb4-cf6997dbf7e4.jpg?1585871050"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "At the beginning of your upkeep, draw a card if you control a creature with the greatest power among creatures on the battlefield. Otherwise, put a +1/+1 counter on a creature you control.",
+    "mana_cost": "{1}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800229,
+    "name": "Proud Wildbonder",
+    "collector_number": 229,
+    "multiverse_ids": [
+      800229
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/4/f4876e17-a206-4351-9c0b-0845db4569a3.jpg?1585920261"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Trample\nCreatures you control with trample have \"You may have this creature assign its combat damage as though it weren't blocked.\"",
+    "mana_cost": "{2}{R/G}{R/G}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800130,
+    "name": "Pyroceratops",
+    "collector_number": 130,
+    "multiverse_ids": [
+      800130
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/f/6/f6599645-dbb5-4174-bd26-8556af6d89c3.jpg?1586517652"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Dinosaur",
+    "oracle_text": "Trample\nWhenever you cast a noncreature spell, put a +1/+1 counter on Pyroceratops.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800201,
+    "name": "Quartzwood Crasher",
+    "collector_number": 201,
+    "multiverse_ids": [
+      800201
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/8/c8e4c609-19c9-433b-a852-7999e375ee4f.jpg?1586218499"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur Beast",
+    "oracle_text": "Trample\nWhenever one or more creatures you control with trample deal combat damage to a player, create an X/X green Dinosaur Beast creature token with trample, where X is the amount of damage those creatures dealt to that player.",
+    "mana_cost": "{2}{R}{R}{G}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800131,
+    "name": "Raking Claws",
+    "collector_number": 131,
+    "multiverse_ids": [
+      800131
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/e/6eb0d9a2-f9bb-4d8e-a1ca-896c42f8ad56.jpg?1586517706"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gains double strike until end of turn.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "iko"
+  },
+  {
+    "id": 800170,
+    "name": "Ram Through",
+    "collector_number": 170,
+    "multiverse_ids": [
+      800170
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/c/ac0b24e7-14e7-45ee-b5d8-bdb8674b669c.jpg?1586516691"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature you control deals damage equal to its power to target creature you don't control. If the creature you control has trample, excess damage is dealt to that creature's controller instead.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800238,
+    "name": "Raugrin Crystal",
+    "collector_number": 238,
+    "multiverse_ids": [
+      800238
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/5/c5bce0fb-53d6-47ee-8c5a-a99e50f67fc9.jpg?1585927279"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {U}, {R}, or {W}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800251,
+    "name": "Raugrin Triome",
+    "collector_number": 251,
+    "multiverse_ids": [
+      800251
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/2/02138fbb-3962-4348-8d31-faaefba0b8b2.jpg?1586470062"],
+    "layout": "normal",
+    "type_line": "Land — Island Mountain Plains",
+    "oracle_text": "({T}: Add {U}, {R}, or {W}.)\nRaugrin Triome enters the battlefield tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800065,
+    "name": "Reconnaissance Mission",
+    "collector_number": 65,
+    "multiverse_ids": [
+      800065
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/e/ae9f7efa-d125-4f83-825e-172ea099a62a.jpg?1585921195"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever a creature you control deals combat damage to a player, you may draw a card.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800202,
+    "name": "Regal Leosaur",
+    "collector_number": 202,
+    "multiverse_ids": [
+      800202
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/6/b6fdf313-740b-4976-911f-9fb5eb54afce.jpg?1586421924"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur Cat",
+    "oracle_text": "Mutate {1}{R/W}{R/W} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, other creatures you control get +2/+1 until end of turn.",
+    "mana_cost": "{R}{W}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800132,
+    "name": "Reptilian Reflection",
+    "collector_number": 132,
+    "multiverse_ids": [
+      800132
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/7871b4dd-9085-4a3f-a1ae-9a292f73689b.jpg?1586555151"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you cycle a card, Reptilian Reflection becomes a 5/4 Dinosaur creature with trample and haste in addition to its other types until end of turn.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800203,
+    "name": "Rielle, the Everwise",
+    "collector_number": 203,
+    "multiverse_ids": [
+      800203
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f03c944-1929-4cb2-a373-d57eefa29ed1.jpg?1586469953"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Wizard",
+    "oracle_text": "Rielle, the Everwise gets +1/+0 for each instant and sorcery card in your graveyard.\nWhenever you discard one or more cards for the first time each turn, draw that many cards.",
+    "mana_cost": "{1}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800133,
+    "name": "Rooting Moloch",
+    "collector_number": 133,
+    "multiverse_ids": [
+      800133
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/cc2fd581-5cf8-4154-90dd-922afddcd556.jpg?1586218127"],
+    "layout": "normal",
+    "type_line": "Creature — Lizard",
+    "oracle_text": "When Rooting Moloch enters the battlefield, exile target card with a cycling ability from your graveyard. Until the end of your next turn, you may play that card.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800252,
+    "name": "Rugged Highlands",
+    "collector_number": 252,
+    "multiverse_ids": [
+      800252
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/a/9a69fa8f-1c2b-453d-8d54-2748890ce925.jpg?1586517543"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Rugged Highlands enters the battlefield tapped.\nWhen Rugged Highlands enters the battlefield, you gain 1 life.\n{T}: Add {R} or {G}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800204,
+    "name": "Ruinous Ultimatum",
+    "collector_number": 204,
+    "multiverse_ids": [
+      800204
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/50c1d6ca-7789-46b5-bc89-85cc3915cb85.jpg?1586457817"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Destroy all nonland permanents your opponents control.",
+    "mana_cost": "{R}{R}{W}{W}{W}{B}{B}",
+    "cmc": 7,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800134,
+    "name": "Rumbling Rockslide",
+    "collector_number": 134,
+    "multiverse_ids": [
+      800134
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/6/96f9aaa7-11c7-4cd0-9803-9471c14ab846.jpg?1586517757"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Rumbling Rockslide deals damage to target creature equal to the number of lands you control.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800028,
+    "name": "Sanctuary Lockdown",
+    "collector_number": 28,
+    "multiverse_ids": [
+      800028
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/3/1387b7be-f69e-4919-9070-a89654c656f3.jpg?1586521051"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Humans you control get +1/+1.\n{2}, Tap two untapped Humans you control: Tap target creature an opponent controls.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800135,
+    "name": "Sanctuary Smasher",
+    "collector_number": 135,
+    "multiverse_ids": [
+      800135
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/cc634c10-42c5-4bdc-bc22-f862ae285492.jpg?1586506624"],
+    "layout": "normal",
+    "type_line": "Creature — Rhino Beast",
+    "oracle_text": "First strike\nCycling {2}{R} ({2}{R}, Discard this card: Draw a card.)\nWhen you cycle Sanctuary Smasher, put a first strike counter on target creature you control.",
+    "mana_cost": "{4}{R}{R}",
+    "cmc": 6,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800239,
+    "name": "Savai Crystal",
+    "collector_number": 239,
+    "multiverse_ids": [
+      800239
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/9/6954a5c1-89b1-4edd-814e-8f88fd49cda3.jpg?1585917640"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {R}, {W}, or {B}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800029,
+    "name": "Savai Sabertooth",
+    "collector_number": 29,
+    "multiverse_ids": [
+      800029
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/4/d46702b0-7e10-462a-9aac-7564efe91804.jpg?1585921270"],
+    "layout": "normal",
+    "type_line": "Creature — Cat",
+    "oracle_text": "",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800205,
+    "name": "Savai Thundermane",
+    "collector_number": 205,
+    "multiverse_ids": [
+      800205
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/3/73d3925c-cf7d-4546-bc70-33f04d4b7566.jpg?1586306588"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Cat",
+    "oracle_text": "Whenever you cycle a card, you may pay {2}. If you Savai Thundermane deals 2 damage to target creature and you gain 2 life.",
+    "mana_cost": "{R}{W}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800253,
+    "name": "Savai Triome",
+    "collector_number": 253,
+    "multiverse_ids": [
+      800253
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/4/748e6a61-9c1f-4225-9f04-e54002f63ac3.jpg?1586470059"],
+    "layout": "normal",
+    "type_line": "Land — Mountain Plains Swamp",
+    "oracle_text": "({T}: Add {R}, {W}, or {B}.)\nSavai Triome enters the battlefield tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800254,
+    "name": "Scoured Barrens",
+    "collector_number": 254,
+    "multiverse_ids": [
+      800254
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/2/2282018a-46c8-41ca-ab93-f7dbf32cd295.jpg?1586517628"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Scoured Barrens enters the battlefield tapped.\nWhen Scoured Barrens enters the battlefield, you gain 1 life.\n{T}: Add {W} or {B}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800066,
+    "name": "Sea-Dasher Octopus",
+    "collector_number": 66,
+    "multiverse_ids": [
+      800066
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/6/a6f59d9e-6c1b-437a-934c-7c776c8dd1d5.jpg?1586181572"],
+    "layout": "normal",
+    "type_line": "Creature — Octopus",
+    "oracle_text": "Mutate {1}{U} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nFlash\nWhenever this creature deals combat damage to a player, draw a card.",
+    "mana_cost": "{1}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800099,
+    "name": "Serrated Scorpion",
+    "collector_number": 99,
+    "multiverse_ids": [
+      800099
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/c/bc8f0242-35e1-4409-9321-56e742e8fef4.jpg?1586516746"],
+    "layout": "normal",
+    "type_line": "Creature — Scorpion",
+    "oracle_text": "When Serrated Scorpion dies, it deals 2 damage to each opponent and you gain 2 life.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "iko"
+  },
+  {
+    "id": 800067,
+    "name": "Shark Typhoon",
+    "collector_number": 67,
+    "multiverse_ids": [
+      800067
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/d/1da4d4f3-b3cb-4b61-81b8-06ae441c41bf.jpg?1585954666"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's converted mana cost.\nCycling {X}{1}{U} ({X}{1}{U}, Discard this card: Draw a card.)\nWhen you cycle Shark Typhoon, create an X/X blue Shark creature token with flying.",
+    "mana_cost": "{5}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800136,
+    "name": "Shredded Sails",
+    "collector_number": 136,
+    "multiverse_ids": [
+      800136
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/b/8b10219a-aa72-4431-9a6a-984109a605c8.jpg?1585916424"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Destroy target artifact.\n• Shredded Sails deals 4 damage to target creature with flying.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800206,
+    "name": "Skull Prophet",
+    "collector_number": 206,
+    "multiverse_ids": [
+      800206
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/f/2f5ec787-79f6-4922-a0f7-debde8f7a4be.jpg?1585924664"],
+    "layout": "normal",
+    "type_line": "Creature — Human Druid",
+    "oracle_text": "{T}: Add {B} or {G}.\n{T}: Put the top two cards of your library into your graveyard.",
+    "mana_cost": "{B}{G}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800207,
+    "name": "Skycat Sovereign",
+    "collector_number": 207,
+    "multiverse_ids": [
+      800207
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/2/6209dbfd-b765-44c5-b3ad-94f6e0705926.jpg?1586373802"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Cat",
+    "oracle_text": "Flying\nSkycat Sovereign gets +1/+1 for each other creature you control with flying.\n{2}{W}{U}: Create a 1/1 white Cat Bird creature token with flying.",
+    "mana_cost": "{W}{U}",
+    "cmc": 2,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800240,
+    "name": "Sleeper Dart",
+    "collector_number": 240,
+    "multiverse_ids": [
+      800240
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/1/311f827a-1585-483e-b0fd-3dc05969b485.jpg?1586518201"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "When Sleeper Dart enters the battlefield, draw a card.\n{T}, Sacrifice Sleeper Dart: Target creature doesn't untap during its controller's next untap step.",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800208,
+    "name": "Slitherwisp",
+    "collector_number": 208,
+    "multiverse_ids": [
+      800208
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/8067f195-8b6e-4329-a34e-43e52f67c571.jpg?1586521383"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental Nightmare",
+    "oracle_text": "Flash\nWhenever you cast another spell with flash, you draw a card and each opponent loses 1 life.",
+    "mana_cost": "{U}{B}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800209,
+    "name": "Snapdax, Apex of the Hunt",
+    "collector_number": 209,
+    "multiverse_ids": [
+      800209
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/1/51fdeeb7-9868-4fc2-9c53-806244cd5488.jpg?1585832839"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Dinosaur Cat Nightmare",
+    "oracle_text": "Mutate {2}{B/R}{W}{W} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nDouble Strike\nWhenever this creature mutates, it deals 4 damage to target creature or planeswalker an opponent controls and you gain 4 life.",
+    "mana_cost": "{1}{R}{W}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "iko"
+  },
+  {
+    "id": 800030,
+    "name": "Snare Tactician",
+    "collector_number": 30,
+    "multiverse_ids": [
+      800030
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/f/5f640e0c-298d-4a5f-94d0-d839cf06ca86.jpg?1586521318"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "Whenever you cycle a card, tap target creature an opponent controls.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800031,
+    "name": "Solid Footing",
+    "collector_number": 31,
+    "multiverse_ids": [
+      800031
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/0900a8d1-a1b1-48c9-8af1-726a623c7d74.jpg?1586514861"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Flash\nEnchant creature\nEnchanted creature gets +1/+1.\nAs long as enchanted creature has vigilance, it assigns combat damage equal to its toughness rather than its power.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800210,
+    "name": "Song of Creation",
+    "collector_number": 210,
+    "multiverse_ids": [
+      800210
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/7/b7320233-1c83-4f61-8c08-cc8361867256.jpg?1586348449"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "You may play an additional land on each of your turns.\nWhenever you cast a spell, draw two cards.\nAt the beginning of your end step, discard your hand.",
+    "mana_cost": "{1}{G}{U}{R}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800230,
+    "name": "Sonorous Howlbonder",
+    "collector_number": 230,
+    "multiverse_ids": [
+      800230
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/9/595f0b25-6e6e-43c4-a4a0-903920067df1.jpg?1586343078"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "Menace\nEach creature you control with menace can't be blocked except by three or more creatures.",
+    "mana_cost": "{1}{B/R}{B/R}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800137,
+    "name": "Spelleater Wolverine",
+    "collector_number": 137,
+    "multiverse_ids": [
+      800137
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/5/a5f03ffd-dcdb-441c-8dfc-4fe06a289b22.jpg?1586517828"],
+    "layout": "normal",
+    "type_line": "Creature — Wolverine",
+    "oracle_text": "Spelleater Wolverine has double strike as long as there are three or more instant and/or sorcery cards in your graveyard.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800032,
+    "name": "Splendor Mare",
+    "collector_number": 32,
+    "multiverse_ids": [
+      800032
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/535ccc75-b24e-4071-b6a0-fc5267a454e3.jpg?1586288112"],
+    "layout": "normal",
+    "type_line": "Creature — Elk Unicorn",
+    "oracle_text": "Lifelink\nCycling {1}{W} ({1}{W}, Discard this card: Draw a card.)\nWhen you cycle Splendor Mare, put a lifelink counter on target creature you control.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800033,
+    "name": "Spontaneous Flight",
+    "collector_number": 33,
+    "multiverse_ids": [
+      800033
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/d/3dc24dd4-d259-4687-8247-f56aa7abb5b9.jpg?1586297224"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +2/+2 until end of turn. Put a flying counter on it.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800241,
+    "name": "Springjaw Trap",
+    "collector_number": 241,
+    "multiverse_ids": [
+      800241
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/3741de51-ea92-493a-8058-e0f2000e7701.jpg?1586518257"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "Flash\n{4}, {T}, Sacrifice Springjaw Trap: It deals 3 damage to any target.",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800211,
+    "name": "Sprite Dragon",
+    "collector_number": 211,
+    "multiverse_ids": [
+      800211
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/8/281f6118-adb8-4a7d-9c77-5570f3399e6e.jpg?1585843749"],
+    "layout": "normal",
+    "type_line": "Creature — Faerie Dragon",
+    "oracle_text": "Flying, haste\nWhenever you cast a noncreature spell, put a +1/+1 counter on Sprite Dragon.",
+    "mana_cost": "{U}{R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800068,
+    "name": "Startling Development",
+    "collector_number": 68,
+    "multiverse_ids": [
+      800068
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a12680db-957f-48c1-9062-2edd9115ba26.jpg?1586521227"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Until end of turn, target creature becomes a blue Serpent with base power and toughness 4/4.\nCycling {1} ({1}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800034,
+    "name": "Stormwild Capridor",
+    "collector_number": 34,
+    "multiverse_ids": [
+      800034
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/a/2afded81-2fc1-4285-bf48-d25f72e72138.jpg?1586043505"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Goat",
+    "oracle_text": "Flying\nIf noncombat damage would be dealt to Stormwild Capridor, prevent that damage. Put a +1/+1 counter on Stormwild Capridor for each 1 damage prevented this way.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800171,
+    "name": "Sudden Spinnerets",
+    "collector_number": 171,
+    "multiverse_ids": [
+      800171
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/7/3730996a-96d2-4311-a4dc-0045a2f8ccc9.jpg?1586516785"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +1/+3 until end of turn. Put a reach counter on it. Untap it.",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800100,
+    "name": "Suffocating Fumes",
+    "collector_number": 100,
+    "multiverse_ids": [
+      800100
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/6/66b562e4-35df-4aee-848d-ceb4204bbe58.jpg?1586516806"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Creatures your opponents control get -1/-1 until end of turn.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "iko"
+  },
+  {
+    "id": 800172,
+    "name": "Survivors' Bond",
+    "collector_number": 172,
+    "multiverse_ids": [
+      800172
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/3/530ff2a1-6447-4653-a661-d9a39156d6fa.jpg?1586555138"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Choose one or both —\n• Return target Human creature card from your graveyard to your hand.\n• Return target non-Human creature card from your graveyard to your hand.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800035,
+    "name": "Swallow Whole",
+    "collector_number": 35,
+    "multiverse_ids": [
+      800035
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c3b9140b-848f-4886-8c28-eccd3829a607.jpg?1586306290"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "As an additional cost to cast this spell, tap an untapped creature you control.\nExile target tapped creature. Put a +1/+1 counter on the creature tapped to cast this spell.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800266,
+    "name": "Swamp",
+    "collector_number": 266,
+    "multiverse_ids": [
+      800266
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/c/6c8c3f0e-7af4-410b-a675-9ea84f51e812.jpg?1586518729"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "iko"
+  },
+  {
+    "id": 800255,
+    "name": "Swiftwater Cliffs",
+    "collector_number": 255,
+    "multiverse_ids": [
+      800255
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/1/7108c071-5f1c-4cf5-90c6-530cee3f7685.jpg?1586517647"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Swiftwater Cliffs enters the battlefield tapped.\nWhen Swiftwater Cliffs enters the battlefield, you gain 1 life.\n{T}: Add {U} or {R}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800138,
+    "name": "Tentative Connection",
+    "collector_number": 138,
+    "multiverse_ids": [
+      800138
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c40fd33-bb95-48f3-a10f-a33eb27c48f1.jpg?1586521139"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "This spell costs {3} less to cast if you control a creature with menace.\nGain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800237,
+    "name": "The Ozolith",
+    "collector_number": 237,
+    "multiverse_ids": [
+      800237
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/3/9341ed06-53db-4604-b60a-3ea9129afbc2.jpg?1586268572"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact",
+    "oracle_text": "Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith.\nAt the beginning of combat on your turn, if The Ozolith has counters on it, you may move all counters from The Ozolith onto target creature.",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800069,
+    "name": "Thieving Otter",
+    "collector_number": 69,
+    "multiverse_ids": [
+      800069
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/07f84b0a-37d9-4b0f-8d75-1fab45a12d44.jpg?1586043466"],
+    "layout": "normal",
+    "type_line": "Creature — Otter",
+    "oracle_text": "Whenever Thieving Otter deals damage to an opponent, draw a card.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800256,
+    "name": "Thornwood Falls",
+    "collector_number": 256,
+    "multiverse_ids": [
+      800256
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/d/8d011b0f-1681-4a51-9f5d-47ad135d03fe.jpg?1586517670"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Thornwood Falls enters the battlefield tapped.\nWhen Thornwood Falls enters the battlefield, you gain 1 life.\n{T}: Add {G} or {U}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "iko"
+  },
+  {
+    "id": 800173,
+    "name": "Thwart the Enemy",
+    "collector_number": 173,
+    "multiverse_ids": [
+      800173
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/7/a7101f35-d8c9-4320-bffc-8bb25000d103.jpg?1586159762"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Prevent all damage that would be dealt this turn by creatures your opponents control.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "iko"
+  },
+  {
+    "id": 800174,
+    "name": "Titanoth Rex",
+    "collector_number": 174,
+    "multiverse_ids": [
+      800174
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/d/9d02e1e8-b85b-4e26-8ab8-ca2f49d05b88.jpg?1585834578"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur Beast",
+    "oracle_text": "Trample\nCycling {1}{G} ({1}{G}, Discard this card: Draw a card.)\nWhen you cycle Titanoth Rex, put a trample counter on target creature you control.",
+    "mana_cost": "{7}{G}{G}",
+    "cmc": 9,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800212,
+    "name": "Titans' Nest",
+    "collector_number": 212,
+    "multiverse_ids": [
+      800212
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75d4e6f3-73cb-4799-bcb9-c1f5bc234a02.jpg?1586521298"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "At the beginning of your upkeep, look at the top card of your library. You may put that card into your graveyard.\nExile a card from your graveyard: Add {C}. Spend this mana only to cast a colored spell without {X} in its mana cost.",
+    "mana_cost": "{1}{B}{G}{U}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800257,
+    "name": "Tranquil Cove",
+    "collector_number": 257,
+    "multiverse_ids": [
+      800257
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/6/366ac097-39cb-4401-87c7-1dd73bf34329.jpg?1586517687"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Tranquil Cove enters the battlefield tapped.\nWhen Tranquil Cove enters the battlefield, you gain 1 life.\n{T}: Add {W} or {U}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800213,
+    "name": "Trumpeting Gnarr",
+    "collector_number": 213,
+    "multiverse_ids": [
+      800213
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/6/063a95ee-3fda-436f-9ff8-de80cc874dde.jpg?1585918887"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "Mutate {3}{G/U}{G/U} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, create a 3/3 green Beast creature token.",
+    "mana_cost": "{1}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800231,
+    "name": "Umori, the Collector",
+    "collector_number": 231,
+    "multiverse_ids": [
+      800231
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/5/75ac31e0-ac70-4ee6-b2b1-cc445ffa1da9.jpg?1585838926"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Ooze",
+    "oracle_text": "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may cast it once from outside the game.)\nAs Umori, the Collector enters the battlefield, choose a card type.\nSpells you cast of the chosen type cost {1} less to cast.",
+    "mana_cost": "{2}{B/G}{B/G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800101,
+    "name": "Unbreakable Bond",
+    "collector_number": 101,
+    "multiverse_ids": [
+      800101
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/9/c9da02a1-7b39-4a0e-8466-6512a02f3e3b.jpg?1586217978"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Return target creature card from your graveyard to the battlefield with a lifelink counter on it.",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800102,
+    "name": "Unexpected Fangs",
+    "collector_number": 102,
+    "multiverse_ids": [
+      800102
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aa6494ad-a35e-4b09-8623-7740f3c20b0b.jpg?1586516853"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Put a +1/+1 counter and a lifelink counter on target creature.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800103,
+    "name": "Unlikely Aid",
+    "collector_number": 103,
+    "multiverse_ids": [
+      800103
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/a/bac3409e-7c24-43b0-9956-5f0cdeae6468.jpg?1586516918"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +2/+0 and gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800139,
+    "name": "Unpredictable Cyclone",
+    "collector_number": 139,
+    "multiverse_ids": [
+      800139
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3a0462f6-a027-43c0-8e01-c0591d9a45d9.jpg?1586450137"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "If a cycling ability of another nonland card would cause you to draw a card, instead exile cards from the top of your library until you exile a card that shares a card type with the cycled card. You may cast that card without paying its mana cost. Then put the exiled cards that weren't cast this way on the bottom of your library in a random order.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800214,
+    "name": "Vadrok, Apex of Thunder",
+    "collector_number": 214,
+    "multiverse_ids": [
+      800214
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/e/d/ed7b0256-d342-4523-9516-6a007bf51825.jpg?1585830613"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elemental Dinosaur Cat",
+    "oracle_text": "Mutate {1}{W/U}{R}{R} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on the top plus all abilities from under it.)\nFlying, first strike\nWhenever this creature mutates, you may cast target noncreature card with converted mana cost 3 or less from your graveyard without paying its mana cost.",
+    "mana_cost": "{U}{R}{W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800036,
+    "name": "Valiant Rescuer",
+    "collector_number": 36,
+    "multiverse_ids": [
+      800036
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/2/a2b13ff6-67e9-4760-aef4-a8548ea44344.jpg?1585927343"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "Whenever you cycle another card for the first time each turn, create a 1/1 white Human Soldier creature token.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800175,
+    "name": "Vivien, Monsters' Advocate",
+    "collector_number": 175,
+    "multiverse_ids": [
+      800175
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/0/504ebb84-7e7b-4119-a128-a9c183c5d9de.jpg?1585830399"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Vivien",
+    "oracle_text": "You may look at the top card of your library any time.\nYou may cast creature spells from the top of your library.\n+1: Create a 3/3 green Beast creature token. Put your choice of a vigilance counter, a reach counter, or a trample counter on it.\n−2: When you cast your next creature spell this turn, search your library for a creature card with lesser converted mana cost, put it onto the battlefield, then shuffle your library.",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "iko"
+  },
+  {
+    "id": 800104,
+    "name": "Void Beckoner",
+    "collector_number": 104,
+    "multiverse_ids": [
+      800104
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/1/a1523cda-c47d-4419-a5d3-fd6ed9867c56.jpg?1585834058"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare Horror",
+    "oracle_text": "Deathtouch\nCycling {2}{B} ({2}{B}, Discard this card: Draw a card.)\nWhen you cycle Void Beckoner, put a deathtouch counter on target creature you control.",
+    "mana_cost": "{6}{B}{B}",
+    "cmc": 8,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800070,
+    "name": "Voracious Greatshark",
+    "collector_number": 70,
+    "multiverse_ids": [
+      800070
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/4/1400155f-8911-45fd-aab2-998c8a28292c.jpg?1586217669"],
+    "layout": "normal",
+    "type_line": "Creature — Shark",
+    "oracle_text": "Flash\nWhen Voracious Greatshark enters the battlefield, counter target artifact or creature spell.",
+    "mana_cost": "{3}{U}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4.5,
+    "set": "iko"
+  },
+  {
+    "id": 800037,
+    "name": "Vulpikeet",
+    "collector_number": 37,
+    "multiverse_ids": [
+      800037
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/7/07bce816-3d18-4ca1-b88f-7307ec7c345d.jpg?1586446347"],
+    "layout": "normal",
+    "type_line": "Creature — Fox Bird",
+    "oracle_text": "Mutate {2}{W} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nFlying\nWhenever this creature mutates, put a +1/+1 counter on it.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800140,
+    "name": "Weaponize the Monsters",
+    "collector_number": 140,
+    "multiverse_ids": [
+      800140
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/6/8/68bba622-a0ab-4c0e-88b1-9120690ea5a0.jpg?1586269449"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "{2}, Sacrifice a creature: Weaponize the Monsters deals 2 damage to any target.",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "iko"
+  },
+  {
+    "id": 800215,
+    "name": "Whirlwind of Thought",
+    "collector_number": 215,
+    "multiverse_ids": [
+      800215
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/d/0/d0699cbc-b499-44a6-82e1-631491aaaec6.jpg?1586617150"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast a noncreature spell, draw a card.",
+    "mana_cost": "{1}{U}{R}{W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800105,
+    "name": "Whisper Squad",
+    "collector_number": 105,
+    "multiverse_ids": [
+      800105
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/9/097eeb32-cfd5-4adb-ac30-d7762e6ea48f.jpg?1586516989"],
+    "layout": "normal",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "{1}{B}: Search your library for a card named Whisper Squad, put it onto the battlefield tapped, then shuffle your library.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800038,
+    "name": "Will of the All-Hunter",
+    "collector_number": 38,
+    "multiverse_ids": [
+      800038
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/a/a/aa7acbfa-ce3b-424d-886d-6865bc5fc085.jpg?1586217467"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +2/+2 until end of turn. If it's blocking, instead put two +1/+1 counters on it.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800176,
+    "name": "Wilt",
+    "collector_number": 176,
+    "multiverse_ids": [
+      800176
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/5/55987bab-c24f-4261-b97e-f0ad4474b0a0.jpg?1586185230"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target artifact or enchantment.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800258,
+    "name": "Wind-Scarred Crag",
+    "collector_number": 258,
+    "multiverse_ids": [
+      800258
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/6/86367edc-9587-4f3b-aa95-c3a2bfc8c6f4.jpg?1586517798"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Wind-Scarred Crag enters the battlefield tapped.\nWhen Wind-Scarred Crag enters the battlefield, you gain 1 life.\n{T}: Add {R} or {W}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800071,
+    "name": "Wingfold Pteron",
+    "collector_number": 71,
+    "multiverse_ids": [
+      800071
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/1/11e21a5f-fae7-4488-9463-f0af6e4c5233.jpg?1585921994"],
+    "layout": "normal",
+    "type_line": "Creature — Dinosaur",
+    "oracle_text": "Wingfold Pteron enters the battlefield with your choice of a flying counter or a hexproof counter on it. (A creature with hexproof can't be the target of spells or abilities your opponents control.)",
+    "mana_cost": "{5}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "iko"
+  },
+  {
+    "id": 800072,
+    "name": "Wingspan Mentor",
+    "collector_number": 72,
+    "multiverse_ids": [
+      800072
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/9/89348a02-29f6-40b9-b39f-cb5f8c230a02.jpg?1586521239"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "When Wingspan Mentor enters the battlefield, put a flying counter on target non-Human creature you control.\n{2}{U}, {T}: Put a +1/+1 counter on each creature you control with flying.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800216,
+    "name": "Winota, Joiner of Forces",
+    "collector_number": 216,
+    "multiverse_ids": [
+      800216
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/d/5dd13a6c-23d3-44ce-a628-cb1c19d777c4.jpg?1586521992"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Warrior",
+    "oracle_text": "Whenever a non-Human creature you control attacks, look at the top six cards of your library. You may put a Human creature card from among them onto the battlefield tapped and attacking. It gains indestructible until end of turn. Put the rest of the cards on the bottom of your library in a random order.",
+    "mana_cost": "{2}{R}{W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800141,
+    "name": "Yidaro, Wandering Monster",
+    "collector_number": 141,
+    "multiverse_ids": [
+      800141
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/b/5/b540c7c6-5b9e-4606-ac84-e583a62a3647.jpg?1585989370"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Dinosaur Turtle",
+    "oracle_text": "Trample, haste\nCycling {1}{R}\nWhen you cycle Yidaro, Wandering Monster, shuffle it into your library from your graveyard. If you've cycled a card named Yidaro, Wandering Monster four or more times this game, put it onto the battlefield from your graveyard instead. (Do this before you draw.)",
+    "mana_cost": "{5}{R}{R}",
+    "cmc": 7,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "iko"
+  },
+  {
+    "id": 800232,
+    "name": "Yorion, Sky Nomad",
+    "collector_number": 232,
+    "multiverse_ids": [
+      800232
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/2/7/275426c4-c14e-47d0-a9d4-24da7f6f6911.jpg?1586518077"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Bird Serpent",
+    "oracle_text": "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may cast it once from outside the game.)\nFlying\nWhen Yorion enters the battlefield, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step.",
+    "mana_cost": "{3}{W/U}{W/U}",
+    "cmc": 5,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  },
+  {
+    "id": 800242,
+    "name": "Zagoth Crystal",
+    "collector_number": 242,
+    "multiverse_ids": [
+      800242
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/9/1/9138a442-8e8b-465f-bb76-b6af7e6dab6f.jpg?1585917672"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {B}, {G}, or {U}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 1,
+    "set": "iko"
+  },
+  {
+    "id": 800106,
+    "name": "Zagoth Mamba",
+    "collector_number": 106,
+    "multiverse_ids": [
+      800106
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/e/ce945f7e-ded9-4819-9313-d50d3aad40fa.jpg?1585833788"],
+    "layout": "normal",
+    "type_line": "Creature — Nightmare Snake",
+    "oracle_text": "Whenever this creature mutates, target creature an opponent controls gets -2/-2 until end of turn.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800259,
+    "name": "Zagoth Triome",
+    "collector_number": 259,
+    "multiverse_ids": [
+      800259
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/c/cc520518-2063-4b57-a0d4-10cf62a7175e.jpg?1586470053"],
+    "layout": "normal",
+    "type_line": "Land — Swamp Forest Island",
+    "oracle_text": "({T}: Add {B}, {G}, or {U}.)\nZagoth Triome enters the battlefield tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "iko"
+  },
+  {
+    "id": 800217,
+    "name": "Zenith Flare",
+    "collector_number": 217,
+    "multiverse_ids": [
+      800217
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/e/0efac1ed-3f01-487c-86be-8239568b4425.jpg?1586297274"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Zenith Flare deals X damage to any target and you gain X life, where X is the number of cards with a cycling ability in your graveyard.",
+    "mana_cost": "{2}{R}{W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "iko"
+  },
+  {
+    "id": 800233,
+    "name": "Zirda, the Dawnwaker",
+    "collector_number": 233,
+    "multiverse_ids": [
+      800233
+    ],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1bd8e61c-2ee8-4243-a848-7008810db8a0.jpg?1586611106"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elemental Fox",
+    "oracle_text": "Companion — Each permanent card in your starting deck has an activated ability. (If this card is your chosen companion, you may cast it once from outside the game.)\nAbilities you activate that aren't mana abilities cost {2} less to activate. This effect can't reduce the mana in that cost to less than one mana.\n{1}, {T}: Target creature can't block this turn.",
+    "mana_cost": "{1}{R/W}{R/W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "iko"
+  }
+]

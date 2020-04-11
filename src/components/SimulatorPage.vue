@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'thb',
+      set_code: 'iko',
       number: 100,
       decks: []
     }
