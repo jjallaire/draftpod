@@ -516,7 +516,7 @@ export default {
               <option value="12">
                 12 Packs
               </option>
-              <option value="12">
+              <option value="18">
                 18 Packs
               </option>
             </select>
