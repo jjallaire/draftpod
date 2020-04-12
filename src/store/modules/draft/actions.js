@@ -501,7 +501,9 @@ function distributeSealedPools(table, options) {
   // sealed number of packs as necessary
   let playerCount = _sumBy(table.players, player => Number(player.id !== null));
   let maxPacksPerPlayer = table.all_packs.length / playerCount;
-  let packsPerPlayer = Math.min(options.sealed_number_of_packs, maxPacksPerPlayer);
+  let packsPerPlayer = maxPacksPerPlayer;
+  if (options.sealed_number_of_packs !== -1) 
+    packsPerPlayer = Math.min(options.sealed_number_of_packs, packsPerPlayer);
 
   // iterate over non-ai players
   for (let i=0; i<table.players.length; i++) {

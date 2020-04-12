@@ -281,11 +281,15 @@ export default {
           messagebox.alert("Unable to Start",
                            "Please enter the number of packs to include in each sealed pool.");
           resolve(false);
-        
+          
         // validation for multi-user drafts
         } else if (this.is_multi_player) {
 
-          if (!this.multi_player.draft_id) {
+          if (this.sealed_number_of_packs === -1) {
+            messagebox.alert("Unable to Start", "Full set sealed pool is not supported for multiple players.");
+            resolve(false);
+
+          } else if (!this.multi_player.draft_id) {
             messagebox.alert("Unable to Start", "Please wait for the game be created before starting it.");
             resolve(false);
           }
@@ -518,6 +522,9 @@ export default {
               </option>
               <option value="18">
                 18 Packs
+              </option>
+              <option value="-1">
+                Full Set (1x)
               </option>
             </select>
             <small class="form-text text-muted">

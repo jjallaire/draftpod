@@ -13,6 +13,8 @@ import { generateBooster } from './booster.js'
 
 import Vue from 'vue';
 
+import shortUuid from 'short-uuid';
+
 export default {
 
   [CREATE_DRAFT](state, { id, player, set_code, cardpool, format, options }) {
@@ -57,13 +59,21 @@ export default {
 
       // for sealed we generate as many boosters as we can
       } else { // format === 'sealed'
-        let p = 1;
-        for(;;) {
-          let pack = generateBooster(set_code, cardpool, p++, options.number_of_packs);
-          if (pack.length !== set.pack_cards(set_code, options.number_of_packs))
-            break;
-          all_packs.push(pack);
+        if (options.sealed_number_of_packs !== -1) {
+          let p = 1;
+          for(;;) {
+            let pack = generateBooster(set_code, cardpool, p++, options.number_of_packs);
+            if (pack.length !== set.pack_cards(set_code, options.number_of_packs))
+              break;
+            all_packs.push(pack);
+          }
+        } else {
+          all_packs = cardpool.map(card => ([{
+            ...card,
+            key: shortUuid().new()
+          }]));
         }
+        
       }
 
       // set packs
