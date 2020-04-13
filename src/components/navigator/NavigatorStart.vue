@@ -317,9 +317,15 @@ export default {
 
     createDraft() {
 
+      // force cardpool to 1/1/1/1 for sealed full set
+      let cardpool = this.cardpool;
+      if (this.format === 'sealed' & this.sealed_number_of_packs === -1) {
+        cardpool = CARDPOOL.CUBE + '1/1/1/1'
+      }
+
       return this.initDraft({ 
         set_code: this.set_code, 
-        cardpool: this.cardpool, 
+        cardpool: cardpool, 
         format: this.format,
         options: { 
           number_of_packs: this.number_of_packs === PACKS_FIVE ? 5 : 3,
