@@ -15,7 +15,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "iko"
   },
   {
@@ -36,7 +36,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -79,7 +79,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -142,7 +142,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -163,7 +163,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -206,7 +206,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -248,7 +248,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -501,7 +501,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -522,7 +522,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -532,7 +532,7 @@
     "multiverse_ids": [
       479699
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/9/c9f07625-fbd8-4581-8568-eb3cfb2a4c1e.jpg?1585838945"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/9/c9f07625-fbd8-4581-8568-eb3cfb2a4c1e.jpg?1587239674"],
     "layout": "normal",
     "type_line": "Legendary Creature — Nightmare Beast Elemental",
     "oracle_text": "Mutate {2}{U/B}{G}{G} (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nTrample\nYou may cast Brokkos, Apex of Forever from your graveyard using its mutate ability.",
@@ -545,7 +545,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -587,7 +587,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -608,7 +608,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -650,7 +650,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -778,7 +778,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -799,7 +799,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -862,7 +862,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -883,7 +883,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -966,7 +966,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -987,7 +987,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -1029,7 +1029,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -1052,7 +1052,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -1095,7 +1095,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -1117,7 +1117,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -1201,7 +1201,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -1264,7 +1264,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -1352,7 +1352,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -1373,7 +1373,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -1465,10 +1465,10 @@
     "multiverse_ids": [
       479608
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/8725a869-462b-4381-880a-b4bcc63a655b.jpg?1587039831"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/7/8725a869-462b-4381-880a-b4bcc63a655b.jpg?1587305619"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Choose odd or even. Exile each creature with a converted mana cost of the chosen value. (Zero is even.)",
+    "oracle_text": "Choose odd or even. Exile each creature with converted mana cost of the chosen value. (Zero is even.)",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -1476,7 +1476,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -1537,7 +1537,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -1558,7 +1558,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -1579,7 +1579,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -1601,7 +1601,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "iko"
   },
   {
@@ -1622,7 +1622,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -1790,7 +1790,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "iko"
   },
   {
@@ -1896,7 +1896,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -1982,7 +1982,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -2005,7 +2005,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -2026,7 +2026,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -2110,7 +2110,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -2195,7 +2195,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -2216,7 +2216,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 4,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -2237,7 +2237,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -2321,7 +2321,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -2363,7 +2363,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -2497,7 +2497,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -2539,7 +2539,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -2630,7 +2630,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -2651,7 +2651,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -2672,7 +2672,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -2695,7 +2695,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -2718,7 +2718,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -2867,7 +2867,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "iko"
   },
   {
@@ -2889,7 +2889,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -3017,7 +3017,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -3225,7 +3225,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -3450,7 +3450,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -3495,7 +3495,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -3537,7 +3537,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -3601,7 +3601,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -3769,7 +3769,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -3791,7 +3791,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -3813,7 +3813,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -3877,7 +3877,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -3965,7 +3965,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -4073,7 +4073,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -4117,7 +4117,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -4225,7 +4225,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -4312,7 +4312,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -4333,7 +4333,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -4462,7 +4462,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "iko"
   },
   {
@@ -4483,7 +4483,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -4504,7 +4504,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -4716,7 +4716,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "iko"
   },
   {
@@ -4737,7 +4737,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -4779,7 +4779,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -4822,7 +4822,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "iko"
   },
   {
@@ -4883,7 +4883,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -4926,7 +4926,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0,
     "set": "iko"
   },
   {
@@ -5057,7 +5057,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -5078,7 +5078,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -5099,7 +5099,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -5143,7 +5143,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "iko"
   },
   {
@@ -5334,7 +5334,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -5419,7 +5419,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -5441,7 +5441,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -5507,7 +5507,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -5528,7 +5528,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -5551,7 +5551,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -5595,7 +5595,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   }
 ]
