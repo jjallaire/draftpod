@@ -15,7 +15,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "iko"
   },
   {
@@ -36,7 +36,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -121,7 +121,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -206,7 +206,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -227,7 +227,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -248,7 +248,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -269,7 +269,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -332,7 +332,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -353,7 +353,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -396,7 +396,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -418,7 +418,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -501,7 +501,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -545,7 +545,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "iko"
   },
   {
@@ -587,7 +587,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -672,7 +672,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -778,7 +778,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -799,7 +799,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -883,7 +883,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -944,7 +944,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -966,7 +966,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -1052,7 +1052,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -1095,7 +1095,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "iko"
   },
   {
@@ -1117,7 +1117,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -1180,7 +1180,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -1201,7 +1201,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -1295,10 +1295,10 @@
     "multiverse_ids": [
       479704
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3a9fb2db-228f-4d48-acdf-6330baf356c7.jpg?1586340906"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/3/a/3a9fb2db-228f-4d48-acdf-6330baf356c7.jpg?1587755212"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Return any number of permanent cards with different names from your graveyard to the battlefield",
+    "oracle_text": "Return any number of permanent cards with different names from your graveyard to the battlefield.",
     "mana_cost": "{W}{W}{B}{B}{B}{G}{G}",
     "cmc": 7,
     "colors": [
@@ -1308,7 +1308,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -1352,7 +1352,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -1394,7 +1394,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -1434,7 +1434,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -1455,7 +1455,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -1558,7 +1558,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -1579,7 +1579,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -1601,7 +1601,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -1622,7 +1622,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -1727,7 +1727,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 0.5,
     "set": "iko"
   },
   {
@@ -1790,7 +1790,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -1854,7 +1854,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -2026,7 +2026,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -2110,7 +2110,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -2152,7 +2152,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -2174,7 +2174,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "iko"
   },
   {
@@ -2321,7 +2321,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -2430,7 +2430,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -2453,7 +2453,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -2497,7 +2497,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -2539,7 +2539,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -2608,7 +2608,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -2630,7 +2630,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -2672,7 +2672,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -2718,7 +2718,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -2846,7 +2846,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -2867,7 +2867,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "iko"
   },
   {
@@ -2889,7 +2889,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -2910,7 +2910,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -2931,17 +2931,17 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "iko"
   },
   {
     "id": 479746,
-    "name": "Lurrus of the Dream Den",
+    "name": "Lurrus of the Dream-Den",
     "collector_number": 226,
     "multiverse_ids": [
       479746
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5ad36fb2-c44e-4085-ba0d-54277841ad3a.jpg?1587068724"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/a/5ad36fb2-c44e-4085-ba0d-54277841ad3a.jpg?1587571694"],
     "layout": "normal",
     "type_line": "Legendary Creature — Cat Nightmare",
     "oracle_text": "Companion — Each permanent card in your starting deck has converted mana cost 2 or less. (If this card is your chosen companion, you may cast it once from outside the game.)\nLifelink\nDuring each of your turns, you may cast one permanent spell with converted mana cost 2 or less from your graveyard.",
@@ -2953,7 +2953,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -3017,7 +3017,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0,
     "set": "iko"
   },
   {
@@ -3143,7 +3143,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -3225,7 +3225,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "iko"
   },
   {
@@ -3294,7 +3294,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -3385,7 +3385,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -3472,7 +3472,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -3537,7 +3537,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -3558,7 +3558,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -3601,7 +3601,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -3727,7 +3727,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -3769,7 +3769,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -3877,7 +3877,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -3898,7 +3898,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -3921,7 +3921,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -3944,7 +3944,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -3997,10 +3997,10 @@
     "multiverse_ids": [
       479652
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/7871b4dd-9085-4a3f-a1ae-9a292f73689b.jpg?1586555151"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/7/8/7871b4dd-9085-4a3f-a1ae-9a292f73689b.jpg?1587458428"],
     "layout": "normal",
     "type_line": "Enchantment",
-    "oracle_text": "Whenever you cycle a card, Reptilian Reflection becomes a 5/4 Dinosaur creature with trample and haste in addition to its other types until end of turn.",
+    "oracle_text": "Whenever you cycle a card, you may have Reptilian Reflection become a 5/4 Dinosaur creature with trample and haste in addition to its other types until end of turn.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -4073,7 +4073,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -4138,7 +4138,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -4225,7 +4225,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -4270,7 +4270,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -4312,7 +4312,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "iko"
   },
   {
@@ -4333,7 +4333,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "iko"
   },
   {
@@ -4376,7 +4376,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -4398,7 +4398,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -4427,10 +4427,10 @@
     "multiverse_ids": [
       479728
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/8067f195-8b6e-4329-a34e-43e52f67c571.jpg?1586521383"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/8/0/8067f195-8b6e-4329-a34e-43e52f67c571.jpg?1587458461"],
     "layout": "normal",
     "type_line": "Creature — Elemental Nightmare",
-    "oracle_text": "Flash\nWhenever you cast another spell with flash, you draw a card and each opponent loses 1 life.",
+    "oracle_text": "Flash\nWhenever you cast another spell that has flash, you draw a card and each opponent loses 1 life.",
     "mana_cost": "{U}{B}{B}",
     "cmc": 3,
     "colors": [
@@ -4439,7 +4439,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -4483,7 +4483,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -4504,7 +4504,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 0.5,
     "set": "iko"
   },
   {
@@ -4549,7 +4549,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -4612,7 +4612,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -4737,7 +4737,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -4768,10 +4768,10 @@
     "multiverse_ids": [
       479555
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c3b9140b-848f-4886-8c28-eccd3829a607.jpg?1586306290"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/c/3/c3b9140b-848f-4886-8c28-eccd3829a607.jpg?1587458498"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "As an additional cost to cast this spell, tap an untapped creature you control.\nExile target tapped creature. Put a +1/+1 counter on the creature tapped to cast this spell.",
+    "oracle_text": "As an additional cost to cast this spell, tap an untapped creature you control.\nExile target tapped creature. Put a +1/+1 counter on the creature tapped to pay this spell's additional cost.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -4822,7 +4822,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -4832,7 +4832,7 @@
     "multiverse_ids": [
       479658
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c40fd33-bb95-48f3-a10f-a33eb27c48f1.jpg?1586521139"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/5/c/5c40fd33-bb95-48f3-a10f-a33eb27c48f1.jpg?1587579788"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "This spell costs {3} less to cast if you control a creature with menace.\nGain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
@@ -4843,7 +4843,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -4862,7 +4862,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -4883,7 +4883,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -4905,7 +4905,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -4970,7 +4970,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -4992,7 +4992,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -5014,7 +5014,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -5057,7 +5057,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -5099,7 +5099,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "iko"
   },
   {
@@ -5143,7 +5143,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -5269,7 +5269,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "iko"
   },
   {
@@ -5292,7 +5292,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -5313,7 +5313,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "iko"
   },
   {
@@ -5377,7 +5377,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "iko"
   },
   {
@@ -5419,7 +5419,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -5441,7 +5441,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 3.5,
     "set": "iko"
   },
   {
@@ -5484,7 +5484,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "iko"
   },
   {
@@ -5573,7 +5573,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 3,
     "set": "iko"
   },
   {
@@ -5583,7 +5583,7 @@
     "multiverse_ids": [
       479753
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1bd8e61c-2ee8-4243-a848-7008810db8a0.jpg?1586611106"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/1/b/1bd8e61c-2ee8-4243-a848-7008810db8a0.jpg?1587458189"],
     "layout": "normal",
     "type_line": "Legendary Creature — Elemental Fox",
     "oracle_text": "Companion — Each permanent card in your starting deck has an activated ability. (If this card is your chosen companion, you may cast it once from outside the game.)\nAbilities you activate that aren't mana abilities cost {2} less to activate. This effect can't reduce the mana in that cost to less than one mana.\n{1}, {T}: Target creature can't block this turn.",
