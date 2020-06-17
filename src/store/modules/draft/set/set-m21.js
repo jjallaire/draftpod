@@ -30,7 +30,6 @@ export default {
       return cards.concat(selectCards(filters.basicLand, 1));
     }
   },
-
 }
 
 export function m21DualLand(card) {
