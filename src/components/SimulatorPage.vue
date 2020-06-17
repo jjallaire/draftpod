@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'iko',
+      set_code: 'm21',
       number: 100,
       decks: []
     }

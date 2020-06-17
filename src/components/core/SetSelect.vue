@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="m21">
+            Core Set 2021
+          </option>
           <option value="iko">
             Ikoria
           </option>

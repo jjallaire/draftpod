@@ -49,7 +49,7 @@ export function initializeStore() {
       name: null
     },
     preferences: {
-      set_code: 'iko',
+      set_code: 'm21',
       format: 'draft',
       pick_timer: false,
       pick_ratings: false,

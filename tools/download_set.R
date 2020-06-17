@@ -8,6 +8,13 @@ download_set <- function(set,
                          ratings_dir = "tools/ratings", 
                          download_images = TRUE) {
   # get cards
+  cards <- download_set_cards(set)
+
+  # download cards
+  download_cards(cards, set[[1]], sets_dir, ratings_dir, download_images)
+}
+
+download_set_cards <- function(set) {
   cards <- list()
   for (s in set) {
     next_page_url <- sprintf("https://api.scryfall.com/cards/search?q=set:%s", s)
@@ -20,10 +27,14 @@ download_set <- function(set,
         break
     }
   }
-  
-  # download cards
-  download_cards(cards, set[[1]], sets_dir, ratings_dir, download_images)
+  cards
 }
+
+save_set_json <- function(set, file = "cards.json") {
+  cards <- download_set_cards(set)
+  jsonlite::write_json(cards, file)
+}
+
   
 download_cards <- function(cards,
                            set,
@@ -101,6 +112,7 @@ download_cards <- function(cards,
         eld = 700000,
         thb = 476251,
         iko = 800000,
+        m21 = 810000,
       )
       multiverse_ids <- list(baseline + collector_number)
     }
@@ -195,6 +207,7 @@ download_cards <- function(cards,
     eld = 269,
     thb = 254,
     iko = 274,
+    m21 = 274,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000
