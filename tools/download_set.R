@@ -112,7 +112,7 @@ download_cards <- function(cards,
         eld = 700000,
         thb = 476251,
         iko = 800000,
-        m21 = 810000,
+        m21 = 485323,
       )
       multiverse_ids <- list(baseline + collector_number)
     }
