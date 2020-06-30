@@ -1,8 +1,8 @@
 "id","name","rating"
 485324,"Ugin, the Spirit Dragon",5
-485325,"Alpine Watchdog",2
-485326,"Angelic Ascension",1.5
-485327,"Anointed Chorister",1.5
+485325,"Alpine Watchdog",1.5
+485326,"Angelic Ascension",3
+485327,"Anointed Chorister",2
 485328,"Aven Gagglemaster",3.5
 485329,"Baneslayer Angel",4.5
 485330,"Basri Ket",4
@@ -10,43 +10,43 @@
 485332,"Basri's Lieutenant",4
 485333,"Basri's Solidarity",2
 485334,"Celestial Enforcer",1.5
-485335,"Concordia Pegasus",2
+485335,"Concordia Pegasus",1.5
 485336,"Containment Priest",1.5
 485337,"Daybreak Charger",1.5
 485338,"Defiant Strike",1.5
 485339,"Dub",1
 485340,"Faith's Fetters",4
-485341,"Falconer Adept",2.5
-485342,"Feat of Resistance",3
+485341,"Falconer Adept",3
+485342,"Feat of Resistance",2.5
 485343,"Gale Swooper",2.5
 485344,"Glorious Anthem",3.5
 485345,"Griffin Aerie",3
-485346,"Idol of Endurance",2.5
-485347,"Legion's Judgment",1.5
+485346,"Idol of Endurance",2
+485347,"Legion's Judgment",2
 485348,"Light of Promise",0.5
-485349,"Makeshift Battalion",2
-485350,"Mangara, the Diplomat",4
-485351,"Nine Lives",0.5
+485349,"Makeshift Battalion",1.5
+485350,"Mangara, the Diplomat",4.5
+485351,"Nine Lives",1
 485352,"Pack Leader",3.5
 485353,"Rambunctious Mutt",1.5
 485354,"Revitalize",1.5
 485355,"Runed Halo",1
 485356,"Sanctum of Tranquil Light",1.5
 485357,"Seasoned Hallowblade",3
-485358,"Secure the Scene",2.5
+485358,"Secure the Scene",2
 485359,"Selfless Savior",2.5
-485360,"Siege Striker",2.5
+485360,"Siege Striker",3
 485361,"Speaker of the Heavens",2.5
 485362,"Staunch Shieldmate",0.5
-485363,"Swift Response",3
+485363,"Swift Response",3.5
 485364,"Tempered Veteran",3
-485365,"Valorous Steed",3
-485366,"Vryn Wingmare",3
+485365,"Valorous Steed",2.5
+485366,"Vryn Wingmare",2.5
 485367,"Warded Battlements",1
 485368,"Barrin, Tolarian Archmage",3.5
 485369,"Cancel",1.5
-485370,"Capture Sphere",3.5
-485371,"Discontinuity",3
+485370,"Capture Sphere",3
+485371,"Discontinuity",2
 485372,"Enthralling Hold",3.5
 485373,"Frantic Inventory",2
 485374,"Frost Breath",1.5
@@ -55,33 +55,33 @@
 485377,"Keen Glidemaster",2
 485378,"Library Larcenist",2.5
 485379,"Lofty Denial",1
-485380,"Miscast",1
+485380,"Miscast",0.5
 485381,"Mistral Singer",3
-485382,"Opt",1.5
-485383,"Pursued Whale",4
+485382,"Opt",2
+485383,"Pursued Whale",3.5
 485384,"Rain of Revelation",3
 485385,"Read the Tides",1.5
 485386,"Rewind",1.5
-485387,"Riddleform",2.5
+485387,"Riddleform",3
 485388,"Roaming Ghostlight",3.5
 485389,"Rookie Mistake",0.5
 485390,"Rousing Read",3
 485391,"Sanctum of Calm Waters",3
-485392,"See the Truth",2
+485392,"See the Truth",1.5
 485393,"Shacklegeist",3
 485394,"Shipwreck Dowser",3.5
 485395,"Spined Megalodon",2.5
 485396,"Stormwing Entity",4
 485397,"Sublime Epiphany",4
-485398,"Teferi, Master of Time",4.5
-485399,"Teferi's Ageless Insight",1.5
+485398,"Teferi, Master of Time",4
+485399,"Teferi's Ageless Insight",2
 485400,"Teferi's Protege",2
-485401,"Teferi's Tutelage",2.5
-485402,"Tide Skimmer",3.5
+485401,"Teferi's Tutelage",3
+485402,"Tide Skimmer",3
 485403,"Tolarian Kraken",3
-485404,"Tome Anima",2
+485404,"Tome Anima",1.5
 485405,"Unsubstantiate",2
-485406,"Vodalian Arcanist",2
+485406,"Vodalian Arcanist",1.5
 485407,"Waker of Waves",3.5
 485408,"Wall of Runes",0
 485409,"Wishcoin Crab",0.5
@@ -96,28 +96,28 @@
 485418,"Demonic Embrace",4
 485419,"Duress",0.5
 485420,"Eliminate",3.5
-485421,"Fetid Imp",3
+485421,"Fetid Imp",2.5
 485422,"Finishing Blow",4
 485423,"Gloom Sower",1
 485424,"Goremand",3.5
 485425,"Grasp of Darkness",4
-485426,"Grim Tutor",2.5
+485426,"Grim Tutor",1.5
 485427,"Hooded Blightfang",3.5
-485428,"Infernal Scarring",0.5
-485429,"Kaervek, the Spiteful",3
+485428,"Infernal Scarring",0
+485429,"Kaervek, the Spiteful",3.5
 485430,"Kitesail Freebooter",3
 485431,"Liliana, Waker of the Dead",3.5
 485432,"Liliana's Devotee",3.5
 485433,"Liliana's Standard Bearer",3.5
 485434,"Liliana's Steward",1
 485435,"Malefic Scythe",3
-485436,"Masked Blackguard",2
+485436,"Masked Blackguard",1.5
 485437,"Massacre Wurm",4.5
-485438,"Mind Rot",1
+485438,"Mind Rot",0.5
 485439,"Necromentia",0
 485440,"Peer into the Abyss",1
 485441,"Pestilent Haze",3
-485442,"Rise Again",2.5
+485442,"Rise Again",2
 485443,"Sanctum of Stone Fangs",3.5
 485444,"Sanguine Indulgence",1.5
 485445,"Silversmote Ghoul",3
@@ -127,10 +127,10 @@
 485449,"Village Rites",2
 485450,"Vito, Thorn of the Dusk Rose",3.5
 485451,"Walking Corpse",1
-485452,"Witch's Cauldron",2
-485453,"Battle-Rattle Shaman",2
+485452,"Witch's Cauldron",2.5
+485453,"Battle-Rattle Shaman",2.5
 485454,"Bolt Hound",3
-485455,"Bone Pit Brute",2
+485455,"Bone Pit Brute",1.5
 485456,"Brash Taunter",3.5
 485457,"Burn Bright",0
 485458,"Chandra, Heart of Fire",4.5
@@ -140,33 +140,33 @@
 485462,"Conspicuous Snoop",3
 485463,"Crash Through",1
 485464,"Destructive Tampering",0
-485465,"Double Vision",2
+485465,"Double Vision",2.5
 485466,"Fiery Emancipation",2.5
 485467,"Furious Rise",2.5
 485468,"Furor of the Bitten",1
 485469,"Gadrak, the Crown-Scourge",3.5
 485470,"Goblin Arsonist",1.5
-485471,"Goblin Wizardry",1.5
+485471,"Goblin Wizardry",2
 485472,"Havoc Jester",3
 485473,"Heartfire Immolator",3.5
 485474,"Hellkite Punisher",3
-485475,"Hobblefiend",3
+485475,"Hobblefiend",2.5
 485476,"Igneous Cur",1.5
 485477,"Kinetic Augur",3
 485478,"Onakke Ogre",1
-485479,"Pitchburn Devils",3
-485480,"Sanctum of Shattered Heights",1.5
-485481,"Scorching Dragonfire",4
+485479,"Pitchburn Devils",2.5
+485480,"Sanctum of Shattered Heights",2
+485481,"Scorching Dragonfire",3.5
 485482,"Shock",3.5
-485483,"Soul Sear",3.5
+485483,"Soul Sear",4
 485484,"Spellgorger Weird",3.5
 485485,"Subira, Tulzidi Caravanner",3.5
 485486,"Sure Strike",1.5
 485487,"Terror of the Peaks",4.5
-485488,"Thrill of Possibility",1.5
-485489,"Traitorous Greed",1.5
+485488,"Thrill of Possibility",2
+485489,"Traitorous Greed",2
 485490,"Transmogrify",1
-485491,"Turn to Slag",3.5
+485491,"Turn to Slag",3
 485492,"Turret Ogre",2.5
 485493,"Unleash Fury",1.5
 485494,"Volcanic Geyser",3.5
@@ -183,33 +183,33 @@
 485505,"Fungal Rebirth",3
 485506,"Garruk, Unleashed",4.5
 485507,"Garruk's Gorehorn",0
-485508,"Garruk's Harbinger",3.5
+485508,"Garruk's Harbinger",4
 485509,"Garruk's Uprising",3
 485510,"Gnarled Sage",2
 485511,"Heroic Intervention",3
 485512,"Hunter's Edge",3.5
-485513,"Invigorating Surge",1.5
+485513,"Invigorating Surge",2
 485514,"Jolrael, Mwonvuli Recluse",4
 485515,"Life Goes On",0
 485516,"Llanowar Visionary",3.5
-485517,"Ornery Dilophosaur",2
+485517,"Ornery Dilophosaur",1.5
 485518,"Portcullis Vine",1
 485519,"Pridemalkin",2.5
 485520,"Primal Might",3.5
 485521,"Quirion Dryad",3
 485522,"Ranger's Guile",1
-485523,"Return to Nature",0
+485523,"Return to Nature",0.5
 485525,"Sabertooth Mauler",3
 485526,"Sanctum of Fruitful Harvest",2
 485527,"Scavenging Ooze",3.5
 485528,"Setessan Training",2
-485529,"Skyway Sniper",1
+485529,"Skyway Sniper",1.5
 485530,"Snarespinner",1.5
 485531,"Sporeweb Weaver",3.5
-485532,"Thrashing Brontodon",3
+485532,"Thrashing Brontodon",3.5
 485533,"Titanic Growth",1
 485534,"Track Down",1.5
-485535,"Trufflesnout",3
+485535,"Trufflesnout",2.5
 485536,"Warden of the Woods",3
 485537,"Wildwood Scourge",3
 485538,"Alpine Houndmaster",3
@@ -222,19 +222,19 @@
 485545,"Niambi, Esteemed Speaker",3
 485546,"Obsessive Stitcher",3.5
 485547,"Radha, Heart of Keld",4
-485548,"Sanctum of All",0.5
+485548,"Sanctum of All",1
 485550,"Watcher of the Spheres",3
-485551,"Chromatic Orrery",1
-485552,"Chrome Replicator",2
+485551,"Chromatic Orrery",1.5
+485552,"Chrome Replicator",3
 485553,"Epitaph Golem",1
 485554,"Forgotten Sentinel",1
 485555,"Mazemind Tome",3
 485556,"Meteorite",1
 485557,"Palladium Myr",3
-485558,"Prismite",0.5
+485558,"Prismite",1
 485559,"Short Sword",1
 485560,"Silent Dart",0.5
-485561,"Skyscanner",2.5
+485561,"Skyscanner",3
 485562,"Solemn Simulacrum",4
 485563,"Sparkhunter Masticore",3
 485564,"Tormod's Crypt",0
@@ -242,19 +242,19 @@
 485566,"Bloodfell Caves",1
 485567,"Blossoming Sands",1
 485568,"Dismal Backwater",1
-485569,"Fabled Passage",2.5
-485570,"Jungle Hollow",1
+485569,"Fabled Passage",3
+485570,"Jungle Hollow",0.5
 485571,"Radiant Fountain",1
 485572,"Rugged Highlands",1
 485573,"Scoured Barrens",1
 485574,"Swiftwater Cliffs",1
-485575,"Temple of Epiphany",2
+485575,"Temple of Epiphany",2.5
 485576,"Temple of Malady",2
-485577,"Temple of Mystery",2.5
+485577,"Temple of Mystery",2
 485578,"Temple of Silence",1.5
 485579,"Temple of Triumph",3
-485580,"Thornwood Falls",1.5
-485581,"Tranquil Cove",1.5
+485580,"Thornwood Falls",1
+485581,"Tranquil Cove",1
 485582,"Wind-Scarred Crag",1
 488461,"Plains",0
 488464,"Island",0
