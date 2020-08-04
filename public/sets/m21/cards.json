@@ -100,7 +100,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "m21"
   },
   {
@@ -163,7 +163,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m21"
   },
   {
@@ -173,7 +173,7 @@
     "multiverse_ids": [
       485496
     ],
-    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b8aff2c-1f7b-4507-b914-53f8c4706b3d.jpg?1594736886"],
+    "image_uris": ["https://img.scryfall.com/cards/normal/front/0/b/0b8aff2c-1f7b-4507-b914-53f8c4706b3d.jpg?1596259277"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Monk",
     "oracle_text": "You may play two additional lands on each of your turns.",
@@ -374,7 +374,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "m21"
   },
   {
@@ -459,7 +459,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m21"
   },
   {
@@ -564,7 +564,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m21"
   },
   {
@@ -690,7 +690,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m21"
   },
   {
@@ -732,7 +732,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "m21"
   },
   {
@@ -751,7 +751,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m21"
   },
   {
@@ -770,7 +770,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m21"
   },
   {
@@ -791,7 +791,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "m21"
   },
   {
@@ -834,7 +834,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "m21"
   },
   {
@@ -876,7 +876,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "m21"
   },
   {
@@ -897,7 +897,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "m21"
   },
   {
@@ -960,7 +960,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "m21"
   },
   {
@@ -1023,7 +1023,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "m21"
   },
   {
@@ -1044,7 +1044,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "m21"
   },
   {
@@ -1066,7 +1066,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m21"
   },
   {
@@ -1079,7 +1079,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/b/3/b33ba0a8-04e9-4df6-af20-a3ca4470cdcc.jpg?1594735451"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "As long as it's your turn, this spell costs {2}{U}{U} less to cast.\nEnd the turn. (Exile all spells and abilities on the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
+    "oracle_text": "As long as it's your turn, this spell costs {2}{U}{U} less to cast.\nEnd the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
     "mana_cost": "{3}{U}{U}{U}",
     "cmc": 6,
     "colors": [
@@ -1214,7 +1214,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 5,
     "set": "m21"
   },
   {
@@ -1421,7 +1421,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "m21"
   },
   {
@@ -1484,7 +1484,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m21"
   },
   {
@@ -1587,7 +1587,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m21"
   },
   {
@@ -1747,7 +1747,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/a/f/af2fdbec-bca2-4af5-9c2a-28b0b35b18a3.jpg?1594736982"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Garruk",
-    "oracle_text": "+1: Up to one target creature gets +3/+3 and gains trample until end of turn.\n−2: Create a 3/3 green Beast creature token. Then if an opponent controls more creatures than you, put a loyalty counter on Garruk, Unleashed.\n−7: Create an emblem with \"At the beginning of your end step, you may search your library for a creature card, put it onto the battlefield, then shuffle your library.\"",
+    "oracle_text": "+1: Up to one target creature gets +3/+3 and gains trample until end of turn.\n−2: Create a 3/3 green Beast creature token. Then if an opponent controls more creatures than you, put a loyalty counter on Garruk, Unleashed.\n−7: You get an emblem with \"At the beginning of your end step, you may search your library for a creature card, put it onto the battlefield, then shuffle your library.\"",
     "mana_cost": "{2}{G}{G}",
     "cmc": 4,
     "colors": [
@@ -1818,7 +1818,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "m21"
   },
   {
@@ -1839,7 +1839,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m21"
   },
   {
@@ -1860,7 +1860,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "m21"
   },
   {
@@ -1902,7 +1902,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m21"
   },
   {
@@ -2400,7 +2400,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/7/b/7bd3a903-23e0-4b5a-9c7e-390d5ced8371.jpg?1594737394"],
     "layout": "normal",
     "type_line": "Creature — Elemental Druid",
-    "oracle_text": "{T}: Add {G} for each creature you control with power 4 or greater.\n{7}{R}: Leafkin Avenger deals damage equal to its power to target player or planeswalker.",
+    "oracle_text": "{T}: Add {G} for each creature with power 4 or greater you control.\n{7}{R}: Leafkin Avenger deals damage equal to its power to target player or planeswalker.",
     "mana_cost": "{2}{R}{G}",
     "cmc": 4,
     "colors": [
@@ -2451,7 +2451,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m21"
   },
   {
@@ -2641,7 +2641,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 4,
+    "rating": 3.5,
     "set": "m21"
   },
   {
@@ -2662,7 +2662,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m21"
   },
   {
@@ -2683,7 +2683,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m21"
   },
   {
@@ -2696,7 +2696,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/9/b/9b4e628f-5fc5-4c17-a07d-448d361d7e7c.jpg?1594735076"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Cleric",
-    "oracle_text": "Lifelink\nWhenever an opponent attacks with creatures, if two or more of those creatures are attacking you and/or a planeswalker you control, draw a card.\nWhenever an opponent casts their second spell each turn, draw a card.",
+    "oracle_text": "Lifelink\nWhenever an opponent attacks with creatures, if two or more of those creatures are attacking you and/or planeswalkers you control, draw a card.\nWhenever an opponent casts their second spell each turn, draw a card.",
     "mana_cost": "{3}{W}",
     "cmc": 4,
     "colors": [
@@ -2784,7 +2784,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "m21"
   },
   {
@@ -2826,7 +2826,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 0.5,
     "set": "m21"
   },
   {
@@ -2954,7 +2954,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m21"
   },
   {
@@ -2975,7 +2975,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m21"
   },
   {
@@ -3017,7 +3017,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "m21"
   },
   {
@@ -3057,7 +3057,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "m21"
   },
   {
@@ -3120,7 +3120,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m21"
   },
   {
@@ -3223,7 +3223,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "m21"
   },
   {
@@ -3287,7 +3287,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "m21"
   },
   {
@@ -3432,7 +3432,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m21"
   },
   {
@@ -3495,7 +3495,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m21"
   },
   {
@@ -3622,7 +3622,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "m21"
   },
   {
@@ -3815,7 +3815,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 4,
     "set": "m21"
   },
   {
@@ -4085,7 +4085,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "m21"
   },
   {
@@ -4188,7 +4188,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "m21"
   },
   {
@@ -4260,7 +4260,7 @@
     "image_uris": ["https://img.scryfall.com/cards/normal/front/1/f/1f44b96a-8498-414a-a4ac-54c80dfa9f23.jpg?1594735262"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
-    "oracle_text": "Vigilance, lifelink\n{T}: Create a 4/4 white Angel creature token with flying. Activate this ability only if you have at least 7 more life than your starting life total and only any time you could cast a sorcery.",
+    "oracle_text": "Vigilance, lifelink\n{T}: Create a 4/4 white Angel creature token with flying. Activate this ability only if you have at least 7 life more than your starting life total and only any time you could cast a sorcery.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -4268,7 +4268,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "m21"
   },
   {
@@ -4373,7 +4373,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "m21"
   },
   {
@@ -4478,7 +4478,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m21"
   },
   {
@@ -4584,7 +4584,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m21"
   },
   {
@@ -4670,7 +4670,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "m21"
   },
   {
@@ -4714,7 +4714,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "m21"
   },
   {
@@ -4926,7 +4926,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m21"
   },
   {
@@ -5072,7 +5072,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "m21"
   },
   {
@@ -5134,7 +5134,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "m21"
   },
   {
@@ -5260,7 +5260,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "m21"
   },
   {
@@ -5281,7 +5281,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m21"
   },
   {
@@ -5323,7 +5323,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "m21"
   },
   {
@@ -5407,7 +5407,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "m21"
   },
   {
@@ -5450,7 +5450,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "m21"
   },
   {
@@ -5471,7 +5471,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "m21"
   },
   {
