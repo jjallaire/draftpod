@@ -46,6 +46,14 @@ export default {
         :disabled="disabled" 
         class="form-control"
       >
+        <optgroup label="Recent">
+          <option value="m21">
+            Core Set 2021
+          </option>
+          <option value="2xm">
+            Double Masters
+          </option>
+        </optgroup>
         <optgroup label="Standard">
           <option value="m21">
             Core Set 2021
@@ -107,6 +115,9 @@ export default {
           </option>
           <option value="mh1">
             Modern Horizons
+          </option>
+          <option value="2xm">
+            Double Masters
           </option>
           <option value="ust">
             Unstable

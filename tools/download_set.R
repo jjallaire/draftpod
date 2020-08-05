@@ -113,6 +113,7 @@ download_cards <- function(cards,
         thb = 476251,
         iko = 800000,
         m21 = 485323,
+        `2xm` = 489673
       )
       multiverse_ids <- list(baseline + collector_number)
     }
@@ -208,6 +209,7 @@ download_cards <- function(cards,
     thb = 254,
     iko = 274,
     m21 = 274,
+    `2xm` = 332,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000
