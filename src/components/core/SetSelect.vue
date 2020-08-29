@@ -110,6 +110,9 @@ export default {
           </option>
         </optgroup>
         <optgroup label="More">
+          <option value="akr">
+            Amonkhet Remastered
+          </option>
           <option value="isd">
             Innistrad
           </option>
