@@ -105,17 +105,22 @@ download_cards <- function(cards,
 
     # if there is no multiverse id then use a baseline for the set + collector number
     if (length(multiverse_ids) == 0) {
-      baseline <- switch(set,
-        rna = 500000,
-        war = 460927,
-        mh1 = 463949,
-        eld = 700000,
-        thb = 476251,
-        iko = 800000,
-        m21 = 485323,
-        `2xm` = 489673
-      )
-      multiverse_ids <- list(baseline + collector_number)
+      
+      if (!is.null(card$arena_id)) {
+        multiverse_ids <- list(card$arena_id)
+      } else {
+        baseline <- switch(set,
+                           rna = 500000,
+                           war = 460927,
+                           mh1 = 463949,
+                           eld = 700000,
+                           thb = 476251,
+                           iko = 800000,
+                           m21 = 485323,
+                           `2xm` = 489673
+        )
+        multiverse_ids <- list(baseline + collector_number)
+      }
     }
     
     # get rating
@@ -210,6 +215,7 @@ download_cards <- function(cards,
     iko = 274,
     m21 = 274,
     `2xm` = 332,
+    akr = 339,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000
