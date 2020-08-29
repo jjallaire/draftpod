@@ -22,6 +22,7 @@ import eld from './set-eld'
 import thb from './set-thb'
 import iko from './set-iko'
 import m21 from './set-m21'
+import akr from './set-akr'
 import twoxm from './set-2xm'
 
 import cube_gnt from './cube-gnt'
@@ -53,6 +54,7 @@ const sets = {
   thb,
   iko,
   m21,
+  akr,
   '2xm': twoxm,
   cube_gnt,
   cube_vintage_2019,
