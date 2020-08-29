@@ -554,11 +554,7 @@ export function asDeckList(set_code, format, cards) {
     }, {});
 
   function formatName(name) {
-    if (format === 'arena') {
-      return name.split('//')[0].trim();
-    } else {
-      return name;
-    }
+    return name;
   } 
 
   // return list
