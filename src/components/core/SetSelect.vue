@@ -53,6 +53,9 @@ export default {
           <option value="2xm">
             Double Masters
           </option>
+          <option value="akr">
+            Amonkhet Remastered
+          </option>
         </optgroup>
         <optgroup label="Standard">
           <option value="m21">
