@@ -111,21 +111,33 @@ download_cards <- function(cards,
     # get image uri
     alt_image_uris <- list(
       # AKR split cards don't show oracle text, so use the original print images
-      `74054` = "https://c1.scryfall.com/file/scryfall-cards/png/front/5/1/517b32e4-4b34-431f-8f3b-98a6cffc245a.png?1549941725",
-      `74057` = "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/8902590b-8f14-4e5a-a81f-214af73be9a0.png?1597251309",
-      `74060` = "https://c1.scryfall.com/file/scryfall-cards/png/front/0/d/0d25fa00-ba42-4fbf-8dfd-59295e5b7b89.png?1597251316",
-      `74063` = "https://c1.scryfall.com/file/scryfall-cards/png/front/1/c/1ca644e3-4fb3-4d38-b714-e3d7459bd8b9.png?1562791344",
-      `74066` = "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d2f3035c-ca27-40f3-ad73-c4e54bb2bcd7.png?1549941722",
-      `74069` = "https://c1.scryfall.com/file/scryfall-cards/png/front/e/b/eb6b2fc9-1bb7-4142-a7d4-644a7bba1100.png?1597251376",
-      `74079` = "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/6431d464-1f2b-42c4-ad38-67b7d0984080.png?1549941868",
-      `74082` = "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c6f5433-57cc-4cb3-8621-2575fcbff392.png?1549941629",
-      `74085` = "https://c1.scryfall.com/file/scryfall-cards/png/front/7/6/76f21f0b-aaa5-4677-8398-cef98c6fac2a.png?1562803878"
+      `74009` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c25b8ef-6331-49df-9457-b8b4e44da2c9.jpg?1562793920",
+      `74013` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/5/15b0f214-8668-4921-88ba-7ccf38c9f770.jpg?1562790415",
+      `74016` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/c/1c1ead90-10d8-4217-80e4-6f40320c5569.jpg?1562791309",
+      `74019` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c6f61e2b-e93b-4dda-95cf-9d0ff198c0a6.jpg?1549941949",
+      `74022` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5cf5c549-1e2a-4c47-baf7-e608661b3088.jpg?1549941724",
+      `74025` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/7/7713ba59-dd4c-4b49-93a7-292728df86b8.jpg?1562803886",
+      `74029` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/9/b9623c8c-01b4-4e8f-a5b9-eeea408ec027.jpg?1549941877",
+      `74032` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d998db65-8785-4ee9-940e-fa9ab62e180f.jpg?1562816967",
+      `74035` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/3/0383401f-d453-4e8f-82d2-5c016acc2591.jpg?1562787667",
+      `74039` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/e/fe1a4032-efbb-4f72-9181-994b2b35f598.jpg?1549941957",
+      `74044` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f928e8e8-aa20-402c-85bd-59106e9b9cc7.jpg?1562820622",
+      `74054` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/1/517b32e4-4b34-431f-8f3b-98a6cffc245a.jpg?1549941725",
+      `74057` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f59ea6f6-2dff-4e58-9166-57cac03f1d0a.jpg?15499418759",
+      `74060` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/1/11d84618-aca9-47dc-ae73-36a2c29f584c.jpg?1549941948",
+      `74063` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/c/1ca644e3-4fb3-4d38-b714-e3d7459bd8b9.jpg?1562791344",
+      `74066` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/2/d2f3035c-ca27-40f3-ad73-c4e54bb2bcd7.jpg?1549941722",
+      `74069` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/5/054b07d8-99ae-430b-8e54-f9601fa572e7.jpg?1562787788",
+      `74079` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/4/6431d464-1f2b-42c4-ad38-67b7d0984080.jpg?15499418688",
+      `74082` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9c6f5433-57cc-4cb3-8621-2575fcbff392.jpg?1549941629",
+      `74085` = "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76f21f0b-aaa5-4677-8398-cef98c6fac2a.jpg?1562803878"
     )
     alt_image_uri <- unname(unlist(alt_image_uris[as.character(multiverse_ids[[1]])]))
     
     if (!is.null(alt_image_uri)) {
       cat("Using alt image URI for ", card$name, "\n", sep = "")
       image_uris <- alt_image_uri
+      card$layout <- "normal"
     } else if (!is.null(card$image_uris)) {
       image_uris <- card$image_uris$normal
     } else if (!is.null(card$card_faces)) {
