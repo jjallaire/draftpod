@@ -68,21 +68,6 @@ download_cards <- function(cards,
   # narrow to the fields we care about
   cards <- lapply(cards, function(card) {
     
-    # get image uri
-    if (!is.null(card$image_uris)) {
-      image_uris <- card$image_uris$normal
-    } else if (!is.null(card$card_faces)) {
-      if (is.data.frame(card$card_faces) && is.data.frame(card$card_faces$image_uris)) {
-        image_uris <- card$card_faces$image_uris$normal
-      } else {
-        image_uris <- lapply(card$card_faces, function(face) face$image_uris$normal)
-      }
-      
-    } else {
-      str(card)
-      stop("Unable to find image_uri for card")
-    }
-    
     # get mana_cost
     if (!is.null(card$mana_cost)) {
       mana_cost <- card$mana_cost
@@ -121,6 +106,37 @@ download_cards <- function(cards,
         )
         multiverse_ids <- list(baseline + collector_number)
       }
+    }
+    
+    # get image uri
+    alt_image_uris <- list(
+      # AKR split cards don't show oracle text, so use the original print images
+      `74054` = "https://c1.scryfall.com/file/scryfall-cards/png/front/5/1/517b32e4-4b34-431f-8f3b-98a6cffc245a.png?1549941725",
+      `74057` = "https://c1.scryfall.com/file/scryfall-cards/png/front/8/9/8902590b-8f14-4e5a-a81f-214af73be9a0.png?1597251309",
+      `74060` = "https://c1.scryfall.com/file/scryfall-cards/png/front/0/d/0d25fa00-ba42-4fbf-8dfd-59295e5b7b89.png?1597251316",
+      `74063` = "https://c1.scryfall.com/file/scryfall-cards/png/front/1/c/1ca644e3-4fb3-4d38-b714-e3d7459bd8b9.png?1562791344",
+      `74066` = "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d2f3035c-ca27-40f3-ad73-c4e54bb2bcd7.png?1549941722",
+      `74069` = "https://c1.scryfall.com/file/scryfall-cards/png/front/e/b/eb6b2fc9-1bb7-4142-a7d4-644a7bba1100.png?1597251376",
+      `74079` = "https://c1.scryfall.com/file/scryfall-cards/png/front/6/4/6431d464-1f2b-42c4-ad38-67b7d0984080.png?1549941868",
+      `74082` = "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9c6f5433-57cc-4cb3-8621-2575fcbff392.png?1549941629",
+      `74085` = "https://c1.scryfall.com/file/scryfall-cards/png/front/7/6/76f21f0b-aaa5-4677-8398-cef98c6fac2a.png?1562803878"
+    )
+    alt_image_uri <- unname(unlist(alt_image_uris[as.character(multiverse_ids[[1]])]))
+    
+    if (!is.null(alt_image_uri)) {
+      cat("Using alt image URI for ", card$name, "\n", sep = "")
+      image_uris <- alt_image_uri
+    } else if (!is.null(card$image_uris)) {
+      image_uris <- card$image_uris$normal
+    } else if (!is.null(card$card_faces)) {
+      if (is.data.frame(card$card_faces) && is.data.frame(card$card_faces$image_uris)) {
+        image_uris <- card$card_faces$image_uris$normal
+      } else {
+        image_uris <- lapply(card$card_faces, function(face) face$image_uris$normal)
+      }
+    } else {
+      str(card)
+      stop("Unable to find image_uri for card")
     }
     
     # get rating
