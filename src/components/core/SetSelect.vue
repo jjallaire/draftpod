@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Recent">
+          <option value="znr">
+            Zendikar Rising
+          </option>
           <option value="m21">
             Core Set 2021
           </option>
@@ -58,6 +61,9 @@ export default {
           </option>
         </optgroup>
         <optgroup label="Standard">
+          <option value="znr">
+            Zendikar Rising
+          </option>
           <option value="m21">
             Core Set 2021
           </option>
@@ -70,6 +76,8 @@ export default {
           <option value="eld">
             Throne of Eldraine
           </option>
+        </optgroup>
+        <optgroup label="Pioneer">
           <option value="m20">
             Core Set 2020
           </option>
@@ -82,8 +90,6 @@ export default {
           <option value="grn">
             Guilds of Ravnica
           </option>
-        </optgroup>
-        <optgroup label="Pioneer">
           <option value="m19">
             Core Set 2019
           </option>

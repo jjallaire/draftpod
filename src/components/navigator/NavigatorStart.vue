@@ -47,7 +47,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'm21',
+      set_code: 'znr',
       cardpool: CARDPOOL.CUBE + '6/3/1/1',
       format: 'draft',
       number_of_packs: PACKS_THREE,

@@ -83,10 +83,21 @@ download_cards <- function(cards,
     }
     
     # get id
-    multiverse_ids <- card$multiverse_ids
+    if (set == "znr")
+      multiverse_ids <- list(card$tcgplayer_id + 1000000)
+    else
+      multiverse_ids <- card$multiverse_ids
     
     # convert collector_number to integer
     collector_number <- as.integer(gsub("[A-Za-z]+", "", card$collector_number))
+    
+    # fix collector numbers for znr lands (map higher collector numbers
+    # to ones within the valid range)
+    if (set == "znr") {
+      if (collector_number >= 380 && collector_number <= 384) {
+        collector_number <- collector_number - 114
+      } 
+    }
 
     # if there is no multiverse id then use a baseline for the set + collector number
     if (length(multiverse_ids) == 0) {
@@ -220,6 +231,7 @@ download_cards <- function(cards,
   if (startsWith(set, "cube_"))
     cards <- fix_collector_numbers(cards)
   
+  
   # filter out collector number > threshold
   max_collector_numbers <- list(
     rna = 264,
@@ -244,6 +256,7 @@ download_cards <- function(cards,
     m21 = 274,
     `2xm` = 332,
     akr = 339,
+    znr = 280,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000
@@ -251,7 +264,10 @@ download_cards <- function(cards,
   
   # uses many sets we don't cover here
   if (!startsWith(set, "cube_vintage"))
-    cards <- Filter(function(card) card$collector_number <= max_collector_numbers[[card$set]], cards)
+    cards <- Filter(function(card)  {
+      include <- card$collector_number <= max_collector_numbers[[card$set]]
+      include
+    }, cards)
   
   
   # write as json
@@ -266,7 +282,10 @@ download_cards <- function(cards,
     if (!dir.exists(card_image_dir))
       dir.create(card_image_dir, recursive = TRUE)
     for (card in cards) {
-      for (i in 1:length(card$image_uris)) {
+      images <- length(card$image_uris)
+      if (set == "znr")
+        images <- 1
+      for (i in 1:images) {
         image_uri <- card$image_uris[[i]]
         file_ext <- tools::file_ext(url_parse(image_uri)$path)
         image_path <- file.path(card_image_dir, paste0(card$multiverse_ids[[i]], ".", file_ext))

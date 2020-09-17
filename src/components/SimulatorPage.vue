@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'm21',
+      set_code: 'znr',
       number: 100,
       decks: []
     }
