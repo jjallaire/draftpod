@@ -11,6 +11,7 @@ import jquery from 'jquery'
 import _flatten from 'lodash/flatten'
 import _orderBy from 'lodash/orderBy'
 import _omit from 'lodash/omit'
+import _uniqBy from 'lodash/uniqBy'
 
 import * as filters from '@/store/modules/draft/card-filters'
 
@@ -58,9 +59,27 @@ export default {
     ]),
 
     pool: function() {
-      let displayCards = this.preferences.sealed_show_selected ? 
-        _flatten(this.active_player.deck.piles) :
-        this.active_player.deck.piles[DECK.UNUSED];
+
+      // calculate cards to display
+      let displayCards = null;
+
+      // full set mode shows all unused cards (but no more than one of each)
+      if (this.pool_is_full_set) {
+
+        displayCards = _uniqBy(this.active_player.deck.piles[DECK.UNUSED], function(card) {
+          return card.id;
+        });
+
+      // show selected includes everything (but marks selected)
+      } else if (this.preferences.sealed_show_selected) {
+        displayCards = _flatten(this.active_player.deck.piles);
+      
+      // otherwise show just unused
+      } else {
+        displayCards = this.active_player.deck.piles[DECK.UNUSED];
+      }
+
+      // return cards
       return _orderBy(displayCards, ["key"], ["asc"]);
     },
 
@@ -69,6 +88,10 @@ export default {
         return this.pool.filter(this.filter);
       else
         return this.pool;
+    },
+
+    pool_is_full_set: function() {
+      return this.options.sealed_number_of_packs === -1;
     },
 
     pool_is_multi_set: function() {
@@ -213,9 +236,13 @@ export default {
   <div>
     <NavBar class="sealed-navbar">
 
-     
       <span class="navbar-text">
-        Sealed
+        <span v-if="pool_is_full_set">
+          Full Set
+        </span>  
+        <span v-else>
+          Sealed
+        </span>  
       </span> 
 
       <ul class="navbar-nav">

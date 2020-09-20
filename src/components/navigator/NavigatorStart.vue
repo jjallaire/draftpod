@@ -317,10 +317,10 @@ export default {
 
     createDraft() {
 
-      // force cardpool to 1/1/1/1 for sealed full set
+      // force cardpool to 4/4/4/4 for sealed full set
       let cardpool = this.cardpool;
       if (this.format === 'sealed' & this.sealed_number_of_packs === -1) {
-        cardpool = CARDPOOL.CUBE + '1/1/1/1'
+        cardpool = CARDPOOL.CUBE + '4/4/4/4'
       }
 
       return this.initDraft({ 
@@ -530,7 +530,7 @@ export default {
                 18 Packs
               </option>
               <option value="-1">
-                Full Set (1x)
+                Full Set (4x)
               </option>
             </select>
             <small class="form-text text-muted">

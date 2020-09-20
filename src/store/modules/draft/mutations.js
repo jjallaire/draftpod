@@ -67,6 +67,7 @@ export default {
               break;
             all_packs.push(pack);
           }
+        // full set mode uses all of the cards
         } else {
           all_packs = cardpool.map(card => ([{
             ...card,
