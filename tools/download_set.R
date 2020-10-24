@@ -94,9 +94,22 @@ download_cards <- function(cards,
     # fix collector numbers for znr lands (map higher collector numbers
     # to ones within the valid range)
     if (set == "znr") {
-      if (collector_number >= 380 && collector_number <= 384) {
-        collector_number <- collector_number - 114
-      } 
+      # plains
+      if (collector_number == 380) {
+        collector_number <- 266
+      # island
+      } else if (collector_number == 381) {
+        collector_number <- 269
+      # swamp
+      } else if (collector_number == 382) {
+        collector_number <- 272
+      # mountain
+      } else if (collector_number == 383) {
+        collector_number <- 275
+      # forest
+      } else if (collector_number == 384) {
+        collector_number <- 278
+      }
     }
 
     # if there is no multiverse id then use a baseline for the set + collector number
