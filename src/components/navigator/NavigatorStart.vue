@@ -285,7 +285,7 @@ export default {
         // validation for multi-user drafts
         } else if (this.is_multi_player) {
 
-          if (this.sealed_number_of_packs === -1) {
+          if (this.is_sealed_format && this.sealed_number_of_packs === -1) {
             messagebox.alert("Unable to Start", "Full set sealed pool is not supported for multiple players.");
             resolve(false);
 
