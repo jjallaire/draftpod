@@ -25,6 +25,7 @@ import m21 from './set-m21'
 import akr from './set-akr'
 import twoxm from './set-2xm'
 import znr from './set-znr'
+import klr from './set-klr'
 
 import cube_gnt from './cube-gnt'
 import cube_vintage_2019 from './cube-vintage-2019'
@@ -57,6 +58,7 @@ const sets = {
   m21,
   akr,
   znr,
+  klr,
   '2xm': twoxm,
   cube_gnt,
   cube_vintage_2019,

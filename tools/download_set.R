@@ -270,6 +270,7 @@ download_cards <- function(cards,
     `2xm` = 332,
     akr = 339,
     znr = 280,
+    klr = 301,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000

@@ -50,14 +50,11 @@ export default {
           <option value="znr">
             Zendikar Rising
           </option>
-          <option value="m21">
-            Core Set 2021
+          <option value="klr">
+            Kaladesh Remastered
           </option>
           <option value="2xm">
             Double Masters
-          </option>
-          <option value="akr">
-            Amonkhet Remastered
           </option>
         </optgroup>
         <optgroup label="Standard">
@@ -118,10 +115,15 @@ export default {
             Khans of Tarkir
           </option>
         </optgroup>
-        <optgroup label="More">
+         <optgroup label="Remastered">
+          <option value="klr">
+            Kaladesh Remastered
+          </option>
           <option value="akr">
             Amonkhet Remastered
           </option>
+         </optgroup>
+        <optgroup label="More">
           <option value="isd">
             Innistrad
           </option>
