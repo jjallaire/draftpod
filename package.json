@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@sentry/browser": "^4.5.3",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootbox": "^4.4.0",
     "bootstrap": "^4.2.1",
     "bootswatch": "^4.2.1",
