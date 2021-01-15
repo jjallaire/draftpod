@@ -36,6 +36,3 @@ function snowLand(card) {
          card.type_line.startsWith("Snow Land");
 }
 
-
-
-
