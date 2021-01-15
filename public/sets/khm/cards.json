@@ -1,0 +1,4254 @@
+[
+  {
+    "id": 900200,
+    "name": "Aegar, the Freezing Flame",
+    "collector_number": 200,
+    "multiverse_ids": [
+      900200
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/68011f60-6202-48f4-8255-fb94764e2951.jpg?1610566556"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Giant Wizard",
+    "oracle_text": "Whenever a creature or planeswalker an opponent controls is dealt excess damage, if a Giant, Wizard, or spell you controlled dealt damage to it this turn, draw a card.",
+    "mana_cost": "{1}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900248,
+    "name": "Alpine Meadow",
+    "collector_number": 248,
+    "multiverse_ids": [
+      900248
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/8702d6b9-bb01-4841-a76d-4a576066c772.jpg?1610152399"],
+    "layout": "normal",
+    "type_line": "Snow Land — Mountain Plains",
+    "oracle_text": "({T}: Add {R} or {W}.)\nAlpine Meadow enters the battlefield tapped.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900040,
+    "name": "Alrund, God of the Cosmos // Hakka, Whispering Raven",
+    "collector_number": 40,
+    "multiverse_ids": [
+      900040,
+      901040
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/d/5d131784-c1a3-463e-a37b-b720af67ab62.jpg?1610065942",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/5/d/5d131784-c1a3-463e-a37b-b720af67ab62.jpg?1610065942"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — God // Legendary Creature — Bird",
+    "oracle_text": {},
+    "mana_cost": "{3}{U}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900041,
+    "name": "Alrund's Epiphany",
+    "collector_number": 41,
+    "multiverse_ids": [
+      900041
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c94fcb53-a7bd-4a80-a536-9fb0eb24261a.jpg?1610586029"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn after this one. Exile Alrund's Epiphany.\nForetell {4}{U}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{5}{U}{U}",
+    "cmc": 7,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900042,
+    "name": "Annul",
+    "collector_number": 42,
+    "multiverse_ids": [
+      900042
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b1d4a59-11a0-4a55-8ac0-07377a9e6dc8.jpg?1610300632"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target artifact or enchantment spell.",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900249,
+    "name": "Arctic Treeline",
+    "collector_number": 249,
+    "multiverse_ids": [
+      900249
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b20e3117-f1e4-4449-ae9d-0b66abfc717d.jpg?1610235722"],
+    "layout": "normal",
+    "type_line": "Snow Land — Forest Plains",
+    "oracle_text": "({T}: Add {G} or {W}.)\nArctic Treeline enters the battlefield tapped.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900043,
+    "name": "Ascendant Spirit",
+    "collector_number": 43,
+    "multiverse_ids": [
+      900043
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea56de43-c0fd-4627-846d-41a962b95f17.jpg?1610642284"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Spirit",
+    "oracle_text": "{S}{S}: Ascendant Spirit becomes a Spirit Warrior with base power and toughness 2/3.\n{S}{S}{S}: If Ascendant Spirit is a Warrior, put a flying counter on it and it becomes a Spirit Warrior angel with base power and toughness 4/4.\n{S}{S}{S}{S}: If Ascendant Spirit is an Angel, put two +1/+1 counters on it and it gains \"Whenever this creature deals damage to a player, draw a card.\"",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900044,
+    "name": "Augury Raven",
+    "collector_number": 44,
+    "multiverse_ids": [
+      900044
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/9/a9947cfd-91d6-479e-a7f6-2a2050f020f3.jpg?1610586032"],
+    "layout": "normal",
+    "type_line": "Creature — Bird",
+    "oracle_text": "Flying\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900250,
+    "name": "Axgard Armory",
+    "collector_number": 250,
+    "multiverse_ids": [
+      900250
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f9c77d35-8418-48fb-b7d7-7cfa763545c5.jpg?1610641415"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Axgard Armory enters the battlefield tapped.\n{T}: Add {W}.\n{1}{R}{R}{W}, {T}: Sacrifice Axgard Armory: Search your library for an Aura card and/or Equipment card, reveal them, put them into your hand, then shuffle your library.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900001,
+    "name": "Axgard Braggart",
+    "collector_number": 1,
+    "multiverse_ids": [
+      900001
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4de5ff64-6fe7-4fc5-be27-cdbaa14545ab.jpg?1610644678"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Warrior",
+    "oracle_text": "Boast — {1}{W}: Untap Axgard Braggart. Put a +1/+1 counter on it. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "khm"
+  },
+  {
+    "id": 900121,
+    "name": "Axgard Cavalry",
+    "collector_number": 121,
+    "multiverse_ids": [
+      900121
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/2411c341-a470-4484-9248-7c1d3ca12978.jpg?1610393334"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Berserker",
+    "oracle_text": "{T}: Target creature gains haste until end of turn.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900251,
+    "name": "Barkchannel Pathway // Tidechannel Pathway",
+    "collector_number": 251,
+    "multiverse_ids": [
+      900251,
+      901251
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/6/b6de14ae-0132-4261-af00-630bf15918cd.jpg?1608226844",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/b/6/b6de14ae-0132-4261-af00-630bf15918cd.jpg?1608226844"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Land // Land",
+    "oracle_text": {},
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900122,
+    "name": "Basalt Ravager",
+    "collector_number": 122,
+    "multiverse_ids": [
+      900122
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b32aea04-04f7-48a8-a8ab-8b38fa53da3b.jpg?1610643371"],
+    "layout": "normal",
+    "type_line": "Creature — Giant Wizard",
+    "oracle_text": "When Basalt Ravager enters the battlefield, it deals X damage to any target, where X is the greatest number of creatures you control that have a creature type in common.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900203,
+    "name": "Battle for Bretagard",
+    "collector_number": 203,
+    "multiverse_ids": [
+      900203
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cd31ec15-2fe0-40ab-b320-bc4333db4787.jpg?1610566272"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 1/1 white Human Warrior creature token.\nII — Create a 1/1 green Elf Warrior creature token.\nIII — Choose any number of artifact tokens and/or creature tokens you control with different names. For each of them, create a token thats a copy of it.",
+    "mana_cost": "{1}{G}{W}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900204,
+    "name": "Battle of Frost and Fire",
+    "collector_number": 204,
+    "multiverse_ids": [
+      900204
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/620ed5b7-8874-40d0-9245-98876bdec153.jpg?1610562185"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Battle of Frost and Fire deals 4 damage to each non-Giant creature and each planeswalker.\nII — Scry 3.\nIII — Whenever you cast a spell with converted mana cost 5 or greater this turn, draw two cards, then discard a card.",
+    "mana_cost": "{3}{U}{R}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900205,
+    "name": "\"Beasts of Littjara\"",
+    "collector_number": 205,
+    "multiverse_ids": [
+      900205
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be43a643-6cb7-4bb6-a28d-8ad30b7fbb6d.jpg?1610568706"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 2/2 blue Shapeshifter creature token with changeling.\nII — Any number of target Shapeshifters you control have base power and toughness 4/4.\nIII — Choose up to one target creature or planeswalker. Each creature you control with power 4 or greater deals damage equal to its power to that permanent.",
+    "mana_cost": "{1}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900046,
+    "name": "Behold the Multiverse",
+    "collector_number": 46,
+    "multiverse_ids": [
+      900046
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27855a38-a682-4f97-ad22-ac625e86faec.jpg?1610586049"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Scry 2, then draw two cards.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "khm"
+  },
+  {
+    "id": 900004,
+    "name": "Beskir Shieldmate",
+    "collector_number": 4,
+    "multiverse_ids": [
+      900004
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/dfc1df84-9c47-444b-9d58-d9c7bed51c66.jpg?1610656522"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warrior",
+    "oracle_text": "When Beskir Shieldmate dies, create a 1/1 white Human Warrior creature token.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900206,
+    "name": "Binding the Old Gods",
+    "collector_number": 206,
+    "multiverse_ids": [
+      900206
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d93ee644-d7d7-48d8-a04b-fb479b74edb0.jpg?1610153510"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy target nonland permanent an opponent controls.\nII — Search your library for a Forest card, put it onto the battlefield tapped, then shuffle your library.\nIII — Creatures you control gain deathtouch until end of turn.",
+    "mana_cost": "{2}{B}{G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900252,
+    "name": "Blightstep Pathway // Searstep Pathway",
+    "collector_number": 252,
+    "multiverse_ids": [
+      900252,
+      901252
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/c/0ce39a19-f51d-4a35-ae80-5b82eb15fcff.jpg?1608058149",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/0/c/0ce39a19-f51d-4a35-ae80-5b82eb15fcff.jpg?1608058149"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Land // Land",
+    "oracle_text": {},
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900162,
+    "name": "Blizzard Brawl",
+    "collector_number": 162,
+    "multiverse_ids": [
+      900162
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1610586235"],
+    "layout": "normal",
+    "type_line": "Snow Sorcery",
+    "oracle_text": "Choose target creature you control and target creature you don't control. If you control three or more snow permanents, the creature you control gets +1/+0 and gains indestructible until end of turn. Then those creatures fight each other. (Each deals damage equal to its power to the other.)",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900235,
+    "name": "Bloodline Pretender",
+    "collector_number": 235,
+    "multiverse_ids": [
+      900235
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb8a16f6-55c1-40eb-998f-592bf31916b1.jpg?1610394627"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Shapeshifter",
+    "oracle_text": "Changeling (This card is every creature type.)\nAs Bloodline Pretender enters the battlefield, choose a creature type.\nWhenever another creature of the chosen type enters the battlefield under your control, put a +1/+1 counter on Bloodline Pretender.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900080,
+    "name": "Bloodsky Berserker",
+    "collector_number": 80,
+    "multiverse_ids": [
+      900080
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a6308a53-de07-4ed9-80a1-3579843466c2.jpg?1610586437"],
+    "layout": "normal",
+    "type_line": "Creature — Human Berserker",
+    "oracle_text": "Whenever you cast your second spell each turn, put two +1/+1 counters on Bloodsky Berserker. It gains menace until end of turn. (It can't be blocked except by two or more creatures.)",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900163,
+    "name": "Boreal Outrider",
+    "collector_number": 163,
+    "multiverse_ids": [
+      900163
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/455ae615-20d7-4251-828d-72a3345d06f1.jpg?1610390874"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Elf Warrior",
+    "oracle_text": "Whenever you cast a creature spell, if {S} of any of any of that spell's color was spent to cast it, that creature enters the battlefield with an additional +1/+1 counter on it. ({S} is mana from a snow source.)",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900005,
+    "name": "Bound in Gold",
+    "collector_number": 5,
+    "multiverse_ids": [
+      900005
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/074d526a-1eef-4045-bd38-f6d68c4bc4b9.jpg?1610495209"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant permanent\nEnchanted permanent can't attack, block, or crew Vehicles, and its activated abilities can't be activated unless they're mana abilities.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900124,
+    "name": "\"Breakneck Berserker\"",
+    "collector_number": 124,
+    "multiverse_ids": [
+      900124
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/6/d6eb23c9-6061-4ad1-a8f3-2c791c49f352.jpg?1610561391"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Berserker",
+    "oracle_text": "Haste",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900253,
+    "name": "Bretagard Stronghold",
+    "collector_number": 253,
+    "multiverse_ids": [
+      900253
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24a0f2e2-cfd7-4374-a172-4357d5de47bb.jpg?1610134552"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Bretagard Stronghold enters the battlefield tapped.\n{T}: Add {G}.\n{G}{W}{W}, {T}, Sacrifice Bretagard Stronghold: Put a +1/+1 counter on each of up to two target creatures you control. They gain vigilance and lifelink until end of turn. Activate this ability only any time you cast a sorcery.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900164,
+    "name": "Broken Wings",
+    "collector_number": 164,
+    "multiverse_ids": [
+      900164
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/6201f78e-ff45-4c59-ac85-c8447c14a496.jpg?1610227585"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target artifact, enchantment, or creature with flying.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900081,
+    "name": "Burning-Rune Demon",
+    "collector_number": 81,
+    "multiverse_ids": [
+      900081
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4d3b0c3b-896e-4d1e-b7fb-670718ba97d4.jpg?1610649055"],
+    "layout": "normal",
+    "type_line": "Creature — Demon Berserker",
+    "oracle_text": "Flying\nWhen Burning-Rune Demon enters the battlefield, you may search your library for exactly two cards not named Burning-Rune Demon that have different names. If you do, reveal those cards. An opponent chooses one of them. Put the chosen card into your hand and the other into your graveyard, then shuffle your library.",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900125,
+    "name": "Calamity Bearer",
+    "collector_number": 125,
+    "multiverse_ids": [
+      900125
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a15edad1-ff68-4f20-95f6-99fe549bea98.jpg?1610132515"],
+    "layout": "normal",
+    "type_line": "Creature — Giant Berserker",
+    "oracle_text": "If a Giant source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900126,
+    "name": "Cinderheart Giant",
+    "collector_number": 126,
+    "multiverse_ids": [
+      900126
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4802e6c-6921-4dac-bf44-7e09d6942b71.jpg?1610586564"],
+    "layout": "normal",
+    "type_line": "Creature — Giant Berserker",
+    "oracle_text": "Trample\nWhen Cinderheart Giant dies, it deals 7 damage to a creature an opponent controls chosen at random.",
+    "mana_cost": "{5}{R}{R}",
+    "cmc": 7,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "khm"
+  },
+  {
+    "id": 900006,
+    "name": "Clarion Spirit",
+    "collector_number": 6,
+    "multiverse_ids": [
+      900006
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/6/86a4c348-1012-4339-960a-c7bc7fd84fbb.jpg?1610566443"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit",
+    "oracle_text": "Whenever you cast your second spell each turn, create a 1/1 white Spirit creature token with flying.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900007,
+    "name": "Codespell Cleric",
+    "collector_number": 7,
+    "multiverse_ids": [
+      900007
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/1316a74e-da55-4668-87f2-98389a90a2a4.jpg?1610586454"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "oracle_text": "Vigilance\nWhen Codespell Cleric enters the battlefield, if it was the second spell you cast this turn, put a +1/+1 counter on target creature.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900050,
+    "name": "Cosima, God of the Voyage // The Omenkeel",
+    "collector_number": 50,
+    "multiverse_ids": [
+      900050,
+      901050
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fab2fca4-a99f-4ffe-9c02-edb6e0be2358.jpg?1610648527",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/f/a/fab2fca4-a99f-4ffe-9c02-edb6e0be2358.jpg?1610648527"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — God // Legendary Artifact — Vehicle",
+    "oracle_text": {},
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900051,
+    "name": "Cosmos Charger",
+    "collector_number": 51,
+    "multiverse_ids": [
+      900051
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/e/4ec318c6-b718-436f-b9e8-e0c6154e5010.jpg?1610585974"],
+    "layout": "normal",
+    "type_line": "Creature — Horse Spirit",
+    "oracle_text": "Flash\nFlying\nForetelling cards from your hand costs {1} less and can be done on any player's turn.\nForetell {2}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900128,
+    "name": "Crush the Weak",
+    "collector_number": 128,
+    "multiverse_ids": [
+      900128
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/875a20c2-1d17-46ea-b4d2-3e70bc05aae3.jpg?1610586049"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Crush the Weak deals 2 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900052,
+    "name": "Cyclone Summoner",
+    "collector_number": 52,
+    "multiverse_ids": [
+      900052
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b2d40071-cadf-48de-a8ed-d55adbfab632.jpg?1610642985"],
+    "layout": "normal",
+    "type_line": "Creature — Giant Wizard",
+    "oracle_text": "When Cyclone Summoner enters the battlefield, if you cast it from your hand, return all permanents to their owners' hands except for Giants, Wizards, and lands.",
+    "mana_cost": "{5}{U}{U}",
+    "cmc": 7,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900254,
+    "name": "Darkbore Pathway // Slitherbore Pathway",
+    "collector_number": 254,
+    "multiverse_ids": [
+      900254,
+      901254
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87a4e5fe-161f-42da-9ca2-67c8e8970e94.jpg?1608057969",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/7/87a4e5fe-161f-42da-9ca2-67c8e8970e94.jpg?1608057969"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Land // Land",
+    "oracle_text": {},
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900083,
+    "name": "Deathknell Berserker",
+    "collector_number": 83,
+    "multiverse_ids": [
+      900083
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f9f2029f-ffda-4374-9a78-79866ac23fca.jpg?1610586636"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Berserker",
+    "oracle_text": "When Deathknell Berserker dies, if its power was 3 or greater, create a 2/2 black Zombie Berserker creature token.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900129,
+    "name": "\"Demonic Lightning\"",
+    "collector_number": 129,
+    "multiverse_ids": [
+      900129
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f856b0e-b413-49b0-9aa7-d935ad40ae53.jpg?1610586481"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "\"Demonic Lightning\" deals 4 damage to target creature or planeswalker.\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900008,
+    "name": "Divine Gambit",
+    "collector_number": 8,
+    "multiverse_ids": [
+      900008
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/696a8c12-4a1f-4b96-a921-538fa1a2de43.jpg?1610647857"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Exile target artifact, creature, or enchantment an opponent controls. That player may put a permanent card from their hand onto the battlefield.",
+    "mana_cost": "{W}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900085,
+    "name": "Dogged Pursuit",
+    "collector_number": 85,
+    "multiverse_ids": [
+      900085
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/60f6a159-b969-4767-802e-409f8bf286fe.jpg?1610397582"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "At the beginning of your end step, each opponent loses 1 life and you gain 1 life.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "khm"
+  },
+  {
+    "id": 900010,
+    "name": "Doomskar Oracle",
+    "collector_number": 10,
+    "multiverse_ids": [
+      900010
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6dae01c8-15bb-44ad-a2c6-9bcf7a9e8c17.jpg?1610586058"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "oracle_text": "Whenever you cast your second spell each turn, you gain 2 life.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900131,
+    "name": "\"Dragon Dad uwu…\"",
+    "collector_number": 131,
+    "multiverse_ids": [
+      900131
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7f22fe4-2390-4c3d-8b5e-0cf398d97f6a.jpg?1610480938"],
+    "layout": "normal",
+    "type_line": "Creature — Human Berserker",
+    "oracle_text": "First strike\nBoast abilities you activate cost {1} less to activate for each Dragon you control.\nBoast — {4}{R}: Create a 5/5 red Dragon creature token with flying. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900086,
+    "name": "Draugr Necromancer",
+    "collector_number": 86,
+    "multiverse_ids": [
+      900086
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76d8e0ff-e720-41ca-af69-35585a2d7ae2.jpg?1610304391"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Zombie Cleric",
+    "oracle_text": "If a nontoken creature an opponent controls would die, exile that card with an ice counter on it instead.\nYou may cast spells from among cards in exile your opponents own with ice counters on them, and you may spend mana from snow sources as though it were mana of any color to cast those spells.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900065,
+    "name": "\"Draugr Omenreader\"",
+    "collector_number": 65,
+    "multiverse_ids": [
+      900065
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/9/4911016c-b92a-47cc-9553-b424d7be196a.jpg?1610565698"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Wizard",
+    "oracle_text": "{T}: Add {U}. Spend this mana only to foretell cards or to cast an instant or sorcery spell.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900088,
+    "name": "Draugr's Helm",
+    "collector_number": 88,
+    "multiverse_ids": [
+      900088
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/d/fd4aade3-b1e3-43d1-b4a8-6b55ecdb4327.jpg?1610562272"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "When Draugr's Helm enters the battlefield, you may pay {2}{B}. If you do, create a 2/2 black Zombie Berserker creature token, then attach Draugr's Helm to it.\nEquipped creature gets +2/+2 and has menace. (It can't be blocked except by two or more creatures.)\nEquip {4}",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900132,
+    "name": "Dual Strike",
+    "collector_number": 132,
+    "multiverse_ids": [
+      900132
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/e/6ef580f8-efec-4d31-8dc3-2018dd48b6f4.jpg?1610586064"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "When you cast your next instant or sorcery spell with converted mana cost 4 or less this turn, copy that spell. You may choose new targets for the copy.\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{R}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900091,
+    "name": "Duskwielder",
+    "collector_number": 91,
+    "multiverse_ids": [
+      900091
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/b/5b5490b8-5652-40f5-8678-e1263ef69b5a.jpg?1610560902"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Berserker",
+    "oracle_text": "Boast — {1}: Target opponent loses 1 life and you gain 1 life. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900134,
+    "name": "Dwarven Reinforcements",
+    "collector_number": 134,
+    "multiverse_ids": [
+      900134
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/0/40bcc7cb-65dd-4bc6-8606-a162fa6c65f7.jpg?1610643083"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create two 2/1 red Dwarf Berserker creature tokens.\nForetell {1}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "khm"
+  },
+  {
+    "id": 900092,
+    "name": "Egon, God of Death // Throne of Death",
+    "collector_number": 92,
+    "multiverse_ids": [
+      900092,
+      901092
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9dfdb73d-b001-4a59-b79e-8c8c1baea116.jpg?1610397419",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/9/d/9dfdb73d-b001-4a59-b79e-8c8c1baea116.jpg?1610397419"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — God // Legendary Artifact",
+    "oracle_text": {},
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900093,
+    "name": "Elderfang Disciple",
+    "collector_number": 93,
+    "multiverse_ids": [
+      900093
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f3a6148-d005-49c1-a7fc-867c4e8251cd.jpg?1610647871"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Cleric",
+    "oracle_text": "When Elderfang Disciple enters the battlefield, each opponent discards a card.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900165,
+    "name": "Elderleaf Mentor",
+    "collector_number": 165,
+    "multiverse_ids": [
+      900165
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/e/5e8bded3-46c3-474f-9d09-978df8705ad1.jpg?1610561123"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Warrior",
+    "oracle_text": "When Elderleaf Mentor enters the battlefield, create a 1/1 green Elf Warrior creature token.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "khm"
+  },
+  {
+    "id": 900167,
+    "name": "Elvish Warmaster",
+    "collector_number": 167,
+    "multiverse_ids": [
+      900167
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/58da074a-a776-4e3f-be04-9e7f18320ae1.jpg?1610394530"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Warrior",
+    "oracle_text": "Whenever one or more other Elves enters the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.\n{5}{G}{G}: Elves you control get +2/+2 and gain deathtouch until end of turn.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900094,
+    "name": "Eradicator Valkyrie",
+    "collector_number": 94,
+    "multiverse_ids": [
+      900094
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d00edda3-ddbc-44ee-a14b-47a701445bb0.jpg?1610304412"],
+    "layout": "normal",
+    "type_line": "Creature — Angel Berserker",
+    "oracle_text": "Flying, lifelink, hexproof from planeswalkers\nBoast — {1}{B}, Sacrifice a creature: Each opponent sacrifices a creature or planeswalker. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+    "mana_cost": "{2}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "khm"
+  },
+  {
+    "id": 900168,
+    "name": "Esika, God of the Tree // The Prismatic Bridge",
+    "collector_number": 168,
+    "multiverse_ids": [
+      900168,
+      901168
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg?1610295185",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg?1610295185"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — God // Legendary Enchantment",
+    "oracle_text": {},
+    "mana_cost": "{1}{G}{G}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "khm"
+  },
+  {
+    "id": 900169,
+    "name": "Esika's Chariot",
+    "collector_number": 169,
+    "multiverse_ids": [
+      900169
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1610226891"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact — Vehicle",
+    "oracle_text": "When Esika's Chariot enters the battlefield, create two 2/2 green Cat creature tokens.\nWhenever Esika's Chariot attacks, create a token that's a copy of target token you control.\nCrew 4",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900255,
+    "name": "Faceless Haven",
+    "collector_number": 255,
+    "multiverse_ids": [
+      900255
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1610300554"],
+    "layout": "normal",
+    "type_line": "Snow Land",
+    "oracle_text": "{T}: Add {C}.\n{S}{S}{S}: Faceless Haven becomes a 4/3 creature with vigilance and all creature types until end of turn. It's still a land. ({S} can be paid with one mana from a snow source.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900135,
+    "name": "Fearless Liberator",
+    "collector_number": 135,
+    "multiverse_ids": [
+      900135
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/1/212462b7-e23e-4c87-93aa-9cadefbf1ac8.jpg?1610644772"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Berserker",
+    "oracle_text": "Boast — {2}{R}: Create a 2/1 red Dwarf Berserker creature token. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900095,
+    "name": "Feed the Serpent",
+    "collector_number": 95,
+    "multiverse_ids": [
+      900095
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/99a1a75b-20cf-4db9-a244-cc54411446c4.jpg?1610398737"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Exile target creature or planeswalker.",
+    "mana_cost": "{2}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "khm"
+  },
+  {
+    "id": 900209,
+    "name": "Firja, Judge of Valor",
+    "collector_number": 209,
+    "multiverse_ids": [
+      900209
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/df87077c-85d8-499e-bce0-27697caada5a.jpg?1610496798"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Angel Cleric",
+    "oracle_text": "Flying, lifelink\nWhenever you cast your second spell each turn, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
+    "mana_cost": "{2}{W}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900210,
+    "name": "Firja's Retribution",
+    "collector_number": 210,
+    "multiverse_ids": [
+      900210
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/3/03dff23e-d7e3-4d75-a9dc-fdf4a42f31e0.jpg?1610647718"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 4/4 white Angel Warrior creature token with flying and vigilance.\nII — Until end of turn, Angels you control gain \"{T}: Destroy target creature with less power than this creature.\"\nIII — Angels you control gain double strike until end of turn.",
+    "mana_cost": "{1}{W}{W}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900398,
+    "name": "Forest",
+    "collector_number": 398,
+    "multiverse_ids": [
+      900398
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/7/771e307c-b2e3-47ac-aac2-59f0c3542fa6.jpg?1610566079"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900211,
+    "name": "Forging the Tyrite Sword",
+    "collector_number": 211,
+    "multiverse_ids": [
+      900211
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/c/3ce46100-461d-424e-afa4-7a0bb7d0a822.jpg?1610152075"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Create a Treasure token.\nIII — Search your library for a card named Halvar, God of Battle or an Equipment card, reveal it, put it into your hand, then shuffle your library.",
+    "mana_cost": "{1}{R}{W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900047,
+    "name": "\"Frigid-Sea Traveler\"",
+    "collector_number": 47,
+    "multiverse_ids": [
+      900047
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f3567bdc-450e-4481-9349-a80fe52fe431.jpg?1610561975"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Giant Wizard",
+    "oracle_text": "When \"Frigid-Sea Traveler\" enters the battlefield, tap target artifact or creature an opponent controls. If {S} was spent to cast this spell, that permanent doesn't untap during its controller's next untap step.",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "khm"
+  },
+  {
+    "id": 900138,
+    "name": "Frost Bite",
+    "collector_number": 138,
+    "multiverse_ids": [
+      900138
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/4/9423318a-c5a8-48d2-92f5-280d15a050a6.jpg?1610065967"],
+    "layout": "normal",
+    "type_line": "Snow Instant",
+    "oracle_text": "Frost Bite deals 2 damage to target creature or planeswalker. If you control three or more snow permanents, it deals 3 damage instead.",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900057,
+    "name": "Frostpeak Yeti",
+    "collector_number": 57,
+    "multiverse_ids": [
+      900057
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/f/3f406ce3-dce1-42d3-b76c-8e8c4b2770cb.jpg?1610586828"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Yeti",
+    "oracle_text": "{1}{S}: Frostpeak Yeti can't be blocked this turn. ({S} can be paid with one mana from a snow source.)",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "khm"
+  },
+  {
+    "id": 900058,
+    "name": "Frostpyre Arcanist",
+    "collector_number": 58,
+    "multiverse_ids": [
+      900058
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/276f8abd-4d39-4b50-876f-9c6713bc4ab5.jpg?1610643395"],
+    "layout": "normal",
+    "type_line": "Creature — Giant Wizard",
+    "oracle_text": "This spell costs {1} less to cast if you control a Giant or a Wizard.\nWhen Frostpyre Arcanist enters the battlefield, search your library for an instant or sorcery card with the same name as a card in your graveyard, reveal it, put it into your hand, then shuffle your library.",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900238,
+    "name": "Funeral Longboat",
+    "collector_number": 238,
+    "multiverse_ids": [
+      900238
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/45c48042-178f-432e-9eee-10bfa1e0795f.jpg?1610564393"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "oracle_text": "Vigilance\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900256,
+    "name": "Gates of Istfell",
+    "collector_number": 256,
+    "multiverse_ids": [
+      900256
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/2627acb7-57d9-4429-9bc5-e7dd444d8d48.jpg?1610648782"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Gates of Istfell enters the battlefield tapped.\n{T}: Add {W}.\n{2}{W}{U}{U}, {T}, Sacrifice Gates of Istfell: You gain 2 life and draw two cards.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900011,
+    "name": "Giant Ox",
+    "collector_number": 11,
+    "multiverse_ids": [
+      900011
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/c/fc71d8ca-c613-4534-bc9d-bc1e13202a2c.jpg?1610656592"],
+    "layout": "normal",
+    "type_line": "Creature — Ox",
+    "oracle_text": "You may use \"Big-Booty Ox\"'s toughness to crew rather than its power.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900059,
+    "name": "Giant's Amulet",
+    "collector_number": 59,
+    "multiverse_ids": [
+      900059
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/ab8b1ec2-9303-4722-8644-b3bc1a5c387f.jpg?1610130929"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "When Giant's Amulet enters the battlefield, you may pay {3}{U}. If you do, create a 4/4 blue Giant Wizard creature token, then attach Giant's Amulet to it.\nEquipped creature gets +0/+1 and has \"This creature has hexproof as long as it's untapped.\" (It can't be the target of spells or abilities your opponents control.)\nEquip {2}",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900257,
+    "name": "Glacial Floodplain",
+    "collector_number": 257,
+    "multiverse_ids": [
+      900257
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9de5fadd-4559-479f-b45d-abe792f0f6e5.jpg?1610152708"],
+    "layout": "normal",
+    "type_line": "Snow Land — Plains Island",
+    "oracle_text": "({T}: Add {W} or {U}.)\nGlacial Floodplain enters the battlefield tapped.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900060,
+    "name": "Glimpse the Cosmos",
+    "collector_number": 60,
+    "multiverse_ids": [
+      900060
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dc96ebe8-f4b3-4788-a6f5-2a50b6c0d935.jpg?1610066015"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.\nAs long as you control a Giant, you may cast Glimpse the Cosmos from your graveyard by paying {U} rather than paying its mana cost. If you cast Glimpse the Cosmos this way and it would be put into your graveyard, exile it instead.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900171,
+    "name": "Glittering Frost",
+    "collector_number": 171,
+    "multiverse_ids": [
+      900171
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c60fbc33-6198-4661-967e-cc94f2788e4a.jpg?1610586590"],
+    "layout": "normal",
+    "type_line": "Snow Enchantment — Aura",
+    "oracle_text": "Enchant land\nEnchanted land is snow.\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900172,
+    "name": "Gnottvold Recluse",
+    "collector_number": 172,
+    "multiverse_ids": [
+      900172
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/af46c8c8-5dfa-4ebb-b0b9-cd25d01dd432.jpg?1610566720"],
+    "layout": "normal",
+    "type_line": "Creature — Spider",
+    "oracle_text": "Reach",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900258,
+    "name": "Gnottvold Slumbermound",
+    "collector_number": 258,
+    "multiverse_ids": [
+      900258
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/735470df-65d8-43e9-837e-4869c8e4f052.jpg?1610652745"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Gnottvold Slumbermound enters the battlefield tapped.\n{T}: Add {R}.\n{3}{R}{G}{G}, {T}, Sacrifice Gnottvold Slumbermound: Destroy target land. Create a 4/4 green Troll Warrior creature token with trample.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900013,
+    "name": "Gods' Hall Guardian",
+    "collector_number": 13,
+    "multiverse_ids": [
+      900013
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/8/e8e645c8-90ac-4865-b441-e64251d6c9a8.jpg?1610289885"],
+    "layout": "normal",
+    "type_line": "Creature — Cat",
+    "oracle_text": "Vigilance\nForetell {3}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{5}{W}",
+    "cmc": 6,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "khm"
+  },
+  {
+    "id": 900014,
+    "name": "Goldmaw Champion",
+    "collector_number": 14,
+    "multiverse_ids": [
+      900014
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/44d4cd64-8560-48f5-b0bc-f75286c1c91c.jpg?1610644356"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Warrior",
+    "oracle_text": "Boast — {1}{W}: Tap target creature. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900139,
+    "name": "Goldspan Dragon",
+    "collector_number": 139,
+    "multiverse_ids": [
+      900139
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9d914868-9000-4df2-a818-0ef8a7f636ae.jpg?1610079316"],
+    "layout": "normal",
+    "type_line": "Creature — Dragon",
+    "oracle_text": "Flying, haste\nWhenever Goldspan Dragon attacks or becomes the target of a spell, create a Treasure token.\nTreasures you control have \"{T}, Sacrifice this artifact: Add two mana of any one color.\"",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900239,
+    "name": "Goldvein Pick",
+    "collector_number": 239,
+    "multiverse_ids": [
+      900239
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9bf5e4ad-a6e9-4b7c-a1ec-8246d3a3b6ca.jpg?1610564623"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature gets +1/+1.\nWhenever equipped creature deals combat damage to a player, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900096,
+    "name": "Grim Draugr",
+    "collector_number": 96,
+    "multiverse_ids": [
+      900096
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54340c59-03a9-4d9d-bd27-9aed337ce75a.jpg?1610586676"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Zombie Berserker",
+    "oracle_text": "{1}{S}: Grim Draugr gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900174,
+    "name": "Guardian Gladewalker",
+    "collector_number": 174,
+    "multiverse_ids": [
+      900174
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/587eed42-5111-4161-9af5-bf76556c542a.jpg?1610394577"],
+    "layout": "normal",
+    "type_line": "Creature — Shapeshifter",
+    "oracle_text": "Changeling (This card is every creature type.)\nWhen Guardian Gladewalker enters the battlefield, put a +1/+1 counter on target creature.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900140,
+    "name": "Hagi Mob",
+    "collector_number": 140,
+    "multiverse_ids": [
+      900140
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d3b18cdb-bc17-42ae-bfb7-4eafce01cd39.jpg?1610301376"],
+    "layout": "normal",
+    "type_line": "Creature — Troll Berserker",
+    "oracle_text": "Boast — {1}{R}: Hagi Mob deals 1 damage to any target. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "khm"
+  },
+  {
+    "id": 900097,
+    "name": "Hailstorm Valkyrie",
+    "collector_number": 97,
+    "multiverse_ids": [
+      900097
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a5a272b3-aaab-4c98-86a8-85c67a5f3d4d.jpg?1610152142"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Angel Wizard",
+    "oracle_text": "Flying, trample\n{S}{S}: Hailstorm Valkyrie gets +2/+2 until end of turn. ({S} can be paid with one mana from a snow source.)",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900015,
+    "name": "Halvar, God of Battle // Sword of the Realms",
+    "collector_number": 15,
+    "multiverse_ids": [
+      900015,
+      901015
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/7/97502411-5c93-434c-b77b-ceb2c32feae7.jpg?1608253263",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/9/7/97502411-5c93-434c-b77b-ceb2c32feae7.jpg?1608253263"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — God // Legendary Artifact — Equipment",
+    "oracle_text": {},
+    "mana_cost": "{2}{W}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "khm"
+  },
+  {
+    "id": 900212,
+    "name": "Harald, King of Skemfar",
+    "collector_number": 212,
+    "multiverse_ids": [
+      900212
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/e/9eac78a2-599f-4dba-aec7-982c5ae3f75a.jpg?1610433045"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elf Warrior",
+    "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen Harald, King of Skemfar enters the battlefield, look at the top five cards of your library. You may reveal an Elf, Warrior, or Tyvar card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+    "mana_cost": "{1}{B}{G}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900213,
+    "name": "Harald Unites the Elves",
+    "collector_number": 213,
+    "multiverse_ids": [
+      900213
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7c5f681-0145-45e9-b943-ca9784cfdea0.jpg?1610393830"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Mill three cards. You may put an Elf or Tyvar card from your graveyard onto the battlefield.\nII — Put a +1/+1 counter on each Elf you control.\nIII — Whenever an Elf you control attacks this turn, target creature an opponent controls gets -1/-1 until end of turn.",
+    "mana_cost": "{2}{B}{G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900260,
+    "name": "Hengegate Pathway // Mistgate Pathway",
+    "collector_number": 260,
+    "multiverse_ids": [
+      900260,
+      901260
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7ef37cb3-d803-47d7-8a01-9c803aa2eadc.jpg?1608058266",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/e/7ef37cb3-d803-47d7-8a01-9c803aa2eadc.jpg?1608058266"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Land // Land",
+    "oracle_text": {},
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900261,
+    "name": "Highland Forest",
+    "collector_number": 261,
+    "multiverse_ids": [
+      900261
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/682eee5f-7986-45d3-910f-407303fdbcc4.jpg?1610152713"],
+    "layout": "normal",
+    "type_line": "Snow Land — Mountain Forest",
+    "oracle_text": "({T}: Add {R} or {G}.)\nHighland Forest enters the battlefield tapped.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900262,
+    "name": "Ice Tunnel",
+    "collector_number": 262,
+    "multiverse_ids": [
+      900262
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8cff3ef0-4dfb-472e-aa1e-77613dd0f6d8.jpg?1610152732"],
+    "layout": "normal",
+    "type_line": "Snow Land — Island Swamp",
+    "oracle_text": "({T}: Add {U} or {B}.)\nIce Tunnel enters the battlefield tapped.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900099,
+    "name": "Infernal Pet",
+    "collector_number": 99,
+    "multiverse_ids": [
+      900099
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/0/80340582-655b-4bf1-88fb-14bcbe17aa04.jpg?1610647808"],
+    "layout": "normal",
+    "type_line": "Creature — Imp",
+    "oracle_text": "Whenever you cast your second spell each turn, put a +1/+1 counter on Infernal Pet and it gains flying until end of turn.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900064,
+    "name": "Inga Rune-Eyes",
+    "collector_number": 64,
+    "multiverse_ids": [
+      900064
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/62a6f095-5beb-42a8-af8f-d40eef27150e.jpg?1610153104"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Wizard",
+    "oracle_text": "When Inga Rune-Eyes enters the battlefield, scry 3.\nWhen Inga Rune-Eyes dies, draw three cards if three or more creatures died this turn.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900215,
+    "name": "Invasion of the Giants",
+    "collector_number": 215,
+    "multiverse_ids": [
+      900215
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f5075a0-c72a-474c-937c-95dc9205d14f.jpg?1610149696"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Scry 2.\nII — Draw a card. Then you may reveal a Giant card from your hand. When you do, Invasion of the Giants deals 2 damage to target opponent or planeswalker.\nIII — The next Giant spell you cast this turn costs {2} less to cast.",
+    "mana_cost": "{U}{R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900017,
+    "name": "Iron Verdict",
+    "collector_number": 17,
+    "multiverse_ids": [
+      900017
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/f/2fb38f5b-a2c2-4b06-8c9c-9615475a43e7.jpg?1610586709"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Iron Verdict deals 5 damage to target tapped creature.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900395,
+    "name": "Island",
+    "collector_number": 395,
+    "multiverse_ids": [
+      900395
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1a25a714-c7f3-4697-8b69-8f966b4d370a.jpg?1610566109"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900208,
+    "name": "\"Jack and Jill Storm the Hill\"",
+    "collector_number": 208,
+    "multiverse_ids": [
+      900208
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d7de696a-49c2-421d-a86c-bcffd68870c6.jpg?1610390753"],
+    "layout": "saga",
+    "type_line": "Saga — Enchantment",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Put a +1/+1 counter on up to one target creature.\nIII — Exile a creature with the greatest power among creatures target opponent controls.",
+    "mana_cost": "{1}{G}{W}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900178,
+    "name": "Jaspera Sentinel",
+    "collector_number": 178,
+    "multiverse_ids": [
+      900178
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1a68615d-9808-479d-aa80-50651246954e.jpg?1610564426"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Rogue",
+    "oracle_text": "Reach\n{T}, Tap an untapped creature you control: Add one mana of any color.",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900179,
+    "name": "Jorn, God of Winter // Kaldring, the Rimestaff",
+    "collector_number": 179,
+    "multiverse_ids": [
+      900179,
+      901179
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c697548f-925b-405e-970a-4e78067d5c8e.jpg?1610452128",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/c/6/c697548f-925b-405e-970a-4e78067d5c8e.jpg?1610452128"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Snow Creature — God // Legendary Snow Artifact",
+    "oracle_text": {},
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900216,
+    "name": "Kardur, Doomscourge",
+    "collector_number": 216,
+    "multiverse_ids": [
+      900216
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/9685e2a0-5573-41bc-a914-f40c3011459b.jpg?1610497268"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Demon Berserker",
+    "oracle_text": "When Kardur, Doomscourge enters the battlefield, until your next turn, creatures your opponents control attack each combat if able and attack a player other than you if able.\nWhenever an attacking creature dies, each opponent loses 1 life and you gain 1 life.",
+    "mana_cost": "{2}{B}{R}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900217,
+    "name": "Kardur's Vicious Return",
+    "collector_number": 217,
+    "multiverse_ids": [
+      900217
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/233e4774-e701-42d9-aa25-e7e06c14e43d.jpg?1610393008"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — You may sacrifice a creature. When you do, Kardur's Vicious Return deals 3 damage to any target.\nII — Each player discards a card.\nIII — Return target creature card from your graveyard to the battlefield. Put a +1/+1 counter on it. It gains haste until your next turn.",
+    "mana_cost": "{2}{B}{R}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900101,
+    "name": "Karfell Kennel-Master",
+    "collector_number": 101,
+    "multiverse_ids": [
+      900101
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/6/f670c380-6faa-42ec-ab41-6be8137169b2.jpg?1610584801"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Berserker",
+    "oracle_text": "When Karfell Kennel-Master enters the battlefield, up to two target creatures each get +1/+0 and gain indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "khm"
+  },
+  {
+    "id": 900018,
+    "name": "Kaya's Onslaught",
+    "collector_number": 18,
+    "multiverse_ids": [
+      900018
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f28e151f-b61b-486f-b7f8-7abde207c442.jpg?1610586077"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +1/+1 and gains double strike until end of turn.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900218,
+    "name": "Kaya the Inexorable",
+    "collector_number": 218,
+    "multiverse_ids": [
+      900218
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/6/166c0bd1-b59d-4644-832f-888a4ca3a0aa.jpg?1608253213"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Kaya",
+    "oracle_text": "+1: Put a ghostform counter on up to one target nontoken creature. It gains \"When this creature dies or is put into exile, return it to its owner's hand and create a 1/1 white Spirit creature token with flying.\"\n−3: Exile target nonland permanent.\n−7: You get an emblem with \"At the beginning of your upkeep, you may cast a legendary spell from your hand, from your graveyard, or from among cards you own in exile without paying its mana cost.\"",
+    "mana_cost": "{3}{W}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900180,
+    "name": "King Harald's Revenge",
+    "collector_number": 180,
+    "multiverse_ids": [
+      900180
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71a659b6-c4a8-4c0a-8b2a-07b6c9e27dfc.jpg?1610586752"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Until end of tun, target creature gets +1/+1 for each creature you control and gains trample. It must be blocked this turn if able.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900220,
+    "name": "Koll, the Forgemaster",
+    "collector_number": 220,
+    "multiverse_ids": [
+      900220
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22f68b53-0cf7-434d-9da5-1d18c0828a46.jpg?1610149724"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Dwarf Warrior",
+    "oracle_text": "Whenever another nontoken creature you control dies, if it was enchanted or equipped, return it to its owner's hand.\nCreature tokens you control that are enchanted or equipped get +1/+1.",
+    "mana_cost": "{R}{W}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900181,
+    "name": "Kolvori, God of Kinship // The Ringhart Crest",
+    "collector_number": 181,
+    "multiverse_ids": [
+      900181,
+      901181
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b76bed98-30b1-4572-b36c-684ada06826c.jpg?1610368590",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/b/7/b76bed98-30b1-4572-b36c-684ada06826c.jpg?1610368590"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — God // Legendary Artifact",
+    "oracle_text": {},
+    "mana_cost": "{2}{G}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900221,
+    "name": "Koma, Cosmos Serpent",
+    "collector_number": 221,
+    "multiverse_ids": [
+      900221
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/d/2de25ea4-284a-4c16-b823-048ff00c6a03.jpg?1610152349"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Serpent",
+    "oracle_text": "This spell can't be countered.\nAt the beginning of each upkeep, create a 3/3 blue Serpent creature token named Koma's Coil.\nSacrifice another Serpent: Choose one —\n• Tap target permanent. Its activated abilities can't be activated this turn.\n• Koma, Cosmos Serpent gains indestructible until end of turn.",
+    "mana_cost": "{3}{G}{G}{U}{U}",
+    "cmc": 7,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900102,
+    "name": "Koma's Faithful",
+    "collector_number": 102,
+    "multiverse_ids": [
+      900102
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/af0f1a90-af64-4122-9c1a-954edf8fa240.jpg?1610153051"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Cleric",
+    "oracle_text": "Lifelink\nWhen Koma's Faithful dies, each player mills three cards. (To mill a card, a player puts the top card of their library into their graveyard.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900066,
+    "name": "Littjara Kinseekers",
+    "collector_number": 66,
+    "multiverse_ids": [
+      900066
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/1/c119f836-0707-49e2-b6d4-25f849d054a4.jpg?1610306362"],
+    "layout": "normal",
+    "type_line": "Creature — Shapeshifter",
+    "oracle_text": "Changeling (This card is every creature type.)\nWhen Littjara Kinseekers enters the battlefield, if you control three or more creatures that share a creature type, put a +1/+1 counter on Littjara Kinseekers, then scry 1.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "khm"
+  },
+  {
+    "id": 900142,
+    "name": "Magda, Brazen Outlaw",
+    "collector_number": 142,
+    "multiverse_ids": [
+      900142
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/079e6263-e54c-4899-a336-5315909b9322.jpg?1608253195"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Dwarf Berserker",
+    "oracle_text": "Other Dwarves you control get +1/+0.\nWhenever a Dwarf you control becomes tapped, create a Treasure token.\nSacrifice five Treasures: Search your library for an artifact or Dragon card, put that card onto the battlefield, then shuffle your library.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900183,
+    "name": "Mammoth Growth",
+    "collector_number": 183,
+    "multiverse_ids": [
+      900183
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e55041f-69a5-4bcf-899f-a4b44c208b4d.jpg?1610586081"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +4/+4 until end of turn.\nForetell {G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900184,
+    "name": "Masked Vandal",
+    "collector_number": 184,
+    "multiverse_ids": [
+      900184
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f0a9c72a-e450-41e3-80e5-06f2f1171245.jpg?1610149399"],
+    "layout": "normal",
+    "type_line": "Creature — Shapeshifter",
+    "oracle_text": "Changeling (This card is every creature type.)\nWhen Masked Vandal enters the battlefield, you may exile a creature card from your graveyard. If you do, exile target artifact or enchantment an opponent controls.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900240,
+    "name": "Maskwood Nexus",
+    "collector_number": 240,
+    "multiverse_ids": [
+      900240
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/471d2aef-cfd4-4131-bbc7-62eeed9f3343.jpg?1610304401"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "Creatures you control are every creature type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.\n{3}, {T}: Create a 2/2 blue Shapeshifter creature token with changeling. (It is every creature type.)",
+    "mana_cost": "{4}",
+    "cmc": 4,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900223,
+    "name": "Moritte of the Frost",
+    "collector_number": 223,
+    "multiverse_ids": [
+      900223
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22fdbe71-abca-4e48-99b2-1cb6b35d930b.jpg?1610396871"],
+    "layout": "normal",
+    "type_line": "Legendary Snow Creature — Shapeshifter",
+    "oracle_text": "Changeling (This card is every creature type.)\nYou may have Moritte of the Frost enter the battlefield as a copy of a permanent you control, except it's legendary and snow in addition to its other types and, if it's a creature, it enters with two additional +1/+1 counters on it and has changeling.",
+    "mana_cost": "{2}{G}{U}{U}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900397,
+    "name": "Mountain",
+    "collector_number": 397,
+    "multiverse_ids": [
+      900397
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/69419307-53d5-40d7-82da-cab2e7bfbda4.jpg?1610566123"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900089,
+    "name": "\"My Larger Pony\"",
+    "collector_number": 89,
+    "multiverse_ids": [
+      900089
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/205eb029-68a0-4895-b142-2eb09987b5cb.jpg?1610495916"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit Knight",
+    "oracle_text": "{1}{B}, {T}, Exile a creature card from your graveyard: Target opponent loses 3 life.",
+    "mana_cost": "{5}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "khm"
+  },
+  {
+    "id": 900069,
+    "name": "Mystic Reflection",
+    "collector_number": 69,
+    "multiverse_ids": [
+      900069
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f7b877e2-60eb-46cd-acd7-8555b9e7e993.jpg?1610642890"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose target nonlegendary creature. The next time one or more creatures or planeswalkers enter the battlefield this turn, they enter as copies of the chosen creature instead.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900224,
+    "name": "Narfi, Betrayer King",
+    "collector_number": 224,
+    "multiverse_ids": [
+      900224
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/2/421376e4-a4ad-427c-bc9c-d315308dcf68.jpg?1610566366"],
+    "layout": "normal",
+    "type_line": "Legendary Snow Creature — Zombie Wizard",
+    "oracle_text": "Other snow and Zombie creatures you control get +1/+1.\n{S}{S}{S}: Return Narfi, Betrayer King from your graveyard to the battlefield tapped. ({S} can be paid with one mana from a snow source.)",
+    "mana_cost": "{3}{U}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900225,
+    "name": "Niko Aris",
+    "collector_number": 225,
+    "multiverse_ids": [
+      900225
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6c4e9cfe-e72e-46a1-a8d8-9fda5f2bae73.jpg?1610065852"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Niko",
+    "oracle_text": "When Niko Aris enters the battlefield, create X Shard tokens. (They're enchantments with \"{2}, Sacrifice this enchantment: Scry 1, then draw a card.\")\n+1: Up to one target creature you control can't be blocked this turn. Whenever that creature deals damage this turn, return it to its owner's hand.\n−1: Niko Aris deals 2 damage to target tapped creature for each card you've drawn this turn.\n−1: Create a Shard token.",
+    "mana_cost": "{X}{W}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "khm"
+  },
+  {
+    "id": 900185,
+    "name": "Old-Growth Troll",
+    "collector_number": 185,
+    "multiverse_ids": [
+      900185
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1610065906"],
+    "layout": "normal",
+    "type_line": "Creature — Troll Warrior",
+    "oracle_text": "Trample\nWhen Old-Growth Troll dies, if it was a creature, return it to the battlefield. It's an Aura enchantment with enchant Forest you control and \"Enchanted Forest has '{T}: Add {G}{G}' and '{1}, {T}, Sacrifice this land: Create a 4/4 green Troll Warrior creature token with trample.'\"",
+    "mana_cost": "{G}{G}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900143,
+    "name": "Open the Omenpaths",
+    "collector_number": 143,
+    "multiverse_ids": [
+      900143
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/e/4e4023c8-8e7f-42b9-99e5-87e80fc3d6c8.jpg?1610390009"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Add two mana of any one color and two mana of any other color. Spend this mana only to cast creature or enchantment spells.\n• Creatures you control get +1/+0 until end of turn.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900186,
+    "name": "Path to the World Tree",
+    "collector_number": 186,
+    "multiverse_ids": [
+      900186
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/606da75d-382a-47a8-9739-644438594700.jpg?1610148245"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "When Path to the World Tree enters the battlefield, search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\n{2}{W}{U}{B}{R}{G}, Sacrifice Path to the World Tree: You gain 2 life and draw two cards. Target opponent loses 2 life. Path to the World Tree deals 2 damage to up to one target creature. You create a 2/2 green Bear creature token.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900394,
+    "name": "Plains",
+    "collector_number": 394,
+    "multiverse_ids": [
+      900394
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5cbfbafa-f58f-40b2-a374-68ac35b77d89.jpg?1610566142"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900103,
+    "name": "Poison the Cup",
+    "collector_number": 103,
+    "multiverse_ids": [
+      900103
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7fb94456-5266-47db-b514-a0e17e34b771.jpg?1610642282"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Destroy target creature. If this spell was foretold, scry 2.\nForetell {1}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{1}{B}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900241,
+    "name": "Pyre of Heroes",
+    "collector_number": 241,
+    "multiverse_ids": [
+      900241
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/ae9a8e44-f5de-497d-be48-adf1bcbaec97.jpg?1608253115"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{2}, {T}, Sacrifice a creature: Search your library for a creature card that shares a creature type with the sacrificed creature and has converted mana cost equal to 1 plus that creature's converted mana cost. Put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900145,
+    "name": "Quakebringer",
+    "collector_number": 145,
+    "multiverse_ids": [
+      900145
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/5/c5bbffb9-1f1c-40e5-97f4-29bf1fc68625.jpg?1610586090"],
+    "layout": "normal",
+    "type_line": "Creature — Giant Berserker",
+    "oracle_text": "Your opponents can't gain life.\nAt the beginning of your upkeep, Quakebringer deals 2 damage to each opponent. This ability triggers only if Quakebringer is on the battlefield or if Quakebringer is in your graveyard and you control a Giant.\nForetell {2}{R}{R}",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900242,
+    "name": "\"Raiding Karve\"",
+    "collector_number": 242,
+    "multiverse_ids": [
+      900242
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f572cbb1-49ee-4c95-90a3-82704cf92454.jpg?1610410905"],
+    "layout": "normal",
+    "type_line": "Artifact — Vehicle",
+    "oracle_text": "Whenever \"Raiding Karve\" attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900105,
+    "name": "Raise the Draugr",
+    "collector_number": 105,
+    "multiverse_ids": [
+      900105
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1a67c196-632c-4c7b-a132-de07d894e634.jpg?1610586723"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Return target creature card from your graveyard to your hand.\n• Return two target creature cards that share a creature type from your graveyard to your hand.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900020,
+    "name": "Rally the Ranks",
+    "collector_number": 20,
+    "multiverse_ids": [
+      900020
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/3/03595195-3be2-4d18-b5c0-43b2dcc1c0f5.jpg?1610585956"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "As Rally the Ranks enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900072,
+    "name": "Ravenform",
+    "collector_number": 72,
+    "multiverse_ids": [
+      900072
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c2cfcd7-b43a-4dad-a033-e661f55ceecd.jpg?1610586103"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Exile target artifact or creature. Its controller creates a 1/1 blue Bird creature token with flying.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900188,
+    "name": "Realmwalker",
+    "collector_number": 188,
+    "multiverse_ids": [
+      900188
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c8212667-7e18-42a5-9f36-4f8a6ad12f83.jpg?1610152605"],
+    "layout": "normal",
+    "type_line": "Creature — Shapeshifter",
+    "oracle_text": "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chosen type from the top of your library.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900148,
+    "name": "Reckless Crew",
+    "collector_number": 148,
+    "multiverse_ids": [
+      900148
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bdd68d9d-b0b9-4915-8a12-658eb0e3dd4a.jpg?1610585934"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create X 2/1 red Dwarf creature tokens, where X is the number of Vehicles you control plus the number of Equipment you control. For each of those tokens, you may attach an Equipment you control to it.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900073,
+    "name": "Reflections of Littjara",
+    "collector_number": 73,
+    "multiverse_ids": [
+      900073
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/eadee447-ce9a-4dea-a074-bfd04197548e.jpg?1610152006"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "As Reflections of Littjara enters the battlefield, choose a creature type.\nWhenever you cast a spell of the chosen type, copy that spell. (A copy of a permanent spell becomes a token.)",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900021,
+    "name": "\"Reidane, God of Justice\" // \"Reidane's Shield\"",
+    "collector_number": 21,
+    "multiverse_ids": [
+      900021,
+      901021
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/6/3606519e-5677-4c21-a34e-be195b6669fa.jpg?1610585332",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/3/6/3606519e-5677-4c21-a34e-be195b6669fa.jpg?1610585332"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — God // Legendary Artifact",
+    "oracle_text": {},
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900244,
+    "name": "Replicating Ring",
+    "collector_number": 244,
+    "multiverse_ids": [
+      900244
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b079e285-8431-46aa-bb04-70cac586ed0b.jpg?1610234771"],
+    "layout": "normal",
+    "type_line": "Snow Artifact",
+    "oracle_text": "{T}: Add one mana of any color.\nAt the beginning of your upkeep, put a night counter on Replicating Ring. Then if it has eight or more night counters on it, remove all of them and create eight colorless snow artifact tokens named Replicated Ring with \"{T}: Add one mana of any color.\"",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900031,
+    "name": "\"Resolute Valkyrie\"",
+    "collector_number": 31,
+    "multiverse_ids": [
+      900031
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/89ecb530-e429-4b50-a24c-8437614cf224.jpg?1610585605"],
+    "layout": "normal",
+    "type_line": "Creature — Angel Warrior",
+    "oracle_text": "You may pay {1}{W} and exile a creature card from your graveyard rather than pay this spell's mana cost.\nFlying",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900023,
+    "name": "Revitalize",
+    "collector_number": 23,
+    "multiverse_ids": [
+      900023
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a9fb75e-c8e5-417b-83d4-5105af9c66c1.jpg?1610642442"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "You gain 3 life.\nDraw a card.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900266,
+    "name": "Rimewood Falls",
+    "collector_number": 266,
+    "multiverse_ids": [
+      900266
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/a/da1db084-f235-4e26-8867-5f0835a0d283.jpg?1610152810"],
+    "layout": "normal",
+    "type_line": "Snow Land — Forest Island",
+    "oracle_text": "({T}: Add {G} or {U})\nRimewood Falls enters the battlefield tapped.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900107,
+    "name": "Rise of the Dread Marn",
+    "collector_number": 107,
+    "multiverse_ids": [
+      900107
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9d3a1ec1-f362-494d-a23b-6a963ce44fdd.jpg?1610586117"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Create X 2/2 black Zombie Berserker creature tokens, where X is the number of nontoken creatures that died this turn.\nForetell {B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900190,
+    "name": "Roots of Wisdom",
+    "collector_number": 190,
+    "multiverse_ids": [
+      900190
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/734afb5b-3163-47fa-856f-8a85b9da22d3.jpg?1610393228"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Mill three cards, then return a land card or Elf card from your graveyard to your hand. If you can't, draw a card. (To mill a card, put the top card of your library into your graveyard.)",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900147,
+    "name": "Run Amok",
+    "collector_number": 147,
+    "multiverse_ids": [
+      900147
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/44c8136f-2826-476c-a103-7094670506a6.jpg?1610494903"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target attacking creature gets +3/+3 and gains trample until end of turn.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900074,
+    "name": "Run Ashore",
+    "collector_number": 74,
+    "multiverse_ids": [
+      900074
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a.jpg?1610389872"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one or both —\n• The owner of target nonland permanent puts it on the top or bottom of their library.\n• Return target nonland permanent to its owner's hand.",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "khm"
+  },
+  {
+    "id": 900245,
+    "name": "Runed Crown",
+    "collector_number": 245,
+    "multiverse_ids": [
+      900245
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1ef89770-2dbb-4a57-99f7-191591bb8e38.jpg?1610617394"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "When Runed Crown enters the battlefield, you may search your library, hand, and/or graveyard for a Rune card and put it onto the battlefield attached to Runed Crown. If you search your library this way, shuffle it.\nEquipped Creature gets +1/+1.\nEquip {2}",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900075,
+    "name": "Rune of Flight",
+    "collector_number": 75,
+    "multiverse_ids": [
+      900075
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/5/d5c1a271-2107-462a-9d4a-9c7fbcfa8d77.jpg?1610497026"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura Rune",
+    "oracle_text": "Enchant permanent\nWhen Rune of Flight enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it has flying.\nAs long as enchanted permanent is an Equipment, it has \"Equipped creature has flying.\"",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900228,
+    "name": "Sarulf, Realm Eater",
+    "collector_number": 228,
+    "multiverse_ids": [
+      900228
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bcecf9ba-36da-490a-9460-99ff87d99fbd.jpg?1608311916"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Wolf",
+    "oracle_text": "Whenever a permanent an opponent controls is put into a graveyard from the battlefield, put a +1/+1 counter on Sarulf, Realm Eater.\nAt the beginning of your upkeep, if Sarulf has one or more +1/+1 counters on it, you may remove all of them. If you do, exile each other nonland permanent with converted mana cost less than or equal to the number of counters removed this way.",
+    "mana_cost": "{1}{B}{G}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900192,
+    "name": "Sarulf's Packmate",
+    "collector_number": 192,
+    "multiverse_ids": [
+      900192
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/6061113e-7dd8-4739-b4dd-55bb7f9e39a2.jpg?1610295157"],
+    "layout": "normal",
+    "type_line": "Creature — Wolf",
+    "oracle_text": "When Sarulf's Packmate enters the battlefield, draw a card.\nForetell {1}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "khm"
+  },
+  {
+    "id": 900076,
+    "name": "Saw It Coming",
+    "collector_number": 76,
+    "multiverse_ids": [
+      900076
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/877a1bb9-5eae-453a-bec0-a9de20ea6815.jpg?1610586114"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{1}{U}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900246,
+    "name": "Scorn Effigy",
+    "collector_number": 246,
+    "multiverse_ids": [
+      900246
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/f/4fa13084-3e68-49f4-8cc9-6d02286fd150.jpg?1610644291"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Scarecrow",
+    "oracle_text": "Foretell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900193,
+    "name": "Sculptor of Winter",
+    "collector_number": 193,
+    "multiverse_ids": [
+      900193
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1610148969"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Elf Rogue",
+    "oracle_text": "{T}: Untap target snow land.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900027,
+    "name": "Search for Glory",
+    "collector_number": 27,
+    "multiverse_ids": [
+      900027
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/6/b65c215d-562d-4c7c-bc9f-b1d741050158.jpg?1610496906"],
+    "layout": "normal",
+    "type_line": "Snow Sorcery",
+    "oracle_text": "Search your library for a snow permanent card, a legendary card, or a Saga card, reveal it, put it into your hand, then shuffle your library. You gain 1 life for each {S} spent to cast this spell.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900149,
+    "name": "Seize the Spoils",
+    "collector_number": 149,
+    "multiverse_ids": [
+      900149
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b3b7a69c-75d2-49a6-ab56-ef608d0b0208.jpg?1610150982"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900028,
+    "name": "Shepherd of the Cosmos",
+    "collector_number": 28,
+    "multiverse_ids": [
+      900028
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ce33c84e-008c-48d8-a8e8-77cd19cc4f1f.jpg?1610586538"],
+    "layout": "normal",
+    "type_line": "Creature — Angel Warrior",
+    "oracle_text": "Flying\nWhen Shepherd of the Cosmos enters the battlefield, return target permanent card with converted mana cost 2 or less from your graveyard to the battlefield.\nForetell {3}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{4}{W}{W}",
+    "cmc": 6,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900045,
+    "name": "\"Shirtless Snow Wizard\"",
+    "collector_number": 45,
+    "multiverse_ids": [
+      900045
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/89cef049-6a47-4264-b2bc-b9d291a09c4c.jpg?1610561639"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Human Wizard",
+    "oracle_text": "{2}: Target snow land you control becomes a 4/4 Elemental creature with haste and hexproof until end of turn. It's still a land.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900229,
+    "name": "Showdown of the Skalds",
+    "collector_number": 229,
+    "multiverse_ids": [
+      900229
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3d9d840e-1f13-44e3-a4de-903cfa58a346.jpg?1608253097"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Exile the top four cards of your library. Until the end of your next turn, you may play those cards.\nII, III — Whenever you cast a spell this turn, put a +1/+1 counter on target creature you control.",
+    "mana_cost": "{2}{R}{W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900029,
+    "name": "Sigrid, God-Favored",
+    "collector_number": 29,
+    "multiverse_ids": [
+      900029
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/aeec3c1e-e612-4700-888e-300912932552.jpg?1610151617"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Warrior",
+    "oracle_text": "Flash\nFirst strike, protection from God creatures\nWhen Sigrid, God-Favored enters the battlefield, exile up to one target attacking or blocking creature until Sigrid leaves the battlefield.",
+    "mana_cost": "{1}{W}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900109,
+    "name": "Skemfar Avenger",
+    "collector_number": 109,
+    "multiverse_ids": [
+      900109
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fad2c6d4-03dd-4dab-861c-77c55bda0db7.jpg?1610642286"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Berserker",
+    "oracle_text": "Whenever another nontoken Elf or Berserker you control dies, you draw a card and you lose 1 life.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900268,
+    "name": "Skemfar Elderhall",
+    "collector_number": 268,
+    "multiverse_ids": [
+      900268
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/82c2a0f7-0f53-4627-8be8-227fde331a69.jpg?1610643227"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Skemfar Elderhall enters the battlefield tapped.\n{T}: Add {G}.\n{2}{B}{B}{G}, {T}, Sacrifice Skemfar Elderhall: Up to one target creature you don't control gets -2/-2 until end of turn. Create two 1/1 green Elf Warrior creature tokens. Activate this ability only any time you could cast a sorcery.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900110,
+    "name": "Skemfar Shadowsage",
+    "collector_number": 110,
+    "multiverse_ids": [
+      900110
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c204130f-0483-49ed-8512-03a74894702e.jpg?1610585908"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Cleric",
+    "oracle_text": "When Skemfar Shadowsage enters the battlefield, choose one —\n• Each opponent loses X life, where X is the greatest number of creatures you control that have a creature type in common.\n• You gain X life, where X is the greatest number of creatures you control that have a creature type in common.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900071,
+    "name": "\"Ski Resort Bandit\"",
+    "collector_number": 71,
+    "multiverse_ids": [
+      900071
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76ee3829-8dec-4c0f-a6c2-ad47a1c94cfc.jpg?1610495820"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Bird",
+    "oracle_text": "Flying\n{S}, {T}: Draw a card, then discard a card. ({S} can be paid with one mana from a snow source.)",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900194,
+    "name": "Snakeskin Veil",
+    "collector_number": 194,
+    "multiverse_ids": [
+      900194
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1610301542"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900284,
+    "name": "Snow-Covered Forest",
+    "collector_number": 284,
+    "multiverse_ids": [
+      900284
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1610153823"],
+    "layout": "normal",
+    "type_line": "Basic Snow Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900278,
+    "name": "Snow-Covered Island",
+    "collector_number": 278,
+    "multiverse_ids": [
+      900278
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610149688"],
+    "layout": "normal",
+    "type_line": "Basic Snow Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900282,
+    "name": "Snow-Covered Mountain",
+    "collector_number": 282,
+    "multiverse_ids": [
+      900282
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/5474e67c-628f-41b0-aa31-3d85a267265a.jpg?1610153701"],
+    "layout": "normal",
+    "type_line": "Basic Snow Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900276,
+    "name": "Snow-Covered Plains",
+    "collector_number": 276,
+    "multiverse_ids": [
+      900276
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/afd2730f-878e-47ee-ad2a-73f8fa4e0794.jpg?1610153234"],
+    "layout": "normal",
+    "type_line": "Basic Snow Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900280,
+    "name": "Snow-Covered Swamp",
+    "collector_number": 280,
+    "multiverse_ids": [
+      900280
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6aa85af8-15f5-4620-8aea-0b45c28372ed.jpg?1610153566"],
+    "layout": "normal",
+    "type_line": "Basic Snow Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900269,
+    "name": "Snowfield Sinkhole",
+    "collector_number": 269,
+    "multiverse_ids": [
+      900269
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/6611dc5e-6acc-48df-b8c4-4b327314578b.jpg?1610152876"],
+    "layout": "normal",
+    "type_line": "Snow Land — Plains Swamp",
+    "oracle_text": "({T}: Add {W} or {B}.)\nSnowfield Sinkhole enters the battlefield tapped.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900030,
+    "name": "Spectral Steel",
+    "collector_number": 30,
+    "multiverse_ids": [
+      900030
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/f/cf036489-ef9e-40ee-a1bb-24ee37c554f1.jpg?1610585883"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2.\n{1}{W}, Exile Spectral Steel from your graveyard: Return another target Aura or Equipment card from your graveyard to your hand.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900195,
+    "name": "Spirit of the Aldergard",
+    "collector_number": 195,
+    "multiverse_ids": [
+      900195
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/220df551-3820-4910-a206-14501ba02e69.jpg?1610227658"],
+    "layout": "normal",
+    "type_line": "Snow Creature — Bear Spirit",
+    "oracle_text": "When Spirit of the Aldergard enters the battlefield, search your library for a snow land card, reveal it, put it into your hand, then shuffle your library.\nSpirit of the Aldergard gets +1/+0 for each other snow permanent you control.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900152,
+    "name": "Squash",
+    "collector_number": 152,
+    "multiverse_ids": [
+      900152
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/0/e0b99299-bf84-4654-a331-e4406768b33c.jpg?1610496754"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "This spell costs {3} less to cast if you control a Giant.\nSquash deals 6 damage to target creature or planeswalker.",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "khm"
+  },
+  {
+    "id": 900033,
+    "name": "Starnheim Unleashed",
+    "collector_number": 33,
+    "multiverse_ids": [
+      900033
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea660d42-a441-48d8-98c1-00933cde94a4.jpg?1610586121"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create a 4/4 white Angel Warrior creature token with flying and vigilance. If this spell was foretold, create X of those tokens instead.\nForetell {X}{X}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{2}{W}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "khm"
+  },
+  {
+    "id": 900077,
+    "name": "Strategic Planning",
+    "collector_number": 77,
+    "multiverse_ids": [
+      900077
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/29306305-cb71-4fef-bf86-f5deb4e7e561.jpg?1610642287"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900270,
+    "name": "Sulfurous Mire",
+    "collector_number": 270,
+    "multiverse_ids": [
+      900270
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/35ebe245-ebb5-493c-b9c1-56fbfda9bd66.jpg?1610363888"],
+    "layout": "normal",
+    "type_line": "Snow Land — Swamp Mountain",
+    "oracle_text": "({T}: Add {B} or {R}.)\nSulfurous Mire enters the battlefield tapped.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900396,
+    "name": "Swamp",
+    "collector_number": 396,
+    "multiverse_ids": [
+      900396
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/f/9f9e61c0-b185-4704-913f-9284ed0ce250.jpg?1610566165"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900112,
+    "name": "Tergrid, God of Fright // Tergrid's Lantern",
+    "collector_number": 112,
+    "multiverse_ids": [
+      900112,
+      901112
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/4/14dc88ee-bba9-4625-af0d-89f3762a0ead.jpg?1610586381",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/1/4/14dc88ee-bba9-4625-af0d-89f3762a0ead.jpg?1610586381"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — God // Legendary Artifact",
+    "oracle_text": {},
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900113,
+    "name": "Tergrid's Shadow",
+    "collector_number": 113,
+    "multiverse_ids": [
+      900113
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/1/417f71d2-d7da-4279-8847-d27c67e9ea9d.jpg?1610586260"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Each player sacrifices two creatures.\nForetell {2}{B}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{3}{B}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2,
+    "set": "khm"
+  },
+  {
+    "id": 900232,
+    "name": "The Trickster-God's Heist",
+    "collector_number": 232,
+    "multiverse_ids": [
+      900232
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4aa19a68-0d71-4123-a64d-8cb76f93cd74.jpg?1610152084"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — You may exchange control of two target creatures.\nII — You may exchange control of two target nonbasic, noncreature permanents that share a card type.\nIII — Target player loses 3 life and you gain 3 life.",
+    "mana_cost": "{2}{U}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900275,
+    "name": "The World Tree",
+    "collector_number": 275,
+    "multiverse_ids": [
+      900275
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a70cb6d9-3955-4064-917b-11dec26440c5.jpg?1610586862"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "The World Tree enters the battlefield tapped.\n{T}: Add {G}.\nAs long as you control six or more lands, lands you control have \"{T}: Add one mana of any color.\"\n{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice The World Tree: Search your library for any number of God cards, put them onto the battlefield, then shuffle your library.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900153,
+    "name": "Tibalt's Trickery",
+    "collector_number": 153,
+    "multiverse_ids": [
+      900153
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/d/dd921e27-3e08-438c-bec2-723226d35175.jpg?1610391556"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell. Choose 1, 2, or 3 at random. Its controller mills that many cards, then exiles cards from the top of their library until they exile a nonland card with a different name than that spell. They may cast that card without paying its mana cost. Then they put the exiled cards on the bottom of their library in a random order.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900154,
+    "name": "Toralf, God of Fury // Toralf's Hammer",
+    "collector_number": 154,
+    "multiverse_ids": [
+      900154,
+      901154
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22a6a5f1-1405-4efb-af3e-e1f58d664e99.jpg?1610652603",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/2/2/22a6a5f1-1405-4efb-af3e-e1f58d664e99.jpg?1610652603"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — God // Legendary Artifact — Equipment",
+    "oracle_text": {},
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900155,
+    "name": "Tormentor's Helm",
+    "collector_number": 155,
+    "multiverse_ids": [
+      900155
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/2318d4f8-309e-4645-b6d1-46572edd6996.jpg?1610391437"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature gets +1/+1.\nWhenever equipped creature becomes blocked, it deals 1 damage to defending player.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900197,
+    "name": "Toski, Bearer of Secrets",
+    "collector_number": 197,
+    "multiverse_ids": [
+      900197
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f9e79b59-94c8-4697-bf88-f0a0433170f5.jpg?1609099942"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Squirrel",
+    "oracle_text": "This spell can't be countered.\nIndestructible\nToski, Bearer of Secrets attacks each combat if able.\nWhenever a creature you control deals combat damage to a player, draw a card.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900156,
+    "name": "Tundra Fumarole",
+    "collector_number": 156,
+    "multiverse_ids": [
+      900156
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b251aa7c-d011-4b52-ab92-415d536c0182.jpg?1610644218"],
+    "layout": "normal",
+    "type_line": "Snow Sorcery",
+    "oracle_text": "Tundra Fumarole deals 4 damage to target creature or planeswalker. Add {C} for each {S} spent to cast this spell. Until end of turn, you don't lose this mana as steps and phases end. ({S} is one mana from a snow source.)",
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900198,
+    "name": "Tyvar Kell",
+    "collector_number": 198,
+    "multiverse_ids": [
+      900198
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/d/8d18008f-10d2-4cdf-b4b5-7675782a8b0d.jpg?1610391454"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Tyvar",
+    "oracle_text": "Elves you control have \"{T}: Add {B}.\"\n+1: Put a +1/+1 counter on up to one target Elf. Untap it. It gains deathtouch until end of turn.\n0: Create a 1/1 green Elf Warrior creature token.\n−6: You get an emblem with \"Whenever you cast an Elf spell, it gains haste until end of turn and you draw two cards.\"",
+    "mana_cost": "{2}{G}{G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900078,
+    "name": "Undersea Invader",
+    "collector_number": 78,
+    "multiverse_ids": [
+      900078
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/550c745b-64e8-4d20-9cf0-024248ddbd57.jpg?1610234721"],
+    "layout": "normal",
+    "type_line": "Creature — Giant Rogue",
+    "oracle_text": "Flash\nUndersea Invader enters the battlefield tapped.",
+    "mana_cost": "{4}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "khm"
+  },
+  {
+    "id": 900035,
+    "name": "Usher of the Fallen",
+    "collector_number": 35,
+    "multiverse_ids": [
+      900035
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24e58478-c6a8-4f86-854a-a489c99bd777.jpg?1610642276"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit Warrior",
+    "oracle_text": "Boast — {1}{W}: Create a 1/1 white Human Warrior creature token. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900114,
+    "name": "Valki, God of Lies // Tibalt, Cosmic Impostor",
+    "collector_number": 114,
+    "multiverse_ids": [
+      900114,
+      901114
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea7e4c65-b4c4-4795-9475-3cba71c50ea5.jpg?1610153366",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/e/a/ea7e4c65-b4c4-4795-9475-3cba71c50ea5.jpg?1610153366"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — God // Legendary Planeswalker — Tibalt",
+    "oracle_text": {},
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4.5,
+    "set": "khm"
+  },
+  {
+    "id": 900115,
+    "name": "Varragoth, Bloodsky Sire",
+    "collector_number": 115,
+    "multiverse_ids": [
+      900115
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/f/efa8dbf0-4e5a-452b-826f-5813e8cd9d85.jpg?1610065992"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Demon Rogue",
+    "oracle_text": "Deathtouch\nBoast — {1}{B}: Target player search their library for a card, then shuffles their library and puts that card on top of it. (Activate this ability only if this creature attacked this turn and only once each turn.)",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900158,
+    "name": "Vault Robber",
+    "collector_number": 158,
+    "multiverse_ids": [
+      900158
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74f68014-489d-4f51-a959-0f335541cb4e.jpg?1610644935"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Rogue",
+    "oracle_text": "{1}, {T}, Exile a creature card from your graveyard: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900233,
+    "name": "Vega, the Watcher",
+    "collector_number": 233,
+    "multiverse_ids": [
+      900233
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/8/28fced7f-3078-4a54-8f76-0ef14c732e97.jpg?1610226957"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Bird Spirit",
+    "oracle_text": "Flying\nWhenever you cast a spell from anywhere other than your hand, draw a card.",
+    "mana_cost": "{1}{W}{U}",
+    "cmc": 3,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
+    "set": "khm"
+  },
+  {
+    "id": 900117,
+    "name": "Village Rites",
+    "collector_number": 117,
+    "multiverse_ids": [
+      900117
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0fab9ee8-776a-48e5-b309-bcd381e67bf7.jpg?1610149348"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nDraw two cards.",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900273,
+    "name": "Volatile Fjord",
+    "collector_number": 273,
+    "multiverse_ids": [
+      900273
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f2392fbb-d9c4-4688-b99c-4e7614c60c12.jpg?1610152917"],
+    "layout": "normal",
+    "type_line": "Snow Land — Island Mountain",
+    "oracle_text": "({T}: Add {U} or {R}.)\nVolatile Fjord enters the battlefield tapped.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900199,
+    "name": "Vorinclex, Monstrous Raider",
+    "collector_number": 199,
+    "multiverse_ids": [
+      900199
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/92613468-205e-488b-930d-11908477e9f8.jpg?1610149607"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Phyrexian Praetor",
+    "oracle_text": "Trample, haste\nIf you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.\nIf an opponent would put one or more counters on a permanent or player, they put half that many of each of those kinds of counters on that permanent or player instead, rounded down.",
+    "mana_cost": "{4}{G}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
+    "set": "khm"
+  },
+  {
+    "id": 900234,
+    "name": "Waking the Trolls",
+    "collector_number": 234,
+    "multiverse_ids": [
+      900234
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/6/36016324-384c-4c68-8f73-8f39a244c879.jpg?1610586318"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy target land.\nII — Put target land card from a graveyard onto the battlefield under your control.\nIII — Choose target opponent. If they control fewer lands than you, create a number of 4/4 green Troll Warrior creature tokens with trample equal to the difference.",
+    "mana_cost": "{4}{R}{G}",
+    "cmc": 6,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900247,
+    "name": "Weathered Runestone",
+    "collector_number": 247,
+    "multiverse_ids": [
+      900247
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0fc2478f-e624-46fb-85af-1254564cd4d2.jpg?1610495622"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "Nonland permanent cards in graveyards and libraries can't enter the battlefield.\nPlayers can't cast spells from graveyards or libraries.",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
+    "id": 900039,
+    "name": "Wings of the Cosmos",
+    "collector_number": 39,
+    "multiverse_ids": [
+      900039
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/6/d6b26c95-f90d-43fb-8c99-2a3aa13ac2c6.jpg?1610562354"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +1/+3 and gains flying until end of turn. Untap it.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
+    "id": 900119,
+    "name": "Withercrown",
+    "collector_number": 119,
+    "multiverse_ids": [
+      900119
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/9/597fe119-64a7-4499-8b69-738af5a71a20.jpg?1610393414"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature has base power 0 and has \"At the beginning of your upkeep, you lose 1 life unless you sacrifice this creature.\"",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900274,
+    "name": "Woodland Chasm",
+    "collector_number": 274,
+    "multiverse_ids": [
+      900274
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b2dd0b71-5a60-418c-82fc-f13d1b5075d0.jpg?1610152997"],
+    "layout": "normal",
+    "type_line": "Snow Land — Swamp Forest",
+    "oracle_text": "({T}: Add {B} or {G}.)\nWoodland Chasm enters the battlefield tapped.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  }
+]

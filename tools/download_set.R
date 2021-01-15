@@ -111,7 +111,7 @@ download_cards <- function(cards,
         collector_number <- 278
       }
     }
-
+    
     # if there is no multiverse id then use a baseline for the set + collector number
     if (length(multiverse_ids) == 0) {
       
@@ -126,7 +126,8 @@ download_cards <- function(cards,
                            thb = 476251,
                            iko = 800000,
                            m21 = 485323,
-                           `2xm` = 489673
+                           `2xm` = 489673,
+                           khm = 900000,
         )
         multiverse_ids <- list(baseline + collector_number)
       }
@@ -221,6 +222,11 @@ download_cards <- function(cards,
       }
     }
     
+    # throw in an extra mutliverse id for gatherer khm modal double faced cards 
+    if (set == "khm" && length(image_uris) == 2) {
+      multiverse_ids[[2]] <- multiverse_ids[[1]] + 1000
+    }
+    
     list(
       id = multiverse_ids[[1]],
       name = card$name,
@@ -271,6 +277,7 @@ download_cards <- function(cards,
     akr = 339,
     znr = 280,
     klr = 301,
+    khm = 398,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000
@@ -283,6 +290,12 @@ download_cards <- function(cards,
       include
     }, cards)
   
+  # filter out special cards from khm
+  if (set == "khm") {
+    cards <- Filter(function(card) {
+      card$collector_number <= 285 || card$collector_number >= 394
+    }, cards)
+  }
   
   # write as json
   set_dir <- file.path(sets_dir, set)

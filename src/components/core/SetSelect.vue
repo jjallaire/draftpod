@@ -47,8 +47,8 @@ export default {
         class="form-control"
       >
         <optgroup label="Recent">
-          <option value="znr">
-            Zendikar Rising
+          <option value="khm">
+            Kaldheim
           </option>
           <option value="klr">
             Kaladesh Remastered
@@ -58,6 +58,9 @@ export default {
           </option>
         </optgroup>
         <optgroup label="Standard">
+          <option value="khm">
+            Kaldheim
+          </option>
           <option value="znr">
             Zendikar Rising
           </option>
