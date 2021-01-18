@@ -1,5 +1,5 @@
 "id","name","rating"
-900001,"Axgard Braggart",0.5
+900001,"Axgard Braggart",1
 900002,"Battershield Warrior",3
 900003,"Battlefield Raptor",1.5
 900004,"Beskir Shieldmate",1.5
@@ -15,7 +15,7 @@
 900015,"Halvar, God of Battle // Sword of the Realms",4.5
 900017,"Iron Verdict",1
 900018,"Kaya's Onslaught",2.5
-900019,"""Master Skald""",0
+900019,"""Master Skald""",0.5
 900020,"Rally the Ranks",3.5
 900021,"Reidane, God of the Worthy // Valkmira, Protector's Shield",3.5
 900023,"Revitalize",1.5
@@ -23,9 +23,9 @@
 900028,"Shepherd of the Cosmos",2
 900029,"Sigrid, God-Favored",3.5
 900030,"Spectral Steel",3
-900031,"""Resolute Valkyrie""",1
+900031,"Stalwart Valkyrie",0.5
 900033,"Starnheim Unleashed",4.5
-900034,"Story Seeker",1
+900034,"Story Seeker",1.5
 900035,"Usher of the Fallen",3
 900036,"Valkyrie's Sword",3
 900038,"""War Horn Blessing""",0
@@ -36,17 +36,19 @@
 900043,"Ascendant Spirit",3.5
 900044,"Augury Raven",1
 900045,"Avalanche Caller",3
-900046,"Behold the Multiverse",0.5
+900046,"Behold the Multiverse",1
 900047,"Berg Strider",0
 900050,"Cosima, God of the Voyage // The Omenkeel",3.5
 900051,"Cosmos Charger",3.5
 900052,"Cyclone Summoner",3
 900054,"Disdainful Stroke",1.5
+900055,"Draugr Thought-Thief",1
 900056,"Frost Augur",3
 900057,"Frostpeak Yeti",0.5
-900058,"Frostpyre Arcanist",2
+900058,"Frostpyre Arcanist",2.5
 900059,"Giant's Amulet",3
 900060,"Glimpse the Cosmos",3
+900061,"Graven Lore",3
 900064,"Inga Rune-Eyes",2.5
 900065,"Karfell Harbinger",1.5
 900066,"Littjara Kinseekers",0.5
@@ -59,14 +61,17 @@
 900076,"Saw It Coming",2.5
 900077,"Strategic Planning",1
 900078,"Undersea Invader",0
+900079,"Blood on the Snow",3
 900080,"Bloodsky Berserker",3
 900081,"Burning-Rune Demon",4
 900082,"""Horrible Encounter""",3.5
 900083,"Deathknell Berserker",1.5
-900085,"Dogged Pursuit",0.5
+900084,"Demonic Gifts",1.5
+900085,"Dogged Pursuit",1
 900086,"Draugr Necromancer",3.5
 900088,"Draugr's Helm",3
 900089,"Dread Rider",0
+900090,"Dream Devourer",3.5
 900091,"Duskwielder",1.5
 900092,"Egon, God of Death // Throne of Death",3.5
 900093,"Elderfang Disciple",1.5
@@ -75,65 +80,76 @@
 900096,"Grim Draugr",1
 900097,"Hailstorm Valkyrie",2.5
 900099,"Infernal Pet",1
+900100,"Jarl of the Forsaken",0.5
 900101,"Karfell Kennel-Master",0
 900102,"Koma's Faithful",1
 900103,"Poison the Cup",2.5
+900104,"""Priest of the Dam""",1.5
 900105,"Raise the Draugr",1.5
 900106,"Return Upon the Tide",2
 900107,"Rise of the Dread Marn",3.5
 900109,"Skemfar Avenger",3.5
 900110,"Skemfar Shadowsage",2.5
+900111,"Skull Raid",0.5
 900112,"Tergrid, God of Fright // Tergrid's Lantern",3
 900113,"Tergrid's Shadow",2
-900114,"Valki, God of Lies // Tibalt, Cosmic Impostor",4.5
+900114,"Valki, God of Lies // Tibalt, Cosmic Impostor",5
 900115,"Varragoth, Bloodsky Sire",3.5
 900117,"Village Rites",1.5
 900119,"Withercrown",1
-900120,"Arni Brokenbow",3.5
+900120,"Arni Brokenbrow",3.5
 900121,"Axgard Cavalry",1.5
 900122,"Basalt Ravager",2.5
-900124,"""Breakneck Berserker""",1
+900123,"""Birgi, God of Tales"" // ""Harnfel, Horn of Abundance""",3.5
+900124,"Breakneck Berserker",1
 900125,"Calamity Bearer",3.5
 900126,"Cinderheart Giant",0
 900128,"Crush the Weak",3
-900129,"""Demonic Lightning""",1
+900129,"Demon Bolt",1
 900130,"Doomskar Titan",2
 900131,"""Dragon Dad uwu…""",3.5
 900132,"Dual Strike",3
 900133,"""Dwarven Hammer""",3
-900134,"Dwarven Reinforcements",0.5
+900134,"Dwarven Reinforcements",1
 900135,"Fearless Liberator",3
+900136,"Fearless Pup",1.5
+900137,"Frenzied Raider",3
 900138,"Frost Bite",1.5
 900139,"Goldspan Dragon",4
 900140,"Hagi Mob",0
+900141,"Immersturm Raider",1.5
 900142,"Magda, Brazen Outlaw",3.5
 900143,"Open the Omenpaths",1
+900144,"Provoke the Trolls",2.5
 900145,"Quakebringer",4
-900147,"Run Amok",1
+900147,"Run Amok",1.5
 900148,"Reckless Crew",3
 900149,"Seize the Spoils",1
-900151,"Smashing Success",0
+900151,"Smashing Success",0.5
 900152,"Squash",0
 900153,"Tibalt's Trickery",3.5
-900154,"Toralf, God of Fury // Toralf's Hammer",4
+900154,"Toralf, God of Fury // Toralf's Hammer",4.5
 900155,"Tormentor's Helm",1.5
 900156,"Tundra Fumarole",3.5
 900157,"Tuskeri Firewalker",1
 900158,"Vault Robber",1
 900159,"Arachnoform",1.5
 900160,"""Big Stabby""",4
+900161,"""Frozen Blessing""",3.5
 900162,"Blizzard Brawl",3
 900163,"Boreal Outrider",3
 900164,"Broken Wings",1
-900165,"Elderleaf Mentor",0.5
+900165,"Elderleaf Mentor",1
 900167,"Elvish Warmaster",3.5
 900168,"Esika, God of the Tree // The Prismatic Bridge",4.5
 900169,"Esika's Chariot",3.5
 900170,"Fynn, the Fangbearer",3
 900171,"Glittering Frost",1
 900172,"Gnottvold Recluse",1
-900173,"""My D&D OC""",0
+900173,"""My D&D OC""",0.5
 900174,"Guardian Gladewalker",1.5
+900175,"Horizon Seeker",1
+900176,"Icehide Troll",1
 900178,"Jaspera Sentinel",1.5
 900179,"Jorn, God of Winter // Kaldring, the Rimestaff",3.5
 900180,"King Harald's Revenge",1
@@ -146,13 +162,13 @@
 900187,"""Ravenous Lindwurm""",0
 900188,"Realmwalker",3.5
 900189,"Rootless Yew",2
-900190,"Roots of Wisdom",1
+900190,"Roots of Wisdom",1.5
 900192,"Sarulf's Packmate",0.5
-900193,"Sculptor of Winter",1
+900193,"Sculptor of Winter",1.5
 900194,"Snakeskin Veil",1.5
 900195,"Spirit of the Aldergard",2.5
 900197,"Toski, Bearer of Secrets",3
-900198,"Tyvar Kell",4
+900198,"Tyvar Kell",4.5
 900199,"Vorinclex, Monstrous Raider",4
 900200,"Aegar, the Freezing Flame",3
 900201,"Arni Slays the Troll",3
@@ -161,12 +177,14 @@
 900204,"Battle of Frost and Fire",3
 900205,"The Bears of Littjara",3.5
 900206,"Binding the Old Gods",2.5
-900208,"Fall of the Impostor",2.5
-900209,"Firja, Judge of Valor",2
-900210,"Firja's Retribution",3
+900207,"The Bloodsky Massacre",3.5
+900208,"Fall of the Impostor",3
+900209,"Firja, Judge of Valor",2.5
+900210,"Firja's Retribution",3.5
 900211,"Forging the Tyrite Sword",2.5
 900212,"Harald, King of Skemfar",2.5
 900213,"Harald Unites the Elves",3
+900214,"Immersturm Predator",3
 900215,"Invasion of the Giants",3
 900216,"Kardur, Doomscourge",2.5
 900217,"Kardur's Vicious Return",2.5
@@ -178,13 +196,16 @@
 900224,"Narfi, Betrayer King",2
 900225,"Niko Aris",4.5
 900226,"Niko Defies Destiny",2.5
+900227,"The Raven's Warning",3.5
 900228,"Sarulf, Realm Eater",3.5
 900229,"Showdown of the Skalds",3
+900230,"Svella, Ice Shaper",2.5
 900232,"The Trickster-God's Heist",2.5
 900233,"Vega, the Watcher",2.5
 900234,"Waking the Trolls",3
 900235,"Bloodline Pretender",3
 900236,"Colossal Plow",3
+900237,"Cosmos Elixir",3.5
 900238,"Funeral Longboat",1.5
 900239,"Goldvein Pick",1.5
 900240,"Maskwood Nexus",3
@@ -199,23 +220,27 @@
 900249,"Arctic Treeline",2
 900250,"Axgard Armory",3
 900251,"Barkchannel Pathway // Tidechannel Pathway",4
-900252,"Blightstep Pathway // Searstep Pathway",3.5
+900252,"Blightstep Pathway // Searstep Pathway",4
 900253,"Bretagard Stronghold",3
-900254,"Darkbore Pathway // Slitherbore Pathway",3.5
-900255,"Faceless Haven",3.5
+900254,"Darkbore Pathway // Slitherbore Pathway",4
+900255,"Faceless Haven",4
 900256,"Gates of Istfell",3
 900257,"Glacial Floodplain",2
 900258,"Gnottvold Slumbermound",3
-900260,"Hengegate Pathway // Mistgate Pathway",3.5
+900260,"Hengegate Pathway // Mistgate Pathway",4
 900261,"Highland Forest",2
 900262,"Ice Tunnel",2
+900263,"Immersturm Skullcairn",3
 900264,"Littjara Mirrorlake",3
+900265,"Port of Karfell",3
 900266,"Rimewood Falls",2
+900267,"""Valley of Lights""",2
 900268,"Skemfar Elderhall",3
-900269,"Snowfield Sinkhole",1.5
-900270,"Sulfurous Mire",1.5
+900269,"Snowfield Sinkhole",2
+900270,"Sulfurous Mire",2
 900271,"""Surtland Frostfire""",3
-900273,"Volatile Fjord",1.5
+900272,"Tyrite Sanctum",3.5
+900273,"Volatile Fjord",2
 900274,"Woodland Chasm",1.5
 900275,"The World Tree",3.5
 900276,"Snow-Covered Plains",2
@@ -225,6 +250,6 @@
 900284,"Snow-Covered Forest",2
 900394,"Plains",2
 900395,"Island",2
-900396,"Swamp",1.5
+900396,"Swamp",2
 900397,"Mountain",2
 900398,"Forest",2
