@@ -9,6 +9,7 @@ import DeckPanel from '../deck/DeckPanel.vue'
 import PlayersPopup from '../players/PlayersPopup.vue'
 import TableCore from './TableCore.js'
 import FullscreenButton from './FullscreenButton.vue'
+import DeckViewButton from './DeckViewButton.vue'
 
 import { SET_FIREBASE_ERROR } from '@/store/mutations'
 import { PICK_TIMER_PICK } from '@/store/modules/draft/actions';
@@ -42,7 +43,7 @@ export default {
   name: 'DraftTable',
 
   components: {
-    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel,
+    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, DeckViewButton,
     PlayersIcon, PlayersPopup, FirebaseError, FullscreenButton
   },
 
@@ -52,7 +53,8 @@ export default {
     return { 
       firestoreUnsubscribe: null,
       pick_timeout_timer: null,
-      firebase_error: null
+      firebase_error: null,
+      deck_right: true
     };
   },
 
@@ -196,7 +198,11 @@ export default {
           });
         }
       });
-    }
+    },
+
+    onDeckViewToggle: function() {
+      this.deck_right = !this.deck_right;
+    },
   },
 
   provide: function() {
@@ -264,11 +270,19 @@ export default {
 
       <template slot="navbar-right">
         <ul class="navbar-nav ml-auto">
-          <FullscreenButton 
-            v-if="fullscreenEnabled" 
-            :fullscreen="fullscreen" 
-            @clicked="onFullscreenToggle"
-          />
+          <li class="nav-item">
+            <DeckViewButton 
+              :deck_right="deck_right" 
+              @clicked="onDeckViewToggle"
+            />
+          </li>
+          <li class="nav-item">
+            <FullscreenButton 
+              v-if="fullscreenEnabled" 
+              :fullscreen="fullscreen" 
+              @clicked="onFullscreenToggle"
+            />
+          </li>
         </ul>
       </template>
     </NavBar>
