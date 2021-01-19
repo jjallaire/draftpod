@@ -37,7 +37,6 @@ export default {
     previewRect() {
       let card = this.card_preview.card;
       if (card) {
-        console.log(card);
         let cardRect = this.card_preview.rect;
         // compute the size and location for the preview image
         const extraWidth = 150;
