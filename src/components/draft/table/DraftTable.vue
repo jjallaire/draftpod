@@ -270,7 +270,7 @@ export default {
 
       <template slot="navbar-right">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li v-if="!picks_complete" class="nav-item">
             <DeckViewButton 
               :deck_right="deck_right" 
               @clicked="onDeckViewToggle"
@@ -304,12 +304,12 @@ export default {
           />
         </transition>
         <PickPanel 
-          v-if="!picks_complete" 
+          v-if="!picks_complete && !deck_right" 
           :picks="active_player.picks" 
           :pick_ratings="pick_ratings"
         />
         <DeckPanel 
-          v-else 
+          v-if="picks_complete" 
           :set="set" 
           format="draft"
           :options="options"
