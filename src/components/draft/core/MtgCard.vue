@@ -38,7 +38,8 @@ export default {
       cursor_offset: null,
       is_safari: navigator.userAgent.indexOf('Safari') !== -1 && 
                  navigator.userAgent.indexOf('Chrome') === -1,
-      was_checked: this.checked
+      was_checked: this.checked,
+      preview_timer: null,
     }
   },
   inject: [
@@ -67,13 +68,36 @@ export default {
     }
   },
   methods: {
-    onMouseOver() {
-      this.setCardPreview(this.card);
+    onMouseMove() {
+      if (this.preview_timer) {
+        clearTimeout(this.preview_timer);
+      }
+      let rect = event.target.getBoundingClientRect();
+      this.preview_timer = setTimeout(function() {
+        this.setCardPreview({
+          card: this.card,
+          rect: rect
+        })
+      }.bind(this), 50);
     },
 
+    onMouseLeave() {
+      this.clearCardPreview();
+    },
+   
+
+    clearCardPreview() {
+      if (this.preview_timer) {
+        clearTimeout(this.preview_timer);
+        this.preview_timer = null;
+      }
+      this.setCardPreview(null);
+    },
+    
     onDragStart(data, event) {
       // record offset of cursor to card image (used for determining
       // location within pile to drop card)
+      this.clearCardPreview();
       let cardRect = event.target.getBoundingClientRect();
       data.cursorOffset = {
         x: event.clientX - cardRect.left, 
@@ -115,6 +139,7 @@ export default {
     },
 
     moveCard() {
+      this.clearCardPreview();
       if (this.drag_source === "DRAG_SOURCE_PACK") {
         this.packToPick({ card: this.card, pile_number: null, insertBefore: null });
       } else {
@@ -150,7 +175,8 @@ export default {
     <img 
       :src="cardImageUris[0]" 
       :class="{ 'mtgcard-checked': checked, 'mtgcard-padright': was_checked && is_safari }"
-      @mouseover="onMouseOver" 
+      @mousemove="onMouseMove" 
+      @mouseleave="onMouseLeave"
       @touchstart="onTouchStart" 
       @touchmove="onTouchMove"
       @touchend="onTouchEnd" 

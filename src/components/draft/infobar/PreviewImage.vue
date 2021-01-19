@@ -18,8 +18,8 @@ export default {
 </script>
 
 <template>
-  <div :class="{ 'card-viewer': true, 'layout-split': card_layout === 'split'}">
-    <img :src="card_preview">
+  <div :class="{ 'card-viewer': true }">
+    <img :src="card_preview" draggable="false">
   </div>
 </template>
 
@@ -31,11 +31,6 @@ export default {
   margin-bottom: 4px;
 }
 
-.card-viewer.layout-split {
-  transform: rotate(90deg); 
-  transform-origin: left top; 
-  margin-left: 100%;
-}
 
 .card-viewer img {
   width: 100%;

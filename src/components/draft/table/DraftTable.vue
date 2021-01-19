@@ -6,6 +6,8 @@ import PackPanel from '../pack/PackPanel.vue';
 import PickPanel from '../pick/PickPanel.vue';
 import PickTimer from '../pick/PickTimer.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
+import CardPreview from '../core/CardPreview.vue'
+
 import PlayersPopup from '../players/PlayersPopup.vue'
 import TableCore from './TableCore.js'
 import FullscreenButton from './FullscreenButton.vue'
@@ -42,7 +44,7 @@ export default {
   name: 'DraftTable',
 
   components: {
-    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel,
+    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, CardPreview,
     PlayersIcon, PlayersPopup, FirebaseError, FullscreenButton
   },
 
@@ -304,6 +306,9 @@ export default {
       </div>
 
     </div>
+
+    <CardPreview :card_preview="card_preview" />
+
   </div>
 </template>
 

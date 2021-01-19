@@ -21,6 +21,7 @@ import TableCore from '../table/TableCore.js'
 import FullscreenButton from '../table/FullscreenButton.vue'
 import SealedPoolPanel from '../sealed/SealedPoolPanel.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
+import CardPreview from '../core/CardPreview.vue'
 
 import LeftIcon from 'vue-material-design-icons/ChevronLeftBox.vue'
 import RightIcon from 'vue-material-design-icons/ChevronRightBox.vue'
@@ -31,12 +32,12 @@ import { mapState } from 'vuex'
 
 import { DECK } from '@/store/modules/draft/constants'
 
-const kCardsPerPage = 16;
+const kCardsPerPage = 18;
 
 export default {
   name: 'SealedTable',
 
-  components: { NavBar, FullscreenButton, SealedPoolPanel, DeckPanel,
+  components: { NavBar, FullscreenButton, SealedPoolPanel, DeckPanel, CardPreview,
                 LeftIcon, RightIcon, FilterIcon, SealedFilterPopup },
 
   mixins: [TableCore],
@@ -319,8 +320,9 @@ export default {
 
       </div>
 
-
     </div>
+
+    <CardPreview :card_preview="card_preview" />
 
   </div>
 </template>
