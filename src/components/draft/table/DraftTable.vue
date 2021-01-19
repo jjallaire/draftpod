@@ -263,13 +263,13 @@ export default {
       </template>
 
       <template slot="navbar-right">
-         <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto">
           <FullscreenButton 
-              v-if="fullscreenEnabled" 
-              :fullscreen="fullscreen" 
-              @clicked="onFullscreenToggle"
-            />
-         </ul>
+            v-if="fullscreenEnabled" 
+            :fullscreen="fullscreen" 
+            @clicked="onFullscreenToggle"
+          />
+        </ul>
       </template>
     </NavBar>
 
