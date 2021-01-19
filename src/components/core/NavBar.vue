@@ -16,58 +16,60 @@
       </router-link>
     </span>
     
-    <slot>
+    <slot name="navbar-left">
       <span class="navbar-text">
         Draft and sealed simulator for MTG
       </span>
     </slot>
 
-    <ul class="navbar-nav ml-auto">
-      <router-link 
-        tag="li" 
-        class="nav-item" 
-        active-class="active" 
-        to="/" 
-        exact
-      >
-        <a class="nav-link">
-          Home
-        </a>
-      </router-link>
-      <router-link 
-        tag="li" 
-        class="nav-item" 
-        active-class="active" 
-        to="/play/"
-      >
-        <a class="nav-link">
-          Play
-        </a>
-      </router-link>
-      <router-link 
-        tag="li" 
-        class="nav-item" 
-        active-class="active" 
-        to="/guide/"
-      >
-        <a class="nav-link">
-          Guide
-        </a>
-      </router-link>
-    
-      <li class="nav-item">
-        <a class="nav-link icon-link" :href="site.twitter">
-          <TwitterIcon />
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link icon-link" :href="site.github">
-          <img class="navbar-github-image" src="/images/github.png">
-        </a>
-      </li>
+    <slot name="navbar-right">
+      <ul class="navbar-nav ml-auto">
+        <router-link 
+          tag="li" 
+          class="nav-item" 
+          active-class="active" 
+          to="/" 
+          exact
+        >
+          <a class="nav-link">
+            Home
+          </a>
+        </router-link>
+        <router-link 
+          tag="li" 
+          class="nav-item" 
+          active-class="active" 
+          to="/play/"
+        >
+          <a class="nav-link">
+            Play
+          </a>
+        </router-link>
+        <router-link 
+          tag="li" 
+          class="nav-item" 
+          active-class="active" 
+          to="/guide/"
+        >
+          <a class="nav-link">
+            Guide
+          </a>
+        </router-link>
       
-    </ul>
+        <li class="nav-item">
+          <a class="nav-link icon-link" :href="site.twitter">
+            <TwitterIcon />
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link icon-link" :href="site.github">
+            <img class="navbar-github-image" src="/images/github.png">
+          </a>
+        </li>
+        
+      </ul>
+    </slot>
     
   </nav>
 </template>

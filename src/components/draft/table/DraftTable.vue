@@ -5,7 +5,6 @@ import FirebaseError from '@/components/core/FirebaseError.vue'
 import PackPanel from '../pack/PackPanel.vue';
 import PickPanel from '../pick/PickPanel.vue';
 import PickTimer from '../pick/PickTimer.vue'
-import InfoBar from '../infobar/InfoBar.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 import PlayersPopup from '../players/PlayersPopup.vue'
 import TableCore from './TableCore.js'
@@ -43,7 +42,7 @@ export default {
   name: 'DraftTable',
 
   components: {
-    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, InfoBar,
+    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel,
     PlayersIcon, PlayersPopup, FirebaseError, FullscreenButton
   },
 
@@ -225,48 +224,53 @@ export default {
 
   <div v-else>
     <NavBar> 
-      <span class="navbar-text">
-        Draft
-        <span v-if="!picks_complete">
-          &mdash;
-          Pack {{ current_pack }}, Pick {{ current_pick }}
-          <PickTimer 
-            v-if="options.pick_timer && active_pack" 
-            :pick_end_time="active_player.pick_end_time"
-          />
-        </span>
-      </span> 
-    
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <div class="dropdown">
-            <a 
-              id="playersMenuLink" 
-              href="#" 
-              class="nav-link icon-link dropdown-toggle" 
-              title="Players" 
-              data-toggle="dropdown" 
-              aria-haspopup="true" 
-              aria-expanded="false"
-            >
-              <PlayersIcon /> Players
-            </a>
-            <div 
-              class="dropdown-menu players-menu" 
-              aria-labelledby="playersMenuLink"
-            >
-              <PlayersPopup :draft="draft" />
+      <template slot="navbar-left">
+        <span class="navbar-text">
+          Draft
+          <span v-if="!picks_complete">
+            &mdash;
+            Pack {{ current_pack }}, Pick {{ current_pick }}
+            <PickTimer 
+              v-if="options.pick_timer && active_pack" 
+              :pick_end_time="active_player.pick_end_time"
+            />
+          </span>
+        </span> 
+      
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <div class="dropdown">
+              <a 
+                id="playersMenuLink" 
+                href="#" 
+                class="nav-link icon-link dropdown-toggle" 
+                title="Players" 
+                data-toggle="dropdown" 
+                aria-haspopup="true" 
+                aria-expanded="false"
+              >
+                <PlayersIcon /> Players
+              </a>
+              <div 
+                class="dropdown-menu players-menu" 
+                aria-labelledby="playersMenuLink"
+              >
+                <PlayersPopup :draft="draft" />
+              </div>
             </div>
-          </div>
-        </li>
+          </li>
+        </ul>
+      </template>
 
-        <FullscreenButton 
-          v-if="fullscreenEnabled" 
-          :fullscreen="fullscreen" 
-          @clicked="onFullscreenToggle"
-        />
-
-      </ul>
+      <template slot="navbar-right">
+         <ul class="navbar-nav ml-auto">
+          <FullscreenButton 
+              v-if="fullscreenEnabled" 
+              :fullscreen="fullscreen" 
+              @clicked="onFullscreenToggle"
+            />
+         </ul>
+      </template>
     </NavBar>
 
     <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
@@ -299,12 +303,6 @@ export default {
         />
       </div>
 
-      <InfoBar 
-        v-if="!isMobile" 
-        :card_preview="card_preview" 
-        :cards="active_cards" 
-        class="user-select-none"
-      />
     </div>
   </div>
 </template>
@@ -336,32 +334,15 @@ export default {
   cursor: wait;
 }
 
-.infobar {
-  position: absolute;
-  width: 220px;
-  top: 0;
-  bottom: 0;
-  right: 0;
-}
-
 .draft-cards {
   position: absolute;
-  right: 220px;
+  right: 0;
   top: 0;
   left: 0;
   bottom: 0;
   background-color: transparent;
   display: flex;
   flex-direction: column;
-}
-
-@media only screen and (max-width: 1000px) {
-  .infobar {
-    width: 200px;
-  }
-  .draft-cards {
-    right: 200px;
-  }
 }
 
 

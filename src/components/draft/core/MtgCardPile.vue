@@ -355,12 +355,12 @@ export default {
   margin-right: 4px;
 }
 .pile {
-  width: 11.5%;
+  width: 11.0%;
 }
 
 
 .pile-separator {
-  width: 1.5%;
+  width: 2.0%;
 }
 .pile .pile-caption {
   position: absolute;

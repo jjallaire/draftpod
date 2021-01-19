@@ -19,7 +19,6 @@ import NavBar from '@/components/core/NavBar.vue'
 
 import TableCore from '../table/TableCore.js'
 import FullscreenButton from '../table/FullscreenButton.vue'
-import InfoBar from '../infobar/InfoBar.vue'
 import SealedPoolPanel from '../sealed/SealedPoolPanel.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 
@@ -37,7 +36,7 @@ const kCardsPerPage = 16;
 export default {
   name: 'SealedTable',
 
-  components: { NavBar, FullscreenButton, InfoBar, SealedPoolPanel, DeckPanel,
+  components: { NavBar, FullscreenButton, SealedPoolPanel, DeckPanel,
                 LeftIcon, RightIcon, FilterIcon, SealedFilterPopup },
 
   mixins: [TableCore],
@@ -235,63 +234,67 @@ export default {
 <template>
   <div>
     <NavBar class="sealed-navbar">
+      <template slot="navbar-left">
+        <span class="navbar-text">
+          <span v-if="pool_is_full_set">
+            Full Set
+          </span>  
+          <span v-else>
+            Sealed
+          </span>  
+        </span> 
 
-      <span class="navbar-text">
-        <span v-if="pool_is_full_set">
-          Full Set
-        </span>  
-        <span v-else>
-          Sealed
-        </span>  
-      </span> 
-
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <div class="dropdown">
-            <a 
-              id="filterMenuLink" 
-              href="#" 
-              class="nav-link icon-link dropdown-toggle" 
-              title="Filter (Ctrl+F)" 
-              data-toggle="dropdown" 
-              aria-haspopup="true" 
-              aria-expanded="false"
-            >
-              <FilterIcon /> Filter
-            </a>
-            <div 
-              class="dropdown-menu filter-menu" 
-              aria-labelledby="filterMenuLink"
-              @click="(event) => event.stopPropagation()"
-            >
-              <SealedFilterPopup @changed="onFilterChanged" />
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <div class="dropdown">
+              <a 
+                id="filterMenuLink" 
+                href="#" 
+                class="nav-link icon-link dropdown-toggle" 
+                title="Filter (Ctrl+F)" 
+                data-toggle="dropdown" 
+                aria-haspopup="true" 
+                aria-expanded="false"
+              >
+                <FilterIcon /> Filter
+              </a>
+              <div 
+                class="dropdown-menu filter-menu" 
+                aria-labelledby="filterMenuLink"
+                @click="(event) => event.stopPropagation()"
+              >
+                <SealedFilterPopup @changed="onFilterChanged" />
+              </div>
             </div>
-          </div>
-        </li>
-      </ul>
+          </li>
+        </ul>
 
-      <ul class="navbar-nav">
-        <LeftIcon class="pager pager-left" title="Previous (Left Arrow)" @click.native="onPreviousClick" /> 
-      </ul>
-      <span class="navbar-text pager-text" @click="onToggleFilterPopup">
-        <template v-if="have_matching_cards">
-          {{ page_caption }}<span v-if="is_filtered">&nbsp;<em>(filtered)</em></span>
-        </template>
-        <template v-else>
-          (No matching cards)
-        </template>
-      </span>
-      <ul class="navbar-nav">
-        <RightIcon class="pager pager-right" title="Next (Right Arrow)" @click.native="onNextClick" />
-      </ul>
+        <ul class="navbar-nav">
+          <LeftIcon class="pager pager-left" title="Previous (Left Arrow)" @click.native="onPreviousClick" /> 
+        </ul>
+        <span class="navbar-text pager-text" @click="onToggleFilterPopup">
+          <template v-if="have_matching_cards">
+            {{ page_caption }}<span v-if="is_filtered">&nbsp;<em>(filtered)</em></span>
+          </template>
+          <template v-else>
+            (No matching cards)
+          </template>
+        </span>
+        <ul class="navbar-nav">
+          <RightIcon class="pager pager-right" title="Next (Right Arrow)" @click.native="onNextClick" />
+        </ul>
 
-      <ul class="navbar-nav">
-        <FullscreenButton 
-          v-if="fullscreenEnabled" 
-          :fullscreen="fullscreen" 
-          @clicked="onFullscreenToggle"
-        />
-      </ul>
+      </template>
+
+       <template slot="navbar-right">
+         <ul class="navbar-nav ml-auto">
+            <FullscreenButton 
+              v-if="fullscreenEnabled" 
+              :fullscreen="fullscreen" 
+              @clicked="onFullscreenToggle"
+            />
+         </ul>
+      </template>
     </NavBar> 
 
     <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
@@ -316,13 +319,7 @@ export default {
 
       </div>
 
-      <InfoBar 
-        v-if="!isMobile" 
-        :card_preview="card_preview" 
-        :cards="active_cards" 
-        class="user-select-none"
-      />
-   
+
     </div>
 
   </div>
