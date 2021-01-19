@@ -25,8 +25,8 @@
 }
 
 .card-select-panel .mtgcard img {
-  width: 11.5%;
-  min-height: 16.05%;
+  width: 10.8%;
+  min-height: 14.00%;
   margin-bottom: 3px;
 }
 
@@ -70,7 +70,7 @@
   margin-bottom: 0;
   height: 0;
   overflow: visible;
-  padding-bottom: 32.2%;
+  padding-bottom: 30.2%;
 }
 
 @media only screen and (max-width: 1000px) {
