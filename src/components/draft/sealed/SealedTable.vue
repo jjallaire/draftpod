@@ -286,14 +286,14 @@ export default {
 
       </template>
 
-       <template slot="navbar-right">
-         <ul class="navbar-nav ml-auto">
-            <FullscreenButton 
-              v-if="fullscreenEnabled" 
-              :fullscreen="fullscreen" 
-              @clicked="onFullscreenToggle"
-            />
-         </ul>
+      <template slot="navbar-right">
+        <ul class="navbar-nav ml-auto">
+          <FullscreenButton 
+            v-if="fullscreenEnabled" 
+            :fullscreen="fullscreen" 
+            @clicked="onFullscreenToggle"
+          />
+        </ul>
       </template>
     </NavBar> 
 
@@ -359,7 +359,7 @@ export default {
 
 .draft-cards .deck-panel-toggle-leave-active {
   transition: padding-bottom 1s;
-  padding-bottom: 32.1%;
+  padding-bottom: 30.2%;
 }
 
 .draft-cards .deck-panel-toggle-leave-to {
@@ -372,7 +372,7 @@ export default {
 }
 
 .draft-cards .deck-panel-toggle-enter-to {
-  padding-bottom: 32.1%;
+  padding-bottom: 30.2%;
 }
 
 
