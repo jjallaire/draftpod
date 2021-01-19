@@ -284,11 +284,7 @@ export default {
         <ul class="navbar-nav">
           <RightIcon class="pager pager-right" title="Next (Right Arrow)" @click.native="onNextClick" />
         </ul>
-
-      </template>
-
-      <template slot="navbar-right">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
           <FullscreenButton 
             v-if="fullscreenEnabled" 
             :fullscreen="fullscreen" 

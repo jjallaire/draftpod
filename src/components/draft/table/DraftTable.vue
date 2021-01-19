@@ -261,11 +261,6 @@ export default {
               </div>
             </div>
           </li>
-        </ul>
-      </template>
-
-      <template slot="navbar-right">
-        <ul class="navbar-nav ml-auto">
           <FullscreenButton 
             v-if="fullscreenEnabled" 
             :fullscreen="fullscreen" 
