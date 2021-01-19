@@ -30,12 +30,10 @@
   margin-bottom: 3px;
 }
 
-
-@media only screen and (max-width: 1000px) {
-  .card-select-panel .mtgcard img {
-    width: 10%;
-    min-height: 13.95%;
-  } 
+.deck-right .card-select-panel .mtgcard img {
+  width: 16.4%;
+  min-height: 20.00%;
+  padding: 5px;
 }
 
 
@@ -73,10 +71,23 @@
   padding-bottom: 30.2%;
 }
 
-@media only screen and (max-width: 1000px) {
-.draft-cards .card-select-panel {
-  padding-bottom: 27.9%;
+.deck-right .draft-cards .card-select-panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: inherit;
+  right: 230px;
+  overflow-y: scroll;
+  padding-bottom: 30px;
 }
+
+.draft-cards .pick-bar {
+  padding: 5px;
+  padding-top: 4px;
+  padding-left: 0;
+  background-color: transparent;
+  
 }
 
 

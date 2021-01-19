@@ -4,6 +4,7 @@ import NavBar from '@/components/core/NavBar.vue'
 import FirebaseError from '@/components/core/FirebaseError.vue'
 import PackPanel from '../pack/PackPanel.vue';
 import PickPanel from '../pick/PickPanel.vue';
+import PickBar from '../pick/PickBar.vue';
 import PickTimer from '../pick/PickTimer.vue'
 import DeckPanel from '../deck/DeckPanel.vue'
 import PlayersPopup from '../players/PlayersPopup.vue'
@@ -43,7 +44,7 @@ export default {
   name: 'DraftTable',
 
   components: {
-    NavBar, PackPanel, PickTimer, PickPanel, DeckPanel, DeckViewButton,
+    NavBar, PackPanel, PickTimer, PickPanel, PickBar, DeckPanel, DeckViewButton,
     PlayersIcon, PlayersPopup, FirebaseError, FullscreenButton
   },
 
@@ -270,7 +271,7 @@ export default {
 
       <template slot="navbar-right">
         <ul class="navbar-nav ml-auto">
-          <li v-if="!picks_complete" class="nav-item">
+          <li v-if="!picks_complete && !isMobile" class="nav-item">
             <DeckViewButton 
               :deck_right="deck_right" 
               @clicked="onDeckViewToggle"
@@ -287,7 +288,7 @@ export default {
       </template>
     </NavBar>
 
-    <div :class="{ 'draft-page': true, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
+    <div :class="{ 'draft-page': true, 'deck-right': deck_right, 'mobile': isMobile, 'phone': isPhone, 'tablet': isTablet }">
       <div 
         v-if="waiting" 
         class="waiting-glass"
@@ -307,6 +308,10 @@ export default {
           v-if="!picks_complete && !deck_right" 
           :picks="active_player.picks" 
           :pick_ratings="pick_ratings"
+        />
+        <PickBar
+          v-if="!picks_complete && deck_right"
+          :picks="active_player.picks" 
         />
         <DeckPanel 
           v-if="picks_complete" 
@@ -359,6 +364,14 @@ export default {
   flex-direction: column;
 }
 
+
+.pick-bar {
+  position: absolute;
+  width: 230px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
 
 .mobile .draft-cards {
   right: 0;
