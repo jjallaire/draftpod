@@ -22,10 +22,11 @@ export default {
 
   computed: {
     cardImageUris() {
-      if (this.card_preview)
+      if (this.card_preview) {
         return selectors.cardImageUris(this.card_preview.card);
-      else
+      } else {
         return null;
+      }
     },
     cardLayout() {
       if (this.card_preview)
@@ -36,15 +37,16 @@ export default {
     previewRect() {
       let card = this.card_preview.card;
       if (card) {
+        console.log(card);
         let cardRect = this.card_preview.rect;
         // compute the size and location for the preview image
-        const extraWidth = 100;
+        const extraWidth = 150;
         const extraHeight = extraWidth * 1.3968;
 
         let previewRect =  { 
           left: Math.max(0, cardRect.x + cardRect.width), 
           top: cardRect.y, 
-          width: cardRect.width + extraWidth,
+          width: (cardRect.width + extraWidth) * this.cardImageUris.length,
           height: cardRect.height + extraHeight
         };
       
@@ -53,6 +55,7 @@ export default {
         let overflowY = (previewRect.top + previewRect.height) - window.innerHeight;
         if (overflowY > 0)
           previewRect.top -= overflowY;
+
         return previewRect;
       } else {
         return null;
@@ -72,7 +75,12 @@ export default {
   >
     <PreviewImage 
       :card_preview="cardImageUris[0]" 
-      :card_layout="cardLayout"
+      :dual_faced="cardImageUris.length > 1"
+    />
+    <PreviewImage 
+      v-if="cardImageUris[1]"
+      :card_preview="cardImageUris[1]" 
+      :dual_faced="true"
     />
   </div>
 </template>

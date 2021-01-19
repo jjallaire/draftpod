@@ -8,9 +8,9 @@ export default {
       type: String,
       required: true
     },
-    card_layout: {
-      type: String,
-      default: "normal"
+    dual_faced: {
+      type: Boolean,
+      default: false
     }
   },
 }
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <div :class="{ 'card-viewer': true }">
+  <div :class="{ 'card-viewer': true, 'dual-faced': dual_faced }">
     <img :src="card_preview" draggable="false">
   </div>
 </template>
@@ -28,7 +28,12 @@ export default {
 
 .card-viewer {
   width: 100%;  
+  display: inline-block;
   margin-bottom: 4px;
+}
+
+.card-viewer.dual-faced {
+  width: 50%;  
 }
 
 
