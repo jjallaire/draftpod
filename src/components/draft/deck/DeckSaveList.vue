@@ -2,6 +2,9 @@
 
 import PlusIcon from "vue-material-design-icons/Plus.vue"
 
+import _flatten from 'lodash/flatten'
+
+import { DECK } from '@/store/modules/draft/constants'
 import * as selectors from '@/store/modules/draft/selectors'
 
 export default {
@@ -13,6 +16,10 @@ export default {
   },
 
   props: {
+    deck: {
+      type: Object,
+      required: true
+    },
     saved_decks: {
       type: Object,
       required: true
@@ -46,6 +53,24 @@ export default {
         })
       event.target.blur();
     },
+
+    deckDisplayName(name) {
+      let deck = name === this.active_deck ? this.deck : this.saved_decks.decks[name];
+      const cards = _flatten(deck.piles.slice(0, DECK.PILES));
+      const colors = selectors.cardColors(cards);
+      const orderedColors = selectors.orderColorPair(colors);
+      const activeColors = orderedColors.reduce((active, color) => {
+        if (color.count > 0) {
+          active.push(color.code);
+        }
+        return active;
+      }, []);
+      if (activeColors.length > 0) {
+        return name + ': ' + activeColors.join('');
+      } else {
+        return name;
+      }      
+    }
   }
 
 }
@@ -55,7 +80,7 @@ export default {
 <template>
   <span class="deck-save-list">
     <select v-model="active_deck" class="card-header-select">
-      <option v-for="name in deck_names" :key="name" :value="name">{{ name }}</option>
+      <option v-for="name in deck_names" :key="name" :value="name">{{ deckDisplayName(name) }}</option>
     </select>
     <button class="btn btn-sm btn-secondary btn-savelist text-light" @click="onAddBuildClicked">
       <PlusIcon title="Add Build" />
