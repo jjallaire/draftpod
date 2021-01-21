@@ -1,26 +1,5 @@
 [
   {
-    "id": 900053,
-    "name": "\"Adios Wormhole\"",
-    "collector_number": 53,
-    "multiverse_ids": [
-      900053
-    ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2ce0403d-76ed-4eb0-abdd-74ed28f96137.jpg?1611078138"],
-    "layout": "normal",
-    "type_line": "Instant",
-    "oracle_text": "Return target nonland permanent to its owners's hand.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
-    "mana_cost": "{1}{U}",
-    "cmc": 2,
-    "colors": [
-      "U"
-    ],
-    "latent_color": "",
-    "rarity": "common",
-    "rating": 1.5,
-    "set": "khm"
-  },
-  {
     "id": 900200,
     "name": "Aegar, the Freezing Flame",
     "collector_number": 200,
@@ -128,7 +107,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -462,7 +441,7 @@
     "multiverse_ids": [
       900203
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cd31ec15-2fe0-40ab-b320-bc4333db4787.jpg?1610566272"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cd31ec15-2fe0-40ab-b320-bc4333db4787.jpg?1611170565"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 1/1 white Human Warrior creature token.\nII — Create a 1/1 green Elf Warrior creature token.\nIII — Choose any number of artifact tokens and/or creature tokens you control with different names. For each of them, create a token thats a copy of it.",
@@ -950,27 +929,6 @@
     "set": "khm"
   },
   {
-    "id": 900062,
-    "name": "\"Chill Out\"",
-    "collector_number": 62,
-    "multiverse_ids": [
-      900062
-    ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a3152f1f-5d3f-4bc4-9b6f-f2983ab3f691.jpg?1611054482"],
-    "layout": "normal",
-    "type_line": "Snow Artifact",
-    "oracle_text": "{S}, {T}: Tap target artifact or creature. ({S} is mana from a snow source.)",
-    "mana_cost": "{2}{U}",
-    "cmc": 3,
-    "colors": [
-      "U"
-    ],
-    "latent_color": "",
-    "rarity": "uncommon",
-    "rating": 3,
-    "set": "khm"
-  },
-  {
     "id": 900126,
     "name": "Cinderheart Giant",
     "collector_number": 126,
@@ -1137,7 +1095,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -1147,7 +1105,7 @@
     "multiverse_ids": [
       900082
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7d9bd181-b99f-477e-bcfb-9b78cbf51224.jpg?1610999874"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7d9bd181-b99f-477e-bcfb-9b78cbf51224.jpg?1611110713"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Choose a creature type. Creatures that aren't of the chosen type get -3/-3 until end of turn.",
@@ -1168,7 +1126,7 @@
     "multiverse_ids": [
       900128
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/875a20c2-1d17-46ea-b4d2-3e70bc05aae3.jpg?1610586049"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/875a20c2-1d17-46ea-b4d2-3e70bc05aae3.jpg?1611170346"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Crush the Weak deals 2 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1179,7 +1137,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -1293,6 +1251,27 @@
     "set": "khm"
   },
   {
+    "id": 900053,
+    "name": "Depart the Realm",
+    "collector_number": 53,
+    "multiverse_ids": [
+      900053
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2ce0403d-76ed-4eb0-abdd-74ed28f96137.jpg?1611170002"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Return target nonland permanent to its owners's hand.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 1.5,
+    "set": "khm"
+  },
+  {
     "id": 900054,
     "name": "Disdainful Stroke",
     "collector_number": 54,
@@ -1352,7 +1331,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -1425,7 +1404,7 @@
     "multiverse_ids": [
       900131
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7f22fe4-2390-4c3d-8b5e-0cf398d97f6a.jpg?1610480938"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7f22fe4-2390-4c3d-8b5e-0cf398d97f6a.jpg?1611170448"],
     "layout": "normal",
     "type_line": "Creature — Human Berserker",
     "oracle_text": "First strike\nBoast abilities you activate cost {1} less to activate for each Dragon you control.\nBoast — {4}{R}: Create a 5/5 red Dragon creature token with flying. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -1462,12 +1441,12 @@
   },
   {
     "id": 900087,
-    "name": "\"Draugr Recruiter\"",
+    "name": "Draugr Recruiter",
     "collector_number": 87,
     "multiverse_ids": [
       900087
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6b0fe66b-0067-4e5c-9b3a-b014b2f0daf2.jpg?1611077567"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6b0fe66b-0067-4e5c-9b3a-b014b2f0daf2.jpg?1611170200"],
     "layout": "normal",
     "type_line": "Creature — Zombie Cleric",
     "oracle_text": "Boast — {3}{B}: Return target creature card from your graveyard to your hand. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -1509,7 +1488,7 @@
     "multiverse_ids": [
       900055
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31da60a2-d4d3-4954-be59-c7ff61fa2905.jpg?1610999368"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31da60a2-d4d3-4954-be59-c7ff61fa2905.jpg?1611110658"],
     "layout": "normal",
     "type_line": "Creature — Zombie Rogue",
     "oracle_text": "When Draugr Thought-Thief enters the battlefield, look at the top card of target player's library. You may put that card into their graveyard.",
@@ -1551,7 +1530,7 @@
     "multiverse_ids": [
       900090
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff1d88a6-a74d-44b5-b7a8-866e866807f1.jpg?1610946611"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff1d88a6-a74d-44b5-b7a8-866e866807f1.jpg?1611170269"],
     "layout": "normal",
     "type_line": "Creature — Demon Cleric",
     "oracle_text": "Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}. (During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.)\nWhenever you foretell a card, Dream Devourer gets +2/+0 until end of turn.",
@@ -1717,6 +1696,27 @@
     "set": "khm"
   },
   {
+    "id": 900166,
+    "name": "Elven Bow",
+    "collector_number": 166,
+    "multiverse_ids": [
+      900166
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/34c599c7-bcc1-4005-b830-1fa4811af66e.jpg?1611170515"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "When Elven Bow enters the battlefield, you may pay {2}. If you do, create a 1/1 green Elf Warrior creature token, then attach Elven Bow to it.\nEquipped creature gets +1/+2 and has reach.\nEquip {3}",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "khm"
+  },
+  {
     "id": 900167,
     "name": "Elvish Warmaster",
     "collector_number": 167,
@@ -1850,27 +1850,6 @@
     "set": "khm"
   },
   {
-    "id": 900098,
-    "name": "\"Family Get-Together\"",
-    "collector_number": 98,
-    "multiverse_ids": [
-      900098
-    ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/a/2ac5bca0-35fe-47be-a78c-d5eac68a3bfa.jpg?1611056446"],
-    "layout": "normal",
-    "type_line": "Sorcery",
-    "oracle_text": "Choose a creature type. Return up to two creature cards of the chosen type from your graveyard to the battlefield. If this spell was foretold, return all creature cards of the chosen type from your graveyard to the battlefield instead.\nForetell {5}{B}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
-    "mana_cost": "{4}{B}{B}",
-    "cmc": 6,
-    "colors": [
-      "B"
-    ],
-    "latent_color": "",
-    "rarity": "mythic",
-    "rating": 4,
-    "set": "khm"
-  },
-  {
     "id": 900135,
     "name": "Fearless Liberator",
     "collector_number": 135,
@@ -1952,7 +1931,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -2027,7 +2006,7 @@
     "multiverse_ids": [
       900137
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22c59e0b-5b78-4cf5-9c2a-92ccf833778f.jpg?1610835025"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22c59e0b-5b78-4cf5-9c2a-92ccf833778f.jpg?1611170481"],
     "layout": "normal",
     "type_line": "Creature — Demon Berserker",
     "oracle_text": "Whenever you activate a boast ability, put a +1/+1 counter on Frenzied Raider.",
@@ -2653,7 +2632,28 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900098,
+    "name": "Haunting Voyage",
+    "collector_number": 98,
+    "multiverse_ids": [
+      900098
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/a/2ac5bca0-35fe-47be-a78c-d5eac68a3bfa.jpg?1611170310"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Choose a creature type. Return up to two creature cards of the chosen type from your graveyard to the battlefield. If this spell was foretold, return all creature cards of the chosen type from your graveyard to the battlefield instead.\nForetell {5}{B}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 4,
     "set": "khm"
   },
   {
@@ -2679,7 +2679,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "khm"
   },
   {
@@ -2723,6 +2723,27 @@
     "latent_color": "",
     "rarity": "common",
     "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900062,
+    "name": "Icebind Pillar",
+    "collector_number": 62,
+    "multiverse_ids": [
+      900062
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a3152f1f-5d3f-4bc4-9b6f-f2983ab3f691.jpg?1611170091"],
+    "layout": "normal",
+    "type_line": "Snow Artifact",
+    "oracle_text": "{S}, {T}: Tap target artifact or creature. ({S} can be paid with one mana from a snow source.)",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -3223,15 +3244,15 @@
   },
   {
     "id": 900219,
-    "name": "\"King Narfi's Betrayal\"",
+    "name": "King Narfi's Betrayal",
     "collector_number": 219,
     "multiverse_ids": [
       900219
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c30ff1fa-6639-492a-b257-934e5818c98f.jpg?1611053727"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c30ff1fa-6639-492a-b257-934e5818c98f.jpg?1611170592"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
-    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Each player mills four cards. You may exile up to one creature or planeswalker card from each graveyard.\nII, III — Until end of turn, you may cast spells from among cards exiled with \"King Narfi's Betrayal\", and you may spend mana as though it were mana of any color to cast those spells.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Each player mills four cards. You may exile up to one creature or planeswalker card from each graveyard.\nII, III — Until end of turn, you may cast spells from among cards exiled with King Narfi's Betrayal, and you may spend mana as though it were mana of any color to cast those spells.",
     "mana_cost": "{1}{U}{B}",
     "cmc": 3,
     "colors": [
@@ -3545,15 +3566,15 @@
   },
   {
     "id": 900068,
-    "name": "\"Misty Stepper\"",
+    "name": "Mistwalker",
     "collector_number": 68,
     "multiverse_ids": [
       900068
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/92f64b49-327c-473b-a492-f020a322aed7.jpg?1611078199"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/92f64b49-327c-473b-a492-f020a322aed7.jpg?1611170180"],
     "layout": "normal",
     "type_line": "Creature — Shapeshifter",
-    "oracle_text": "Changeling (This card is every creature type.)\nFlying\n{1}{U}: \"Misty Stepper\" gets +1/-1 until end of turn.",
+    "oracle_text": "Changeling (This card is every creature type.)\nFlying\n{1}{U}: Mistwalker gets +1/-1 until end of turn.",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -3852,10 +3873,10 @@
     "multiverse_ids": [
       900265
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/b/bb9465a6-d009-4ecd-9fd1-d046547de902.jpg?1611054435"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/b/bb9465a6-d009-4ecd-9fd1-d046547de902.jpg?1611121787"],
     "layout": "normal",
     "type_line": "Land",
-    "oracle_text": "Port of Karfell enters the battlefield tapped.\n{T}: Add {U}.\n{3}{U}{B}{B}, {T}, Sacrifice Port of Karfell: Mill four cards, then return a creature card from your graveyard to the battlefield. (To mill a card,put the top card of your library into your graveyard.)",
+    "oracle_text": "Port of Karfell enters the battlefield tapped.\n{T}: Add {U}.\n{3}{U}{B}{B}, {T}, Sacrifice Port of Karfell: Mill four cards, then return a creature card from your graveyard to the battlefield tapped. (To mill a card,put the top card of your library into your graveyard.)",
     "mana_cost": "",
     "cmc": 0,
     "colors": [
@@ -4227,7 +4248,7 @@
     "multiverse_ids": [
       900023
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a9fb75e-c8e5-417b-83d4-5105af9c66c1.jpg?1610642442"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a9fb75e-c8e5-417b-83d4-5105af9c66c1.jpg?1611169934"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "You gain 3 life.\nDraw a card.",
@@ -4499,10 +4520,10 @@
     "multiverse_ids": [
       900148
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/47faee66-b274-466a-890e-bb396dda943d.jpg?1611077232"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/47faee66-b274-466a-890e-bb396dda943d.jpg?1611110701"],
     "layout": "normal",
     "type_line": "Enchantment — Aura Rune",
-    "oracle_text": "Enchant permanent\nWhen Rune of Speed enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, gets +1/+0 and has haste.\nAs long as enchanted permanent is an Equipment, it has \"Equipped creature gets +1/+0 and has haste.\"",
+    "oracle_text": "Enchant permanent\nWhen Rune of Speed enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it gets +1/+0 and has haste.\nAs long as enchanted permanent is an Equipment, it has \"Equipped creature gets +1/+0 and has haste.\"",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -5119,7 +5140,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "khm"
   },
   {
@@ -5129,7 +5150,7 @@
     "multiverse_ids": [
       900032
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c5373dd-4aec-4e93-97fb-a639aa096764.jpg?1611077463"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c5373dd-4aec-4e93-97fb-a639aa096764.jpg?1611169955"],
     "layout": "normal",
     "type_line": "Creature — Pegasus",
     "oracle_text": "Flying\nArtifact and enchantment spells you cast cost {1} less to cast.",
@@ -5182,7 +5203,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -5204,6 +5225,27 @@
     "latent_color": "",
     "rarity": "common",
     "rating": 1,
+    "set": "khm"
+  },
+  {
+    "id": 900196,
+    "name": "Struggle for Skemfar",
+    "collector_number": 196,
+    "multiverse_ids": [
+      900196
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a67747a9-3299-4b4a-a4e0-e8a269c4f927.jpg?1611080386"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Put a +1/+1 counter on target creature you control. Then that creature fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)\nForetell {G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
     "set": "khm"
   },
   {
@@ -5384,28 +5426,6 @@
     "set": "khm"
   },
   {
-    "id": 900231,
-    "name": "\"The First Snowman\"",
-    "collector_number": 231,
-    "multiverse_ids": [
-      900231
-    ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/8/48ce03b3-ec7c-46df-b89a-55405f3b5245.jpg?1610998788"],
-    "layout": "saga",
-    "type_line": "Enchantment — Saga",
-    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Mill three cards.\nII — Return up to two snow permanent cards from your graveyard to your hand.\nIII — Choose up to three cards in each graveyard. Their owners shuffle those cards into their libraries.",
-    "mana_cost": "{G}{U}",
-    "cmc": 2,
-    "colors": [
-      "G",
-      "U"
-    ],
-    "latent_color": "",
-    "rarity": "uncommon",
-    "rating": 3,
-    "set": "khm"
-  },
-  {
     "id": 900227,
     "name": "The Raven's Warning",
     "collector_number": 227,
@@ -5425,6 +5445,28 @@
     "latent_color": "",
     "rarity": "rare",
     "rating": 3.5,
+    "set": "khm"
+  },
+  {
+    "id": 900231,
+    "name": "The Three Seasons",
+    "collector_number": 231,
+    "multiverse_ids": [
+      900231
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/8/48ce03b3-ec7c-46df-b89a-55405f3b5245.jpg?1611170633"],
+    "layout": "saga",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Mill three cards.\nII — Return up to two snow permanent cards from your graveyard to your hand.\nIII — Choose up to three cards in each graveyard. Their owners shuffle those cards into their libraries.",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
     "set": "khm"
   },
   {

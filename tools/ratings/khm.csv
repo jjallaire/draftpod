@@ -29,10 +29,10 @@
 900028,"Shepherd of the Cosmos",2
 900029,"Sigrid, God-Favored",3.5
 900030,"Spectral Steel",3
-900031,"Stalwart Valkyrie",0
+900031,"Stalwart Valkyrie",0.5
 900032,"Starnheim Courser",1
 900033,"Starnheim Unleashed",4.5
-900034,"Story Seeker",1
+900034,"Story Seeker",1.5
 900035,"Usher of the Fallen",3
 900036,"Valkyrie's Sword",3
 900037,"Valor of the Worthy",1.5
@@ -40,7 +40,7 @@
 900039,"Wings of the Cosmos",1.5
 900040,"Alrund, God of the Cosmos // Hakka, Whispering Raven",4
 900041,"Alrund's Epiphany",4
-900042,"Annul",1.5
+900042,"Annul",2
 900043,"Ascendant Spirit",3.5
 900044,"Augury Raven",1
 900045,"Avalanche Caller",3
@@ -51,7 +51,7 @@
 900050,"Cosima, God of the Voyage // The Omenkeel",3.5
 900051,"Cosmos Charger",3.5
 900052,"Cyclone Summoner",3
-900053,"""Adios Wormhole""",1.5
+900053,"Depart the Realm",1.5
 900054,"Disdainful Stroke",1.5
 900055,"Draugr Thought-Thief",1
 900056,"Frost Augur",3
@@ -60,13 +60,13 @@
 900059,"Giant's Amulet",3
 900060,"Glimpse the Cosmos",3
 900061,"Graven Lore",3
-900062,"""Chill Out""",3
+900062,"Icebind Pillar",2.5
 900063,"Icebreaker Kraken",3
 900064,"Inga Rune-Eyes",2.5
 900065,"Karfell Harbinger",1.5
 900066,"Littjara Kinseekers",0.5
 900067,"Mists of Littjara",1.5
-900068,"""Misty Stepper""",1
+900068,"Mistwalker",1
 900069,"Mystic Reflection",3.5
 900070,"Orvar, the All-Form",4.5
 900071,"Pilfering Hawk",1.5
@@ -83,9 +83,9 @@
 900082,"Crippling Fear",3.5
 900083,"Deathknell Berserker",1.5
 900084,"Demonic Gifts",1.5
-900085,"Dogged Pursuit",0.5
+900085,"Dogged Pursuit",1
 900086,"Draugr Necromancer",3.5
-900087,"""Draugr Recruiter""",1
+900087,"Draugr Recruiter",1
 900088,"Draugr's Helm",3
 900089,"Dread Rider",0
 900090,"Dream Devourer",3.5
@@ -96,7 +96,7 @@
 900095,"Feed the Serpent",0.5
 900096,"Grim Draugr",1
 900097,"Hailstorm Valkyrie",2.5
-900098,"""Family Get-Together""",4
+900098,"Haunting Voyage",4
 900099,"Infernal Pet",1
 900100,"Jarl of the Forsaken",0.5
 900101,"Karfell Kennel-Master",0
@@ -125,8 +125,8 @@
 900124,"Breakneck Berserker",1
 900125,"Calamity Bearer",3.5
 900126,"Cinderheart Giant",0
-900127,"Craven Hulk",0.5
-900128,"Crush the Weak",2.5
+900127,"Craven Hulk",1
+900128,"Crush the Weak",3
 900129,"Demon Bolt",1
 900130,"Doomskar Titan",2
 900131,"Dragonkin Berserker",3.5
@@ -164,6 +164,7 @@
 900163,"Boreal Outrider",3
 900164,"Broken Wings",1
 900165,"Elderleaf Mentor",0.5
+900166,"Elven Bow",3
 900167,"Elvish Warmaster",3.5
 900168,"Esika, God of the Tree // The Prismatic Bridge",4.5
 900169,"Esika's Chariot",3.5
@@ -193,6 +194,7 @@
 900193,"Sculptor of Winter",1.5
 900194,"Snakeskin Veil",1.5
 900195,"Spirit of the Aldergard",2.5
+900196,"Struggle for Skemfar",0.5
 900197,"Toski, Bearer of Secrets",3
 900198,"Tyvar Kell",4
 900199,"Vorinclex, Monstrous Raider",4
@@ -205,17 +207,17 @@
 900206,"Binding the Old Gods",2.5
 900207,"The Bloodsky Massacre",3.5
 900208,"Fall of the Impostor",2.5
-900209,"Firja, Judge of Valor",2
+900209,"Firja, Judge of Valor",2.5
 900210,"Firja's Retribution",3.5
 900211,"Forging the Tyrite Sword",2.5
 900212,"Harald, King of Skemfar",2.5
-900213,"Harald Unites the Elves",3
+900213,"Harald Unites the Elves",3.5
 900214,"Immersturm Predator",3
 900215,"Invasion of the Giants",3
 900216,"Kardur, Doomscourge",2.5
 900217,"Kardur's Vicious Return",2.5
 900218,"Kaya the Inexorable",4
-900219,"""King Narfi's Betrayal""",3.5
+900219,"King Narfi's Betrayal",3.5
 900220,"Koll, the Forgemaster",3
 900221,"Koma, Cosmos Serpent",4
 900222,"Maja, Bretagard Protector",2
@@ -227,7 +229,7 @@
 900228,"Sarulf, Realm Eater",3.5
 900229,"Showdown of the Skalds",3
 900230,"Svella, Ice Shaper",2.5
-900231,"""The First Snowman""",3
+900231,"The Three Seasons",3
 900232,"The Trickster-God's Heist",2.5
 900233,"Vega, the Watcher",2.5
 900234,"Waking the Trolls",3
@@ -256,7 +258,7 @@
 900257,"Glacial Floodplain",2
 900258,"Gnottvold Slumbermound",3
 900259,"Great Hall of Starnheim",3
-900260,"Hengegate Pathway // Mistgate Pathway",3.5
+900260,"Hengegate Pathway // Mistgate Pathway",4
 900261,"Highland Forest",2
 900262,"Ice Tunnel",2
 900263,"Immersturm Skullcairn",3
