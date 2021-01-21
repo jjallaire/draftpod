@@ -118,14 +118,14 @@ export default {
             Khans of Tarkir
           </option>
         </optgroup>
-         <optgroup label="Remastered">
+        <optgroup label="Remastered">
           <option value="klr">
             Kaladesh Remastered
           </option>
           <option value="akr">
             Amonkhet Remastered
           </option>
-         </optgroup>
+        </optgroup>
         <optgroup label="More">
           <option value="isd">
             Innistrad
