@@ -83,10 +83,23 @@ download_cards <- function(cards,
     }
     
     # get id
-    if (set == "znr")
+    if (set == "znr") {
       multiverse_ids <- list(card$tcgplayer_id + 1000000)
-    else
+    } else if (set == "khm") {
+      if (is.null(card$tcgplayer_id)) {
+        if (identical(card$name, "Warhorn Blast")) {
+          card$tcgplayer_id <- 230884
+        }
+        else if (identical(card$name, "Immersturm Raider")) {
+          card$tcgplayer_id <- 230866
+        } else {
+          cat("No ID for ", card$name, "\n")
+        }
+      }
+      multiverse_ids <- list(card$tcgplayer_id + 1000000)
+    } else {
       multiverse_ids <- card$multiverse_ids
+    }
     
     # convert collector_number to integer
     collector_number <- as.integer(gsub("[A-Za-z]+", "", card$collector_number))
