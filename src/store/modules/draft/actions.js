@@ -187,7 +187,7 @@ export default {
 
       // order all of the piles
       for (let i=0; i<DECK.PILES; i++)
-        orderDeckPile(deck.piles[i]);
+      deck.piles[i] = orderDeckPile(deck.piles[i]);
       
       // compact into top piles if requested
       if (compact) {
@@ -742,10 +742,21 @@ function pileToPile(player, card, pile_number, piles, insertBefore) {
 
 function addCardToPile(player, pile, card, insertBefore) {
   let card_copy = JSON.parse(JSON.stringify(card));
+
+  // there is no insertBefore then place it adjacent to any copies of it
+  if (insertBefore === null) {
+    const existingIndex = pile.findIndex(c => c.id === card.id);
+    if (existingIndex != -1) {
+      insertBefore =existingIndex;
+    }
+  }
+
   if (insertBefore !== null)
     pile.splice(insertBefore, 0, card_copy);
-  else
+  else {
     pile.push(card_copy);
+  }
+    
 }
 
 
