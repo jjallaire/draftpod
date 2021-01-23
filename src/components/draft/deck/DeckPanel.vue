@@ -119,6 +119,10 @@ export default {
       return !set.is_custom_cube(this.set.code) && this.is_draft_format;
     },
 
+    view_toggle_title: function() {
+     return (this.compact ? 'Full' : 'Compact') + ' deck view';
+    },
+
     arrange_by_cost: {
       get: function() {
         return selectors.deckOptions(this.deck).compact_arrange_by_cost;
@@ -185,12 +189,12 @@ export default {
       <button 
         v-if="is_sealed_format"
         ref="toggleCompactBtn"
-        :title="(compact ? 'Full' : 'Compact') + ' deck view' "
+        :title="view_toggle_title"
         class="btn btn-sm btn-secondary btn-solo text-light"
         @click="onToggleCompact"
       >
-        <MaximizeIcon v-if="compact" />
-        <MinimizeIcon v-if="!compact" class="deck-panel-minimize" />
+        <MaximizeIcon v-if="compact" :title="view_toggle_title" />
+        <MinimizeIcon v-if="!compact" class="deck-panel-minimize" :title="view_toggle_title" />
       </button>
     </template>
     <div class="deck-piles deck-piles-top">
