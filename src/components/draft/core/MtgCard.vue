@@ -68,7 +68,7 @@ export default {
     }
   },
   methods: {
-    onMouseMove() {
+    onMouseMove(event) {
       if (this.preview_timer) {
         clearTimeout(this.preview_timer);
       }

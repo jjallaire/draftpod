@@ -34,6 +34,9 @@ export default {
       else
         return "normal";
     },
+    dualFaced() {
+      return this.cardImageUris.length > 1;
+    },
     previewRect() {
       let card = this.card_preview.card;
       if (card) {
@@ -49,8 +52,9 @@ export default {
           height: cardRect.height + extraHeight
         };
       
-        if (previewRect.left + previewRect.width >  window.innerWidth)
-          previewRect.left = cardRect.left - (cardRect.width + extraWidth);
+        if (previewRect.left + previewRect.width >  window.innerWidth) {
+          previewRect.left = cardRect.left - previewRect.width;
+        }
         let overflowY = (previewRect.top + previewRect.height) - window.innerHeight;
         if (overflowY > 0)
           previewRect.top -= overflowY;
@@ -74,7 +78,7 @@ export default {
   >
     <PreviewImage 
       :card_preview="cardImageUris[0]" 
-      :dual_faced="cardImageUris.length > 1"
+      :dual_faced="dualFaced"
     />
     <PreviewImage 
       v-if="cardImageUris[1]"
