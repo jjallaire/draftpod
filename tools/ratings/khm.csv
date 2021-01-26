@@ -1,15 +1,15 @@
 "id","name","rating"
 1229207,"Hengegate Pathway // Mistgate Pathway",1.5
-1229208,"Darkbore Pathway // Slitherbore Pathway",1
+1229208,"Darkbore Pathway // Slitherbore Pathway",1.5
 1229209,"Blightstep Pathway // Searstep Pathway",1.5
 1229210,"Barkchannel Pathway // Tidechannel Pathway",1.5
 1229211,"Showdown of the Skalds",3.5
-1229212,"Pyre of Heroes",1.5
+1229212,"Pyre of Heroes",1
 1229232,"Magda, Brazen Outlaw",3.5
 1229251,"Realmwalker",3.5
 1229252,"Kaya the Inexorable",4.5
 1229254,"Halvar, God of Battle // Sword of the Realms",4.5
-1229368,"Sarulf, Realm Eater",3.5
+1229368,"Sarulf, Realm Eater",4
 1229494,"Toski, Bearer of Secrets",3.5
 1230091,"Invasion of the Giants",2
 1230095,"Alrund, God of the Cosmos // Hakka, Whispering Raven",4
@@ -28,41 +28,41 @@
 1230117,"Rimewood Falls",3
 1230118,"Binding the Old Gods",3.5
 1230120,"Sigrid, God-Favored",3.5
-1230122,"Sarulf's Packmate",3
+1230122,"Sarulf's Packmate",3.5
 1230123,"Old-Growth Troll",3.5
 1230124,"Elvish Warmaster",3.5
 1230127,"Frost Bite",3.5
-1230128,"Inga Rune-Eyes",3
+1230128,"Inga Rune-Eyes",2.5
 1230130,"Niko Aris",4
 1230132,"Koll, the Forgemaster",2.5
-1230134,"Masked Vandal",1.5
-1230135,"Vorinclex, Monstrous Raider",4
+1230134,"Masked Vandal",2
+1230135,"Vorinclex, Monstrous Raider",4.5
 1230140,"Behold the Multiverse",3
 1230141,"Glimpse the Cosmos",2.5
-1230142,"Augury Raven",3
+1230142,"Augury Raven",3.5
 1230143,"Kolvori, God of Kinship // The Ringhart Crest",3
 1230144,"Forging the Tyrite Sword",1
-1230145,"Bretagard Stronghold",2.5
+1230145,"Bretagard Stronghold",2
 1230146,"Snow-Covered Forest",2.5
 1230147,"Snow-Covered Plains",1.5
 1230148,"Snow-Covered Island",2.5
 1230149,"Snow-Covered Swamp",1.5
 1230150,"Snow-Covered Mountain",1.5
-1230151,"The Trickster-God's Heist",3
+1230151,"The Trickster-God's Heist",2.5
 1230152,"Path to the World Tree",1.5
 1230153,"Ravenform",2.5
 1230154,"Reflections of Littjara",3
 1230155,"Cosmos Charger",3.5
-1230156,"Sculptor of Winter",2.5
+1230156,"Sculptor of Winter",3
 1230158,"Hailstorm Valkyrie",2.5
 1230160,"Calamity Bearer",3.5
 1230161,"Goldspan Dragon",4.5
 1230163,"Esika, God of the Tree // The Prismatic Bridge",3
 1230164,"Seize the Spoils",1
-1230165,"The World Tree",2
+1230165,"The World Tree",1.5
 1230166,"Giant's Amulet",3
 1230167,"Koma, Cosmos Serpent",4.5
-1230168,"Firja, Judge of Valor",3
+1230168,"Firja, Judge of Valor",3.5
 1230169,"Doomskar Oracle",2
 1230170,"Saw It Coming",2.5
 1230171,"Koma's Faithful",1.5
@@ -74,10 +74,10 @@
 1230177,"Vega, the Watcher",3
 1230178,"Replicating Ring",1
 1230179,"Quakebringer",4
-1230180,"Undersea Invader",1
+1230180,"Undersea Invader",0.5
 1230181,"Spirit of the Aldergard",3
-1230182,"Broken Wings",1
-1230183,"Snakeskin Veil",1
+1230182,"Broken Wings",0.5
+1230183,"Snakeskin Veil",1.5
 1230184,"Eradicator Valkyrie",4.5
 1230185,"Maskwood Nexus",3.5
 1230186,"Annul",0
@@ -88,7 +88,7 @@
 1230193,"Kardur's Vicious Return",3
 1230194,"Boreal Outrider",3
 1230195,"Dogged Pursuit",1
-1230196,"Open the Omenpaths",0.5
+1230196,"Open the Omenpaths",0
 1230197,"Moritte of the Frost",3
 1230198,"Divine Gambit",1
 1230199,"Iron Verdict",3
@@ -96,36 +96,36 @@
 1230201,"Search for Glory",1
 1230202,"Spectral Steel",1.5
 1230203,"Littjara Kinseekers",1.5
-1230204,"Skemfar Shadowsage",2
+1230204,"Skemfar Shadowsage",2.5
 1230205,"Reckless Crew",1.5
 1230206,"Tibalt's Trickery",0.5
-1230207,"Tormentor's Helm",1
+1230207,"Tormentor's Helm",2
 1230208,"Blizzard Brawl",3
-1230209,"Glittering Frost",1.5
+1230209,"Glittering Frost",2
 1230210,"Guardian Gladewalker",2
-1230211,"Tyvar Kell",4.5
+1230211,"Tyvar Kell",4
 1230213,"Waking the Trolls",3
-1230214,"Toralf, God of Fury // Toralf's Hammer",3.5
+1230214,"Toralf, God of Fury // Toralf's Hammer",4
 1230215,"Bloodline Pretender",3
 1230216,"Tergrid's Shadow",3
 1230217,"Run Ashore",1
 1230218,"Jorn, God of Winter // Kaldring, the Rimestaff",3.5
-1230219,"Roots of Wisdom",0.5
-1230220,"Axgard Cavalry",1.5
-1230297,"Withercrown",1.5
+1230219,"Roots of Wisdom",1
+1230220,"Axgard Cavalry",2
+1230297,"Withercrown",2
 1230305,"Harald, King of Skemfar",3
 1230379,"Harald Unites the Elves",3
 1230380,"Egon, God of Death // Throne of Death",3.5
 1230381,"Feed the Serpent",3.5
-1230382,"Elderfang Disciple",2
+1230382,"Elderfang Disciple",2.5
 1230395,"Codespell Cleric",1
-1230398,"Mammoth Growth",1.5
+1230398,"Mammoth Growth",1
 1230404,"Run Amok",1
 1230406,"Crush the Weak",3
 1230412,"Starnheim Unleashed",5
-1230416,"Dual Strike",1
+1230416,"Dual Strike",0.5
 1230418,"Frostpyre Arcanist",2
-1230419,"Basalt Ravager",3.5
+1230419,"Basalt Ravager",3
 1230420,"Weathered Runestone",0
 1230428,"Squash",3
 1230429,"Cinderheart Giant",1
@@ -133,7 +133,7 @@
 1230431,"Fall of the Impostor",3
 1230432,"Bound in Gold",3
 1230433,"Giant Ox",0
-1230434,"Shepherd of the Cosmos",3.5
+1230434,"Shepherd of the Cosmos",3
 1230435,"Wings of the Cosmos",0
 1230436,"Pilfering Hawk",1.5
 1230437,"Rune of Flight",3
@@ -141,23 +141,23 @@
 1230439,"Burning-Rune Demon",4
 1230440,"Deathknell Berserker",1.5
 1230441,"Dread Rider",1
-1230442,"Infernal Pet",2.5
+1230442,"Infernal Pet",3
 1230443,"Raise the Draugr",1.5
 1230444,"Demon Bolt",3.5
 1230445,"Smashing Success",0
-1230446,"Elderleaf Mentor",3
+1230446,"Elderleaf Mentor",2
 1230447,"Jaspera Sentinel",1
-1230448,"Funeral Longboat",1.5
+1230448,"Funeral Longboat",2
 1230449,"Raiders' Karve",1
 1230450,"Tergrid, God of Fright // Tergrid's Lantern",4
 1230451,"Narfi, Betrayer King",3.5
-1230452,"Goldvein Pick",1.5
+1230452,"Goldvein Pick",1
 1230453,"Draugr's Helm",3
 1230454,"Battle of Frost and Fire",3.5
 1230455,"Aegar, the Freezing Flame",3
-1230456,"Clarion Spirit",3
+1230456,"Clarion Spirit",3.5
 1230457,"Battle for Bretagard",3
-1230458,"Duskwielder",0.5
+1230458,"Duskwielder",1
 1230459,"King Harald's Revenge",1
 1230464,"Plains",0
 1230465,"Island",0
@@ -165,13 +165,13 @@
 1230467,"Mountain",0
 1230468,"Forest",0
 1230489,"Skemfar Avenger",3.5
-1230490,"Ascendant Spirit",3
-1230491,"Beskir Shieldmate",2
+1230490,"Ascendant Spirit",3.5
+1230491,"Beskir Shieldmate",1.5
 1230492,"Avalanche Caller",3
 1230493,"Berg Strider",2.5
 1230494,"Cyclone Summoner",3.5
-1230495,"Frostpeak Yeti",1.5
-1230496,"Karfell Harbinger",2.5
+1230495,"Frostpeak Yeti",2
+1230496,"Karfell Harbinger",2
 1230497,"Mystic Reflection",2.5
 1230498,"Karfell Kennel-Master",2
 1230499,"Breakneck Berserker",1.5
@@ -182,10 +182,10 @@
 1230517,"Runed Crown",2.5
 1230527,"Tundra Fumarole",3.5
 1230532,"Skemfar Elderhall",2
-1230662,"Gnottvold Slumbermound",2
+1230662,"Gnottvold Slumbermound",2.5
 1230668,"Vault Robber",1
 1230671,"Fearless Liberator",3
-1230675,"Axgard Braggart",2
+1230675,"Axgard Braggart",3
 1230689,"Scorn Effigy",2
 1230693,"Goldmaw Champion",2
 1230704,"Cosima, God of the Voyage // The Omenkeel",3.5
@@ -197,35 +197,35 @@
 1230726,"Poison the Cup",4
 1230727,"Return Upon the Tide",2.5
 1230728,"Arachnoform",0.5
-1230729,"Littjara Mirrorlake",2.5
-1230730,"The Raven's Warning",3.5
+1230729,"Littjara Mirrorlake",2
+1230730,"The Raven's Warning",3
 1230731,"Cosmos Elixir",3
 1230732,"Immersturm Predator",4
 1230734,"Rootless Yew",2.5
-1230735,"Battershield Warrior",2.5
+1230735,"Battershield Warrior",2
 1230736,"Frost Augur",1.5
-1230737,"Blood on the Snow",4
+1230737,"Blood on the Snow",3.5
 1230740,"Arni Brokenbrow",3.5
 1230741,"Ascent of the Worthy",2
 1230742,"Revitalize",0
 1230743,"Valkyrie's Sword",3
-1230744,"Provoke the Trolls",2.5
-1230745,"Icehide Troll",2
+1230744,"Provoke the Trolls",3
+1230745,"Icehide Troll",2.5
 1230746,"In Search of Greatness",2
 1230748,"Fynn, the Fangbearer",3
 1230749,"Colossal Plow",0.5
 1230750,"Maja, Bretagard Protector",3.5
 1230751,"Raven Wings",1
-1230752,"Graven Lore",3.5
+1230752,"Graven Lore",3
 1230753,"Svella, Ice Shaper",3
-1230844,"Axgard Armory",1.5
+1230844,"Axgard Armory",1
 1230845,"Doomskar Titan",3
 1230846,"Littjara Glade-Warden",3
-1230848,"Dwarven Reinforcements",2
+1230848,"Dwarven Reinforcements",1.5
 1230849,"Tyrite Sanctum",2
-1230850,"Surtland Frostpyre",2.5
+1230850,"Surtland Frostpyre",1.5
 1230851,"Port of Karfell",2.5
-1230852,"Jarl of the Forsaken",2
+1230852,"Jarl of the Forsaken",2.5
 1230853,"Draugr Thought-Thief",1.5
 1230854,"Fearless Pup",1
 1230855,"Frenzied Raider",3
@@ -234,7 +234,7 @@
 1230858,"Demonic Gifts",1
 1230859,"Skull Raid",1.5
 1230866,"Immersturm Raider",1.5
-1230867,"Dream Devourer",3.5
+1230867,"Dream Devourer",3
 1230869,"Righteous Valkyrie",3.5
 1230870,"Dragonkin Berserker",3.5
 1230872,"Doomskar",4
@@ -245,13 +245,13 @@
 1230877,"Shackles of Treachery",0.5
 1230878,"Rune of Might",2.5
 1230879,"Rune of Speed",1.5
-1230880,"Rune of Mortality",2.5
+1230880,"Rune of Mortality",2
 1230881,"Rune of Sustenance",2
 1230882,"Runeforge Champion",3
 1230884,"Warhorn Blast",1
 1230885,"The Three Seasons",2
 1230886,"Struggle for Skemfar",3
-1230887,"Story Seeker",2
+1230887,"Story Seeker",1.5
 1230888,"Stalwart Valkyrie",3
 1230889,"Shimmerdrift Vale",2.5
 1230890,"Resplendent Marshal",4
@@ -260,27 +260,27 @@
 1230893,"Orvar, the All-Form",3.5
 1230894,"Master Skald",1
 1230895,"Icebind Pillar",3.5
-1230896,"Horizon Seeker",2
+1230896,"Horizon Seeker",3
 1230897,"Grizzled Outrider",1
 1230898,"Glorious Protector",4
-1230899,"Dwarven Hammer",3
-1230900,"Disdainful Stroke",0
+1230899,"Dwarven Hammer",2.5
+1230900,"Disdainful Stroke",0.5
 1230901,"Crippling Fear",3.5
 1230902,"Blessing of Frost",3
-1230903,"Birgi, God of Storytelling // Harnfel, Horn of Bounty",4
+1230903,"Birgi, God of Storytelling // Harnfel, Horn of Bounty",3.5
 1230904,"Battlefield Raptor",1.5
 1230905,"Battle Mammoth",4.5
 1230921,"Reidane, God of the Worthy // Valkmira, Protector's Shield",3.5
-1230932,"Great Hall of Starnheim",3
+1230932,"Great Hall of Starnheim",2.5
 1230933,"Starnheim Courser",2.5
-1230934,"Valor of the Worthy",0.5
+1230934,"Valor of the Worthy",1
 1230935,"Vengeful Reaper",3.5
-1230936,"Mists of Littjara",1.5
+1230936,"Mists of Littjara",2
 1230937,"Icebreaker Kraken",2.5
 1230938,"Bind the Monster",3
-1230946,"Mistwalker",2.5
+1230946,"Mistwalker",2
 1230947,"Elven Bow",3
-1230948,"Depart the Realm",2
+1230948,"Depart the Realm",1.5
 1230949,"Draugr Recruiter",1.5
-1230950,"Haunting Voyage",3
-1230951,"King Narfi's Betrayal",3.5
+1230950,"Haunting Voyage",3.5
+1230951,"King Narfi's Betrayal",3
