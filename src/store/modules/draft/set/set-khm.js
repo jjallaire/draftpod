@@ -33,6 +33,6 @@ const commonNotLand = filters.join(
 
 function snowLand(card) {
   return card.type_line.startsWith("Basic Snow Land") ||
-         card.type_line.startsWith("Snow Land");
+         card.type_line.startsWith("Snow Land —");
 }
 
