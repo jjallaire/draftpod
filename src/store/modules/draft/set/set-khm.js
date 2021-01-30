@@ -14,25 +14,37 @@ export default {
 
   booster(selectCards) {
 
-    let cards = [].concat(
+    const cards = [].concat(
       selectCards(booster.packRareSlot, 1),
       selectCards(booster.uncommon, 3),
-      selectCards(commonNotLand, 10),
-      selectCards(snowLand, 1)
+      selectCards(commonNotSnowLand, 10),
     );
+
+    if (Math.random() <= (5/12)) {
+      // fallback to basic snow if there aren't enough dual snow lands
+      const dualLand = [dualSnowLand, basicSnowLand, filters.basicLand];
+      return cards.concat(selectCards(dualLand, 1));
+    } else {
+      // fallback to basic if there aren't enough basic snow lands
+      return cards.concat(selectCards([basicSnowLand, filters.basicLand], 1));
+    }
     
-    return cards;
   },
 }
 
-const commonNotLand = filters.join(
+const commonNotSnowLand = filters.join(
   filters.common, 
-  card => !filters.basicLand(card), 
-  card => !snowLand(card)
+  card => !basicSnowLand(card), 
+  card => !dualSnowLand(card)
 )
 
-function snowLand(card) {
-  return card.type_line.startsWith("Basic Snow Land") ||
-         card.type_line.startsWith("Snow Land —");
+function basicSnowLand(card) {
+  return card.type_line.startsWith("Basic Snow Land");
 }
+
+function dualSnowLand(card) {
+  return card.type_line.startsWith("Snow Land —");
+}
+
+
 
