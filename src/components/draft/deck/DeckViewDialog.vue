@@ -26,6 +26,7 @@ export default {
       deck: null,
       format: null,
       deck_size: 40,
+      sealed: false,
       arena_convert: false,
       arena_60: null
     }
@@ -35,7 +36,7 @@ export default {
 
     standard_deck_list: function() {
       if (this.deck) {
-        return selectors.deckList(this.set_code, 'normal', this.deck);
+        return selectors.deckList(this.set_code, 'normal', this.sealed, this.deck);
       } else {
         return null;
       }
@@ -50,7 +51,7 @@ export default {
         if (this.arena_convert)
           return this.arena_60;
         else
-          return selectors.deckList(this.set_code, 'arena', this.deck);
+          return selectors.deckList(this.set_code, 'arena', this.sealed, this.deck);
       } else {
         return null;
       }
@@ -67,6 +68,7 @@ export default {
       this.set_code = null;
       this.format = null;
       this.deck_size = 40;
+      this.sealed = false;
       this.arena_convert = false;
       this.arena_60 = null;
     });
@@ -94,13 +96,14 @@ export default {
 
   methods: {
 
-    show(set_code, deck, format, deck_size) {
+    show(set_code, deck, format, sealed, deck_size) {
       this.set_code = set_code;
       this.format = format;
       this.deck = deck;
+      this.sealed = sealed;
       this.deck_size = deck_size;
       if (set.capabilities(this.set_code).arena_decklists)
-        this.arena_60 = selectors.arena60CardDeckList(this.set_code, this.deck);
+        this.arena_60 = selectors.arena60CardDeckList(this.set_code, this.sealed, this.deck);
       let dialog = jquery(this.$refs.dialog);
       dialog.modal();
       this.$nextTick(() => {

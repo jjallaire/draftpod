@@ -307,7 +307,7 @@ export function deckTotalCards(deck) {
   return deckCards(deck).length + deckLandCount(deck);
 }
 
-export function arena60CardDeck(set_code, deck) {
+export function arena60CardDeck(set_code, sealed, deck) {
 
   // clone the deck so we aren't mutating it directly
   deck = _cloneDeep(deck);
@@ -419,7 +419,7 @@ export function arena60CardDeck(set_code, deck) {
   _pullAt(deck.piles[DECK.SIDEBOARD], sideboardRemoveCards);
   
   // ensure the sideboard is no more than 15 cards
-  if (deck.piles[DECK.SIDEBOARD].length > 15) {
+  if (!sealed && deck.piles[DECK.SIDEBOARD].length > 15) {
     // take the highest rated 15 cards in our deck's colors
     let sideboard = orderUnplayedPile(deck, DECK.SIDEBOARD, true);
     sideboard = _orderBy(sideboard, ["rating"], ["desc"]).slice(0, 15);
@@ -456,17 +456,20 @@ export function arena60CardDeck(set_code, deck) {
   return deck;
 }
 
-export function arena60CardDeckList(set_code, deck) {
-  let deck60 = arena60CardDeck(set_code, deck);
-  return deckList(set_code, 'arena', deck60);
+export function arena60CardDeckList(set_code, sealed, deck) {
+  let deck60 = arena60CardDeck(set_code, sealed, deck);
+  return deckList(set_code, 'arena', sealed, deck60);
 }
 
-export function deckList(set_code, format, deck) {
+export function deckList(set_code, format, sealed, deck) {
    
   let main_deck = _flatten(deck.piles.slice(0, DECK.SIDEBOARD));
   let main_deck_list = asDeckList(set_code, format, main_deck);
 
-  let sideboard = deck.piles[DECK.SIDEBOARD].slice(0,15);
+  let sideboard = deck.piles[DECK.SIDEBOARD];
+  if (!sealed) {
+    sideboard = sideboard.slice(0,15);
+  }
   let sideboard_list = asDeckList(set_code, format, sideboard);
 
   let basic_lands_list = null;

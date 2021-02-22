@@ -105,7 +105,7 @@ export default {
       let log = this.generateDraftLog();
       
       // deck list
-      let deckList = selectors.deckList(this.set.code, 'normal', this.deck);
+      let deckList = selectors.deckList(this.set.code, 'normal', false, this.deck);
     
       // generate mtgo log then download
       draftlog.asMtgoLog(log).then(mtgoLog => {

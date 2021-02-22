@@ -29,6 +29,11 @@ export default {
       required: true
     },
 
+    sealed: {
+      type: Boolean,
+      required: true
+    },
+
     format: {
       type: String,
       required: true
@@ -37,7 +42,7 @@ export default {
 
   methods: {
     onViewDeck(event) {
-      this.$refs.deckViewDialog.show(this.set_code, this.deck, this.format, this.deck_size);
+      this.$refs.deckViewDialog.show(this.set_code, this.deck, this.format, this.sealed, this.deck_size);
       event.target.blur();
     }
   },

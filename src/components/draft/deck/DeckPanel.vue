@@ -175,7 +175,13 @@ export default {
       <DeckSaveList v-if="saved_decks && saved_decks.active" :deck="deck" :saved_decks="saved_decks" />
     </template>
     <template slot="header-right">
-      <DeckView :set_code="set.code" :format="options.deck_list_format" :deck_size="options.deck_size" :deck="deck" />
+      <DeckView 
+        :set_code="set.code" 
+        :format="options.deck_list_format" 
+        :deck_size="options.deck_size" 
+        :sealed="is_sealed_format"
+        :deck="deck" 
+      />
       <DeckDownload 
         v-if="can_download"
         :set="set" 

@@ -53,8 +53,8 @@ enable you to publish your draft log and deck list:
 `;
 
       // generate deck lists
-      let deckList = selectors.deckList(this.set.code, 'normal', this.deck);
-      let arenaDeckList = selectors.deckList(this.set.code, 'arena', this.deck);
+      let deckList = selectors.deckList(this.set.code, 'normal', false, this.deck);
+      let arenaDeckList = selectors.deckList(this.set.code, 'arena', false, this.deck);
 
       // generate mtgo log then download
       draftlog.asMtgoLog(log).then(mtgoLog => {

@@ -6,8 +6,8 @@ import * as selectors from '@/store/modules/draft/selectors'
 
 describe('Arena 60 Card Decks', () => {
 
-  let deck60 = selectors.arena60CardDeck('rna', deck);
-  let decklist60 = selectors.arena60CardDeckList('rna', deck);
+  let deck60 = selectors.arena60CardDeck('rna', false, deck);
+  let decklist60 = selectors.arena60CardDeckList('rna', false, deck);
 
   test('Generates 60 card arena deck', () => {
     expect(decklist60).toContain('Plague Wight')
