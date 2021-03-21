@@ -6,7 +6,7 @@
     "multiverse_ids": [
       1230455
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/68011f60-6202-48f4-8255-fb94764e2951.jpg?1610566556"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/68011f60-6202-48f4-8255-fb94764e2951.jpg?1615602692"],
     "layout": "normal",
     "type_line": "Legendary Creature — Giant Wizard",
     "oracle_text": "Whenever a creature or planeswalker an opponent controls is dealt excess damage, if a Giant, Wizard, or spell you controlled dealt damage to it this turn, draw a card.",
@@ -18,7 +18,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -28,7 +28,7 @@
     "multiverse_ids": [
       1230106
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/8702d6b9-bb01-4841-a76d-4a576066c772.jpg?1610996839"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/8702d6b9-bb01-4841-a76d-4a576066c772.jpg?1615603735"],
     "layout": "normal",
     "type_line": "Snow Land — Mountain Plains",
     "oracle_text": "({T}: Add {R} or {W}.)\nAlpine Meadow enters the battlefield tapped.",
@@ -65,7 +65,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -75,7 +75,7 @@
     "multiverse_ids": [
       1230097
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c94fcb53-a7bd-4a80-a536-9fb0eb24261a.jpg?1610586029"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c94fcb53-a7bd-4a80-a536-9fb0eb24261a.jpg?1614985713"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Create two 1/1 blue Bird creature tokens with flying. Take an extra turn after this one. Exile Alrund's Epiphany.\nForetell {4}{U}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -96,7 +96,7 @@
     "multiverse_ids": [
       1230186
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b1d4a59-11a0-4a55-8ac0-07377a9e6dc8.jpg?1610300632"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4b1d4a59-11a0-4a55-8ac0-07377a9e6dc8.jpg?1614985747"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target artifact or enchantment spell.",
@@ -117,7 +117,7 @@
     "multiverse_ids": [
       1230728
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/acbe560b-f7b5-4614-91f1-b669a39abc16.jpg?1610999724"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/acbe560b-f7b5-4614-91f1-b669a39abc16.jpg?1614988484"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2, has reach, and is every creature type.",
@@ -138,7 +138,7 @@
     "multiverse_ids": [
       1230107
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b20e3117-f1e4-4449-ae9d-0b66abfc717d.jpg?1610235722"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b20e3117-f1e4-4449-ae9d-0b66abfc717d.jpg?1615603760"],
     "layout": "normal",
     "type_line": "Snow Land — Forest Plains",
     "oracle_text": "({T}: Add {G} or {W}.)\nArctic Treeline enters the battlefield tapped.",
@@ -160,7 +160,7 @@
     "multiverse_ids": [
       1230740
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff334bba-0805-4d5d-86c4-99185fe9a77a.jpg?1610910031"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff334bba-0805-4d5d-86c4-99185fe9a77a.jpg?1614987202"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Berserker",
     "oracle_text": "Haste\nBoast — {1}: You may change Arni Brokenbrow's base power to 1 plus the greatest power among other creatures you control until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -181,7 +181,7 @@
     "multiverse_ids": [
       1230718
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d18396f9-ae20-4471-84ab-a2148319bc39.jpg?1610999764"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d18396f9-ae20-4471-84ab-a2148319bc39.jpg?1616207415"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Target creature you control fights up to one target creature you don't control.\nII — Add {R}. Put two +1/+1 counters on up to one target creature you control.\nIII — You gain life equal to the greatest power among creatures you control.",
@@ -203,7 +203,7 @@
     "multiverse_ids": [
       1230490
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea56de43-c0fd-4627-846d-41a962b95f17.jpg?1611798233"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea56de43-c0fd-4627-846d-41a962b95f17.jpg?1614985782"],
     "layout": "normal",
     "type_line": "Snow Creature — Spirit",
     "oracle_text": "{S}{S}: Ascendant Spirit becomes a Spirit Warrior with base power and toughness 2/3.\n{S}{S}{S}: If Ascendant Spirit is a Warrior, put a flying counter on it and it becomes a Spirit Warrior Angel with base power and toughness 4/4.\n{S}{S}{S}{S}: If Ascendant Spirit is an Angel, put two +1/+1 counters on it and it gains \"Whenever this creature deals combat damage to a player, draw a card.\"",
@@ -224,7 +224,7 @@
     "multiverse_ids": [
       1230741
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0bf01666-0fbf-4b15-a33d-964165bbfafb.jpg?1610735413"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0bf01666-0fbf-4b15-a33d-964165bbfafb.jpg?1616207488"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Choose a creature you control. Until your next turn, all damage that would be dealt to creatures you control is dealt to that creature instead.\nIII — Return target creature card from your graveyard to the battlefield with a flying counter on it. That creature is an Angel Warrior in addition to its other types.",
@@ -236,7 +236,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -246,7 +246,7 @@
     "multiverse_ids": [
       1230142
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/9/a9947cfd-91d6-479e-a7f6-2a2050f020f3.jpg?1610586032"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/9/a9947cfd-91d6-479e-a7f6-2a2050f020f3.jpg?1614985828"],
     "layout": "normal",
     "type_line": "Creature — Bird",
     "oracle_text": "Flying\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -267,7 +267,7 @@
     "multiverse_ids": [
       1230492
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/89cef049-6a47-4264-b2bc-b9d291a09c4c.jpg?1610996846"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/89cef049-6a47-4264-b2bc-b9d291a09c4c.jpg?1614985866"],
     "layout": "normal",
     "type_line": "Snow Creature — Human Wizard",
     "oracle_text": "{2}: Target snow land you control becomes a 4/4 Elemental creature with hexproof and haste until end of turn. It's still a land. (A creature with hexproof can't be the target of spells or abilities your opponents control.)",
@@ -278,7 +278,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -288,7 +288,7 @@
     "multiverse_ids": [
       1230844
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f9c77d35-8418-48fb-b7d7-7cfa763545c5.jpg?1611926236"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f9c77d35-8418-48fb-b7d7-7cfa763545c5.jpg?1615603784"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Axgard Armory enters the battlefield tapped.\n{T}: Add {W}.\n{1}{R}{R}{W}, {T}, Sacrifice Axgard Armory: Search your library for an Aura card and/or an Equipment card, reveal them, put them into your hand, then shuffle your library.",
@@ -310,7 +310,7 @@
     "multiverse_ids": [
       1230675
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4de5ff64-6fe7-4fc5-be27-cdbaa14545ab.jpg?1611000171"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4de5ff64-6fe7-4fc5-be27-cdbaa14545ab.jpg?1614984440"],
     "layout": "normal",
     "type_line": "Creature — Dwarf Warrior",
     "oracle_text": "Boast — {1}{W}: Untap Axgard Braggart. Put a +1/+1 counter on it. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -321,7 +321,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -331,7 +331,7 @@
     "multiverse_ids": [
       1230220
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/2411c341-a470-4484-9248-7c1d3ca12978.jpg?1611000458"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/2411c341-a470-4484-9248-7c1d3ca12978.jpg?1614987243"],
     "layout": "normal",
     "type_line": "Creature — Dwarf Berserker",
     "oracle_text": "{T}: Target creature gains haste until end of turn.",
@@ -354,8 +354,8 @@
       1230210
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/6/b6de14ae-0132-4261-af00-630bf15918cd.jpg?1608226844",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/b/6/b6de14ae-0132-4261-af00-630bf15918cd.jpg?1608226844"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/6/b6de14ae-0132-4261-af00-630bf15918cd.jpg?1615648805",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/b/6/b6de14ae-0132-4261-af00-630bf15918cd.jpg?1615648805"
     ],
     "layout": "modal_dfc",
     "type_line": "Land // Land",
@@ -368,7 +368,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -378,7 +378,7 @@
     "multiverse_ids": [
       1230419
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b32aea04-04f7-48a8-a8ab-8b38fa53da3b.jpg?1610643371"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b32aea04-04f7-48a8-a8ab-8b38fa53da3b.jpg?1614987281"],
     "layout": "normal",
     "type_line": "Creature — Giant Wizard",
     "oracle_text": "When Basalt Ravager enters the battlefield, it deals X damage to any target, where X is the greatest number of creatures you control that have a creature type in common.",
@@ -389,7 +389,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -399,7 +399,7 @@
     "multiverse_ids": [
       1230735
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/b/fb79dc85-f85a-4846-9ac3-c75c64ea9c0a.jpg?1611205587"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/b/fb79dc85-f85a-4846-9ac3-c75c64ea9c0a.jpg?1614984474"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Boast — {1}{W}: Creatures you control get +1/+1 until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -420,7 +420,7 @@
     "multiverse_ids": [
       1230904
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/8/389f0045-218d-41cd-bdca-8a9a0ab1b31b.jpg?1610999580"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/8/389f0045-218d-41cd-bdca-8a9a0ab1b31b.jpg?1614984509"],
     "layout": "normal",
     "type_line": "Creature — Bird",
     "oracle_text": "Flying, first strike",
@@ -441,7 +441,7 @@
     "multiverse_ids": [
       1230457
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cd31ec15-2fe0-40ab-b320-bc4333db4787.jpg?1611170565"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/d/cd31ec15-2fe0-40ab-b320-bc4333db4787.jpg?1615602725"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 1/1 white Human Warrior creature token.\nII — Create a 1/1 green Elf Warrior creature token.\nIII — Choose any number of artifact tokens and/or creature tokens you control with different names. For each of them, create a token that's a copy of it.",
@@ -463,7 +463,7 @@
     "multiverse_ids": [
       1230905
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/b/cb3377d9-eec3-49b9-a3a7-e540d2038f51.jpg?1611000018"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/b/cb3377d9-eec3-49b9-a3a7-e540d2038f51.jpg?1614988520"],
     "layout": "normal",
     "type_line": "Creature — Elephant",
     "oracle_text": "Trample\nWhenever a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card.\nForetell {2}{G}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -484,7 +484,7 @@
     "multiverse_ids": [
       1230454
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/620ed5b7-8874-40d0-9245-98876bdec153.jpg?1610562185"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/620ed5b7-8874-40d0-9245-98876bdec153.jpg?1615602750"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Battle of Frost and Fire deals 4 damage to each non-Giant creature and each planeswalker.\nII — Scry 3.\nIII — Whenever you cast a spell with converted mana cost 5 or greater this turn, draw two cards, then discard a card.",
@@ -506,7 +506,7 @@
     "multiverse_ids": [
       1230140
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27855a38-a682-4f97-ad22-ac625e86faec.jpg?1610586049"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27855a38-a682-4f97-ad22-ac625e86faec.jpg?1614985897"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Scry 2, then draw two cards.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -517,7 +517,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -527,7 +527,7 @@
     "multiverse_ids": [
       1230493
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f3567bdc-450e-4481-9349-a80fe52fe431.jpg?1610996849"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f3567bdc-450e-4481-9349-a80fe52fe431.jpg?1614985937"],
     "layout": "normal",
     "type_line": "Snow Creature — Giant Wizard",
     "oracle_text": "When Berg Strider enters the battlefield, tap target artifact or creature an opponent controls. If {S} was spent to cast this spell, that permanent doesn't untap during its controller's next untap step. ({S} is mana from a snow source.)",
@@ -548,7 +548,7 @@
     "multiverse_ids": [
       1230491
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/dfc1df84-9c47-444b-9d58-d9c7bed51c66.jpg?1610656522"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/dfc1df84-9c47-444b-9d58-d9c7bed51c66.jpg?1614984539"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "When Beskir Shieldmate dies, create a 1/1 white Human Warrior creature token.",
@@ -569,7 +569,7 @@
     "multiverse_ids": [
       1230118
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d93ee644-d7d7-48d8-a04b-fb479b74edb0.jpg?1610153510"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d93ee644-d7d7-48d8-a04b-fb479b74edb0.jpg?1616207523"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy target nonland permanent an opponent controls.\nII — Search your library for a Forest card, put it onto the battlefield tapped, then shuffle your library.\nIII — Creatures you control gain deathtouch until end of turn.",
@@ -591,7 +591,7 @@
     "multiverse_ids": [
       1230938
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/8/080be8d1-e453-4250-b917-f0eb26644895.jpg?1611078481"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/8/080be8d1-e453-4250-b917-f0eb26644895.jpg?1614985974"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nWhen Bind the Monster enters the battlefield, tap enchanted creature. It deals damage to you equal to its power.\nEnchanted creature doesn't untap during its controller's untap step.",
@@ -602,7 +602,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -637,7 +637,7 @@
     "multiverse_ids": [
       1230902
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/2/42f01f4d-491e-4f25-a017-a0d9c437ac8c.jpg?1610999394"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/2/42f01f4d-491e-4f25-a017-a0d9c437ac8c.jpg?1614988563"],
     "layout": "normal",
     "type_line": "Snow Sorcery",
     "oracle_text": "Distribute X +1/+1 counters among any number of creatures you control, where X is the amount of {S} spent to cast this spell. Then draw a card for each creature you control with power 4 or greater.",
@@ -648,7 +648,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -660,8 +660,8 @@
       1230209
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/c/0ce39a19-f51d-4a35-ae80-5b82eb15fcff.jpg?1608058149",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/0/c/0ce39a19-f51d-4a35-ae80-5b82eb15fcff.jpg?1608058149"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/c/0ce39a19-f51d-4a35-ae80-5b82eb15fcff.jpg?1615648855",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/0/c/0ce39a19-f51d-4a35-ae80-5b82eb15fcff.jpg?1615648855"
     ],
     "layout": "modal_dfc",
     "type_line": "Land // Land",
@@ -674,7 +674,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -684,7 +684,7 @@
     "multiverse_ids": [
       1230208
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1610996851"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/3/6318918f-34e4-4bbf-9816-8e88f21ae324.jpg?1614988599"],
     "layout": "normal",
     "type_line": "Snow Sorcery",
     "oracle_text": "Choose target creature you control and target creature you don't control. If you control three or more snow permanents, the creature you control gets +1/+0 and gains indestructible until end of turn. Then those creatures fight each other. (Each deals damage equal to its power to the other.)",
@@ -705,7 +705,7 @@
     "multiverse_ids": [
       1230215
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb8a16f6-55c1-40eb-998f-592bf31916b1.jpg?1610394627"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb8a16f6-55c1-40eb-998f-592bf31916b1.jpg?1615603396"],
     "layout": "normal",
     "type_line": "Artifact Creature — Shapeshifter",
     "oracle_text": "Changeling (This card is every creature type.)\nAs Bloodline Pretender enters the battlefield, choose a creature type.\nWhenever another creature of the chosen type enters the battlefield under your control, put a +1/+1 counter on Bloodline Pretender.",
@@ -724,7 +724,7 @@
     "multiverse_ids": [
       1230737
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8606f40-0af4-443b-a413-a88dc3e8f32e.jpg?1611054394"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8606f40-0af4-443b-a413-a88dc3e8f32e.jpg?1614987103"],
     "layout": "normal",
     "type_line": "Snow Sorcery",
     "oracle_text": "Choose one —\n• Destroy all creatures.\n• Destroy all planeswalkers.\nThen return a creature or planeswalker card with converted mana cost X or less from your graveyard to the battlefield, where X is the amount of {S} spent to cast this spell. ({S} is mana from a snow source.)",
@@ -745,7 +745,7 @@
     "multiverse_ids": [
       1230438
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a6308a53-de07-4ed9-80a1-3579843466c2.jpg?1610586437"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a6308a53-de07-4ed9-80a1-3579843466c2.jpg?1614987136"],
     "layout": "normal",
     "type_line": "Creature — Human Berserker",
     "oracle_text": "Whenever you cast your second spell each turn, put two +1/+1 counters on Bloodsky Berserker. It gains menace until end of turn. (It can't be blocked except by two or more creatures.)",
@@ -766,7 +766,7 @@
     "multiverse_ids": [
       1230194
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/455ae615-20d7-4251-828d-72a3345d06f1.jpg?1610996855"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/455ae615-20d7-4251-828d-72a3345d06f1.jpg?1614988632"],
     "layout": "normal",
     "type_line": "Snow Creature — Elf Warrior",
     "oracle_text": "Whenever you cast a creature spell, if {S} of any of that spell's colors was spent to cast it, that creature enters the battlefield with an additional +1/+1 counter on it. ({S} is mana from a snow source.)",
@@ -777,7 +777,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -787,7 +787,7 @@
     "multiverse_ids": [
       1230432
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/074d526a-1eef-4045-bd38-f6d68c4bc4b9.jpg?1610495209"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/074d526a-1eef-4045-bd38-f6d68c4bc4b9.jpg?1614984575"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant permanent\nEnchanted permanent can't attack, block, or crew Vehicles, and its activated abilities can't be activated unless they're mana abilities.",
@@ -808,7 +808,7 @@
     "multiverse_ids": [
       1230499
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/6/d6eb23c9-6061-4ad1-a8f3-2c791c49f352.jpg?1610852467"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/6/d6eb23c9-6061-4ad1-a8f3-2c791c49f352.jpg?1614987318"],
     "layout": "normal",
     "type_line": "Creature — Dwarf Berserker",
     "oracle_text": "Haste",
@@ -829,7 +829,7 @@
     "multiverse_ids": [
       1230145
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24a0f2e2-cfd7-4374-a172-4357d5de47bb.jpg?1611000604"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24a0f2e2-cfd7-4374-a172-4357d5de47bb.jpg?1615603815"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Bretagard Stronghold enters the battlefield tapped.\n{T}: Add {G}.\n{G}{W}{W}, {T}, Sacrifice Bretagard Stronghold: Put a +1/+1 counter on each of up to two target creatures you control. They gain vigilance and lifelink until end of turn. Activate this ability only any time you could cast a sorcery.",
@@ -841,7 +841,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -851,7 +851,7 @@
     "multiverse_ids": [
       1230875
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/89960a74-9e17-4e30-874a-4286dd4c917d.jpg?1610998144"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/89960a74-9e17-4e30-874a-4286dd4c917d.jpg?1614986013"],
     "layout": "normal",
     "type_line": "Creature — Human Rogue",
     "oracle_text": "Flash\nWhen Brinebarrow Intruder enters the battlefield, target creature an opponent controls gets -2/-0 until end of turn.",
@@ -862,7 +862,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -872,7 +872,7 @@
     "multiverse_ids": [
       1230182
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/6201f78e-ff45-4c59-ac85-c8447c14a496.jpg?1610227585"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/6201f78e-ff45-4c59-ac85-c8447c14a496.jpg?1614988663"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target artifact, enchantment, or creature with flying.",
@@ -883,7 +883,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -914,7 +914,7 @@
     "multiverse_ids": [
       1230160
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a15edad1-ff68-4f20-95f6-99fe549bea98.jpg?1610132515"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a15edad1-ff68-4f20-95f6-99fe549bea98.jpg?1614987356"],
     "layout": "normal",
     "type_line": "Creature — Giant Berserker",
     "oracle_text": "If a Giant source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.",
@@ -935,7 +935,7 @@
     "multiverse_ids": [
       1230429
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4802e6c-6921-4dac-bf44-7e09d6942b71.jpg?1610586564"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4802e6c-6921-4dac-bf44-7e09d6942b71.jpg?1614987391"],
     "layout": "normal",
     "type_line": "Creature — Giant Berserker",
     "oracle_text": "Trample\nWhen Cinderheart Giant dies, it deals 7 damage to a creature an opponent controls chosen at random.",
@@ -946,7 +946,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -956,7 +956,7 @@
     "multiverse_ids": [
       1230456
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/6/86a4c348-1012-4339-960a-c7bc7fd84fbb.jpg?1610566443"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/6/86a4c348-1012-4339-960a-c7bc7fd84fbb.jpg?1614984607"],
     "layout": "normal",
     "type_line": "Creature — Spirit",
     "oracle_text": "Whenever you cast your second spell each turn, create a 1/1 white Spirit creature token with flying.",
@@ -967,7 +967,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -977,7 +977,7 @@
     "multiverse_ids": [
       1230395
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/1316a74e-da55-4668-87f2-98389a90a2a4.jpg?1610586454"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/1316a74e-da55-4668-87f2-98389a90a2a4.jpg?1614984643"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "oracle_text": "Vigilance\nWhen Codespell Cleric enters the battlefield, if it was the second spell you cast this turn, put a +1/+1 counter on target creature.",
@@ -988,7 +988,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -998,7 +998,7 @@
     "multiverse_ids": [
       1230749
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/b/fba3fe29-067f-4c7e-8b3b-779f3b37712a.jpg?1610884477"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/b/fba3fe29-067f-4c7e-8b3b-779f3b37712a.jpg?1615603420"],
     "layout": "normal",
     "type_line": "Artifact — Vehicle",
     "oracle_text": "Whenever Colossal Plow attacks, add {W}{W}{W} and you gain 3 life. Until end of turn, you don't lose this mana as steps and phases end.\nCrew 6 (Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact creature until end of turn.)",
@@ -1044,7 +1044,7 @@
     "multiverse_ids": [
       1230155
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/e/4ec318c6-b718-436f-b9e8-e0c6154e5010.jpg?1610585974"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/e/4ec318c6-b718-436f-b9e8-e0c6154e5010.jpg?1614986044"],
     "layout": "normal",
     "type_line": "Creature — Horse Spirit",
     "oracle_text": "Flash\nFlying\nForetelling cards from your hand costs {1} less and can be done on any player's turn.\nForetell {2}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1065,7 +1065,7 @@
     "multiverse_ids": [
       1230731
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6bf084fe-7762-49c5-974a-cdecc10666b3.jpg?1611798090"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6bf084fe-7762-49c5-974a-cdecc10666b3.jpg?1615603450"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "At the beginning of your end step, draw a card if your life total is greater than your starting life total. Otherwise, you gain 2 life.",
@@ -1074,7 +1074,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -1084,7 +1084,7 @@
     "multiverse_ids": [
       1230876
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/b/2be804ab-1024-4eee-b339-48ed8b84d363.jpg?1610997349"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/b/2be804ab-1024-4eee-b339-48ed8b84d363.jpg?1614987425"],
     "layout": "normal",
     "type_line": "Creature — Giant Coward",
     "oracle_text": "Craven Hulk can't block alone.",
@@ -1126,7 +1126,7 @@
     "multiverse_ids": [
       1230406
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/875a20c2-1d17-46ea-b4d2-3e70bc05aae3.jpg?1611170346"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/875a20c2-1d17-46ea-b4d2-3e70bc05aae3.jpg?1614987466"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Crush the Weak deals 2 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1137,7 +1137,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -1147,7 +1147,7 @@
     "multiverse_ids": [
       1230494
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b2d40071-cadf-48de-a8ed-d55adbfab632.jpg?1610656719"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b2d40071-cadf-48de-a8ed-d55adbfab632.jpg?1614986131"],
     "layout": "normal",
     "type_line": "Creature — Giant Wizard",
     "oracle_text": "When Cyclone Summoner enters the battlefield, if you cast it from your hand, return all permanents to their owners' hands except for Giants, Wizards, and lands.",
@@ -1170,8 +1170,8 @@
       1230208
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87a4e5fe-161f-42da-9ca2-67c8e8970e94.jpg?1612554438",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/7/87a4e5fe-161f-42da-9ca2-67c8e8970e94.jpg?1612554438"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87a4e5fe-161f-42da-9ca2-67c8e8970e94.jpg?1615648925",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/7/87a4e5fe-161f-42da-9ca2-67c8e8970e94.jpg?1615648925"
     ],
     "layout": "modal_dfc",
     "type_line": "Land // Land",
@@ -1184,7 +1184,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -1215,7 +1215,7 @@
     "multiverse_ids": [
       1230444
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f856b0e-b413-49b0-9aa7-d935ad40ae53.jpg?1611000384"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f856b0e-b413-49b0-9aa7-d935ad40ae53.jpg?1614987498"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Demon Bolt deals 4 damage to target creature or planeswalker.\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1257,7 +1257,7 @@
     "multiverse_ids": [
       1230948
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2ce0403d-76ed-4eb0-abdd-74ed28f96137.jpg?1611929174"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2ce0403d-76ed-4eb0-abdd-74ed28f96137.jpg?1614986166"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Return target nonland permanent to its owner's hand.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1268,7 +1268,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -1278,7 +1278,7 @@
     "multiverse_ids": [
       1230900
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/7691ac89-f8ba-493e-aa11-5674a783dffb.jpg?1610999654"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/7691ac89-f8ba-493e-aa11-5674a783dffb.jpg?1614986250"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target spell with converted mana cost 4 or greater.",
@@ -1299,7 +1299,7 @@
     "multiverse_ids": [
       1230198
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/696a8c12-4a1f-4b96-a921-538fa1a2de43.jpg?1610647857"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/696a8c12-4a1f-4b96-a921-538fa1a2de43.jpg?1614984680"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Exile target artifact, creature, or enchantment an opponent controls. That player may put a permanent card from their hand onto the battlefield.",
@@ -1310,7 +1310,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -1331,7 +1331,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "khm"
   },
   {
@@ -1341,7 +1341,7 @@
     "multiverse_ids": [
       1230872
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/130ee895-1e5e-4f82-bb66-e1275bac75dd.jpg?1611054468"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/130ee895-1e5e-4f82-bb66-e1275bac75dd.jpg?1614984712"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Destroy all creatures.\nForetell {1}{W}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1362,7 +1362,7 @@
     "multiverse_ids": [
       1230169
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6dae01c8-15bb-44ad-a2c6-9bcf7a9e8c17.jpg?1610586058"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6dae01c8-15bb-44ad-a2c6-9bcf7a9e8c17.jpg?1614984741"],
     "layout": "normal",
     "type_line": "Creature — Human Cleric",
     "oracle_text": "Whenever you cast your second spell each turn, you gain 2 life.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1383,7 +1383,7 @@
     "multiverse_ids": [
       1230845
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/4/a4e125e4-103f-4a68-b85f-1382646da71e.jpg?1610999607"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/4/a4e125e4-103f-4a68-b85f-1382646da71e.jpg?1614987531"],
     "layout": "normal",
     "type_line": "Creature — Giant Berserker",
     "oracle_text": "When Doomskar Titan enters the battlefield, creatures you control get +1/+0 and gain haste until end of turn.\nForetell {4}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1404,7 +1404,7 @@
     "multiverse_ids": [
       1230870
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7f22fe4-2390-4c3d-8b5e-0cf398d97f6a.jpg?1611170448"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7f22fe4-2390-4c3d-8b5e-0cf398d97f6a.jpg?1614987565"],
     "layout": "normal",
     "type_line": "Creature — Human Berserker",
     "oracle_text": "First strike\nBoast abilities you activate cost {1} less to activate for each Dragon you control.\nBoast — {4}{R}: Create a 5/5 red Dragon creature token with flying. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -1488,7 +1488,7 @@
     "multiverse_ids": [
       1230853
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31da60a2-d4d3-4954-be59-c7ff61fa2905.jpg?1611110658"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31da60a2-d4d3-4954-be59-c7ff61fa2905.jpg?1614986293"],
     "layout": "normal",
     "type_line": "Creature — Zombie Rogue",
     "oracle_text": "When Draugr Thought-Thief enters the battlefield, look at the top card of target player's library. You may put that card into their graveyard.",
@@ -1499,7 +1499,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -1551,7 +1551,7 @@
     "multiverse_ids": [
       1230416
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/e/6ef580f8-efec-4d31-8dc3-2018dd48b6f4.jpg?1610586064"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/e/6ef580f8-efec-4d31-8dc3-2018dd48b6f4.jpg?1614987596"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "When you cast your next instant or sorcery spell with converted mana cost 4 or less this turn, copy that spell. You may choose new targets for the copy.\nForetell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1593,7 +1593,7 @@
     "multiverse_ids": [
       1230899
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f9cc132f-d4c1-4bc4-9c9e-f63ab5e7d094.jpg?1610999787"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f9cc132f-d4c1-4bc4-9c9e-f63ab5e7d094.jpg?1614987631"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "When Dwarven Hammer enters the battlefield, you may pay {2}. If you do, create a 2/1 red Dwarf Berserker creature token, then attach Dwarven Hammer to it.\nEquipped creature gets +3/+0 and has trample.\nEquip {3}",
@@ -1614,7 +1614,7 @@
     "multiverse_ids": [
       1230848
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/0/40bcc7cb-65dd-4bc6-8606-a162fa6c65f7.jpg?1610909903"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/0/40bcc7cb-65dd-4bc6-8606-a162fa6c65f7.jpg?1614987664"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Create two 2/1 red Dwarf Berserker creature tokens.\nForetell {1}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -1650,7 +1650,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -1671,7 +1671,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -1681,7 +1681,7 @@
     "multiverse_ids": [
       1230446
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/e/5e8bded3-46c3-474f-9d09-978df8705ad1.jpg?1610561123"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/e/5e8bded3-46c3-474f-9d09-978df8705ad1.jpg?1614988701"],
     "layout": "normal",
     "type_line": "Creature — Elf Warrior",
     "oracle_text": "When Elderleaf Mentor enters the battlefield, create a 1/1 green Elf Warrior creature token.",
@@ -1702,7 +1702,7 @@
     "multiverse_ids": [
       1230947
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/34c599c7-bcc1-4005-b830-1fa4811af66e.jpg?1611170515"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/34c599c7-bcc1-4005-b830-1fa4811af66e.jpg?1614988732"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "When Elven Bow enters the battlefield, you may pay {2}. If you do, create a 1/1 green Elf Warrior creature token, then attach Elven Bow to it.\nEquipped creature gets +1/+2 and has reach.\nEquip {3}",
@@ -1723,7 +1723,7 @@
     "multiverse_ids": [
       1230124
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/58da074a-a776-4e3f-be04-9e7f18320ae1.jpg?1610394530"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/58da074a-a776-4e3f-be04-9e7f18320ae1.jpg?1614988768"],
     "layout": "normal",
     "type_line": "Creature — Elf Warrior",
     "oracle_text": "Whenever one or more other Elves enter the battlefield under your control, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.\n{5}{G}{G}: Elves you control get +2/+2 and gain deathtouch until end of turn.",
@@ -1784,7 +1784,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -1794,7 +1794,7 @@
     "multiverse_ids": [
       1230173
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1612481175"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a87606cc-fbf0-4e2c-9798-f1c935d0573d.jpg?1614988809"],
     "layout": "normal",
     "type_line": "Legendary Artifact — Vehicle",
     "oracle_text": "When Esika's Chariot enters the battlefield, create two 2/2 green Cat creature tokens.\nWhenever Esika's Chariot attacks, create a token that's a copy of target token you control.\nCrew 4",
@@ -1805,7 +1805,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "khm"
   },
   {
@@ -1815,7 +1815,7 @@
     "multiverse_ids": [
       1230188
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1610996860"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb.jpg?1616182155"],
     "layout": "normal",
     "type_line": "Snow Land",
     "oracle_text": "{T}: Add {C}.\n{S}{S}{S}: Faceless Haven becomes a 4/3 creature with vigilance and all creature types until end of turn. It's still a land. ({S} can be paid with one mana from a snow source.)",
@@ -1824,7 +1824,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -1834,7 +1834,7 @@
     "multiverse_ids": [
       1230431
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d7de696a-49c2-421d-a86c-bcffd68870c6.jpg?1611000550"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d7de696a-49c2-421d-a86c-bcffd68870c6.jpg?1616207561"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Put a +1/+1 counter on up to one target creature.\nIII — Exile a creature with the greatest power among creatures target opponent controls.",
@@ -1856,7 +1856,7 @@
     "multiverse_ids": [
       1230671
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/1/212462b7-e23e-4c87-93aa-9cadefbf1ac8.jpg?1611000129"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/1/212462b7-e23e-4c87-93aa-9cadefbf1ac8.jpg?1614987704"],
     "layout": "normal",
     "type_line": "Creature — Dwarf Berserker",
     "oracle_text": "Boast — {2}{R}: Create a 2/1 red Dwarf Berserker creature token. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -1877,7 +1877,7 @@
     "multiverse_ids": [
       1230854
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0eba2250-0e9b-46fd-a4b5-23f30329e063.jpg?1610824666"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0eba2250-0e9b-46fd-a4b5-23f30329e063.jpg?1614987734"],
     "layout": "normal",
     "type_line": "Creature — Wolf",
     "oracle_text": "First strike\nBoast — {2}{R}: Fearless Pup gets +2/+0 until end of turn. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -1888,7 +1888,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -1919,7 +1919,7 @@
     "multiverse_ids": [
       1230168
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/df87077c-85d8-499e-bce0-27697caada5a.jpg?1610496798"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/df87077c-85d8-499e-bce0-27697caada5a.jpg?1615602841"],
     "layout": "normal",
     "type_line": "Legendary Creature — Angel Cleric",
     "oracle_text": "Flying, lifelink\nWhenever you cast your second spell each turn, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
@@ -1931,7 +1931,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -1941,7 +1941,7 @@
     "multiverse_ids": [
       1230506
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/3/03dff23e-d7e3-4d75-a9dc-fdf4a42f31e0.jpg?1610910004"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/3/03dff23e-d7e3-4d75-a9dc-fdf4a42f31e0.jpg?1615602865"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 4/4 white Angel Warrior creature token with flying and vigilance.\nII — Until end of turn, Angels you control gain \"{T}: Destroy target creature with power less than this creature's power.\"\nIII — Angels you control gain double strike until end of turn.",
@@ -1963,7 +1963,7 @@
     "multiverse_ids": [
       1230468
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/7/771e307c-b2e3-47ac-aac2-59f0c3542fa6.jpg?1611173987"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/7/771e307c-b2e3-47ac-aac2-59f0c3542fa6.jpg?1615606007"],
     "layout": "normal",
     "type_line": "Basic Land — Forest",
     "oracle_text": "({T}: Add {G}.)",
@@ -1984,7 +1984,7 @@
     "multiverse_ids": [
       1230144
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/c/3ce46100-461d-424e-afa4-7a0bb7d0a822.jpg?1610152075"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/c/3ce46100-461d-424e-afa4-7a0bb7d0a822.jpg?1616207627"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Create a Treasure token.\nIII — Search your library for a card named Halvar, God of Battle or an Equipment card, reveal it, put it into your hand, then shuffle your library.",
@@ -2006,7 +2006,7 @@
     "multiverse_ids": [
       1230855
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22c59e0b-5b78-4cf5-9c2a-92ccf833778f.jpg?1611170481"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22c59e0b-5b78-4cf5-9c2a-92ccf833778f.jpg?1614987768"],
     "layout": "normal",
     "type_line": "Creature — Demon Berserker",
     "oracle_text": "Whenever you activate a boast ability, put a +1/+1 counter on Frenzied Raider.",
@@ -2017,7 +2017,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -2027,7 +2027,7 @@
     "multiverse_ids": [
       1230736
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a2ae592f-caf6-445a-970b-f8101998e657.jpg?1610996862"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a2ae592f-caf6-445a-970b-f8101998e657.jpg?1614986327"],
     "layout": "normal",
     "type_line": "Snow Creature — Human Wizard",
     "oracle_text": "{S}, {T}: Look at the top card of your library. If it's a snow card, you may reveal it and put it into your hand. ({S} can be paid with one mana from a snow source.)",
@@ -2038,7 +2038,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -2048,7 +2048,7 @@
     "multiverse_ids": [
       1230127
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/4/9423318a-c5a8-48d2-92f5-280d15a050a6.jpg?1610996863"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/4/9423318a-c5a8-48d2-92f5-280d15a050a6.jpg?1614987802"],
     "layout": "normal",
     "type_line": "Snow Instant",
     "oracle_text": "Frost Bite deals 2 damage to target creature or planeswalker. If you control three or more snow permanents, it deals 3 damage instead.",
@@ -2069,7 +2069,7 @@
     "multiverse_ids": [
       1230495
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/f/3f406ce3-dce1-42d3-b76c-8e8c4b2770cb.jpg?1611000324"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/f/3f406ce3-dce1-42d3-b76c-8e8c4b2770cb.jpg?1614986366"],
     "layout": "normal",
     "type_line": "Snow Creature — Yeti",
     "oracle_text": "{1}{S}: Frostpeak Yeti can't be blocked this turn. ({S} can be paid with one mana from a snow source.)",
@@ -2080,7 +2080,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -2090,7 +2090,7 @@
     "multiverse_ids": [
       1230418
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/276f8abd-4d39-4b50-876f-9c6713bc4ab5.jpg?1610643395"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/276f8abd-4d39-4b50-876f-9c6713bc4ab5.jpg?1614986396"],
     "layout": "normal",
     "type_line": "Creature — Giant Wizard",
     "oracle_text": "This spell costs {1} less to cast if you control a Giant or a Wizard.\nWhen Frostpyre Arcanist enters the battlefield, search your library for an instant or sorcery card with the same name as a card in your graveyard, reveal it, put it into your hand, then shuffle your library.",
@@ -2101,7 +2101,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -2111,7 +2111,7 @@
     "multiverse_ids": [
       1230448
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/45c48042-178f-432e-9eee-10bfa1e0795f.jpg?1611000364"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/45c48042-178f-432e-9eee-10bfa1e0795f.jpg?1615603478"],
     "layout": "normal",
     "type_line": "Artifact — Vehicle",
     "oracle_text": "Vigilance\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",
@@ -2130,7 +2130,7 @@
     "multiverse_ids": [
       1230748
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7d7a8a90-13c1-4b0c-ab2e-fc8d91ccefd9.jpg?1610732965"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7d7a8a90-13c1-4b0c-ab2e-fc8d91ccefd9.jpg?1614988885"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Warrior",
     "oracle_text": "Deathtouch\nWhenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)",
@@ -2151,7 +2151,7 @@
     "multiverse_ids": [
       1230709
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/2627acb7-57d9-4429-9bc5-e7dd444d8d48.jpg?1611000103"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/2627acb7-57d9-4429-9bc5-e7dd444d8d48.jpg?1615603868"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Gates of Istfell enters the battlefield tapped.\n{T}: Add {W}.\n{2}{W}{U}{U}, {T}, Sacrifice Gates of Istfell: You gain 2 life and draw two cards.",
@@ -2173,7 +2173,7 @@
     "multiverse_ids": [
       1230433
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/c/fc71d8ca-c613-4534-bc9d-bc1e13202a2c.jpg?1611517846"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/c/fc71d8ca-c613-4534-bc9d-bc1e13202a2c.jpg?1614984774"],
     "layout": "normal",
     "type_line": "Creature — Ox",
     "oracle_text": "Giant Ox crews Vehicles using its toughness rather than its power.",
@@ -2184,7 +2184,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -2194,7 +2194,7 @@
     "multiverse_ids": [
       1230166
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/ab8b1ec2-9303-4722-8644-b3bc1a5c387f.jpg?1611000629"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/ab8b1ec2-9303-4722-8644-b3bc1a5c387f.jpg?1614986435"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "When Giant's Amulet enters the battlefield, you may pay {3}{U}. If you do, create a 4/4 blue Giant Wizard creature token, then attach Giant's Amulet to it.\nEquipped creature gets +0/+1 and has \"This creature has hexproof as long as it's untapped.\" (It can't be the target of spells or abilities your opponents control.)\nEquip {2}",
@@ -2215,7 +2215,7 @@
     "multiverse_ids": [
       1230108
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9de5fadd-4559-479f-b45d-abe792f0f6e5.jpg?1610996875"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9de5fadd-4559-479f-b45d-abe792f0f6e5.jpg?1615603897"],
     "layout": "normal",
     "type_line": "Snow Land — Plains Island",
     "oracle_text": "({T}: Add {W} or {U}.)\nGlacial Floodplain enters the battlefield tapped.",
@@ -2237,7 +2237,7 @@
     "multiverse_ids": [
       1230141
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dc96ebe8-f4b3-4788-a6f5-2a50b6c0d935.jpg?1610066015"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dc96ebe8-f4b3-4788-a6f5-2a50b6c0d935.jpg?1614986469"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.\nAs long as you control a Giant, you may cast Glimpse the Cosmos from your graveyard by paying {U} rather than paying its mana cost. If you cast Glimpse the Cosmos this way and it would be put into your graveyard, exile it instead.",
@@ -2258,7 +2258,7 @@
     "multiverse_ids": [
       1230209
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c60fbc33-6198-4661-967e-cc94f2788e4a.jpg?1610996876"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c60fbc33-6198-4661-967e-cc94f2788e4a.jpg?1614988925"],
     "layout": "normal",
     "type_line": "Snow Enchantment — Aura",
     "oracle_text": "Enchant land\nEnchanted land is snow.\nWhenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.",
@@ -2269,7 +2269,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -2279,7 +2279,7 @@
     "multiverse_ids": [
       1230898
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d9f08552-7f1a-4fdb-9a70-d99cdbf75910.jpg?1611000537"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d9f08552-7f1a-4fdb-9a70-d99cdbf75910.jpg?1614984807"],
     "layout": "normal",
     "type_line": "Creature — Angel Cleric",
     "oracle_text": "Flash\nFlying\nWhen Glorious Protector enters the battlefield, you may exile any number of non-Angel creatures you control until Glorious Protector leaves the battlefield.\nForetell {2}{W}",
@@ -2300,7 +2300,7 @@
     "multiverse_ids": [
       1230501
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/af46c8c8-5dfa-4ebb-b0b9-cd25d01dd432.jpg?1610657065"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/af46c8c8-5dfa-4ebb-b0b9-cd25d01dd432.jpg?1614988960"],
     "layout": "normal",
     "type_line": "Creature — Spider",
     "oracle_text": "Reach",
@@ -2311,7 +2311,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -2321,7 +2321,7 @@
     "multiverse_ids": [
       1230662
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/735470df-65d8-43e9-837e-4869c8e4f052.jpg?1610652745"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/735470df-65d8-43e9-837e-4869c8e4f052.jpg?1615603922"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Gnottvold Slumbermound enters the battlefield tapped.\n{T}: Add {R}.\n{3}{R}{G}{G}, {T}, Sacrifice Gnottvold Slumbermound: Destroy target land. Create a 4/4 green Troll Warrior creature token with trample.",
@@ -2333,7 +2333,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -2343,7 +2343,7 @@
     "multiverse_ids": [
       1230174
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/8/e8e645c8-90ac-4865-b441-e64251d6c9a8.jpg?1610289885"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/8/e8e645c8-90ac-4865-b441-e64251d6c9a8.jpg?1614984839"],
     "layout": "normal",
     "type_line": "Creature — Cat",
     "oracle_text": "Vigilance\nForetell {3}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -2354,7 +2354,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -2364,7 +2364,7 @@
     "multiverse_ids": [
       1230693
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/44d4cd64-8560-48f5-b0bc-f75286c1c91c.jpg?1610644356"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/44d4cd64-8560-48f5-b0bc-f75286c1c91c.jpg?1614984873"],
     "layout": "normal",
     "type_line": "Creature — Dwarf Warrior",
     "oracle_text": "Boast — {1}{W}: Tap target creature. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -2375,7 +2375,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -2385,7 +2385,7 @@
     "multiverse_ids": [
       1230161
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9d914868-9000-4df2-a818-0ef8a7f636ae.jpg?1610079316"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9d914868-9000-4df2-a818-0ef8a7f636ae.jpg?1614987846"],
     "layout": "normal",
     "type_line": "Creature — Dragon",
     "oracle_text": "Flying, haste\nWhenever Goldspan Dragon attacks or becomes the target of a spell, create a Treasure token.\nTreasures you control have \"{T}, Sacrifice this artifact: Add two mana of any one color.\"",
@@ -2406,7 +2406,7 @@
     "multiverse_ids": [
       1230452
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9bf5e4ad-a6e9-4b7c-a1ec-8246d3a3b6ca.jpg?1610564623"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/b/9bf5e4ad-a6e9-4b7c-a1ec-8246d3a3b6ca.jpg?1615603509"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "Equipped creature gets +1/+1.\nWhenever equipped creature deals combat damage to a player, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -2415,7 +2415,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -2425,7 +2425,7 @@
     "multiverse_ids": [
       1230752
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4386e5c-32b1-4096-a93f-fedd1a4801fc.jpg?1610996879"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4386e5c-32b1-4096-a93f-fedd1a4801fc.jpg?1614986503"],
     "layout": "normal",
     "type_line": "Snow Instant",
     "oracle_text": "Scry X, where X is the amount of {S} spent to cast this spell, then draw three cards. ({S} is mana from a snow source.)",
@@ -2446,7 +2446,7 @@
     "multiverse_ids": [
       1230932
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a23c757e-5944-47ce-b06f-27b4c403044c.jpg?1611077482"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a23c757e-5944-47ce-b06f-27b4c403044c.jpg?1615603947"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Great Hall of Starnheim enters the battlefield tapped.\n{T}: Add {B}.\n{W}{W}{B}, {T}, Sacrifice Great Hall of Starnheim and a creature you control: Create a 4/4 white Angel Warrior creature token with flying and vigilance. Activate this ability only any time you could cast a sorcery.",
@@ -2489,7 +2489,7 @@
     "multiverse_ids": [
       1230897
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4a1d4473-5317-4bdd-9cb9-93670acf52e9.jpg?1610999968"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4a1d4473-5317-4bdd-9cb9-93670acf52e9.jpg?1614988994"],
     "layout": "normal",
     "type_line": "Creature — Elf Warrior",
     "oracle_text": "",
@@ -2500,7 +2500,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -2510,7 +2510,7 @@
     "multiverse_ids": [
       1230210
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/587eed42-5111-4161-9af5-bf76556c542a.jpg?1611000583"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/587eed42-5111-4161-9af5-bf76556c542a.jpg?1614989032"],
     "layout": "normal",
     "type_line": "Creature — Shapeshifter",
     "oracle_text": "Changeling (This card is every creature type.)\nWhen Guardian Gladewalker enters the battlefield, put a +1/+1 counter on target creature.",
@@ -2531,7 +2531,7 @@
     "multiverse_ids": [
       1230190
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d3b18cdb-bc17-42ae-bfb7-4eafce01cd39.jpg?1610301376"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d3b18cdb-bc17-42ae-bfb7-4eafce01cd39.jpg?1614987884"],
     "layout": "normal",
     "type_line": "Creature — Troll Berserker",
     "oracle_text": "Boast — {1}{R}: Hagi Mob deals 1 damage to any target. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -2542,7 +2542,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -2563,7 +2563,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -2598,7 +2598,7 @@
     "multiverse_ids": [
       1230305
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/e/9eac78a2-599f-4dba-aec7-982c5ae3f75a.jpg?1610787246"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/e/9eac78a2-599f-4dba-aec7-982c5ae3f75a.jpg?1615602891"],
     "layout": "normal",
     "type_line": "Legendary Creature — Elf Warrior",
     "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen Harald, King of Skemfar enters the battlefield, look at the top five cards of your library. You may reveal an Elf, Warrior, or Tyvar card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
@@ -2620,7 +2620,7 @@
     "multiverse_ids": [
       1230379
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7c5f681-0145-45e9-b943-ca9784cfdea0.jpg?1611000409"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e7c5f681-0145-45e9-b943-ca9784cfdea0.jpg?1615602918"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Mill three cards. You may put an Elf or Tyvar card from your graveyard onto the battlefield.\nII — Put a +1/+1 counter on each Elf you control.\nIII — Whenever an Elf you control attacks this turn, target creature an opponent controls gets -1/-1 until end of turn.",
@@ -2653,7 +2653,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -2665,8 +2665,8 @@
       1230207
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7ef37cb3-d803-47d7-8a01-9c803aa2eadc.jpg?1608058266",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/e/7ef37cb3-d803-47d7-8a01-9c803aa2eadc.jpg?1608058266"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7ef37cb3-d803-47d7-8a01-9c803aa2eadc.jpg?1615649029",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/e/7ef37cb3-d803-47d7-8a01-9c803aa2eadc.jpg?1615649029"
     ],
     "layout": "modal_dfc",
     "type_line": "Land // Land",
@@ -2679,7 +2679,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -2689,7 +2689,7 @@
     "multiverse_ids": [
       1230109
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/682eee5f-7986-45d3-910f-407303fdbcc4.jpg?1610996885"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/682eee5f-7986-45d3-910f-407303fdbcc4.jpg?1615603974"],
     "layout": "normal",
     "type_line": "Snow Land — Mountain Forest",
     "oracle_text": "({T}: Add {R} or {G}.)\nHighland Forest enters the battlefield tapped.",
@@ -2711,7 +2711,7 @@
     "multiverse_ids": [
       1230896
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a17f4b21-6478-407d-b567-2888349f3b66.jpg?1610824786"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a17f4b21-6478-407d-b567-2888349f3b66.jpg?1614989069"],
     "layout": "normal",
     "type_line": "Creature — Human Warrior",
     "oracle_text": "Boast — {1}{G}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -2732,7 +2732,7 @@
     "multiverse_ids": [
       1230895
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a3152f1f-5d3f-4bc4-9b6f-f2983ab3f691.jpg?1611170091"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a3152f1f-5d3f-4bc4-9b6f-f2983ab3f691.jpg?1614986538"],
     "layout": "normal",
     "type_line": "Snow Artifact",
     "oracle_text": "{S}, {T}: Tap target artifact or creature. ({S} can be paid with one mana from a snow source.)",
@@ -2753,7 +2753,7 @@
     "multiverse_ids": [
       1230937
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/1/f1fdb9bb-09a2-4ff7-bcd4-35ea33c1b752.jpg?1611078087"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/1/f1fdb9bb-09a2-4ff7-bcd4-35ea33c1b752.jpg?1614986571"],
     "layout": "normal",
     "type_line": "Snow Creature — Kraken",
     "oracle_text": "This spell costs {1} less to cast for each snow land you control.\nWhen Icebreaker Kraken enters the battlefield, artifacts and creatures target opponent controls don't untap during that player's next untap step.\nReturn three snow lands you control to their owner's hand: Return Icebreaker Kraken to its owner's hand.",
@@ -2764,7 +2764,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -2774,7 +2774,7 @@
     "multiverse_ids": [
       1230745
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/02f3aaed-a01f-4c6a-b9bb-cd70b0f6ceb1.jpg?1610996887"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/02f3aaed-a01f-4c6a-b9bb-cd70b0f6ceb1.jpg?1614989106"],
     "layout": "normal",
     "type_line": "Snow Creature — Troll Warrior",
     "oracle_text": "{S}{S}: Icehide Troll gets +2/+0 and gains indestructible until end of turn. Tap it. (Damage and effects that say \"destroy\" don't destroy it. {S} can be paid with one mana from a snow source.)",
@@ -2785,7 +2785,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -2795,7 +2795,7 @@
     "multiverse_ids": [
       1230110
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8cff3ef0-4dfb-472e-aa1e-77613dd0f6d8.jpg?1610996893"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8cff3ef0-4dfb-472e-aa1e-77613dd0f6d8.jpg?1615604005"],
     "layout": "normal",
     "type_line": "Snow Land — Island Swamp",
     "oracle_text": "({T}: Add {U} or {B}.)\nIce Tunnel enters the battlefield tapped.",
@@ -2817,7 +2817,7 @@
     "multiverse_ids": [
       1230732
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0d83d2d9-b9d0-47f5-989b-f2c726401ade.jpg?1610999503"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0d83d2d9-b9d0-47f5-989b-f2c726401ade.jpg?1615602944"],
     "layout": "normal",
     "type_line": "Creature — Vampire Dragon",
     "oracle_text": "Flying\nWhenever Immersturm Predator becomes tapped, exile up to one target card from a graveyard and put a +1/+1 counter on Immersturm Predator.\nSacrifice another creature: Immersturm Predator gains indestructible until end of turn. Tap it.",
@@ -2839,7 +2839,7 @@
     "multiverse_ids": [
       1230866
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/7/77da4de2-4d34-40e5-8fc0-850aef05356b.jpg?1610994575"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/7/77da4de2-4d34-40e5-8fc0-850aef05356b.jpg?1614987924"],
     "layout": "normal",
     "type_line": "Creature — Demon Berserker",
     "oracle_text": "When Immersturm Raider enters the battlefield, you may discard a card. If you do, draw a card.",
@@ -2850,7 +2850,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -2860,7 +2860,7 @@
     "multiverse_ids": [
       1230856
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/2/12ed97de-736d-43d8-977b-308ac54f88f4.jpg?1610999335"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/2/12ed97de-736d-43d8-977b-308ac54f88f4.jpg?1615604033"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Immersturm Skullcairn enters the battlefield tapped.\n{T}: Add {B}.\n{1}{B}{R}{R}, {T}, Sacrifice Immersturm Skullcairn: It deals 3 damage to target player. That player discards a card. Activate this ability only any time you could cast a sorcery.",
@@ -2893,7 +2893,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -2903,7 +2903,7 @@
     "multiverse_ids": [
       1230128
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/62a6f095-5beb-42a8-af8f-d40eef27150e.jpg?1610153104"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/62a6f095-5beb-42a8-af8f-d40eef27150e.jpg?1614986603"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Wizard",
     "oracle_text": "When Inga Rune-Eyes enters the battlefield, scry 3.\nWhen Inga Rune-Eyes dies, draw three cards if three or more creatures died this turn.",
@@ -2924,7 +2924,7 @@
     "multiverse_ids": [
       1230746
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/ac0e50fa-5114-4f96-89f4-000906da7c76.jpg?1611027904"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/ac0e50fa-5114-4f96-89f4-000906da7c76.jpg?1614989138"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "At the beginning of your upkeep, you may cast a permanent spell from your hand with converted mana cost equal to 1 plus the highest converted mana cost among other permanents you control without paying its mana cost. If you don't, scry 1.",
@@ -2935,7 +2935,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -2945,7 +2945,7 @@
     "multiverse_ids": [
       1230091
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f5075a0-c72a-474c-937c-95dc9205d14f.jpg?1611258749"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f5075a0-c72a-474c-937c-95dc9205d14f.jpg?1616207594"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Scry 2.\nII — Draw a card. Then you may reveal a Giant card from your hand. When you do, Invasion of the Giants deals 2 damage to target opponent or planeswalker.\nIII — The next Giant spell you cast this turn costs {2} less to cast.",
@@ -2957,7 +2957,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -2967,7 +2967,7 @@
     "multiverse_ids": [
       1230873
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/2/7213d9e1-e9c6-45d8-bb7f-336c41e7b6f7.jpg?1610997029"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/2/7213d9e1-e9c6-45d8-bb7f-336c41e7b6f7.jpg?1614984906"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target artifact or enchantment. You gain 4 life.",
@@ -2988,7 +2988,7 @@
     "multiverse_ids": [
       1230199
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/f/2fb38f5b-a2c2-4b06-8c9c-9615475a43e7.jpg?1610586709"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/f/2fb38f5b-a2c2-4b06-8c9c-9615475a43e7.jpg?1614984941"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Iron Verdict deals 5 damage to target tapped creature.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -2999,7 +2999,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -3009,7 +3009,7 @@
     "multiverse_ids": [
       1230465
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1a25a714-c7f3-4697-8b69-8f966b4d370a.jpg?1611173994"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1a25a714-c7f3-4697-8b69-8f966b4d370a.jpg?1615605936"],
     "layout": "normal",
     "type_line": "Basic Land — Island",
     "oracle_text": "({T}: Add {U}.)",
@@ -3041,7 +3041,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -3051,7 +3051,7 @@
     "multiverse_ids": [
       1230447
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1a68615d-9808-479d-aa80-50651246954e.jpg?1610564426"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/a/1a68615d-9808-479d-aa80-50651246954e.jpg?1614989173"],
     "layout": "normal",
     "type_line": "Creature — Elf Rogue",
     "oracle_text": "Reach\n{T}, Tap an untapped creature you control: Add one mana of any color.",
@@ -3062,7 +3062,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -3099,7 +3099,7 @@
     "multiverse_ids": [
       1230430
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/9685e2a0-5573-41bc-a914-f40c3011459b.jpg?1612480876"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/9685e2a0-5573-41bc-a914-f40c3011459b.jpg?1615602997"],
     "layout": "normal",
     "type_line": "Legendary Creature — Demon Berserker",
     "oracle_text": "When Kardur, Doomscourge enters the battlefield, until your next turn, creatures your opponents control attack each combat if able and attack a player other than you if able.\nWhenever an attacking creature dies, each opponent loses 1 life and you gain 1 life.",
@@ -3121,7 +3121,7 @@
     "multiverse_ids": [
       1230193
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/233e4774-e701-42d9-aa25-e7e06c14e43d.jpg?1610393008"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/233e4774-e701-42d9-aa25-e7e06c14e43d.jpg?1616207667"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — You may sacrifice a creature. When you do, Kardur's Vicious Return deals 3 damage to any target.\nII — Each player discards a card.\nIII — Return target creature card from your graveyard to the battlefield. Put a +1/+1 counter on it. It gains haste until your next turn.",
@@ -3133,7 +3133,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -3143,7 +3143,7 @@
     "multiverse_ids": [
       1230496
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/9/4911016c-b92a-47cc-9553-b424d7be196a.jpg?1610656768"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/9/4911016c-b92a-47cc-9553-b424d7be196a.jpg?1614986636"],
     "layout": "normal",
     "type_line": "Creature — Zombie Wizard",
     "oracle_text": "{T}: Add {U}. Spend this mana only to foretell a card from your hand or cast an instant or sorcery spell.",
@@ -3154,7 +3154,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -3185,7 +3185,7 @@
     "multiverse_ids": [
       1230189
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f28e151f-b61b-486f-b7f8-7abde207c442.jpg?1610586077"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f28e151f-b61b-486f-b7f8-7abde207c442.jpg?1614984976"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +1/+1 and gains double strike until end of turn.\nForetell {W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -3196,7 +3196,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -3206,7 +3206,7 @@
     "multiverse_ids": [
       1229252
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/6/166c0bd1-b59d-4644-832f-888a4ca3a0aa.jpg?1608253213"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/6/166c0bd1-b59d-4644-832f-888a4ca3a0aa.jpg?1615603027"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Kaya",
     "oracle_text": "+1: Put a ghostform counter on up to one target nontoken creature. It gains \"When this creature dies or is put into exile, return it to its owner's hand and create a 1/1 white Spirit creature token with flying.\"\n−3: Exile target nonland permanent.\n−7: You get an emblem with \"At the beginning of your upkeep, you may cast a legendary spell from your hand, from your graveyard, or from among cards you own in exile without paying its mana cost.\"",
@@ -3228,7 +3228,7 @@
     "multiverse_ids": [
       1230459
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71a659b6-c4a8-4c0a-8b2a-07b6c9e27dfc.jpg?1610586752"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71a659b6-c4a8-4c0a-8b2a-07b6c9e27dfc.jpg?1614989205"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Until end of turn, target creature gets +1/+1 for each creature you control and gains trample. It must be blocked this turn if able.",
@@ -3249,7 +3249,7 @@
     "multiverse_ids": [
       1230951
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c30ff1fa-6639-492a-b257-934e5818c98f.jpg?1611170592"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c30ff1fa-6639-492a-b257-934e5818c98f.jpg?1615603053"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Each player mills four cards. Then you may exile a creature or planeswalker card from each graveyard.\nII, III — Until end of turn, you may cast spells from among cards exiled with King Narfi's Betrayal, and you may spend mana as though it were mana of any color to cast those spells.",
@@ -3271,7 +3271,7 @@
     "multiverse_ids": [
       1230132
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22f68b53-0cf7-434d-9da5-1d18c0828a46.jpg?1610149724"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22f68b53-0cf7-434d-9da5-1d18c0828a46.jpg?1615603083"],
     "layout": "normal",
     "type_line": "Legendary Creature — Dwarf Warrior",
     "oracle_text": "Whenever another nontoken creature you control dies, if it was enchanted or equipped, return it to its owner's hand.\nCreature tokens you control that are enchanted or equipped get +1/+1.",
@@ -3283,7 +3283,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -3318,7 +3318,7 @@
     "multiverse_ids": [
       1230167
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/d/2de25ea4-284a-4c16-b823-048ff00c6a03.jpg?1610152349"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/d/2de25ea4-284a-4c16-b823-048ff00c6a03.jpg?1615603106"],
     "layout": "normal",
     "type_line": "Legendary Creature — Serpent",
     "oracle_text": "This spell can't be countered.\nAt the beginning of each upkeep, create a 3/3 blue Serpent creature token named Koma's Coil.\nSacrifice another Serpent: Choose one —\n• Tap target permanent. Its activated abilities can't be activated this turn.\n• Koma, Cosmos Serpent gains indestructible until end of turn.",
@@ -3330,7 +3330,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 5,
     "set": "khm"
   },
   {
@@ -3361,7 +3361,7 @@
     "multiverse_ids": [
       1230846
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/9/a92dde51-310e-4f28-bd3b-d43b639785ec.jpg?1610999625"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/9/a92dde51-310e-4f28-bd3b-d43b639785ec.jpg?1614989242"],
     "layout": "normal",
     "type_line": "Creature — Shapeshifter",
     "oracle_text": "Changeling (This card is every creature type.)\n{2}{G}, {T}, Exile a creature card from your graveyard: Put two +1/+1 counters on target creature. Activate this ability only any time you could cast a sorcery.",
@@ -3382,7 +3382,7 @@
     "multiverse_ids": [
       1230203
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/1/c119f836-0707-49e2-b6d4-25f849d054a4.jpg?1610656790"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/1/c119f836-0707-49e2-b6d4-25f849d054a4.jpg?1614986672"],
     "layout": "normal",
     "type_line": "Creature — Shapeshifter",
     "oracle_text": "Changeling (This card is every creature type.)\nWhen Littjara Kinseekers enters the battlefield, if you control three or more creatures that share a creature type, put a +1/+1 counter on Littjara Kinseekers, then scry 1.",
@@ -3393,7 +3393,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -3403,7 +3403,7 @@
     "multiverse_ids": [
       1230729
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6bf2bb3e-828f-4d53-9d0a-26bbc5e7f3cc.jpg?1610999672"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6bf2bb3e-828f-4d53-9d0a-26bbc5e7f3cc.jpg?1615604063"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Littjara Mirrorlake enters the battlefield tapped.\n{T}: Add {U}.\n{2}{G}{G}{U}, {T}, Sacrifice Littjara Mirrorlake: Create a token that's a copy of target creature you control, except it enters the battlefield with an additional +1/+1 counter on it. Activate this ability only any time you could cast a sorcery.",
@@ -3425,7 +3425,7 @@
     "multiverse_ids": [
       1229232
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/079e6263-e54c-4899-a336-5315909b9322.jpg?1608253195"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/079e6263-e54c-4899-a336-5315909b9322.jpg?1614987960"],
     "layout": "normal",
     "type_line": "Legendary Creature — Dwarf Berserker",
     "oracle_text": "Other Dwarves you control get +1/+0.\nWhenever a Dwarf you control becomes tapped, create a Treasure token.\nSacrifice five Treasures: Search your library for an artifact or Dragon card, put that card onto the battlefield, then shuffle your library.",
@@ -3436,7 +3436,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -3446,7 +3446,7 @@
     "multiverse_ids": [
       1230750
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/cc3707f1-ed9d-412e-a7be-b6d8b554bd6c.jpg?1610737618"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/cc3707f1-ed9d-412e-a7be-b6d8b554bd6c.jpg?1615603132"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Warrior",
     "oracle_text": "Other creatures you control get +1/+1.\nWhenever a land enters the battlefield under your control, create a 1/1 white Human Warrior creature token.",
@@ -3458,7 +3458,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -3468,7 +3468,7 @@
     "multiverse_ids": [
       1230398
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e55041f-69a5-4bcf-899f-a4b44c208b4d.jpg?1610586081"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e55041f-69a5-4bcf-899f-a4b44c208b4d.jpg?1614989279"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +4/+4 until end of turn.\nForetell {G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -3489,7 +3489,7 @@
     "multiverse_ids": [
       1230134
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f0a9c72a-e450-41e3-80e5-06f2f1171245.jpg?1610149399"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f0a9c72a-e450-41e3-80e5-06f2f1171245.jpg?1614989314"],
     "layout": "normal",
     "type_line": "Creature — Shapeshifter",
     "oracle_text": "Changeling (This card is every creature type.)\nWhen Masked Vandal enters the battlefield, you may exile a creature card from your graveyard. If you do, exile target artifact or enchantment an opponent controls.",
@@ -3510,7 +3510,7 @@
     "multiverse_ids": [
       1230185
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/471d2aef-cfd4-4131-bbc7-62eeed9f3343.jpg?1610304401"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/471d2aef-cfd4-4131-bbc7-62eeed9f3343.jpg?1615603535"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "Creatures you control are every creature type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.\n{3}, {T}: Create a 2/2 blue Shapeshifter creature token with changeling. (It is every creature type.)",
@@ -3519,7 +3519,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -3529,7 +3529,7 @@
     "multiverse_ids": [
       1230894
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6b269e27-8e17-4bf2-b28a-a83ecc7d22c0.jpg?1611014236"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/b/6b269e27-8e17-4bf2-b28a-a83ecc7d22c0.jpg?1614985009"],
     "layout": "normal",
     "type_line": "Creature — Dwarf Warrior",
     "oracle_text": "When Master Skald enters the battlefield, you may exile a creature card from your graveyard. If you do, return target artifact or enchantment card from your graveyard to your hand.",
@@ -3550,7 +3550,7 @@
     "multiverse_ids": [
       1230936
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6cfd4944-790f-4835-a8a1-c23ef7047648.jpg?1611077980"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6cfd4944-790f-4835-a8a1-c23ef7047648.jpg?1614986705"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Flash\nEnchant creature or Vehicle\nEnchanted creature gets -3/-0.",
@@ -3571,7 +3571,7 @@
     "multiverse_ids": [
       1230946
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/92f64b49-327c-473b-a492-f020a322aed7.jpg?1611170180"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/92f64b49-327c-473b-a492-f020a322aed7.jpg?1614986738"],
     "layout": "normal",
     "type_line": "Creature — Shapeshifter",
     "oracle_text": "Changeling (This card is every creature type.)\nFlying\n{1}{U}: Mistwalker gets +1/-1 until end of turn.",
@@ -3592,7 +3592,7 @@
     "multiverse_ids": [
       1230197
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22fdbe71-abca-4e48-99b2-1cb6b35d930b.jpg?1610396871"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/22fdbe71-abca-4e48-99b2-1cb6b35d930b.jpg?1615603161"],
     "layout": "normal",
     "type_line": "Legendary Snow Creature — Shapeshifter",
     "oracle_text": "Changeling (This card is every creature type.)\nYou may have Moritte of the Frost enter the battlefield as a copy of a permanent you control, except it's legendary and snow in addition to its other types and, if it's a creature, it enters with two additional +1/+1 counters on it and has changeling.",
@@ -3614,7 +3614,7 @@
     "multiverse_ids": [
       1230467
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/69419307-53d5-40d7-82da-cab2e7bfbda4.jpg?1611173991"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/69419307-53d5-40d7-82da-cab2e7bfbda4.jpg?1615605984"],
     "layout": "normal",
     "type_line": "Basic Land — Mountain",
     "oracle_text": "({T}: Add {R}.)",
@@ -3635,7 +3635,7 @@
     "multiverse_ids": [
       1230497
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f7b877e2-60eb-46cd-acd7-8555b9e7e993.jpg?1610656808"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f7b877e2-60eb-46cd-acd7-8555b9e7e993.jpg?1614986772"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose target nonlegendary creature. The next time one or more creatures or planeswalkers enter the battlefield this turn, they enter as copies of the chosen creature.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -3646,7 +3646,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -3656,7 +3656,7 @@
     "multiverse_ids": [
       1230451
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/2/421376e4-a4ad-427c-bc9c-d315308dcf68.jpg?1610996907"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/2/421376e4-a4ad-427c-bc9c-d315308dcf68.jpg?1615603192"],
     "layout": "normal",
     "type_line": "Legendary Snow Creature — Zombie Wizard",
     "oracle_text": "Other snow and Zombie creatures you control get +1/+1.\n{S}{S}{S}: Return Narfi, Betrayer King from your graveyard to the battlefield tapped. ({S} can be paid with one mana from a snow source.)",
@@ -3668,7 +3668,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -3678,7 +3678,7 @@
     "multiverse_ids": [
       1230130
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6c4e9cfe-e72e-46a1-a8d8-9fda5f2bae73.jpg?1610065852"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/c/6c4e9cfe-e72e-46a1-a8d8-9fda5f2bae73.jpg?1615603216"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Niko",
     "oracle_text": "When Niko Aris enters the battlefield, create X Shard tokens. (They're enchantments with \"{2}, Sacrifice this enchantment: Scry 1, then draw a card.\")\n+1: Up to one target creature you control can't be blocked this turn. Whenever that creature deals damage this turn, return it to its owner's hand.\n−1: Niko Aris deals 2 damage to target tapped creature for each card you've drawn this turn.\n−1: Create a Shard token.",
@@ -3700,7 +3700,7 @@
     "multiverse_ids": [
       1230717
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/9/19312f53-5b9d-4e76-91e8-65f444bb68c9.jpg?1610674680"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/9/19312f53-5b9d-4e76-91e8-65f444bb68c9.jpg?1616207710"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — You gain 2 life for each foretold card you own in exile.\nII — Add {W}{U}. Spend this mana only to foretell cards or cast spells that have foretell.\nIII — Return target card with foretell from your graveyard to your hand.",
@@ -3722,7 +3722,7 @@
     "multiverse_ids": [
       1230123
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1611000660"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b759b0f6-342c-4bba-89f1-8451835d8c45.jpg?1614989352"],
     "layout": "normal",
     "type_line": "Creature — Troll Warrior",
     "oracle_text": "Trample\nWhen Old-Growth Troll dies, if it was a creature, return it to the battlefield. It's an Aura enchantment with enchant Forest you control and \"Enchanted Forest has '{T}: Add {G}{G}' and '{1}, {T}, Sacrifice this land: Create a tapped 4/4 green Troll Warrior creature token with trample.'\"",
@@ -3743,7 +3743,7 @@
     "multiverse_ids": [
       1230196
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/e/4e4023c8-8e7f-42b9-99e5-87e80fc3d6c8.jpg?1610390009"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/e/4e4023c8-8e7f-42b9-99e5-87e80fc3d6c8.jpg?1614987998"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one —\n• Add two mana of any one color and two mana of any other color. Spend this mana only to cast creature or enchantment spells.\n• Creatures you control get +1/+0 until end of turn.",
@@ -3764,7 +3764,7 @@
     "multiverse_ids": [
       1230893
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f36775e-9e48-49cc-a771-d58481712edc.jpg?1610997185"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f36775e-9e48-49cc-a771-d58481712edc.jpg?1614986805"],
     "layout": "normal",
     "type_line": "Legendary Creature — Shapeshifter",
     "oracle_text": "Changeling\nWhenever you cast an instant or sorcery spell, if it targets one or more other permanents you control, create a token that's a copy of one of those permanents.\nWhen a spell or ability an opponent controls causes you to discard this card, create a token that's a copy of target permanent.",
@@ -3785,7 +3785,7 @@
     "multiverse_ids": [
       1230152
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/606da75d-382a-47a8-9739-644438594700.jpg?1610786935"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/606da75d-382a-47a8-9739-644438594700.jpg?1614989387"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "When Path to the World Tree enters the battlefield, search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\n{2}{W}{U}{B}{R}{G}, Sacrifice Path to the World Tree: You gain 2 life and draw two cards. Target opponent loses 2 life. Path to the World Tree deals 2 damage to up to one target creature. You create a 2/2 green Bear creature token.",
@@ -3800,7 +3800,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -3810,7 +3810,7 @@
     "multiverse_ids": [
       1230436
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76ee3829-8dec-4c0f-a6c2-ad47a1c94cfc.jpg?1610996908"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76ee3829-8dec-4c0f-a6c2-ad47a1c94cfc.jpg?1614986836"],
     "layout": "normal",
     "type_line": "Snow Creature — Bird",
     "oracle_text": "Flying\n{S}, {T}: Draw a card, then discard a card. ({S} can be paid with one mana from a snow source.)",
@@ -3831,7 +3831,7 @@
     "multiverse_ids": [
       1230464
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5cbfbafa-f58f-40b2-a374-68ac35b77d89.jpg?1611173984"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5cbfbafa-f58f-40b2-a374-68ac35b77d89.jpg?1615605912"],
     "layout": "normal",
     "type_line": "Basic Land — Plains",
     "oracle_text": "({T}: Add {W}.)",
@@ -3873,7 +3873,7 @@
     "multiverse_ids": [
       1230851
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/b/bb9465a6-d009-4ecd-9fd1-d046547de902.jpg?1611121787"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/b/bb9465a6-d009-4ecd-9fd1-d046547de902.jpg?1615604092"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Port of Karfell enters the battlefield tapped.\n{T}: Add {U}.\n{3}{U}{B}{B}, {T}, Sacrifice Port of Karfell: Mill four cards, then return a creature card from your graveyard to the battlefield tapped. (To mill a card, put the top card of your library into your graveyard.)",
@@ -3885,7 +3885,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -3916,7 +3916,7 @@
     "multiverse_ids": [
       1230744
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/2727b05a-0c86-4c59-b7b4-425bdd8e775d.jpg?1610910129"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/2727b05a-0c86-4c59-b7b4-425bdd8e775d.jpg?1614988032"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Provoke the Trolls deals 3 damage to any target. If a creature is dealt damage this way, it gets +5/+0 until end of turn.",
@@ -3927,7 +3927,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -3937,7 +3937,7 @@
     "multiverse_ids": [
       1229212
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/ae9a8e44-f5de-497d-be48-adf1bcbaec97.jpg?1608253115"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/ae9a8e44-f5de-497d-be48-adf1bcbaec97.jpg?1615603565"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "{2}, {T}, Sacrifice a creature: Search your library for a creature card that shares a creature type with the sacrificed creature and has converted mana cost equal to 1 plus that creature's converted mana cost. Put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.",
@@ -3956,7 +3956,7 @@
     "multiverse_ids": [
       1230179
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/5/c5bbffb9-1f1c-40e5-97f4-29bf1fc68625.jpg?1610586090"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/5/c5bbffb9-1f1c-40e5-97f4-29bf1fc68625.jpg?1614988065"],
     "layout": "normal",
     "type_line": "Creature — Giant Berserker",
     "oracle_text": "Your opponents can't gain life.\nAt the beginning of your upkeep, Quakebringer deals 2 damage to each opponent. This ability triggers only if Quakebringer is on the battlefield or if Quakebringer is in your graveyard and you control a Giant.\nForetell {2}{R}{R}",
@@ -3977,7 +3977,7 @@
     "multiverse_ids": [
       1230449
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f572cbb1-49ee-4c95-90a3-82704cf92454.jpg?1610657930"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f572cbb1-49ee-4c95-90a3-82704cf92454.jpg?1615603589"],
     "layout": "normal",
     "type_line": "Artifact — Vehicle",
     "oracle_text": "Whenever Raiders' Karve attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
@@ -4007,7 +4007,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -4017,7 +4017,7 @@
     "multiverse_ids": [
       1230200
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/3/03595195-3be2-4d18-b5c0-43b2dcc1c0f5.jpg?1610585956"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/3/03595195-3be2-4d18-b5c0-43b2dcc1c0f5.jpg?1614985044"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "As Rally the Ranks enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1.",
@@ -4028,7 +4028,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -4038,7 +4038,7 @@
     "multiverse_ids": [
       1230153
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c2cfcd7-b43a-4dad-a033-e661f55ceecd.jpg?1610586103"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/c/2c2cfcd7-b43a-4dad-a033-e661f55ceecd.jpg?1614986870"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Exile target artifact or creature. Its controller creates a 1/1 blue Bird creature token with flying.\nForetell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -4049,7 +4049,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -4059,7 +4059,7 @@
     "multiverse_ids": [
       1230891
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/9961e3fc-167e-4043-8510-cc5cf08d473e.jpg?1611027751"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/9961e3fc-167e-4043-8510-cc5cf08d473e.jpg?1614989428"],
     "layout": "normal",
     "type_line": "Creature — Wurm",
     "oracle_text": "When Ravenous Lindwurm enters the battlefield, you gain 4 life.",
@@ -4070,7 +4070,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -4080,7 +4080,7 @@
     "multiverse_ids": [
       1230751
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/60916ebe-6d84-4873-bd91-351bbe219c57.jpg?1610756811"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/60916ebe-6d84-4873-bd91-351bbe219c57.jpg?1615603612"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "Equipped creature gets +1/+0, has flying, and is a Bird in addition to its other types.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -4099,7 +4099,7 @@
     "multiverse_ids": [
       1229251
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c8212667-7e18-42a5-9f36-4f8a6ad12f83.jpg?1610152605"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c8212667-7e18-42a5-9f36-4f8a6ad12f83.jpg?1614989460"],
     "layout": "normal",
     "type_line": "Creature — Shapeshifter",
     "oracle_text": "Changeling (This card is every creature type.)\nAs Realmwalker enters the battlefield, choose a creature type.\nYou may look at the top card of your library any time.\nYou may cast creature spells of the chosen type from the top of your library.",
@@ -4120,7 +4120,7 @@
     "multiverse_ids": [
       1230205
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bdd68d9d-b0b9-4915-8a12-658eb0e3dd4a.jpg?1611077208"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bdd68d9d-b0b9-4915-8a12-658eb0e3dd4a.jpg?1614988094"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Create X 2/1 red Dwarf Berserker creature tokens, where X is the number of Vehicles you control plus the number of Equipment you control. For each of those tokens, you may attach an Equipment you control to it.",
@@ -4131,7 +4131,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 0.5,
     "set": "khm"
   },
   {
@@ -4141,7 +4141,7 @@
     "multiverse_ids": [
       1230154
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/eadee447-ce9a-4dea-a074-bfd04197548e.jpg?1610152006"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/eadee447-ce9a-4dea-a074-bfd04197548e.jpg?1614986902"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "As Reflections of Littjara enters the battlefield, choose a creature type.\nWhenever you cast a spell of the chosen type, copy that spell. (A copy of a permanent spell becomes a token.)",
@@ -4187,7 +4187,7 @@
     "multiverse_ids": [
       1230178
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b079e285-8431-46aa-bb04-70cac586ed0b.jpg?1610996912"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b079e285-8431-46aa-bb04-70cac586ed0b.jpg?1615603636"],
     "layout": "normal",
     "type_line": "Snow Artifact",
     "oracle_text": "{T}: Add one mana of any color.\nAt the beginning of your upkeep, put a night counter on Replicating Ring. Then if it has eight or more night counters on it, remove all of them and create eight colorless snow artifact tokens named Replicated Ring with \"{T}: Add one mana of any color.\"",
@@ -4196,7 +4196,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -4206,7 +4206,7 @@
     "multiverse_ids": [
       1230890
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/e/5e849bec-2ee6-4c83-83e6-bf9f5543e414.jpg?1611027770"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/e/5e849bec-2ee6-4c83-83e6-bf9f5543e414.jpg?1614985076"],
     "layout": "normal",
     "type_line": "Creature — Angel Warrior",
     "oracle_text": "Flying\nWhen Resplendent Marshal enters the battlefield or dies, you may exile another creature card from your graveyard. When you do, put a +1/+1 counter on each creature you control other than Resplendent Marshal that shares a creature type with the exiled card.",
@@ -4238,7 +4238,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -4248,7 +4248,7 @@
     "multiverse_ids": [
       1230742
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a9fb75e-c8e5-417b-83d4-5105af9c66c1.jpg?1611169934"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a9fb75e-c8e5-417b-83d4-5105af9c66c1.jpg?1614985112"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "You gain 3 life.\nDraw a card.",
@@ -4269,7 +4269,7 @@
     "multiverse_ids": [
       1230869
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/02fb5f9f-8750-4eb5-a03a-6dacc60e0b90.jpg?1610996474"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/02fb5f9f-8750-4eb5-a03a-6dacc60e0b90.jpg?1614985143"],
     "layout": "normal",
     "type_line": "Creature — Angel Cleric",
     "oracle_text": "Flying\nWhenever another Angel or Cleric enters the battlefield under your control, you gain life equal to that creature's toughness.\nAs long as you have at least 7 life more than your starting life total, creatures you control get +2/+2.",
@@ -4290,7 +4290,7 @@
     "multiverse_ids": [
       1230117
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/a/da1db084-f235-4e26-8867-5f0835a0d283.jpg?1610996914"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/a/da1db084-f235-4e26-8867-5f0835a0d283.jpg?1615604124"],
     "layout": "normal",
     "type_line": "Snow Land — Forest Island",
     "oracle_text": "({T}: Add {G} or {U}.)\nRimewood Falls enters the battlefield tapped.",
@@ -4333,7 +4333,7 @@
     "multiverse_ids": [
       1230734
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/992aba3f-e1cb-4f5a-8b6f-328a069102a4.jpg?1610999484"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/992aba3f-e1cb-4f5a-8b6f-328a069102a4.jpg?1614989494"],
     "layout": "normal",
     "type_line": "Creature — Treefolk",
     "oracle_text": "When Rootless Yew dies, search your library for a creature card with power or toughness 6 or greater, reveal it, put it into your hand, then shuffle your library.",
@@ -4354,7 +4354,7 @@
     "multiverse_ids": [
       1230219
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/734afb5b-3163-47fa-856f-8a85b9da22d3.jpg?1611000434"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/734afb5b-3163-47fa-856f-8a85b9da22d3.jpg?1614989529"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Mill three cards, then return a land card or Elf card from your graveyard to your hand. If you can't, draw a card. (To mill a card, put the top card of your library into your graveyard.)",
@@ -4365,7 +4365,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0,
     "set": "khm"
   },
   {
@@ -4375,7 +4375,7 @@
     "multiverse_ids": [
       1230404
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/44c8136f-2826-476c-a103-7094670506a6.jpg?1610494903"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/44c8136f-2826-476c-a103-7094670506a6.jpg?1614988129"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target attacking creature gets +3/+3 and gains trample until end of turn.",
@@ -4386,7 +4386,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -4396,7 +4396,7 @@
     "multiverse_ids": [
       1230217
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a.jpg?1610389872"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a.jpg?1614986933"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose one or both —\n• The owner of target nonland permanent puts it on the top or bottom of their library.\n• Return target nonland permanent to its owner's hand.",
@@ -4417,7 +4417,7 @@
     "multiverse_ids": [
       1230517
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1ef89770-2dbb-4a57-99f7-191591bb8e38.jpg?1611000219"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/e/1ef89770-2dbb-4a57-99f7-191591bb8e38.jpg?1615603662"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "When Runed Crown enters the battlefield, you may search your library, hand, and/or graveyard for a Rune card and put it onto the battlefield attached to Runed Crown. If you search your library this way, shuffle it.\nEquipped creature gets +1/+1.\nEquip {2}",
@@ -4426,7 +4426,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -4436,7 +4436,7 @@
     "multiverse_ids": [
       1230882
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/3/4368b087-05a0-4a88-ab43-0cd16446239b.jpg?1611077052"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/3/4368b087-05a0-4a88-ab43-0cd16446239b.jpg?1614985216"],
     "layout": "normal",
     "type_line": "Creature — Dwarf Warrior",
     "oracle_text": "When Runeforge Champion enters the battlefield, you may search your library and/or graveyard for a Rune card, reveal it, and put it into your hand. If you search your library this way, shuffle it.\nYou may pay {1} rather than pay the mana cost for Rune spells you cast.",
@@ -4447,7 +4447,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -4457,7 +4457,7 @@
     "multiverse_ids": [
       1230437
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/5/d5c1a271-2107-462a-9d4a-9c7fbcfa8d77.jpg?1610497026"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/5/d5c1a271-2107-462a-9d4a-9c7fbcfa8d77.jpg?1614986967"],
     "layout": "normal",
     "type_line": "Enchantment — Aura Rune",
     "oracle_text": "Enchant permanent\nWhen Rune of Flight enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it has flying.\nAs long as enchanted permanent is an Equipment, it has \"Equipped creature has flying.\"",
@@ -4468,7 +4468,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -4478,7 +4478,7 @@
     "multiverse_ids": [
       1230878
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c0d507b-fc08-46cb-b092-484fa4adeef6.jpg?1611077037"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c0d507b-fc08-46cb-b092-484fa4adeef6.jpg?1614989565"],
     "layout": "normal",
     "type_line": "Enchantment — Aura Rune",
     "oracle_text": "Enchant permanent\nWhen Rune of Might enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it gets +1/+1 and has trample.\nAs long as enchanted permanent is an Equipment, it has \"Equipped creature gets +1/+1 and has trample.\"",
@@ -4489,7 +4489,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -4520,7 +4520,7 @@
     "multiverse_ids": [
       1230879
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/47faee66-b274-466a-890e-bb396dda943d.jpg?1611110701"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/7/47faee66-b274-466a-890e-bb396dda943d.jpg?1614988162"],
     "layout": "normal",
     "type_line": "Enchantment — Aura Rune",
     "oracle_text": "Enchant permanent\nWhen Rune of Speed enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it gets +1/+0 and has haste.\nAs long as enchanted permanent is an Equipment, it has \"Equipped creature gets +1/+0 and has haste.\"",
@@ -4531,7 +4531,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -4541,7 +4541,7 @@
     "multiverse_ids": [
       1230881
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e31b716-f325-445a-9098-9ca75d7b35a4.jpg?1611077402"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e31b716-f325-445a-9098-9ca75d7b35a4.jpg?1614985179"],
     "layout": "normal",
     "type_line": "Enchantment — Aura Rune",
     "oracle_text": "Enchant permanent\nWhen Rune of Sustenance enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it has lifelink.\nAs long as enchanted permanent is an Equipment, it has \"Equipped creature has lifelink.\"",
@@ -4552,7 +4552,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -4562,7 +4562,7 @@
     "multiverse_ids": [
       1229368
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bcecf9ba-36da-490a-9460-99ff87d99fbd.jpg?1608311916"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bcecf9ba-36da-490a-9460-99ff87d99fbd.jpg?1615603269"],
     "layout": "normal",
     "type_line": "Legendary Creature — Wolf",
     "oracle_text": "Whenever a permanent an opponent controls is put into a graveyard from the battlefield, put a +1/+1 counter on Sarulf, Realm Eater.\nAt the beginning of your upkeep, if Sarulf has one or more +1/+1 counters on it, you may remove all of them. If you do, exile each other nonland permanent with converted mana cost less than or equal to the number of counters removed this way.",
@@ -4574,7 +4574,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "khm"
   },
   {
@@ -4584,7 +4584,7 @@
     "multiverse_ids": [
       1230122
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/6061113e-7dd8-4739-b4dd-55bb7f9e39a2.jpg?1610295157"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/6061113e-7dd8-4739-b4dd-55bb7f9e39a2.jpg?1614989599"],
     "layout": "normal",
     "type_line": "Creature — Wolf",
     "oracle_text": "When Sarulf's Packmate enters the battlefield, draw a card.\nForetell {1}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -4605,7 +4605,7 @@
     "multiverse_ids": [
       1230170
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/877a1bb9-5eae-453a-bec0-a9de20ea6815.jpg?1611798589"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/877a1bb9-5eae-453a-bec0-a9de20ea6815.jpg?1614986998"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target spell.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -4616,7 +4616,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -4626,7 +4626,7 @@
     "multiverse_ids": [
       1230689
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/f/4fa13084-3e68-49f4-8cc9-6d02286fd150.jpg?1610909929"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/f/4fa13084-3e68-49f4-8cc9-6d02286fd150.jpg?1615603684"],
     "layout": "normal",
     "type_line": "Artifact Creature — Scarecrow",
     "oracle_text": "Foretell {0} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -4645,7 +4645,7 @@
     "multiverse_ids": [
       1230156
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1610996915"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9dab2ca2-0039-4eac-a7dc-68756362737d.jpg?1614989633"],
     "layout": "normal",
     "type_line": "Snow Creature — Elf Rogue",
     "oracle_text": "{T}: Untap target snow land.",
@@ -4666,7 +4666,7 @@
     "multiverse_ids": [
       1230201
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/6/b65c215d-562d-4c7c-bc9f-b1d741050158.jpg?1610996917"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/6/b65c215d-562d-4c7c-bc9f-b1d741050158.jpg?1614985255"],
     "layout": "normal",
     "type_line": "Snow Sorcery",
     "oracle_text": "Search your library for a snow permanent card, a legendary card, or a Saga card, reveal it, put it into your hand, then shuffle your library. You gain 1 life for each {S} spent to cast this spell. ({S} is mana from a snow source.)",
@@ -4687,7 +4687,7 @@
     "multiverse_ids": [
       1230164
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b3b7a69c-75d2-49a6-ab56-ef608d0b0208.jpg?1610150982"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b3b7a69c-75d2-49a6-ab56-ef608d0b0208.jpg?1614988196"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -4708,7 +4708,7 @@
     "multiverse_ids": [
       1230877
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/b/db743c6e-1385-468e-921a-7a525b88a1b6.jpg?1610997248"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/b/db743c6e-1385-468e-921a-7a525b88a1b6.jpg?1614988229"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Gain control of target creature until end of turn. Untap that creature. Until end of turn, it gains haste and \"Whenever this creature deals damage, destroy target Equipment attached to it.\"",
@@ -4729,7 +4729,7 @@
     "multiverse_ids": [
       1230434
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ce33c84e-008c-48d8-a8e8-77cd19cc4f1f.jpg?1610586538"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/e/ce33c84e-008c-48d8-a8e8-77cd19cc4f1f.jpg?1614985290"],
     "layout": "normal",
     "type_line": "Creature — Angel Warrior",
     "oracle_text": "Flying\nWhen Shepherd of the Cosmos enters the battlefield, return target permanent card with converted mana cost 2 or less from your graveyard to the battlefield.\nForetell {3}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -4740,7 +4740,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -4750,7 +4750,7 @@
     "multiverse_ids": [
       1230889
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f09d98db-0176-41a7-b99b-ead29876cdab.jpg?1612006512"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f09d98db-0176-41a7-b99b-ead29876cdab.jpg?1615604149"],
     "layout": "normal",
     "type_line": "Snow Land",
     "oracle_text": "Shimmerdrift Vale enters the battlefield tapped.\nAs Shimmerdrift Vale enters the battlefield, choose a color.\n{T}: Add one mana of the chosen color.",
@@ -4769,7 +4769,7 @@
     "multiverse_ids": [
       1229211
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3d9d840e-1f13-44e3-a4de-903cfa58a346.jpg?1608253097"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3d9d840e-1f13-44e3-a4de-903cfa58a346.jpg?1615603295"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Exile the top four cards of your library. Until the end of your next turn, you may play those cards.\nII, III — Whenever you cast a spell this turn, put a +1/+1 counter on target creature you control.",
@@ -4791,7 +4791,7 @@
     "multiverse_ids": [
       1230120
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/aeec3c1e-e612-4700-888e-300912932552.jpg?1610151617"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/aeec3c1e-e612-4700-888e-300912932552.jpg?1614985326"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Warrior",
     "oracle_text": "Flash\nFirst strike, protection from God creatures\nWhen Sigrid, God-Favored enters the battlefield, exile up to one target attacking or blocking creature until Sigrid leaves the battlefield.",
@@ -4823,7 +4823,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -4833,7 +4833,7 @@
     "multiverse_ids": [
       1230532
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/82c2a0f7-0f53-4627-8be8-227fde331a69.jpg?1610643227"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/82c2a0f7-0f53-4627-8be8-227fde331a69.jpg?1615604177"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Skemfar Elderhall enters the battlefield tapped.\n{T}: Add {G}.\n{2}{B}{B}{G}, {T}, Sacrifice Skemfar Elderhall: Up to one target creature you don't control gets -2/-2 until end of turn. Create two 1/1 green Elf Warrior creature tokens. Activate this ability only any time you could cast a sorcery.",
@@ -4866,7 +4866,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -4887,7 +4887,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -4897,7 +4897,7 @@
     "multiverse_ids": [
       1230445
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c22c7383-ba4d-4b3c-91d6-2d6528e19825.jpg?1610656962"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c22c7383-ba4d-4b3c-91d6-2d6528e19825.jpg?1614988262"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target artifact or land. If an artifact is destroyed this way, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -4918,7 +4918,7 @@
     "multiverse_ids": [
       1230183
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1610301542"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/6/e692c208-c171-4964-9207-43c2cbc62845.jpg?1614989668"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
@@ -4929,7 +4929,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -4939,7 +4939,7 @@
     "multiverse_ids": [
       1230146
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1610996919"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/a/ca17acea-f079-4e53-8176-a2f5c5c408a1.jpg?1615604652"],
     "layout": "normal",
     "type_line": "Basic Snow Land — Forest",
     "oracle_text": "({T}: Add {G}.)",
@@ -4960,7 +4960,7 @@
     "multiverse_ids": [
       1230148
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1615604445"],
     "layout": "normal",
     "type_line": "Basic Snow Land — Island",
     "oracle_text": "({T}: Add {U}.)",
@@ -4981,7 +4981,7 @@
     "multiverse_ids": [
       1230150
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/5474e67c-628f-41b0-aa31-3d85a267265a.jpg?1610996923"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/5474e67c-628f-41b0-aa31-3d85a267265a.jpg?1615604594"],
     "layout": "normal",
     "type_line": "Basic Snow Land — Mountain",
     "oracle_text": "({T}: Add {R}.)",
@@ -5002,7 +5002,7 @@
     "multiverse_ids": [
       1230147
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/afd2730f-878e-47ee-ad2a-73f8fa4e0794.jpg?1610996924"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/afd2730f-878e-47ee-ad2a-73f8fa4e0794.jpg?1615604386"],
     "layout": "normal",
     "type_line": "Basic Snow Land — Plains",
     "oracle_text": "({T}: Add {W}.)",
@@ -5023,7 +5023,7 @@
     "multiverse_ids": [
       1230149
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6aa85af8-15f5-4620-8aea-0b45c28372ed.jpg?1610996926"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6aa85af8-15f5-4620-8aea-0b45c28372ed.jpg?1615604534"],
     "layout": "normal",
     "type_line": "Basic Snow Land — Swamp",
     "oracle_text": "({T}: Add {B}.)",
@@ -5044,7 +5044,7 @@
     "multiverse_ids": [
       1230116
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/6611dc5e-6acc-48df-b8c4-4b327314578b.jpg?1610996928"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/6611dc5e-6acc-48df-b8c4-4b327314578b.jpg?1615604207"],
     "layout": "normal",
     "type_line": "Snow Land — Plains Swamp",
     "oracle_text": "({T}: Add {W} or {B}.)\nSnowfield Sinkhole enters the battlefield tapped.",
@@ -5066,7 +5066,7 @@
     "multiverse_ids": [
       1230202
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/f/cf036489-ef9e-40ee-a1bb-24ee37c554f1.jpg?1610585883"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/f/cf036489-ef9e-40ee-a1bb-24ee37c554f1.jpg?1614985360"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2.\n{1}{W}, Exile Spectral Steel from your graveyard: Return another target Aura or Equipment card from your graveyard to your hand.",
@@ -5077,7 +5077,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -5087,7 +5087,7 @@
     "multiverse_ids": [
       1230181
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/220df551-3820-4910-a206-14501ba02e69.jpg?1610996930"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/2/220df551-3820-4910-a206-14501ba02e69.jpg?1614989700"],
     "layout": "normal",
     "type_line": "Snow Creature — Bear Spirit",
     "oracle_text": "When Spirit of the Aldergard enters the battlefield, search your library for a snow land card, reveal it, put it into your hand, then shuffle your library.\nSpirit of the Aldergard gets +1/+0 for each other snow permanent you control.",
@@ -5098,7 +5098,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -5108,7 +5108,7 @@
     "multiverse_ids": [
       1230428
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/0/e0b99299-bf84-4654-a331-e4406768b33c.jpg?1610496754"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/0/e0b99299-bf84-4654-a331-e4406768b33c.jpg?1614988290"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "This spell costs {3} less to cast if you control a Giant.\nSquash deals 6 damage to target creature or planeswalker.",
@@ -5119,7 +5119,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -5129,7 +5129,7 @@
     "multiverse_ids": [
       1230888
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/89ecb530-e429-4b50-a24c-8437614cf224.jpg?1610923714"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/89ecb530-e429-4b50-a24c-8437614cf224.jpg?1614985394"],
     "layout": "normal",
     "type_line": "Creature — Angel Warrior",
     "oracle_text": "You may pay {1}{W} and exile a creature card from your graveyard rather than pay this spell's mana cost.\nFlying",
@@ -5150,7 +5150,7 @@
     "multiverse_ids": [
       1230933
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c5373dd-4aec-4e93-97fb-a639aa096764.jpg?1611169955"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c5373dd-4aec-4e93-97fb-a639aa096764.jpg?1614985427"],
     "layout": "normal",
     "type_line": "Creature — Pegasus",
     "oracle_text": "Flying\nArtifact and enchantment spells you cast cost {1} less to cast.",
@@ -5161,7 +5161,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -5171,7 +5171,7 @@
     "multiverse_ids": [
       1230412
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea660d42-a441-48d8-98c1-00933cde94a4.jpg?1610586121"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea660d42-a441-48d8-98c1-00933cde94a4.jpg?1614985460"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Create a 4/4 white Angel Warrior creature token with flying and vigilance. If this spell was foretold, create X of those tokens instead.\nForetell {X}{X}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -5182,7 +5182,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "khm"
   },
   {
@@ -5192,7 +5192,7 @@
     "multiverse_ids": [
       1230887
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/3/e3dae817-3db1-4edf-86ba-c2c2b238fcf5.jpg?1610999539"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/3/e3dae817-3db1-4edf-86ba-c2c2b238fcf5.jpg?1614985492"],
     "layout": "normal",
     "type_line": "Creature — Dwarf Cleric",
     "oracle_text": "Lifelink",
@@ -5203,7 +5203,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -5213,7 +5213,7 @@
     "multiverse_ids": [
       1230725
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/29306305-cb71-4fef-bf86-f5deb4e7e561.jpg?1610732687"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/29306305-cb71-4fef-bf86-f5deb4e7e561.jpg?1614987036"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
@@ -5234,7 +5234,7 @@
     "multiverse_ids": [
       1230886
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a67747a9-3299-4b4a-a4e0-e8a269c4f927.jpg?1611080386"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a67747a9-3299-4b4a-a4e0-e8a269c4f927.jpg?1614989733"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Put a +1/+1 counter on target creature you control. Then that creature fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)\nForetell {G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -5255,7 +5255,7 @@
     "multiverse_ids": [
       1230114
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/35ebe245-ebb5-493c-b9c1-56fbfda9bd66.jpg?1610996932"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/35ebe245-ebb5-493c-b9c1-56fbfda9bd66.jpg?1615604232"],
     "layout": "normal",
     "type_line": "Snow Land — Swamp Mountain",
     "oracle_text": "({T}: Add {B} or {R}.)\nSulfurous Mire enters the battlefield tapped.",
@@ -5277,7 +5277,7 @@
     "multiverse_ids": [
       1230850
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0b02149a-4a8f-4be9-9944-3d216248b549.jpg?1611000065"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0b02149a-4a8f-4be9-9944-3d216248b549.jpg?1615604258"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Surtland Frostpyre enters the battlefield tapped.\n{T}: Add {R}.\n{2}{U}{U}{R}, {T}, Sacrifice Surtland Frostpyre: Scry 2. Surtland Frostpyre deals 2 damage to each creature. Activate this ability only any time you could cast a sorcery.",
@@ -5299,7 +5299,7 @@
     "multiverse_ids": [
       1230753
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a7054d48-5ed3-43a1-85e5-9f306b081b4f.jpg?1610996936"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a7054d48-5ed3-43a1-85e5-9f306b081b4f.jpg?1615603321"],
     "layout": "normal",
     "type_line": "Legendary Snow Creature — Troll Warrior",
     "oracle_text": "{3}, {T}: Create a colorless snow artifact token named Icy Manalith with \"{T}: Add one mana of any color.\"\n{6}{R}{G}, {T}: Look at the top four cards of your library. You may cast a spell from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.",
@@ -5321,7 +5321,7 @@
     "multiverse_ids": [
       1230466
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/f/9f9e61c0-b185-4704-913f-9284ed0ce250.jpg?1611173997"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/f/9f9e61c0-b185-4704-913f-9284ed0ce250.jpg?1615605959"],
     "layout": "normal",
     "type_line": "Basic Land — Swamp",
     "oracle_text": "({T}: Add {B}.)",
@@ -5378,7 +5378,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -5388,7 +5388,7 @@
     "multiverse_ids": [
       1230505
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be43a643-6cb7-4bb6-a28d-8ad30b7fbb6d.jpg?1610909969"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be43a643-6cb7-4bb6-a28d-8ad30b7fbb6d.jpg?1615602785"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 2/2 blue Shapeshifter creature token with changeling.\nII — Any number of target Shapeshifter creatures you control have base power and toughness 4/4.\nIII — Choose up to one target creature or planeswalker. Each creature with power 4 or greater you control deals damage equal to its power to that permanent.",
@@ -5410,7 +5410,7 @@
     "multiverse_ids": [
       1230857
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/669975ed-0501-4b48-988d-29c1215179a4.jpg?1610999315"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/669975ed-0501-4b48-988d-29c1215179a4.jpg?1615602814"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 2/3 red Demon Berserker creature token with menace.\nII — Whenever a Berserker attacks this turn, you draw a card and you lose 1 life.\nIII — Add {R} for each Berserker you control. Until end of turn, you don't lose this mana as steps and phases end.",
@@ -5432,7 +5432,7 @@
     "multiverse_ids": [
       1230730
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d00bd457-e1cc-45e1-8b2e-58f886bd6df8.jpg?1611798158"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d00bd457-e1cc-45e1-8b2e-58f886bd6df8.jpg?1615603239"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 1/1 blue Bird creature token with flying. You gain 2 life.\nII — Whenever one or more creatures you control with flying deal combat damage to a player this turn, look at that player's hand and draw a card.\nIII — You may put a card you own from outside the game on top of your library.",
@@ -5454,7 +5454,7 @@
     "multiverse_ids": [
       1230885
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/8/48ce03b3-ec7c-46df-b89a-55405f3b5245.jpg?1611247449"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/8/48ce03b3-ec7c-46df-b89a-55405f3b5245.jpg?1616207746"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Mill three cards.\nII — Return up to two target snow permanent cards from your graveyard to your hand.\nIII — Choose three cards in each graveyard. Their owners shuffle those cards into their libraries.",
@@ -5466,7 +5466,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -5476,7 +5476,7 @@
     "multiverse_ids": [
       1230151
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4aa19a68-0d71-4123-a64d-8cb76f93cd74.jpg?1610152084"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4aa19a68-0d71-4123-a64d-8cb76f93cd74.jpg?1616207777"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — You may exchange control of two target creatures.\nII — You may exchange control of two target nonbasic, noncreature permanents that share a card type.\nIII — Target player loses 3 life and you gain 3 life.",
@@ -5488,7 +5488,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -5498,7 +5498,7 @@
     "multiverse_ids": [
       1230165
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a70cb6d9-3955-4064-917b-11dec26440c5.jpg?1610586862"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a70cb6d9-3955-4064-917b-11dec26440c5.jpg?1615604360"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "The World Tree enters the battlefield tapped.\n{T}: Add {G}.\nAs long as you control six or more lands, lands you control have \"{T}: Add one mana of any color.\"\n{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice The World Tree: Search your library for any number of God cards, put them onto the battlefield, then shuffle your library.",
@@ -5523,7 +5523,7 @@
     "multiverse_ids": [
       1230206
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/d/dd921e27-3e08-438c-bec2-723226d35175.jpg?1610391556"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/d/dd921e27-3e08-438c-bec2-723226d35175.jpg?1614988322"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Counter target spell. Choose 1, 2, or 3 at random. Its controller mills that many cards, then exiles cards from the top of their library until they exile a nonland card with a different name than that spell. They may cast that card without paying its mana cost. Then they put the exiled cards on the bottom of their library in a random order.",
@@ -5569,7 +5569,7 @@
     "multiverse_ids": [
       1230207
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/2318d4f8-309e-4645-b6d1-46572edd6996.jpg?1610391437"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/2318d4f8-309e-4645-b6d1-46572edd6996.jpg?1614988354"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "Equipped creature gets +1/+1.\nWhenever equipped creature becomes blocked, it deals 1 damage to defending player.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -5580,7 +5580,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "khm"
   },
   {
@@ -5590,7 +5590,7 @@
     "multiverse_ids": [
       1229494
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f9e79b59-94c8-4697-bf88-f0a0433170f5.jpg?1609099942"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f9e79b59-94c8-4697-bf88-f0a0433170f5.jpg?1614989768"],
     "layout": "normal",
     "type_line": "Legendary Creature — Squirrel",
     "oracle_text": "This spell can't be countered.\nIndestructible\nToski, Bearer of Secrets attacks each combat if able.\nWhenever a creature you control deals combat damage to a player, draw a card.",
@@ -5611,7 +5611,7 @@
     "multiverse_ids": [
       1230527
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b251aa7c-d011-4b52-ab92-415d536c0182.jpg?1610996938"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b251aa7c-d011-4b52-ab92-415d536c0182.jpg?1614988390"],
     "layout": "normal",
     "type_line": "Snow Sorcery",
     "oracle_text": "Tundra Fumarole deals 4 damage to target creature or planeswalker. Add {C} for each {S} spent to cast this spell. Until end of turn, you don't lose this mana as steps and phases end. ({S} is mana from a snow source.)",
@@ -5632,7 +5632,7 @@
     "multiverse_ids": [
       1230500
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a54d0170-a375-4e65-b98d-3e94a3aeef90.jpg?1610734526"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/5/a54d0170-a375-4e65-b98d-3e94a3aeef90.jpg?1614988420"],
     "layout": "normal",
     "type_line": "Creature — Human Berserker",
     "oracle_text": "Boast — {1}: Exile the top card of your library. You may play that card this turn. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -5643,7 +5643,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -5653,7 +5653,7 @@
     "multiverse_ids": [
       1230849
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/309ff3bf-acd3-4bea-b518-6e25f6cfce61.jpg?1610824869"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/0/309ff3bf-acd3-4bea-b518-6e25f6cfce61.jpg?1615604285"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "{T}: Add {C}.\n{2}, {T}: Target legendary creature becomes a God in addition to its other types. Put a +1/+1 counter on it.\n{4}, {T}, Sacrifice Tyrite Sanctum: Put an indestructible counter on target God.",
@@ -5672,7 +5672,7 @@
     "multiverse_ids": [
       1230211
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/d/8d18008f-10d2-4cdf-b4b5-7675782a8b0d.jpg?1610391454"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/d/8d18008f-10d2-4cdf-b4b5-7675782a8b0d.jpg?1614989801"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Tyvar",
     "oracle_text": "Elves you control have \"{T}: Add {B}.\"\n+1: Put a +1/+1 counter on up to one target Elf. Untap it. It gains deathtouch until end of turn.\n0: Create a 1/1 green Elf Warrior creature token.\n−6: You get an emblem with \"Whenever you cast an Elf spell, it gains haste until end of turn and you draw two cards.\"",
@@ -5694,7 +5694,7 @@
     "multiverse_ids": [
       1230180
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/550c745b-64e8-4d20-9cf0-024248ddbd57.jpg?1610234721"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/550c745b-64e8-4d20-9cf0-024248ddbd57.jpg?1614987070"],
     "layout": "normal",
     "type_line": "Creature — Giant Rogue",
     "oracle_text": "Flash\nUndersea Invader enters the battlefield tapped.",
@@ -5705,7 +5705,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "khm"
   },
   {
@@ -5715,7 +5715,7 @@
     "multiverse_ids": [
       1230724
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24e58478-c6a8-4f86-854a-a489c99bd777.jpg?1610732645"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24e58478-c6a8-4f86-854a-a489c99bd777.jpg?1614985528"],
     "layout": "normal",
     "type_line": "Creature — Spirit Warrior",
     "oracle_text": "Boast — {1}{W}: Create a 1/1 white Human Warrior creature token. (Activate this ability only if this creature attacked this turn and only once each turn.)",
@@ -5762,7 +5762,7 @@
     "multiverse_ids": [
       1230743
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/7/97873c66-6bff-4d79-850c-1e2663098ef4.jpg?1610714064"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/7/97873c66-6bff-4d79-850c-1e2663098ef4.jpg?1614985560"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "When Valkyrie's Sword enters the battlefield, you may pay {4}{W}. If you do, create a 4/4 white Angel Warrior creature token with flying and vigilance, then attach Valkyrie's Sword to it.\nEquipped creature gets +2/+1.\nEquip {3}",
@@ -5773,7 +5773,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "khm"
   },
   {
@@ -5783,7 +5783,7 @@
     "multiverse_ids": [
       1230934
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/3/83632e73-be3f-43fc-932f-45cb1af4f8fb.jpg?1611053713"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/3/83632e73-be3f-43fc-932f-45cb1af4f8fb.jpg?1614985596"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature gets +1/+1.\nWhen enchanted creature leaves the battlefield, create a 1/1 white Spirit creature token with flying.",
@@ -5825,7 +5825,7 @@
     "multiverse_ids": [
       1230668
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74f68014-489d-4f51-a959-0f335541cb4e.jpg?1610852627"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74f68014-489d-4f51-a959-0f335541cb4e.jpg?1614988451"],
     "layout": "normal",
     "type_line": "Creature — Dwarf Rogue",
     "oracle_text": "{1}, {T}, Exile a creature card from your graveyard: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -5836,7 +5836,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -5846,7 +5846,7 @@
     "multiverse_ids": [
       1230177
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/8/28fced7f-3078-4a54-8f76-0ef14c732e97.jpg?1610226957"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/8/28fced7f-3078-4a54-8f76-0ef14c732e97.jpg?1615603344"],
     "layout": "normal",
     "type_line": "Legendary Creature — Bird Spirit",
     "oracle_text": "Flying\nWhenever you cast a spell from anywhere other than your hand, draw a card.",
@@ -5858,7 +5858,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -5879,7 +5879,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "khm"
   },
   {
@@ -5910,7 +5910,7 @@
     "multiverse_ids": [
       1230112
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f2392fbb-d9c4-4688-b99c-4e7614c60c12.jpg?1610996942"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f2392fbb-d9c4-4688-b99c-4e7614c60c12.jpg?1615604310"],
     "layout": "normal",
     "type_line": "Snow Land — Island Mountain",
     "oracle_text": "({T}: Add {U} or {R}.)\nVolatile Fjord enters the battlefield tapped.",
@@ -5932,7 +5932,7 @@
     "multiverse_ids": [
       1230135
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/92613468-205e-488b-930d-11908477e9f8.jpg?1610149607"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/92613468-205e-488b-930d-11908477e9f8.jpg?1614989836"],
     "layout": "normal",
     "type_line": "Legendary Creature — Phyrexian Praetor",
     "oracle_text": "Trample, haste\nIf you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.\nIf an opponent would put one or more counters on a permanent or player, they put half that many of each of those kinds of counters on that permanent or player instead, rounded down.",
@@ -5943,7 +5943,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "khm"
   },
   {
@@ -5953,7 +5953,7 @@
     "multiverse_ids": [
       1230213
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/6/36016324-384c-4c68-8f73-8f39a244c879.jpg?1610586318"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/6/36016324-384c-4c68-8f73-8f39a244c879.jpg?1615603369"],
     "layout": "saga",
     "type_line": "Enchantment — Saga",
     "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy target land.\nII — Put target land card from a graveyard onto the battlefield under your control.\nIII — Choose target opponent. If they control fewer lands than you, create a number of 4/4 green Troll Warrior creature tokens with trample equal to the difference.",
@@ -5965,7 +5965,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "khm"
   },
   {
@@ -5975,7 +5975,7 @@
     "multiverse_ids": [
       1230884
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/f/3fc98aff-edc0-4f78-ae4f-e08735c9e512.jpg?1610999564"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/f/3fc98aff-edc0-4f78-ae4f-e08735c9e512.jpg?1614985636"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Creatures you control get +2/+1 until end of turn.\nForetell {2}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -5986,7 +5986,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "khm"
   },
   {
@@ -5996,7 +5996,7 @@
     "multiverse_ids": [
       1230420
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0fc2478f-e624-46fb-85af-1254564cd4d2.jpg?1610495622"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0fc2478f-e624-46fb-85af-1254564cd4d2.jpg?1615603712"],
     "layout": "normal",
     "type_line": "Artifact",
     "oracle_text": "Nonland permanent cards in graveyards and libraries can't enter the battlefield.\nPlayers can't cast spells from graveyards or libraries.",
@@ -6026,7 +6026,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 1.5,
     "set": "khm"
   },
   {
@@ -6036,7 +6036,7 @@
     "multiverse_ids": [
       1230435
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/6/d6b26c95-f90d-43fb-8c99-2a3aa13ac2c6.jpg?1610562354"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/6/d6b26c95-f90d-43fb-8c99-2a3aa13ac2c6.jpg?1614985669"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +1/+3 and gains flying until end of turn. Untap it.",
@@ -6057,7 +6057,7 @@
     "multiverse_ids": [
       1230297
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/9/597fe119-64a7-4499-8b69-738af5a71a20.jpg?1610393414"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/9/597fe119-64a7-4499-8b69-738af5a71a20.jpg?1614987167"],
     "layout": "normal",
     "type_line": "Enchantment — Aura",
     "oracle_text": "Enchant creature\nEnchanted creature has base power 0 and has \"At the beginning of your upkeep, you lose 1 life unless you sacrifice this creature.\"",
@@ -6068,7 +6068,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "khm"
   },
   {
@@ -6078,7 +6078,7 @@
     "multiverse_ids": [
       1230111
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b2dd0b71-5a60-418c-82fc-f13d1b5075d0.jpg?1610996944"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b2dd0b71-5a60-418c-82fc-f13d1b5075d0.jpg?1615604337"],
     "layout": "normal",
     "type_line": "Snow Land — Swamp Forest",
     "oracle_text": "({T}: Add {B} or {G}.)\nWoodland Chasm enters the battlefield tapped.",
