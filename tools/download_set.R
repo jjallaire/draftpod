@@ -150,7 +150,7 @@ download_cards <- function(cards,
       if (!is.null(card$arena_id)) {
         multiverse_ids <- list(card$arena_id)
       } else {
-        baseline <- switch(set,
+        baseline <- switch(card$set,
                            rna = 500000,
                            war = 460927,
                            mh1 = 463949,
@@ -161,6 +161,7 @@ download_cards <- function(cards,
                            `2xm` = 489673,
                            khm = 900000,
                            stx = 910000,
+                           sta = 920000,
         )
         multiverse_ids <- list(baseline + collector_number)
       }
@@ -312,6 +313,7 @@ download_cards <- function(cards,
     klr = 301,
     khm = 398,
     stx = 280,
+    sta = 63,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000
