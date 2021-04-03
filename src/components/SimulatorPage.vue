@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'khm',
+      set_code: 'stx',
       number: 100,
       decks: []
     }

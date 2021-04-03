@@ -1,0 +1,4571 @@
+[
+  {
+    "id": 910091,
+    "name": "\"Academic Debate\"",
+    "collector_number": 91,
+    "multiverse_ids": [
+      910091
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/4620cc3b-e401-4096-b310-fed080806344.jpg?1617150556"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature blocks this turn if able. You may have that creature gain reach until end of turn.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910262,
+    "name": "Access Tunnel",
+    "collector_number": 262,
+    "multiverse_ids": [
+      910262
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/d/edf8eb51-9643-4c54-b38e-e7abea92bbe1.jpg?1617268097"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}: Add {C}.\n{3}, {T}: Target creature with power 3 or less can't be blocked this turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910119,
+    "name": "Accomplished Alchemist",
+    "collector_number": 119,
+    "multiverse_ids": [
+      910119
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0d7b7830-b65e-4c53-98e8-152026764e4b.jpg?1617223718"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Druid",
+    "oracle_text": "{T}: Add one mana of any color.\n{T}: Add X mana of any one color, where X is the amount of life you gained this turn.",
+    "mana_cost": "{3}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910162,
+    "name": "Aether Helix",
+    "collector_number": 162,
+    "multiverse_ids": [
+      910162
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/d/7d1c653e-f629-4105-a52c-379c5cd78208.jpg?1617222957"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Return target permanent to its owner's hand. Return target permanent card from your graveyard to your hand.",
+    "mana_cost": "{3}{G}{U}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910008,
+    "name": "Ageless Guardian",
+    "collector_number": 8,
+    "multiverse_ids": [
+      910008
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4a5ff6af-402f-4bf6-a75b-dc1e0e40aff6.jpg?1617070145"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit Soldier",
+    "oracle_text": "",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910063,
+    "name": "\"A Poet That Knows It\"",
+    "collector_number": 63,
+    "multiverse_ids": [
+      910063
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/556a0816-83c5-41dc-8546-213b21e2cceb.jpg?1617145403"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warlock",
+    "oracle_text": "Whenever \"A Poet That Knows It\" attacks, you may pay 2 life. If you do, it gains flying until end of turn.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910097,
+    "name": "\"Approach of the Dragon\"",
+    "collector_number": 97,
+    "multiverse_ids": [
+      910097
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/c/0cb504a0-1dfb-49d0-84c3-7bd318d55481.jpg?1617150530"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "\"Approach of the Dragon\" deals 3 damage to each opponent. Then you may exile \"Approach of the Dragon\" and four other cards named \"Approach of the Dragon\" from your graveyard. If you do, search your library for a Dragon creature card, put it into the battlefield, then shuffle.\nA deck can have any number of cards named \"Approach of the Dragon\".",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910037,
+    "name": "Archmage Emeritus",
+    "collector_number": 37,
+    "multiverse_ids": [
+      910037
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/761df6cd-0928-4167-8902-58fdb50181a0.jpg?1616693970"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, draw a card.",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910263,
+    "name": "Archway Commons",
+    "collector_number": 263,
+    "multiverse_ids": [
+      910263
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/6/f6f6a2ff-7eb7-4680-af2b-e69ac88a65c9.jpg?1617219730"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Archway Commons enters the battlefield tapped.\nWhen Archway Commons enters the battlefield, sacrifice it unless you pay {1}.\n{T}: Add one mana of any color.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910147,
+    "name": "Augmenter Pugilist // Echoing Equation",
+    "collector_number": 147,
+    "multiverse_ids": [
+      910147,
+      911147
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d9131fc3-018a-4975-8795-47be3956160d.jpg?1617224369",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/d/9/d9131fc3-018a-4975-8795-47be3956160d.jpg?1617224369"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Creature — Troll Druid // Sorcery",
+    "oracle_text": {},
+    "mana_cost": "{1}{G}{G}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910064,
+    "name": "Baleful Mastery",
+    "collector_number": 64,
+    "multiverse_ids": [
+      910064
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/5/35f1a6ba-e46f-44fb-93f4-fb883d677b36.jpg?1617222479"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "You may pay {1}{B} rather than pay this spell's mana cost.\nIf the {1}{B} cost was paid, an opponent draws a card.\nExile target creature or planeswalker.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910120,
+    "name": "Basic Conjuration",
+    "collector_number": 120,
+    "multiverse_ids": [
+      910120
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8be52d88-f430-4437-a0d3-590c2947c838.jpg?1617309151"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Look at the top six cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. You gain 3 life.",
+    "mana_cost": "{1}{G}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910009,
+    "name": "Beaming Defiance",
+    "collector_number": 9,
+    "multiverse_ids": [
+      910009
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7e22411c-11c1-4770-8491-7952dd406e01.jpg?1617148555"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature you control gets +2/+2 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910164,
+    "name": "Biomathematician",
+    "collector_number": 164,
+    "multiverse_ids": [
+      910164
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/4/b41a35ef-dae1-4534-a12a-d3951b285273.jpg?1617225835"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "When Biomathematician enters the battlefield, create a 0/0 green and blue Fractal creature token. Put a +1/+1 counter on each Fractal you control.",
+    "mana_cost": "{1}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910165,
+    "name": "Blade Historian",
+    "collector_number": 165,
+    "multiverse_ids": [
+      910165
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/4/a46d64ec-aca4-428e-bce6-66cd755c8cc3.jpg?1617071363"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "oracle_text": "Attacking creatures you control have double strike.",
+    "mana_cost": "{R/W}{R/W}{R/W}{R/W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910167,
+    "name": "Blot Out the Sky",
+    "collector_number": 167,
+    "multiverse_ids": [
+      910167
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/1/0141312f-4b68-4c56-b1dc-5b7e6afbb96c.jpg?1617317506"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create X tapped 2/1 white and black Inkling creature tokens with flying. If X is 6 or more, destroy all noncreature, nonland permanents.",
+    "mana_cost": "{X}{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910168,
+    "name": "Body of Research",
+    "collector_number": 168,
+    "multiverse_ids": [
+      910168
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/98b56823-0076-49cc-b5aa-4accb8e2782e.jpg?1617312536"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is the number of cards in your library.",
+    "mana_cost": "{G}{G}{G}{U}{U}{U}",
+    "cmc": 6,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910123,
+    "name": "Bookwurm",
+    "collector_number": 123,
+    "multiverse_ids": [
+      910123
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/57d230fc-d382-40b4-bdbd-5fe880fa16bf.jpg?1617314124"],
+    "layout": "normal",
+    "type_line": "Creature — Wurm",
+    "oracle_text": "Trample\nWhen Bookwurm enters the battlefield, you gain 3 life and draw a card.\n{2}{G}: Put Bookwurm from your graveyard into your library third from the top.",
+    "mana_cost": "{7}{G}",
+    "cmc": 8,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910039,
+    "name": "Bury in Books",
+    "collector_number": 39,
+    "multiverse_ids": [
+      910039
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/ac2a2cf5-80cf-4c06-8b04-bc04a5460de5.jpg?1617072086"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "This spell costs {2} less to cast if it targets an attacking creature.\nPut target creature into its owner's library second from the top.",
+    "mana_cost": "{4}{U}",
+    "cmc": 5,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910252,
+    "name": "Campus Guide",
+    "collector_number": 252,
+    "multiverse_ids": [
+      910252
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87a9a8a2-de81-441b-b501-418311b677f7.jpg?1617072724"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Golem",
+    "oracle_text": "When Campus Guide enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910124,
+    "name": "Charge Through",
+    "collector_number": 124,
+    "multiverse_ids": [
+      910124
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/d/ed16926f-feb0-481a-8c5e-88ea119752cd.jpg?1617312303"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gains trample until end of turn.\nDraw a card.",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910010,
+    "name": "Clever Lumimancer",
+    "collector_number": 10,
+    "multiverse_ids": [
+      910010
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/69957656-cfdf-4001-8e84-0ef29e4a468d.jpg?1617148938"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, Clever Lumimancer gets +2/+2 until end of turn.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910169,
+    "name": "Closing Statement",
+    "collector_number": 169,
+    "multiverse_ids": [
+      910169
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/8/785e6d07-fe40-4723-b963-02da0a0987c7.jpg?1617333619"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "This spell costs {2} less to cast during your end step.\nDestroy target creature or planeswalker you don't control. Put a +1/+1 counter on up to one target creature you control.",
+    "mana_cost": "{3}{W}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910253,
+    "name": "Codie, Vociferous Codex",
+    "collector_number": 253,
+    "multiverse_ids": [
+      910253
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea476ee1-67d9-4dd8-a5ac-f68a155eb18b.jpg?1617075410"],
+    "layout": "normal",
+    "type_line": "Legendary Artifact Creature — Construct",
+    "oracle_text": "You can't cast permanent spells.\n{4}, {T}: Add {W}{U}{B}{R}{G}. When you cast your next spell this turn, exile cards from the top of your library until you exile an instant or sorcery card with lesser mana value. Until end of turn, you may cast that card without paying its mana cost. Put each other card exiled this way on the bottom of your library in a random order.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910254,
+    "name": "Cogwork Archivist",
+    "collector_number": 254,
+    "multiverse_ids": [
+      910254
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8c024a2d-20fb-478b-a62e-e3590a1e3ac1.jpg?1617222412"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Construct",
+    "oracle_text": "Reach\n{2}, {T}: Put target card from a graveyard on the bottom of its owner's library.",
+    "mana_cost": "{6}",
+    "cmc": 6,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910011,
+    "name": "Combat Professor",
+    "collector_number": 11,
+    "multiverse_ids": [
+      910011
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/f/3f669ac4-98ed-4e23-91a9-281f8277ab04.jpg?1617148547"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Cleric",
+    "oracle_text": "Flying\nAt the beginning of combat on your turn, target creature you control gets +1/+0 and gains vigilance until end of turn.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910067,
+    "name": "Confront the Past",
+    "collector_number": 67,
+    "multiverse_ids": [
+      910067
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e1951763-be97-400c-aa95-6b101f47bddf.jpg?1616839280"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Choose one —\n• Return target planeswalker card with mana value X or less from your graveyard to the battlefield.\n• Remove twice X loyalty counters from target planeswalker an opponent controls.",
+    "mana_cost": "{X}{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910094,
+    "name": "\"Conspiracy Theorist\"",
+    "collector_number": 94,
+    "multiverse_ids": [
+      910094
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/742a7487-70a2-448b-8e66-c33cba798a32.jpg?1617150536"],
+    "layout": "normal",
+    "type_line": "Creature — Human Shaman",
+    "oracle_text": "Whenever \"Conspiracy Theorist\" attacks, you may pay {1} and discard a card. If you do, draw a card.\nWhenever you discard one or more nonland cards, you may exile one of them from your graveyard. If you do, you may cast that card this turn.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910095,
+    "name": "Crackle with Power",
+    "collector_number": 95,
+    "multiverse_ids": [
+      910095
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/e/de547f52-3798-4b3a-947d-24873251204b.jpg?1617333692"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Crackle with Power deals five times X damage to each of up to X targets.",
+    "mana_cost": "{X}{X}{X}{R}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910171,
+    "name": "Creative Outburst",
+    "collector_number": 171,
+    "multiverse_ids": [
+      910171
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/eab58d87-bf01-45dc-8958-e2b3375f914b.jpg?1617225886"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Creative Outburst deals 5 damage to any target. Look at the top five cards of your library. Put one of them into your hand and the rest on the bottom of your library in a random order.\n{U/R}{U/R}, Discard Creative Outburst: Create a Treasure token.",
+    "mana_cost": "{3}{U}{U}{R}{R}",
+    "cmc": 7,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910038,
+    "name": "\"Croaktara\"",
+    "collector_number": 38,
+    "multiverse_ids": [
+      910038
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/6040c573-cd8c-4593-8ade-d9922482035c.jpg?1617267160"],
+    "layout": "normal",
+    "type_line": "Creature — Frog Wizard",
+    "oracle_text": "Flash\nWhen \"Croaktara\" enters the battlefield, target creature an opponent controls gets -1/-0 until end of turn.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910173,
+    "name": "Culmination of Studies",
+    "collector_number": 173,
+    "multiverse_ids": [
+      910173
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/2483060e-9d3f-48ae-80ea-0119bf6b4d67.jpg?1617137937"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Exile the top X cards of your library. For each land card exiled this way, create a Treasure token. For each blue card exiled this way, draw a card. For each red card exiled this way, Culmination of Studies deals 1 damage to each opponent.",
+    "mana_cost": "{X}{U}{R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910040,
+    "name": "Curate",
+    "collector_number": 40,
+    "multiverse_ids": [
+      910040
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f2a0e716-22b7-4a5e-9b7a-d4a806ee7427.jpg?1617072183"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Look at the top two cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.\nDraw a card.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910177,
+    "name": "Decisive Denial",
+    "collector_number": 177,
+    "multiverse_ids": [
+      910177
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b2e9d132-95f7-4ee7-9c91-be19e4ad7a5d.jpg?1617312719"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)\n• Counter target noncreature spell unless its controller pays {3}.",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910068,
+    "name": "\"Deep Disappointment\"",
+    "collector_number": 68,
+    "multiverse_ids": [
+      910068
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7fbe8cf1-11df-4ca4-9a6b-265193c49250.jpg?1617145498"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Each player loses 2 life. You draw two cards.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910012,
+    "name": "Defend the Campus",
+    "collector_number": 12,
+    "multiverse_ids": [
+      910012
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/5/85e4e1b5-77d6-4af4-b22e-6f6b4d129f5d.jpg?1617146178"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Creatures you control get +1/+1 until end of turn.\n• Destroy target creature with power 4 or greater.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910013,
+    "name": "Detention Vortex",
+    "collector_number": 13,
+    "multiverse_ids": [
+      910013
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54ebe581-be17-415a-a160-28d8f4e95636.jpg?1617315428"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant nonland permanent\nEnchanted permanent can't attack or block, and its activated abilities can't be activated.\n{3}: Destroy Detention Vortex. Only your opponents may activate this ability and only as a sorcery.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910179,
+    "name": "Double Major",
+    "collector_number": 179,
+    "multiverse_ids": [
+      910179
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c3d35413-8742-4443-8859-93c91112978d.jpg?1617312416"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Copy target creature spell you control, except it isn't legendary if the spell is legendary. (A copy of a creature spell becomes a token.)",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910096,
+    "name": "Draconic Intervention",
+    "collector_number": 96,
+    "multiverse_ids": [
+      910096
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/5/657de246-b9fc-47b1-b932-091e9500bb82.jpg?1617312806"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "As an additional cost to cast this spell, exile an instant or sorcery card from your graveyard.\nDraconic Intervention deals X damage to each non-Dragon creature, where X is the exiled card's mana value. If a creature dealt damage this way would die this turn, exile it instead.\nExile Draconic Intervention.",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910127,
+    "name": "Dragonsguard Elite",
+    "collector_number": 127,
+    "multiverse_ids": [
+      910127
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/5/658ec634-3eb2-4967-b938-d20d31ab77e3.jpg?1616692835"],
+    "layout": "normal",
+    "type_line": "Creature — Human Druid",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on Dragonsguard Elite.\n{4}{G}{G}: Double the number of +1/+1 counters on Dragonsguard Elite.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910180,
+    "name": "Dramatic Finale",
+    "collector_number": 180,
+    "multiverse_ids": [
+      910180
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a8ec9be6-c8ad-4a82-8253-c49cdb9443ba.jpg?1617267396"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "Creature tokens you control get +1/+1.\nWhenever one or more nontoken creatures you control die, create a 2/1 white and black Inkling creature token with flying. This ability triggers only once each turn.",
+    "mana_cost": "{W/B}{W/B}{W/B}{W/B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910015,
+    "name": "Dueling Coach",
+    "collector_number": 15,
+    "multiverse_ids": [
+      910015
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/45b3dbb0-0d68-4351-bfc9-a09c50454bf7.jpg?1617070330"],
+    "layout": "normal",
+    "type_line": "Creature — Human Monk",
+    "oracle_text": "When Dueling Coach enters the battlefield, put a +1/+1 counter on target creature.\n{4}{W}, {T}: Put a +1/+1 counter on each creature you control with a +1/+1 counter on it.",
+    "mana_cost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910016,
+    "name": "Eager First-Year",
+    "collector_number": 16,
+    "multiverse_ids": [
+      910016
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/a/7a83543b-3b6f-4e28-96f9-007b814bcfd6.jpg?1616839191"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, Eager First-Year gets +1/+0 until end of turn.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910128,
+    "name": "Ecological Appreciation",
+    "collector_number": 128,
+    "multiverse_ids": [
+      910128
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/1/115f3d72-1aaf-4237-91b9-389256e5e5c8.jpg?1617219410"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library and graveyard for up to four creature cards with different names that each have mana value X or less and reveal them. An opponent choses two of those cards. Shuffle the chosen cards into your library and put the rest onto the battlefield. Exile Ecological Appreciation.",
+    "mana_cost": "{X}{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910098,
+    "name": "Efreet Flamepainter",
+    "collector_number": 98,
+    "multiverse_ids": [
+      910098
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d9f0731c-2a3d-4613-bffa-8b967e4f142e.jpg?1617071461"],
+    "layout": "normal",
+    "type_line": "Creature — Efreet Shaman",
+    "oracle_text": "Double strike\nWhenever Efreet Flamepainter deals combat damage to a player, you may cast target instant or sorcery card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910183,
+    "name": "\"Elemental Calling\"",
+    "collector_number": 183,
+    "multiverse_ids": [
+      910183
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea51991c-1589-4c62-965b-5ae8d233520b.jpg?1617087118"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Create a 4/4 blue and red Elemental creature token.",
+    "mana_cost": "{3}{U/R}{U/R}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910181,
+    "name": "Elemental Expressionist",
+    "collector_number": 181,
+    "multiverse_ids": [
+      910181
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/34b6e53f-f605-430e-9455-b3653cbd8e1d.jpg?1617222620"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Wizard",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, choose target creature you control. Until end of turn, it gains \"If this creature would leave the battlefield, exile it instead of putting it anywhere else\" and \"When you exile this creature, create a 4/4 blue and red Elemental creature token.\"",
+    "mana_cost": "{U/R}{U/R}{U/R}{U/R}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910182,
+    "name": "Elemental Masterpiece",
+    "collector_number": 182,
+    "multiverse_ids": [
+      910182
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/3/4331a7a6-e98e-4517-b0f9-ace379426a94.jpg?1617225898"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create two 4/4 blue and red Elemental creature tokens.\n{U/R}{U/R}, Discard Elemental Masterpiece: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+    "mana_cost": "{5}{U}{R}",
+    "cmc": 7,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910017,
+    "name": "Elite Spellbinder",
+    "collector_number": 17,
+    "multiverse_ids": [
+      910017
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/d/9d3a7998-ccac-45ad-a4e9-3a2cb057f63b.jpg?1616963960"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "oracle_text": "Flying\nWhen Elite Spellbinder enters the battlefield, look at target opponent's hand. You may exile a nonland card from it. For as long as that card remains exiled, its owner may play it. A spell cast this way costs {2} more to cast.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910129,
+    "name": "Emergent Sequence",
+    "collector_number": 129,
+    "multiverse_ids": [
+      910129
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/4/04a81975-5f0e-4593-a2da-b9689f9a985f.jpg?1617223943"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. That land becomes a 0/0 green and blue Fractal creature that's still a land. Put a +1/+1 counter on it for each land you had enter the battlefield under your control this turn.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910099,
+    "name": "Enthusiastic Study",
+    "collector_number": 99,
+    "multiverse_ids": [
+      910099
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/543c64ff-2c51-4a63-a940-dc8645717c85.jpg?1616785356"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +3/+1 and gains trample until end of turn.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910001,
+    "name": "Environmental Sciences",
+    "collector_number": 1,
+    "multiverse_ids": [
+      910001
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/46b394fc-a99c-44e7-9226-da0699167541.jpg?1616785604"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle. You gain 2 life.",
+    "mana_cost": "{2}",
+    "cmc": 2,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910069,
+    "name": "Essence Infusion",
+    "collector_number": 69,
+    "multiverse_ids": [
+      910069
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71a48d0c-1e5b-43f2-8974-e2e5bb06310d.jpg?1617333794"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Put two +1/+1 counters on target creature. It gains lifelink until end of turn.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910184,
+    "name": "Eureka Moment",
+    "collector_number": 184,
+    "multiverse_ids": [
+      910184
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e400c9b7-c789-49dd-9f72-b9d1df03fcca.jpg?1617223630"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Draw two cards. You may put a land card from your hand onto the battlefield.",
+    "mana_cost": "{2}{G}{U}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910185,
+    "name": "Exhilarating Elocution",
+    "collector_number": 185,
+    "multiverse_ids": [
+      910185
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/4/8468417d-7ef5-43e0-9190-e88f3eed9e82.jpg?1617317681"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Put two +1/+1 counters on target creature you control. Other creatures you control get +1/+1 until end of turn.",
+    "mana_cost": "{2}{W}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910002,
+    "name": "Expanded Anatomy",
+    "collector_number": 2,
+    "multiverse_ids": [
+      910002
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/5/c5642b9d-0daa-4e6b-ad48-f88dd37d6574.jpg?1616723321"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Put two +1/+1 counters on target creature. It gains vigilance until end of turn.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910018,
+    "name": "Expel",
+    "collector_number": 18,
+    "multiverse_ids": [
+      910018
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be517a58-b7ee-4213-98a5-8c19e1b2def6.jpg?1617333568"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Exile target tapped creature.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910100,
+    "name": "Explosive Welcome",
+    "collector_number": 100,
+    "multiverse_ids": [
+      910100
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/2/122c01e6-38a6-456e-971e-9004df85ac1c.jpg?1617133828"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Explosive Welcome deals 5 damage to any target and 3 damage to any other target. Add {R}{R}{R}.",
+    "mana_cost": "{7}{R}",
+    "cmc": 8,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910130,
+    "name": "Exponential Growth",
+    "collector_number": 130,
+    "multiverse_ids": [
+      910130
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/c/7c129bb7-9489-44bd-a46d-c5f738bf9d25.jpg?1617350021"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Until end of turn, double target creature's power X times.",
+    "mana_cost": "{X}{X}{G}{G}",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910186,
+    "name": "Expressive Iteration",
+    "collector_number": 186,
+    "multiverse_ids": [
+      910186
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31b770cc-09e7-4c0b-b2a4-462ab4f7200d.jpg?1617225290"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Look at the top three cards of your library. Put one of them into your hand, put one of them on the bottom of your library, and exile one of them. You may play the exiled card this turn.",
+    "mana_cost": "{U}{R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910149,
+    "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+    "collector_number": 149,
+    "multiverse_ids": [
+      910149,
+      911149
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/ba09360a-067e-48a5-bdc5-a19fd066a785.jpg?1617150102",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/b/a/ba09360a-067e-48a5-bdc5-a19fd066a785.jpg?1617150102"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — Human Warlock // Sorcery",
+    "oracle_text": {},
+    "mana_cost": "{1}{W}{B}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910070,
+    "name": "\"Eyebat\"",
+    "collector_number": 70,
+    "multiverse_ids": [
+      910070
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/f/1f4d1bb6-cb8f-4d01-9879-0b3a0585cbf4.jpg?1617145542"],
+    "layout": "normal",
+    "type_line": "Creature — Eye Bat",
+    "oracle_text": "Flying\nWhen \"Eyebat\" dies, learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910136,
+    "name": "\"Fern Guy-ly\"",
+    "collector_number": 136,
+    "multiverse_ids": [
+      910136
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/e/4edfbed0-0c0d-4aa5-bfe0-5268aff0f958.jpg?1617232347"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create a 0/0 blue and green Fractal creature token. Put X +1/+1 counters on it, where X is the number of lands you control.",
+    "mana_cost": "{5}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910101,
+    "name": "Fervent Mastery",
+    "collector_number": 101,
+    "multiverse_ids": [
+      910101
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/f/1f824caf-b32c-442a-8631-887831a57360.jpg?1617223459"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "You may pay {2}{R}{R} rather than pay this spell's mana cost.\nIf the {2}{R}{R} cost was paid, an opponent discards any number of cards, then draws that many cards.\nSearch your library for up to three cards, put them into your hand, shuffle, then discard three cards at random.",
+    "mana_cost": "{3}{R}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910131,
+    "name": "Field Trip",
+    "collector_number": 131,
+    "multiverse_ids": [
+      910131
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f235060a-eb49-4a73-bb5f-01228c3c4070.jpg?1616838784"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for a basic Forest card, put that card onto the battlefield tapped, then shuffle.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910102,
+    "name": "First Day of Class",
+    "collector_number": 102,
+    "multiverse_ids": [
+      910102
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/9/091eb13d-9318-4b12-9f94-6276b11981d1.jpg?1616723400"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Whenever a creature enters the battlefield under your control this turn, put a +1/+1 counter on it and it gains haste until end of turn.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910150,
+    "name": "Flamescroll Celebrant // Revel in Silence",
+    "collector_number": 150,
+    "multiverse_ids": [
+      910150,
+      911150
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0dba25e3-2b4f-45d4-965f-3834bcb359ee.jpg?1617204839",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/0/d/0dba25e3-2b4f-45d4-965f-3834bcb359ee.jpg?1617204839"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Creature — Human Shaman // Instant",
+    "oracle_text": {},
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910280,
+    "name": "Forest",
+    "collector_number": 280,
+    "multiverse_ids": [
+      910280
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/dfaf517f-86a1-45eb-bd71-e0bffb610396.jpg?1616785794"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": [2, 0],
+    "set": "stx"
+  },
+  {
+    "id": 910132,
+    "name": "Fortifying Draught",
+    "collector_number": 132,
+    "multiverse_ids": [
+      910132
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/7/6789b717-a000-464a-a39b-32c1aeefe560.jpg?1617232680"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "You gain 2 life. Target creature gets +X/+X until end of turn, where X is the amount of life you gained this turn.",
+    "mana_cost": "{G}",
+    "cmc": 1,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910092,
+    "name": "\"Forum Mooderator\"",
+    "collector_number": 92,
+    "multiverse_ids": [
+      910092
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7ff4832a-26c0-4da5-abbb-1941e7084e72.jpg?1617225200"],
+    "layout": "normal",
+    "type_line": "Creature — Minotaur Shaman",
+    "oracle_text": "Whenever \"Forum Mooderator\" attacks, you may put an instant or sorcery card from your graveyard on the bottom of your library. If you do, exile top two cards of your library. Until end of turn, you may play those cards.",
+    "mana_cost": "{4}{R}",
+    "cmc": 5,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910187,
+    "name": "\"Frog Fractals\"",
+    "collector_number": 187,
+    "multiverse_ids": [
+      910187
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/cc3f1f7e-eb19-49c1-a1ee-93b85ac8815c.jpg?1617179957"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Create a 0/0 blue and green Fractal creature token and put X +1/+1 counters on it.",
+    "mana_cost": "{X}{G/U}{G/U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910265,
+    "name": "Frostboil Snarl",
+    "collector_number": 265,
+    "multiverse_ids": [
+      910265
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c22ba565-da08-4957-93bb-8d266fe0b0d8.jpg?1616699438"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "As Frostboil Snarl enters the battlefield, you may reveal an Island or Mountain card from your hand. If you don't, Frostboil Snarl enters the battlefield tapped.\n{T}: Add {U} or {R}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910043,
+    "name": "Frost Trickster",
+    "collector_number": 43,
+    "multiverse_ids": [
+      910043
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/d/fd79c9cc-0a8c-4d88-96e2-cb177134a18d.jpg?1617143952"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Wizard",
+    "oracle_text": "Flying\nWhen Frost Trickster enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910103,
+    "name": "Fuming Effigy",
+    "collector_number": 103,
+    "multiverse_ids": [
+      910103
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/c/7ce76a38-fc5f-4e29-ba24-4a877179a62c.jpg?1617312134"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit",
+    "oracle_text": "Whenever one or more cards leave your graveyard, Fuming Effigy deals 1 damage to each opponent.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910266,
+    "name": "Furycalm Snarl",
+    "collector_number": 266,
+    "multiverse_ids": [
+      910266
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/3/53e33f37-7fd1-4431-a032-cd61b644401c.jpg?1616699476"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "As Furycalm Snarl enters the battlefield, you may reveal a Mountain or Plains card from your hand. If you don't, Furycalm Snarl enters the battlefield tapped.\n{T}: Add {R} or {W}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910189,
+    "name": "Galazeth Prismari",
+    "collector_number": 189,
+    "multiverse_ids": [
+      910189
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/6/06c9158c-064b-4d12-b860-d2c1450d1897.jpg?1617232208"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elder Dragon",
+    "oracle_text": "Flying\nWhen Galazeth Prismari enters the battlefield, create a Treasure token.\nArtifacts you control have \"{T}: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.\"",
+    "mana_cost": "{2}{U}{R}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910093,
+    "name": "\"Geist Commander\"",
+    "collector_number": 93,
+    "multiverse_ids": [
+      910093
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f30237cc-27c8-4075-acbd-d75a16588a68.jpg?1617150516"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit Warrior",
+    "oracle_text": "{T}: Attacking Spirits you control get +1/+0 until end of turn.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910133,
+    "name": "Gnarled Professor",
+    "collector_number": 133,
+    "multiverse_ids": [
+      910133
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a32338e8-1f6a-49b9-bd93-26578adab6b3.jpg?1617317960"],
+    "layout": "normal",
+    "type_line": "Creature — Treefolk Druid",
+    "oracle_text": "Trample\nWhen Gnarled Professor enters the battlefield, learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{2}{G}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910072,
+    "name": "Go Blank",
+    "collector_number": 72,
+    "multiverse_ids": [
+      910072
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/4/846e8657-7435-44c6-a997-b8b156d0cd2c.jpg?1617071118"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target player discards two cards. Then exile all cards from that player's graveyard.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910190,
+    "name": "Golden Ratio",
+    "collector_number": 190,
+    "multiverse_ids": [
+      910190
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/626fbddb-3963-4dd2-8507-9777ed66bbbc.jpg?1617144288"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Draw a card for each different power among creatures you control.",
+    "mana_cost": "{1}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910104,
+    "name": "Grinning Ignus",
+    "collector_number": 104,
+    "multiverse_ids": [
+      910104
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/f/cfa04897-6438-45e5-a10b-2e8afaf2b9eb.jpg?1617086470"],
+    "layout": "normal",
+    "type_line": "Creature — Elemental",
+    "oracle_text": "{R}, Return Grinning Ignus to its owner's hand: Add {C}{C}{R}. Activate this ability only any time you could cast a sorcery.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910105,
+    "name": "Hall Monitor",
+    "collector_number": 105,
+    "multiverse_ids": [
+      910105
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/02fdc551-0b22-49f4-8765-143ad82f16a3.jpg?1617221503"],
+    "layout": "normal",
+    "type_line": "Creature — Lizard Shaman",
+    "oracle_text": "Haste\n{1}{R}, {T}: Target creature can't block this turn.",
+    "mana_cost": "{R}",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910267,
+    "name": "Hall of Oracles",
+    "collector_number": 267,
+    "multiverse_ids": [
+      910267
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/7642dddd-4461-46dd-b396-9e0a89f7232e.jpg?1617209017"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{T} Put a +1/+1 counter on target creature. Activate only as a sorcery and only if you've cast an instant or sorcery spell this turn.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910106,
+    "name": "Heated Debate",
+    "collector_number": 106,
+    "multiverse_ids": [
+      910106
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/4/f40c88e2-28ed-4e5b-bcb3-4397d6a15a6f.jpg?1617148565"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "This spell can't be countered. (This includes by the ward ability.)\nHeated Debate deals 4 damage to target creature or planeswalker.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910192,
+    "name": "Hofri Ghostforge",
+    "collector_number": 192,
+    "multiverse_ids": [
+      910192
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bd8deecf-eded-418b-ac4c-5c3e8f54e86d.jpg?1617071946"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Dwarf Cleric",
+    "oracle_text": "Spirits you control get +1/+1 and have trample and haste.\nWhenever another nontoken creature you control dies, exile it. If you do, create a token that's a copy of that creature, except it's a Spirit in addition to its other types and it has \"When this creature leaves the battlefield, return the exiled card to your graveyard.\"",
+    "mana_cost": "{3}{R}{W}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910193,
+    "name": "Humiliate",
+    "collector_number": 193,
+    "multiverse_ids": [
+      910193
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dc3ae8cb-fbdb-45a8-83c2-cbf4aff01f90.jpg?1617317580"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Put a +1/+1 counter on a creature you control.",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910135,
+    "name": "\"Hungry Chomp Rider\"",
+    "collector_number": 135,
+    "multiverse_ids": [
+      910135
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74729320-f6ee-4176-9463-397d6e477d7a.jpg?1617184396"],
+    "layout": "normal",
+    "type_line": "Creature — Elf Druid",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on target creature you control.",
+    "mana_cost": "{4}{G}",
+    "cmc": 5,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910107,
+    "name": "Igneous Inspiration",
+    "collector_number": 107,
+    "multiverse_ids": [
+      910107
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/5781ad7b-dc1b-4cc1-9e72-6e714b9ba1de.jpg?1617135100"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Igneous Inspiration deals 3 damage to any target.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910108,
+    "name": "Illuminate History",
+    "collector_number": 108,
+    "multiverse_ids": [
+      910108
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/98739789-80b5-4224-a2e4-09e00654aa9d.jpg?1617148587"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Discard any number of cards, then draw that many cards. Then if there are seven or more cards in your graveyard, create a 3/2 red and white Spirit creature token.",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910109,
+    "name": "Illustrious Historian",
+    "collector_number": 109,
+    "multiverse_ids": [
+      910109
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/6/56cc4e7d-3b06-4938-9023-d903912350c0.jpg?1617072918"],
+    "layout": "normal",
+    "type_line": "Creature — Human Shaman",
+    "oracle_text": "{5}, Exile Illustrious Historian from your graveyard: Create a tapped 3/2 red and white Spirit creature token.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910195,
+    "name": "Inkling Summoning",
+    "collector_number": 195,
+    "multiverse_ids": [
+      910195
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/4/04a8a5b8-9743-4d1a-89e9-61bdf180b2e0.jpg?1617330876"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Create a 2/1 white and black Inkling creature token with flying.",
+    "mana_cost": "{1}{W/B}{W/B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910081,
+    "name": "\"Into the Unknown Chatroom\"",
+    "collector_number": 81,
+    "multiverse_ids": [
+      910081
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/5034227f-3b8a-45bf-917c-c2cbd98f2192.jpg?1617334407"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "As an additional cost to cast this spell, you may sacrifice one or more creatures. If you do, copy this spell for each creature sacrificed this way.\nYou draw a card and lose 1 life.",
+    "mana_cost": "{1}{B}",
+    "cmc": 2,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910003,
+    "name": "Introduction to Annihilation",
+    "collector_number": 3,
+    "multiverse_ids": [
+      910003
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b0bc4682-bcaf-4f51-be0b-9f2851a16e3b.jpg?1616723512"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Exile target nonland permanent. Its controller draws a card.",
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910004,
+    "name": "Introduction to Prophecy",
+    "collector_number": 4,
+    "multiverse_ids": [
+      910004
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/8/7820923e-bad2-4d6a-92b3-97b9737d2ca9.jpg?1616723571"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Scry 2, then draw a card.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910277,
+    "name": "Island",
+    "collector_number": 277,
+    "multiverse_ids": [
+      910277
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c96f9fb6-ef52-43f9-a458-8602a7c83333.jpg?1616785722"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": [2, 0],
+    "set": "stx"
+  },
+  {
+    "id": 910196,
+    "name": "Kasmina, Enigma Sage",
+    "collector_number": 196,
+    "multiverse_ids": [
+      910196
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/7/178bf300-38cf-4ab2-9e66-6fcaa112b649.jpg?1616430435"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Kasmina",
+    "oracle_text": "Each other planeswalker you control has the loyalty abilities of Kasmina, Enigma Sage.\n+2: Scry 1.\n−X: Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it.\n−8: Search your library for an instant or sorcery card that shares a color with this planeswalker, exile that card, then shuffle. You may cast that card without paying its mana cost.",
+    "mana_cost": "{1}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910045,
+    "name": "Kelpie Guide",
+    "collector_number": 45,
+    "multiverse_ids": [
+      910045
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/1/0112ebfb-55ad-401c-9dc5-ffd829f5b5bf.jpg?1617148946"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "{T}: Untap another target permanent you control.\n{T}: Tap target permanent. Activate only if you control eight or more lands.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910152,
+    "name": "Kianne, Dean of Substance // Imbraham, Dean of Theory",
+    "collector_number": 152,
+    "multiverse_ids": [
+      910152,
+      911152
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8b45dc40-6827-46a7-a9b7-802be698d053.jpg?1617148772",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/b/8b45dc40-6827-46a7-a9b7-802be698d053.jpg?1617148772"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — Elf Druid // Legendary Creature — Bird Wizard",
+    "oracle_text": {},
+    "mana_cost": "{2}{G}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910197,
+    "name": "Killian, Ink Duelist",
+    "collector_number": 197,
+    "multiverse_ids": [
+      910197
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/23ef4f09-2aa1-4a03-b2e2-66d1522f1e46.jpg?1617316955"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Warlock",
+    "oracle_text": "Lifelink\nMenace (This creature can't be blocked except by two or more creatures.)\nSpells you cast that target a creature cost {2} less to cast.",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910020,
+    "name": "Leonin Lightscribe",
+    "collector_number": 20,
+    "multiverse_ids": [
+      910020
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/a/2a465d7b-398c-444b-9eae-331ea2513f6d.jpg?1617223338"],
+    "layout": "normal",
+    "type_line": "Creature — Cat Cleric",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, creatures you control get +1/+1 until end of turn,",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910256,
+    "name": "Letter of Acceptance",
+    "collector_number": 256,
+    "multiverse_ids": [
+      910256
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/34750231-34aa-401c-b192-47b56588923a.jpg?1617224460"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add one mana of any color.\n{2}, {T}, Sacrifice Letter of Acceptance: Draw a card.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910042,
+    "name": "\"Library Strix\"",
+    "collector_number": 42,
+    "multiverse_ids": [
+      910042
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/1/31d82f7a-64f1-463f-bb6b-936c3e49bf2b.jpg?1617252999"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Illusion",
+    "oracle_text": "Flying\nWhen \"Library Strix\" becomes the target of a spell, sacrifice it.\nWhen \"Library Strix\" dies, learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910198,
+    "name": "Lorehold Apprentice",
+    "collector_number": 198,
+    "multiverse_ids": [
+      910198
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/4/048157c6-4626-4881-ba19-deddd13622dc.jpg?1616696210"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, until end of turn, Spirit creatures you control gain \"{T}: This creature deals 1 damage to each opponent.\"",
+    "mana_cost": "{R}{W}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910268,
+    "name": "Lorehold Campus",
+    "collector_number": 268,
+    "multiverse_ids": [
+      910268
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d35461cf-becf-4399-8329-64b4496b7fc2.jpg?1617070967"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Lorehold Campus enters the battlefield tapped.\n{T}: Add {R} or {W}.\n{4}, {T}: Scry 1.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910199,
+    "name": "Lorehold Command",
+    "collector_number": 199,
+    "multiverse_ids": [
+      910199
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/4/e4f0885f-1049-4a19-853d-f4e6d4bec29e.jpg?1614152837"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose two —\n• Create a 3/2 red and white Spirit creature token.\n• Creatures you control get +1/+0 and gain indestructible and haste until end of turn.\n• Lorehold Command deals 3 damage to any target. Target player gains 3 life.\n• Sacrifice a permanent, then draw two cards.",
+    "mana_cost": "{3}{R}{W}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910200,
+    "name": "Lorehold Excavation",
+    "collector_number": 200,
+    "multiverse_ids": [
+      910200
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/3/43105beb-46f3-4914-8222-4907bd76d48f.jpg?1617070633"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "At the beginning of your end step, mill a card. If a land card was milled this way, you gain 1 life. Otherwise, Lorehold Excavation deals 1 damage to each opponent. (To mill a card, put the top card of your library into your graveyard.)\n{5}, Exile a creature card from your graveyard: Create a tapped 3/2 red and white Spirit creature token.",
+    "mana_cost": "{R}{W}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910201,
+    "name": "Lorehold Pledgemage",
+    "collector_number": 201,
+    "multiverse_ids": [
+      910201
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/9/79b88b38-6b5a-4a89-80ca-add79c11e8b9.jpg?1617070889"],
+    "layout": "normal",
+    "type_line": "Creature — Kor Shaman",
+    "oracle_text": "First strike\nMagecraft — Whenever you cast or copy an instant or sorcery spell, Lorehold Pledgemage gets +1/+0 until end of turn.",
+    "mana_cost": "{1}{R/W}{R/W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910202,
+    "name": "\"Maelstrom Muse\"",
+    "collector_number": 202,
+    "multiverse_ids": [
+      910202
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/5516e81e-16ea-411c-9df0-ed3b03670220.jpg?1617225903"],
+    "layout": "normal",
+    "type_line": "Creature — Djinn Wizard",
+    "oracle_text": "Flying\nWhenever \"Maelstrom Muse\" attacks, the next instant or sorcery spell you cast this turn costs {X} less to cast, where X is \"Maelstrom Muse\"'s power as this ability resolves.",
+    "mana_cost": "{1}{U}{U/R}{R}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910076,
+    "name": "Mage Hunter",
+    "collector_number": 76,
+    "multiverse_ids": [
+      910076
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/6/56fcbe4a-2d98-4fa9-a6c3-e28255171a4d.jpg?1617134037"],
+    "layout": "normal",
+    "type_line": "Creature — Horror",
+    "oracle_text": "Whenever an opponent casts or copies an instant or sorcery spell, they lose 1 life.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910203,
+    "name": "Magma Opus",
+    "collector_number": 203,
+    "multiverse_ids": [
+      910203
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27c914a3-2294-4feb-9450-c012cfd307a6.jpg?1617148687"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Magma Opus deals 4 damage divided as you choose among any number of targets. Tap two target permanents. Create a 4/4 blue and red Elemental creature token. Draw two cards.\n{U/R}{U/R}, Discard Magma Opus: Create a Treasure token.",
+    "mana_cost": "{6}{U}{R}",
+    "cmc": 8,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910204,
+    "name": "Make Your Mark",
+    "collector_number": 204,
+    "multiverse_ids": [
+      910204
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7e937830-3804-44e8-b9d0-3e5f5cf39eab.jpg?1617225910"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +1/+0 until end of turn. When that creature dies this turn, create a 3/2 red and white Spirit creature token.",
+    "mana_cost": "{R/W}",
+    "cmc": 1,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910205,
+    "name": "Manifestation Sage",
+    "collector_number": 205,
+    "multiverse_ids": [
+      910205
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/76fc5cd2-fbb0-4d13-9089-0292b356de48.jpg?1617225210"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "When Manifestation Sage enters the battlefield, create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is the number of cards in your hand.",
+    "mana_cost": "{G/U}{G/U}{G/U}{G/U}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910005,
+    "name": "Mascot Exhibition",
+    "collector_number": 5,
+    "multiverse_ids": [
+      910005
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/0/2047592c-739c-41dd-b3e8-31ae1c7688ab.jpg?1617315983"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Create a 2/1 white and black Inkling creature token with flying, a 3/2 red and white Spirit creature token, and a 4/4 blue and red Elemental creature token.",
+    "mana_cost": "{7}",
+    "cmc": 7,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910110,
+    "name": "Mascot Interception",
+    "collector_number": 110,
+    "multiverse_ids": [
+      910110
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/f/8f0ea66f-1756-4b0d-8ccc-3b3a7370b531.jpg?1617314256"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "This spell costs {3} less to cast if it targets a creature token.\nGain control of target creature until end of turn. Untap that creature. It gets +2/+0 and gains haste until end of turn.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910138,
+    "name": "Master Symmetrist",
+    "collector_number": 138,
+    "multiverse_ids": [
+      910138
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/5/255cdc39-6ad8-4831-9718-6712cb17654c.jpg?1617232641"],
+    "layout": "normal",
+    "type_line": "Creature — Rhino Druid",
+    "oracle_text": "Reach\nWhenever a creature you control with power equal to its toughness attacks, it gains trample until end of turn.",
+    "mana_cost": "{2}{G}{G}",
+    "cmc": 4,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910021,
+    "name": "Mavinda, Students' Advocate",
+    "collector_number": 21,
+    "multiverse_ids": [
+      910021
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8b3d521f-31cd-4bd2-b6b6-771c79252789.jpg?1617374875"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Bird Advisor",
+    "oracle_text": "Flying\n{0}: You may cast target instant or sorcery card from your graveyard this turn. If that spell doesn't target a creature you control, it costs {8} more to cast this way. If that spell would be put into your graveyard, exile it instead. Activate only once each turn. (You still pay the spell's costs. Timing rules for the spell still apply.)",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910046,
+    "name": "Mentor's Guidance",
+    "collector_number": 46,
+    "multiverse_ids": [
+      910046
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0dbb1230-a465-4499-bb9c-35a06712a08b.jpg?1617314533"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "When you cast this spell, copy it if you control a planeswalker, Cleric, Druid, Shaman, Warlock, or Wizard.\nScry 1, then draw a card.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910153,
+    "name": "Mila, Crafty Companion // Lukka, Wayward Bonder",
+    "collector_number": 153,
+    "multiverse_ids": [
+      910153,
+      911153
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/e/8e4e0f81-f92b-4a3a-bb29-adcc3de211b4.jpg?1617363020",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/e/8e4e0f81-f92b-4a3a-bb29-adcc3de211b4.jpg?1617363020"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — Fox // Legendary Planeswalker — Lukka",
+    "oracle_text": {},
+    "mana_cost": "{1}{W}{W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910206,
+    "name": "Moldering Karok",
+    "collector_number": 206,
+    "multiverse_ids": [
+      910206
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/0/70c2ef30-0db5-4ef5-999c-7ffa48769421.jpg?1617317884"],
+    "layout": "normal",
+    "type_line": "Creature — Zombie Crocodile",
+    "oracle_text": "Trample, lifelink",
+    "mana_cost": "{2}{B}{G}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910279,
+    "name": "Mountain",
+    "collector_number": 279,
+    "multiverse_ids": [
+      910279
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/9660fb20-f499-4f7a-9f25-e463f095ab90.jpg?1616785766"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": [2, 0],
+    "set": "stx"
+  },
+  {
+    "id": 910048,
+    "name": "Multiple Choice",
+    "collector_number": 48,
+    "multiverse_ids": [
+      910048
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/8/08c9890f-7081-42f6-89eb-35c83911b443.jpg?1617222081"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "If X is 1, scry 1, then draw a card.\nIf X is 2, you may choose a player. They return a creature they control to its owner's hand.\nIf X is 3, create a 4/4 blue and red Elemental creature token.\nIf X is 4 or more, do all of the above.",
+    "mana_cost": "{X}{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910269,
+    "name": "Necroblossom Snarl",
+    "collector_number": 269,
+    "multiverse_ids": [
+      910269
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b0aed316-c28a-4c1a-a0a3-ab75ceba3ee7.jpg?1616705298"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "As Necroblossom Snarl enters the battlefield, you may reveal a Swamp or Forest card from your hand. If you don't, Necroblossom Snarl enters the battlefield tapped.\n{T}: Add {B} or {G}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910078,
+    "name": "Necrotic Fumes",
+    "collector_number": 78,
+    "multiverse_ids": [
+      910078
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/e/5e1b68a4-fb8d-4b59-b049-73505296f775.jpg?1617333670"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "As an additional cost to cast this spell, exile a creature you control.\nExile target creature or planeswalker.",
+    "mana_cost": "{1}{B}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910208,
+    "name": "\"Needling Drake\"",
+    "collector_number": 208,
+    "multiverse_ids": [
+      910208
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9c0cf2c4-723e-46c4-b2aa-4c957177209a.jpg?1617225919"],
+    "layout": "normal",
+    "type_line": "Creature — Drake",
+    "oracle_text": "Flying, deathtouch",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910079,
+    "name": "Novice Dissector",
+    "collector_number": 79,
+    "multiverse_ids": [
+      910079
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/c/4c4677bc-736b-4bf2-851e-b158718a4224.jpg?1617315879"],
+    "layout": "normal",
+    "type_line": "Creature — Troll Warlock",
+    "oracle_text": "{1}, Sacrifice another creature: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+    "mana_cost": "{3}{B}",
+    "cmc": 4,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910209,
+    "name": "Oggyar Battle-Seer",
+    "collector_number": 209,
+    "multiverse_ids": [
+      910209
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a38329f1-af6e-47b8-86e4-f2a39e1edbf8.jpg?1617219147"],
+    "layout": "normal",
+    "type_line": "Creature — Ogre Shaman",
+    "oracle_text": "Haste\n{T}: Scry 1.",
+    "mana_cost": "{3}{U}{R}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910210,
+    "name": "Owlin Shieldmage",
+    "collector_number": 210,
+    "multiverse_ids": [
+      910210
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d3350367-42bd-44af-be13-ad31c002f8ac.jpg?1617333608"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Warlock",
+    "oracle_text": "Flying\nWard—Pay 3 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)",
+    "mana_cost": "{3}{W}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910211,
+    "name": "Pest Summoning",
+    "collector_number": 211,
+    "multiverse_ids": [
+      910211
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/2/6267e19a-a777-4767-8433-86b6624362b6.jpg?1616705365"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Create two 1/1 black and green Pest creature tokens with \"When this creature dies, you gain 1 life.\"",
+    "mana_cost": "{1}{B/G}{B/G}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910022,
+    "name": "Pilgrim of the Ages",
+    "collector_number": 22,
+    "multiverse_ids": [
+      910022
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c86714f5-e909-413f-8eb6-99dbea4d1897.jpg?1617313900"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit",
+    "oracle_text": "When Pilgrim of the Ages enters the battlefield, you may search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.\n{6}: Return Pilgrim of the Ages from your graveyard to your hand.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910276,
+    "name": "Plains",
+    "collector_number": 276,
+    "multiverse_ids": [
+      910276
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/abadcf9e-46ed-4a8b-888c-0cd3756bc8ab.jpg?1616785691"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": [2, 0],
+    "set": "stx"
+  },
+  {
+    "id": 910155,
+    "name": "Plargg, Dean of Chaos // Augusta, Dean of Order",
+    "collector_number": 155,
+    "multiverse_ids": [
+      910155,
+      911155
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/b/5bd9b5cf-f018-48af-a081-995ce8ecc539.jpg?1616839421",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/5/b/5bd9b5cf-f018-48af-a081-995ce8ecc539.jpg?1616839421"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — Orc Shaman // Legendary Creature — Human Cleric",
+    "oracle_text": {},
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910049,
+    "name": "Pop Quiz",
+    "collector_number": 49,
+    "multiverse_ids": [
+      910049
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d16892d8-9d10-45de-ab79-0e645c4b5588.jpg?1616839270"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Draw a card.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910212,
+    "name": "Practical Research",
+    "collector_number": 212,
+    "multiverse_ids": [
+      910212
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74edd3e3-b2de-4ba0-a508-0418b0151d87.jpg?1617135288"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Draw four cards. Then discard two cards unless you discard an instant or sorcery card.",
+    "mana_cost": "{3}{U}{R}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910213,
+    "name": "Prismari Apprentice",
+    "collector_number": 213,
+    "multiverse_ids": [
+      910213
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dca3aa59-c8ac-4930-abf7-0a74d657122a.jpg?1616838772"],
+    "layout": "normal",
+    "type_line": "Creature — Human Shaman",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, Prismari Apprentice can't be blocked this turn. If that spell has mana value 5 or greater, put a +1/+1 counter on Prismari Apprentice.",
+    "mana_cost": "{U}{R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910270,
+    "name": "Prismari Campus",
+    "collector_number": 270,
+    "multiverse_ids": [
+      910270
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/768120f5-9401-4e52-924e-3374bde65b3d.jpg?1617135644"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Prismari Campus enters the battlefield tapped.\n{T}: Add {U} or {R}.\n{4}, {T}: Scry 1.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910214,
+    "name": "Prismari Command",
+    "collector_number": 214,
+    "multiverse_ids": [
+      910214
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/6/866b7fd4-86e3-4b42-b1ea-33bad0db1f9f.jpg?1616705407"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose two —\n• Prismari Command deals 2 damage to any target.\n• Target player draws two cards, then discards two cards.\n• Target player creates a Treasure token.\n• Destroy target artifact.",
+    "mana_cost": "{1}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910215,
+    "name": "Prismari Pledgemage",
+    "collector_number": 215,
+    "multiverse_ids": [
+      910215
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/0/404b4c7b-5d40-4ad1-bd40-3da1d08f5c78.jpg?1617135651"],
+    "layout": "normal",
+    "type_line": "Creature — Orc Wizard",
+    "oracle_text": "Defender\nMagecraft — Whenever you cast or copy an instant or sorcery spell, Prismari Pledgemage can attack this turn as though it didn't have defender.",
+    "mana_cost": "{U/R}{U/R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910024,
+    "name": "Professor of Symbology",
+    "collector_number": 24,
+    "multiverse_ids": [
+      910024
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/4/f427cf73-9f5e-4ef5-bc4f-29ffbfda9d57.jpg?1616695655"],
+    "layout": "normal",
+    "type_line": "Creature — Kor Cleric",
+    "oracle_text": "When Professor of Symbology enters the battlefield, learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910083,
+    "name": "Professor Onyx",
+    "collector_number": 83,
+    "multiverse_ids": [
+      910083
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/1/013eeb99-1b66-4fba-ad96-78deee901ea4.jpg?1616430491"],
+    "layout": "normal",
+    "type_line": "Legendary Planeswalker — Liliana",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, each opponent loses 2 life and you gain 2 life.\n+1: You lose 1 life. Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.\n−3: Each opponent sacrifices a creature with the greatest power among creatures that player controls.\n−8: Each opponent may discard a card. If they don't, they lose 3 life. Repeat this process six more times.",
+    "mana_cost": "{4}{B}{B}",
+    "cmc": 6,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910085,
+    "name": "Promising Duskmage",
+    "collector_number": 85,
+    "multiverse_ids": [
+      910085
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/e/2ea0dff9-71c3-4d56-aa7b-e0fb9938529a.jpg?1617316703"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warlock",
+    "oracle_text": "When Promising Duskmage dies, if it had a +1/+1 counter on it, draw a card.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910216,
+    "name": "Quandrix Apprentice",
+    "collector_number": 216,
+    "multiverse_ids": [
+      910216
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/0291c909-bb87-47cb-9b06-5e409e654f15.jpg?1616696014"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, look at the top three cards of your library. You may reveal a land card from among them and put that card into your hand. Put the rest on the bottom of your library in any order.",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910271,
+    "name": "Quandrix Campus",
+    "collector_number": 271,
+    "multiverse_ids": [
+      910271
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f788da28-481b-41fa-a70c-b53db6b0f068.jpg?1617144413"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Quandrix Campus enters the battlefield tapped.\n{T}: Add {G} or {U}.\n{4}, {T}: Scry 1.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910217,
+    "name": "Quandrix Command",
+    "collector_number": 217,
+    "multiverse_ids": [
+      910217
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/021b62d8-d160-47f5-bc51-0474f160d13f.jpg?1614152862"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose two —\n• Return target creature or planeswalker to its owner's hand.\n• Counter target artifact or enchantment spell.\n• Put two +1/+1 counters on target creature.\n• Target player shuffles up to three target cards from their graveyard into their library.",
+    "mana_cost": "{1}{G}{U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910218,
+    "name": "Quandrix Cultivator",
+    "collector_number": 218,
+    "multiverse_ids": [
+      910218
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/3/e3ca9ff7-0dcf-4ecc-879c-957d290ad7f5.jpg?1617333578"],
+    "layout": "normal",
+    "type_line": "Creature — Turtle Druid",
+    "oracle_text": "When Quandrix Cultivator enters the battlefield, you may search your library for a basic Forest or Island card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "{1}{G}{G/U}{U}",
+    "cmc": 4,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910219,
+    "name": "Quandrix Pledgemage",
+    "collector_number": 219,
+    "multiverse_ids": [
+      910219
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/07633b7f-4150-458b-89c3-d05dc0e3c4bd.jpg?1617221960"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Druid",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on Quandrix Pledgemage.",
+    "mana_cost": "{1}{G/U}{G/U}",
+    "cmc": 3,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910220,
+    "name": "Quintorius, Field Historian",
+    "collector_number": 220,
+    "multiverse_ids": [
+      910220
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/6/06c55ef1-8e62-4d43-bd4c-b2c3c5203338.jpg?1617148598"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elephant Cleric",
+    "oracle_text": "Spirits you control get +1/+0.\nWhenever one or more cards leave your graveyard, create a 3/2 red and white Spirit creature token.",
+    "mana_cost": "{3}{R}{W}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910221,
+    "name": "Radiant Scrollwielder",
+    "collector_number": 221,
+    "multiverse_ids": [
+      910221
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c8152ab0-c6fc-4568-b837-4e84129e7b57.jpg?1617164076"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Cleric",
+    "oracle_text": "Instant and sorcery spells you control have lifelink.\nAt the beginning of your upkeep, exile an instant or sorcery card at random from your graveyard. You may cast it this turn. If a spell cast this way would be put into your graveyard, exile it instead.",
+    "mana_cost": "{2}{R}{W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910222,
+    "name": "Reconstruct History",
+    "collector_number": 222,
+    "multiverse_ids": [
+      910222
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3e565e38-43d5-482e-a911-ce525dfee74f.jpg?1617071273"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Return up to one target artifact card, up to one target enchantment card, up to one target instant card, up to one target sorcery card, and up to one target planeswalker card from your graveyard to your hand.\nExile Reconstruct History.",
+    "mana_cost": "{2}{R}{W}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910025,
+    "name": "Reduce to Memory",
+    "collector_number": 25,
+    "multiverse_ids": [
+      910025
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/b/7bfc408e-34d6-4e94-8678-4cc229cbc6f5.jpg?1617148623"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Exile target nonland permanent. Its controller creates a 3/2 red and white Spirit creature token.",
+    "mana_cost": "{1}{W}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910257,
+    "name": "\"Reflective Hulk\"",
+    "collector_number": 257,
+    "multiverse_ids": [
+      910257
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/0/c01770c4-8848-495d-8af4-26152d45e9d3.jpg?1617223216"],
+    "layout": "normal",
+    "type_line": "Artifact Creature — Golem",
+    "oracle_text": "Whenever you cast an instant or sorcery spell that targets only \"Reflective Hulk\", you may pay {2} to copy that spell. If you do, you may choose new targets for the copy.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910223,
+    "name": "Relic Sloth",
+    "collector_number": 223,
+    "multiverse_ids": [
+      910223
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/1/c1cb483f-c567-4cfd-9fe8-1503e7b40542.jpg?1617072811"],
+    "layout": "normal",
+    "type_line": "Creature — Beast",
+    "oracle_text": "Vigilance\nMenace (This creature can't be blocked except by two or more creatures.)",
+    "mana_cost": "{3}{R}{W}",
+    "cmc": 5,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910051,
+    "name": "Resculpt",
+    "collector_number": 51,
+    "multiverse_ids": [
+      910051
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1bfb1fcb-a411-4c1c-b8fc-496242ae3a9b.jpg?1617137904"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Exile target artifact or creature. Its controller creates a 4/4 blue and red Elemental creature token.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910113,
+    "name": "Retriever Phoenix",
+    "collector_number": 113,
+    "multiverse_ids": [
+      910113
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4dd6cb53-3c82-4ac3-be1e-311322729198.jpg?1617333494"],
+    "layout": "normal",
+    "type_line": "Creature — Phoenix",
+    "oracle_text": "Flying, haste\nWhen Retriever Phoenix enters the battlefield, if you cast it, learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)\nAs long as Retriever Phoenix is in your graveyard, if you would learn, you may instead return Retriever Phoenix to the battlefield.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910224,
+    "name": "Returned Pastcaller",
+    "collector_number": 224,
+    "multiverse_ids": [
+      910224
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/a/7aa0e762-0fec-4f6b-b3d7-ad8295bf557d.jpg?1617148647"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit Cleric",
+    "oracle_text": "Flying\nWhen Returned Pastcaller enters the battlefield, return target Spirit, instant, or sorcery card from your graveyard to your hand.",
+    "mana_cost": "{3}{R}{R/W}{W}",
+    "cmc": 6,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910226,
+    "name": "Rise of Extus",
+    "collector_number": 226,
+    "multiverse_ids": [
+      910226
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/b/bbf97a71-485e-4d47-98de-bdf6f6dae0c2.jpg?1617333553"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Exile target creature. Exile up to one target instant or sorcery card from a graveyard.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{4}{W/B}{W/B}",
+    "cmc": 6,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910227,
+    "name": "Rootha, Mercurial Artist",
+    "collector_number": 227,
+    "multiverse_ids": [
+      910227
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/acb8f24d-8d1d-48aa-a534-238e969a474c.jpg?1617135779"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Orc Shaman",
+    "oracle_text": "{2}, Return Rootha, Mercurial Artist to its owner's hand: Copy target instant or sorcery spell you control. You may choose new targets for the copy.",
+    "mana_cost": "{1}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910156,
+    "name": "Rowan, Scholar of Sparks // Will, Scholar of Frost",
+    "collector_number": 156,
+    "multiverse_ids": [
+      910156,
+      911156
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/8/18c16872-3675-4a4d-962a-2e17ad6f3886.jpg?1616837838",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/1/8/18c16872-3675-4a4d-962a-2e17ad6f3886.jpg?1616837838"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Planeswalker — Rowan // Legendary Planeswalker — Will",
+    "oracle_text": {},
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910026,
+    "name": "Secret Rendezvous",
+    "collector_number": 26,
+    "multiverse_ids": [
+      910026
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/9/39528cf0-343e-499b-a69f-c5c3c2898c25.jpg?1617252402"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "You and target opponent each draw three cards.",
+    "mana_cost": "{1}{W}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910157,
+    "name": "Selfless Glyphweaver // Deadly Vanity",
+    "collector_number": 157,
+    "multiverse_ids": [
+      910157,
+      911157
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/9/8982ff88-8595-4363-8cde-6e87fb57a2d8.jpg?1617374891",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/9/8982ff88-8595-4363-8cde-6e87fb57a2d8.jpg?1617374891"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Creature — Human Cleric // Sorcery",
+    "oracle_text": {},
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910052,
+    "name": "Serpentine Curve",
+    "collector_number": 52,
+    "multiverse_ids": [
+      910052
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/6/d651b9e9-d723-4340-a010-d71b2a697e73.jpg?1617225310"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is one plus the total number of instant and sorcery cards you own in exile and in your graveyard.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910229,
+    "name": "Shadewing Laureate",
+    "collector_number": 229,
+    "multiverse_ids": [
+      910229
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/4/64795a8b-8cf2-436e-8f95-9e8bb40c0d7d.jpg?1617377275"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warlock",
+    "oracle_text": "Flying\nWhenever another creature you control with flying dies, put a +1/+1 counter on target creature you control.",
+    "mana_cost": "{W}{W/B}{B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910230,
+    "name": "Shadrix Silverquill",
+    "collector_number": 230,
+    "multiverse_ids": [
+      910230
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/ab701909-83d6-4d39-9a84-e6a9b2cb38d6.jpg?1616704070"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elder Dragon",
+    "oracle_text": "Flying, double strike\nAt the beginning of combat on your turn, you may choose two. Each mode must target a different player.\n• Target player creates a 2/1 white and black Inkling creature token with flying.\n• Target player draws a card and loses 1 life.\n• Target player puts a +1/+1 counter on each creature they control.",
+    "mana_cost": "{3}{W}{B}",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910158,
+    "name": "Shaile, Dean of Radiance // Embrose, Dean of Shadow",
+    "collector_number": 158,
+    "multiverse_ids": [
+      910158,
+      911158
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/3/938cee8f-ac2c-49a5-9ff7-1367d0edfabe.jpg?1616839376",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/9/3/938cee8f-ac2c-49a5-9ff7-1367d0edfabe.jpg?1616839376"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — Bird Cleric // Legendary Creature — Human Warlock",
+    "oracle_text": {},
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910272,
+    "name": "Shineshadow Snarl",
+    "collector_number": 272,
+    "multiverse_ids": [
+      910272
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/4/84a46ebf-6938-4100-8f5f-0605ad2be4fc.jpg?1616705330"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "As Shineshadow Snarl enters the battlefield, you may reveal a Plains or Swamp card from your hand. If you don't, Shineshadow Snarl enters the battlefield tapped.\n{T}: Add {W} or {B}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910028,
+    "name": "Show of Confidence",
+    "collector_number": 28,
+    "multiverse_ids": [
+      910028
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/5/65837f39-deb7-4a4b-8b67-125a71cd0d45.jpg?1617311686"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "When you cast this spell, copy it for each other instant or sorcery spell you've cast this turn. You may choose new targets for the copies.\nPut a +1/+1 counter on target creature. It gains vigilance until end of turn.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910231,
+    "name": "Silverquill Apprentice",
+    "collector_number": 231,
+    "multiverse_ids": [
+      910231
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/2/42d0770e-9084-4aa7-b543-2b6ba18378dc.jpg?1616839213"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warlock",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, target creature gets +1/+0 until end of turn.",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910234,
+    "name": "\"Silverquill AristoCAN'T\"",
+    "collector_number": 234,
+    "multiverse_ids": [
+      910234
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/b/8bb60dcc-cb4a-414d-850f-c98efd872894.jpg?1617252735"],
+    "layout": "normal",
+    "type_line": "Creature — Human Cleric",
+    "oracle_text": "As \"Silverquill AristoCAN'T\" enters the battlefield, choose a nonland card name.\nWhenever an opponent casts a spell with the chosen name, that player loses 3 life and you draw a card.",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910237,
+    "name": "\"Silverquill Bully\"",
+    "collector_number": 237,
+    "multiverse_ids": [
+      910237
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be88355e-c986-4b69-93b4-0abf04916e86.jpg?1617253419"],
+    "layout": "normal",
+    "type_line": "Creature — Human Warlock",
+    "oracle_text": "Deathtouch\n\"Silverquill Bully\" enters the battlefield with two +1/+1 counters on it.\nWhen \"Silverquill Bully\" dies, put its counters on target creature you control.",
+    "mana_cost": "{2}{W}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910273,
+    "name": "Silverquill Campus",
+    "collector_number": 273,
+    "multiverse_ids": [
+      910273
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/2/42583850-ba5c-4a71-8717-406b5c6d048f.jpg?1617317127"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "Silverquill Campus enters the battlefield tapped.\n{T}: Add {W} or {B}.\n{4}, {T}: Scry 1.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910232,
+    "name": "Silverquill Command",
+    "collector_number": 232,
+    "multiverse_ids": [
+      910232
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/c/5c55f533-9d31-4ad1-b336-927aba6e74d6.jpg?1614152919"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Choose two —\n• Target creature gets +3/+3 and gains flying until end of turn.\n• Return target creature card with mana value 2 or less from your graveyard to the battlefield.\n• Target player draws a card and loses 1 life.\n• Target opponent sacrifices a creature.",
+    "mana_cost": "{2}{W}{B}",
+    "cmc": 4,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910233,
+    "name": "Silverquill Pledgemage",
+    "collector_number": 233,
+    "multiverse_ids": [
+      910233
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/3/a3f64ad2-4041-421d-baa2-206cedcecf0e.jpg?1617317203"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Cleric",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, Silverquill Pledgemage gains your choice of flying or lifelink until end of turn.",
+    "mana_cost": "{1}{W/B}{W/B}",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910054,
+    "name": "Solve the Equation",
+    "collector_number": 54,
+    "multiverse_ids": [
+      910054
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/66c04ee2-c1e0-45fb-aaf5-1b4459df80fc.jpg?1617182632"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910055,
+    "name": "Soothsayer Adept",
+    "collector_number": 55,
+    "multiverse_ids": [
+      910055
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb93c9d2-88eb-403d-bb67-8e8b0462ac27.jpg?1617313962"],
+    "layout": "normal",
+    "type_line": "Creature — Merfolk Wizard",
+    "oracle_text": "{1}{U}, {T}: Draw a card, then discard a card.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910029,
+    "name": "Sparring Regimen",
+    "collector_number": 29,
+    "multiverse_ids": [
+      910029
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/ab7c80d3-3e0c-4510-9ed0-bb9fe39d838f.jpg?1617072248"],
+    "layout": "normal",
+    "type_line": "Enchantment",
+    "oracle_text": "When Sparring Regimen enters the battlefield, learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)\nWhenever you attack, put a +1/+1 counter on target attacking creature and untap it.",
+    "mana_cost": "{2}{W}",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910235,
+    "name": "Spectacle Mage",
+    "collector_number": 235,
+    "multiverse_ids": [
+      910235
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f74223e1-b66b-42fa-aaac-001f5dab2aac.jpg?1617135558"],
+    "layout": "normal",
+    "type_line": "Creature — Bird Shaman",
+    "oracle_text": "Flying\nInstant and sorcery spells you cast with mana value 5 or greater cost {1} less to cast.",
+    "mana_cost": "{1}{U}{R}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910236,
+    "name": "Spirit Summoning",
+    "collector_number": 236,
+    "multiverse_ids": [
+      910236
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74be6236-4095-419c-9927-fbd874df21f8.jpg?1617071199"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Create a 3/2 red and white Spirit creature token.",
+    "mana_cost": "{1}{R/W}{R/W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910238,
+    "name": "Square Up",
+    "collector_number": 238,
+    "multiverse_ids": [
+      910238
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3d548d5a-1dd7-448a-8483-249572e08c47.jpg?1617224620"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature has base power and toughness 4/4 until end of turn.",
+    "mana_cost": "{1}{G/U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910030,
+    "name": "Star Pupil",
+    "collector_number": 30,
+    "multiverse_ids": [
+      910030
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/99e9318f-2e17-4b6e-895f-c17cd5d0d282.jpg?1616786896"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Star Pupil enters the battlefield with a +1/+1 counter on it.\nWhen Star Pupil dies, put its counters on target creature you control.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910031,
+    "name": "Stonebinder's Familiar",
+    "collector_number": 31,
+    "multiverse_ids": [
+      910031
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/1/21de4a01-98d3-4af3-9c6e-29e16d2c1767.jpg?1617134524"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit Dog",
+    "oracle_text": "Whenever one or more cards are put into exile during your turn, put a +1/+1 counter on Stonebinder's Familiar. This ability triggers only once each turn.",
+    "mana_cost": "{W}",
+    "cmc": 1,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910239,
+    "name": "Stonebound Mentor",
+    "collector_number": 239,
+    "multiverse_ids": [
+      910239
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9c64e954-adfc-40a2-a3b2-85f1b4626976.jpg?1617148723"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit Advisor",
+    "oracle_text": "Whenever one or more cards leave your graveyard, scry 1.",
+    "mana_cost": "{1}{R}{W}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910115,
+    "name": "Storm-Kiln Artist",
+    "collector_number": 115,
+    "multiverse_ids": [
+      910115
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fa96b8dc-233a-4884-ab84-235cbc7df0b6.jpg?1616705421"],
+    "layout": "normal",
+    "type_line": "Creature — Dwarf Shaman",
+    "oracle_text": "Storm-Kiln Artist gets +1/+0 for each artifact you control.\nMagecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token.",
+    "mana_cost": "{3}{R}",
+    "cmc": 4,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910033,
+    "name": "Strict Proctor",
+    "collector_number": 33,
+    "multiverse_ids": [
+      910033
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/95f1e36a-6838-49de-b7dc-697cbcd1e892.jpg?1617071561"],
+    "layout": "normal",
+    "type_line": "Creature — Spirit Cleric",
+    "oracle_text": "Flying\nWhenever a permanent entering the battlefield causes a triggered ability to trigger, counter that ability unless its controller pays {2}.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910259,
+    "name": "Strixhaven Stadium",
+    "collector_number": 259,
+    "multiverse_ids": [
+      910259
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/2/421674ee-4b85-4942-b166-952598165826.jpg?1617225235"],
+    "layout": "normal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {C}. Put a point counter on Strixhaven Stadium.\nWhenever a creature deals combat damage to you, remove a point counter from Strixhaven Stadium.\nWhenever a creature you control deals combat damage to an opponent, put a point counter on Strixhaven Stadium. Then if it has ten or more point counters on it, remove them all and that player loses the game.",
+    "mana_cost": "{3}",
+    "cmc": 3,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910034,
+    "name": "Study Break",
+    "collector_number": 34,
+    "multiverse_ids": [
+      910034
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/f/ef7cd813-0781-4fd7-8748-2716e1eeb4b9.jpg?1616788393"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Tap up to two target creatures.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910116,
+    "name": "Sudden Breakthrough",
+    "collector_number": 116,
+    "multiverse_ids": [
+      910116
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b011707a-471b-41c2-bc73-376a55d26bee.jpg?1617137930"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets +2/+0 and gains first strike until end of turn.\nCreate a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910059,
+    "name": "\"Superior Talents\"",
+    "collector_number": 59,
+    "multiverse_ids": [
+      910059
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/e/6e2b6236-b40c-430c-98b0-7940b942657a.jpg?1617253367"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Counter target instant or sorcery spell. Search its controller's graveyard, hand, and/or library for any number of cards with the same name as that spell and exile them. That spell's controller shuffles, then they draw a card for each card exiled from their hand this way.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910278,
+    "name": "Swamp",
+    "collector_number": 278,
+    "multiverse_ids": [
+      910278
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/13bd1c69-2561-4ff1-af00-bb519b3897c2.jpg?1616785736"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": [2, 0],
+    "set": "stx"
+  },
+  {
+    "id": 910056,
+    "name": "Symmetry Sage",
+    "collector_number": 56,
+    "multiverse_ids": [
+      910056
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3e726fc7-36cf-405c-9b7c-d1e41cd6c68f.jpg?1617316190"],
+    "layout": "normal",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Flying\nMagecraft — Whenever you cast or copy an instant or sorcery spell, target creature you control has base power 2 until end of turn.",
+    "mana_cost": "{U}",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910240,
+    "name": "Tanazir Quandrix",
+    "collector_number": 240,
+    "multiverse_ids": [
+      910240
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/b/3bd62ee4-e654-44ba-a650-889782cc9ac3.jpg?1617149055"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elder Dragon",
+    "oracle_text": "Flying, trample\nWhen Tanazir Quandrix enters the battlefield, double the number of +1/+1 counters on target creature you control.\nWhenever Tanazir Quandrix attacks, you may have the base power and toughness of other creatures you control become equal to Tanazir Quandrix's power and toughness until end of turn.",
+    "mana_cost": "{3}{G}{U}",
+    "cmc": 5,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910241,
+    "name": "Teach by Example",
+    "collector_number": 241,
+    "multiverse_ids": [
+      910241
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aa7fbb9b-50a8-4d18-a667-fe965468ca16.jpg?1617225924"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.",
+    "mana_cost": "{U/R}{U/R}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910057,
+    "name": "Teachings of the Archaics",
+    "collector_number": 57,
+    "multiverse_ids": [
+      910057
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/967148b1-2bb6-4bc0-95e6-c45fcf99afd2.jpg?1617148957"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "If an opponent has more cards in hand than you, draw two cards. Draw three cards instead if an opponent has at least four more cards in hand than you.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910260,
+    "name": "Team Pennant",
+    "collector_number": 260,
+    "multiverse_ids": [
+      910260
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be294c4e-712b-459c-a36c-e26ed5c27edb.jpg?1617224681"],
+    "layout": "normal",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature gets +1/+1 and has vigilance and trample.\nEquip creature token {1}\nEquip {3}",
+    "mana_cost": "{1}",
+    "cmc": 1,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910088,
+    "name": "Tenured Inkcaster",
+    "collector_number": 88,
+    "multiverse_ids": [
+      910088
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/92eba33e-efea-4e58-a832-1c6049fb211f.jpg?1617219537"],
+    "layout": "normal",
+    "type_line": "Creature — Vampire Warlock",
+    "oracle_text": "When Tenured Inkcaster enters the battlefield, put a +1/+1 counter on target creature.\nWhenever a creature you control with a +1/+1 counter on it attacks, each opponent loses 1 life and you gain 1 life.",
+    "mana_cost": "{4}{B}",
+    "cmc": 5,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910243,
+    "name": "Thrilling Discovery",
+    "collector_number": 243,
+    "multiverse_ids": [
+      910243
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/bac1f45e-1884-490e-a94f-f7d312f0e229.jpg?1617148861"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "You gain 2 life. Then you may discard two cards. If you do, draw three cards.",
+    "mana_cost": "{R}{W}",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910035,
+    "name": "Thunderous Orator",
+    "collector_number": 35,
+    "multiverse_ids": [
+      910035
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/f/ef3b2961-559f-42b1-be13-ff3d03e62809.jpg?1617070068"],
+    "layout": "normal",
+    "type_line": "Creature — Kor Wizard",
+    "oracle_text": "Vigilance\nWhenever Thunderous Orator attacks, it gains flying until end of turn if you control a creature with flying. The same is true for first strike, double strike, deathtouch, indestructible, lifelink, menace, and trample.",
+    "mana_cost": "{1}{W}",
+    "cmc": 2,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910117,
+    "name": "Time Shredder",
+    "collector_number": 117,
+    "multiverse_ids": [
+      910117
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a7cc9ea8-db4e-4f41-800f-fb0dbcb2c345.jpg?1617314033"],
+    "layout": "normal",
+    "type_line": "Creature — Wolf",
+    "oracle_text": "Haste\n{T}, Exile an instant or sorcery card from your graveyard: Put a +1/+1 counter on Time Shredder.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910159,
+    "name": "Torrent Sculptor // Flamethrower Sonata",
+    "collector_number": 159,
+    "multiverse_ids": [
+      910159,
+      911159
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87463b68-3642-41c7-a11c-67d524759b60.jpg?1616816436",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/7/87463b68-3642-41c7-a11c-67d524759b60.jpg?1616816436"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Creature — Merfolk Wizard // Sorcery",
+    "oracle_text": {},
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910089,
+    "name": "Umbral Juke",
+    "collector_number": 89,
+    "multiverse_ids": [
+      910089
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/f/3fbd0921-e953-492b-ad73-c8a8bfaa750b.jpg?1617333742"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Choose one: —\n• Target player sacrifices a creature or planeswalker.\n• Create a 2/1 white and black Inkling creature token with flying.",
+    "mana_cost": "{2}{B}",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910047,
+    "name": "\"Unstable Transformation\"",
+    "collector_number": 47,
+    "multiverse_ids": [
+      910047
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/d/adcbe115-5482-4e5a-95bb-8ccbb01d3547.jpg?1617333709"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Until end of turn, target nonland permanent loses all abilities and becomes your choice of a blue Frog creature with base power and toughness 1/1 or a blue Octopus creature with base power and toughness 4/4.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910160,
+    "name": "Uvilda, Dean of Perfection // Nassari, Dean of Expression",
+    "collector_number": 160,
+    "multiverse_ids": [
+      910160,
+      911160
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/c/8cfd0887-0c83-4b33-a85e-8b8ec5bf758d.jpg?1616838731",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/c/8cfd0887-0c83-4b33-a85e-8b8ec5bf758d.jpg?1616838731"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — Djinn Wizard // Legendary Creature — Efreet Shaman",
+    "oracle_text": {},
+    "mana_cost": "{2}{U}",
+    "cmc": 3,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910161,
+    "name": "Valentin, Dean of the Vein // Lisette, Dean of the Root",
+    "collector_number": 161,
+    "multiverse_ids": [
+      910161,
+      911161
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/5/65008352-bc7e-40b2-a832-b46813e5dc4c.jpg?1617148837",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/6/5/65008352-bc7e-40b2-a832-b46813e5dc4c.jpg?1617148837"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Legendary Creature — Vampire Warlock // Legendary Creature — Human Druid",
+    "oracle_text": {},
+    "mana_cost": "{B}",
+    "cmc": 1,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910244,
+    "name": "Vanishing Verse",
+    "collector_number": 244,
+    "multiverse_ids": [
+      910244
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e12573fe-aee3-49db-93e2-d00972cbb3b1.jpg?1617316251"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Exile target monocolored permanent.",
+    "mana_cost": "{W}{B}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910245,
+    "name": "Velomachus Lorehold",
+    "collector_number": 245,
+    "multiverse_ids": [
+      910245
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/4/04ea9067-ad50-4c43-ae4d-3f66890cd898.jpg?1617163986"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Elder Dragon",
+    "oracle_text": "Flying, vigilance, haste\nWhenever Velomachus Lorehold attacks, look at the top seven cards of your library. You may cast an instant or sorcery spell with mana value less than or equal to Velomachus Lorehold's power from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.",
+    "mana_cost": "{5}{R}{W}",
+    "cmc": 7,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "mythic",
+    "rating": 5,
+    "set": "stx"
+  },
+  {
+    "id": 910146,
+    "name": "Verdant Mastery",
+    "collector_number": 146,
+    "multiverse_ids": [
+      910146
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/9/197455e5-7929-47b8-ad00-8d3918949eb7.jpg?1617146900"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "You may pay {3}{G} rather than pay this spell's mana cost.\nSearch your library for up to four basic land cards and reveal them. Put one of them onto the battlefield tapped under an opponent's control if the {3}{G} cost was paid. Put two of them onto the battlefield tapped under your control and the rest into your hand. Then shuffle.",
+    "mana_cost": "{5}{G}",
+    "cmc": 6,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910274,
+    "name": "Vineglimmer Snarl",
+    "collector_number": 274,
+    "multiverse_ids": [
+      910274
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/7/f77e5ca7-dde1-435f-9b40-87558dd88749.jpg?1616699358"],
+    "layout": "normal",
+    "type_line": "Land",
+    "oracle_text": "As Vineglimmer Snarl enters the battlefield, you may reveal a Forest or Island card from your hand. If you don't, Vineglimmer Snarl enters the battlefield tapped.\n{T}: Add {G} or {U}.",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910006,
+    "name": "Wandering Archaic // Explore the Vastlands",
+    "collector_number": 6,
+    "multiverse_ids": [
+      910006,
+      911006
+    ],
+    "image_uris": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/8/18a2bdc8-b705-4eb5-b3a5-ff2e2ab8f312.jpg?1617149149",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/1/8/18a2bdc8-b705-4eb5-b3a5-ff2e2ab8f312.jpg?1617149149"
+    ],
+    "layout": "modal_dfc",
+    "type_line": "Creature — Avatar // Sorcery",
+    "oracle_text": {},
+    "mana_cost": "{5}",
+    "cmc": 5,
+    "colors": [],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910061,
+    "name": "Waterfall Aerialist",
+    "collector_number": 61,
+    "multiverse_ids": [
+      910061
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/b/7bc6966c-18d9-4675-9594-6f0b2d11c405.jpg?1616724732"],
+    "layout": "normal",
+    "type_line": "Creature — Djinn Wizard",
+    "oracle_text": "Flying\nWard {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",
+    "mana_cost": "{3}{U}",
+    "cmc": 4,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910114,
+    "name": "\"We'll Do It Live!\"",
+    "collector_number": 114,
+    "multiverse_ids": [
+      910114
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/55c99486-ae64-4293-81fb-a4b02e8fcae6.jpg?1617150542"],
+    "layout": "normal",
+    "type_line": "Sorcery — Lesson",
+    "oracle_text": "Choose one —\n• \"We'll Do It Live!\" deals 1 damage to any target.\n• Destroy target artifact.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910247,
+    "name": "Witherbloom Apprentice",
+    "collector_number": 247,
+    "multiverse_ids": [
+      910247
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f80a11b-188b-464c-b00d-c9d1cfb8ddee.jpg?1616839250"],
+    "layout": "normal",
+    "type_line": "Creature — Human Druid",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, each opponent loses 1 life and you gain 1 life.",
+    "mana_cost": "{B}{G}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  },
+  {
+    "id": 910248,
+    "name": "Witherbloom Command",
+    "collector_number": 248,
+    "multiverse_ids": [
+      910248
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87d5e94b-0b35-4efd-9158-1767dcaea38c.jpg?1616399908"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Choose two —\n• Target player mills three cards, then you return a land card from your graveyard to your hand.\n• Destroy target noncreature, nonland permanent with mana value 2 or less.\n• Target creature gets -3/-1 until end of turn.\n• Target opponent loses 2 life and you gain 2 life.",
+    "mana_cost": "{B}{G}",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "rare",
+    "rating": 4,
+    "set": "stx"
+  },
+  {
+    "id": 910036,
+    "name": "\"Would you like to buy a face?\"",
+    "collector_number": 36,
+    "multiverse_ids": [
+      910036
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/68cdb00c-ea86-4b72-8f62-570820edfa1b.jpg?1617333727"],
+    "layout": "normal",
+    "type_line": "Instant",
+    "oracle_text": "Target creature gets -4/-0 until end of turn.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 2,
+    "set": "stx"
+  },
+  {
+    "id": 910250,
+    "name": "Zimone, Quandrix Prodigy",
+    "collector_number": 250,
+    "multiverse_ids": [
+      910250
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/c/0ca14c17-dc72-4f68-92f2-14a6c4019f4e.jpg?1617225224"],
+    "layout": "normal",
+    "type_line": "Legendary Creature — Human Wizard",
+    "oracle_text": "{1}, {T}: You may put a land card from your hand onto the battlefield tapped.\n{4}, {T}: Draw a card. If you control eight or more lands, draw two cards instead.",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 3,
+    "set": "stx"
+  }
+]

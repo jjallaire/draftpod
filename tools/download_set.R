@@ -125,6 +125,25 @@ download_cards <- function(cards,
       }
     }
     
+    if (set == "stx") {
+      # plains
+      if (collector_number == 366) {
+        collector_number <- 276
+        # island
+      } else if (collector_number == 368) {
+        collector_number <- 277
+        # swamp
+      } else if (collector_number == 370) {
+        collector_number <- 278
+        # mountain
+      } else if (collector_number == 372) {
+        collector_number <- 279
+        # forest
+      } else if (collector_number == 374) {
+        collector_number <- 280
+      }
+    }
+    
     # if there is no multiverse id then use a baseline for the set + collector number
     if (length(multiverse_ids) == 0) {
       
@@ -141,6 +160,7 @@ download_cards <- function(cards,
                            m21 = 485323,
                            `2xm` = 489673,
                            khm = 900000,
+                           stx = 910000,
         )
         multiverse_ids <- list(baseline + collector_number)
       }
@@ -235,8 +255,8 @@ download_cards <- function(cards,
       }
     }
     
-    # throw in an extra mutliverse id for gatherer khm modal double faced cards 
-    if (set == "khm" && length(image_uris) == 2) {
+    # throw in an extra mutliverse id for gatherer khm & stx modal double faced cards 
+    if ((set == "khm" || set == "stx") && length(image_uris) == 2) {
       multiverse_ids[[2]] <- multiverse_ids[[1]] + 1000
     }
     
@@ -291,6 +311,7 @@ download_cards <- function(cards,
     znr = 280,
     klr = 301,
     khm = 398,
+    stx = 280,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000

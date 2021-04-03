@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Recent">
+          <option value="stx">
+            Strixhaven
+          </option>
           <option value="khm">
             Kaldheim
           </option>
@@ -58,6 +61,9 @@ export default {
           </option>
         </optgroup>
         <optgroup label="Standard">
+          <option value="stx">
+            Strixhaven
+          </option>
           <option value="khm">
             Kaldheim
           </option>

@@ -27,6 +27,7 @@ import twoxm from './set-2xm'
 import znr from './set-znr'
 import klr from './set-klr'
 import khm from './set-khm'
+import stx from './set-stx'
 
 import cube_gnt from './cube-gnt'
 import cube_vintage_2019 from './cube-vintage-2019'
@@ -61,6 +62,7 @@ const sets = {
   znr,
   klr,
   khm,
+  stx,
   '2xm': twoxm,
   cube_gnt,
   cube_vintage_2019,
