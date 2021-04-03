@@ -499,7 +499,6 @@ export function deckList(set_code, format, sealed, deck) {
          sideboard_list;
 }
 
-
 function cardsInDeck(card, deck, entirePool = false) {
   let end = entirePool ? DECK.UNUSED : DECK.SIDEBOARD;
   let cards = _flatten(deck.piles.slice(0, end));
