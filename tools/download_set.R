@@ -97,8 +97,10 @@ download_cards <- function(cards,
         }
       }
       multiverse_ids <- list(card$tcgplayer_id + 1000000)
-    } else {
+    } else if (set != "stx" && set != "sta") {
       multiverse_ids <- card$multiverse_ids
+    } else {
+      multiverse_ids <- list()
     }
     
     # convert collector_number to integer
@@ -122,25 +124,6 @@ download_cards <- function(cards,
       # forest
       } else if (collector_number == 384) {
         collector_number <- 278
-      }
-    }
-    
-    if (set == "stx") {
-      # plains
-      if (collector_number == 366) {
-        collector_number <- 276
-        # island
-      } else if (collector_number == 368) {
-        collector_number <- 277
-        # swamp
-      } else if (collector_number == 370) {
-        collector_number <- 278
-        # mountain
-      } else if (collector_number == 372) {
-        collector_number <- 279
-        # forest
-      } else if (collector_number == 374) {
-        collector_number <- 280
       }
     }
     
@@ -312,7 +295,7 @@ download_cards <- function(cards,
     znr = 280,
     klr = 301,
     khm = 398,
-    stx = 280,
+    stx = 375,
     sta = 63,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
@@ -326,10 +309,16 @@ download_cards <- function(cards,
       include
     }, cards)
   
-  # filter out special cards from khm
+  # filter out special cards from khm and stx
   if (set == "khm") {
     cards <- Filter(function(card) {
       card$collector_number <= 285 || card$collector_number >= 394
+    }, cards)
+  }
+  
+  if (set == "sta") {
+    cards <- Filter(function(card) {
+      card$collector_number <= 275 || card$collector_number >= 366
     }, cards)
   }
   

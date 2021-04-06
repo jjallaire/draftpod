@@ -1,15 +1,15 @@
 [
   {
     "id": 910091,
-    "name": "Academic Debate",
+    "name": "Academic Dispute",
     "collector_number": 91,
     "multiverse_ids": [
       910091
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/4620cc3b-e401-4096-b310-fed080806344.jpg?1617447693"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/4620cc3b-e401-4096-b310-fed080806344.jpg?1617551410"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Target creature blocks this turn if able. You may have that creature gain reach until end of turn.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "oracle_text": "Target creature blocks this turn if able. You may have it gain reach until end of turn.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
     "mana_cost": "{R}",
     "cmc": 1,
     "colors": [
@@ -17,7 +17,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -38,7 +38,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -57,7 +57,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -78,7 +78,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -100,7 +100,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -121,7 +121,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -142,7 +142,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -163,7 +163,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -182,7 +182,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -213,7 +213,7 @@
     "multiverse_ids": [
       910063
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/556a0816-83c5-41dc-8546-213b21e2cceb.jpg?1617446715"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/5/556a0816-83c5-41dc-8546-213b21e2cceb.jpg?1617551429"],
     "layout": "normal",
     "type_line": "Creature — Human Warlock",
     "oracle_text": "Whenever Arrogant Poet attacks, you may pay 2 life. If you do, it gains flying until end of turn.",
@@ -224,7 +224,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -292,7 +292,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -313,7 +313,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -334,7 +334,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -356,7 +356,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -366,7 +366,7 @@
     "multiverse_ids": [
       910251
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d74e1117-0196-4268-be97-a1e81b5dc90e.jpg?1617457333"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d74e1117-0196-4268-be97-a1e81b5dc90e.jpg?1617570409"],
     "layout": "normal",
     "type_line": "Artifact Creature — Gargoyle",
     "oracle_text": "Flying\nWhen Biblioplex Assistant enters the battlefield, put up to one target instant or sorcery card from your graveyard on top of your library.",
@@ -375,7 +375,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -396,7 +396,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -418,7 +418,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -440,7 +440,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -452,8 +452,8 @@
       911148
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c204b7ca-0904-40fa-b20c-92400fae20b8.jpg?1617407388",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/c/2/c204b7ca-0904-40fa-b20c-92400fae20b8.jpg?1617407388"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c204b7ca-0904-40fa-b20c-92400fae20b8.jpg?1617583842",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/c/2/c204b7ca-0904-40fa-b20c-92400fae20b8.jpg?1617583842"
     ],
     "layout": "modal_dfc",
     "type_line": "Legendary Creature — Pest // Sorcery",
@@ -461,11 +461,12 @@
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
+      "B",
       "G"
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -475,10 +476,10 @@
     "multiverse_ids": [
       910093
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f30237cc-27c8-4075-acbd-d75a16588a68.jpg?1617447808"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f30237cc-27c8-4075-acbd-d75a16588a68.jpg?1617610502"],
     "layout": "normal",
     "type_line": "Creature — Spirit Warrior",
-    "oracle_text": "{T}: Attacking Spirits you control get +1/+0 until end of turn.",
+    "oracle_text": "{T}: Attacking Spirits get +1/+0 until end of turn.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -496,7 +497,7 @@
     "multiverse_ids": [
       910166
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3e35e9ba-a10e-4926-a7a6-3a65efc2a730.jpg?1617450399"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3e35e9ba-a10e-4926-a7a6-3a65efc2a730.jpg?1617473910"],
     "layout": "normal",
     "type_line": "Creature — Vampire Druid",
     "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever you gain life, put a +1/+1 counter on Blood Researcher.",
@@ -508,7 +509,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -530,7 +531,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "stx"
   },
   {
@@ -540,7 +541,7 @@
     "multiverse_ids": [
       910168
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/98b56823-0076-49cc-b5aa-4accb8e2782e.jpg?1617450424"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/98b56823-0076-49cc-b5aa-4accb8e2782e.jpg?1617583354"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is the number of cards in your library.",
@@ -552,7 +553,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -562,7 +563,7 @@
     "multiverse_ids": [
       910123
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/57d230fc-d382-40b4-bdbd-5fe880fa16bf.jpg?1617314124"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/7/57d230fc-d382-40b4-bdbd-5fe880fa16bf.jpg?1617474091"],
     "layout": "normal",
     "type_line": "Creature — Wurm",
     "oracle_text": "Trample\nWhen Bookwurm enters the battlefield, you gain 3 life and draw a card.\n{2}{G}: Put Bookwurm from your graveyard into your library third from the top.",
@@ -583,7 +584,7 @@
     "multiverse_ids": [
       910065
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/0/90ba37ee-159f-421f-8d37-a7b5f1b562f0.jpg?1617458952"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/0/90ba37ee-159f-421f-8d37-a7b5f1b562f0.jpg?1617584899"],
     "layout": "normal",
     "type_line": "Creature — Fungus Beast",
     "oracle_text": "Brackish Trudge enters the battlefield tapped.\n{1}{B}: Return Brackish Trudge from your graveyard to your hand. Activate only if you gained life this turn.",
@@ -636,7 +637,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -657,7 +658,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -667,7 +668,7 @@
     "multiverse_ids": [
       910252
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87a9a8a2-de81-441b-b501-418311b677f7.jpg?1617072724"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87a9a8a2-de81-441b-b501-418311b677f7.jpg?1617583436"],
     "layout": "normal",
     "type_line": "Artifact Creature — Golem",
     "oracle_text": "When Campus Guide enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.",
@@ -676,7 +677,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -697,7 +698,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -718,7 +719,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -728,7 +729,7 @@
     "multiverse_ids": [
       910169
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/8/785e6d07-fe40-4723-b963-02da0a0987c7.jpg?1617450458"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/8/785e6d07-fe40-4723-b963-02da0a0987c7.jpg?1617466098"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "This spell costs {2} less to cast during your end step.\nDestroy target creature or planeswalker you don't control. Put a +1/+1 counter on up to one target creature you control.",
@@ -740,7 +741,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -765,7 +766,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -784,7 +785,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -805,7 +806,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -826,7 +827,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -836,10 +837,10 @@
     "multiverse_ids": [
       910094
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/742a7487-70a2-448b-8e66-c33cba798a32.jpg?1617453531"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/742a7487-70a2-448b-8e66-c33cba798a32.jpg?1617583606"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
-    "oracle_text": "Whenever Conspiracy THeorist attacks, you may pay {1} and discard a card. If you do, draw a card.\nWhenever you discard one or more nonland cards, you may exile one of them from your graveyard. If you do, you may cast it this turn.",
+    "oracle_text": "Whenever Conspiracy Theorist attacks, you may pay {1} and discard a card. If you do, draw a card.\nWhenever you discard one or more nonland cards, you may exile one of them from your graveyard. If you do, you may cast it this turn.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -847,7 +848,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -857,7 +858,7 @@
     "multiverse_ids": [
       910125
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0dcca120-b72e-4007-98e1-cb22e7b9a705.jpg?1617404753"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0dcca120-b72e-4007-98e1-cb22e7b9a705.jpg?1617583651"],
     "layout": "normal",
     "type_line": "Sorcery — Lesson",
     "oracle_text": "Destroy target artifact or enchantment. If its mana value is 2 or less, create a 1/1 black and green Pest creature token with \"When this creature dies, you gain 1 life.\"",
@@ -868,7 +869,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -889,7 +890,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4,
     "set": "stx"
   },
   {
@@ -911,7 +912,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -954,7 +955,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -964,7 +965,7 @@
     "multiverse_ids": [
       910172
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/f/8f6f91d3-cc07-4a42-99a0-5fb83b29cc25.jpg?1617453569"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/f/8f6f91d3-cc07-4a42-99a0-5fb83b29cc25.jpg?1617474212"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Destroy each nonland permanent with mana value 2 or less. Add {B} or {G} for each permanent destroyed this way.",
@@ -976,7 +977,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -998,7 +999,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -1019,7 +1020,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -1029,7 +1030,7 @@
     "multiverse_ids": [
       910174
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c2f18828-ade7-4b99-97b2-e34bc2fdb68c.jpg?1617405129"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c2f18828-ade7-4b99-97b2-e34bc2fdb68c.jpg?1617583304"],
     "layout": "normal",
     "type_line": "Creature — Demon",
     "oracle_text": "Whenever Daemogoth Titan attacks or blocks, sacrifice a creature.",
@@ -1041,7 +1042,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -1073,7 +1074,7 @@
     "multiverse_ids": [
       910176
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87d33e48-90fc-4aac-b09a-68050bc053b5.jpg?1617451399"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/87d33e48-90fc-4aac-b09a-68050bc053b5.jpg?1617474223"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Each player sacrifices a creature or planeswalker. If you sacrificed a permanent this way, you may return another permanent card from your graveyard to your hand.",
@@ -1085,7 +1086,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -1107,7 +1108,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -1128,7 +1129,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -1149,7 +1150,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -1159,7 +1160,7 @@
     "multiverse_ids": [
       910014
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/b/3b6be019-29b9-4c81-9899-aefeaf9cc977.jpg?1617444766"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/b/3b6be019-29b9-4c81-9899-aefeaf9cc977.jpg?1617618527"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "You may pay {2}{W}{W} rather than pay this spell's mana cost.\nIf the {2}{W}{W} cost was paid, an opponent choses up to two nonland permanents they control and returns them to their owner's hand.\nDestroy all nonland permanents.",
@@ -1170,7 +1171,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -1244,7 +1245,7 @@
     "multiverse_ids": [
       910179
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c3d35413-8742-4443-8859-93c91112978d.jpg?1617312416"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c3d35413-8742-4443-8859-93c91112978d.jpg?1617583285"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Copy target creature spell you control, except it isn't legendary if the spell is legendary. (A copy of a creature spell becomes a token.)",
@@ -1256,7 +1257,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -1277,7 +1278,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -1298,7 +1299,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -1319,7 +1320,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "stx"
   },
   {
@@ -1329,7 +1330,7 @@
     "multiverse_ids": [
       910180
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a8ec9be6-c8ad-4a82-8253-c49cdb9443ba.jpg?1617267396"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/8/a8ec9be6-c8ad-4a82-8253-c49cdb9443ba.jpg?1617466096"],
     "layout": "normal",
     "type_line": "Enchantment",
     "oracle_text": "Creature tokens you control get +1/+1.\nWhenever one or more nontoken creatures you control die, create a 2/1 white and black Inkling creature token with flying. This ability triggers only once each turn.",
@@ -1341,7 +1342,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -1362,7 +1363,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -1383,7 +1384,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -1404,7 +1405,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -1425,7 +1426,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -1446,7 +1447,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -1456,10 +1457,10 @@
     "multiverse_ids": [
       910181
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/34b6e53f-f605-430e-9455-b3653cbd8e1d.jpg?1617222620"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/7473db42-905b-4fda-af8c-fd24d906b642.jpg?1617583490"],
     "layout": "normal",
     "type_line": "Creature — Orc Wizard",
-    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, choose target creature you control. Until end of turn, it gains \"If this creature would leave the battlefield, exile it instead of putting it anywhere else\" and \"When you exile this creature, create a 4/4 blue and red Elemental creature token.\"",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, choose target creature you control. Until end of turn, it gains \"If this creature would leave the battlefield, exile it instead of putting it anywhere else\" and \"When you exile this creature, create a 4/4 blue and red Elemental creature token.\" (Each instance of that ability triggers separately.)",
     "mana_cost": "{U/R}{U/R}{U/R}{U/R}",
     "cmc": 4,
     "colors": [
@@ -1468,7 +1469,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -1490,7 +1491,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -1512,7 +1513,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -1575,7 +1576,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -1594,7 +1595,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -1615,7 +1616,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -1637,7 +1638,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -1656,7 +1657,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -1678,7 +1679,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -1697,7 +1698,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -1718,7 +1719,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -1739,7 +1740,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -1760,7 +1761,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -1809,7 +1810,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -1830,7 +1831,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -1851,7 +1852,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -1872,7 +1873,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -1893,7 +1894,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -1919,7 +1920,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -1929,10 +1930,10 @@
     "multiverse_ids": [
       910071
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/8/f8487884-e991-4feb-823b-90d9125edf19.jpg?1617447162"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/8/f8487884-e991-4feb-823b-90d9125edf19.jpg?1617473769"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Target creature gets -X/-X until end of turn, where X is 7 minus the number of cards in that person's hand.",
+    "oracle_text": "Target creature gets -X/-X until end of turn, where X is 7 minus the number of cards in that creature's controller's hand.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -1940,15 +1941,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
-    "id": 910280,
+    "id": 910374,
     "name": "Forest",
-    "collector_number": 280,
+    "collector_number": 374,
     "multiverse_ids": [
-      910280
+      910374
     ],
     "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/f/dfaf517f-86a1-45eb-bd71-e0bffb610396.jpg?1616785794"],
     "layout": "normal",
@@ -1961,7 +1962,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -1982,7 +1983,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -2004,7 +2005,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -2014,7 +2015,7 @@
     "multiverse_ids": [
       910188
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a11224f8-06ea-4ec3-85e6-d5c8d906840c.jpg?1617451936"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a11224f8-06ea-4ec3-85e6-d5c8d906840c.jpg?1617466038"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Destroy target artifact, enchantment, or planeswalker.",
@@ -2026,7 +2027,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -2048,7 +2049,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -2069,7 +2070,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -2090,7 +2091,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -2112,7 +2113,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -2134,7 +2135,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "stx"
   },
   {
@@ -2176,7 +2177,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -2198,7 +2199,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -2219,7 +2220,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -2229,10 +2230,10 @@
     "multiverse_ids": [
       910019
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/6/d6fb3163-12ca-4a7f-a0c7-b8ddfc9408a0.jpg?1617445112"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/6/d6fb3163-12ca-4a7f-a0c7-b8ddfc9408a0.jpg?1617613003"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Put a +1/+1 counter on target creature.\nLearn (You may reveal a Lesson card you own from outside the game and p",
+    "oracle_text": "Put a +1/+1 counter on target creature.\nLearn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -2240,7 +2241,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -2261,7 +2262,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -2280,7 +2281,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -2302,7 +2303,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -2323,7 +2324,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -2345,7 +2346,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "stx"
   },
   {
@@ -2388,7 +2389,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -2430,7 +2431,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -2451,7 +2452,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -2472,7 +2473,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -2504,18 +2505,18 @@
     "multiverse_ids": [
       910044
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/2386d020-a9ae-4d54-b5e4-f2cb5a7298cc.jpg?1617446070"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/3/2386d020-a9ae-4d54-b5e4-f2cb5a7298cc.jpg?1617565277"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "You may pay {2}{u} rather tahn pay this spell's mana cost.\nIf {2}{u} was paid, you draw three cards, then an opponent creates two Treasure tokens and they scry 2. If that cost wasn't paid, you draw X cards.",
+    "oracle_text": "You may pay {2}{U} rather than pay this spell's mana cost.\nIf the {2}{U} cost was paid, you draw three cards, then an opponent creates two Treasure tokens and they scry 2. If that cost wasn't paid, you draw X cards.",
     "mana_cost": "{X}{2}{U}",
     "cmc": 3,
     "colors": [
       "U"
     ],
     "latent_color": "",
-    "rarity": "common",
-    "rating": 2,
+    "rarity": "rare",
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -2525,7 +2526,7 @@
     "multiverse_ids": [
       910195
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/4/04a8a5b8-9743-4d1a-89e9-61bdf180b2e0.jpg?1617330876"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/4/04a8a5b8-9743-4d1a-89e9-61bdf180b2e0.jpg?1617463986"],
     "layout": "normal",
     "type_line": "Sorcery — Lesson",
     "oracle_text": "Create a 2/1 white and black Inkling creature token with flying.",
@@ -2537,7 +2538,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -2556,7 +2557,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -2579,11 +2580,11 @@
     "set": "stx"
   },
   {
-    "id": 910277,
+    "id": 910368,
     "name": "Island",
-    "collector_number": 277,
+    "collector_number": 368,
     "multiverse_ids": [
-      910277
+      910368
     ],
     "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c96f9fb6-ef52-43f9-a458-8602a7c83333.jpg?1616785722"],
     "layout": "normal",
@@ -2596,7 +2597,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -2608,20 +2609,21 @@
       911151
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d7148d24-373e-4485-860b-c3429c2337f2.jpg?1617408200",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/d/7/d7148d24-373e-4485-860b-c3429c2337f2.jpg?1617408200"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d7148d24-373e-4485-860b-c3429c2337f2.jpg?1617613028",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/d/7/d7148d24-373e-4485-860b-c3429c2337f2.jpg?1617613028"
     ],
     "layout": "modal_dfc",
-    "type_line": "Legendary Creature — Human Wziard // Sorcery",
+    "type_line": "Legendary Creature — Human Wizard // Sorcery",
     "oracle_text": {},
     "mana_cost": "{6}{U}{U}",
     "cmc": 8,
     "colors": [
+      "G",
       "U"
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -2642,7 +2644,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -2664,7 +2666,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -2733,7 +2735,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -2754,7 +2756,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -2775,7 +2777,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -2796,7 +2798,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -2836,7 +2838,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -2880,7 +2882,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -2902,7 +2904,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "stx"
   },
   {
@@ -2924,7 +2926,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -2946,7 +2948,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -2968,7 +2970,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -2989,7 +2991,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3010,17 +3012,17 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
     "id": 910077,
-    "name": "Mage Hunter's Onslaught",
+    "name": "Mage Hunters' Onslaught",
     "collector_number": 77,
     "multiverse_ids": [
       910077
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/d/ed85140f-f0e0-4ac1-a67f-26d17ff95e31.jpg?1617409487"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/d/ed85140f-f0e0-4ac1-a67f-26d17ff95e31.jpg?1617613074"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Destroy target creature or planeswalker.\nWhenever a creature blocks this turn, its controller loses 1 life.",
@@ -3031,7 +3033,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3053,7 +3055,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4,
     "set": "stx"
   },
   {
@@ -3075,7 +3077,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -3097,7 +3099,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -3116,7 +3118,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4,
     "set": "stx"
   },
   {
@@ -3137,7 +3139,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -3158,7 +3160,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -3179,7 +3181,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4,
     "set": "stx"
   },
   {
@@ -3221,7 +3223,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -3247,7 +3249,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4,
     "set": "stx"
   },
   {
@@ -3269,7 +3271,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -3291,15 +3293,15 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
-    "id": 910279,
+    "id": 910372,
     "name": "Mountain",
-    "collector_number": 279,
+    "collector_number": 372,
     "multiverse_ids": [
-      910279
+      910372
     ],
     "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/6/9660fb20-f499-4f7a-9f25-e463f095ab90.jpg?1616785766"],
     "layout": "normal",
@@ -3312,7 +3314,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -3355,7 +3357,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -3419,7 +3421,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -3441,7 +3443,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -3462,7 +3464,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3472,10 +3474,10 @@
     "multiverse_ids": [
       910139
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a71dddf5-8f72-4018-9cc8-5f63a17f1ee5.jpg?1617404527"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a71dddf5-8f72-4018-9cc8-5f63a17f1ee5.jpg?1617464053"],
     "layout": "normal",
     "type_line": "Creature — Plant Wall",
-    "oracle_text": "Defender\n{T}: You gain 1 life.\n{2}, Sacrificie Overgrown Arch: Learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
+    "oracle_text": "Defender\n{T}: You gain 1 life.\n{2}, Sacrifice Overgrown Arch: Learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)",
     "mana_cost": "{1}{G}",
     "cmc": 2,
     "colors": [
@@ -3483,7 +3485,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -3505,7 +3507,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -3517,8 +3519,8 @@
       911154
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aaa1e6be-08cc-4ccc-b2de-3511613e4fd0.jpg?1617453186",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/a/aaa1e6be-08cc-4ccc-b2de-3511613e4fd0.jpg?1617453186"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aaa1e6be-08cc-4ccc-b2de-3511613e4fd0.jpg?1617612926",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/a/aaa1e6be-08cc-4ccc-b2de-3511613e4fd0.jpg?1617612926"
     ],
     "layout": "modal_dfc",
     "type_line": "Artifact // Sorcery",
@@ -3531,7 +3533,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3553,7 +3555,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -3574,7 +3576,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3595,7 +3597,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3605,7 +3607,7 @@
     "multiverse_ids": [
       910023
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/8/0884666e-8f9b-44b1-a1e3-c1c8941e2152.jpg?1617407989"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/8/0884666e-8f9b-44b1-a1e3-c1c8941e2152.jpg?1617473853"],
     "layout": "normal",
     "type_line": "Creature — Spirit Cleric",
     "oracle_text": "Flying\nWhen Pillardrop Rescuer enters the battlefield, return target creature card with mana value 3 or less from your graveyard to your hand.",
@@ -3616,7 +3618,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -3637,15 +3639,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
-    "id": 910276,
+    "id": 910366,
     "name": "Plains",
-    "collector_number": 276,
+    "collector_number": 366,
     "multiverse_ids": [
-      910276
+      910366
     ],
     "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/abadcf9e-46ed-4a8b-888c-0cd3756bc8ab.jpg?1616785691"],
     "layout": "normal",
@@ -3658,7 +3660,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -3684,17 +3686,17 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
     "id": 910081,
-    "name": "Plumb the Forgotten",
+    "name": "Plumb the Forbidden",
     "collector_number": 81,
     "multiverse_ids": [
       910081
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/5034227f-3b8a-45bf-917c-c2cbd98f2192.jpg?1617406703"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/0/5034227f-3b8a-45bf-917c-c2cbd98f2192.jpg?1617551376"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "As an additional cost to cast this spell, you may sacrifice one or more creatures. When you do, copy this spell for each creature sacrificed this way.\nYou draw a card and you lose 1 life.",
@@ -3705,7 +3707,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -3726,7 +3728,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3769,7 +3771,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -3779,7 +3781,7 @@
     "multiverse_ids": [
       910213
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dca3aa59-c8ac-4930-abf7-0a74d657122a.jpg?1616838772"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dca3aa59-c8ac-4930-abf7-0a74d657122a.jpg?1617613044"],
     "layout": "normal",
     "type_line": "Creature — Human Shaman",
     "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, Prismari Apprentice can't be blocked this turn. If that spell has mana value 5 or greater, put a +1/+1 counter on Prismari Apprentice.",
@@ -3801,16 +3803,19 @@
     "multiverse_ids": [
       910270
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/768120f5-9401-4e52-924e-3374bde65b3d.jpg?1617453808"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/768120f5-9401-4e52-924e-3374bde65b3d.jpg?1617538860"],
     "layout": "normal",
     "type_line": "Land",
     "oracle_text": "Prismari Campus enters the battlefield tapped.\n{T}: Add {U} or {R}.\n{4}, {T}: Scry 1.",
     "mana_cost": "",
     "cmc": 0,
-    "colors": [],
+    "colors": [
+      "R",
+      "U"
+    ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -3832,7 +3837,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -3896,7 +3901,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3917,7 +3922,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "stx"
   },
   {
@@ -3938,7 +3943,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -3959,7 +3964,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -4003,7 +4008,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -4025,7 +4030,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -4047,7 +4052,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -4069,7 +4074,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -4113,7 +4118,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -4156,7 +4161,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -4196,7 +4201,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -4217,7 +4222,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -4239,7 +4244,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -4260,7 +4265,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -4281,7 +4286,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -4313,7 +4318,7 @@
     "multiverse_ids": [
       910225
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b3b5b510-fd5c-415d-98b0-386e7508f7af.jpg?1617452481"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b3b5b510-fd5c-415d-98b0-386e7508f7af.jpg?1617474296"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Choose one —\n• Rip Apart deals 3 damage to target creature or planeswalker.\n• Destroy target artifact or enchantment.",
@@ -4347,7 +4352,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -4395,7 +4400,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4,
     "set": "stx"
   },
   {
@@ -4405,7 +4410,7 @@
     "multiverse_ids": [
       910228
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/07b7c952-5ab7-4546-8369-4d213bf868bf.jpg?1617452538"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/7/07b7c952-5ab7-4546-8369-4d213bf868bf.jpg?1617474301"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Choose target creature. When that creature dies this turn, search your library for a creature card with lesser mana value, put it onto the battlefield tapped, then shuffle.",
@@ -4417,7 +4422,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -4427,7 +4432,7 @@
     "multiverse_ids": [
       910142
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c9c0a096-870d-443c-92d3-f7ec1f362616.jpg?1617407920"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c9c0a096-870d-443c-92d3-f7ec1f362616.jpg?1617583275"],
     "layout": "normal",
     "type_line": "Creature — Squirrel",
     "oracle_text": "Reach\nScurrid Colony gets +2/+2 as long as you control eight or more lands.",
@@ -4438,7 +4443,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -4459,20 +4464,20 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 0,
     "set": "stx"
   },
   {
     "id": 910086,
-    "name": "Segemoor Witch",
+    "name": "Sedgemoor Witch",
     "collector_number": 86,
     "multiverse_ids": [
       910086
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/9/e900c1eb-968b-4046-b824-c167a7a5b682.jpg?1617446857"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/9/e900c1eb-968b-4046-b824-c167a7a5b682.jpg?1617473942"],
     "layout": "normal",
     "type_line": "Creature — Human Warlock",
-    "oracle_text": "Menance\nWard—Pay 3 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)\nMagecraft — Whenever you cast or copy an instant or sorcery spell, create a 1/1 black and green Pest creature token with \"Whenever this creature dies, you gain 1 life.\"",
+    "oracle_text": "Menace\nWard—Pay 3 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)\nMagecraft — Whenever you cast or copy an instant or sorcery spell, create a 1/1 black and green Pest creature token with \"When this creature dies, you gain 1 life.\"",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -4527,7 +4532,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -4548,7 +4553,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -4592,7 +4597,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "stx"
   },
   {
@@ -4618,7 +4623,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -4640,7 +4645,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -4661,7 +4666,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -4683,7 +4688,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -4727,7 +4732,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -4771,7 +4776,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -4781,7 +4786,7 @@
     "multiverse_ids": [
       910053
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a6b6f17d-45ba-4d60-a963-5eee026f2219.jpg?1617446352"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/6/a6b6f17d-45ba-4d60-a963-5eee026f2219.jpg?1617473722"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.\nDraw two cards, then discard a card.",
@@ -4792,7 +4797,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -4813,7 +4818,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -4834,7 +4839,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -4855,7 +4860,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -4877,7 +4882,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -4887,10 +4892,10 @@
     "multiverse_ids": [
       910087
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/73e3cfbc-7177-4bbc-89c4-560c9c2f97db.jpg?1617447526"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/73e3cfbc-7177-4bbc-89c4-560c9c2f97db.jpg?1617473678"],
     "layout": "normal",
     "type_line": "Creature — Specter",
-    "oracle_text": "Flying\n{5}{B}: Target oponent loses 2 life and you gain 2 life.",
+    "oracle_text": "Flying\n{5}{B}: Target opponent loses 2 life and you gain 2 life.",
     "mana_cost": "{3}{B}",
     "cmc": 4,
     "colors": [
@@ -4917,7 +4922,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -4927,7 +4932,7 @@
     "multiverse_ids": [
       910143
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c37ae6b5-225a-410e-ab22-13e923bdfb65.jpg?1617457555"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/c/3/c37ae6b5-225a-410e-ab22-13e923bdfb65.jpg?1617612603"],
     "layout": "normal",
     "type_line": "Creature — Crocodile",
     "oracle_text": "",
@@ -4938,7 +4943,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -4960,7 +4965,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -4970,7 +4975,7 @@
     "multiverse_ids": [
       910237
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be88355e-c986-4b69-93b4-0abf04916e86.jpg?1617452774"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be88355e-c986-4b69-93b4-0abf04916e86.jpg?1617551448"],
     "layout": "normal",
     "type_line": "Creature — Human Warlock",
     "oracle_text": "Deathtouch\nSpiteful Squad enters the battlefield with two +1/+1 counters on it.\nWhen Spiteful Squad dies, put its counters on target creature you control.",
@@ -4982,7 +4987,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -5003,7 +5008,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -5025,7 +5030,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -5046,7 +5051,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -5067,7 +5072,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -5088,7 +5093,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5120,7 +5125,7 @@
     "multiverse_ids": [
       910032
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/8/388f2e45-570f-4a35-b205-37e1345b5d06.jpg?1617445452"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/8/388f2e45-570f-4a35-b205-37e1345b5d06.jpg?1617584253"],
     "layout": "normal",
     "type_line": "Creature — Spirit Bird",
     "oracle_text": "Flying\n{4}, Exile a card from your graveyard: Target creature gains flying until end of turn.",
@@ -5131,7 +5136,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -5152,7 +5157,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -5173,7 +5178,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -5192,7 +5197,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5213,7 +5218,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -5234,15 +5239,15 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
-    "id": 910278,
+    "id": 910370,
     "name": "Swamp",
-    "collector_number": 278,
+    "collector_number": 370,
     "multiverse_ids": [
-      910278
+      910370
     ],
     "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/13bd1c69-2561-4ff1-af00-bb519b3897c2.jpg?1616785736"],
     "layout": "normal",
@@ -5255,7 +5260,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -5276,7 +5281,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -5298,7 +5303,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "stx"
   },
   {
@@ -5319,7 +5324,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -5341,7 +5346,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5362,7 +5367,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -5372,7 +5377,7 @@
     "multiverse_ids": [
       910260
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be294c4e-712b-459c-a36c-e26ed5c27edb.jpg?1617224681"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/e/be294c4e-712b-459c-a36c-e26ed5c27edb.jpg?1617464462"],
     "layout": "normal",
     "type_line": "Artifact — Equipment",
     "oracle_text": "Equipped creature gets +1/+1 and has vigilance and trample.\nEquip creature token {1}\nEquip {3}",
@@ -5381,7 +5386,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -5402,7 +5407,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -5424,7 +5429,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5445,7 +5450,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5455,10 +5460,10 @@
     "multiverse_ids": [
       910059
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/e/6e2b6236-b40c-430c-98b0-7940b942657a.jpg?1617446460"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/e/6e2b6236-b40c-430c-98b0-7940b942657a.jpg?1617583620"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Counter target instant or sorcery spell. Search its controller's graveyard, ahnd, and library for any number of cards with the same name as that spell and exile them. That player shuffles, then draws a card for each card exiled from their hand this way.",
+    "oracle_text": "Counter target instant or sorcery spell. Search its controller's graveyard, hand, and library for any number of cards with the same name as that spell and exile them. That player shuffles, then draws a card for each card exiled from their hand this way.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -5466,7 +5471,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -5485,7 +5490,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5507,7 +5512,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -5528,20 +5533,20 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
     "id": 910117,
-    "name": "Time Shredder",
+    "name": "Tome Shredder",
     "collector_number": 117,
     "multiverse_ids": [
       910117
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a7cc9ea8-db4e-4f41-800f-fb0dbcb2c345.jpg?1617314033"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/7/a7cc9ea8-db4e-4f41-800f-fb0dbcb2c345.jpg?1617474109"],
     "layout": "normal",
     "type_line": "Creature — Wolf",
-    "oracle_text": "Haste\n{T}, Exile an instant or sorcery card from your graveyard: Put a +1/+1 counter on Time Shredder.",
+    "oracle_text": "Haste\n{T}, Exile an instant or sorcery card from your graveyard: Put a +1/+1 counter on Tome Shredder.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -5549,7 +5554,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -5596,7 +5601,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -5638,7 +5643,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5664,7 +5669,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -5690,7 +5695,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "stx"
   },
   {
@@ -5700,7 +5705,7 @@
     "multiverse_ids": [
       910244
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e12573fe-aee3-49db-93e2-d00972cbb3b1.jpg?1617316251"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e12573fe-aee3-49db-93e2-d00972cbb3b1.jpg?1617474063"],
     "layout": "normal",
     "type_line": "Instant",
     "oracle_text": "Exile target monocolored permanent.",
@@ -5712,7 +5717,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -5734,7 +5739,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4,
     "set": "stx"
   },
   {
@@ -5744,7 +5749,7 @@
     "multiverse_ids": [
       910246
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/0/006313f8-cc60-4a4e-8ec6-953cdf1c16e3.jpg?1617452855"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/0/0/006313f8-cc60-4a4e-8ec6-953cdf1c16e3.jpg?1617474312"],
     "layout": "normal",
     "type_line": "Creature — Spirit Cleric",
     "oracle_text": "Vigilance, trample\nWhenever Venerable Warsinger deals combat damage to a player, you may return target creature card with mana value X or less from your graveyard to the battlefield, where X is the amount of damage Venerable Warsinger dealt to that player.",
@@ -5756,7 +5761,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -5777,7 +5782,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -5799,7 +5804,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -5809,10 +5814,10 @@
     "multiverse_ids": [
       910060
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/bab4a68d-5d26-42d8-bc51-15e3c1f95ebe.jpg?1617446599"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/bab4a68d-5d26-42d8-bc51-15e3c1f95ebe.jpg?1617473753"],
     "layout": "normal",
     "type_line": "Creature — Human Wizard",
-    "oracle_text": "As long as you control eight or more lands, Vortex Runner gets +1/+0 and can't be blcoked.",
+    "oracle_text": "As long as you control eight or more lands, Vortex Runner gets +1/+0 and can't be blocked.",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -5820,7 +5825,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5843,7 +5848,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -5864,7 +5869,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -5908,7 +5913,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -5930,7 +5935,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -5973,7 +5978,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -5992,7 +5997,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -6014,7 +6019,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -6035,7 +6040,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -6056,7 +6061,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 0.5,
     "set": "sta"
   },
   {
@@ -6077,7 +6082,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "sta"
   },
   {
@@ -6098,7 +6103,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -6119,7 +6124,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -6140,7 +6145,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -6161,7 +6166,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -6182,7 +6187,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 1.5,
     "set": "sta"
   },
   {
@@ -6203,7 +6208,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 0,
     "set": "sta"
   },
   {
@@ -6224,7 +6229,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -6245,7 +6250,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "sta"
   },
   {
@@ -6266,7 +6271,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4,
     "set": "sta"
   },
   {
@@ -6308,7 +6313,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -6329,7 +6334,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "sta"
   },
   {
@@ -6350,7 +6355,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1.5,
     "set": "sta"
   },
   {
@@ -6371,7 +6376,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3.5,
     "set": "sta"
   },
   {
@@ -6393,7 +6398,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -6414,7 +6419,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -6456,7 +6461,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 0.5,
     "set": "sta"
   },
   {
@@ -6478,7 +6483,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "sta"
   },
   {
@@ -6520,7 +6525,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -6541,7 +6546,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -6562,7 +6567,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1.5,
     "set": "sta"
   },
   {
@@ -6583,7 +6588,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2.5,
     "set": "sta"
   },
   {
@@ -6604,7 +6609,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1.5,
     "set": "sta"
   },
   {
@@ -6626,7 +6631,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -6647,7 +6652,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "sta"
   },
   {
@@ -6668,7 +6673,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 2.5,
     "set": "sta"
   },
   {
@@ -6689,7 +6694,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 0.5,
     "set": "sta"
   },
   {
@@ -6710,7 +6715,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -6731,7 +6736,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 0.5,
     "set": "sta"
   },
   {
@@ -6774,7 +6779,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "sta"
   },
   {
@@ -6795,7 +6800,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -6816,7 +6821,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -6837,7 +6842,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 1.5,
     "set": "sta"
   },
   {
@@ -6858,7 +6863,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -6879,7 +6884,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -6900,7 +6905,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 0.5,
     "set": "sta"
   },
   {
@@ -6921,7 +6926,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -6942,7 +6947,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4,
     "set": "sta"
   },
   {
@@ -6964,7 +6969,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "sta"
   },
   {
@@ -6985,7 +6990,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -7006,7 +7011,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 0.5,
     "set": "sta"
   },
   {
@@ -7048,7 +7053,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -7069,7 +7074,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -7090,7 +7095,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -7111,7 +7116,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -7132,7 +7137,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 5,
     "set": "sta"
   },
   {
@@ -7153,7 +7158,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -7174,7 +7179,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 1.5,
     "set": "sta"
   },
   {
@@ -7195,7 +7200,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -7216,7 +7221,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "sta"
   },
   {
@@ -7237,7 +7242,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -7258,7 +7263,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 3.5,
     "set": "sta"
   },
   {
@@ -7279,7 +7284,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "sta"
   },
   {
@@ -7300,7 +7305,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -7321,7 +7326,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 0,
     "set": "sta"
   },
   {
@@ -7342,7 +7347,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 1,
     "set": "sta"
   }
 ]
