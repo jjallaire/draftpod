@@ -16,34 +16,50 @@ export default {
 
   booster(selectCards) {
 
-    let cards = [].concat(
-      selectCards(rareSlotNotArchive, 1),
-      selectCards(uncommonNotArchive, 3),
-      selectCards(commonNotLessonOrArchive, 9)
-    );
+    const rares = selectCards(rareSlotNotArchive, 1);
+    const uncommons = selectCards(uncommonNotArchive, 3);
+    const commons = selectCards(commonNotLessonOrArchive, 9);
+    
+    function appendCard(card) {
+      if (filters.common(card)) {
+        commons.push(card);
+      } else if (filters.uncommon(card)) {
+        uncommons.push(card);
+      } else {
+        rares.push(card);
+      }
+    }
 
     // mystical archive card, percentages from:
     // https://magic.wizards.com/en/articles/archive/feature/collecting-strixhaven-school-mages-2021-03-25
+    let archive = undefined;
     const archiveRng = Math.random();
     if (archiveRng <= 0.67) {
-      cards.push(...selectCards(uncommonMysticalArchive, 1))
+      archive = selectCards(uncommonMysticalArchive, 1)[0];
     } else if (archiveRng <= (0.67 + 0.264)) {
-      cards.push(...selectCards([rareMysticalArchvive,uncommonMysticalArchive], 1))
+      archive = selectCards([rareMysticalArchvive,uncommonMysticalArchive], 1)[0];
     } else {
-      cards.push(...selectCards([mythicMysticalArchive,rareMysticalArchvive,uncommonMysticalArchive], 1))
+      archive = selectCards([mythicMysticalArchive,rareMysticalArchvive,uncommonMysticalArchive], 1)[0];
+    }
+    if (archive) {
+      appendCard(archive)
     }
 
     // lesson card, no documentation on the percentages of these cards so using the same as mystical archive
+    let lesson = undefined;
     const lessonRng = Math.random();
     if (lessonRng <= 0.67) {
-      cards.push(...selectCards([commonLesson,uncommonLesson], 1))
+      lesson = selectCards([commonLesson,uncommonLesson], 1)[0];
     } else if (lessonRng <= (0.67 + 0.264)) {
-      cards.push(...selectCards([rareLesson,uncommonLesson,commonLesson], 1))
+      lesson = selectCards([rareLesson,uncommonLesson,commonLesson], 1)[0];
     } else {
-      cards.push(...selectCards([mythicLesson,rareLesson,uncommonLesson,commonLesson], 1))
+      lesson = selectCards([mythicLesson,rareLesson,uncommonLesson,commonLesson], 1)[0];
     }
-    
-    return cards;
+    if (lesson) {
+      appendCard(lesson)
+    }
+
+    return [].concat(rares, uncommons, commons);
   },
 }
 
