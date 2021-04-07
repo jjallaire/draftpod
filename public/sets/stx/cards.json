@@ -2272,10 +2272,10 @@
     "multiverse_ids": [
       910267
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/7642dddd-4461-46dd-b396-9e0a89f7232e.jpg?1617453717"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/6/7642dddd-4461-46dd-b396-9e0a89f7232e.jpg?1617736051"],
     "layout": "normal",
     "type_line": "Land",
-    "oracle_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{T} Put a +1/+1 counter on target creature. Activate only as a sorcery and only if you've cast an instant or sorcery spell this turn.",
+    "oracle_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{T}: Put a +1/+1 counter on target creature. Activate only as a sorcery and only if you've cast an instant or sorcery spell this turn.",
     "mana_cost": "",
     "cmc": 0,
     "colors": [],
@@ -2882,7 +2882,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -3815,7 +3815,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -4008,7 +4008,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -4710,7 +4710,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -5913,7 +5913,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2.5,
     "set": "stx"
   },
   {
