@@ -1,31 +1,31 @@
 "id","name","rating"
 910001,"Environmental Sciences",2.5
-910002,"Expanded Anatomy",2.5
+910002,"Expanded Anatomy",2
 910003,"Introduction to Annihilation",2.5
 910004,"Introduction to Prophecy",2
 910005,"Mascot Exhibition",4
-910006,"Wandering Archaic // Explore the Vastlands",3.5
-910007,"Academic Probation",0
+910006,"Wandering Archaic // Explore the Vastlands",4
+910007,"Academic Probation",0.5
 910008,"Ageless Guardian",0
 910009,"Beaming Defiance",0.5
 910010,"Clever Lumimancer",1
-910011,"Combat Professor",2.5
+910011,"Combat Professor",3
 910012,"Defend the Campus",1.5
 910013,"Detention Vortex",1
 910014,"Devastating Mastery",3
 910015,"Dueling Coach",2.5
-910016,"Eager First-Year",1.5
-910017,"Elite Spellbinder",4
+910016,"Eager First-Year",2
+910017,"Elite Spellbinder",3.5
 910018,"Expel",3
 910019,"Guiding Voice",1.5
 910020,"Leonin Lightscribe",3.5
-910021,"Mavinda, Students' Advocate",4
-910022,"Pilgrim of the Ages",3
+910021,"Mavinda, Students' Advocate",3.5
+910022,"Pilgrim of the Ages",2
 910023,"Pillardrop Rescuer",1.5
-910024,"Professor of Symbology",3
-910025,"Reduce to Memory",3
+910024,"Professor of Symbology",3.5
+910025,"Reduce to Memory",2.5
 910026,"Secret Rendezvous",0
-910027,"Semester's End",2.5
+910027,"Semester's End",3
 910028,"Show of Confidence",2.5
 910029,"Sparring Regimen",3.5
 910030,"Star Pupil",1
@@ -33,15 +33,15 @@
 910032,"Stonerise Spirit",1
 910033,"Strict Proctor",2
 910034,"Study Break",0.5
-910035,"Thunderous Orator",3.5
-910036,"Arcane Subtraction",1.5
+910035,"Thunderous Orator",3
+910036,"Arcane Subtraction",1
 910037,"Archmage Emeritus",3.5
 910038,"Burrog Befuddler",2
 910039,"Bury in Books",3
 910040,"Curate",1.5
 910041,"Divide by Zero",3
 910042,"Dream Strix",3.5
-910043,"Frost Trickster",3.5
+910043,"Frost Trickster",3
 910044,"Ingenious Mastery",3
 910045,"Kelpie Guide",3
 910046,"Mentor's Guidance",3
@@ -53,39 +53,39 @@
 910052,"Serpentine Curve",1
 910053,"Snow Day",1.5
 910054,"Solve the Equation",1
-910055,"Soothsayer Adept",1.5
-910056,"Symmetry Sage",2
+910055,"Soothsayer Adept",1
+910056,"Symmetry Sage",1.5
 910057,"Teachings of the Archaics",2.5
-910058,"Tempted by the Oriq",3
-910059,"Test of Talents",0
+910058,"Tempted by the Oriq",3.5
+910059,"Test of Talents",0.5
 910060,"Vortex Runner",1.5
 910061,"Waterfall Aerialist",2.5
 910062,"Wormhole Serpent",2
-910063,"Arrogant Poet",1.5
+910063,"Arrogant Poet",1
 910064,"Baleful Mastery",4
 910065,"Brackish Trudge",3
 910066,"Callous Bloodmage",3.5
-910067,"Confront the Past",0.5
-910068,"Crushing Disappointment",1.5
+910067,"Confront the Past",0
+910068,"Crushing Disappointment",2
 910069,"Essence Infusion",0
-910070,"Eyetwitch",2
+910070,"Eyetwitch",2.5
 910071,"Flunk",3.5
-910072,"Go Blank",1
+910072,"Go Blank",1.5
 910073,"Hunt for Specimens",2
 910074,"Lash of Malice",3
 910075,"Leech Fanatic",1.5
 910076,"Mage Hunter",2.5
-910077,"Mage Hunters' Onslaught",3
+910077,"Mage Hunters' Onslaught",3.5
 910078,"Necrotic Fumes",3
 910079,"Novice Dissector",1
 910080,"Oriq Loremage",3
-910081,"Plumb the Forbidden",1.5
-910082,"Poet's Quill",3
+910081,"Plumb the Forbidden",2
+910082,"Poet's Quill",3.5
 910083,"Professor Onyx",4.5
 910084,"Professor's Warning",1.5
 910085,"Promising Duskmage",1.5
 910086,"Sedgemoor Witch",4
-910087,"Specter of the Fens",2
+910087,"Specter of the Fens",1.5
 910088,"Tenured Inkcaster",1.5
 910089,"Umbral Juke",3
 910090,"Unwilling Ingredient",1.5
@@ -98,12 +98,12 @@
 910097,"Dragon's Approach",0
 910098,"Efreet Flamepainter",3.5
 910099,"Enthusiastic Study",1
-910100,"Explosive Welcome",2
-910101,"Fervent Mastery",0.5
-910102,"First Day of Class",1
-910103,"Fuming Effigy",1
-910104,"Grinning Ignus",1
-910105,"Hall Monitor",1.5
+910100,"Explosive Welcome",1.5
+910101,"Fervent Mastery",0
+910102,"First Day of Class",0.5
+910103,"Fuming Effigy",1.5
+910104,"Grinning Ignus",1.5
+910105,"Hall Monitor",1
 910106,"Heated Debate",3.5
 910107,"Igneous Inspiration",3.5
 910108,"Illuminate History",3
@@ -112,21 +112,21 @@
 910111,"Pigment Storm",3
 910112,"Pillardrop Warden",1
 910113,"Retriever Phoenix",3.5
-910114,"Start from Scratch",2
-910115,"Storm-Kiln Artist",2.5
-910116,"Sudden Breakthrough",1.5
-910117,"Tome Shredder",2.5
+910114,"Start from Scratch",1.5
+910115,"Storm-Kiln Artist",3
+910116,"Sudden Breakthrough",1
+910117,"Tome Shredder",2
 910118,"Twinscroll Shaman",0.5
 910119,"Accomplished Alchemist",3
-910120,"Basic Conjuration",2
+910120,"Basic Conjuration",2.5
 910121,"Bayou Groff",2.5
-910122,"Big Play",1
+910122,"Big Play",1.5
 910123,"Bookwurm",3
 910124,"Charge Through",0.5
-910125,"Containment Breach",1.5
+910125,"Containment Breach",2
 910126,"Devouring Tendrils",3
 910127,"Dragonsguard Elite",4.5
-910128,"Ecological Appreciation",3
+910128,"Ecological Appreciation",2.5
 910129,"Emergent Sequence",3
 910130,"Exponential Growth",1.5
 910131,"Field Trip",2.5
@@ -134,20 +134,20 @@
 910133,"Gnarled Professor",4
 910134,"Honor Troll",3
 910135,"Karok Wrangler",2.5
-910136,"Leyline Invocation",1.5
+910136,"Leyline Invocation",2
 910137,"Mage Duel",3
 910138,"Master Symmetrist",3.5
 910139,"Overgrown Arch",2
 910140,"Professor of Zoomancy",3
-910141,"Reckless Amplimancer",2
+910141,"Reckless Amplimancer",1.5
 910142,"Scurrid Colony",2.5
-910143,"Spined Karok",1
-910144,"Springmane Cervin",1
+910143,"Spined Karok",1.5
+910144,"Springmane Cervin",1.5
 910145,"Tangletrap",0
 910146,"Verdant Mastery",1
 910147,"Augmenter Pugilist // Echoing Equation",3.5
 910148,"Blex, Vexing Pest // Search for Blex",3.5
-910149,"Extus, Oriq Overlord // Awaken the Blood Avatar",3.5
+910149,"Extus, Oriq Overlord // Awaken the Blood Avatar",4
 910150,"Flamescroll Celebrant // Revel in Silence",3
 910151,"Jadzi, Oracle of Arcavios // Journey to the Oracle",3
 910152,"Kianne, Dean of Substance // Imbraham, Dean of Theory",4
@@ -155,8 +155,8 @@
 910154,"Pestilent Cauldron // Restorative Burst",3
 910155,"Plargg, Dean of Chaos // Augusta, Dean of Order",3.5
 910156,"Rowan, Scholar of Sparks // Will, Scholar of Frost",4
-910157,"Selfless Glyphweaver // Deadly Vanity",4
-910158,"Shaile, Dean of Radiance // Embrose, Dean of Shadow",3.5
+910157,"Selfless Glyphweaver // Deadly Vanity",3.5
+910158,"Shaile, Dean of Radiance // Embrose, Dean of Shadow",4
 910159,"Torrent Sculptor // Flamethrower Sonata",4
 910160,"Uvilda, Dean of Perfection // Nassari, Dean of Expression",3.5
 910161,"Valentin, Dean of the Vein // Lisette, Dean of the Root",4.5
@@ -165,14 +165,14 @@
 910164,"Biomathematician",3.5
 910165,"Blade Historian",3.5
 910166,"Blood Researcher",3
-910167,"Blot Out the Sky",4.5
-910168,"Body of Research",3
+910167,"Blot Out the Sky",5
+910168,"Body of Research",3.5
 910169,"Closing Statement",3.5
-910170,"Cram Session",1.5
+910170,"Cram Session",1
 910171,"Creative Outburst",3
 910172,"Culling Ritual",3
-910173,"Culmination of Studies",2.5
-910174,"Daemogoth Titan",3.5
+910173,"Culmination of Studies",2
+910174,"Daemogoth Titan",3
 910175,"Daemogoth Woe-Eater",3
 910176,"Deadly Brew",2.5
 910177,"Decisive Denial",3.5
@@ -185,8 +185,8 @@
 910184,"Eureka Moment",3
 910185,"Exhilarating Elocution",1
 910186,"Expressive Iteration",3
-910187,"Fractal Summoning",3
-910188,"Fracture",1.5
+910187,"Fractal Summoning",2.5
+910188,"Fracture",1
 910189,"Galazeth Prismari",4.5
 910190,"Golden Ratio",2
 910191,"Harness Infinity",3
@@ -204,23 +204,23 @@
 910203,"Magma Opus",4
 910204,"Make Your Mark",1.5
 910205,"Manifestation Sage",3.5
-910206,"Moldering Karok",1.5
+910206,"Moldering Karok",2
 910207,"Mortality Spear",3.5
-910208,"Needlethorn Drake",2
-910209,"Oggyar Battle-Seer",1.5
-910210,"Owlin Shieldmage",2.5
-910211,"Pest Summoning",2.5
+910208,"Needlethorn Drake",1.5
+910209,"Oggyar Battle-Seer",2
+910210,"Owlin Shieldmage",3
+910211,"Pest Summoning",2
 910212,"Practical Research",2.5
 910213,"Prismari Apprentice",3
 910214,"Prismari Command",3.5
-910215,"Prismari Pledgemage",2
-910216,"Quandrix Apprentice",3
+910215,"Prismari Pledgemage",1.5
+910216,"Quandrix Apprentice",3.5
 910217,"Quandrix Command",3.5
-910218,"Quandrix Cultivator",3.5
+910218,"Quandrix Cultivator",3
 910219,"Quandrix Pledgemage",3
 910220,"Quintorius, Field Historian",3
 910221,"Radiant Scrollwielder",3.5
-910222,"Reconstruct History",2.5
+910222,"Reconstruct History",3
 910223,"Relic Sloth",1.5
 910224,"Returned Pastcaller",3
 910225,"Rip Apart",3
@@ -229,7 +229,7 @@
 910228,"Rushed Rebirth",2
 910229,"Shadewing Laureate",3
 910230,"Shadrix Silverquill",4.5
-910231,"Silverquill Apprentice",1.5
+910231,"Silverquill Apprentice",2
 910232,"Silverquill Command",3.5
 910233,"Silverquill Pledgemage",2
 910234,"Silverquill Silencer",3
@@ -244,35 +244,35 @@
 910243,"Thrilling Discovery",1
 910244,"Vanishing Verse",3.5
 910245,"Velomachus Lorehold",4
-910246,"Venerable Warsinger",3.5
+910246,"Venerable Warsinger",4
 910247,"Witherbloom Apprentice",3
-910248,"Witherbloom Command",3.5
-910249,"Witherbloom Pledgemage",2
+910248,"Witherbloom Command",3
+910249,"Witherbloom Pledgemage",2.5
 910250,"Zimone, Quandrix Prodigy",3.5
 910251,"Biblioplex Assistant",1
-910252,"Campus Guide",1.5
+910252,"Campus Guide",2
 910253,"Codie, Vociferous Codex",1
 910254,"Cogwork Archivist",0
 910255,"Excavated Wall",0
-910256,"Letter of Acceptance",2
+910256,"Letter of Acceptance",1.5
 910257,"Reflective Golem",1.5
-910258,"Spell Satchel",1
-910259,"Strixhaven Stadium",1.5
+910258,"Spell Satchel",1.5
+910259,"Strixhaven Stadium",2
 910260,"Team Pennant",2
 910261,"Zephyr Boots",2.5
 910262,"Access Tunnel",0.5
 910263,"Archway Commons",1
-910264,"The Biblioplex",1.5
-910265,"Frostboil Snarl",1.5
+910264,"The Biblioplex",1
+910265,"Frostboil Snarl",1
 910266,"Furycalm Snarl",1
-910267,"Hall of Oracles",3
+910267,"Hall of Oracles",2.5
 910268,"Lorehold Campus",2.5
-910269,"Necroblossom Snarl",1
+910269,"Necroblossom Snarl",1.5
 910270,"Prismari Campus",2.5
 910271,"Quandrix Campus",2.5
-910272,"Shineshadow Snarl",1
+910272,"Shineshadow Snarl",1.5
 910273,"Silverquill Campus",2.5
-910274,"Vineglimmer Snarl",1
+910274,"Vineglimmer Snarl",0.5
 910275,"Witherbloom Campus",2.5
 910366,"Plains",0
 910368,"Island",0
@@ -282,24 +282,24 @@
 920001,"Approach of the Second Sun",3
 920002,"Day of Judgment",4.5
 920003,"Defiant Strike",1.5
-920004,"Divine Gambit",1
+920004,"Divine Gambit",0.5
 920005,"Ephemerate",3
-920006,"Gift of Estates",1.5
+920006,"Gift of Estates",1
 920007,"Gods Willing",2.5
 920008,"Mana Tithe",1
 920009,"Revitalize",0.5
-920010,"Swords to Plowshares",5
-920011,"Teferi's Protection",1.5
+920010,"Swords to Plowshares",4.5
+920011,"Teferi's Protection",2
 920012,"Blue Sun's Zenith",3
 920013,"Brainstorm",2
 920014,"Compulsive Research",3
 920015,"Counterspell",3.5
-920016,"Memory Lapse",2
+920016,"Memory Lapse",2.5
 920017,"Mind's Desire",1.5
-920018,"Negate",0.5
-920019,"Opt",2
+920018,"Negate",1
+920019,"Opt",1.5
 920020,"Strategic Planning",1
-920021,"Tezzeret's Gambit",3.5
+920021,"Tezzeret's Gambit",3
 920022,"Time Warp",3.5
 920023,"Whirlwind Denial",1
 920024,"Agonizing Remorse",2.5
@@ -309,36 +309,36 @@
 920028,"Doom Blade",4
 920029,"Duress",0.5
 920030,"Eliminate",3
-920031,"Inquisition of Kozilek",2
+920031,"Inquisition of Kozilek",1.5
 920032,"Sign in Blood",3
 920033,"Tainted Pact",1
 920034,"Tendrils of Agony",1
 920035,"Village Rites",2
 920036,"Chaos Warp",1.5
 920037,"Claim the Firstborn",0
-920038,"Faithless Looting",2
-920039,"Grapeshot",1.5
-920040,"Increasing Vengeance",2.5
-920041,"Infuriate",0.5
+920038,"Faithless Looting",1.5
+920039,"Grapeshot",2
+920040,"Increasing Vengeance",3
+920041,"Infuriate",1
 920042,"Lightning Bolt",4
 920043,"Mizzix's Mastery",3
 920044,"Shock",3
-920045,"Stone Rain",1
+920045,"Stone Rain",1.5
 920046,"Thrill of Possibility",1
 920047,"Urza's Rage",3.5
 920048,"Abundant Harvest",2
-920049,"Adventurous Impulse",0.5
+920049,"Adventurous Impulse",1
 920050,"Channel",2
 920051,"Cultivate",3
 920052,"Harmonize",3.5
-920053,"Krosan Grip",0.5
+920053,"Krosan Grip",1
 920054,"Natural Order",3
-920055,"Primal Command",4
-920056,"Regrowth",3
-920057,"Snakeskin Veil",1
+920055,"Primal Command",3.5
+920056,"Regrowth",2.5
+920057,"Snakeskin Veil",1.5
 920058,"Weather the Storm",0
 920059,"Despark",3
 920060,"Electrolyze",3.5
-920061,"Growth Spiral",2
+920061,"Growth Spiral",2.5
 920062,"Lightning Helix",3.5
 920063,"Putrefy",3.5
