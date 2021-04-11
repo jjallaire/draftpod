@@ -179,14 +179,18 @@ download_cards <- function(cards,
     if (!is.null(alt_image_uri)) {
       cat("Using alt image URI for ", card$name, "\n", sep = "")
       image_uris <- alt_image_uri
+      highres_image_uris <- alt_image_uri
       card$layout <- "normal"
     } else if (!is.null(card$image_uris)) {
       image_uris <- card$image_uris$normal
+      highres_image_uris <- card$image_uris$png
     } else if (!is.null(card$card_faces)) {
       if (is.data.frame(card$card_faces) && is.data.frame(card$card_faces$image_uris)) {
         image_uris <- card$card_faces$image_uris$normal
+        highres_image_uris <- card$card_faces$image_uris$png
       } else {
         image_uris <- lapply(card$card_faces, function(face) face$image_uris$normal)
+        highres_image_uris <- lapply(card$card_faces, function(face) face$image_uris$png)
       }
     } else {
       str(card)
@@ -250,6 +254,7 @@ download_cards <- function(cards,
       collector_number = collector_number,
       multiverse_ids = I(multiverse_ids),
       image_uris = I(image_uris),
+      highres_image_uris = I(highres_image_uris),
       layout=card$layout,
       type_line = card$type_line,
       oracle_text = card$oracle_text,
