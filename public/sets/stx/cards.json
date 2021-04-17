@@ -40,7 +40,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -105,7 +105,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -127,7 +127,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -191,7 +191,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -235,7 +235,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -418,7 +418,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -673,7 +673,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -715,7 +715,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -737,7 +737,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -808,7 +808,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -872,7 +872,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 0,
     "set": "stx"
   },
   {
@@ -961,7 +961,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -1455,7 +1455,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -1477,7 +1477,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -1491,7 +1491,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/1/1/115f3d72-1aaf-4237-91b9-389256e5e5c8.png?1617219410"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Search your library and graveyard for up to four creature cards with different names that each have mana value X or less and reveal them. An opponent choses two of those cards. Shuffle the chosen cards into your library and put the rest onto the battlefield. Exile Ecological Appreciation.",
+    "oracle_text": "Search your library and graveyard for up to four creature cards with different names that each have mana value X or less and reveal them. An opponent chooses two of those cards. Shuffle the chosen cards into your library and put the rest onto the battlefield. Exile Ecological Appreciation.",
     "mana_cost": "{X}{2}{G}",
     "cmc": 3,
     "colors": [
@@ -1521,7 +1521,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -1535,7 +1535,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/7473db42-905b-4fda-af8c-fd24d906b642.png?1617583490"],
     "layout": "normal",
     "type_line": "Creature — Orc Wizard",
-    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, choose target creature you control. Until end of turn, it gains \"If this creature would leave the battlefield, exile it instead of putting it anywhere else\" and \"When you exile this creature, create a 4/4 blue and red Elemental creature token.\" (Each instance of that ability triggers separately.)",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, choose target creature you control. Until end of turn, it gains \"If this creature would leave the battlefield, exile it instead of putting it anywhere else\" and \"When this creature is put into exile, create a 4/4 blue and red Elemental creature token.\" (Each instance of that ability triggers separately.)",
     "mana_cost": "{U/R}{U/R}{U/R}{U/R}",
     "cmc": 4,
     "colors": [
@@ -1676,7 +1676,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -1698,7 +1698,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -1850,7 +1850,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -1926,7 +1926,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -1992,7 +1992,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "stx"
   },
   {
@@ -2111,7 +2111,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -2224,7 +2224,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -2269,7 +2269,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -2328,7 +2328,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/c/f/cfa04897-6438-45e5-a10b-2e8afaf2b9eb.png?1617448083"],
     "layout": "normal",
     "type_line": "Creature — Elemental",
-    "oracle_text": "{R}, Return Grinning Ignus to its owner's hand: Add {C}{C}{R}. Activate this ability only any time you could cast a sorcery.",
+    "oracle_text": "{R}, Return Grinning Ignus to its owner's hand: Add {C}{C}{R}. Activate only as a sorcery.",
     "mana_cost": "{2}{R}",
     "cmc": 3,
     "colors": [
@@ -2358,7 +2358,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -2490,7 +2490,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -2579,7 +2579,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -2601,7 +2601,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -2624,7 +2624,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -2669,7 +2669,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -2709,7 +2709,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -2783,7 +2783,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -2806,7 +2806,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 4,
     "set": "stx"
   },
   {
@@ -2925,7 +2925,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -2939,7 +2939,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/2/a/2a465d7b-398c-444b-9eae-331ea2513f6d.png?1618272917"],
     "layout": "normal",
     "type_line": "Creature — Cat Cleric",
-    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, creatures you control get +1/+1 until end of turn,",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, creatures you control get +1/+1 until end of turn.",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -3171,7 +3171,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -3468,7 +3468,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 4,
     "set": "stx"
   },
   {
@@ -3535,7 +3535,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -3580,7 +3580,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3625,7 +3625,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -3745,7 +3745,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3767,7 +3767,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -3811,7 +3811,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -3885,7 +3885,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -3951,7 +3951,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -4066,7 +4066,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -4291,7 +4291,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "stx"
   },
   {
@@ -4404,7 +4404,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -4438,7 +4438,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d77f0731-fb40-4dc2-8530-afcb5ce1f27f.png?1617446216"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Counter target creature or planeswalker spell unless its controller pays {3}. If that spell is countered this way, exile it instead of putting into its owner's graveyard.",
+    "oracle_text": "Counter target creature or planeswalker spell unless its controller pays {3}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -4469,7 +4469,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -4491,7 +4491,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -4635,7 +4635,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "stx"
   },
   {
@@ -4776,7 +4776,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -4844,7 +4844,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "stx"
   },
   {
@@ -4911,7 +4911,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/6/5/65837f39-deb7-4a4b-8b67-125a71cd0d45.png?1617311686"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "When you cast this spell, copy it for each other instant or sorcery spell you've cast this turn. You may choose new targets for the copies.\nPut a +1/+1 counter on target creature. It gains vigilance until end of turn.",
+    "oracle_text": "When you cast this spell, copy it for each other instant and sorcery spell you've cast this turn. You may choose new targets for the copies.\nPut a +1/+1 counter on target creature. It gains vigilance until end of turn.",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -4919,7 +4919,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5078,7 +5078,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -5100,7 +5100,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5167,7 +5167,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -5411,7 +5411,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5455,7 +5455,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "stx"
   },
   {
@@ -5497,7 +5497,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "stx"
   },
   {
@@ -5519,7 +5519,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -5673,7 +5673,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -5849,7 +5849,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -5915,7 +5915,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3fbd0921-e953-492b-ad73-c8a8bfaa750b.png?1617333742"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Choose one: —\n• Target player sacrifices a creature or planeswalker.\n• Create a 2/1 white and black Inkling creature token with flying.",
+    "oracle_text": "Choose one —\n• Target player sacrifices a creature or planeswalker.\n• Create a 2/1 white and black Inkling creature token with flying.",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -6119,7 +6119,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "stx"
   },
   {
@@ -6282,7 +6282,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "stx"
   },
   {
@@ -6324,7 +6324,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "stx"
   },
   {
@@ -6501,7 +6501,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 1.5,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -6537,7 +6537,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/e/3/e3cb6157-ea56-4921-b803-59e3fbef0b94.png?1617075842"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Gain control of target creature with converted mana cost 3 or less until end of turn. Untap that creature. It gains haste until end of turn.",
+    "oracle_text": "Gain control of target creature with mana value 3 or less until end of turn. Untap that creature. It gains haste until end of turn.",
     "mana_cost": "{R}",
     "cmc": 1,
     "colors": [
@@ -6545,7 +6545,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 0.5,
     "set": "sta"
   },
   {
@@ -6589,7 +6589,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -6625,7 +6625,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b3896717-1e46-4aa2-88b7-1c4fe76edde1.png?1617075894"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Then shuffle your library.",
+    "oracle_text": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
     "mana_cost": "{2}{G}",
     "cmc": 3,
     "colors": [
@@ -6655,7 +6655,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "sta"
   },
   {
@@ -6713,7 +6713,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/3/0/3009ba46-c9f8-46dc-8ffc-2aa4cef7b17c.png?1613689234"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+    "oracle_text": "Search your library for a card, put that card into your hand, then shuffle.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -6735,7 +6735,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/c/2/c2743ca3-8b4a-429a-9f9b-090d632b6601.png?1616738159"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Exile target permanent with converted mana cost 4 or greater.",
+    "oracle_text": "Exile target permanent with mana value 4 or greater.",
     "mana_cost": "{W}{B}",
     "cmc": 2,
     "colors": [
@@ -6766,7 +6766,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 0.5,
     "set": "sta"
   },
   {
@@ -6847,7 +6847,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/c/5/c55b2b50-ac83-4a78-8f84-580193d1ca0f.png?1617075748"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Destroy target creature or planeswalker with converted mana cost 3 or less.",
+    "oracle_text": "Destroy target creature or planeswalker with mana value 3 or less.",
     "mana_cost": "{1}{B}",
     "cmc": 2,
     "colors": [
@@ -6899,7 +6899,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2.5,
     "set": "sta"
   },
   {
@@ -6913,7 +6913,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/0/7/07bc15bf-1923-45d7-988f-9a4adf3982ee.png?1616893720"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "If an opponent controls more lands than you, search your library for up to three Plains cards, reveal them, and put them into your hand. Then shuffle your library.",
+    "oracle_text": "If an opponent controls more lands than you, search your library for up to three Plains cards, reveal them, put them into your hand, then shuffle.",
     "mana_cost": "{1}{W}",
     "cmc": 2,
     "colors": [
@@ -6921,7 +6921,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "sta"
   },
   {
@@ -6935,7 +6935,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/5/7/57e547cd-eba4-4a75-9c4e-8eeb6e00ddc4.png?1616893727"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)\nScry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+    "oracle_text": "Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)\nScry 1.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -6943,7 +6943,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "sta"
   },
   {
@@ -7010,7 +7010,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "sta"
   },
   {
@@ -7054,7 +7054,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -7068,7 +7068,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/d/4/d47df2c2-437d-4b8e-82cc-1707e3efd5b5.png?1617148445"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Target player reveals their hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card.",
+    "oracle_text": "Target player reveals their hand. You choose a nonland card from it with mana value 3 or less. That player discards that card.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -7201,7 +7201,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/9/5/95f4e609-7fb7-4903-8d4c-45d38cf743be.png?1616707696"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. (If it has X in its mana cost, X is 0.)\nStorm (When you cast this spell, copy it for each spell cast before it this turn.)",
+    "oracle_text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.\nStorm (When you cast this spell, copy it for each spell cast before it this turn.)",
     "mana_cost": "{4}{U}{U}",
     "cmc": 6,
     "colors": [
@@ -7245,7 +7245,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/4/b/4bb72f05-5173-4e70-9e71-278249b378e7.png?1616794911"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "As an additional cost to cast this spell, sacrifice a green creature.\nSearch your library for a green creature card and put it onto the battlefield. Then shuffle your library.",
+    "oracle_text": "As an additional cost to cast this spell, sacrifice a green creature.\nSearch your library for a green creature card, put it onto the battlefield, then shuffle.",
     "mana_cost": "{2}{G}{G}",
     "cmc": 4,
     "colors": [
@@ -7289,7 +7289,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/a/b/ab59ac4f-2a77-4566-85c0-32666447dcf2.png?1613689221"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)\nDraw a card.",
+    "oracle_text": "Scry 1.\nDraw a card.",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -7297,7 +7297,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "sta"
   },
   {
@@ -7311,7 +7311,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/3/a/3a95986b-532b-4e3a-acf4-c93c6db7282f.png?1616727156"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Choose two —\n• Target player gains 7 life.\n• Put target noncreature permanent on top of its owner's library.\n• Target player shuffles their graveyard into their library.\n• Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.",
+    "oracle_text": "Choose two —\n• Target player gains 7 life.\n• Put target noncreature permanent on top of its owner's library.\n• Target player shuffles their graveyard into their library.\n• Search your library for a creature card, reveal it, put it into your hand, then shuffle.",
     "mana_cost": "{3}{G}{G}",
     "cmc": 5,
     "colors": [
@@ -7386,7 +7386,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 0,
     "set": "sta"
   },
   {
@@ -7444,7 +7444,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d9849b22-1fba-4f6a-bd94-df1bc1764e6b.png?1617075945"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
+    "oracle_text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn.",
     "mana_cost": "{G}",
     "cmc": 1,
     "colors": [
@@ -7562,7 +7562,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 2,
+    "rating": 2.5,
     "set": "sta"
   },
   {
@@ -7628,7 +7628,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "sta"
   },
   {
@@ -7716,7 +7716,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "sta"
   },
   {
