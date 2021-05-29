@@ -34,6 +34,8 @@ import cube_vintage_2019 from './cube-vintage-2019'
 import cube_vintage_2020 from './cube-vintage-2020'
 
 import axios from 'axios'
+
+import shortUuid from 'short-uuid'
  
 import { CARDPOOL } from '../../../constants'
 
@@ -150,7 +152,7 @@ export function cards(set_code) {
   if (cards_cache[set_code]) {
     return Promise.resolve(cards_cache[set_code]);
   } else {
-    return axios.get('/sets/' + set_code + '/cards.json')
+    return axios.get('/sets/' + set_code + '/cards.json?' + shortUuid().new())
       .then(response => {
         cards_cache[set_code] = response.data;
         return cards_cache[set_code];
