@@ -49,7 +49,7 @@ export function initializeStore() {
       name: null
     },
     preferences: {
-      set_code: 'khm',
+      set_code: 'stx',
       format: 'draft',
       pick_timer: false,
       pick_ratings: false,
