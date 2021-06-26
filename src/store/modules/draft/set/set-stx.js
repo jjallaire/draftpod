@@ -16,7 +16,7 @@ export default {
 
   booster(selectCards) {
 
-    const rares = selectCards(rareSlotNotArchive, 1);
+    const rares = selectCards(rareSlotNotLessonOrArchive, 1);
     const uncommons = selectCards(uncommonNotArchive, 3);
     const commons = selectCards(commonNotLessonOrArchive, 9);
     
@@ -45,15 +45,15 @@ export default {
       appendCard(archive)
     }
 
-    // lesson card, no documentation on the percentages of these cards so using the same as mystical archive
+    // lesson card, percentages created from reverse engineering public sample of 8647 Arena Sealed Pools
     let lesson = undefined;
     const lessonRng = Math.random();
-    if (lessonRng <= 0.67) {
-      lesson = selectCards([commonLesson,uncommonLesson], 1)[0];
-    } else if (lessonRng <= (0.67 + 0.264)) {
-      lesson = selectCards([rareLesson,uncommonLesson,commonLesson], 1)[0];
+    if (lessonRng <= 0.9244) {
+      lesson = selectCards(commonLesson, 1)[0];
+    } else if (lessonRng <= (0.9244 + 0.0684)) {
+      lesson = selectCards(rareLesson, 1)[0];
     } else {
-      lesson = selectCards([mythicLesson,rareLesson,uncommonLesson,commonLesson], 1)[0];
+      lesson = selectCards(mythicLesson, 1)[0];
     }
     if (lesson) {
       appendCard(lesson)
@@ -65,7 +65,7 @@ export default {
 
 const commonNotLessonOrArchive = filters.join(filters.common, card => !lesson(card), card => !mysticalArchive(card));
 const uncommonNotArchive = filters.join(filters.uncommon, card => !mysticalArchive(card));
-const rareSlotNotArchive = filters.join(filters.packRareSlot, card => !mysticalArchive(card));
+const rareSlotNotLessonOrArchive = filters.join(filters.packRareSlot, card => !lesson(card), card => !mysticalArchive(card));
 
 const uncommonMysticalArchive = filters.join(
   filters.uncommon,
