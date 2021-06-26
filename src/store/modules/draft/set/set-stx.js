@@ -49,11 +49,11 @@ export default {
     let lesson = undefined;
     const lessonRng = Math.random();
     if (lessonRng <= 0.9244) {
-      lesson = selectCards(commonLesson, 1)[0];
+      lesson = selectCards([commonLesson,uncommonLesson], 1)[0];
     } else if (lessonRng <= (0.9244 + 0.0684)) {
-      lesson = selectCards(rareLesson, 1)[0];
+      lesson = selectCards([rareLesson,commonLesson,uncommonLesson], 1)[0];
     } else {
-      lesson = selectCards(mythicLesson, 1)[0];
+      lesson = selectCards([mythicLesson,rareLesson,commonLesson,uncommonLesson], 1)[0];
     }
     if (lesson) {
       appendCard(lesson)
