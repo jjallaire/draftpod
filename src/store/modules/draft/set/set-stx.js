@@ -5,7 +5,7 @@ import * as filters from '../card-filters'
 
 export default {
 
-  name: "Strixhaven",
+  name: "Strixhaven: School of Mages",
 
   pack_cards: () => 15,
 
