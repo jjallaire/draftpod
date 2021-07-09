@@ -83,7 +83,7 @@ download_cards <- function(cards,
     }
     
     # get id
-    if (set == "znr") {
+    if (set == "znr" || set == "afr") {
       multiverse_ids <- list(card$tcgplayer_id + 1000000)
     } else if (set == "khm") {
       if (is.null(card$tcgplayer_id)) {
@@ -302,6 +302,7 @@ download_cards <- function(cards,
     khm = 398,
     stx = 375,
     sta = 63,
+    afr = 281,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000

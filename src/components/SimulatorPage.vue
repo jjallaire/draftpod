@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'stx',
+      set_code: 'afr',
       number: 100,
       decks: []
     }

@@ -47,20 +47,17 @@ export default {
         class="form-control"
       >
         <optgroup label="Recent">
+          <option value="afr">
+            Adventures in the Forgotten Realms 
+          </option>
           <option value="stx">
             Strixhaven
           </option>
-          <option value="khm">
-            Kaldheim
-          </option>
-          <option value="klr">
-            Kaladesh Remastered
-          </option>
-          <option value="2xm">
-            Double Masters
-          </option>
         </optgroup>
         <optgroup label="Standard">
+          <option value="afr">
+            Adventures in the Forgotten Realms 
+          </option>
           <option value="stx">
             Strixhaven
           </option>
