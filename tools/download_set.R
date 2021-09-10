@@ -83,7 +83,7 @@ download_cards <- function(cards,
     }
     
     # get id
-    if (set == "znr" || set == "afr") {
+    if (set == "znr" || set == "afr" || set == "mid") {
       multiverse_ids <- list(card$tcgplayer_id + 1000000)
     } else if (set == "khm") {
       if (is.null(card$tcgplayer_id)) {
@@ -145,6 +145,7 @@ download_cards <- function(cards,
                            khm = 900000,
                            stx = 910000,
                            sta = 920000,
+                           mid = 930000,
         )
         multiverse_ids <- list(baseline + collector_number)
       }
@@ -244,7 +245,7 @@ download_cards <- function(cards,
     }
     
     # throw in an extra mutliverse id for gatherer khm & stx modal double faced cards 
-    if ((set == "khm" || set == "stx") && length(image_uris) == 2) {
+    if ((set == "khm" || set == "stx" || set == "mid") && length(image_uris) == 2) {
       multiverse_ids[[2]] <- multiverse_ids[[1]] + 1000
     }
     
@@ -303,6 +304,7 @@ download_cards <- function(cards,
     stx = 375,
     sta = 63,
     afr = 281,
+    mid = 277,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000
@@ -327,6 +329,9 @@ download_cards <- function(cards,
       card$collector_number <= 275 || card$collector_number >= 366
     }, cards)
   }
+  
+  # filter out cards with no ids
+  cards <- Filter(function(card) length(card$id) > 0, cards)
   
   # write as json
   set_dir <- file.path(sets_dir, set)

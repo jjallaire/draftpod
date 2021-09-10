@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'afr',
+      set_code: 'mid',
       number: 100,
       decks: []
     }

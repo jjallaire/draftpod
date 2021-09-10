@@ -46,15 +46,10 @@ export default {
         :disabled="disabled" 
         class="form-control"
       >
-        <optgroup label="Recent">
-          <option value="afr">
-            Adventures in the Forgotten Realms 
-          </option>
-          <option value="stx">
-            Strixhaven
-          </option>
-        </optgroup>
         <optgroup label="Standard">
+          <option value="mid">
+            Innistrad: Midnight Hunt 
+          </option>
           <option value="afr">
             Adventures in the Forgotten Realms 
           </option>
@@ -67,6 +62,8 @@ export default {
           <option value="znr">
             Zendikar Rising
           </option>
+        </optgroup>
+        <optgroup label="Pioneer">
           <option value="m21">
             Core Set 2021
           </option>
@@ -79,8 +76,6 @@ export default {
           <option value="eld">
             Throne of Eldraine
           </option>
-        </optgroup>
-        <optgroup label="Pioneer">
           <option value="m20">
             Core Set 2020
           </option>
