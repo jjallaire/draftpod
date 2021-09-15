@@ -1,5 +1,27 @@
 [
   {
+    "id": 1248251,
+    "name": "Abandon the Post",
+    "collector_number": 127,
+    "multiverse_ids": [
+      1248251
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/9/8/983da138-f0f5-46c4-90c2-d3c34cc37d1f.jpg?1631297982"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/9/8/983da138-f0f5-46c4-90c2-d3c34cc37d1f.png?1631297982"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Up to two target creatures can't block this turn.\nFlashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0.5,
+    "set": "mid"
+  },
+  {
     "id": 1248137,
     "name": "Adeline, Resplendent Cathar",
     "collector_number": 1,
@@ -70,7 +92,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -93,7 +115,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -115,7 +137,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -189,7 +211,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "mid"
   },
   {
@@ -230,12 +252,12 @@
       1248913
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/b/7b63f2ae-5bfd-452f-b1f5-8459bcecd3bb.jpg?1631300062",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/b/7b63f2ae-5bfd-452f-b1f5-8459bcecd3bb.jpg?1631300062"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/b/7b63f2ae-5bfd-452f-b1f5-8459bcecd3bb.jpg?1631471600",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/b/7b63f2ae-5bfd-452f-b1f5-8459bcecd3bb.jpg?1631471600"
     ],
     "highres_image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7b63f2ae-5bfd-452f-b1f5-8459bcecd3bb.png?1631300062",
-      "https://c1.scryfall.com/file/scryfall-cards/png/back/7/b/7b63f2ae-5bfd-452f-b1f5-8459bcecd3bb.png?1631300062"
+      "https://c1.scryfall.com/file/scryfall-cards/png/front/7/b/7b63f2ae-5bfd-452f-b1f5-8459bcecd3bb.png?1631471600",
+      "https://c1.scryfall.com/file/scryfall-cards/png/back/7/b/7b63f2ae-5bfd-452f-b1f5-8459bcecd3bb.png?1631471600"
     ],
     "layout": "transform",
     "type_line": "Creature — Human Rogue Werewolf // Creature — Werewolf",
@@ -269,7 +291,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -327,7 +349,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -356,7 +378,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -378,7 +400,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -401,7 +423,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -423,7 +445,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -445,7 +467,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -467,7 +489,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -477,11 +499,11 @@
     "multiverse_ids": [
       1248077
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/d/ed557e51-32bd-476f-99f8-d7b1738495c5.jpg?1631052323"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed557e51-32bd-476f-99f8-d7b1738495c5.png?1631052323"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/e/d/ed557e51-32bd-476f-99f8-d7b1738495c5.jpg?1631499911"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/e/d/ed557e51-32bd-476f-99f8-d7b1738495c5.png?1631499911"],
     "layout": "normal",
     "type_line": "Creature — Vampire",
-    "oracle_text": "Haste\nWhen Bloodthirsty Adversary enters the battlefield, you may pay {2}{R} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Bloodthirsty Adversary, then exile that many target instant and/or sorcery cards with mana value 3 or less from your graveyard and copy them. You may cast any number of the copies without paying their mana costs.",
+    "oracle_text": "Haste\nWhen Bloodthirsty Adversary enters the battlefield, you may pay {2}{R} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Bloodthirsty Adversary, then exile up to that many target instant and/or sorcery cards with mana value 3 or less from your graveyard and copy them. You may cast any number of the copies without paying their mana costs.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -489,7 +511,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 4,
     "set": "mid"
   },
   {
@@ -555,7 +577,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -577,7 +599,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -702,7 +724,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -746,7 +768,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -790,7 +812,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -974,7 +996,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -1129,7 +1151,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -1209,7 +1231,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -1232,7 +1254,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -1303,7 +1325,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -1347,7 +1369,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -1369,7 +1391,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -1391,7 +1413,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -1426,12 +1448,12 @@
       1249223
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47.jpg?1631222695",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47.jpg?1631222695"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47.jpg?1631376653",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47.jpg?1631376653"
     ],
     "highres_image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/png/front/a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47.png?1631222695",
-      "https://c1.scryfall.com/file/scryfall-cards/png/back/a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47.png?1631222695"
+      "https://c1.scryfall.com/file/scryfall-cards/png/front/a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47.png?1631376653",
+      "https://c1.scryfall.com/file/scryfall-cards/png/back/a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47.png?1631376653"
     ],
     "layout": "transform",
     "type_line": "Creature — Fungus // Creature — Fungus Horror",
@@ -1465,7 +1487,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -1546,7 +1568,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -1591,7 +1613,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -1711,7 +1733,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -1733,7 +1755,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -1755,7 +1777,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -1799,7 +1821,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -1821,7 +1843,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -1887,7 +1909,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -1916,7 +1938,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -1967,7 +1989,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 4,
     "set": "mid"
   },
   {
@@ -1987,7 +2009,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -2009,7 +2031,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -2076,7 +2098,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -2132,12 +2154,12 @@
       1249054
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/2/d2feb859-bfae-4bc4-8181-5737dd5c3b08.jpg?1631298451",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/d/2/d2feb859-bfae-4bc4-8181-5737dd5c3b08.jpg?1631298451"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/2/d2feb859-bfae-4bc4-8181-5737dd5c3b08.jpg?1631352232",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/d/2/d2feb859-bfae-4bc4-8181-5737dd5c3b08.jpg?1631352232"
     ],
     "highres_image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d2feb859-bfae-4bc4-8181-5737dd5c3b08.png?1631298451",
-      "https://c1.scryfall.com/file/scryfall-cards/png/back/d/2/d2feb859-bfae-4bc4-8181-5737dd5c3b08.png?1631298451"
+      "https://c1.scryfall.com/file/scryfall-cards/png/front/d/2/d2feb859-bfae-4bc4-8181-5737dd5c3b08.png?1631352232",
+      "https://c1.scryfall.com/file/scryfall-cards/png/back/d/2/d2feb859-bfae-4bc4-8181-5737dd5c3b08.png?1631352232"
     ],
     "layout": "transform",
     "type_line": "Creature — Human Werewolf // Creature — Werewolf",
@@ -2171,7 +2193,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -2235,7 +2257,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -2286,7 +2308,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -2331,7 +2353,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -2398,7 +2420,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -2427,7 +2449,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -2516,7 +2538,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -2538,7 +2560,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -2605,7 +2627,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -2627,7 +2649,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4.5,
     "set": "mid"
   },
   {
@@ -2649,7 +2671,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -2701,7 +2723,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -2724,7 +2746,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -2753,7 +2775,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -2775,7 +2797,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -2798,7 +2820,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -2849,7 +2871,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -2859,11 +2881,11 @@
     "multiverse_ids": [
       1247915
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/68284193-a38e-40d2-8d15-92d223756751.jpg?1630691675"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68284193-a38e-40d2-8d15-92d223756751.png?1630691675"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/68284193-a38e-40d2-8d15-92d223756751.jpg?1631558327"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68284193-a38e-40d2-8d15-92d223756751.png?1631558327"],
     "layout": "normal",
     "type_line": "Creature — Zombie",
-    "oracle_text": "Deathtouch\nWhen Hobbling Zombie dies, create a 2/2 black Zombie creature with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)",
+    "oracle_text": "Deathtouch\nWhen Hobbling Zombie dies, create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -2871,7 +2893,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -2893,7 +2915,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -2973,7 +2995,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -2996,7 +3018,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -3018,7 +3040,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -3040,7 +3062,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 4,
     "set": "mid"
   },
   {
@@ -3062,7 +3084,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "mid"
   },
   {
@@ -3104,7 +3126,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -3178,7 +3200,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -3231,7 +3253,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -3253,7 +3275,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -3297,7 +3319,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "mid"
   },
   {
@@ -3342,7 +3364,29 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
+    "set": "mid"
+  },
+  {
+    "id": 1248062,
+    "name": "Locked in the Cemetery",
+    "collector_number": 60,
+    "multiverse_ids": [
+      1248062
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/68593c6d-8d1b-4c36-84a1-f1144669825e.jpg?1631331278"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68593c6d-8d1b-4c36-84a1-f1144669825e.png?1631331278"],
+    "layout": "normal",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nWhen Locked in the Cemetery enters the battlefield, if there are five or more cards in your graveyard, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
     "set": "mid"
   },
   {
@@ -3364,7 +3408,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "mid"
   },
   {
@@ -3386,7 +3430,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -3398,12 +3442,12 @@
       1249305
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/8/788288f6-7944-48f4-91b0-f452e209c9ce.jpg?1631303986",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/8/788288f6-7944-48f4-91b0-f452e209c9ce.jpg?1631303986"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/8/788288f6-7944-48f4-91b0-f452e209c9ce.jpg?1631607468",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/8/788288f6-7944-48f4-91b0-f452e209c9ce.jpg?1631607468"
     ],
     "highres_image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/png/front/7/8/788288f6-7944-48f4-91b0-f452e209c9ce.png?1631303986",
-      "https://c1.scryfall.com/file/scryfall-cards/png/back/7/8/788288f6-7944-48f4-91b0-f452e209c9ce.png?1631303986"
+      "https://c1.scryfall.com/file/scryfall-cards/png/front/7/8/788288f6-7944-48f4-91b0-f452e209c9ce.png?1631607468",
+      "https://c1.scryfall.com/file/scryfall-cards/png/back/7/8/788288f6-7944-48f4-91b0-f452e209c9ce.png?1631607468"
     ],
     "layout": "transform",
     "type_line": "Legendary Creature — Human Wizard // Legendary Creature — Zombie",
@@ -3445,7 +3489,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -3467,7 +3511,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -3518,7 +3562,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -3540,7 +3584,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -3604,7 +3648,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 0,
     "set": "mid"
   },
   {
@@ -3626,7 +3670,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 4.5,
     "set": "mid"
   },
   {
@@ -3714,7 +3758,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -3743,7 +3787,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -3843,7 +3887,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -3865,7 +3909,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -3887,7 +3931,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -3931,7 +3975,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -3963,11 +4007,11 @@
     "multiverse_ids": [
       1248150
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b203be6f-c565-4d8f-b200-b537569a0292.jpg?1631301088"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b203be6f-c565-4d8f-b200-b537569a0292.png?1631301088"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/2/b203be6f-c565-4d8f-b200-b537569a0292.jpg?1631501130"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/b/2/b203be6f-c565-4d8f-b200-b537569a0292.png?1631501130"],
     "layout": "normal",
     "type_line": "Legendary Creature — Horror",
-    "oracle_text": "When you cast this spell, reveal cards from the top of your library until you reveal X creature cards. Put all the creature cards revealed this way into your graveyard and the rest on the bottom of your library in a random order.\nOld Stickfingers' power and toughness are equal to the number of creature cards in your graveyard.",
+    "oracle_text": "When you cast this spell, reveal cards from the top of your library until you reveal X creature cards. Put all the creature cards revealed this way into your graveyard and the rest on the bottom of your library in a random order.\nOld Stickfingers' power and toughness are each equal to the number of creature cards in your graveyard.",
     "mana_cost": "{X}{B}{G}",
     "cmc": 2,
     "colors": [
@@ -3976,7 +4020,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -3998,7 +4042,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -4020,7 +4064,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -4042,7 +4086,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -4116,7 +4160,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -4189,7 +4233,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -4392,7 +4436,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 5,
     "set": "mid"
   },
   {
@@ -4414,7 +4458,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 4.5,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -4465,7 +4509,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -4488,7 +4532,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -4510,7 +4554,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -4532,7 +4576,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -4577,7 +4621,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -4600,7 +4644,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -4644,7 +4688,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -4667,7 +4711,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -4677,11 +4721,11 @@
     "multiverse_ids": [
       1248149
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/7/3743cf9c-226f-43a3-b385-375a25414792.jpg?1631301130"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/3/7/3743cf9c-226f-43a3-b385-375a25414792.png?1631301130"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/3/7/3743cf9c-226f-43a3-b385-375a25414792.jpg?1631715296"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/3/7/3743cf9c-226f-43a3-b385-375a25414792.png?1631715296"],
     "layout": "normal",
     "type_line": "Creature — Plant Horror",
-    "oracle_text": "{T}: Add one mana of any color.\n{T}: Add two mana of any one color. Spend this mana only to cast spells from your graveyard.\n{G}{U}, {T}, Exile Rootcoil Creeper: Return target card with flashback you own in exile to your hand.",
+    "oracle_text": "{T}: Add one mana of any color.\n{T}: Add two mana of any one color. Spend this mana only to cast spells from your graveyard.\n{G}{U}, {T}, Exile Rootcoil Creeper: Return target card with flashback you own from exile to your hand.",
     "mana_cost": "{G}{U}",
     "cmc": 2,
     "colors": [
@@ -4690,7 +4734,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -4712,7 +4756,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -4823,7 +4867,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -4874,7 +4918,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -4919,7 +4963,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -4964,7 +5008,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 4.5,
     "set": "mid"
   },
   {
@@ -5028,7 +5072,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -5051,7 +5095,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -5073,7 +5117,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -5095,7 +5139,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -5118,7 +5162,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -5213,7 +5257,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -5235,7 +5279,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -5308,7 +5352,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -5363,19 +5407,19 @@
     "multiverse_ids": [
       1248330
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/4/b4f1f69c-122d-472a-b82d-fed7c253a4cd.jpg?1631300657"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b4f1f69c-122d-472a-b82d-fed7c253a4cd.png?1631300657"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/b/4/b4f1f69c-122d-472a-b82d-fed7c253a4cd.jpg?1631474556"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/b/4/b4f1f69c-122d-472a-b82d-fed7c253a4cd.png?1631474556"],
     "layout": "normal",
     "type_line": "Sorcery",
     "oracle_text": "Look at the top five cards of your library. Put up to two permanent cards with mana value 5 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.\nFlashback {7}{G}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
     "mana_cost": "{3}{G}{G}{G}",
-    "cmc": 7,
+    "cmc": 6,
     "colors": [
       "G"
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -5397,7 +5441,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -5417,7 +5461,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0,
     "set": "mid"
   },
   {
@@ -5506,7 +5550,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -5676,7 +5720,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -5718,7 +5762,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "mid"
   },
   {
@@ -5740,7 +5784,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -5762,7 +5806,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "mid"
   },
   {
@@ -5784,7 +5828,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -5813,7 +5857,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -5825,12 +5869,12 @@
       1248834
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f953fad3-0cd1-48aa-8ed9-d7d2e293e6e2.jpg?1630672829",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/f/9/f953fad3-0cd1-48aa-8ed9-d7d2e293e6e2.jpg?1630672829"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/9/f953fad3-0cd1-48aa-8ed9-d7d2e293e6e2.jpg?1631607223",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/f/9/f953fad3-0cd1-48aa-8ed9-d7d2e293e6e2.jpg?1631607223"
     ],
     "highres_image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f953fad3-0cd1-48aa-8ed9-d7d2e293e6e2.png?1630672829",
-      "https://c1.scryfall.com/file/scryfall-cards/png/back/f/9/f953fad3-0cd1-48aa-8ed9-d7d2e293e6e2.png?1630672829"
+      "https://c1.scryfall.com/file/scryfall-cards/png/front/f/9/f953fad3-0cd1-48aa-8ed9-d7d2e293e6e2.png?1631607223",
+      "https://c1.scryfall.com/file/scryfall-cards/png/back/f/9/f953fad3-0cd1-48aa-8ed9-d7d2e293e6e2.png?1631607223"
     ],
     "layout": "transform",
     "type_line": "Legendary Creature — Human Werewolf // Legendary Creature — Werewolf",
@@ -5894,7 +5938,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -5916,7 +5960,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 0,
     "set": "mid"
   },
   {
@@ -5938,7 +5982,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -6005,7 +6049,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -6050,7 +6094,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -6073,7 +6117,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -6124,7 +6168,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -6153,7 +6197,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -6197,7 +6241,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -6219,7 +6263,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -6242,7 +6286,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -6264,7 +6308,30 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 3,
+    "set": "mid"
+  },
+  {
+    "id": 1248321,
+    "name": "Winterthorn Blessing",
+    "collector_number": 251,
+    "multiverse_ids": [
+      1248321
+    ],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/1/f1e9edd3-151d-4bf6-b491-03db9db32234.jpg?1631228184"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/f/1/f1e9edd3-151d-4bf6-b491-03db9db32234.png?1631228184"],
+    "layout": "normal",
+    "type_line": "Sorcery",
+    "oracle_text": "Put a +1/+1 counter on up to one target creature you control. Tap up to one target creature you don't control, and that creature doesn't untap during its controller's next untap step.\nFlashback {1}{G}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "mana_cost": "{G}{U}",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "uncommon",
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -6286,7 +6353,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4,
     "set": "mid"
   }
 ]
