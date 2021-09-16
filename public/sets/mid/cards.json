@@ -18,7 +18,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "mid"
   },
   {
@@ -92,7 +92,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -167,7 +167,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 4,
     "set": "mid"
   },
   {
@@ -189,7 +189,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -211,7 +211,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "mid"
   },
   {
@@ -240,7 +240,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -361,15 +361,15 @@
       1249118
     ],
     "image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71ccc444-54c8-4f7c-a425-82bc3eea1eb0.jpg?1631300109",
-      "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/1/71ccc444-54c8-4f7c-a425-82bc3eea1eb0.jpg?1631300109"
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71ccc444-54c8-4f7c-a425-82bc3eea1eb0.jpg?1631797629",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/7/1/71ccc444-54c8-4f7c-a425-82bc3eea1eb0.jpg?1631797629"
     ],
     "highres_image_uris": [
-      "https://c1.scryfall.com/file/scryfall-cards/png/front/7/1/71ccc444-54c8-4f7c-a425-82bc3eea1eb0.png?1631300109",
-      "https://c1.scryfall.com/file/scryfall-cards/png/back/7/1/71ccc444-54c8-4f7c-a425-82bc3eea1eb0.png?1631300109"
+      "https://c1.scryfall.com/file/scryfall-cards/png/front/7/1/71ccc444-54c8-4f7c-a425-82bc3eea1eb0.png?1631797629",
+      "https://c1.scryfall.com/file/scryfall-cards/png/back/7/1/71ccc444-54c8-4f7c-a425-82bc3eea1eb0.png?1631797629"
     ],
     "layout": "transform",
-    "type_line": "Creature — Human Archer Werewolf // Creature — Human Werewolf",
+    "type_line": "Creature — Human Archer Werewolf // Creature — Werewolf",
     "oracle_text": {},
     "mana_cost": "{2}{G}",
     "cmc": 3,
@@ -400,7 +400,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -445,7 +445,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -577,7 +577,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -665,7 +665,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -996,7 +996,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -1084,7 +1084,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -1209,7 +1209,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -1347,7 +1347,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -1369,7 +1369,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -1613,7 +1613,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -1688,7 +1688,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -1733,7 +1733,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -1777,7 +1777,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -2009,7 +2009,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -2031,7 +2031,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -2142,7 +2142,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -2193,7 +2193,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -2257,7 +2257,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -2420,7 +2420,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -2538,7 +2538,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -2582,7 +2582,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -2605,7 +2605,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -2649,7 +2649,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 4,
     "set": "mid"
   },
   {
@@ -2842,7 +2842,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -2871,7 +2871,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -3040,7 +3040,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -3062,7 +3062,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 4,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -3084,7 +3084,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "mid"
   },
   {
@@ -3342,7 +3342,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 5,
     "set": "mid"
   },
   {
@@ -3931,7 +3931,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -3953,7 +3953,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -4020,7 +4020,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -4064,7 +4064,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -4086,7 +4086,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -4385,7 +4385,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "mid"
   },
   {
@@ -4436,7 +4436,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "mid"
   },
   {
@@ -4458,7 +4458,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -4554,7 +4554,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 0,
     "set": "mid"
   },
   {
@@ -4688,7 +4688,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -4756,7 +4756,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "mid"
   },
   {
@@ -4779,7 +4779,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -5030,7 +5030,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -5072,7 +5072,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -5117,7 +5117,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -5162,7 +5162,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -5308,7 +5308,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -5461,7 +5461,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -5550,7 +5550,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -5646,7 +5646,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "mid"
   },
   {
@@ -5720,7 +5720,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3,
+    "rating": 3.5,
     "set": "mid"
   },
   {
@@ -5784,7 +5784,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -5806,7 +5806,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "mid"
   },
   {
@@ -6027,7 +6027,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -6094,7 +6094,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -6117,7 +6117,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "mid"
   },
   {
@@ -6197,7 +6197,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {
@@ -6219,7 +6219,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -6263,7 +6263,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "mid"
   },
   {
@@ -6286,7 +6286,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "mid"
   },
   {
@@ -6331,7 +6331,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "mid"
   },
   {

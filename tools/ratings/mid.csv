@@ -1,7 +1,7 @@
 "id","name","rating"
 1246013,"Champion of the Perished",3.5
-1246014,"Infernal Grasp",4
-1246015,"Consider",1.5
+1246014,"Infernal Grasp",3.5
+1246015,"Consider",2
 1246016,"Triskaidekaphile",2.5
 1246017,"Play with Fire",3.5
 1246018,"Wrenn and Seven",4
@@ -11,7 +11,7 @@
 1246243,"Mountain",0
 1246244,"Forest",0
 1246250,"Plains",0
-1247801,"Arlinn, the Pack's Hope // Arlinn, the Moon's Fury",3.5
+1247801,"Arlinn, the Pack's Hope // Arlinn, the Moon's Fury",4
 1247803,"Enduring Angel // Angelic Enforcer",4
 1247805,"Unruly Mob",1
 1247806,"Pestilent Wolf",1.5
@@ -30,35 +30,35 @@
 1247838,"Secrets of the Key",1
 1247839,"Brutal Cathar // Moonrage Brute",4
 1247846,"Tavern Ruffian // Tavern Smasher",1.5
-1247850,"Baithook Angler // Hook-Haunt Drifter",2
+1247850,"Baithook Angler // Hook-Haunt Drifter",2.5
 1247852,"Candlelit Cavalry",1.5
 1247853,"Candletrap",3
 1247854,"Might of the Old Ways",1.5
 1247855,"Dawnhart Rejuvenator",2.5
-1247856,"Arrogant Outlaw",1
+1247856,"Arrogant Outlaw",1.5
 1247858,"Brimstone Vandal",1.5
 1247859,"Stormrider Spirit",1
-1247860,"Famished Foragers",1.5
+1247860,"Famished Foragers",2
 1247861,"Defenestrate",3.5
 1247862,"Light Up the Night",3.5
-1247864,"Ominous Roost",1.5
-1247865,"Village Watch // Village Reavers",2.5
+1247864,"Ominous Roost",2
+1247865,"Village Watch // Village Reavers",2
 1247866,"Festival Crasher",1.5
-1247868,"Foul Play",3.5
+1247868,"Foul Play",3
 1247869,"Rite of Harmony",1
 1247872,"Geistflame Reservoir",3
-1247873,"Thermo-Alchemist",2.5
+1247873,"Thermo-Alchemist",2
 1247874,"Curse of Shaken Faith",0.5
 1247876,"Clear Shot",3.5
 1247881,"Flame Channeler // Embodiment of Flame",3
-1247898,"Gisa, Glorious Resurrector",4.5
-1247900,"Dissipate",1.5
+1247898,"Gisa, Glorious Resurrector",4
+1247900,"Dissipate",1
 1247905,"Bladestitched Skaab",3
 1247906,"Saryth, the Viper's Fang",3.5
 1247907,"Contortionist Troupe",3
 1247908,"Gavony Dawnguard",3.5
 1247909,"Poppet Stitcher // Poppet Factory",3.5
-1247910,"Heirloom Mirror // Inherited Fiend",2.5
+1247910,"Heirloom Mirror // Inherited Fiend",3
 1247911,"Devoted Grafkeeper // Departed Soulkeeper",3
 1247912,"Curse of Leeches // Leeching Lurker",3.5
 1247913,"Baneblade Scoundrel // Baneclaw Marauder",3
@@ -66,35 +66,35 @@
 1247915,"Hobbling Zombie",2.5
 1247916,"Lunar Frenzy",3
 1247917,"Kessig Naturalist // Lord of the Ulvenwald",3.5
-1247954,"Vampire Socialite",3.5
+1247954,"Vampire Socialite",3
 1247960,"Seize the Storm",2.5
 1247961,"The Celestus",3
 1247968,"Faithful Mending",1.5
 1247969,"Pithing Needle",0
 1247971,"Graveyard Trespasser // Graveyard Glutton",3.5
-1247973,"Diregraf Rebirth",3
+1247973,"Diregraf Rebirth",2.5
 1247974,"Unnatural Growth",3
 1247976,"Sludge Monster",4
 1247977,"Croaking Counterpart",2
 1247979,"Fleshtaker",3
-1247980,"Ghoulcaller's Harvest",2
-1247982,"Liesa, Forgotten Archangel",4.5
+1247980,"Ghoulcaller's Harvest",2.5
+1247982,"Liesa, Forgotten Archangel",5
 1247984,"Voldaren Ambusher",2.5
 1247985,"Defend the Celestus",2.5
 1247986,"Turn the Earth",0
-1247987,"Augur of Autumn",4
+1247987,"Augur of Autumn",4.5
 1247988,"Candlegrove Witch",2
 1247990,"Celestus Sanctifier",1
-1247991,"Hedgewitch's Mask",1
+1247991,"Hedgewitch's Mask",0.5
 1247992,"Ritual Guardian",1
 1247993,"Sungold Barrage",1.5
-1247994,"Immolation",2.5
+1247994,"Immolation",2
 1247995,"Corpse Cobble",2
-1247996,"Tainted Adversary",4
+1247996,"Tainted Adversary",4.5
 1247998,"Burly Breaker // Dire-Strain Demolisher",3
 1248001,"Grafted Identity",3.5
 1248003,"Moonveil Regent",4.5
-1248004,"Chaplain of Alms // Chapel Shieldgeist",2.5
+1248004,"Chaplain of Alms // Chapel Shieldgeist",3
 1248005,"Loyal Gryff",2.5
 1248006,"Spectral Adversary",3.5
 1248008,"Hungry for More",2
@@ -102,135 +102,135 @@
 1248024,"Startle",1.5
 1248046,"Necrosynthesis",1
 1248047,"Dire-Strain Rampage",1
-1248050,"Covetous Castaway // Ghostly Castigator",3
+1248050,"Covetous Castaway // Ghostly Castigator",2.5
 1248051,"Mysterious Tome // Chilling Chronicle",3
 1248053,"Covert Cutpurse // Covetous Geist",3
 1248054,"Fangblade Brigand // Fangblade Eviscerator",3
 1248056,"Consuming Blob",4.5
-1248057,"Purifying Dragon",3.5
+1248057,"Purifying Dragon",3
 1248058,"Falkenrath Pit Fighter",3
 1248059,"Siege Zombie",1.5
 1248060,"Ghoulish Procession",2.5
 1248061,"Patrician Geist",3.5
 1248063,"Larder Zombie",0.5
-1248064,"Intrepid Adversary",4.5
+1248064,"Intrepid Adversary",4
 1248065,"Dawnhart Wardens",3
-1248075,"Ritual of Hope",1
+1248075,"Ritual of Hope",1.5
 1248077,"Bloodthirsty Adversary",4
 1248078,"Hostile Hostel // Creeping Inn",3
 1248080,"Duel for Dominance",3
-1248081,"Sacred Fire",3
+1248081,"Sacred Fire",3.5
 1248082,"Delver of Secrets // Insectile Aberration",1
 1248083,"Sungold Sentinel",3.5
 1248085,"Willow Geist",3
 1248086,"Mystic Skull // Mystic Monstrosity",1.5
 1248087,"Diregraf Horde",2
 1248088,"Odric's Outrider",3
-1248089,"Wake to Slaughter",2
+1248089,"Wake to Slaughter",2.5
 1248090,"Overwhelmed Archivist // Archive Haunt",3
 1248093,"Falkenrath Perforator",1.5
-1248094,"Curse of Surveillance",2
-1248102,"Slogurk, the Overslime",3.5
+1248094,"Curse of Surveillance",2.5
+1248102,"Slogurk, the Overslime",3
 1248104,"Lier, Disciple of the Drowned",4
 1248106,"Moonsilver Key",0
 1248107,"Vadrik, Astral Archmage",3
 1248108,"Sigardian Savior",4
-1248111,"Stuffed Bear",0
+1248111,"Stuffed Bear",0.5
 1248114,"Suspicious Stowaway // Seafaring Werewolf",4
 1248116,"Rem Karolus, Stalwart Slayer",3.5
 1248118,"Bird Admirer // Wing Shredder",2
-1248130,"Curse of Silence",0
+1248130,"Curse of Silence",0.5
 1248131,"Borrowed Time",3.5
 1248133,"Flare of Faith",1
-1248134,"Thraben Exorcism",0
-1248135,"Sunset Revelry",1.5
+1248134,"Thraben Exorcism",0.5
+1248135,"Sunset Revelry",2
 1248136,"Vanquish the Horde",3.5
 1248137,"Adeline, Resplendent Cathar",3.5
-1248138,"Organ Hoarder",3
-1248139,"Bladebrand",1.5
+1248138,"Organ Hoarder",2.5
+1248139,"Bladebrand",1
 1248140,"Eaten Alive",3.5
 1248141,"Mask of Griselbrand",3.5
 1248142,"Rise of the Ants",3
 1248143,"Dawnhart Mentor",2
 1248144,"Dryad's Revival",1.5
-1248145,"Brood Weaver",2.5
+1248145,"Brood Weaver",3
 1248146,"Can't Stay Away",2.5
 1248147,"Siphon Insight",2
 1248148,"Grizzly Ghoul",3
 1248149,"Rootcoil Creeper",3
-1248150,"Old Stickfingers",2.5
+1248150,"Old Stickfingers",3
 1248151,"Reckless Stormseeker // Storm-Charged Slasher",3.5
-1248153,"Spellrune Painter // Spellrune Howler",2.5
+1248153,"Spellrune Painter // Spellrune Howler",3
 1248154,"Ambitious Farmhand // Seasoned Cathar",3
 1248155,"Jack-o'-Lantern",0.5
 1248174,"Hound Tamer // Untamed Pup",3.5
 1248176,"Bereaved Survivor // Dauntless Avenger",2
 1248177,"Slaughter Specialist",3
-1248179,"Teferi, Who Slows the Sunset",3
+1248179,"Teferi, Who Slows the Sunset",3.5
 1248181,"Field of Ruin",0
 1248183,"Morbid Opportunist",3
 1248196,"Dennick, Pious Apprentice // Dennick, Pious Apparition",3.5
 1248198,"Florian, Voldaren Scion",3.5
 1248199,"Phantom Carriage",3
 1248200,"Dreadhound",3
-1248204,"Fading Hope",2
-1248206,"Angelfire Ignition",3
+1248204,"Fading Hope",1.5
+1248206,"Angelfire Ignition",3.5
 1248209,"Cathartic Pyre",3.5
 1248210,"Memory Deluge",3
 1248212,"The Meathook Massacre",4.5
 1248215,"Burn Down the House",3.5
 1248216,"Sunstreak Phoenix",4
 1248219,"Smoldering Egg // Ashmouth Dragon",3.5
-1248220,"Vivisection",2
+1248220,"Vivisection",1.5
 1248221,"Hallowed Respite",2
 1248223,"Deathbonnet Sprout // Deathbonnet Hulk",3
 1248224,"Vengeful Strangler // Strangling Grasp",3
-1248225,"Fateful Absence",3
-1248228,"Primal Adversary",5
-1248243,"Evolving Wilds",2
+1248225,"Fateful Absence",3.5
+1248228,"Primal Adversary",4.5
+1248243,"Evolving Wilds",1.5
 1248245,"Crossroads Candleguide",1
-1248246,"Silver Bolt",2.5
-1248247,"Blessed Defiance",1
+1248246,"Silver Bolt",2
+1248247,"Blessed Defiance",0.5
 1248248,"Cathar Commando",1.5
 1248249,"Cathar's Call",1.5
 1248250,"Clarion Cathars",1.5
-1248251,"Abandon the Post",0.5
+1248251,"Abandon the Post",0
 1248252,"Duelcraft Trainer",3
 1248253,"Ardent Elementalist",2
 1248254,"Gavony Silversmith",3
-1248256,"Gavony Trapper",2.5
+1248256,"Gavony Trapper",2
 1248258,"Burn the Accursed",3
 1248259,"Homestead Courage",1
 1248260,"Electric Revelation",1
 1248261,"Lunarch Veteran // Luminous Phantom",1.5
 1248263,"Mourning Patrol // Morning Apparition",2.5
 1248265,"Search Party Captain",3
-1248266,"Sigarda's Splendor",2
+1248266,"Sigarda's Splendor",2.5
 1248267,"Soul-Guide Gryff",1.5
 1248268,"Harvesttide Infiltrator // Harvesttide Assailant",2
 1248271,"Component Collector",1
 1248272,"Lambholt Harrier",1
 1248274,"Moonrager's Slash",3.5
 1248275,"Mounted Dreadknight",1.5
-1248277,"Devious Cover-Up",0.5
-1248278,"Drownyard Amalgam",1.5
+1248277,"Devious Cover-Up",1
+1248278,"Drownyard Amalgam",1
 1248279,"Neonate's Rush",1
 1248280,"Falcon Abomination",3
 1248282,"Obsessive Astronomer",2.5
-1248283,"Firmament Sage",3
+1248283,"Firmament Sage",2.5
 1248284,"Pack's Betrayal",0.5
 1248285,"Flip the Switch",1
 1248286,"Raze the Effigy",1
-1248287,"Geistwave",1.5
+1248287,"Geistwave",1
 1248288,"Stolen Vitality",1
 1248289,"Malevolent Hermit // Benevolent Geist",3
-1248290,"Voldaren Stinger",1
+1248290,"Voldaren Stinger",1.5
 1248292,"Otherworldly Gaze",0.5
-1248293,"Bounding Wolf",1.5
+1248293,"Bounding Wolf",2
 1248295,"Revenge of the Drowned",2
 1248296,"Bramble Armor",1
 1248297,"Shipwreck Sifters",1.5
-1248299,"Skaab Wrangler",2
+1248299,"Skaab Wrangler",1.5
 1248301,"Unblinking Observer",1.5
 1248302,"Eccentric Farmer",2
 1248303,"Katilda, Dawnhart Prime",3.5
@@ -248,18 +248,18 @@
 1248315,"Sunrise Cavalier",3.5
 1248316,"Path to the Festival",1
 1248317,"Lord of the Forsaken",4
-1248318,"Plummet",0.5
-1248319,"Unnatural Moonrise",2
+1248318,"Plummet",0
+1248319,"Unnatural Moonrise",2.5
 1248320,"Morkrut Behemoth",2
-1248321,"Winterthorn Blessing",2.5
-1248322,"Return to Nature",0.5
-1248323,"No Way Out",1
-1248324,"Novice Occultist",2
+1248321,"Winterthorn Blessing",2
+1248322,"Return to Nature",0
+1248323,"No Way Out",1.5
+1248324,"Novice Occultist",1.5
 1248325,"Olivia's Midnight Ambush",3.5
-1248326,"Rotten Reunion",0.5
+1248326,"Rotten Reunion",1
 1248327,"Shadowbeast Sighting",3
 1248328,"Stromkirk Bloodthief",3
-1248329,"Vampire Interloper",3
+1248329,"Vampire Interloper",2.5
 1248330,"Storm the Festival",3
 1248331,"Ecstatic Awakener // Awoken Demon",2
 1248332,"Tapping at the Window",1
