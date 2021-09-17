@@ -530,8 +530,8 @@ function deckBasicLands(set_code, lands) {
 // function to produce a text deck list
 export function asDeckList(set_code, format, cards) {
   
-  // default to just using collector number
-  const fields = ["collector_number"];
+  // default to just using collector number and type_line
+  const fields = ["collector_number", "type_line"];
   const orders = ["asc"];
 
   // if this is an expansion set then also use set 
@@ -548,7 +548,8 @@ export function asDeckList(set_code, format, cards) {
         ordered_cards[card.name] = {
           count: 0,
           set: card.set,
-          collector_number: card.collector_number
+          collector_number: card.collector_number,
+          type_line: card.type_line
         };
       }
       ordered_cards[card.name].count++;
@@ -564,8 +565,14 @@ export function asDeckList(set_code, format, cards) {
     .map((name) => {
       let card = ordered_cards[name];
       let entry  = card.count + ' ' + formatName(name);
-      if (format === 'arena')
-        entry = entry + ' (' + card.set.toUpperCase() + ') ' + card.collector_number;
+      if (format === 'arena') {
+        // use generic basic lands to avoid problems w/ sets that can't use
+        // the built-in basics on arena (e.g. MID)
+        if (!filters.basicLand(card) || set.set_basics(set_code)) {
+          entry = entry + ' (' + card.set.toUpperCase() + ') ' + card.collector_number;
+        }
+      }
+       
       return entry;
     })
     .join("\n");

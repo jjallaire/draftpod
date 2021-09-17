@@ -102,12 +102,16 @@ export default {
       this.deck = deck;
       this.sealed = sealed;
       this.deck_size = deck_size;
-      if (set.capabilities(this.set_code).arena_decklists)
+      const arena = set.capabilities(this.set_code).arena_decklists;
+      if (arena)
         this.arena_60 = selectors.arena60CardDeckList(this.set_code, this.sealed, this.deck);
       let dialog = jquery(this.$refs.dialog);
       dialog.modal();
       this.$nextTick(() => {
-        jquery("#standard-deck-list-tab").tab('show');
+        if (arena)
+          jquery("#arena-deck-list-tab").tab('show');
+        else
+          jquery("#standard-deck-list-tab").tab('show');
       });
     },
 
@@ -164,10 +168,10 @@ export default {
         <div class="modal-body">
           <ul class="nav nav-tabs nav-fill">
             <li v-show="arena_deck_list" class="nav-item">
-              <a id="standard-deck-list-tab" data-toggle="tab" role="tab" class="nav-link active" data-target="#standard-deck-list" aria-controls="standard-deck-list">Standard Format</a>
+              <a id="arena-deck-list-tab" class="nav-link" data-toggle="tab" role="tab" data-target="#arena-deck-list" aria-controls="arena-deck-list">MTGA Format</a>
             </li>
             <li v-show="arena_deck_list" class="nav-item">
-              <a id="arena-deck-list-tab" class="nav-link" data-toggle="tab" role="tab" data-target="#arena-deck-list" aria-controls="arena-deck-list">MTGA Format</a>
+              <a id="standard-deck-list-tab" data-toggle="tab" role="tab" class="nav-link active" data-target="#standard-deck-list" aria-controls="standard-deck-list">MTGO Format</a>
             </li>
           </ul>
           <div class="tab-content decklist-content">

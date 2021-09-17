@@ -6,9 +6,11 @@ export default {
 
   name: "Innistrad: Midnight Hunt",
 
-  pack_cards: () => 15,
+  pack_cards: () => 14,
 
   cube: cube.build,
+
+  set_basics: false,
 
   booster(selectCards) {
 
@@ -26,9 +28,6 @@ export default {
     // commons (1 double faced)
     cards.push(...selectCards(doubleFacedCommon, 1));
     cards.push(...selectCards(singleFacedCommon, 9));
-
-    // basic land
-    cards.push(...selectCards(filters.basicLand, 1));
 
     return cards;
   },

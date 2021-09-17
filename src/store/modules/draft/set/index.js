@@ -140,6 +140,14 @@ export function expansion_set(set_code) {
   }
 }
 
+export function set_basics(set_code) {
+  if (sets[set_code].set_basics !== undefined) {
+    return sets[set_code].set_basics;
+  } else {
+    return true;
+  }
+}
+
 export function pack_set(set_code, pack_number) {
   let pack_set = sets[set_code].pack_set;
   if (pack_set)
