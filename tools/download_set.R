@@ -17,7 +17,7 @@ download_set <- function(set,
 download_set_cards <- function(set) {
   cards <- list()
   for (s in set) {
-    next_page_url <- sprintf("https://api.scryfall.com/cards/search?q=set:%s", s)
+    next_page_url <- sprintf("https://api.scryfall.com/cards/search?unique=prints&q=set:%s", s)
     while(TRUE) {
       result <- jsonlite::fromJSON(next_page_url, simplifyVector = FALSE)
       cards <- append(cards, result$data)
