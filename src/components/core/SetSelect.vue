@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="vow">
+            Innistrad: Crimson Vow 
+          </option>
           <option value="mid">
             Innistrad: Midnight Hunt 
           </option>

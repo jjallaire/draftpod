@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'mid',
+      set_code: 'vow',
       number: 100,
       decks: []
     }

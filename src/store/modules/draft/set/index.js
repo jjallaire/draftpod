@@ -30,6 +30,7 @@ import khm from './set-khm'
 import stx from './set-stx'
 import afr from './set-afr'
 import mid from './set-mid'
+import vow from './set-vow'
 
 import cube_gnt from './cube-gnt'
 import cube_vintage_2019 from './cube-vintage-2019'
@@ -69,6 +70,7 @@ const sets = {
   stx,
   afr,
   mid,
+  vow,
   '2xm': twoxm,
   cube_gnt,
   cube_vintage_2019,

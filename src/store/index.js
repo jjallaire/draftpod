@@ -49,7 +49,7 @@ export function initializeStore() {
       name: null
     },
     preferences: {
-      set_code: 'mid',
+      set_code: 'vow',
       format: 'draft',
       pick_timer: false,
       pick_ratings: false,
