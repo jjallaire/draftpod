@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'vow',
+      set_code: 'neo',
       number: 100,
       decks: []
     }

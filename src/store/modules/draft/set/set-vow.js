@@ -37,23 +37,23 @@ export default {
 
 
 
-function doubleFaced(card) {
+export function doubleFaced(card) {
   return card.multiverse_ids.length === 2;
 }
 
-function doubleFacedUncommon(card) {
+export function doubleFacedUncommon(card) {
   return (doubleFaced(card) && filters.uncommon(card));
 }
 
-function singleFacedUncommon(card) {
+export function singleFacedUncommon(card) {
   return (!doubleFaced(card) && filters.uncommon(card));
 }
 
-function doubleFacedCommon(card) {
+export function doubleFacedCommon(card) {
   return (doubleFaced(card) && filters.common(card));
 }
 
-function singleFacedCommon(card) {
+export function singleFacedCommon(card) {
   return (!doubleFaced(card) && filters.common(card) && !filters.basicLand(card));
 }
 

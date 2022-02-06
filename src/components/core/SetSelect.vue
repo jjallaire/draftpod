@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="neo">
+            Kamigawa: Neon Dynasty
+          </option>
           <option value="vow">
             Innistrad: Crimson Vow 
           </option>
