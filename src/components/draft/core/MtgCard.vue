@@ -71,14 +71,17 @@ export default {
     onMouseMove(event) {
       if (this.preview_timer) {
         clearTimeout(this.preview_timer);
+        this.preview_timer = null;
       }
-      let rect = event.target.getBoundingClientRect();
-      this.preview_timer = setTimeout(function() {
-        this.setCardPreview({
-          card: this.card,
-          rect: rect
-        })
-      }.bind(this), 50);
+      if (event.buttons === 0) {
+        let rect = event.target.getBoundingClientRect();
+        this.preview_timer = setTimeout(function() {
+          this.setCardPreview({
+            card: this.card,
+            rect: rect
+          })
+        }.bind(this), 50);
+      }
     },
 
     onMouseLeave() {
