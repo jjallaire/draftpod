@@ -110,47 +110,47 @@ export default {
 
     pool_sorted: function() {
 
-      if (this.pool_is_multi_set) {
-        // genereate color order field (need to do this 
-        // becauase we may be merging cards from multiple 
-        // sets so collector number won't order by color)
-        let cards = this.pool_filtered.map(card => { 
-          let colorOrder = 9;
-          if (filters.artifact(card)) {
-            colorOrder = 7
-          } else if (filters.land(card)) {
-            colorOrder = 8;
-          } else if (filters.colorless(card)) {
-            colorOrder = 0;
-          } else if (filters.multicolor(card)) {
-            colorOrder = 6;
-          } else if (filters.plains(card)) {
-            colorOrder = 1;
-          } else if (filters.island(card)) {
-            colorOrder = 2;
-          } else if (filters.swamp(card)) {
-            colorOrder = 3;
-          } else if (filters.mountain(card)) {
-            colorOrder = 4;
-          } else if (filters.forest(card)) {
-            colorOrder = 5;
-          }
-          return { 
-            ...card, 
-            colorOrder,
-          }
-        }); 
+     
+      // genereate color order field (need to do this 
+      // becauase we may be merging cards from multiple 
+      // sets so collector number won't order by color)
+      let cards = this.pool_filtered.map(card => { 
+        let colorOrder = 10;
+        if (filters.artifact(card) && filters.colorless(card)) {
+          colorOrder = 7
+        } else if (filters.basicLand(card)) {
+          colorOrder = 9;
+        } else if (filters.land(card)) {
+          colorOrder = 8;
+        } else if (filters.colorless(card)) {
+          colorOrder = 0;
+        } else if (filters.multicolor(card)) {
+          colorOrder = 6;
+        } else if (filters.plains(card)) {
+          colorOrder = 1;
+        } else if (filters.island(card)) {
+          colorOrder = 2;
+        } else if (filters.swamp(card)) {
+          colorOrder = 3;
+        } else if (filters.mountain(card)) {
+          colorOrder = 4;
+        } else if (filters.forest(card)) {
+          colorOrder = 5;
+        }
+        return { 
+          ...card, 
+          colorOrder,
+        }
+      }); 
 
-        // return sorted array of cards (w/o sort fields)
-        return _orderBy(cards, 
-          ["colorOrder",  "name",], 
-          ["asc", "asc",]
-        ).map(card => {
-          return _omit(card, ["colorOrder"]);
-        });
-      } else {
-        return _orderBy(this.pool_filtered, ["collector_number"], ["asc"]);
-      }
+      // return sorted array of cards (w/o sort fields)
+      return _orderBy(cards, 
+        ["colorOrder", "cmc", "name",], 
+        ["asc", "asc", "asc",]
+      ).map(card => {
+        return _omit(card, ["colorOrder"]);
+      });
+      
     },
 
     page_cards: function() {
