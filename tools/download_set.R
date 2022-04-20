@@ -83,7 +83,7 @@ download_cards <- function(cards,
     }
     
     # get id
-    if (set == "znr" || set == "afr" || set == "mid" || set == "vow" || set == "neo") {
+    if (set == "znr" || set == "afr" || set == "mid" || set == "vow" || set == "neo" || set == "snc") {
       multiverse_ids <- list(card$tcgplayer_id + 1000000)
     } else if (set == "khm") {
       if (is.null(card$tcgplayer_id)) {
@@ -246,7 +246,7 @@ download_cards <- function(cards,
     }
     
     # throw in an extra mutliverse id for gatherer khm & stx modal double faced cards 
-    if ((set == "khm" || set == "stx" || set == "mid" || set == "vow" || set == "neo") && length(image_uris) == 2) {
+    if ((set == "khm" || set == "stx" || set == "mid" || set == "vow" || set == "neo" || set == "snc") && length(image_uris) == 2) {
       multiverse_ids[[2]] <- multiverse_ids[[1]] + 1000
     }
     
@@ -308,6 +308,7 @@ download_cards <- function(cards,
     mid = 277,
     vow = 402,
     neo = 302,
+    snc = 281,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000

@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="snc">
+            Streets of New Capenna
+          </option>
           <option value="neo">
             Kamigawa: Neon Dynasty
           </option>
