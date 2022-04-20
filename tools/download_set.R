@@ -83,7 +83,7 @@ download_cards <- function(cards,
     }
     
     # get id
-    if (set == "znr" || set == "afr" || set == "mid" || set == "vow" || set == "neo" || set == "snc") {
+    if (set == "znr" || set == "afr" || set == "mid" || set == "vow" || set == "neo") {
       multiverse_ids <- list(card$tcgplayer_id + 1000000)
     } else if (set == "khm") {
       if (is.null(card$tcgplayer_id)) {
@@ -97,7 +97,7 @@ download_cards <- function(cards,
         }
       }
       multiverse_ids <- list(card$tcgplayer_id + 1000000)
-    } else if (set != "stx" && set != "sta") {
+    } else if (set != "stx" && set != "sta" && set != "snc") {
       multiverse_ids <- card$multiverse_ids
     } else {
       multiverse_ids <- list()
@@ -147,6 +147,7 @@ download_cards <- function(cards,
                            sta = 920000,
                            mid = 930000,
                            vow = 940000,
+                           snc = 950000,
         )
         multiverse_ids <- list(baseline + collector_number)
       }
