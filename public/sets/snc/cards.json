@@ -62,7 +62,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -128,7 +128,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0,
     "set": "snc"
   },
   {
@@ -150,7 +150,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 2,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -170,7 +170,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 0.5,
     "set": "snc"
   },
   {
@@ -192,7 +192,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -259,7 +259,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -281,7 +281,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -303,7 +303,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -371,7 +371,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -385,7 +385,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/2/0/2069310a-9fb6-41b7-bbd5-849e3df05632.png?1650029941"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Put a shield counter on target creature. (If that creature would be dealt damage or destroyed, remove a shield counter from it instead.)\nScry 1.",
+    "oracle_text": "Put a shield counter on target creature. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\nScry 1.",
     "mana_cost": "{W}",
     "cmc": 1,
     "colors": [
@@ -393,7 +393,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -438,7 +438,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -460,7 +460,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -480,7 +480,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 0.5,
     "set": "snc"
   },
   {
@@ -504,7 +504,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -526,7 +526,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "snc"
   },
   {
@@ -550,7 +550,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 5,
     "set": "snc"
   },
   {
@@ -574,7 +574,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -594,7 +594,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -632,7 +632,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/9/d/9d4a54bd-5598-4313-b5e6-29fd38da016a.png?1650023916"],
     "layout": "normal",
     "type_line": "Creature — Human Soldier",
-    "oracle_text": "When Brokers Veteran dies, put a shield counter on target creature you control. (If that creature would be dealt damage or destroyed, remove a shield counter from it instead.)",
+    "oracle_text": "When Brokers Veteran dies, put a shield counter on target creature you control. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -662,7 +662,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -730,7 +730,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -754,7 +754,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -776,7 +776,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -820,7 +820,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -864,7 +864,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -887,7 +887,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -907,7 +907,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -929,7 +929,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 0.5,
     "set": "snc"
   },
   {
@@ -952,7 +952,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -1039,7 +1039,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -1061,7 +1061,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -1109,7 +1109,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -1154,7 +1154,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -1180,7 +1180,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -1204,7 +1204,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -1226,7 +1226,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -1270,7 +1270,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "snc"
   },
   {
@@ -1284,7 +1284,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/3/1/31184dd0-4080-44c1-a3e0-f6d10a4d1fcb.png?1649471806"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose new targets for the copy.)\nTarget player mills half their library, rounded down.",
+    "oracle_text": "Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.)\nTarget player mills half their library, rounded down.",
     "mana_cost": "{4}{U}{U}",
     "cmc": 6,
     "colors": [
@@ -1314,7 +1314,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -1359,7 +1359,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -1403,7 +1403,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -1461,7 +1461,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/9/0/902abe4d-5c19-4c96-b825-e6cd4d954a84.png?1650121042"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose new targets for the copy.)\nMill two cards, then you may return a creature card from your graveyard to your hand. (To mill a card, a player puts the top card of their library into their graveyard.)",
+    "oracle_text": "Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.)\nMill two cards, then you may return a creature card from your graveyard to your hand. (To mill a card, put the top card of your library into your graveyard.)",
     "mana_cost": "{2}{B}",
     "cmc": 3,
     "colors": [
@@ -1493,7 +1493,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -1515,7 +1515,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -1537,7 +1537,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -1559,7 +1559,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -1581,7 +1581,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -1649,7 +1649,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -1663,7 +1663,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0dad61f-36cd-46af-82b7-a02e04efd676.png?1649699951"],
     "layout": "normal",
     "type_line": "Legendary Creature — Vampire Rogue",
-    "oracle_text": "Flash\nWhenever Evelyn, the Covetous or another Vampire enters the battlefield under your control, exile the top card of each player's library with a collection counter on it.\nOnce each turn, you may play a card from exile with a collection counter on it if it was exiled by an ability you controlled, and you may spend mana as though it were any color to cast it.",
+    "oracle_text": "Flash\nWhenever Evelyn, the Covetous or another Vampire enters the battlefield under your control, exile the top card of each player's library with a collection counter on it.\nOnce each turn, you may play a card from exile with a collection counter on it if it was exiled by an ability you controlled, and you may spend mana as though it were mana of any color to cast it.",
     "mana_cost": "{2}{U/B}{B}{B/R}",
     "cmc": 5,
     "colors": [
@@ -1673,7 +1673,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "snc"
   },
   {
@@ -1717,7 +1717,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -1739,7 +1739,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -1762,7 +1762,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -1872,7 +1872,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -1896,7 +1896,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "snc"
   },
   {
@@ -2010,7 +2010,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -2032,7 +2032,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "snc"
   },
   {
@@ -2054,7 +2054,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -2098,7 +2098,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -2140,7 +2140,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "snc"
   },
   {
@@ -2182,7 +2182,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -2206,7 +2206,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -2228,7 +2228,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -2294,7 +2294,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -2308,7 +2308,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/6/3/6322e12d-b932-4ca1-a51d-e2a928140cc7.png?1649701945"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose new targets for the copy.)\nChoose target creature or planeswalker. If it was dealt noncombat damage this turn, Grisly Sigil deals 3 damage to it and you gain 3 life. Otherwise, Grisly Sigil deals 1 damage to it and you gain 1 life.",
+    "oracle_text": "Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.)\nChoose target creature or planeswalker. If it was dealt noncombat damage this turn, Grisly Sigil deals 3 damage to it and you gain 3 life. Otherwise, Grisly Sigil deals 1 damage to it and you gain 1 life.",
     "mana_cost": "{B}",
     "cmc": 1,
     "colors": [
@@ -2358,7 +2358,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -2402,7 +2402,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -2448,7 +2448,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -2470,7 +2470,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -2484,7 +2484,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/1/f/1f7cced2-390b-499f-ace3-e52fd53d4712.png?1650121093"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Casualty 3 (As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell and you may choose new targets for the copy.)\nSearch your library for a card, put it into your hand, then shuffle.",
+    "oracle_text": "Casualty 3 (As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell.)\nSearch your library for a card, put it into your hand, then shuffle.",
     "mana_cost": "{3}{B}{B}",
     "cmc": 5,
     "colors": [
@@ -2492,7 +2492,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 0,
     "set": "snc"
   },
   {
@@ -2560,7 +2560,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -2604,7 +2604,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -2694,7 +2694,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "snc"
   },
   {
@@ -2727,8 +2727,8 @@
     "multiverse_ids": [
       950250
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/26d40e03-6de4-4373-9fbf-04c1dd79e995.jpg?1646591275"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/2/6/26d40e03-6de4-4373-9fbf-04c1dd79e995.png?1646591275"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/2/6/26d40e03-6de4-4373-9fbf-04c1dd79e995.jpg?1651966183"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/2/6/26d40e03-6de4-4373-9fbf-04c1dd79e995.png?1651966183"],
     "layout": "normal",
     "type_line": "Land — Mountain Forest Plains",
     "oracle_text": "({T}: Add {R}, {G}, or {W}.)\nJetmir's Garden enters the battlefield tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
@@ -2801,7 +2801,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/f/f/ff2665f7-6cf8-4f9b-810e-17e264753225.png?1649471797"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose new targets for the copy.)\nCreate a 4/3 black Ogre Warrior creature token.",
+    "oracle_text": "Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)\nCreate a 4/3 black Ogre Warrior creature token.",
     "mana_cost": "{4}{B}",
     "cmc": 5,
     "colors": [
@@ -2831,7 +2831,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -2913,7 +2913,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/e/e/ee31d56a-9b7e-4de0-81cb-3b7c76b6fbd5.png?1649364797"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose new targets for the copy.)\nLight 'Em Up deals 2 damage to target creature or planeswalker.",
+    "oracle_text": "Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.)\nLight 'Em Up deals 2 damage to target creature or planeswalker.",
     "mana_cost": "{1}{R}",
     "cmc": 2,
     "colors": [
@@ -2921,7 +2921,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -2945,7 +2945,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -2965,7 +2965,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 1,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -2987,7 +2987,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -3011,7 +3011,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -3035,7 +3035,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -3083,7 +3083,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -3103,7 +3103,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -3161,7 +3161,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/3/f/3f2d6a21-ea77-484b-9e3a-1bd49806f907.png?1649471769"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose new targets for the copy.)\nCounter target spell unless its controller pays {2}.",
+    "oracle_text": "Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.)\nCounter target spell unless its controller pays {2}.",
     "mana_cost": "{1}{U}",
     "cmc": 2,
     "colors": [
@@ -3193,7 +3193,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3.5,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -3215,7 +3215,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -3286,7 +3286,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -3308,7 +3308,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0,
     "set": "snc"
   },
   {
@@ -3354,7 +3354,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -3454,11 +3454,11 @@
     "multiverse_ids": [
       950206
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.jpg?1649366630"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.png?1649366630"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.jpg?1652142963"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.png?1652142963"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Nixilis",
-    "oracle_text": "Casualty X. The copy isn't legendary and has starting loyalty X. (As you cast this spell, you may sacrifice a creature with power X. When you do, copy this spell and you may choose new targets for the copy.)\n+1: Each opponent loses 2 life unless they discard a card. If you control a Demon or Devil, you gain 2 life.\n−2: Create a 1/1 red Devil creature token with \"When this creature dies, it deals 1 damage to any target.\"\n−7: Target player draws seven cards and loses 7 life.",
+    "oracle_text": "Casualty X. The copy isn't legendary and has starting loyalty X. (As you cast this spell, you may sacrifice a creature with power X. When you do, copy this spell. The copy becomes a token.)\n+1: Each opponent loses 2 life unless they discard a card. If you control a Demon or Devil, you gain 2 life.\n−2: Create a 1/1 red Devil creature token with \"When this creature dies, it deals 1 damage to any target.\"\n−7: Target player draws seven cards and loses 7 life.",
     "mana_cost": "{1}{B}{R}",
     "cmc": 3,
     "colors": [
@@ -3467,7 +3467,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "snc"
   },
   {
@@ -3491,7 +3491,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0.5,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -3539,7 +3539,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -3583,7 +3583,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -3607,7 +3607,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -3627,7 +3627,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -3714,7 +3714,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -3802,7 +3802,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 4,
     "set": "snc"
   },
   {
@@ -3824,7 +3824,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -3846,7 +3846,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -3890,7 +3890,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -3956,7 +3956,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -3978,7 +3978,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "snc"
   },
   {
@@ -4001,7 +4001,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -4025,7 +4025,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "snc"
   },
   {
@@ -4047,7 +4047,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -4069,7 +4069,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -4101,8 +4101,8 @@
     "multiverse_ids": [
       950254
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a2c56479-4bee-4edb-80d7-4af010b7c793.jpg?1646348981"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/a/2/a2c56479-4bee-4edb-80d7-4af010b7c793.png?1646348981"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/a/2/a2c56479-4bee-4edb-80d7-4af010b7c793.jpg?1651966195"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/a/2/a2c56479-4bee-4edb-80d7-4af010b7c793.png?1651966195"],
     "layout": "normal",
     "type_line": "Land — Plains Island Swamp",
     "oracle_text": "({T}: Add {W}, {U}, or {B}.)\nRaffine's Tower enters the battlefield tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
@@ -4139,7 +4139,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -4183,7 +4183,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 0.5,
     "set": "snc"
   },
   {
@@ -4205,7 +4205,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -4249,7 +4249,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -4271,7 +4271,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -4319,7 +4319,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -4343,7 +4343,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -4389,7 +4389,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -4409,7 +4409,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -4477,7 +4477,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -4513,7 +4513,7 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/d/7/d7a84781-b40c-41e0-a0b9-86e466c9b12d.png?1649698025"],
     "layout": "normal",
     "type_line": "Sorcery",
-    "oracle_text": "Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose new targets for the copy.)\nTap target creature. It doesn't untap during its controller's next untap step.\nDraw a card.",
+    "oracle_text": "Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.)\nTap target creature. It doesn't untap during its controller's next untap step.\nDraw a card.",
     "mana_cost": "{2}{U}",
     "cmc": 3,
     "colors": [
@@ -4521,7 +4521,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -4543,7 +4543,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -4565,7 +4565,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -4632,7 +4632,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -4652,7 +4652,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -4674,7 +4674,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -4697,7 +4697,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -4719,7 +4719,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 0.5,
     "set": "snc"
   },
   {
@@ -4741,7 +4741,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -4763,7 +4763,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "snc"
   },
   {
@@ -4787,7 +4787,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -4809,7 +4809,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -4832,7 +4832,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -4854,7 +4854,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -4886,11 +4886,11 @@
     "multiverse_ids": [
       950062
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/8725f4c4-fad7-460e-b86c-ff81674f0980.jpg?1650025477"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/8/7/8725f4c4-fad7-460e-b86c-ff81674f0980.png?1650025477"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/8/7/8725f4c4-fad7-460e-b86c-ff81674f0980.jpg?1650436523"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/8/7/8725f4c4-fad7-460e-b86c-ff81674f0980.png?1650436523"],
     "layout": "normal",
     "type_line": "Instant",
-    "oracle_text": "Put a +1/+1 counter on target creature. It phases out. (Treat it and anything attached to it as though they don't exist until your next turn.)",
+    "oracle_text": "Put a +1/+1 counter on target creature. It phases out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)",
     "mana_cost": "{U}",
     "cmc": 1,
     "colors": [
@@ -4921,7 +4921,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -4943,7 +4943,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -4991,7 +4991,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -5001,8 +5001,8 @@
     "multiverse_ids": [
       950257
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/7363f1fb-9af3-4212-921f-d59533faf0e5.jpg?1646591264"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/7/3/7363f1fb-9af3-4212-921f-d59533faf0e5.png?1646591264"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/7363f1fb-9af3-4212-921f-d59533faf0e5.jpg?1651966200"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/7/3/7363f1fb-9af3-4212-921f-d59533faf0e5.png?1651966200"],
     "layout": "normal",
     "type_line": "Land — Forest Plains Island",
     "oracle_text": "({T}: Add {G}, {W}, or {U}.)\nSpara's Headquarters enters the battlefield tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
@@ -5059,7 +5059,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -5082,7 +5082,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -5140,13 +5140,13 @@
     "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/f/c/fc574b42-e1bb-428f-a71f-bc3d7f5451da.png?1650121568"],
     "layout": "normal",
     "type_line": "Artifact Creature — Wall",
-    "oracle_text": "Defender (This creature can't attack.)\n{3}, {T}: Target creature can't be blocked this turn.",
+    "oracle_text": "Defender\n{3}, {T}: Target creature can't be blocked this turn.",
     "mana_cost": "{2}",
     "cmc": 2,
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1,
+    "rating": 0.5,
     "set": "snc"
   },
   {
@@ -5190,7 +5190,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -5236,7 +5236,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "snc"
   },
   {
@@ -5258,7 +5258,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -5334,11 +5334,11 @@
     "multiverse_ids": [
       950228
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f01f12e0-f354-43aa-9e2d-b59a99571a5f.jpg?1649698834"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/f/0/f01f12e0-f354-43aa-9e2d-b59a99571a5f.png?1649698834"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f01f12e0-f354-43aa-9e2d-b59a99571a5f.jpg?1650578083"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/f/0/f01f12e0-f354-43aa-9e2d-b59a99571a5f.png?1650578083"],
     "layout": "normal",
     "type_line": "Legendary Creature — Human Rogue",
-    "oracle_text": "When Toluz, Clever Conductor enters the battlefield, it connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)\nWhenever you discard one or more cards, exile them from your graveyard.\nWhen Toluz, Clever Conductor dies, put the cards exiled with it into their owner's hand.",
+    "oracle_text": "When Toluz, Clever Conductor enters the battlefield, it connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)\nWhenever you discard one or more cards, exile them from your graveyard.\nWhen Toluz dies, put the cards exiled with it into their owner's hand.",
     "mana_cost": "{W/U}{U}{U/B}",
     "cmc": 3,
     "colors": [
@@ -5370,7 +5370,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -5415,7 +5415,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -5461,7 +5461,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -5481,7 +5481,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -5525,7 +5525,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 5,
+    "rating": 4.5,
     "set": "snc"
   },
   {
@@ -5547,7 +5547,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -5569,7 +5569,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -5591,7 +5591,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "snc"
   },
   {
@@ -5637,7 +5637,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "snc"
   },
   {
@@ -5659,7 +5659,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1,
     "set": "snc"
   },
   {
@@ -5796,7 +5796,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -5818,7 +5818,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "snc"
   },
   {
@@ -5840,7 +5840,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 4.5,
     "set": "snc"
   },
   {
@@ -5862,7 +5862,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "snc"
   },
   {
@@ -5872,8 +5872,8 @@
     "multiverse_ids": [
       950260
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54f449ff-4025-465e-9ec5-a5cf42c4c9d3.jpg?1646591246"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/5/4/54f449ff-4025-465e-9ec5-a5cf42c4c9d3.png?1646591246"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54f449ff-4025-465e-9ec5-a5cf42c4c9d3.jpg?1651966205"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/5/4/54f449ff-4025-465e-9ec5-a5cf42c4c9d3.png?1651966205"],
     "layout": "normal",
     "type_line": "Land — Island Swamp Mountain",
     "oracle_text": "({T}: Add {U}, {B}, or {R}.)\nXander's Lounge enters the battlefield tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
@@ -5920,8 +5920,8 @@
     "multiverse_ids": [
       950261
     ],
-    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/5/75fdce80-e338-4a50-bdc6-786511feaeef.jpg?1646591222"],
-    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/75fdce80-e338-4a50-bdc6-786511feaeef.png?1646591222"],
+    "image_uris": ["https://c1.scryfall.com/file/scryfall-cards/normal/front/7/5/75fdce80-e338-4a50-bdc6-786511feaeef.jpg?1651966210"],
+    "highres_image_uris": ["https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/75fdce80-e338-4a50-bdc6-786511feaeef.png?1651966210"],
     "layout": "normal",
     "type_line": "Land — Swamp Mountain Forest",
     "oracle_text": "({T}: Add {B}, {R}, or {G}.)\nZiatora's Proving Ground enters the battlefield tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
@@ -5934,7 +5934,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "snc"
   },
   {
@@ -5958,7 +5958,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4.5,
+    "rating": 4,
     "set": "snc"
   }
 ]
