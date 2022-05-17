@@ -121,9 +121,6 @@ export default {
           <option value="kld">
             Kaladesh
           </option>
-          <option value="ktk">
-            Khans of Tarkir
-          </option>
         </optgroup>
         <optgroup label="Remastered">
           <option value="klr">
@@ -145,17 +142,6 @@ export default {
           </option>
           <option value="ust">
             Unstable
-          </option>
-        </optgroup>
-        <optgroup label="Cubes">
-          <option value="cube_vintage_2020">
-            Vintage Cube (Dec 2019)
-          </option>
-          <option value="cube_vintage_2019">
-            Vintage Cube (May 2019)
-          </option>
-          <option value="cube_gnt">
-            Game Night Cube
           </option>
         </optgroup>
       </select>
