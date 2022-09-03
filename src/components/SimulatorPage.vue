@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'snc',
+      set_code: 'dmu',
       number: 100,
       decks: []
     }

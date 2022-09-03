@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="dmu">
+            Dominaria United
+          </option>
           <option value="snc">
             Streets of New Capenna
           </option>

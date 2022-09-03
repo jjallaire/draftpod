@@ -83,7 +83,7 @@ download_cards <- function(cards,
     }
     
     # get id
-    if (set == "znr" || set == "afr" || set == "mid" || set == "vow" || set == "neo") {
+    if (set == "znr" || set == "afr" || set == "mid" || set == "vow" || set == "neo" || set == "dmu") {
       multiverse_ids <- list(card$tcgplayer_id + 1000000)
     } else if (set == "khm") {
       if (is.null(card$tcgplayer_id)) {
@@ -309,6 +309,7 @@ download_cards <- function(cards,
     mid = 277,
     vow = 402,
     neo = 302,
+    dmu = 281,
     snc = 281,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
