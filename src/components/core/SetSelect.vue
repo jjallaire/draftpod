@@ -62,6 +62,8 @@ export default {
           <option value="mid">
             Innistrad: Midnight Hunt 
           </option>
+        </optgroup>
+        <optgroup label="Pioneer">
           <option value="afr">
             Adventures in the Forgotten Realms 
           </option>
@@ -74,8 +76,6 @@ export default {
           <option value="znr">
             Zendikar Rising
           </option>
-        </optgroup>
-        <optgroup label="Pioneer">
           <option value="m21">
             Core Set 2021
           </option>
