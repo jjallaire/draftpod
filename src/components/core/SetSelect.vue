@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="bro">
+            The Brothers' War
+          </option>
           <option value="dmu">
             Dominaria United
           </option>

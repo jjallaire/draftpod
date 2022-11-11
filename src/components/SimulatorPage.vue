@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'dmu',
+      set_code: 'bro',
       number: 100,
       decks: []
     }
