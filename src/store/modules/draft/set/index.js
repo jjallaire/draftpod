@@ -34,6 +34,7 @@ import vow from './set-vow'
 import neo from './set-neo'
 import snc from './set-snc'
 import dmu from './set-dmu'
+import bro from './set-bro'
 import one from './set-one'
 
 import cube_gnt from './cube-gnt'
@@ -78,6 +79,7 @@ const sets = {
   neo,
   snc,
   dmu,
+  bro,
   one,
   '2xm': twoxm,
   cube_gnt,
