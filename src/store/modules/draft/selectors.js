@@ -508,6 +508,10 @@ function cardsInDeck(card, deck, entirePool = false) {
 // get set-specific basic lands 
 function deckBasicLands(set_code, lands) {
 
+  if (set_code === 'thb' || set_code === 'one') {
+    set_code = 'm21';
+  }
+
   // generate basic lands from this set
   let cards = set.cards_cached(set_code);
   const basicLands = (code, name) => {
