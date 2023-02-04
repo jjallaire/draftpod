@@ -9,6 +9,10 @@ export default {
 
   pack_cards: () => 14,
 
+  capabilities: {
+    arena_decklists: false,
+  },
+
   cube: cube.build,
 
   booster(selectCards) {

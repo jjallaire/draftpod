@@ -508,7 +508,7 @@ function cardsInDeck(card, deck, entirePool = false) {
 // get set-specific basic lands 
 function deckBasicLands(set_code, lands) {
 
-  if (set_code === 'thb' || set_code === 'one') {
+  if (set_code === 'thb') {
     set_code = 'm21';
   }
 

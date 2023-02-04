@@ -312,7 +312,7 @@ download_cards <- function(cards,
     dmu = 281,
     bro = 287,
     snc = 281,
-    one = 271,
+    one = 276,
     `cube_gnt` = 1000,
     `cube_vintage_2019` = 1000,
     `cube_vintage_2020` = 1000

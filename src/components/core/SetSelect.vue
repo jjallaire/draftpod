@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="one">
+            Phyrexia: All Will Be One
+          </option>
           <option value="bro">
             The Brothers' War
           </option>
