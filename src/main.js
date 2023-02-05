@@ -16,6 +16,8 @@ import shortUuid from 'short-uuid'
 import router from './core/router'
 import { initializeStore } from './store'
 import { SET_PLAYER_INFO } from './store/mutations'
+import { cards } from './store/modules/draft/set'
+
 
 import config from './config'
 
@@ -54,12 +56,17 @@ initializeStore()
     // write the player id
     store.commit(SET_PLAYER_INFO, { id: player_id } );
 
-    // start the app
-    new Vue({
-      router,
-      store,
-      render: (h) => h('router-view')
-    }).$mount('#app');  
+    // preload m21 cache (for basics)
+    cards('m21').then(
+      () => {
+         // start the app
+        new Vue({
+          router,
+          store,
+          render: (h) => h('router-view')
+        }).$mount('#app');  
+      }
+    )   
   })
   .catch(error => {
     log.logException(error, "onInitializeStore");
