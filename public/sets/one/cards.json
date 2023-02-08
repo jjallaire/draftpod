@@ -128,7 +128,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "one"
   },
   {
@@ -214,7 +214,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "one"
   },
   {
@@ -325,7 +325,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -347,7 +347,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0,
+    "rating": 0.5,
     "set": "one"
   },
   {
@@ -369,7 +369,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -591,7 +591,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "one"
   },
   {
@@ -679,7 +679,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "one"
   },
   {
@@ -701,7 +701,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -745,7 +745,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -833,7 +833,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -923,7 +923,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -967,7 +967,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -1145,7 +1145,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -1212,7 +1212,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 0.5,
     "set": "one"
   },
   {
@@ -1364,7 +1364,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "one"
   },
   {
@@ -1430,7 +1430,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0.5,
+    "rating": 0,
     "set": "one"
   },
   {
@@ -1452,7 +1452,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -1518,7 +1518,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -1562,7 +1562,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "one"
   },
   {
@@ -1673,7 +1673,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -1699,6 +1699,28 @@
     "set": "one"
   },
   {
+    "id": 1475494,
+    "name": "Forest",
+    "collector_number": 276,
+    "multiverse_ids": [
+      1475494
+    ],
+    "image_uris": ["https://cards.scryfall.io/normal/front/9/f/9f9e911e-7e12-4d99-806c-5cfba19ea8f3.jpg?1675023242"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/9/f/9f9e911e-7e12-4d99-806c-5cfba19ea8f3.png?1675023242"],
+    "layout": "normal",
+    "type_line": "Basic Land — Forest",
+    "oracle_text": "({T}: Add {G}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "G"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "one"
+  },
+  {
     "id": 1479585,
     "name": "Forgehammer Centurion",
     "collector_number": 130,
@@ -1717,7 +1739,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -1805,7 +1827,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -1871,7 +1893,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -1938,7 +1960,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -1960,7 +1982,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "one"
   },
   {
@@ -1980,7 +2002,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -2112,7 +2134,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "one"
   },
   {
@@ -2134,7 +2156,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 0.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -2176,7 +2198,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -2242,7 +2264,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -2264,7 +2286,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 2.5,
     "set": "one"
   },
   {
@@ -2334,14 +2356,36 @@
     "set": "one"
   },
   {
+    "id": 1475497,
+    "name": "Island",
+    "collector_number": 273,
+    "multiverse_ids": [
+      1475497
+    ],
+    "image_uris": ["https://cards.scryfall.io/normal/front/f/a/fa641d46-d002-4903-af72-e96971f558bc.jpg?1675023245"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/f/a/fa641d46-d002-4903-af72-e96971f558bc.png?1675023245"],
+    "layout": "normal",
+    "type_line": "Basic Land — Island",
+    "oracle_text": "({T}: Add {U}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "U"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "one"
+  },
+  {
     "id": 1478288,
     "name": "Jace, the Perfected Mind",
     "collector_number": 57,
     "multiverse_ids": [
       1478288
     ],
-    "image_uris": ["https://cards.scryfall.io/normal/front/6/4/64e6a8d1-ae75-45bd-af62-9a622620cb5c.jpg?1674772771"],
-    "highres_image_uris": ["https://cards.scryfall.io/png/front/6/4/64e6a8d1-ae75-45bd-af62-9a622620cb5c.png?1674772771"],
+    "image_uris": ["https://cards.scryfall.io/normal/front/6/4/64e6a8d1-ae75-45bd-af62-9a622620cb5c.jpg?1675699570"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/6/4/64e6a8d1-ae75-45bd-af62-9a622620cb5c.png?1675699570"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Jace",
     "oracle_text": "Compleated ({U/P} can be paid with {U} or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n+1: Until your next turn, up to one target creature gets -3/-0.\n−2: Target player mills three cards. Then if a graveyard has twenty or more cards in it, you draw three cards. Otherwise, you draw a card.\n−X: Target player mills three times X cards.",
@@ -2374,7 +2418,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -2397,7 +2441,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "one"
   },
   {
@@ -2420,7 +2464,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4.5,
+    "rating": 4,
     "set": "one"
   },
   {
@@ -2452,8 +2496,8 @@
     "multiverse_ids": [
       1478243
     ],
-    "image_uris": ["https://cards.scryfall.io/normal/front/6/8/6865b8c7-b260-48e8-a905-64cbf06b7e57.jpg?1674773044"],
-    "highres_image_uris": ["https://cards.scryfall.io/png/front/6/8/6865b8c7-b260-48e8-a905-64cbf06b7e57.png?1674773044"],
+    "image_uris": ["https://cards.scryfall.io/normal/front/6/8/6865b8c7-b260-48e8-a905-64cbf06b7e57.jpg?1675699602"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/6/8/6865b8c7-b260-48e8-a905-64cbf06b7e57.png?1675699602"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Kaya",
     "oracle_text": "Hexproof\n+2: Each opponent loses 3 life and you gain 3 life.\n0: You draw two cards. Then each opponent may scry 1.\n−3: Exile target creature or enchantment. If it wasn't an Aura, create a token that's a copy of it, except it's a 1/1 white Spirit creature with flying in addition to its other types.",
@@ -2487,7 +2531,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -2554,7 +2598,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -2576,7 +2620,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -2598,7 +2642,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -2608,8 +2652,8 @@
     "multiverse_ids": [
       1478241
     ],
-    "image_uris": ["https://cards.scryfall.io/normal/front/6/d/6df77017-c4a7-4b79-a16b-26463bd6a96a.jpg?1674773048"],
-    "highres_image_uris": ["https://cards.scryfall.io/png/front/6/d/6df77017-c4a7-4b79-a16b-26463bd6a96a.png?1674773048"],
+    "image_uris": ["https://cards.scryfall.io/normal/front/6/d/6df77017-c4a7-4b79-a16b-26463bd6a96a.jpg?1675699509"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/6/d/6df77017-c4a7-4b79-a16b-26463bd6a96a.png?1675699509"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Lukka",
     "oracle_text": "Compleated ({R/G/P} can be paid with {R}, {G}, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n+1: Add {R}{G}. Spend this mana only to cast creature spells or activate abilities of creatures.\n−1: Create a 3/3 green Phyrexian Beast creature token with toxic 1.\n−4: Lukka deals X damage divided as you choose among any number of target creatures and/or planeswalkers, where X is the greatest power among creatures you controlled as you activated this ability.",
@@ -2666,7 +2710,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 4,
+    "rating": 3.5,
     "set": "one"
   },
   {
@@ -2688,7 +2732,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -2710,7 +2754,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -2776,7 +2820,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -2843,7 +2887,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 4,
     "set": "one"
   },
   {
@@ -2865,7 +2909,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "one"
   },
   {
@@ -2910,7 +2954,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -2954,7 +2998,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0,
+    "rating": 0.5,
     "set": "one"
   },
   {
@@ -2974,7 +3018,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0.5,
+    "rating": 0,
     "set": "one"
   },
   {
@@ -3038,7 +3082,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 4,
+    "rating": 4.5,
     "set": "one"
   },
   {
@@ -3058,7 +3102,29 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 0.5,
+    "set": "one"
+  },
+  {
+    "id": 1475496,
+    "name": "Mountain",
+    "collector_number": 275,
+    "multiverse_ids": [
+      1475496
+    ],
+    "image_uris": ["https://cards.scryfall.io/normal/front/c/d/cd95f833-27ce-447c-b505-02137daaba4c.jpg?1675023248"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/c/d/cd95f833-27ce-447c-b505-02137daaba4c.png?1675023248"],
+    "layout": "normal",
+    "type_line": "Basic Land — Mountain",
+    "oracle_text": "({T}: Add {R}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "R"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
     "set": "one"
   },
   {
@@ -3098,7 +3164,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0.5,
     "set": "one"
   },
   {
@@ -3140,7 +3206,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -3150,8 +3216,8 @@
     "multiverse_ids": [
       1478242
     ],
-    "image_uris": ["https://cards.scryfall.io/normal/front/5/7/578e35b9-7252-4767-a1f3-aecd71256515.jpg?1674773057"],
-    "highres_image_uris": ["https://cards.scryfall.io/png/front/5/7/578e35b9-7252-4767-a1f3-aecd71256515.png?1674773057"],
+    "image_uris": ["https://cards.scryfall.io/normal/front/5/7/578e35b9-7252-4767-a1f3-aecd71256515.jpg?1675699477"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/5/7/578e35b9-7252-4767-a1f3-aecd71256515.png?1675699477"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Nahiri",
     "oracle_text": "Compleated ({R/W/P} can be paid with {R}, {W}, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n+1: Until your next turn, up to one target creature attacks a player each combat if able.\n+1: Discard a card, then draw a card.\n0: Exile target creature or Equipment card with mana value less than Nahiri's loyalty from your graveyard. Create a token that's a copy of it. That token gains haste. Exile it at the beginning of the next end step.",
@@ -3185,7 +3251,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -3262,8 +3328,8 @@
     "multiverse_ids": [
       1478239
     ],
-    "image_uris": ["https://cards.scryfall.io/normal/front/1/d/1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3.jpg?1674772987"],
-    "highres_image_uris": ["https://cards.scryfall.io/png/front/1/d/1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3.png?1674772987"],
+    "image_uris": ["https://cards.scryfall.io/normal/front/1/d/1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3.jpg?1675699523"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/1/d/1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3.png?1675699523"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Nissa",
     "oracle_text": "Compleated ({G/P} can be paid with {G} or 2 life. For each {G/P} paid with life, this planeswalker enters with two fewer loyalty counters.)\n+1: Create an X/X green Phyrexian Horror creature token, where X is Nissa, Ascended Animist's loyalty.\n−1: Destroy target artifact or enchantment.\n−7: Until end of turn, creatures you control get +1/+1 for each Forest you control and gain trample.",
@@ -3296,7 +3362,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 2.5,
     "set": "one"
   },
   {
@@ -3384,7 +3450,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -3473,7 +3539,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -3495,7 +3561,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -3517,7 +3583,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3.5,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -3559,7 +3625,7 @@
     ],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 3.5,
+    "rating": 4,
     "set": "one"
   },
   {
@@ -3607,6 +3673,28 @@
     "set": "one"
   },
   {
+    "id": 1475498,
+    "name": "Plains",
+    "collector_number": 272,
+    "multiverse_ids": [
+      1475498
+    ],
+    "image_uris": ["https://cards.scryfall.io/normal/front/d/b/db14da86-6721-4e22-9b61-4a5680d4e5a3.jpg?1675023251"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/d/b/db14da86-6721-4e22-9b61-4a5680d4e5a3.png?1675023251"],
+    "layout": "normal",
+    "type_line": "Basic Land — Plains",
+    "oracle_text": "({T}: Add {W}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "W"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
+    "set": "one"
+  },
+  {
     "id": 1478832,
     "name": "Planar Disruption",
     "collector_number": 28,
@@ -3625,7 +3713,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 3.5,
     "set": "one"
   },
   {
@@ -3691,7 +3779,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -3753,7 +3841,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -3797,7 +3885,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "one"
   },
   {
@@ -3864,7 +3952,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -3886,7 +3974,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 0.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -3930,7 +4018,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -4039,7 +4127,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -4084,7 +4172,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -4151,7 +4239,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "one"
   },
   {
@@ -4173,7 +4261,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -4217,7 +4305,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -4283,7 +4371,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -4328,7 +4416,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -4370,7 +4458,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 0,
+    "rating": 0.5,
     "set": "one"
   },
   {
@@ -4390,7 +4478,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "mythic",
-    "rating": 1.5,
+    "rating": 2,
     "set": "one"
   },
   {
@@ -4434,7 +4522,29 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2.5,
+    "rating": 2,
+    "set": "one"
+  },
+  {
+    "id": 1475495,
+    "name": "Swamp",
+    "collector_number": 274,
+    "multiverse_ids": [
+      1475495
+    ],
+    "image_uris": ["https://cards.scryfall.io/normal/front/d/4/d485c620-f1fb-4715-b7c5-d2d56588308d.jpg?1675023253"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/d/4/d485c620-f1fb-4715-b7c5-d2d56588308d.png?1675023253"],
+    "layout": "normal",
+    "type_line": "Basic Land — Swamp",
+    "oracle_text": "({T}: Add {B}.)",
+    "mana_cost": "",
+    "cmc": 0,
+    "colors": [
+      "B"
+    ],
+    "latent_color": "",
+    "rarity": "common",
+    "rating": 0,
     "set": "one"
   },
   {
@@ -4456,7 +4566,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "one"
   },
   {
@@ -4498,7 +4608,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3,
+    "rating": 2.5,
     "set": "one"
   },
   {
@@ -4518,7 +4628,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2.5,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -4563,7 +4673,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2.5,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -4585,7 +4695,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 1.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -4627,7 +4737,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "common",
-    "rating": 2,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -4671,7 +4781,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 0,
     "set": "one"
   },
   {
@@ -4703,8 +4813,8 @@
     "multiverse_ids": [
       1478244
     ],
-    "image_uris": ["https://cards.scryfall.io/normal/front/9/0/905f0dd4-0197-45f8-8e7f-396d6dcef600.jpg?1674772696"],
-    "highres_image_uris": ["https://cards.scryfall.io/png/front/9/0/905f0dd4-0197-45f8-8e7f-396d6dcef600.png?1674772696"],
+    "image_uris": ["https://cards.scryfall.io/normal/front/9/0/905f0dd4-0197-45f8-8e7f-396d6dcef600.jpg?1675699384"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/9/0/905f0dd4-0197-45f8-8e7f-396d6dcef600.png?1675699384"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker",
     "oracle_text": "No more than one creature can attack The Eternal Wanderer each combat.\n+1: Exile up to one target artifact or creature. Return that card to the battlefield under its owner's control at the beginning of that player's next end step.\n0: Create a 2/2 white Samurai creature token with double strike.\n−4: For each player, choose a creature that player controls. Each player sacrifices all creatures they control not chosen this way.",
@@ -4799,7 +4909,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 1,
+    "rating": 0.5,
     "set": "one"
   },
   {
@@ -4819,7 +4929,7 @@
     "colors": [],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 2,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -4971,7 +5081,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 0.5,
+    "rating": 1,
     "set": "one"
   },
   {
@@ -5114,11 +5224,11 @@
     "multiverse_ids": [
       1479288
     ],
-    "image_uris": ["https://cards.scryfall.io/normal/front/1/6/164b07e6-48ba-4789-bd8f-7cada1fec8a9.jpg?1674772805"],
-    "highres_image_uris": ["https://cards.scryfall.io/png/front/1/6/164b07e6-48ba-4789-bd8f-7cada1fec8a9.png?1674772805"],
+    "image_uris": ["https://cards.scryfall.io/normal/front/1/6/164b07e6-48ba-4789-bd8f-7cada1fec8a9.jpg?1675849947"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/1/6/164b07e6-48ba-4789-bd8f-7cada1fec8a9.png?1675849947"],
     "layout": "normal",
     "type_line": "Legendary Artifact Creature — Phyrexian Vedalken",
-    "oracle_text": "Other blue creatures you control have \"Whenever this creature becomes tapped, draw a card, then discard a card.\"\nOther artifact creatures you control get +1/+1.\n{U/P}: Until end of turn, target creature you control becomes a blue artifact in addition to its other colors and types. Activate only as a sorcery. ({U/P} can be paid with either {U} or {2} life.)",
+    "oracle_text": "Other blue creatures you control have \"Whenever this creature becomes tapped, draw a card, then discard a card.\"\nOther artifact creatures you control get +1/+1.\n{U/P}: Until end of turn, target creature you control becomes a blue artifact in addition to its other colors and types. Activate only as a sorcery. ({U/P} can be paid with either {U} or 2 life.)",
     "mana_cost": "{1}{U}{U}",
     "cmc": 3,
     "colors": [
@@ -5236,7 +5346,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 3,
+    "rating": 2.5,
     "set": "one"
   },
   {
@@ -5258,7 +5368,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 2,
+    "rating": 2.5,
     "set": "one"
   },
   {
@@ -5436,7 +5546,7 @@
     ],
     "latent_color": "",
     "rarity": "uncommon",
-    "rating": 3.5,
+    "rating": 3,
     "set": "one"
   },
   {
@@ -5458,7 +5568,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "one"
   },
   {
@@ -5525,7 +5635,7 @@
     ],
     "latent_color": "",
     "rarity": "rare",
-    "rating": 3,
+    "rating": 3.5,
     "set": "one"
   },
   {
@@ -5535,8 +5645,8 @@
     "multiverse_ids": [
       1478240
     ],
-    "image_uris": ["https://cards.scryfall.io/normal/front/f/5/f59f2b07-47ad-4efd-ae8c-1c04b9265024.jpg?1674772876"],
-    "highres_image_uris": ["https://cards.scryfall.io/png/front/f/5/f59f2b07-47ad-4efd-ae8c-1c04b9265024.png?1674772876"],
+    "image_uris": ["https://cards.scryfall.io/normal/front/f/5/f59f2b07-47ad-4efd-ae8c-1c04b9265024.jpg?1675699533"],
+    "highres_image_uris": ["https://cards.scryfall.io/png/front/f/5/f59f2b07-47ad-4efd-ae8c-1c04b9265024.png?1675699533"],
     "layout": "normal",
     "type_line": "Legendary Planeswalker — Vraska",
     "oracle_text": "Compleated ({B/P} can be paid with {B} or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.)\n0: You draw a card and you lose 1 life. Proliferate.\n−2: Target creature becomes a Treasure artifact with \"{T}, Sacrifice this artifact: Add one mana of any color\" and loses all other card types and abilities.\n−9: If target player has fewer than nine poison counters, they get a number of poison counters equal to the difference.",
@@ -5569,7 +5679,7 @@
     ],
     "latent_color": "",
     "rarity": "common",
-    "rating": 1,
+    "rating": 1.5,
     "set": "one"
   },
   {
