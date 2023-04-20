@@ -36,6 +36,7 @@ import snc from './set-snc'
 import dmu from './set-dmu'
 import bro from './set-bro'
 import one from './set-one'
+import mom from './set-mom'
 
 import cube_gnt from './cube-gnt'
 import cube_vintage_2019 from './cube-vintage-2019'
@@ -81,6 +82,7 @@ const sets = {
   dmu,
   bro,
   one,
+  mom,
   '2xm': twoxm,
   cube_gnt,
   cube_vintage_2019,

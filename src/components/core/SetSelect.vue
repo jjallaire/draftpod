@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="mom">
+            March of the Machine
+          </option>
           <option value="one">
             Phyrexia: All Will Be One
           </option>
