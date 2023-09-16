@@ -47,7 +47,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'mom',
+      set_code: 'woe',
       cardpool: CARDPOOL.CUBE + '6/3/1/1',
       format: 'draft',
       number_of_packs: PACKS_THREE,

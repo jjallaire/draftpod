@@ -37,6 +37,7 @@ import dmu from './set-dmu'
 import bro from './set-bro'
 import one from './set-one'
 import mom from './set-mom'
+import woe from './set-woe'
 
 import cube_gnt from './cube-gnt'
 import cube_vintage_2019 from './cube-vintage-2019'
@@ -45,7 +46,7 @@ import cube_vintage_2020 from './cube-vintage-2020'
 import axios from 'axios'
 
 import shortUuid from 'short-uuid'
- 
+
 import { CARDPOOL } from '../../../constants'
 
 const sets = {
@@ -83,6 +84,7 @@ const sets = {
   bro,
   one,
   mom,
+  woe,
   '2xm': twoxm,
   cube_gnt,
   cube_vintage_2019,
@@ -122,7 +124,7 @@ export function cardpool_basics(set_code) {
 }
 
 export function capabilities(set_code) {
-  
+
   let default_capabilities = {
     arena_decklists: true,
     custom_cardpool: true
@@ -136,13 +138,13 @@ export function capabilities(set_code) {
   } else {
     return default_capabilities;
   }
-} 
+}
 
 export function card_id_filter(set_code, id) {
   let filter = sets[set_code].card_id_filter;
   if (filter)
     return filter(id);
-  else 
+  else
     return id;
 }
 

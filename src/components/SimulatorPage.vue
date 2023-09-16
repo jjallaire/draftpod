@@ -26,7 +26,7 @@ export default {
 
   data: function() {
     return {
-      set_code: 'mom',
+      set_code: 'woe',
       number: 100,
       decks: []
     }

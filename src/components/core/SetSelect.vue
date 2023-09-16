@@ -47,6 +47,9 @@ export default {
         class="form-control"
       >
         <optgroup label="Standard">
+          <option value="woe">
+            Wilds of Eldraine
+          </option>
           <option value="mom">
             March of the Machine
           </option>
