@@ -57,7 +57,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "flush-promises": "^1.0.2",
     "geckodriver": "^1.14.1",
-    "nightwatch": "^1.0.19",
+    "nightwatch": "^1.7.13",
     "selenium-server": "^3.141.59",
     "vue-markdown-loader": "^2.4.1",
     "vue-template-compiler": "^2.5.21"
